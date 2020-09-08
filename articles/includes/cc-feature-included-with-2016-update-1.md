@@ -1,0 +1,1 @@
+See funktsioon on toetatud väljaandes Dynamics CRM Online 2016 Update 1. Kas olete sellest funktsioonist huvitatud? [Leidke oma Dynamics 365 administraator või klienditoe esindaja](../basics/find-administrator-support.md)
