@@ -1,0 +1,1 @@
+<span data-ttu-id="878d8-101">Kehtib Project Service'i versioonile 2.4.4.30 või varasemale versioonile rakenduse Dynamics 365 (online) versioonis 9.x</span><span class="sxs-lookup"><span data-stu-id="878d8-101">Applies to Project Service app version 2.4.4.30 or earlier on Dynamics 365 (online) version 9.x</span></span>

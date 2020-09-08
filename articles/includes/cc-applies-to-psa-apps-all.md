@@ -1,0 +1,1 @@
+<span data-ttu-id="391e3-101">Rakendub rakenduse Project Service versioonidele 3.x, 2.x ja 1.x</span><span class="sxs-lookup"><span data-stu-id="391e3-101">Applies to Project Service app versions 3.x, 2.x, and 1.x</span></span>

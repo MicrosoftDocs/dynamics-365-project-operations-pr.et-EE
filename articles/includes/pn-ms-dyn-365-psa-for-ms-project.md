@@ -1,0 +1,1 @@
+<span data-ttu-id="d1bf9-101">Dynamics 365 Project Service Automationi lisandmoodul Microsoft Projecti jaoks</span><span class="sxs-lookup"><span data-stu-id="d1bf9-101">Dynamics 365 Project Service Automation Add-in for Microsoft Project</span></span>

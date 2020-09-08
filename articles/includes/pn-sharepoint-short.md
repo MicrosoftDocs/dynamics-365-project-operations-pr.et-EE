@@ -1,0 +1,1 @@
+<span data-ttu-id="4d262-101">SharePoint</span><span class="sxs-lookup"><span data-stu-id="4d262-101">SharePoint</span></span>

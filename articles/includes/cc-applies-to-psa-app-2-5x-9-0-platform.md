@@ -1,0 +1,1 @@
+<span data-ttu-id="bb191-101">Project Service 2.5.x või hilisem versioon rakenduse Dynamics 365 (online) versioonis 9.x</span><span class="sxs-lookup"><span data-stu-id="bb191-101">Project Service app version 2.5.x or later on Dynamics 365 (online) version 9.x</span></span>
