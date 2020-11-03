@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
 ms.openlocfilehash: 84033182ce047d230724409eef9bc6afcaefd2b4
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3895961"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074852"
 ---
 # <a name="configure-project-categories"></a>Projektikategooriate konfigureerimine
 
@@ -45,7 +45,7 @@ Projekti kategooriad esindavad kategooriate konfigureerimise kõige granuleeritu
 
 1. Avage **Projektihaldus ja raamatupidamine** \> **Seadistus** \> **Kategooriad** \> **Projekti kategooriad**.
 2. Tehke valik **Uus**.
-3. Vaige ühiskasutuses kategooria jaoks **kategooria ID**, mille eelmises jaotises lõite. Project Operations võimaldab ainult nende ühiskasutuses kategooriate kasutamist, mis on tehingu kategooriatega seotud.
+3. Vaige ühiskasutuses kategooria jaoks **kategooria ID** , mille eelmises jaotises lõite. Project Operations võimaldab ainult nende ühiskasutuses kategooriate kasutamist, mis on tehingu kategooriatega seotud.
 4. Valige kategooria rühm.
 
 ## <a name="category-groups"></a>Kategooria rühmad

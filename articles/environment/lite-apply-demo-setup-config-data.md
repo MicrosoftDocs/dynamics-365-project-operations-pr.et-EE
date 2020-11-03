@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 42e02f393e89d20b2a462645f519a3792bee8f2f
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948827"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074821"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Project Operations Lite’i juurutusele – tehing näidisarveldusele demoseadistamise või konfiguratsiooniandmete rakendamine
 
@@ -25,14 +25,14 @@ _**Lite’i juurutamine – tehing näidisarveldusele_
 
 ![Konfiguratsiooni migreerimine](./media/1ConfigurationMigration.png)
 
-4. Valige CMT viisardi lehel 2 **Office 365** **Juurutuse tüübiks**.
+4. Valige CMT viisardi lehel 2 **juurutuse tüübiks** **Microsoft 365**.
 5. Valige märkeruudud **Saadaolevate asutuste loendi kuvamine** ja **Kuva täpsemad**.
 6. Valige oma rentniku piirkond, sisestage oma mandaat ja valige seejärel **Logi sisse**.
 
 ![Konfiguratsioon Sisselogimine](./media/2ConfigurationSignin.png)
 
 7. Valige 3. lehel rentniku organisatsioonide loendist organisatsioon, kuhu soovite demo andmed importida ja valige seejärel **Logi sisse**.
-8. Valige lahtipakitud kaustast leheküljel 4 zip fail *MasterAndSetupData*, *ProjOpsDemoDataSetupAndMaster – integreeritud CMT*.
+8. Valige lahtipakitud kaustast leheküljel 4 zip fail *MasterAndSetupData* , *ProjOpsDemoDataSetupAndMaster – integreeritud CMT*.
 
 ![Zip-fail](./media/3ZipFile.png)
 

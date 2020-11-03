@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d09a0dd8234641ca106c37a38d1d721dfb07236c
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 1a69cf51ca8cde8260f4136cf1b2e936f99b112a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898661"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075182"
 ---
 # <a name="project-price-lists"></a>Projekti hinnakirjad
 
@@ -35,16 +34,16 @@ Dynamics 365 Project Operations laiendab olemit Hinnakiri rakenduses Dynamics 36
 
 Hinnakiri sisaldab teavet, mida pakuvad neli erinevat olemit.
 
-- **Hinnakiri**: see olem talletab hinnakirja arvestamisel teavet konteksti, valuuta, kuupäeva jõustumise ja ajaühikute kohta. Kontekst näitab, kas hinnakiri väljendab kulumäära või müügihindu. 
-- **Valuuta**: see olem talletab hinnakirja hindade valuuta. 
-- **Kuupäev**: seda olemit kasutatakse juhul, kui süsteem proovib sisestada tehingu hinna vaikeväärtuse. Hinnakiri, millel on jõustumiskuupäev, mis hõlmab tehingu valimise kuupäeva. Kui leitakse rohkem kui ühe hinnakiri, mis on tehingu kuupäeval kehtiv ja mis on lisatud sellega seotud hinnapakkumisele, lepingule või organisatsiooniüksusele, siis hinda ei muudeta. 
-- **Aeg**: see olem talletab ajaühiku, mille jooksul hinnad on väljendatud (nt päeva- või tunnitasu). 
+- **Hinnakiri** : see olem talletab hinnakirja arvestamisel teavet konteksti, valuuta, kuupäeva jõustumise ja ajaühikute kohta. Kontekst näitab, kas hinnakiri väljendab kulumäära või müügihindu. 
+- **Valuuta** : see olem talletab hinnakirja hindade valuuta. 
+- **Kuupäev** : seda olemit kasutatakse juhul, kui süsteem proovib sisestada tehingu hinna vaikeväärtuse. Hinnakiri, millel on jõustumiskuupäev, mis hõlmab tehingu valimise kuupäeva. Kui leitakse rohkem kui ühe hinnakiri, mis on tehingu kuupäeval kehtiv ja mis on lisatud sellega seotud hinnapakkumisele, lepingule või organisatsiooniüksusele, siis hinda ei muudeta. 
+- **Aeg** : see olem talletab ajaühiku, mille jooksul hinnad on väljendatud (nt päeva- või tunnitasu). 
 
 Hinnakirja olemil on kolm seostuvat tabelit, mis talletavad hindu.
 
-  - **Rolli hind**: see tabel talletab rolli ja organisatsiooni üksuse väärtuste kombinatsiooni määra ning seda kasutatakse inimressursside rollipõhiste hindade seadmiseks.
-  - **Tehingukategooria hind**: see tabel talletab hinnad tehingukategooriate kaupa ja seda kasutatakse kulukategooriate hindade seadistamiseks.
-  - **Hinnakirja üksused**: see tabel talletab kataloogis olevate toodete hindu.
+  - **Rolli hind** : see tabel talletab rolli ja organisatsiooni üksuse väärtuste kombinatsiooni määra ning seda kasutatakse inimressursside rollipõhiste hindade seadmiseks.
+  - **Tehingukategooria hind** : see tabel talletab hinnad tehingukategooriate kaupa ja seda kasutatakse kulukategooriate hindade seadistamiseks.
+  - **Hinnakirja üksused** : see tabel talletab kataloogis olevate toodete hindu.
  
 Hinnakiri on hinnakaart. Hinnakaart on kombinatsioon hinnakirja olemist ja seotud ridadest, mis on tabelites rolli hind, tehingukategooria hind ja hinnakirja üksused.
 
@@ -54,15 +53,15 @@ Mõiste *ressursiroll* viitab oskustele, pädevustele ja tõenditele, mida peab 
 
 Inimressursside aeg on noteeritud vastavalt rollile, mille ressurss täidab kindla projektiga. Inimressursside aeg, kuluarvutust ja arveldamine põhinevad ressursirollil. Aja saab arvestada mis tahes ühikus ühikurühmas **Aeg**.
 
-Ühikurühm **Aeg** luuakse, kui installite rakenduse Project Operations. Sel on vaikeühik **Tund**. Ühikurühma **Aeg** või ühiku **Tund** atribuute ei saa kustutada, ümber nimetada ega redigeerida. Soovi korral saate aga ühikurühma **Aeg** lisada ka muid ühikuid. Kui proovite kustutada kas ühikurühma **Aeg** või ühiku **Tund**, võite äriloogikas tõrkeid põhjustada.
+Ühikurühm **Aeg** luuakse, kui installite rakenduse Project Operations. Sel on vaikeühik **Tund**. Ühikurühma **Aeg** või ühiku **Tund** atribuute ei saa kustutada, ümber nimetada ega redigeerida. Soovi korral saate aga ühikurühma **Aeg** lisada ka muid ühikuid. Kui proovite kustutada kas ühikurühma **Aeg** või ühiku **Tund** , võite äriloogikas tõrkeid põhjustada.
  
 ## <a name="transaction-categories-and-expense-categories"></a>Tehingukategooriad ja kulukategooriad
 
 Reisikulud ja muud kulud, mis projektikonsultandid kannavad, arvestatakse kliendile. Kulukategooriate hinnakujundus viiakse lõpule kasutades hinnakirju. Lennupiletid, hotell ja autorent on näited kulukategooriate kohta. Iga hinnakirja rida kulude jaoks määrab kindla kulukategooria hinna. Kulukategooriate hinnakujunduseks kasutatakse järgmist kolme meetodit.
 
-- **Omahinnaga**: kulu arvestatakse kliendile ja juurdehindlust ei rakendata.
-- **Juurdehindluse protsent**: tegeliku kulu protsent on kliendile arvestatud. 
-- **Ühiku hind**: iga kulukategooria ühiku kohta määratakse arve hind. Kliendile arvestatud summa arvutatakse vastavalt konsultandi aruannete ühikute arvule. Läbisõit kasutab hinna ja ühiku hinna hinnakujundusmeetodit. Näiteks läbisõidu kulukategooria saab konfigureerida 30 USA dollari eest (USD) päevas või 2 USD miili kohta. Kui konsultant teatab projektis läbisõidu, arvutatakse arve summa konsultandi teatatud miilide arvu põhjal.
+- **Omahinnaga** : kulu arvestatakse kliendile ja juurdehindlust ei rakendata.
+- **Juurdehindluse protsent** : tegeliku kulu protsent on kliendile arvestatud. 
+- **Ühiku hind** : iga kulukategooria ühiku kohta määratakse arve hind. Kliendile arvestatud summa arvutatakse vastavalt konsultandi aruannete ühikute arvule. Läbisõit kasutab hinna ja ühiku hinna hinnakujundusmeetodit. Näiteks läbisõidu kulukategooria saab konfigureerida 30 USA dollari eest (USD) päevas või 2 USD miili kohta. Kui konsultant teatab projektis läbisõidu, arvutatakse arve summa konsultandi teatatud miilide arvu põhjal.
  
 ## <a name="project-sales-pricing-and-overrides"></a>Projekti müügihind ja alistamine
 

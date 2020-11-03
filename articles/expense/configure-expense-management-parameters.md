@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: 8ecbd0abc16d0a29eea47d6bd1653a204a83de4c
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897266"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074838"
 ---
 # <a name="configure-expense-management-parameters"></a>Kuluhalduse parameetrite konfigureerimine
 
@@ -26,7 +26,7 @@ Selles teemas kirjeldatakse kuluhalduse üldist käitumist juhtivaid parameetrei
 | Väli                                                    | Kirjeldus |
 |----------------------------------------------------------|-------------|
 | Läbisõidu tavamäär                                 | Sisestage läbisõidu kulude hüvitamise määr. See määr korrutatakse läbisõidua, mis sisestatakse kulu jaoks, et arvutada summa, mis sõidukulude eest tagastatakse. |
-| Kulu eesmärgi valideerimine                                 | Lülitage see valik sisse, et piirata kasutajad olemasolevate väärtuste kogumiga, mis on konfigureeritud väljal **Kuluaruande eesmärk**, kui nad loovad kuluaruandeid. |
+| Kulu eesmärgi valideerimine                                 | Lülitage see valik sisse, et piirata kasutajad olemasolevate väärtuste kogumiga, mis on konfigureeritud väljal **Kuluaruande eesmärk** , kui nad loovad kuluaruandeid. |
 | Isiklike kulude maksja                                | Valige, kes vastutab kõikide isiklikuks liigitatud krediitkaardimaksete summade tasumise eest. |
 | Uurimises kogu kuluaruande kuvamine               | Valige see suvand, et kuvada kuluaruande kõik kulud, kui algse dokumendi üksikasju vaadatakse konkreetse vautšeri jaoks, mis loodi kuluaruande postitamise ajal. |
 | Reisimise eelnev lubamine on kohustuslik                 | Valige see suvand, kui soovite nõuda, et enne kui töötaja saab esitada kuluaruande, peab olema esitatud ja kinnitatud reisitellimus. |
@@ -36,7 +36,7 @@ Selles teemas kirjeldatakse kuluhalduse üldist käitumist juhtivaid parameetrei
 | Luba krediitkaardi kulude vahetuskurssi muuta | Valige see suvand, kui soovite lubada kasutajal redigeerida imporditud krediitkaardiga seotud kulude vahetuskurssi. |
 | Mitmetasandilised hierarha väljad kuvamiseks                  | Valige, millised kinnitaja väljad kuvatakse, kui töövoo määramise tüüp on seatud hierarhiaks ja valik **Hierarhia** on määratud kasutama kinnitamise hierarhiat, kulu mitmetasandilist kinnitamist. Kui töövoo jaoks kasutatakse mitmetasandilise kinnitamise hierarhiat, kuvatakse kuluaruandes valitud väljad ja neid saab redigeerida. |
 | Töötaja krediitkaardi sisestamine                        | Valige, kas 15-kohalise või 16-kohalise numbri saab sisestada ja salvestada töötaja lehe **Krediitkaardid** väljale **Kaardi ID**. |
-| Reisitellimuse eesmärgi kinnitamine                      | Lülitage see valik sisse, et piirata kasutajad olemasolevate väärtuste kogumiga, mis on konfigureeritud väljal **Kuluaruande eesmärk**, kui nad loovad reisitellimusi. |
+| Reisitellimuse eesmärgi kinnitamine                      | Lülitage see valik sisse, et piirata kasutajad olemasolevate väärtuste kogumiga, mis on konfigureeritud väljal **Kuluaruande eesmärk** , kui nad loovad reisitellimusi. |
 
 ## <a name="financial"></a>Rahandustegevus
 

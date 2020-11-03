@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d99ab4c7b2ebf6ba56b86a3e0151036c6247e484
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948830"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074829"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Project Operationsi konfiguratsiooniandmete seadistamine rakendamine rakenduses Common Data Service
 
@@ -27,7 +27,7 @@ _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
 ![Konfiguratsiooni migreerimine](./media/1ConfigurationMigration.png)
 
-4. Valige CMT viisardi lehel 2 **Office 365** **Juurutuse tüübiks**.
+4. Valige CMT viisardi lehel 2 **juurutuse tüübiks** **Microsoft 365**.
 5. Valige märkeruudud **Saadaolevate asutuste loendi kuvamine** ja **Kuva täpsemad**.
 6. Valige oma rentniku piirkond, sisestage oma mandaat ja valige **Logi sisse**.
 
@@ -114,10 +114,10 @@ _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
  
 12. Värskendage järgmised väljad.
 
- - **Vaikeettevõte**: USPM
- - **Vaike-organisatsiooniüksus**: Contoso Robotics Global
- - **Arve sagedus**: seitsmes ja viimane päev
- - **Tööaja mall**: muutke loodud malliks.
+ - **Vaikeettevõte** : USPM
+ - **Vaike-organisatsiooniüksus** : Contoso Robotics Global
+ - **Arve sagedus** : seitsmes ja viimane päev
+ - **Tööaja mall** : muutke loodud malliks.
 
 13. Valige **Salvesta**. 
 

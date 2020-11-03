@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3570aeb78804e9b267caa55a27e02d6c8df9a5c6
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 504aa90bfb478207059b5e2894a3990f9a4a5e9e
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898166"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075024"
 ---
 # <a name="product-price-lists"></a>Toote hinnakirjad
 
@@ -43,11 +42,11 @@ Tooteid saate tootekataloogist lisada erinevatesse hinnakirjadesse. Toodete hinn
 
 PSA toetab mitmesuguseid ümardamise võimalusi, kui hinnad on konfigureeritud loendi hinna, standardkulu või praeguse kulu funktsioonina. Lisaks mitme hinna meetodi ja ümardamise suvandi kasutamisele saate allahindluse loendeid seostada hinnakirja üksustega. 
 
-Kui loote hinnapakkumise jaoks uue kohandatud hinnakirja, valides lehel **Projekti hinnapakkumine** valiku **Kohandatud hinnakiri**, tehakse hinnakirjast koopia ning uue hinnakirja päise välja **olem** väärtuseks seatakse **Müügiolem**. Uue hinnakirja nimi lisatakse hinnapakkumise nimele ja ajatemplile. Samuti saate kasutada uue hinnakirja nime ja hinnapakkumise nime kohandatud töövoogudes, et käivitada kohandatud hinnakujundust kasutavatele hinnapakkumistele täiendavat ülevaadet ja kinnitusi.
+Kui loote hinnapakkumise jaoks uue kohandatud hinnakirja, valides lehel **Projekti hinnapakkumine** valiku **Kohandatud hinnakiri** , tehakse hinnakirjast koopia ning uue hinnakirja päise välja **olem** väärtuseks seatakse **Müügiolem**. Uue hinnakirja nimi lisatakse hinnapakkumise nimele ja ajatemplile. Samuti saate kasutada uue hinnakirja nime ja hinnapakkumise nime kohandatud töövoogudes, et käivitada kohandatud hinnakujundust kasutavatele hinnapakkumistele täiendavat ülevaadet ja kinnitusi.
 
  
 ## <a name="default-product-price-list"></a>Toote vaikehinnakiri
-Igal kliendi kirjel on väli **Vaikehinnakiri**, kus saate määrata hinnakirja, mis vastab kliendi valuutale. Sellele väljale ei sisestata automaatselt vaikeväärtust. Kui konkreetse kliendiga on olemas kohandatud hinnakujunduse leping, saate seda välja kasutada hinnakirja seostamiseks selle kliendiga.
+Igal kliendi kirjel on väli **Vaikehinnakiri** , kus saate määrata hinnakirja, mis vastab kliendi valuutale. Sellele väljale ei sisestata automaatselt vaikeväärtust. Kui konkreetse kliendiga on olemas kohandatud hinnakujunduse leping, saate seda välja kasutada hinnakirja seostamiseks selle kliendiga.
 
 Müügivõimaluse, hinnapakkumise ja projekti lepingu olemid kasutavad vaikimisi toodete hinnakirja sisestamiseks järgmist tellimust. Sama tellimust kasutatakse projekti hinnakirja jaoks.
 

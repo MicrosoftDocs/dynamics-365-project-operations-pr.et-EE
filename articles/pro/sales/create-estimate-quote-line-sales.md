@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966767"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074860"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Projektipõhise hinnapakkumise rea prognoosimine
 
@@ -50,11 +50,11 @@ Hinnapakkumise rea üksikasjade loomiseks valige **+ Uus hinnapakkumise rea üks
 
 ## <a name="update-prices-on-quote-line-details"></a>Hinnapakkumise rea üksikasjade hindade värskendamine
 
-Kui muutsite hinnapakkumisele lisatud projekti hinnakirjas või lepinguüksuse omahinna hinnakirjus hindu, saate valida suvandi **Arvuta uuesti** lehel **Hinnapakkumine**, et värskendada selle muudatuse kajastamiseks üksiku hinnapakkumise rea üksikasjade hindu. Kui valite suvandi **Arvuta ümber**, siis kuvatakse hoiatus, mis teatab, et kõigi selle hinnapakkumise ridade hinnapakkumise rea üksikasjade hinnad lähtestatakse. Valige **Jah**, et värskendada hindu nii müügi kui ka hinnapakkumise rea üksikasjade jaoks.
+Kui muutsite hinnapakkumisele lisatud projekti hinnakirjas või lepinguüksuse omahinna hinnakirjus hindu, saate valida suvandi **Arvuta uuesti** lehel **Hinnapakkumine** , et värskendada selle muudatuse kajastamiseks üksiku hinnapakkumise rea üksikasjade hindu. Kui valite suvandi **Arvuta ümber** , siis kuvatakse hoiatus, mis teatab, et kõigi selle hinnapakkumise ridade hinnapakkumise rea üksikasjade hinnad lähtestatakse. Valige **Jah** , et värskendada hindu nii müügi kui ka hinnapakkumise rea üksikasjade jaoks.
 
 ## <a name="access-quote-line-details-for-cost"></a>Juurdepääs kulu hinnapakkumise rea üksikasjadele
 
-Valige vahekaardil **Hinnapakkumise rea üksikasjad** ruudustikus rida, et lubada alamruudustiku tööriistaribal mõned toimingud. Alamruudustiku tööriistariba esimene toiming, kui valitud hinnapakkumise rea üksikasi on **Ava kulu üksikasi**. Valige **Ava kulu üksikasi**, et näha selle hinnapakkumise reaga seostuvat kulumäära ja summat.
+Valige vahekaardil **Hinnapakkumise rea üksikasjad** ruudustikus rida, et lubada alamruudustiku tööriistaribal mõned toimingud. Alamruudustiku tööriistariba esimene toiming, kui valitud hinnapakkumise rea üksikasi on **Ava kulu üksikasi**. Valige **Ava kulu üksikasi** , et näha selle hinnapakkumise reaga seostuvat kulumäära ja summat.
 
 > [!NOTE]
 > Kulu hinnapakkumise rea üksikasja ressursi üksuse, koguse, kuupäevade, rolli või kategooria väärtuste muutmine muudab vastavaid väärtuseid müügi hinnapakkumise rea üksiaksjades.

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 37994422e9146765076fdbb77f5c763b4f1d0802
-ms.sourcegitcommit: 2cf93d8bf0be5b61a739195a41334c34d910e9ba
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961161"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074816"
 ---
 # <a name="approvals-overview"></a>Kinnituste ülevaade
 
@@ -27,7 +27,7 @@ Kui te loote ja esitate aja- või kulukirje, luuakse kinnitamise kirje. Projekti
 ## <a name="approve-an-entry"></a>Kirje kinnitamine
 Vorm **Kinnitamised** võimaldab teil vahetada erinevate vaadete vahel, et saaksite vaadata erinevat tüüpi kinnitusi.
   
-1. Avage vorm **Kinnitused** ja valige suvand **Kulud**, **Aeg** või **Tagasikutsumised**.
+1. Avage vorm **Kinnitused** ja valige suvand **Kulud** , **Aeg** või **Tagasikutsumised**.
 2. Vaadake kõik kinnitamised läbi ja valige need, mida soovite kinnitada.
 3. Valitud kirjete kinnitamiseks valige **Kinnita**.
 Süsteem töötleb neid kirjeid ja loob tegelikud näitajad või broneeringu.

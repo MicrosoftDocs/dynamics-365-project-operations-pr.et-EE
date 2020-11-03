@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: 7d1c4ac7781cb711e2cc0d09606d422b4dd554f3
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908058"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074830"
 ---
 # <a name="per-diems"></a>Päevarahad
 
@@ -30,4 +30,4 @@ Päevaraha on hüvitis, mida makstakse töötajale, kes töö tõttu reisib. Kul
 4. Hommikusöögi, lõunasöögi või õhtusöögi jaoks söögikorra protsentuaalse vähendamise määramiseks värskendage lehe **Kuluhalduse parameetrid** vahekaardi **Päevarahad** välju. 
     
 ## <a name="submit-expenses-using-per-diem"></a>Kulude esitamine päevarahade abil
-Päevarahade kasutamiseks kulude esitamiseks kasutage kuluaruande loomisel kulukategooriat **Päevarahad**. Sisestage **Päevarahad alates kuupäevast**, **Päevarahad kuupäevani** ja **Päevarahade sihtkoht**. Summa arvutatakse vastavalt päevarahade määradele valitud asukoha jaoks ja eine vähendamine arvutatakse päevaraha määrade tasemete põhjal.
+Päevarahade kasutamiseks kulude esitamiseks kasutage kuluaruande loomisel kulukategooriat **Päevarahad**. Sisestage **Päevarahad alates kuupäevast** , **Päevarahad kuupäevani** ja **Päevarahade sihtkoht**. Summa arvutatakse vastavalt päevarahade määradele valitud asukoha jaoks ja eine vähendamine arvutatakse päevaraha määrade tasemete põhjal.

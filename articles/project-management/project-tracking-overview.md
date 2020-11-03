@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: c998addbbdbbea8fe69c95f65e58a24146f394c8
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907358"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074807"
 ---
 # <a name="project-tracking-overview"></a>Projekti jälgimise ülevaade
 
@@ -25,10 +25,10 @@ Vajadus edenemise jälgimiseks ajakava suhtes sõltub majandusharust. Mõned maj
 
 **Panuse jälgimise** vaates jälgitakse tööülesannete edenemist ajakavas, võrreldes ülesandele kulunud tegelike tööpanuse tunde planeeritud tööpanuse tundidega. Dynamics 365 Project Operations kasutab jälgimismõõdikute arvutamiseks järgmisi valemeid.
 
-- **Edenemisprotsent**: seni tehtud tegelik panus ÷ hinnang lõpetamisel (EAC) 
-- **Lõpetamise prognoos (ETC)**: plaanitud panus – seni tehtud tegelik panus 
-- **EAC**: ülejäänud panus + seni tehtud tegelik panus 
-- **Eeldatav panuse hälve**: plaanitud panus – EAC
+- **Edenemisprotsent** : seni tehtud tegelik panus ÷ hinnang lõpetamisel (EAC) 
+- **Lõpetamise prognoos (ETC)** : plaanitud panus – seni tehtud tegelik panus 
+- **EAC** : ülejäänud panus + seni tehtud tegelik panus 
+- **Eeldatav panuse hälve** : plaanitud panus – EAC
 
 Project Operations näitab ülesande eeldatavat panuse hälvet. Kui EAC on plaanitud panusest suurem, siis eeldatakse, et ülesanne võtab algselt plaanitust rohkem aega ja on graafikust maas. Kui EAC on plaanitud panusest väiksem, siis eeldatakse, et ülesanne võtab algselt plaanitust vähem aega ja on graafikust ees.
 
@@ -60,10 +60,10 @@ Vaates **Kulude jälgimine** võrreldakse ülesandele kulutatud tegelikku kulu �
 > [!NOTE]
 > See vaade kuvab ainult tööjõukulud ja ei sisalda kuluhinnangute kulusid. Project Operations kasutab jälgimismõõdikute arvutamiseks järgmisi valemeid.
 
-- **Tarbitud kulu protsent**: senini kulutatud tegelik kulu ÷ lõpetamisel prognoositud kulu
-- **Lõpetamise kulu (CTC)**: plaanitud kulu – seni kulutatud tegelik kulu
-- **EAC**: järelejäänud kulu + seni kulutatud tegelik kulu
-- **Eeldatav kuluhälve**: plaanitud kulu – EAC
+- **Tarbitud kulu protsent** : senini kulutatud tegelik kulu ÷ lõpetamisel prognoositud kulu
+- **Lõpetamise kulu (CTC)** : plaanitud kulu – seni kulutatud tegelik kulu
+- **EAC** : järelejäänud kulu + seni kulutatud tegelik kulu
+- **Eeldatav kuluhälve** : plaanitud kulu – EAC
 
 Ülesandes on kuvatud kuluhälbe projektsioon. Kui EAC on plaanitud kulust suurem, siis eeldatakse, et ülesanne on algselt plaanitust kulukam. Seega on suundumuseks eelarve ületamine. Kui EAC on plaanitud kulust väiksem, siis eeldatakse, et ülesanne on algselt plaanitust odavam. Seega on suundumuseks eelarve ülejääk.
 

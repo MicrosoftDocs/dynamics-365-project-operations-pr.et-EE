@@ -3,17 +3,17 @@ title: Project Operationsi registreerumine eelvaate kordustellimusele ressurssid
 description: Selles teemas antakse teavet Project Operationsi tellimise ja juurutamise kohta ressursi-/mitte laosolevate stsenaariumite jaoks.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4d35a8bf9e8a841b45808b26ae2587c5b7d99d72
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 7a03f021b1ae0a87dfc947976b8a16c8246e1684
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948832"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074842"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Project Operationsi registreerumine eelvaate kordustellimusele ressursside/mitte laosolevate stsenaariumite jaoks
 
@@ -29,48 +29,53 @@ Selles teemas selgitatakse, kuidas tellida eelvaadet/partneri pakkumist ja juuru
 
 ## <a name="subscribe"></a>Telli
 
-Kui teie [eelvaate taotlus](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) kinnitatakse, saadab Microsoft teile maili teel kaks pakkumist. Need pakkumised võimaldavad teil juurutada Project Operationsi eelvaate.
+Kui teie [eelvaate taotlus](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) kinnitatakse, saadab Microsoft teile maili teel kolm pakkumist. Need pakkumised võimaldavad teil juurutada Project Operationsi eelvaate.
 
-- Dynamics 365 Project Operations - Eelversiooni prooviversioon
-- Dynamics 365 for Finance and Operationsi eelversiooni prooviversioon.
+- Dynamics 365 Project Operations (CRM) – eelvaate prooviversioon
+- Office 365 Project Operations –eelvaate prooviversioon
+- Dynamics 365 Finance - eelversiooni prooviversioon
 
 > [!IMPORTANT]
 > Selle toimingu peab organisatsioonis tegema ainult üks inimene, rentniku administraator. Kui te pole selle väljalaske tellija, oodake, kuni teie organisatsioon on registreeritud ja teile on saadetud kasutaja mandaat.
 
-### <a name="dynamics-365-project-operations--preview-trial"></a>Dynamics 365 Project Operations - Eelversiooni prooviversioon
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – eelvaate prooviversioon 
 
-1. Lunastage esimene pakkumine, **Dynamics 365 Project Operationsi prooviversioon**, mille URL on antud teie tervitusmeilis.
+Enne alustamist veenduge, et oleksite brauseris sisse logitud kasutaja töökontoga rentnikusse, kus soovite Project Operationsi eelvaadet näha.
 
-![Esimene pakkumine](./media/1FirstOffer.png)
+1. Lunastage esimene pakkumise kood, **Dynamics 365 Project Operations (CRM) – eelvaate prooviversioon** , kleepides selle brauseri URL-i.
 
-2. Veenduge, et olete sisse logitud kasutajana, kes kuulub organisatsiooni, kes teenust tellib.
-3. Jätkake pakkumise lunastamisega. 
-4. Valige **Jah, lisage see minu kontole**.
+![Lunasta pakkumine](./media/16RedeemFirstOfferNew.png)
 
-![Lunasta pakkumine](./media/2RedeemFirstOffer.png)
+2. Kinnitage oma tellimus.
 
-![Kinnita pakkumine](./media/3ConfirmFirstOffer.png)
+![Tellimuse kinnitamine](./media/17ConfirmOrderNew.png)
 
-![Pakkumine lunastatud](./media/4OfferSuccessfulyRedeemed.png)
+Näete, et kinnituse pakkumine on edukalt lunastatud.
+
+![Kinnitus](./media/18OrderConfirmationNew.png)
+
+### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations –eelvaate prooviversioon
+
+Korrake samu toiminguid nagu esimese pakkumise koodiga. Lisage kindlasti teine pakkumise kood sama kasutajakontoga, mida kasutati esimese pakkumise koodiga.
 
 ### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance'i eelversiooni prooviversioon
 
-Korrake samu samme tervitusmeili teise pakkumisega.
+Korrake samu samme tervitusmeili viimase pakkumisega.
 
 ## <a name="assign-licenses"></a>Litsentside määramine
 
 > [!IMPORTANT]
-> Järgmiste toimingute lõpuleviimiseks on teil vaja oma organisatsiooni Office 365 portaali administraatori juurdepääsu.
+> Järgmiste toimingute lõpuleviimiseks on teil vaja oma organisatsiooni Microsoft 365 portaali administraatori juurdepääsu.
 
 1. Oma kasutajatele litsentside määramiseks avage [Microsofti 365 halduskeskus](https://portal.office.com/).
 
-![Office'i haldusportaal](./media/5OfficeAdminPortal.png)
+![Halduskeskuse avaleht](./media/14AdminPortal.png)
 
 2. Valige lehel **Aktiivsed kasutajad** need kasutajad, kellele soovite litsentsi määrata.
 
-![Litsentside määramine](./media/6AssignLicenses.png)
+![Litsentside määramine](./media/15AssignLicenses.png)
 
-3. Kontrollige, kas Project Oprationsi litsents on valitud ja valige **Salvesta muudatused**. 
+3. Veenduge, et **Dynamics 365 Project Operationsi (CRM) eelversiooni** ja **Office 365 Project Operations - eelversiooni** litsents on valitud ja valige **Salvesta muudatused**.
 
 > [!NOTE]
 > Finance'i prooviversiooni pakkumist ei pea kasutajale määrama.
@@ -85,9 +90,9 @@ Selle toimingu lõpuleviimiseks järgige juhiseid teemas [Azure'i tellimuse lisa
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Finance'i demokeskkonna juurutamine Project Operationsiga ressursi/mitte laosoleva stsenaariumide jaoks
 
-Juurutuse lõpuleviimiseks järgige juhiseid teemas [Uue keskkonna ettevalmistamine](resource-provision-new-environment.md). Kasutage eelversiooni korral [demokeskkonna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) juurutuse tüüpi.
+Juurutuse lõpuleviimiseks järgige juhiseid teemas [Uue keskkonna ettevalmistamine](resource-provision-new-environment.md). Kasutage eelversiooni korral [demokeskkonna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) juurutuse tüüpi. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>CDS-i seadistuse ja konfiguratsiooniandmete installimine
 
 Installige teemas kirjeldatud CDS-i seadistuse ja konfiguratsiooni andmed, [Seadistage ja rakendage konfiguratsiooni andmeid rakenduses Common Data Service](resource-apply-pro-setup-config-data.md).
-
+Läbige see etapp alles pärast Finance'i demokeskkonna juurutamist ja kui demoandmed FO-s on valmis.

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: a10be42f4ae1ecc8ae5613ed8fdc669304e0ec72
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898616"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074814"
 ---
 # <a name="manage-leads"></a>Müügivihjete haldamine
 
@@ -41,7 +41,7 @@ Järgmine tabel sisaldab müügivihje jaoks olulist väljateavet ja nende välja
 | **Väli** | **Asukoht** | **Asjakohasus, eesmärk ja juhised** | **Allavoolu mõjud** |
 | --- | --- | --- | --- |
 | Teema | Vahekaart Üldine | See tekstiväli peaks sisaldama tehingu lühikirjeldust. | Müügivihje teema kuvatakse vaikimisi müügivõimaluse teemana ning hinnapakkumise ja projektilepingu nimena. |
-| Tüüp | Vahekaart Üldine | Sellel suvandikomplekti väljal on järgmised suvandid.</br>- Tööpõhine (saadaval ainult juhul, kui Project Operations on installitud)</br>- Kaubapõhine (saadaval ainult juhul, kui Project Operations ja Sales on installitud)</br>- Hoolduspõhine teenindus (saadaval juhul, kui Field Service on installitud) | Kui müügivihjel on selle välja väärtuseks on seatud **Tööpõhine**, on müügivihje kvalifitseeritud projektipõhist müügivõimalust looma. Projektipõhine müügivõimalus on vajalik, et lubada kõik projektiga seotud laiendused ja funktsioonid selle tehingu allavoolu müügiprotsesside jaoks. |
+| Tüüp | Vahekaart Üldine | Sellel suvandikomplekti väljal on järgmised suvandid.</br>- Tööpõhine (saadaval ainult juhul, kui Project Operations on installitud)</br>- Kaubapõhine (saadaval ainult juhul, kui Project Operations ja Sales on installitud)</br>- Hoolduspõhine teenindus (saadaval juhul, kui Field Service on installitud) | Kui müügivihjel on selle välja väärtuseks on seatud **Tööpõhine** , on müügivihje kvalifitseeritud projektipõhist müügivõimalust looma. Projektipõhine müügivõimalus on vajalik, et lubada kõik projektiga seotud laiendused ja funktsioonid selle tehingu allavoolu müügiprotsesside jaoks. |
 | Eesnimi | Vahekaart Üldine | Potentsiaalse kliendi kontaktisiku eesnimi | Kui müügivihje on kvalifitseeritud, luuakse konto, kontaktisik ja müügivõimalus. Kontakti eesnimi on siin määratud väärtus. |
 | Perekonnanimi | Vahekaart Üldine | Potentsiaalse kliendi kontaktisiku perekonnanimi | Kui müügivihje on kvalifitseeritud, luuakse konto, kontaktisik ja müügivõimalus. Kontakti perekonnanime väärtus määrake siin. |
 | Ettevõte | Vahekaart Üldine | Potentsiaalse kliendi ettevõtte nimi | Kui müügivihje on kvalifitseeritud, luuakse konto, kontaktisik ja müügivõimalus. Siin loodud konto väärtuse komplekti nimi. |
@@ -49,11 +49,11 @@ Järgmine tabel sisaldab müügivihje jaoks olulist väljateavet ja nende välja
 
 ## <a name="qualify-a-new-project-based-lead"></a>Uue projektipõhise müügivihje kvalifitseerimine
 
-Müügivihjeid, mille väärtus **Tüüp** on seadistatud olekusse **Tööpõhine**, nimetatakse projektipõhisteks müügivihjeteks. Projektipõhise müügivihje kvalifitseerimisel luuakse järgnev.
+Müügivihjeid, mille väärtus **Tüüp** on seadistatud olekusse **Tööpõhine** , nimetatakse projektipõhisteks müügivihjeteks. Projektipõhise müügivihje kvalifitseerimisel luuakse järgnev.
 
 - Konto, mis kasutab müügivihje välja **Ettevõte**.
 - Kontoga seotud kontaktikirjet, mis põhineb müügivihje väljade **Eesnimi** ja **Perekonnanimi** väärtustel.
-- Projektipõhine müügivõimalus, mille välja **Tüüp** väärtuseks on määratud &quot;**Tööl põhinev**.
+- Projektipõhine müügivõimalus, mille välja **Tüüp** väärtuseks on määratud **Tööl põhinev**.
 
 Täpsemat teavet müügivihjete kvalifitseerimise kohta leiate teemast [Müügivihjete kvalifitseerimine või teisendamine](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 

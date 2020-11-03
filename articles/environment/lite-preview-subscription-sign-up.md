@@ -3,17 +3,17 @@ title: Eelversiooni kordustellimuseks registreerumine
 description: See teema pakub teavet selle kohta, kuidas tellida ja juurutada Project Operations Lite’i juurutust – tehing näidisarveldusele.
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a9c1432e8971eeb7918e23e00be9989294335f49
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948829"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074819"
 ---
 # <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>Registreeruge Lite’i juurutuse – tehing näidisarveldusele eelversiooni tellimuse jaoks
 
@@ -26,84 +26,42 @@ See teema selgitab, kuidas tellida eelversiooni partneri pakkumisele ja juurutad
 
 - Teile saadetakse meil, mis kutsub teid eelvaates osalema. Eelvaadet saate taotleda [Project Operationsi veebisaidilt](https://dynamics.microsoft.com/en-us/project-operations/overview/).
 - Kasutajal, kes eelvaate juurutab, peab olema Azure'i rentniku globaalse administraatori õigused.
-- Eelversiooni juurutav kasutaja vajab telefoninumbrit ja kehtivat krediitkaarti. Registreerudes ei võeta kaardilt kuue kuu jooksul midagi maha. Pärast kuut kuud peate tellimuse tühistama. 
 - Vaadake üle kõik tingimused.
 
 ## <a name="subscribe"></a>Telli
 
 Kui saate [eelvaate taotluse](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) kinnituse, saadab Microsoft teile maili teel kaks pakkumist. Need pakkumised võimaldavad teil juurutada Project Operationsi eelvaate.
 
-- Dynamics 365 Customer Service’i eelversiooni prooviversioon – üks kasutuskood
-- Dynamics 365 Project Operations – eelversiooni prooviversioon
+- Dynamics 365 Project Operations (CRM) – eelvaate prooviversioon
+- Office 365 Project Operations –eelvaate prooviversioon
 
-### <a name="dynamics-365-customer-service-paid-offer"></a>Dynamics 365 Customer Service’i tasuline pakkumine
+> [!IMPORTANT]
+> Selle toimingu peab organisatsioonis tegema ainult üks inimene, rentniku administraator. Kui te pole selle väljalaske tellija, oodake, kuni teie organisatsioon on registreeritud ja teile on saadetud kasutaja mandaat.
 
-1. Kui kasutate InPrivate/inkognito brauseri akent, lunastage Dynamics 365 Customer Service’i esimene pakkumise kood. Customer Service’i jaoks registreerumiseks on teil vaja järgmist.
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – eelvaate prooviversioon 
 
-- Telefoninumber
-- Krediitkaart. Kui registreerute, ei võeta kaardilt kuue kuu jooksul midagi maha. Pärast kuut kuud peate tellimuse tühistama.
-- Vaadake üle kõik tingimused.
+Enne alustamist veenduge, et oleksite brauseris sisse logitud kasutaja töökontoga rentnikusse, kus soovite Project Operationsi eelvaadet näha.
 
-2. Sisestage oma kontaktteave.
+1. Lunastage esimene pakkumise kood, **Dynamics 365 Project Operations (CRM) – eelvaate prooviversioon** , kleepides selle brauseri URL-i.
 
-![Kontakti andmed](./media/1ContactInformation.png)
+![Lunasta pakkumine](./media/16RedeemFirstOfferNew.png)
 
-3. Sisestage uue rentniku üksikasjad.
+2. Kinnitage oma tellimus.
+![Tellimuse kinnitamine](./media/17ConfirmOrderNew.png)
 
-![Kasutaja ID loomine](./media/2CreateUserID.png)
+Näete, et kinnituse pakkumine on edukalt lunastatud.
 
-4. Kinnitage oma identiteet, salvestage uus kasutaja ID ja valige seejärel käsk **Seadista**.
+![Kinnitus](./media/18OrderConfirmationNew.png)
 
-![Salvestamise teave](./media/3SaveInfo.png)
+### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations –eelvaate prooviversioon
 
-5. Täitke krediitkaardi registreerimine ja vaadake kõik tingimused üle. 
-
-![Krediitkaardiga lõpetamine](./media/4CompleteCreditCard.png)
-
-![Krediitkaardiga maksmine](./media/5CreditCardCheckout.png)
-
-![Tellimuse salvestamine](./media/6SaveOrder.png)
-
-![Krediitkaardi kinnitus](./media/7Confirmation.png)
-
-## <a name="cancel-the-dynamics-365-customer-service-enterprise-offer"></a>Dynamics 365 for Customer Service’i ettevõtte pakkumise tühistamine
-
-Dynamics 365 Customer Service’i ettevõtte pakkumine antakse kuueks kuuks tasuta. Pakkumist pikendatakse kuuekuulise ajavahemiku lõpus täies mahus. Enne uuendamise kuupäeva tühistamiseks tehke järgmist. 
-
-> [!NOTE]
-> Pärast nende juhiste täitmist ei saa te enam Project Operationi avaliku eelversiooni keskkonda kasutada.
-
-1. Avage [haldusportaal](https://admin.microsoft.com/) ja jaotises **Arveldamine** valige **Teie tooted**.
-
-![Haldusportaal, teie toodete leht](./media/8AdminPortal.png)
-
-2. Valige **Dynamics 365 for Customer Service’i ettevõtte pakkumine**.
-
-![Tellimuse tühistamine](./media/9CancelSubscription.png)
-
-3. Valige **Sätted** > **Toimingud** > **Tellimuse tühistamine**.
-4. Vormil **Tellimuse tühistamine** sisestage nõutavatele väljadele teave.
-5. Valige **Tühista** > **Tellimus**.
-
-### <a name="dynamics-365-project-operations--preview-trial"></a>Dynamics 365 Project Operations - Eelversiooni prooviversioon
-
-1. Lunastage teine pakkumine, Dynamics 365 Project Operationsi prooviversioon, mille URL on antud teie tervitusmeilis.
-
-![Teise pakkumise lunastamine](./media/10RedeemOffer2.png)
-
-2. Veenduge, et olete sisse logitud kasutajana, kes kuulub samasse organisatsiooni, mis oli tellitud esimese pakkumise koodi kasutades, ja jätkake seejärel pakkumise lunastamisega. 
-3. Valige **Jah, lisage see minu kontole**.
-
-![Kontole lisamine](./media/11AddToAccount.png)
-
-![Ekraan Proovi nüüd](./media/12TryNow.png)
-
-![Tellimuse üksikasjad](./media/13Confirmation.png)
+Korrake samu toiminguid nagu esimese pakkumise koodiga. Lisage kindlasti teine pakkumise kood sama kasutajakontoga, mida kasutati esimese pakkumise koodiga.
 
 ## <a name="assign-licenses"></a>Litsentside määramine
 
 > [!IMPORTANT]
-> Järgmiste toimingute lõpuleviimiseks on teil vaja oma organisatsiooni Office 365 portaali administraatori juurdepääsu.
+> Järgmiste toimingute lõpuleviimiseks on teil vaja oma organisatsiooni Microsoft 365 portaali administraatori juurdepääsu.
+
 
 1. Oma kasutajatele litsentside määramiseks avage [Microsofti 365 halduskeskus](https://portal.office.com/).
 
@@ -113,11 +71,22 @@ Dynamics 365 Customer Service’i ettevõtte pakkumine antakse kuueks kuuks tasu
 
 ![Litsentside määramine](./media/15AssignLicenses.png)
 
-3. Kontrollige, kas rakenduste **Customer Service Enterprise** ja **Project Operations** litsents on valitud, ja valige **Salvesta muudatused**.
+3. Veenduge, et rakenduste **Dynamics 365 Project Operationsi (CRM) eelvaade** ja **Office 365 Project Operations – eelvaade** litsentsid oleksid valitud. 
+4. Valige käsk **Salvesta muudatused**.
 
 ## <a name="create-a-new-cds-environment"></a>Uue CDS-i keskkonna loomine
 
-Valmistage ette uus Project Operationsi CDS-i juurutuse keskkond, järgides juhiseid teemas [CDS-i juurutuse mudel](lite-deployment.md).
+1. Valmistage ette uus Project Operationsi CDS-i juurutuse keskkond, järgides juhiseid teemas [CDS-i juurutuse mudel](lite-deployment.md). Keskkonnatüübi valimisel kasutage kindlasti valikut **Prooviversioon (tellimusepõhine)**.
+![Uus keskkond](./media/19CreateEnvironment.png)
+
+2. Valige säte **Luba Dynamics 365 rakendused** ja jätke väli **Juuruta neid rakendusi automaatselt** tühjaks.  
+3. Keskkonna loomiseks valige nupp **Salvesta**.
+
+![Lisa andmebaas](./media/20CreateEnvironment1.png)
+
+4. Pärast keskkonna loomist installige lahendus **Microsoft Dynamics 365 Project Operations**. 
+
+![Lahenduse installimine](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>CDS-i konfiguratsiooni ja seadistuse demoandmete installimine
 

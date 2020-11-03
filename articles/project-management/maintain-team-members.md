@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: f5b36628e90896c9fe6570de71c95eab83a44ebd
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961849"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074822"
 ---
 # <a name="maintain-team-members"></a>Meeskonnaliikmete haldamine
 
@@ -28,7 +28,7 @@ Saate lisada nimega ressursi oma projekti meeskonnale, kui broneerite neid otse 
 5. Kui soovite, et meeskonnaliige oleks projekti kinnitaja, valige väljal **Projekti kinnitaja** suvand **Jah**. Meeskonnaliige saab kinnitada selle projekti jaoks esitatud aja- ja kulukirjeid. 
 6. Valige **Salvesta**.
 
-Nüüd saate projekti tööülesannetele määrata broneeritud ressursi. Määrake lehel **Projekt** vahekaardili **Ajakava** uuele ressursile tööülesanded. Ressursivalijat, mis käivitatakse ülesande ruudustikus väljal **Ressursid**, kuvab meeskonnaliikmed, keda saate valida.
+Nüüd saate projekti tööülesannetele määrata broneeritud ressursi. Määrake lehel **Projekt** vahekaardili **Ajakava** uuele ressursile tööülesanded. Ressursivalijat, mis käivitatakse ülesande ruudustikus väljal **Ressursid** , kuvab meeskonnaliikmed, keda saate valida.
 
 
 Rakenduses Project Operations ei ole ressursi broneerimised ega ülesande määramised tihedalt seotud. Kui kasutate ressursivalijat ajakavas, saate meeskonnaliikmetele määrata rohkem tööülesanded kui nende broneeringud projektis katavad.

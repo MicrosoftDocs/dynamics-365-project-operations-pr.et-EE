@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 06a47c45dc3b3b174658e2fba14d3d2050aabf85
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906139"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074823"
 ---
 # <a name="project-based-quote-lines"></a>Projektipõhised hinnapakkumise read
 
@@ -47,11 +47,11 @@ Järgmine tabel annab teavet projektipõhise hinnapakkumise rea vahekaardi **Ül
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Projektipõhiste hinnapakkumiste ridade vahekaardi Üldine väljade valideerimise reeglid
 
-**1. reegel**: valitud projekti teatud kandeklassi saab lisada ainult hinnapakkumise ühele projektipõhise hinnapakkumise reale.
+**1. reegel** : valitud projekti teatud kandeklassi saab lisada ainult hinnapakkumise ühele projektipõhise hinnapakkumise reale.
 
-**2. reegel**: kui müügivõimalusel on mitu hinnapakkumist, võivad erinevate hinnapakkumiste hinnapakkumise read viidata samale projektile ja sisaldada sama kandeklassi.
+**2. reegel** : kui müügivõimalusel on mitu hinnapakkumist, võivad erinevate hinnapakkumiste hinnapakkumise read viidata samale projektile ja sisaldada sama kandeklassi.
 
-**3. reegel**: kui hinnapakkumised ei kuulu sama müügivõimaluse juurde, ei saa nad sisaldada sama projekti ja kandeklassi.
+**3. reegel** : kui hinnapakkumised ei kuulu sama müügivõimaluse juurde, ei saa nad sisaldada sama projekti ja kandeklassi.
 
 <table border="1" cellspacing="0" cellpadding="0">
     <tbody>

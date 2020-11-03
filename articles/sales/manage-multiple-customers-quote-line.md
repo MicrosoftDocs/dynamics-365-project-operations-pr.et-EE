@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ffb89a954b8af9d726c64cceeafca638c3393130
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.openlocfilehash: ea7f0a8207fc78914783f5b9c919b3243a0bb5a4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965765"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074832"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Projektipõhiste hinnapakkumiste ridadel mitme kliendi haldamine
+
+_**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
 Projektipõhised hinnapakkumise read toetavad stsenaariumeid, kus igal hinnapakkumise real on selle eest makstavate klientide loend. See projektipõhise hinnapakkumise rea klientide loend võib olla sama, mis hinnapakkumise klientide loend. Saate muuta ka klientide loendit, et see oleks erinev. Projekti hinnapakkumise võitmisel projekti lõpliku lepingu loomiseks kopeeritakse projektipõhise hinnapakkumise rea klientide loend vastavasse projektipõhisele lepingureale. Projektipõhise hinnapakkumise kliendid kopeeritakse projekti lepingusse.
 

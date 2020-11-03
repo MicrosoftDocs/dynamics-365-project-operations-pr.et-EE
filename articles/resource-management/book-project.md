@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 19128264ed3db7efeeba948155f0ddbdc806c2a0
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908063"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074808"
 ---
 # <a name="book-to-a-project"></a>Projektile reserveerimine
 
@@ -47,7 +47,7 @@ Kui teie organisatsioon tegutseb ressursieralduse hübriidrežiimis, saab projek
 Kui ressursihaldur peab broneerima ressursi projekti jaoks otse, saavad nad kasutada ajakavapaneeli ja projekti nõuet. Projekti nõue on ressursi nõue, mille suhtes broneerimine on alati võimalik. Ressursi ajakavapaneelilt projekti jaoks otse broneerimiseks tehke järgmist.
 
 1. Liikuge ajakavapaneelil ja filtreerige vasakpoolsel lehel ressursid, mida te nõude jaoks kaalute.
-2. Valige alumisel paanil vahekaart **Projekt**, et kuvada projekti nõuete loend.
+2. Valige alumisel paanil vahekaart **Projekt** , et kuvada projekti nõuete loend.
 3. Lohistage nõue ressursile ja määratlege järgmine teave.
 
     - Alguskuupäev
@@ -60,7 +60,7 @@ Kui ressursihaldur peab broneerima ressursi projekti jaoks otse, saavad nad kasu
 
 Projektijuhina võita tahta broneerida projektile ressursi, kuid teate ressursi nime asemel ainult kriteeriume. Täitke järgmised juhised, et kasutada ajakavaabilist, et leida resurss mis tahes saadaolevate ressursi atribuutide põhjal. 
 
-1. Liikuge projektile ja valige **Broneeri**, et avada ajakavaabiline.
+1. Liikuge projektile ja valige **Broneeri** , et avada ajakavaabiline.
 2. Kasutades ajakavaabilises vasakul küljel olevaid filtreir, kitsendage kriteeriume ja valige suvand **Otsi**.
 3. Tulemites tagastatud ressursside põhjal saate broneerida ressursi.
 

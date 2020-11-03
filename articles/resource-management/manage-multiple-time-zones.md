@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 27f58f0dacc3404119a719547ad374629c740740
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961850"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074894"
 ---
 # <a name="manage-time-zones"></a>Ajavööndite haldamine
 
@@ -57,7 +57,7 @@ Järgnev tabel näitab järgmist.
 |Ressurss C  |  ![Ressursi C kalender](media/reconcile-assignments-08.png) |
 |Ressurss D  | ![Ressursi D kalender](media/reconcile-assignments-09.png)  |
  
-Kui liigute vaatesse **Vastavusse viimine**, kuvatakse ressursi määramised ja seostatud broneeringu puudujäägid.
+Kui liigute vaatesse **Vastavusse viimine** , kuvatakse ressursi määramised ja seostatud broneeringu puudujäägid.
 
 ![Vastavusseviimise vaade enne pikendamist](media/reconcile-assignments-10.png)
 

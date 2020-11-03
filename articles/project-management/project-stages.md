@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: b11c67ebd21fdf423eeae2db8154f26787c2e64f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 554ad63bc44cbe5a1fe91eb47fedbb74bbedd4b6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897941"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075083"
 ---
 # <a name="project-stages"></a>Projekti etapid
 
@@ -46,15 +45,15 @@ Projekti loomisel määratakse selle olekuks **Uus**. Kui projekt loodi mallist,
 
 ## <a name="quote"></a>Hinnapakkumine
 
-Kui seostate projekti hinnapakkumisega või kui loote projekti hinnapakkumise põhjal, määratakse projekti olekuks **Hinnapakkumine**, ja eeldatavaid algus- ning lõppkuupäevi värskendatakse. Kuniks projekt on etapis **Hinnapakkumine**, kuvab lehe **Projektiolem** vahekaart **Müügid** hinnapakkumise üksikasjad.
+Kui seostate projekti hinnapakkumisega või kui loote projekti hinnapakkumise põhjal, määratakse projekti olekuks **Hinnapakkumine** , ja eeldatavaid algus- ning lõppkuupäevi värskendatakse. Kuniks projekt on etapis **Hinnapakkumine** , kuvab lehe **Projektiolem** vahekaart **Müügid** hinnapakkumise üksikasjad.
 
 ## <a name="plan"></a>Plaan
 
-Kui võidate projektiga seotud hinnapakkumise ja projekt jõuab etappi **Leping**, värskendatakse projekt olekule **Plaan**. Kuniks projekt on etapis **Plaan**, kuvab leht **Projektiolem** lepingu üksikasjad.
+Kui võidate projektiga seotud hinnapakkumise ja projekt jõuab etappi **Leping** , värskendatakse projekt olekule **Plaan**. Kuniks projekt on etapis **Plaan** , kuvab leht **Projektiolem** lepingu üksikasjad.
 
 ## <a name="deliver"></a>Üleandmine
 
-Kui olete projektiplaani lõpule viimisel projekti käivitamiseks valmis, peab projektijuht värskendama projekti etapile **Üleandmine**, näitamaks, et projektiga on alustatud.
+Kui olete projektiplaani lõpule viimisel projekti käivitamiseks valmis, peab projektijuht värskendama projekti etapile **Üleandmine** , näitamaks, et projektiga on alustatud.
 
 ## <a name="complete"></a>Lõpuleviimine 
 

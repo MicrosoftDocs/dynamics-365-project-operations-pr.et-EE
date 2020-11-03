@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 7b255d607ac8180c249a9b9831db6f8d0cd3937b
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898391"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074817"
 ---
 # <a name="project-based-opportunity-lines"></a>Projektipõhised müügivõimaluse read
 
@@ -28,7 +28,7 @@ Allpool on projektipõhise müügivõimaluse rea väljad.
 
 | **Väli** | **Asukoht** | **Asjakohasus, eesmärk ja juhised** | **Allavoolu mõjud** |
 | --- | --- | --- | --- |
-| Toote tüüp | Vahekaart Üldine (peidetud) | See on suvandikomplekti väli. Kui teil on Dynamics 365 Operations installitud, on üks saadaolev võimalus **Projektipõhine teenus**.  | Selle välja väärtuseks seatakse **Projektipõhine teenus**, kui loote projektipõhise ridade ruudustiku kaudu projektipõhise müügivõimaluse rea. <br> Kui muudate või alistate selle väärtuse, ei lubata projekti funktsionaalsust teie projektipõhistele reaüksustele. |
+| Toote tüüp | Vahekaart Üldine (peidetud) | See on suvandikomplekti väli. Kui teil on Dynamics 365 Operations installitud, on üks saadaolev võimalus **Projektipõhine teenus**.  | Selle välja väärtuseks seatakse **Projektipõhine teenus** , kui loote projektipõhise ridade ruudustiku kaudu projektipõhise müügivõimaluse rea. <br> Kui muudate või alistate selle väärtuse, ei lubata projekti funktsionaalsust teie projektipõhistele reaüksustele. |
 | Müügivõimalus | Vahekaart Üldine | See väli on kirjutuskaitstud ja viitab peamise müügivõimaluse kirjele, mille juurde see reaüksus kuulub. | Sellest väljast puudub allavoolu mõju. |
 | Nimetus | Vahekaart Üldine | See on muudetav tekstiväli, mida saab kasutada rea üksusele lühikese identiteedi andmiseks | See väärtus viiakse hinnapakkumise reale üle, kui loote selle müügivõimaluse põhjal hinnapakkumise |
 | Kliendi eelarve | Vahekaart Üldine | Selle muudetavat valuuta välja abil saab jälgida summat, mida klient on nõus selle reaüksuse eest kulutama. | See väärtus viiakse hinnapakkumise rea vastavale väljale üle, kui loote selle müügivõimaluse põhjal hinnapakkumise |

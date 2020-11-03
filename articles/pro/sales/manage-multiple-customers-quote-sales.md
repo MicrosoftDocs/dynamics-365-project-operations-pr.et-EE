@@ -9,17 +9,17 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 656418ab99db46455195f70c38b6f5fa13c30755
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966766"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074856"
 ---
 # <a name="managing-multiple-customers-on-project-quotes-sales"></a>Mitme kliendi projekti hinnapakkumiste haldamine (Sales)
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
-Projekti hinnapakkumised toetavad stsenaariumit, kus ettepanek hõlmab mitut lepingut rahastavat klienti. Hinnapakkumise vahekaardil **Kokkuvõte** on väli **Potentsiaalne klient**, mis tuvastab tehingu peamise kliendi. Lepungu teisi kliente saab seadistada projekti hinnapakkumise vagekaardil **Kliendid**.
+Projekti hinnapakkumised toetavad stsenaariumit, kus ettepanek hõlmab mitut lepingut rahastavat klienti. Hinnapakkumise vahekaardil **Kokkuvõte** on väli **Potentsiaalne klient** , mis tuvastab tehingu peamise kliendi. Lepungu teisi kliente saab seadistada projekti hinnapakkumise vagekaardil **Kliendid**.
 
 Kõik hinnapakkumise vahekaardil **Kliendid** olevad hinnapakkumise kliendid on vaikimisi hinnapakkumise rea kliendid mis tahes hinnapakkumise jaoks loodava **uue** projektipõhise hinnapakkumise ridade puhul. Kõik olemasolevad projektipõhised hinnapakkumise read ei päri pärast neid loodud uusi hinnapakkumise kliendikirjeid.
 
@@ -42,8 +42,8 @@ Hinnapakkumise klienti saab luua, uuendada või kustutada lehe **Hinnapakkumine*
 | Ettevõte | Vahekaardi **Hinnapakkumise kliendid** redigeeritav ruudustik ja hinnapakkumise kliendi vormid **Peamine** ja **Kiirloomine**. | Loetleb kõik aktiivsed kontod. Pärast kirje loomist see väli lukustatakse. Kui soovite seda värskendada, kustutage kirje ja looge see uuesti. Kui olete salvestanud kõik tegelikud näitajad või kui hinnapakkumise kliendi kirje on peamine klient, on teil lubatud kirje kustutada. | Hinnapakkumise kliendid kopeeritakse hinnapakkumise rea loomisel hinnapakkumise rea klientidega üle. Hinnapakkumise kliendid kopeeritakse samuti hinnapakkumise võitmisel projekti lepingu klientidele. |
 | Arveldamise jagamise protsent | Vahekaardi **Hinnapakkumise kliendid** redigeeritav ruudustik ja hinnapakkumise kliendi vormid **Peamine** ja **Kiirloomine**. | Esindavad iga arveldamata müügitehingu protsenti, mis omistatakse selle hinnapakkumise kliendile. | Kopeeritud uue hinnapakkumise ridadele ja projekti lepingu klientidele. |
 | Maksja: kontakti nimi | Vahekaardi **Hinnapakkumise kliendid** redigeeritav ruudustik ja hinnapakkumise kliendi vormid **Peamine** ja **Kiirloomine**. | See on tekstiväli ja seda tuleks kasutada selle kliendi arve kontaktisiku tuvastamiseks. Need tulevad vaikimisi seotud kontokirjetest | Kopeeritakse üle projekti lepingu klientidele, kui hinnapakkumine võidetakse ja omakorda arve väljale Maksja: kontakti nimi, mis on selle kliendi jaoks loodud. |
-| Maksja nimi | Vahekaardi **Hinnapakkumise kliendid** redigeeritav ruudustik ja hinnapakkumise kliendi vormid **Peamine** ja **Kiirloomine**. | Seda tekstivälja tuleks kasutada selle kliendi arve kontaktisiku tuvastamiseks. | Kopeeritakse projekti lepingu klientidele, kui hinnapakkumine võidetakse ja omakorda arve väljale **Maksja: kontakti nimi**, mis on selle kliendi jaoks loodud. |
-| Maksetingimused | Vahekaardi **Hinnapakkumise kliendid** redigeeritav ruudustik ja hinnapakkumise kliendi vormid **Peamine** ja **Kiirloomine**. | See on suvandikomplekt väärtusega, mis pärineb vaikimisi seostuvast kontokirjest. | Kopeeritakse projekti lepingu klientidele, kui hinnapakkumine võidetakse ja omakorda arve väljale **Maksja: kontakti nimi**, mis on selle kliendi jaoks loodud. |
+| Maksja nimi | Vahekaardi **Hinnapakkumise kliendid** redigeeritav ruudustik ja hinnapakkumise kliendi vormid **Peamine** ja **Kiirloomine**. | Seda tekstivälja tuleks kasutada selle kliendi arve kontaktisiku tuvastamiseks. | Kopeeritakse projekti lepingu klientidele, kui hinnapakkumine võidetakse ja omakorda arve väljale **Maksja: kontakti nimi** , mis on selle kliendi jaoks loodud. |
+| Maksetingimused | Vahekaardi **Hinnapakkumise kliendid** redigeeritav ruudustik ja hinnapakkumise kliendi vormid **Peamine** ja **Kiirloomine**. | See on suvandikomplekt väärtusega, mis pärineb vaikimisi seostuvast kontokirjest. | Kopeeritakse projekti lepingu klientidele, kui hinnapakkumine võidetakse ja omakorda arve väljale **Maksja: kontakti nimi** , mis on selle kliendi jaoks loodud. |
 | On ümardamine | Vahekaardi **Hinnapakkumise kliendid** redigeeritav ruudustik ja hinnapakkumise kliendi vormid **Peamine** ja **Kiirloomine**. | Näitab, kas see klient on selle tehingu jaoks vaikimisi ümardamise klient. | Kopeeritakse hinnapakkumise võitmisel projekti lepingu klientidele. |
 | Mitteületatav limiit | Vahekaardi **Hinnapakkumise kliendid** redigeeritav ruudustik ja hinnapakkumise kliendi vormid **Peamine** ja **Kiirloomine**. | Näitab, kas sellele kliendile esitatakse selle suhtluse eest arve summas, millel on läbiräägitud limiit või ülempiir | Kopeeritakse hinnapakkumise võitmisel projekti lepingu klientidele. |
 

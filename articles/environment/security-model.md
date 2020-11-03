@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ffcfa8a9c8e31c5665acd3c3919fa90d36a3f3ca
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896726"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074841"
 ---
 # <a name="security-model"></a>Turbemudel
 
@@ -36,10 +36,11 @@ Project Operationsi kasutajaliidese võimalused sisaldavad järgmisi rolle.
 
 
 Microsoft Projecti veebilanedus sisaldab järgmisi rolle.
-| Roll                          | Kirjeldus                                                                                                          | Scope |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| Projekti kasutaja | Projekti koostööpartner, kes saab luua oma projekte ja vaadata temaga ühiskasutusse antud projekte.| Kasutaja|
-| Projekti süsteem | Rakenduse kontekstis kasutatav roll. Kliendid ei tohiks seda süsteemi rolli kasutada. | Globaalne|
+
+| Roll           | Kirjeldus                                                                                                        | Scope  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| Projekti kasutaja   | Projekti koostööpartner, kes saab luua oma projekte ja vaadata temaga ühiskasutusse antud projekte. | Kasutaja   |
+| Projekti süsteem | Rakenduse kontekstis kasutatav roll. Kliendid ei tohiks seda süsteemi rolli kasutada.                                    | Globaalne |
 
 ## <a name="security-enforcement"></a>Turvalisuse tagamine
 Projektitasemel teostatud toiminguid teostatakse sisselogitud kasutaja kontekstis. See tähendab, et projekti loomiseks, avamiseks või kustutamiseks peab kasutajal olema juurdepääs CDS-ile. Juurdepääs CDS-ile võidakse anda ühe platvormil oleva võimaliku mehhanismi kaudu. Näiteks võib projektile olla juurdepääs suurema ulatusega kasutajal või kui on teostatud konkreetne projekti ühiskasutusse andmise toiming, mis annab kasutajale juurdepääsu.
@@ -56,6 +57,8 @@ Rühmad võimaldavad projekti õigusi ja toetavaid koostöö artefakte üheskoos
 Project Operations ei loo rühma kaudse tegevuse kaudu ja teeb seda ainult pakiliste rühmade selgesõnalise tegevuse kaudu.
 
 Rühma liikmete otsing dialoogis **Rühma haldus** on piiratud nendega, kes on määratud keskkonna turberühma osaks. Lisateavet vt jaotisest [Kasutajate keskkondadele juurdepääsu juhtimine: turberühmad ja litsentsid](https://docs.microsoft.com/power-platform/admin/control-user-access).
+
+![Rühma režiim](./media/groupsmode.png)
 
 1. Projekti loob ja omab loov kasutaja.
 2. Projekti omanikuks värskendatakse meeskond.

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 4013d2e8cc0d2329f824a17484ee6f4a054a390e
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966764"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074879"
 ---
 # <a name="manage-project-price-lists-on-project-quotes-sales"></a>Projekti hinnapakkumise projekti hinnakirja haldamine (Sales)
 
@@ -65,5 +65,5 @@ Kliendispetsiifilise projekti hinnakirja seadistamiseks toimige järgmiselt.
 
 Kui teil on olemas organisatsioonide- ja kliendipõhised projekti vaikehinnakirjad, luuakse teie projekti hinnapakkumised auotmaatselt nende projekti hinnakirjade seostega. Teatud juhtudel võib siiski juhtuda, et peate kindla projekti hinnapakkumise jaoks looma kohandatud hinnastamise. 
 
-1. Kontrollige **Projekti hinnapakkumise** vahekaardil **Projekti hinnakiri**, et alamruudustikus ei oleks valitud konkreetset hinnakirja kirjet.
+1. Kontrollige **Projekti hinnapakkumise** vahekaardil **Projekti hinnakiri** , et alamruudustikus ei oleks valitud konkreetset hinnakirja kirjet.
 2. Valige **Kohandatud hindade loomine**. See teeb koopiad kõigist praegu hinnapakkumisega seotud standardsetest hinnakirjadest ja seob need koopiad hinnapakkumisega. Olemasolevad seosed standardsete hinnakirjadega eemaldatakse. Seejärel saab müügiesindaja alustada nendes koopiates hindade muutmist. Neid muudetud hindu kohaldatakse ainult selle projekti hinnapakkumise suhtes.

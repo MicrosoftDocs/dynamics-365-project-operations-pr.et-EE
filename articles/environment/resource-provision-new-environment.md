@@ -3,17 +3,17 @@ title: Uue keskkonna ettevalmistamine
 description: Selles teemas antakse teavet uue Project Operationsi keskkonna ettevalmistamise kohta.
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 45700371c50e3b5a840df45fc24fa8a5b4584b61
-ms.sourcegitcommit: 87b7a8d793c19c50f3765b8d788cde24a6a0ca24
+ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949357"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074843"
 ---
 # <a name="provision-a-new-environment"></a>Uue keskkonna ettevalmistamine
 
@@ -26,14 +26,14 @@ Selles teemas antakse teavet uue Dynamics 365 Project Operationsi keskkonna ette
 Kasutage järgmisi samme, et lubada Project Operationsi automaatse ettevalmistamise voog oma LCS projekti jaoks.
 
 1. Minge jaotisse [LCS](https://lcs.dynamics.com/v2) ja valige paan **Funktsioonide halduse eelvaade**.
-2. Valige loendis **Eelvaate funktsioon** jaotis **Project Operations** ja valige Project Operationsi lubamiseks suvand **Eelvaate funktsioon lubatud**.
+2. Valige loendis **Eelvaate funktsioon** jaotis **Project Operationsi funktsioon** ja valige Project Operationsi lubamiseks suvand **Eelvaate funktsioon lubatud**.
 
 > [!NOTE]
 > Seda sammu teostatakse iga LCS projekti kohta vaid ühe korra.
 
 ## <a name="provision-a-project-operations-environment"></a>Project Operationsi keskkonna ettevalmistamine
 
-1. Avage uue Dynamics 365 Finance [eelvaatekeskkonna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) või [liivakasti-/töökeskkonna](https://docs.microsoft.com/edynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) juurutamine. 
+1. Avage uue Dynamics 365 Finance [eelvaatekeskkonna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) või [liivakasti-/töökeskkonna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) juurutamine. 
 2. Läbige **Keskkonna ettevalmistamise** viisard. 
 
 > [!IMPORTANT]
@@ -116,7 +116,7 @@ Keskkonna teenindamine võtab aega. Kui see on lõpule viidud, naaseb keskkond j
 
 ![Link CDS-le](./media/12LinktoCDS.png)
 
-4. Valige **Rakenda lahendus**, et avada integreerimisel vastendatavad olemid.
+4. Valige **Rakenda lahendus** , et avada integreerimisel vastendatavad olemid.
 
 ![Rakenda lahendused](./media/13ApplySolutions.png)
 
@@ -165,18 +165,19 @@ Värskendamine võtab aega umbes 20 minutit. Teile kuvatakse teade, kui see on v
 | **Projekti kande seoste integratsiooni olem (msdyn\_transactionconnections)** | No | No | Puudub | No | Puudub |
 | **Project Operationsi integreerimise lepingurea vahe-eesmärgid (msdyn\_contractlinesscheduleofvalues)** | No | No | Puudub | No | Puudub |
 | **Project Operationsi integratsiooni olem kuluprognooside jaoks (msdyn\_estimateslines)** | No | No | Puudub | No | Puudub |
-| **Project Operationsi integratsiooni olem kestuse prognooside jaoks (msdyn\_resourceassignments)** | No | No | Puudub | No | Puudub |
+| **Project Operationsi integreerimise projekti kulukategooriate ekspordi olem (msdyn\_expensecategories)** | No | No | Puudub | No | Puudub |
 | **Project Operationsi integreerimise projekti kulude ekspordi olem (msdyn\_kulud)** | Ja | No | Puudub | No | Puudub |
 | **Project Operationsi integratsiooni olem kestuse prognooside jaoks (msdyn\_resourceassignments)** | Ja | No | Puudub | No | Puudub |
 
+
 4. Olemi värskendamiseks valige vastenduse nimi ja seejärel valige **Värskenda olemid**. 
-5. Jätkake vastenduse käitamisega pärast värskendamise lõpuleviimist.
+
 
 ![Kaardi värskendamine](./media/20RefreshMapping.png)
 
-Enne järgmise vastenduse lubamist veenduge, et tabelis olev kaart oleks olekus **Töötab**. Suurema hulga eeltingimustega kaartide käitamine võib võtta aega.
+5. Pärast värskenduse lõpetamist käivitage vastendus. Enne järgmise vastenduse lubamist veenduge, et tabelis olev kaart oleks olekus **Töötab**. Suurema hulga eeltingimustega kaartide käitamine võib võtta aega.
 
-Eeltingimustega kaartide käivitamiseks lubage ümberlülitusnupp **Kuva seostuvad olemikaardid**. Kui tabel näitab, et **Eeltingimuste esialgne sünkroonimine** on **Ei**, veenduge, et lipp **Esialgne sünkroonimine** oleks enne käivitamist kõigil eeltingimuse kaartidel **Väljas**.
+Eeltingimustega kaartide käivitamiseks lubage ümberlülitusnupp **Kuva seostuvad olemikaardid**. Kui tabel näitab, et **Eeltingimuste esialgne sünkroonimine** on **Ei** , veenduge, et lipp **Esialgne sünkroonimine** oleks enne käivitamist kõigil eeltingimuse kaartidel **Väljas**.
 
 ![Käita kaart](./media/21RunMap.png)
 

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 2afe4ff2f84fc5426c409e6314da73b11a4de281
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908054"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074878"
 ---
 # <a name="expense-estimates"></a>Kuluprognoosid
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
@@ -32,9 +32,9 @@ Projekti kulu vaatamiseks, lisamiseks või kustutamiseks tehke järgmist.
 
 Iga kulurea üksuse jaoks on määratletud järgmised atribuudid.
 
-- **Kategooria**: levinud rühmitused, mida kasutatakse kõigi projektiga seotud kulude kirjeldamiseks.
-- **Alguskuupäev**: kulu prognoositav tekkimise kuupäev.
-- **Kogus**: kindla kategooria kuluüksuste eeldatav arv.
-- **Ühiku omahind**: kulu maksumuse arvutamiseks kasutatava ühiku hind.
-- **Ühiku müügihind**: kulu müüguhinna arvutamiseks kasutatava ühiku hind.
+- **Kategooria** : levinud rühmitused, mida kasutatakse kõigi projektiga seotud kulude kirjeldamiseks.
+- **Alguskuupäev** : kulu prognoositav tekkimise kuupäev.
+- **Kogus** : kindla kategooria kuluüksuste eeldatav arv.
+- **Ühiku omahind** : kulu maksumuse arvutamiseks kasutatava ühiku hind.
+- **Ühiku müügihind** : kulu müüguhinna arvutamiseks kasutatava ühiku hind.
 

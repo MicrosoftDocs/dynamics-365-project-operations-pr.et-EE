@@ -3,23 +3,23 @@ title: Projekti kopeerimine
 description: Selles teemas antakse teavet rakenduses Dynamics 365 Project Operations projektide kopeerimise kohta.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e35dc725e7938e9f59f7151dd1b37500fabf77a4
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: cf80f2a1cd27aae33d123e45dee70d94ea4d01a9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908055"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074897"
 ---
 # <a name="copy-a-project"></a>Projekti kopeerimine
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Dynamics 365 Project Operations võimaldab teil kiiresti luua uusi projekte, kasutades vormil **Projekt** toimingut **Kopeeri projekt**. Projekti kopeerimiseks valige projekt ja seejärel valige käsk **Kopeeri**. Toiming kopeerib järgneva.
+Dynamics 365 Project Operations võimaldab teil kiiresti luua uusi projekte, valides vormil **Projektid** toimingu **Kopeeri projekt**. Projekti kopeerimiseks avage projekt, mida soovite kopeerida, ja seejärel valige toiming **Kopeeri projekt**. Toiming kopeerib järgneva.
 
 - Projekti atribuudid
 - Tööjaotuse struktuur
@@ -58,4 +58,6 @@ Kui projektimeeskond kopeeritakse lähteprojektist, kopeeritakse üldised ressur
 
 ## <a name="estimates"></a>Prognoosid
 
-Kui projekt on kopeeritud, kopeeritakse lähteprojektist nii ressursi kui ka kulu prognoosiread.
+Kui projekt on kopeeritud, kopeeritakse lähteprojektist nii ressursi kui ka kulu prognoosiread. 
+
+Lisateavet programmiliselt valikule Kopeeri projekt juurdepääsemise kohta leiate teemast [Projektimallide väljatöötamine toiminguga Kopeeri projekt](dev-copy-project.md).

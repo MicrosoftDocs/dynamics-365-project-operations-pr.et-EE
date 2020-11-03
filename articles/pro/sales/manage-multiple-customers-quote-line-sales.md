@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 6a509fcf8d1fa11b4ce1ba1493d9c3cc64b4f22f
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965769"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074857"
 ---
 # <a name="managing-multiple-customers-on-project-based-quote-lines"></a>Mitme kliendi projektipõhiste hinnapakkumiste ridade haldamine
 

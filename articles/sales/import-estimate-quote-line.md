@@ -3,21 +3,21 @@ title: Projekti prognooside importimine projektpõhise hinnapakkumise reale
 description: See teema sisaldab teavet, kuidas importida projekti prognoose hinnapakkumise reale.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 75511f0d7ef1d2d1b3bf5cc598a8f51d0c553939
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 8c0fe18b33207f73848709b99334f64aadc7867a
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908051"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074872"
 ---
 # <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Projekti prognooside importimine projektpõhise hinnapakkumise reale
 
-_**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
+_**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
 
 Kui projekt luuakse müügieelses etapis, saate valida, kas importida projekti finantskalkulatsioonid projektipõhise hinnapakkumise reale.
@@ -31,13 +31,13 @@ Kui projekt luuakse müügieelses etapis, saate valida, kas importida projekti f
   - **Roll** 
   - **Projekti ülesanne**
 
-Olenevalt teie valikust kopeeritakse üle projekti prognoos kõigi selle hinnapakkumise rea kannete klasside kohta. Kaasatud tehinguklasside kontrollimiseks valige projektipõhisel hinnapakkumise real vahekaart **Üldine** ja kontrollige suvandite **Kaasa aeg**, **Kaasa kulu** ja **Kaasa tasud** väärtuseid.
+Olenevalt teie valikust kopeeritakse üle projekti prognoos kõigi selle hinnapakkumise rea kannete klasside kohta. Kaasatud tehinguklasside kontrollimiseks valige projektipõhisel hinnapakkumise real vahekaart **Üldine** ja kontrollige suvandite **Kaasa aeg** , **Kaasa kulu** ja **Kaasa tasud** väärtuseid.
 
 Prognooside importimisel määrab süsteem vaikimisi hinna, mis põhineb hinnapakkumisele lisatud projekti hinnakirjal ja projektipõhise hinnapakkumise real seadistatud arvelduse tüübil. Kui projektipõhise hinnapakkumise rea rolliks või kategooriaks on määratud, et arvet ei esitata, seatakse imporditud prognoosi rida mittearveldatavaks ja seda ei lisata hinnapakkumise rea hinnapakkumise väärtusele.
 
 Kui hinnapakkumise real on rea üksikasjad, siis hinnapakkumise rea väljad **Hinnapakkumise väärtus** ja **Hinnanguline maks** summeeritakse ja neid ei saa redigeerida.
 
-Kui valitud on mitu summerrimise valikut, proovib summeerimine liita kokku kõik valitud suvandid. See tähendab, et imporditud hinnapakkumise ridade väljund on suurem kui juhul, kui valisite ainult ühe summeerimise suvandi.
+Kui valitud on mitu kokkuvõtlikku valikut, proovib süsteem liita kokku kõik valitud suvandid. Tulemuseks on, et imporditud hinnapakkumise ridade väljund on suurem kui juhul, kui valisite ainult ühe summeerimise suvandi.
 
 Näiteks juhul, kui projektil on kulude jaoks järgmised kalkulatsiooni read.
 
