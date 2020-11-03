@@ -1,0 +1,37 @@
+---
+title: Projekti lepingu kinnitamine
+description: Selles teemas antakse teavet, kuidas Project Operationsis lepingut kinnitada.
+author: rumant
+manager: Annbe
+ms.date: 10/13/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.reviewer: kfend
+ms.author: rumant
+ms.openlocfilehash: babce9c64098a9c87072786d914d2340251a8986
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075076"
+---
+# <a name="confirm-a-project-contract"></a><span data-ttu-id="45d31-103">Projekti lepingu kinnitamine</span><span class="sxs-lookup"><span data-stu-id="45d31-103">Confirm a project contract</span></span>
+
+<span data-ttu-id="45d31-104">_**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_</span><span class="sxs-lookup"><span data-stu-id="45d31-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+
+<span data-ttu-id="45d31-105">Projekti lepingu võib rakenduses Dynamics 365 Project Operations olla aktiivne, mille põhjuseks on **Kinnitatud** või suletud, mille põhjus on **Kaotatud**.</span><span class="sxs-lookup"><span data-stu-id="45d31-105">A project contract in Dynamics 365 Project Operations can be active with a reason of **Confirmed** , or closed with a reason of **Lost**.</span></span> <span data-ttu-id="45d31-106">Kui kinnitate projekti lepingu, siis muutub olek olekust **Mustand** olekuks **Aktiivne** ja oleku põhjus on **Kinnitatud**.</span><span class="sxs-lookup"><span data-stu-id="45d31-106">When you confirm a project contract, the status updates from **Draft** to **Active** and the status reason is **Confirmed**.</span></span> <span data-ttu-id="45d31-107">Aktiivset või suletud lepingut ei saa redigeerida ega uuesti avada.</span><span class="sxs-lookup"><span data-stu-id="45d31-107">An active or closed contract can't be edited or reopened.</span></span> 
+
+### <a name="financial-impact-of-confirming-a-project-contract"></a><span data-ttu-id="45d31-108">Projekti lepingu kinnitamise finantsmõju</span><span class="sxs-lookup"><span data-stu-id="45d31-108">Financial impact of confirming a project contract</span></span>
+
+<span data-ttu-id="45d31-109">Pärast projekti lepingu kinnitamist arvutab rakendus kulud ümber, pöörates tagasi vanemad tegelikud kulud ja luues uued tegelikud kulud.</span><span class="sxs-lookup"><span data-stu-id="45d31-109">After a project contract is confirmed, the application recalculates the costs by reversing the older cost actuals and creating new cost actuals.</span></span> <span data-ttu-id="45d31-110">Uusi tegelikke kulusid töödeldakse, võttes aluseks seotud projekti lepingurea arveldusmeetodi.</span><span class="sxs-lookup"><span data-stu-id="45d31-110">The new cost actuals are then processed based on the billing method of the associated project contract line.</span></span> <span data-ttu-id="45d31-111">Kui tegelikud kulud viitavad aja ja materjali lepingureale, loob rakendus automaatselt vastavad arveldamata tegelikud müüginäitajad uuesti.</span><span class="sxs-lookup"><span data-stu-id="45d31-111">If the cost actuals reference a Time and Material contract line, the application automatically re-creates corresponding unbilled sales actuals.</span></span> <span data-ttu-id="45d31-112">Kui tegelikud kulud viitavad fikseeritud hinna lepingureale, peatab rakendus tegelike kulude ümbertöötlemise.</span><span class="sxs-lookup"><span data-stu-id="45d31-112">If the cost actuals reference a Fixed Price contract line, the application stops reprocessing the cost actuals.</span></span>
+
+<span data-ttu-id="45d31-113">Mitteületatavad limiite, arveldatavuse seadistamist ning tegelikke hindu ja kulusid hinnatakse ning seejärel värskendatakse kinnituste osana.</span><span class="sxs-lookup"><span data-stu-id="45d31-113">Not-to-exceed limits, chargeability setup, and pricing and costing on the actuals is evaluated and then updated as part of the confirmations process.</span></span>
+
+## <a name="close-a-project-contract-as-lost"></a><span data-ttu-id="45d31-114">Projekti lepingu sulgemine kaotatuna</span><span class="sxs-lookup"><span data-stu-id="45d31-114">Close a project contract as lost</span></span>
+
+<span data-ttu-id="45d31-115">Kui sulgete projekti lepingu kaotatuna, muudetakse lepingu olekuks **Suletud** ja oleku põhjuseks on **Kaotatud**.</span><span class="sxs-lookup"><span data-stu-id="45d31-115">When you close a project contract as lost, the contract status is updated to **Closed** and the status reason is **Lost**.</span></span> <span data-ttu-id="45d31-116">Projekti leping muutub kirjutuskaitstuks.</span><span class="sxs-lookup"><span data-stu-id="45d31-116">The project contract becomes read-only.</span></span> <span data-ttu-id="45d31-117">Enne muudatuste lõpuleviimist kuvatakse kinnituse dialoog, kuna suletud projekti lepingut ei saa uuesti avada.</span><span class="sxs-lookup"><span data-stu-id="45d31-117">A confirmation dialog is provided before the changes are complete because you can't reopen a closed project contract.</span></span>
+
+<span data-ttu-id="45d31-118">Kui projekti leping, mis on suletud kui kaotatud, viitab projekti ridadele, siis on ka see projekt suletuks märgitud.</span><span class="sxs-lookup"><span data-stu-id="45d31-118">If the project contract that is closed as lost references a project on its lines, that project is also marked as closed.</span></span> <span data-ttu-id="45d31-119">Kõik ressursi broneeringud alates sellest päevast edasi on tühistatud.</span><span class="sxs-lookup"><span data-stu-id="45d31-119">Any resource bookings from that day forward are canceled.</span></span> <span data-ttu-id="45d31-120">Kõik projekti lepingusse kuuluvad arveldamata tegelikud müüginäitajad, mida veel arvele pole lisatud, tühistatakse.</span><span class="sxs-lookup"><span data-stu-id="45d31-120">Any unbilled sales actuals on the project contract that aren't already on an invoice, will be reversed.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="45d31-121">Rakenduses Dynamics 365 Project Operations ei mõjuta projekti lepingu sulgemine seostatud müügivõimaluse olekut.</span><span class="sxs-lookup"><span data-stu-id="45d31-121">In Dynamics 365 Project Operations, closing a project contract as lost will not impact that status of the associated opportunity.</span></span> <span data-ttu-id="45d31-122">Müügivõimalus jääb avatuks ja see tuleb käsitsi sulgeda.</span><span class="sxs-lookup"><span data-stu-id="45d31-122">The opportunity will remain open and must be manually closed.</span></span>
