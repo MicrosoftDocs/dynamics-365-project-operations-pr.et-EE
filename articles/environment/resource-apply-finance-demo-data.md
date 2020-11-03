@@ -8,18 +8,19 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1a94862d5a024eb1630f33c0c96699e8b4b49bf2
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
+ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948835"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4096617"
 ---
 # <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>Project Operationsi demoandmete rakendamine rakenduse Finance pilvepõhises keskkonnas
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
->[Oluline] See teema on rakendatav ainult Microsoft Dynamics 365 Finance'i versiooniga 10.0.13 ja seda saab teha ainult pilvepõhises keskkonnas. **ENNE** keskkonnale kvaliteedivärskenduste rakendamist viige lõpule selle teema etapid.
+> [!IMPORTANT]
+> See teema on rakendatav ainult Microsoft Dynamics 365 Finance'i versiooniga 10.0.13 ja seda saab teha ainult pilvepõhises keskkonnas. **ENNE** keskkonnale kvaliteedivärskenduste rakendamist viige lõpule selle teema etapid.
 
 1. Avage oma LCS-i projektis leht **Keskkonna üksikasjad**. Pange tähele, et see sisaldab Remote Desktop Protocoli (RDP) abil keskkonnaga ühenduse loomiseks vajalikke üksikasju.
 
@@ -75,6 +76,6 @@ Selle lõpuleviimiseks kulub mõni minut. Peaksite saama kinnituse, et administr
 
 ![IIS reset](./media/9IISReset.png)
 
-18. Sulgege kaugtöölaua seanss ja kasutage LCS-i lehte **Keskkonna üksikasjad**, et logida keskkonda sisse ja kontrollida, et see töötab ootuspäraselt.
+18. Sulgege kaugtöölaua seanss ja kasutage LCS-i lehte **Keskkonna üksikasjad** , et logida keskkonda sisse ja kontrollida, et see töötab ootuspäraselt.
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
