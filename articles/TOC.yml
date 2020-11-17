@@ -1,26 +1,32 @@
 - name: Dynamics 365 Project Operations
   href: index.md
-- name: Alusta
+- name: Alustamine
   items:
     - name: Juurutamise tüübi määratlemine
       href: environment/determine-deployment-type.md
-- name: Project Operations ressursipõhiste/mitteaktsiapõhiste stsenaariumite jaoks
+    - name: Rakenduse Project Operations värskendused
+      href: whats-new/project-operations-updates.md
+- name: Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
   items:
-    - name: Alusta
+    - name: Alustamine
       items:
-        - name: Eelversiooni kordustellimuseks registreerumine (ressursi-/mitteaktsiapõhine)
+        - name: Rakenduse Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks juurutamise ülevaade
+          href: environment/project-operations-integrated-deployment-overview.md
+        - name: Eelversiooni kordustellimuseks registreerumine
           href: environment/resource-sign-up-preview-subscription.md
+        - name: Rakenduses Project Operations liikumine
+          href: environment/navigate-project-operations.md
         - name: Eeltingimuste konfigureerimine
           items:
             - name: Uue LCS-projekti loomine
               href: environment/create-lcs-project.md
-            - name: Azure’i kordustellimuse lisamine LCS-projektile
+            - name: Azure’i kordustellimuse lisamine LCS-i projektile
               href: environment/resource-add-azure-subscription-lcs-project.md
         - name: Demoandmete rakendamine
           items:
-            - name: Project Operationsi demoandmete rakendamine rakenduse Finance pilvepõhises keskkonnas
+            - name: Demoandmete rakendamine rakenduse Finance pilvepõhises keskkonnas
               href: environment/resource-apply-finance-demo-data.md
-            - name: Konfiguratsiooniandmete rakendamine Common Data Service Project Operationsis
+            - name: Konfiguratsiooniandmete rakendamine teenuses Common Data Service
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Keskkondade juurutamine
           items:
@@ -30,11 +36,15 @@
               href: environment/security-model.md
             - name: Rakenduse Project Operations integreerimine juriidilise olemi kohta
               href: environment/resource-configure-integration-per-legal-entity.md
-    - name: Müügiprotsess
+    - name: Mis on uut
       items:
-        - name: Müügi ülevaade
+        - name: November 2020 – Project Operations ressursipõhiste/mitteaktsiapõhiste stsenaariumite jaoks
+          href: whats-new/whats-new-nov-2020-resource-based.md
+    - name: Projektimüügi toimingud
+      items:
+        - name: Projektimüügi toimingute ülevaade
           href: sales/sales-overview.md
-        - name: Seadistamine
+        - name: Häälestamine
           items:
             - name: Tooted
               href: sales/sales-products.md
@@ -42,94 +52,104 @@
               href: sales/sales-units-unit-groups.md
             - name: Valuuta
               href: sales/sales-currency.md
-        - name: Müügivihjete haldamine
+        - name: Projekti müügivihjete haldamine
           href: sales/manage-leads.md
-        - name: Müügivõimaluste haldamine
+        - name: Projekti müügivõimaluste haldamine
           items:
-            - name: Projektipõhiste müügivõimaluste haldamine
+            - name: Projekti müügivõimaluste ülevaate haldamine
               href: sales/manage-project-based-opportunities.md
-            - name: Müügivõimaluse päis
+            - name: Projektipõhise müügivõimaluse sätted
               href: sales/opportunity-header.md
-            - name: Projektipõhised read
+            - name: Projektipõhised müügivõimaluse read
               href: sales/project-based-lines.md
-            - name: Projektipõhiste müügivõimaluste kopeerimine
-              href: sales/copy-project-based-opportunity.md
             - name: Projekti hinnapakkumiste loomine müügivõimaluste kaudu
               href: sales/link-quotes-opportunities.md
-            - name: Müügivõimaluse sulgemine
+            - name: Projektipõhiste müügivõimaluste kopeerimine
+              href: sales/copy-project-based-opportunity.md
+            - name: Projekti müügivõimaluse sulgemine
               href: sales/close-opportunity.md
-        - name: Hinnapakkumiste haldamine
+        - name: Projekti hinnapakkumiste haldamine
           items:
-            - name: Põhimõisted
+            - name: Projekti hinnapakkumiste ülevaate haldamine
+              href: pro/sales/manage-quotes-sales.md
+            - name: Projekti hinnapakkumiste mõisted
               href: sales/quotes-key-concepts.md
-            - name: Projekti hinnapakkumise kokkuvõtlik teave
+            - name: Projekti hinnapakkumiste sätted
               href: sales/quote-values-budget-limits-contract.md
-            - name: Mitme kliendi haldamine hinnapakkumisel
+            - name: Mitme kliendi haldamine projekti hinnapakkumises
               href: sales/manage-multiple-customers-quote.md
-            - name: Tootepõhised hinnapakkumise read
-              item:
-                - name: Tootepõhiste hinnapakkumiste ridade kuluarvutus
-                  href: sales/costing-product-based-quote-lines.md
-                - name: Kompleksühikute haldamine tootepõhiste hinnapakkumiste ridade jaoks
-                  href: sales/managing-complex-units-product-based-quote-lines.md
+            - name: Projekti hinnakirja haldamine hinnapakkumises
+              href: sales/managing-project-price-lists.md
             - name: Projektipõhised hinnapakkumise read
               items:
-                - name: Projekti hinnakirjade haldamine
-                  href: sales/managing-project-price-lists.md
+                - name: Projektipõhiste hinnapakkumiste ridade ülevaade
+                  href: sales/manage-quoted-values-budget-limits-quote-line.md
                 - name: Mitme kliendi projektipõhiste hinnapakkumiste ridade haldamine
                   href: sales/manage-multiple-customers-quote-line.md
+                - name: Projekti hinnapakkumise rea arveldatavate komponentide konfigureerimine
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: Prognooside loomine hinnapakkumise real
                   href: sales/create-estimate-quote-line.md
-                - name: Projekti prognooside importimine projektipõhise hinapakkumise reale
+                - name: Projektist prognooside importimine projektipõhise hinnapakkumise reale
                   href: sales/import-estimate-quote-line.md
-                - name: 'Pakutavate väärtuste, kliendi eelarvete ja mitteületatavate limiitide haldamine'
-                  href: sales/manage-quoted-values-budget-limits-quote-line.md
                 - name: Projektipõhise hinnapakkumise ridade arve ajakavad
                   href: sales/invoice-schedule-quote-line.md
-            - name: Projektipõhiste hinnapakkumiste kopeerimine
+            - name: Projekti hinnapakkumiste kopeerimine
               href: sales/lose-quote.md
-            - name: Hinnapakkumise sulgemine
+            - name: Projekti hinnapakkumiste sulgemine
               href: sales/win-quote.md
-        - name: Lepingute haldamine
+        - name: Projekti lepingute haldamine
           items:
-            - name: Põhimõisted – projektilepingud
+            - name: Projekti lepingute ülevaate haldamine
+              href: pro/sales/manage-contracts-sales.md
+            - name: Projekti lepingute mõisted
               href: sales/contracts-key-concepts.md
-            - name: Projektilepingu sätted
+            - name: Projekti lepingu sätted
               href: sales/project-contract-settings.md
+            - name: Projektilepingute projekti hinnakirja haldamine
+              href: sales/contracts-manage-project-price-lists.md
+            - name: Mitme kliendi haldamine projekti lepingutes
+              href: sales/contracts-manage-project-price-lists.md
             - name: Projektipõhised lepinguread
               items:
+                - name: Projektipõhiste lepinguridade ülevaade
+                  href: sales/manage-contract-values-project-based.md
+                - name: Mitme kliendi projektipõhiste lepinguridade haldamine
+                  href: sales/manage-multiple-customers-contract-line.md
                 - name: Projektipõhise lepingurea arveldatavate komponentide konfigureerimine
                   href: sales/configure-chargeable-contract-line.md
-                - name: Prognoosi importimine projektipõhisele lepingureale
+                - name: Projektipõhise lepingurea prognoosimine
+                  href: sales/create-estimate-contract-line.md
+                - name: Projektist prognooside importimine projektipõhisele lepingureale
                   href: sales/import-estimate-project-contract-line.md
-                - name: Arve ajakava loomine projekipõhisel lepingureal
+                - name: Arve ajakavade loomine projektipõhistel lepinguridadel
                   href: sales/invoice-schedules-contract-line.md
             - name: Projektilepingu kinnitamine
               href: pro/sales/confirm-contract-sales.md
+            - name: Projekti lepingu kopeerimine
+              href: pro/sales/copy-project-contracts-sales.md
     - name: Hinnakujundus ja kuluarvutus
       items:
-        - name: Hinnakirjade seadistamine
-          href: pricing-costing/price-list-setup.md
-        - name: Toote hinnakirjad
-          href: pricing-costing/product-price-list.md
-        - name: Projekti hinnakirjad
+        - name: Hinnakirja seadistamine
           items:
-            - name: Hinnakirja seadistamine müügi jaoks
-              items:
-                - name: Müügi hinnakirja seadistamine
-                  href: pricing-costing/sales-price-list-setup.md
-                - name: Töö arvelduskulu seadistamine
-                  href: pricing-costing/set-up-labor-bill-rate.md
-                - name: Töökuli määrade seadistamine
-                  href: pricing-costing/set-up-labor-cost-rate.md
-                - name: Kulude oma- ja müügihindade seadistamine
-                  href: pricing-costing/set-up-cost-sales-rates-expenses.md
-                - name: Vaikehinnakirjad
-                  href: pricing-costing/default-project-sales-price-lists.md
-                - name: Prognooside ja tegelike näitajate omahinna lahendamine
-                  href: pricing-costing/cost-price-resolution.md
+            - name: Hinnakirjade seadistamine
+              href: pricing-costing/price-list-setup.md
+            - name: Toote hinnakirjad
+              href: pricing-costing/product-price-list.md
+            - name: Töö arvelduskulu seadistamine
+              href: pricing-costing/set-up-labor-bill-rate.md
+            - name: Töökulu määrade seadistamine
+              href: pricing-costing/set-up-labor-cost-rate.md
+            - name: Kulude oma- ja müügihindade seadistamine
+              href: pricing-costing/set-up-cost-sales-rates-expenses.md
         - name: Vaikeväärtused ja tühistamised
           items:
+            - name: Vaikehinnakirjad
+              href: pricing-costing/default-project-sales-price-lists.md
+            - name: Projekti müügi hinnakirjade tühistamine
+              href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Prognooside ja tegelike näitajate omahinna lahendamine
+              href: pricing-costing/cost-price-resolution.md
             - name: Prognooside ja tegelike näitajate müügihinna lahendamine
               href: pricing-costing/sales-price-resolution.md
             - name: Hinnakirjade kopeerimine
@@ -138,8 +158,10 @@
           items:
             - name: Hinnakujunduse dimensioonide ülevaade
               href: pricing-costing/pricing-dimensions-overview.md
-            - name: Olemasoleva välja hinnakujunduse dimensioonina kasutamine
-              href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Olemasolevate väljade hinnakujunduse dimensioonina kasutamine
+              items:
+                - name: Project Operationsi väljad hinnakujunduse dimensioonidena
+                  href: pricing-costing/use-existing-field-pricing-dimension.md
             - name: Kohandatud väljad hinnakujunduse dimensioonidena
               items:
                 - name: Kohandatud väljade ja olemite loomine hinnakujunduse dimensioonidena
@@ -156,7 +178,7 @@
           href: project-management/project-management-overview.md
         - name: Projekti etapid
           href: project-management/project-stages.md
-        - name: Kasutajaliideses liikumine
+        - name: Kasutajaliideses navigeerimine
           href: project-management/navigate-ui.md
         - name: Projekti oleku mõistmine
           href: project-management/understand-project-status.md
@@ -202,7 +224,7 @@
       items:
         - name: Põhimõisted
           href: resource-management/resource-management-key-concepts.md
-        - name: Reserveeringud ja määramised
+        - name: Reserveeringud vs. määramised
           href: resource-management/booking-vs-assignment.md
         - name: Ressursihalduse režiimide ülevaade
           href: resource-management/resource-management-mode-overview.md
@@ -242,13 +264,17 @@
               href: resource-management/resource-reconciliation-overview.md
             - name: Ajavööndite haldamine
               href: resource-management/manage-multiple-time-zones.md
+        - name: Ressursikasutus
+          items:
+            - name: Ressursikasutuse ülevaade
+              href: resource-management/resource-utilization-overview.md
     - name: Aeg
       items:
         - name: Kellaaja ülevaade
           href: time/time-entry-overview.md
         - name: Ajakirjete loomine
           items:
-            - name: Ajakirje kasutajaliidese käitumine
+            - name: Ajakirje kasutajaliides
               href: time/ui-behavior-time.md
         - name: Arendaja märkmed
           items:
@@ -306,6 +332,10 @@
       items:
         - name: Kinnituste ülevaade
           href: approvals/approvals-overview.md
+        - name: Arendaja märkmed
+          items:
+            - name: Kinnituste arendaja märkmed
+              href: approvals/dev-notes-approvals.md
     - name: Tegelikud näitajad
       items:
         - name: Tegelike näitajate ülevaade
@@ -316,39 +346,53 @@
               href: actuals/create-confirm-correction-journals.md
     - name: Näidisarveldamine
       items:
-        - name: Arvete võlgnevuste haldamine
+        - name: Projekti arvete võlgnevuste haldamine
           href: proforma-invoicing/manage-billing-backlog.md
-        - name: Käsitsi näidisarve loomine
+        - name: Mitteületatava oleku ja valideerimiste haldamine
+          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+        - name: Projekti näidisarve käsitsi loomine
           href: proforma-invoicing/create-manual-proforma-invoice.md
-        - name: Näidisarve kinnitamine
+        - name: Projekti näidisarve haldamine
+          href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Projekti näidisarve kinnitamine
           href: proforma-invoicing/confirm-proforma-invoice.md
-        - name: Parandatud arved
-          href: proforma-invoicing/corrective-invoices.md
-        - name: Arve automaatse loomise konfigureerimine
+        - name: Projektiarve automatiseerimise konfigureerimine
           href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Projekti raamatupidamine
       items:
+        - name: Finantsdimensiooni vaikeväärtused
+          href: project-accounting/financial-dimension-defaults.md
         - name: Projektikategooriate konfigureerimine
           href: project-accounting/configure-project-categories.md
         - name: Sisemiste projektide raamatupidamise konfigureerimine
           href: project-accounting/configure-accounting-internal-projects.md
         - name: Arveldatavate projektide raamatupidamise konfigureerimine
           href: project-accounting/configure-accounting-billable-projects.md
+        - name: Integreerimise tööleht rakenduses Project Operations
+          href: project-accounting/project-operations-integration-journal.md
 - name: Lihtjuurutamine – tehing näidisarveldusele
   items:
-    - name: Alusta
+    - name: Alustamine
       items:
-        - name: Eelversiooni kordustellimuseks registreerumine (liht)
+        - name: Lihtjuurutamise ülevaade
+          href: pro/project-operations-overview-lite.md
+        - name: Eelversiooni kordustellimuseks registreerumine – liht
           href: environment/lite-preview-subscription-sign-up.md
-        - name: Project Operations Lite’i juurutuse juurutamine – tehing näidisarveldusele
+        - name: Project Operationsi juurutamine – liht
           href: environment/lite-deployment.md
-        - name: Demoseadistamise ja konfiguratsiooniandmete rakendamine
+        - name: Demoseadistamise ja konfiguratsiooniandmete rakendamine – liht
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Turbemudel
           href: environment/security-model.md
-    - name: Müügiprotsess
+    - name: Mis on uut
       items:
-        - name: Seadistamine
+        - name: Mis on uut novembris 2020 – lihtjuurutamine – tehing näidisarveldusele
+          href: pro/whats-new/whats-new-nov-2020-lite.md
+    - name: Projektimüügi toimingud
+      items:
+        - name: Projektimüügi toimingute ülevaade
+          href: sales/sales-overview.md
+        - name: Häälestamine
           items:
             - name: Tooted
               href: sales/sales-products.md
@@ -356,123 +400,153 @@
               href: sales/sales-units-unit-groups.md
             - name: Valuuta
               href: sales/sales-currency.md
-        - name: Müügivihjete haldamine
+        - name: Projekti müügivihjete haldamine
           href: pro/sales/managing-leads-sales.md
-        - name: Müügivõimaluste haldamine
+        - name: Projekti müügivõimaluste haldamine
           items:
-            - name: Projektipõhiste müügivõimaluste haldamine
+            - name: Projekti müügivõimaluste ülevaade
               href: sales/manage-project-based-opportunities.md
-            - name: Müügivõimaluse päis
+            - name: Projekti müügivõimaluse sätted
               href: pro/sales/opportunity-header-sales.md
-            - name: Projektipõhised read
+            - name: Tootepõhiste müügivõimaluste ridade haldamine
+              href: pro/sales/product-based-lines-sales.md
+            - name: Projektipõhiste müügivõimaluste ridade haldamine
               href: pro/sales/project-based-lines-sales.md
+            - name: Projekti müügivõimalustest hinnapakkumiste loomine
+              href: sales/link-quotes-opportunities.md
             - name: Projektipõhiste müügivõimaluste kopeerimine
               href: sales/copy-project-based-opportunity.md
-            - name: Projekti hinnapakkumiste loomine müügivõimaluste kaudu
-              href: sales/link-quotes-opportunities.md
-            - name: Tootepõhised müügivõimaluse read
-              href: pro/sales/product-based-lines-sales.md
-            - name: Müügivõimaluse sulgemine
+            - name: Projekti müügivõimaluse sulgemine
               href: sales/close-opportunity.md
-        - name: Hinnapakkumiste haldamine
+        - name: Projektipõhiste hinnapakkumiste haldamine
           items:
-            - name: Projekti hinnapakkumise peamised mõisted
+            - name: Projektipõhiste hinnapakkumiste ülevaade
+              href: pro/sales/manage-quotes-sales.md
+            - name: Projekti hinnapakkumise mõisted
               href: pro/sales/quotes-key-concepts-sales.md
-            - name: Projekti hinnapakkumise (müük) kokkuvõtlik teave
+            - name: Projekti hinnapakkumise sätted
               href: pro/sales/quote-values-budget-limits-contract-sales.md
-            - name: Mitme kliendi projekti hinnapakkumiste haldamine
+            - name: Mitu klienti projekti hinnapakkumises
               href: pro/sales/manage-multiple-customers-quote-sales.md
+            - name: Projekti hinnakirjad projekti hinnapakkumistes
+              href: pro/sales/manage-project-price-lists-sales.md
             - name: Tootepõhised hinnapakkumise read
               items:
+                - name: Tootepõhiste hinnapakkumiste ridade ülevaade
+                  href: pro/sales/product-based-quote-lines-sales.md
                 - name: Tootepõhiste hinnapakkumiste ridade kuluarvutus
                   href: pro/sales/costing-product-based-quote-lines-sales.md
-                - name: 'Keeruliste ühikute, nt ühe kasutaja või kuu kohta, haldamine tootel põhineva hinnapakkumise ridade jaoks'
+                - name: Kompleksühikute haldamine tootepõhiste hinnapakkumiste ridade jaoks
                   href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
             - name: Projektipõhised hinnapakkumise read
               items:
-                - name: Projektipakkumise projekti hinnakirja haldamine
-                  href: pro/sales/manage-project-price-lists-sales.md
-                - name: Mitme kliendi projektipõhiste hinnapakkumiste ridade haldamine
+                - name: Projektipõhiste hinnapakkumiste ridade ülevaade
+                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
+                - name: Mitme kliendi haldamine
                   href: pro/sales/manage-multiple-customers-quote-line-sales.md
-                - name: Projektide ja ülesannete vastendamine projektipõhise hinnapakkumise reaga
+                - name: Projektide ja ülesannete vastendamine
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+                - name: Arveldatavate komponentide konfigureerimine
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: Projektipõhised hinnapakkumise rea prognoosimine
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: Projektipõhised hinnapakkumise read (müük)
-                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: Projekti prognooside importimine projektipõhise hinapakkumise reale
+                - name: Prognoosi importimine projektist
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: Projektipõhise hinnapakkumise ridade arve ajakavad
+                - name: Arve ajakava haldamine
                   href: sales/invoice-schedule-quote-line.md
-                - name: Hinnapakkumise rea arveldatavate komponentide konfigureerimine
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
-        - name: Projektipõhiste hinnapakkumiste kopeerimine
-          href: sales/lose-quote.md
-        - name: Hinnapakkumise sulgemine
-          href: pro/sales/win-quote-sales.md
-    - name: Lepingute haldamine
-      items:
-        - name: Projektilepingute põhimõisted
-          href: pro/sales/contracts-key-concepts-sales.md
-        - name: Projektilepingu väljad ja teave
-          href: pro/sales/project-contract-settings-sales.md
-        - name: Tootepõhised lepinguread
+            - name: Projektipõhiste hinnapakkumiste kopeerimine
+              href: sales/lose-quote.md
+            - name: Projektipõhiste hinnapakkumiste sulgemine
+              href: pro/sales/win-quote-sales.md
+        - name: Projektipõhiste lepingute haldamine
           items:
-            - name: Tootepõhiste lepinguridade ülevaade
-              href: pro/sales/product-based-contract-lines-overview-sales.md
-            - name: Tootepõhiste lepinguridade kuluarvutus
-              href: pro/sales/cost-product-based-contract-lines-sales.md
-        - name: Projektipõhised lepinguread
-          items:
-            - name: Projektipõhise lepingurea arveldatavate komponentide konfigureerimine
-              href: pro/sales/configure-chargeable-components-contract-line.md
-            - name: Prognoosi importimine projektipõhisele lepingureale
-              href: pro/sales/import-estimate-project-contract-line-sales.md
-            - name: Arve ajakavade loomine projekipõhisel lepingureal
-              href: pro/sales/invoice-schedules-contract-line-sales.md
-        - name: Projektilepingute kopeerimine
-          href: pro/sales/copy-project-contracts-sales.md
-        - name: Projektilepingu kinnitamine
-          href: pro/sales/confirm-contract-sales.md
-        - name: Ettemaksud või honoraril põhinevad lepingud
-          href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+            - name: Projektipõhiste lepingute ülevaade
+              href: pro/sales/manage-contracts-sales.md
+            - name: Projekti lepingu mõisted
+              href: pro/sales/contracts-key-concepts-sales.md
+            - name: Projekti lepingu sätted
+              href: pro/sales/project-contract-settings-sales.md
+            - name: Mitu klienti projekti lepingutes
+              href: pro/sales/manage-multiple-customers-contract-sales.md
+            - name: Projekti hinnakirjad projekti lepingutes
+              href: sales/contracts-manage-project-price-lists.md
+            - name: Tootepõhised lepinguread
+              items:
+                - name: Tootepõhiste lepinguridade ülevaade
+                  href: pro/sales/product-based-contract-lines-overview-sales.md
+                - name: Tootepõhiste lepinguridade kuluarvutus
+                  href: pro/sales/cost-product-based-contract-lines-sales.md
+                - name: Kompleksühikute haldamine tootepõhiste lepinguridade jaoks
+                  href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
+            - name: Projektipõhised lepinguread
+              items:
+                - name: Projektipõhiste lepinguridade ülevaade
+                  href: pro/sales/manage-contract-values-project-based-sales.md
+                - name: Mitme lepinguga klientide haldamine
+                  href: pro/sales/manage-multiple-customers-contract-line-sales.md
+                - name: Projektide ja ülesannete vastendamine projekti lepingureaga
+                  href: pro/sales/mapping-projects-tasks-contract-line-sales.md
+                - name: Projekti lepingurea arveldatavate komponentide konfigureerimine
+                  href: pro/sales/configure-chargeable-components-contract-line.md
+                - name: Projektipõhise lepingurea prognoosimine
+                  href: pro/sales/create-estimate-project-contract-line-sales.md
+                - name: Prognooside importimine projektist selle lepingureale
+                  href: pro/sales/import-estimate-project-contract-line-sales.md
+                - name: Arve ajakavade haldamine projekti lepingureal
+                  href: pro/sales/invoice-schedules-contract-line-sales.md
+            - name: Projektilepingute kopeerimine
+              href: pro/sales/copy-project-contracts-sales.md
+            - name: Projektilepingu kinnitamine
+              href: pro/sales/confirm-contract-sales.md
+            - name: Ettemaksud ja honorarid
+              items:
+                - name: Ettemaksud ja honoraril põhinevad lepingud – liht
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: Honoraride ajakava seadistamine – liht
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: Sihtpärase ettemaksu loomine lepingus – liht
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Hinnakujundus ja kuluarvutus
       items:
-        - name: Hinnakirjade seadistamine
-          href: pricing-costing/price-list-setup.md
-        - name: Projekti hinnakirjad
+        - name: Hinnakirja seadistamine
           items:
-            - name: Hinnakirja seadistamine müügi jaoks
-              items:
-                - name: Müügi hinnakirja seadistamine
-                  href: pricing-costing/sales-price-list-setup.md
-                - name: Töö arvelduskulu seadistamine
-                  href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
-                - name: Töökulude määrade seadistamine
-                  href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
-                - name: Kataloogitoodete oma- ja müügihindade seadistamine
-                  href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
-                - name: Kulude oma- ja müügihindade seadistamine
-                  href: pricing-costing/set-up-cost-sales-rates-expenses.md
-                - name: Vaikehinnakirjad
-                  href: pricing-costing/default-project-sales-price-lists.md
-                - name: Prognooside ja tegelike näitajate omahinna lahendamine
-                  href: pro/pricing-costing/cost-price-resolution-sales.md
+            - name: Hinnakirjade seadistamine
+              href: pricing-costing/price-list-setup.md
+            - name: Müügi hinnakirja seadistamine
+              href: pricing-costing/sales-price-list-setup.md
+            - name: Töö arvelduskulu seadistamine – liht
+              href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
+            - name: Töökulu määrade seadistamine – liht
+              href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
+            - name: Kataloogitoodete oma- ja müügihindade seadistamine – liht
+              href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
+            - name: Kulude oma- ja müügihindade seadistamine
+              href: pricing-costing/set-up-cost-sales-rates-expenses.md
         - name: Vaikeväärtused ja tühistamised
           items:
-            - name: Prognooside ja tegelike näitajate müügihinna lahendamine
+            - name: Vaikehinnakirjad
+              href: pricing-costing/default-project-sales-price-lists.md
+            - name: Projekti müügi hinnakirjade tühistamine
+              href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Prognooside ja tegelike näitajate omahinna lahendamine – liht
+              href: pro/pricing-costing/cost-price-resolution-sales.md
+            - name: Prognooside ja tegelike näitajate müügihinna lahendamine – liht
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Hinnakirjade kopeerimine
               href: pricing-costing/copy-price-lists.md
         - name: Hinnakujunduse dimensioonid
           items:
-            - name: Olemasoleva välja hinnakujunduse dimensioonina kasutamine
-              href: pricing-costing/use-existing-field-pricing-dimension.md
-            - name: Kohandatud väljad hinnakujunduse dimensioonina
+            - name: Hinnakujunduse dimensioonide ülevaade
+              href: pricing-costing/pricing-dimensions-overview.md
+            - name: Olemasolevate väljade hinnakujunduse dimensioonina kasutamine
+              items:
+                - name: Olemasoleva välja hinnakujunduse dimensioonina kasutamine
+                  href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Kohandatud väljad hinnakujunduse dimensioonidena
               items:
                 - name: Kohandatud väljade ja olemite loomine hinnakujunduse dimensioonidena
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
-                - name: Kohandatud väljade lisamine hinna seadistusele ja ülekande olemitele
+                - name: 'Kohandatud väljade lisamine hinna seadistusele ja ülekande olemitele '
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: Kohandatud väljade seadistamine hinnakujunduse dimensioonidena
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
@@ -526,7 +600,7 @@
       items:
         - name: Põhimõisted
           href: resource-management/resource-management-key-concepts.md
-        - name: Reserveeringud ja määramised
+        - name: Reserveeringud vs. määramised
           href: resource-management/booking-vs-assignment.md
         - name: Ressursihalduse režiimide ülevaade
           href: resource-management/resource-management-mode-overview.md
@@ -556,7 +630,7 @@
               href: resource-management/define-skills-proficiencies.md
             - name: Ressursikalendrite määratlemine
               href: resource-management/define-resource-calendars.md
-        - name: Broneeringu eraldusmeetodid
+        - name: Eraldusmeetodite broneerimine
           href: resource-management/booking-allocation-methods.md
         - name: Oskused ja pädevusmudelid
           href: resource-management/skills-proficiency-models.md
@@ -566,13 +640,17 @@
               href: resource-management/resource-reconciliation-overview.md
             - name: Ajavööndite haldamine
               href: resource-management/manage-multiple-time-zones.md
+        - name: Ressursikasutus
+          items:
+            - name: Ressursikasutuse ülevaade
+              href: resource-management/resource-utilization-overview.md
     - name: Aeg
       items:
         - name: Kellaaja ülevaade
           href: time/time-entry-overview.md
         - name: Ajakirjete loomine
           items:
-            - name: Ajakirje kasutajaliidese käitumine
+            - name: Ajakirje kasutajaliides
               href: time/ui-behavior-time.md
         - name: Arendaja märkmed
           items:
@@ -588,6 +666,10 @@
       items:
         - name: Kinnituste ülevaade
           href: approvals/approvals-overview.md
+        - name: Arendaja märkmed
+          items:
+            - name: Kinnituste arendaja märkmed
+              href: approvals/dev-notes-approvals.md
     - name: Tegelikud näitajad
       items:
         - name: Tegelike näitajate ülevaade
@@ -596,20 +678,32 @@
           items:
             - name: Korrektiivsete töölehtede loomine ja kinnitamine
               href: actuals/create-confirm-correction-journals.md
-        - name: Näidisarveldamine
-          items:
-            - name: Arvete võlgnevuste haldamine
-              href: proforma-invoicing/manage-billing-backlog.md
-            - name: Käsitsi näidisarve loomine
-              href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
-            - name: Honorari või ettemaksu arve
-              href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-            - name: Parandatud arved
-              href: proforma-invoicing/corrective-invoices.md
-            - name: Arve automaatse loomise konfigureerimine
-              href: proforma-invoicing/configure-automated-invoice-creation.md
-- name: Project Operations ressursi/tootmise tellimuste stsenaariumite jaoks
+    - name: Näidisarveldamine
+      items:
+        - name: Projekti arvete võlgnevuste haldamine
+          href: pro/proforma-invoicing/manage-billing-backlog-sales.md
+        - name: Mitteületatava oleku ja valideerimiste haldamine
+          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+        - name: Projekti näidisarve käsitsi loomine
+          href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
+        - name: Projekti näidisarve haldamine
+          href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
+        - name: Honorari või ettemaksu arve
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
+        - name: Projekti näidisarve kinnitamine
+          href: pro/proforma-invoicing/confirm-proforma-invoice-sales.md
+        - name: Projekti parandusarvete loomine
+          href: pro/proforma-invoicing/corrective-invoices-sales.md
+        - name: Projektiarve automatiseerimise konfigureerimine
+          href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
+- name: Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
   items:
+    - name: Mis on uut
+      items:
+        - name: Mis on uut novembris 2020 – Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
+          href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
+    - name: Rakenduse Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks juurutamise ülevaade
+      href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: Projekti haldamise ja raamatupidamise ülevaade
       href: prod-pma/overview-project-management-accounting.md
     - name: Kontsernisisesed arved
@@ -734,112 +828,126 @@
       href: prod-exp/personal-expenses.md
 - name: Dynamics 365 Project Service Automation
   items:
-    - name: Rakenduse Project Service Automation ülevaade
+    - name: Project Service Automation
       href: psa/overview.md
-    - name: Mis on uut?
+    - name: Mis on uut
       items:
         - name: Uuenduse väljalaske ajakava Project Service 3.x jaoks
           href: psa/version-history-ps.md
-        - name: Mis on uut või muutunud värskenduse 24 versiooni 3?
+        - name: 'Mis on uut või muutunud värskenduses 25, V3?'
+          href: psa/whats-new-ur-25.md
+        - name: 'Mis on uut või muutunud värskenduses 24, V3?'
           href: psa/whats-new-ur-24.md
-        - name: Mis on uut või muutunud värskenduse 23 versioonis 3?
+        - name: 'Mis on uut või muutunud värskenduses 23, V3?'
           href: psa/whats-new-ur-23.md
-        - name: Mis on uut või muutunud värskenduse 22 versioonis 3?
+        - name: 'Mis on uut või muutunud värskenduses 22, V3?'
           href: psa/whats-new-ur-21.md
-        - name: Mis on uut või muutunud värskenduse 20 versioonis 3?
+        - name: 'Mis on uut või muutunud värskenduses 20, V3?'
           href: psa/whats-new-ur-20.md
-        - name: Mis on uut või muutunud värskenduse 19 versioonis 3?
+        - name: 'Mis on uut või muutunud värskenduses 19, V3?'
           href: psa/whats-new-ur-19.md
-        - name: Mis on uut või muutunud värskenduse 18 versioonis 3?
+        - name: 'Mis on uut või muutunud värskenduses 18, V3?'
           href: psa/whats-new-ur-18.md
-        - name: 'Mis on uut või muutunud värskenduse 17.5, kiirparanduse versioonis 3?'
+        - name: 'Mis on uut või muutunud värskenduses 17.5, V3, kiirparanduses?'
           href: psa/whats-new-ur-17-5.md
-        - name: Mis on uut või muutunud värskenduse 17 versioonis 3?
+        - name: 'Mis on uut või muutunud värskenduses 17, V3?'
           href: psa/whats-new-ur-17.md
-        - name: Mis on uut või muutunud värskenduse 16 versioonis 3?
+        - name: 'Mis on uut või muutunud värskenduses 16, V3?'
           href: psa/whats-new-ur-16.md
-        - name: Mis on uut või muutunud värskenduse 15 versioonis 3?
+        - name: 'Mis on uut või muutunud värskenduses 15, V3?'
           href: psa/whats-new-ur-15.md
-        - name: Mis on uut või muutunud värskenduse 14 versioonis 3?
+        - name: 'Mis on uut või muutunud värskenduses 14, V3?'
           href: psa/whats-new-ur-14.md
-        - name: Mis on uut või muutunud värskenduse 13 versioonis 3?
+        - name: 'Mis on uut või muutunud värskenduses 13, V3?'
           href: psa/whats-new-ur-13.md
-        - name: Mis on uut või muutunud värskenduse 12 versioonis 3?
+        - name: 'Mis on uut või muutunud värskenduses 12, V3?'
           href: psa/whats-new-ur-12.md
         - name: Mis on uut või muudetud rakenduse Project Service Automation versiooni 3.x 2020. aasta 1. laines?
           href: psa/whats-new-v3-2020-wave1.md
         - name: Mis on uut või muudetud rakenduse Project Service Automation versioonis 3?
           href: psa/whats-new-changed-v3.md
-    - name: Rakenduse Project Service Automation 3.x juurutamine
+    - name: Kavandage oma kasutuselevõtt (rakenduse versioon 3.x)
       items:
-        - name: Juurutamise ülevaade
+        - name: Näidisandmete installimine
           href: psa/install-sample-data-3-x.md
-    - name: Värskendus
+        - name: Projekti plaanimis- ja jälgimisjuhend
+          href: psa/implementation-guides/project-planning-tracking.md
+        - name: 'Hinnapakkumiste tegemise, hinnakujunduse ja arveldamise põhijuhend.'
+          href: psa/implementation-guides/begin-quoting-pricing-billing.md
+        - name: 'Hinnapakkumiste tegemise, hinnakujunduse ja arveldamise täpsem juhend'
+          href: psa/implementation-guides/adv-quoting-pricing-billing.md
+        - name: Ressursihalduse juhend
+          href: psa/implementation-guides/resource-management-guide.md
+        - name: Aruandlusjuhend
+          href: psa/implementation-guides/reporting-guide.md
+    - name: Rakenduse Project Service Automation värskendus (rakenduse versioonile 3.x)
       items:
-        - name: Rakenduse Project Service Automation värskendus (3.x)
+        - name: Rakenduse Project Service Automation värskendus
           href: psa/upgrade-psa-home-page.md
-        - name: Värsenduse kaalutlused – versioonilt 2.x või 1.x versioonile 3.x
+        - name: Värskenduse kaalutlused – versioonilt 2.x või 1.x versioonile 3.x
           href: psa/upgrade-v3.md
         - name: Arendus (3.x)
-          href: psa/developer-guides/overview-dev-notes-v3.x.md
-        - name: Olemi muudatused
-          href: psa/developer-guides/entity-changes-v3.x.md
-        - name: Aeg ja kulu
-          href: psa/developer-guides/time-expense-changes-v3.x.md
-        - name: Ressursihaldus
-          href: psa/developer-guides/resource-management-changes-v3.x.md
-        - name: Iganenud veebiressursid rakenduse Project Service Automation versioonis 3.x
-          href: psa/developer-guides/web-resources-deprecated-v3.x.md
-    - name: Projekti kavandamine
-      items:
-        - name: Projekti kavandamise ülevaade
-          href: psa/project-planning.md
-        - name: Projekti ajakavad
-          href: psa/project-creating.md
-        - name: Projekti kulud ja tulud
-          href: psa/project-estimating.md
-        - name: Müügiprognoosid ja projektid
-          href: psa/project-leveraging.md
-        - name: Projekti edenemine ja kulu tarbimine
-          href: psa/project-tracking.md
-        - name: Projektimallid
-          href: psa/project-templates.md
-        - name: Projekti etapid
-          href: psa/project-stages.md
-        - name: Projekti sätted
-          href: psa/project-settings.md
-    - name: Hinnakujunduse ja kuluarvestuse dimensioonid
-      items:
-        - name: Hinnakujunduse ja kuluarvestuse dimensioonide ülevaade
-          href: psa/pricing-costing-dimensions.md
-        - name: Lahenduse loomine kohandatud hinnakujunduse dimensioonide jaoks
-          href: psa/custompricingdimensionssolution.md
-        - name: Kohandatud väljade ja olemite loomine
-          href: psa/create-custom-fields-entities.md
-        - name: 'Kohandatud väljade lisamine hinna seadistusele ja ülekande olemitele '
-          href: psa/field-references.md
-        - name: 'Kohandatud väljade seadistamine hinnakujunduse dimensioonidena '
-          href: psa/set-up-pricing-dimensions.md
-        - name: Lisandmooduli atribuutide värskendamine uute hinnakujunduse dimensioonide lisamiseks
-          href: psa/update-plug-in-attributes.md
-        - name: Elementide korduvkasutamine hinnakujunduse dimensioonidena
           items:
-            - name: Project Service’is olemasoleva välja kasutamine hinnakujunduse dimensioonina
-              href: psa/use-existing-field.md
-            - name: Broneeritava ressursi kasutamine hinnakujunduse dimensioonina
-              href: psa/bookable-resource-pricing-dimension.md
-            - name: Kandekategooria kasutamine hinnakujunduse dimensioonina
-              href: psa/transaction-category-pricing-dimension.md
-        - name: Projektis mitut rolli täitev broneeritav ressurss
-          href: psa/bookable-resource-multiple-roles.md
-        - name: Hinnakujunduse dimensiooni väljalülitamine
-          href: psa/turn-off-pricing-dimension.md
-    - name: 'Pakkumise tegemine, hinnakujundus ja arveldamine'
+            - name: Arendus (rakenduse versioon 3.x)
+              href: psa/developer-guides/overview-dev-notes-v3.x.md
+            - name: Olemi muudatused
+              href: psa/developer-guides/entity-changes-v3.x.md
+            - name: Aeg ja kulu
+              href: psa/developer-guides/time-expense-changes-v3.x.md
+            - name: Ressursihaldus
+              href: psa/developer-guides/resource-management-changes-v3.x.md
+            - name: Iganenud veebiressursid rakenduse Project Service Automation versioonis 3.x
+              href: psa/developer-guides/web-resources-deprecated-v3.x.md
+    - name: Project Service Automation (3.x)
       items:
-        - name: 'Pakkumise tegemise, hinnakujunduse ja arveldamise ülevaade'
-          href: psa/quote-bill-price.md
-        - name: Pakkumise tegemine
+        - name: Projekti kavandamine
           items:
+            - name: Projekti plaanimise avaleht
+              href: psa/project-planning.md
+            - name: Projekti ajakavad
+              href: psa/project-creating.md
+            - name: Projekti kulud ja tulud
+              href: psa/project-estimating.md
+            - name: Müügiprognoosid ja projektid
+              href: psa/project-leveraging.md
+            - name: Projekti edenemine ja kulu tarbimine
+              href: psa/project-tracking.md
+            - name: Projektimallid
+              href: psa/project-templates.md
+            - name: Projekti etapid
+              href: psa/project-stages.md
+            - name: Projekti sätted
+              href: psa/project-settings.md
+        - name: Hinnakujunduse ja kuluarvestuse dimensioonid
+          items:
+            - name: Hinnakujunduse ja kuluarvestuse dimensioonide avaleht
+              href: psa/pricing-costing-dimensions.md
+            - name: Lahenduse loomine kohandatud hinnakujunduse dimensioonide jaoks
+              href: psa/custompricingdimensionssolution.md
+            - name: Kohandatud väljade ja olemite loomine
+              href: psa/create-custom-fields-entities.md
+            - name: 'Kohandatud väljade lisamine hinna seadistusele ja ülekande olemitele '
+              href: psa/field-references.md
+            - name: 'Kohandatud väljade seadistamine hinnakujunduse dimensioonidena '
+              href: psa/set-up-pricing-dimensions.md
+            - name: Lisandmooduli atribuutide värskendamine uute hinnakujunduse dimensioonide lisamiseks
+              href: psa/update-plug-in-attributes.md
+            - name: Olemasoleva välja kasutamine hinnakujunduse dimensioonina
+              items:
+                - name: Project Service’is olemasoleva välja kasutamine hinnakujunduse dimensioonina
+                  href: psa/use-existing-field.md
+                - name: Broneeritava ressursi kasutamine hinnakujunduse dimensioonina
+                  href: psa/bookable-resource-pricing-dimension.md
+                - name: Kandekategooria kasutamine hinnakujunduse dimensioonina
+                  href: psa/transaction-category-pricing-dimension.md
+            - name: Projektis mitut rolli täitev broneeritav ressurss
+              href: psa/bookable-resource-multiple-roles.md
+            - name: Hinnakujunduse dimensiooni väljalülitamine
+              href: psa/turn-off-pricing-dimension.md
+        - name: 'Pakkumise tegemine, hinnakujundus ja arveldamine'
+          items:
+            - name: 'Hinnapakkumise, hinnakujunduse ja arveldamise avaleht'
+              href: psa/quote-bill-price.md
             - name: Müügiprotsessid
               href: psa/basic-sales-process.md
             - name: Ühikurühmad ja ühikud
@@ -850,20 +958,14 @@
               href: psa/basic-quote-lines.md
             - name: Tootepõhised hinnapakkumise read
               href: psa/product-based-quote-lines.md
-            - name: Projekti hinnapakkumiste analüüsimine
-              href: psa/basic-analyzing-quotes.md
-        - name: Hinnakujundus
-          items:
             - name: Projekti hinnakujundus
               href: psa/basic-pricing.md
             - name: Tootekataloogi hinnakujundus
-              hreF: psa/product-catalog-pricing.md
+              href: psa/product-catalog-pricing.md
             - name: Äritehingud
               href: psa/basic-business-transactions.md
             - name: Prognoosid
               href: psa/estimates.md
-        - name: Arveldamine
-          items:
             - name: Projekti hinnapakkumiste analüüsimine
               href: psa/basic-analyzing-quotes.md
             - name: Varem kinnitatud aja- või kulukirjete tagasivõtmine
@@ -880,71 +982,71 @@
               href: psa/invoicing.md
             - name: Mitmevaluutalised stsenaariumid
               href: psa/advanced-currency.md
-    - name: Projektide ressursid
-      items:
-        - name: Projektide ressursside ülevaade
-          href: psa/resource-management.md
-        - name: Ülesandele üldiste broneeritavate ressursside määramine ja ressursinõuete loomine
-          href: psa/assign-generic-bookable-resource.md
-        - name: Broneeritavate nimega ressursside broneerimine projekti meeskonnale ja ülesande määramine
-          href: psa/assign-named-bookable-resource.md
-        - name: Ressursi määramine ülesandele
-          href: psa/FAQ-assign-resources-to-tasks.md
-        - name: Nimega ressursside broneerimine ressursinõuetest
-          href: psa/book-named-resource.md
-        - name: Ressursi reserveerimised ja kuidas need on seotud ülesande määramistega
-          href: psa/FAQ-bookings-and-assignments.md
-        - name: Ressursitaotluse esitamine
-          href: psa/submit-resource-request.md
-        - name: Pakutud ressursi aktsepteerimine või tagasilükkamine
-          href: psa/accept-reject-proposed-resource.md
-        - name: Arveldatava ressursikasutuse vaatamine
-          href: psa/FAQ-utilization-view.md
+        - name: Projektide ressursid
+          items:
+            - name: Projektide ressursside avaleht
+              href: psa/resource-management.md
+            - name: Ülesandele üldiste broneeritavate ressursside määramine ja ressursinõuete loomine
+              href: psa/assign-generic-bookable-resource.md
+            - name: Broneeritavateks nimetatud ressursside broneerimine projekti meeskonnale ja ülesande määramine
+              href: psa/assign-named-bookable-resource.md
+            - name: Ressursi määramine ülesandele
+              href: psa/FAQ-assign-resources-to-tasks.md
+            - name: Nimega ressursside broneerimine ressursinõuetest
+              href: psa/book-named-resource.md
+            - name: Ressursi reserveerimised ja kuidas need on seotud ülesande määramistega
+              href: psa/FAQ-bookings-and-assignments.md
+            - name: Ressursitaotluse esitamine
+              href: psa/submit-resource-request.md
+            - name: Pakutud ressursi aktsepteerimine või tagasilükkamine
+              href: psa/accept-reject-proposed-resource.md
+            - name: Arveldatava ressursikasutuse vaatamine
+              href: psa/FAQ-utilization-view.md
         - name: Reserveerimiste ja määramiste vastavusse viimine
           href: psa/reconcile-booking-assignment.md
-    - name: Ressursihaldus
-      items:
-        - name: Ressursihalduse avaleht
-          href: psa/resource-management-home-page.md
-        - name: Ressursside haldus
-          href: psa/manage-resources.md
-        - name: Põhimõisted
-          href: psa/reports-key-concepts.md
-        - name: Ressursitaotluste täitmine
-          href: psa/resource-management-fulfill-requests.md
-        - name: Soovitatavad ressursid
-          href: psa/resource-management-propose-resources.md
-        - name: Ressursside reserveerimine
-          href: psa/resource-management-book-resources-scheduleboard.md
-        - name: Broneeringu eraldusmeetodid
-          href: psa/FAQ-allocation-methods.md
-        - name: Esialgse broneerimise nõuded
-          href: psa/resource-management-softbook-requirements.md
-        - name: Ressursi esialgne broneerimine
-          href: psa/FAQ-soft-book.md
-        - name: Projekti reserveeringu loomine ajakavapaneelilt
-          href: psa/FAQ-project-booking-schedule-board.md
-        - name: Oskused ja pädevusmudelid
-          href: psa/resource-management-skills-proficiency.md
-        - name: Ressursihalduse KKK
-          href: psa/resource-management-faq.md
-    - name: Aruandlus
-      items:
-        - name: Aruandluse ülevaade
-          href: psa/reports-reporting-dynamics-365-project-service.md
-        - name: Armatuurlauad
-          href: psa/reports-dashboards.md
-        - name: Rakenduse Project Service Automation andmemudeliga töötamine
-          href: psa/reports-working-project-service-data-model.md
-    - name: Ajakirje
-      items:
-        - name: Ajakirjete loomine
-          href: psa/time-entries.md
-        - name: Ajakirjete kalender
-          href: psa/time-entry-calendar.md
-        - name: Iganädalaste ajakirjete kohandamine
-          href: psa/time-entry-extensibility-v3.md
-    - name: KKK ja tõrkeotsing
+        - name: Ressursihaldus
+          items:
+            - name: Ressursihalduse avaleht
+              href: psa/resource-management-home-page.md
+            - name: Ressursside haldus
+              href: psa/manage-resources.md
+            - name: Põhimõisted
+              href: psa/reports-key-concepts.md
+            - name: Ressursitaotluste täitmine
+              href: psa/resource-management-fulfill-requests.md
+            - name: Ressursside soovitamine
+              href: psa/resource-management-propose-resources.md
+            - name: Ressursside reserveerimine
+              href: psa/resource-management-book-resources-scheduleboard.md
+            - name: Eraldusmeetodite broneerimine
+              href: psa/FAQ-allocation-methods.md
+            - name: Esialgse broneerimise nõuded
+              href: psa/resource-management-softbook-requirements.md
+            - name: Ressursi esialgne broneerimine
+              href: psa/FAQ-soft-book.md
+            - name: Projekti reserveeringu loomine ajakavapaneelilt
+              href: psa/FAQ-project-booking-schedule-board.md
+            - name: Oskused ja pädevusmudelid
+              href: psa/resource-management-skills-proficiency.md
+            - name: Ressursihalduse KKK
+              href: psa/resource-management-faq.md
+        - name: Aruandlus
+          items:
+            - name: Aruandluse avaleht
+              href: psa/reports-reporting-dynamics-365-project-service.md
+            - name: Armatuurlauad
+              href: psa/reports-dashboards.md
+            - name: Teenuse Project Service Automation andmemoodul
+              href: psa/reports-working-project-service-data-model.md
+        - name: Ajakirjed
+          items:
+            - name: Ajakirjete loomine
+              href: psa/time-entries.md
+            - name: Ajakirjete kalender
+              href: psa/time-entry-calendar.md
+            - name: Iganädalaste ajakirjete kohandamine
+              href: psa/time-entry-extensibility-v3.md
+    - name: KKK ja tõrkeotsing (3.x)
       items:
         - name: Miks on tegeliku kulu maksumuse vaikeväärtus null?
           href: psa/FAQ-zero-price-expense-cost-actuals.md
@@ -971,60 +1073,62 @@
         - name: Tehnilised ülevaated
           href: psa/white-papers.md
         - name: Administraatori juhend
-          href: psa/admin-guide.md
-        - name: Installimine ja kohandamine
-          href: psa/install-customize.md
-        - name: Demoandmete kasutamine
-          href: psa/use-demo-data.md
-        - name: Projektiteenuse automatiseerimise konfigureerimine
           items:
-            - name: Rakenduse Project Service Automation konfigureerimine
-              href: psa/configure.md
-            - name: Ajaühikute seadistamine
-              href: psa/set-up-time-units.md
-            - name: Valuutade ja vahetuskursside seadistamine
-              href: psa/set-up-currencies-exchange-rates.md
-            - name: Organisatsiooniüksuste loomine
-              href: psa/create-organizational-units.md
-            - name: Arve sageduste seadistamine
-              href: psa/set-up-invoice-frequencies.md
-            - name: Tehingukategooriate konfigureerimine
-              href: psa/configure-transaction-categories.md
-            - name: Kulukategooriate konfigureerimine
-              href: psa/configure-expense-categories.md
-            - name: Tootekataloogi üksuste loomine
-              href: psa/create-product-catalog-items.md
-            - name: Hinnakirja loomine
-              href: psa/create-price-list.md
-        - name: Ressursid
-          items:
+            - name: Administraatori juhend (Project Service)
+              href: psa/admin-guide.md
+            - name: Installimine ja kohandamine
+              href: psa/install-customize.md
+            - name: Demoandmete kasutamine
+              href: psa/use-demo-data.md
+            - name: Rakenduse Project Service konfigureerimine
+              items:
+                - name: Project Service'i konfigureerimine
+                  href: psa/configure.md
+                - name: Ajaühikute seadistamine
+                  href: psa/set-up-time-units.md
+                - name: Valuutade ja vahetuskursside seadistamine
+                  href: psa/set-up-currencies-exchange-rates.md
+                - name: Organisatsiooniüksuste loomine
+                  href: psa/create-organizational-units.md
+                - name: Arve sageduste seadistamine
+                  href: psa/set-up-invoice-frequencies.md
+                - name: Tehingukategooriate konfigureerimine
+                  href: psa/configure-transaction-categories.md
+                - name: Kulukategooriate konfigureerimine
+                  href: psa/configure-expense-categories.md
+                - name: Tootekataloogi üksuste loomine
+                  href: psa/create-product-catalog-items.md
+                - name: Hinnakirja loomine
+                  href: psa/create-price-list.md
             - name: Ressursside seadistamine
-              href: psa/set-up-resources.md
-            - name: Lisa ressursse
-              href: psa/add-resources.md
-            - name: Ressursi oskuste lisamine
-              href: psa/add-resource-skills.md
-            - name: Pädevusmudelite seadistamine
-              href: psa/set-up-proficiency-models.md
-            - name: Ressursirollide lisamine
-              href: psa/add-resource-roles.md
-            - name: Ressursirollide konfigureerimine
-              href: psa/configure-resource-roles.md
-            - name: Oskuste seostamine ressurssidega
-              href: psa/associate-skills-with-resources.md
-            - name: Oskuste seostamine ressursirollidega
-              href: psa/associate-skills-with-resource-roles.md
-            - name: Töötundide malli loomine
-              href: psa/create-work-hours-template.md
-            - name: Kalendri rakendamine ressursile
-              href: psa/apply-calendar-resource.md
-            - name: Lisaseadete konfigureerimine
-              href: psa/configure-additional-parameters-settings.md
-            - name: Rakenduse Project Finder Mobile lubamine
-              href: psa/enable-project-finder-mobile-app-features.md
-        - name: Ressursihaldus
+              items:
+                - name: Ressursside seadistamine (Project Service)
+                  href: psa/set-up-resources.md
+                - name: Lisa ressursse
+                  href: psa/add-resources.md
+                - name: Ressursi oskuste lisamine
+                  href: psa/add-resource-skills.md
+                - name: Pädevusmudelite seadistamine
+                  href: psa/set-up-proficiency-models.md
+                - name: Ressursirollide lisamine
+                  href: psa/add-resource-roles.md
+                - name: Ressursirollide konfigureerimine
+                  href: psa/configure-resource-roles.md
+                - name: Oskuste seostamine ressurssidega
+                  href: psa/associate-skills-with-resources.md
+                - name: Oskuste seostamine ressursirollidega
+                  href: psa/associate-skills-with-resource-roles.md
+                - name: Töötundide malli loomine
+                  href: psa/create-work-hours-template.md
+                - name: Kalendri rakendamine ressursile
+                  href: psa/apply-calendar-resource.md
+                - name: Lisaseadete konfigureerimine
+                  href: psa/configure-additional-parameters-settings.md
+                - name: Rakenduse Project Finder Mobile lubamine
+                  href: psa/enable-project-finder-mobile-app-features.md
+        - name: Ressursihalduri juhend
           items:
-            - name: Ressursihalduri juhend
+            - name: Ressursihalduri juhend (Project Service)
               href: psa/resource-manager-guide.md
             - name: Ressursitaotluste haldamine
               href: psa/manage-resource-requests.md
@@ -1036,9 +1140,9 @@
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling (URS)
               href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
-        - name: Projektijuhtimine
+        - name: Projektijuhi juhend
           items:
-            - name: Projektijuhi juhend
+            - name: Projektijuhi juhend (Project Service)
               href: psa/project-manager-guide.md
             - name: Tööprognooside esitamine
               href: psa/provide-estimates-project-during-sales-process.md
@@ -1074,9 +1178,9 @@
               href: psa/view-dashboards-reports.md
             - name: Lisandmooduli kasutamine töö plaanimiseks teenuses Microsoft Project
               href: psa/add-plan-work-microsoft-project.md
-        - name: Kontohaldus
+        - name: Kontohalduri juhend
           items:
-            - name: Kontohalduri juhend
+            - name: Kontohalduri juhend (Project Service)
               href: psa/account-manager-guide.md
             - name: Kliendikonto loomine
               href: psa/create-customer-account.md
@@ -1086,13 +1190,13 @@
               href: psa/create-project-quote.md
             - name: Projekti lepingu loomine
               href: psa/create-project-contract.md
-        - name: Aeg ja kulu
+        - name: 'Aeg, kulu ja koostöö'
           items:
-            - name: 'Aeg, kulu ja koostöö'
+            - name: 'Aja-, kulu- ja koostööjuhend (Project Service)'
               href: psa/time-expense-collaboration-guide.md
             - name: Rakenduste hankimine
               href: psa/get-apps.md
-            - name: Sisselogimine
+            - name: Logi sisse
               href: psa/sign-in.md
             - name: Ajakava kuvamine
               href: psa/view-schedule.md
@@ -1106,12 +1210,13 @@
               href: psa/allow-someone-else-enter-time-entry-expense.md
             - name: Eemalolekuaja ajastamine
               href: psa/schedule-time-off.md
-            - name: 'Koostöö Office 365 rühmasid kasutades](collaborate-project-team-members-office-365-groups.md'
+            - name: Koostöö Office 365 rühmasid kasutades
+              href: psa/collaborate-project-team-members-office-365-groups.md
             - name: Projektide leidmine teenusega Project Finder Mobile
               href: psa/find-next-project-finder-mobile-app.md
             - name: Projekti ressursside keskuse juhend
               href: psa/project-resource-hub-users-guide.md
-        - name: Arendaja märkmed
+        - name: Märkused arendajatele (rakenduse versioon 2.x)
           items:
             - name: Olemitele kohandatud vormide lisamine
               href: psa/developer-guides/add-custom-qoi-forms-v2.x.md
