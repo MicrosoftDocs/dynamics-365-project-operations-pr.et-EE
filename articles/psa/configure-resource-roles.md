@@ -3,7 +3,7 @@ title: Ressursirollide konfigureerimine
 description: Project Service'i ressursirollide konfigureerimine
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,42 +18,42 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f899d17980df16602c964bab4bbab1e976b3ebf
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b573bec395217e105cc8d9c669343e37ff6662e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074954"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129133"
 ---
-# <a name="configure-resource-roles-project-service"></a><span data-ttu-id="d24ca-103">Ressursirollide konfigureerimine (Project Service)</span><span class="sxs-lookup"><span data-stu-id="d24ca-103">Configure resource roles (Project Service)</span></span>
+# <a name="configure-resource-roles-project-service"></a><span data-ttu-id="94c49-103">Ressursirollide konfigureerimine (Project Service)</span><span class="sxs-lookup"><span data-stu-id="94c49-103">Configure resource roles (Project Service)</span></span>
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="d24ca-104">Rollid on olulised projekti planeerimisel, kui määrate ressursinõudeid või projekti kulusid.</span><span class="sxs-lookup"><span data-stu-id="d24ca-104">Roles play an important part in project planning, when determining resource requirements or costs of a project.</span></span> <span data-ttu-id="d24ca-105">Iga rolli puhul, mida teie projektid nõuavad, peate looma ressursirolli ning seostama sellega oskused ja pädevused.</span><span class="sxs-lookup"><span data-stu-id="d24ca-105">For each role your projects require, you need to create a resource role and associate skills and proficiencies to that role.</span></span> <span data-ttu-id="d24ca-106">Näiteks võite luua rolli arendajale, projektijuhile või mängutestijale.</span><span class="sxs-lookup"><span data-stu-id="d24ca-106">For example, you might want to create roles for developer, project manager, or game tester.</span></span> <span data-ttu-id="d24ca-107">Samuti määrate rolli jaoks nõutavad oskused ja pädevustasemed.</span><span class="sxs-lookup"><span data-stu-id="d24ca-107">You’ll also set the skills and proficiency levels required for the role.</span></span>  
+<span data-ttu-id="94c49-104">Rollid on olulised projekti planeerimisel, kui määrate ressursinõudeid või projekti kulusid.</span><span class="sxs-lookup"><span data-stu-id="94c49-104">Roles play an important part in project planning, when determining resource requirements or costs of a project.</span></span> <span data-ttu-id="94c49-105">Iga rolli puhul, mida teie projektid nõuavad, peate looma ressursirolli ning seostama sellega oskused ja pädevused.</span><span class="sxs-lookup"><span data-stu-id="94c49-105">For each role your projects require, you need to create a resource role and associate skills and proficiencies to that role.</span></span> <span data-ttu-id="94c49-106">Näiteks võite luua rolli arendajale, projektijuhile või mängutestijale.</span><span class="sxs-lookup"><span data-stu-id="94c49-106">For example, you might want to create roles for developer, project manager, or game tester.</span></span> <span data-ttu-id="94c49-107">Samuti määrate rolli jaoks nõutavad oskused ja pädevustasemed.</span><span class="sxs-lookup"><span data-stu-id="94c49-107">You’ll also set the skills and proficiency levels required for the role.</span></span>  
   
- <span data-ttu-id="d24ca-108">Ressursirollide konfigureerimine tagab organisatsiooni jaoks projekti tõhusa prognoosimise.</span><span class="sxs-lookup"><span data-stu-id="d24ca-108">Configure resource roles to ensure effective project estimation for your organization.</span></span>  <span data-ttu-id="d24ca-109">Veenduge ka selles, et oleksite arveldustüübi täpselt määranud.</span><span class="sxs-lookup"><span data-stu-id="d24ca-109">Also make sure you accurately set the billing type.</span></span> <span data-ttu-id="d24ca-110">Mittearveldatava arveldustüübiga üksusekogumit ei kuvata lepingu ega hinnapakkumise ridadel.</span><span class="sxs-lookup"><span data-stu-id="d24ca-110">An item set with a non-chargeable billing type doesn’t show up on contract or quote lines.</span></span>  
+ <span data-ttu-id="94c49-108">Ressursirollide konfigureerimine tagab organisatsiooni jaoks projekti tõhusa prognoosimise.</span><span class="sxs-lookup"><span data-stu-id="94c49-108">Configure resource roles to ensure effective project estimation for your organization.</span></span>  <span data-ttu-id="94c49-109">Veenduge ka selles, et oleksite arveldustüübi täpselt määranud.</span><span class="sxs-lookup"><span data-stu-id="94c49-109">Also make sure you accurately set the billing type.</span></span> <span data-ttu-id="94c49-110">Mittearveldatava arveldustüübiga üksusekogumit ei kuvata lepingu ega hinnapakkumise ridadel.</span><span class="sxs-lookup"><span data-stu-id="94c49-110">An item set with a non-chargeable billing type doesn’t show up on contract or quote lines.</span></span>  
   
- <span data-ttu-id="d24ca-111">Kui olete ressursirollid seadistanud, saate seadistada hinnakirjaga kulu ja müügihinnad.</span><span class="sxs-lookup"><span data-stu-id="d24ca-111">Once you’ve set up resource roles, you can set up cost and sales prices with a price list.</span></span>  
+ <span data-ttu-id="94c49-111">Kui olete ressursirollid seadistanud, saate seadistada hinnakirjaga kulu ja müügihinnad.</span><span class="sxs-lookup"><span data-stu-id="94c49-111">Once you’ve set up resource roles, you can set up cost and sales prices with a price list.</span></span>  
   
- <span data-ttu-id="d24ca-112">Iga lisatava rolli puhul toimige järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="d24ca-112">For each role you want to add, do the following:</span></span>  
+ <span data-ttu-id="94c49-112">Iga lisatava rolli puhul toimige järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="94c49-112">For each role you want to add, do the following:</span></span>  
   
-1.  <span data-ttu-id="d24ca-113">Minge jaotisse **Project Service > Ressursirollid**.</span><span class="sxs-lookup"><span data-stu-id="d24ca-113">Go to **Project Service > Resource Roles**.</span></span>  
+1.  <span data-ttu-id="94c49-113">Minge jaotisse **Project Service > Ressursirollid**.</span><span class="sxs-lookup"><span data-stu-id="94c49-113">Go to **Project Service > Resource Roles**.</span></span>  
   
-2.  <span data-ttu-id="d24ca-114">Klõpsake nuppu **Uus**.</span><span class="sxs-lookup"><span data-stu-id="d24ca-114">Click **New**.</span></span>  
+2.  <span data-ttu-id="94c49-114">Klõpsake nuppu **Uus**.</span><span class="sxs-lookup"><span data-stu-id="94c49-114">Click **New**.</span></span>  
   
-3.  <span data-ttu-id="d24ca-115">Sisestage alal **Üldine** rolli nimi väljale **Nimi** ja seejärel täitke vajaduse järgi ka muud väljad.</span><span class="sxs-lookup"><span data-stu-id="d24ca-115">In the **General** area, enter a name for the role in **Name** , and then fill in the other fields as necessary.</span></span>  
+3.  <span data-ttu-id="94c49-115">Sisestage alal **Üldine** rolli nimi väljale **Nimi** ja seejärel täitke vajaduse järgi ka muud väljad.</span><span class="sxs-lookup"><span data-stu-id="94c49-115">In the **General** area, enter a name for the role in **Name**, and then fill in the other fields as necessary.</span></span>  
   
-4.  <span data-ttu-id="d24ca-116">Klõpsake kirje loomiseks käsku **Salvesta** , seejärel saate selle redigeerimist jätkata.</span><span class="sxs-lookup"><span data-stu-id="d24ca-116">Click **Save** to create the record so you can continue editing it.</span></span>  
+4.  <span data-ttu-id="94c49-116">Klõpsake kirje loomiseks käsku **Salvesta**, seejärel saate selle redigeerimist jätkata.</span><span class="sxs-lookup"><span data-stu-id="94c49-116">Click **Save** to create the record so you can continue editing it.</span></span>  
   
-5.  <span data-ttu-id="d24ca-117">Oskuse lisamiseks klõpsake jaotises **Oskused** valikut **+**.</span><span class="sxs-lookup"><span data-stu-id="d24ca-117">In the **Skills** area, click **+** to add a skill.</span></span>  
+5.  <span data-ttu-id="94c49-117">Oskuse lisamiseks klõpsake jaotises **Oskused** valikut **+**.</span><span class="sxs-lookup"><span data-stu-id="94c49-117">In the **Skills** area, click **+** to add a skill.</span></span>  
   
-6.  <span data-ttu-id="d24ca-118">Klõpsake paanil **Rolli pädevusnõue** välja **Oskus** , siis nuppu **Otsi** ja seejärel valige oskus.</span><span class="sxs-lookup"><span data-stu-id="d24ca-118">In the **Role competency requirement** pane, click in the **Skill** field, click the **Search** button, and then select a skill.</span></span>  
+6.  <span data-ttu-id="94c49-118">Klõpsake paanil **Rolli pädevusnõue** välja **Oskus**, siis nuppu **Otsi** ja seejärel valige oskus.</span><span class="sxs-lookup"><span data-stu-id="94c49-118">In the **Role competency requirement** pane, click in the **Skill** field, click the **Search** button, and then select a skill.</span></span>  
   
-7.  <span data-ttu-id="d24ca-119">Valige selle oskuse jaoks pädevus ja seejärel klõpsake käsku **Salvesta**.</span><span class="sxs-lookup"><span data-stu-id="d24ca-119">Select a proficiency for that skill, and then click **Save**.</span></span>  
+7.  <span data-ttu-id="94c49-119">Valige selle oskuse jaoks pädevus ja seejärel klõpsake käsku **Salvesta**.</span><span class="sxs-lookup"><span data-stu-id="94c49-119">Select a proficiency for that skill, and then click **Save**.</span></span>  
   
-8.  <span data-ttu-id="d24ca-120">Jätkake oskuste lisamisega vajadust mööda.</span><span class="sxs-lookup"><span data-stu-id="d24ca-120">Continue adding skills as necessary.</span></span> <span data-ttu-id="d24ca-121">Kui olete lõpetanud, klõpsake kuva paremas alanurgas käsku **Salvesta**.</span><span class="sxs-lookup"><span data-stu-id="d24ca-121">When you’re done, click **Save** at the bottom right corner of the screen.</span></span>  
+8.  <span data-ttu-id="94c49-120">Jätkake oskuste lisamisega vajadust mööda.</span><span class="sxs-lookup"><span data-stu-id="94c49-120">Continue adding skills as necessary.</span></span> <span data-ttu-id="94c49-121">Kui olete lõpetanud, klõpsake kuva paremas alanurgas käsku **Salvesta**.</span><span class="sxs-lookup"><span data-stu-id="94c49-121">When you’re done, click **Save** at the bottom right corner of the screen.</span></span>  
   
-9. <span data-ttu-id="d24ca-122">Selleks et teha ressursiroll projektides kasutamiseks kättesaadavaks, klõpsake käsku **Aktiveeri**.</span><span class="sxs-lookup"><span data-stu-id="d24ca-122">To make this resource role available for projects to use, click **Activate**.</span></span>  
+9. <span data-ttu-id="94c49-122">Selleks et teha ressursiroll projektides kasutamiseks kättesaadavaks, klõpsake käsku **Aktiveeri**.</span><span class="sxs-lookup"><span data-stu-id="94c49-122">To make this resource role available for projects to use, click **Activate**.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="d24ca-123">Vt ka</span><span class="sxs-lookup"><span data-stu-id="d24ca-123">See Also</span></span>  
- [<span data-ttu-id="d24ca-124">Ressursside seadistamine</span><span class="sxs-lookup"><span data-stu-id="d24ca-124">Set up resources</span></span>](../psa/set-up-resources.md)
+### <a name="see-also"></a><span data-ttu-id="94c49-123">Vt ka</span><span class="sxs-lookup"><span data-stu-id="94c49-123">See Also</span></span>  
+ [<span data-ttu-id="94c49-124">Ressursside seadistamine</span><span class="sxs-lookup"><span data-stu-id="94c49-124">Set up resources</span></span>](../psa/set-up-resources.md)
