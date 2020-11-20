@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 56892a134c0c739958f7f939214930631dea7420
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074860"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180367"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Projektipõhise hinnapakkumise rea prognoosimine
 
@@ -30,9 +30,9 @@ Projektipõhise hinnapakkumise rea prognoosimiseks valige projektipõhise hinnap
 
 Projektipõhisel hinnapakkumise real prognoosi loomiseks valige vahekaart **Hinnapakkumise rea üksikasjad**. Reaüksus, mille sellel vahekaardil loote, arvutab kokku selle hinnapakkumise rea hinnapakkumise väärtuse. 
 
-Hinnapakkumise rea üksikasjade loomiseks valige **+ Uus hinnapakkumise rea üksikasi** alamruudistikus **Hinnapakkumise rea üksikasjad**. Avaneb kiirloomise liugur. Vormil **Hinnapakkumise rida** on järgmised väljad.
+Hinnapakkumise rea üksikasjade looiseks valige andmeruudustikus **Hinnapakkumise rea üksikasjad** suvand **+ Uus hinnapakkumise rea üksikasi**. Avaneb kiirloomise liugur. Vormil **Hinnapakkumise rida** on järgmised väljad.
 
-| **Väli** | **Asukoht** | **Asjakohasus, eesmärk ja juhised** | **Allavoolu mõjud** |
+| **Väli** | **Asukoht** | **Kirjeldus** | **Allavoolu mõjud** |
 | --- | --- | --- | --- |
 | Kirjeldus | Kiirloomine | Konkreetse prognoosi kirjeldus. | See väli läheb vaikimisi seotud kulu hinnapakkumise rea üksikasjale, mis on automaatselt loodud. |
 | Kande klass | Kiirloomine | See ripploend sisaldab projektipõhise hinnapakkumise rea vahekaardil **Üldine** sisalduvaid tehinguklasse.  | See väli läheb vaikimisi seotud kulu hinnapakkumise rea üksikasjale, mis on automaatselt loodud. |
@@ -50,11 +50,11 @@ Hinnapakkumise rea üksikasjade loomiseks valige **+ Uus hinnapakkumise rea üks
 
 ## <a name="update-prices-on-quote-line-details"></a>Hinnapakkumise rea üksikasjade hindade värskendamine
 
-Kui muutsite hinnapakkumisele lisatud projekti hinnakirjas või lepinguüksuse omahinna hinnakirjus hindu, saate valida suvandi **Arvuta uuesti** lehel **Hinnapakkumine** , et värskendada selle muudatuse kajastamiseks üksiku hinnapakkumise rea üksikasjade hindu. Kui valite suvandi **Arvuta ümber** , siis kuvatakse hoiatus, mis teatab, et kõigi selle hinnapakkumise ridade hinnapakkumise rea üksikasjade hinnad lähtestatakse. Valige **Jah** , et värskendada hindu nii müügi kui ka hinnapakkumise rea üksikasjade jaoks.
+Kui muutsite hinnapakkumisele lisatud projekti hinnakirjas või lepinguüksuse omahinna hinnakirjus hindu, saate valida suvandi **Arvuta uuesti** lehel **Hinnapakkumine**, et värskendada selle muudatuse kajastamiseks üksiku hinnapakkumise rea üksikasjade hindu. Kui valite suvandi **Arvuta ümber**, siis kuvatakse hoiatus, mis teatab, et kõigi selle hinnapakkumise ridade hinnapakkumise rea üksikasjade hinnad lähtestatakse. Valige **Jah**, et värskendada hindu nii müügi kui ka hinnapakkumise rea üksikasjade jaoks.
 
 ## <a name="access-quote-line-details-for-cost"></a>Juurdepääs kulu hinnapakkumise rea üksikasjadele
 
-Valige vahekaardil **Hinnapakkumise rea üksikasjad** ruudustikus rida, et lubada alamruudustiku tööriistaribal mõned toimingud. Alamruudustiku tööriistariba esimene toiming, kui valitud hinnapakkumise rea üksikasi on **Ava kulu üksikasi**. Valige **Ava kulu üksikasi** , et näha selle hinnapakkumise reaga seostuvat kulumäära ja summat.
+Valige vahekaardil **Hinnapakkumise rea üksikasjad** ruudustikus rida, et lubada andmeruudustiku tööriistaribal mõned toimingud. Andmeruudustiku tööriistariba esimene toiming, kui suvandis **Ava kulu üksikasjad** on valitud hinnapakkumise rea üksikasi. Valige **Ava kulu üksikasi**, et näha selle hinnapakkumise reaga seostuvat kulumäära ja summat.
 
 > [!NOTE]
 > Kulu hinnapakkumise rea üksikasja ressursi üksuse, koguse, kuupäevade, rolli või kategooria väärtuste muutmine muudab vastavaid väärtuseid müügi hinnapakkumise rea üksiaksjades.

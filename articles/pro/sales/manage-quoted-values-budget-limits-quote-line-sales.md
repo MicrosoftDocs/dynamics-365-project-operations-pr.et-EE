@@ -1,21 +1,21 @@
 ---
-title: Projektipõhised hinnapakkumise read (Pro)
+title: Projektipõhiste hinnapakkumiste ridade ülevaade – liht
 description: Selles teemas antakse teavet projektitööks projektipõhiste hinnapakkumise ridade kasutamise kohta. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a409d1e378afe97de7fb6c77cf3ad6703661bdff
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: be1663c0d226fa19fe4b9df566e16d215f1fc08e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074886"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181087"
 ---
-# <a name="project-based-quote-lines-pro"></a>Projektipõhised hinnapakkumise read (Pro)
+# <a name="project-based-quote-lines-overview---lite"></a>Projektipõhiste hinnapakkumiste ridade ülevaade – liht
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
@@ -31,12 +31,12 @@ Projektipõhised hinnapakkumise read on loodud selleks, et aidata hinnata kohust
 
 Järgmine tabel annab teavet projektipõhise hinnapakkumise rea vahekaardi **Üldine** väljade kohta. Need väljad aitavad seadistada projektitöö üksikasjaliku, ligikaudse prognoosi aluse.
 
-| **Väli** | **Asjakohasus, eesmärk ja juhised** | **Allavoolu mõjud** |
+| **Väli** | **Kirjeldus** | **Allavoolu mõjud** |
 | --- | --- | --- |
 | Nimetus | Hinnapakkumise rea nimi, mis peaks aitama teil tuvastada prognoositava hinnapakkumise diskreetse komponendi. | Kopeeritud projekti lepingureale, mis on selle hinnapakkumise rea põhjal hinnapakkumise võitmisel loodud. |
 | Arveldusmeetod | Müügivõimaluse põhjal loodud hinnapakkumises kopeeritakse see väärtus vastavalt müügivõimaluse rea väljalt. See väli sisaldab kahte põhilist lepingumudelit, mida Dynamics 365 Project Operations toetab.</br>- Fikseeritud hind</br>- Aeg ja materjal.| Välja väärtus kopeeritakse sellele projekti lepingureale, mis on selle hinnapakkumise rea põhjal hinnapakkumise võitmisel loodud. |
 | Project | Kasutage seda valikulist välja, et tuvastada projekt, mida kasutatakse selle kohustusega seotud töö teostamiseks. Kui projekt on vastendatud hinnapakkumise reaga, aitab see teil seadistada tasustatavad tööülesanded ja esitada hinnapakkumise reale hinnapakkumise rea üksikasjadena projektipõhise prognoosi. Kui projekti ei vastendata projektipõhise hinnapakkumise reaga, tuleks prognoos luua käsitsi, luues kõigi hinnapakkumise ridade üksikasjad. | Välja väärtus kopeeritakse sellele projekti lepingureale, mis on selle hinnapakkumise rea põhjal hinnapakkumise võitmisel loodud.|
-| Kaasatud ülesanded | Näitab, kas seda hinnapakkumise rida kasutatakse valitud projekti kõigi või mõnede projekti toimingute jaoks. Sellel väljal on järgmised võimalikud väärtused.</br>- Kõik projekti ülesanded</br>- Ainult valitud projekti ülesanded</br>Tühi väärtus sellel väljal võrdub valikuga **Kõik projekti ülesanded**. | Kui projekti lehel on valitud **Ainult valitud projekti ülesanded** , võimaldab vahekaart **Ülesande arvelduse seadistus** teil valida konkreetsed ülesanded selle hinnapakkumise reaga sidumiseks. Välja väärtus kopeeritakse sellele projekti lepingureale, mis on selle hinnapakkumise rea põhjal hinnapakkumise võitmisel loodud. |
+| Kaasatud ülesanded | Näitab, kas seda hinnapakkumise rida kasutatakse valitud projekti kõigi või mõnede projekti toimingute jaoks. Sellel väljal on järgmised võimalikud väärtused.</br>- Kõik projekti ülesanded</br>- Ainult valitud projekti ülesanded</br>Tühi väärtus sellel väljal võrdub valikuga **Kõik projekti ülesanded**. | Kui projekti lehel on valitud **Ainult valitud projekti ülesanded**, võimaldab vahekaart **Ülesande arvelduse seadistus** teil valida konkreetsed ülesanded selle hinnapakkumise reaga sidumiseks. Välja väärtus kopeeritakse sellele projekti lepingureale, mis on selle hinnapakkumise rea põhjal hinnapakkumise võitmisel loodud. |
 | Kaasa aeg | Lipp **Jah**/**Ei** näitab, kas valitud projekti ajakanded või tööjõukulud kaasatakse selle hinnapakkumise rea prognoosi. Lipp **Ei** näitab, et valitud projekti ajakandeid või tööjõukulusid ei kaasata selle hinnapakkumise rea prognoosi. Lipp **Jah** näitab, et valitud projekti ajakanded või tööjõukulud kaasatakse selle hinnapakkumise rea prognoosi. | Välja väärtus kopeeritakse sellele projekti lepingureale, mis on selle hinnapakkumise rea põhjal hinnapakkumise võitmisel loodud. |
 | Kaasa kulu | Lipp **Jah**/**Ei** näitab, kas valitud projekti kulud kaasatakse selle hinnapakkumise rea prognoosi. Lipp **Ei** näitab, et valitud projekti kulusid ei kaasata selle hinnapakkumise rea prognoosi. Lipp **Jah** näitab, et valitud projekti kulud kaasatakse selle hinnapakkumise rea prognoosi. | Välja väärtus kopeeritakse sellele projekti lepingureale, mis on selle hinnapakkumise rea põhjal hinnapakkumise võitmisel loodud. |
 | Kaasa tasu | Lipp **Jah**/**Ei** näitab, kas valitud projekti tasud kaasatakse selle hinnapakkumise rea prognoosi. Lipp **Ei** näitab, et valitud projekti tasusid ei kaasata selle hinnapakkumise rea prognoosi. Lipp **Jah** näitab, et valitud projekti tasud kaasatakse selle hinnapakkumise rea prognoosi. | Välja väärtus kopeeritakse sellele projekti lepingureale, mis on selle hinnapakkumise rea põhjal hinnapakkumise võitmisel loodud. |
@@ -49,15 +49,15 @@ Järgmine tabel annab teavet projektipõhise hinnapakkumise rea vahekaardi **Ül
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Projektipõhiste hinnapakkumiste ridade vahekaardi Üldine väljade valideerimise reeglid
 
-**1. reegel** : kui väli **Kaasatud ülesanded** on tühi või seadistatud väärtusele **Kõik projekti ülesanded** , kaasatakse projekt hinnapakkumise reale.
+**1. reegel**: kui väli **Kaasatud ülesanded** on tühi või seadistatud väärtusele **Kõik projekti ülesanded**, kaasatakse projekt hinnapakkumise reale.
 
-**2. reegel** : kui väli **Kaasatud ülesanded** on tühi või kui selle sätte väärtuseks on seatud **kõik projekti tööülesanded** , saab projekti ja teatud kandeklassi kaasata ainult hinnapakkumise ühele projektipõhisele hinnapakkumise reale.
+**2. reegel**: kui väli **Kaasatud ülesanded** on tühi või kui selle sätte väärtuseks on seatud **kõik projekti tööülesanded**, saab projekti ja teatud kandeklassi kaasata ainult hinnapakkumise ühele projektipõhisele hinnapakkumise reale.
 
-**3. reegel** : kui väli **Kaasatud ülesanded** on seadistatud väärtusele **Ainult valitud projekti ülesanded** , saab projekti ja teatud kandeklassi kaasata hinnapakkumise mitmele projektipõhisele hinnapakkumise reale.
+**3. reegel**: kui väli **Kaasatud ülesanded** on seadistatud väärtusele **Ainult valitud projekti ülesanded**, saab projekti ja teatud kandeklassi kaasata hinnapakkumise mitmele projektipõhisele hinnapakkumise reale.
 
-**4. reegel** : kui müügivõimalusel on mitu hinnapakkumist, võivad erinevate hinnapakkumiste hinnapakkumise read viidata samale projektile ja sisaldada sama kandeklassi.
+**4. reegel**: kui müügivõimalusel on mitu hinnapakkumist, võivad erinevate hinnapakkumiste hinnapakkumise read viidata samale projektile ja sisaldada sama kandeklassi.
 
-**5. reegel** : kui hinnapakkumised ei kuulu sama müügivõimaluse juurde, ei saa nad sisaldada sama projekti ja kandeklassi.
+**5. reegel**: kui hinnapakkumised ei kuulu sama müügivõimaluse juurde, ei saa nad sisaldada sama projekti ja kandeklassi.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>

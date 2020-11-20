@@ -1,21 +1,21 @@
 ---
-title: Tööjõukulu arveldusmäärade seadistamine
+title: Töö arvelduskulu seadistamine – liht
 description: Selles teemas kirjeldatakse tööjõukulu määrade seadistamist Project Operationsis.
 author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e6294895857442f3a24a9d73ee07d2b90926a4fb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075018"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181176"
 ---
-# <a name="setting-up-bill-rates-for-labor-rate-billing"></a>Tööõukulu määrade arveldusmäärade seadistamine 
+# <a name="set-up-labor-bill-rates---lite"></a>Töö arvelduskulu seadistamine – liht
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
@@ -25,9 +25,9 @@ Igale hinnakirjale on seadistatud rolli hinnad või tööjõu määrad, mis keht
 2. Valige andmeruudustiku vahekaardil **Rolli hinnad** suvand **+ Uus rolli hind**. 
 3. Sisestage paanil **Kiirloomine** rolli ja organisatsiooni üksuse kombinatsioon, mille jaoks teil on arveldusmäära seadistada vaja.
 
-  Järgmises tabelis on rolli hinna rea vahekaardi **Üldine** väljad ja paan **Kiirloomine** , mida peate müügi hinnakirjale rolli hindade loomisel meeles pidama.
+  Järgmises tabelis on rolli hinna rea vahekaardi **Üldine** väljad ja paan **Kiirloomine**, mida peate müügi hinnakirjale rolli hindade loomisel meeles pidama.
 
-  | Väli | Asukoht | Asjakohasus, eesmärk ja juhised | Allavoolu mõjud |
+  | Väli | Asukoht | Kirjeldus | Allavoolu mõjud |
   | --- | --- | --- | --- |
   | Roll | Vahekaart **Üldine** ja paan **Kiirloomine** | Valige roll, mille jaoks soovite arveldusmäära määrata. | Sissetuleva prognoosi või tegeliku näitaja roll vastendatakse rolli vaikimisi arveldusmäära saamiseks selle reaga. |
   | Ressursi üksus | Vahekaart **Üldine** ja paan **Kiirloomine** | Valige ettevõtte organisatsiooniüksus või allüksus, kellelt roll pärineb. Näiteks Fabrikam India robootika allüksuse arendaja või Fabrikam USA tarkvara allüksuse arendaja. | Sissetuleva prognoosi või tegeliku näitaja ressursiüksus vastendatakse rolli vaikimisi arveldusmäära saamiseks selle reaga. |

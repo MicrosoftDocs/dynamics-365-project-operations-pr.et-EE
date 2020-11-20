@@ -3,10 +3,10 @@ title: Soovitatavate ressursside ülevaade
 description: Selles teemas kirjeldatakse projektile ressursside pakkumist.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 11/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ad5cbdeb5fe05e6115eb024833a8d58b626ea4c9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 54a0924da17eac86e2fa400540e629f6d803aa35
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074923"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401168"
 ---
 # <a name="review-proposed-resources"></a>Soovitatavate ressursside ülevaade
 
@@ -47,35 +47,6 @@ Ressursihaldurid saavad ressursitaotluste töötlemisel kasutada kõiki järgmis
 - Pakkuda vähem ressursse, kui on vaja. Selle stsenaariumi korral on pakutud ressursi võimsus väiksem kui nõutavad tunnid, mille taotleja määras. Seega, kui taotleja võtab pakutud ressursid vastu, luuakse ülejäänud nõudluse hõivamiseks täitmata ressursi nõue.
 - Broneerida nõudluse rahuldamiseks mitmeid ressursse, kui töö lõpule viimiseks pole saadaval ühte ainukest ressurssi.
 - Broneerida vähem ressursse, kui on vaja. Sel juhul on broneeritud tunde vähem kui nõutud tunde. Süsteem juhendab teid, et pakuksite broneeringute asemel ressursse, et taotleja saaks järelejäänud nõudlust kontrollida ja jälgida.
-
-## <a name="billable-utilization"></a>Tasustatav kasutus
-
-Ressurssidel võib olla tasustatav sihtkasutus. See sihtkasutus on määratletud kas ressursi vaikerolli atribuudina või määratud iga broneeritava ressursi kirjele. Kasutuse arvutused põhinevad tegelikel tundidel, mida ressursid on kinnitatud ajakandeid kasutades edastanud.
-
-Kasutuse arvutamiseks kasutatakse järgmiseid valemeid.
-
-- Tasustatav kasutus = arveldatavad tegelikud tunnid ÷ ressursivõimsus
-- Mittetasustatav kasutus = tegelik aeg koos arveldustüübi ID-ga = mittetasustatav, täiendav või pole saadaval ÷ ressursivõimsus
-- Sisemine = tegelik aeg ilma müügilepinguta ÷ ressursivõimsus
-- Ressursivõimsus = ressursi töötunnid – kontorist väljasolek – puhkepäevad
-
-Vaate **Ressursikasutus** leiate paanilt **Ressursid**.
-
-Iga ruudustiku lahter esindab perioodis (nt päev, nädal või kuu) oleva ressursi tasustatavat kasutusprotsenti. Lahtrite värvimiseks kasutatakse järgmisi valemeid.
-
-- **Roheline:** tasustatav kasutus \>= ressursi sihtkasutus
-- **Kollane:** sihtkasutus – 20 \<= tasustatav kasutus \< sihtkasutus
-- **Punane:** tasustatav kasutus \< sihtkasutus – 20
-
-Kuna vaade **Ressursikasutus** põhineb ajakavapaneelil, saate oma tulemuste filtreerimiseks kasutada ajakavapaneeli filtreerimise võimalusi.
-
-Ruudustik nõuab, et määraksite sihtkasutuse kas rollile või konkreetsele ressursile. Selle seadistamiseks tehke valikud **Ressursid** \> **Ressursi rollid**.
-
-Peale selle tuleb igale broneeritavale ressursile määrata vaikeroll. Avage **Ressursid** \> **Ressursid**. Kontrollige vahekaardil **Project Service** , et ressursi roll oleks määratletud ja selle väli **On vaikimisi** oleks määratud väärtusele **Jah**. Saate lisada veel rolle, kus väärtus **On vaikimisi = Ei**. Roll, kus väärtust **On vaikimisi = Jah** , kasutatakse ressursi kasutuse hindamiseks selle rolli eesmärgi suhtes.
-
-Vahekaardil **Project Service** saate ressursi jaoks määrata ka eraldi sihtkasutuse. Seejärel kasutab kasutuse arvutus seda sihtkasutust, et hinnata ressursi sihti, mitte ressursi vaikerolli sihti.
-
-Ressursi jaoks kuvatakse kasutus ainult juhul, kui sellel ressursil on ruudustikus kuvatud perioodi jooksul kinnitatud, arveldatavat aega.
 
 ## <a name="resource-availability"></a>Ressursi saadavus
 

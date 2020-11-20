@@ -1,21 +1,21 @@
 ---
-title: Ettemaksud või honoraril põhinevad lepingud
+title: Ettemaksul ja honoraril põhinevad lepingud – liht
 description: Selles teemas antakse teavet Project Operationsi honoraril põhinevaid lepingumudelite ja ettemaksu kohta.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ccf8ff4fa52fa6ff9fe534dfbe6736afc24ffba
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087880"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180862"
 ---
-# <a name="advances-and-retainer-based-contracts"></a>Ettemaksud või honoraril põhinevad lepingud 
+# <a name="advances-and-retainer-based-contracts---lite"></a>Ettemaksul ja honoraril põhinevad lepingud – liht
 
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
@@ -33,7 +33,7 @@ Lisaks perioodilisele honoraril põhinevale ajakavale saab Project Operations re
 
 Project Operationsi honorar pole kasutamiseks saadaval enne, kui see on kliendiga arveldatud. Seda näitavad järgmised väljad ettemaksete ja honoraride andmeruudustikus.
 
-| Väli | Asjakohasus, eesmärk ja juhised | Allavoolu mõjud |
+| Väli | Kirjeldus | Allavoolu mõjud |
 | --- | --- | --- |
 | Saadaolev summa | Summa, mis on honorari või ettemakse kirjes kasutamiseks saadaval. | Kuni ettemakse või honorar ei ole arveldatud, ei saa seda kasutada, mis tähendab, et saadaolev summa on null. |
 | Kasutatud summa | Summa, mis on honoraril või ettemaksel juba kasutatud. | Ettemakset või honorari saab tegelike kuludega ühitada arvel, millel on mõned osad märgitud kui juba kasutatuks või tarbituks. Ülejäänud ettemakse või honorari summa on saadaval, et ühitada see tulevase arve tegelike kuludega. |

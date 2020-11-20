@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074889"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180817"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Projektipõhise hinnapakkumise ridade arve ajakavad
 
@@ -32,7 +32,7 @@ Kui projektipõhise hinnapakkumise rea arveldamise meetod on aeg ja materjal, lo
 3. Avage aja ja materjali hinnapakkumise rida, mille jaoks teil on vaja luua kuupäeval põhinev arve ajakava. 
 4. Valige vahekaardil **Arve ajakava** väärtused väljade **Arvelduse algus** ja **Arve sagedus** jaoks. 
 5. Valige andmeruudustikus suvand **Loo arve ajakava**.
-6. Rakendus loob arve ajakava koos väljadega **Arve käitamise kuupäev** , **Kande katkestamise kuupäev** ja **Käituse olek** määratud järgmisel viisil.
+6. Rakendus loob arve ajakava koos väljadega **Arve käitamise kuupäev**, **Kande katkestamise kuupäev** ja **Käituse olek** määratud järgmisel viisil.
 
     - **Arve käitamise kuupäev** on märatud kuupäevale, mis on määratud arve sageduse põhjal.
     - **Kande katkestamise kuupäev** on määratud kuupäevale enne **arve käitamise kuupäeva**.
@@ -40,7 +40,7 @@ Kui projektipõhise hinnapakkumise rea arveldamise meetod on aeg ja materjal, lo
 
 ## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Projektipõhise hinnapakkumise rea jaoks fikseeritud hinnaga arve ajakava loomine
 
-Kui projektipõhise hinnapakkumise rea arveldusmeetod on **Fikseeritud** , loob süsteem vahe-eesmärgi põhise arve ajakava. Kui soovite selle ajakava automaatselt genereerida fikseeritud vahe-eesmärkide kogumi jaoks, mis on kalendriperioodil ühtlaselt jaotatud, tehke järgmist.
+Kui projektipõhise hinnapakkumise rea arveldusmeetod on **Fikseeritud**, loob süsteem vahe-eesmärgi põhise arve ajakava. Kui soovite selle ajakava automaatselt genereerida fikseeritud vahe-eesmärkide kogumi jaoks, mis on kalendriperioodil ühtlaselt jaotatud, tehke järgmist.
 
 1. Avage **Sätted** > **arve sagedused** ja seadistage arve sagedus.
 2. Avage lehel **Hinnapakkumised** projekti hinnapakkumine ja määrake vahekaardil **Kokkuvõte** nõutav tarnekuupäev.
@@ -58,9 +58,9 @@ Kui projektipõhise hinnapakkumise rea arveldusmeetod on **Fikseeritud** , loob 
 
 Fikseeritud hinnaga vahe-eesmärke saab luua ka käsitsi, kui neid ei jagata perioodiliselt. Vahe-eesmärkide käsitsi loomiseks tehke järgmist.
 
-Avage fikseeritud hinnaga hinnapakkumise rida, kuhu peate vahe-eesmärgi looma. Vahekaardi **Arve ajakava** andmeruudustikus valige suvand **+ Loo uus hinnapakkumise rea vahe-eesmärk** ja sisestage järgmise tabeli põhjal nõutav teave.
+Avage fikseeritud hinnaga hinnapakkumise rida, kuhu peate vahe-eesmärgi looma. Valige andmeruuustiku vahekaardil **Arve ajakava** suvand **+ Loo uus hinnapakkumise rea vahe-eesmärk** ja sisestage järgmise tabeli põhjal nõutav teave.
 
-| **Väli** | **Asukoht** | **Asjakohasus, eesmärk ja juhised** | **Allavoolu mõjud** |
+| **Väli** | **Asukoht** | **Kirjeldus** | **Allavoolu mõjud** |
 | --- | --- | --- | --- |
 | Vahe-eesmärgi nimi | Kiirloomine | Vahe-eesmärgi nimi. | See paljundatakse projekti lepingurea vahe-eesmärgile ja arvele |
 | Projekti ülesanne | Kiirloomine | Kui vahe-eesmärk on seotud projekti tööülesandega, saate selle viite abil lisada kohandatud loogika, mis määrab vaheeesmärgi oleku tööülesande oleku põhjal. | Rakendusel ei ole selle ülesande viite puhul ühtegi allavoolu mõju. |

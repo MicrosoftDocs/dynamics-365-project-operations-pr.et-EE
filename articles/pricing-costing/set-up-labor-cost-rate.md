@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d17f266b6e34fc2a2743fe19fd18b15fb992ceef
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074853"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180592"
 ---
 # <a name="set-up-labor-cost-rates"></a>Tööjõukulu määrade seadistamine
 
@@ -22,13 +22,13 @@ _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
 Igale hinnakirjale on seadistatud tööjõu määrad (rolli hinnad), mis joonduvad hinnakirja sisu ja kehtiva kuupäevaga.
 
-1. Looge hinnakiri ja valige vahekaardi **Rolli hind** andmeruudustikus **Uus roll**.
+1. Looge hinnakiri ja valige andmeruudustiku vahekaardil **Rolli hind** suvand **Uus roll**.
 2. Valige lehel **Kiirloomine** roll ja organisatsiooniüksus.
 3. Sisestage kõik muu nõutav välja teave.
 
 Järgmises tabelis on toodud mõned väljad, mis on olulised omahinnakirjas tööjõumäärade loomiseks.
 
-| Väli | Asukoht | Asjakohasus, eesmärk ja juhised | Allavoolu mõjud |
+| Väli | Asukoht | Kirjeldus | Allavoolu mõjud |
 | --- | --- | --- | --- |
 | Roll | Vahekaart **Üldine** ja lehed **Kiirloomine** | Valige roll, millele kulumäär rakendub. | Sissetuleva prognoosi või tegeliku näitaja roll vastendatakse rolli vaikekulu saamiseks selle reaga. |
 | Ressursiettevõte | Vahekaart **Üldine** ja lehed **Kiirloomine** | Valige juriidiline olem, millele roll on määratud. Näiteks Fabrikam India arendaja või Fabrikam USA arendaja. | Sissetuleva prognoosi või tegeliku näitaja ressursiettevõte vastendatakse rolli vaikimisi kulumäära saamiseks selle reaga. |

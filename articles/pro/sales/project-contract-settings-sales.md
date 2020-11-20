@@ -1,21 +1,21 @@
 ---
-title: Projekti lepingu väljad ja teave
+title: Projektilepingu sätted – liht
 description: Selles teemas kirjeldatakse välju, mis mõjutavad lepinguridu ja antakse lepingu kohta teavet, mis summeritakse kõigist reaüksustest.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 082292c54682022933a4b46b856f9241078a9067
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 28dfb256eb75ca9484161f053969c205fcd60965
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087882"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180907"
 ---
-# <a name="project-contract-fields-and-information"></a>Projekti lepingu väljad ja teave 
+# <a name="project-contract-settings---lite"></a>Projektilepingu sätted – liht
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
@@ -23,7 +23,7 @@ Selles teemas kirjeldatakse välju, mis rakenduvad kogu projekti lepingule, sh k
 
 Järgmises tabelis on toodud projekti lepingu väljad, mis esinevad vaid Dynamics 365 Project Operationsis või mille käitumine erineb oluliselt Dynamics 365 Salesi müügitellimustest.
 
-| Väli | Asukoht | Asjakohasus, eesmärk ja juhised | Allavoolu mõjud |
+| Väli | Asukoht | Kirjeldus | Allavoolu mõjud |
 | --- | --- | --- | --- |
 | Tüüp | Vahekaart **Kokkuvõte** (peidetud) | See on järgmiste suvanditega suvandikomplekti väli.</br>- **Tööpõhine** (saadaval ainult juhul, kui Project Operations on installitud)</br>- **Kaubapõhine** (saadaval ainult juhul, kui Project Operations ja Sales on installitud)</br>- **Hoolduspõhine teenindus** (saadaval juhul, kui Dynamics 365 Field Service on installitud) | Project Operationsis on selle välja väärtuseks vaikimisi **Tööpõhine** ja leping klassifitseerub projektipõhiseks lepinguks. Leping peaks olema projektipõhine, et võimaldada kõiki projektipõhiseid laiendusi ja funktsionaalsusi. |
 | Potentsiaalne klient | Vahekaart **Kokkuvõte** | Viide kliendi ettevõtte või konto kirjele. Kui leping luuakse hinnapakkumisest, kopeeritakse see väli hinnapakkumise kirje vastavalt väljalt. | Projekti lepingu valuuta põhineb vaikimisi kliendi valuutal. Seda saab aga enne lepingu salvestamist muuta. |
@@ -36,7 +36,7 @@ Järgmises tabelis on toodud projekti lepingu väljad, mis esinevad vaid Dynamic
 
 Järgmised KPI-d on saadaval projekti lepingu vahekaardil **Lepingu täitmine**.
 
-| Väli | Asukoht | Asjakohasus, eesmärk ja juhised |
+| Väli | Asukoht | Kirjeldus |
 | --- | --- | --- |
 | Lepingu väärtus | Üldine leping | Projekti lepingu koguväärtus. |
 | Arveldatud summa | Üldine leping | Selle lepingu kõigi arvete summa. |

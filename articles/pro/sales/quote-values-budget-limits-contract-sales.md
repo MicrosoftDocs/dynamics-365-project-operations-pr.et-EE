@@ -1,21 +1,21 @@
 ---
-title: Projekti hinnapakkumise (müük) kokkuvõtlik teave
+title: Projekti hinnapakkumise kokkuvõtlik teave – liht
 description: Selles teemas kirjeldatakse teavet ja sätteid, mis rakenduvad projekti hinnapakkumistele ja neiud mõjutavad. (Sales)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d050258ae457bb4392d5fa761442cfc7a444feb0
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074887"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180943"
 ---
-# <a name="summary-information-on-a-project-quote-sales"></a>Projekti hinnapakkumise (müük) kokkuvõtlik teave
+# <a name="summary-information-on-a-project-quote---lite"></a>Projekti hinnapakkumise kokkuvõtlik teave – liht
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
@@ -23,7 +23,7 @@ Selles artiklis kirjeldatakse projekti hinnapakkumisega seotud teavet. See hõlm
 
 Järgmises tabelis on toodud projekti hinnapakkumise kokkuvõtva teabe väljad, mis esinevad vaid Dynamics 365 Project Operationsi korral või mille käitumine erineb oluliselt Dynamics 365 Salesi hinnapakkumistest.
 
-| **Väli** | **Asukoht** | **Asjakohasus, eesmärk ja juhised** | **Allavoolu mõjud** |
+| **Väli** | **Asukoht** | **Kirjeldus** | **Allavoolu mõjud** |
 | --- | --- | --- | --- |
 | Tüüp | Vahekaart Kokkuvõte (peidetud) | Sellel suvandikomplekti väljal on järgmised suvandid.</br>- Tööpõhine (saadaval ainult juhul, kui Project Operations on installitud)</br>- Kaubapõhine (saadaval ainult juhul, kui Project Operations ja Sales on installitud)</br>- Hoolduspõhine teenindus (saadaval juhul, kui Dynamics 365 Field Service on installitud) | Kui kasutate rakendust Project Operations, seatakse selle välja väärtuseks automaatselt **Tööpõhine**. See liigitab hinnapakkumise projektipõhiseks hinnapakkumiseks. Hinnapakkumine peaks olema projektipõhine, et võimaldada kõiki projektipõhiseid laiendusi ja funkstionaalsusi. |
 | Potentsiaalne klient | Vahekaart Kokkuvõte | Viide kliendi ettevõttele või konto kirjele. Müügivõimaluse põhjal loodud hinnapakkumises kopeeritakse see väli müügivõimaluse vastavalt väljalt. | Projekti hinnapakkumise valuuta põhineb vaikimisi kliendi valuutal. Seda saab aga enne hinnapakkumise salvestamist muuta. |
@@ -36,7 +36,7 @@ Järgmises tabelis on toodud projekti hinnapakkumise kokkuvõtva teabe väljad, 
 
 Allpool on toodud projekti hinnapakkumises saadaolevad vahekaardid ja KPI-d, mis on Project Operationsi jaoks kordumatud või millel on olulised erinevused Salesi hinnapakkumiste käitumisest.
 
-| **Väli** | **Asukoht** | **Asjakohasus, eesmärk ja juhised** |
+| **Väli** | **Asukoht** | **Kirjeldus** |
 | --- | --- | --- |
 | Kasumlikkuse analüüs | Hinnapakkumise vahekaart | Vahekaart kuvab järgmisi mõõdikud.</br>- Arveldatav kulu kokku</br></br>- Mittearveldatav kulu kokku</br>- Kogutulu</br>- Kogutulu (alus)</br>- Kogutulu</br>- Korrigeeritud kogutulu|
 | Võrdlus kliendi ootustega | Hinnapakkumise vahekaart | See vahekaart kuvab järgmisi mõõdikud.</br>- Eeldatav lõpetamine</br>- Nõutav lõpetamine</br>- Kliendi eelarve</br>- Hinnapakkumise väärtus |

@@ -1,21 +1,21 @@
 ---
-title: Project Operationsi demoandmete rakendamine rakenduse Finance pilvepõhises keskkonnas
+title: Demoandmete rakendamine rakenduse Finance pilvepõhises keskkonnas
 description: Selles teemas kirjeldatakse Project Operationsi demoandmete rakendamist Dynamics 365 Finance pilvepõhisesse keskkonda.
 author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: a7cdbd2847ce45972aadd0d1a2d4f26270727ad9
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096617"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365233"
 ---
-# <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>Project Operationsi demoandmete rakendamine rakenduse Finance pilvepõhises keskkonnas
+# <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Demoandmete rakendamine rakenduse Finance pilvepõhises keskkonnas
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
@@ -76,6 +76,6 @@ Selle lõpuleviimiseks kulub mõni minut. Peaksite saama kinnituse, et administr
 
 ![IIS reset](./media/9IISReset.png)
 
-18. Sulgege kaugtöölaua seanss ja kasutage LCS-i lehte **Keskkonna üksikasjad** , et logida keskkonda sisse ja kontrollida, et see töötab ootuspäraselt.
+18. Sulgege kaugtöölaua seanss ja kasutage LCS-i lehte **Keskkonna üksikasjad**, et logida keskkonda sisse ja kontrollida, et see töötab ootuspäraselt.
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)

@@ -1,33 +1,33 @@
 ---
-title: Tööjõukulu määrade seadistamine
+title: Töökulu määrade seadistamine – liht
 description: Selles teemas kirjeldatakse tööjõukulu määrade seadistamist Project Operationsis.
 author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 66a254ce4e7c7f25ac3ea303b73a01625988b0d9
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074867"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180704"
 ---
-# <a name="setting-up-labor-cost-rates"></a>Tööjõukulu määrade seadistamine 
+# <a name="set-up-labor-cost-rates---lite"></a>Töökulu määrade seadistamine – liht
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
 Igale hinnakirjale on seadistatud tööjõu määrad (rolli hinnad), mis joonduvad hinnakirja sisu ja kehtiva kuupäevaga.
 
-1. Looge hinnakiri ja valige vahekaardi **Rolli hind** andmeruudustikus **Uus roll**.
+1. Looge hinnakiri ja valige andmeruudustiku vahekaardil **Rolli hind** suvand **Uus roll**.
 2. Valige lehel **Kiirloomine** roll ja organisatsiooniüksus.
 3. Sisestage kõik muu nõutav välja teave.
 
 Järgmises tabelis on toodud mõned väljad, mis on olulised omahinnakirjas tööjõumäärade loomiseks.
 
-| Väli | Asukoht | Asjakohasus, eesmärk ja juhised | Allavoolu mõjud |
+| Väli | Asukoht | Kirjeldus | Allavoolu mõjud |
 | --- | --- | --- | --- |
 | Roll | Vahekaart **Üldine** ja lehed **Kiirloomine** | Valige roll, millele kulumäär rakendub. | Sissetuleva prognoosi või tegeliku näitaja roll vastendatakse rolli vaikekulu saamiseks selle reaga. |
 | Ressursi üksus | Vahekaart **Üldine** ja lehed **Kiirloomine** | Valige ettevõtte organisatsiooniüksus või allüksus, kust seda rolli kasutatakse. Näiteks Fabrikam India robootika allüksuse arendaja või Fabrikam USA tarkvara allüksuse arendaja. | Sissetuleva prognoosi või tegeliku näitaja ressursiüksus vastendatakse rolli vaikekulu saamiseks selle reaga. |

@@ -5,17 +5,17 @@ author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2c7d63d0cfd5c9b6dbfb65fa8c8227c7f6eeac48
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074980"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180684"
 ---
-# <a name="set-up-bill-rates-for-labor-rate-billing"></a>Tööõukulu määrade arveldusmäärade seadistamine 
+# <a name="set-up-labor-bill-rates"></a>Töö arvelduskulu seadistamine
 
 _ **Rakendub:** Project Operations ressursipõhiste/mitteladustatavate stsenaariumite jaoks
 
@@ -25,9 +25,9 @@ Igale hinnakirjale on seadistatud rolli hinnad või tööjõu määrad, mis keht
 2. Valige andmeruudustiku vahekaardil **Rolli hinnad** suvand **+ Uus rolli hind**. 
 3. Sisestage paanil **Kiirloomine** rolli ja organisatsiooni üksuse kombinatsioon, mille jaoks teil on arveldusmäära seadistada vaja.
 
-   Järgmises tabelis on rolli hinna rea vahekaardi **Üldine** väljad ja paan **Kiirloomine** , mida peate müügi hinnakirjale rolli hindade loomisel meeles pidama.
+   Järgmises tabelis on rolli hinna rea vahekaardi **Üldine** väljad ja paan **Kiirloomine**, mida peate müügi hinnakirjale rolli hindade loomisel meeles pidama.
 
-    | Väli | Asukoht | Asjakohasus, eesmärk ja juhised | Allavoolu mõjud |
+    | Väli | Asukoht | Kirjeldus | Allavoolu mõjud |
     | --- | --- | --- | --- |
     | Roll | Vahekaart **Üldine** ja paan **Kiirloomine** | Valige roll, mille jaoks soovite arveldusmäära määrata. | Sissetuleva prognoosi või tegeliku näitaja roll vastendatakse rolli vaikimisi arveldusmäära saamiseks selle reaga. |
     | Ressursiettevõte | Vahekaart **Üldine** ja paan **Kiirloomine** | Valige ettevõte või juriidiline isik, kellelt roll pärineb. Näiteks Fabrikam India arendaja või Fabrikam USA arendaja. | Sissetuleva prognoosi või tegeliku näitaja ressursiettevõte vastendatakse rolli vaikimisi arveldusmäära saamiseks selle reaga. |

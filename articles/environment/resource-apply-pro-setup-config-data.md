@@ -1,23 +1,33 @@
 ---
-title: Project Operationsi konfiguratsiooniandmete seadistamine rakendamine rakenduses Common Data Service
+title: Konfiguratsiooniandmete häälestamine ja rakendamine teenuses Common Data Service
 description: Selles teemas kirjeldatakse konfiguratsiooni andmete seadistamist ja rakendamist Project Operationsis.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7de8db5e91265c77c79f34a513bf27d9a55b789a
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074829"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401123"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Project Operationsi konfiguratsiooniandmete seadistamine rakendamine rakenduses Common Data Service
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Konfiguratsiooniandmete häälestamine ja rakendamine teenuses Common Data Service 
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
+
+## <a name="prerequisites"></a>Eeltingimused
+
+Enne teenuses Common Data Service (CDS) andmete konfigureermise alustamist tuleb täita järgmised eeltingimused.
+
+1.  Valmistage CDS-i keskkond ja rakenduse Dynamics 365 Finance keskkond Project Operationsi jaoks ette.
+2.  Rakenduse Dynamics 365 Finance juriidilise olemi teavet jagatakse CDS-i keskkonnaga. See tähendab, et CDS-i olemil **Ettevõte** on järgmised ettevõtte kirjed.
+  - THPM
+  - USPM
+  - GBPM
 
 ## <a name="install-setup-and-configuration-data"></a>Seadistuse ja konfiguratsiooniandmete installimine
 
@@ -114,10 +124,10 @@ _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
  
 12. Värskendage järgmised väljad.
 
- - **Vaikeettevõte** : USPM
- - **Vaike-organisatsiooniüksus** : Contoso Robotics Global
- - **Arve sagedus** : seitsmes ja viimane päev
- - **Tööaja mall** : muutke loodud malliks.
+ - **Vaikeettevõte**: USPM
+ - **Vaike-organisatsiooniüksus**: Contoso Robotics Global
+ - **Arve sagedus**: seitsmes ja viimane päev
+ - **Tööaja mall**: muutke loodud malliks.
 
 13. Valige **Salvesta**. 
 

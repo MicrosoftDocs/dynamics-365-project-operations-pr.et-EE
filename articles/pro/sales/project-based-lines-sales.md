@@ -1,21 +1,21 @@
 ---
-title: Projektipõhised müügivõimaluse read (Pro)
+title: Projektipõhise müügivõimaluse read – liht
 description: Selles teemas antakse teavet projektipõhiste müügivõimaluse ridade kohta. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1a688b9bed5a38e7b5947cbcee1e3cb8ab211e98
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074881"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180997"
 ---
-# <a name="project-based-opportunity-lines-pro"></a>Projektipõhised müügivõimaluse read (Pro)
+# <a name="project-based-opportunity-lines---lite"></a>Projektipõhise müügivõimaluse read – liht
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
@@ -25,9 +25,9 @@ Projektipõhise müügivõimaluse read on reaüksused, mis tarnitakse kliendile 
 
 Allpool on projektipõhise müügivõimaluse rea väljad.
 
-| **Väli** | **Asukoht** | **Asjakohasus, eesmärk ja juhised** | **Allavoolu mõjud** |
+| **Väli** | **Asukoht** | **Kirjeldus** | **Allavoolu mõjud** |
 | --- | --- | --- | --- |
-| Toote tüüp | Vahekaart Üldine (peidetud) | Saate valida ühe järgmistest suvanditest.</br>- Projektipõhine teenus (saadaval ainult juhul, kui Dynamics 365 Project Operations on installitud)</br>- Toode (saadaval ainult juhul, kui Project Operations ja Dynamics 365 Sales on installitud) | Selle välja väärtuseks seatakse **Projektipõhine teenus** , kui loote projektipõhise ridade ruudustiku kaudu projektipõhise müügivõimaluse rea. <br> Kui muudate või alistate selle väärtuse, ei lubata projekti funktsionaalsust teie projektipõhistele reaüksustele. |
+| Toote tüüp | Vahekaart Üldine (peidetud) | Saate valida ühe järgmistest suvanditest.</br>- Projektipõhine teenus (saadaval ainult juhul, kui Dynamics 365 Project Operations on installitud)</br>- Toode (saadaval ainult juhul, kui Project Operations ja Dynamics 365 Sales on installitud) | Selle välja väärtuseks seatakse **Projektipõhine teenus**, kui loote projektipõhise ridade ruudustiku kaudu projektipõhise müügivõimaluse rea. <br> Kui muudate või alistate selle väärtuse, ei lubata projekti funktsionaalsust teie projektipõhistele reaüksustele. |
 | Müügivõimalus | Vahekaart Üldine | See väli on kirjutuskaitstud ja viitab peamise müügivõimaluse kirjele, mille juurde see reaüksus kuulub. | Sellest väljast puudub allavoolu mõju. |
 | Nimetus | Vahekaart Üldine | Seda muudetavat tekstivälja saab kasutada rea üksusele lühikese identiteedi andmiseks. | See väärtus viiakse hinnapakkumise reale üle, kui loote selle müügivõimaluse põhjal hinnapakkumise. |
 | Kliendi eelarve | Vahekaart Üldine | Selle muudetavat valuuta välja abil saab jälgida summat, mida klient on nõus selle reaüksuse eest kulutama. | See väärtus viiakse hinnapakkumise rea vastavale väljale üle, kui loote selle müügivõimaluse põhjal hinnapakkumise. |

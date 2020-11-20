@@ -1,21 +1,21 @@
 ---
-title: Tootepõhiste lepinguridade ülevaade
+title: Tootepõhiste lepinguridade ülevaade – liht
 description: Selles teemas antakse teavet tootepõhiste lepinguridade kohta.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 794a80b0dd6b8717b43e712b96b9ac077517c226
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: eb09140eae5383b882db73195d0360a836ece791
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074883"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177866"
 ---
-# <a name="product-based-contract-lines-overview"></a>Tootepõhiste lepinguridade ülevaade
+# <a name="product-based-contract-lines-overview---lite"></a>Tootepõhiste lepinguridade ülevaade – liht
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
@@ -43,6 +43,6 @@ Kui lepingurida põhineb tootekataloogil, saate müügihinna alistada otse real.
 - **Hinnakirja tühistamine**
 - **Kasuta vaikeväärtust**
 
-Kui määrate välja **Hinnakujundus** väärtuseks **Hinnakirja tühistamine** , ei määrata vaikehinda. Sisestage lepingureal tootele hind. Kui määrate välja olekuks **Kasuta vaikeväärtust** , kasutatakse vaikimisi müügihinda ja välja ei saa redigeerida.
+Kui määrate välja **Hinnakujundus** väärtuseks **Hinnakirja tühistamine**, ei määrata vaikehinda. Sisestage lepingureal tootele hind. Kui määrate välja olekuks **Kasuta vaikeväärtust**, kasutatakse vaikimisi müügihinda ja välja ei saa redigeerida.
 
-Pärast seda, kui olete Project Operationsi installinud, sisestatakse vaikimisi müügihinnad lepingu tootepõhistele ridadele. Välja **Hinnakiri** väärtuseks seatakse **Hinnakirja tühistamine** , et saaksite lepinguridadel vaikimisi kasutatavat hinda redigeerida. See on Project Operationsile spetsiifiline tootepõhiste ridade tühistamine käitumine rakenduses Dynamics 365 Sales.
+Pärast seda, kui olete Project Operationsi installinud, sisestatakse vaikimisi müügihinnad lepingu tootepõhistele ridadele. Välja **Hinnakiri** väärtuseks seatakse **Hinnakirja tühistamine**, et saaksite lepinguridadel vaikimisi kasutatavat hinda redigeerida. See on Project Operationsile spetsiifiline tootepõhiste ridade tühistamine käitumine rakenduses Dynamics 365 Sales.

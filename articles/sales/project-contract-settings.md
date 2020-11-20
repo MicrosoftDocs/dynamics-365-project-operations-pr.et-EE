@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c11d6e76b551e0d2cde8ff514d1a0ddd989d07b9
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087887"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181132"
 ---
 # <a name="project-contract-settings"></a>Projekti lepingu sätted
 
@@ -23,7 +23,7 @@ Selles teemas kirjeldatakse välju, mis rakenduvad kogu projekti lepingule, sh k
 
 Järgmises tabelis on toodud projekti lepingu väljad, mis esinevad vaid Dynamics 365 Project Operationsis või mille käitumine erineb oluliselt Dynamics 365 Salesi müügitellimustest.
 
-| Väli | Asukoht | Asjakohasus, eesmärk ja juhised | Allavoolu mõjud |
+| Väli | Asukoht | Kirjeldus | Allavoolu mõjud |
 | --- | --- | --- | --- |
 | Tüüp | Vahekaart **Kokkuvõte** (peidetud) | See on järgmiste suvanditega suvandikomplekti väli.</br>- **Tööpõhine** (saadaval ainult juhul, kui Project Operations on installitud)</br>- **Kaubapõhine** (saadaval ainult juhul, kui Project Operations ja Sales on installitud)</br>- **Hoolduspõhine teenindus** (saadaval juhul, kui Dynamics 365 Field Service on installitud) | Project Operationsis on selle välja väärtuseks vaikimisi **Tööpõhine** ja leping klassifitseerub projektipõhiseks lepinguks. Leping peaks olema projektipõhine, et võimaldada kõiki projektipõhiseid laiendusi ja funktsionaalsusi. |
 | Omanikust ettevõte | Vahekaart **Kokkuvõte** | Juriidiline olem, mis arvestab selle projekti lepinguga seotud projektide viidatud kulude ja tuluga. Kui leping luuakse hinnapakkumisest, kopeeritakse see väli hinnapakkumise kirje vastavalt väljalt. | Omanikust ettevõte võrdub juriidilise isiku mõistega Project Operationsi moodulis **Projektide haldamine ja raamatupidamine**. Kõik sellest projektist tulenevad kulud ja tulud arvestatakse omanikust ettevõtte pearaamatus. |
@@ -37,7 +37,7 @@ Järgmises tabelis on toodud projekti lepingu väljad, mis esinevad vaid Dynamic
 
 Järgmised KPI-d on saadaval projekti lepingu vahekaardil **Lepingu täitmine**.
 
-| Väli | Asukoht | Asjakohasus, eesmärk ja juhised |
+| Väli | Asukoht | Kirjeldus |
 | --- | --- | --- |
 | Lepingu väärtus | Üldine leping | Projekti lepingu koguväärtus. |
 | Arveldatud summa | Üldine leping | Selle lepingu kõigi arvete summa. |

@@ -1,21 +1,21 @@
 ---
-title: Müügivihjete haldamine (Pro)
+title: Hinnapakkumiste haldamine – liht
 description: Selles teemas antakse teavet projektipõhiste müügivihjete halduse kohta (pro).
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 005e36811643b0b1e98a686792cf39125ae97949
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074885"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180502"
 ---
-# <a name="manage-leads-pro"></a>Müügivihjete haldamine (Pro)
+# <a name="manage-leads---lite"></a>Hinnapakkumiste haldamine – liht
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
@@ -38,10 +38,10 @@ Kvalifitseeruva müügivihje poolt müügivõimaluse automaatseks loomiseks mä�
 
 Järgmine tabel sisaldab müügivihje jaoks olulist väljateavet ja nende väljade allavoolu minevat mõju.
 
-| **Väli** | **Asukoht** | **Asjakohasus, eesmärk ja juhised** | **Allavoolu mõjud** |
+| **Väli** | **Asukoht** | **Kirjeldus** | **Allavoolu mõjud** |
 | --- | --- | --- | --- |
 | Teema | Vahekaart Üldine | See tekstiväli peaks sisaldama tehingu lühikirjeldust. | Müügivihje teema kuvatakse vaikimisi müügivõimaluse teemana ning hinnapakkumise ja projektilepingu nimena. |
-| Tüüp | Vahekaart Üldine | Sellel suvandikomplekti väljal on järgmised suvandid.</br>- Tööpõhine (saadaval ainult juhul, kui Project Operations on installitud)</br>- Kaubapõhine (saadaval ainult juhul, kui Project Operations ja Sales on installitud)</br>- Hoolduspõhine teenindus (saadaval juhul, kui Field Service on installitud) | Kui müügivihjel on selle välja väärtuseks on seatud **Tööpõhine** , on müügivihje kvalifitseeritud projektipõhist müügivõimalust looma. Projektipõhine müügivõimalus on vajalik, et lubada kõik projektiga seotud laiendused ja funktsioonid selle tehingu allavoolu müügiprotsesside jaoks. |
+| Tüüp | Vahekaart Üldine | Sellel suvandikomplekti väljal on järgmised suvandid.</br>- Tööpõhine (saadaval ainult juhul, kui Project Operations on installitud)</br>- Kaubapõhine (saadaval ainult juhul, kui Project Operations ja Sales on installitud)</br>- Hoolduspõhine teenindus (saadaval juhul, kui Field Service on installitud) | Kui müügivihjel on selle välja väärtuseks on seatud **Tööpõhine**, on müügivihje kvalifitseeritud projektipõhist müügivõimalust looma. Projektipõhine müügivõimalus on vajalik, et lubada kõik projektiga seotud laiendused ja funktsioonid selle tehingu allavoolu müügiprotsesside jaoks. |
 | Eesnimi | Vahekaart Üldine | Potentsiaalse kliendi kontaktisiku eesnimi | Kui müügivihje on kvalifitseeritud, luuakse konto, kontaktisik ja müügivõimalus. Kontakti eesnimi on siin määratud väärtus. |
 | Perekonnanimi | Vahekaart Üldine | Potentsiaalse kliendi kontaktisiku perekonnanimi | Kui müügivihje on kvalifitseeritud, luuakse konto, kontaktisik ja müügivõimalus. Kontakti perekonnanimi on siin määratud väärtus. |
 | Ettevõte | Vahekaart Üldine | Potentsiaalse kliendi ettevõtte nimi | Kui müügivihje on kvalifitseeritud, luuakse konto, kontaktisik ja müügivõimalus. Loodud konto nimi on siin määratud väärtus. |
@@ -49,7 +49,7 @@ Järgmine tabel sisaldab müügivihje jaoks olulist väljateavet ja nende välja
 
 ## <a name="qualify-a-new-project-based-lead"></a>Uue projektipõhise müügivihje kvalifitseerimine
 
-Müügivihjeid, mille väärtus **Tüüp** on seadistatud olekusse **Tööpõhine** , nimetatakse projektipõhisteks müügivihjeteks. Projektipõhise müügivihje kvalifitseerimisel luuakse järgnev.
+Müügivihjeid, mille väärtus **Tüüp** on seadistatud olekusse **Tööpõhine**, nimetatakse projektipõhisteks müügivihjeteks. Projektipõhise müügivihje kvalifitseerimisel luuakse järgnev.
 
 - Konto, mis kasutab müügivihje välja **Ettevõte**.
 - Kontoga seotud kontaktikirjet, mis põhineb müügivihje väljade **Eesnimi** ja **Perekonnanimi** väärtustel.

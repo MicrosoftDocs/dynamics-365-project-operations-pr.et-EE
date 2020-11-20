@@ -1,21 +1,21 @@
 ---
-title: Honorari või ettemaksu arveldamine
+title: Honorari või ettemaksu arve – liht
 description: Selles teemas antakse teavet selle kohta, kuidas Project Operationsis honorari või ettemaksu arveldada.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6ed3b71d5f0ac035403de9fa213f3f45d14038e0
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087883"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180547"
 ---
-# <a name="invoice-a-retainer-or-an-advance"></a>Honorari või ettemaksu arveldamine
+# <a name="invoice-a-retainer-or-an-advance---lite"></a>Honorari või ettemaksu arve – liht
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
@@ -43,7 +43,7 @@ Iga arve jaoks, mis luuakse projekti lepingu kohta, mille jaoks on honorare või
 
 Seda saab näha lehe **Arve** ruudustikus **Rakendatud honorarid ja ettemaksed**. Järgmine tabel annab teavet väljade kohta, mis on lehe **Projekti arve** ruudustikus **Rakendatud honorarid ja ettemaksed**.
 
-| Väli | Asukoht | Asjakohasus, eesmärk ja juhised | Allavoolu mõjud |
+| Väli | Asukoht | Kirjeldus | Allavoolu mõjud |
 | --- | --- | --- | --- |
 | Kirjeldus | Lehe **Projekti arve** ruudustik **Rakendatud honorarid ja ettemaksed** |See kirjutuskaitstud väli kirjeldab selles arves kasutatud honorari või ettemakset. Seda väärtust ei saa arvel muuta. Seda väärtust saab muuta lehe **Projekti leping** andmeruudustikus. | Seda välja saab kliendile kuvada prinditud arvel, et näidata, milline honorar või ettemakse on arvele rakendatud. |
 | Tarnekuupäev | Lehe **Projekti arve** ruudustik **Rakendatud honorarid ja ettemaksed**  | See kirjutuskaitstud väli esitab selles arves kasutatud honorari või ettemakse arve kuupäeva. Seda väärtust ei saa arvel muuta. Seda väärtust saab muuta lehe **Projekti leping** andmeruudustikus. | Seda välja saab kliendile kuvada prinditud arvel, et näidata kuupäeva, millal honorari või ettemakse arve kliendile esimest korda esitati. |

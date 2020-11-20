@@ -3,17 +3,17 @@ title: Juurutamise tüübi määratlemine
 description: Selles teemas antakse teavet, et aidata teha kindlaks oma ettevõtte projektitoimingute õige juurutamistüüp.
 author: stsporen
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 11/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 564f2878553fe3904a7c47c7e80a3b57c763a3b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074960"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401213"
 ---
 # <a name="determine-your-deployment-type"></a>Juurutamise tüübi määratlemine
 
@@ -25,11 +25,11 @@ _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaa
 
 
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Dynamicsi olemasolevad kliendid, kes kasutavad rakendust Dynamics 365 Project Service Automation
-Project Operations sisaldab võimalusi, mis tarnitakse koos rakendusega Project Service Automation. Tulevikus antakse nendele klientidele välja versiooniuuenduse tee.
+Project Operations sisaldab võimalusi, mis tarnitakse koos rakendusega Project Service Automation. 2021. aasta väljalaske 1. laine klientidele väljastatakse versiooniuuenduse tee.
 
 ## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Rakenduse Dynamics 365 Finance olemasolevad kliendid, kes kasutavad projektihaldust ja raamatupidamist 
 
-Rakenduse Finance olemasolevad kliendid, kes kasutavad projektihalduse ja raamatupidamise funktsiooni, saavad jätkata selle kasutamist samal kujul. Vaadake teemat [Project Operations ressursi/tootmise tellimuste stsenaariumite jaoks](#pma).
+Rakenduse Finance olemasolevad kliendid, kes kasutavad projektihalduse ja raamatupidamise funktsiooni, saavad jätkata selle endisel kujul kasutamist. Vaadake teemat [Project Operations ressursi/tootmise tellimuste stsenaariumite jaoks](#pma).
 
 
 ## <a name="deployment-types"></a>Juurutustüübid
@@ -47,12 +47,13 @@ Project Operations toetab juriidilise olemi tasemel konfguratsioonide kaudu sama
 
 Lite’i juurutus sisaldab järgmisi võimalusi.
 
+- Rakenduse Dynamics 365 Sales kogemusi ületavate projektide müügiprotsess
 - Projekti planeerimine Microsoft Pro veebirakendust kasutades
 - Mitmedimensiooniline hinnakujundus
 - Ühtne ressursihaldus
 - Aja jälgimine
 - Põhikulu
-- Arvesoovitus
+- Näidisarvedamine ja ja kliendile suunatud arveldamine 
 
 #### <a name="deployment-steps"></a>Juurutamise sammud
 Tehke [juurutamise küsimustiku](https://aka.ms/provisionprojectoperations) abil kindlaks rakenduse Project Operations jaoks parim juurutamise mudel.
@@ -62,7 +63,8 @@ Selle juurutuse kohta leiate teavet teemadest [Eelversiooni kordustellimuseks re
 
 ### <a name="project-operations-for-resourcenon-stocked-scenarios"></a><a name="integrated"></a>Project Operations ressursi/mitteaktsia stsenaariumite jaoks
 Project Operations ressursipõhiste/mitteladustatavate stsenaariumite jaoks hõlmavad järgmisi võimalusi.
-  
+ 
+- Rakenduse Dynamics 365 Sales ületavate projektide müügiprotsess
 - Projekti planeerimine Microsoft Pro veebirakendust kasutades
 - Mitmedimensiooniline hinnakujundus
 - Ühtne ressursihaldus
@@ -70,8 +72,8 @@ Project Operations ressursipõhiste/mitteladustatavate stsenaariumite jaoks hõl
 - Põhikulu
 - Täiskulu
 - Kviitungi OCR
-- Täisarveldus
-- Tulu kajastamine
+- Näidisarvedamine ja ja kliendile suunatud arveldamine 
+- Projektide tulude kajastamine
 
 #### <a name="deployment-steps"></a>Juurutamise sammud
 Tehke [juurutamise küsimustiku](https://aka.ms/provisionprojectoperations) abil kindlaks rakenduse Project Operations jaoks parim juurutamise mudel.

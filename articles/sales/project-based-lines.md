@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7b255d607ac8180c249a9b9831db6f8d0cd3937b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074817"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181942"
 ---
 # <a name="project-based-opportunity-lines"></a>Projektipõhised müügivõimaluse read
 
@@ -26,9 +26,9 @@ Projektipõhise müügivõimaluse read on reaüksused, mis tarnitakse kliendile 
 
 Allpool on projektipõhise müügivõimaluse rea väljad.
 
-| **Väli** | **Asukoht** | **Asjakohasus, eesmärk ja juhised** | **Allavoolu mõjud** |
+| **Väli** | **Asukoht** | **Kirjeldus** | **Allavoolu mõjud** |
 | --- | --- | --- | --- |
-| Toote tüüp | Vahekaart Üldine (peidetud) | See on suvandikomplekti väli. Kui teil on Dynamics 365 Operations installitud, on üks saadaolev võimalus **Projektipõhine teenus**.  | Selle välja väärtuseks seatakse **Projektipõhine teenus** , kui loote projektipõhise ridade ruudustiku kaudu projektipõhise müügivõimaluse rea. <br> Kui muudate või alistate selle väärtuse, ei lubata projekti funktsionaalsust teie projektipõhistele reaüksustele. |
+| Toote tüüp | Vahekaart Üldine (peidetud) | See on suvandikomplekti väli. Kui teil on Dynamics 365 Operations installitud, on üks saadaolev võimalus **Projektipõhine teenus**.  | Selle välja väärtuseks seatakse **Projektipõhine teenus**, kui loote projektipõhise ridade ruudustiku kaudu projektipõhise müügivõimaluse rea. <br> Kui muudate või alistate selle väärtuse, ei lubata projekti funktsionaalsust teie projektipõhistele reaüksustele. |
 | Müügivõimalus | Vahekaart Üldine | See väli on kirjutuskaitstud ja viitab peamise müügivõimaluse kirjele, mille juurde see reaüksus kuulub. | Sellest väljast puudub allavoolu mõju. |
 | Nimetus | Vahekaart Üldine | See on muudetav tekstiväli, mida saab kasutada rea üksusele lühikese identiteedi andmiseks | See väärtus viiakse hinnapakkumise reale üle, kui loote selle müügivõimaluse põhjal hinnapakkumise |
 | Kliendi eelarve | Vahekaart Üldine | Selle muudetavat valuuta välja abil saab jälgida summat, mida klient on nõus selle reaüksuse eest kulutama. | See väärtus viiakse hinnapakkumise rea vastavale väljale üle, kui loote selle müügivõimaluse põhjal hinnapakkumise |

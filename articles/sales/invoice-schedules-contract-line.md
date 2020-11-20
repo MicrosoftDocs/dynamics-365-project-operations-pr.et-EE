@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/17/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 23378b51c8324a60918ad494e7f659dbbc94e2a8
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4075188"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180772"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Arve ajakava loomine projektipõhisel lepingureal 
 
@@ -27,13 +27,13 @@ Kui projektipõhisel lepingureal on aja ja materjali arveldusmeetod, saate luua 
 
 1. Avage **Sätted** > **Arve sagedused** ja seadistage arve sagedus.
 2. Avage projekti lepingu kirjed ja valige vahekaardil **Kokkuvõte** väljal **Soovitud tarnekuupäev** kuupäev.
-3. Avage lepingurida **Aeg ja materjal** , mille jaoks te kuupäeval põhineva arve ajakava loote. 
+3. Avage lepingurida **Aeg ja materjal**, mille jaoks te kuupäeval põhineva arve ajakava loote. 
 4. Valige vahekaardil **Arve ajakava** arveldamise alguskuupäev ja arve sagedus.
-5. Valige andmeruudustikus suvand **Loo arve ajakava**. Arve ajakava luuakse koos väljadega **Arve käitamise kuupäev** , **Kande katkestamise kuupäev** ja **Käituse olek** , mis on määratud järgmisel viisil.
+5. Valige andmeruudustikus suvand **Loo arve ajakava**. Arve ajakava luuakse koos väljadega **Arve käitamise kuupäev**, **Kande katkestamise kuupäev** ja **Käituse olek**, mis on määratud järgmisel viisil.
 
-    - **Arve käitamise kuupäev** : see kuupäev on määratud arve sageduse järgi.
-    - **Tehingu katkestamise kuupäev** : päev enne arve käitamise kuupäeva.
-    - **Käitamise olek** : automaatselt määratud kui **Käivitamata**. Kui automaatse arve loomise töö käitab teatud arve käivitamise kuupäeva, uuendab see välja valikule **Käitamine õnnestus** või **Käitamine nurjus**.
+    - **Arve käitamise kuupäev**: see kuupäev on määratud arve sageduse järgi.
+    - **Tehingu katkestamise kuupäev**: päev enne arve käitamise kuupäeva.
+    - **Käitamise olek**: automaatselt määratud kui **Käivitamata**. Kui automaatse arve loomise töö käitab teatud arve käivitamise kuupäeva, uuendab see välja valikule **Käitamine õnnestus** või **Käitamine nurjus**.
 
 ## <a name="create-a-fixed-price-invoice-schedule-for-a-contract-line"></a>Lepingurea jaoks fikseeritud hinnaga arve ajakava loomine
 
@@ -46,14 +46,14 @@ Kui soovite selle vahe-eesmärgil põhineva ajakava luua fikseeritud vahe-eesmä
 
 1. Avage **Sätted** > **Arve sagedused** ja seadistage arve sagedus.
 2. Avage projekti lepingu kirjed ja valige vahekaardil **Kokkuvõte** väljal **Soovitud tarnekuupäev** kuupäev.
-3. Avage lepingurida **Fikseeritud hind** , mille jaoks vahe-eesmärgi ajakava loote. Valige vahekaardil **Arveldamise vahe-eesmärgid** arveldamise alguskuupäev ja arve sagedus. 
-4. Valige andmeruudustikus suvand **Loo perioodilised vahe-eesmärgid**. Arve ajakava luuakse väljaga **Vahe-eesmärgi nimi** , **Vahe-eesmärgi kuupäev** ja **Vahe-eesmärgi summa** , määratakse järgmiselt.
+3. Avage lepingurida **Fikseeritud hind**, mille jaoks vahe-eesmärgi ajakava loote. Valige vahekaardil **Arveldamise vahe-eesmärgid** arveldamise alguskuupäev ja arve sagedus. 
+4. Valige andmeruudustikus suvand **Loo perioodilised vahe-eesmärgid**. Arve ajakava luuakse väljaga **Vahe-eesmärgi nimi**, **Vahe-eesmärgi kuupäev** ja **Vahe-eesmärgi summa**, määratakse järgmiselt.
 
-    - **Vahe-eesmärgi nimi** : see kuupäev on määratud arve sageduse järgi.
-    - **Vahe-eesmärgi kuupäev** : see kuupäev on määratud arve sageduse järgi.
-    - **Vahe-eesmärgi summa** : see summa arvutatakse, jagades lepingureal oleva lepingu summa vahe-eesmärkide arvuga, nagu arvelduse sagedus, algus ja nõutavad tarnekuupäevad ette näevad.
+    - **Vahe-eesmärgi nimi**: see kuupäev on määratud arve sageduse järgi.
+    - **Vahe-eesmärgi kuupäev**: see kuupäev on määratud arve sageduse järgi.
+    - **Vahe-eesmärgi summa**: see summa arvutatakse, jagades lepingureal oleva lepingu summa vahe-eesmärkide arvuga, nagu arvelduse sagedus, algus ja nõutavad tarnekuupäevad ette näevad.
 
-    Kui lepingureal on väärtus väljal **Prognoositav maksusumma** , jagatakse see väli ka iga vahe-eesmärgiga samaks perioodiks perioodiliste vahe-eesmärkide loomisel.
+    Kui lepingureal on väärtus väljal **Prognoositav maksusumma**, jagatakse see väli ka iga vahe-eesmärgiga samaks perioodiks perioodiliste vahe-eesmärkide loomisel.
 
 Arveldamise vahe-eesmärgid peaksid võrduma lepingurea lepingu väärtusega. Kui need sellega ei võrdu, kuvatakse teile lehel **Lepingurida** tõrge. Tõrke saate parandada vahe-eesmärkide loomise, muutmise või kustutamise teel, kontrollides, kas arveldamise vahe-eesmärgid vastavad rea lepingu väärtuse. Pärast muudatuste tegemist värskendage lehte, et tõrge eemaldada.
 
@@ -64,7 +64,7 @@ Saate luua fikseeritud hinnaga vahe-eesmärke käsitsi, kui neid ei jagata perio
 1. Avage fikseeritud hinna lepingurida, mille jaoks soovite vahe-eesmärgi luua, ja klõpsake andmeruudustiku vahekaardil **Arve ajakava** nuppu **+ Loo uus lepingurea vahe-eesmärk**. 
 2. Sisestage lehel **Vahe-eesmärgi loomine** järgmise tabeli põhjal soovitud teave.
 
-| Väli | Asukoht | Asjakohasus, eesmärk ja juhised | Allavoolu mõjud |
+| Väli | Asukoht | Kirjeldus | Allavoolu mõjud |
 | --- | --- | --- | --- |
 | Vahekokkuvõtte nimi | Kiirloomine | Vahe-eesmärgi nime tekstiväli. | See kantakse projekti lepingurea vahe-eesmärgile ja arvele. |
 | Projekti ülesanne | Kiirloomine | Kui vahe-eesmärk on seotud projekti tööülesandega, saate selle viite abil lisada kohandatud loogika, mis määrab vahe-eesmärgi oleku tööülesande oleku põhjal. | Rakendusel ei ole selle ülesande viite puhul ühtegi allavoolu mõju. |
