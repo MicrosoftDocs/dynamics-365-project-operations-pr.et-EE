@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7116659c646b323667e3c92cb3f6de99184f5ae6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 30633a7445baaf99af5be5c88e35b24824022b93
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075053"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121258"
 ---
 # <a name="products"></a>Tooted
 
@@ -38,22 +38,22 @@ Tooted on teie ettevõtte selgroog. Tootekataloog rakenduses Dynamics 365 Sales 
 
     -  **Nimi**
     -  **Toote ID**
-    -  **Ema** : valige tootele tootekogumi ematootepere. Kui loote tooteperre alamtoote, lisatakse siia peamise tootepere nimi. Seda ei saa pärast kirje salvestamist muuta.
-    -  **Kehtivuse algus**/**Kehtivuse lõpp** : määratlege periood, mille jooksul toode kehtib, valides kuupäevad **Kehtivuse algus** ja **Kehtivuse lõpp**.
-    -  **Ühikurühm** : valige ühikurühm. Ühikurühm on mitmesuguste ühikute kogum, milles toodet müüakse, ja määratleb, kuidas eraldi üksusi suuremateks kogusteks rühmitatakse. Näiteks kui lisate tootena seemned, võis teil olla loodud ühikurühm nimega „Seemned” ja selle põhiühikuks määratud „pakk”.
-    -  **Vaikeühik** : valige levinuim ühik, milles toodet müüakse. Ühikud on kogused või mõõtühikud, milles tooteid müüte. Näiteks kui lisate tooteks seemned, saate neid müüa pakkide, kastide või kaubaalustena. Iga selline üksus on tooteühik. Kui seemneid müüakse enamasti pakkidena, valige see ühikuks.
-    -  **Vaikehinnakiri** : uue toote korral on see väli kirjutuskaitstud. Vaikehinnakirja valimiseks peate esmalt täitma kõik kohustuslikud väljad ja seejärel kirje salvestama. Ehkki see pole kohustuslik, on mõistlik määrata pärast tootekirje salvestamist iga toote jaoks vaikehinnakiri. Kui kliendikirje ei sisalda hinnakirja, saab Sales sel viisil kasutada hinnapakkumiste, tellimuste ja arvete koostamiseks vaikehinnakirja.
-    -  **Toetatud kümnendkohad** : sisestage täisarv vahemikus 0–5. Kui toodet ei saa väiksemateks kogusteks jagada, sisestage 0. Välja **Kogus** täpsust hinnapakkumisel, tellimusel või arve toote-/teenuserea kirjel kontrollitakse selle välja väärtuse suhtes, kui tootel puudub seotud hinnakiri.
-    -  **Teema** : saate selle toote seostada mõne teemaga. Teemade abil saate tooteid kategoriseerida ja aruandeid filtreerida.
+    -  **Ema**: valige tootele tootekogumi ematootepere. Kui loote tooteperre alamtoote, lisatakse siia peamise tootepere nimi. Seda ei saa pärast kirje salvestamist muuta.
+    -  **Kehtivuse algus**/**Kehtivuse lõpp**: määratlege periood, mille jooksul toode kehtib, valides kuupäevad **Kehtivuse algus** ja **Kehtivuse lõpp**.
+    -  **Ühikurühm**: valige ühikurühm. Ühikurühm on mitmesuguste ühikute kogum, milles toodet müüakse, ja määratleb, kuidas eraldi üksusi suuremateks kogusteks rühmitatakse. Näiteks kui lisate tootena seemned, võis teil olla loodud ühikurühm nimega „Seemned” ja selle põhiühikuks määratud „pakk”.
+    -  **Vaikeühik**: valige levinuim ühik, milles toodet müüakse. Ühikud on kogused või mõõtühikud, milles tooteid müüte. Näiteks kui lisate tooteks seemned, saate neid müüa pakkide, kastide või kaubaalustena. Iga selline üksus on tooteühik. Kui seemneid müüakse enamasti pakkidena, valige see ühikuks.
+    -  **Vaikehinnakiri**: uue toote korral on see väli kirjutuskaitstud. Vaikehinnakirja valimiseks peate esmalt täitma kõik kohustuslikud väljad ja seejärel kirje salvestama. Ehkki see pole kohustuslik, on mõistlik määrata pärast tootekirje salvestamist iga toote jaoks vaikehinnakiri. Kui kliendikirje ei sisalda hinnakirja, saab Sales sel viisil kasutada hinnapakkumiste, tellimuste ja arvete koostamiseks vaikehinnakirja.
+    -  **Toetatud kümnendkohad**: sisestage täisarv vahemikus 0–5. Kui toodet ei saa väiksemateks kogusteks jagada, sisestage 0. Välja **Kogus** täpsust hinnapakkumisel, tellimusel või arve toote-/teenuserea kirjel kontrollitakse selle välja väärtuse suhtes, kui tootel puudub seotud hinnakiri.
+    -  **Teema**: saate selle toote seostada mõne teemaga. Teemade abil saate tooteid kategoriseerida ja aruandeid filtreerida.
 
 4.  Valige **Salvesta**.
-5.  Minge vahekaardile **Täiendavad üksikasjad** , valige jaotises **Hinnakirjaüksused** ikoon **Rohkem käske** ja seejärel valige **Lisa uus hinnakirjaüksus**.
+5.  Minge vahekaardile **Täiendavad üksikasjad**, valige jaotises **Hinnakirjaüksused** ikoon **Rohkem käske** ja seejärel valige **Lisa uus hinnakirjaüksus**.
 7.  Valige vahekaardil **Täiendavad üksikasjad** jaotises **Toote seos** ikoon **Rohkem käske** ja seejärel valige **Lisa uus toote seos.**
 8.  Sisestage vormil **Uus toote seos** järgmised üksikasjad ja valige käsuribal käsk **Salvestaja sule**.
 
-    -   **Seotud toode** : valige toode, mille soovite lisada seostuva tootena olemasolevale tootekirjele, millega töötate.
-    -   **Müügiseose tüüp** : valige, kas soovite lisada toote lisamüügi, ristmüügi, tarviku või asendustootena.
-    -   **Suund** : valige, kas toodetevaheline seos on ühe- või kahesuunaline. Ühesuunalise valimise korral näidatakse toodet, mille valite jaotisest **Seostatud toode** , olemasoleva toote puhul soovitusena, kuid mitte vastupidi.
+    -   **Seotud toode**: valige toode, mille soovite lisada seostuva tootena olemasolevale tootekirjele, millega töötate.
+    -   **Müügiseose tüüp**: valige, kas soovite lisada toote lisamüügi, ristmüügi, tarviku või asendustootena.
+    -   **Suund**: valige, kas toodetevaheline seos on ühe- või kahesuunaline. Ühesuunalise valimise korral näidatakse toodet, mille valite jaotisest **Seostatud toode**, olemasoleva toote puhul soovitusena, kuid mitte vastupidi.
 
 9.  Valige toote vormil **Salvesta.**
 
@@ -119,8 +119,8 @@ Süsteem kinnitab, et ainult arvandmed või toote atribuudid, millel on arvuline
 
 Näiteks juhul, kui on olemas järgmised atribuudid. 
 
-- **Kasutajate arv** : kasutajate arv 
-- **Kuude arv** : kordustellimuse kuude arv
+- **Kasutajate arv**: kasutajate arv 
+- **Kuude arv**: kordustellimuse kuude arv
 - **Toote SKU** 
 
 Atribuute **Kasutajate arv** ja **Kuude arv** saab märgistada koguse tegurina, redigeerides tootesarja atribuute. 

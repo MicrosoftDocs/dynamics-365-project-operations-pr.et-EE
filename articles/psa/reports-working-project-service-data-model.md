@@ -3,7 +3,7 @@ title: Project Service Automation andmemudeliga töötamine
 description: Selles teemas antakse teavet andmemudeliga töötamise kohta.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19e999e16a5bf6321a5a61208c8654f7870e6007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8d63a1b36abe0a154c43e99738340f32f28c2f5e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075141"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120268"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Project Service Automation andmemudeliga töötamine
 
@@ -33,15 +33,15 @@ Dynamics 365 Project Service Automation laiendab teiste rakenduste olemeid ja tu
 
 ## <a name="reporting-on-opportunities"></a>Müügivõimaluste aruandlus
 
-Project Service Automation laiendab Dynamics 365 Sales olemit **Müügivõimalus** , lisades välju, mis võimaldavad projektipõhiseid stsenaariume. Neid välju tuvastatakse skeeminime alusel, mille eesliiteks on **msdyn\_**. Üks uus väli, mis on PSA müügivõimaluste aruandluse puhul oluline, on **Tellimuse tüüp**. Kui selle välja väärtuseks on **Tööpõhine** , on müügivõimalus PSA müügivõimalus. Muud olemile lisatud väljad on nt **Lepingut sõlmiv organisatsioon** , mis hõlmab müügivõimalust hoidvat organisatsiooni ja **Kontohaldur** , mis hõlmab selle kontohalduri nime, kes müügivõimaluse eest vastutab.
+Project Service Automation laiendab Dynamics 365 Sales olemit **Müügivõimalus**, lisades välju, mis võimaldavad projektipõhiseid stsenaariume. Neid välju tuvastatakse skeeminime alusel, mille eesliiteks on **msdyn\_**. Üks uus väli, mis on PSA müügivõimaluste aruandluse puhul oluline, on **Tellimuse tüüp**. Kui selle välja väärtuseks on **Tööpõhine**, on müügivõimalus PSA müügivõimalus. Muud olemile lisatud väljad on nt **Lepingut sõlmiv organisatsioon**, mis hõlmab müügivõimalust hoidvat organisatsiooni ja **Kontohaldur**, mis hõlmab selle kontohalduri nime, kes müügivõimaluse eest vastutab.
 
 Olem **Müügivõimaluse rida** hõlmab ka välju, mis on seotud Project Service’iga. Väli **Arveldusmeetod** näitab, kas müügivõimaluse rea eest tuleks tasuda aja- ja materjalikulu või fikseeritud hinna alusel ning väli **Projekt** hõlmab müügivõimalust toetava projekti nime. Muud väljad, mille kohta saate aruandeid luua, hõivavad reaüksuse jaoks kulusid ja kliendi eelarvesummasid.
 
 ## <a name="reporting-on-quotes"></a>Hinnapakkumiste aruandlus
 
-PSA laiendab rakenduse Sales olemit **Hinnapakkumine** , lisades projektiga seotud välju. Väli **Tellimuse tüüp** eristab PSA hinnapakkumisi mitte-PSA hinnapakkumistest. Kui selle välja väärtuseks on **Tööpõhine** , on hinnapakkumine PSA hinnapakkumine. Muud väljad, mis võivad PSA hinnapakkumise aruandluse joaks olulised olla, hõlmavad summavälju nagu **Arveldatavad kulud** , **Mittearveldatavad kulud** , **Kogutulu** , **Hinnangud** ja **Eelarve**. Muud kasulikud väljad näitavad, kas hinnapakkumine on tulutoov, kas see täidetakse ajakava kohaselt ja kas see vastab kliendi eelarve ootustele.
+PSA laiendab rakenduse Sales olemit **Hinnapakkumine**, lisades projektiga seotud välju. Väli **Tellimuse tüüp** eristab PSA hinnapakkumisi mitte-PSA hinnapakkumistest. Kui selle välja väärtuseks on **Tööpõhine**, on hinnapakkumine PSA hinnapakkumine. Muud väljad, mis võivad PSA hinnapakkumise aruandluse joaks olulised olla, hõlmavad summavälju nagu **Arveldatavad kulud**, **Mittearveldatavad kulud**, **Kogutulu**, **Hinnangud** ja **Eelarve**. Muud kasulikud väljad näitavad, kas hinnapakkumine on tulutoov, kas see täidetakse ajakava kohaselt ja kas see vastab kliendi eelarve ootustele.
 
-PSA laiendab ka rakenduse Sales olemit **Hinnapakkumise rida**. Üks väli, mille PSA lisab, on **Arveldusmeetod** , mis näitab, kuidas hinnapakkumise rea eest arve esitatakse (aja- ja materjalikulu või fikseeritud hind). Muud olemile lisatud väljad hõlmavad seotud projekti, mis toetab hinnapakkumise rida, arveldust, kulusid ja eelarvet.
+PSA laiendab ka rakenduse Sales olemit **Hinnapakkumise rida**. Üks väli, mille PSA lisab, on **Arveldusmeetod**, mis näitab, kuidas hinnapakkumise rea eest arve esitatakse (aja- ja materjalikulu või fikseeritud hind). Muud olemile lisatud väljad hõlmavad seotud projekti, mis toetab hinnapakkumise rida, arveldust, kulusid ja eelarvet.
 
 PSA lisab Dynamics 365 andmemudelisse ka uusi hinnapakkumisega seotud olemeid. Järgmiselt on toodud mõned näited.
 
@@ -50,13 +50,13 @@ PSA lisab Dynamics 365 andmemudelisse ka uusi hinnapakkumisega seotud olemeid. J
 - **Hinnapakkumise rea vahe-eesmärk** – see olem sisaldab fikseeritud hinnaga hinnapakkumiste ridade arvete esitamise vahe-eesmärke.
 - **Hinnapakkumise rea analüüsi jaotus** – see olem sisaldab hinnapakkumise rea finantsandmeid. Need andmed võivad kasuks tulla müügi hinnapakkumiste ja prognoositavate kulusummade esitamisel mitmesuguste dimensioonide alusel.
 
-Muud olemid, mille PSA hinnapakkumistele lisab on **Hinnapakkumise rea projekti hinnakiri** , **Hinnapakkumise rea ressursikategooria** ja **Hinnapakkumise rea kande kategooria**.
+Muud olemid, mille PSA hinnapakkumistele lisab on **Hinnapakkumise rea projekti hinnakiri**, **Hinnapakkumise rea ressursikategooria** ja **Hinnapakkumise rea kande kategooria**.
 
 ![Diagramm, mis näitab hinnapakkumist, hinnapakkumise rida ja projekti seost](media/PS-Reporting-image2.png "Diagramm, mis näitab hinnapakkumist, hinnapakkumise rida ja projekti seost")
 
 ## <a name="reporting-on-project-contracts"></a>Projektilepingute aruandlus
 
-PSA laiendab rakenduse Sales olemit **Tellimus** , mida kasutatakse projektilepingute talletamisel. See lisab olulise uue välja, **Tellimuse tüüp** , mis tuvastab lepingu müügitellimuse asemel PSA projekti lepinguna. Kui selle välja väärtuseks on **Tööpõhine** , on tellimus PSA projektileping. Muud uued väljad, mis lisatakse olemile **Tellimus** , hõlmavad kulude, PSA lepingu oleku ja lepingut omava organisatsiooni üksikasju.
+PSA laiendab rakenduse Sales olemit **Tellimus**, mida kasutatakse projektilepingute talletamisel. See lisab olulise uue välja, **Tellimuse tüüp**, mis tuvastab lepingu müügitellimuse asemel PSA projekti lepinguna. Kui selle välja väärtuseks on **Tööpõhine**, on tellimus PSA projektileping. Muud uued väljad, mis lisatakse olemile **Tellimus**, hõlmavad kulude, PSA lepingu oleku ja lepingut omava organisatsiooni üksikasju.
 
 PSA laiendab ka olemit **Müügitellimuse rida**. Lisatavate väljade hulgas on väljad, mis hõlmavad arveldamise viisi (aja- ja materjalikulu või fikseeritud hind), kliendi eelarvesummasid ja aluseks olevat projekti.
 
@@ -66,7 +66,7 @@ PSA lisab ka uusi olemeid, mis on mõeldud projektilepingute jaoks. Järgmiselt 
 - **Lepingurea arve ajakava** – see olem sisaldab arvete esitamise ajakava, mis on loodud lepingureale määratud arvete esitamise sageduse põhjal.
 - **Lepingu vahe-eesmärk** – see olem sisaldab nende lepinguridade arveldamise vahe-eesmärke, millel on fikseeritud hinnaga arvete esitamise tähtaeg.
 
-Muud olemid, mille PSA lepingutele lisab on **Projekti lepingurea projekti hinnakiri** , **Projekti lepingurea ressursikategooria** ja **Projekti lepingurea kande kategooria**.
+Muud olemid, mille PSA lepingutele lisab on **Projekti lepingurea projekti hinnakiri**, **Projekti lepingurea ressursikategooria** ja **Projekti lepingurea kande kategooria**.
 
 ![Diagramm, mis näitab tellimust, tellimuse rida ja projekti seost](media/PS-Reporting-image3.png "Diagramm, mis näitab tellimust, tellimuse rida ja projekti seost")
 
@@ -84,7 +84,7 @@ Olem **Projektid** ja sellega seotud olemid on PSA jaoks eksklusiivsed. **Projek
 
 ## <a name="reporting-on-resources"></a>Ressursside aruandlus
 
-Projektiressursid kasutavad rakendusest Universal Resource Scheduling (URS) pärinevaid olemeid **Broneeritav ressurss** , mis on teiste rakendustega (nt Microsoft Dynamics 365 Field Service) ühiskasutuses. Järgmisena on toodud loend olemitest, mida peate võib-olla projektiressursside aruandluse puhul kasutama.
+Projektiressursid kasutavad rakendusest Universal Resource Scheduling (URS) pärinevaid olemeid **Broneeritav ressurss**, mis on teiste rakendustega (nt Microsoft Dynamics 365 Field Service) ühiskasutuses. Järgmisena on toodud loend olemitest, mida peate võib-olla projektiressursside aruandluse puhul kasutama.
 
 - **Broneeritav ressurss** – see olem esindab kasutajat, kontakti, üldressurssi, kontot, rühma või varustust, mida projektimeeskonnas kasutatakse.
 - **Broneeritava ressursi tunnused** – see olem sisaldab ressursi oskusi, serte või haridust. Tunnustel võivad olla hindamisväärtused, mis on määratletud hindamismudelis.
@@ -97,7 +97,7 @@ Projektiressursid kasutavad rakendusest Universal Resource Scheduling (URS) pär
 
 Kui kinnitate ajatabeli või kulu või esitate rakenduses PSA lepingu eest arve, talletatakse äritehing olemis **Tegelik**. See olem võib PSA-s olla peaaegu kõigi finantstegevustega seotud aruannete aluseks. Olem **Tegelik** hõivab ärisündmuse kulu- ja müügikandeid. Samuti hõivab see mitmeid olulisi atribuute.
 
-Kui töötate olemiga **Tegelik** , on oluline mõista, millised kanded on olemisse talletatud ja millal need kanded on talletatud. Siin on toodud tavaline voog ajakirjetega töötamisel (kulukirjete voog on sellega sarnane).
+Kui töötate olemiga **Tegelik**, on oluline mõista, millised kanded on olemisse talletatud ja millal need kanded on talletatud. Siin on toodud tavaline voog ajakirjetega töötamisel (kulukirjete voog on sellega sarnane).
 
 1. Ajakirje salvestamisel ei looda olemis **Tegelik** ühtegi kirjet.
 2. Ajakirje esitamisel ei looda olemis **Tegelik** ühtegi kirjet.

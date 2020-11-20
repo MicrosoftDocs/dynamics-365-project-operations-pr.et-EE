@@ -3,17 +3,17 @@ title: Uue keskkonna ettevalmistamine
 description: Selles teemas antakse teavet uue Project Operationsi keskkonna ettevalmistamise kohta.
 author: sigitac
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074843"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121168"
 ---
 # <a name="provision-a-new-environment"></a>Uue keskkonna ettevalmistamine
 
@@ -116,7 +116,7 @@ Keskkonna teenindamine võtab aega. Kui see on lõpule viidud, naaseb keskkond j
 
 ![Link CDS-le](./media/12LinktoCDS.png)
 
-4. Valige **Rakenda lahendus** , et avada integreerimisel vastendatavad olemid.
+4. Valige **Rakenda lahendus**, et avada integreerimisel vastendatavad olemid.
 
 ![Rakenda lahendused](./media/13ApplySolutions.png)
 
@@ -177,7 +177,7 @@ Värskendamine võtab aega umbes 20 minutit. Teile kuvatakse teade, kui see on v
 
 5. Pärast värskenduse lõpetamist käivitage vastendus. Enne järgmise vastenduse lubamist veenduge, et tabelis olev kaart oleks olekus **Töötab**. Suurema hulga eeltingimustega kaartide käitamine võib võtta aega.
 
-Eeltingimustega kaartide käivitamiseks lubage ümberlülitusnupp **Kuva seostuvad olemikaardid**. Kui tabel näitab, et **Eeltingimuste esialgne sünkroonimine** on **Ei** , veenduge, et lipp **Esialgne sünkroonimine** oleks enne käivitamist kõigil eeltingimuse kaartidel **Väljas**.
+Eeltingimustega kaartide käivitamiseks lubage ümberlülitusnupp **Kuva seostuvad olemikaardid**. Kui tabel näitab, et **Eeltingimuste esialgne sünkroonimine** on **Ei**, veenduge, et lipp **Esialgne sünkroonimine** oleks enne käivitamist kõigil eeltingimuse kaartidel **Väljas**.
 
 ![Käita kaart](./media/21RunMap.png)
 
@@ -185,4 +185,10 @@ Eeltingimustega kaartide käivitamiseks lubage ümberlülitusnupp **Kuva seostuv
 
 ![Kõik kaardid töötavad](./media/22AllMapsRunning.png)
 
-Teie Project Operationsi keskkond on nüüd ettevalmistatud ja konfigureeritud.
+
+## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>CDS-is konfiguratsiooniandmete rakendamine rakenduses Project Operations (valikuline)
+
+Kui olete rakenduse Finance keskkonnale rakendanud demoandmeid, lugege jaotist [Teenuse Common Data Service rakenduses Project Operations konfiguratsiooniandmete seadistamine ja rakendamine](resource-apply-pro-setup-config-data.md), et rakendada CDS-i keskkonnale demoandmeid.
+
+
+Teie Project Operationsi keskkond on nüüd ettevalmistatud ja konfigureeritud. 

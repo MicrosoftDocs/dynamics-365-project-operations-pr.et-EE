@@ -3,7 +3,7 @@ title: Kinnitatud aja- või kulukirjete tagasivõtmine
 description: Selles teemas antakse teavet varem kinnitatud aja- või kulukirjete tagasivõtmise kohta.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7bacd70881a6c463cc449a365173da5338a3d3fc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 102da39d5940874a8e1f4220437ecdf386a7187b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075003"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120538"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Kinnitatud aja- või kulukirjete tagasivõtmine
 
@@ -62,11 +62,11 @@ Tagasivõtmise taotluse kinnitamiseks või tagasilükkamiseks toimige järgmisel
 1. Minge jaotisse **Projektid** \> **Minu töö** \> **Kinnitused**.
 2. Muutke loendilehel **Kinnitamised** vaade väärtusele **Tagasivõtmistaotlused kinnitamiseks**. Kuvatakse esitatud tagasivõtmistaotluste loend.
 3. Valige üks või mitu kirjet ja seejärel tehke kas valik **Kinnita** või **Hülga**.
-4. Kui valisite suvandi **Kinnita** , kuvatakse hoiatusteade, mis selgitab kinnitamise mõju. Toimingu kinnitamiseks klõpsake nuppu **OK**. Tagasivõtmistaotlus on kinnitatud.
+4. Kui valisite suvandi **Kinnita**, kuvatakse hoiatusteade, mis selgitab kinnitamise mõju. Toimingu kinnitamiseks klõpsake nuppu **OK**. Tagasivõtmistaotlus on kinnitatud.
 
     –või–
 
-    Kui valisite suvandi **Hülga** , siis lükatakse tagasivõtmistaotlus tagasi.
+    Kui valisite suvandi **Hülga**, siis lükatakse tagasivõtmistaotlus tagasi.
 
 > [!NOTE]
 > Nagu tagasivõtmise taotlemisel, nii ka tagasivõtmise kinnitamisel kontrollib süsteem aja- või kulukirjetest arveldustegevust. Kui kirje eest on juba arve esitatud või kui see on arve mustandis, kuvatakse kinnitajale tõrketeade, mis teatab, et aega või kulu ei saa tagasivõtmiseks kinnitada, kuna see on juba arveldatud.
@@ -77,7 +77,7 @@ Kinnitamise tagasivõtmisel on nii tegevuslik kui ka finantsmõju.
 
 ### <a name="operational-impact"></a>Mõju tegevusele
 
-Kui tagasivõtmistaotlus on kinnitatud, märgitakse kinnitamise kirje kui **Hüljatud**. Kirje olekuks määratakse kas **Tagastatud** või **Hüljatud** , olenevalt sellest, kas see on aja- või kulukirje.
+Kui tagasivõtmistaotlus on kinnitatud, märgitakse kinnitamise kirje kui **Hüljatud**. Kirje olekuks määratakse kas **Tagastatud** või **Hüljatud**, olenevalt sellest, kas see on aja- või kulukirje.
 
 Projektimeeskonna liige saab kirjeid vaadata, redigeerida ja seejärel uuesti esitada või kirjeid täielikult kustutada.
 

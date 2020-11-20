@@ -3,7 +3,7 @@ title: Projekti hinnakujundus
 description: Selles teemas antakse teavet hinnakujunduse kohta rakenduses Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b319f9be9fd72ac99ce6012b6baffde812e3077d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 88b791a1eb90d2aad67adba69169eab2c49c1318
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075153"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120763"
 ---
 # <a name="project-pricing"></a>Projekti hinnakujundus 
 
@@ -56,7 +56,7 @@ Mõiste *ressursiroll* viitab oskustele, pädevustele ja tõenditele, mida peab 
 
 Inimressursside aeg on tavaliselt noteeritud vastavalt rollile, mille ressurss täidab kindla projektiga. Inimressursside aja puhul toetab PSA kuluarvutust ja arveldamist, mis põhinevad ressursirollil. Aja saab arvestada mis tahes ühikus ühikurühmas **Aeg**.
 
-Ühikurühm **Aeg** sisestatakse, kui PSA on installitud. Sel on vaikeühik **Tund**. Ühikurühma **Aeg** või ühiku **Tund** atribuute ei saa kustutada, ümber nimetada ega redigeerida. Soovi korral saate aga ühikurühma **Aeg** lisada ka muid ühikuid. Kui proovite kustutada kas ühikurühma **Aeg** või ühiku **Tund** , võite PSA äriloogikas tõrkeid põhjustada.
+Ühikurühm **Aeg** sisestatakse, kui PSA on installitud. Sel on vaikeühik **Tund**. Ühikurühma **Aeg** või ühiku **Tund** atribuute ei saa kustutada, ümber nimetada ega redigeerida. Soovi korral saate aga ühikurühma **Aeg** lisada ka muid ühikuid. Kui proovite kustutada kas ühikurühma **Aeg** või ühiku **Tund**, võite PSA äriloogikas tõrkeid põhjustada.
 
 > ![Hindade konfigureerimine rolli järgi](media/basic-guide-13.png)
  

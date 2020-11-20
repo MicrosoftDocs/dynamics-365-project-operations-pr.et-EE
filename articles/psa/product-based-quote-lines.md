@@ -3,7 +3,7 @@ title: Tootepõhised hinnapakkumise read
 description: Selles teemas antakse teavet tootel põhinevate hinnapakkumiste ridade kohta.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55a5b5041a494892e6d96bf24e1bc132a26521dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9c3b2b35abe894e79d6f55a7ddd6e5c64d0f12f2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075136"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123193"
 ---
 # <a name="product-based-quote-lines"></a>Tootepõhised hinnapakkumise read
 
@@ -41,7 +41,7 @@ Näiteks ettevõte müüb kordustellimuse litsentse mitmesuguste tarkvarade jaok
 - Aktiivsete kasutajate arv 
 - Kordustellimuse kestus (kuudes)
 
-Seda tüüpi kataloogi säilitamiseks on hea viis luua tootepere, mille nimi on **Kordustellimuse tarkvara** ja millel on atribuudid **Kasutajate arv** ja **Kordustellimuse kestus**. Seejärel saate lisada üksikuid tooteid, näiteks **Dynamics 365 Sales** või **Dynamics 365 Field Service** , tooteperele **Kordustellimuse tarkvara**.
+Seda tüüpi kataloogi säilitamiseks on hea viis luua tootepere, mille nimi on **Kordustellimuse tarkvara** ja millel on atribuudid **Kasutajate arv** ja **Kordustellimuse kestus**. Seejärel saate lisada üksikuid tooteid, näiteks **Dynamics 365 Sales** või **Dynamics 365 Field Service**, tooteperele **Kordustellimuse tarkvara**.
 
 ## <a name="adding-product-catalog-items-to-a-project-quote"></a>Tootekataloogi üksuste lisamine projekti hinnapakkumisesse
 
@@ -54,9 +54,9 @@ Kui hinnapakkumise rida põhineb tootekataloogil, saate müügihinna alistada ot
 - Hinnakirja tühistamine  
 - Kasuta vaikeväärtust
 
-Kui määrate selle välja väärtuseks **Hinnakirja tühistamine** , ei sea Dynamics 365 vaikimisi hinda. Toote hinna peate sisestama hinnapakkumise real. Kui määrate selle välja väärtuseks **Kasuta vaikesätet** , kasutab Dynamics 365 vaikimisi müügihinda ja lukustab välja, et seda ei saaks redigeerida.
+Kui määrate selle välja väärtuseks **Hinnakirja tühistamine**, ei sea Dynamics 365 vaikimisi hinda. Toote hinna peate sisestama hinnapakkumise real. Kui määrate selle välja väärtuseks **Kasuta vaikesätet**, kasutab Dynamics 365 vaikimisi müügihinda ja lukustab välja, et seda ei saaks redigeerida.
 
-Pärast seda, kui olete installinud PSA, sisestatakse vaikimisi müügihinnad hinnapakkumise tootepõhistele ridadele. Välja **Hinnakiri** väärtuseks seatakse **Hinnakirja tühistamine** , et saaksite hinnapakkumise ridadel redigeerida vaikimisi kasutatavat hinda.
+Pärast seda, kui olete installinud PSA, sisestatakse vaikimisi müügihinnad hinnapakkumise tootepõhistele ridadele. Välja **Hinnakiri** väärtuseks seatakse **Hinnakirja tühistamine**, et saaksite hinnapakkumise ridadel redigeerida vaikimisi kasutatavat hinda.
 
 > ![Hinnakirja tühistamise määramine](media/basic-guide-10.png)
  

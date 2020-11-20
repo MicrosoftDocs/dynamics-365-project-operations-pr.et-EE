@@ -6,7 +6,7 @@ manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f215555dd7b29444e00499c0e731624e51057250
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c42e5fda79d51430f4dedf46037e11c86a38c474
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075039"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121843"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Lisandmooduli atribuutide värskendamine uute hinnakujunduse dimensioonide lisamiseks
 
@@ -30,7 +30,7 @@ ms.locfileid: "4075039"
 
 See teema eeldab, et olete lõpetanud toimingud teemades [Kohandatud väljade ja olemite loomine](create-custom-fields-entities.md), [Kohandatud väljade lisamine hinna seadistamisele ja ülekande olemitele](field-references.md) ning [Kohandatud väljade seadistamine hinnakujunduse dimensioonidena](set-up-pricing-dimensions.md). Kui te pole neid toiminguid lõpetanud, minge tagasi, viige need lõpuni ja seejärel tulge selle teema juurde tagasi.
 
-Kui projekti hinnapakkumise rea jaoks luuakse hinnapakkumise rea üksikasjad lehel **Hinnapakkumise rida** , loob süsteem taustal kaks prognoosirida: üks rida prognoosi kulu poolele ja teine müügi poolele. Sama kehtib ka projekti lepinguridade kohta.
+Kui projekti hinnapakkumise rea jaoks luuakse hinnapakkumise rea üksikasjad lehel **Hinnapakkumise rida**, loob süsteem taustal kaks prognoosirida: üks rida prognoosi kulu poolele ja teine müügi poolele. Sama kehtib ka projekti lepinguridade kohta.
 
 Kui muudate kulupoole kogust või välja, kantakse see muudatus üle ka müügipoolele. See on võimalik tänu järgnevatele lisandmoodulitele, mida tuleb pärast hinnakujunduse dimensioonide muutmist uuesti registreerida.
 
@@ -50,7 +50,7 @@ Järgmised etapid selgitavad teile lisandmoodulite registreerimise protsessi.
 
  ![Kuvatõmmis värskendatavast lisandmoodulist](media/PRT-2.png)
  
-5. Klõpsake värskendamise aknas filtreerimise atribuutides kolmikpunkti ( **...** ).
+5. Klõpsake värskendamise aknas filtreerimise atribuutides kolmikpunkti (**...**).
 
  ![Kuvatõmmis olemasoleva etapi värskendamise konfiguratsiooniteabest](media/PRT-3.png)
  

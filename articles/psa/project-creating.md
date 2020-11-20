@@ -3,7 +3,7 @@ title: Projekti ajakavad
 description: Selles teemas kirjeldatakse ajakava loomist.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a6b27050a19d8a7f2ed35f74b42bb4f371ad069
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074991"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123225"
 ---
 # <a name="project-schedules"></a>Projekti ajakavad 
 
@@ -83,12 +83,12 @@ Nupud **Nihuta üles** ja **Nihuta alla** muudavad ülesande paigutust peamises 
 
 **Ajakava** ruudustik on täielikult juurdepääsetav ja seda saab kasutada ekraanilugeja, näiteks Narrator, JAWS või NVDA. Saate liikuda läbi ruudustiku ala nooleklahvide abil (nagu rakenduses Microsoft Excel), saate kasutada tabeldusklahvi, et interaktiivse kasutajaliidese elemente edasi arendada, ning võite kasutada allanoolt, sisestusklahvi või tühikut, et valida rippmenüü ja seda käivitada. Ka veerupäised on interaktiivsed. Veergude peitmiseks ja kuvamiseks saate veeru päistes kasutada tabeldusklahvi ja nooleklahve ning kasutada tööriistaribal nuppu tegevus. Lisaks saate kasutada järgmisi kiirklahve.
 
-- **Värskenda** : ALT + SHIFT + F5
-- **Lisa** : ALT + SHIFT + Insert
-- **Kustuta** : ALT + SHIFT + Delete
-- **Nihuta üles/alla** : ALT + SHIFT + ülesnool/allanool
-- **Taane/väljaulatuv** : ALT_SHIFT + vasak/parem nool
-- **Laienda/ahenda hierarhiad** : ALT + SHIFT + pluss-/miinusklahvid
+- **Värskenda**: ALT + SHIFT + F5
+- **Lisa**: ALT + SHIFT + Insert
+- **Kustuta**: ALT + SHIFT + Delete
+- **Nihuta üles/alla**: ALT + SHIFT + ülesnool/allanool
+- **Taane/väljaulatuv**: ALT_SHIFT + vasak/parem nool
+- **Laienda/ahenda hierarhiad**: ALT + SHIFT + pluss-/miinusklahvid
 
 ## <a name="task-attributes"></a>Ülesande atribuudid
 
@@ -98,19 +98,19 @@ Nupud **Nihuta üles** ja **Nihuta alla** muudavad ülesande paigutust peamises 
  
 ### <a name="schedule-attributes"></a>Atribuutide plaanimine
 
-Atribuudid **Maht** , **Alguskuupäev** , **Lõppkuupäev** ja **Kestus** määravad ülesande ajakava.
+Atribuudid **Maht**, **Alguskuupäev**, **Lõppkuupäev** ja **Kestus** määravad ülesande ajakava.
 
 Täiendavad ajakava atribuudid on järgmised.
 
-- **Panuse tunnid** : sisestage ülesande lõpuleviimiseks vajalike tundide kalkulatsioon. 
-- **Kestus** : määrake ülesande lõpuleviimiseks vajalike tööpäevade arv.
-- **Ajakava ID** : seda automaatselt genereeritud ID-d kasutatakse ülesannete tellimiseks hierarhias. Ülesannetevahelised sõltuvused haldavad tegelikku tööjärjestust.
+- **Panuse tunnid**: sisestage ülesande lõpuleviimiseks vajalike tundide kalkulatsioon. 
+- **Kestus**: määrake ülesande lõpuleviimiseks vajalike tööpäevade arv.
+- **Ajakava ID**: seda automaatselt genereeritud ID-d kasutatakse ülesannete tellimiseks hierarhias. Ülesannetevahelised sõltuvused haldavad tegelikku tööjärjestust.
  
 ### <a name="staffing-attributes"></a>Personaliatribuudid
 
 Personaliatribuute saab kasutada ajakava välja **Ressursid** kaudu. Saate otsida olemasolevat ressurssi või klõpsata käsku **Loo** ja siis paneelil **Kiirloomine** lisada uue ressursina projekti meeskonnaliikme.
 
-Väljad **Roll** , **Ressursiühik** ja **Positsiooni nimi** on kasutusel ülesandega seotud vajaduste kirjeldamiseks. Neid personaliatribuute koos ülesannete ajakavaga kasutatakse selleks, et leida selle toimingu jaoks saadaolevaid ressursse.
+Väljad **Roll**, **Ressursiühik** ja **Positsiooni nimi** on kasutusel ülesandega seotud vajaduste kirjeldamiseks. Neid personaliatribuute koos ülesannete ajakavaga kasutatakse selleks, et leida selle toimingu jaoks saadaolevaid ressursse.
 
 **Roll** – määrake, millist tüüpi ressurssi toimingu jaoks vaja on.
 
@@ -134,7 +134,7 @@ Rakenduse PSA ajakava abil saate luua ülesannete vahel eelkäijate seoseid. **E
 
 ### <a name="auto-scheduling"></a>Automaatne plaanimine 
  
-Kui määrate ülesande režiimiks **Automaatne plaanimine** , kasutab ülesande plaanimismootor plaanimisreegleid järgmistel ülesande atribuutidel ülesande ajakava määratlemiseks.
+Kui määrate ülesande režiimiks **Automaatne plaanimine**, kasutab ülesande plaanimismootor plaanimisreegleid järgmistel ülesande atribuutidel ülesande ajakava määratlemiseks.
 
 #### <a name="scheduling-rules"></a>Plaanimise reeglid
 

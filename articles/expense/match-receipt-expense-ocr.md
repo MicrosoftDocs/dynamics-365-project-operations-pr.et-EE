@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 62d6316c9602089518a94267d8ef2b7fb8d59cd0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 55f63c8c092942b73a55c9d86d867bca600f42e5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074921"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124318"
 ---
 # <a name="match-a-receipt-to-an-expense-using-ocr"></a>Kviitungi vastendamine kuluga OCR-i kasutades
 
@@ -39,18 +39,18 @@ Kulude sisetamist on täiustatud kviitungite tähemärkide optilise tuvastamise 
 Kui soovite kuluaruande loomisel automaatselt manustada sinna ka krediitkaardi tehingute kviitungid, täitke järgmised etapid.
 
   1. Avage tööruum **Kuluhaldus**.
-  2. Kontrollige vahekaardil **Kviitungid** , kas manustamata kviitungeid on. Vahekaardil **Kviitungid** saate kviitungeid ka üles laadida.
-  3. Kontrollige vahekaardil **Kulud** , kas manustamata kulusid on. Tavaliselt impordib kuluhaldur need kulud krediitkaardi pakkujalt.
+  2. Kontrollige vahekaardil **Kviitungid**, kas manustamata kviitungeid on. Vahekaardil **Kviitungid** saate kviitungeid ka üles laadida.
+  3. Kontrollige vahekaardil **Kulud**, kas manustamata kulusid on. Tavaliselt impordib kuluhaldur need kulud krediitkaardi pakkujalt.
   4. Valige **Uus kuluaruanne**. Pange tähele, et saate nüüd kuluaruande loomisel kaasata ka kulud ja kviitungid. Kui lisate nii kulud kui ka kviitungid, käivitatakse kviitungite automaatne vastendamine kuludega.
 
 ## <a name="create-or-match-receipts-to-an-expense-report"></a>Looge või vastendage kviitungid kuluaruandesse
 Kulu loomiseks või kulu kviitungi kaudu vastendamiseks toimige järgmiselt.
 
-  1. Manustage kviitung kuluaruande vahekaardile **Kviitungid** , valides suvandi **Lisa kviitungeid**.
+  1. Manustage kviitung kuluaruande vahekaardile **Kviitungid**, valides suvandi **Lisa kviitungeid**.
   2. Pange tähele kviitungi üleslaaditud pildi all suvandeid **Loo** ja **Vastenda**.
 
-      - Valige **Loo** , et luua käsitsi sisestatud kulukanne ja täitke arvelt saadud väärtused.
-      - Kui valite suvandi **Vastenda** , proovib süsteem vastendada olemasoleva kulu kviitungiga.
+      - Valige **Loo**, et luua käsitsi sisestatud kulukanne ja täitke arvelt saadud väärtused.
+      - Kui valite suvandi **Vastenda**, proovib süsteem vastendada olemasoleva kulu kviitungiga.
 
 ## <a name="installation"></a>Installimine
 
@@ -73,7 +73,7 @@ Nende funktsioonide sisselülitamisel tehakse järgmised toimingud.
 
 - Olemasolev tööruum **Kuluhaldus** asendatakse uue tööruumiga.
 - Lisatakse uus menüü element kulu välja nähtavuse kohta.
-- Saate siiski avada eelmise lehe **Kuluaruanded** , avades jaotise **Kuluhaldus > Minu kulud > Kuluaruanded**.
+- Saate siiski avada eelmise lehe **Kuluaruanded**, avades jaotise **Kuluhaldus > Minu kulud > Kuluaruanded**.
 - Töövood ja kõik kinnitused viivad teid ikka olemasolevate kuluaruannete lehele.
 - Kviitungeid töödeldakse Microsoft Azure Cognitive Services'i kaudu ja metaandmed eraldatakse ning lisatakse.
 - Lisatakse suvand, mis võimaldab luua kuluaruande, mis sisaldab vastendatud kinnitamata kviitungeid.

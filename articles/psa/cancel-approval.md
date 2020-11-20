@@ -3,7 +3,7 @@ title: Tühista varem kinnitatud aja- ja kuluarvestuse olemid
 description: Selles teemas antakse teavet kinnitatud projekti aja- ja kuluarvestuse tehingute tühistamise kohta.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ea816040570cc8f6ddf3c5ec8a74ac092fc68b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 84fc057599dd98162320d6104ed4a7612e894ecb
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075131"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123328"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Tühista varem kinnitatud aja- ja kuluarvestuse tehingud
 
@@ -46,7 +46,7 @@ Kui kinnitus tühistatakse, on sel mõju nii tegevusele kui ka finantsile.
 
 ### <a name="operational-impact"></a>Mõju tegevusele
 
-Tegevuste poolel, kui kinnitamine tühistatakse, lähtestatakse kirje olekuks **Mustand** , ja kinnitust ei kuvata enam vaates **Minu varasemad kinnitused**. Selle asemel kuvatakse tühistatud kinnitus kas vaates **Ajakirjed kinnitamiseks** või vaates **Kulukirjed kinnitamiseks** , olenevalt sellest, kas see oli aja- või kulukirje. Peale selle muudetakse seotud aja- või kulukirje olekuks **Esitatud** , et seotud kirje oleks vastavuses kinnitatutega, mille olek on **Mustand**.
+Tegevuste poolel, kui kinnitamine tühistatakse, lähtestatakse kirje olekuks **Mustand**, ja kinnitust ei kuvata enam vaates **Minu varasemad kinnitused**. Selle asemel kuvatakse tühistatud kinnitus kas vaates **Ajakirjed kinnitamiseks** või vaates **Kulukirjed kinnitamiseks**, olenevalt sellest, kas see oli aja- või kulukirje. Peale selle muudetakse seotud aja- või kulukirje olekuks **Esitatud**, et seotud kirje oleks vastavuses kinnitatutega, mille olek on **Mustand**.
 
 Kinnitajana saate redigeerida mõnda kinnitusvälja, mille olek on **Mustand**. Nende väljade hulka kuuluvad **Arveldamise tüüp** ja **Arveldatavate tundide ajakirjed**. Pärast muudatuste tegemist saate kirje uuesti kinnitada. Soovi korral võite kirje tagasi lükata. Kui lükkate ajakirje kinnitamise tagasi, muudetakse kirje olekuks **Tagastatud**. Kui lükkate ajakirje kinnitamise tagasi, muudetakse olekuks **Tagasi lükatud**. Funktsionaalselt, nii tagasi lükatud kui ka hüljatud kirjed käituvad samamoodi kui kirje, mille olek on **Mustand**. Projekti meeskonnaliige saab kirjes vajalikud muudatused teha ja seejärel uuesti kinnitamiseks esitada või kirje täielikult kustutada.
 

@@ -3,7 +3,7 @@ title: Ressursi esialgne reserveerimine
 description: Selles teemas kirjeldatakse, kuidas projekti meeskonna liikmeid ajastada või esialgselt reserveerida.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/25/2019
@@ -12,12 +12,12 @@ ms.author: ruhercul
 audience: Admin
 search.app:
 - ProjectOperations
-ms.openlocfilehash: cb506a519dbc490ecdd579edf1e3fa5dd0153bdb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: af71ff9d60e237a9d1379b3ccd4c0d5ffce411e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075081"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122203"
 ---
 # <a name="soft-book-a-resource"></a>Ressursi esialgne reserveerimine
 
@@ -25,7 +25,7 @@ ms.locfileid: "4075081"
 
 Saate ressurssi esialgselt projektimeeskonda reserveerida, andmaks teada, et planeerite ressursi projekti määrata. Esialgselt reserveerimised ei lisa ressursile koormust ja teil on võimalik esialgselt reserveeritud meeskonnaliikmeid projekti ülesandeid täitma määrata. Kuna esialgselt reserveerimine ei lisa ressursile koormust, saate ressursile endiselt samasse perioodi muid kindlaid ülesandeid määrata. Üldisi ressursse pole võimalik esialgselt reserveerida, samuti ei täida esialgselt reserveerimine üldise ressursi taotlust.
 
-Esialgselt reserveeritud meeskonnaliikmed on loetletud lehel **Projekt** vahekaardil **Meeskond** , kus vaate **Nimega meeskonnaliikmed** veerus **Esialgselt reserveeritud tunnid** on näha nende esialgselt reserveeritud tunnid. Esialgselt reserveeritud meeskonnaliikmed on toodud ka ajakavapaneelil. Kuna nad on reserveeritud esialgselt, ei näidata ajakavapaneelil nende ressursside koormust. Esialgselt reserveeritud aega ei kuvata vahekaardil **Vastavusseviimine** ega ajakavapaneeli vahekaardi **Vastavusseviimine** väljal **Pikenda broneeringuid**. 
+Esialgselt reserveeritud meeskonnaliikmed on loetletud lehel **Projekt** vahekaardil **Meeskond**, kus vaate **Nimega meeskonnaliikmed** veerus **Esialgselt reserveeritud tunnid** on näha nende esialgselt reserveeritud tunnid. Esialgselt reserveeritud meeskonnaliikmed on toodud ka ajakavapaneelil. Kuna nad on reserveeritud esialgselt, ei näidata ajakavapaneelil nende ressursside koormust. Esialgselt reserveeritud aega ei kuvata vahekaardil **Vastavusseviimine** ega ajakavapaneeli vahekaardi **Vastavusseviimine** väljal **Pikenda broneeringuid**. 
 
 Meeskonnaliikme esialgseks reserveerimiseks on kaks võimalust: otse ajakavapaneelil või lisades meeskonnaliikmeid vahekaardil **Meeskond**. 
 
@@ -39,7 +39,7 @@ Ressursi esialgseks reserveerimiseks ajakavapaneelil tehke järgmised etapid.
 6. Klõpsake valikut **Broneeri**. Ressurss kuvatakse nüüd vahekaardil **Meeskond** projekti ressursina. Esialgselt reserveeritud tunde saate vaadata vaate **Nimega meeskonnaliige** veerus **Esialgselt reserveeritud tunnid**.
 
 > [!NOTE]
-> Pange tähele, et saate nüüd esialgselt reserveeritud ressurssidele vahekaardil **Ajakava** ülesandeid määrata. Kuna vahekaardil **Vastavusseviimine** arvestatakse ainult fikseeritud **reserveerimisi** , kuvatakse seal ressursi ülesandega seotult broneeringu puudujääk. Saate ressursi määramiste fikseeritud reserveerimiste puudujäägi kõrvaldada, kui reserveerite ressurssi fikseeritult funktsiooniga **Pikenda broneeringut**. Peate ressursi esialgselt reserveerimise jaotises **Reserveeringute haldamine** käsitsi tühistama.
+> Pange tähele, et saate nüüd esialgselt reserveeritud ressurssidele vahekaardil **Ajakava** ülesandeid määrata. Kuna vahekaardil **Vastavusseviimine** arvestatakse ainult fikseeritud **reserveerimisi**, kuvatakse seal ressursi ülesandega seotult broneeringu puudujääk. Saate ressursi määramiste fikseeritud reserveerimiste puudujäägi kõrvaldada, kui reserveerite ressurssi fikseeritult funktsiooniga **Pikenda broneeringut**. Peate ressursi esialgselt reserveerimise jaotises **Reserveeringute haldamine** käsitsi tühistama.
 
 ## <a name="soft-book-on-the-team-tab"></a>Esialgselt reserveerimine vahekaardil Meeskond
 
@@ -53,15 +53,15 @@ Selle meetodiga reserveerimiseks tehke järgmist.
 4. Valige **Salvesta**. Näete ressurssi ruudustikus ja tema tunde veerus **Fikseeritult reserveeritud tunnid**.
 5. Valige ressursi reserveerimiste haldamiseks **Reserveeringute haldamine**.
 6. Kui ajakavapaneel avatakse, laiendage ressurssi nende reserveerimiste vaatamiseks. Reserveerimine kuvatakse olekuga **Fikseeritud**.
-7. Paremklõpsake reserveerimist ja valige jaotises **Oleku muutmine** , **Esialgselt reserveerimine** \> **Esialgne**. Nüüd on broneeringu olek **Esialgne**.
+7. Paremklõpsake reserveerimist ja valige jaotises **Oleku muutmine**, **Esialgselt reserveerimine** \> **Esialgne**. Nüüd on broneeringu olek **Esialgne**.
 8. Pärast ajakavapaneeli sulgemist näete, et ressursile määratud tunnid on viidud veerust **Fikseeritult reserveeritud tunnid** veergu **Esialgselt reserveeritud tunnid** vahekaardi **Meeskond** ruudustikus, kui vaadata vaadet **Nimega meeskonnaliikmed**.
 
 > [!NOTE]
-> Kui kasutate valikut **Reserveeringute haldamine** oleku muutmiseks **Fikseeritult** **Esialgsele** , kui reserveerite ressursi fikseeritult meeskonda ja määrate talle ajakavas ülesandeid, jäetakse ressursile määratud ülesanded alles. Kuid vahekaardil **Vastavusseviimine** on ressursil broneeringu puudujääk, kuna broneeringute ja määramiste vastavusseviimisel arvestatakse ainult fikseeritud reserveerimisi. Saate ressursi määramiste fikseeritud reserveerimiste puudujäägi kõrvaldada, kui reserveerite ressursi fikseeritult vahekaardil **Vastavusseviimine** funktsiooniga **Pikenda broneeringut**. Peate ressursi esialgselt reserveerimise jaotises **Reserveeringute haldamine** tühistama.
+> Kui kasutate valikut **Reserveeringute haldamine** oleku muutmiseks **Fikseeritult** **Esialgsele**, kui reserveerite ressursi fikseeritult meeskonda ja määrate talle ajakavas ülesandeid, jäetakse ressursile määratud ülesanded alles. Kuid vahekaardil **Vastavusseviimine** on ressursil broneeringu puudujääk, kuna broneeringute ja määramiste vastavusseviimisel arvestatakse ainult fikseeritud reserveerimisi. Saate ressursi määramiste fikseeritud reserveerimiste puudujäägi kõrvaldada, kui reserveerite ressursi fikseeritult vahekaardil **Vastavusseviimine** funktsiooniga **Pikenda broneeringut**. Peate ressursi esialgselt reserveerimise jaotises **Reserveeringute haldamine** tühistama.
 
 Kui olete valmis esialgselt reserveeritud meeskonnaliikme ressursi kindlaks meeskonnaliikmeks määrama, tehke järgmist.
 
 1. Laiendage ressursi broneeringute vaatamiseks ajakavapaneelil ressurssi. Reserveerimine kuvatakse olekuga **Esialgne**.
-2. Paremklõpsake reserveerimist ja valige jaotises **Oleku muutmine** , valige **Fikseeritult reserveerimine** \> **Fikseeritud**. Nüüd on broneeringu olek **Fikseeritud**.
-3. Kui vaatate vaadet **Nimega meeskonnaliikmed** pärast ajakavapaneeli sulgemist ja projekti naasmist ning vahekaardi **Meeskond** avamist, siis näete, et ressursile määratud tunnid on viidud veerust **Esialgselt reserveeritud tunnid** veergu **Fikseeritult reserveeritud tunnid** vahekaardil **Meeskond**. Kui ressursile määrati ülesandeid, ei kuvata enam broneeringu puudujääki vahekaardil **Vastavusseviimine** , kuna reserveerimised on nüüd fikseeritud.
+2. Paremklõpsake reserveerimist ja valige jaotises **Oleku muutmine**, valige **Fikseeritult reserveerimine** \> **Fikseeritud**. Nüüd on broneeringu olek **Fikseeritud**.
+3. Kui vaatate vaadet **Nimega meeskonnaliikmed** pärast ajakavapaneeli sulgemist ja projekti naasmist ning vahekaardi **Meeskond** avamist, siis näete, et ressursile määratud tunnid on viidud veerust **Esialgselt reserveeritud tunnid** veergu **Fikseeritult reserveeritud tunnid** vahekaardil **Meeskond**. Kui ressursile määrati ülesandeid, ei kuvata enam broneeringu puudujääki vahekaardil **Vastavusseviimine**, kuna reserveerimised on nüüd fikseeritud.
 

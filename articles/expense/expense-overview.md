@@ -5,15 +5,15 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 6da831fef5dba060b8019d7689645405c7ebdbed
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6c5ef2a45e8141bda38baf3eaf0a403d6db95e48
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074836"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122825"
 ---
 # <a name="expense-home-page"></a>Kulu avaleht
 
@@ -24,8 +24,8 @@ Dynamics 365 Project Operations toetab kulude töötlemise võimalust. Kulude t�
 
 Rakenduses Project Operation on kaks toetatud kulude juurutamise mudelit. 
 
-- **Täielik** : täielik juurutus on saadaval valikule **Project Operations ressursipõhiste/mitteladustatavate stsenaariumite jaoks** või **Project Operations tootmistellimuse põhiste stsenaariumite jaoks**.
-- **Põhiline** : põhijuurutus on saadaval valikule **Project Operations ressursipõhiste/mitteaktsiapõhiste stsenaariumite jaoks** ja **Lite’i juurutamine – tehing näidisarveldusele**.
+- **Täielik**: täielik juurutus on saadaval valikule **Project Operations ressursipõhiste/mitteladustatavate stsenaariumite jaoks** või **Project Operations tootmistellimuse põhiste stsenaariumite jaoks**.
+- **Põhiline**: põhijuurutus on saadaval valikule **Project Operations ressursipõhiste/mitteaktsiapõhiste stsenaariumite jaoks** ja **Lite’i juurutamine – tehing näidisarveldusele**.
 
 ## <a name="full"></a>Täielik 
 Täieliku kulude juurutamine tagab täieliku poliitika jõustamise, mis sisaldab võimalust luua poliitikaid, näiteks järgmised.

@@ -3,7 +3,7 @@ title: Pädevusmudelite seadistamine
 description: Pädevusmudelite seadistamine Project Service’is
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 653b7eef12c57203fbc6853e97d3be43bdb85b9d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2d13d5bbfd43ef88ec2f285357ee26a2a87db870
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075173"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122968"
 ---
 # <a name="set-up-proficiency-models-project-service"></a>Pädevusmudelite seadistamine (Project Service)
 
@@ -33,9 +33,9 @@ Nüüd, kui olete lisanud klientide projektidele oskused, vajate moodust oma nõ
   
 1.  Minge jaotisse **Project Service > Pädevusmudelid**.  
   
-2.  Vaikepädevusmudelite vaatamiseks või redigeerimiseks klõpsake loendis valikut **Vaikehindamismudel** , uue pädevusmudeli loomiseks klõpsake valikut **Uus**.  
+2.  Vaikepädevusmudelite vaatamiseks või redigeerimiseks klõpsake loendis valikut **Vaikehindamismudel**, uue pädevusmudeli loomiseks klõpsake valikut **Uus**.  
   
-3.  Uue pädevusmudeli loomisel täitke väljad alal **Üldine** ja klõpsake kirje loomiseks käsku **Salvesta** , et saaksite selle redigeerimist jätkata. Oma pädevusmudeli loomisel pidage meeles, et suuremad numbrid on paremad.  
+3.  Uue pädevusmudeli loomisel täitke väljad alal **Üldine** ja klõpsake kirje loomiseks käsku **Salvesta**, et saaksite selle redigeerimist jätkata. Oma pädevusmudeli loomisel pidage meeles, et suuremad numbrid on paremad.  
   
      Näiteks kui vaatate või redigeerite vaikehindamismudelit, näete jaotises **Hindamisväärtused** järgmisi pädevustasemeid.  
   

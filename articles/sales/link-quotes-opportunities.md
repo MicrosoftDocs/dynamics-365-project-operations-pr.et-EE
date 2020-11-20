@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 606098473db479d0015e3a7a3c01a3d3b6de9db1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074868"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118108"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Projekti hinnapakkumiste loomine müügivõimalustest
 
@@ -30,7 +30,7 @@ Hinnapakkumisi saab luua projekti müügivõimalustest järgmistel viisidel.
 Müügivõimalusest projekti hinnapakkumise loomiseks tehke järgmist.
 
 1. Avage leht **Projekti müügivõimalus** ja valige vahekaart **Hinnapakkumised**. 
-2. Valige andmeruudustikus **Hinnapakkumised** suvand **+** , et luua müügivõimaluse põhjal uus projekti hinnapakkumine. Kõik müügivõimaluste read ja seotud projekti hinnakirjad kopeeritakse müügivõimalusest uude hinnapakkumisesse.
+2. Valige andmeruudustikus **Hinnapakkumised** nupp **+**, et luua müügivõimaluse põhjal uus projekti hinnapakkumine. Kõik müügivõimaluste read ja seotud projekti hinnakirjad kopeeritakse müügivõimalusest uude hinnapakkumisesse.
 
 ## <a name="from-the-opportunity-sales-process-flow"></a>Müügivõimaluse müügiprotsessi voost
 
@@ -38,7 +38,7 @@ Müügivõimalusest müügiprotsessi voost hinnapakkumise loomiseks tehke järgm
 
 1. Avage müügivõimaluse müügiprotsessi voos müügivõimalus.
 2. Valige etapp **Kinnita sobivaks**. 
-3. Valige **Järgmine** ja valige seejärel **+ Loo** , et luua uus hinnapakkumine. Enamus selle uue hinnapakkumise vahekaardil **Kokkuvõte** olevast teabest pärineb vaikimisi müügivõimalusest. 
+3. Valige **Järgmine** ja valige seejärel **+ Loo**, et luua uus hinnapakkumine. Enamus selle uue hinnapakkumise vahekaardil **Kokkuvõte** olevast teabest pärineb vaikimisi müügivõimalusest. 
 4. Sisestage kogu nõutud teave, mis puudub, või värskendage vastavalt vajadusele vahekaardil **Kokkuvõte** vaikimisi väärtused.
 5. Valige **Salvesta**. Uus hinnapakkumine luuakse ja seostatakse müügivõimalusega. Nüüd saate vaadata hinnapakkumise teavet lehe **Müügivõimalus** vahekaardil **Hinnapakkumised**. 
 
@@ -55,4 +55,4 @@ Olemasoleva hinnapakkumise saab siduda müügivõimalusega. Olemasoleva hinnapak
 
    Kui teisaldate müügivõimaluse sellesse etappi, saate selle hinnapakkumise valida selle müügivõimalusega seostatud hinnapakkumiste loendist. Selle hinnapakkumise valimine näitab, et liigute sellega edasi.
 
-   Kõik teised müügivõimalusega seotud hinnapakkumised on endiselt saadaval ja aktiivsed, kuni üks neist on võidetud. Saate liigutada müügiprotsessi tagasi eelmisesse etappi ( **Kinnita sobivakd** ) ja valida mõne muu hinnapakkumise sellega edasi liikumiseks.
+   Kõik teised müügivõimalusega seotud hinnapakkumised on endiselt saadaval ja aktiivsed, kuni üks neist on võidetud. Saate liigutada müügiprotsessi tagasi eelmisesse etappi (**Kinnita sobivakd**) ja valida mõne muu hinnapakkumise sellega edasi liikumiseks.

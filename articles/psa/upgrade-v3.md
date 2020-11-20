@@ -2,7 +2,7 @@
 title: Täienduse kaalutlused – üleminek Microsoft Dynamics 365 Project Service Automationi versioonilt 2.x või 1.x versioonile 3
 description: Selles teemas antakse teavet kaalutluste kohta, mida peate tegema, kui täiendate Project Service Automationi versiooni 2.x või 1.x versioonile 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19d6d312c7cedd2d7b9b5649452b85dd24fae761
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075036"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121708"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Täienduse kaalutlused – üleminek PSA versioonilt 2.x või 1.x versioonile 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -68,7 +68,7 @@ Kui täiendus on lõpule jõudnud, saate meeskonnaliikme rolli redigeerida muuks
 See kehtib ka nende rea ülesannete puhul, mis määrati nimega ressurssidele, kui muudate ressursi organisatsiooniüksuse vaikimisi määratud üksuselt muuks organisatsiooniüksuseks. Kui täiendus versioonile 3 on lõpule jõudnud, kasutatakse määramises ressursi vaikimisi määratud organisatsiooniüksust, mitte rea ülesandele määratud organisatsiooniüksust.
 
 ### <a name="tasks-assigned-to-generic-resources"></a>Üldistele ressurssidele määratud ülesanded
-Versioonis 2 ja 1 saate ülesandele määrata rolli ja organisatsiooniüksuse ning seejärel kasutada funktsiooni **Loo meeskond** , et luua ülesandele määratud atribuutide järgi üldised ressursid. Versioonis 3 saate luua üldised meeskonnaliikmed koos rolli ja organisatsiooniüksusega ning seejärel määrata meeskonnaliikmed ülesannetele.
+Versioonis 2 ja 1 saate ülesandele määrata rolli ja organisatsiooniüksuse ning seejärel kasutada funktsiooni **Loo meeskond**, et luua ülesandele määratud atribuutide järgi üldised ressursid. Versioonis 3 saate luua üldised meeskonnaliikmed koos rolli ja organisatsiooniüksusega ning seejärel määrata meeskonnaliikmed ülesannetele.
 
 Versioonis 2 ja 1 saavad üldiste ressurssidega projektid olla kahes olekus või ülesande tasemel olla kombinatsioon mõlemast olekust. Teil saavad olla näiteks järgmised stsenaariumid.
 

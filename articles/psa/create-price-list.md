@@ -3,7 +3,7 @@ title: Hinnakirja loomine
 description: Hinnakirja loomine Project Service'is
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bf75286fd1837e27a9b6053ccb21b60771ee197d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 08d93ad86d782922df6b22370749628ddbdc0718
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074992"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122023"
 ---
 # <a name="create-a-price-list-project-service"></a>Hinnakirja loomine (Project Service)
 
@@ -39,7 +39,7 @@ Hinnakirjad tuginevad rollidele ja kulukategooriatele, seega enne hinnakirja loo
   
 2.  Klõpsake nuppu **Uus**.  
   
-3.  Valige jaotises **Kontekst** , kas hinnakirja tüüp on **Kulu** , **Ost** või **Müük**.  
+3.  Valige jaotises **Kontekst**, kas hinnakirja tüüp on **Kulu**, **Ost** või **Müük**.  
   
 4.  Sisestage väljale **Nimi** hinnakirja nimi.  
   
@@ -47,9 +47,9 @@ Hinnakirjad tuginevad rollidele ja kulukategooriatele, seega enne hinnakirja loo
   
 6.  Määrake väljal **Ajaühik** hinna kehtimise ajaperiood, nagu päev või tund.  
   
-7.  Vajaduse korral täitke väljad **Alguskuupäev** , **Lõppkuupäev** ja **Kirjeldus**.  
+7.  Vajaduse korral täitke väljad **Alguskuupäev**, **Lõppkuupäev** ja **Kirjeldus**.  
   
-8.  Klõpsake kirje loomiseks käsku **Salvesta** , seejärel saate selle redigeerimist jätkata.  
+8.  Klõpsake kirje loomiseks käsku **Salvesta**, seejärel saate selle redigeerimist jätkata.  
   
 9. Hinnakirjale rollihinna lisamiseks klõpsake jaotises **Rollihinnad** nuppu **+**.  
   

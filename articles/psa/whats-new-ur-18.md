@@ -3,7 +3,7 @@ title: Mida on uut või muudetud rakenduse Project Service Automation värskendu
 description: Selles teemas loetletakse Project Service Automationi värskenduse väljalaske 18, V3 saadaolevaid funktsioone ja parandusi.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 04/27/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d7ea200531dd24d56a829f879e3a2532a9b38dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a6d3ee21ecf742b2253132f3d3cc1cb2b57af75
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074910"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119863"
 ---
 # <a name="project-service-automation-update-release-18-v3"></a>Rakenduse Project Service Automation, värskenduse väljaanne 18, v3
 
@@ -36,7 +36,7 @@ Selles teemas loetletakse Project Service Automationi V3 värskenduse väljalask
 
 **Aeg ja kulu**
 
-- Parandatud. Suvandid **Võta tagasi** , **Taotle** ja **Tühista kinnitus** liigub läbi erandite koos ebaselgete tõrketeadetega.
+- Parandatud. Suvandid **Võta tagasi**, **Taotle** ja **Tühista kinnitus** liigub läbi erandite koos ebaselgete tõrketeadetega.
 - Parandatud. Kui kulu suvand **Tühista kinnitus** nurjub, ilmneb vastav erandi tõrge.
 - Parandatud. Ajakirje ruudustik käsitseb pärast oktoobris suveaja vahetust Austraalias mittetööpäevi valesti.
 - Parandatud. Vale vaikeloogika takistab kulude esitamist.
@@ -60,4 +60,4 @@ Selles teemas loetletakse Project Service Automationi V3 värskenduse väljalask
 
 **Sales**
 
-- Parandatud. Kui ajakirjed kinnitatakse uuesti ( **Kinnita > Tühista >** uuesti kinnitamine), luuakse mittearvestatava tegeliku duplikaat.
+- Parandatud. Kui ajakirjed kinnitatakse uuesti (**Kinnita > Tühista >** uuesti kinnitamine), luuakse mittearvestatava tegeliku duplikaat.
