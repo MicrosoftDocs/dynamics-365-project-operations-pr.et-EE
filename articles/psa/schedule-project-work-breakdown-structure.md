@@ -3,7 +3,7 @@ title: Tööjaotuse struktuuriga projekti ajastamine
 description: Tööjaotuse struktuuriga projekti plaanimine Project Service'is
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d77d9f8427f06015d4f4cb9438d7f59ac840b061
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 04f30f2f2ed93dd1525f1c86a7521cdbf39a77bc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075138"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127873"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Tööjaotuse struktuuriga projekti plaanimine (Project Service)
 
@@ -86,14 +86,14 @@ Tööjaotuse struktuuri koostamisel kasutatakse järgmisi ülesannete tüüpe.
   
 ### <a name="schedule-attributes"></a>Atribuutide plaanimine
 
- - Saate määrata väärtusi valikutele **Panuse tunnid** , **Ressursside arv** , **Alguskuupäev** , **Lõppkuupäev** ja **Kestus** ülesande ajakava määratlemiseks. 
+ - Saate määrata väärtusi valikutele **Panuse tunnid**, **Ressursside arv**, **Alguskuupäev**, **Lõppkuupäev** ja **Kestus** ülesande ajakava määratlemiseks. 
  - **Panus** on ülesande lõpuleviimiseks eeldatavalt kuluv tundide arv.
  - **Ressursside arv** on hinnanguline väärtus, mille projektijuht ülesandele lisab, et saada parim võimalik ajakava. 
  - **Kestus** (päevades) näitab ülesande täitmiseks vajalikku tööpäevade arvu.  
   
 ### <a name="staffing-attributes"></a>Personaliatribuudid
 
- - **Roll** , **Ressursi organisatsiooniüksus** , **Ressursside arv** ja **Ressursid** kirjeldavad ülesande personalivajadusi. 
+ - **Roll**, **Ressursi organisatsiooniüksus**, **Ressursside arv** ja **Ressursid** kirjeldavad ülesande personalivajadusi. 
  - **Roll** kirjeldab ülesande sooritamiseks vajalikku ressursi tüüpi. 
  - **Ressursi organisatsiooniüksus** tähistab organisatsiooniüksust, millest selle ülesande jaoks ressursid tuleks võtta; see mõjutab ka ülesande eeldatavat maksumust ja müügihinda, kuna seda arvestatakse ühiku müügihinna määramisel ressursile. 
  - **Ressursid** sisaldavad üldist ressurssi või nimelist ressurssi, kui see leitakse.  
@@ -136,11 +136,11 @@ Tööjaotuse struktuuri koostamisel kasutatakse järgmisi ülesannete tüüpe.
   
 5.  Jätkake ülesannete lisamist, kuni tööjaotuse struktuur on valmis. Tööjaotuse struktuuri loomisel saate ülesannete korraldamiseks teha järgmist.  
   
-    -   Valige ülesanne ja klõpsake käsku **Taanda** , et nihutada see teise ülesande alla, või käsku Eenda, et nihutada see taseme võrra üles.  
+    -   Valige ülesanne ja klõpsake käsku **Taanda**, et nihutada see teise ülesande alla, või käsku Eenda, et nihutada see taseme võrra üles.  
   
-    -   Valige ülesanne ja klõpsake käsku **Nihuta üles** või **Nihuta alla** , et nihutada seda loendis üles või alla.  
+    -   Valige ülesanne ja klõpsake käsku **Nihuta üles** või **Nihuta alla**, et nihutada seda loendis üles või alla.  
   
-    -   Gantti diagrammi peitmiseks klõpsake valikut **Peida Gantt** , selle uuesti kuvamiseks klõpsake valikut **Kuva Gantt**.  
+    -   Gantti diagrammi peitmiseks klõpsake valikut **Peida Gantt**, selle uuesti kuvamiseks klõpsake valikut **Kuva Gantt**.  
   
     -   Saate valida Gantti diagrammi jaoks muu ajavahemiku jaotises **Ajaskaala**.  
   

@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: af97904b0171618cb15d060da9bc87fcf6bbabeb
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d6f67d5dc6b94148d437b3399229c1235c702c6a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074893"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128683"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Projektipõhise lepingurea arveldatavate komponentide konfigureerimine
 
@@ -27,21 +27,21 @@ Kaasatud komponentide alamhulka saab märkida arveldatavana, muutes välja vää
 
 Arveldatavad komponendid saab määratleda rollides ja tehingute kategooriates.
 
-Projekti lepingurea rollile määratud arveldatavuse kehtib ainult tehingu klassile **Aeg**. Kui projekti lepingurea väli **Kaasa aeg** on seatud väärtusele **Ei** , ei ole vahekaart **Arveldatavad rollid** saadaval.
+Projekti lepingurea rollile määratud arveldatavuse kehtib ainult tehingu klassile **Aeg**. Kui projekti lepingurea väli **Kaasa aeg** on seatud väärtusele **Ei**, ei ole vahekaart **Arveldatavad rollid** saadaval.
 
-Projekti lepingurea tehingu kategooriate määratud arveldatavuse kehtib ainult tehingu klassile **Kulu**. Kui projekti lepingurea väli **Kaasa kulud** on seatud väärtusele **Ei** , ei ole vahekaart **Arveldatavad kategooriad** saadaval.
+Projekti lepingurea tehingu kategooriate määratud arveldatavuse kehtib ainult tehingu klassile **Kulu**. Kui projekti lepingurea väli **Kaasa kulud** on seatud väärtusele **Ei**, ei ole vahekaart **Arveldatavad kategooriad** saadaval.
 
 ### <a name="update-a-role-to-be-chargeable-or-non-chargeable"></a>Rolli värskendamine arveldatavaks või mittearveldatavaks
 
 Roll võib olla arveldatav või mittearveldatav kindla projektipõhise lepingurea kohta.
 
-Värskendage projektipõhise lepingurea vahekaardil **Arveldatavad rollid** , andmeruudustikus **Arveldatavad kategooriad** väljal **Arveldamise tüüp** rolli arveldamise tüüpi.
+Projektipõhise lepingurea vahekaardil **Arveldatavad rollid** andmeruudustikus **Arveldatavad kategooriad** väljal **Arvelduse tüüp** värskendage rolli arvelduse tüüpi.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Tehingu kategooria värskendamine arveldatavaks või mittearveldatavaks
 
 Tehingu kategooria võib olla arveldatav või mittearveldatav kindla projektipõhise lepingurea kohta.
 
-Värskendage projektipõhise lepingurea vahekaardil **Arveldatavad kategooriad** , andmeruudustikus **Arveldatavad kategooriad** väljal **Arveldamise tüüp** tehingu arveldamise tüüpi.
+Projektipõhise lepingurea vahekaardil **Arveldatavad kategooriad** andmeruudustikus **Arveldatavad kategooriad** väljal **Arvelduse tüüp** värskendage tehingu arvelduse tüüpi.
 
 ### <a name="resolve-chargeability"></a>Arveldatavuse lahendamine
 

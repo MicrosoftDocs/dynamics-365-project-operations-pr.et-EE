@@ -3,7 +3,7 @@ title: Hinnapakkumised ja hinnapakkumise read
 description: Selles teemas antakse teavet hinnapakkumiste ja hinnapakkumiste ridade kohta.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae48c691fd855e6f22d0642965fc0c1617793368
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 509bc089e69ec234ddfdecb789c2e446286da82b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075071"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129448"
 ---
 # <a name="quotes-and-quote-lines"></a>Hinnapakkumised ja hinnapakkumise read
 
@@ -35,7 +35,7 @@ Rakenduses Dynamics 365 Project Service Automation on kahte tüüpi hinnapakkumi
 - Müügipakkumine toetab aktiveerimist ja läbivaatamisi. Projekti hinnapakkumine ei toeta neid protsesse.
 - Müügipakkumistele saate lisada mitu tellimust. Projekti hinnapakkumisele saate lisada ainult ühe projekti lepingu.
 - Võite võita müügipakkumise ja hoida seotud müügivõimaluse avatuna. Pärast projekti hinnapakkumise võitmist suletakse seotud müügivõimalus.
-- Müügipakkumine ei sisalda mõningaid väljasid ja mõisteid, mis on kaasatud projekti hinnapakkumises. Väljad sisaldavad järgmisi: **Hankeüksus** , **Kontohaldur** ja **Maksja: kontakti nimi**.  
+- Müügipakkumine ei sisalda mõningaid väljasid ja mõisteid, mis on kaasatud projekti hinnapakkumises. Väljad sisaldavad järgmisi: **Hankeüksus**, **Kontohaldur** ja **Maksja: kontakti nimi**.  
 - Müügipakkumisi ja projekti hinnapakkumisi tuvastab ka suvandikomplekti põhine väli, mille nimi on **Tüüp**. Müügipakkumise puhul on sellel väljal väärtus **Kaubal põhinev**. Projekti hinnapakkumise puhul on sellel väärtus **Tööl põhinev**.
 
 Selles teemas keskendutakse projekti hinnapakkumiste üksikasjadele.
@@ -91,7 +91,7 @@ Näiteks võib hinnapakkumine sisaldada kahte järgmist hinnapakkumise rida.
 - Seotud reisikulud, mis kasutavad fikseeritud hinnaga arveldusmeetodit. Näiteks arveldatakse kõigi rakenduse **Dynamics AX Implementation** näidisprojekti reisikulude eest fikseeritud rahalise väärtusega.
 
 > [!NOTE]
-> Hinnapakkumise rea või lepingu reaga seotud projekti ja tehingu klassifikatsioonide **Aeg** , **Kulu** ja **Tasu** kombinatsioon peab olema kordumatu. Kui sama projekti ja tehingu klassi kombinatsioon on seotud rohkem kui ühe lepingu rea või hinnapakkumise reaga, ei tööta PSA õigesti.
+> Hinnapakkumise rea või lepingu reaga seotud projekti ja tehingu klassifikatsioonide **Aeg**, **Kulu** ja **Tasu** kombinatsioon peab olema kordumatu. Kui sama projekti ja tehingu klassi kombinatsioon on seotud rohkem kui ühe lepingu rea või hinnapakkumise reaga, ei tööta PSA õigesti.
 
 ## <a name="billing-types"></a>Arve tüübid
 
@@ -124,8 +124,8 @@ Arve sagedus on olem, mis talletab atribuutide väärtusi, mis aitavad väljenda
   
 ### <a name="invoice-schedule-for-a-fixed-price-quote-line"></a>Fikseeritud hinnaga hinnapakkumise rea arve ajakava
 
-Fikseeritud hinnaga hinnapakkumise rea puhul saate kasutada ruudustikku **Arve ajakava** , et luua arvete esitamise vahekokkuvõtted, mis võrduvad hinnapakkumise rea väärtusega.
+Fikseeritud hinnaga hinnapakkumise rea puhul saate kasutada ruudustikku **Arve ajakava**, et luua arvete esitamise vahekokkuvõtted, mis võrduvad hinnapakkumise rea väärtusega.
 
-- Võrdse jaotusega arvete esitamise vahekokkuvõtete loomiseks valige arve sagedus, sisestage hinnapakkumise rea arveldamise alguskuupäev ja valige hinnapakkumise päisest jaotisest **Kokkuvõte** suvand **Soovitud täitmise kuupäev**. Seejärel valige **Loo perioodilised vahekokkuvõtted** , et luua valitud arve sageduse põhjal võrdselt jaotatud vahekokkuvõtted. 
+- Võrdse jaotusega arvete esitamise vahekokkuvõtete loomiseks valige arve sagedus, sisestage hinnapakkumise rea arveldamise alguskuupäev ja valige hinnapakkumise päisest jaotisest **Kokkuvõte** suvand **Soovitud täitmise kuupäev**. Seejärel valige **Loo perioodilised vahekokkuvõtted**, et luua valitud arve sageduse põhjal võrdselt jaotatud vahekokkuvõtted. 
 - Ühekordse summaga arvete esitamise etapi loomiseks looge vahekokkuvõte ja seejärel sisestage hinnapakkumise rea väärtus vahekokkuvõtte summana.
 - Projekti plaanis konkreetsete ülesannete põhjal arvete esitamise vahekokkuvõtete loomiseks looge vahekokkuvõte ja vastendage see projekti ajakava elemendiga arvete esitamise verstaposti kasutajaliideses.

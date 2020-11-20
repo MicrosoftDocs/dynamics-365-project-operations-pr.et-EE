@@ -3,7 +3,7 @@ title: Tehke koostööd projekti meeskonnaliikmetega rakenduse Office 365 Groups
 description: Kuidas teha koostööd Project Service’i meeskonnaliikmetega rakenduse Office 365 Groups kaudu
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a7caa9275c2df493b42f08a23d4cf450c56a8683
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3b8f6fb0de5c6803f0ff242160164207af8ce738
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075133"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126928"
 ---
 # <a name="collaborate-with-your-project-team-members-with-office-365-groups-project-service"></a>Tehke koostöö projekti meeskonnaliikmetega rakenduse Office 365 Groups kaudu (Project Service)
 
@@ -37,7 +37,7 @@ ms.locfileid: "4075133"
   
 3. Valige kuva ülaosas asuvalt ribalt projekti nime kõrval olev allanool ja seejärel klõpsake suvandit **Office 365 Groups**. Teile kuvatakse projekt koos rühmaga ühiskasutuses olevate üksustega.  
   
-4. Meeskonna tööruumi avamiseks rakenduses [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] klõpsake käsku **Ava kalender** , **Ava vestlused** , **Ava märkmik** , **Ava dokumendid** või **Ava inimesed**.  
+4. Meeskonna tööruumi avamiseks rakenduses [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] klõpsake käsku **Ava kalender**, **Ava vestlused**, **Ava märkmik**, **Ava dokumendid** või **Ava inimesed**.  
   
 ### <a name="see-also"></a>Vt ka  
  [Aja-, kulu- ja koostööjuhend](../psa/time-expense-collaboration-guide.md)

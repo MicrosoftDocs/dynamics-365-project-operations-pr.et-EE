@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f4941803c657fab55ee2702d9f58d6e333592889
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074847"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127423"
 ---
 # <a name="project-team-members"></a>Projektimeeskonna liikmed
 
@@ -47,16 +47,16 @@ Järgmises tabelis on toodud projekti meeskonnaliikme peamised atribuudid.
 
 Meeskonnaliikmete ruudustikust saab teha järgmisi toiminguid.
 
-- **Broneerimine** : organisatsioonidele, mis täidavad hübriidbroneeringute võimendust, võimaldab broneerimise toiming kasutajatel broneerida nimelise ressursi üldisest meeskonnaliikmest loodud nõuete põhjal
-- **Nõude loomine** : see toiming lood nõude.
-- **Mustri määramine** : võimaldab projektijuhil kohandada ressursi vajaduse kontuurile üksikasjalikul tasemel. Projektijuhid saavad kohandada projekti konkreetsete vajaduste jaoks juhtudel, kus vaikimisi kasutatav jaotus ei sobi.
-- **Taotluse esitamine** : organisatsioonidele, kes kasutavad keskbroneeringute meetodit.
-- **Redigeerimine** : redigeerida saab meeskonnaliikme atribuute, sh organisatsiooni üksus, roll ja positsiooni nimi.
-- **Broneeringute säilitamine** : kui ressursside broneeringuid on vaja värskendada, võimaldab broneeringute säilitamine projektijuhil kohandada järgmist.
+- **Broneerimine**: organisatsioonidele, mis täidavad hübriidbroneeringute võimendust, võimaldab broneerimise toiming kasutajatel broneerida nimelise ressursi üldisest meeskonnaliikmest loodud nõuete põhjal
+- **Nõude loomine**: see toiming lood nõude.
+- **Mustri määramine**: võimaldab projektijuhil kohandada ressursi vajaduse kontuurile üksikasjalikul tasemel. Projektijuhid saavad kohandada projekti konkreetsete vajaduste jaoks juhtudel, kus vaikimisi kasutatav jaotus ei sobi.
+- **Taotluse esitamine**: organisatsioonidele, kes kasutavad keskbroneeringute meetodit.
+- **Redigeerimine**: redigeerida saab meeskonnaliikme atribuute, sh organisatsiooni üksus, roll ja positsiooni nimi.
+- **Broneeringute säilitamine**: kui ressursside broneeringuid on vaja värskendada, võimaldab broneeringute säilitamine projektijuhil kohandada järgmist.
 
     - Alusta
     - Lõppu
     - Panuse eraldamine kokku
 
-- **Uus** : lisaks ressursside otse ajakavasse lisamisele saavad projektijuhid lisada meeskonnaliikmete ruudustikku uusi nimelisi või üldisi meeskonnaliikmeid.
-- **Kustutamine** : ühe või mitme meeskonnaliikme valimisel saab projektijuht kustutada ressursid, kes enam projektis ei osale. Meeskonnaliikme kustutamise korral kustutatakse ka kõik seostuvad ressursi määramised ja tühistatakse kõik olemasolevad broneeringud.
+- **Uus**: lisaks ressursside otse ajakavasse lisamisele saavad projektijuhid lisada meeskonnaliikmete ruudustikku uusi nimelisi või üldisi meeskonnaliikmeid.
+- **Kustutamine**: ühe või mitme meeskonnaliikme valimisel saab projektijuht kustutada ressursid, kes enam projektis ei osale. Meeskonnaliikme kustutamise korral kustutatakse ka kõik seostuvad ressursi määramised ja tühistatakse kõik olemasolevad broneeringud.

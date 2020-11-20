@@ -3,7 +3,7 @@ title: Ressursitaotluste haldamine
 description: Ressursitaotluste haldamine Project Service'is
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49a2d2102246126f6edc9cb36a072583c566c95a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11d7e603755c9339c2d43b79ef65c27e3bb6e6fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074955"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128998"
 ---
 # <a name="manage-resource-requests-project-service"></a>Ressursitaotluste haldamine (Project Service)
 
@@ -37,11 +37,11 @@ Kontohaldurid ja projektijuhid taotlevad oma projektide jaoks regulaarselt ressu
   
     Otsingu optimeerimiseks on teil järgmised võimalused.  
   
-   -   Valige kuva ülaservast vaade või sortimisjärjestus. Samuti on teil võimalik valida, kas kuvada kättesaadavus ajasätte **Päev** , **Nädal** või **Kuu** järgi, ja kuvada noolte abil eelmine või järgmine ajaperiood. Kindla ressursi otsimiseks saate kasutada otsinguvälja.  
+   -   Valige kuva ülaservast vaade või sortimisjärjestus. Samuti on teil võimalik valida, kas kuvada kättesaadavus ajasätte **Päev**, **Nädal** või **Kuu** järgi, ja kuvada noolte abil eelmine või järgmine ajaperiood. Kindla ressursi otsimiseks saate kasutada otsinguvälja.  
   
    -   Klõpsake kuvatava teabe muutmiseks valikut **Suvandid**. Näiteks saate kuvada legendi, mis näitab erinevat tüüpi reserveeringute värviskeemi, või kuvada ainult teatud tüüpi reserveeringud (näiteks kindlad reserveeringud või esialgsed reserveeringud).  
   
-   -   Klõpsake valikut **Filter** , et kuvada paan **Filter** , kus saate tulemusi filtreerida organisatsiooniüksuse, rolli, oskuse või muude atribuutide järgi.  
+   -   Klõpsake valikut **Filter**, et kuvada paan **Filter**, kus saate tulemusi filtreerida organisatsiooniüksuse, rolli, oskuse või muude atribuutide järgi.  
   
        ![Project Service'i ressursitaotluste kuva](../psa/media/project-service-resource-request-screen.png "Project Service'i ressursitaotluste kuva")  
   

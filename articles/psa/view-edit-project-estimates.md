@@ -3,7 +3,7 @@ title: Projekti prognooside kuvamine ja redigeerimine
 description: Projektiprognooside kuvamine ja redigeerimine Project Service’is
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d6f8375b71ef17319924e3a57800b1218f7258ee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34f0c1d85311dc6ec00e892ee899bc4dad0eed32
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075032"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125848"
 ---
 # <a name="view-and-edit-project-estimates-project-service"></a>Projekti prognooside kuvamine ja redigeerimine (Project Service)
 
@@ -37,7 +37,7 @@ Funktsiooni [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-au
   
 3.  Valige kuva ülaosas asuvalt ribalt projekti nime kõrval olev allanool ja seejärel klõpsake valikut **Projekti prognoosid**.  
   
-4.  Valige jaotises **Ajafaasi alus** suvand **Panus** , **Kulu** või **Müük** , et määrata, millised projekti prognoosid kuvada.  
+4.  Valige jaotises **Ajafaasi alus** suvand **Panus**, **Kulu** või **Müük**, et määrata, millised projekti prognoosid kuvada.  
   
 5.  Kulude lisamiseks või kustutamiseks klõpsake käsku **Kuva ruudustikuvaade**. Uue kulu loomiseks klõpsake valikut **Uus kulu**. Kulu kustutamiseks valige see loendist ja klõpsake käsku **Kustuta kulu**. Kui olete kulude lisamise või kustutamise lõpetanud, klõpsake käsku **Salvesta**.  
   

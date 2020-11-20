@@ -2,7 +2,7 @@
 title: Kuidas ma saan projekti etappide äriprotsessi vooge kohandada?
 description: Ülevaade, kuidas projekti etappide äriprotsessi vooge kohandada.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2dccc33088cd9e49e7ffe609f9d9754ef33a5dba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a999bbffff848db7a6349df380d9ed5e73c143ab
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075142"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125029"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Kuidas ma saan projekti etappide äriprotsessi vooge kohandada?
 [!INCLUDE[cc-applies-to-psa-app-2-4x-9-0-platform](../includes/cc-applies-to-psa-app-2-4x-9-0-platform.md)]
 [!INCLUDE[cc-applies-to-psa-app-1x-8-2-platform](../includes/cc-applies-to-psa-app-1x-8-2-platform.md)]
 
-Rakenduse Project Service varasemates versioonides on teadaolev piirang, et projekti etappide äriprotsessi voos peavad etappide nimed täpselt ühtima oodatud ingliskeelsete nimedega ( **Quote** , **Plan** , **Close** ). Vastasel korral ei tööta ingliskeelsetel etapinimedel tuginev äriloogika korrapäraselt. Seetõttu ei näe te projekti vormil tuttavaid toiminguid nagu **Vaheta protsessi** või **Redigeeri protsessi**. 
+Rakenduse Project Service varasemates versioonides on teadaolev piirang, et projekti etappide äriprotsessi voos peavad etappide nimed täpselt ühtima oodatud ingliskeelsete nimedega (**Quote**, **Plan**, **Close**). Vastasel korral ei tööta ingliskeelsetel etapinimedel tuginev äriloogika korrapäraselt. Seetõttu ei näe te projekti vormil tuttavaid toiminguid nagu **Vaheta protsessi** või **Redigeeri protsessi**. 
 
 Selle piiranguga tegeleti versioonis 2.4.5.48 ja hilisemates. Selles artiklis pakutakse võimalikke lahendusi, kui teil on vaja kohandada varasemate versioonide äriprotsessi voo vaikevariante.  
 
@@ -67,11 +67,11 @@ Kui täiendamine pole võimalik, saate projekti üksuse äriprotsessi voo projek
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>Muud tähelepanekud rakenduse Project Service versiooni 2.4.4.30 või varasema kohta platvormil 9.0
 
-Rakenduse Project Service versioonis 2.4.4.30 või varasemas platvormil 9.0 ei värskendata kohandatud äriprotsessi voo puhul projekti üksuse välja **Projekti nimi** , mida kasutatakse tabelis **Projektid etappide järgi** ja projekti loendi vaadetes, sest see väli on seotud projekti etappide äriprotsessi voo vaikevariandiga. Seda probleemi saate lahendada järgmiselt.
+Rakenduse Project Service versioonis 2.4.4.30 või varasemas platvormil 9.0 ei värskendata kohandatud äriprotsessi voo puhul projekti üksuse välja **Projekti nimi**, mida kasutatakse tabelis **Projektid etappide järgi** ja projekti loendi vaadetes, sest see väli on seotud projekti etappide äriprotsessi voo vaikevariandiga. Seda probleemi saate lahendada järgmiselt.
 
 - Lisage kohandatud väli, et hõivata praegune äriprotsessi voo etapp, mida värskendatakse siis, kui kasutaja edeneb läbi kohandatud äriprotsessi voo.
 
-- Muutke tabelit **Projektid etappide järgi** , et töötada vaikekonfiguratsiooni asemel oma kohandatud väljaga.
+- Muutke tabelit **Projektid etappide järgi**, et töötada vaikekonfiguratsiooni asemel oma kohandatud väljaga.
 
 ### <a name="steps-to-create-your-own-business-process-flow-for-the-project-entity"></a>Juhised enda protsessi voo loomiseks projekti üksuse jaoks
 
@@ -85,7 +85,7 @@ Enda protsessi voo loomiseks projekti üksuse jaoks tehke järgmist.
 
    ![Kuvatõmmis funktsiooni Protsessi kujundaja kasutamisest BPF-i kohandamiseks](media/FAQ-Customize-BPF-4.png) 
 
-3. Klõpsake funktsioonis Protsessi kujundaja nuppu **Protsessi voo järjestus** , et muuta kohandatud äriprotsessi voog projekti üksuse peamiseks äriprotsessi vooks, liigutades selleks seda projekti etappide äriprotsessi voo kohale loendi tippu.
+3. Klõpsake funktsioonis Protsessi kujundaja nuppu **Protsessi voo järjestus**, et muuta kohandatud äriprotsessi voog projekti üksuse peamiseks äriprotsessi vooks, liigutades selleks seda projekti etappide äriprotsessi voo kohale loendi tippu.
 
 
    [Kuvatõmmis protsessi voo järjestuse kasutamisest](media/FAQ-Customize-BPF-5-720.png)
@@ -96,7 +96,7 @@ Enda protsessi voo loomiseks projekti üksuse jaoks tehke järgmist.
 
    ![Kuvatõmmis projekti üksuse kohandamisest](media/FAQ-Customize-BPF-6-720.png)
 
-5. Muutke tabelit **Projektid etappide järgi** , et kasutada oma uut kohandatud välja etappide jaoks.
+5. Muutke tabelit **Projektid etappide järgi**, et kasutada oma uut kohandatud välja etappide jaoks.
 
    ![Kuvatõmmis tabeli Projektid etappide järgi kasutamisest](media/FAQ-Customize-BPF-7-720.png)
 

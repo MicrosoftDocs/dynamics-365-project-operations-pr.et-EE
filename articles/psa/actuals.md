@@ -3,7 +3,7 @@ title: Tegelike näitajate ülevaade
 description: Selles teemas antakse teavet projektiga seotud tegelike andmete kohta.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9559cb2dcc38cb8058c5a9a3b97a35019fea486f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf9e36c99790b77f0ed6490f49b4ebeb043bcdf6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075154"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129763"
 ---
 # <a name="actuals-overview"></a>Tegelike näitajate ülevaade
 
@@ -39,7 +39,7 @@ Kui ajakirje esitatakse projekti jaoks, mis on vastendatud aja- ja materjalide t
 
 Vaikehindade sisestamise loogika asub töölehe real. Kõik ajakirje välja väärtused kopeeritakse töölehe reale. Need väljad hõlmavad tehingu kuupäeva, lepingurida, millega projekt on vastendatud, ja vastava hinnakirja valuutat. 
 
-Vaikehindu mõjutavate väljade (nt **roll** ja **organisatsiooniüksus** ) töölehe reale sisestatakse sobivad hinnad vaikimisi. Kui lisate ajakirjele kohandatud välja ning soovite, et väljale oleks kantud tegelikud väärtused, looge tegelikes olemites väli ja kasutage välja vastendusi, et kopeerida väli ajakirjest tegelikule.
+Vaikehindu mõjutavate väljade (nt **roll** ja **organisatsiooniüksus**) töölehe reale sisestatakse sobivad hinnad vaikimisi. Kui lisate ajakirjele kohandatud välja ning soovite, et väljale oleks kantud tegelikud väärtused, looge tegelikes olemites väli ja kasutage välja vastendusi, et kopeerida väli ajakirjest tegelikule.
 
 ## <a name="submitting-an-expense-entry"></a>Kulukirje esitamine
 

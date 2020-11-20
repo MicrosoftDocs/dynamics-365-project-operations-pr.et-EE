@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074855"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124633"
 ---
 # <a name="extending-time-entries"></a>Ajakirjete laiendamine
 
@@ -33,7 +33,7 @@ Ajakirjete laiendamine on võimalik kahes valdkonnas.
 
 ## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a>Kohandatud ajakirjete lisamine oma tarbeks
 
-Ajakirjed on mitme stsenaariumi korral kasutatav olemi tuumik. 2020. aasta aprilli 1. laines võeti kasutusele TESA tuumiklahendus. TESA pakub olemit **Sätted** ja uut turberolli **Ajakirje kasutaja**. Lisaks kaasati uued väljad **msdyn_start** ja **msdyn_end** , millel on otsene seos väljaga **msdyn_duration**. Uus olem, turberoll ja väljad võimaldavad mitmete toodete üleselt ajale ühtsemat kähenemist.
+Ajakirjed on mitme stsenaariumi korral kasutatav olemi tuumik. 2020. aasta aprilli 1. laines võeti kasutusele TESA tuumiklahendus. TESA pakub olemit **Sätted** ja uut turberolli **Ajakirje kasutaja**. Lisaks kaasati uued väljad **msdyn_start** ja **msdyn_end**, millel on otsene seos väljaga **msdyn_duration**. Uus olem, turberoll ja väljad võimaldavad mitmete toodete üleselt ajale ühtsemat kähenemist.
 
 
 ### <a name="time-source-entity"></a>Ajaallika olem
@@ -109,7 +109,7 @@ Peale nende veergude, mida soovite ruudustikus näha, peaks see vaade sisaldama 
 2. Konfigureerige selle vaate kohandatud juhtelementi nii, et see oleks **Ajakirje ruudustiku** juhtelement. 
 3. Lisage see juhtelement vaatesse ja valige see veebirakenduse, telefoni ja tahvelarvuti jaoks. 
 4. Konfigureerige iganädalase ajakirje ruudustiku parameetrid. 
-5. Seadke välja **Alguskuupäev** väärtuseks **msdyn_date** , välja **Kestus** väärtuseks **msdyn_duration** ja välja **Olek** väärtuseks **msdyn_entrystatus**. 
+5. Seadke välja **Alguskuupäev** väärtuseks **msdyn_date**, välja **Kestus** väärtuseks **msdyn_duration** ja välja **Olek** väärtuseks **msdyn_entrystatus**. 
 6. Vaikevaate jaoks on välja **Kirjutuskaitstud oleku loend** väärtuseks **192350002,192350003,192350004**. Välja **Tööülesande voo rea redigeerimine** väärtuseks on **msdyn_timeentryrowedit**. Välja **Tööülesande voo lahtri redigeerimine** väärtuseks on **msdyn_timeentryedit**. 
 7. Saate neid välju kohandada kirjutuskaitstud oleku lisamiseks või eemaldamiseks või mõne muu ülesandepõhise kogemuse (TBX) kasutamiseks, et ridu või lahtreid redigeerida. Need väljad on nüüd seotud staatilise väärtusega.
 
@@ -119,12 +119,12 @@ Peale nende veergude, mida soovite ruudustikus näha, peaks see vaade sisaldama 
 
 Määrake kohandatud välja jaoks sobiv ülesandevoog. Kui lisasite välja ruudustikku, peaks see minema rea muutmise ülesande voogu, mida kasutatakse nende väljade jaoks, mida rakendatakse tervele ajakirjete reale. Kui kohandatud väljal on iga päev kordumatu väärtus (nt kohandatud väli **Lõppaja** jaoks), peaks see minema lahtri muutmise ülesande voogu.
 
-Kohandatud välja lisamiseks ülesandevoogu lohistage **välja** element lehel sobivasse asukohta ja seadistage välja atribuudid. Seadke atribuudi **Allikas** väärtuseks **Ajakirje** ja atribuut **Andmeväli** kohandatud väljale. Atribuut **Väli** määrab TBX-i lehel kuvatava nime. Välja muudatuste salvestamiseks valife **Rakenda** ja valige seejärel **Värskenda** , et salvestada oma muudatused lehel.
+Kohandatud välja lisamiseks ülesandevoogu lohistage **välja** element lehel sobivasse asukohta ja seadistage välja atribuudid. Seadke atribuudi **Allikas** väärtuseks **Ajakirje** ja atribuut **Andmeväli** kohandatud väljale. Atribuut **Väli** määrab TBX-i lehel kuvatava nime. Välja muudatuste salvestamiseks valife **Rakenda** ja valige seejärel **Värskenda**, et salvestada oma muudatused lehel.
 
-Kui soovite kasutada uut kohandatud TBX-i lehte, looge uus protsess. Seadke kategooria väärtuseks **Äriprotsessi voog** , olemi väärtuseks **Ajakirje** ja äriprotsessi tüübi väärtuseks **Protsessi käivitamine ülesandevoona**. Jaotises **Atribuudid** tuleb atribuudi **Lehe nimi** väärtuseks seada lehe kuvatav nimi. Kõikide asjakohaste väljade lisamine TBX-i lehele. Salvestage ja aktiveerige protsess. Värskendage vastava töövoo kohandatud juhtelemendi atribuut protsessis väärtusele **Nimi**.
+Kui soovite kasutada uut kohandatud TBX-i lehte, looge uus protsess. Seadke kategooria väärtuseks **Äriprotsessi voog**, olemi väärtuseks **Ajakirje** ja äriprotsessi tüübi väärtuseks **Protsessi käivitamine ülesandevoona**. Jaotises **Atribuudid** tuleb atribuudi **Lehe nimi** väärtuseks seada lehe kuvatav nimi. Kõikide asjakohaste väljade lisamine TBX-i lehele. Salvestage ja aktiveerige protsess. Värskendage vastava töövoo kohandatud juhtelemendi atribuut protsessis väärtusele **Nimi**.
 
 ### <a name="add-new-option-set-values"></a>Uute suvandikomplekti väärtuste lisamine
-Valmisväljale uute suvandikomplekti väärtuste lisamiseks avage välja redigeerimisleht ja valige jaotisest **Tüüp** suvandikomplekti kõrval olev käsk **Redigeeri**. Lisage uus suvand, millel on kohandatud silt ja värv. Kui soovite lisada uue ajakirje oleku, on valmisvälja nimi **Kirje olek** , mitte **Olek**.
+Valmisväljale uute suvandikomplekti väärtuste lisamiseks avage välja redigeerimisleht ja valige jaotisest **Tüüp** suvandikomplekti kõrval olev käsk **Redigeeri**. Lisage uus suvand, millel on kohandatud silt ja värv. Kui soovite lisada uue ajakirje oleku, on valmisvälja nimi **Kirje olek**, mitte **Olek**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Uue ajakirje oleku määramine kirjutuskaitstuks
 Selleks et määrata uue ajakirje olek kirjutuskaitstuks, lisage atribuudile **Kirjutuskaitstud olekuloend** uus ajakirje väärtus. Ajakirjete ruudustiku redigeeritav osa lukustatakse uue olekuga ridade jaoks.
@@ -143,4 +143,4 @@ Iganädalasele ajakirje ruudustiku kasutuskogemusele saav lisada kahte tüüpi v
 Kasutage lisandmoodulite kinnitusi kõikide nende kinnituste jaoks, mis vajavad rohkem konteksti, kui on olemas ühes ajakirje kirjes, või nende kinnituste jaoks, mida soovite käivitada ruudustikus tekstisiseste värskenduste kohta. Valideerimise lõpuleviimiseks looge olemisse **Ajakirje** kohandatud lisandmoodul.
 
 ### <a name="copying-time-entries"></a>Ajakirjete kopeerimine
-Kasutage vaadet **Kopeeri ajakirje veerge** , et määratleda ajavahemiku jooksul kopeeritavate väljade loend. Väljad **Kuupäev** ja **Kestus** on nõutavad ja neid ei tohi vaatest eemaldada.
+Kasutage vaadet **Kopeeri ajakirje veerge**, et määratleda ajavahemiku jooksul kopeeritavate väljade loend. Väljad **Kuupäev** ja **Kestus** on nõutavad ja neid ei tohi vaatest eemaldada.

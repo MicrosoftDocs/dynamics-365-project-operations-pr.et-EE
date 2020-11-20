@@ -3,7 +3,7 @@ title: Mida on uut või muudetud rakenduse Project Service Automation värskendu
 description: Selles teemas loetletakse Project Service Automationi värskenduse väljalaske 21, V3 saadaolevaid funktsioone ja parandusi.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e8a15d5f723da528640c62c1892bac0d801c2bee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 799be481c365e82e8ffb59ba242e30378644008b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074907"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126703"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>Rakenduse Project Service Automation, värskenduse väljaanne 21, v3
 
@@ -54,7 +54,7 @@ Lahendatud on järgmised probleemid.
 
 Lahendatud on järgmised probleemid.
 
-- **Projekti** vormi ruudustikud ( **Ressursi määramine** , **Ülesanne** , vaade **Vastavusseviimine** , **Kuluprognoosid** ) jäävad redigeeritavaks ka siis, kui projekt pole aktiivne.
+- **Projekti** vormi ruudustikud (**Ressursi määramine**, **Ülesanne**, vaade **Vastavusseviimine**, **Kuluprognoosid**) jäävad redigeeritavaks ka siis, kui projekt pole aktiivne.
 - Dubleeritud kliente ei saa liita klientidega, kes on seotud kinnitatud projektilepingutega.
 - Kui lisatakse klient, kellel puudub kehtiv kalender, süsteem ei tagasta kasutajasõbralikku tõrketeadet.
 - Ülesande ruudustiku nupp **Lisa ülesanne** on lubatud, kui projekt on seotud **Microsoft Projecti lisandmooduliga**.
@@ -69,9 +69,9 @@ Tehtud on järgmised täiustused.
 Lahendatud on järgmised probleemid.
 
 - **Müügihind kokku** on null (0) suvandi **Kategooria** jaoks, olgugi suvandi **Roll** müügihind kokku ei ole null.
-- Kliendid ei saa muuta välja **Arve olek** väärtuseks **Arveldamiseks valmis** , kui muu kohandatud protsess värskendab täiendavat välja.
+- Kliendid ei saa muuta välja **Arve olek** väärtuseks **Arveldamiseks valmis**, kui muu kohandatud protsess värskendab täiendavat välja.
 - Nupp **Värskenda arve ridu** saab korduval valimisel luua mitu dubleeritud rida.
-- Nupp **Värskenda hindu** ei tööta alamruudustikuga **Rolli hinnad** vormil **Kiirvaade**.
+- Nupp **Värskenda hindasid** ei tööta vormi **Kiirvaade** andmeruudustikus **Rolli hinnad**.
 - **Müügihinnakirja resolutsiooni** loogika käsitseb ajavööndeid valesti, mille tulemuseks on hinnakirjade vale valimine.
 - Projekti suvand **Tegelik kulu kokku** võib pärast ühekordse sisestuse kinnitamist olla murdosa summa võrra vale.
 - **Hinna lahenduse** loogika ei esita kasutajasõbralikke tõrketeateid, kui **toodud rolli hind** ei oma väärtuseid väljadel **Põhiühik** ja **Hind põhiühikutes**.

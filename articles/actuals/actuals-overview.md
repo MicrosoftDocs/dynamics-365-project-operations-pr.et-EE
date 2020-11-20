@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -16,12 +16,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 93a945ffbe9c6dd998456b506b95e717ab8fbab7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 13c429763fa805fae5324e4dcf1bf7669e842281
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074946"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126298"
 ---
 # <a name="actuals"></a>Tegelikud näitajad 
 
@@ -45,7 +45,7 @@ Kui esitatav ajakirje seotakse projektiga, mis on vastendatud fikseeritud hinnag
 
 Vaikehindade looise loogika asub töölehe real. Ajakirje välja väärtused kopeeritakse töölehe reale. Need väärtused hõlmavad tehingu kuupäeva, lepingurida, millega projekt on vastendatud, ja vastava hinnakirja valuutat.
 
-Vaikimisi hinnakujundust mõjutavaid välju (nt **Roll** ja **Organisatsiooniüksus** ) kasutatakse töölehe rea vastava hinna määratlemiseks. Saate lisada ajakirjele kohandatud välja. Kui soovite, et väljale oleks kantud tegelikud väärtused, looge tegelikes olemites väli ja kasutage välja vastendusi, et kopeerida väli ajakirjest tegelikule.
+Vaikimisi hinnakujundust mõjutavaid välju (nt **Roll** ja **Organisatsiooniüksus**) kasutatakse töölehe rea vastava hinna määratlemiseks. Saate lisada ajakirjele kohandatud välja. Kui soovite, et väljale oleks kantud tegelikud väärtused, looge tegelikes olemites väli ja kasutage välja vastendusi, et kopeerida väli ajakirjest tegelikule.
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Töölehe read ja põhikulu esitamine
 

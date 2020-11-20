@@ -3,7 +3,7 @@ title: Projekti oleku jälgimine
 description: Projekti oleku jälgimine Project Service’is
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 70d07c98bd9432712e939445dbf867b96642f5ba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00b6d874b42a415fe567d17e49c0ea319d8952a0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075042"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127828"
 ---
 # <a name="track-a-projects-status-project-service"></a>Projekti oleku jälgimine (Project Service)
 
@@ -40,7 +40,7 @@ Tegevuste edenedes värskendatakse projekti etappe, kajastades tegevuste etappi.
 |  **Hinnapakkumine**   |      Kui seostate projekti hinnapakkumisega või loote selle hinnapakkumise põhjal, määratakse projekti etapiks **Hinnapakkumine** ning värskendatakse ka eeldatavaid algus- ja lõppkuupäevi. Kui projekt on hinnapakkumise staadiumis, kuvatakse hinnapakkumise üksikasjad vahekaardil **Müük** lehel **Projekt**.      |
 |   **Plaan**   |                                     Kui võidate projektiga seotud hinnapakkumise ja tegevused jõuavad lepingu etappi, määratakse projekti etapiks **Plaan**. Lepingu üksikasjad kuvatakse vahekaardil **Müük** lehel **Projekt**.                                      |
 | **Lõpule viidud** |                    Kui projekti töö on lõpetatud, saate määrata etapiks **Valmis**. Kui projekti etapiks on määratud Valmis, siis tähendab see, et töö on 100% valmis, kuid projekt hoitakse avatuna pooleliolevate aja- või kulukirjete registreerimiseks.                     |
-|  **Sule**   |           Kui kõik projekti toimingud on registreeritud ja neid pole enam vaja logida, võite märkida etapiks käsitsi **Sule**. Kui projekti olekuks on määratud **Sule** , ei saa logida projekti rohkem kandeid ja projekt on kirjutuskaitstud.           |
+|  **Sule**   |           Kui kõik projekti toimingud on registreeritud ja neid pole enam vaja logida, võite märkida etapiks käsitsi **Sule**. Kui projekti olekuks on määratud **Sule**, ei saa logida projekti rohkem kandeid ja projekt on kirjutuskaitstud.           |
 
 ## <a name="to-track-a-projects-status"></a>Projekti oleku jälgimine  
 

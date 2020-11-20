@@ -3,7 +3,7 @@ title: Aja ja kulude kinnitamine
 description: Aja ja kulude kinnitamine Project Service'is
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6b5fca4ab1eb4c907c3fd6cca5e2adf79fad9590
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ce126815dce37055fb364512a9a14c828d9b0c32
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075134"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127108"
 ---
 # <a name="approve-time-and-expenses-project-service"></a>Aja ja kulude kinnitamine (Project Service)
 
@@ -35,7 +35,7 @@ Pärast seda, kui konsultandid on sisestanud projekti jaoks kulunud aja ja tehtu
   
 2.  Klõpsake kinnitatavat üksust.  
   
-3.  Vaadake vahekaartidel **Ajakirjed** , **Kulukirjed** ja **Puudumine/puhkus** üle iga üksus ja tehke vajalikud muudatused.  
+3.  Vaadake vahekaartidel **Ajakirjed**, **Kulukirjed** ja **Puudumine/puhkus** üle iga üksus ja tehke vajalikud muudatused.  
   
 4.  Üksuse kinnitamiseks valige see ja klõpsake nuppu **Kinnita**. Saate korraga valida ja kinnitada mitu üksust.  
   

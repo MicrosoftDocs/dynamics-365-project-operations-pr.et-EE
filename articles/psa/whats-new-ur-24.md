@@ -3,7 +3,7 @@ title: Mida on uut või muudetud rakenduse Project Service Automation värskendu
 description: Selles teemas loetletakse Project Service Automationi värskenduse väljalaske 24, V3 saadaolevaid funktsioone ja parandusi.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 10/02/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6c8348e65307f63a251f97bf1ea17578e7026da8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a37e71be2cce259d8aed0621d13393b6bbe4199
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074908"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126568"
 ---
 # <a name="project-service-automation-update-release-24-v3"></a>Rakenduse Project Service Automation, värskenduse väljaanne 24, v3
 
@@ -67,13 +67,13 @@ Lahendatud on järgmised probleemid.
 
 Lahendatud on järgmised probleemid.
 
-- Kui vahetate suvandis **Projekti ajakava** valikult **Käsitsi** valikule **Automaatne** , siis automaatset salvestamist ei viida lõpuni.
+- Kui vahetate suvandis **Projekti ajakava** valikult **Käsitsi** valikule **Automaatne**, siis automaatset salvestamist ei viida lõpuni.
 - Kulumäära ei tohiks suvandis **Projekti jälgimise ruudustik** arvutada hälbe suunas.
 - Veergude **Hinnangute silt** vastuoluline käitumine laadimise ajal võrreldes tüübi **Ajafaas** muutumisega.
 - Projekti tegelik kulu ei pruugi kajastada kogusummasid suvandist **Tegelikud summad**.
 - **Hinnanguline lõpukuupäev** vahekaardil **Kokkuvõte** ei ühti suvandiga **WBS-i ajakava**.
 - **Tegeliku tööaja värskendamine** ei tööta õigesti taandel õigesti.
-- Juur- **äriüksusest** väljaspool olev projektijuht ei saa projekti luua.
+- Juur-**äriüksusest** väljaspool olev projektijuht ei saa projekti luua.
 - Tööülesande või kategooria muudatused suvandis **Kuluhinnangud** ei jää püsima.
 - **Lepingu koopia** kopeerib arve ajakavad ja käitamise oleku.
 - Nupp **Värskenda tegelikud näitajad** arvutab kokkuvõtte ülesanded valesti.

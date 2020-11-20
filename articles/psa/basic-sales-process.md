@@ -3,7 +3,7 @@ title: Müügiprotsessid
 description: Selles teemas antakse teavet põhiliste müügiprotsessi kohta.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f09b30fe6d842faaf896cb97f44b060ec4049213
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38e02018e46943f53680babd12c7bede0a5d19de
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075070"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129313"
 ---
 # <a name="sales-processes"></a>Müügiprotsessid
 
@@ -35,7 +35,7 @@ Projektil põhinevas organisatsioonis kasutatavad müügiprotsessid erinevad too
 - Sobivaid müügivihjeid jälgitakse müügivõimalustena. Müügiprotsessi saab alustada ka müügivõimalusest.
 - Kõik müügivõimalusega seostuvad artefaktid on kasutusel. Need artefaktid hõlmavad müükide meeskonda, huvirühmi, tõenäosust, hinnangut, müügietappi ja äriprotsesse.
 - Müügivõimaluse jaoks luuakse mitu hinnapakkumist.
-- Hinnapakkumine märgitakse kui **Suletud võidetuna** , et luua müügitellimus. PSA puhul kohandatakse müügitellimust ja seda nimetatakse projekti lepinguks.
+- Hinnapakkumine märgitakse kui **Suletud võidetuna**, et luua müügitellimus. PSA puhul kohandatakse müügitellimust ja seda nimetatakse projekti lepinguks.
 
 Järgmisel pildil on kujutatud tüüpiline müügiprotsess projektil põhinevas organisatsioonis.
 
@@ -46,7 +46,7 @@ Müügi väärtust saab hinnata varem tarnitud projektide ja projektide keerukus
 
 Hinnapakkumise jaoks saate luua kõrgetasemelise hinnangu. Lõpuks asendatakse see kõrgetasemeline hinnang üksikasjalikuma hinnanguga, mis põhineb projekti plaanil, mille loote standardiseeritud projekti malle kasutades. Need mallid aitavad teil koostada ajakava ning määratleda hinnapakkumise ja selle komponentide rahalised väärtused (hinnapakkumiste read). 
 
-Saate projekti jaoks luua mitu hinnapakkumist ja rühmitada need ühe müügivõimaluse olemi tüübi alla. Lõpuks on üks nendest hinnapakkumistest tähistatud kui **Suletud võidetuna** , ja luuakse projekti leping või tööavaldus (SOW). Projekti lepingus on iga komponendi (lepingurea) jaoks lepinguline väärtus, mille klient on tarnimiseks aktsepteerinud. SOW luuakse tavaliselt rakenduse Microsoft Word dokumendina. Kõik arved, mis saadetakse kliendile projekti tarnimise käigus, viitavad projekti lepingule või SOW-le.
+Saate projekti jaoks luua mitu hinnapakkumist ja rühmitada need ühe müügivõimaluse olemi tüübi alla. Lõpuks on üks nendest hinnapakkumistest tähistatud kui **Suletud võidetuna**, ja luuakse projekti leping või tööavaldus (SOW). Projekti lepingus on iga komponendi (lepingurea) jaoks lepinguline väärtus, mille klient on tarnimiseks aktsepteerinud. SOW luuakse tavaliselt rakenduse Microsoft Word dokumendina. Kõik arved, mis saadetakse kliendile projekti tarnimise käigus, viitavad projekti lepingule või SOW-le.
 
 Saate luua ka alternatiivseid hinnapakkumisi ühe müügivõimaluse olemi tüübi alusel või seadistada süsteemi nii, et hinnapakkumise võitmisel luuakse projekti leping. Sel juhul saate projekti lepingu kirjele manustada Wordi dokumendi, esindab SOW-i.
 
@@ -70,7 +70,7 @@ Neid kuut etappi esindavad noolsulud (\>), mille valite iga loodava müügivõim
  
 Teie organisatsioon võib sama tehingu kujutamisel kasutada erinevaid olemeid. Müügiprotsessi alguses esindab tehingut müügivõimaluse olem. Aja möödudes ja üksikasjade ilmumisel võite ühe või mitme hinnapakkumise loomiseks kasutada kõrgetasemelisi hinnanguid. Kui ettevõttesisesed ja kliendi huvirühmad vaatavad ühe neist hinnapakkumistest läbi, esindab tehingut hinnapakkumise olem. Pärast seda, kui klient on hinnapakkumise vastu võtnud, esindab tehingut projekti leping või SOW. Selle käitumise toetamiseks on BPF-id struktureeritud nii, et iga protsessi etapp on seotud erineva andmebaasi tabeliga.
 
-Müügiprotsessi etappi **Sobima** saab varundada müügivõimaluse olem. Etappe **Hinnang** ja **Sisemine ülevaatus** saab varundada hinnapakkumise olem. Etappe **Leping** , **Tarne** ja **Sulgemine** saab varundada projekti lepingu olem.
+Müügiprotsessi etappi **Sobima** saab varundada müügivõimaluse olem. Etappe **Hinnang** ja **Sisemine ülevaatus** saab varundada hinnapakkumise olem. Etappe **Leping**, **Tarne** ja **Sulgemine** saab varundada projekti lepingu olem.
 
 Kui liigutate tehinguid läbi etappide, palutakse teil luua asjakohane olemikirje, mis juhendab teid protsessi läbimisel. Etapid võivad olla tingimuslikud. Näiteks kui vajate hinnapakkumise sisemist ülevaatamist ainult siis, kui hinnapakkumine kasutab kohandatud hinnakirja, saate selle tingimuse konfigureerida äriprotsessi sobivas etapis. Etapp **Sisemine ülevaatus** kuvatakse seejärel ainult nende hinnapakkumiste puhul, mis kasutavad kohandatud hinnakirja. Kõigi muude tehingute ja hinnapakkumiste puhul järgnevad etapid **Hinnang** ja **Leping**.
 

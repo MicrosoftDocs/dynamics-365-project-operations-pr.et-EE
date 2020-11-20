@@ -3,7 +3,7 @@ title: Ülesandele ressurssi määramine
 description: Selles teemas kirjeldatakse, kuidas määrata ülesannetele ressursse.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 77f13d1e96b76dfea241fbf7a67d5676582f0235
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b7aef799ec4b90d602a6f3641cbac06264664f00
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075145"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125128"
 ---
 # <a name="assign-a-resource-to-a-task"></a>Ülesandele ressurssi määramine
 
@@ -35,7 +35,7 @@ Saate lisada ressursi projekti meeskonnale ja seejärel määrata projekti ajaka
 
 1. Lisage vahekaardil **Meeskonnaliige** uus meeskonnaliige, klõpsates nuppu **Uus**. 
 
-2. See avab paneeli **Meeskonnaliikme kiirloomine** , kus saate valida broneeritava ressursi nime ja määrata rolli. 
+2. See avab paneeli **Meeskonnaliikme kiirloomine**, kus saate valida broneeritava ressursi nime ja määrata rolli. 
 
     Valige ressursi broneerimiseks üks järgmistest eraldamismeetoditest.
 
@@ -62,7 +62,7 @@ Kui loote üldise meeskonnaliikme ülesande määramise kaudu, loote te kohatäi
 
 4. Saate jätkata sellele kohatäite ressursile ülesannete määramist, kui valite ressursi ülesandele jaotisest **Ressursivalija**. Need on loetletud jaotises **Meeskonnaliikmed**.
 
-5. Kui olete üldise ressursi määramisega lõpetanud, valige üldine ressurss vahekaardilt **Meeskond** ja valige käsk **Loo nõue** , et luua üldise ressursi jaoks ressursinõue.
+5. Kui olete üldise ressursi määramisega lõpetanud, valige üldine ressurss vahekaardilt **Meeskond** ja valige käsk **Loo nõue**, et luua üldise ressursi jaoks ressursinõue.
 
 6. Valige üldise ressursi jaoks käsk **Reserveeri**. Seejärel saate kasutada ajakavapaneeli, et otsida ja broneerida päris ressurssi. Samuti saate esitada nõude ressursihaldurile täitmiseks.
 

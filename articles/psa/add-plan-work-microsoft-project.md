@@ -3,7 +3,7 @@ title: Project Service’i lisandmooduli kasutamine töö planeerimiseks tarkvar
 description: Selles teemas kirjeldatakse, kuidas lisada, konfigureerida ja kasutada Microsoft Projecti lisandmooduleid teenuse Microsoft Project Service jaoks.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d988419ae5a9d57532902d2553cd7de147e27c1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075086"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129673"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Lisandmooduli Project Service Automation kasutamine töö planeerimiseks tarkvaras Microsoft Project
 
@@ -99,7 +99,7 @@ Projekt imporditakse lisandmoodulisse [!INCLUDE[pn_project_service_auto](../incl
 
 2. Dialoogiboksis **Avalda teenuse Project Service uues projektis** sisestage **Projekti nimi** ja valige **Klient**.  
 
-3. Võite ka märkida ruudu **Seo projekti plaan lisandmooduliga Project Service Automation** , et seostada projekti plaani fail lisandmooduliga Project Service Automation.  
+3. Võite ka märkida ruudu **Seo projekti plaan lisandmooduliga Project Service Automation**, et seostada projekti plaani fail lisandmooduliga Project Service Automation.  
 
 4. Klõpsake nuppu **Avalda**.  
 
@@ -141,9 +141,9 @@ Projekt imporditakse lisandmoodulisse [!INCLUDE[pn_project_service_auto](../incl
 
 3. Dialoogiboksis **Luba avamine tarkvaras [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** valige **Jah** või **Ei**.  
 
-   - Kui klõpsate **Jah** , saate valida lisandmoodulis Project Service Automation nuppu **Ava tarkvaras [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** ning käivitada tarkvara [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] ja laadida projektifaili SharePoint dokumenditeegist.  
+   - Kui klõpsate **Jah**, saate valida lisandmoodulis Project Service Automation nuppu **Ava tarkvaras [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** ning käivitada tarkvara [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] ja laadida projektifaili SharePoint dokumenditeegist.  
 
-   - Kui klõpsate **Ei** , ei tööta nupu **Ava tarkvaras [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** link.  
+   - Kui klõpsate **Ei**, ei tööta nupu **Ava tarkvaras [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** link.  
 
 4. Tarkvara [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] faili leiate lisandmoodulist [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] teenuse [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] konkreetse projekti jaotisest **Dokumendid**.  
 
@@ -155,9 +155,9 @@ Projekt imporditakse lisandmoodulisse [!INCLUDE[pn_project_service_auto](../incl
 
 3. Dialoogiboksis **Luba avamine tarkvaras [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** valige **Jah** või **Ei**.  
 
-   - Kui klõpsate **Jah** , saate valida lisandmoodulis Project Service Automation nuppu **Ava tarkvaras [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** ning käivitada tarkvara [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] ja laadida projektifaili SharePoint dokumenditeegist.  
+   - Kui klõpsate **Jah**, saate valida lisandmoodulis Project Service Automation nuppu **Ava tarkvaras [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** ning käivitada tarkvara [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] ja laadida projektifaili SharePoint dokumenditeegist.  
 
-   - Kui klõpsate **Ei** , ei tööta nupu **Ava tarkvaras [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** link.  
+   - Kui klõpsate **Ei**, ei tööta nupu **Ava tarkvaras [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** link.  
 
 4. Tarkvara [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] faili leiate lisandmoodulist [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] teenuse [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] konkreetse projekti jaotisest **Dokumendid**.  
 
@@ -168,7 +168,7 @@ Projekt imporditakse lisandmoodulisse [!INCLUDE[pn_project_service_auto](../incl
 
 2. Dialoogiboksi **Avalda uues projektis Project Service mall** sisestage **Projektimalli nimi**.  
 
-3. Võite ka märgistada märkeruudu **Seosta projektiplaan lisandmooduliga Project Service Automation** , et seostada projekti fail lisandmooduliga [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
+3. Võite ka märgistada märkeruudu **Seosta projektiplaan lisandmooduliga Project Service Automation**, et seostada projekti fail lisandmooduliga [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
 4. Klõpsake nuppu **Avalda**.  
 

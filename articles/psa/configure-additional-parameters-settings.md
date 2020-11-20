@@ -3,7 +3,7 @@ title: Täiendavate parameetrisätete konfigureerimine
 description: Project Service'i täiendavate parameetrisätete konfigureerimine
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24a4fe83471da916fb91cfe20e739279c08d8e5e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5ce7ffd635b10689c8295d9349966450f11282d1
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074956"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129358"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>Täiendavate parameetrisätete konfigureerimine (Project Service)
 
@@ -56,7 +56,7 @@ Projektiparameetrite määramiseks tehke järgmist.
   
 3. Määrake alal **Üldine** oma projektiparameetrite jaoks kõik suvandid.  
   
-4. Klõpsake alal **Hinnakiri** nuppu **+** , et lisada hinnakiri, valige hinnakiri ripploendist **Projektiparameetri hinnakiri** ja seejärel klõpsake käsku **Salvesta**.  
+4. Klõpsake alal **Hinnakiri** nuppu **+**, et lisada hinnakiri, valige hinnakiri ripploendist **Projektiparameetri hinnakiri** ja seejärel klõpsake käsku **Salvesta**.  
   
 5. Klõpsake ekraani paremas alanurgas nuppu **Salvesta**.  
 

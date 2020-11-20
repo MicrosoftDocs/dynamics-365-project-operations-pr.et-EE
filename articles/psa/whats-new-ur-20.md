@@ -3,7 +3,7 @@ title: Mida on uut või muudetud rakenduse Project Service Automation värskendu
 description: Selles teemas loetletakse Project Service Automationi värskenduse väljalaske 20, v3 saadaolevaid funktsioone ja parandusi.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12edae76dbc6de63d3e2d36058c4092f80ede77d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ef24c20f3fa520b25a14773a15363a0f04f98d36
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074905"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126748"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Rakenduse Project Service Automation, värskenduse väljaanne 20, v3
 
@@ -59,4 +59,4 @@ Lahendatud on järgmised probleemid.
 - Üksuste ja üksuste rühma kulukategooriate väärtused ei ole vaikimisi õigedvormidel **Lepingurea üksikasjad** ja **Hinnapakkumise rea üksikasjad**.
 - **Organisatsiooni ühiku omahinna** loendid lubavad efektiivse kuupäeva kattumist.
 - Kasutajad ei tohi muuta **OrgUnit** it juhul, kui tellimuse tüüp ei ole tööpõhine, kuna selle tulemuseks on nullviite erandi tõrge.
-- Kui proovite navigeerida vormilt **Hinnapakkumise rea üksikasjad** tagasi vahekaardile **Hinnapakkumine** , siis vorm värskendab ja kuvab vahekaardi **Kokkuvõte**.
+- Kui proovite navigeerida vormilt **Hinnapakkumise rea üksikasjad** tagasi vahekaardile **Hinnapakkumine**, siis vorm värskendab ja kuvab vahekaardi **Kokkuvõte**.

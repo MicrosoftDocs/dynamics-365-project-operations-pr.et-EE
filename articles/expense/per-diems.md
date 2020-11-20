@@ -5,15 +5,15 @@ author: suvaidya
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 7d1c4ac7781cb711e2cc0d09606d422b4dd554f3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8d723b49e9556401c364b323cf58eaaf44906275
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074830"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128503"
 ---
 # <a name="per-diems"></a>Päevarahad
 
@@ -30,4 +30,4 @@ Päevaraha on hüvitis, mida makstakse töötajale, kes töö tõttu reisib. Kul
 4. Hommikusöögi, lõunasöögi või õhtusöögi jaoks söögikorra protsentuaalse vähendamise määramiseks värskendage lehe **Kuluhalduse parameetrid** vahekaardi **Päevarahad** välju. 
     
 ## <a name="submit-expenses-using-per-diem"></a>Kulude esitamine päevarahade abil
-Päevarahade kasutamiseks kulude esitamiseks kasutage kuluaruande loomisel kulukategooriat **Päevarahad**. Sisestage **Päevarahad alates kuupäevast** , **Päevarahad kuupäevani** ja **Päevarahade sihtkoht**. Summa arvutatakse vastavalt päevarahade määradele valitud asukoha jaoks ja eine vähendamine arvutatakse päevaraha määrade tasemete põhjal.
+Päevarahade kasutamiseks kulude esitamiseks kasutage kuluaruande loomisel kulukategooriat **Päevarahad**. Sisestage **Päevarahad alates kuupäevast**, **Päevarahad kuupäevani** ja **Päevarahade sihtkoht**. Summa arvutatakse vastavalt päevarahade määradele valitud asukoha jaoks ja eine vähendamine arvutatakse päevaraha määrade tasemete põhjal.

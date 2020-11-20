@@ -3,7 +3,7 @@ title: Iganädalaste ajakirjete kohandamine
 description: Selles teemas kirjeldatakse, kuidas rakendada organisatsiooni tegevust toetavaid ärireegleid.
 author: stsporen
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cc395e77e987dac062251ef87fcf8295305178e2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c4a508f2a67f87302f8b81640d2031fd5d2627b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075043"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127918"
 ---
 # <a name="customize-weekly-time-entry"></a>Iganädalaste ajakirjete kohandamine 
 
@@ -51,15 +51,15 @@ Jaotis **Dimensioonid** ei luba tekstisisest redigeerimist. Seda jaotist toetab 
 Jaotises Kestus kuvatakse nädalapäevad veerupäistena. Selles jaotises lubatakse tekstisisest redigeerimist. Pärast sobivate dimensioonidega ajakirje rea loomist saavad kasutajad kiiresti tekstisiseselt sisestada aja, mis nad nendele dimensioonidele kulutasid.
 
 ## <a name="create-a-new-time-entry"></a>Uue ajakirje loomine
-Ajakirje ruudustikus uue ajakirje loomiseks vajutage suvandit **Uus**. Ilmub dialoogiboks **Ajakirje kiirloomine**. Selles dialoogiboksis saavad kasutajad valida ajakirje kuupäeva ja seejärel sisestada dimensioonide **Projekt** , **Projekti ülesanne** , **Roll** ja **Kestus** kohta andmed minutites, tundides või päevades, tippides **h** , **m** või **d** koos numbriga. Kasutajad saavad sisestada ka kirjelduse ja kommentaarid, mida saab ajakirje kohta väliselt jagada. Kui kasutajad salvestavad oma muudatused, kuvatakse nende dimensioonide suhtes sisestatud väärtused jaotises **Dimensioonid**. Kestuse teave, mille nad sisestasid väljale **Kestus** , kuvatakse kuupäeval, mille jaoks ajakirje loodi.
+Ajakirje ruudustikus uue ajakirje loomiseks vajutage suvandit **Uus**. Ilmub dialoogiboks **Ajakirje kiirloomine**. Selles dialoogiboksis saavad kasutajad valida ajakirje kuupäeva ja seejärel sisestada dimensioonide **Projekt**, **Projekti ülesanne**, **Roll** ja **Kestus** kohta andmed minutites, tundides või päevades, tippides **h**, **m** või **d** koos numbriga. Kasutajad saavad sisestada ka kirjelduse ja kommentaarid, mida saab ajakirje kohta väliselt jagada. Kui kasutajad salvestavad oma muudatused, kuvatakse nende dimensioonide suhtes sisestatud väärtused jaotises **Dimensioonid**. Kestuse teave, mille nad sisestasid väljale **Kestus**, kuvatakse kuupäeval, mille jaoks ajakirje loodi.
 
 Süsteemivaated toetavad otsinguvälju. Näiteks kui kasutaja siseneb projekti, seatakse välja **Projekti ülesanne** vaikimisi väärtuseks vaade **Koopia**. Kui soovite luua ajakirjeid selliste ülesannete jaoks, mis pole kasutajale määratud, klõpsake otsingu dialoogikastis valikut **Muuda vaadet** ja seejärel valige vaade **Kõik aktiivsed projektiülesanded**.
 
 ## <a name="edit-a-time-entry"></a>Ajakirje redigeerimine
-Mõne ajakirjete lehel oleva välja üksikasju, näiteks **kirjeldust** ja **väliseid kommentaare** , ei kuvata iganädalase ajakirje ruudustikus. Selle asemel ilmub nendesse kestuse lahtritesse, millel on need täiendavad andmed olemas, väike kolmnurkne tähis. Valige lahter ja seejärel klõpsake valikut **Redigeeri üksikasju** , et näha üksikasju paanil **Kiirredigeerimine**. Selleks et redigeerida või värskendada kindlat ajakirjet, mis ei kuulu iganädalase ajakirje ruudustikku, peavad kasutajad avama paani **Kiirredigeerimine**.
+Mõne ajakirjete lehel oleva välja üksikasju, näiteks **kirjeldust** ja **väliseid kommentaare**, ei kuvata iganädalase ajakirje ruudustikus. Selle asemel ilmub nendesse kestuse lahtritesse, millel on need täiendavad andmed olemas, väike kolmnurkne tähis. Valige lahter ja seejärel klõpsake valikut **Redigeeri üksikasju**, et näha üksikasju paanil **Kiirredigeerimine**. Selleks et redigeerida või värskendada kindlat ajakirjet, mis ei kuulu iganädalase ajakirje ruudustikku, peavad kasutajad avama paani **Kiirredigeerimine**.
 
 ## <a name="copy-a-time-entry-row"></a>Ajakirje rea kopeerimine
-Kui esimene ajakirje rida on loodud, saavad kasutajad kogu rea uude ritta kopeerimiseks klõpsata valikut **Kopeeri rida**. Kui rida kopeeritakse sel viisil, kopeeritakse ka dimensioonid ja kestused. Kasutajad saavad klõpsata ka valikut **Redigeeri rida** , et värskendada jaotises **Kestus** tekstisiseseid dimensiooniväärtusi ja kestusi.
+Kui esimene ajakirje rida on loodud, saavad kasutajad kogu rea uude ritta kopeerimiseks klõpsata valikut **Kopeeri rida**. Kui rida kopeeritakse sel viisil, kopeeritakse ka dimensioonid ja kestused. Kasutajad saavad klõpsata ka valikut **Redigeeri rida**, et värskendada jaotises **Kestus** tekstisiseseid dimensiooniväärtusi ja kestusi.
 
 ## <a name="open-a-time-entry"></a>Ajakirje avamine
 Selleks et toetada optimaalset ja kiirsisestust kõige olulisemates väljades, kuvatakse iganädalase ajakirje ruudustikus valitud dimensioonide ning ajaliste kestuste alamhulk. Ühe ajakirje kõigi üksikasjade vaatamiseks klõpsake suvandi **Redigeeri kirjet** alt käsku **Ava**.
@@ -77,7 +77,7 @@ Uute ajakirjete olekuks määratakse automaatselt **Mustand**. Kui ajakirje on e
 Kui kinnitaja lükkab ajakirje tagasi, võib kinnitaja lisada tagasilükkamise kommentaarid, mis aitavad ressursil tagasilükkamise põhjust mõista. Ajakirje tagasilükkamise kommentaaride vaatamiseks klõpsake valikut **Ava kirje**. Tagasilükkamise kommentaarid kuvatakse ajaskaalal. Ressurss võib ajaskaalal vastata tagasilükkamise kommentaaridele enne, kui ta kirje uuesti esitab.
 
 ## <a name="copy-week"></a>Nädala kopeerimine
-Pärast paari ajakirje loomist saavad kasutajad valida suvandi **Kopeeri nädal** , et luua hulgi kaupa veelgi ajakirjeid. Ilmub dialoogiboks **Kopeeri**. Ajakirjete kopeerimiseks kasutage jaotises **Perioodi algus** välju **Alguskuupäev** ja **Lõppkuupäev** , et määrata kuupäevavahemik. Määrake jaotise **Perioodi lõpp** väljal **Alguskuupäev** kuupäev, mille jaoks soovite ajakirjeid luua. Seejärel klõpsake käsku **Kopeeri**. Välja „Perioodi lõpp” määratud kuupäeva jaoks luuakse väljal „Perioodi algus” oleva vastava nädalapäeva ajakirjete koopia. Näiteks viimase nädala esmaspäeva ajakirje kopeeritakse selle nädala esmaspäeva, mis on määratud väljal „Perioodi lõpp”.
+Pärast paari ajakirje loomist saavad kasutajad valida suvandi **Kopeeri nädal**, et luua hulgi kaupa veelgi ajakirjeid. Ilmub dialoogiboks **Kopeeri**. Ajakirjete kopeerimiseks kasutage jaotises **Perioodi algus** välju **Alguskuupäev** ja **Lõppkuupäev**, et määrata kuupäevavahemik. Määrake jaotise **Perioodi lõpp** väljal **Alguskuupäev** kuupäev, mille jaoks soovite ajakirjeid luua. Seejärel klõpsake käsku **Kopeeri**. Välja „Perioodi lõpp” määratud kuupäeva jaoks luuakse väljal „Perioodi algus” oleva vastava nädalapäeva ajakirjete koopia. Näiteks viimase nädala esmaspäeva ajakirje kopeeritakse selle nädala esmaspäeva, mis on määratud väljal „Perioodi lõpp”.
 
 ## <a name="import"></a>Importimine
 Sama tavalist protsessi kasutatakse ka broneeringutest, määramistest ja vahetustest importimisel. Kasutajad saavad määrata kuupäevavahemiku, millest broneeringuid imporditakse. Seejärel peavad nad eraldi valima broneeringud, mis tuleks kopeerida ajakirjete mustanditesse. Eelmises väljaandes kuvati soovitatud ajakirjed ruudustikus ja kalendris ning need kadusid seansi värskendamisel.
@@ -98,7 +98,7 @@ Peate lisama kohandatud välja dialoogiboksi Ajakirje kiirloomine. nii et kasuta
 #### <a name="configure-the-grid-to-show-the-custom-field"></a>Konfigureerige ruudustikku kohandatud välja kuvamiseks
 Iganädalase ajakirje ruudustikku kohandatud välja lisamiseks on kaks viisi. Üks võimalus on kohandada vaadet **Minu iganädalased ajakirjed** ja lisada sinna kohandatud väli. Saate valida kohandatud välja asukoha ja suuruse ruudustikus, kui redigeerite vaates neid atribuute.
 
-Teine võimalus on luua uus kohandatud ajakirje vaade ja seada see vaikevaateks. Peale nende veergude, mida soovite ruudustikus näha, peaks see vaade sisaldama ka välju **Kirjeldus** ja **Välised kommentaarid**. Saate valida ruudustiku asukoha, suuruse ja sortimise vaikejärjekorra, kui redigeerite vaates neid atribuute. Seejärel konfigureerige selle vaate kohandatud juhtelementi nii, et see oleks **Ajakirje ruudustiku** juhtelement. Lisage see juhtelement vaatesse ja valige see veebirakenduse, telefoni ja tahvelarvuti jaoks. Seejärel konfigureerige iganädalase ajakirje ruudustiku parameetrid. Seadke välja **Alguskuupäev** väärtuseks **msdyn_date** , välja **Kestus** väärtuseks **msdyn_duration** ja välja **Olek** väärtuseks **msdyn_entrystatus**. Vaikevaate jaoks on välja **Kirjutuskaitstud olekuloendi** väärtuseks seatud **192350002, 192350003, 192350004** , välja **Rea muutmise ülesande voog** väärtuseks **msdyn_timeentryrowedit** ja välja **Lahtri muutmise ülesande voog** väärtuseks **msdyn_timeentryedit**. Saate neid välju kohandada kirjutuskaitstud oleku lisamiseks või eemaldamiseks või mõne muu ülesandepõhise kogemuse (TBX) kasutamiseks, et ridu või lahtreid redigeerida. Need väljad peaksid olema seotud staatilise väärtusega.
+Teine võimalus on luua uus kohandatud ajakirje vaade ja seada see vaikevaateks. Peale nende veergude, mida soovite ruudustikus näha, peaks see vaade sisaldama ka välju **Kirjeldus** ja **Välised kommentaarid**. Saate valida ruudustiku asukoha, suuruse ja sortimise vaikejärjekorra, kui redigeerite vaates neid atribuute. Seejärel konfigureerige selle vaate kohandatud juhtelementi nii, et see oleks **Ajakirje ruudustiku** juhtelement. Lisage see juhtelement vaatesse ja valige see veebirakenduse, telefoni ja tahvelarvuti jaoks. Seejärel konfigureerige iganädalase ajakirje ruudustiku parameetrid. Seadke välja **Alguskuupäev** väärtuseks **msdyn_date**, välja **Kestus** väärtuseks **msdyn_duration** ja välja **Olek** väärtuseks **msdyn_entrystatus**. Vaikevaate jaoks on välja **Kirjutuskaitstud olekuloendi** väärtuseks seatud **192350002, 192350003, 192350004**, välja **Rea muutmise ülesande voog** väärtuseks **msdyn_timeentryrowedit** ja välja **Lahtri muutmise ülesande voog** väärtuseks **msdyn_timeentryedit**. Saate neid välju kohandada kirjutuskaitstud oleku lisamiseks või eemaldamiseks või mõne muu ülesandepõhise kogemuse (TBX) kasutamiseks, et ridu või lahtreid redigeerida. Need väljad peaksid olema seotud staatilise väärtusega.
 
 #### <a name="add-the-custom-field-to-the-appropriate-edit-task-flow"></a>Kohandatud välja lisamine sobivasse muutmise ülesande voogu
 Redigeerimiseks kasutatavad TBX-i lehed leiate jaotisest **Protsessid**. Vaikelehed on **Project Service – ajakirje rea redigeerimine** ja **Project Service – ajakirje redigeerimine**. Saate neid vaikelehti redigeerida või luua uusi kohandatud TBX-i lehti.
@@ -110,10 +110,10 @@ Peate kohandatud välja jaoks määrama sobiva ülesandevoo. Kui lisasite välja
 
 Kohandatud välja lisamiseks ülesandevoogu lohistage **välja** element lehel sobivasse asukohta ja seadistage selle atribuudid. Seadke atribuudi **Allikas** väärtuseks **Ajakirje** ja atribuut **Andmeväli** kohandatud väljale. Atribuut **Väli** määrab TBX-i lehel kuvatava nime. Väljale tehtud muudatuste salvestamiseks klõpsake käsku **Rakenda**. Seejärel klõpsake lehele tehtud muudatuste salvestamiseks käsku **Värskenda**.
 
-Kui soovite kasutada uut kohandatud TBX-i lehte, looge uus protsess. Seadke kategooria väärtuseks **Äriprotsessi voog** , olemi väärtuseks **Ajakirje** ja äriprotsessi tüübi väärtuseks **Protsessi käivitamine ülesandevoona**. Jaotises **Atribuudid** tuleb atribuudi **Lehe nimi** väärtuseks seada lehe kuvatav nimi. Kõikide asjakohaste väljade lisamine TBX-i lehele. Salvestage ja aktiveerige protsess ning seejärel värskendage vastava töövoo kohandatud juhtelemendi atribuut protsessis väärtusele **Nimi**.
+Kui soovite kasutada uut kohandatud TBX-i lehte, looge uus protsess. Seadke kategooria väärtuseks **Äriprotsessi voog**, olemi väärtuseks **Ajakirje** ja äriprotsessi tüübi väärtuseks **Protsessi käivitamine ülesandevoona**. Jaotises **Atribuudid** tuleb atribuudi **Lehe nimi** väärtuseks seada lehe kuvatav nimi. Kõikide asjakohaste väljade lisamine TBX-i lehele. Salvestage ja aktiveerige protsess ning seejärel värskendage vastava töövoo kohandatud juhtelemendi atribuut protsessis väärtusele **Nimi**.
 
 ### <a name="add-new-option-set-values"></a>Uute suvandikomplekti väärtuste lisamine
-Valmisväljale uute suvandikomplekti väärtuste lisamiseks avage välja redigeerimisleht ja seejärel valige jaotisest **Tüüp** suvandikomplekti kõrval olev käsk **Redigeeri**. Seejärel lisage uus suvand, millel on kohandatud silt ja värv. Kui soovite lisada uue ajakirje oleku, on valmisvälja nimi **Kirje olek** , mitte **Olek**.
+Valmisväljale uute suvandikomplekti väärtuste lisamiseks avage välja redigeerimisleht ja seejärel valige jaotisest **Tüüp** suvandikomplekti kõrval olev käsk **Redigeeri**. Seejärel lisage uus suvand, millel on kohandatud silt ja värv. Kui soovite lisada uue ajakirje oleku, on valmisvälja nimi **Kirje olek**, mitte **Olek**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Uue ajakirje oleku määramine kirjutuskaitstuks
 Selleks et määrata uue ajakirje olek kirjutuskaitstuks, lisage atribuudile **Kirjutuskaitstud olekuloend** uus ajakirje väärtus (arv, mitte silt). Ajakirjete ruudustiku redigeeritav osa lukustatakse uue olekuga ridade jaoks.

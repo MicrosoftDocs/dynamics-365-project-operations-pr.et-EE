@@ -3,7 +3,7 @@ title: Ressursside seadistamine
 description: Ressursside seadistamine Project Service’is
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9e0c8d2b425c210c3737d35dca8b8867bd57461f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0ee39e48ae587898641484149b4d886b568ba80b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075170"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128908"
 ---
 # <a name="set-up-resources-project-service"></a>Ressursside seadistamine (Project Service)
 
