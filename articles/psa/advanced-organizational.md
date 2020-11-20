@@ -3,7 +3,7 @@ title: Organisatsiooniüksused
 description: Selles teemas antakse teavet rakenduses Dynamics 365 Project Service Automation organisatsiooniliste üksuste kohta.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 454d9a4c4d139f493adf4604f8ba40a0211f0eec
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 755eee6ab9993c72ff1db46e0993527ac0826bfe
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075068"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130618"
 ---
 # <a name="organizational-units"></a>Organisatsiooniüksused 
 
@@ -50,7 +50,7 @@ Lisaks on ressursi olemi organisatsiooniüksuse jaoks olemas atribuut. Igale kas
 
 Organisatsiooniüksusel on PSA-s kaks rolli.
 
-- **Tellija** – organisatsiooniüksus, mis esindab ettevõtet või allüksust, kes vastutab peamiselt müügitegevuse ning töö ja teenuste pakkumise eest kliendile. Tellija tuvastatakse väljal **Tellija** , mis asub lehtede **Müügivõimalus** , **Hinnapakkumine** , **Projekti leping** ja **Projekt** päises.
+- **Tellija** – organisatsiooniüksus, mis esindab ettevõtet või allüksust, kes vastutab peamiselt müügitegevuse ning töö ja teenuste pakkumise eest kliendile. Tellija tuvastatakse väljal **Tellija**, mis asub lehtede **Müügivõimalus**, **Hinnapakkumine**, **Projekti leping** ja **Projekt** päises.
 - **Ressursiüksus** – organisatsiooniüksus, millele ressurss kuulub või millesse see on määratud. See organisatsiooniüksus võib pakkuda ressursse töökirjelduse (SOW-d) ja tellija omanduses olevate projektide teatud rollide jaoks.
 
 > ![Tellijad ja ressursiüksused](media/advanced-1.png)

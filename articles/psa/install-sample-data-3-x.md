@@ -3,7 +3,7 @@ title: Näidisandmete installimine
 description: Selles teemas antakse teavet Project Service Automationis näidisandmete installimise kohta.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 46dbd8d125396baa97537ea5d11c47864558c113
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c9cca7aa9d85bb38e48820b361ba07923ceddbd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075021"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132418"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Näidisandmete installimine Project Service’i rakendusele
 
@@ -49,7 +49,7 @@ Kui installite mõne näidisandmete pakettidest, toimub installimisprotsessi kä
 
 - Luuakse või seadistatakse vaikeparameetrid Project Service’i, Field Service’i või mõlema rakenduse kasutamiseks (kui on olemas).
 
-- Imporditakse rakenduste näidisandmed, nt broneeritavad ressursid, rakendusepõhised rollid, müügi ja kulu hinnakirjad, organisatsiooniüksused, müügiprotsessi kirjed ja muud üksused põhivõimaluste näitamiseks.  
+- Imporditakse rakenduste näidisandmed, nt broneeritavad ressursid, rakendusepõhised rollid, müügi ja kulu hinnakirjad, organisatsiooniüksused, müügiprotsessi kirjed ja muud üksused põhivõimaluste näitamiseks.  
 
 **Demoandmete** paketiga saate ülaltoodud täiendavad tehingu andmed, nt töökäsud ja projektid.
 
@@ -114,13 +114,13 @@ Pakett **FPSMasterData** on mõeldud ühe kasutaja nimega Spencer Low installimi
 
 Kasutajate loomiseks või konfigureerimiseks valige **Sätted** > **Turve** > **Kasutajad** ja tehke järgmist.
 
-1. Määrake suvand UserFullname="Spencer Low" kasutajanimega "spencerl" ( **väiketähed** ) Project Manageri ja Practice Manageri rollidele.
+1. Määrake suvand UserFullname="Spencer Low" kasutajanimega "spencerl" (**väiketähed**) Project Manageri ja Practice Manageri rollidele.
 
-2. Valige kasutaja **Spencer Low** ja seejärel suvand **Rollide haldamine**. Otsige üles ja valige roll **Süsteemiadministraator** ning seejärel valige nupp **OK** , et anda kasutajale Spencer Low administraatori täielikud õigused. See etapp on vajalik tagamaks, et näidiskirjed luuakse õige kasutaja omandusega ja seega vaated täidetakse õigesti.
+2. Valige kasutaja **Spencer Low** ja seejärel suvand **Rollide haldamine**. Otsige üles ja valige roll **Süsteemiadministraator** ning seejärel valige nupp **OK**, et anda kasutajale Spencer Low administraatori täielikud õigused. See etapp on vajalik tagamaks, et näidiskirjed luuakse õige kasutaja omandusega ja seega vaated täidetakse õigesti.
 
 3. Allalaadimispaketist peate värskendama andmete vastendamise faili vaikimisi kasutaja konteksti meiliaadressidega. Selleks avage kaust **PkgFolder** ning otsige üles ja avage fail **ImportUserMapFile.xml** Notepadis (või Visual Studios või muus XML-redaktoris). Määrake välja **DefaultUserToMapTo=** väärtuseks kasutaja Spencer Low meiliaadress.
 
-4. Kui te ei kasuta kasutajat Spencer Low kasutajanimega **spencerl** , peate värskendama lisafaili. Avage fail **DemoDataPreImportConfig.xml** ja otsige üles silt **userstocreateandconfigure**. Värskendage silti **\<login\>** kasutaja Mart Ilves kasutajanimega. Üksikasju vaadake jaotisest [Tehnilised märkused](#technical-notes).
+4. Kui te ei kasuta kasutajat Spencer Low kasutajanimega **spencerl**, peate värskendama lisafaili. Avage fail **DemoDataPreImportConfig.xml** ja otsige üles silt **userstocreateandconfigure**. Värskendage silti **\<login\>** kasutaja Mart Ilves kasutajanimega. Üksikasju vaadake jaotisest [Tehnilised märkused](#technical-notes).
 
 ## <a name="create-or-configure-users---demo-data-package"></a>Kasutajate loomine või konfigureerimine – demoandmete pakett
 
@@ -143,9 +143,9 @@ Demoandmete paketi jaoks on vaja kuut kasutajat. Selleks et pakett õigesti inst
    > [!div class="mx-imgBorder"]
    > ![UserMapFile’i kuvatõmmis](media/sample-data-7.png)
 
-4. Kui kasutajal täisnimega Spencer Low on muu kasutaja ID kui **"spencerl"** , peate värskendama täiendavat faili. Avage fail **DemoDataPreImportConfig.xml** ja otsige üles silt **userstocreateandconfigure**. Värskendage silti **\<login\>** sisselogimise ID-ga (tõstutundlik). 
+4. Kui kasutajal täisnimega Spencer Low on muu kasutaja ID kui **"spencerl"**, peate värskendama täiendavat faili. Avage fail **DemoDataPreImportConfig.xml** ja otsige üles silt **userstocreateandconfigure**. Värskendage silti **\<login\>** sisselogimise ID-ga (tõstutundlik). 
 
-5. Esimese kasutaja kalendrit (sildil **userstocreateandconfigure** ) kasutatakse kõikide broneeritavate ressursside tööaja väljade täitmiseks demoandmete importimisel. Valige **Sätted** > **Turve** > **Kasutajad** , otsige üles kasutaja Spencer Low ja avage suvand Tööaeg. Muutke tööaega, valides suvandi **Terve korduv nädalaajakava algusest lõpuni**. Kontrollige, kas **tööaeg on 8.00–17.00 (9 tundi), esmaspäevast reedeni, ja ajavöönd on määratud Vaikse ookeani ajale (USA ja Kanada)**. Seda on vaja projekti- ja ajakavapaneeli õigesti kuvamiseks.
+5. Esimese kasutaja kalendrit (sildil **userstocreateandconfigure**) kasutatakse kõikide broneeritavate ressursside tööaja väljade täitmiseks demoandmete importimisel. Valige **Sätted** > **Turve** > **Kasutajad**, otsige üles kasutaja Spencer Low ja avage suvand Tööaeg. Muutke tööaega, valides suvandi **Terve korduv nädalaajakava algusest lõpuni**. Kontrollige, kas **tööaeg on 8.00–17.00 (9 tundi), esmaspäevast reedeni, ja ajavöönd on määratud Vaikse ookeani ajale (USA ja Kanada)**. Seda on vaja projekti- ja ajakavapaneeli õigesti kuvamiseks.
 
 **Soovitus.** Kaaluge organisatsioonist varukoopia loomist juhuks, kui peate minema tagasi lähtekohta, kui näidisandmete installimisel midagi valesti läheb. Lisateavet vt teemast [Eksemplaride varundamine ja taastamine](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
@@ -168,14 +168,14 @@ Demoandmete paketi jaoks on vaja kuut kasutajat. Selleks et pakett õigesti inst
 
 4. Valige organisatsioon, kuhu soovite näidisandmed installida.
 
-5. Valige nupp **Edasi** , kuni näete dialoogi **Demoandmete seadistamine**.
+5. Valige nupp **Edasi**, kuni näete dialoogi **Demoandmete seadistamine**.
 
    > [!div class="mx-imgBorder"]
    > ![Demoandmete installija olekuakna kuvatõmmis](media/sample-data-3.png)
 
 6. Enne jätkamist pange tähele, et näidisandmete installimine võib kesta kuni ühe tunni (tavaliselt ~10 minutit). Peate veenduma, et arvuti oleks kogu installimisprotsessi aja sees ja võrku ühendatud ning seanss oleks pidevalt aktiivne.   
 
-7. Kui olete valmis, klõpsake nuppu **Edasi** , et alustada näidisandmete installimisega. Pärast näidisandmete laadimist klõpsake nuppu **Lõpeta**.
+7. Kui olete valmis, klõpsake nuppu **Edasi**, et alustada näidisandmete installimisega. Pärast näidisandmete laadimist klõpsake nuppu **Lõpeta**.
 
 ## <a name="verify-the-sample-data-installation"></a>Näidisandmete installimise kontrollimine
 
@@ -213,11 +213,11 @@ Otsige üles järgmine väärtus ja muutke säte õigest valeks.
 
 Selle muudatuse tõttu jätab installija vahele mõned olulised ohutuskontrolli, sh järgmised.
 
-- Kinnitamine, et pole rohkem kui üks aktiivne kirje **Organisatsiooniüksus** , ja sellele nime **Fabrikam US** andmine.
+- Kinnitamine, et pole rohkem kui üks aktiivne kirje **Organisatsiooniüksus**, ja sellele nime **Fabrikam US** andmine.
 
 - Kinnitamine, et pole rohkem kui üks aktiivne kirje **Töömall**.
 
-- Kinnitamine, et pole rohkem kui üks aktiivne kirje **Projekti parameeter** , ja sellele kandele nime **Parameetrid** andmine.
+- Kinnitamine, et pole rohkem kui üks aktiivne kirje **Projekti parameeter**, ja sellele kandele nime **Parameetrid** andmine.
 
 ### <a name="configuration-components"></a>Konfiguratsioonikomponendid
 

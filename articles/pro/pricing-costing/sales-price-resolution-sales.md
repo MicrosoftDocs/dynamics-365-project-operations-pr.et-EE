@@ -1,21 +1,21 @@
 ---
-title: Prognooside ja tegelike näitajate müügihindade lahendamine
+title: Prognooside ja tegelike näitajate müügihinna lahendamine – liht
 description: Selles teemas antakse teavet prognooside ja tegelike näitajate omahindade lahendamise kohta.
 author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c8972bd7710735e9acdbf951079f2da24a00bd7f
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 92cebbe851c3cface86d0580e7e060134295e8c2
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087881"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176741"
 ---
-# <a name="resolving-sales-prices-for-estimates-and-actuals"></a>Prognooside ja tegelike näitajate müügihindade lahendamine
+# <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>Prognooside ja tegelike näitajate müügihinna lahendamine – liht
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
@@ -27,7 +27,7 @@ Project Operationsis kasutatakse aja prognoositud ridu hinnapakkumise rea ja lep
 
 Pärast müügi hinnakirja lahendamist täidab süsteem järgmised etapid vaikimisi arveldusmäära saamiseks.
 
-1. Süsteem kasutab aja prognoosi real välju **Roll** ja **Ressursi üksus** lahendatud hinnakirjas rolli hinna ridadega vastendamiseks. See vastendamine eeldab, et kasutate arveldusmäärade jaoks valmiskujul hinnakujunduse dimensioone. Kui olete hinna konfigureerinud selle asemel mistahes muu välja põhjal, või lisaks väljadele **Roll** ja **Ressursi ühik** , kasutatakse vastava rolli hinna rea toomiseks seda kombinatsiooni.
+1. Süsteem kasutab aja prognoosi real välju **Roll** ja **Ressursi üksus** lahendatud hinnakirjas rolli hinna ridadega vastendamiseks. See vastendamine eeldab, et kasutate arveldusmäärade jaoks valmiskujul hinnakujunduse dimensioone. Kui olete hinna konfigureerinud selle asemel mistahes muu välja põhjal, või lisaks väljadele **Roll** ja **Ressursi ühik**, kasutatakse vastava rolli hinna rea toomiseks seda kombinatsiooni.
 2. Kui süsteem leiab rolli hinna rea, millel on väljade **Roll** ja **Ressursi ühik** kombinatsiooni arvelduskulu, kasutatakse vaikimisi seda arvelduskulu.
 3. Kui rakendus ei saa vastendada väljade **Roll** ja **Ressursi ühik** väärtusi, toob see välja rolli hinna read, millel on vastav roll, kuid välja **Ressursi ühik** väärtus on tühi. Pärast seda, kui süsteem leiab vastava rolli hinna kirje, määratakse arveldusmäära vaikeväärtus sellest kirjest. See vastendus eeldab valmiskujul konfiguratsiooni **Rolli** vs **Ressursiühiku** suhtelise prioriteedi jaoks müügi hinnakujunduse dimensioonina.
 

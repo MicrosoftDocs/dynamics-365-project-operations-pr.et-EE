@@ -3,7 +3,7 @@ title: Eraldusmeetodite broneerimine Project Service Automationis
 description: Selles teemas antakse teavet erinevate võimaluste kohta, kuidas broneeringuid jaotada.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 295da428ce15e7775450dfa94e96047f200bdede
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3dc87a66a4b881a06f2b888c26d9dfaefb419f16
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074950"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131346"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Eraldusmeetodite broneerimine Project Service Automationis
 
@@ -59,7 +59,7 @@ Eesmise koormuse meetod võtab arvesse olemasolevaid reserveeringuid ja saadavao
 Kuna arvesse võetakse saadavalolevat võimsust, siis võite saada tõrketeate, kui ressursil pole üle jäänud võimsust, mida reserveering hõivata saaks. Selle meetodiga ei saa ülereserveerida.
 
 ## <a name="none"></a>Pole
-Pole meetod on saadaval ainult juhul, kui broneerite projektis vahekaardilt **Meeskond**. See meetod lisab ressursi projektile meeskonnaliikmena, kuid ei loo reserveeringuid, mis hõivaks ressursi võimsuse. Seda meetodit kasutatakse, kui projekti loomisel lisatakse projektijuhi vaikerolliga meeskonnaliige. Projektile lisatakse vaikimisi projekti loonud projektijuhist kasutaja, nii et projekti olemi kirjel oleks omanik ja projektil oleks üks kinnitaja. Kuna sellel kasutajal pole broneeringuid, siis peate ressursi broneerimiseks ressursi kas kustutama ja teise eraldamismeetodiga uuesti lisama, või lisama ressursi ülesannetele ning seejärel kasutama vahekaardil **Sobitamine** käsku **Pikenda broneeringuid** , et ressursile broneeringuid luua.
+Pole meetod on saadaval ainult juhul, kui broneerite projektis vahekaardilt **Meeskond**. See meetod lisab ressursi projektile meeskonnaliikmena, kuid ei loo reserveeringuid, mis hõivaks ressursi võimsuse. Seda meetodit kasutatakse, kui projekti loomisel lisatakse projektijuhi vaikerolliga meeskonnaliige. Projektile lisatakse vaikimisi projekti loonud projektijuhist kasutaja, nii et projekti olemi kirjel oleks omanik ja projektil oleks üks kinnitaja. Kuna sellel kasutajal pole broneeringuid, siis peate ressursi broneerimiseks ressursi kas kustutama ja teise eraldamismeetodiga uuesti lisama, või lisama ressursi ülesannetele ning seejärel kasutama vahekaardil **Sobitamine** käsku **Pikenda broneeringuid**, et ressursile broneeringuid luua.
 
 ## <a name="allocation-methods-that-lead-to-overbooking"></a>Eraldamismeetodid, mis põhjustavad ülereserveerimist
 Kokkuvõttes – järgmised eraldamismeetodid põhjustavad ülereserveerimist, kui ressurss on juba teistele projektidele määratud (või muudele töökäskudele või ajastatavatele olemitele).

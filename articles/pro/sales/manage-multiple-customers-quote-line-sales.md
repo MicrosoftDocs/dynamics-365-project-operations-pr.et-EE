@@ -1,21 +1,21 @@
 ---
-title: Mitme kliendi projektipõhiste hinnapakkumiste ridade haldamine
+title: Mitme kliendi haldamine projektipõhise hinnapakkumise ridadel – liht
 description: Selles teemas kirjeldatakse, kuidas hallata projektipõhistel hinnapakkumiste ridadel mitut klienti.
 author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6a509fcf8d1fa11b4ce1ba1493d9c3cc64b4f22f
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7cab29693fc1447beba74dc6266367f13e48634d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074857"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176471"
 ---
-# <a name="managing-multiple-customers-on-project-based-quote-lines"></a>Mitme kliendi projektipõhiste hinnapakkumiste ridade haldamine
+# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Mitme kliendi haldamine projektipõhise hinnapakkumise ridadel – liht
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e589465eb98723b3b49c5d96e263eb3abf15eb2c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 920388b622eaace1787428facbd12a0608615fe0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074996"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130978"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Nõutavate kohandatud väljade lisamine hinna seadistusele ja ülekande olemitele 
 
@@ -41,32 +41,32 @@ Kui kohandatud hinnakujunduse dimensioon on suvandikomplekti põhine, lisage see
 1. Valige Projecti toimingutes **Sätted** > **Lahendused** ja topeltklõpsake suvandit **Organisatsiooni \<your organization name> hinnakujunduse dimensioonid**. 
 2. Valige Solution Exploreris vasakpoolsel navigeerimispaanil **Olemid > Rolli hind**.
 3. Laiendage üksust **Rolli hind** ja valige suvand **Väljad**.
-4. Valige **Uus** , et luua uus väli, mille nimi on **Ressursi töö asukoht** , ja valige välja tüübiks **Suvandikomplekt**. 
-5. Valige **Kasuta olemasolevat suvandikomplekti** , valige suvandikomplekt **Ressursi töö asukoht** ja valige seejärel **Salvesta**.
-6. Kui soovite selle välja lisada olemisse **Rolli hinna hinnalisand** , korrake etappe 1–5. 
+4. Valige **Uus**, et luua uus väli, mille nimi on **Ressursi töö asukoht**, ja valige välja tüübiks **Suvandikomplekt**. 
+5. Valige **Kasuta olemasolevat suvandikomplekti**, valige suvandikomplekt **Ressursi töö asukoht** ja valige seejärel **Salvesta**.
+6. Kui soovite selle välja lisada olemisse **Rolli hinna hinnalisand**, korrake etappe 1–5. 
 7. Korrake etappe 1–5 suvandikomplekti **Ressursi töötunnid** jaoks.
 
 > [!IMPORTANT]
 > Kui lisate välja rohkem kui ühele olemile, kasutage kõigi olemite jaoks sama välja nime. 
 
-Projekti müügi ja prognoosimise faasides kasutatakse hinnapakkumise/projekti väärtuse hindamiseks **kohalike** ja **kohapealsete** tööde lõpuleviimiseks nõutavat töökoormust, mis on seotud **regulaarsete tundide** ja **ületunnitööga**. Väljad **Ressursi töö asukoht** ja **Ressursi tööaeg** lisatakse hinnangu olemitele, **hinnapakkumise rea üksikasjadele** , **lepingurea üksikasjadele** , **projekti meeskonnaliikmetele** ja **hinnangu reale**.
+Projekti müügi ja prognoosimise faasides kasutatakse hinnapakkumise/projekti väärtuse hindamiseks **kohalike** ja **kohapealsete** tööde lõpuleviimiseks nõutavat töökoormust, mis on seotud **regulaarsete tundide** ja **ületunnitööga**. Väljad **Ressursi töö asukoht** ja **Ressursi tööaeg** lisatakse hinnangu olemitele, **hinnapakkumise rea üksikasjadele**, **lepingurea üksikasjadele**, **projekti meeskonnaliikmetele** ja **hinnangu reale**.
 
 1. Valige Projecti toimingutes **Sätted** > **Lahendused** ja topeltklõpsake seejärel suvandit **Organisatsiooni \<your organization name> hinnakujunduse dimensioonid**. 
 2. Valige Solution Exploreris vasakul navigeerimispaanil **Olemid > Hinnapakkumise rea üksikasi**.
 3. Laiendage olemit **Hinnapakkumise rea üksikasi** ja valige **Väljad**.
-4. Valige **Uus** , et luua uus väli, mille nimi on **Ressursi töö asukoht** , ja valige välja tüübiks **Suvandikomplekt**. 
+4. Valige **Uus**, et luua uus väli, mille nimi on **Ressursi töö asukoht**, ja valige välja tüübiks **Suvandikomplekt**. 
 5. Valige **Kasuta olemasolevat suvandikomplekti** ja **Ressursi tööasukoht** ja valige seejärel **Salvesta**.
-6. Korrake etappe 1–5, et lisada see väli olemitesse **Projekti lepingurea üksikasi** , **Projekti meeskonnaliige** ja **Hinnangurida**.
+6. Korrake etappe 1–5, et lisada see väli olemitesse **Projekti lepingurea üksikasi**, **Projekti meeskonnaliige** ja **Hinnangurida**.
 7. Korrake etappe 1–6 suvandikomplekti **Ressursi tööaeg** jaoks. 
 
-Kohaletoimetamiseks ja arveldamiseks peab lõpetatud töö täpselt hinnatud olema, et valida, kas see teostati projekti tegelikes näitajates **kohalikult** või **kohapeal** , ja kas see viidi lõpule **tavaliste tundide** või **ületunnitöö** ajal. Väljad **Ressursi tööasukoht** ja **Ressursi töötunnid** tuleks lisada olemitesse **Ajakirje** , **Tegelik** , **Arve rea üksikasi** ja **Töölehe rida**.
+Kohaletoimetamiseks ja arveldamiseks peab lõpetatud töö täpselt hinnatud olema, et valida, kas see teostati projekti tegelikes näitajates **kohalikult** või **kohapeal**, ja kas see viidi lõpule **tavaliste tundide** või **ületunnitöö** ajal. Väljad **Ressursi tööasukoht** ja **Ressursi töötunnid** tuleks lisada olemitesse **Ajakirje**, **Tegelik**, **Arve rea üksikasi** ja **Töölehe rida**.
 
 1. Valige **Sätted** > **Lahendused** ja topeltklõpsake seejärel suvandit **Organisatsiooni \<your organization name> hinnakujunduse dimensioonid**.
 2. Valige Solution Exploreris vasakpoolsel navigeerimispaanil **Olemid > Ajakirje**.
 3. Laiendage olemit **Hinnapakkumise rea üksikasjad** ja valige **Väljad**.
-4. Valige **Uus** , et luua uus väli, mille nimi on **Ressursi töö asukoht** , ja valige välja tüübiks **Suvandikomplekt**. 
-5. Valige **Kasuta olemasolevat suvandikomplekti** , valige suvandikomplekt **Ressursi töö asukoht** ja valige seejärel **Salvesta**.
-6. Korrake etappe 1–5, et lisada see väli olemitele **Tegelik** , **Arve rea üksikasjad** ja **Töölehe rida**.
+4. Valige **Uus**, et luua uus väli, mille nimi on **Ressursi töö asukoht**, ja valige välja tüübiks **Suvandikomplekt**. 
+5. Valige **Kasuta olemasolevat suvandikomplekti**, valige suvandikomplekt **Ressursi töö asukoht** ja valige seejärel **Salvesta**.
+6. Korrake etappe 1–5, et lisada see väli olemitele **Tegelik**, **Arve rea üksikasjad** ja **Töölehe rida**.
 7. Korrake etappe 1–6 suvandikomplekti **Ressursi tööaeg** jaoks. 
 
 See lõpetab suvandikomplektipõhiste kohandatud dimensioonide jaoks nõutava skeemi muutmise.
@@ -78,13 +78,13 @@ Kui kohandatud hinnakujunduse dimensioon on olem, lisatakse dimensiooni olemi ja
 1. Valige Projecti toimingutes **Sätted** > **Lahendused** ja topeltklõpsake seejärel suvandit **Organisatsiooni \<your organization name> hinnakujunduse dimensioonid**. 
 2. Valige Solution Exploreris vasakpoolsel navigeerimispaanil **Olemid > Standardne ametinimetus**.
 3. Laiendage olemit **Standardne ametinimetus** ja valige **1 : N seosed**.
-4. Valige **Uus** , et luua uus 1 : N seos nimega **Standardne ametinimetus broneeritavale ressursile**. Sisestage nõutud teave ja valige seejärel **Salvesta**.
+4. Valige **Uus**, et luua uus 1 : N seos nimega **Standardne ametinimetus broneeritavale ressursile**. Sisestage nõutud teave ja valige seejärel **Salvesta**.
 
 Standardne ametinimetus tuleb lisada ka hindamisolemitele, **rolli hinnale** ja **rolli hinna hinnalisandile**. See on lõpule viidud ka kasutades olemite **Standardne ametinimetus** ja **Rolli hind** ning **Standardne ametinimetus** ja **Rolli hinna hinnalisand** vahelisi 1 : N seoseid.
 
 1. Valige Solution Exploreris vasakpoolsel navigeerimispaanil **Olemid > Standardne ametinimetus**.
 2. Laiendage olemit **Standardne ametinimetus** ja valige **1 : N seosed**.
-3. Valige **Uus** , et luua uus 1 : N seos nimega **Standardne ametinimetus rolli hinnale**. Sisestage nõutud teave ja valige seejärel **Salvesta**.
+3. Valige **Uus**, et luua uus 1 : N seos nimega **Standardne ametinimetus rolli hinnale**. Sisestage nõutud teave ja valige seejärel **Salvesta**.
 4. Korrake etappe 1–4, et luua 1 : N seoseid olemite **Standardne ametinimetus** ja **Rolli hinna hinnalisand** vahel.
 
 Projekti müügi- ja hinnangufaasis on hinnapakkumise/projekti hindamiseks vaja iga standardse ametinimetuse jaoks töökoormuse kalkulatsiooni. See tähendab, et vajalikud on 1 : N seosed standardsete ametinimetuste ja iga järgmise hinnangu olemi vahel. 
@@ -94,11 +94,11 @@ Projekti müügi- ja hinnangufaasis on hinnapakkumise/projekti hindamiseks vaja 
 - **Projektimeeskonna liige**
 - **Prognoosi rida**
 
-5. Korrake etappe 1–5, et luua 1 : N seoseid olemite **Standardne ametinimetus** , **Hinnapakkumise rea üksikasi** , **Projekti lepingureaüksikasjad** , **Projekti meeskonnaliige** ja **Hinnangurida** vahel.
+5. Korrake etappe 1–5, et luua 1 : N seoseid olemite **Standardne ametinimetus**, **Hinnapakkumise rea üksikasi**, **Projekti lepingureaüksikasjad**, **Projekti meeskonnaliige** ja **Hinnangurida** vahel.
 
-  Kohaletoimetamise ja arveldamise faasides peab iga standardse ametinimetuse tehtud töö täpselt projekti tegelikele hindadele vastama. See tähendab, et on vaja 1 : N seoseid olemite **Standardne ametinimetus** , **Ajakirje** , **Tegelik** , **Arve rea üksikasjad** ja **Töölehe rida** vahel.
+  Kohaletoimetamise ja arveldamise faasides peab iga standardse ametinimetuse tehtud töö täpselt projekti tegelikele hindadele vastama. See tähendab, et on vaja 1 : N seoseid olemite **Standardne ametinimetus**, **Ajakirje**, **Tegelik**, **Arve rea üksikasjad** ja **Töölehe rida** vahel.
 
-6. Korrake etappe 1–6, et luua 1 : N seost olemite **Standardne ametinimetus** , **Ajakirje** , **Tegelik** , **Arve rea üksikasjad** ja **Töölehe rida** vahel.
+6. Korrake etappe 1–6, et luua 1 : N seost olemite **Standardne ametinimetus**, **Ajakirje**, **Tegelik**, **Arve rea üksikasjad** ja **Töölehe rida** vahel.
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Dimensiooniväärtuse vaikeväärtuse seadmine platvormi vastendusfunktsioonide abil
 Ajakirje puhul oleks süsteemi vaikimisi standardne ametinimetus arveldatava ressursi ajakirjest, mis salvestab ajakirjet. Järgmiste juhiste abil saate lisada välja vastendusi 1 : N seosele **broneeritavast ressursist** **ajakirjesse**.
@@ -106,7 +106,7 @@ Ajakirje puhul oleks süsteemi vaikimisi standardne ametinimetus arveldatava res
 1. Valige Solution Exploreris vasakpoolsel navigeerimispaanil **Olemid > Standardne ametinimetus**.
 2. Laiendage olemit **Standardne ametinimetus** ja valige **1 : N seosed**.
 3. Topeltklõpsake suvandit **Broneeritav ressurss ajakirjesse**. Valige lehel **Seos** suvand **Kasuta väljavastendusi**. 
-4. Valige **Uus** , et luua uue välja vastendamine välja **Standardne ametinimetus** olemis **Broneeritav ressurss** ja viitevälja **Standardne ametinimetus** olemis **Ajakirje** vahel. 
+4. Valige **Uus**, et luua uue välja vastendamine välja **Standardne ametinimetus** olemis **Broneeritav ressurss** ja viitevälja **Standardne ametinimetus** olemis **Ajakirje** vahel. 
 
 See lõpetab suvandikomplektipõhiste kohandatud dimensioonide jaoks nõutava skeemi muutmise.
 
@@ -131,4 +131,4 @@ Järgmises tabelis on esitatud terviklik loend kasutusvalmis vormidest ja vaadet
 |  Arve rea üksikasjad|• Teave<br>• Kiirloomine|• Aktiivse arve rea üksikasjad<br>• Arveldatavad arvekanded<br>• Tasuta arvekanded<br>• Arve rea üksikasjade seostatud vaade<br>• Mittearveldatavad arvekanded|
 |  Tegelik|• Teave<br>• Aktiivsed tegelikud näitajad|• Tegelik seostatud vaade|
 
-Sõltuvalt sellest, mida olete määratlenud, tuleb ärireeglitele lisada ka kohandatud väljad. Üks valmislahenduse näide on ärireegel **Olekul põhineva ajakirje redigeeritavus**. See reegel määratleb, millised väljad tuleb lukustada, kui ajakirje on mitte-redigeeritavas olekus (nt **kinnitatud** ). Lisage sellele ärireeglile väljad, et need väljad oleksid redigeerimiseks lukus, kui ajakirje on muus olekus kui **mustand** või **tagastatud**.
+Sõltuvalt sellest, mida olete määratlenud, tuleb ärireeglitele lisada ka kohandatud väljad. Üks valmislahenduse näide on ärireegel **Olekul põhineva ajakirje redigeeritavus**. See reegel määratleb, millised väljad tuleb lukustada, kui ajakirje on mitte-redigeeritavas olekus (nt **kinnitatud**). Lisage sellele ärireeglile väljad, et need väljad oleksid redigeerimiseks lukus, kui ajakirje on muus olekus kui **mustand** või **tagastatud**.

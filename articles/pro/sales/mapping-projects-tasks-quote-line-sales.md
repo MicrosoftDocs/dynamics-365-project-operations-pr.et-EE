@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d726ab09da0e502da99191f7e7469c47f79b6e7c
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 871d323136cd982bd48ed9aa2b9c34017951d2d8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074848"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130708"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Projektide ja ülesannete vastendamine projektipõhise hinnapakkumise reaga
 
@@ -48,7 +48,7 @@ Leht **Projekt** pakub optimaalset kogemust ülesannete seostamiseks hinnapakkum
 5. Valige lehel **Projektid** vahekaart **Ülesande arveldus**.
 6. Valige teisest ruudustikust, mis puudutab ülesandepõhise arvelduse seadistamist, üks või rohkem ülesannet ja seejärel valige suvand **Seosta hinnapakkumise read**.
 7. Valige kuvatavas dialoogis hinnapakkumise rida, kus kuvatakse hinnapakkumisel projektipõhiseid hinnapakkumise ridu.
-8. Märkige väljal **Arvelduse tüüp** , kas need toimingud on arveldatavad või mitte.
+8. Märkige väljal **Arvelduse tüüp**, kas need toimingud on arveldatavad või mitte.
 9. Märkige ruut, kui soovite, et ühing peaks kaasama valitud tööülesannete alluvad tööülesanded. Kasti märkimine seostab valitud ülesannete tütarülesanded hinnapakkumise reaga.
 10. Valige dialoogi sulgemiseks nupp **Ok**.
 
@@ -57,7 +57,7 @@ Leht **Projekt** pakub optimaalset kogemust ülesannete seostamiseks hinnapakkum
 Projekti tööülesanded saate seostada hinnapakkumise ridadega vahekaardil **Arveldatavad ülesanded** lehel **Hinnapakkumise rida**.
 
 >[!NOTE]
->Optimaalne koht projekti ülesannete seostamiseks hinnapakkumiste ridadega on vahekaart **Ülesande arveldus** lehel **Projekt**. Kui seostate tööülesanded vahekaardilt **Arveldatavad ülesanded** lehelt **Hinnapakkumise rida** , peate iga projekti käsitsi seostama.
+>Optimaalne koht projekti ülesannete seostamiseks hinnapakkumiste ridadega on vahekaart **Ülesande arveldus** lehel **Projekt**. Kui seostate tööülesanded vahekaardilt **Arveldatavad ülesanded** lehelt **Hinnapakkumise rida**, peate iga projekti käsitsi seostama.
 
 1. Kontrollige, et projektipõhise hinnapakkumise rea vahekaardil **Üldine** oleks väljal **Projekt** projekt valitud.
 2. Valige väljal **Kaasatud tööülesanded** valik **Ainult valitud tööülesanded**.
@@ -78,7 +78,7 @@ See meetod pakub kõige optimaalsemat kogemust ülesannete hinnapakkumiste ridad
 4. Valige kuvatavas dialoogiboksis hinnapakkumise rida.
 5. Märkige ruut, et näidata, kas soovite, et seotus tuleks eemaldada ka valitud ülesannete tütarülesannetelt. Kasti märkimine seob hinnapakkumise reast lahti seob lahti ka tütarülesanded.
 6. Valige **OK**. Hoiatusteade hoiatab teid, et kui eemaldate selle seose, võidakse kõik varem toimingule salvestatud tegelikud näitajad tagasi pöörata. 
-7. Valige **OK** , et jätkata ja eemaldada seos ülesande ja projektipõhise hinnapakkumise rea vahel.
+7. Valige **OK**, et jätkata ja eemaldada seos ülesande ja projektipõhise hinnapakkumise rea vahel.
 
 ### <a name="from-the-quote-line-page"></a>Hinnapakkumise rea lehelt
 
@@ -86,7 +86,7 @@ Projekti tööülesanded saate hinnapakkumise ridadest lahti siduda ka vahekaard
 
 1. Valige vahekaardil **Arveldatavad ülesanded** suvand **Tühista hinnapakkumise rea tööülesanne**.
 2. Valige **OK**. Hoiatusteade hoiatab teid, et kui eemaldate selle seose, võidakse kõik varem toimingule salvestatud tegelikud näitajad tagasi pöörata. 
-3. Valige **OK** , et jätkata ja eemaldada seos ülesande ja projektipõhise hinnapakkumise rea vahel.
+3. Valige **OK**, et jätkata ja eemaldada seos ülesande ja projektipõhise hinnapakkumise rea vahel.
 
 >[!NOTE]
 > See toiming ei kustuta tööülesannet projektist. See eemaldab ainult tööülesande seose projektipõhiselt hinnapakkumise realt.

@@ -3,7 +3,7 @@ title: Halda ressursse
 description: Selles teemas antakse teavet ressursside haldamise kohta.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/13/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5b34ad66750dba9459d551a2527c13111196511e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 548595e3951f824e1c79a641d3f336e381fcaaf9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075157"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132328"
 ---
 # <a name="manage-resources"></a>Halda ressursse
 
@@ -56,7 +56,7 @@ Rakenduses PSA saate broneerida üldise ressursi projekti meeskonnas ning määr
 
 Järgige neid juhiseid, et määrata arendaja jaoks üldise ressursi nõutavad oskused.
 
-1. Valige lehel **Projektid** vahekaardil **Meeskond** käsk **Uus** , et broneerida üldine ressurss.
+1. Valige lehel **Projektid** vahekaardil **Meeskond** käsk **Uus**, et broneerida üldine ressurss.
 
     ![Meeskonnas broneeritud üldine ressurss](media/Resource-Management-image9.png)
 
@@ -64,7 +64,7 @@ Järgige neid juhiseid, et määrata arendaja jaoks üldise ressursi nõutavad o
 
     ![Nõude link](media/Resource-Management-image10.png)
 
-3. Valige lehel **Ressursinõue** , mis kuvatakse **oskuste** ruudustikus, kolmikpunkt ( **…** ) ja seejärel valige **Lisa uus nõude omadus** , et lisada arendajale vajalikke oskusi.
+3. Valige lehel **Ressursinõue**, mis kuvatakse **oskuste** ruudustikus, kolmikpunkt (**…**) ja seejärel valige **Lisa uus nõude omadus**, et lisada arendajale vajalikke oskusi.
 
     ![Uue nõude tunnuse käsu lisamine](media/Resource-Management-image11.png)
 
@@ -72,7 +72,7 @@ Järgige neid juhiseid, et määrata arendaja jaoks üldise ressursi nõutavad o
 
     ![Kiirloomine: dialoogiboks Nõude tunnus](media/Resource-Management-image12.png)
 
-5. Valige lehel **Ressursinõue** käsk **Broneeri** , et täita ressursinõue.
+5. Valige lehel **Ressursinõue** käsk **Broneeri**, et täita ressursinõue.
 
     ![Nupp Broneeri lehel Ressursinõue](media/Resource-Management-image13.png)
 
@@ -93,7 +93,7 @@ Järgige neid juhiseid, et määrata arendaja jaoks üldise ressursi nõutavad o
     - **Rollid** – filtreeritakse vaikimisi kasutatavate rollide järgi, mis on määratud broneeritud ressurssidele.
     - **Organisatsiooniüksused** – filtreerige arvestuslikke ressursse nende organisatsiooniüksuste järgi, kellele nad on määratud.
 
-6. Kui te pole algse nõude otsingu tulemustega rahul, saate filtri kriteeriume muuta. Laiendage vasakul olevat paani **Filtri vaade** ja seejärel valige **Otsi** , et leida täiendavaid ressursse.
+6. Kui te pole algse nõude otsingu tulemustega rahul, saate filtri kriteeriume muuta. Laiendage vasakul olevat paani **Filtri vaade** ja seejärel valige **Otsi**, et leida täiendavaid ressursse.
 
     ![Filtri vaate paan](media/Resource-Management-image16.png)
 
@@ -223,7 +223,7 @@ Pärast üldise või nimega ressursi lisamist projekti meeskonda saate ressursi 
 
     Ilmub ajakavapaneel ja kuvatakse projekti meeskonnaliikme broneeringud. Laiendage meeskonnaliikme kirjet, et vaadata selle projekti ja muude meeskonnaliikme võimsust tarbivate projektide suhtes broneeritud tunde.
 
-2. Valige ja pukseerige broneering, et seda pikendada või lühendada. Kuvatakse dialoogiboks **Ressursi reserveeringu loomine** , mis võimaldab teil reserveeringut muuta.
+2. Valige ja pukseerige broneering, et seda pikendada või lühendada. Kuvatakse dialoogiboks **Ressursi reserveeringu loomine**, mis võimaldab teil reserveeringut muuta.
 
     ![Ressursi reserveeringu loomine](media/Resource-Management-image41.png)
 
@@ -277,7 +277,7 @@ Kui soovite vaadata pakutud ressurssi koos soovituse reserveeringu efektiga, top
 
 ![Pakutavad ressursid](media/Resource-Management-image49.png)
 
-Valige **Aktsepteeri kõik ettepanekud** , et nõustuda kõigi pakutud ressurssidega või **Hülga kõik ettepanekud** nende tagasilükkamiseks. Kui nõustute pakutavate ressurssidega, on nad projektis meeskonnaliikmena fikseeritult reserveeritud ja asendavad üldiseid ressursse.
+Valige **Aktsepteeri kõik ettepanekud**, et nõustuda kõigi pakutud ressurssidega või **Hülga kõik ettepanekud** nende tagasilükkamiseks. Kui nõustute pakutavate ressurssidega, on nad projektis meeskonnaliikmena fikseeritult reserveeritud ja asendavad üldiseid ressursse.
 
 > [!NOTE]
 > Kõik pakutavad ressursid tuleb kas aktsepteerida või hüljata. Neid ei saa osaliselt aktsepteerida või hüljata.
@@ -318,7 +318,7 @@ Vahel peab projektijuht asendama broneeritud meeskonnaliikme projektis.
 
 Meeskonnaliikmete puhul on broneeringud ja tööülesanded lõdvalt ühendatud. Teisisõnu, ressurssidel võivad olla määramised, kuid ei mingeid broneeringuid, või neil võib olla broneeringuid, kuid mitte määramisi. Ideaalis tuleks reserveeringud ja ülesanded viia vastavusse, nii et ressursid on toime pannud võimsuse täitmiseks tööülesandeid. Kuid broneeringud võivad põhineda saadavusel ja tööülesande ajastused võivad projekti jätkudes muutuda. Seega pakub broneeringute ja ülesannete vaba ühendamine paindlikkust.
 
-PSA-l on vahekaart **Vastavusseviimine** , mis võimaldab projekti juhtidel ühitada meeskonnaliikmete reserveeringud ja nende määramised projekti meeskondadele.
+PSA-l on vahekaart **Vastavusseviimine**, mis võimaldab projekti juhtidel ühitada meeskonnaliikmete reserveeringud ja nende määramised projekti meeskondadele.
 
 ![Vahekaart Vastavusseviimine](media/Resource-Management-image56.png)
 
@@ -333,11 +333,11 @@ Iga ressursi puhul arvutab vahekaart meeskonnaliikme reserveeringute ja meeskonn
 
 Mõnel juhul, kui te vaatate aega kõrgemal tasemel kui päeva tasemel (näiteks kuu tasand), võidakse kuvada ressursi neto erinevus (teisisõnu, broneerimine = määramine). Kuid kui te vaatate aega nädala tasemel, võite näha, et seal on määramised null tundi ja broneeringud 40 tundi esimesel nädalal, kuid määramine 40 tundi ja broneerimine null tundi teisel nädalal. Kokkuvõttes lepitakse reserveeringud ja määramised kokku, kuid nad erinevad ühe nädala jooksul järgmisena.
 
-Kui vaatate aega kõrgemal tasemel, on vahekaardil **Vastavusseviimine** määratud lahtrite indikaator, mis teatab, et madalamatel tasanditel on erinevusi. Lahtrit topeltklõpsates saate erinevuse vaatamiseks suumida. Seejärel saate väljasuumimiseks paremklõpsu teha. Valides ressursi ja kasutades seejärel ruudustiku tööriistaribal juhtelementi **Järgmine erinevus** , saate minna järgmisele erinevusele selle ressursi reserveeringute ja ülesannete vahel. Seejärel saate tagasiminemiseks kasutada juhtelementi **Eelmine erinevus**. Samuti saate suvandi **Sätted** kaudu erinevuste indikaatori ja navigeerimise käitumise välja lülitada.
+Kui vaatate aega kõrgemal tasemel, on vahekaardil **Vastavusseviimine** määratud lahtrite indikaator, mis teatab, et madalamatel tasanditel on erinevusi. Lahtrit topeltklõpsates saate erinevuse vaatamiseks suumida. Seejärel saate väljasuumimiseks paremklõpsu teha. Valides ressursi ja kasutades seejärel ruudustiku tööriistaribal juhtelementi **Järgmine erinevus**, saate minna järgmisele erinevusele selle ressursi reserveeringute ja ülesannete vahel. Seejärel saate tagasiminemiseks kasutada juhtelementi **Eelmine erinevus**. Samuti saate suvandi **Sätted** kaudu erinevuste indikaatori ja navigeerimise käitumise välja lülitada.
 
 ![Erinevuse indikaator](media/Resource-Management-image57.png)
 
-Kui teil on ressursi jaoks tööülesanded, kuid ei mingeid broneeringuid,valige lehel **Projektid** vahekaardil **Vastavusseviimine** broneeringu puudujääk, seejärel valige käsk **Pikenda reserveeringut**. Kuvatakse dialoogiboks **Pikenda reserveeringut** ja kuvatakse broneering, mis on vajalik ressursi puudujäägi lahendamiseks. See näitab ka ressursi olemasolevaid broneeringuid kõigis projektides või muudes kavandatud üksustes. Kui valite ressursi reserveeringu loomiseks valiku **OK** , võite selle ressursi saadavusest olenemata põhjustada ülebroneeringu.
+Kui teil on ressursi jaoks tööülesanded, kuid ei mingeid broneeringuid,valige lehel **Projektid** vahekaardil **Vastavusseviimine** broneeringu puudujääk, seejärel valige käsk **Pikenda reserveeringut**. Kuvatakse dialoogiboks **Pikenda reserveeringut** ja kuvatakse broneering, mis on vajalik ressursi puudujäägi lahendamiseks. See näitab ka ressursi olemasolevaid broneeringuid kõigis projektides või muudes kavandatud üksustes. Kui valite ressursi reserveeringu loomiseks valiku **OK**, võite selle ressursi saadavusest olenemata põhjustada ülebroneeringu.
 
 ![Dialoogiboks Pikenda reserveeringut](media/Resource-Management-image58.png)
 

@@ -3,7 +3,7 @@ title: Projekti hinnapakkumise loomine
 description: Projekti hinnapakkumise loomine Project Service'is
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: efa18faffc6b5e97e8fbc21352688874d07e906f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5a28bafed6fa76e21e3edb890da04f105b2b2a3c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075064"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133138"
 ---
 # <a name="create-a-project-quote-project-service"></a>Projekti hinnapakkumise loomine (Project Service)
 
@@ -37,7 +37,7 @@ Hinnapakkumise loomine sarnaneb müügivõimaluse loomisele. Kui müügivõimalu
   
 3. Muutke alal **Kokkuvõte** vajaduse korral teavet.  
   
-4. Klõpsake hinnapakkumise loomiseks käsku **Salvesta** , seejärel saate selle redigeerimist jätkata.  
+4. Klõpsake hinnapakkumise loomiseks käsku **Salvesta**, seejärel saate selle redigeerimist jätkata.  
   
 5. Hinnapakkumisele toote lisamiseks klõpsake alal **Hinnapakkumise read** jaotises **Tootepõhised read** valikut **Uus**. Valige üksus jaotises **Toote nimetus** ning määrake kogus, müügihind ja pakutav kogus.  
   

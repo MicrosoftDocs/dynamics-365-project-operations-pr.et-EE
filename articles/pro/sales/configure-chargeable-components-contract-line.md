@@ -1,21 +1,21 @@
 ---
-title: Projektipõhise lepingurea arveldatavate komponentide konfigureerimine
+title: Projektipõhise lepingurea arveldatavate komponentide konfigureerimine – liht
 description: Selles teemas antakse teavet selle kohta, kuidas lisada Project Operationsis lepinguridadele arveldatavaid komponente.
 author: rumant
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4d665a6351d2315d185e64e4eb6b0b8859f7bbc4
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 46429c94ca9aa1ebbbe9fc689a9a5bd6c52dc59e
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074863"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177146"
 ---
-# <a name="configuring-chargeable-components-of-a-project-based-contract-line"></a>Projektipõhise lepingurea arveldatavate komponentide konfigureerimine
+# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Projektipõhise lepingurea arveldatavate komponentide konfigureerimine – liht
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
@@ -34,31 +34,31 @@ Kaasatud komponentide alamhulka saab märkida arveldatavana, kasutades välja **
 
 Arveldatavad komponendid saab määratleda tööülesannetes, rollides ja tehingute kategooriates.
 
-Arveldatav tegevus määratletakse projekti lepingurea tööülesannetes ja seda rakendatakse kõigile real kaasatud tehingute klassidele. Kui lepingurea väli **Kaasa tööülesanded** on tühi või seatud väärtusele **Kogu projekt** , ei ole vahekaart **Arveldatavad tööülesanded** saadaval.
+Arveldatav tegevus määratletakse projekti lepingurea tööülesannetes ja seda rakendatakse kõigile real kaasatud tehingute klassidele. Kui lepingurea väli **Kaasa tööülesanded** on tühi või seatud väärtusele **Kogu projekt**, ei ole vahekaart **Arveldatavad tööülesanded** saadaval.
 
-Projekti lepingurea rollidele määratud arveldatavuse kehtib ainult tehingu klassile **Aeg**. Kui lepingurea väli **Kaasa aeg** on seatud väärtusele **Ei** , ei ole vahekaart **Arveldatavad rollid** saadaval.
+Projekti lepingurea rollidele määratud arveldatavuse kehtib ainult tehingu klassile **Aeg**. Kui lepingurea väli **Kaasa aeg** on seatud väärtusele **Ei**, ei ole vahekaart **Arveldatavad rollid** saadaval.
 
-Projekti lepingurea tehingu kategooriate määratud arveldatavuse kehtib ainult tehingu klassile **Kulu**. Kui väli **Kaasa kulu** on seatud väärtusele **Ei** , ei ole vahekaart **Arveldatavad kategooriad** saadaval.
+Projekti lepingurea tehingu kategooriate määratud arveldatavuse kehtib ainult tehingu klassile **Kulu**. Kui väli **Kaasa kulu** on seatud väärtusele **Ei**, ei ole vahekaart **Arveldatavad kategooriad** saadaval.
 
 ### <a name="update-a-project-task-as-chargeable-or-non-chargeable"></a>Projekti tööülesande värskendamine arveldatavaks või mittearveldatavaks
 
 Projekti tööülesanne võib olla arveldatav või mittearveldatav kindla lepingurea kohta, mis võimaldab järgmist seadistust.
 
-Kui projektipõhine lepingurida sisaldab väärtust **Aeg** ja teatud ülesannet, siis seostatakse väärtust **T1** sellega kui arveldatav. Kui olemas on teine lepingurida, mis sisaldab väärtust **Kulu** , saate seostada lepingurea väärtuse T1 tööülesannet sellega kui arveldatav. Tulemuseks on, et kogu tööülesande kohta registreeritud aeg on arveldatav ja kõik kulud on mittearveldatavad.
+Kui projektipõhine lepingurida sisaldab väärtust **Aeg** ja teatud ülesannet, siis seostatakse väärtust **T1** sellega kui arveldatav. Kui olemas on teine lepingurida, mis sisaldab väärtust **Kulu**, saate seostada lepingurea väärtuse T1 tööülesannet sellega kui arveldatav. Tulemuseks on, et kogu tööülesande kohta registreeritud aeg on arveldatav ja kõik kulud on mittearveldatavad.
 
-Tööülesande arveldamise tüüpi saab konfigureerida lepingurea vahekaardil **Arveldatavad tööülesanded** , värskendades lepingurea ülesannete andmeruudustiku välja **Arveldamise tüüp**. Alternatiivina saate värskendada projekti, mis sisaldab tööülesandega seotud lepinguridu, andmeruudustiku välja **Arveldamise tüüp**.
+Ülesande arveldamise tüübi saab konfigureerida lepingurea vahekaardil **Arveldatavad ülesanded**, värskendades lepingurea ülesannete andmeruudustikus välja **Arveldamise tüüp**. Teise võimalusena saate värskendada välja **Arvelduse tüüp** ülesande arveldamise seadistuse andmeruudustikus projekti juures, mis näitab ülesandega seotud kontaktiridu.
 
 ### <a name="update-a-role-as-chargeable-or-non-chargeable"></a>Rolli värskendamine arveldatavaks või mittearveldatavaks
 
 Roll võib olla arveldatav või mittearveldatav kindla lepingurea kohta.
 
-Rolli arveldamise tüüpi saab konfigureerida lepingurea vahekaardil **Arveldatavad rollid**. Selleks värskendage välja **Arveldamise tüüp** andmeruudustikul **Arveldatavad rollid**.
+Rolli arveldamise tüüpi saab konfigureerida lepingurea vahekaardil **Arveldatavad rollid**. Selleks värskendage andmeruudustikus **Arveldatavad rollid** välja **Arveldamise tüüp**.
 
 ### <a name="update-a-transaction-category-as-chargeable-or-non-chargeable"></a>Tehingu kategooria värskendamine arveldatavaks või mittearveldatavaks
 
 Tehingu kategooria võib olla arveldatav või mittearveldatav kindla lepingurea kohta.
 
-Tehingu arveldamise tüüpi saab konfigureerida projektipõhise lepingurea vahekaardil **Arveldatavad kategooriad**. Selleks värskendage välja **Arveldamise tüüp** andmeruudustikul **Arveldatavad kategooriad**.
+Tehingu arveldamise tüüpi saab konfigureerida projektipõhise lepingurea vahekaardil **Arveldatavad kategooriad**. Selleks värskendage andmeruudustikus **Arveldatavad kategooriad** välja **Arveldamise tüüp**.
 
 ### <a name="resolve-chargeability"></a>Arveldatavuse lahendamine
 

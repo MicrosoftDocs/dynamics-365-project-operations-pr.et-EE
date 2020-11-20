@@ -1,21 +1,21 @@
 ---
-title: Eelversiooni kordustellimuseks registreerumine
+title: Eelversiooni kordustellimuseks registreerumine – liht
 description: See teema pakub teavet selle kohta, kuidas tellida ja juurutada Project Operations Lite’i juurutust – tehing näidisarveldusele.
 author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074819"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175886"
 ---
-# <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>Registreeruge Lite’i juurutuse – tehing näidisarveldusele eelversiooni tellimuse jaoks
+# <a name="sign-up-for-a-preview-subscription---lite"></a>Eelversiooni kordustellimuseks registreerumine – liht 
 
 See teema selgitab, kuidas tellida eelversiooni partneri pakkumisele ja juurutada Dynamics 365 Project Operations Lite’i juurutust – tehing näidisarveldusele.
 
@@ -42,7 +42,7 @@ Kui saate [eelvaate taotluse](https://forms.office.com/FormsPro/Pages/ResponsePa
 
 Enne alustamist veenduge, et oleksite brauseris sisse logitud kasutaja töökontoga rentnikusse, kus soovite Project Operationsi eelvaadet näha.
 
-1. Lunastage esimene pakkumise kood, **Dynamics 365 Project Operations (CRM) – eelvaate prooviversioon** , kleepides selle brauseri URL-i.
+1. Lunastage esimene pakkumise kood, **Dynamics 365 Project Operations (CRM) – eelvaate prooviversioon**, kleepides selle brauseri URL-i.
 
 ![Lunasta pakkumine](./media/16RedeemFirstOfferNew.png)
 

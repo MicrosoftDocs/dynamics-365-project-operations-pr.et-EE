@@ -3,7 +3,7 @@ title: Ajakirjete loomine
 description: Selles teemas kirjeldatakse, kuidas luua ajakirjeid.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 878413a24baa340b745a045a6991a63a00851c8b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d8c87f0fd2cc021bb9088d0fac73ccd52980a905
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075047"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131262"
 ---
 # <a name="create-time-entries"></a>Ajakirjete loomine
 
@@ -41,7 +41,7 @@ Ajakirje loomiseks tehke järgmist.
 4. Otsige väljast **Projektiülesanne** selle ajakirje jaoks sobiv ülesanne.
 
     > [!NOTE]
-    > Kui loote ajakirje ülesande jaoks, mis pole kasutajale määratud, valige väljast **Projektiülesanne** nupp **Otsi** , valige suvand **Muuda vaadet** ja valige seejärel kõigi ülesannete loendi nägemiseks suvand **Kõik aktiivsed projektiülesanded**.
+    > Kui loote ajakirje ülesande jaoks, mis pole kasutajale määratud, valige väljast **Projektiülesanne** nupp **Otsi**, valige suvand **Muuda vaadet** ja valige seejärel kõigi ülesannete loendi nägemiseks suvand **Kõik aktiivsed projektiülesanded**.
 
 5. Kui on vaja sisestada kirjeldus, tehke seda, ja seejärel valige suvand **Salvesta ja Sule**.
 
@@ -57,9 +57,9 @@ Pange tähele, et tunni murdosad ei ole minutid. Seega 1,5 tundi on 1 tund ja 30
 Pärast paari ajakirje loomist saate neid kopeerida, et luua hulgi kaupa veelgi ajakirjeid.
 
 1. Valige lehel **Ajakirjed** suvand **Kopeeri nädal**.
-2. Ajakirjete kopeerimiseks määrake väljades **Perioodi algus** , **Alguskuupäev** ja **Lõppkuupäev** kuupäevavahemik.
+2. Ajakirjete kopeerimiseks määrake väljades **Perioodi algus**, **Alguskuupäev** ja **Lõppkuupäev** kuupäevavahemik.
 3. Määrake väljades **Perioodi lõpp** ja **Alguskuupäev** kuupäev, mille jaoks soovite ajakirjeid luua.
-4. Valige suvand **Kopeeri** , et luua nende ajakirjete koopia, mis vastavad väljal **Perioodi lõpp** määratud nädalapäevale. Näiteks viimase nädala esmaspäeva ajakirje kopeeritakse selle nädala esmaspäeva, mis on määratud väljal **Perioodi lõpp**.
+4. Valige suvand **Kopeeri**, et luua nende ajakirjete koopia, mis vastavad väljal **Perioodi lõpp** määratud nädalapäevale. Näiteks viimase nädala esmaspäeva ajakirje kopeeritakse selle nädala esmaspäeva, mis on määratud väljal **Perioodi lõpp**.
 
 ## <a name="import-data-for-time-entries"></a>Ajakirjete impordi andmed
 

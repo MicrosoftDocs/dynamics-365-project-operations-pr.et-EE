@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8e7ee4888a907b9d8c3ce06c1597f6b05be84477
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d35be82563515adbba2c22402a751ed3daca8f83
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074845"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131563"
 ---
 # <a name="estimate-projects-overview"></a>Prognoosi projektide ülevaade
 
@@ -74,8 +74,8 @@ Kui lisasite hinnapakkumise rea üksikasjadesse kohandatud välja ja soovite, et
 2. Valige **Otsi** ja otsige lisandmoodulit, mida soovite värskendada.
 3. Valige lisandmoodul ja klõpsake seejärel avalehel suvandit **Vali**.
 4. Valige värskendamiseks lisandmooduli etapp, paremklõpsake nuppu ja seejärel valige **Värskenda**.
-5. Valige dialoogiboksis **Värskenda olemasolevat etappi** väljal **Filtreerimise atribuudid** kolmikpunkt ( **...** ).
+5. Valige dialoogiboksis **Värskenda olemasolevat etappi** väljal **Filtreerimise atribuudid** kolmikpunkt (**...**).
 6. Valige dialoogiboksis **Vali atribuudid** märkeruudud kohandatud atribuutide jaoks.
-7. Valige dialoogiboksi sulgemiseks nupp **OK** , seejärel valige **Värskenda etappi**.
+7. Valige dialoogiboksi sulgemiseks nupp **OK**, seejärel valige **Värskenda etappi**.
 8. Korrake etappe 1–7 teise lisandmooduli jaoks.
 9. Sulgege **PluginRegistrationTool**.

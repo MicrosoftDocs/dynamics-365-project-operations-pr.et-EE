@@ -3,7 +3,7 @@ title: Arve sageduste seadistamine
 description: Arve sageduste seadistamine Project Service’is
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18fb4e6968612adb1c946650c829174286c5f3cd
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2739db966b332db35e383589e06e023ff156ed45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075172"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132020"
 ---
 # <a name="set-up-invoice-frequencies-project-service"></a>Arve sageduste seadistamine (Project Service)
 
@@ -37,7 +37,7 @@ Funktsiooni [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-au
   
 3.  Sisestage alale **Üldine** arve sageduse nimi jaotisse **Nimi**.  
   
-4.  Jaotises **Periood** valige **Iga kuu** , **Iga kahe nädala tagant** või **Iga nädal**.  
+4.  Jaotises **Periood** valige **Iga kuu**, **Iga kahe nädala tagant** või **Iga nädal**.  
   
 5.  Kui määrasite jaotises **Tsükli päevad** perioodiks iga kuu või iga kahe nädala tagant, valige **Perioodi päev** arve esitamiseks konkreetsel perioodi päeval (nädala sees või nädalavahetusel) või valige **Perioodi nädalapäev** arve esitamiseks perioodi konkreetsel nädalapäeval.  
   

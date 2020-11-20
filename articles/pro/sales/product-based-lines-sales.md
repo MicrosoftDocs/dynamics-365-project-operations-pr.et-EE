@@ -1,21 +1,21 @@
 ---
-title: Tootepõhised müügivõimaluse read
+title: Tootepõhise müügivõimaluse read – liht
 description: Selles teemas antakse teavet tootepõhiste müügivõimaluste ridade kohta Project Operationsis.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 17ffcf8dc94d42102115281d281d6b553cf1fa17
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: fd32bedb94cf36f706c112a845f342d9dde19805
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074882"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176316"
 ---
-# <a name="product-based-opportunity-lines"></a>Tootepõhised müügivõimaluse read
+# <a name="product-based-opportunity-lines---lite"></a>Tootepõhise müügivõimaluse read – liht
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
@@ -25,4 +25,4 @@ Tootepõhised read võivad olla kataloogiüksused või sisestatavad tooted. Enam
 
 Üks kontseptsioon tootepõhiste müügivõimaluse ridade kohta, mis on seotud projektipõhiste müügivõimalustega, on **Kliendi eelarve**. Selle välja abil saate jälgida summat, mille klient on valmis selle reaüksuse eest maksma.
 
-Kui müügivõimaluse kokkuvõtte tulu meetodi väärtuseks on seatud **Süsteemi arvutatud** , summeeritakse prognoositava tulu arvutamiseks kõik toote-ja projekti-põhistes ridades olevad kliendi eelarve väärtused.
+Kui müügivõimaluse kokkuvõtte tulu meetodi väärtuseks on seatud **Süsteemi arvutatud**, summeeritakse prognoositava tulu arvutamiseks kõik toote-ja projekti-põhistes ridades olevad kliendi eelarve väärtused.

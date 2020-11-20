@@ -3,7 +3,7 @@ title: Lubage kellelgi teisel sisestada teie ajakirjeid ja kulusid
 description: Kuidas lubada kellelgi teisel sisestada teie ajakirjeid ja kulusid Project Service’is?
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f56fae115b383d66a59cbcb08fffe95c83c83e17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50c54e73cf4898ce525492b8ef7c8b8cf6dc36cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074929"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130356"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Lubage kellelgi teisel sisestada teie ajakirjeid ja kulusid (Project Service)
 
@@ -37,13 +37,13 @@ Seadistage delegaat, et keegi teine saaks teie nimel sisestada aja- ja kulukirje
   
 2.  Klõpsake käsuribal valikut **Uus**.  
   
-3. **Nimi** : sisestage kirje nimi.  
+3. **Nimi**: sisestage kirje nimi.  
   
-4. **Tüüp** : valige, kas delegaat saab teie nimel aja- ja kulukirjeid sisestada.  
+4. **Tüüp**: valige, kas delegaat saab teie nimel aja- ja kulukirjeid sisestada.  
   
-5. **Delegaat** : valige isik, keda soovite delegaadiks määrata.  
+5. **Delegaat**: valige isik, keda soovite delegaadiks määrata.  
   
-6. **Algus- ja lõppkuupäevad** : valige kuupäevad, millal delegeerimine algab ja lõpeb.  
+6. **Algus- ja lõppkuupäevad**: valige kuupäevad, millal delegeerimine algab ja lõpeb.  
   
 7.  Kui olete lõpetanud, klõpsake käsku **Salvesta ja sule**.  
   

@@ -3,7 +3,7 @@ title: Hinnangud
 description: Selles teemas antakse teavet hinnangute kohta rakenduses Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e21511f78d92ff672e462f63f0dd0d098578516a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 95f739f0c724ff93c4d588776f9e49687bac2035
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075158"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132716"
 ---
 # <a name="estimates"></a>Hinnangud
 
@@ -90,7 +90,7 @@ Kui lisasite hinnapakkumise rea üksikasjadesse kohandatud välja ja soovite, et
 
     ![Etapi valimine lisandmoodulis](media/basic-guide-20.png)
 
-5. Valige dialoogiboksis **Värskenda olemasolevat etappi** väljal **Filtreerimise atribuudid** kolmikpunkt ( **...** ).
+5. Valige dialoogiboksis **Värskenda olemasolevat etappi** väljal **Filtreerimise atribuudid** kolmikpunkt (**...**).
  
     ![Olemasoleva etapi värskendamise dialoogiboks](media/basic-guide-21.png)
 
@@ -98,7 +98,7 @@ Kui lisasite hinnapakkumise rea üksikasjadesse kohandatud välja ja soovite, et
 
     ![Atribuutide valimise dialoogiboks](media/basic-guide-22.png)
 
-7. Valige dialoogiboksi sulgemiseks nupp **OK** , seejärel valige **Värskenda etappi**.
+7. Valige dialoogiboksi sulgemiseks nupp **OK**, seejärel valige **Värskenda etappi**.
  
     ![Etapi värskendamise nupp](media/basic-guide-23.png)
 

@@ -3,7 +3,7 @@ title: Projekti kulu ja tulu prognooside määramine
 description: Projekti kulu ja tulu prognooside määramine Project Service'is
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1652b39b6c8a703bf198a990eb9047eff9dc9f4c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 66fa8f4374caa08b07663cc9d261bfff8ce30c87
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074964"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133003"
 ---
 # <a name="determine-project-cost-and-revenue-estimates"></a>Projekti kulu ja tulu prognooside määramine 
 
@@ -35,7 +35,7 @@ Projektiprognoosid annavad finantsülevaate prognoositavast ja plaanitud tööst
 Funktsiooni [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] hinnakirjad määratlevad projektides kasutatavate rollide kulud ja arveldusmäärad. Projekti tööjaotuse struktuuri ülesannetega seotud rollide põhjal saate määrata kaasneva töö kulu ja tulu mõju.  
   
 ## <a name="cost-price-defaulting"></a>Omahinna vaikeväärtusele määramine  
-Iga projekt kuulub organisatsioonile (näidatud projekti **omanikust üksuses** ). Omanikust organisatsiooniüksusega seotud hinnakiri määrab üksuse omahinna. Funktsioon [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)] määrab rollide jaoks omahinnad, otsides rolli, ühiku ja organisatsiooniüksuse kombinatsiooni omahinna hinnakirjas, et saada prognoosi ridadel oleva kuupäeva seisuga õige omahind.  
+Iga projekt kuulub organisatsioonile (näidatud projekti **omanikust üksuses**). Omanikust organisatsiooniüksusega seotud hinnakiri määrab üksuse omahinna. Funktsioon [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)] määrab rollide jaoks omahinnad, otsides rolli, ühiku ja organisatsiooniüksuse kombinatsiooni omahinna hinnakirjas, et saada prognoosi ridadel oleva kuupäeva seisuga õige omahind.  
   
 Kui rolli, ühiku ja organisatsiooniüksuse kombinatsioon ei anna omanikust üksuse hinnakirjast omahinda, eiratakse ühikut, eelistades rolli ja organisatsiooniüksuse kombinatsiooni. Kui omahind on olemas, teisendatakse hing prognoosi real valitud ühikusse.  
   

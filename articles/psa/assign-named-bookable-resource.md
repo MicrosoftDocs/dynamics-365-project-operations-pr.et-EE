@@ -3,7 +3,7 @@ title: Broneerige projekti meeskonnale nimega broneeritavad ressursid ja määra
 description: See teema pakub teavet projekti meeskondadele nimega ressursside broneerimise ja nende ülesannetele määramise kohta.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: defc92e701ae6baf9d54f41dca123a09ef834c35
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0300c494a3294b26e2de6bbfa1dd50a76bb72651
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075075"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130168"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Broneerige projekti meeskonnale nimega broneeritavad ressursid ja määrake ülesandeid 
 
@@ -31,7 +31,7 @@ ms.locfileid: "4075075"
 
 Saate lisada nimega ressursi oma projekti meeskonnale, kui broneerite neid otse meeskonnale. Selle tegemiseks tehke järgmist.
 
-1. Avage rakenduses Project Service Automation suvand **Projektid** , ja valige selle projekti avamine, mille jaoks broneerite.
+1. Avage rakenduses Project Service Automation suvand **Projektid**, ja valige selle projekti avamine, mille jaoks broneerite.
 2. Klõpsake lehel **Projekt** vahekaardil **Meeskond** nuppu **Uus**. 
 
 ![Meeskonnaliikme lisamine meeskonna vahekaardi kaudu](media/RM-how-to-1.png)
@@ -44,7 +44,7 @@ Saate lisada nimega ressursi oma projekti meeskonnale, kui broneerite neid otse 
 ![Meeskonnaliikme lisamine kiirloomise vormile](media/RM-how-to-2.png)
 
 
-Nüüd saate projekti tööülesannetele määrata broneeritud ressursi. Klõpsake lehel **Projekt** vahekaarti **Ajakava** , et määrata tööülesanded uuele ressursile. Ressursivalijat, mis käivitatakse ülesande ruudustikus väljal **Ressursid** , kuvab meeskonnaliikmed, keda saate valida.
+Nüüd saate projekti tööülesannetele määrata broneeritud ressursi. Klõpsake lehel **Projekt** vahekaarti **Ajakava**, et määrata tööülesanded uuele ressursile. Ressursivalijat, mis käivitatakse ülesande ruudustikus väljal **Ressursid**, kuvab meeskonnaliikmed, keda saate valida.
 
 ![Meeskonnaliikme määramine tööülesandele ajakava vahekaardil](media/RM-how-to-3.png)
 

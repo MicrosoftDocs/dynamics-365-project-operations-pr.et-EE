@@ -3,7 +3,7 @@ title: Ühikurühmad ja ühikud
 description: Selles teemas antakse teavet ühikurühmade ja ühikute kohta.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78f154856acf796f408491c5873cb29da8ac55bb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58ce821d11d729f6e2c33e5a50344458e395db4d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074972"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130573"
 ---
 # <a name="unit-groups-and-units"></a>Ühikurühmad ja ühikud
 
@@ -33,14 +33,14 @@ ms.locfileid: "4074972"
 
 Siin on mõned näited ühikutest ja ühikurühmadest.
  
-- **Ühikurühm** : vahemaa 
-    - **Ühikud** : miil, kilomeeter jne.
-- **Ühikurühm** : aeg
-    - **Ühikud** : tund, päev, nädal jne. 
+- **Ühikurühm**: vahemaa 
+    - **Ühikud**: miil, kilomeeter jne.
+- **Ühikurühm**: aeg
+    - **Ühikud**: tund, päev, nädal jne. 
 
 Kui seadistate ühikurühmas mitu ühikut, peate seadistama ka nende vahel teisendusteguri, määrates esimese ühiku, mille olete seadistanud ühikurühma vaike-või põhiühikuna. 
 
-Näiteks ühikurühmas **Aeg** , kui seadistate esimeseks ühikuks **Tund** , määrab süsteem ühiku **Tund** vaikeühikuks. Kui teie järgmine seadistatud ühik on **Päev** , peate määrama teisendusteguri ühikust **Päev** ühikuks **Tund**. Kui lisate kolmanda ühikuna **Nädal** , peate seadistama teisendusteguri ühikule **Nädal** ühikute **Päev** või **Tund** osas. 
+Näiteks ühikurühmas **Aeg**, kui seadistate esimeseks ühikuks **Tund**, määrab süsteem ühiku **Tund** vaikeühikuks. Kui teie järgmine seadistatud ühik on **Päev**, peate määrama teisendusteguri ühikust **Päev** ühikuks **Tund**. Kui lisate kolmanda ühikuna **Nädal**, peate seadistama teisendusteguri ühikule **Nädal** ühikute **Päev** või **Tund** osas. 
 
 Järgmisel pildil on toodud näiteks ühiku **Päev** seadistus, kus väljal **Kogus** kuvatakse tundide arv, mis on päevas, ja ühiku **Nädal** seadistus, kus väljal **Kogus** kuvatakse päevade arv, mis on nädalas.
 
@@ -52,7 +52,7 @@ Rakendus Dynamics 365 Project Service Automation kasutab ühikuid ja ühikurühm
 
 Kulude puhul on igal kulukategooria vaikimisi ühikurühm ja ühik. Need väärtused sisestatakse kulukategooriate hinnakirja kirjetesse vaikeväärtustena. 
 
-Näiteks on teil kulukategooria, mis on nimega **Läbisõit**. Sel on ühikrühm, mis on nimega **Vahemaa** ja vaikimisi ühik, mis on nimega **Miil**. Kui seadistate ühikurühma **Vahemaa** nii, et sellel on kaks ühikut ( **Miil** ja **Kilomeeter** ), saate kategooria **Läbisõit** jaoks määrata ühes hinnakirjas kaks müügihinda: üks hind miili ja teine kilomeetri kohta.
+Näiteks on teil kulukategooria, mis on nimega **Läbisõit**. Sel on ühikrühm, mis on nimega **Vahemaa** ja vaikimisi ühik, mis on nimega **Miil**. Kui seadistate ühikurühma **Vahemaa** nii, et sellel on kaks ühikut (**Miil** ja **Kilomeeter**), saate kategooria **Läbisõit** jaoks määrata ühes hinnakirjas kaks müügihinda: üks hind miili ja teine kilomeetri kohta.
 
 | Kulukategooria  | Ühikurühm  | Ühik      | Hinnakujundusmeetod  | Ühiku hind  |
 |-------------------|---------------|-----------|-------------------|-------------------|
@@ -72,17 +72,17 @@ Välja **Hinnapakkumise aeg** hinnapakkumise ridu saab väljendada mis tahes aja
 Järgmises näites kirjeldatakse, kuidas PSA kasutab ühikurühma, ühikuid ja teisendustegureid.
 - Ühikud
 
-   - **Ühikurühm** : aeg 
-   - **Ühikud** : tund 
+   - **Ühikurühm**: aeg 
+   - **Ühikud**: tund 
     
     - **Päev** – teisendustegur: 8 tundi       
     - **Nädal** – teisendustegur: 40 tundi  
         
 - Hinnakirja seadistus projektile A.
 
-    - **Nimi** : UK müügihinnad 2016 
-    - **Vaikimisi ajaühik** : päev 
-    - **Valuuta** : GBP
+    - **Nimi**: UK müügihinnad 2016 
+    - **Vaikimisi ajaühik**: päev 
+    - **Valuuta**: GBP
 
 | Roll      | Ühikurühm | Ühik | Organisatsiooniüksus | Hind   |
 |-----------|------------|------|---------------------|---------|
@@ -109,4 +109,4 @@ Mõnes riigis või piirkonnas on juriidiline nõue, et arveldusmäärad oleksid 
 Ei. Ajakava hinnang on praegu piiratud tundidega ja seda ei saa muuta.
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Kas ühikuid ja ühikurühmi saab redigeerida, kustutada ja lisada?
-Jah. Peale ühikurühma **Aeg** ja ühikut **Tund** , saab kõiki ühikuid kustutada või redigeerida ning uusi ühikuid saab lisada. PSA-s ei saa ühikurühma **Aeg** ja ühikut **Tund** kustutada. Neid saab siiski värskendada tõlgitud tekstiga väljale **Nimi**.
+Jah. Peale ühikurühma **Aeg** ja ühikut **Tund**, saab kõiki ühikuid kustutada või redigeerida ning uusi ühikuid saab lisada. PSA-s ei saa ühikurühma **Aeg** ja ühikut **Tund** kustutada. Neid saab siiski värskendada tõlgitud tekstiga väljale **Nimi**.

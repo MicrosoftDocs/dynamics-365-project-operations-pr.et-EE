@@ -3,7 +3,7 @@ title: Uue töötundide malli loomine
 description: Töötundide malli loomine Project Service'is
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c34634817fc8e4c993261024a8b19d45052bf5e5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a0fce327587940e557e0214c8c0897116ac91901
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074966"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133048"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Töötundide malli loomine (Project Service)
 
@@ -45,7 +45,7 @@ Enne projekti ajakavade loomist tuleb seadistada projektikalender, mis määratl
   
 2.  Valige ressurss, millel teie töötunnid peaksid põhinema.  
   
-3.  Klõpsake käsku **Salvesta kalender nimega** , sisestage töötundide malli nimi ja klõpsake käsku **Salvesta**.  
+3.  Klõpsake käsku **Salvesta kalender nimega**, sisestage töötundide malli nimi ja klõpsake käsku **Salvesta**.  
   
 4.  Kui olete valikute muutmise lõpetanud, klõpsake käsku **Salvesta ja sule**.  
   

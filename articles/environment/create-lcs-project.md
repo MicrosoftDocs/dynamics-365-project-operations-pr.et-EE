@@ -1,29 +1,29 @@
 ---
-title: LCS-is uue projekti alustamine
+title: Uue LCS-projekti loomine
 description: Selles teemas antakse teavet teie Project Operationsi keskkonna jaoks LCS-is uue projekti loomise kohta.
 author: stsporen
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: c0b756068f7eec5e3abd326957ee07cb0d00331f
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 595fda369fe19a69604fc4ab694cb844f45076b5
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074813"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175616"
 ---
-# <a name="start-a-new-project-in-lcs"></a>LCS-is uue projekti alustamine
+# <a name="start-a-new-lcs-project"></a>Uue LCS-projekti loomine
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
 Kasutage teenust Lifecycle Services (LCS), et hallata oma rakenduse Dynamics 365 Project Operations keskkondi. Uue LCS-i projekti loomiseks tehke järgmist.
 
-1. Avage [LCS](https://lcs.dynamics.com/Logon/Index) ja valige **Logi sisse** , kasutades kontot, mida kasutasite tellimiseks.
+1. Avage [LCS](https://lcs.dynamics.com/Logon/Index) ja valige **Logi sisse**, kasutades kontot, mida kasutasite tellimiseks.
 2. Kui palutakse, aktsepteerige juriidilised ja privaatsustingimused.
-3. Uue projekti loomiseks valige plussmärk ( **+** ).
+3. Uue projekti loomiseks valige plussmärk (**+**).
 4. Eelversiooni jaoks valige projekti tüüp **Migreerimine, lahenduste loomine ja õppimine**.
 
   ![LCS-i projekti tüübi valimine](./media/create-lcs-1.png)
