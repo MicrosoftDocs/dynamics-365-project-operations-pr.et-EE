@@ -38,6 +38,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Mis on uut
       items:
+        - name: Detsember 2020 – Project Operations ressursipõhiste/mitteaktsiapõhiste stsenaariumite jaoks
+          href: whats-new/whats-new-dec-2020-resource-based.md
         - name: November 2020 – Project Operations ressursipõhiste/mitteaktsiapõhiste stsenaariumite jaoks
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Projektimüügi toimingud
@@ -87,7 +89,7 @@
                 - name: Mitme kliendi projektipõhiste hinnapakkumiste ridade haldamine
                   href: sales/manage-multiple-customers-quote-line.md
                 - name: Projekti hinnapakkumise rea arveldatavate komponentide konfigureerimine
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                  href: sales/configure-chargeable-quoteline.md
                 - name: Prognooside loomine hinnapakkumise real
                   href: sales/create-estimate-quote-line.md
                 - name: Projektist prognooside importimine projektipõhise hinnapakkumise reale
@@ -109,7 +111,7 @@
             - name: Projektilepingute projekti hinnakirja haldamine
               href: sales/contracts-manage-project-price-lists.md
             - name: Mitme kliendi haldamine projekti lepingutes
-              href: sales/contracts-manage-project-price-lists.md
+              href: sales/manage-multiple-customers-contract.md
             - name: Projektipõhised lepinguread
               items:
                 - name: Projektipõhiste lepinguridade ülevaade
@@ -128,6 +130,14 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Projekti lepingu kopeerimine
               href: pro/sales/copy-project-contracts-sales.md
+            - name: Ettemaksud ja honorarid
+              items:
+                - name: Ettemaksud ja honoraril põhinevad lepingud – liht
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: Honoraride ajakava seadistamine – liht
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: Sihtpärase ettemaksu loomine lepingus – liht
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Hinnakujundus ja kuluarvutus
       items:
         - name: Hinnakirja seadistamine
@@ -158,18 +168,28 @@
           items:
             - name: Hinnakujunduse dimensioonide ülevaade
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Lahenduse loomine kohandatud hinnakujunduse dimensioonide jaoks
+              href: sales/create-solution-custompd.md
             - name: Olemasolevate väljade hinnakujunduse dimensioonina kasutamine
               items:
                 - name: Project Operationsi väljad hinnakujunduse dimensioonidena
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Broneeritava ressursi kasutamine hinnakujunduse dimensioonina
+                  href: sales/use-br-as-pd.md
+                - name: Kandekategooria kasutamine hinnakujunduse dimensioonina
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Projektis mitut rolli täitev broneeritav ressurss
+                  href: sales/br-playing-multiple-roles.md
             - name: Kohandatud väljad hinnakujunduse dimensioonidena
               items:
                 - name: Kohandatud väljade ja olemite loomine hinnakujunduse dimensioonidena
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
-                - name: 'Kohandatud väljade lisamine hinna seadistusele ja ülekande olemitele '
+                - name: Kohandatud väljade lisamine hinna seadistusele ja ülekande olemitele
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: Kohandatud väljade seadistamine hinnakujunduse dimensioonidena
+                - name: 'Kohandatud väljade seadistamine hinnakujunduse dimensioonidena '
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Lisandmooduli atribuutide värskendamine uute hinnakujunduse dimensioonide lisamiseks
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Hinnakujunduse dimensiooni väljalülitamine
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Projektijuhtimine
@@ -250,12 +270,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Ressursside haldamine
           items:
+            - name: Ressursside loomine
+              href: resource-management/create-resources.md
             - name: Oskuste ja pädevuste määratlemine
               href: resource-management/define-skills-proficiencies.md
+            - name: Rollide määratlemine
+              href: resource-management/define-roles.md
             - name: Ressursikalendrite määratlemine
               href: resource-management/define-resource-calendars.md
-        - name: Broneeringu eraldusmeetodid
+        - name: Eraldusmeetodite broneerimine
           href: resource-management/booking-allocation-methods.md
+        - name: Reserveeringute olekud
+          href: resource-management/booking-status.md
         - name: Oskused ja pädevusmudelid
           href: resource-management/skills-proficiency-models.md
         - name: Ressursi vastavusseviimine
@@ -354,6 +380,8 @@
           href: proforma-invoicing/create-manual-proforma-invoice.md
         - name: Projekti näidisarve haldamine
           href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Honorari või ettemaksu arve
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: Projekti näidisarve kinnitamine
           href: proforma-invoicing/confirm-proforma-invoice.md
         - name: Projektiarve automatiseerimise konfigureerimine
@@ -370,6 +398,32 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Integreerimise tööleht rakenduses Project Operations
           href: project-accounting/project-operations-integration-journal.md
+        - name: Kontsernisisesed arved
+          items:
+            - name: Kontsernisisese arvelduse ülevaade
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Kontsernisisese arveldamise konfigureerimine
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Kontsernisisese kliendi ja hankija arvete loomine
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+            - name: Kontsernisiseste kannete loomine
+              href: project-accounting/create-intercompany-transactions.md
+    - name: Tulu kajastamine
+      items:
+        - name: Tulu kajastamise ülevaade
+          href: revenue-recognition/revenue-recognition-overview.md
+        - name: Tulu kajastamise seadistamine
+          items:
+            - name: Perioodi tüüpide seadistamine
+              href: project-accounting/period-types.md
+            - name: Kulumallide seadistamine
+              href: revenue-recognition/rev-rec-cost-templates.md
+        - name: Tulukalkulatsioonide haldamine
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+        - name: Fikseeritud hinnaga tulukalkulatsiooni projektid
+          href: revenue-recognition/rev-rec-percentage-completion-method.md
+        - name: Kulu meetodi lõpetamiseks
+          href: revenue-recognition/cost-complete-methods.md
 - name: Lihtjuurutamine – tehing näidisarveldusele
   items:
     - name: Alustamine
@@ -386,6 +440,8 @@
           href: environment/security-model.md
     - name: Mis on uut
       items:
+        - name: Mis on uut detsembris 2020 – lihtjuurutamine – tehing näidisarveldusele
+          href: pro/whats-new/whats-new-dec-2020-lite.md
         - name: Mis on uut novembris 2020 – lihtjuurutamine – tehing näidisarveldusele
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Projektimüügi toimingud
@@ -538,18 +594,28 @@
           items:
             - name: Hinnakujunduse dimensioonide ülevaade
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Lahenduse loomine kohandatud hinnakujunduse dimensioonide jaoks
+              href: sales/create-solution-custompd.md
             - name: Olemasolevate väljade hinnakujunduse dimensioonina kasutamine
               items:
-                - name: Olemasoleva välja hinnakujunduse dimensioonina kasutamine
+                - name: Project Operationsi väljad hinnakujunduse dimensioonidena
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Broneeritava ressursi kasutamine hinnakujunduse dimensioonina
+                  href: sales/use-br-as-pd.md
+                - name: Kandekategooria kasutamine hinnakujunduse dimensioonina
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Projektis mitut rolli täitev broneeritav ressurss
+                  href: sales/br-playing-multiple-roles.md
             - name: Kohandatud väljad hinnakujunduse dimensioonidena
               items:
                 - name: Kohandatud väljade ja olemite loomine hinnakujunduse dimensioonidena
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
-                - name: 'Kohandatud väljade lisamine hinna seadistusele ja ülekande olemitele '
+                - name: Kohandatud väljade lisamine hinna seadistusele ja ülekande olemitele
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: Kohandatud väljade seadistamine hinnakujunduse dimensioonidena
+                - name: 'Kohandatud väljade seadistamine hinnakujunduse dimensioonidena '
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Lisandmooduli atribuutide värskendamine uute hinnakujunduse dimensioonide lisamiseks
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Hinnakujunduse dimensiooni väljalülitamine
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Projektijuhtimine
@@ -626,12 +692,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Ressursside haldamine
           items:
+            - name: Ressursside loomine
+              href: resource-management/create-resources.md
             - name: Oskuste ja pädevuste määratlemine
               href: resource-management/define-skills-proficiencies.md
+            - name: Rollide määratlemine
+              href: resource-management/define-roles.md
             - name: Ressursikalendrite määratlemine
               href: resource-management/define-resource-calendars.md
         - name: Eraldusmeetodite broneerimine
           href: resource-management/booking-allocation-methods.md
+        - name: Reserveeringute olekud
+          href: resource-management/booking-status.md
         - name: Oskused ja pädevusmudelid
           href: resource-management/skills-proficiency-models.md
         - name: Ressursi vastavusseviimine
@@ -834,6 +906,8 @@
       items:
         - name: Uuenduse väljalaske ajakava Project Service 3.x jaoks
           href: psa/version-history-ps.md
+        - name: 'Mis on uut või muutunud värskenduses 26, V3?'
+          href: psa/whats-new-ur-26.md
         - name: 'Mis on uut või muutunud värskenduses 25, V3?'
           href: psa/whats-new-ur-25.md
         - name: 'Mis on uut või muutunud värskenduses 24, V3?'
