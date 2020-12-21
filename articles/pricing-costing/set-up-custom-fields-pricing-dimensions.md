@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 67e891d8576cd92f48466929fc53fe8a4203d72d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119413"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650200"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Kohandatud väljade seadistamine hinnakujunduse dimensioonidena
 
@@ -41,9 +41,15 @@ Selles teemas kirjeldatakse, kuidas seadistada kohandatud hinnakujunduse dimensi
 Selleks et väli saaks muutuda hinnakujunduse dimensiooniks, peab see olema:
 
 - Loodud väljana **Rolli hinna** ja **Rolli hinna hinnalisandi** olemites. Lisateavet selle kohta, kuidas seda teha, leiate jaotisest [Kohandatud väljade lisamine hinna seadistamisele ja ülekande olemitele](add-custom-fields-price-setup-transactional-entities.md).
+
 - Luuakse reana tabelisse **Hinnakujunduse dimensioon**. Näiteks lisage hinnakujunduse dimensiooni read järgmisel pildil kuvatud kujul. 
 
+![Summapõhised hinnakujunduse dimensiooni read](media/Amt-based-PD.png)
+
 Ressursi töötunnid (**msdyn_resourceworkhours**) lisatakse hinnalisandipõhise dimensioonina ja see on lisatud vahekaardil **Hinnalisandipõhise hinnakujunduse dimensioon** olevasse ruudustikku.
+
+![Hinnalisandipõhised hinnakujunduse dimensioonide read](media/Markup-based-PD.png)
+
 
 > [!IMPORTANT]
 > Mis tahes hinnakujunduse dimensiooni andmete muudatus siin tabelis, olemasolev või uus, lisatakse hinnakujunduse äriloogikasse alles pärast vahemälu värskendamist. Vahemälu värskendusaeg võib olla kuni 10 minutit. Oodake see aeg ära, et näha hinnakujunduse vaikeloogikas muutusi, mis peavad tulenema hinnakujunduse dimensiooni andmete muudatustest.

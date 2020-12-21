@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075090"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642628"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Projekti lepingute ja projektide sünkroonimine otse rakendusest Project Service Automation rakendusse Finance and Operations
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Selles teemas kirjeldatakse malli ja aluseks olevaid tööülesandeid, mida kasutatakse projektilepingute ja projektide sünkroonimiseks otse rakendusest Dynamics 365 Project Service Automation rakendusse Dynamics 365 Finance.
 
@@ -46,7 +48,7 @@ Järgmisel joonisel on näidatud, kuidas andmeid rakenduste Project Service Auto
 
 ## <a name="templates-and-tasks"></a>Mallid ja ülesanded
 
-Saadaolevatele mallidele Microsoft Power Appsi halduskeskuses juurdepääsuks valige **Projektid** ja seejärel valige paremas ülanurgas **Uus projekt** , et valida avalikud mallid.
+Saadaolevatele mallidele Microsoft Power Appsi halduskeskuses juurdepääsuks valige **Projektid** ja seejärel valige paremas ülanurgas **Uus projekt**, et valida avalikud mallid.
 
 Projektilepingute ja projektide sünkroonimiseks Project Service Automationist Finance’i kasutatakse järgmisi malle ja aluseks olevaid ülesandeid.
 
@@ -95,11 +97,11 @@ Projekti lepinguridade vahekokkuvõtteid hallatakse rakenduses Project Service A
 
 Väli **Projektilepingu ID** on saadaval lehel **Projektilepingud**. See väli on muutnud integratsiooni toetamiseks loomuliku ja kordumatu võtme.
 
-Uue projektilepingu loomisel juhul, kui **Projektilepingu ID** väärtust pole veel olemas, genereeritakse see automaatselt numbriseeria abil. Väärtus koosneb järjestusest **ORD** , millele järgneb astmeline numbriseeria ja seejärel kuue märgi järelliide. Siin on näide: **ORD-01022-Z4M9Q0**.
+Uue projektilepingu loomisel juhul, kui **Projektilepingu ID** väärtust pole veel olemas, genereeritakse see automaatselt numbriseeria abil. Väärtus koosneb järjestusest **ORD**, millele järgneb astmeline numbriseeria ja seejärel kuue märgi järelliide. Siin on näide: **ORD-01022-Z4M9Q0**.
 
 Väli **Projekti number** on saadaval lehel **Projektid**. See väli on muutnud integratsiooni toetamiseks loomuliku ja kordumatu võtme.
 
-Uue projektilepingu loomisel juhul, kui **Projektinumbri** väärtust pole veel olemas, genereeritakse see automaatselt numbriseeria abil. Väärtus koosneb järjestusest **PRJ** , millele järgneb astmeline numbriseeria ja seejärel kuue märgi järelliide. Siin on näide: **PRJ-01049-CCNID0**.
+Uue projektilepingu loomisel juhul, kui **Projektinumbri** väärtust pole veel olemas, genereeritakse see automaatselt numbriseeria abil. Väärtus koosneb järjestusest **PRJ**, millele järgneb astmeline numbriseeria ja seejärel kuue märgi järelliide. Siin on näide: **PRJ-01049-CCNID0**.
 
 Kui rakendatakse integreerimislahendust Project Service Automationist Finance'i, seab versiooniuuenduse skript välja **Projektilepingu ID** olemasolevatele projektilepingutele ja välja **Projektinumber** olemasolevatele projektidele Project Service Automationis.
 
@@ -108,7 +110,7 @@ Kui rakendatakse integreerimislahendust Project Service Automationist Finance'i,
 - Enne kui projekti lepingute ja projektide sünkroonimine saab aset leida, peate sünkroonima kontod.
 - Lisage seadistatud ühenduses väli integratsioonivõtme väli, mis vastendab **msdyn\_organizationalunits** ja **msdyn\_name \[Name\]**. Võimalik, et peate esmalt lisama projekti ühenduse komplektile. Lisateavet leiate teemast [Andmete integreerimine Common Data Service rakendustele](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - Lisage seadistatud ühenduses väli integratsioonivõtme väli, mis vastendab **msdyn\_projects** ja **msdynce\_projectnumber \[Project Number\]**. Võimalik, et peate esmalt lisama projekti ühenduse komplektile. Lisateavet leiate teemast [Andmete integreerimine Common Data Service rakendustele](https://docs.microsoft.com/powerapps/administrator/data-integrator).
-- Projekti lepingute ja projektide **SourceDataID** -d saab uuendada erineva väärtusega või eemaldada vastendusest. Malli vaikeväärtuseks on **Project Service Automation**.
+- Projekti lepingute ja projektide **SourceDataID**-d saab uuendada erineva väärtusega või eemaldada vastendusest. Malli vaikeväärtuseks on **Project Service Automation**.
 - **PaymentTerms** vastendust tuleb värskendada nii, et see kajastaks kehtivaid maksetingimusi Finance'is. Vastenduse saate eemaldada ka projekti tööülesandest. Vaikeväärtuste vastendusel on demo andmete jaoks vaikeväärtused. Järgmises tabelis on toodud väärtused Project Service Automationis.
 
     | Väärtus | Kirjeldus   |
@@ -133,9 +135,9 @@ Kui peate kasutama Power Queryd, järgige neid suuniseid.
 ## <a name="template-mapping-in-data-integration"></a>Malli vastendamine andmete integratsioonis
 
 > [!NOTE] 
-> Välju **CustomerReference** , **AddressCity** , **AddressCountryRegionID** , **AddressDescription** , **AddressLine1** , **AddressLine2** , **AddressState** ja **AddressZipCode** ei kaasata projektilepingute jaoks vaikimisi vastendamiseks. Vastendusi saate lisada juhul, kui soovite, et need andmed oleks projektilepingutes sünkroonitud.
+> Välju **CustomerReference**, **AddressCity**, **AddressCountryRegionID**, **AddressDescription**, **AddressLine1**, **AddressLine2**, **AddressState** ja **AddressZipCode** ei kaasata projektilepingute jaoks vaikimisi vastendamiseks. Vastendusi saate lisada juhul, kui soovite, et need andmed oleks projektilepingutes sünkroonitud.
 >
-> Väljad **Description** , **ParentID** , **ProjectGroup** , **ProjectManagerPersonnelNumber** ja **ProjectType** ei sisaldu projektide vaikevastendamises. Vastendusi saate lisada juhul, kui soovite, et need andmed oleks projektides sünkroonitud.
+> Väljad **Description**, **ParentID**, **ProjectGroup**, **ProjectManagerPersonnelNumber** ja **ProjectType** ei sisaldu projektide vaikevastendamises. Vastendusi saate lisada juhul, kui soovite, et need andmed oleks projektides sünkroonitud.
 
 Järgmisel joonisel on toodud andmete integratsioonis malli ülesande vastendamiste näited. Vastendus näitab välja teavet, mis sünkroonitakse Project Service Automationist rakendusse Finance.
 

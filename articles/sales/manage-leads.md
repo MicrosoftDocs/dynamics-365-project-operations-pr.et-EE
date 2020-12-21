@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4c99485a1d0c54ae848e5fbed4c4590e96cba9fd
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 16f5dbb283eee12cf10ca7145ea9e17c5ef8923e
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181762"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513829"
 ---
 # <a name="manage-leads"></a>Müügivihjete haldamine
 
@@ -53,7 +53,7 @@ Müügivihjeid, mille väärtus **Tüüp** on seadistatud olekusse **Tööpõhin
 
 - Konto, mis kasutab müügivihje välja **Ettevõte**.
 - Kontoga seotud kontaktikirjet, mis põhineb müügivihje väljade **Eesnimi** ja **Perekonnanimi** väärtustel.
-- Projektipõhine müügivõimalus, mille välja **Tüüp** väärtuseks on määratud **Tööl põhinev**.
+- Projektipõhine müügivõimalus, mille välja **Tüüp** väärtuseks on määratud **Tööpõhine**.
 
 Täpsemat teavet müügivihjete kvalifitseerimise kohta leiate teemast [Müügivihjete kvalifitseerimine või teisendamine](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 

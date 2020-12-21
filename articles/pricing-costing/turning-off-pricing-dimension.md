@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ffeff2ab465f37b8a4e40f4e64b118e3bb412cb8
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 986fae72c6b44b3f76281aefb81ffdaa96f71ae7
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119278"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650044"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Hinnakujunduse dimensiooni väljalülitamine
 
@@ -33,6 +33,8 @@ Võimalik, et peate iga paari aasta tagant oma hinnakujunduse strateegia üle va
 Hinnakujunduse dimensiooni saab välja lülitada (olenemata sellest, kas see on valmis või kohandatud), kui seate hinnakujunduse dimensiooni väljade **Kehtib kulu kohta** ja **Kehtib müügi kohta** väärtuseks **Ei**.
 
 Kuid seda tehes võidakse kuvada tõrketeade, **Hinnakujunduse dimensiooni ei saa värskendada ega kustutada, kui seostuvad hinnakirjad on olemas.**
+
+![Äriprotsessi tõrge tõenäoliselt hinnakujunduse dimensiooni väljalülitamisest](media/Business-Process-Error.png)
 
 See tõrketeade näitab, et on olemas hinnakirjed, mis on väljalülitatava dimensiooni jaoks juba varem seadistatud. Enne kui dimensiooni kohaldatavust saab seada väärtusele **Ei**, tuleb kustutada kõik dimensioonile viitavad **Rolli hinna** ja **Rolli hinna hinnalisandi** kirjed. See reegel kehtib nii valmishinnakujunduse dimensioonide kui ka kõigile teie loodud kohandatud hinnakujunduse dimensioonidele. Selle valideerimise põhjuseks on asjaolu, et igal **Rolli hinna** kirjel peab olema kordumatu dimensioonide kombinatsioon. Näiteks hinnakirjas **US Cost Rates 2018** (USA 2018. aasta kulumäärad) on teil olemas järgmised **Rolli hinna** read. 
 

@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121168"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642961"
 ---
 # <a name="provision-a-new-environment"></a>Uue keskkonna ettevalmistamine
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Selles teemas antakse teavet uue Dynamics 365 Project Operationsi keskkonna ettevalmistamise kohta ressursi-/mitteaktsiapõhiste stsenaariumide jaoks.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Selles teemas antakse teavet selle kohta, kuidas juurutada uut rakenduse Dynamics 365 Project Operations keskkonda ressursi-/mittelaopõhiste stsenaariumide jaoks.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Project Operationsi automaatse ettevalmistamise lubamine LCS projektis
 
@@ -120,7 +122,7 @@ Keskkonna teenindamine võtab aega. Kui see on lõpule viidud, naaseb keskkond j
 
 ![Rakenda lahendused](./media/13ApplySolutions.png)
 
-5. Valige mõlemad lahendused, **Dynamics 365 Finance and Operationsi topeltkirjutusolemi kaart** ja **Dynamics 365 Project Operationsi topeltkirjutusolemi kaardid** ja seejärel valige **Rakenda**.
+5. Valige mõlemad lahendused, **Rakenduse Dynamics 365 Finance and Operations topeltkirjutamise olemikaart** ja **Rakenduse Dynamics 365 Project Operations topeltkirjutamise olemikaardid** ja valige seejärel suvand **Rakenda**.
 
 ![Lahenduste kinnitamine](./media/14ConfirmSolutions.png)
 
@@ -160,6 +162,7 @@ Värskendamine võtab aega umbes 20 minutit. Teile kuvatakse teade, kui see on v
 | --- | --- | --- | --- | --- | --- |
 | **Projekti ressursside rollid kõigile ettevõtetele (bookableresourcecategories)** | No | Ja | Common Data Service | No | Puudub |
 | **Juriidilised isikud (cdm\_companies)** | No | Ja | Finance and Operationsi rakendused | No | Puudub |
+| **Pearaamat (msdyn_ledgers)** | No | Ja | Finance and Operationsi rakendused | Ja | Jah, teenuse Finance and Operations rakendused |
 | **Project Operationsi integratsiooni tegelikud näitajad (msdyn\_tegelikud)** | No | No | Puudub | Ja | No |
 | **Projekti lepinguread (salesorderdetails)** | No | No | Puudub | No | No |
 | **Projekti kande seoste integratsiooni olem (msdyn\_transactionconnections)** | No | No | Puudub | No | Puudub |

@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Operations, Core
 ms.search.region: Global
-ms.author: ryansand
+ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: ec8737d848ae5ad25219a43c68306d19b1c1fbce
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2acd9eab52629b0baeb82a399993fbc6337c722
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074999"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650134"
 ---
 # <a name="redesigned-expense-reports"></a>Ümberkujundatud kuluaruanded
 [!include[banner](../includes/banner.md)]
@@ -35,7 +35,7 @@ Kuluaruande kirje on ümber kujundatud, et lihtsustada kuluaruannete täitmise p
 - Uus leht, mille abil saate määrata, millised väljad on teie organisatsioonis nõutavad, millised väljad on valikulised ja milliseid välju ei tohiks hõivata. See leht aitab vähendada väljade arvu, mis kasutajatel määrata tuleb.
 - Uus välimus ja vaade kuluaruannetele, nii et aruanded ei näe välja justkui need olid loodud raamatupidamisega tegelejatele.
 
-Uue kasutuskogemuse sisselülitamiseks kasutage tööruumi **Funktsiooni haldamine** , et lülitada sisse funktsioon **Ümberkujundatud kuluaruanded**. Selle funktsiooni sisselülitamisel tehakse järgmised toimingud.
+Uue kasutuskogemuse sisselülitamiseks kasutage tööruumi **Funktsiooni haldamine**, et lülitada sisse funktsioon **Ümberkujundatud kuluaruanded**. Selle funktsiooni sisselülitamisel tehakse järgmised toimingud.
 
 - Olemasolev kulu tööruum asendatakse uue tööruumiga.
 - Lisatakse uus menüü element kulu välja nähtavuse kohta.
@@ -62,7 +62,7 @@ Uue kasutuskogemuse sisselülitamiseks kasutage tööruumi **Funktsiooni haldami
 | Uus tööruum nähtavuse suurendamiseks | Uus tööruum ühendab funktsioone ja linke, mis võimaldavad kasutajatel liikuda erinevatesse aladesse. |
 | Kulu loomise ajal olemasolevate kulude ja kviitungite lisamine | Kuluaruannete loomisel saate lisada kõik või valitud kulud ja kviitungid. |
 | Vahetuskursi kalkulaator | Lisatud on vahetuskursi kalkulaator, mis võimaldab teil arvutada omast taskust makstavate mitmevaluutaliste tehingute vahetuskurssi. |
-| Uute kuluridade salvestamine ja lisamine | Uute kulude sisestamisel on saadaval nupud **Salvesta** ja **Uus** , et aidata teil kiiresti ridu sisestada. |
+| Uute kuluridade salvestamine ja lisamine | Uute kulude sisestamisel on saadaval nupud **Salvesta** ja **Uus**, et aidata teil kiiresti ridu sisestada. |
 | Jaotatud ja üksikasjalike ridade parem nähtavus | Üksikasjalikud ja tükeldatud read lisatakse otse kulude loendisse, et suurendada nähtavust ja aidata teil hõlpsalt kindlaks teha, kas esineb poliitika või muid vigu. |
 | Täpsustamise ajal kviitungite kuvamine | Täpsustamise ajal saab kuvada kviitungeid. |
 

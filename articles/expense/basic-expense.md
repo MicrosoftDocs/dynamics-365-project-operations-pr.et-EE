@@ -3,17 +3,17 @@ title: Kulukirje (liht)
 description: Selles teemas sisaldub teave selle kohta, kuidas töötada kulukirjega lihtjuurutuses.
 author: stsporen
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121078"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590941"
 ---
 # <a name="expense-entry-lite"></a>Kulukirje (liht)
 
@@ -21,7 +21,7 @@ _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
 Põhiline või lihtne kuluhaldus on võimalus kirjendada lihtkulusid. Saate kirjendada kulusid projekti suhtes ja seejärel vaatab projekti kinnitaja need läbi ja kinnitab need.
 
-Lisateavet rakenduse Dynamics 365 Project Operations kulu võimaluste kohta vaadake teemast [Kulu ülevaade](expense-overview.md).
+Lisateavet kuluarvestuse võimaluste kohta lahenduses Dynamics 365 Project Operations leiate teemast [Kulude ülevaade](expense-overview.md).
 
 ## <a name="capture-a-basic-expense"></a>Põhikulu jäädvustamine
 
@@ -36,6 +36,10 @@ Kui olete lõpetanud kõikide kulude jäädvustamise ja olete valmis need lasta 
 
 1. Avage suvand **Kulud** ja valige kulu. Või valige kõik kulud, kasutades päises olevat märkeruutu.
 2. Valige käsk **Esita**. Süsteem töötleb valitud kirjeid ja loob seejärel kulu kinnitamise taotlused.
+
+## <a name="add-an-attachment"></a>Lisa manus
+
+Võimalik, et peate kinnitamiseks oma kulude kohta esitama lisadokumente. Kviitungi saate lisada kulukande ajajoonele. Valige **Redigeeri** ja jaotis **Ajaskaala** ning seejärel valige kviitungi manustamiseks kirjaklambri ikoon.
 
 ## <a name="recall-a-basic-expense"></a>Põhikulu tagasi kutsumine
 

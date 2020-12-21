@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7de8db5e91265c77c79f34a513bf27d9a55b789a
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 7742e81316b217066f9f3b8d5c23aa64f1a7efc4
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401123"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642223"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Konfiguratsiooniandmete häälestamine ja rakendamine teenuses Common Data Service 
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 ## <a name="prerequisites"></a>Eeltingimused
 

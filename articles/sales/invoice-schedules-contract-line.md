@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180772"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513919"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Arve ajakava loomine projektipõhisel lepingureal 
 
@@ -49,7 +49,7 @@ Kui soovite selle vahe-eesmärgil põhineva ajakava luua fikseeritud vahe-eesmä
 3. Avage lepingurida **Fikseeritud hind**, mille jaoks vahe-eesmärgi ajakava loote. Valige vahekaardil **Arveldamise vahe-eesmärgid** arveldamise alguskuupäev ja arve sagedus. 
 4. Valige andmeruudustikus suvand **Loo perioodilised vahe-eesmärgid**. Arve ajakava luuakse väljaga **Vahe-eesmärgi nimi**, **Vahe-eesmärgi kuupäev** ja **Vahe-eesmärgi summa**, määratakse järgmiselt.
 
-    - **Vahe-eesmärgi nimi**: see kuupäev on määratud arve sageduse järgi.
+    - **Vahe-eesmärgi nimi**: selle nime määrab arvete sagedus.
     - **Vahe-eesmärgi kuupäev**: see kuupäev on määratud arve sageduse järgi.
     - **Vahe-eesmärgi summa**: see summa arvutatakse, jagades lepingureal oleva lepingu summa vahe-eesmärkide arvuga, nagu arvelduse sagedus, algus ja nõutavad tarnekuupäevad ette näevad.
 

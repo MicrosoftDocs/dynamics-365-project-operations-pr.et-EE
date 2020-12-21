@@ -1,5 +1,5 @@
 ---
-title: Ettemaksul ja honoraril põhinevad lepingud – liht
+title: Ettemaksud või honoraril põhinevad lepingud
 description: Selles teemas antakse teavet Project Operationsi honoraril põhinevaid lepingumudelite ja ettemaksu kohta.
 author: rumant
 manager: Annbe
@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1aee64bf683b7d8d0bcde284f2d5d484e689c4d2
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180862"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596097"
 ---
-# <a name="advances-and-retainer-based-contracts---lite"></a>Ettemaksul ja honoraril põhinevad lepingud – liht
+# <a name="advances-and-retainer-based-contracts"></a>Ettemaksud või honoraril põhinevad lepingud
 
 
-_**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
+_**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
 Dynamics 365 Project Operations toetab honoraril põhinevaid lepinguid. Honoraril põhinev leping on kokkulepitud võrdselt jaotatud maksete kogum, mille kohta esitatakse kliendile arveid kogu projekti kestuse vältel. Seda tüüpi lepingut kasutatakse tavaliselt aja- ja materjalide või tarbimisel põhinevate arveldusmudelite puhul, kus on vaja anda kliendile prognoositav arvete- ja maksegraafik. Iga perioodi kogunenud tegelikud tulud viiakse vastavusse kliendilt saadud maksetega perioodi alguses. Vastavalt aja- ja materjalikulu põhisele arveldusmudeli kontseptsioonile, võivad igal perioodil tekkinud tulu väärtused vastavalt tekkinud kuludele erineda. Kui kogunenud tulu ületab perioodi alguses saadud summa, võib projekti tarniv ettevõte:
 

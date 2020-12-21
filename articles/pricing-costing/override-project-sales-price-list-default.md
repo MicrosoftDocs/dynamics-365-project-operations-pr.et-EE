@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97dca8685c2db7d256017cf4442416feb0e005b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130843"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672226"
 ---
 # <a name="override-project-sales-price-lists"></a>Projekti müügi hinnakirjade tühistamine
 
@@ -27,7 +28,7 @@ Alas **Müük** kliendipõhise hinnakirja seadistamiseks liikuge konto kirjele.
 
 1. Avage loendi leht **Kontod**.
 2. Leidke ja topeltklõpsake kliendi kirjet, et avada suvandi **Konto** üksikasjade leht.
-3. Vahekaardil **Projekti hinnakirjad** valige **+ Uus projekti hinnakiri^^.
+3. Vahekaardil **Projekti hinnakirjad** valige **+ Uus projekti hinnakiri**.
 4. Valige lehel **Uus projekti hinnakiri** rippmenüüst hinnakiri. Seal sisalduvad ainult hinnakirjad, mille kontekstiks on määratud **Müük** ja mille valuuta vastab konto valuutale.
 5. Pange seosele nimi ja valige seejärel käsk **Salvesta**. Luuakse kliendipõhine projekti hinnakiri. Seda hinnakirja kasutatakse projekti hinnapakkumistes projekti hindade või selle kliendi jaoks loodud lepingute vaikeväärtuste jaoks, kus hinnapakkumise või projektilepingu loomise kuupäev jääb hinnakirja kehtivuse kuupäevavahemikku.
 

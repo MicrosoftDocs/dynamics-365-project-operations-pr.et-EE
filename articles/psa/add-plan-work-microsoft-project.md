@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 86b676a0cf74e0257fd76cf32271497eebc06e75
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129673"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642763"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Lisandmooduli Project Service Automation kasutamine töö planeerimiseks tarkvaras Microsoft Project
 
@@ -173,6 +173,59 @@ Projekt imporditakse lisandmoodulisse [!INCLUDE[pn_project_service_auto](../incl
 4. Klõpsake nuppu **Avalda**.  
 
 Projekti faili seostamine lisandmooduliga [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] teeb projekti failist juhteksemplari ning seadistab tööjaotuse struktuuri lisandmooduli [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] mallis kirjutuskaitstuks.:  Projekti plaani muutmiseks tuleb muudatusi teha tarkvaras [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] Project ning avaldada need värskendusena lisandmoodulis [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].
+
+## <a name="read-a-resource-loaded-schedule"></a>Ressursi laaditud ajakava lugemine
+
+Projekti lugemisel rakendusest Project Service Automation ei sünkroonita ressursi kalendrit töölaua kliendiga. Kui tööülesande kestustes, pingutustes või lõpus on erinevusi, on ilmselt põhjuseks see, et ressurssidel ja töölaua kliendil ei ole projektile rakendatud sama töötunni malli kalendrit.
+
+
+## <a name="data-synchronization"></a>Andmete sünkroonimine
+
+Järgmises tabelis kirjeldatakse, kuidas sünkroonitakse andmeid rakenduste Project Service Automation ja Microsoft Project Desktop lisandmooduli vahel.
+
+| **Olem** | **Väli** | **Microsoft Projecti sünkroonimine Project Service Automationiga** | **Project Service Automationi sünkroonimine Microsoft Projectiga** |
+| --- | --- | --- | --- |
+| Projekti ülesanne | Tähtaeg | ● | - |
+| Projekti ülesanne | Prognoositud panus | ● | - |
+| Projekti ülesanne | MS Projecti kliendi ID | ● | - |
+| Projekti ülesanne | Emaülesanne | ● | - |
+| Projekti ülesanne | Project | ● | - |
+| Projekti ülesanne | Projekti ülesanne | ● | - |
+| Projekti ülesanne | Projekti ülesande nimi | ● | - |
+| Projekti ülesanne | Ressursiühik (aegunud versioonis 3.0) | ● | - |
+| Projekti ülesanne | Kavandatud kestus | ● | - |
+| Projekti ülesanne | Alguskuupäev | ● | - |
+| Projekti ülesanne | WBS-i ID | ● | - |
+
+| **Olem** | **Väli** | **Microsoft Projecti sünkroonimine Project Service Automationiga** | **Project Service Automationi sünkroonimine Microsoft Projectiga** |
+| --- | --- | --- | --- |
+| Meeskonnaliige | MS Projecti kliendi ID | ● | - |
+| Meeskonnaliige | Ametikoha nimi | ● | - |
+| Meeskonnaliige | projekt | ● | ● |
+| Meeskonnaliige | Projektimeeskond | ● | ● |
+| Meeskonnaliige | Ressursi üksus | - | ● |
+| Meeskonnaliige | Roll | - | ● |
+| Meeskonnaliige | Töötunnid | Ei sünkroonita | Ei sünkroonita |
+
+| **Olem** | **Väli** | **Microsoft Projecti sünkroonimine Project Service Automationiga** | **Project Service Automationi sünkroonimine Microsoft Projectiga** |
+| --- | --- | --- | --- |
+| Ressursi määramine | Kuupäevast | ● | - |
+| Ressursi määramine | tundi | ● | - |
+| Ressursi määramine | MS Projecti kliendi ID | ● | - |
+| Ressursi määramine | Plaanitud töö | ● | - |
+| Ressursi määramine | Project | ● | - |
+| Ressursi määramine | Projektimeeskond | ● | - |
+| Ressursi määramine | Ressursi määramine | ● | - |
+| Ressursi määramine | Toiming | ● | - |
+| Ressursi määramine | Kuupäevani | ● | - |
+
+| **Olem** | **Väli** | **Microsoft Projecti sünkroonimine Project Service Automationiga** | **Project Service Automationi sünkroonimine Microsoft Projectiga** |
+| --- | --- | --- | --- |
+| Projekti ülesande sõltuvused | Projekti ülesande sõltuvus | ● | - |
+| Projekti ülesande sõltuvused | Lingi tüüp | ● | - |
+| Projekti ülesande sõltuvused | Eelkäijast ülesanne | ● | - |
+| Projekti ülesande sõltuvused | Project | ● | - |
+| Projekti ülesande sõltuvused | Järglasest ülesanne | ● | - |
 
 ### <a name="see-also"></a>Vt ka  
  [Projektijuhi juhend](../psa/project-manager-guide.md)

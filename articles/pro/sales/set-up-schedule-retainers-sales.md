@@ -1,5 +1,5 @@
 ---
-title: Honorari ajakava seadistamine – liht
+title: Honorari ajakava seadistamine
 description: See teema sisaldav teavet selle kohta, kuidas häälestada rakenduses Project Operations honorari ajakava.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e0312b89d9969f140146b6aaaa9bdcfde702c0b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1c264b544660cf7a0b116f09b6bd7c94fcf0457e
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181267"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596367"
 ---
-# <a name="set-up-a-retainer-schedule---lite"></a>Honorari ajakava seadistamine – liht
+# <a name="set-up-a-retainer-schedule"></a>Honorari ajakava seadistamine
 
-_**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
+_**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Honoraride ajakava häälestatakse rakenduse Dynamics 365 Project Operations lehel **Projektileping**.
+Honoraride ajakavad häälestatakse rakenduse Dynamics 365 Project Operations lehel **Projektileping**.
 
 1. Valige lehe **Projektileping** vahekaardil **Ettemaksed ja honorarid** suvand **Honorari ajakava seadistamine**.
 2. Avanevas dialoogiboksis kuvatakse järgmises tabelis toodud väljad. Tabel annab ülevaate, kudas sisestatud väärtused mõjutavad loodavat honorari ajakava.
