@@ -3,6 +3,7 @@ title: Projekti kulu ja tulu prognooside määramine
 description: Projekti kulu ja tulu prognooside määramine Project Service'is
 author: ruhercul
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 66fa8f4374caa08b07663cc9d261bfff8ce30c87
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a91e988632d2b2cdebfe7fd17516c5d6886728fc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133003"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148818"
 ---
 # <a name="determine-project-cost-and-revenue-estimates"></a>Projekti kulu ja tulu prognooside määramine 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -37,7 +40,7 @@ Funktsiooni [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-au
 ## <a name="cost-price-defaulting"></a>Omahinna vaikeväärtusele määramine  
 Iga projekt kuulub organisatsioonile (näidatud projekti **omanikust üksuses**). Omanikust organisatsiooniüksusega seotud hinnakiri määrab üksuse omahinna. Funktsioon [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)] määrab rollide jaoks omahinnad, otsides rolli, ühiku ja organisatsiooniüksuse kombinatsiooni omahinna hinnakirjas, et saada prognoosi ridadel oleva kuupäeva seisuga õige omahind.  
   
-Kui rolli, ühiku ja organisatsiooniüksuse kombinatsioon ei anna omanikust üksuse hinnakirjast omahinda, eiratakse ühikut, eelistades rolli ja organisatsiooniüksuse kombinatsiooni. Kui omahind on olemas, teisendatakse hing prognoosi real valitud ühikusse.  
+Rolli, üksuse ja organisatsiooniüksuse kombinatsioon ei anna omanikust üksuse hinnakirjast omahinda, eiratakse ühikut, eelistades rolli ja organisatsiooniüksuse kombinatsiooni. Kui omahind on olemas, teisendatakse hing prognoosi real valitud ühikusse.  
   
 Kui rolli ja organisatsiooniüksuse kombinatsioon ei anna omahinda, eelistatakse organisatsiooniüksusele rolli ja ühiku kombinatsiooni ja hind määratakse vaikesätteks pärast vajaduse korral teisendamist.  
   
@@ -58,7 +61,7 @@ Prognooside vaatel on ruudustikuvaade, milles kuvatakse prognoosi ridade lame ru
 Projekti prognooside ajafaasidega ülevaates liigendatakse ruudustikuvaate prognooside andmeid vaikimisi rolli järgi ja need kuvavad prognoosi andmed valitud ajaskaala ajajoonel.  
   
 ## <a name="effort-estimate-allocation-based-on-task-mode"></a>Panuse prognoosi eraldamine ülesande režiimi põhjal  
-Ajafaasidega vaates jaotatakse ülesande puhul prognoositav koondpanus, eraldades teatud arvu panusetunde ühiku ajaperioodi kohta valitud ajaskaalal. Project Service’is määrab ülesande režiim, kuidas panus ülesande kestusele eraldatakse. Kaks eraldamise tüüpi on ühtlane eraldamine ja töötundidel põhinev eraldamine  
+Ajafaasidega vaates jaotatakse ülesande puhul prognoositav koondpanus, eraldades teatud arvu panusetunde ühiku ajaperioodi kohta valitud ajaskaalal. Project Service’is määrab ülesande režiim, kuidas panus ülesande kestusele eraldatakse. Kaks eraldamise tüüpi on ühtlane eraldamine ja töötundidel põhinev eraldamine. 
   
 ## <a name="work-hours-based-allocation"></a>Töötundidel põhinev eraldamine  
 Ülesanderežiimi automaatne plaanimine määrab, et ülesande jaoks prognoositud ressursside arvu kasutatakse eeldatavasti päevas kõigi töötundide vältel. See kehtib panuse eraldamisel, jagades selle samuti ajafaaside vaates ülesannete kestusega. Näiteks ajaskaalal Päev ei ületa päevale eraldatud panus ülesande puhul, mille eeldatavasti täidab üks ressurss, projektikalendris päeva kohta määratletud töötunde. Seega tagab panuse eraldamine alati, et ressursside kasutus määratakse terveks päevaks.  
@@ -69,12 +72,12 @@ Käsitsi plaanitud ülesande režiim ei arvesta töötunde, projektikalendrit eg
 Sel viisil määratleb ülesandes määratletud ülesande režiim panuse jaotuse või panuse eraldamise ühiku ajaperioodi kohta ajafaasidega prognoosides.  
   
 ## <a name="grouping-and-time-phasing-options"></a>Rühmitamise ja ajafaaside valikud  
-See vaade aitab mõista panuse, kulude ja müügi prognooside jaotust päeva, nädala, kuu või aasta põhjal. Valik Rühmitusalus võimaldab prognooside andmete liigendamist kahes teises dimensioonis: kategooria ja ressurss. Nii ruudustikuvaates kui ka ajafaaside vaates saate valida kuvatavaid välju. Iga ajaploki koondväärtused kuvatakse all, näidates panuse prognoositavat kulu kokku. ja päeva, nädala, kuu või aasta müüki.  
+See vaade aitab mõista panuse, kulude ja müügi prognooside jaotust päeva, nädala, kuu või aasta põhjal. Valik Rühmitusalus võimaldab prognooside andmete liigendamist kahes teises dimensioonis: kategooria ja ressurss. Nii ruudustikuvaates kui ka ajafaaside vaates saate valida kuvatavaid välju. Iga ajaploki koondväärtused kuvatakse all, näidates päeva, nädala, kuu või aasta prognoositavat panust, kulu ja müüki kokku.  
   
-Vaikeväärtustele seadmisel jõustuvad omahind ja müügihind teatud kuupäeval – kui rollide määrad muutuvad, on seda paremini näha ajafaaside vaates kui prognoositavate andmete kuvamisel liigendtabelis Ressurss ja nädalate kaupa ajafaasidesse jagatuna.  
+Vaikimisi kasutatav omahind ja müügihind on kuupäeva-efektiivsed. Kui rollide määrad muutuvad, on seda paremini näha ajafaaside vaates kui prognoositavate andmete kuvamisel liigendtabelis Ressurss ja nädalate kaupa ajafaasidesse jagatuna.  
   
 ## <a name="expense-estimates"></a>Kuluprognoosid  
-Projektis tekkiv kulu, mis pole otseselt seotud tööjõukuluga, saab kajastada projekti prognoosides ruudustikuvaates. Valiku **Kuluprognoosi lisamine** abil ruudustikuvaates saate seda teha. Kuluprognoosid saab kajastada konkreetse ülesande või terve projekti kohta. Saate valida neil ridadel kulukategooriad ja valida esialgse kuupäeva, millal kulu peaks tekkima. Kui seotud kulul ja müügihinnakirjas on kulukategooriatele määratud vaikehinnad või hinnalisandi protsendid, lähtestatakse need seostamisel prognoosi real vaikeväärtustele.  
+Projektis tekkiv kulu, mis pole otseselt seotud tööjõukuluga, saab kajastada projekti prognoosides ruudustikuvaates. Valiku **Kuluprognoosi lisamine** abil ruudustikuvaates saate seda teha. Kuluprognoosid saab talletada konkreetse ülesande või kogu projekti jaoks. Saate neil ridadel valida kulukategooriad ja valida esialgse kuupäeva, millal kulu tekkimist eeldatakse. Kui seotud kulul ja müügihinnakirjas on kulukategooriatele määratud vaikehinnad või hinnalisandi protsendid, lähtestatakse need seostamisel prognoosi real vaikeväärtustele.  
   
 ### <a name="see-also"></a>Vt ka  
  [Projektijuhi juhend](../psa/project-manager-guide.md)

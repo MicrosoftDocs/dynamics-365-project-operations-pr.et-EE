@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075147"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148638"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Ressursihalduse muudatused (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Selle teema jaotised annavad teavet rakenduse Dynamics 365 Project Service Automation versioon 3.x ressursihalduse alas tehtud muudatuste kohta.
 
 ## <a name="project-estimates"></a>Projekti prognoosid
 
-Selle asemel, et võtta aluseks olem **msdyn\_projecttask** ( **Projekti ülesanne** ), põhinevad projekti prognoosid olemil **msdyn\_resourceassignment** ( **Ressursi määramine** ). Ressursi määramised on muutunud ülesannete kavandamise ja hinnakujunduse juures nö tõe allikaks.
+Selle asemel, et võtta aluseks olem **msdyn\_projecttask** (**Projekti ülesanne**), põhinevad projekti prognoosid olemil **msdyn\_resourceassignment** (**Ressursi määramine**). Ressursi määramised on muutunud ülesannete kavandamise ja hinnakujunduse juures nö tõe allikaks.
 
 ## <a name="line-tasks"></a>Reaülesanded
 
@@ -65,7 +67,7 @@ PSA versioonis 3.x on määramata määramine selline määramine, mis on määr
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>Väljade ajastamine olemis Projekti ülesanne
 
-Olemi **msdyn\_projecttask** väljad on aegunud või teisaldatud olemisse **msdyn\_resourceassignment** või viidatakse neile nüüd olemist **msdyn\_projectteam** ( **Projektimeeskonna liige** ).
+Olemi **msdyn\_projecttask** väljad on aegunud või teisaldatud olemisse **msdyn\_resourceassignment** või viidatakse neile nüüd olemist **msdyn\_projectteam** (**Projektimeeskonna liige**).
 
 | Aegunud väli olemis msdyn\_projecttask (Projekti ülesanne) | Uus väli olemis msdyn\_resourceassignment (Ressursi määramine) | Kommentaar |
 |---|---|---|
@@ -77,7 +79,7 @@ Olemi **msdyn\_projecttask** väljad on aegunud või teisaldatud olemisse **msdy
 
 ## <a name="schedule-contour"></a>Ajakava kontuur
 
-Ajakava kontuuri talletatakse iga olemi **Ressursi määramine** ( **msdyn\_resourceassignment** ) puhul väljal **Plaanitud töö** ( **msdyn\_plannedwork** ).
+Ajakava kontuuri talletatakse iga olemi **Ressursi määramine** (**msdyn\_resourceassignment**) puhul väljal **Plaanitud töö** (**msdyn\_plannedwork**).
 
 ### <a name="structure"></a>Struktuur
 
@@ -139,7 +141,7 @@ Selles näites on ülesanne määratud kahele ressursile ja see on automaatselt 
 
 ## <a name="pricing-dimensions"></a>Hinnadimensioonid
 
-PSA versioonis 3.x on ressursikohased hinnadimensiooni väljad (nt **Roll** ja **Organisatsiooniüksus** ) olemist **msdyn\_projecttask** eemaldatud. Neid välju saab nüüd projekti prognooside loomisel tuua vastavast ressursi määramise ( **msdyn\_resourceassignment** ) projektimeeskonna liikmest ( **msdyn\_projectteam** ). Olemisse **msdyn\_projectteam** on lisatud uus väli **msdyn\_organizationalunit**.
+PSA versioonis 3.x on ressursikohased hinnadimensiooni väljad (nt **Roll** ja **Organisatsiooniüksus**) olemist **msdyn\_projecttask** eemaldatud. Neid välju saab nüüd projekti prognooside loomisel tuua vastavast ressursi määramise (**msdyn\_resourceassignment**) projektimeeskonna liikmest (**msdyn\_projectteam**). Olemisse **msdyn\_projectteam** on lisatud uus väli **msdyn\_organizationalunit**.
 
 | Aegunud väli olemis msdyn\_projecttask (Projekti ülesanne) | Väi olemist msdyn\_projectteam (Projektimeeskonna liige), mida selle asemel kasutatakse |
 |---|---|

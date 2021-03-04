@@ -2,6 +2,7 @@
 title: Täiendamise avaleht
 description: Selles teemas kirjeldatakse, kust leida olulist teavet Dynamics 365 Project Service Automation uute ja muudetud funktsioonide kohta ning kuidas täiendada uusimale versioonile.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121753"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150078"
 ---
 # <a name="upgrade-home-page"></a>Täiendamise avaleht
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -37,7 +40,7 @@ Alates 17. maist 2019: kui uue eksemplari ettevalmistamisel valitakse Project Se
 
 ### <a name="existing-instances"></a>Olemasolevad eksemplarid
 
-Varem pidi kliendid, kellel on PSA versiooni 2.x eksemplar ja vajasid värskendamist versioonile 3.x, mis on PSA ühtse kliendiliidese põhine (UCI) versioon, võtma ühendust Microsofti toega ning esitama oma eksemplari üksikasjad, et tugi saaks võimaldada eksemplari täienduse versioonile 3.x. 2020 a. 1. märtsi seisuga saavad kliendid, kellel on PSA versiooni 2.x eksemplar ja vajavad värskendamist versioonile 3.x värskendada oma eksemplarid otse administreerimisportaalist ilma, et oleks vaja Microsofti tugiteenusega ühendust võtta.  
+Eelnevalt pidid kliendid, kellel on PSA versiooni 2.x eksemplar täiendama versioonile 3.x, mis on PSA ühtse kliendiliidese põhine (UCI) versioon, pidid võtma ühendust Microsofti toega ning esitama oma eksemplari üksikasjad, et tugi saaks võimaldada eksemplari täienduse versioonile 3.x. 1. märtsist 2020 saavad PSA versiooni 2.x eksemplari omavad kliendid, kellel on vaja versioonile 3.x üle minna, uuendada oma eksemplarid otse administreerimisportaalist, ilma et oleks vaja Microsofti tugiteenusega ühendust võtta.  
 
 > [!NOTE]
 > PSA versioon 3.x sisaldab olulisi muudatusi. See põhineb ühtse kasutajaliidese raamistikul, mis aitab pakkuda täiustatud kasutuskogemust. Rakenduse uus versioon pakub ühtset kasutajaliidest (UI) ja järgib kiirelt reageeriva veebidisaini põhimõtteid, et tagada igasuguse ekraanisuuruse või seadme puhul optimaalne vaatamiskogemus. Rakenduses on tehtud ka muid muudatusi. Muudatusi on tehtud näiteks ka hinnakujunduses, ressursside broneerimises ja määramises, ajas, kuludes ning kinnitustes.
@@ -58,7 +61,7 @@ Kui olete eelmainitud teemad läbi vaadanud ja olete valmis täiendama PSA versi
 
 Alates 17. maist 2019 on kõikidel uutel eksemplaridel vaikekliendina UCI. Selle muudatusega joondamiseks valmistatakse vaikimisi ette PSA versioon 3.x ja Field Service’i versioon 8.x, sest need versioonid on loodud UCI kliendiga töötamiseks.
 
-Alates 1. märtsist 2020 ei saa Dynamics PSA kliendid enam uusi keskkondi luua vanade PSA versioonidega, nagu näiteks PSA versiooniga 2.x või vanemaga. Iga uus keskkond saab saada ainult PSA versiooni 3.x.
+Alates 1. märtsist 2020 ei saa Dynamics PSA kliendid enam luua uut keskkonda vanemate PSA versioonidega, näiteks PSA versiooniga 2.x või vanem. Iga uus keskkond saab saada ainult PSA versiooni 3.x.
 
 > [!NOTE]
 > Selleks et saada Field Service’i ja PSA rakenduste vanemaid versioone kasutades parimat kogemust, minge lehele **Süsteemisätted** ning valige välja **Kasuta ainult uut ühtset kasutajaliidest (soovitatav)** sätteks **Ei**, sest need versioonid ei ole loodud UCI-s õigesti laadimiseks. Kui olete UCI välja lülitanud, saate neid Field Service’i ja PSA versioone avada ning käivitada vana veebikliendi kaudu. 
