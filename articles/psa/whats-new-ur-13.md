@@ -17,42 +17,45 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bcb05b640966e760a7a74a306a3f0a39594baed8
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 7287054c470a44ed1fdc243018ec935fe21a6c4f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121618"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147243"
 ---
-# <a name="project-service-automation-update-release-13-v3"></a><span data-ttu-id="56dfb-103">Rakenduse Project Service Automation, värskenduse väljaanne 13, v3</span><span class="sxs-lookup"><span data-stu-id="56dfb-103">Project Service Automation Update Release 13, V3</span></span>
-<span data-ttu-id="56dfb-104">Meil on hea meel teatada uusimast rakenduse Dynamics 365 Project Service Automation (PSA) värskendusest.</span><span class="sxs-lookup"><span data-stu-id="56dfb-104">We’re pleased to announce the latest update for the Dynamics 365 Project Service Automation (PSA) application.</span></span> <span data-ttu-id="56dfb-105">See väljaanne sisaldab mõningaid olulisi kvaliteedi, jõudluse ja kasutatavuse täiustusi.</span><span class="sxs-lookup"><span data-stu-id="56dfb-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="56dfb-106">See väljalase ühildub Dynamics 365 9. x-iga.</span><span class="sxs-lookup"><span data-stu-id="56dfb-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="56dfb-107">Sellele väljaandele värskendamiseks külastage veebis Dynamics 365 administreerimiskeskust ja avage värskenduse installimiseks lahenduste leht.</span><span class="sxs-lookup"><span data-stu-id="56dfb-107">To update to this release, visit the Admin Center for Dynamics 365 online, and go to the solutions page to install the update.</span></span> <span data-ttu-id="56dfb-108">Lisateabe saamiseks vt jaotist [Eelistatud lahenduse installimine, värskendamine või eemaldamine](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="56dfb-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+# <a name="project-service-automation-update-release-13-v3"></a><span data-ttu-id="054e4-103">Rakenduse Project Service Automation, värskenduse väljaanne 13, v3</span><span class="sxs-lookup"><span data-stu-id="054e4-103">Project Service Automation Update Release 13, V3</span></span>
 
-<span data-ttu-id="56dfb-109">Selles teemas loetletakse Project Service Automationi V3 värskenduse väljalaske 13 uusi või muudetud funktsioone ja parandusi.</span><span class="sxs-lookup"><span data-stu-id="56dfb-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 13.</span></span> <span data-ttu-id="56dfb-110">Selle versiooni järgu number on V3.10.3.18 ja see on saadaval järgmise ajakava järgi.</span><span class="sxs-lookup"><span data-stu-id="56dfb-110">This version has a build number of V3.10.3.18 and is available on the following schedule:</span></span>
+[!include [banner](../includes/psa-now-project-operations.md)]
 
-- <span data-ttu-id="56dfb-111">**Üldine saadavus (automaatvärskendus):** november 2019</span><span class="sxs-lookup"><span data-stu-id="56dfb-111">**General availability (self-update):** November 2019</span></span>
-- <span data-ttu-id="56dfb-112">**Automaatvärskendus:** detsember 2019</span><span class="sxs-lookup"><span data-stu-id="56dfb-112">**Auto-update:** December 2019</span></span>
+<span data-ttu-id="054e4-104">Meil on hea meel teatada uusimast rakenduse Dynamics 365 Project Service Automation (PSA) värskendusest.</span><span class="sxs-lookup"><span data-stu-id="054e4-104">We’re pleased to announce the latest update for the Dynamics 365 Project Service Automation (PSA) application.</span></span> <span data-ttu-id="054e4-105">See väljaanne sisaldab mõningaid olulisi kvaliteedi, jõudluse ja kasutatavuse täiustusi.</span><span class="sxs-lookup"><span data-stu-id="054e4-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="054e4-106">See väljalase ühildub Dynamics 365 9. x-iga.</span><span class="sxs-lookup"><span data-stu-id="054e4-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="054e4-107">Sellele väljaandele värskendamiseks külastage veebis Dynamics 365 administreerimiskeskust ja avage värskenduse installimiseks lahenduste leht.</span><span class="sxs-lookup"><span data-stu-id="054e4-107">To update to this release, visit the Admin Center for Dynamics 365 online, and go to the solutions page to install the update.</span></span> <span data-ttu-id="054e4-108">Lisateabe saamiseks vt jaotist [Eelistatud lahenduse installimine, värskendamine või eemaldamine](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="054e4-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+
+<span data-ttu-id="054e4-109">Selles teemas loetletakse Project Service Automationi V3 värskenduse väljalaske 13 uusi või muudetud funktsioone ja parandusi.</span><span class="sxs-lookup"><span data-stu-id="054e4-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 13.</span></span> <span data-ttu-id="054e4-110">Selle versiooni järgu number on V3.10.3.18 ja see on saadaval järgmise ajakava järgi.</span><span class="sxs-lookup"><span data-stu-id="054e4-110">This version has a build number of V3.10.3.18 and is available on the following schedule:</span></span>
+
+- <span data-ttu-id="054e4-111">**Üldine saadavus (automaatvärskendus):** november 2019</span><span class="sxs-lookup"><span data-stu-id="054e4-111">**General availability (self-update):** November 2019</span></span>
+- <span data-ttu-id="054e4-112">**Automaatvärskendus:** detsember 2019</span><span class="sxs-lookup"><span data-stu-id="054e4-112">**Auto-update:** December 2019</span></span>
 
 
-## <a name="update-release-13"></a><span data-ttu-id="56dfb-113">Värskenduste väljalase 13</span><span class="sxs-lookup"><span data-stu-id="56dfb-113">Update Release 13</span></span> 
+## <a name="update-release-13"></a><span data-ttu-id="054e4-113">Värskenduste väljalase 13</span><span class="sxs-lookup"><span data-stu-id="054e4-113">Update Release 13</span></span> 
 
-### <a name="bug-fixes"></a><span data-ttu-id="56dfb-114">Veaparandused</span><span class="sxs-lookup"><span data-stu-id="56dfb-114">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="054e4-114">Veaparandused</span><span class="sxs-lookup"><span data-stu-id="054e4-114">Bug fixes</span></span>
 
-- <span data-ttu-id="56dfb-115">Aeg ja kulu</span><span class="sxs-lookup"><span data-stu-id="56dfb-115">Time and Expense</span></span>
+- <span data-ttu-id="054e4-115">Aeg ja kulu</span><span class="sxs-lookup"><span data-stu-id="054e4-115">Time and Expense</span></span>
 
-     - <span data-ttu-id="56dfb-116">Parandatud: lehe **kulu kinnitamine** otsingu funktsionaalsus ei tööta, kui otsitakse kulu eesmärgi järgi.</span><span class="sxs-lookup"><span data-stu-id="56dfb-116">Fixed: Search functionality on the **Expense approval** page does not work when searching by expense purpose.</span></span>
+     - <span data-ttu-id="054e4-116">Parandatud: lehe **kulu kinnitamine** otsingu funktsionaalsus ei tööta, kui otsitakse kulu eesmärgi järgi.</span><span class="sxs-lookup"><span data-stu-id="054e4-116">Fixed: Search functionality on the **Expense approval** page does not work when searching by expense purpose.</span></span>
 
-- <span data-ttu-id="56dfb-117">Ressursihaldus</span><span class="sxs-lookup"><span data-stu-id="56dfb-117">Resource Management</span></span>
+- <span data-ttu-id="054e4-117">Ressursihaldus</span><span class="sxs-lookup"><span data-stu-id="054e4-117">Resource Management</span></span>
 
-     - <span data-ttu-id="56dfb-118">Parandatud: vastavusse viimise numbrid on värskendatud paremjoonduse olekusse.</span><span class="sxs-lookup"><span data-stu-id="56dfb-118">Fixed: Numbers in the reconciliation have been updated to be right justified.</span></span>
-     - <span data-ttu-id="56dfb-119">Parandatud: nimega ressursse ei saa tööülesannetele määrata vahekaardi **ajakava** kaudu.</span><span class="sxs-lookup"><span data-stu-id="56dfb-119">Fixed: Named Resources can't be assigned to tasks through the **Schedule** tab.</span></span>
+     - <span data-ttu-id="054e4-118">Parandatud: vastavusse viimise numbrid on värskendatud paremjoonduse olekusse.</span><span class="sxs-lookup"><span data-stu-id="054e4-118">Fixed: Numbers in the reconciliation have been updated to be right justified.</span></span>
+     - <span data-ttu-id="054e4-119">Parandatud: nimega ressursse ei saa tööülesannetele määrata vahekaardi **ajakava** kaudu.</span><span class="sxs-lookup"><span data-stu-id="054e4-119">Fixed: Named Resources can't be assigned to tasks through the **Schedule** tab.</span></span>
 
-- <span data-ttu-id="56dfb-120">Projektijuhtimine</span><span class="sxs-lookup"><span data-stu-id="56dfb-120">Project Management</span></span>
+- <span data-ttu-id="054e4-120">Projektijuhtimine</span><span class="sxs-lookup"><span data-stu-id="054e4-120">Project Management</span></span>
 
-     - <span data-ttu-id="56dfb-121">Parandatud: null viite erand meeskonnaliiget määrates, kui väärtusel **Tehingu tüüp** puudub **Üksuse** ja **Vaikerühma** seadistamise teave.</span><span class="sxs-lookup"><span data-stu-id="56dfb-121">Fixed: Null reference exception when assigning team member when the **TransactionType** is missing setup information for **Unit** and **DefaultGroup**.</span></span>
+     - <span data-ttu-id="054e4-121">Parandatud: null viite erand meeskonnaliiget määrates, kui väärtusel **Tehingu tüüp** puudub **Üksuse** ja **Vaikerühma** seadistamise teave.</span><span class="sxs-lookup"><span data-stu-id="054e4-121">Fixed: Null reference exception when assigning team member when the **TransactionType** is missing setup information for **Unit** and **DefaultGroup**.</span></span>
 
-- <span data-ttu-id="56dfb-122">Sales</span><span class="sxs-lookup"><span data-stu-id="56dfb-122">Sales</span></span>
+- <span data-ttu-id="054e4-122">Sales</span><span class="sxs-lookup"><span data-stu-id="054e4-122">Sales</span></span>
 
-     - <span data-ttu-id="56dfb-123">Parandatud: topelt tehingutüübi kirjed annavad vea, kui luuakse rolli hinnakirjeid.</span><span class="sxs-lookup"><span data-stu-id="56dfb-123">Fixed: Duplicate transaction type records return an error when role price records are created.</span></span>
-     - <span data-ttu-id="56dfb-124">Parandatud: suvandite Müügivõimalused, Hinnapakkumised, Tellimuse tooted ja projektipõhiste ridade andmeruudustikus on nähtavad täiendavad nupud **Uus müügivõimalus**, **Hinnapakkumine**, **Tellimuse rida** ja **Lisa toode**.</span><span class="sxs-lookup"><span data-stu-id="56dfb-124">Fixed: Extra buttons for **New Opportunity**, **Quote**, **Order Line**, and **Add Product** are visible in commands for Opportunities, Quotes, Order Products, and the project-based Lines subgrid.</span></span>
+     - <span data-ttu-id="054e4-123">Parandatud: topelt tehingutüübi kirjed annavad vea, kui luuakse rolli hinnakirjeid.</span><span class="sxs-lookup"><span data-stu-id="054e4-123">Fixed: Duplicate transaction type records return an error when role price records are created.</span></span>
+     - <span data-ttu-id="054e4-124">Parandatud: suvandite Müügivõimalused, Hinnapakkumised, Tellimuse tooted ja projektipõhiste ridade andmeruudustikus on nähtavad täiendavad nupud **Uus müügivõimalus**, **Hinnapakkumine**, **Tellimuse rida** ja **Lisa toode**.</span><span class="sxs-lookup"><span data-stu-id="054e4-124">Fixed: Extra buttons for **New Opportunity**, **Quote**, **Order Line**, and **Add Product** are visible in commands for Opportunities, Quotes, Order Products, and the project-based Lines subgrid.</span></span>
 
 
