@@ -18,38 +18,40 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ee39e48ae587898641484149b4d886b568ba80b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4ff49d5dfdfa184cf437677109d1228f3b4cd571
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128908"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150303"
 ---
-# <a name="set-up-resources-project-service"></a><span data-ttu-id="29d8e-103">Ressursside seadistamine (Project Service)</span><span class="sxs-lookup"><span data-stu-id="29d8e-103">Set up resources (Project Service)</span></span>
+# <a name="set-up-resources-project-service"></a><span data-ttu-id="b05e8-103">Ressursside seadistamine (Project Service)</span><span class="sxs-lookup"><span data-stu-id="b05e8-103">Set up resources (Project Service)</span></span>
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="29d8e-104">Enne ressursside taotlemist või määramist teenuses [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] peate määratlema rollid ja oskusekogumid, mida teie klientide projektid vajavad.</span><span class="sxs-lookup"><span data-stu-id="29d8e-104">Before requesting or assigning resources in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], you need to define the roles and the skill sets that your clients’ projects need.</span></span> <span data-ttu-id="29d8e-105">Selleks peate veidi konfigureerima.</span><span class="sxs-lookup"><span data-stu-id="29d8e-105">This requires some configuration on your part:</span></span>  
+<span data-ttu-id="b05e8-104">Enne ressursside taotlemist või määramist teenuses [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] peate määratlema rollid ja oskusekogumid, mida teie klientide projektid vajavad.</span><span class="sxs-lookup"><span data-stu-id="b05e8-104">Before requesting or assigning resources in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], you need to define the roles and the skill sets that your clients’ projects need.</span></span> <span data-ttu-id="b05e8-105">Selleks peate veidi konfigureerima.</span><span class="sxs-lookup"><span data-stu-id="b05e8-105">This requires some configuration on your part:</span></span>  
   
--   [<span data-ttu-id="29d8e-106">Ressursi oskuste lisamine</span><span class="sxs-lookup"><span data-stu-id="29d8e-106">Add resource skills</span></span>](../psa/add-resource-skills.md)  
+-   [<span data-ttu-id="b05e8-106">Ressursi oskuste lisamine</span><span class="sxs-lookup"><span data-stu-id="b05e8-106">Add resource skills</span></span>](../psa/add-resource-skills.md)  
   
--   [<span data-ttu-id="29d8e-107">Pädevusmudelite seadistamine</span><span class="sxs-lookup"><span data-stu-id="29d8e-107">Set up proficiency models</span></span>](../psa/set-up-proficiency-models.md)  
+-   [<span data-ttu-id="b05e8-107">Pädevusmudelite seadistamine</span><span class="sxs-lookup"><span data-stu-id="b05e8-107">Set up proficiency models</span></span>](../psa/set-up-proficiency-models.md)  
   
--   [<span data-ttu-id="29d8e-108">Ressursirollide lisamine</span><span class="sxs-lookup"><span data-stu-id="29d8e-108">Add resource roles</span></span>](../psa/add-resource-roles.md)  
+-   [<span data-ttu-id="b05e8-108">Ressursirollide lisamine</span><span class="sxs-lookup"><span data-stu-id="b05e8-108">Add resource roles</span></span>](../psa/add-resource-roles.md)  
   
--   [<span data-ttu-id="29d8e-109">Ressursirollide konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="29d8e-109">Configure resource roles</span></span>](../psa/configure-resource-roles.md)  
+-   [<span data-ttu-id="b05e8-109">Ressursirollide konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="b05e8-109">Configure resource roles</span></span>](../psa/configure-resource-roles.md)  
   
--   [<span data-ttu-id="29d8e-110">Oskuste seostamine ressursirollidega</span><span class="sxs-lookup"><span data-stu-id="29d8e-110">Associate skills with resource roles</span></span>](../psa/associate-skills-with-resource-roles.md)  
+-   [<span data-ttu-id="b05e8-110">Oskuste seostamine ressursirollidega</span><span class="sxs-lookup"><span data-stu-id="b05e8-110">Associate skills with resource roles</span></span>](../psa/associate-skills-with-resource-roles.md)  
   
--   [<span data-ttu-id="29d8e-111">Ressursside lisamine</span><span class="sxs-lookup"><span data-stu-id="29d8e-111">Add resources</span></span>](../psa/add-resources.md)  
+-   [<span data-ttu-id="b05e8-111">Ressursside lisamine</span><span class="sxs-lookup"><span data-stu-id="b05e8-111">Add resources</span></span>](../psa/add-resources.md)  
   
--   [<span data-ttu-id="29d8e-112">Oskuste seostamine ressurssidega</span><span class="sxs-lookup"><span data-stu-id="29d8e-112">Associate skills with resources</span></span>](../psa/associate-skills-with-resources.md)  
+-   [<span data-ttu-id="b05e8-112">Oskuste seostamine ressurssidega</span><span class="sxs-lookup"><span data-stu-id="b05e8-112">Associate skills with resources</span></span>](../psa/associate-skills-with-resources.md)  
   
--   [<span data-ttu-id="29d8e-113">Uue töötundide malli loomine</span><span class="sxs-lookup"><span data-stu-id="29d8e-113">Create a work hours template</span></span>](../psa/create-work-hours-template.md)  
+-   [<span data-ttu-id="b05e8-113">Uue töötundide malli loomine</span><span class="sxs-lookup"><span data-stu-id="b05e8-113">Create a work hours template</span></span>](../psa/create-work-hours-template.md)  
   
--   [<span data-ttu-id="29d8e-114">Kalendri rakendamine ressursile</span><span class="sxs-lookup"><span data-stu-id="29d8e-114">Apply a calendar to a resource</span></span>](../psa/apply-calendar-resource.md)  
+-   [<span data-ttu-id="b05e8-114">Kalendri rakendamine ressursile</span><span class="sxs-lookup"><span data-stu-id="b05e8-114">Apply a calendar to a resource</span></span>](../psa/apply-calendar-resource.md)  
   
--   [<span data-ttu-id="29d8e-115">Täiendavate parameetrisätete konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="29d8e-115">Configure additional parameters settings</span></span>](../psa/configure-additional-parameters-settings.md)  
+-   [<span data-ttu-id="b05e8-115">Täiendavate parameetrisätete konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="b05e8-115">Configure additional parameters settings</span></span>](../psa/configure-additional-parameters-settings.md)  
   
-### <a name="see-also"></a><span data-ttu-id="29d8e-116">Vt ka</span><span class="sxs-lookup"><span data-stu-id="29d8e-116">See Also</span></span>  
- [<span data-ttu-id="29d8e-117">Project Service'i konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="29d8e-117">Configure Project Service</span></span>](../psa/configure.md)
+### <a name="see-also"></a><span data-ttu-id="b05e8-116">Vt ka</span><span class="sxs-lookup"><span data-stu-id="b05e8-116">See Also</span></span>  
+ [<span data-ttu-id="b05e8-117">Project Service'i konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="b05e8-117">Configure Project Service</span></span>](../psa/configure.md)
