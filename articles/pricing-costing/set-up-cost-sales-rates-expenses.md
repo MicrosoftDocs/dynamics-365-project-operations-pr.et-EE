@@ -55,3 +55,6 @@ Kui müügi hinnakirjaga seotud kategooria hinna real on valitud see hinnakujund
 
 ### <a name="markup-over-cost"></a>Juurdehindlus üle omahinna
 Kui müügi hinnakirjaga seotud kategooria hinna real on valitud see hinnakujundusmeetod, on vaikehinnaks kategooria ja uhiku kombinatsioon ainult kulutuse tegeliku näitaja korral. Näiteks arveldamata müügi tegelikud näitajad kulutuse tehinguklassile. See ühikuhind määratakse tegelikule arveldamata müügile arvutatud väärtusele ühikuhinnast selle kulu tegelikule maksumusele pärast määratletud juurdehindlusprotsendi rakendamist. Kulul põhinevat hinna vaikeväärtuse määramist ei tehta kulutuste projekti prognoosis või kulutuste hinnapakkumise rea ja lepingu rea üksikasjades.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -98,3 +98,6 @@ Juurutuse lõpuleviimiseks järgige juhiseid teemas [Uue keskkonna ettevalmistam
 
 Installige teemas kirjeldatud CDS-i seadistuse ja konfiguratsiooni andmed, [Seadistage ja rakendage konfiguratsiooni andmeid rakenduses Common Data Service](resource-apply-pro-setup-config-data.md).
 Läbige see etapp alles pärast Finance'i demokeskkonna juurutamist ja kui demoandmed FO-s on valmis.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

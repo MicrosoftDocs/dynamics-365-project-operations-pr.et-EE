@@ -107,3 +107,6 @@ Järgmisel joonisel on kuvatud muudatused, mis toimuvad kinnitatud ajakirjetes n
 Järgmisel joonisel on kuvatud muudatused, mis toimuvad kinnitatud kulukirjetes nende tagasivõtmisel.
 
 ![Kulukirje oleku üleminekud](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

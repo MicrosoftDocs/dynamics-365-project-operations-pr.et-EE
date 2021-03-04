@@ -125,3 +125,6 @@ Fikseeritud hind – protsentuaalne lõpuleviimine
 Projekti kulu ja tulu profiili reeglid määratlevad projekti kulu ja tulu profiili, mida tuleb kasutada iga tasustatava projekti tehingute töötlemisel. Määratlege reeglid, avades **Projektihaldus ja raamatupidamine** \> **Seadistus** \> **Postitamine** \> **Projekti kulu ja tulu profiili reeglid**.
 
 Reegleid saab määratleda projekti lepingu, projekti rühma või kindla projekti alusel. Süsteem valib alati suurima granulaarsusega reeli esimesena.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

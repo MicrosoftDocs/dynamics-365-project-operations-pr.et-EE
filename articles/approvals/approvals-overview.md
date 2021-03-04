@@ -59,3 +59,6 @@ Igal projektil on mitu projekti meeskonnaliiget. Saate määrata, millised meesk
 3. Valige **Salvesta**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

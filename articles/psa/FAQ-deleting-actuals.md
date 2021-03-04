@@ -33,3 +33,6 @@ ms.locfileid: "5148953"
 
 Project Service Automation (PSA) ei luba teil tegelikke näitajaid kustutada, kuna need on tõe allikas, mis on finantsmõju allsüsteemidele (nt pearaamat). Kui tegelikke andmeid saab kustutada, võib kahtluse alla seada finantsaruandluse tervikluse. Kontrolljälje loomiseks peaksid kliendid kasutama töölehti, et luua kompenseerivad tehingud.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

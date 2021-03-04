@@ -35,3 +35,6 @@ Ressursid on teenusepõhise organisatsiooni kõige olulisem vara. Võimalus leid
 
 
 Project Operationsis saate oma projekti personali hulka lisada üldiseid või nimega ressursside meeskondi. Saate meeskonnaliikmete lisamiseks ja määramiseks ning nende broneeringute ja määramiste haldamiseks kasutada mitmesuguseid meetodeid. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

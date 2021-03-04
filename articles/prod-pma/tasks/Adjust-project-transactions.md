@@ -44,3 +44,6 @@ Selle toimingu juhend näitab, kuidas projekti jaoks kannet kohandada. Kuid saat
 13. Märkige loendis valitud rida. 
 14. Sisestage väljale Omahind arv. 
 15. Klõpsake nuppu Postita. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

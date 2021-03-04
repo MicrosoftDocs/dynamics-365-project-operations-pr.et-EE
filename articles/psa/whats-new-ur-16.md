@@ -64,3 +64,6 @@ Selles teemas loetletakse PSA V3 värskenduse väljalaske 16 uusi või muudetud 
 
     -   Parandatud: kui kasutajad värskendavad versioonilt 2. X versioonile 3. X, lubatakse NULL väärtusega projektinimega projektid.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

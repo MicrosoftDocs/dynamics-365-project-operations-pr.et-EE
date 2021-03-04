@@ -52,3 +52,6 @@ Teie ettevõte korraldab oma nõustamisäri arvatavasti geograafia, funktsiooni 
   
 ### <a name="see-also"></a>Vt ka  
  [Project Service Automation konfigureerimine](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

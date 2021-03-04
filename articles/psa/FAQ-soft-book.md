@@ -67,3 +67,6 @@ Kui olete valmis esialgselt reserveeritud meeskonnaliikme ressursi kindlaks mees
 2. Paremklõpsake reserveerimist ja valige jaotises **Oleku muutmine**, valige **Fikseeritult reserveerimine** \> **Fikseeritud**. Nüüd on broneeringu olek **Fikseeritud**.
 3. Kui vaatate vaadet **Nimega meeskonnaliikmed** pärast ajakavapaneeli sulgemist ja projekti naasmist ning vahekaardi **Meeskond** avamist, siis näete, et ressursile määratud tunnid on viidud veerust **Esialgselt reserveeritud tunnid** veergu **Fikseeritult reserveeritud tunnid** vahekaardil **Meeskond**. Kui ressursile määrati ülesandeid, ei kuvata enam broneeringu puudujääki vahekaardil **Vastavusseviimine**, kuna reserveerimised on nüüd fikseeritud.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

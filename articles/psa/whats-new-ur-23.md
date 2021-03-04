@@ -67,3 +67,6 @@ Lahendatud on järgmised probleemid.
 Lahendatud on järgmised probleemid.
 
 - Suvandi **Too kõik tehingukategooriad** topeltklõpsamine loob mitu rida.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

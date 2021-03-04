@@ -116,3 +116,6 @@ Valige üldise ressursi jaoks suvand **Reserveeri** ja seejärel saate kasutada 
 Kui üldine ressurss on täidetud nimelise ressursiga, siis eemaldatakse üldine ressurss meeskonnast ja üldisele ressursile määratud ülesanded määratakse nimelisele ressursile, mis täitis üldise ressursi ressursinõude.
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

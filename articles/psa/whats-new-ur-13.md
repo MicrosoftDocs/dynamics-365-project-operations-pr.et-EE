@@ -59,3 +59,6 @@ Selles teemas loetletakse Project Service Automationi V3 värskenduse väljalask
      - Parandatud: suvandite Müügivõimalused, Hinnapakkumised, Tellimuse tooted ja projektipõhiste ridade andmeruudustikus on nähtavad täiendavad nupud **Uus müügivõimalus**, **Hinnapakkumine**, **Tellimuse rida** ja **Lisa toode**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

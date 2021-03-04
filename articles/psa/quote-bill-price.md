@@ -44,3 +44,6 @@ Järgmistest teemadest leiate lisateavet rakenduse PSA funktsioonide hinnapakkum
 - [Ühikugrupid ja ühikud](advanced-units.md)
 - [Mitme ühiku valuuta](advanced-currency.md)
 - [Tegelike andmete salvestamine](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

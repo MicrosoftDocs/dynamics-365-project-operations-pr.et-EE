@@ -68,3 +68,6 @@ Teie ressursid saavad rakendust Project Finder Mobile kasutada oma telefonis koo
   
 ### <a name="see-also"></a>Vt ka  
  [Ressursside seadistamine](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Arveldamata müüginäitajad, mille valiku **Ei saa ületada** olekuks on **Nurj
 Kui mitme kliendiga sõlmitud lepinguridadel on aja- ja materjalikulu arveldamise meetod, siis luuakse aja ja kulu kinnitamisel iga lepingurea jaoks iga kliendi kohta üks arveldamata müügi näitaja, mis on iga kliendi jaoks määratletud arvestatud protsendina. Vaates **Aja- ja materjalikuluga arvete võlgnevus** näete neid kindlat klienti puudutavaid arveldamata müügi näitajaid. Kõik need arveldamata müügi tegelike näitajate kirjed saab märkida kui **Arveldamiseks valmis**, sellest vaatest eraldi.
 
 Arve mustandil olev arveldamata müügi näitaja kuvatakse selles vaates arvelduse olekuga **Kliendi arve on loodud**. Kui arve mustand kinnitatakse, muutub selle kirje arveldamise olekuks **Kliendi arve on sisestatud**. Ärge värskendage seda oleku väärtust kohandatud koodi abil. Rakendus Project Operation ei tööta õigesti, kui oleku väärtused on värskendatud kohandatud koodiga.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

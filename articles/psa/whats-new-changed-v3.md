@@ -257,3 +257,6 @@ Järgmisel pildil on kuvatud vaade pärast kohandatud hinnakirjade loomist.
 
 > [!NOTE]
 > Kui klõpsate kohandatud hinnakirja loomiseks valikut **Kohandatud hindade loomine**, võib hinnakiri ilmuda väikese viivitusajaga. Soovitame ruudustikku värskendada, mitte mitu korda klõpsata. Kohandatud hinnakiri on loodud siis, kui seostatud hinnakirja nimele on lisatud hinnapakkumise nimi või projekti lepingu nimi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

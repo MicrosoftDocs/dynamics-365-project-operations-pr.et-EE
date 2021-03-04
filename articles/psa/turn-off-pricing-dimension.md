@@ -47,3 +47,6 @@ See tõrketeade näitab, et on olemas hinnakirjed, mis on väljalülitatava dime
 
 Kui lülitate **Standardpealkirja** hinnakujunduse dimensioonina välja ja Project Service’i mootor otsib hinda, kasutab see ainult **Org. üksuse** väärtust sisendi kontekstist. Kui sisendi konteksti **Org. üksus** on „Jõgi US”, on tulemus mittedeterministlik, sest mõlemad read on ühesugused. Selle stsenaariumi vältimiseks kontrollib Project Service, et **Rolli hinna** kirjete loomisel oleks dimensioonide kombinatsioon kordumatu. Kui dimensioon lülitatakse pärast **Rolli hinna** kirjete loomist välja, saab seda piirangut rikkuda. Seetõttu on nõutav, et enne dimensiooni väljalülitamist kustutaksite te ära kõik need **Rolli hinna** ja **Rolli hinna hinnalisandi** read, millel on dimensiooni väärtus täidetud.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Saate analüüsida hinnapakkumisi ja luua graafikuid klientide ootustele ajakava
 Ajakavaga seotud klientide ootuste analüüs tehakse võrreldes hinnapakkumise rea lõppkuupäeva üksikasju ja nõutavat tarnekuupäeva kõigis hinnapakkumise ridades.
 
 Eelarvega seotud klientide ootuste analüüs tehakse võrreldes kõigi hinnapakkumiste ridasid pakutava summaga kõigis hinnapakkumise ridades.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

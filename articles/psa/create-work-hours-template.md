@@ -65,3 +65,6 @@ Enne projekti ajakavade loomist tuleb seadistada projektikalender, mis määratl
   
 ### <a name="see-also"></a>Vt ka  
  [Ressursside seadistamine](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

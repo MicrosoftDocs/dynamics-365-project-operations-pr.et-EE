@@ -65,3 +65,6 @@ Kui projekti töö on lõpule viidud, saab projektijuht värskendada projekti et
 ## <a name="close"></a>Sule
 
 Kui projekti jaoks on kõik kanded talletatud, saab projektijuht värskendada projekti etapile **Sule**. Sel hetkel ei saa kandeid enam talletada ja projekt on seatud kirjutuskaitstuks.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

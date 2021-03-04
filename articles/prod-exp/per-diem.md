@@ -28,3 +28,6 @@ ms.locfileid: "4960017"
 *Päevaraha* on hüvitis, mida makstakse töötajale, kes töö tõttu reisib. Kuluhalduses saate erinevate reisi olukordade jaoks luua päevaraha. Päevarahade määrad võivad põhineda aastaajal, reisisihtkohal või mõlemal. Päevaraha reegli loomisel saate määrata, et teatud protsent päevarahade hinnast jäetakse maksmata, kui töötaja saab tasuta einet või teenust. Samuti saate määrata minimaalse ja maksimaalse tundide arvu, mille võrra päevaraha töötaja reisile rakendada saab.
 
 Päevaraha summa arvutamisel lähtutakse algus- ja lõppkuupäevadest, mille saate määrata lehel **Päevarahad**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

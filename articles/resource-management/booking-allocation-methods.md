@@ -81,3 +81,6 @@ Kokkuvõttes – järgmised eraldamismeetodid põhjustavad ülereserveerimist, k
 - Jaga ühtlaselt tundide järgi
 
 Nende kolme eraldamismeetodi kasutamisel ei teavitata teid, kui ressurss on ülereserveeritud. Ülebroneerimise parandamiseks peate kasutama ajakavapaneeli.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

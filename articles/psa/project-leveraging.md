@@ -54,3 +54,6 @@ Saate määrata töökoormuse ja ajastada prognoose, kui kasutate lehe **Projekt
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Prognooside importimine projektist hinnapakkumisse
 
 Pärast projekti prognooside määramist saate need importida hinnapakkumise reale. Projekti prognooside summeerimiseks kande tüübi, rolli või ülesande taseme järgi tehke lehe **Hinnapakkumise rea üksikasjad** ribal valik **Impordi prognoosidest**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

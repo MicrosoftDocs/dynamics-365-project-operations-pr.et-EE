@@ -140,3 +140,6 @@ Järgmisel joonisel on toodud andmete integratsioonis malli ülesande vastendami
 [![Malli vastendamine - tegelike näitajate värskendus](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Malli vastendamine - kane värskendus](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

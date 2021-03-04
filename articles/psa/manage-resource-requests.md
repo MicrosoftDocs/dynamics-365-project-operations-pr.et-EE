@@ -51,3 +51,6 @@ Kontohaldurid ja projektijuhid taotlevad oma projektide jaoks regulaarselt ressu
   
 ### <a name="see-also"></a>Vt ka  
  [Ressursihalduri juhend](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

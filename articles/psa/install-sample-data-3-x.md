@@ -297,3 +297,6 @@ Valige kasutaja (nt Spencer Low) ja muutke tema töötunnid tundidele, mida soov
 
 > [!div class="mx-imgBorder"]
 > ![Aktiivsete broneeritavate ressursside kuvatõmmis](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

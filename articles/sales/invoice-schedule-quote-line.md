@@ -68,3 +68,6 @@ Avage fikseeritud hinnaga hinnapakkumise rida, kuhu peate vahe-eesmärgi looma. 
 | Arve olek | Kiirloomine | Kui vahe-eesmärk on loodud, on see olek alati määratud valikule **Pole arveldamiseks valmis**. | See paljundatakse projekti lepingurea vahe-eesmärgile ja arvele. |
 | Rea summa | Kiirloomine | Vahe-eesmärgi summa või väärtus, mille eest esitatakse kliendile arve. | See paljundatakse projekti lepingurea vahe-eesmärgile ja arvele. |
 | Maks | Kiirloomine | Vahe-eesmärgile rakendatav maksu summa. | See paljundatakse projekti lepingurea vahe-eesmärgile ja arvele. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

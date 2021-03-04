@@ -62,3 +62,6 @@ Kuna rakendus Dynamics 365 Project Operations kasutab mootorit Universal Resourc
 
 Konkreetse ressursi kohta lisateabe saamiseks paremklõpsake seda, et avada ressursikaart.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

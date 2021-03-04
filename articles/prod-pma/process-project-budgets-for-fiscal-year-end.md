@@ -98,3 +98,6 @@ Allesolevate eelarve summade töötlemisel saate luua pearaamatusse ülekantavat
 5. Valige iga projekti jaoks, mida soovite töödelda, projekti rea alguses soovitud suvand. 
 6. Valige **Töötle** , et kanda valitud projektide allesolevad eelarve summad üle valitud finantsaastasse.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

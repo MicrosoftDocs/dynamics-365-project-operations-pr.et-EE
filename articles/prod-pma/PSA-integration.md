@@ -75,3 +75,6 @@ Rakendusest Project Service Automation rakendusse Finance integreerimise lahendu
 ## <a name="install-the-project-service-automation-to-finance-integration-solution-in-your-project-service-automation-instance"></a>Installige Project Service Automationist Finance’i integreerimise lahendus oma Project Service Automationi olemisse
 
 Laadige Project Service Automationist Finance’i integreerimise lahendus alla [Microsofti allalaadimiskeskusest](https://www.microsoft.com/download/details.aspx?id=57016) ja järgige juhiseid, mis on lahendusega kaasas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ Parameetrid kontrollivad kuluhalduse üldist käitumist.
 | <strong>Esitaja korruptsioonivastane sõnum</strong> |                                                                                             Sisestage tekst, mis kuvatakse töötajale uue kuluaruande loomisel. Klõpsake nuppu <strong>Tõlked</strong>, et sisestada kindlas keeles kuvatav tekst, mis põhineb kasutaja keelel.                                                                                             |
 | <strong>Kinnitaja korruptsioonivastane sõnum</strong>  |                                                                                             Sisestage tekst, mis kuvatakse kinnitajale uue kuluaruande loomisel. Klõpsake nuppu <strong>Tõlked</strong>, et sisestada kindlas keeles kuvatav tekst, mis põhineb kasutaja keelel.                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

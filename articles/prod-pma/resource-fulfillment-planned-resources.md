@@ -40,3 +40,6 @@ Projektijuht saab kavandada projekti jaoks nõutavaid ressursi rolle. Ressursiha
 7. Valige töötaja ja seejärel valige **Määra**.
 8. Veenduge, et valiku **Tarkvaraarendaja 1** rida oleks eemaldatud projektist **XYZ värskenduse 2. etapp**.
 9. Vahekaardil **Projektimeeskond ja ajastamine** kontrollige projekti **XYZ värskenduse 2. etapp** puhul seda, et töötaja, kelle eelmises etapis valisite, on lisatud kui **Tarkvaraarendaja**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

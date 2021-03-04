@@ -42,3 +42,6 @@ Selles teemas loetletakse Project Service Automationi V3 värskenduse väljalask
 Lahendatud on järgmised probleemid.
 
 - Ajakava abi otsingujõudluse degradeerimine
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

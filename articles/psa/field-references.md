@@ -150,3 +150,6 @@ Järgmises tabelis on esitatud terviklik loend kasutusvalmis vormidest ja vaadet
 |  Tegelik|• Teave<br>• Aktiivsed tegelikud näitajad|• Tegelik seostatud vaade|
 
 Sõltuvalt sellest, mida olete määratlenud, tuleb ärireeglitele lisada ka kohandatud väljad. Üks valmislahenduse näide on ärireegel **Olekul põhineva ajakirje redigeeritavus**. See reegel määratleb, millised väljad tuleb lukustada, kui ajakirje on mitte-redigeeritavas olekus (nt **kinnitatud**). Lisage sellele ärireeglile väljad, et need väljad oleksid redigeerimiseks lukus, kui ajakirje on muus olekus kui **mustand** või **tagastatud**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

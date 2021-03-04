@@ -40,3 +40,6 @@ Kui otsustate nõuda mitut kuluaruande kinnitajat, saate lisada töövoo elemend
 
     1. Töötaja juht kinnitab kuluaruande.
     2. Eelarve omanik kinnitab kuluaruande heaks.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -26,3 +26,6 @@ Rakenduse Dynamics 365 Project Operations projektihalduse tööriistad aitavad t
 - Projekti prognooside kasutamine müügiprotsessi käigus.
 - Ressursinõuete prognoosimine konveieril olevate projektide jaoks.
 - Projektide edukaks elluviimine edenemise ja tarbitud kulude jälgimise kaudu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

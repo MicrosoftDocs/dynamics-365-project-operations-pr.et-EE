@@ -101,3 +101,6 @@ Järgmises näites on Contoso Robotics USA (USPM) laenav juriidiline isik ja Con
           - **Ressursiettevõte** = **Contoso Robotics UK**
           - **Arveldusmäär** = **200 USD**
       9. Minge jaotisse **Müük** > **Projekti lepingud** ja lisage hinnakiri **Adventure Worksi arveldusmäärad** Adventure Worksi projekti lepingu hinnakirjale.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -76,3 +76,6 @@ Saate kasutada ühte järgmistest meetoditest, et luua suvandis Projektihaldus j
 
 Lisateavet vt teemast [Üksuse nõudest ostutellimuse üksuste vastuvõtmine](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

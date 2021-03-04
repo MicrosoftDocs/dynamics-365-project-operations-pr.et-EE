@@ -47,3 +47,6 @@ Pärast seda, kui konsultandid on sisestanud projekti jaoks kulunud aja ja tehtu
   
 ### <a name="see-also"></a>Vt ka  
  [Projektijuhi juhend](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

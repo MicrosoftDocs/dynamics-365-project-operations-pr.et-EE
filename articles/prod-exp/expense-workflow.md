@@ -55,3 +55,6 @@ Järgmine protsess on näiteks kuluaruande kuluhalduse töövoost.
 Pärast nende nõuete kontrollimist sisestatakse kuluaruanne.
 
 Pärast kuluaruande sisestamist on kuluaruande jaoks lubatud maksta ja töötajale makstakse hüvitis.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

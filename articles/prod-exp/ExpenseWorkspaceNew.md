@@ -78,3 +78,6 @@ Järgmised funktsioonid on olemas olemasoleval lehel, kuid uuel lehel neid veel 
 - Reatasemel töövoog
 - Ajutine kinnitaja tugi
 - Täpsem täpsustamine
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

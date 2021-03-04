@@ -73,3 +73,6 @@ Project Service’i värskenduste kohta leiate teavet teemast [Dynamics 365 väl
 >[!Note]
 > - Kuupäevad kõigis piirkondades, v.a riigiasutuste ühispilvkeskkond (GCC), näitavad järgmise automaatse värskendamise aega. GCC kuupäevad näitavad versiooni saadavust. Praegu neid piirkondi automaatselt ei värskendata.
 > - Kõigi muude piirkondade puhul, kui enamasti peaksid värskendused toimuma planeeritud ööl, võivad pikemat aega nõudvad värskendused toimuda nädalavahetuse pimedal ajal, mis on tähistatud veerus **Plaanitud kuupäev**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

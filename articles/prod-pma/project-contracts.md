@@ -344,3 +344,6 @@ Esimesel kuul registreerisid projekti konsultandid kokku 800 tundi. Projektile a
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

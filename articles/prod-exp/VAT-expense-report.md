@@ -72,3 +72,6 @@ Kui Arnie on valmis saatma kuluaruande andmed kolmanda osapoole tarnijale, kes e
 Arnie peab kontrollima, et kuluaruande tehingud vastavad käibemaksutagastuse tingimustele, ja et digitaalsed kviitungid on aruannete juurde manustatud. Selleks et hakata sobilikke kulusid siseriiklikuks maksutagastuseks töötlema, avab Arnie lehe **Kulu maksutagastus** ja valib kontrollimist vajava kuluaruande. Ta kontrollib, et kviitungid on töötaja asemel ettevõtte nimel. Käibemaksutagastuseks peavad kviitungid olema ettevõtte nimel. Seejärel kontrollib Arnie, et rakendati õiget käibemaksurühma ja kauba käibemaksukoodi.
 
 Kui Arnie saab paberkandjal kviitungeid, muudab ta kuluaruande olekuks **Tagasimakseks valmis**. Seejärel saab ta esitada tagasimakse deklaratsiooni vastava maksuhalduri juures. Sellel juhul on vastavaks maksuhalduriks USA Internal Revenue Service (IRS).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

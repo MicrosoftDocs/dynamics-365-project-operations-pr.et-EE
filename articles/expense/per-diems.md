@@ -31,3 +31,6 @@ Päevaraha on hüvitis, mida makstakse töötajale, kes töö tõttu reisib. Kul
     
 ## <a name="submit-expenses-using-per-diem"></a>Kulude esitamine päevarahade abil
 Päevarahade kasutamiseks kulude esitamiseks kasutage kuluaruande loomisel kulukategooriat **Päevarahad**. Sisestage **Päevarahad alates kuupäevast**, **Päevarahad kuupäevani** ja **Päevarahade sihtkoht**. Summa arvutatakse vastavalt päevarahade määradele valitud asukoha jaoks ja eine vähendamine arvutatakse päevaraha määrade tasemete põhjal.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -76,3 +76,6 @@ Avaneb leht **Uus hinnakujunduse dimensiooni väljanimi** suvandi **msdyn_bookab
 5. Lisage suvand **msdyn_projectteam** väljale **Olemi loogiline nimi** ja suvand **msdyn_bookableresourceid** väljale **Välja nimi**. Kirje salvestamine
 
  ![Uus hinnakujunduse dimensioonide välja nimede vorm](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ Järgmises tabelis on loetletud töövoogude tüübid, mida saate valikus **Kulu
 |      <strong>Ettemakse taotlus</strong>      |         Ettemakse taotluste jaoks kinnitamise töövoogude loomine.          |
 |        <strong>Käibemaksu sissenõudmine</strong>        | Käibemaksu (VAT) sissenõudmise kinnitamise töövoogude loomine.  |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

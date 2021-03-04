@@ -34,3 +34,6 @@ Perioodi tüüpide loomiseks ja nendega töötamiseks tehke järgmist.
 4. Valige perioodi tüübi kirje ja seejärel valige käsk **Loo perioodid**, et luua perioodi tüübi jaoks perioodid. Valitud perioodi sageduse põhjal võib teil olla valik määratleda alguskuupäev või loodavate perioodide arv.
 5. Loodud perioodide läbivaatamiseks valige **Perioodid**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

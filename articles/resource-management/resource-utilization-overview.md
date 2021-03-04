@@ -45,3 +45,6 @@ Peale selle tuleb igale broneeritavale ressursile määrata vaikeroll. Avage **R
 Vahekaardil **Project Service** saate ressursi jaoks määrata ka eraldi sihtkasutuse. Seejärel kasutab kasutuse arvutus seda sihtkasutust, et hinnata ressursi sihti, mitte ressursi vaikerolli sihti.
 
 Ressursi jaoks kuvatakse kasutus ainult juhul, kui selle ressursi ruudustikus kuvatakse perioodi jooksul kinnitatud, arveldatav aeg.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -107,3 +107,6 @@ Enda protsessi voo loomiseks projekti üksuse jaoks tehke järgmist.
 
    ![Kuvatõmmis projekti üksuse vaadete muutmisest](media/FAQ-Customize-BPF-8-720.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

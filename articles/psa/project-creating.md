@@ -149,3 +149,6 @@ Eelkäijateta lehesõlme ülesande alguskuupäev on vaikimisi projekti ajakava a
 ### <a name="manual-scheduling"></a>Käsitsi plaanimine.
 
 Kui automaatse kavandamise reeglid ei vasta teie vajadustele, saate tööülesande režiimi seada väärtusele **Käsitsi ajastatud**. Sellega lõpetab plaanimismootor teiste plaanimisatribuutide väärtuste arvutamise. Sõltumata töörežiimist, kui määrate ülesannete jaoks eelkäijad, mõjutate alati sõltuva ülesande alguskuupäeva.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

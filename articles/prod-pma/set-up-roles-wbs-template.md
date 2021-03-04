@@ -107,3 +107,6 @@ WBS-i on lisatud täiendavad valikud, et saaksite neid paremini kasutada.
     > Teile ei kuvata hoiatust, et määratud ressurss on nüüd 2, kuna ressursside arvuks jääb 1.
 
 14. Kontrollige lehel **Tööjaotuse struktuur** ressursi määramist WBS-ile ja seejärel valige käsk **Salvesta**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

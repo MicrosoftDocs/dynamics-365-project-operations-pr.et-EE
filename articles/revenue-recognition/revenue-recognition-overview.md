@@ -60,3 +60,6 @@ Rakenduses Dynamics 365 Project Operations erinevad tulu kajastamise põhimõtte
 [Tulukalkulatsioonide haldamine](rev-rec-completed-contract-method.md)
 
 [Kulu meetodi lõpetamiseks](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

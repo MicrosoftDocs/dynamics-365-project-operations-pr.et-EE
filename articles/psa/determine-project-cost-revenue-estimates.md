@@ -81,3 +81,6 @@ Projektis tekkiv kulu, mis pole otseselt seotud tööjõukuluga, saab kajastada 
   
 ### <a name="see-also"></a>Vt ka  
  [Projektijuhi juhend](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

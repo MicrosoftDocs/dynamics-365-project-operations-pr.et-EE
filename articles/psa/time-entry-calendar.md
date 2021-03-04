@@ -42,3 +42,6 @@ Kalender ei toeta üksikute kalendriüksuste toiminguid ja te ei saa esitamiseks
 ## <a name="extensibility"></a>Laiendatavus
 
 Lehel **Ajakirjed**, millel on olemas ajakirjete ruudustik, saate lisada kohandatud välju, seadistada otsinguvälju ja luua kohandatud vaateid. Samuti saate seadistada kohandatud äriloogika, mis põhineb kohandatud väljadel valitud või sisestatud väärtustel.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

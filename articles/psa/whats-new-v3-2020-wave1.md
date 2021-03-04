@@ -43,3 +43,6 @@ Lisaks, kui teil on mis tahes kohandatud rakenduste moodulid, mis sisaldavad ka 
 
 ### <a name="currently-extended-time-entry-changes"></a>Praegu laiendatud ajakirje muudatused
 Selleks, et vähendada mõju praegustele ajakirjete kasutajatele, on see rollimuutus ainuke põhiline nõue ajakirje kasutamise jätkamiseks. Kui olete loonud kohandatud vaated või eraldi ajakirjega kogemused, peate seadistama väljad **Ajakirje sätted** õigetele PSA väärtustele.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

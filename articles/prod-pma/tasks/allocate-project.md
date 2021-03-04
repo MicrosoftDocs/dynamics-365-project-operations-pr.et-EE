@@ -44,3 +44,6 @@ Pärast eelarve või eelarve redakstioon on reserveeritud, saate eraldatud summa
 10. Kui reserveering on nii, nagu soovite, klõpsake projekti eelarve lehel nuppu Esita, et saata eelarve või eelarve redaktsioonid kinnitamise töövoogu.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

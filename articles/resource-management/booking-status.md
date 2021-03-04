@@ -20,3 +20,6 @@ ms.locfileid: "4514513"
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
 Oma organisatsiooni broneeringu oleku seadistamiseks saate kasutada rakenduses Universal Resource Scheduling lahenduse Dynamics 365 Field Service jaoks mõeldud funktsioone. Selle seadistuse lõpuleviimise kohta leiate lisateavet teemast [Broneeringu oleku seadistamine](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

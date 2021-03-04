@@ -97,3 +97,6 @@ Nii ruudustiku vaates kui ka ajafaasi vaates saate valida, milliseid välju kuva
 ## <a name="expense-estimates"></a>Kuluprognoosid
 
 Ruudustiku vaate nupp **Lisa uus kuluprognoos** võimaldab teil talletada kõik projektiga kaasnevad, kuid mitte otseselt tööga seotud kulud. Saate talletada kuluprognoosid konkreetse ülesande või kogu projekti jaoks. Valige kulukategooriad ja esialgne kuupäev, mil kulu esineda võib. Kui seotud kulude hinnakirjas ja müügihinnakirjas on vaikehinnad (või kui hinnalisandi protsendid on kulukategooriate jaoks määratletud), sisetatakse need seostamise toimumisel prognoosireale automaatselt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Kui kasutaja valib summeerimise tehingu klassi, kategooria ja lehe ülesande põ
 | Ülesanne A | Lennupiletid | 1.10.2020 | 4 | 400 | 1600 |
 | Ülesanne B | Hotell | 1.10.2020 | 4 | 200 | 800 |
 | Ülesanne C | Hotell | 1.11.2020 | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

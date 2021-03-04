@@ -33,3 +33,6 @@ Töötaja isiklike kulude käsitlemiseks on kaks viisi.
 - **Maksab ettevõte** – teie organisatsioon maksab kogu ettevõtte krediitkaardi arve ja seejärel debiteerib töötaja kontolt tema isikliku kulu.
 
 Saate valida meetodi, mida teie ettevõte kasutab, lehel **Kulu haldamise parameetrid**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

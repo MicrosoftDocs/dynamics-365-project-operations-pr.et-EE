@@ -106,3 +106,6 @@ Kui laiendate selle meeskonnaliikme kirje rida, näete mõlema tööülesande ja
 ### <a name="estimates-grid"></a>Prognooside ruudustik 
 
 Ruudustikus **Prognoosid** hinnatakse sama ressursi määramist erinevalt. **Ülesande A** ressursi määramise hind on tehtud kindlaks, kasutades atribuudi **Roll** väärtust suvandist **Konsulteeriv müügivihje**. **Ülesande B** sama ressursi määramise hind on tehtud kindlaks, kasutades atribuudi **Roll** väärtust suvandist **Võrgutehnik**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

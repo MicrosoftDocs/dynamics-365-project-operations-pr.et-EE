@@ -41,3 +41,6 @@ See teema kehtib rakenduse Dynamics 365 Project Operations järgmistele komponen
 | **Müügivõimaluse haldus** | 2040713 | Parandatud on skripti tõrge, mis tekib lepingust arve loomisel kui Field Service on installitud. |
 | **Projekti plaanimine ja jälgimine** | 2090202 | Märgitud on ärireeglid, mida ei kasutata enam kui **Iganenuid**. |
 | **Aeg ja kulu** | 2091249 | Süvendati kontrolli, et kasutajad ei saaks muuta esitatud või kinnitatud ajakirje tööülesannet. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

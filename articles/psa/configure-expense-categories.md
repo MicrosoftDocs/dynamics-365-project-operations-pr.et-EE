@@ -55,3 +55,6 @@ Igal kulukategoorial võib olla oma ühikurühm ja ühik. Saate määratleda hin
   
 ### <a name="see-also"></a>Vt ka  
  [Project Service Automation konfigureerimine](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

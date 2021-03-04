@@ -87,3 +87,6 @@ Kui olete valmis esialgselt reserveeritud meeskonnaliikme ressursi kindlaks mees
 2. Kui ajakavapaneel avatakse, laiendage ressurssi ressursi reserveerimiste vaatamiseks. Reserveerimine kuvatakse olekuga Esialgne.
 3. Paremklõpsake reserveerimist ja valige jaotises Reserveeringute haldamine Fikseeritult reserveerimine ja seejärel Fikseeritud. Nüüd on broneeringu olek Fikseeritud.
 4. Pärast ajakavapaneeli sulgemist näete, et ressursi tunnid meeskonnaliikme ruudustikus on muudetud olekust Esialgne olekusse Fikseeritud. Nüüd saate ressursile ülesandeid määrata (eeldusel, et kindlalt reserveeritud tunnid ja ülesande täitmiseks kuluvad tunnid on omavahel kooskõlas). Pange tähele, et kui järgisite üldise ressursi täitmiseks ülalpool 3. üksuses toodud toiminguid esialgselt reserveeritud ressursi muutmiseks kindlaks reserveerimiseks, siis eemaldatakse üldine meeskonnaliige meeskonnast.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

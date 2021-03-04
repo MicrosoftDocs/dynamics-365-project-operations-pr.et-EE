@@ -93,3 +93,6 @@ Project Operationsi lepingud on koostatud Dynamics 365 Salesi lepingute põhjal.
 - Project Operationsi lepingutel on nende oma vorm ja kasutajaliidese elemendid, ärireeglid, äriloogika lisandmoodulid ja kliendipoolsed skriptid, mis muudavad need Salesi lepingutest erinevaks.
 
 Neil põhjustel ei peaks te kasutama müügi ja projekti lepingut vaheldumisi.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

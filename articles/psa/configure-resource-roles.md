@@ -59,3 +59,6 @@ Rollid on olulised projekti planeerimisel, kui määrate ressursinõudeid või p
   
 ### <a name="see-also"></a>Vt ka  
  [Ressursside seadistamine](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Reegel: projekti ja teatud tehinguklassi saab kaasata ainult ühele lepingu proj
 | C1       | CL2           | P1      | No           | Ja             | No          | Kehtib           | Projekti P1 aeg ja tasud kaasatakse CL1-s. Projekti P1 kulu on kaasatud reale CL2. </br>   Igale lepingureale kaasatava puhul ei esine ülekatteid ja seega need kehtivad.  |
 | C1       | CL1           | P1      | Ja          | Ja             | Ja         | Kehtetu       | Rikub reeglit. Projekti P1 aeg, kulu ja tasud kaasatakse kahe lepingu ridadel.                                                                                               |
 | CL2      | CL2           | P1      | Ja          | Ja             | Ja         | Kehtetu       | Rikub reeglit. Projekti P1 aeg, kulu ja tasud kaasatakse kahe lepingu ridadel.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

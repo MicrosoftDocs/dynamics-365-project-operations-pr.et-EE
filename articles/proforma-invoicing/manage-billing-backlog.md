@@ -38,3 +38,6 @@ Arveldamata müügi tegelikud näitajad, mille oleku **Mitteületatav** väärtu
 Mitme kliendiga lepinguridade korral, millel on aja- ja materjalikulu arveldusmeetod, mil aeg ja kulud kinnitatakse, luuakse iga lepingurea jaoks iga kliendi kohta eraldi arveldatud müügi tegelik näitaja, mis on määratletud lepingurea iga kliendi jaoks määratletud arveldusprotsendi alusel. Vaates **Aja- ja materjalikulu arvete võlgnevused** näete üksikuid kliendipõhiseid arveldamata müügi tegelikke näitajaid. Kõik need arveldamata müügi tegelike näitajate kirjed saab märkida kui **Arveldamiseks valmis**, sellest vaatest eraldi.
 
 Selles vaates kuvatakse arve mustandi arveldamata müügi tegelik näitaja, mille väli **Arvelduse olek** on **Kliendi arve on loodud**. Kui arve mustand kinnitatakse, muutub selle kirje arveldamise olekuks **Kliendi arve on sisestatud**. Selle oleku väärtuse värskendamist, kui see on selles olekus, kohandatud koodi abil ei soovitata. Projekt Operations ei tööta õigesti, kui oleku väärtused on värskendatud kohandatud koodiga.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Projekti etapid võivad olla projekti elutsükli juhiseks. Saate määratleda pr
 4. Valige loendis eelmääratletud või kasutaja määratletud etapp, mida soovite muuta. 
 5. Sisestage väljal Projekti etapp uus nimi.
 6. Klõpsake nuppu Salvesta.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

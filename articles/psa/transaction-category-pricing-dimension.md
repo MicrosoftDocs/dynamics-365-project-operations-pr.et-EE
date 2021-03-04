@@ -53,3 +53,6 @@ Järgmises tabelis on esitatud terviklik loend valmisvormidest ja -vaadetest ole
 2. Pange tähele, et lehe **Parameetrid** vahekaardil **Summapõhised hinnakujunduse dimensioonid** näitab vahekaardil olev ruudustik olemi **Hinnakujunduse dimensioonid** kirjeid.
 3. Lisage sellesse loendisse **Kandekategooria** ja seadke väljade **Kehtib kulu kohta** ja **Kehtib müügi kohta** väärtusteks **Jah**.
 4. Valige väljast **Dimensiooni tüüp** väärtus **Summapõhine** ja seejärel valige kulu ja müügiga seotud **Kandekategooria** jaoks prioriteet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

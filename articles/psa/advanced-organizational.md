@@ -167,3 +167,6 @@ Kui teie ettevõte tegutseb ühe üksusena, millel on üks kulude hinnakiri, ei 
 Kui projekt luuakse eraldi, põhineb projekti vaiketellija selle loonud kasutajal. See kasutaja on ka vaikimisi projektijuht. Kui projekt on vastendatud mõne sellise müügi olemiga (nt hinnapakkumise või projekti lepinguga), põhineb projekti tellija selle asemel müügi olemil. Sellisel juhul võidakse projekti prognoosid ümber arvutada, kuna kulude hinnakirja kasutatakse hinnanguliste kulu muudatuste arvutamiseks, kui muudetakse tellijat. Hinnakirja abil arvutatakse prognoositavad müügihinnad, mida muudetakse nii, et need oleksid hinnapakkumises oleva projekti hinnakirjaga sünkroonis.
 
 Projekti väljad **Tellijad** ja **Valuuta** on redigeerimiseks suletud, kuna need peavad olema sünkroonitud olemi (hinnapakkumise või projekti leping) väärtustega, millega projekt on vastendatud.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

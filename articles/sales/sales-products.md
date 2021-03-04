@@ -124,3 +124,6 @@ Näiteks juhul, kui on olemas järgmised atribuudid.
 - **Toote SKU** 
 
 Atribuute **Kasutajate arv** ja **Kuude arv** saab märgistada koguse tegurina, redigeerides tootesarja atribuute. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ Helle Ives, GBPM-i palgal olev arendaja paneb kirja 10 töötundi ettevõtte USP
     - Krediit: projekt – viitlaekumine 120 USD
 
     Süsteem on nüüd valmis looma kontsernisisese kliendiarve.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

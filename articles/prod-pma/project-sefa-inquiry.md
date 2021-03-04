@@ -104,3 +104,6 @@ Föderaalse rahastamise kulude ajakava päring sisaldab järgmisi veerge.
 - Föderaalse riigiabi kataloogi
 - Kviitungid
 - Kulutused
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Saate oma puhkuseaega või puudumist üldjoontes samal viisil kui projektis aega
   
 ### <a name="see-also"></a>Vt ka  
  [Aja-, kulu- ja koostööjuhend](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

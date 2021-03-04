@@ -170,3 +170,6 @@ Järgmised plaanitud, tegelike ja ülejäänud kulude ja müügi väljad on olem
 * msdyn\_actualsales
 * msdyn\_remainingcost
 * msdyn\_remainingsales
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

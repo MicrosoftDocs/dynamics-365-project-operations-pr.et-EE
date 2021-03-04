@@ -34,3 +34,6 @@ ms.locfileid: "5145713"
 Kõik projekti jooksul toimuvad finantstehingud salvestatakse. Need kanded kirjendatakse **tegelike andmetena**. Järgmistes tabelites on esitatud mitmesugused tegelike andmete tüübid, mis olenevad sellest, kas projekt on aja-ja materjalikulu või fikseeritud hinnaga või sisemine projekt, aga ka sellest, kas see eelmüügi etapis.
 
 > ![Tabel, mis näitab, kuidas tegelikke andmeid salvestatakse](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

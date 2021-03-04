@@ -46,3 +46,6 @@ Selle teema juhiste täitmiseks veenduge, et teile on määratud süsteemiadmini
 3. Sisestage väljale **Kogus** ühikus sisalduv kogus. Kui karp sisaldab nt kahte tükki, sisestage „2”. 
 4. Valige väljal **Põhiühik** põhiühik, et luua ühiku jaoks madalaim mõõtühik. Näiteks võite valida "Tk".
 5. Valige **Salvesta**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

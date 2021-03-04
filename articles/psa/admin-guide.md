@@ -52,3 +52,6 @@ See juhend abistab teid installimisel ja konfigureerimisel.
  [Kontohalduri juhend](../psa/account-manager-guide.md) [Projektijuhi juhend](../psa/project-manager-guide.md)   
  [Ressursihalduri juhend](../psa/resource-manager-guide.md)   
  [Aja-, kulu- ja koostööjuhend](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

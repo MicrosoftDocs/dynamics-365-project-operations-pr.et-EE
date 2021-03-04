@@ -73,3 +73,6 @@ Olemil põhinevate dimensioonide andmeid saate luua ka käsitsi, või kasutada r
 > ![Standardse jaotise olemi andmete Näidisandmete ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

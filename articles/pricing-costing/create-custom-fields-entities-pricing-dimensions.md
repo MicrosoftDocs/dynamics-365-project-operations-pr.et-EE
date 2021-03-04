@@ -77,3 +77,6 @@ Olemil põhinevate dimensioonide andmeid saate luua ka käsitsi, või kasutada r
 5. Korrake etappe 1–3, et luua teine standardne suvandile Süsteemi vaneminsener.
 
 > ![Näidisandmed olemi Standardne pealkiri jaoks](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

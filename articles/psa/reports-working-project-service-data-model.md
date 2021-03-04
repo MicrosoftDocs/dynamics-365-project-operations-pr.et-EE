@@ -123,3 +123,6 @@ Kui töötate olemiga **Tegelik**, on oluline mõista, millised kanded on olemis
 Olem **Kande päritolu** talletab kirje **Tegelik** päritolu ja olem **Kande seos** talletab kirjega **Tegelik** seotud kirjed. Peale selle sisaldab kirje **Tegelik** viiteid projektile, projekti lepingule (tellimus), broneeritavale ressursile ja kliendile.
 
 ![Diagramm, mis näitab kande ühendust, päritolu ja tegelikke seoseid](media/PS-Reporting-image6.png "Diagramm, mis näitab kande ühendust, päritolu ja tegelikke seoseid")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

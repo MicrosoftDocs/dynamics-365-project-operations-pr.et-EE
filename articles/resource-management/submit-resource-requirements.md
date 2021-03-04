@@ -27,3 +27,6 @@ Saate loodud ressursinõude esitada ressursitaotlusena. Taotlus saadetakse seej�
 Üldise meeskonnaliikme taotluse olek muutub olekuks **Esitatud**.
 
 Kui taotlus on täidetud, asendatakse loodud ressurss nimega ressurssiga – seda juhul, kui ressursihaldur täidab nimega ressursi broneeringuga taotluse. Muidu, kui ressursihaldur on teinud nimega ressursi ettepaneku, jääb meeskonnale üldine ressurss ja taotluse olekuks seatakse **Vajab ülevaatamist**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

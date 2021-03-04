@@ -47,3 +47,6 @@ Saate luua konto iga kliendi jaoks, kellega töötate, olgu see projekti hinnapa
   
 ### <a name="see-also"></a>Vt ka  
  [Kontohalduri juhend](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

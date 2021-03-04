@@ -79,3 +79,6 @@ Kulumallide loomiseks tehke järgmist.
 7. Valige vahekaardil **Kategooriad** projekti kategooriad, mille kulumalli reale kaasata.
 8. Valige vahekaardil **Üldine**, kas see rida kaasatakse lõpuleviimise protsendi arvutamisse.
 9. Valige kulu, et viia lõpule lõpuleviimise protsendi arvutamiseks kasutatav meetod.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

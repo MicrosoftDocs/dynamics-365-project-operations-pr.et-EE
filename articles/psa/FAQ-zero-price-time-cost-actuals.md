@@ -66,3 +66,6 @@ Kui te pärast ülaltoodud kolme kontrolli ei näe tegeliku ajakulu kehtivat hin
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

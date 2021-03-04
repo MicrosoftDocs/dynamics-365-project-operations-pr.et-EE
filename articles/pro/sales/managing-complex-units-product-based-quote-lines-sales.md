@@ -45,3 +45,6 @@ Toote atribuutidest koguse tegurite loomiseks toimige järgmiselt.
 6. Salvestage ja sulgege vorm. Korrake neid juhiseid kõigi atribuutide jaoks, mida kasutatakse tootepõhise hinnapakkumise rea koguse arvutamiseks.
 
 Tootepõhise hinnapakkumise rea loomisel on lukustatakse hinnapakkumise rea kogus. Kogus arvutatakse selle hinnapakkumise rea jaoks sisestatud atribuudi väärtuste korrutisena.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Järgmistest teemadest leiate teavet, mis aitab projektijuhtidel prognoosida tö
 - [Projektimallid](project-templates.md)
 - [Projekti etapid](project-stages.md)
 - [Projekti sätted](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

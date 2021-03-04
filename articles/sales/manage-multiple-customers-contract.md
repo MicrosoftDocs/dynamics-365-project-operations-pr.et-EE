@@ -47,3 +47,6 @@ Saate lepingu kliendi luua, uuendada või kustutada lehe **Leping** vahekaardil 
 Saate redigeerida arveldamise jaotumist redugeerides ruudustikku. Kui arveldamise jaotumise protsentide kogusumma ei ole 100 protsenti, ilmneb tõrge. Pärast arveldamise jaotumise protsendi muutmist värskendage leht **Projektileping** tõrke eemaldamiseks.
 
 Võite ka valida projektilepingu kliendi andmeruudustikus suvandi **Jaota ühtlaselt**. Arveldamise jaotumised on jaotatud ühtlaselt kõikide projektilepingu klientide vahel. Kui esineb mis tahes ümardamise tegur, lisatakse tegur ümardamise kliendile. Ühel lepingu kliendil on alati suvandi **Ümardamine** määratud valikule **Jah**. See klient on ümardav klient. Tavaliselt on ümardatav klient ka lepingu peamine klient, kuid seda pole vaja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Project Operationsi müügivõimaluse müügiprotsess on müügivõimaluse müü
 > Kui teie projektipõhine tehing algas müügivõimalusega, on müügivõimaluse müügiprotsess tähtsam.
 
 Saate toote äriprotsessi voog redigeerida või luua oma äriprotsessi voogusid, et vajaduse kohaselt müügiprotsessi jälgida. Lisateavet äriprotsessi voo kohta leiate jaotisest [Äriprotsessi voogude ülevaade](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

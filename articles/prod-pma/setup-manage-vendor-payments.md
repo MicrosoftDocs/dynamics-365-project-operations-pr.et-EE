@@ -80,3 +80,6 @@ Kui hankija lõpetab töö projektiga ja saadab teile arve, peate projekti oleku
 2. Sisestage lehe **Hankija arved maksa kui on makstud tingimustega** otsinguvälja väärtused, et leida hankija arve, mida soovite üle vaadata, ja seejärel valige **Otsi**.
 3. Valige kiirvahekaardil **Hankija arve read** need read, mida soovite muuta.
 4. Kui **Maksa kui on makstud** tingimused on arve rea kohta täidetud, valige **Vabasta hankija makse**. Valik **Maksa kui on makstud** kustutatakse ja välja **Maksmiseks valmis** väärtus muudetakse olekusse **Jah**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

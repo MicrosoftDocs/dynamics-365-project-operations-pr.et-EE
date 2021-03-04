@@ -43,3 +43,6 @@ Allpool on projektipõhise lepingurea kliendikirje rea **Leping** väljad, et ne
 Arveldamise jaotumise protsente saab redigeerida ruudustikus. Kui arveldamise jaotumise protsentide kogusumma ei ole 100 protsenti, ilmneb tõrge. Pärast arveldamise jaotumise protsentide muutmist värskendage leht tõrke eemaldamiseks.
 
 Võite ka valida lepingurea kliendi andmeruudustikus suvandi **Jaota ühtlaselt**. See toiming omistab arvelduse jaotused ühtlaselt kõikidele lepingurea klientidele. Kui esineb mis tahes ümardamise tegur, lisatakse see ümardamise kliendile. Üks lepingurea klient märdistatakse alati **ümardamise** kliendina koos lipuga **Ümardamine** seatud valikule **Jah**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

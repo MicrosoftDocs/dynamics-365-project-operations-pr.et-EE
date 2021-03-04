@@ -65,3 +65,6 @@ Pärast hankijale hankija kinnipidamise tingimuste loomist saate need tingimused
 6. Kui projektil on ka hankija jaoks seadistatud tasulised (PWP) tingimused, sisestage projekti läviprotsent väljale **PWP läviprotsent**.
 
 Hankija kinnipidamise tingimused kuvatakse ka ostutellimustel, mille olete hankija jaoks loonud.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

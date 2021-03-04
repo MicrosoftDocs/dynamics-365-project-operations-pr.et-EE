@@ -52,3 +52,6 @@ Lisateavet aruandluse kohta rakenduses PSA leiate järgmistest teemadest.
 - [Project Service’i andmemudeliga töötamine](reports-working-project-service-data-model.md)
 - [Armatuurlauad](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

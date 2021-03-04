@@ -43,3 +43,6 @@ Lahendatud on järgmised probleemid.
 
 - Lõppkuupäevad sisestatakse ajakirje loomisel automaatselt, kui kestus on null.
 - Kasutajad saavad muuta kinnitatud või esitatud ajakirje ülesannet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -26,3 +26,6 @@ Teabe saamiseks selles värskenduses sisalduvate paranduste kohta logige sisse t
 ## <a name="regulatory-updates"></a>Regulatiivsed uuendused
 
 Lisateavet teenuse Dynamics 365 Finance and Operations rakenduste regulatiivsete uuenduste kohta vaadake teemast [Regulatiivsed uuendused](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Saate ka LCS-i sisse logida ja vaadata kavandatud regulatiivseid värskendusi, kasutades probleemi otsimise tööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

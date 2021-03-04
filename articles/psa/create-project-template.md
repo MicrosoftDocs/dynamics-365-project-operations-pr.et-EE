@@ -62,3 +62,6 @@ Projektimallid säästavad teie aega, kui ettevõte teeb regulaarselt pakkumisi 
   
 ### <a name="see-also"></a>Vt ka  
  [Projektijuhi juhend](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -33,3 +33,6 @@ Kõigi projektilepingute loendit saab vaadata loendi **Lepingud** lehel.
 2. Teiste filtreeritud vaadete valimiseks valige suvand **Vaatevahetaja** (vaate nime kõrval olev ripploendi nool). Te saate luua kohandatud filtreerimiskriteeriumitega oma vaateid.
 
 Lepinguid saab luua või kustutada sellelt loendi lehelt või üksikasjade lehtedelt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

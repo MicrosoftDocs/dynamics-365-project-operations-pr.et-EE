@@ -160,3 +160,6 @@ Kui loote kuluaruande poliitikad, saate aidata oma organisatsioonil aega ja raha
 - Millal poliitika aegub?
 - Mis on poliitika reegel?
 - Mis on poliitika reegli tulemus?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

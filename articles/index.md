@@ -42,3 +42,6 @@ Lisateavet vaadake teemast
 - [Rakenduse Project Operations ülevaade](https://dynamics.microsoft.com/en-us/project-operations/overview/)
 - [Rakenduse Dynamics 365 Project Operations 2020. aasta 1. laine väljaande ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

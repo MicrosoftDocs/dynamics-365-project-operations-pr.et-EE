@@ -84,3 +84,6 @@ Fabrikam UK-Roboticsi omahinnakirjas saab kulumäärasid väljendada järgmiselt
 | Arendaja | Fabrikam UK | 115 GBP |
 
 Omahinnakiri võib pakkuda tööjõukulu määrasid mitmes valuutas. Projekti kuluprognoosi loomisel teisendab Project Operations need kulumäärad projekti valuutasse ja kuvab need kasutajale. Kui ajakirje kinnitatakse ja luuakse tegelik kulu, hinnastatakse tegelik kulu omahinnakirja vastava rolli hinnarea valuutas. Ühe projekti aja tegeliku kulu saab kirjendada mitmes valuutas. Kuid projekti tasandil tegeliku tööjõu kulu ümberarvestamisel või summeerimisel teisendab Project Operations kõik tööjõukulu summad projekti valuutasse, mida kasutaja saab vaadata.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

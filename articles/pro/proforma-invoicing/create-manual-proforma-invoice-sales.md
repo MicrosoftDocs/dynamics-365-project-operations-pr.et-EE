@@ -35,3 +35,6 @@ Kõik loodud projekti arved on saadaval lehe **Arve** jaotises **Arveldamine** a
 Proforma arve saab luua ka **Projekti lepingu** üksikasjade lehelt. Süsteem kontrollib, et projekti lepingul on **Arveldamiseks valmis** võlgnevus tänasest kuupäevast varasem. Nendest lepingutest loob süsteem iga lepingurea klientide arvu põhjal näidisarvete mustandid.
 
 Kui loodud on üks näidisarve, avaneb leht **Arve**. Kui selle projektilepingu jaoks luuakse mitu arvet, avaneb loendileht **Arved**, et kuvada kõiki loodud arveid.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

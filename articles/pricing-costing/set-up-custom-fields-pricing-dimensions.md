@@ -96,3 +96,6 @@ Dimensiooni prioriteedi seadistamine aitab hinnakujundusel luua hinda isegi siis
 
 - **Kuluprioriteet**: dimensiooni kuluprioriteedi väärtus näitab seadistatud kuluhindadega vastendamisel selle dimensiooni kaalu. **Kuluprioriteedi** väärtus peab olema kordumatu nende dimensioonide seas, mis **kehtivad kulu kohta**.
 - **Müügiprioriteet**: dimensiooni müügiprioriteedi väärtus näitab seadistatud müügihindade või arveldusmääradega vastendamisel selle dimensiooni kaalu. **Müügiprioriteedi** väärtus peab olema kordumatu nende dimensioonide seas, mis **kehtivad müügi kohta**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

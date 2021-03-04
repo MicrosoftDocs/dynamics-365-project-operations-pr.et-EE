@@ -66,3 +66,6 @@ Projektijuhina võita tahta broneerida projektile ressursi, kuid teate ressursi 
 
 > [!NOTE]
 > See meetod ei loo ressursi jaoks ühtegi broneeringut. Selle asemel lisab see ressursi meeskonnale. Pärast meeskonnaliikme projektle lisamist saab projektijuht kasutada broneeringu haldamist või broneeringu pikendamist, et lisada nõutavad broneeringud ressursile.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

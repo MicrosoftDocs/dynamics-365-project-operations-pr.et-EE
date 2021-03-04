@@ -124,3 +124,6 @@ Järgmisel joonisel on toodud andmete integratsioonis malli ülesande vastendami
 > Vastendus näitab välja teavet, mis sünkroonitakse Project Service Automationist rakendusse Finance.
 
 [![Malli vastendamine Project Service Automationist rakendusse Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

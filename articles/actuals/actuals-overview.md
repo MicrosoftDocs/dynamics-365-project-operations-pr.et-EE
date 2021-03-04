@@ -342,3 +342,6 @@ Project Operations salvestab projekti jooksul toimuvad finantstehingud. Need kan
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

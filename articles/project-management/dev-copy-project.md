@@ -112,3 +112,6 @@ Järgmine näide näitab, kuidas kutsuda **CopyProsource'i** kohandatud toimingu
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Selles teemas loetletakse PSA V3 värskenduse väljalaske 14 uusi või muudetud 
      - Parandatud: kogu müügihinda ei arvutata enne, kui kasutaja sisestab ka projekti kuluprognoosi omahinna.
      - Parandatud: hinnapakkumise sulgemine olekus **Võidetud** ebaõnnestub, kui seotud projekti leping ei ole olekus **Mustand**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

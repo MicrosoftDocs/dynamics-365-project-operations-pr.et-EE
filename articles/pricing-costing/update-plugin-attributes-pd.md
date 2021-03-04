@@ -52,3 +52,6 @@ Lisandmoodulite värskendamiseks ja uuesti registreerimiseks peate tegema järgm
 7. Lehe sulgemiseks valige **OK** ja valige seejärel käsk **Värskenda etappi**.
 8. Korrake etappe 2–7 teise lisandmooduli **PreOperationQuoteLineDetail** jaoks. Selle lisandmooduli jaoks peate värskendama etappi **Üksuse msdyn_quotelinetransaction värskendamine**.
 9. Sulgege tööriist **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

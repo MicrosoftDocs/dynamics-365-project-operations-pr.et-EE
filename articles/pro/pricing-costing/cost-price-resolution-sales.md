@@ -36,3 +36,6 @@ Kui omahinnakiri on lahendatud, vastendatakse aja prognoosi real olevad väljad 
 Kulu prognoositavad read viitavad projekti kulu ja kulu prognoositavate ridade hinnapakkumise ja lepingurea üksikasjadele.
 
 Kui kuluhinnakiri on lahendatud, kasutab süsteem kuluprognoosi ridade välju **Kategooria** ja **Üksus**, et vastendada need lahendatud hinnakirja ridadega **Kategooria hind**. Kui süsteem leiab kategooria hinna rea, millel on väljade **Kategooria** ja **Ühik** kulumäära kombinatsioon, mis on vaikimisi kulumäär. Kui süsteem ei suuda vastendada väärtusi **Kategooria** ja **Üksus**, või ei suuda leida vastavat kategooria hinnarida, kuid hinnakujundusmeetodiks ei ole **Hind üksuse kohta**, on kulumääraks vaikimisi null (0).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Ressursi ajastamise jõudluse suurendamise lubamiseks läbige järgmised etapid.
 
 > [!NOTE]
 > See jaotab üldandmed tabelisse **ResRollup** kõigile teie keskkonna ettevõtetele, nii et pakett-töö tuleb käivitada ainult ühes juriidilises isikus. Seda pakett-tööd on vaja kõigi **Ressursi saadavuse** vaadete jaoks. Kui seda pakett-tööd ei käivitata, siis andmed **ResRollup** luuakse lennult, mis võib võtta aega.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

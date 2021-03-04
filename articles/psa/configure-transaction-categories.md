@@ -43,3 +43,6 @@ Tehingukategooriate seadistamine kulukategooriate ülemkogumi määratlemiseks.
   
 ### <a name="see-also"></a>Vt ka  
  [Project Service'i konfigureerimine](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

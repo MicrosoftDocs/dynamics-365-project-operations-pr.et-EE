@@ -81,3 +81,6 @@ Lahendatud on järgmised probleemid.
 - Nupp **Värskenda tegelikud näitajad** arvutab kokkuvõtte ülesanded valesti.
 - Microsoft Projecti lisandmoodul: parandage nullviite tõrge, kui mõnel meeskonnaliikmel on tühi ressursiühik.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

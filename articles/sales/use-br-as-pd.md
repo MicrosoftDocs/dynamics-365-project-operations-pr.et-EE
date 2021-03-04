@@ -78,3 +78,6 @@ Suvandi **msydn_bookableresource** hinnakujunduse dimensiooni kirjet tuleb selle
 5. Lisage lisandmoodul **msdyn_bookableresourceid** suvandile **Väljanimi**.
 
  ![Uus hinnakujunduse dimensioonide välja nimede vorm](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

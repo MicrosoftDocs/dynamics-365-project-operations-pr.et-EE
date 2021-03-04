@@ -144,3 +144,6 @@ Kasutage lisandmoodulite kinnitusi kõikide nende kinnituste jaoks, mis vajavad 
 
 ### <a name="copying-time-entries"></a>Ajakirjete kopeerimine
 Kasutage vaadet **Kopeeri ajakirje veerge**, et määratleda ajavahemiku jooksul kopeeritavate väljade loend. Väljad **Kuupäev** ja **Kestus** on nõutavad ja neid ei tohi vaatest eemaldada.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

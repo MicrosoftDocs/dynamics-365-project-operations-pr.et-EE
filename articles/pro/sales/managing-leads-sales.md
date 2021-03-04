@@ -72,3 +72,6 @@ Müügivihjest müügivõimaluseni äriprotsess toetab järgmisi etappe.
 | Arendage | Müügivõimalus | Müügivõimaluse arendamine, et lisada lisateavet seotud töö, peamiste sidusrühmade ja konkurentide kohta. |
 | Soovita | Müügivõimalus | Ettepaneku väljaarendamine ja sisemise läbivaatuse meeskonnalt heakskiidu saamine. |
 | Saate dialoogiakna sulgeda | Müügivõimalus | Tehingu sulgemiseks müügivõimaluse võitmine. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

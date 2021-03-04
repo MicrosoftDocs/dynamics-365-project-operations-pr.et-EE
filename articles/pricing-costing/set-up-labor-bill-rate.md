@@ -55,3 +55,6 @@ Näiteks Fabrikam India robootika allüksuse arendaja, kes töötab USA projekti
     | Arendaja | Fabrikam US | Fabrikam US-Robotics | 150 USD |
 
 3. Lisage müügi hinnakiri **Fabrikam USA arveldusmäärad** projekti lepingu või teatud konto projekti hinnakirjale.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

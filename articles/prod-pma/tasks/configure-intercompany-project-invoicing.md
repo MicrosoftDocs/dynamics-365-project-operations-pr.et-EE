@@ -64,3 +64,6 @@ Selles teemas kirjeldatakse, kuidas seadistada projekti arveldamist kahe ettevõ
 32. Väljale **Hinnakujundus** sisestage arv.
 33. Valige **Salvesta**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

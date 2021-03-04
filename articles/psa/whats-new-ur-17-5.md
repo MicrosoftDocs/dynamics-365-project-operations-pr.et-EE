@@ -44,3 +44,6 @@ Selles teemas loetletakse V3 värskenduse väljalaske 17.5 uusi või muudetud fu
 - Parandatud: käsitletakse 24-tunniste töötundide malli poolt ülesandele valesti lisatavat täiendavat päeva.
 - Parandatud: käsitletakse +13 GMT töötundide malli ülesannete valet nihutamist päev varemaks.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -127,3 +127,6 @@ Uue tööjaotuse struktuuri loomiseks rakendust Microsoft Project Client kasutad
 8.  Valige ressurssidega kasutamiseks suvand **Kalender**.
 
 11. Klõpsake **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

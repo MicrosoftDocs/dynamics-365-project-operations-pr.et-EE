@@ -55,3 +55,6 @@ Müügivõimalused on soojad müügivihjed klientidelt, kes on huvitatud teie te
   
 ### <a name="see-also"></a>Vt ka  
  [Kontohalduri juhend](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

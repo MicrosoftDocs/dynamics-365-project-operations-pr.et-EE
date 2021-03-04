@@ -240,3 +240,6 @@ Mobiilirakenduse Dynamics 365 Unified Ops allalaadimine ja installimine.
 22. Valige käsk **Esita**.
 23. Sisestage kinnitaja jaoks mis tahes kommentaarid.
 24. Valige nupp **Valmis**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

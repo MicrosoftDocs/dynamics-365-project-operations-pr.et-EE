@@ -231,3 +231,6 @@ Järgmises tabelis kirjeldatakse, kuidas sünkroonitakse andmeid rakenduste Proj
 
 ### <a name="see-also"></a>Vt ka  
  [Projektijuhi juhend](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

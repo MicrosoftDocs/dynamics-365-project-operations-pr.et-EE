@@ -47,3 +47,6 @@ Ajaühikute konfigureerimine tootekataloogis, mida kasutate oma projektide plane
   
 ### <a name="see-also"></a>Vt ka  
  [Project Service'i konfigureerimine](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

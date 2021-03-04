@@ -83,3 +83,6 @@ Kui peate kasutama Power Queryd, järgige seda suunist.
 Järgmisel joonisel on toodud andmete integratsioonis malli ülesande vastendamiste näide. Vastendus näitab välja teavet, mis sünkroonitakse Project Service Automationist rakendusse Finance.
 
 [![Malli vastendamine](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

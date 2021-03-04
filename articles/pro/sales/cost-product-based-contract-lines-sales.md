@@ -30,3 +30,6 @@ Kui kataloogitoote jaoks luuakse tootepõhine lepingurida, siis rea kulu vaikev�
 Tootepõhise lepingurea ühiku omahind võimaldada iga ühiku müügi jaoks erineva toote omahinna. Kuigi see ei ole alati vajalik, on olemas teatud stsenaariumid, mille korral tarnija teeb toote omahinna osas kliendile allahindluse. Siin on ühe võimaliku stsenaariumi näide.
 
 Fabrikami robootika installib ettevõtte Adatum Corporation koosteliinidele robotõlgasid. Fabrikam pakub paigaldusteenuseid, kuid robotkäed on pärit ettevõttelt Trey Research. Kui ettevõtte Adatum Corporation poolt paigaldatavad robotõlad avavad ettevõtte Trey Research jaoks uue tööstusharu, võib Trey anda Fabrikamile selle kokkuleppe jaoks eriallahindluse. Sel juhul loob Fabrikam robotkäte jaoks tootepõhise lepingurea. Selle lepingu jaoks sisestatakse kulu üksuse kohta. Kulu erineb Trey Research robotkäte kulust.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

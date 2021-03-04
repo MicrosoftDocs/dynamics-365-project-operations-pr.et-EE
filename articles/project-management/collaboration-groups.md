@@ -26,3 +26,6 @@ Office’i rühmad võimaldavad teil rakenduses Common Data Service kasutada pro
 > [!NOTE] 
 > Kasutajad lisatakse rühma ainult siis, kui vajutate suvandit **Rühmad** ja lisate nad. See on Projecti veebirakendusest erinev. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

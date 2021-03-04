@@ -106,3 +106,6 @@ Kui lisasite hinnapakkumise rea üksikasjadesse kohandatud välja ja soovite, et
 
 8. Korrake etappe 1–7 teise lisandmooduli jaoks.
 9. Sulgege PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

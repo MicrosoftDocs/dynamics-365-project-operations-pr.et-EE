@@ -56,3 +56,6 @@ Selle toiming kasutab USSI andmekomplekti.
 21. Tippige väljale **Toote kviitung** väärtus.
 22. Valige **OK**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

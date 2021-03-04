@@ -62,3 +62,6 @@ Android ühildub platvormi värskendusega 16, kui see muutub kättesaadavaks.
 13. Valikuline: sisestage täiendavad ajatabeli read.
 
 14. Pärast ajatabeli ridade sisestamist valige **Töövoog** \> **Esita** , et esitada oma ajatabeli töövoo kinnitamise protsessiks.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

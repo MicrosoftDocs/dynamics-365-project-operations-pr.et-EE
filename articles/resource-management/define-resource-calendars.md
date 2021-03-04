@@ -43,3 +43,6 @@ Igal projektiga töötaval ressursil peab olema tööajakalender, et määratled
 2. Valige ruudustiku vaatest värskendamiseks kuni 25 **Broneeritavat ressurssi**.
 3. Valige suvand **Määra kalender** ja kuvatakse dialoog saadaolevate tööajamallide loendiga.
 4. Valige mall, mida soovite kasutada, ja valige seejärel **Rakenda**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

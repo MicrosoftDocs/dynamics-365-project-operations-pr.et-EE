@@ -57,3 +57,6 @@ Järgmised KPI-d on saadaval projekti lepingu vahekaardil **Lepingu täitmine**.
 | Tekkinud kulu | Tootepõhised read | Kõigi tootepõhise lepingurea jaoks logitud tegelike kulude summa. |
 | Kogutulu | Projektipõhised read | Arveldatud summa - seni kantud kulu/arveldatud summa |
 | Eeldatav marginaal | Tootepõhised read | (Lepingurea väärtus - lepingurea prognoositavad kulud) / lepingurea väärtus |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

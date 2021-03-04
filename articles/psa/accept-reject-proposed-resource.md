@@ -45,3 +45,6 @@ Ettepaneku tagasilükkamiseks klõpsake nuppu **Hülga ressurss**.
 ![Ressursi soovituse kinnitamine](media/RM-how-to-20.png) 
 
 Samamoodi nagu nimega ressursi üldressursi taotluse otse täitmise puhul, asendatakse üldine ressurss ja määratud tööülesanded värskendatakse nimega meeskonnaliikmega.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

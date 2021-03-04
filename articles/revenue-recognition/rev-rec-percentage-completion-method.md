@@ -35,3 +35,6 @@ Fikseeritud hinnaga tulukalkulatsioonidega projektide läbivaatamiseks tehke jä
 
   Projekti kulu, tuluprofiili, kulumalli ja perioodi koodi saab määrata käsitsi. Kui neid käsitsi ei määrata, lisatakse väärtuste vaikeväärtused projekti esimese hinnangu arvutamise ajal, mis kasutab projektikulu ja tuluprofiilide jaoks konfigureeritud reegleid.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

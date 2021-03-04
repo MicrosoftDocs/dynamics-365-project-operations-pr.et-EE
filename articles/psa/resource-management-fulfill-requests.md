@@ -46,3 +46,6 @@ Kuvatakse ajakavaabiline ja seda filtreeritakse nõuete alusel. Valige ressurss 
 > ![Ressurss on valitud](media/Resource-Management-image61.png)
 
 Üldine meeskonnaliige asendatakse projektimeeskonnas ja projekti ajakava ülesannete määramistes fikseeritud nimega ressursiga.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

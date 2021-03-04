@@ -40,3 +40,6 @@ Kui projekti hinnapakkumine, mis on suletud kui Kaotatud, viitab projektile mis 
 
 > [!NOTE]
 > Project Operationsis ei mõjuta hinnapakkumise sulgemine võidetud või kaotatud olekus müügivõimaluse seda olekut, mis jääb avatuks kuni käsitsi sulgemiseni.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

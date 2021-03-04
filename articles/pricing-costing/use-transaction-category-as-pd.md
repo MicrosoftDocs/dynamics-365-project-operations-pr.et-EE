@@ -50,3 +50,6 @@ Järgmises tabelis on toodud olemite kaupa kõik valmiskujul vormid ja vaated. L
 2. Kontrollige, kas lehe **Parameetrid** vahekaardil **Summapõhised hinnakujunduse dimensioonid** näitab vahekaardil olev ruudustik olemi **Hinnakujunduse dimensioonid** kirjeid.
 3. Lisage sellesse loendisse **Kandekategooria** ja seadke väljade **Kehtib kulu kohta** ja **Kehtib müügi kohta** väärtusteks **Jah**.
 4. Valige väljast **Dimensiooni tüüp** väärtus **Summapõhine** ja seejärel valige suvandi **Kandekategooria** jaoks prioriteet, kui see on seotud kulu ja müügiga.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

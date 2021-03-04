@@ -68,3 +68,6 @@ Ressursi võimsuse broneerimiseks projektile saate kasutada vahekaardi **Sobitam
 ![Meeskonnaliikme broneeringu pikendamine ressursi sobitamise vahekaardil](media/RM-how-to-7.png)
 
 Pärast seda, kui meeskonnaliige on teie projektile broneeritud, saate broneeringuid säilitada või kasutada graafikut otse, et hallata oma broneeringuid.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

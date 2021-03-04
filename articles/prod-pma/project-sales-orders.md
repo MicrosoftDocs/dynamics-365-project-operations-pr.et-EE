@@ -41,3 +41,6 @@ Projektipõhiseid müügitellimusi saate luua kahel viisil.
 - Avage projekt ise. Valige tegevuspaanil suvand **Halda > Üksuse tööülesanded > Müügitellimus**. Projekti teave kuvatakse vaikimisi projekti müügitellimuses. Kui projekti lepingus on rohkem kui üks rahastamisallikas, peate valima rahastamisallika, et määrata müügitellimusele klient. Kui projektil on ainult üks rahastamisallikas, määratakse klient automaatselt.
 - Avage loendi leht **Kõik müügitellimused** ja looge uus müügitellimus. Peate valima müügitellimuse jaoks projekti. Pärast projekti valimist määratakse klient rahastamisallikast või teil tuleb valida rahastamisallikas, kui projekti lepingus on mitu rahastamisallikat.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

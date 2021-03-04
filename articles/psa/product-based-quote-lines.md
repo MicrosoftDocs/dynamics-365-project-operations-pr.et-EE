@@ -82,3 +82,6 @@ Atribuute **Kasutajate arv** ja **Kuude arv** saab märgistada koguse tegurina, 
 
 > ![Kasutajate arvu ja kuude arvu märgistamine kvaliteeditegurina](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

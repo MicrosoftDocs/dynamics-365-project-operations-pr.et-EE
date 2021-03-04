@@ -83,3 +83,6 @@ Selles teemas kirjeldatakse kuluhalduse üldist käitumist juhtivaid parameetrei
 | Kuva korruptsioonivastane tõend   | Valige see suvand, kui soovite, et aruande loomisel näidatakse korruptsioonivastane tekst. Seejärel saab lubada teatud kulukategooria, mille puhul on nõutav, et kuluaruande jaoks saaks valida korruptsioonivastase tõendi. Näiteks võib valitsuse ametliku kuluga seotud kingituste kategooria nõuda, et töötaja kinnitaks, et kulu vastab valitsuse ametnikega seotud ettevõtte poliitikale. |
 | Esitaja korruptsioonivastane sõnum | Sisestage tekst, mis näidatakse kuluarunnet koostavale töötajale. Kindlas keeles kuvatava teksti sisestamiseks, mis põhineb kasutaja keelel, valige suvand **Tõlked**. |
 | Kinnitaja korruptsioonivastane sõnum  | Sisestage tekst, mis näidatakse kinnitajale kuluarunde koostamise ajal. Kindlas keeles kuvatava teksti sisestamiseks, mis põhineb kasutaja keelel, valige suvand **Tõlked**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

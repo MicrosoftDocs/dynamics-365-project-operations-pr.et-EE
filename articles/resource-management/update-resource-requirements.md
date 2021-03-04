@@ -37,3 +37,5 @@ Projektijuhina läbige meeskonnaliikme ressursinõude redigeerimiseks järgmised
 ## <a name="edit-resource-assignment-contours"></a>Ressursi määramise kontuuride muutmine
 
 Lisaks ressursinõuete üksikasjade muutmisele saab projektijuht värskendada ressursinõude individuaalset kontuuri, kasutades funktsiooni **Määra muster**. Kui **Määra muster** on valitud, avaneb leht ja saate vaadata kontuure päeva, nädala või kuu ajaskaalal. Iga kontuuri saab korrigeerida kindla ajavahemiku algus-ja lõppkellaaja ning kogu jõupingutuse jaoks.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

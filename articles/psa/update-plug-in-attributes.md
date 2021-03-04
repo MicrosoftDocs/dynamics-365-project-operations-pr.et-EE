@@ -68,3 +68,6 @@ Järgmised etapid selgitavad teile lisandmoodulite registreerimise protsessi.
 
 9. Sulgege lisandmooduli registreerimistööriist.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

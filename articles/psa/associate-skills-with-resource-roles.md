@@ -47,3 +47,6 @@ Ressursirollide lisamisel seostasite nendega arvatavasti juba mõne oskuse. Aeg-
   
 ### <a name="see-also"></a>Vt ka  
  [Ressursside seadistamine](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

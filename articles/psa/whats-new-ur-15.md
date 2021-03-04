@@ -63,3 +63,6 @@ Selles teemas loetletakse PSA V3 värskenduse väljalaske 15 uusi või muudetud 
   - Parandatud: ei saa enam veateadet **Projekti otsingus** vormil **Hinnapakkumise rida**, kui projekte on rohkem kui 1000.
   - Parandatud: **Prognooside** ruudustik tööprognooside ja kuluprognooside kohta näitab nüüd õiget valuuta sümbolit.
   - Parandatud: kui organisatsioon värskendab PSA-d värskenduse väljaandega 14 või värskenduse väljaandega 15, ei ole vahekaart **Kavandamine** enam vormil **Projekt** tühi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Valige reisitellimus, mida soovite kinnitada, ja seejärel valige **Töövoog** 
 
 > [!NOTE]
 > Kui vastendate kuluaruande kinnitatud reisitellimusega, ei saa tehingu summa olla suurem kui lubatud summa. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

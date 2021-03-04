@@ -54,3 +54,6 @@ Selles teemas kirjeldatakse, kuidas seadistada projekti tööjõu ja väljaminek
 22. Väljale **Hinnakujundus** sisestage arv. Tegelik müügihind, mida rakendatakse juhul, kui töötaja sisestab tehingu Kulu töölehele, on kõrgeima tasemega müügihind. Näiteks kui seadistatakse nii üldine müügihind kui ka töötajale omane müügihind, kasutatakse töötajale määratud müügihinda.  
 23. Valige **Salvesta**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Hinnakirjast koopia tegemiseks toimige järgmiselt.
 1. Hinnakirja vahekaartidel **Roll**, **Kategooria** ja **Hinnakirjaüksus** saate valida suvandi **Värskenda hindu**, et rakendada andmeruudustiku kõikidele hindadele hinnalisand. 
 2. Sisestage avanevas dialoogiboksis hinnalisand. Hindade vähendamiseks teatud protsendi võrra saate sisestada ka negatiivse hinnalisandi protsendi. 
 3. Valige dialoogi lehel **OK** ja kinnitage seejärel, et andmeruudustiku hinnad vastavad teie tehtud muudatustele.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

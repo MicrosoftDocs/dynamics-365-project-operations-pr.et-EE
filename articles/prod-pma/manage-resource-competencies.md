@@ -53,3 +53,6 @@ Töötaja pädevuste seadistamiseks saate kasutada kas inimressurssides loendi l
 5. Väljal **Taseme kuupäev** valige **14.1.2014**.
 6. Väljale **Kogemus aastates** sisestage **10**.
 7. Valige käsk **Salvesta** ja sulgege seejärel leht.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

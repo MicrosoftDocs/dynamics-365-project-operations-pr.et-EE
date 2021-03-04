@@ -63,3 +63,6 @@ Selles teemas loetletakse Project Service Automationi V3 värskenduse väljalask
 **Sales**
 
 - Parandatud. Kui ajakirjed kinnitatakse uuesti (**Kinnita > Tühista >** uuesti kinnitamine), luuakse mittearvestatava tegeliku duplikaat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

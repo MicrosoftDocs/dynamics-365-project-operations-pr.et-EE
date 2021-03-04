@@ -45,3 +45,6 @@ Kui valite dialoogi lehel **OK**, loob süsteem dialoogis valitud parameetrite p
 > - Projekti viide projektile – põhinev hinnapakkumise ridadel – kliendi eelarve teave
 >
 >Kuna see teave on iga hinnapakkumise jaoks väga spetsiifiline, siis neid välju ja kirjeid ei kopeerita. Hinnapakkumise tasemel kopeeritakse projektide ja toodete hinnapakkumiste read, hinnapakkumise rea üksikasjade prognoosid ja mitte ületatavad väärtused. Hindade ja kulumäära vaikeväärtused sõltuvad valikust **Hinnakujunduse kopeerimine**, mis on valikud dialoogi lehel **Parameetrite kopeerimine**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

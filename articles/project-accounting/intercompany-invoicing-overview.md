@@ -43,3 +43,6 @@ Järgmisel joonisel on toodud kontsernisisene arveldamine, kuna see on seotud ra
 - [Kontsernisisese arveldamise konfigureerimine](configure-intercompany-invoicing.md)
 - [Kontsernisiseste kannete kirjendamine](create-intercompany-transactions.md)
 - [Kontsernisisese kliendi ja hankija arvete loomine](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

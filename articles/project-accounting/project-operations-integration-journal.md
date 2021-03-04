@@ -55,3 +55,6 @@ Rakenduse Project Operations integreerimise töölehe ridadel saab värskendada 
 Integreerimise töölehe ridasid saab kustutada, kuid kõik konteerimata read lisatakse pärast perioodilisse protsessi **Koondtabelist importimine** naasmist uuesti töölehele.
 
 Integreerimise töölehe postitamisel luuakse projekti alammooduli ja pearaamatu tehingud. Neid kasutatakse allavooli kliendi arveldamises, tulu kajastamises ja finantsaruandluses.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

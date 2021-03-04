@@ -49,3 +49,6 @@ Armatuurlauad ja aruanded võimaldavad teil mõista oma ettevõtte asendit. Prak
   
 ### <a name="see-also"></a>Vt ka  
  [Projektijuhi juhend](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

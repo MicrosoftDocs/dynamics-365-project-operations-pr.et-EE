@@ -70,3 +70,6 @@ Autoriseerimine on nüüd lõpule viidud.
 Olete Azure'i kordustellimuse edukalt ühendanud. Nüüd saate juurutada Dynamics 365 Finance'i pilvepõhiseid keskkondi.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

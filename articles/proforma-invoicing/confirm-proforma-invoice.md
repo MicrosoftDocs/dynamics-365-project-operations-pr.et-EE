@@ -198,3 +198,6 @@ Projekti lepingurea algse vahe-eesmärgi vahe-eesmärgi arveldatud müügi tegel
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

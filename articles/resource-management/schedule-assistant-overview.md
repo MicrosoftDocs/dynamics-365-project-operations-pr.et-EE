@@ -57,3 +57,6 @@ Filtripaan kuvab järgmisi tööga seotud suvandeid.
 -   Ressursiettevõte
 -   Ressursi tüübid
 -   Eelistatud ressursid
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

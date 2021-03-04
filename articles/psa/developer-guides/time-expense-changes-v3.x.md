@@ -32,3 +32,6 @@ Dynamics 365 Project Service Automation versioonis 3.0 on aja ja kulu vaateid v�
 Varem rakendati aja ja kulu kalendri ning ruudustiku vaateid DHTMLX-i juhtelementidena. Need artefaktid, mis on seotud kalendri ja ruudustiku vaadete juurutamisega, on nüüd aegunud (iganenud).
 
 Iganenud ressursside täieliku loendi nägemiseks vaadake jaotist [Iganenud veebiressursid Project Service Automation versioonis 3.x](web-resources-deprecated-v3.x.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Kui kasutate vanemat versiooni, uurige ressursside saadavaloleku kohta teabe saa
   
 ### <a name="additional-resources"></a>Lisaressursid  
  [Ressursihalduri juhend](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

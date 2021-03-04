@@ -101,3 +101,6 @@ Kui te ei näe arveldatavat kasutust, kontrollige järgmist.
   - Projekti varundav projekti lepingurea roll on määratud mittearveldatavaks.
   - Projektil pole seostatud lepingurida.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

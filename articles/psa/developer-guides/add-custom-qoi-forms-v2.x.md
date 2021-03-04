@@ -96,3 +96,6 @@ Vormi **Projekti teave** kohandatud versiooni loomiseks toimige järgmiselt.
     ```
 
 6. Salvestage kohandus ja seejärel avaldage see.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

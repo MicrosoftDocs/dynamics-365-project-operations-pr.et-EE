@@ -36,3 +36,6 @@ Projektijuht saab ülesannete panust ümber kavandada kahel viisil.
 - Alistada vaikimisi edenemisprotsent ülesande tegeliku edenemise uue prognoosiga.
 
 Kõik need lähenemised põhjustavad ülesande ETC, lõpus prognoosimise (EAC) ja edenemisprotsendi ning ülesande eeldatava panuse hälbe ümberarvutamist. Lisaks arvutatakse ümber ka kokkuvõtlike ülesannete EAC, ETC ja edenemisprotsent, mis annavad panuse hälbe uue prognoosi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

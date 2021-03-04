@@ -58,3 +58,6 @@ Täiendav spikker on saadaval toimingute juhistena. Toimingute juhistele juurdep
 ### <a name="videos"></a>Videod
 
 Vaadake õppevideoid, mis on nüüd saadaval [Microsoft Dynamics 365 YouTube’i kanalis](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

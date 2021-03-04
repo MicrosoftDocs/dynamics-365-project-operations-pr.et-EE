@@ -38,3 +38,6 @@ See KKK kehtib sellise tegeliku kulu maksumuse puhul, mille kande liigiks on mä
 Minge seotud kulukirjesse ja veenduge, et kulukirje väljal pole ühtki summat. Kui algsel kulukirjel polnud summaväli täidetud, on probleem lahendatud.
  
 Probleemi lahendamiseks looge kulukirje uuesti koos kehtiva summaga ja kinnitage see.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

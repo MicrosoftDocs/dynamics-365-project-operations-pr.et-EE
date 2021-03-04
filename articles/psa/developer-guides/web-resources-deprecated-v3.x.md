@@ -538,3 +538,6 @@ Kuna Dynamics 365 Project Service Automation lahenduses on uus kliendi kasutajal
 - msdyn\_\\Kellaaeg\\Rakendus\\Skriptid\\Vaated\\SubmitDialog.js
 - msdyn\_\\Kellaaeg\\Rakendus\\Skriptid\\Vaated\\TimeEntryView.js
 - msdyn\_\\Kellaaeg\\Moca\\Skriptid\\TimeEntryRibbon.js
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Olemasoleva hinnapakkumise saab siduda müügivõimalusega. Olemasoleva hinnapak
    Kui teisaldate müügivõimaluse sellesse etappi, saate selle hinnapakkumise valida selle müügivõimalusega seostatud hinnapakkumiste loendist. Selle hinnapakkumise valimine näitab, et liigute sellega edasi.
 
    Kõik teised müügivõimalusega seotud hinnapakkumised on endiselt saadaval ja aktiivsed, kuni üks neist on võidetud. Saate liigutada müügiprotsessi tagasi eelmisesse etappi (**Kinnita sobivakd**) ja valida mõne muu hinnapakkumise sellega edasi liikumiseks.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

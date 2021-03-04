@@ -40,3 +40,6 @@ Armatuurlaud **Harjutushaldur** pakub harjutushalduritele graafilist armatuurlau
 ## <a name="resource-manager"></a>Ressursihaldur 
 
 Armatuurlaud **Ressursihaldur** pakub ressursihalduritele graafilist armatuurlauda ressursitaotluste, ressursside nõudluse ja kasutuse jälgimiseks. Samuti võimaldab see ressursihalduritel tükeldada jälgitavat teavet erinevate dimensioonide alusel.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

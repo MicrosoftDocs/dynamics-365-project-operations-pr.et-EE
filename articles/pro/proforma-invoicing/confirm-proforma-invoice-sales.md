@@ -273,3 +273,6 @@ Selle toote rea arveldatud tegelik müük, mille kogus ja summa pärineb tootep�
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

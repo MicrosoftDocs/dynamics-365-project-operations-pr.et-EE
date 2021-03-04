@@ -42,3 +42,6 @@ Ressursside oskusi hinnatakse oskustaseme mudelitega. Individuaalsed hinnangud o
 
 
 Need hinnangu väärtused kuvatakse filtrites **Ressursinõuded**, **Ajakavapaneel** ja **Ajakava abimees**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -28,3 +28,6 @@ Töötaja isiklike kuludega töötamiseks võib kasutada kahte meetodit.
   - **Maksab ettevõte:** teie ettevõte maksab ettevõtte krediitkaardi kogu arve ja seejärel võtab isiklike kulude summa maha töötaja kontolt.
 
 Saate valida meetodi, mida teie ettevõte kasutab, lehel **Kulu haldamise parameetrid**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

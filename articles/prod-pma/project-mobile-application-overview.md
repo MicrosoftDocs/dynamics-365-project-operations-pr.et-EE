@@ -49,3 +49,6 @@ Minu ajatabelid (optimeeritud mobiilidele) ja Ajatabelid minu poolt läbivaatami
 - [Projekti kellaaja sisestus]( project-time-entry-mobile-workspace.md)
 - [Projekti ajatabelid mobiilsideseadmes](Mobile-timesheets.md)
 - [Rakendage mobiilirakenduse Microsoft Dynamics 365 Project Timesheet iOS-i ja Androidi kohandatud väljad](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Projekti ajakava loomiseks peate looma projektikalendri malli, mis määratleb t
 8. Sisestage dialoogiboksis **Töömall** töömalli nimi ja seejärel tehke valik **Rakenda**. 
 
 Nüüd saate seostada töömalli projektikalendri malliga.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

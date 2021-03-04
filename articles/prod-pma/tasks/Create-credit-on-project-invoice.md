@@ -39,3 +39,6 @@ ms.locfileid: "4074933"
 10. Klõpsake nuppu OK. 
 
 Pärast selle etapi lõppu on kreeditarve arveettepaneku jaoks saadaval.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

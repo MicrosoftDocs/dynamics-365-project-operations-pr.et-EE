@@ -51,3 +51,6 @@ Funktsiooni [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-au
   
 ### <a name="see-also"></a>Vt ka  
  [Project Service'i konfigureerimine](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

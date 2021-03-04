@@ -20,3 +20,6 @@ ms.locfileid: "4514512"
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
 Saate kasutada rakendust Dynamics 365 Field Service, et luua ressursse oma teenuse Dynamics 365 Project Operations keskkonnas kasutamiseks. Nende ressursside loomiseks vaadake jaotist [Broneeritavate ressursside häälestamine](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Enne seadistusprotsessi alustamist tuleb iga kulukategooria kohta teha järgmise
 
     - Kas mõni alamkategooria on maksutagastusest välja jäetud?
     - Mis on alamkategooria üksuse käibemaksugrupp?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

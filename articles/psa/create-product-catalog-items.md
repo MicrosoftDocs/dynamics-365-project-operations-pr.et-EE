@@ -37,3 +37,6 @@ Kui soovite kaasata oma projekti hinnapakkumistesse ja hinnangutesse tooteid, n√
   
 ### <a name="see-also"></a>Vt ka  
  [Project Service'i konfigureerimine](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

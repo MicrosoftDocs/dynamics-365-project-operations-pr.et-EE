@@ -77,3 +77,6 @@ Järgmises näites on toodud arve määrad, mis on seadistatud vastavalt rollile
 | ----------------|-------------|----------|----------:|----------|
 | Minu company_Band1 | Jõgi US  |Hour | 145|USD     |
 | Minu company_Band2 | Jõgi India |Hour|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

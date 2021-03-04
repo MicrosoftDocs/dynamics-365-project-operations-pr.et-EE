@@ -52,3 +52,6 @@ Selles teemas varem olnud PDF-i link on eemaldatud ja sisu on teisaldatud järgm
 
 > [!NOTE]
 > See teema eemaldatakse tulevasest dokumentatsiooni värskendusest. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

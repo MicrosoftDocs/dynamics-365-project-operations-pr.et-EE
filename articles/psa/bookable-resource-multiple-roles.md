@@ -74,3 +74,6 @@ Kui te selle meeskonnaliikme kirje rida laiendate, näete meeskonnaliikme kirjes
 Kui te navigeerite ruudustikku **Prognoosid**, siis märkate, et sama ressursi mõlemad määramised on erineva hinnakirjaga.
 Ülesande A ressursi määramise hind on tehtud kindlaks kasutades atribuudi **Roll** väärtust suvandist **Konsulteeriv müügivihje**. Ülesande B sama ressursi määramise hind on tehtud kindlaks kasutades atribuudi **Roll** väärtust suvandist **Võrgutehnik**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

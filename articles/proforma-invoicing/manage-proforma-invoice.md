@@ -135,3 +135,6 @@ Kui teil on tegelikke näitajaid, mis lisandusid pärast arve loomist, saate lis
 2. Avage näidisvormi mustand ja ribal **Toimingud** klõpsake valikutd **Värskenda arverea tehinguid**.
 
   See loob arveterea üksikasjad iga tegeliku näitaja jaoks, mis on möödunud kuupäevaga ja märgitud kui **Arveldamiseks valmis**, kuid mis ei ole arvesse lisatud.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -91,3 +91,6 @@ Uue ressursinõude kaudu broneerimiseks täitke järgmised juhised.
 
 4. Nüüd, kui ressurss on reserveeritud, peate ülesandeid käsitsi määrama.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

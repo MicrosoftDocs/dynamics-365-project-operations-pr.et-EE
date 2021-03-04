@@ -70,3 +70,6 @@ Lahendatud on järgmised probleemid.
 - Täiustatud vigade käsitlemine, et lahendada null-viite erandid, mis on loodud suvandist **Projekti kopeerimine: prognoosib abiressursi halduse**.
 - Valik **Pole arveldamiseks valmis** suvandis **Aja ja materjali arveldamise võlgnevus** ei tühjenda arveldamise olekut.
 - Parandatud valesti sildistatud nupud **Hinnad** vahekaartidel **Rolli hind** ja **Kataloogi üksus**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

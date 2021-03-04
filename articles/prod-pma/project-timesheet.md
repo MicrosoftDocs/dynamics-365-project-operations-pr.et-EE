@@ -96,3 +96,6 @@ Ajatabeli kinnitamise töövoogu saatmiseks klõpsake nuppu **Esita**.
 ## <a name="review-timesheets"></a>Ajatabelite läbivaatamine
 
 Läbivaatamist vajavate ajatabelite loend on kättesaadav menüüs. See suvand on saadaval ainult juhul, kui olete määratud töövoo kinnitajaks. Toetatud on nii päise kui ka rea kinnitamine. Rea tasemel kinnitamine võimaldab märkida kinnitamiseks ühe või mitu. Pärast ajatabeli teabe läbivaatamist töövoo jätkamiseks klõpsake käsku **Kinnita** , **Delegeeri** või **Naase**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

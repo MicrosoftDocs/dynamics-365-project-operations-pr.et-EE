@@ -81,3 +81,6 @@ Lahendatud on järgmised probleemid.
 - Kui Dynamics 365 Field Service ja Project Service Automation on mõlemad installitud, ei kuvata suvandeid **Lukusta hinnakujundus** ja **Kasuta praegust hinnakujundust** samaaegselt lehel **Arve**.
 - Jaapani keele puhul pole tõlge muude kalendripõhiste lehtedega kooskõlas.
 - **Aktiveeri** ja **Deaktiveeri** on Project Service Automationis olemitest **Hinnakirja sidumine** eemaldatud.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

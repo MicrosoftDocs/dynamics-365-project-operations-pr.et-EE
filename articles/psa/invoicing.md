@@ -117,3 +117,6 @@ Korrigeeriva arve kinnitamisel tühistatakse algselt arvestatud müügi tegelik 
 
 - Arvestatud müük on tegelikult kuus tundi.
 - Ülejäänud kahe tunni eest arveldamata müügi tegelik väärtus. See tehing võib olla kas hiljem arvestatud või märgitud mitte-tasuna, olenevalt läbirääkimistest kliendiga.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

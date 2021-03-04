@@ -36,3 +36,6 @@ Kasutage teenust Lifecycle Services (LCS), et hallata oma rakenduse Dynamics 365
 
 Kasutage seda LCS-i projekti, et juurutada oma rakenduse Project Operations keskkonda.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

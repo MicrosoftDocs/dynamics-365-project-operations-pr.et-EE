@@ -112,3 +112,6 @@ Ei. Ajakava hinnang on praegu piiratud tundidega ja seda ei saa muuta.
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Kas ühikuid ja ühikurühmi saab redigeerida, kustutada ja lisada?
 Jah. Peale ühikurühma **Aeg** ja ühikut **Tund**, saab kõiki ühikuid kustutada või redigeerida ning uusi ühikuid saab lisada. PSA-s ei saa ühikurühma **Aeg** ja ühikut **Tund** kustutada. Neid saab siiski värskendada tõlgitud tekstiga väljale **Nimi**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

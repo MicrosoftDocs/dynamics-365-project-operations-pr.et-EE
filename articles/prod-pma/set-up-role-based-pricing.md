@@ -34,3 +34,6 @@ Rollide jaoks saab seadistada kõiki kulusid, müügi ja ülekande hindu. Hinna 
 1. Lehel **Müügihind (tund)** valige **Uus** ja sisestage jõustumiskuupäev.
 2. Veerus **Roll** valige roll.
 3. Veerus **Hinnakujundus** sisestage valitud ressursi rolli jaoks hind.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

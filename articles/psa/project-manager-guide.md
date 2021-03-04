@@ -95,3 +95,6 @@ Käesolev juhend annab teavet, mida vajate projektide loomiseks ja haldamiseks:
  [Ressursihalduri juhend](../psa/resource-manager-guide.md)   
  [Aja-, kulu- ja koostööjuhend](../psa/time-expense-collaboration-guide.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

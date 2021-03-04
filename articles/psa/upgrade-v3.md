@@ -110,3 +110,6 @@ Nende ülesannete puhul, mis on määratud rollile sellise organisatsiooniüksus
  
 Kui muudate loomata meeskonnaliikmete erinevate ressurssi organisatsiooniüksuste vaikeväärtusi, soovitame teile meeskonna luua või uuesti luua nende projektide jaoks, mis sisaldavad enne täiendamist üldisi ressursse, nii et organisatsiooniüksuste määramised ei läheks kaotsi.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

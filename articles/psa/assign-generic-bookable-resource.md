@@ -59,3 +59,6 @@ Nõude avamiseks ja oskuste, eelistatud ressursside jms lisamiseks võite klõps
 
 ![Ressursinõue](media/RM-how-to-13.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

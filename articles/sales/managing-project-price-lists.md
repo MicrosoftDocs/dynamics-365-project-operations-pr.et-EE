@@ -120,3 +120,6 @@ Nagu arve määrad, seadistatakse inimressursside jaoks ka kulumäärad, kasutad
     1. Organisatsiooniüksusega seotud omahinna hinnakiri.
     2. Project Operaruibsi parameetritega seotud omahinna hinnakiri. Kuna parameetritele saab lisada paljudes erinevates valuutades esitatud omahinna hinnakirju, siis viiakse valuuta vastendamine lõpuni projekti tellija organisatsiooniüksuse, lepingu või hinnakirja ja omahinna hinnakirja valuuta vahel.
     3. Kulude puhul ei rakendata omahinna ja kulu hinnalisandi hinnakujundusmeetodit omahinna hinnakirjadele. Isegi juhul, kui neid hinnakujundusmeetodeid kasutatakse tehingukategooria kulude seadistamiseks omahinna hinnakirjadel, ignoreerib süsteem neid ja ühtegi vaikimisi omahinda ei sisestata.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

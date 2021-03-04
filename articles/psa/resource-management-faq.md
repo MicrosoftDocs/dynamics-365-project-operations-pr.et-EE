@@ -54,3 +54,6 @@ Pärast ressursside broneerimist valige soovitud muudatuste tegemiseks **Halda b
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Mis on määramise ja broneeringu vahe?
 
 Määramised on projekti ajakavas tehtud ressursside määramised projekti ülesannetele. Ressursid võivad olla kas tegelikud või üldised ressursid. Broneeringud on ressursside fikseeritud või esialgsed projektile eraldamised. Fikseeritud broneeringud tarbivad ressursivõimsust. Ideaalis peaksid tegelike ressursside puhul broneeringud ja määramised ühtima, kuna need ei erine üksteisest. Kuid PSA ei jõusta seda kokkulepet. Vaates Vastavusseviimine kuvatakse projektijuhile kohti, kus ressursi broneeringud ja määramised ei ühti.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

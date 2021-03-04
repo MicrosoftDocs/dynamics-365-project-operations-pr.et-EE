@@ -55,3 +55,6 @@ Lahendatud on järgmised probleemid.
 - Null-viite erand genereeritakse lisandmooduli **GetEstimatesForProject** käivitamisel.
 - Suvand **Märgi arveldamiseks valmis** osamaksete ruudustikus värskendab atribuute ainult osaliselt, välja arvatud atribuut **InvoiceStatus**, mida värskendatakse.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

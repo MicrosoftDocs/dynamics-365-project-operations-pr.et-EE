@@ -61,3 +61,6 @@ Kõigi laenava juriidiliste isikute jaoks saate korraga luua mitu kontsernisises
 ## <a name="post-the-intercompany-vendor-invoice"></a>Kontsernisisese hankija arve sisestamine
 
 Laenava juriidilise isiku projekti raamatupidaja saab üle vaadata kontsernisisesed ootel hankija arved, kui vastav kontsernisisese kliendi arve on sisestatud. Avage jaotises Rahandus laenamise juriidiline isik: **Ostureskontro** > **Arved** > **Hankija ootel arved**. Ooteloleva arve number vastab kontsernisisese kliendi arve numbrile. Veenduge, et arve oleks õige, ja seejärel konteerige arve. Kontsernisisese hankija arve konteerimisel luuakse projekti alammoodul ja pearaamatu kanne, mis kajastab laenusaaja juriidilise isiku tehingukulusid.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -26,3 +26,6 @@ Tootekataloogi üksuste hinnakujunduse seadistamine rakenduses Dynamics 365 Proj
 Project Operationsis ei saa tooteid hinnata ega projektides kasutada, seega ei pea tootekataloogi hindasid hinnapakkumiste ja lepingute jaoks projekti hinnakirjades seadistama.
 
 Tootekataloogi hindade seadistamiseks kasutage hinnapakkumise, lepingu või konto välja **Toote hind**. Ärge seadistage tootekataloogi hindasid projekti hinnakirjades. Projekti hinnakirjad on eksklusiivsed Project Operationsile. Rakendusepõhine äriloogika kopeerib hinnakirjad hinnapakkumisest lepingusse. Tulemuseks on lepingupõhine projekti hinnakiri. Kopeerimistoiming võib lükata edasi hinnapakkumise võitmise protsessi, kui projekti hinnakiri hinnapakkumisel läheb liiga suureks. Toodete hinnakirja ei kopeerita lepingutele kohandatud hinnakirjade loomiseks. Kuna kopeerimist pole kasutatud, siis hinnapakkumise protsessi jõudlust see ei mõjuta.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -26,3 +26,5 @@ Ressursinõudeid määratleb projektijuht, et teha kindlaks projekti töö teost
 3.  Vahekaardil **Meeskonnaliige** valige meeskonnaliige ja seejärel valige **Loo nõue**.
 
 Teavet ressursinõude muutmise kohta vaadake teemast [Ressursi vajaduse üksikasjade värskendamine](define-resource-requirements.md), et muuta ressursinõuet.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Allpool on toodud projekti hinnapakkumises saadaolevad vahekaardid ja KPI-d, mis
 | Kasumlikkuse analüüs | Hinnapakkumise vahekaart | Vahekaart kuvab järgmisi mõõdikud.</br>- Arveldatav kulu kokku</br></br>- Mittearveldatav kulu kokku</br>- Kogutulu</br>- Kogutulu (alus)</br>- Kogutulu</br>- Korrigeeritud kogutulu|
 | Võrdlus kliendi ootustega | Hinnapakkumise vahekaart | See vahekaart kuvab järgmisi mõõdikud.</br>- Eeldatav lõpetamine</br>- Nõutav lõpetamine</br>- Kliendi eelarve</br>- Hinnapakkumise väärtus |
 | Hinnapakkumise analüüs | Hinnapakkumise vahekaart | See vahekaart võtab kokku järgmised projekti hinnapakkumise KPI-d</br>- Võrdlus kliendi ootustega eelarve ja ajakava suhtes</br>- Kogutulu</br>- Korrigeeritud kogutulu |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

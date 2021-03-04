@@ -32,3 +32,6 @@ Mis tahes projekti, mis pole seotud Dynamics 365 Project Operationsiga, käsitle
 Pärast seda, kui tehingud on projekti sisestatud, kui projekt on projekti lepinguga seostatud, tühistab süsteem kõik akumuleeritud tehingud ja loob uued arveldatavad tehingud. Arveldatavad tehingud järgivad vastava projekti kulu ja tulu profiilis määratletud raamatupidamise reegleid.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

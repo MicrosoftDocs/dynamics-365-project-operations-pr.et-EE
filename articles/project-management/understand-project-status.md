@@ -29,3 +29,6 @@ Jaotis **Olek** lehel **Projekti olem** annab kokkuvõtte projekti seisukorrast 
 - Väli **Kommentaarid** võimaldab projektijuhil sisestada oleku kohta konkreetseid märkuseid. 
 - Väli **Oleku värskendamise aeg** ei ole redigeeritav. Selle välja väärtus on ajatempel, mis näitab, millal olek viimati värskendati.
 - Väljad **Ajakava täitmine** ja **Kulude täitmine** määratakse jälgimise ruudustikust. Kui vaates **Panuse jälgimine** on juursõlme ajakava ja kuluhälve positiivsed, värskendatakse need väljad määrata väärtusele **Ees**. Kui juursõlme ajakava ja kuluhälve on negatiivsed, määratakse need väljad väärtusele **Taga**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

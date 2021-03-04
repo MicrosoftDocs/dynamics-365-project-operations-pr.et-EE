@@ -48,3 +48,6 @@ Kui teil on ressursi jaoks tööülesanded, kuid ei mingeid broneeringuid, valig
 Broneeringud, mis on loodud **Broneeringu pikendamise** toimingu kaudu seostatakse esmase projekti nõudega. Kui pikendus on algatatud, saab määratleda konkreetsed nõuded, mida tuleb pikendada, sest ressurss võib olla seotud projekti rohkem kui ühe nõudega.
 
 Projektijuht või ressursihaldur saab seejärel kasutada ajakavapaneeli, et hallata mis tahes olukordi, kus ressurss on üle broneeritud.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

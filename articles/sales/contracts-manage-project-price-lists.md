@@ -72,3 +72,6 @@ Kui te olete leppinud oma klientidega kokku raamhinnakokkuleppe, saate luua ka k
 ## <a name="custom-pricing-on-a-project-contract"></a>Projektilepingu kohandatud hinnakiri
 
 Pärast seda, kui teil on organisatsioonile ja kliendile spetsiifilised vaikimisi projekti hinnakirjad, teie projektilepingud luuakse nende projekti hinnakirja seostega automaatselt. Samas projekti hinnakirja lepingu projekti hinnakirjad kopeeritakse alati kuupäeva ja lepingu nimega, mis on nendele lisatud. Kontohaldurid ja projektijuhid saavad seejärel hakata nende koopiate hindasid muutma. Need muudetud hinnad rakenduvad ainult sellele projektilepingule.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

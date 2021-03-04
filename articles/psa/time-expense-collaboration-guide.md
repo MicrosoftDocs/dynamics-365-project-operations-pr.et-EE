@@ -73,3 +73,6 @@ Allolevat linki klõpsates saate lisateavet funktsiooni [!INCLUDE[pn_project_ser
  [Kontohalduri juhend](../psa/account-manager-guide.md)   
  [Projektijuhi juhend](../psa/project-manager-guide.md)   
  [Ressursihalduri juhend](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

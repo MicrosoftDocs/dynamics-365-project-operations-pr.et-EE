@@ -51,3 +51,6 @@ Prognoositava projekti eemaldamiseks tuleb see valmis saada. Järgmised juhised 
 5. Kui eemaldamise protsess on valmis, kuvatakse eemaldatud prognoositav projekt negatiivse väärtusega. 
 
 Kui te ei soovinud prognoosi eemaldada, saate valida eemaldatud prognoosi ja valida suvandi **Tühista eemaldamine**.   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

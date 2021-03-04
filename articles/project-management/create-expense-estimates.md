@@ -38,3 +38,6 @@ Iga kulurea üksuse jaoks on määratletud järgmised atribuudid.
 - **Ühiku omahind**: kulu maksumuse arvutamiseks kasutatava ühiku hind.
 - **Ühiku müügihind**: kulu müüguhinna arvutamiseks kasutatava ühiku hind.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

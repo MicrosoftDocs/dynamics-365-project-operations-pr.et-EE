@@ -43,3 +43,6 @@ See juurutus tuleks valida, kui rakendust Project Operations hakatakse eeldatava
 - Vajab projektide jaoks kliendile suunatud arvete loomiseks rikkalikku ettevõtte tasemel käibemaksu ja vahetuskursi määra mootorit.
 - Rahvusvaheliste finantsaruandluse standardite (IFRS) nõuetele vastavad projekti raamatupidamise ja tuluarvestuse süsteem.
 - Finance’i või Supply Chain Managementi rakendused ja projektipõhiste tehingute integreerimine.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

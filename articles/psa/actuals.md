@@ -330,3 +330,6 @@ PSA salvestab projekti jooksul toimuvad finantstehingud. Need kanded kirjendatak
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

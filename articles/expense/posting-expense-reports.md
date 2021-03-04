@@ -31,3 +31,6 @@ Kui kuluaruande kulud kanna mõni muu ettevõte, mis ei ole ettevõte, kus töö
 Kuluaruande sisestamiseks lehele **Kinnitatud kuluaruanded** valige kuluaruanne ja seejärel valige tegevuspaanil suvand **Sisesta**.
 
 Korraga saate sisestada ka kõik loendi kuluaruanded. Valige kõik kuluaruanded ja seejärel valige **Sisesta**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

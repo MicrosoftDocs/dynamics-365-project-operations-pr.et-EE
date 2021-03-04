@@ -45,3 +45,6 @@ Väärtusest **Algne leping** ei kopeerita väärtusesse **Eesmärkleping** jär
   - Kliendi eelarve teave
 
 Kuna see teave on iga lepingu jaoks spetsiifiline, siis neid välju ja kirjeid ei kopeerita. Lepingu tasemel kopeeritakse projektide ja toodete lepinguread, lepingurea üksikasjade prognoosid ja mitte ületatavad väärtused. Hindade ja kulumäära vaikeväärtused sõltuvad valikust väljal **Hinnakujunduse kopeerimine**, mis on valikud dialoogilehel **Parameetrite kopeerimine**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

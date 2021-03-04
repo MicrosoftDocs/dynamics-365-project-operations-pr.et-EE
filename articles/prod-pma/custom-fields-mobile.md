@@ -429,3 +429,6 @@ Vaikimisi projekti kategooria sisestamine ajatabeli kirjetele toimub kolmel tase
 1. Rakendus proovib panna vaikimisi kategooria projekti ressursist. See vaikekategooria seatakse **getCurrentUserResource** ja **getDelegatedResourcesForCurrentUser** meetodite kaudu klassis **TSTimesheetSettingsService**.
 2. Kui vaikekategooriat ei pakuta projektiressursi tasemel, proovib rakendus seda projektitegevusest tõmmata. See vaikekategooria seatakse meetodis **getActivitiesForProject** klassis **TSTimesheetProjectService**.
 3. Kui vaikekategooriat ei pakuta projektitegevuse tasemel, võetakse vaikekategooria projektiparameetritest. See vaikekategooria seatakse meetodis **getProjectDetailsbyRule** klassis **TSTimesheetProjectService**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

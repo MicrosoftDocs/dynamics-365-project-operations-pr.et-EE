@@ -43,3 +43,6 @@ Hinnapakkumiste koostamiseks ja klientidele arvete esitamiseks funktsioonis [!IN
   
 ### <a name="see-also"></a>Vt ka  
  [Project Service'i konfigureerimine](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -24,3 +24,6 @@ Projekti müügivõimalusi saab sulgeda kui võidetu või kaotatuna. Dialoogibok
 Kui müügivõimalusega on seotud mõni aktiivne hinnapakkumine, siis te ei tohi müügivõimalust sulgeda. Saate samaaegselt sulgeda kõik aktiivsed ja mustandi kujul hinnapakkumised, mis on müügivõimalusega seotud. Seejärel saate müügivõimaluse kinni panna.
 
 Müügivõimaluste sulgemise kohta üldisema teabe saamiseks vt jaotist [Müügivõimaluste sulgemine võitnud või kaotajana](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -143,3 +143,6 @@ Arve vaatamiseks enne sisestamist tühjendage märkeruut **Sisestamine**. Arvele
 Lisaks lehele **Arve ettepanek** saab arve ettepanekuid sisestada ka perioodilise töö **Arve ettepanekute sisestamine** abil. Selle töö leidmiseks avage **Projektihaldus ja raamatupidamine** > **Perioodiline** > **Projekti arved** > **Arve ettepanekute sisestamine**.
 
 Sellel lehel on kuvatud kõik sisestamisvalmis arve ettepanekud. Arve ettepanekute sisestamise saate ajastada, valides suvandi **Partii**. Seadistage **Partiitöötluse parameeter** väärtusele **Jah** ja määrake partiitöötluse korduvus valides suvandi **Korduvus**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

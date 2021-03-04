@@ -57,3 +57,6 @@ Olemasoleva projekti hinnapakkumise muutmiseks peab hinnapakkumise olek olema **
 
 > [!NOTE]
 > Projekti hinnapakkumist ei saa enam muuta, kui olekuks on seatud **Saadetud**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

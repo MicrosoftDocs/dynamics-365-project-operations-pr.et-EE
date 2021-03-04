@@ -72,3 +72,6 @@ Kui kulukategooria hinnaseadistus pole kehtiv, on probleem lahendatud. Lahendus 
 Kui te pärast ülaltoodud kolme kontrolli ei näe tegelike müüginäitajate maksumuse kehtivat hinda, esitage tugiteenusepilet.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

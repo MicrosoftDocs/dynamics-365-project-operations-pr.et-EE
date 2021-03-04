@@ -54,3 +54,6 @@ Pärast müügi hinnakirja lahendamist täidab süsteem järgmised etapid vaikim
     | &nbsp; | Juurdehindlus üle omahinna | Rakendades seotud tegeliku kulu ühiku kulumäärale kategooria hinnarea määratud hinnalisandi |
 
 4. Kui süsteem ei suuda vastendada väljade **Kategooria** ja **Ühik** väärtusi, on müügihinna vaikeväärtuseks null (0).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

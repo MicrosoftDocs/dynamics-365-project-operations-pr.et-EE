@@ -44,3 +44,6 @@ Lisateavet leiate teemast [Kulu kirje (lite)](basic-expense.md)
 
 ## <a name="determine-your-expense-deployment"></a>Kulu juurutamise määratlemine
 Et teha kindlaks, kas teil töötab põhiline kuluhalduse juurutus, veenduge, et aadressi URL-i lõpuks oleks **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

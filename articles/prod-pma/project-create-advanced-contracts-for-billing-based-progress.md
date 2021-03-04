@@ -103,3 +103,6 @@ Eelarve kategooriaid kasutatakse automaatselt arve summade arvutamiseks iga kate
 8. Valikuline: arvelduseegli määramine täiendavatele projektidele. Valige kiirkaardi **Projekt** jaotises **Saadaolevad projektid** projekt ja seejärel valige parempoolne noolenupp, et lisada projekt jaotisse **Valitud projektid**.
 9. Valikuline: protsendi summa arvutamine, mille klient arvel maksetest kinni on pidanud. Valige kiirvahekaardil **Maksete kinnipidamise tingimused** rahastamise allikas ja seejärel sisestage väljale **Kinnipidamise protsent** kinnipidamise protsent.
 10. Korrake neid juhiseid, et luua projekti lepingu jaoks täiendavaid arveldusreegleid.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -149,3 +149,6 @@ Järgmises tabelis on kuvatud eelmise töövoo tehingute seose olemi kirjed.
 | Arve paranduse mustand       | Arve rea tehingu GUID | Asendamine          | msdyn_invoicelinetransaction | Arveldatud müügi GUID            | Algne           | msdyn_actual       |
 | Arve parandamise kinnitamine     | Arveldatud müügi tagasipööramise GUID    | Tagasipööramine          | msdyn_actual                 | Arveldatud müügi GUID            | Algne           | msdyn_actual       |
 | Uus arveldamata müügi tegelik GUID | Asendamine                     | msdyn_actual       | Arveldatud müügi GUID            | Algne                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

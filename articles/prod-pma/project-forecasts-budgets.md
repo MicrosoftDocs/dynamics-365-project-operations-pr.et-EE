@@ -81,3 +81,6 @@ Kui kasutate projekti prognoosimist, saate määratleda mudelid allmudelitena. S
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

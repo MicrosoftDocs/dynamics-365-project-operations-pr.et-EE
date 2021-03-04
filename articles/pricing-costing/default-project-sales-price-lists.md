@@ -57,3 +57,6 @@ Omahinnakirjadel ei ole Project Operationsis ühtegi vaikeolemit. Projekti kulud
 5. Järgmiseks vaatleb süsteem hinnakirjade kehtivat kuupäeva, mis vastab sissetuleva prognoosi või tegeliku rea kuupäevale. 
 6. Kui sissetuleva prognoosi või tegeliku kuupäeva jaoks kehtivad mitu hinnakirja, siis valitakse viimati loodud hinnakiri.
 7. Kui projekti parameetritega, mis vastavad valuutale ja lõppkuupäevale, ei ole seotud omahinnakirja, määrab süsteem sissetuleva prognoosi või tegeliku rea kulumäära nulliks (0).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

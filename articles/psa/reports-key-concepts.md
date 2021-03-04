@@ -48,3 +48,6 @@ Järgmises tabelis on määratletud põhimõisted, mida rakenduses Dynamics 365 
 | Kontuur                    | Ülesande, nõude või määramise tunnid, kui need jagatakse igapäevaseks jaotuseks. Näiteks saab viiepäevase, 40-tunnise ülesande jagada viie päeva peale, iga päev kaheksa tundi. |
 | Vastavusseviimise vaade        | Vaade, mis kuvab iga projekti meeskonnaliikme jaoks broneeringud ja määramised. See vaade võimaldab projektijuhil otsida broneeringute ja määramiste vahelist vastuolu ning võtta vastuolu ilmnemisel kasutusele parandusmeetmeid. |
 | Tööaeg                 | Olem, mida kasutatakse ressursi võimsuse, töötundide ja töövälise aja tuvastamiseks. Seda olemit nimetatakse ka ressursi kalendriks. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

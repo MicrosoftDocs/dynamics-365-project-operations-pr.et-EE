@@ -41,3 +41,6 @@ Kui funktsioonihalduse võti **Kuludelegaatide loendi lehe lubamine** on lubatud
 Delegaatkasutaja saab kiiresti filtreerida ja otsida olemasolevate kuluaruannete seast, mis on talle delegeeritud. Samuti saavad nad luua uue kuluaruande teistele kasutajatele, valides suvandi **Uus kuluaruanne**.
 
 Delegaatkasutajad saavad luua ja hallata ka teiste töötajate kuluaruandeid, avades jaotise **Kuluhaldus** > **Minu kulud** > **Kuluaruanded** ja valides **Ava teise kasutaja kulud**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

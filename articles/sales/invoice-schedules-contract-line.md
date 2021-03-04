@@ -74,3 +74,6 @@ Saate luua fikseeritud hinnaga vahe-eesmärke käsitsi, kui neid ei jagata perio
 | Maks | Kiirloomine | Vahe-eesmärgile rakendatav maksusumma. | See kantakse projekti lepingurea vahe-eesmärgile ja arvele. |
 
 3. Valige **Salvesta ja sule**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

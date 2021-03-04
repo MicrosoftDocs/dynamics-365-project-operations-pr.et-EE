@@ -200,3 +200,6 @@ Kui vaatate aega kõrgemal tasemel, on vahekaardil **Vastavusseviimine** määra
 Kui teil on ressursi jaoks tööülesanded, kuid ei ühtegi broneeringut, valige vormi **Projektid** vahekaardil **Vastavusseviimine** broneeringu puudujääk, seejärel valige käsk **Pikenda reserveeringut**. Kuvatakse dialoogiboks **Pikenda reserveeringut** ja kuvatakse broneering, mis on vajalik ressursi puudujäägi lahendamiseks. Dialoogiboks näitab ka ressursi olemasolevaid broneeringuid kõigis projektides või muudes kavandatud üksustes. Kui valite ressursi reserveeringu loomiseks valiku **OK**, võite selle ressursi saadavusest olenemata põhjustada ülebroneeringu.
 
 Projektijuht või ressursihaldur saab seejärel kasutada ajakavapaneeli, et hallata mis tahes olukordi, kus ressurss on üle broneeritud.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

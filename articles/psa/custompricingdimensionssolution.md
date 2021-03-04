@@ -68,3 +68,6 @@ Hinnakujunduse lahendusele tuleb lisada järgmised Project Service’i olemid. L
 > ![Ära kaasa kõiki seotud komponente](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

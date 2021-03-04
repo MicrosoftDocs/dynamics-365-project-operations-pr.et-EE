@@ -55,3 +55,6 @@ Järgmistest teemadest leiate teavet toimingute kohta, mis tuleb projektide ress
 - [Projekti ressursiplaanimise jõudlus](project-scheduling-performance.md)
 - [Rollide seadistamine tööjaotuse struktuuri mallidel](set-up-roles-wbs-template.md)
 - [Ressursside täitmine planeeritud ressursside jaoks](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

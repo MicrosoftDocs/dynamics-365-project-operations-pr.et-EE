@@ -37,3 +37,6 @@ Project Operationsi honorar pole kasutamiseks saadaval enne, kui see on kliendig
 | --- | --- | --- |
 | Saadaolev summa | Summa, mis on honorari või ettemakse kirjes kasutamiseks saadaval. | Kuni ettemakse või honorar ei ole arveldatud, ei saa seda kasutada, mis tähendab, et saadaolev summa on null. |
 | Kasutatud summa | Summa, mis on honoraril või ettemaksel juba kasutatud. | Ettemakset või honorari saab tegelike kuludega ühitada arvel, millel on mõned osad märgitud kui juba kasutatuks või tarbituks. Ülejäänud ettemakse või honorari summa on saadaval, et ühitada see tulevase arve tegelike kuludega. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

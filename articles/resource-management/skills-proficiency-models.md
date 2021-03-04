@@ -43,3 +43,5 @@ Ressursinõudele tunnuste lisamine võimaldab teil dokumenteerida ressursi poolt
 3. Valige alamruudustikust **Oskused** suvand **+ Lisa uus nõude tunnus.**
 4. Leidke ja valige kiirloomispaanil nõutavad tunnused ja lisage **Hinnangu väärtus**.
 5. Valige **Salvesta ja sule**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

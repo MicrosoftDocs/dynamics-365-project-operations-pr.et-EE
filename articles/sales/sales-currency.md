@@ -71,3 +71,6 @@ Enne selle toimingu käivitamist kontrollige, et teie turberoll sisaldab süstee
 
 > [!IMPORTANT]
 >  Te ei saa kustutada valuutasid, mida kasutavad teised kirjed; need saab ainult inaktiveerida. Inaktiveerimisel ei eemaldata olemasolevates kirjetes (nt müügivõimalustes või tellimustes) talletatud valuutateavet. Kuid te ei saa valida inaktiveeritud valuutat uute kannete jaoks.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

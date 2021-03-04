@@ -42,3 +42,6 @@ Kui te teete valiku, lisatakse ressurss projekti meeskonda ja määratakse töö
 Ressursi võimsuse broneerimiseks projektile saate kasutada vahekaardi **Sobitamine** pikendatud broneerimise võimalust või vahekaarti **Ajakava**.
 
 Pärast seda, kui meeskonnaliige on teie projektile broneeritud, saate kasutada suvandeid **Säilita broneeringud** või **Ajakavapaneel** otse, et hallata oma broneeringuid.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

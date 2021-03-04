@@ -67,3 +67,6 @@ Kui teil on olemas organisatsioonide- ja kliendipõhised projekti vaikehinnakirj
 
 1. Kontrollige **Projekti hinnapakkumise** vahekaardil **Projekti hinnakiri**, et alamruudustikus ei oleks valitud konkreetset hinnakirja kirjet.
 2. Valige **Kohandatud hindade loomine**. See teeb koopiad kõigist praegu hinnapakkumisega seotud standardsetest hinnakirjadest ja seob need koopiad hinnapakkumisega. Olemasolevad seosed standardsete hinnakirjadega eemaldatakse. Seejärel saab müügiesindaja alustada nendes koopiates hindade muutmist. Neid muudetud hindu kohaldatakse ainult selle projekti hinnapakkumise suhtes.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

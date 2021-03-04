@@ -125,3 +125,6 @@ UR5-le värskendamise osana on nõutavad järgmised olemite turbeõiguste värsk
  
  ![Pearaamatu vastenduse sünkroonimine](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

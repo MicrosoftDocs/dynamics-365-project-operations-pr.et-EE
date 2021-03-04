@@ -209,3 +209,6 @@ Kui olete rakenduse Finance keskkonnale rakendanud demoandmeid, lugege jaotist [
 
 
 Teie Project Operationsi keskkond on nüüd ettevalmistatud ja konfigureeritud. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Project Operations sisaldab järgmisi rolle.
 Lisateavet lahenduse Finance turbe kohta leiate teemast [Rollipõhine turve](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

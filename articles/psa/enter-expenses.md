@@ -59,3 +59,6 @@ Sisestage kulud vähemalt kord nädalas – või teie juhtide nõutava sageduseg
   
 ### <a name="see-also"></a>Vt ka  
  [Aja-, kulu- ja koostööjuhend](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

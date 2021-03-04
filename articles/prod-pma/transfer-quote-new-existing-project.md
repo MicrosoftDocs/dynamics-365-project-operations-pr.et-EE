@@ -36,3 +36,6 @@ Viisardi kasutamiseks tehke järgmist.
 1. Minge jaotisse **Projektijuhtimine ja raamatupidamine** > **Hinnapakkumised** > **Projekti hinnapakkumised**.
 2. Valige hinnapakkumine, mille soovite üle viia, ja valige vahekaardil **Järeltegevus** rühmas **Muuda** suvand **Projekti üleviimine**.
 3. Hinnapakkumise projektiga seostamiseks ja üleviimiseks järgige viisardit **Hinnapakkumise projekti üleviimine**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

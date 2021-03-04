@@ -63,3 +63,6 @@ Sama meetodit saate kasutada ka fikseeritud või esialgse broneeringu ajakavapan
 Esialgselt broneeritud ressursi teisendamiseks fikseeritud broneeringuks projekti vahekaardil **Meeskond**, valige ressurss ja seejärel tehke valik **Kinnita**.
 
 ![Käsk Kinnita](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

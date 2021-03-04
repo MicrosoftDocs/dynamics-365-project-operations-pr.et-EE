@@ -46,3 +46,6 @@ Tooteatribuutidest koguseliste tegurite loomiseks tehke järgmist.
 7. Korrake samme 2–6 kõigi atribuutide jaoks, mis koos moodustavad tootepõhise lepingurea koguse.
 
 Kui koguselised tegurid on häälestatud ja kasutaja loob selle toote jaoks lepingurea, siis lepingurea kogus on lukus. Kogus arvutatakse seejärel selle lepingurea atribuudi väärtuste tootena.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

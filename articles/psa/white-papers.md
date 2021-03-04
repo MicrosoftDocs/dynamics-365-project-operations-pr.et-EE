@@ -45,3 +45,6 @@ Need tehnilised ülevaated on mõeldud [!INCLUDE[pn_crm_shortest](../includes/pn
 
 ### <a name="see-also"></a>Vt ka
  [Project Service'i ülevaade](../psa/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

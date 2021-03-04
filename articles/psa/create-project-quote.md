@@ -55,3 +55,6 @@ Hinnapakkumise loomine sarnaneb müügivõimaluse loomisele. Kui müügivõimalu
   
 ### <a name="see-also"></a>Vt ka  
  [Kontohalduri juhend](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

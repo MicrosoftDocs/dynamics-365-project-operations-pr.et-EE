@@ -55,3 +55,6 @@ Näiteks Fabrikam India arendaja, kes töötab USA projektiga, arveldatav tasu o
     | Arendaja | Fabrikam US | 150 USD |
 
 3. Lisage müügi hinnakiri **Fabrikam USA arveldusmäärad** projekti lepingu või teatud konto projekti hinnakirjale.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -77,3 +77,6 @@ Sihtväljalaske kuupäevad võivad muutuda. Lisateavet vaadake teemast [Teenuse 
 | --- | --- |
 | 10.0.17 | 19. märts 2021 |
 | 10.0.18 | 16. aprill 2021 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

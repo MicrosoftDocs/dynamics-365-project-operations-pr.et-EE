@@ -113,3 +113,6 @@ Mobiilirakenduse Finance and Operations allalaadimine ja installimine
 11. Valige rea atribuut.
 12. Valikuline: sisestage kõik välised ja sisemised kommentaarid.
 13. Valige nupp **Valmis**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

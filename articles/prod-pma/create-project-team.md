@@ -62,3 +62,6 @@ Järgmises toimingus kirjeldatakse, kuidas luua projektimeeskonda.
 ## <a name="monitor-project-teams"></a>Projektimeeskondade jälgimine
 1. Lehel **Kõik projektid** valige link **Projekti ID** projekti **XYZ värskenduse 2. etapp** jaoks.
 2. Kiirkaardil **Projektimeeskond ja ajastamine** veenduge, et loetletud projektiressursid oleksid õiged.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

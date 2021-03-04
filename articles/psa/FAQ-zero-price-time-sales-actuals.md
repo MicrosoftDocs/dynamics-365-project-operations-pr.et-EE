@@ -57,3 +57,6 @@ Kui rolli hinna ruudustikus pole aja kande klassiga tegeliku müüginäitaja hin
 
 Kui te pärast ülaltoodud kolme kontrolli ei näe aja kande klassiga tegelike müüginäitajate maksumuse kehtivat hinda, esitage tugiteenusepilet. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

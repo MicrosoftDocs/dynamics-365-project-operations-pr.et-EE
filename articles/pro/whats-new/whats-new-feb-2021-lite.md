@@ -38,3 +38,6 @@ See teema kehtib rakenduse Dynamics 365 Project Operations järgmistele komponen
 | **Projekti plaanimine ja jälgimine** | 2164035 | Parandatud on probleemid funktsiooniga **Projekti kopeerimine**. |
 | **Ajakirje** | 2129161 | Rakendatakse kitsamaid piiranguid tagamaks, et kasutajad ei saaks muuta või värskendada esitatud või kinnitatud ajakirjet. |
 | **Ajakirje** | 2103572 | Projektiväliste ajakirjete aja kinnitamine ei pea nõudma projekti kinnitaja rolli. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

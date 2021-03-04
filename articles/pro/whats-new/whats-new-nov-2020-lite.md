@@ -37,3 +37,6 @@ Järgmises tabelis on toodud rakenduse Project Operations CDS-i keskkonna versio
 | Aja- ja kiirsisestuse kirje | 2047499          | Ajakirje lehe nupp **Uus** avan lehe **Uus meili signatuur**.                                                                                               |
 | Aja- ja kiirsisestuse kirje | 2059859          | Kulukirje loomisel avaneb ootamatu hüpikaken.                                                                                                                         |
 | Muu                        | 2044181          | [Ostutellimuse desinstallimine] Kui proovite desinstallida **msdyn_ProjectServiceCore_Patch** ja msdyn Projektiteenuse põhilahendusi, ilmneb tõrge „Kirje pole saadaval”.        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

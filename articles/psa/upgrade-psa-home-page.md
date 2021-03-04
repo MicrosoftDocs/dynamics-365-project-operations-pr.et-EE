@@ -65,3 +65,6 @@ Alates 1. märtsist 2020 ei saa Dynamics PSA kliendid enam luua uut keskkonda va
 
 > [!NOTE]
 > Selleks et saada Field Service’i ja PSA rakenduste vanemaid versioone kasutades parimat kogemust, minge lehele **Süsteemisätted** ning valige välja **Kasuta ainult uut ühtset kasutajaliidest (soovitatav)** sätteks **Ei**, sest need versioonid ei ole loodud UCI-s õigesti laadimiseks. Kui olete UCI välja lülitanud, saate neid Field Service’i ja PSA versioone avada ning käivitada vana veebikliendi kaudu. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

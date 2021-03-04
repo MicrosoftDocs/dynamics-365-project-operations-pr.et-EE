@@ -39,3 +39,6 @@ See on näide sellest, kui üldiste ressursside taotluse täitmiseks on vaja mit
 Peamine erinevus selle stsenaariumi puhul seisneb selles, et üldine ressurss jääb tööülesandele määratud meeskonnale ja broneeritud nimega ressursi meeskonnaliikmeid ei määrata positsiooni osana. Projektijuht saab määrata tööd vastavalt vajadusele nimega ressurssidele. Vaade **Sobitamine** võib aidata projektijuhti broneeringute jaotamisel üle mitmete ressursside vahel määrangute tegemisel. Seda ei tehta automaatselt, kuna mis tahes stsenaariumi korral, mis on keerulisem kui ülaltoodud lihtne näide, näiteks juhul, kui teil on nõude komplekt ülesandeid või peab süsteem eeldama, kuidas projektijuht soovib seda määrata. Kuna aga süsteem ei saa kavatsusest aru, siis need eeldused suure tõenäosusega erinevad sellest, mida tegelikult teha sooviti, ning seetõttu kuvatakse vale ja ettearvamatu tulemus. Prognoositav tulemus on, et üldine ressurss jääb alles, kuni projektijuht tahtlikult vaate **Sobitamine** abil määrangu loob.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

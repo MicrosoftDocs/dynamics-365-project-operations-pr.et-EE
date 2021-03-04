@@ -53,3 +53,6 @@ Nüüd, kui olete lisanud klientide projektidele oskused, vajate moodust oma nõ
   
 ### <a name="see-also"></a>Vt ka  
  [Ressursside seadistamine](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

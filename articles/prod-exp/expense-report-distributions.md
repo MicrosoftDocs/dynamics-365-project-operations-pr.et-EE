@@ -37,3 +37,6 @@ Kuna Laura töötas Frankfurtis kahe eraldi projektiga, siis oma kuluaruannet si
 |Hotell         |725 EUR              |557 EUR                        |168 EUR                          |
 |Toidukorrad         |346 EUR              |284 EUR                        |62 EUR                           |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

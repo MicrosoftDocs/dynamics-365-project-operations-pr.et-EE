@@ -73,3 +73,6 @@ Mitteületatavaid olekuid on võimalik hinnata uuesti hulgi. Mitteületatavuse o
 Kui te soovite mitteületamise oleku uuesti hinnata, valige vaates **Aja ja materjali arveldamise võlgnevus** või **Tegelikud näitajad** üks või mitu tegelikku näitajat ja valige seejärel **Hinda mitteületatavate olek uuesti**.
 
 Kõik asjaomased valitud mitteületatava limiidiga tegelikud näitajad hinnatakse uuesti vasatavalt mitteületatavuse piirväärtuse seadistusele. Mitteületatavuse oleku uuesti hindamiseks asjakohased tegelikud näitajad on arveldamata müügi tegelikud näitajad, mis ei ole arveldatud, pole veel arve mustandil ja on märgitud arvedatavana. Kõik muud valitud tegelikud näitajad.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

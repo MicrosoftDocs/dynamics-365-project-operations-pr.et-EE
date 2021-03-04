@@ -116,3 +116,6 @@ Project Operationsi ajakava abil saate luua ülesannete vahel eelkäijate seosei
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Hõlbustusfunktsioonid ja kiirklahvid
 
 **Ajakava** ruudustik on täielikult juurdepääsetav ja seda saab kasutada ekraanilugeja, näiteks Narrator, JAWS või NVDA. Saate liikuda läbi ruudustiku ala nooleklahvide abil (nagu rakenduses Microsoft Excel), saate kasutada tabeldusklahvi, et interaktiivse kasutajaliidese elemente edasi arendada, ning võite kasutada allanoolt, sisestusklahvi või tühikut, et valida ja avada rippmenüüd.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

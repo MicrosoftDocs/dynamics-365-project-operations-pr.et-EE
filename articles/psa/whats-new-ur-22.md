@@ -72,3 +72,6 @@ Lahendatud on järgmised probleemid.
 - Võidetuna hinnapakkumise sulgemine navigeeri loodud lepingu juurde, kui hinnapakkumisele manustatud BPF on viimases etapis.
 - Suvandi **Arveldamata müük** tagasipööramine on seotud algse kuluga, kui ajakirje võetakse tagasi.
 - Pärast nupu **Kinnita** valimist arve olek ei muutu olekule **Kinnitatud** enne, kui arve värskendatakse.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

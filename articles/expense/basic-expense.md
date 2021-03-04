@@ -55,3 +55,6 @@ Veel esitamata kulusid on võimalik kustutada. Juba esitatud kulu kustutamiseks 
 ## <a name="see-also"></a>Vt ka
 
 - [Kinnituste ülevaade](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -91,3 +91,6 @@ Arvete loomiseks kasutatav pakktöötluse töö on korduv töö. Kui seda pakkt�
 
 > [!NOTE]
 > Project Operationsis pakett-arveldamine töötab ainult projekti lepinguridade jaoks, mis on arvegraafikute poolt konfigureeritud. Fikseeritud hinnaga arveldusmeetodiga lepingureal peavad olema seadistatud vahe-eesmärgid. Aja- ja materjalikulu arveldusmeetodiga projekti lepingurea jaoks peab olema seadistatud kuupäevapõhine ajakava.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

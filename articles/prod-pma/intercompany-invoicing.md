@@ -113,3 +113,6 @@ Kui laenuandev juriidiline isik USSI sisestab kontsernisisese kliendiarve, luuak
 Lisateavet vt teemast [Kontsernisiseste projektide arvete konfigureerimine](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

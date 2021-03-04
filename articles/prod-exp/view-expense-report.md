@@ -32,3 +32,6 @@ Kuluaruannete korral saate tehingust süvitsi kuluhaldusesse salvestatud algse a
 Algsesse kuluaruandesse, kus tehing esines, süvitsi minemiseks valige tehing ja seejärel valige **Algdokument**.
 
 Üksikuid kandeid vaadates saate vaadata ka kõiki kandega seotud täiendavaid andmeid. Näiteks saate vaadata üksikasjalike hotellikulude kohta põhjalikku kulude loendit, nagu Interneti-ühendus, telefonikõned ja toateenindus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

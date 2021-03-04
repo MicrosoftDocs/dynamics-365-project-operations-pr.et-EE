@@ -88,3 +88,6 @@ Arve ajakavad on iga lepingurea jaoks konkreetsed ja need on vajalikud automaats
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Dynamics 365 Salesi tellimuste muudatused
 
 Project Operationsi lepingud on koostatud Dynamics 365 Salesi tellimustele. Siiski on funktsionaalsuses olulisi kõrvalekaldeid ja erinevusi. Lepingutel on nende oma vorm ja kasutajaliidese elemendid, ärireeglid, äriloogika lisandmoodulid ja kliendipoolsed skriptid, mis muudavad need tellimustest erinevaks. Neil põhjustel ärge kasutage müügitellimust ja Project Operationsi lepingut vaheldumisi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

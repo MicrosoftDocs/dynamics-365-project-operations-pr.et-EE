@@ -142,3 +142,6 @@ See teema kehtib rakenduse Dynamics 365 Project Operations järgmistele komponen
 ## <a name="regulatory-updates"></a>Regulatiivsed uuendused
 
 Lisateavet teenuse Dynamics 365 Finance regulatiivsete uuenduste kohta vaadake teemast [Regulatiivsed uuendused](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Veel üks võimalus regulatiivsete värskenduste kohta teada saada on logida teenusesse Lifecycle Services (LCS) ja vaadata plaanitud regulatiivseid värskendusi, kasutades probleemide otsingu tööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

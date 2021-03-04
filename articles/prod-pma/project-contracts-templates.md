@@ -153,3 +153,6 @@ Järgmisel joonisel on toodud andmete integratsioonis malli ülesande vastendami
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Projekti lepingurea vahekokkuvõtte kaardistamine Projektides ja lepingutes (PSA 3.x-st Dynamicsisse) – v2 mall:
 
 [![Projekti lepingurea vahe-eesmärgi malli vastendus versiooni kaks malliga](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

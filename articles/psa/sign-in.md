@@ -56,3 +56,6 @@ Kui logite sisse Dynamics 365 rakendustesse, peab teil administraatorilt olema s
   
 ### <a name="see-also"></a>Vt ka  
  [Aja-, kulu- ja koostööjuhend](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

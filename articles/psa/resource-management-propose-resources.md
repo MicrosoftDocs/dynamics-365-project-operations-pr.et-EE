@@ -113,3 +113,6 @@ Kuna rakendus Dynamics 365 Project Service Automation kasutab mootorit Universal
 Konkreetse ressursi kohta lisateabe saamiseks paremklõpsake seda, et avada ressursikaart.
 
 ![Ressursikaart](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

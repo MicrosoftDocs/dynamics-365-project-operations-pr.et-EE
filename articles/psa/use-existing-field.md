@@ -31,3 +31,6 @@ ms.locfileid: "5144147"
 Project Service Automation (PSA) on olemis **Tegelikud näitajad** palju välju, mida saab projekti organisatsioonides ressursil põhineva hinnakujunduse jaoks kasutada hinnakujunduse dimensioonidena. Näiteks üks üldväli on **Broneeritav ressurss**. Väiksemad ettevõtted, millel on vähem kui 20–30 arveldatavat ressurssi, võivad leida, et lihtsam on lihtsalt igale ressursile määrata konkreetsed arveldus- ja kulumäärad. Kuna aga arveldatav töötajaskond kasvab, võib erimäärade säilitamine muutuda ebarealistlikuks, sest ressursi kulu- ja arveldusmäärad hakkavad erinema, kui ressursse edutatakse, nad saavad rohkem kogemust või omandavad erinevaid oskusi. Kuna aga see lähenemine töötab endiselt teatava suurusega ettevõtete puhul, vaadake jaotist [Broneeritava ressursi kasutamine hinnakujunduse dimensioonina](bookable-resource-pricing-dimension.md) ja lugege, kuidas Project Service’i olemasolevat välja saab kasutada hinnakujunduse dimensioonina.
 
 Teine näide on kandekategooria. Kliendid ja juurutajad on kasutanud PSA kandekategooriat töö klassifitseerimiseks ning välja hinnakujunduse ja kulude jaoks vastavalt töökategooria järgi. Lisateavet leiate jaotisest [Kandekategooria kasutamine hinnakujunduse dimensioonina](transaction-category-pricing-dimension.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

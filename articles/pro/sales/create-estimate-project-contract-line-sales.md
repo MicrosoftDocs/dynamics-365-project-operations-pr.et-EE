@@ -68,3 +68,6 @@ Tasuvusarvutused teisendavad **kulu** ja **müügi** lepingurea üksikasjade sum
 
 > [!NOTE]
 > Kuupäeval kehtivate valuutamäärade puudumise tõttu võivad esineda valuuta ümardamisvead ja muutunud marginaalid. Kasutage neid arvutusi projektilepingutes ainult ligikaudsena ja mitte tegeliku seadusjärgse või muu aruandluse jaoks, mis nõuab ümardamises suuremat täpsust ja vahetuskursside kehtivuse kuupäeva teadlikkust.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

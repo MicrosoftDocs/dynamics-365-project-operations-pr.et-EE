@@ -344,3 +344,6 @@ Kui teil on ressursi jaoks tööülesanded, kuid ei mingeid broneeringuid,valige
 ![Dialoogiboks Pikenda reserveeringut](media/Resource-Management-image58.png)
 
 Projektijuht või ressursihaldur saab seejärel kasutada ajakavapaneeli, et hallata mis tahes olukordi, kus ressurss on üle broneeritud.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

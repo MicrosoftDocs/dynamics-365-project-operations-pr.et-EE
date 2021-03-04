@@ -74,3 +74,6 @@ Enne konfigureerimise alustamist peab teil olema teenuse Common Data Service (CD
     -   Reserveeritava ressursi tunnus
 
     ![Lõpetage importimine](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Valige **Sisselogimine** > **Logi keskkonda sisse**, et navigeerida rakenduse Fi
 
 > [!NOTE]
 > Rakendusse Project Operations pääsete ligi teenusest Common Data Service ja otse moodulist **Projektihaldus ja raamatupidamine**, kasutades nende vastavaid URL-e. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

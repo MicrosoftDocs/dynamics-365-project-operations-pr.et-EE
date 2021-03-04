@@ -440,3 +440,6 @@ Pärast seda, kui aruanne on arvutatud, saate vaadata järgmist teavet lehe **Pr
 -   **Tarbimine** – teave tundide, kaupade, kulude ja palgaarvestuse toimingute tarbimise kohta.
 -   **Arve** – teave arvete ja ettemakstud arvete kohta.
 -   **Tunnimäär** – tulu ja kulu kontidele sisestatud tunnimäärad.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

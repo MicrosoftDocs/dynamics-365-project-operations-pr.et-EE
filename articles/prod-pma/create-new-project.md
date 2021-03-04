@@ -104,3 +104,6 @@ Ressursi reserveerimise ajal saavad projektijuhid filtreerida projektidega töö
 
 3. Valige käsk **Salvesta** ja sulgege seejärel leht.
 4. Vahekaardil **Pädevused** lisage oskus **Projektihaldus** ja sertifikaat **PMP**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

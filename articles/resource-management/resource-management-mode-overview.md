@@ -48,3 +48,6 @@ Ressursi otse projektile broneerimine.
 Ressursi broneerimine ressursinõudest.
 - [Ülesandele üldiste broneeritavate ressursside määramine ja ressursinõuete loomine](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [Nimega ressursside broneerimine ressursinõuetest](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

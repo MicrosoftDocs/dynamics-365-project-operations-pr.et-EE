@@ -69,3 +69,6 @@ Projekti prognoosiridade üleselt kopeerimisel värskendatakse hinnakirju. Kulud
 ### <a name="copying-a-project-team"></a>Projektimeeskonna kopeerimine
 
 Projektimeeskonna kopeerimisel projektimallist projekti kopeeritakse üldised ressursid koos mallis määratletud oskuste ja pädevustega. Üldiseid ressursi määramisi säilitatakse samamoodi, nagu nad olid projektimallis. Nimega ressursse projektimallides ei toetata.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

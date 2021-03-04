@@ -96,3 +96,6 @@ Eduka täienduse tagamiseks tuleb õigesti säilitada järgmised seosed.
 
 - Kõik projekti ülesande sõltuvused peavad olema seotud sama projektiga.
 - Ülesandel ei saa samale sõltuvusele viidata rohkem kui üks kord.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

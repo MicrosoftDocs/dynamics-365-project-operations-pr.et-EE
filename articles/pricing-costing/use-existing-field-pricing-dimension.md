@@ -31,3 +31,6 @@ _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaa
 **Tegelikel** olemitel on palju välju, mida saab kasutada ressursil põhineva hinnakujunduse dimensioonidena. Näiteks üks üldväli on **Broneeritav ressurss**. Väiksemad ettevõtted, millel on vähem kui 20–30 arveldatavat ressurssi, võivad leida, et lihtsam on lihtsalt igale ressursile määrata konkreetsed arveldus- ja kulumäärad. Kuid kuna tasustatav tööjõud kasvab, võib ressursipõhised määrad muutuda ebarealistlikuks, et neid säilitada. Ressursi kulu ja arve määrad hakkavad erinema, kui ressursse edutatakse, nad saavad rohkem kogemusi või õpivad juurde uusi oskusi. 
 
 Teine näide on kandekategooria. Kliendid ja juurutajad on kasutanud kandekategooriat töö klassifitseerimiseks ning välja hinnakujunduse ja kulude jaoks vastavalt töökategooria järgi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

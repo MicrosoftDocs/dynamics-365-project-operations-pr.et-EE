@@ -93,3 +93,6 @@ Rakenduses PSA ei saa jälgida hinnapakkumises tehtud läbivaatamisi. Selle asem
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Hinnapakkumiste ja projekti lepingute kommentaaride ja kinnituste jälgimine
 Hinnapakkumiste ja projekti lepingute läbivaatamist ja kinnitamist saate hallata kirje seina ning postituste abil. Teie organisatsioon saab luua kohandatud töövooge ja lisandmooduleid, et määrata, suunata, laiendada ja hallata teatiste läbivaatuse ja kinnitamise tööüksusi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

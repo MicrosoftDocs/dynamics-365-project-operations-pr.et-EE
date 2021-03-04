@@ -67,3 +67,6 @@ Kulu hinnapakkumise rea üksikasjade valuuta tuleb vaikimisi hinnapakkumise lepi
 Tasuvuse arvutustes teisendatakse hinnapakkumise rea üksikasjad kulu ja müügi kohta keskkonna põhivaluutasse, et teavitada hinnapakkumise üldisest eeldatavast marginaalist.
 
 See võib põhjustada kuupäeval kehtivate valuutamäärade puuduse tõttu valuuta ümardamise tõrkeid ja muutmise marginaale. Kasutage neid arvutusi projekti hinnapakkumistes ainult ligikaudsena ja mitte tegeliku seadusjärgse või muu aruandluse jaoks, mis nõuab vahetuskursside ümardamise ja teadlikkuse suuremat täpsust.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

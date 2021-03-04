@@ -48,3 +48,6 @@ Ressursside oskusi hinnatakse oskustaseme mudelitega. Individuaalsed hinnangud o
 > ![Minimaalsed ja maksimaalsed hinnangud on määratletud](media/Resource-Management-image85.png)
 
 Need hinnangu väärtused kuvatakse filtrites **Ressursinõuded**, **Ajakavapaneel** ja **Ajakava abimees**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

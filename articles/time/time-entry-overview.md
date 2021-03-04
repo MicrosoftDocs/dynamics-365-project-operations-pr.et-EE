@@ -27,3 +27,6 @@ Projekti meeskonnaliikmed loovad ja esitavad kinnitamiseks ajakirjeid ning proje
 
 Lisateavet selle kohta, kuidas kirjet luua, esitada või tagasi kutsuda, ja muude tööriistade kohta, mis aitavad teil oma aruandlust lõpule viia, leiate teemast [Ajakirje kasutaja käitumine](ui-behavior-time.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

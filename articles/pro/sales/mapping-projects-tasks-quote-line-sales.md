@@ -90,3 +90,6 @@ Projekti tööülesanded saate hinnapakkumise ridadest lahti siduda ka vahekaard
 
 >[!NOTE]
 > See toiming ei kustuta tööülesannet projektist. See eemaldab ainult tööülesande seose projektipõhiselt hinnapakkumise realt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

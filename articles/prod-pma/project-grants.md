@@ -79,3 +79,6 @@ Saate luua toetuse, sisestades kõik üksikasjad uude kirjesse, samuti saate kop
 2. Valige muudetav toetus.
 3. Valige toimingupaanil vahekaardil **Toetus** rühmas **Säilita** suvand **Redigeeri**.
 4. Vaadake üle toetuse üksikasjad ja tehke soovitud muudatused.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

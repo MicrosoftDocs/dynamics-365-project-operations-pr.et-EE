@@ -57,3 +57,6 @@ Selles teemas loetletakse PSA V3 värskenduse väljalaske 17 uusi või muudetud 
 - Parandatud: kui tehingu klass on **Aeg**, on **UnitGroup** redigeerimatu kõigi olemite, sealhulgas olemite **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail** ja **ContractLineDetails**, korral. Siiski, **Ühik** on redigeerimatu ainult olemite **JournalLine** ja **InvoiceLineDetails** korral.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

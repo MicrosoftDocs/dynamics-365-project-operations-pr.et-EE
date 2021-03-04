@@ -152,3 +152,6 @@ Tööjaotuse struktuuri koostamisel kasutatakse järgmisi ülesannete tüüpe.
   
 ### <a name="see-also"></a>Vt ka  
  [Projektijuhi juhend](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

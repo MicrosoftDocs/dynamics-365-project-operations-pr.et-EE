@@ -41,3 +41,6 @@ Ressursid on teenusepõhise organisatsiooni kõige olulisem vara. Võime leida j
 - [Esialgse broneerimise nõuded](resource-management-softbook-requirements.md)
 - [Oskuste ja oskustaaseme mudelid](resource-management-skills-proficiency.md)
 - [Ressursihalduse KKK](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -170,3 +170,6 @@ Järgmisel joonisel on toodud andmete integratsioonis malli ülesande vastendami
 [![Kuluprognoosi kannete malli vastendamine](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Kuluprognoosi malli vastendamine](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

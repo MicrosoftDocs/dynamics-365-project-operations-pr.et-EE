@@ -26,3 +26,6 @@ Erinevalt broneeringutest on määramised ressursside kohustus projekti ülesann
 Tavaliselt võrdub ressursi reserveeringute summa ressursi määramiste summaga ühe või mitme ülesande üleselt. Samas Project Operations ei jõusta seda kokkulepet. Vaates **Vastavusseviimine** kuvatakse projektijuhile kohti, kus ressursi broneeringud ja määramised ei ühti.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

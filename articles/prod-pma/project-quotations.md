@@ -41,3 +41,6 @@ Kui klient võtab projekti hinnapakkumise vastu, saate kopeerida projekti hinnap
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

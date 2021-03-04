@@ -23,3 +23,6 @@ Dynamics 365 Project Operations sisaldab valideerimise loogikat, mis tagab õige
 
   - Seotud tabelites luuakse kõik toetavad read (nt töölehed ja tegelikud näitajad).
   - Kinnitaja märgitakse projektis enne jätkamist kui **Projekti kinnitaja**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

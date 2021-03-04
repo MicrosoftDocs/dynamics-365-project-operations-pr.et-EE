@@ -66,3 +66,6 @@ Lahendatud on järgmised probleemid.
 - Projekti loomisel võivad kliendid halvenenud tulemusi kogeda, kuna **GetBookableResourceIdFromUser** toob esmase ID asemel kõik arvestusliku ressursi veerud.
 - Olemist **TransactionType** puudub eelvalideerimise uuenduse lisandmoodul, et takistada kasutajatel sisestada **Üksusi** ja **Üksusegruppe**, mis ei kehti kandetüüpide jaoks.
 - Etapp **Eemaldamine** ei tööta ajakirje impordi puhul.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

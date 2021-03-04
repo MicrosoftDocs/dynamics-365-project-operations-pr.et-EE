@@ -43,3 +43,6 @@ Valige see juurutamise tüüp, et kasutada rakendust Dynamics 365 Project Operat
 - Ettevõtte tasemel käibemaksu ja vahetuskursi määra mootor kliendile suunatud arvete loomiseks.
 - Rahvusvaheliste finantsaruandluse standardite (IFRS) nõuetele vastavad projekti raamatupidamise ja tuluarvestuse süsteem.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

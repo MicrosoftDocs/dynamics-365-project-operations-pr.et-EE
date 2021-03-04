@@ -51,3 +51,6 @@ Iga lahenduses Dynamics 365 Customer Engagement Project Operationsi kasutav juri
   - **Arveldustüübi vaikesätted**: Project Operations kasutab fikseeritud arveldustüübi vaikeväärtuste kogumit, mis tuleb vastendada Finance'is rea atribuutidega. Looge kirje iga arveldustüübi kohta: **Määramata**, **Tasustatav**, **Mittearveldatav**, **Tasuta** ja **Pole saadaval**.
   - **Projekti kategooria vaikesätted**: valige iga kandetüübi jaoks kasutatavad projekti vaikekategooriad. Neid vaikeväärtusi kasutatakse **Project Operationsi integreerimise töölehel** ja nendes prognoosides, kus projekti tegelikuks näitajaks ei ole tehingu kategooriat määratud.
   - **Prognoosid**: valige prognoosi mudel, mida kasutatakse aja- ja kuluprognoosideks.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

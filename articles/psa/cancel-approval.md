@@ -62,3 +62,6 @@ Projekti mõjutatakse ka rahaliselt, kui kinnitus tühistatakse. Esmalt värsken
 Seejärel luuakse tabelis tegelikud tagasipööramise kirjed. Tagasipööratud kirjete loomiseks kopeerib süsteem algsetest tegelikest välja väärtustest üle. Ainukesed väärtused, mida ei kopeerita, on koguse väärtused. Need väärtused pööratakse hoopis vastupidiseks. Tagasipööratud tegelikud luuakse järgmiste tegelike jaoks: **Kulu** ja **Arveldamata müük**. Tagasipööratud tegelike välja **Korrigeerimise olek** väärtuseks seatakse **Pole korrigeeritav** ja arve olekuks seatakse **Tühistatud**.
 
 Pärast nende muudatuste tegemist arvestatakse projektile kulutatud summa ja projekti tulu mahajäämust, mis on seotud nende tegelike näitajate summadega.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Kui iga ressursi jaoks on kasutatud broneeringu pikendamise funktsiooni, pikenda
 Pange tähele, et broneeringute üksikasjade täpsem vaatamine näitab, et broneeringute algusaeg on erinev. Broneeringud ei alusta varem kui määramise kontuuri algusaeg ja mitte varem kui ressursi saadavuse algusaeg.
 
 ![Ajakavapaneelil olevate ressursside uued broneeringud](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

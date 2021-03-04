@@ -64,3 +64,6 @@ Lisage oma hinnakujunduse lahendusele järgmised teenuse Project Service olemid,
 5.  Kui teil palutakse lisada valitud olemite jaoks mis tahes sõltuvaid olemeid, valige suvand **Ei, ära kaasa nõutavaid komponente.**
 
     ![Kaasab sõltuvad olemid](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

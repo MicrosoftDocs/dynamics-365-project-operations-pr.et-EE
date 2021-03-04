@@ -132,3 +132,6 @@ Peaksite kasutama lisandmoodulite kinnitusi kõikide nende kinnituste jaoks, mis
 
 > [!IMPORTANT] 
 > Kui värskendamisel nurjub lisandmooduli valideerimine, takistab TBX-i lehtede teadaolev probleem praegu kasutajatel teavet parandamast ja valimast uuesti suvandit Valmis. Selleks et vältida seda olukorda nii palju kui võimalik, seadistage lahendusega ärireegli kinnitused.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

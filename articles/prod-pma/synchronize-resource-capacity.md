@@ -49,3 +49,6 @@ Me soovitame kasutada partiid. Valikud on võimsuse reserveeringute sünkroonimi
     | Lõppkuupäev    | Sisestage ressursi võimsuse ümberarvestuse sünkroniseerimisprotsessi lõpukuupäev. |
 
 [![Sünkroonimisprotsess](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

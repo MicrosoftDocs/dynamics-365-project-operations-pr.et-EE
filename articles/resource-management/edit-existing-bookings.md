@@ -33,3 +33,6 @@ Ruudustikust **Meeskonnaliige** saab projektijuht esile tõsta konkreetse ressur
 ## <a name="schedule-board"></a>Ajakavapaneel
 
 **Ajakavapaneelilt** on ressursihalduril kõigi organisatsiooni broneeringute portfelli vaade. Sellest vaatest saab ressursihaldur pikendada, lühendada või teisaldada olemasolevaid broneeringuid samamoodi, nagu võimaldab jaotis **Broneeringute haldamine**. Ressursihaldur saab asendada ka kindlale broneeringule eraldatud olemasolevad ressursid, tehes paremklõpsu broneeringul ja valides suvandi **Ressursi asendamine**. Ressursihaldurid saavad ka olemasolevate broneeringute kontuure redigeerida, tehes paremklõpsu broneeringul ja valides käsku **Redigeeri**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

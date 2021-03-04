@@ -35,3 +35,6 @@ Kui projekti leping, mis on suletud kui kaotatud, viitab projekti ridadele, siis
 
 > [!NOTE]
 > Rakenduses Dynamics 365 Project Operations ei mõjuta projekti lepingu sulgemine seostatud müügivõimaluse olekut. Müügivõimalus jääb avatuks ja see tuleb käsitsi sulgeda.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

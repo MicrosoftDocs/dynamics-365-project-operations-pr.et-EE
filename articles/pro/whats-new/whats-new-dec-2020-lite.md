@@ -57,3 +57,6 @@ Järgmises tabelis on toodud rakenduse Project Operations teenuse Dataverse kesk
 | Aeg ja kulu | 2034882 | Nupp **Uus** kuvatakse ajakirjete jaoks käsuribal kaks korda, kui Dynamics 365 Field Service on installitud. |
 | Aeg ja kulu | 2056028 | Värskendage lehte **Kellaaja redigeerimine**, et kaasata ajarida. |
 | Aeg ja kulu | 1983747 | Ajakirje tabel kuvab täiendavaid andmeid. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

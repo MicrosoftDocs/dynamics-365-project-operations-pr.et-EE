@@ -105,3 +105,6 @@ Dynamics 365 tegeleb automaatselt summade ümberarvestusega erinevates valuutade
 | Kulu           | Arveldamata müük   | 17. juuni | Marko  | Autorent           | 1 EA     | 150 EUR      | 150 EUR     | 0.94          | 159.57 USD     |
 
 Kui soovite arvutada projekti arveldamata müügi kogusummat, saate kõigi seostuvate arvestatud müügi tegelike väärtuste väljale **Summa** luua ümberarvestuse välja. Ümberarvestuse väli on Dynamics 365 konstruktsioon, mis võimaldab seostuvate kirjete jaoks kiiresti valemeid luua.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Saate kasutada iga sellist hinnakirja ja teha kohandusi töö (rolli hind) ja ku
 Projektilepingus on projekti hinnakujunduse vaikeväärtused alati pärit lepingu nimega kohandatud hinnakirjast ja luuakse nimele lisatud ajatempliga. See on tõene, kui leping loodi hinnapakkumise võitmise ajal või kui leping loodi nullist. Vajaduse korral saate selle kohandatud hinnakirjaga seose eemaldada ja seostada selle asemel projektilepinguga standardse hinnakirja.
 
 Kui seostate hinnapakkumise või lepingu projekti hinnakirjad standardse hinnakirjaga, mõjutavad kõik hinnakirja hindade muudatused kõiki hinnapakkumisi ja lepinguid, mis seda hinnakirja kasutavad.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

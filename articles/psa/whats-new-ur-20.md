@@ -62,3 +62,6 @@ Lahendatud on järgmised probleemid.
 - **Organisatsiooni ühiku omahinna** loendid lubavad efektiivse kuupäeva kattumist.
 - Kasutajad ei tohi muuta **OrgUnit** it juhul, kui tellimuse tüüp ei ole tööpõhine, kuna selle tulemuseks on nullviite erandi tõrge.
 - Kui proovite navigeerida vormilt **Hinnapakkumise rea üksikasjad** tagasi vahekaardile **Hinnapakkumine**, siis vorm värskendab ja kuvab vahekaardi **Kokkuvõte**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

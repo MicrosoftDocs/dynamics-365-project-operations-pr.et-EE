@@ -43,3 +43,6 @@ Luues projekti jaoks Office 365 Groupi, saate tekitada ruumi, kus projekti meesk
   
 ### <a name="see-also"></a>Vt ka  
  [Projektijuhi juhend](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

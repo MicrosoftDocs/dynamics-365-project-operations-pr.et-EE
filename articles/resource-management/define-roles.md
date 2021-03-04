@@ -20,3 +20,6 @@ ms.locfileid: "4514514"
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
 Saate kasutada rakenduses Dynamics 365 Field Service sisalduvaid funktsioone, et määratleda rollid oma teenuse Dynamics 365 Project Operations keskkonnas. Selle seadistuse lõpetamiseks vaadake teemat [Broneeritava ressursi kategooriate seadistamine](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resource-categories).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

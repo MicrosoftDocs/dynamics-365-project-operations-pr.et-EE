@@ -242,3 +242,6 @@ Järgmine tabel kirjeldab, kuidas projekti tööülesande sõltuvuste olemi andm
 
 ### <a name="additional-resources"></a>Lisaressursid
  [Projektijuhi juhend](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

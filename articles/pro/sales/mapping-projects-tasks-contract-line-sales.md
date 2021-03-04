@@ -82,3 +82,6 @@ See pole projekti ülesannete lepinguridade seostamise lõpetamiseks palju optim
 4. Valige avaneval dialoogi lehel ripploendist lepingurida.
 5. Vlige märkeruut, et näidata, kas seose eemaldamine peaks hõlmama ka valitud ülesannete mis tahes alam-ülesandeid. Ruudu märkimine eemaldab ka valitud ülesannete alam-ülesannete seose lepinguridadega.
 6. Valige **OK**. Hoiatusteade näitab, et selle seose eemaldamine võib põhjustada mis tahes varem tööülesandele salvestatud tegelike andmete tagasipööramist. Valige hoiatusdialoogis **OK**, et eemaldada ülesande ja projektipõhise lepingurea seos.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

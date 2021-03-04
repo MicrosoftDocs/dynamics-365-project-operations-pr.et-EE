@@ -37,3 +37,6 @@ Kasutage seda juurutamise tüüpi, kui teie plaanite hakata rakendust Project Op
 - Integreeritud süsteem, mis haldab sisemiste ja arveldatavate projektide ajakavasid ja rahaasju alates projekti müügist kuni arveldamiseni.
 - Muu tootja ettevõtte ressursiplaneerimise (ERP) / finantsraamatuidamise süsteem, rakendusega Project Operations integreerimiseks.
 - Muu tootja süsteem, et töötada käibemaksu, valuutakursside, kuluhüvitiste ja orojektiväliste kuludega.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

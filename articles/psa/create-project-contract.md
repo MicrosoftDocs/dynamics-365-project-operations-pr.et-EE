@@ -47,3 +47,6 @@ Nüüd, kui olete võitnud oma projekti hinnapakkumise, on aeg luua kliendiga le
   
 ### <a name="see-also"></a>Vt ka  
  [Kontohalduri juhend](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

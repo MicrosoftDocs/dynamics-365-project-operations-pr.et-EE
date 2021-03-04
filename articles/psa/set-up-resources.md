@@ -55,3 +55,6 @@ Enne ressursside taotlemist või määramist teenuses [!INCLUDE[pn_project_servi
   
 ### <a name="see-also"></a>Vt ka  
  [Project Service'i konfigureerimine](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

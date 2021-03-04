@@ -89,3 +89,6 @@ Project Operationsi hinnapakkumised on ehitatud Dynamics 365 Salesi hinnapakkumi
 - Project Operationsi hinnapakkumistel on nende oma vorm ja kasutajaliidese elemendid, ärireeglid, äriloogika lisandmoodulid ja kliendipoolsed skriptid, mis muudavad need Salesi hinnapakkumistest erinevaks.
 
 Nendel põhjustel ei soovitata kasutada Salesi hinnapakkumist ja Project Operationsi hinnapakkumist neid vahetades.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Allpool on kokkuvõte väljadest, mida saab projektis värskendada pärast selle
 - **Projekti üldine olek**: projektijuhi antud üldine projekti tervis.
 - **Kommentaarid**: projektijuhi antud narratiiv projekti praeguse tervise kohta.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

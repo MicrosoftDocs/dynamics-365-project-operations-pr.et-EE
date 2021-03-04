@@ -42,3 +42,6 @@ Saate kasutada **Ressursivalija** otsinguvälja, et otsida kõiki aktiivseid bro
 1. Liikuge tööpaanilt, paneellilt või ajajoonelt lahtrisse **Määratud:**.
 2. Hakake tippima otsinguväljale nime. Nime otsingutulemused kuvatakse jaotise **Muud ressursid** all olevas **Ressursivalijas**.
 3. Valige ressurss, mille soovite ülesandele määrata, või valige ressursi nimi suvandist **Muud meeskonna ressursid**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

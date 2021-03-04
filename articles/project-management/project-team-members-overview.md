@@ -60,3 +60,6 @@ Meeskonnaliikmete ruudustikust saab teha järgmisi toiminguid.
 
 - **Uus**: lisaks ressursside otse ajakavasse lisamisele saavad projektijuhid lisada meeskonnaliikmete ruudustikku uusi nimelisi või üldisi meeskonnaliikmeid.
 - **Kustutamine**: ühe või mitme meeskonnaliikme valimisel saab projektijuht kustutada ressursid, kes enam projektis ei osale. Meeskonnaliikme kustutamise korral kustutatakse ka kõik seostuvad ressursi määramised ja tühistatakse kõik olemasolevad broneeringud.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

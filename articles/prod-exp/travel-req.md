@@ -32,3 +32,6 @@ Teie organisatsioon võib nõuda, et enne töötajatele ettevõtte poolt tasutav
 Reisitellimusi ja poliitikaid saab kasutada eelarve kontrollimiseks. Kui teie organisatsioon töötab näiteks fikseeritud hinnaga projektiga, mis nõuab reisimist, peavad projekti meeskonnaliikmete sõidukulud vastama projekti eelarvele. Nõudes, et reisikulud kinnitatakse enne nende tekkimist, saab organisatsioon aidata tagada, et projekt jääb eelarve piiresse.
 
 Saate reisitellimuste poliitikaid seadistada lehel **Reisitellimus**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

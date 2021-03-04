@@ -85,3 +85,6 @@ Pärast paari ajakirje loomist saavad kasutajad korraga luua mitu ajakirjet.
 
 ## <a name="import"></a>Import
 Sama tavalist protsessi kasutatakse ka broneeringutest, määramistest ja vahetustest importimisel. Saate määrata imporditavate broneeringute kuupäevavahemiku ja seejärel eraldi valida broneeringud, mis tuleks kopeerida ajakirjete mustanditesse. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Kui töötundide mall on loodud, peate selle määrama ressurssidele, et nende k
   
 ### <a name="see-also"></a>Vt ka  
  [Ressursside seadistamine](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

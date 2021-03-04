@@ -33,3 +33,6 @@ Kõigi projekti hinnapakkumiste loendit saab vaadata loendi **Hinnapakkumised** 
 2. Kasutage hinnapakkumise teiste filtreeritud vaadete valimiseks suvandit **Vaatevahetaja**. Kohandatud filtri kriteeriumide abil saate konfigureerida oma vaateid ja navigeerimise suvandeid.
 
 Hinnapakkumisi saab luua või kustutada sellelt loendi lehelt või üksikasjade lehtedelt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

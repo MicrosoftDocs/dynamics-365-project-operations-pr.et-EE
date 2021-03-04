@@ -75,3 +75,6 @@ Pärast eelnevate toimingute lõpuleviimist saate vastavalt vajadusele täita j�
 - Täitke ressursitaotlusi.
 - Taotlege personali ressurssi WBS-ilt.
 - Broneerige ressursid projektile ilma personaliga ressursi taotlust.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Vaade **Vastavusse viimine** võimaldab projektijuhil näha iga projekti meeskon
 > [!NOTE]
 > Kui liigutate ülesannet, millele olete ise kontuuri seadistanud, siis neid kontuure ei hoita alles. Need kontuurid luuakse uuesti projekti kalendri järgi, et võtta arvesse muutusi töötundides ja puhkepäevades. See on taotluslik, kuna süsteem ei tea esialgse kontuuri eesmärki ja ei saa otsustada, kas kontuuri säilitamine uues ajavahemikus oleks sobiv. Kuna reserveeringud ja määrangud pole ühendatud, siis säilitavad reserveeringud esialgsed reserveeringu kontuurid. Sel juhul peate tühistama ja uue ülesande kontuurile uuesti reserveerima.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

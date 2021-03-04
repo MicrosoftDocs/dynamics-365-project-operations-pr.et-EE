@@ -106,3 +106,6 @@ Kui tööjaotuse struktuurile tehakse üks või mitu värskendust, siis muudatus
   - Project Operationsi süsteem
   - Projekti süsteem
   - Project Operationsi topeltkirjutamise süsteem (see roll on vajalik, kui kasutate Project Operationsi ressursipõhist/mittelaopõhist stsenaariumi.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

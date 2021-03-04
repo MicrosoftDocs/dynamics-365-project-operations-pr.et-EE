@@ -105,3 +105,6 @@ Sisestage kulud vähemalt kord nädalas – või teie juhtide nõutava sageduseg
  [Project Service'i ülevaade](../psa/overview.md)   
  [Aja-, kulu- ja koostööjuhend](../psa/time-expense-collaboration-guide.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -102,3 +102,6 @@ Järgnev on lühike ülevaade erinevatelt projekti kavandamise vahekaartidelt le
 **Veeru lisamine**: võimaldab kasutajal määratleda ruudustikus nähtavaid veerge. Vormi **Projekti kavandamine** ruudustikele saab lisada ainult valmiskujul veergusid.
 
 ![Nupp Lisa veerg](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

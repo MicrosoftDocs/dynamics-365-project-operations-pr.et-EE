@@ -53,3 +53,6 @@ Enne, kui saate ajakavapaneelilt broneerida, peate looma ressursinõuded. Ressur
 Nõue täidetakse valitud ressursi abil. Pange paanil **Broneeringu nõuded** tähele, et nõuet on värskendatud ja ressurss kuvatakse projektis broneeritud kujul.
 
 ![Ressurss on projektis broneeritud](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

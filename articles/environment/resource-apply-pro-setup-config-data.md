@@ -134,3 +134,6 @@ Enne teenuses Common Data Service (CDS) andmete konfigureermise alustamist tuleb
 13. Valige **Salvesta**. 
 
 ![Värskendatud projekti parameetrid](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

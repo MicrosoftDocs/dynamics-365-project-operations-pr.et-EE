@@ -316,3 +316,6 @@ Teise võimalusena saate parandada ajastamise vigu individuaalselt, klõpsates i
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

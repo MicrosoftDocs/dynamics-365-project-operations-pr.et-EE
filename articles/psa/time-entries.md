@@ -70,3 +70,6 @@ Saate importida projekti broneeringute ja ülesannete andmeid. Andmete importimi
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Rühmitamise, sortimise, otsimise ja filtreerimise võimalused
 
 Saate ajakirjeid rühmitada ja filtreerida veergudes määratud dimensioonide järgi. Valige väljast **Rühmitusalus** dimensioon, mida soovite ajakirjete filtreerimiseks kasutada. Saate ajakirjeid sortida ka tõusvas või kahanevas järjekorras, kasutades veerupäises olevat sortimisnoolt. Peale selle saate ka kirjeid kuvada või peita, kui vajutate veerupäistes olevat nuppu **Filtreeri** ja sisestate seejärel väljale **Otsi** teksti, mida tuleks kasutada ajakirjete otsimiseks projekti nime, projekti ülesande, ajakirje või ressursi järgi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ PSA-s saate oma projekti personali hulka lisada üldiseid või nimega ressurssid
 - [Nimega ressursside broneerimine ressursinõuetest](book-named-resource.md)
 - [Ressursitaotluse esitamine](submit-resource-request.md)
 - [Pakutud projekti ressursi ressursitaotlusest kinnitamine või tagasilükkamine](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

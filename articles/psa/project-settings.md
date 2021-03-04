@@ -68,3 +68,6 @@ Kõik organisatsioonid peavad need rollid seadistama lehel **Aktiivsed ressursik
 ## <a name="price-lists"></a>Hinnakirjad
 
 Hinnakirjad võimaldavad teil määrata organisatsioonis ressursirollide, kulukategooriate, toodete ja muude elementide jaoks oma- ning müügihinnad. Enne, kui määrate projekti jaoks edastatava töö finantskalkulatsioonid, peate looma tugikulud ja müügihinnakirja. Peate parameetrite jaotises seadistama ka vaikimisi kulu- ja müügihinnakirja, mis rakendub kõigile organisatsioonis loodavatele projektidele. Seadistage kindlasti lehel **Aktiivsed projektiparameetrid** vaikimisi kulu- ja müügihinnakiri.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

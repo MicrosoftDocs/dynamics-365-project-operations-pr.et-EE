@@ -61,3 +61,6 @@ Selles teemas loetletakse Project Service Automationi V3 värskenduse väljalask
     - Parandatud: põhivormist **Leping** on leitud topelt objekti ID-d.
     - Parandatud: loogikat on värskendatud, et muuta vahekaart **hinnapakkumise analüüs** nähtavale, nii et see kuvaks vahekaardi metaandmete seadistust.
     - Parandatud: tegeliku kirje arvestuskuupäev tuleb nüüd aja-/kulukirje kuupäevast ja mitte kinnitamise kuupäevast.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

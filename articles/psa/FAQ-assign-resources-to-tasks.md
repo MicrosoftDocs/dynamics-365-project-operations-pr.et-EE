@@ -82,3 +82,6 @@ Sel viisil määratud ressursid lisatakse meeskonda ilma broneeringuta. See on s
 
 3. Valige loendist ressurss, mille soovite ülesandele määrata.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

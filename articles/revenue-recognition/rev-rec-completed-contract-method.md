@@ -90,3 +90,6 @@ Hinnang muutub olekusse **Likvideeritud**.
 Sellel lehel saate pöörata ümber kõik likvideerimises koos konkreetse hinnangu kuupäevaga ja koos hinnangu olekuga **Likvideeritud**. Pärast vastavate väljade valimist tehingu olek muutub.
 
 See muudab automaatselt projekti olekuks **Pooleli**, kui projekti etapiks on määratud lõpetatud. Projekti ajavahemiku hinnangu olek muutub tagasi väärtusele **Kirjendatud**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Kui kaotatud projekti hinnapakkumise mistahes ridadel on viidatud projektile, m�
 
 > [!NOTE]
 > Project Operationsis ei m천juta hinnapakkumise sulgemine v천idetud v천i kaotatud olekus m체체giv천imaluse seda olekut, mis j채채b avatuks kuni k채sitsi sulgemiseni.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

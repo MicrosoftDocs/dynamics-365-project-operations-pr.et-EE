@@ -35,3 +35,6 @@ Enne töötaja saab luua ja esitada kontsernisiseseid kulusid, peate lubama kont
 
 Enne kui saate kuluaruandes kasutada laenava (allika) juriidilise isikuga seotud maksurühmi, mitte vastuvõtva (siht) juriidilise isiku omi, peate lubama selle funktsionaalsuse pearaamatu käibemaksu seadistuses. Kui parameeter **Juriidiline isik kontsernisisese maksusisestuse jaoks** on määratud olekusse **Allikas** ja **Rakenda käibemaksuga maksustamise reegleid** on määratud olekusse **Ei**, kasutatakse laenava juriidilise üksuse maksukombinatsiooni. Kui sama parameetri väärtuseks on seatud **Lähte**, kasutatakse laenajast juriidilise olemi jaoks maksu kombinatsiooni. Ameerika Ühendriikide juriidilistele olemitele, kui parameetri väärtuseks on seatud **Algne**, peab väli **käibemaks laekumata** olema konfigureeritud ka uuel lehel **Pearaamatusse sisestamise rühmad**. Raamatupidamise mootor kasutab selle välja teavet maksuga seotud raamatupidamisandmete jaoks.   
 Käitumine on kooskõlas projektiga või ilma selleta sisestatud kuluaruannete jaoks.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

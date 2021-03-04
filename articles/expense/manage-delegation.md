@@ -39,3 +39,6 @@ Kui funktsiooni haldamise võti **Luba loendi lehel kulude delegaadid** on lubat
 Delegaat saab kiiresti filtreerida ja otsida neile delegeeritud olemasolevaid kuluaruandeid. Samuti saab delegaat kiiresti luua teistele kasutajatele uue kuluaruande, valides suvandi **Uus kuluaruanne**.
 
 Delegaadid saavad luua ja hallata teiste töötajate kuluaruandeid avades **Kulude haldus** > **Minu kulud** > **Kulude aruanded** ja valides suvandi **Ava teiste kasutajate kulud**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

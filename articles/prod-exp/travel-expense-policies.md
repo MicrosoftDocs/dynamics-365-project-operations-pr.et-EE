@@ -51,3 +51,6 @@ Siin on mõned soovitused, mis aitavad teil kulude haldamiseks uut poliitikat lu
 ## <a name="when-to-evaluate-policies"></a>Millal poliitikaid hinnada
 
 Kulude haldamise parameetrites on võimalus hinnata kulu haldamise poliitikat rea salvestamisel või kuluaruande esitamisel. Kui otsustate hinnata siis, kui rida salvestatakse, kindlustab see, et kasutajatele kuvatakse varem, mida nad peavad tegema, et oma kuluaruanne korraga lõpule viia. Vastasel juhul saate poliitika hindamist edasi lükata ja aega säästa, kui valideerite end töövoo esitamise ajal lõpus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

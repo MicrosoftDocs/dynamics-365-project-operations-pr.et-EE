@@ -144,3 +144,6 @@ Kui teil on tegelikke näitajaid, mis lisandusid pärast arve loomist, saate lis
 Rakenduses Project Operations saate luua projektipõhiste arveridadega arveread toodete jaoks, mis ei kohaldu ühelegi projektile või kohalduvad kõikidele projektidele koos. Need arveread luuakse projektipõhiste lepinguridadena ja pärast nende märkimist arveldamiseks valmis, lisatakse need tootepõhiste arveridadena.
 
 Pärast tootepühiste arveridade lisamist ei saa neid muuta. Samas saab need näidisarve mustandist kustutada.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

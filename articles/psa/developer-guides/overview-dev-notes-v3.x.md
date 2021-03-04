@@ -33,3 +33,6 @@ Dynamics 365 Project Service Automation 3.x pakub uusi funktsioone, uute platvor
 - [Aja ja kulude muudatused (Project Service Automation 3.x)](../developer-guides/time-expense-changes-v3.x.md)
 - [Ressursihalduri muudatused (Project Service Automation 3.x)](../developer-guides/resource-management-changes-v3.x.md)
 - [Iganenud veebiressursid rakenduses Project Service Automation 3.x](../developer-guides/web-resources-deprecated-v3.x.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

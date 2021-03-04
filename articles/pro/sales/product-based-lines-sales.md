@@ -28,3 +28,6 @@ Tootepõhised read võivad olla kataloogiüksused või sisestatavad tooted. Enam
 
 Kui müügivõimaluse kokkuvõtte tulumeetod on **Süsteemi arvutatud**, siis summeeritakse kliendi eelarve väärtused kõigilt müügivõimaluse ridadelt, et arvutada prognoositav tulu. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

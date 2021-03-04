@@ -43,3 +43,6 @@ Saate vaadata ressursikasutust, et määrata oma ressursside kasutustasemed ja t
   
 ### <a name="see-also"></a>Vt ka  
  [Ressursihalduri juhend](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

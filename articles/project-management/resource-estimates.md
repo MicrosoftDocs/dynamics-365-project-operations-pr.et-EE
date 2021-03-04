@@ -34,3 +34,6 @@ Müügihindu rakendatakse üks kord tehingu kohta. Müügihinna loendi vaikesät
 1. Organisatsioon
 2. Klient
 3. Hinnapakkumine/leping
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
