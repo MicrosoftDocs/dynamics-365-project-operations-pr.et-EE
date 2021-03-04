@@ -3,6 +3,7 @@ title: Miks on tegelike müüginäitajate maksumuse vaikeväärtus null?
 description: Alltoodud kolm kontrolli aitavad leida lahenduse, miks on tegelike müüginäitajate maksumuse vaikeväärtus 0.
 author: rumant
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8c2270b07b6f8765a6ec1f506fe1767a1841950b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d4910d3727085a45036f3b438ecd69abc3e99836
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122068"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146298"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-expense-sales-actuals"></a>Miks on tegelike müüginäitajate maksumuse vaikeväärtus null?
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -47,7 +50,7 @@ Selleks et Project Service arvestaks hinnakirja hinna vaikeväärtuseks, peab se
 - Kõigepealt kontrollige, kas manustatud hinnakirjade üldisel vahekaardil olevad algus- ja lõppkuupäevad on täidetud. Kui ülalpool tuvastatud hinnakirjade algus- ja lõppkuupäevad on tühjad, on probleem lahendatud. 
 - Jätke meelde tegelike müüginäitajate maksumuse alguskuupäev ja kontrollige, kas mõni tuvastatud hinnakirjadest rakendub sellel päeval. Näiteks peaks tegeliku kulu kuupäev jääma hinnakirja algus- ja lõppkuupäeva vahele. 
     - Kui ükski hinnakiri ei kata tegelike müüginäitajate maksumusel seda kuupäeva, on probleem lahendatud. Muutke hinnakirja algus- ja lõppkuupäeva, tagamaks, et hinnakiri kataks tegeliku kulu kuupäeva. 
-    - Kui rohkem kui üks hinnakiri katab tegelike müüginäitajate maksumusel seda kuupäeva, on probleem lahendatud. Saate selle parandada, kui redigeerite hinnakirja(de) algus- ja lõppkuupäevi selliselt, et alles jääb ainult üks hinnakiri, mis katab tegeliku kulu kuupäeva. 
+    - Kui rohkem kui üks hinnakiri katab tegelike müüginäitajate maksumusel seda kuupäeva, on probleem lahendatud. Redigeerige hinnakirja(de) algus- ja lõppkuupäevi selliselt, et alles jääb ainult üks hinnakiri, mis katab tegeliku kulu kuupäeva. 
     - Kui alles on ainult üks hinnakiri, mis katab tegeliku kulu kuupäeva, liikuge edasi 3. kontrolli juurde.
 Kui olete vajalikud parandused teinud, looge kulukirje uuesti, kinnitage see ja veenduge, et tegelikus arveldamata müügisummas kuvataks kehtiv hind.
 
@@ -55,7 +58,7 @@ Kui olete vajalikud parandused teinud, looge kulukirje uuesti, kinnitage see ja 
 
 Kui olete edukalt lõpetanud 1. ja 2. kontrolli, peaks teil nüüd alles olema ainult üks projekti hinnakiri, mis rakendub tegelike müüginäitajate maksumuse kuupäeval. Avage see projekti hinnakiri ja minge vahekaardile Kategooria hinnad. Veenduge, et tegelikul kulul oleks ruudustikus kindel kulukategooria rida.
  
-- Kui ühtegi rida pole, on probleem lahendatud. Looge tegeliku kulu kategooriale rida kategooria hinna ruudustikus. Kui see on tehtud, looge kulukirje uuesti, kinnitage see ja veenduge, et tegelikus arveldamata müügisummas kuvataks kehtiv hind. 
+- Kui ühtegi rida pole, on probleem lahendatud. Looge tegeliku kulu kategooriale rida kategooria hinna ruudustikus. Seejärel looge kulukirje uuesti, kinnitage see ja veenduge, et tegelikus arveldamata müügisummas kuvataks kehtiv hind. 
 - Kui kulu kategooria jaoks on kategooria hindade ruudustikus rida, kontrollige, kas sellel on kehtiv hind.
 
 Kehtiva hinna mõistmiseks kasutage järgmisi meetodeid.
