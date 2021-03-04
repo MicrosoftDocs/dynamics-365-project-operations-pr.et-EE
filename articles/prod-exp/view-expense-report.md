@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b075b926585e27b8811f999e41dcb271277d360e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 35a76cad8c6ddaa84038746ace6a7e1e5623388f
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075101"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960062"
 ---
 # <a name="view-an-expense-report-from-general-ledger-or-procurement-and-sourcing"></a>Kuluaruande vaatamine pearaamatust või hangetest
-
-[!include [banner](../includes/banner.md)]
 
 Kui käivitate päringu, et kuvada kandeid pearaamatus või hangetes, võib päring tagastada liiga palju teavet. Seetõttu võite soovida otsingut piiritleda. Vajaliku teabe saamiseks võite minna süvitsi tehingusse, et näha kuluaruannet, kus see esines.
 

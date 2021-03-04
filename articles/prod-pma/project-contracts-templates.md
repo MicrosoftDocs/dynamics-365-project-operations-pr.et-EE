@@ -1,9 +1,9 @@
 ---
-title: Projekti lepingute ja projektide sünkroonimine otse rakendusest Project Service Automation rakendusse Finance and Operations
+title: Projekti lepingute ja projektide sünkroonimine otse Project Service Automationist rakendusse Finance
 description: Selles teemas kirjeldatakse malli ja aluseks olevaid tööülesandeid, mida kasutatakse projektilepingute ja projektide sünkroonimiseks otse rakendusest Microsoft Dynamics 365 Project Service Automation rakendusse Dynamics 365 Finance.
 author: Yowelle
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642628"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764814"
 ---
-# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Projekti lepingute ja projektide sünkroonimine otse rakendusest Project Service Automation rakendusse Finance and Operations
+# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Projekti lepingute ja projektide sünkroonimine otse Project Service Automationist rakendusse Finance 
 
 [!include[banner](../includes/banner.md)]
 
@@ -53,24 +53,24 @@ Saadaolevatele mallidele Microsoft Power Appsi halduskeskuses juurdepääsuks va
 Projektilepingute ja projektide sünkroonimiseks Project Service Automationist Finance’i kasutatakse järgmisi malle ja aluseks olevaid ülesandeid.
 
 ### <a name="integrating-with-dynamics-365-project-service-automation-v2x"></a>Integreerimine Dynamics 365 Project Service Automationv2.x-iga
-- **Andmete integreerimise malli nimi:** Pprojektid ja lepingud (PSA-st Fin and Opsi)
+- **Malli nimi andmeintegratsioonis:** projektid ja lepingud (Project Service Automationist Finance'i)
 - **Ülesannete nimi projektis:**
 
-    - Projektilepingud PSA-st Fin and Opsi
-    - Projektid PSA-st Fin and Opsi
-    - Projekti lepinguread PSA-st Fin and Opsi
-    - Projekti lepingurea vahe-eesmärgid PSA-st Fin and Opsi
+    - Projekti lepingud Project Service Automationist Finance'i
+    - Projektid Project Service Automationist Finance'i
+    - Projekti lepinguread Project Service Automationist Finance'i
+    - Projekti lepingurea vahe-etapid Project Service Automationist Finance'i
   
 ### <a name="integrating-with-dynamics-365-project-service-automation-v3x"></a>Integreerimine Dynamics 365 Project Service Automation v3.x-iga
 Project Service Automationis on skeemimuutus, mis mõjutab projekti lepingurea vahe-eesmärgi malli ja vajalik on malli v2 versiooni kasutamine, et integreerida Project Service Automation v3.x Dynamics 365-ga.
 
-- **Andmete integreerimise malli nimi:** Projektid ja lepingud (PSA 3.x-st Fin and Opsi) - v2
+- **Malli nimi andmeintegratsioonis:** projektid ja lepingud (Project Service Automationi versioonist 3.x rakendusse Finance) - v2
 - **Ülesannete nimi projektis:**
 
-    - Projektilepingud PSA-st Fin and Opsi
-    - Projektid PSA-st Fin and Opsi
-    - Projekti lepinguread PSA-st Fin and Opsi
-    - Projekti lepingurea vahe-eesmärgid PSA-st Fin and Opsi
+    - Projekti lepingud Project Service Automationist Finance'i
+    - Projektid Project Service Automationist Finance'i
+    - Projekti lepinguread Project Service Automationist Finance'i
+    - Projekti lepingurea vahe-etapid Project Service Automationist Finance'i
 
 Enne kui projekti lepingute ja projektide sünkroonimine saab aset leida, peate sünkroonima kontod.
 
@@ -87,7 +87,8 @@ Enne kui projekti lepingute ja projektide sünkroonimine saab aset leida, peate 
 
 Projektilepinguid hallatakse rakenduses Project Service Automation ja need sünkroonitakse rakendusega Finance kui projektilepigud. Integreerimismalli osana saate seada projektilepingu integreerimisallika Finance'is.
 
-Aja- ja materjaliprojekte ja fikseeritud hinnaga projekte hallatakse rakenduses Project Service Automation ja need sünkroonitakse rakendusega Finance kui projektid. Integreerimismalli osana saate seada projekti integreerimisallika Finance'is.
+Aja- ja materjali ning fikseeritud hinnaga projekte hallatakse Project Service Automationis ja sünkroonitakse projektidena rakendusse Finance. Malli integreerimise osana saate rakenduses Finance seadistada projektile integratsiooniallika. Praegu toetatakse vaid aja- ja materjali ning fikseeritud hinnaga projekte.
+
 
 Projekti lepinguridu hallatakse rakenduses Project Service Automation ja need sünkroonitakse rakendusega Finance kui lepigu arvereeglid. Kui arvelduse meetod erineb vaike-projektitüübist, uuendab sünkroonimine lepingurea projekti projektitüübi ja projektirühma.
 
@@ -122,7 +123,7 @@ Kui rakendatakse integreerimislahendust Project Service Automationist Finance'i,
 
 ## <a name="power-query"></a>Power Query
 
-Kui järgmised tingimused on täidetud, siis peate kasutama andmete filtreerimiseks valikut Microsoft Power Query for Excel.
+Kui järgmised tingimused on täidetud, kasutage andmete filtreerimiseks lahendust Microsoft Power Query for Excel.
 
 - Teil on Dynamics 365 Salesis müügitellimused.
 - Teil on Project Service Automationis mitu organisatsiooniüksust ja need üksused vastendatakse mitme juriidilise olemiga Finance'is.
@@ -130,7 +131,7 @@ Kui järgmised tingimused on täidetud, siis peate kasutama andmete filtreerimis
 Kui peate kasutama Power Queryd, järgige neid suuniseid.
 
 - Projektide ja lepingute (PSA-st Fin and Opsini) mallil on vaikefilter, mis sisaldab ainult **Tööde üksuse (msdyn\_ordertype = 192350001)** tüüpi müügitellimusi. See filter aitab tagada, et projektilepinguid ei loodaks Finance'is müügitellimustele. Kui loote oma malli, peate selle filtri lisama.
-- Peate looma Power Query filtri, mis hõlmab ainult neid lepingulisi organisatsioone, mis tuleb integratsiooni ühenduskomplekti juriidilise olemiga sünkroonida. Näiteks projekti lepingud, mis on seotud Contoso USA lepingu organisatsioonilise üksusega, tuleb sünkroonida USSI juriidilise isikuga, kuid projektilepingud, mis teil on Contoso Global lepingu organisatsioonilise üksusega tuleb sünkroonida USMF-i juriidilise isikuga. Kui te ei lisa seda filtrit oma tööülesannete vastendamisel, sünkroonitakse kõik projektilepingud juriidilise isikuga, mis on määratletud ühenduse komplekti jaoks, olenemata lepingu organisatsioonilisest üksusest.
+- Looge Power Query filter, mis sisaldab ainult neid lepingu organisatsioone, mida tuleks sünkroonida integratsiooni ühenduse komplekti juriidilise isiku juurde. Näiteks projekti lepingud, mis on seotud Contoso USA lepingu organisatsioonilise üksusega, tuleb sünkroonida USSI juriidilise isikuga, kuid projektilepingud, mis teil on Contoso Global lepingu organisatsioonilise üksusega tuleb sünkroonida USMF-i juriidilise isikuga. Kui te ei lisa seda filtrit oma tööülesannete vastendamisel, sünkroonitakse kõik projektilepingud juriidilise isikuga, mis on määratletud ühenduse komplekti jaoks, olenemata lepingu organisatsioonilisest üksusest.
 
 ## <a name="template-mapping-in-data-integration"></a>Malli vastendamine andmete integratsioonis
 

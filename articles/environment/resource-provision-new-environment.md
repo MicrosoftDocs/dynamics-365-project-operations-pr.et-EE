@@ -3,17 +3,18 @@ title: Uue keskkonna ettevalmistamine
 description: Selles teemas antakse teavet uue Project Operationsi keskkonna ettevalmistamise kohta.
 author: sigitac
 manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/11/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642961"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727785"
 ---
 # <a name="provision-a-new-environment"></a>Uue keskkonna ettevalmistamine
 
@@ -60,17 +61,15 @@ Kasutage järgmisi samme, et lubada Project Operationsi automaatse ettevalmistam
 
 ![Juurutuse nõusolek](./media/2DeploymentConsent.png)
 
-7. Täitke viisardi ülejäänud nõutavad väljad ja kinnitage juurutus. Keskkonna ettevalmistamise aeg varieerub vastavalt keskkonna tüübile. Ettevalmistamine võib kesta kuni kuus tundi.
+7. Valikuline – demoandmete rakendamine keskkonnale. Avage **Täpsemad sätted**, valige **SQL-andmebaasi konfiguratsiooni kohandamine** ja määrake üksuse **Määrake rakenduse andmebaasile andmekomplekt** olekuks **Demo**.
+
+8. Täitke viisardi ülejäänud nõutavad väljad ja kinnitage juurutus. Keskkonna ettevalmistamise aeg oleneb keskkonna tüübist. Ettevalmistamine võib kesta kuni kuus tundi.
 
   Pärast juurutuse edukat lõpuleviimist kuvatakse keskkonna olekuks **Juurutatud**.
 
-8. Kontrollimaks, et keskkond on edukalt juurutatud, valige **Logi sisse** ja logige kontrollimiseks keskkonda sisse.
+9. Kui soovite veenduda, et keskkond on edukalt juurutatud, valige kinnitamiseks käsk **Logi sisse** ja logige keskkonda sisse.
 
 ![i keskkonna üksikasjad](./media/3EnvironmentDetails.png)
-
-## <a name="apply-project-operations-finance-demo-data-optional-step"></a>Project Operations Finance'i demoandmete rakendamine (valikuline etapp)
-
-Project Operations Finance'i demoandmete rakendamine 10.0.13 teenuseväljalaske pilvepõhisele keskkonnale, nagu on kirjeldatud [selles artiklis](resource-apply-finance-demo-data.md).
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Värskenduste rakendamine Finance'i keskkonnale
 
@@ -151,6 +150,21 @@ Pärast olemite rakendamist loetletakse keskkonnas kõik saadaolevad vastendused
 Värskendamine võtab aega umbes 20 minutit. Teile kuvatakse teade, kui see on valmis.
 
 ![Värskendamise kinnitamine](./media/19RefreshConfirmation.png)
+
+## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Project Operationsi turbesätete värskendamine Dataverse'is
+
+1. Avage Project Operations oma Dataverse'i keskkonnas. 
+2. Avage **Sätted** > **Turve** > **Turberollid**. 
+3. Valige lehe **Turberollid** rollide loendist **topeltkirjutuse rakenduse kasutaja** ja valige vahekaart **Kohandatud olemid**.  
+4. Kontrollige, et rollil oleksid õigused **Lugemine** ja **Lisamine** järgmistele üksustele.
+      
+      - **Valuuta vahetuskurssi tüüp**
+      - **Kontoplaan**
+      - **Finantskalender**
+      - **Pearaamat**
+
+5. Pärast turberolli värskendamist avage **Sätted** > **Turvalisus** > **Meeskonnad** ja valige meeskonna vaates **Kohalik äriüksuse omanik** vaikemeeskond.
+6. Valige **Halda rolle** ja kontrollige, et meeskonnale on rakendatud turbeõigus **topeltkirjutuse rakenduse kasutaja**.
 
 ## <a name="run-project-operations-dual-write-maps"></a>Käivitage Project Operationsi topeltkirjutuse kaardid
 

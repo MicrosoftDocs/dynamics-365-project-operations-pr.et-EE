@@ -15,16 +15,14 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 31c08ea264e6caec3217f4b424275495f39123e3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 64901610144f9dfe274bd4c2294ab32659743a1a
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075114"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960287"
 ---
 # <a name="expense-receipt-processing"></a>Kuludokumentide töötlemine
-
-[!include [banner](../includes/banner.md)]
 
 Kulude sisetamist on täiustatud kviitungite tähemärkide optilise tuvastamise (OCR) töötlemise juurutamisega. See funktsioon on mõeldud kuluaruannete loomisel kasutuskogemuse parandamiseks.
 
@@ -39,21 +37,21 @@ Kulude sisetamist on täiustatud kviitungite tähemärkide optilise tuvastamise 
 Kui soovite kuluaruande loomisel automaatselt manustada sinna ka krediitkaardi tehingute kviitungid, tehke järgmist.
 
   1. Avage tööruum **Kuluhaldus**.
-  2. Kontrollige vahekaardil **Kviitungid** , kas manustamata kviitungeid on. Vahekaardil **Kviitungid** saate kviitungeid ka üles laadida.
-  3. Kontrollige vahekaardil **Kulud** , kas manustamata kulusid on. Tavaliselt impordib kuluhaldur need kulud krediitkaardi pakkujalt.
+  2. Kontrollige vahekaardil **Kviitungid**, kas manustamata kviitungeid on. Vahekaardil **Kviitungid** saate kviitungeid ka üles laadida.
+  3. Kontrollige vahekaardil **Kulud**, kas manustamata kulusid on. Tavaliselt impordib kuluhaldur need kulud krediitkaardi pakkujalt.
   4. Valige **Uus kuluaruanne**. Pange tähele, et saate nüüd kuluaruande loomisel kaasata ka kulud ja kviitungid. Kui lisate nii kulud kui ka kviitungid, käivitatakse kviitungite automaatne vastendamine kuludega.
 
 Kulu loomiseks või kulu kviitungi kaudu vastendamiseks tehke järgmist.
 
-  1. Manustage kviitung kuluaruande vahekaardile **Kviitungid** , valides suvandi **Lisa kviitungeid**.
+  1. Manustage kviitung kuluaruande vahekaardile **Kviitungid**, valides suvandi **Lisa kviitungeid**.
   2. Pange tähele kviitungi üleslaaditud pildi all suvandeid **Loo** ja **Vastenda**.
 
-      - Valige **Loo** , et luua käsitsi sisestatud kulukanne ja täitke arvelt saadud väärtused.
-      - Kui valite suvandi **Vastenda** , proovib süsteem vastendada olemasoleva kulu kviitungiga.
+      - Valige **Loo**, et luua käsitsi sisestatud kulukanne ja täitke arvelt saadud väärtused.
+      - Kui valite suvandi **Vastenda**, proovib süsteem vastendada olemasoleva kulu kviitungiga.
 
 ## <a name="installation"></a>Installimine
 
-See funktsioon töötab koos funktsiooniga **Kuluaruannete ümberkujundamine** , et aidata lihtsustada kulu kogemust. See funktsioon on saadaval ainult Tier 2+ keskkondades, milleks on on Liivakasti ja tootmine.
+See funktsioon töötab koos funktsiooniga **Kuluaruannete ümberkujundamine**, et aidata lihtsustada kulu kogemust. See funktsioon on saadaval ainult Tier 2+ keskkondades, milleks on on Liivakasti ja tootmine.
 
 Nende täiustatud kulude võimaluste kasutamiseks installige Microsoft Dynamics 365 Finance'i jaoks kuluhaldusteenuse lisandmoodul ja lülitage sisse oma eksemplari funktsioonid. Lisandmoodulile pääsete ligi oma projektist teenuse Microsoft Dynamics Lifecycle Services (LCS) kaudu.
 
@@ -74,7 +72,7 @@ Nende funktsioonide sisselülitamisel tehakse järgmised toimingud.
 
 - Olemasolev tööruum **Kuluhaldus** asendatakse uue tööruumiga.
 - Lisatakse uus menüü element kulu välja nähtavuse kohta.
-- Saate siiski avada eelmise lehe **Kuluaruanded** , avades jaotise **Kuluhaldus > Minu kulud > Kuluaruanded**.
+- Saate siiski avada eelmise lehe **Kuluaruanded**, avades jaotise **Kuluhaldus > Minu kulud > Kuluaruanded**.
 - Töövood ja kõik kinnitused viivad teid ikka olemasolevate kuluaruannete lehele.
 - Kviitungeid töödeldakse Microsoft Azure Cognitive Services'i kaudu ja metaandmed eraldatakse ning lisatakse.
 - Lisatakse suvand, mis võimaldab luua kuluaruande, mis sisaldab vastendatud kinnitamata kviitungeid.

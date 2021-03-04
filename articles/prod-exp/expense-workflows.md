@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0af23ed2cf172e4c90de72f5db389c349303c039
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8f3235d12499c68a52f9d1c7e118e7bc91dc3a0a
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075110"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960512"
 ---
 # <a name="set-up-expense-management-workflows"></a>Kuluhalduse töövoogude seadistamine
-
-[!include [banner](../includes/banner.md)]
 
 Saate seadistada töövoo protsessi, mida kasutatakse reisi-ja kuludokumentide ülevaatamiseks ja kinnitamiseks. Dokumendid, mille jaoks saab töövooge määratleda, hõlmavad kuluaruandeid, reisitellimusi ja ettemaksetaotlusi.
 
