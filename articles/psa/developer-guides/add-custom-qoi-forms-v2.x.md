@@ -16,18 +16,20 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075150"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144588"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Kohandatud olemite uute vormide lisamine (Project Service Automation 2.x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 ## <a name="type-field"></a>Välja tüüp 
 
-Dynamics 365 Project Service Automation põhineb väljal **Tüüp** ( **msdyn\_ordertype** ) üksustes Müügivõimalus, Hinnapakkumine, Tellimus ja Arveldamine, et eristada nende olemite **tööpõhiseid** versioone **üksusepõhistest** ja **teenusepõhistest**. Nende olemite tööpõhiseid versioone käsitletakse PSA-s. Suur osa kliendi- ja serveripoolse lahenduse äriloogikast oleneb välja **Tüüp** väärtusest. Seetõttu on oluline, et väli lähtestatakse olemite loomisel õigete väärtusega. Vale väärtus võib põhjustada valet käitumist ja mõni äriloogika ei pruugi õigesti töötada.
+Dynamics 365 Project Service Automation põhineb väljal **Tüüp** (**msdyn\_ordertype**) üksustes Müügivõimalus, Hinnapakkumine, Tellimus ja Arveldamine, et eristada nende olemite **tööpõhiseid** versioone **üksusepõhistest** ja **teenusepõhistest**. Nende olemite tööpõhiseid versioone käsitletakse PSA-s. Suur osa kliendi- ja serveripoolse lahenduse äriloogikast oleneb välja **Tüüp** väärtusest. Seetõttu on oluline, et väli lähtestatakse olemite loomisel õigete väärtusega. Vale väärtus võib põhjustada valet käitumist ja mõni äriloogika ei pruugi õigesti töötada.
 
 ## <a name="automatic-form-switching"></a>Automaatne vormi vahetamine
 
@@ -37,7 +39,7 @@ Automaatne vormilülituse loogika oleneb välja **formId** ja **msdyn\_ordertype
 
 ## <a name="add-custom-forms-and-turn-on-the-form-switching-logic"></a>Kohandatud vormide lisamine ja vormilülituse loogika sisselülitamine
 
-Järgmises näites kirjeldatakse, kuidas lisada kohandatud vormi ja vormi **Projekti teave** , nii et see töötaks tööpõhiste võimalustega. Sama protsessi kasutatakse kohandatud vormide lisamisel, nii et need töötavaks hinnapakkumiste, tellimuste ja arvetega.
+Järgmises näites kirjeldatakse, kuidas lisada kohandatud vormi ja vormi **Projekti teave**, nii et see töötaks tööpõhiste võimalustega. Sama protsessi kasutatakse kohandatud vormide lisamisel, nii et need töötavaks hinnapakkumiste, tellimuste ja arvetega.
 
 Vormi **Projekti teave** kohandatud versiooni loomiseks toimige järgmiselt.
 
@@ -47,7 +49,7 @@ Vormi **Projekti teave** kohandatud versiooni loomiseks toimige järgmiselt.
     > [!IMPORTANT]
     > Ärge eemaldage skripte. Muidu võidakse teatud andmed valesti lähtestada.
 
-3. Veenduge, et vormil oleks väli **Tüüp** ( **msdyn\_ordertype** ). 
+3. Veenduge, et vormil oleks väli **Tüüp** (**msdyn\_ordertype**). 
 
     > [!IMPORTANT]
     > Ärge eemaldage seda välja. Muidu ei hakka lähtestamise skriptid tööle.

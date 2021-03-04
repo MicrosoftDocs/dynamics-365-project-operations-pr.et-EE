@@ -2,6 +2,7 @@
 title: Täienduse kaalutlused – üleminek Microsoft Dynamics 365 Project Service Automationi versioonilt 2.x või 1.x versioonile 3
 description: Selles teemas antakse teavet kaalutluste kohta, mida peate tegema, kui täiendate Project Service Automationi versiooni 2.x või 1.x versioonile 3.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +18,21 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121708"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144152"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Täienduse kaalutlused – üleminek PSA versioonilt 2.x või 1.x versioonile 3
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 ## <a name="project-service-automation-and-field-service"></a>Project Service Automation ja Field Service
-Nii Dynamics 365 Project Service Automation kui ka Dynamics 365 Field Service kasutavad ressursside ajastamiseks lahendust Universal Resourcing Scheduling (URS). Kui teil on teie eksemplaris nii Project Service Automation kui ka Field Service, peaksite kavandama mõlema lahenduse värskendamist uusimale versioonile (Project Service Automationi versioon 3. x, Field Service versioon 8.x). Project Service Automationi või Field Service'i värskendamisel installitakse URS-i uusim versioon ja see tähendab seda, et kui nii Project Service Automationi kui ka Field Service'i lahendused pole samas eksemplaris värskendatud uusimale versioonile, võib esineda vastuolulist käitumist.
+Nii Dynamics 365 Project Service Automation kui ka Dynamics 365 Field Service kasutavad ressursside ajastamiseks lahendust Universal Resourcing Scheduling (URS). Kui teie eksemplaris on Project Service Automation ja Field Service, värskendage mõlemad lahendused uusimale versioonile. Project Service Automationi puhul on see versioon 3.x. Field Service'i puhul on see versioon 8.x. Project Service Automationi või Field Service'i täiendamisega installitakse uusim URS-i versioon. Kui samas eksemplaris ei uuendata nii Project Service Automationi kui ka Field Service'i uusimatele versioonidele, võib ilmneda vastuolulist käitumist.
 
 ## <a name="resource-assignments"></a>Ressursimääramised
 Project Service Automation versioonis 2 ja 1 salvestati ülesanded **Ülesande olemis** tütarülesannetena (ehk rea ülesannetena) ning need olid kaudselt seotud olemiga **Ressursi määramine**. Rea ülesanne oli nähtav tööjaotuse struktuuril (WBS) määramise hüpikaknas.
@@ -40,9 +44,9 @@ Project Service Automationi versioonis 3 on muutunud skeem, mille alusel määra
 Need muudatused mõjutavad kõikide nende olemasolevate projektide täiendamist, millel on projekti meeskonnas ressursi määramised nimega broneeritavate ressursside ja üldiste ressursside jaoks. Selles teemas on välja toodud kaalutlused, mida peate oma projektidega seoses arvesse võtma, kui täiendate versioonile 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Nimega ressurssidele määratud ülesanded
-Kui kasutate aluseks olevat ülesande olemit, võimaldavad versioonis 2 ja 1 olevad ülesanded meeskonnaliikmetele määrata muid rolle kui neile määratud vaikerollid. Näiteks Heidi Kukk, kellele on vaikimisi määratud programmihalduri roll, saab määrata ka arendaja rolli. Versioonis 3 on nimega meeskonnaliikme roll alati vaikeroll, seega kõigi ülesannete puhul, mis Heidi Kukk määratakse, kasutatakse tema programmihalduri vaikerolli.
+Kui kasutate aluseks olevat ülesande olemit, võimaldavad versioonis 2 ja 1 olevad ülesanded meeskonnaliikmetele määrata muid rolle kui neile määratud vaikerollid. Näiteks Heidi Kukk, kellele on vaikimisi määratud programmihalduri roll, saab määrata ka arendaja rolli. Versioonis 3 on nimega meeskonnaliikme roll alati vaikeroll, seega kõigi ülesannete puhul, millele Heidi Kukk määratakse, kasutatakse tema programmihalduri vaikerolli.
 
-Kui olete määranud ressursi ülesandele, mis ei kuulu versioonis 2 ja 1 tema vaikerolli alla, määratakse täiendamise käigus nimega ressursile vaikeroll kõigi ülesannete määramiste jaoks, olenemata versioonis 2 määratud rollist. Seetõttu erinevad väljaarvutatud prognoosid versiooni 2 või 1 ja versiooni 3 vahel, sest prognoosid arvutatakse välja ressursi rolli, mitte rea ülesande määramise järgi. Näiteks versioonis 2 on Airi Saarele määratud kaks ülesannet. Rea ülesandel olev roll ülesande 1 jaoks on arendaja ja ülesande 2 jaoks programmihaldur. Airi Saare vaikeroll on programmihaldur.
+Kui olete määranud ressursi ülesandele, mis ei kuulu versioonis 2 ja 1 tema vaikerolli alla, määratakse täiendamise käigus nimega ressursile vaikeroll kõigi ülesannete määramiste jaoks, olenemata versioonis 2 määratud rollist. Selle määramise tõttu erinevad väljaarvutatud prognoosid versiooni 2 või 1 ja versiooni 3 vahel, sest prognoosid arvutatakse välja ressursi rolli, mitte rea ülesande määramise järgi. Näiteks versioonis 2 on Airi Saarele määratud kaks ülesannet. Rea ülesandel olev roll ülesande 1 jaoks on arendaja ja ülesande 2 jaoks programmihaldur. Airi Saare vaikeroll on programmihaldur.
 
 ![Ühele ressursile on määratud mitu rolli](media/upgrade-multiple-roles-02.png)
 
@@ -56,12 +60,12 @@ Kui lähete üle versioonile 3, asendatakse broneeritava ressursi meeskonnaliikm
 
 ![Ressursimääramised](media/resource-assignment-v2-05.png)
 
-Kuna prognoosid põhinevad ressursi vaikerollil, võivad müügi ja kulude prognoosid muutuda. Pange tähele, et järgmisel pildil ei näe te enam **arendaja** rolli, kuna roll on nüüd võetud broneeritava ressursi vaikerollist.
+Kuna prognoosid põhinevad ressursi vaikerollil, võivad müügi ja kulude prognoosid muutuda. Järgmisel pildil ei näe te enam **Arendaja** rolli, kuna roll on nüüd võetud broneeritava ressursi vaikerollist.
 
 ![Vaikerollide kulude prognoosid](media/resource-assignment-cost-estimate-06.png)
 ![Vaikerollide müügi prognoosid](media/resource-assignment-sales-estimate-07.png)
 
-Kui täiendus on lõpule jõudnud, saate meeskonnaliikme rolli redigeerida muuks rolliks, kui vaikimisi määratud. Kui aga muudate meeskonnaliikmete rolle, muudetakse need ära kõigis neile määratud ülesannetes, sest versioonis 3 ei saa enam meeskonnaliikmetele määrata mitu rolli.
+Kui täiendus on lõpule jõudnud, saate meeskonnaliikme rolli redigeerida muuks rolliks, kui vaikimisi määratud. Kui aga muudate meeskonnaliikmete rolle, muudetakse need ära kõigis neile määratud ülesannetes, sest versioonis 3 ei saa meeskonnaliikmetele määrata mitu rolli.
 
 ![Ressursi rolli värskendamine](media/resource-role-assignment-08.png)
 
@@ -102,7 +106,7 @@ Organisatsiooniüksust näete prognooside vaates.
  
 Kui täiendus on lõpuni jõudnud, lisatakse üldisele meeskonnaliikmele vastav rea ülesandel olev organisatsiooniüksus üldisele meeskonnaliikmele ja rea ülesanne eemaldatakse. Seetõttu soovitame teil enne täiendamist luua või uuesti luua meeskonna iga üldisi ressursse sisaldava projekti jaoks.
 
-Nende ülesannete puhul, mis on määratud rollile sellise organisatsiooniüksusega, mis erineb lepingut sõlmivast organisatsiooniüksusest, ja kus meeskond pole loodud, loob täiendus rolli jaoks üldise meeskonnaliikme, aga kasutab meeskonnaliikme organisatsiooniüksuse jaoks lepingut sõlmivat üksust. Viidates tagasi Project Z näitele, tähendab see seda, et lepingut sõlmivale organisatsiooniüksusele Jõgi US ja projektiplaani testülesannetele koos juurutusfaasiga on määratud tehnilise konsultandi roll ning organisatsiooniüksus on määratud Jõgi Indiale. Integreerimise testülesandele, mis viiakse lõpuni pärast juurutusfaasi, määratakse tehnilise konsultandi rolli. Organisatsiooniüksus on Jõgi USA ja meeskonda pole loodud. Täiendamise käigus luuakse üks üldine meeskonnaliige, tehniline konsultant, kellele on määratud kõigi kolme ülesande tunnid, ja Jõgi US-i organisatsiooniüksus ehk projekti lepingut sõlmiv organisatsiooniüksus.   
+Nende ülesannete puhul, mis on määratud rollile sellise organisatsiooniüksusega, mis erineb lepingut sõlmivast organisatsiooniüksusest, ja kus meeskond pole loodud, loob täiendus rolli jaoks üldise meeskonnaliikme, aga kasutab meeskonnaliikme organisatsiooniüksuse jaoks lepingut sõlmivat üksust. Viidates tagasi Project Z näitele, on määratud lepingut sõlmivale organisatsiooniüksusele Jõgi US ja projektiplaani testülesannetele koos juurutusfaasiga tehnilise konsultandi roll ning organisatsiooniüksus on määratud Jõgi Indiale. Integreerimise testülesandele, mis viiakse lõpuni pärast juurutusfaasi, määratakse tehnilise konsultandi rolli. Organisatsiooniüksus on Jõgi USA ja meeskonda pole loodud. Täiendamise käigus luuakse üks üldine meeskonnaliige, tehniline konsultant, kellele on määratud kõigi kolme ülesande tunnid, ja Jõgi US-i organisatsiooniüksus ehk projekti lepingut sõlmiv organisatsiooniüksus.   
  
 Kui muudate loomata meeskonnaliikmete erinevate ressurssi organisatsiooniüksuste vaikeväärtusi, soovitame teile meeskonna luua või uuesti luua nende projektide jaoks, mis sisaldavad enne täiendamist üldisi ressursse, nii et organisatsiooniüksuste määramised ei läheks kaotsi.
 

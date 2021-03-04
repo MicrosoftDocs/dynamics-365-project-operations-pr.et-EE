@@ -3,6 +3,7 @@ title: Rakenduse Project Finder Mobile funktsioonide lubamine
 description: Rakenduse Project Finder Mobile funktsioonide lubamine Project Service'i jaoks
 author: JohnPBurrows
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,22 +19,24 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af267b5adc48b6edec57de196f91e338c058558c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1b70182125d607aa17528ef3dc4ea2345b76acd1
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132958"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144543"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Rakenduse Project Finder Mobile funktsioonide lubamine (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Teie ressursid saavad rakendust Project Finder Mobile kasutada oma telefonis koos rakendusega [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], et leida uusi projekte, millega töötada, ja värskendada oma oskusekomplekte.  
   
  Rakendus on saadaval [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)]’idele, [!INCLUDE[tn_android](../includes/tn-android.md)]-telefonidele ja [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)]’ile.  
-  
- Peate määrama oma organisatsiooniüksuse jaoks parameetrite sättes mõne suvandi, et võimaldada kasutajatel vaadata projektide ressursinõudeid ja värskendada oma oskusi.  
+    
+ Peate määrama oma organisatsiooniüksuse jaoks parameetrite sättes mõne suvandi, et võimaldada kasutajatel vaadata projektide ressursinõudeid ja värskendada oma oskusi.
   
 > [!NOTE]
 >  Rakendus Project Finder Mobile töötab ainult koos teenusega [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] (mitte asutusesiseste installide puhul).  
@@ -57,10 +60,10 @@ Teie ressursid saavad rakendust Project Finder Mobile kasutada oma telefonis koo
   
 |Adressaat|Üritus|  
 |---------------|-----------|  
-|Projektijuht|- Kui ressurss registreerub rakenduse Project Finder Mobile abil projektile.|  
-|Ressurss|- Kui projektitöö, millele ressurss on registreerunud, on teine ressurss juba teinud.<br />- Kui tema oskuste kinnitustaotlus on kinnitatud või tagasi lükatud.<br />- Kui tema projektile registreerumise taotlus on kinnitatud või tagasi lükatud.|  
+|Projektijuht|- Ressurss registreerub rakenduse Project Finder Mobile abil projektile.|  
+|Ressurss|- Projektitöö, millele ressurss on registreerunud, on teine ressurss juba teinud.<br />- Oskuste kinnitamise taotlus on kinnitatud või tagasi lükatud.<br />- Projektile registreerumise taotlus on kinnitatud või tagasi lükatud.|  
   
-## <a name="privacy-notice"></a>Privaatsusavaldus  
+## <a name="privacy-notice"></a>Privaatsusteatis  
  [!INCLUDE[cc_privacy_crm_project_finder_mobile_app](../includes/cc-privacy-crm-project-finder-mobile-app.md)]  
   
 ### <a name="see-also"></a>Vt ka  

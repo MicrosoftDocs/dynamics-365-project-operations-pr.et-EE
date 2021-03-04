@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a5c643745d8e10887965228da7abd8f56228006
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075055"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144993"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Kasutage broneeritavat ressurssi hinnakujunduse dimensioonina
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Selles teemas antakse teavet broneeritava ressursi kasutamise kohta hinnakujunduse dimensioonina. Enne alustamist peate looma uue hinnakujunduse dimensiooni lahenduse, kui te seda juba teinud ei ole. Kui teil on hinnakujunduse dimensiooni lahendus juba olemas, saate selles lahenduses muudatusi teha. Kui te pole oma organisatsiooni jaoks uut hinnakujunduse dimensiooni lahendust loonud, viige lõpuni teema [Kohandatud väljade ja olemite loomine](create-custom-fields-entities.md) protseduurid.
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Lisage vormidele ja vaadetele broneeritav ressurss
@@ -48,16 +51,16 @@ Avage hinnakujunduse dimensiooni lahendus Solution Explorer ja klõpsake seejär
 
 ## <a name="set-up-bookable-resource-as-a-pricing-dimension"></a>Seadistage broneeritav ressurss hinnakujunduse dimensioonina
 
-1. Avage veebiliideses **Project Service** > **Sätted** > **Parameetrid**. Pange tähele, et lehel **Parameeter** , vahekaardil **Summapõhisel hinnakujunduse dimensioonid** olev ruudustik kuvab olemi hinnakujunduse dimensioonides olevad kirjed. 
+1. Avage veebiliideses **Project Service** > **Sätted** > **Parameetrid**. Pange tähele, et lehel **Parameeter**, vahekaardil **Summapõhisel hinnakujunduse dimensioonid** olev ruudustik kuvab olemi hinnakujunduse dimensioonides olevad kirjed. 
 2. Lisage suvand **Broneeritav ressurss** hinnakujunduse dimensioonide loendisse kui **msdyn_bookableresource**. 
 3. Määrake kontekst, milles broneeritav ressurss töötab hinnakujunduse dimensioonina, ning määrake suvandite **Rakendatakse kuludele** ja **Rakendatakse müügile** väärtused.
 4. Valige väljal **Dimensiooni tüüp** suvand **Summal põhinev**. 
-5. Valige broneeritava ressursi jaoks kulu ja müügi prioriteet. Tavaliselt, kui see on seotud hinnakujunduse dimensiooniga, on broneeritaval ressursil kõrgeim prioriteet, nii et selle seadmine väärtuseks **1** (või **0** , olenevalt sellest, kuidas prioriteeti loendate) tagab selle käitumise.
+5. Valige broneeritava ressursi jaoks kulu ja müügi prioriteet. Tavaliselt, kui see on seotud hinnakujunduse dimensiooniga, on broneeritaval ressursil kõrgeim prioriteet, nii et selle seadmine väärtuseks **1** (või **0**, olenevalt sellest, kuidas prioriteeti loendate) tagab selle käitumise.
 
 ## <a name="set-up-pricing-dimension-field-names"></a>Seadistage hinnakujundamise dimensioonide välja nimed
 
 Kui hinnakujunduse dimensiooni välja nimi on tabelis **Rolli hind** erinev selle välja nimest mõnes muus olemis, kus hindade vaikeväärtus peab töötama, tuleb hinnakujunduse dimensiooni kirjet erinevatest nimedest teavitada.    
-Broneeritud ressursi puhul on olemil **Projekti meeskonnaliikmed** veidi teistsugune väljanimi ( **msdyn_bookableresourceid** ), kui olemil **Rolli hind** ( **msdyn_bookableresource** ). Suvandi **msydn_bookableresource** hinnakujunduse dimensiooni kirje tuleb sellest teadlikuks teha. 
+Broneeritud ressursi puhul on olemil **Projekti meeskonnaliikmed** veidi teistsugune väljanimi (**msdyn_bookableresourceid**), kui olemil **Rolli hind** (**msdyn_bookableresource**). Suvandi **msydn_bookableresource** hinnakujunduse dimensiooni kirje tuleb sellest teadlikuks teha. 
 1. Selleks topeltklõpsake ruudustikus **Hinnakujunduse dimensioonid** rida, et avada suvandi **msdyn_bookableresource** dimensioonide leht.
 2. Dimensioonide lehel klõpsake vahekaardil **Seotud** nuppu **Hinnakujunduse dimensioonide väljanimed**.
 
