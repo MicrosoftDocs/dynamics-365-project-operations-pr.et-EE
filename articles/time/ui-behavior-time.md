@@ -3,17 +3,17 @@ title: Ajakirje kasutajaliidese käitumine
 description: Selles teemas antakse teavet kasutajaliidese käitumist ajakirjega.
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124498"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499609"
 ---
 # <a name="time-entry-ui-behavior"></a>Ajakirje kasutajaliidese käitumine
 
@@ -21,6 +21,19 @@ _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaa
 
 
 Ruudustik **Iganädalane ajakirje** on kohandatud juhtelement, millel on kaks peamist jaotist: **Dimensioonid** ja **Kestus**.
+
+## <a name="keyboard-shortcuts"></a>Kiirklahvid
+| Tegevus        | Otsetee                  |
+|------------   |------------------------   |
+| Uus           | Alt + Shift + n           |
+| Kopeeri rida      | Alt + Shift + c           |
+| Kirje muutmine    | Alt + Shift + e           |
+| Rea muutmine      | Alt + Shift + Ctrl + e    |
+| Avatud kirje    | Alt + Shift + o           |
+| Esita        | Alt + Shift + s           |
+| Kutsu tagasi        | Alt + Shift + r           |
+| Delete        | Alt + Shift + d           |
+| Nädala kopeerimine     | Alt + Shift + w           |
 
 ## <a name="dimensions"></a>Mõõtmed
 Jaotis **Dimensioonid** kuvab neid dimensioone, mille suhtes saab aega sisestada. Valmiskujul toetatakse järgmisi dimensioone.

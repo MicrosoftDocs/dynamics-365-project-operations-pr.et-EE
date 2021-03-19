@@ -1,9 +1,9 @@
 ---
 title: Ümberkujundatud kuluaruanded
-description: Selles teemas antakse teavet kuluaruande olemi ümberkujundatud ja ümbermuudetud kasutuskogemuse kohta.
+description: Selles teemas kirjeldatakse ümberkujundatud kuluaruande kirjendamise kogemust.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18d7407681906361f3f818225efb8510ac981d98
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122788"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499711"
 ---
 # <a name="expense-reports-reimagined"></a>Ümberkujundatud kuluaruanded
 
@@ -59,25 +59,22 @@ Uue kasutuskogemuse sisselülitamiseks kasutage **funktsiooni haldamise** töör
 | Sõnumirea sõnumeid on vähem| Teabelogi sõnumite arvu vähendati ja tehti jõupingutusi, et vältida paljudel juhtudel duplikaatide ilmumist. |
 | Kokku rühmitatud tavalised toimingud | Liidest korrastati, lisades uue toimingu nupu enamile tavaliste reatasemel toimingute jaoks ja kolmikpunkti nupu (…) lisamisega päisesse ja muude harvemini kasutatavate toimingutega. |
 | Uus tööruum nähtavuse suurendamiseks | Uus tööruum ühendab funktsioone ja linke, mis võimaldavad kasutajatel liikuda erinevatesse aladesse. |
-| Kulu loomise ajal olemasolevate kulude ja kviitungite lisamine | Kuluaruannete loomisel saate lisada kõik või valitud kulud ja kviitungid. |
+| Kulu loomise ajal olemasolevate kulude ja kviitungite lisamine | Kuluaruannete loomisel saate lisada kõik kulud või valida lisamata kulud. Lisamata kulud on ettevõtte krediitkaartide voost imporditud kulud või kulud, mille kasutaja on käsitsi loonud, kuid mida pole kuluaruandesse lisatud.|
 | Vahetuskursi kalkulaator | Lisatud on vahetuskursi kalkulaator, mis võimaldab teil arvutada omast taskust makstavate mitmevaluutaliste tehingute vahetuskurssi. |
 | Uute kuluridade salvestamine ja lisamine | Uute kulude sisestamisel on saadaval nupud **Salvesta** ja **Uus**, et aidata teil kiiresti ridu sisestada. |
 | Jaotatud ja üksikasjalike ridade parem nähtavus | Üksikasjalikud ja tükeldatud read lisatakse otse kulude loendisse, et suurendada nähtavust ja aidata teil hõlpsalt kindlaks teha, kas esineb vigu. |
 | Täpsustamise ajal kviitungite kuvamine | Täpsustamise ajal saab kuvada kviitungeid. |
+| Avansimakse valik | Valige ühe kulutehingu täitmiseks üks või mitu avansimakset. |
+| Avansimakse saldo | Vaadake avansimakse saldo üle reaalajas, kui loote kinnitatud ja makstud sularahas tehtud avansimaksete suhtes kulukirje. |
 
 Algne versioon keskendub kulude sisestamise stsenaariumidele. Mis tahes kuluaruande läbivaatuse või kinnitamise stsenaariumi korral jätkatakse olemasoleva kululehe kasutamist.
 
-Järgmised funktsioonid on olemas olemasoleval lehel, kuid uuel lehel neid veel pole. Need funktsioonid lisatakse uuesti järgmise mitme väljalaskega.
+Järgmisi funktsioone ümberkujundatud kulude tööruumis ei toetata.
 
-- Kinnitused
-- Ostureskontro kinnitamised ja võimalus raamatupidamist muuta
-- Mitme kirje punktid
 - Reisitellimuse integreerimine
-- Andmevälja nähtavuse andmete olem
-- Päevarahade kulude kanne
-- Reatasemel töövoog
+- Päevapõhine kulukirje
 - Ajutine kinnitaja tugi
-- Täpsem täpsustamine
+- Võimalus vaadata töövoo ajalugu
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401213"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479559"
 ---
 # <a name="determine-your-deployment-type"></a>Juurutamise tüübi määratlemine
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
 > [!IMPORTANT]
-> Pärast litsentsi ostmist alustage siit, et määratleda rakenduse Dynamics 365 Project Operations jaoks parim juurutuse mudel, kasutades [juhendatavat installimisvoogu](https://aka.ms/provisionprojectoperations).
+> Pärast litsentsi ostmist alustage siit, et määrata parim Dynamics 365 Project Operationsi juurutamise mudel kasutades [Juhendatud paigalduse voogu](https://aka.ms/provisionprojectoperations).
 > Pärast juhendatud installimisvoo lõpetamist suunatakse teid õigesse haldusportaali, et saaksite oma installimise lõpule viia. Installimise lõpuleviimiseks lugege juurutuse üksikasju.
 
 
@@ -31,6 +31,9 @@ Project Operations sisaldab võimalusi, mis tarnitakse koos rakendusega Project 
 
 Rakenduse Finance olemasolevad kliendid, kes kasutavad projektihalduse ja raamatupidamise funktsiooni, saavad jätkata selle endisel kujul kasutamist. Vaadake teemat [Project Operations ressursi/tootmise tellimuste stsenaariumite jaoks](#pma).
 
+
+## <a name="deployment-regions"></a>Juurutamise piirkonnad
+Project Operationsi juurutust toetavate piirkondade määratlemiseks vaadake teemat [Dynamics 365-e ja Power Platformi aruande geograafiline kättesaadavus](https://dynamics.microsoft.com/en-us/geographic-availability/). Valige **Kuva aruanne** ja laiendage **Dynamics 365 > Operationsi rakendused > Dynamics 365 Project Operations**, et vaadata toetatud piirkondi.
 
 ## <a name="deployment-types"></a>Juurutustüübid
 Project Operations toetab teie vajadustele vastamiseks mitut juurutamise võimalust. Olenemata sellest, kas olete rakenduse Dynamics 365 uus või juba aktiivne klient, Project Operations saab teie vajadusi toetada.
