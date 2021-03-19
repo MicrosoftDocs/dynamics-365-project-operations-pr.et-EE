@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1f601be072e84fc04246cd55a260c8004f6fb3e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075089"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289724"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Projekti eelarvete ülekandmine finantsaasta lõpus
 
@@ -36,12 +36,12 @@ Mitmeaastase projektiga töötamisel võib finantsaasta lõpus olla allesolev ee
 Projektide aasta lõpu eelarve summade üle vaatamiseks toimige järgmiselt, kuid ärge kandke summasid üle.
 
 1. Minge jaotisse **Projektijuhtimine ja raamatupidamine** > **Perioodiline** > **Eelarved** > **Ülekantavad eelarved**. 
-2. Kontrollige lehe **Projekti eelarve ülekandmise protsess** vahekaardil **Aasta lõpu võimalused** , et suvand **Kanna allesjäänud projekti eelarve summad edasi** pole lubatud.
+2. Kontrollige lehe **Projekti eelarve ülekandmise protsess** vahekaardil **Aasta lõpu võimalused**, et suvand **Kanna allesjäänud projekti eelarve summad edasi** pole lubatud.
 3. Valige vahekaardi **Parameetrid** väljal **Projekti eelarve aasta** finantsaasta, mille allesolevat eelarve summat soovite vaadata. 
 4. Valige väljal **Finantsaasta avamine** finantsaasta, mille allesolevat eelarve summat soovite vaadata. 
 5. Valige väljal **Prognoosimudelist** väärtus **Allesolev eelarve**. 
 6. Kui soovite kaasata projekte, mis vastavad teie valitud kriteeriumidele ja millel pole allesolevat eelarvet, valige suvand **Kuva ilma allesolevata**.  
-7. Valige vahekaardil **Vali eelarved** käsku **Too kõik eelarved** , et laadida kõik eelarved, mis vastavad teie valitud kriteeriumidele, ja seejärel valige **Töötle**. 
+7. Valige vahekaardil **Vali eelarved** käsku **Too kõik eelarved**, et laadida kõik eelarved, mis vastavad teie valitud kriteeriumidele, ja seejärel valige **Töötle**. 
 8. Sellise andmebaasi päringu loomiseks, mis laadib teatud eelarvete kogumi paanile, valige käsk **Too valitud eelarved**.
 
 Paani kindla rea kohta lisateabe saamiseks valige rida ja seejärel valige suvand **Kuva eelarve üksikasjad** või **Kuva kontod**.
@@ -59,10 +59,10 @@ Allesolevate eelarve summade töötlemisel saate luua pearaamatusse ülekantavat
 2. Valige lehel **Projekti eelarve ülekandmise protsess** väärtus **Aastalõpp** ja lubage seejärel suvandid **Kanna üle allesolevad projekti eelarve summad** ja **Loo pearaamatusse eelarve registri kanded**. 
 3. Valige vahekaardil **Parameetrid** väljade rühmas **Projekti parameetrid** järgnev.
 
-   - **Projekti eelarve aasta** : valige selle finantsaasta algus, mille allesolevaid eelarve summasid soovite vaadata. 
-   - **Kasum ja kahjum** : pearaamatusse kasumi- ja kahjumi kannete loomine. 
-   -  **WIP** : pearaamatusse käimasoleva töö (WIP) kannete loomine.
-   -  **Palgaarvestuse** : pearaamatusse palgaarvestuse jaotuse kannete loomine. 
+   - **Projekti eelarve aasta**: valige selle finantsaasta algus, mille allesolevaid eelarve summasid soovite vaadata. 
+   - **Kasum ja kahjum**: pearaamatusse kasumi- ja kahjumi kannete loomine. 
+   -  **WIP**: pearaamatusse käimasoleva töö (WIP) kannete loomine.
+   -  **Palgaarvestuse**: pearaamatusse palgaarvestuse jaotuse kannete loomine. 
 
 5. Esitage väljade rühma **Pearaamat** järgmine teave. 
 
@@ -73,10 +73,10 @@ Allesolevate eelarve summade töötlemisel saate luua pearaamatusse ülekantavat
 
    - Valige väljal **Prognoosimudelist** projekti prognoosimudel, mis on seotud allesolevate eelarve summadega, mida soovite projektidele üle kanda. 
    - Valige väljal **Pearaamatu eelarve mudelisse** pearaamatu eelarvemudel, mis on seotud eelarve summadega, mida soovite pearaamatusse üle kanda. 
-   -  Valige **Kanna üle müügi valuuta** , et kasutada projekti müügi valuutat pearaamatu kannete jaoks, mis on loodud eelarve summade edastamisel projektidele. Kui suvand pole valitud, kasutavad kanded arvestusvaluutat. 
-   -  Valige **Kuva ilma allesolevata** , et kaasata projektid, milles ei ole allesolevaid eelarve summasid, aga mis vastavad teistele kriteeriumidele, mille olete valinud alumisel paanil kuvatud projektides.
+   -  Valige **Kanna üle müügi valuuta**, et kasutada projekti müügi valuutat pearaamatu kannete jaoks, mis on loodud eelarve summade edastamisel projektidele. Kui suvand pole valitud, kasutavad kanded arvestusvaluutat. 
+   -  Valige **Kuva ilma allesolevata**, et kaasata projektid, milles ei ole allesolevaid eelarve summasid, aga mis vastavad teistele kriteeriumidele, mille olete valinud alumisel paanil kuvatud projektides.
 
-7. Valige vahekaardil **Vali eelarved** käsk **Too kõik eelarved** , et laadid kõik eelarved, mis vastavad teie valitud kriteeriumidele. Kui eelistate luua sellise andmebaasi päringu, mis laadib teatud projekti eelarvete kogumi paanile, valige käsk **Too valitud eelarved**.
+7. Valige vahekaardil **Vali eelarved** käsk **Too kõik eelarved**, et laadid kõik eelarved, mis vastavad teie valitud kriteeriumidele. Kui eelistate luua sellise andmebaasi päringu, mis laadib teatud projekti eelarvete kogumi paanile, valige käsk **Too valitud eelarved**.
 8. Valige iga projekti jaoks, mida soovite töödelda, projekti rea alguses soovitud suvand.
 
     > [!TIP]
@@ -87,16 +87,16 @@ Allesolevate eelarve summade töötlemisel saate luua pearaamatusse ülekantavat
 ## <a name="carry-forward-budget-amounts-without-creating-general-ledger-transactions"></a>Eelarve summade ülekandmine pearaamatu kandeid loomata
 
 1. Minge jaotisse **Projektijuhtimine ja raamatupidamine** > **Perioodiline** > **Eelarved** > **Ülekantavad eelarved**.
-2. Valige lehe **Projekti eelarve ülekandmise protsess** väljal **Aasta lõpu võimalused** , et suvand **Kanna allesjäänud projekti eelarve summad edasi**.
+2. Valige lehe **Projekti eelarve ülekandmise protsess** väljal **Aasta lõpu võimalused**, et suvand **Kanna allesjäänud projekti eelarve summad edasi**.
 3. Valige rühma **Parameetrid** väljal **Projekti eelarve aasta** finantsaasta, mille allesolevaid eelarve summasid soovite vaadata.
 4. Esitage rühma **Kopeeri kust/kuhu** järgmine teave.
 
    - Valige väljal **Prognoosimudelist** projekti prognoosimudel, mis on seotud allesolevate eelarve summadega, mida soovite projektidele üle kanda. 
-   - Valige **Kuva ilma allesolevata** , et kaasata projektid, millel ei ole allesolevaid eelarve summasid, aga mis vastavad teistele valitud kriteeriumidele.
-   - Valige rühmas **Vali eelarved** käsk **Too kõik eelarved** , et laadid kõik eelarved, mis vastavad teie valitud kriteeriumidele. Sellise andmebaasi päringu loomiseks, mis laadib teatud projekti eelarvete kogumi paanile, valige käsk **Too valitud eelarved**.
+   - Valige **Kuva ilma allesolevata**, et kaasata projektid, millel ei ole allesolevaid eelarve summasid, aga mis vastavad teistele valitud kriteeriumidele.
+   - Valige rühmas **Vali eelarved** käsk **Too kõik eelarved**, et laadid kõik eelarved, mis vastavad teie valitud kriteeriumidele. Sellise andmebaasi päringu loomiseks, mis laadib teatud projekti eelarvete kogumi paanile, valige käsk **Too valitud eelarved**.
 
 5. Valige iga projekti jaoks, mida soovite töödelda, projekti rea alguses soovitud suvand. 
-6. Valige **Töötle** , et kanda valitud projektide allesolevad eelarve summad üle valitud finantsaastasse.
+6. Valige **Töötle**, et kanda valitud projektide allesolevad eelarve summad üle valitud finantsaastasse.
 
 
 

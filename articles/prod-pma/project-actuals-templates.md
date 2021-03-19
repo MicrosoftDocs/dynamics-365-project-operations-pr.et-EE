@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11ccbd64c37341b2969e10e9a737f1aa4b4a61f9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075088"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289679"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Projekti tegelike näitajate sünkroonimine otse Project Service Automationist projekti integreerimise töölehele rakendusse Finance and Operations sisestamiseks
 
@@ -50,7 +50,7 @@ Järgmisel joonisel on näidatud, kuidas andmeid rakenduste Project Service Auto
 
 ### <a name="template-and-tasks"></a>Mall ja ülesanded
 
-Saadaolevatele mallidele Microsoft Power Appsi halduskeskuses juurdepääsuks valige **Projektid** ja seejärel valige paremas ülanurgas **Uus projekt** , et valida avalikud mallid.
+Saadaolevatele mallidele Microsoft Power Appsi halduskeskuses juurdepääsuks valige **Projektid** ja seejärel valige paremas ülanurgas **Uus projekt**, et valida avalikud mallid.
 
 Projekti tegelike näitajate sünkroonimiseks Project Service Automationist Finance’i kasutatakse järgmist malli ja aluseks olevaid ülesandeid.
 
@@ -86,9 +86,9 @@ Projekti tegelike näitajate mallil peate kasutama lisandmoodulit Microsoft Powe
 - Kui kontsernisisest aega või kontsernisisest kulu ei sünkroonita rakendusega Finance, peate kustutama viimati lisatud tingimusliku veeru oma mallist. Vastasel juhul võib juhtuda, et integratsioon võib ilmneda või valed tegelikud tehingud saab importida rakendusse Finance.
 
 #### <a name="contract-organizational-unit"></a>Lepingu organisatsiooniüksus
-Mallis sisestatud tingimusliku veeru värskendamiseks klõpsake noolt **Vastenda** , et avada vastendamine. Valige link **Täpsem päring ja filtreerimine** , et avada Power Query.
+Mallis sisestatud tingimusliku veeru värskendamiseks klõpsake noolt **Vastenda**, et avada vastendamine. Valige link **Täpsem päring ja filtreerimine**, et avada Power Query.
 
-- Kui kasutate vaikimisi projekti tegelikke näitajate (PSA-st Finile ja Opsile) malli, siis valige Power Querys jaotisest **Rakendatud sammud** viimane suvand **Sisestatud tingimus**. Kirjes **Funktsioon** asendage **USSI** juriidilise üksuse nimega, mida peaks kasutama koos integratsiooniga. Lisage **Funktsiooni** kirjele soovitud täiendavad tingimused ja värskendage **else** tingimus **USMF** -ilt õigele juriidilisele olemile.
+- Kui kasutate vaikimisi projekti tegelikke näitajate (PSA-st Finile ja Opsile) malli, siis valige Power Querys jaotisest **Rakendatud sammud** viimane suvand **Sisestatud tingimus**. Kirjes **Funktsioon** asendage **USSI** juriidilise üksuse nimega, mida peaks kasutama koos integratsiooniga. Lisage **Funktsiooni** kirjele soovitud täiendavad tingimused ja värskendage **else** tingimus **USMF**-ilt õigele juriidilisele olemile.
 - Kui loote uue malli, peate kontsernisisese aja ja kulude toetamiseks lisama veeru. Valige **Lisa tingimuslik veerg** ja sisestage uue veeru nimi, näiteks **LegalEntity**. Sisestage veeru jaoks tingimus, et kui **msdyn\_contractorganizationalunitid.msdyn\_nimi** on \<organizational unit\>, siis \<enter the legal entity\>; muu on tühi.
 
 ### <a name="template-mapping-in-data-integration"></a>Malli vastendamine andmete integratsioonis

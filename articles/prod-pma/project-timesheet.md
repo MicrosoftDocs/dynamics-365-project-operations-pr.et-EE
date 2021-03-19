@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db035bfd555d724f80156d0b50df7c0d0bfaff27
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075129"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288824"
 ---
 # <a name="project-timesheet-mobile-application"></a>Projekti ajatabelite mobiilirakendus
 
@@ -76,7 +76,7 @@ Väljal **Projekt** valige projekt, mille kohta aega sisestate. Väli **Klient**
 
 Kliendi ja projekti otsingud võimaldavad otsida nii klientide kui ka projektide üleselt.
 
-Valige vastavalt vajadusele teave väljadel **Kategooria** , **Tegevus** , **Rea atribuut** , **Käibemaksu rühm** ja **Eseme käibemaksu rühm**. Neid välju saab alistada.
+Valige vastavalt vajadusele teave väljadel **Kategooria**, **Tegevus**, **Rea atribuut**, **Käibemaksu rühm** ja **Eseme käibemaksu rühm**. Neid välju saab alistada.
 
 Väli **Rea atribuut** seatakse projektihalduse ja raamatupidamise näitajate põhjal vaikeväärtusele. Kui parameetrid projekt/kategooria ja kategooria/ressurss on lubatud, seadistatakse väärtus **Rea atribuut** vaikeväärtusele, mille oolete selle valideerimise jaoks määratlenud. Kui parameetrid projekt/kategooria ja kategooria/ressurss parameetrid pole lubatud, läheb väärtus **Rea atribuut** vaikeväärtusele vastavalt väljale **Luba rea vaikeatribuut** lehel **Projektihalduse ja raamatupidamise parameetrid**. Väärtu **Rea atribuut** on võimalik alistada.
 
@@ -95,7 +95,7 @@ Ajatabeli kinnitamise töövoogu saatmiseks klõpsake nuppu **Esita**.
 
 ## <a name="review-timesheets"></a>Ajatabelite läbivaatamine
 
-Läbivaatamist vajavate ajatabelite loend on kättesaadav menüüs. See suvand on saadaval ainult juhul, kui olete määratud töövoo kinnitajaks. Toetatud on nii päise kui ka rea kinnitamine. Rea tasemel kinnitamine võimaldab märkida kinnitamiseks ühe või mitu. Pärast ajatabeli teabe läbivaatamist töövoo jätkamiseks klõpsake käsku **Kinnita** , **Delegeeri** või **Naase**.
+Läbivaatamist vajavate ajatabelite loend on kättesaadav menüüs. See suvand on saadaval ainult juhul, kui olete määratud töövoo kinnitajaks. Toetatud on nii päise kui ka rea kinnitamine. Rea tasemel kinnitamine võimaldab märkida kinnitamiseks ühe või mitu. Pärast ajatabeli teabe läbivaatamist töövoo jätkamiseks klõpsake käsku **Kinnita**, **Delegeeri** või **Naase**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

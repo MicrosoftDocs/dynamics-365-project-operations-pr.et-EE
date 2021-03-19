@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9dc4575f5b4b80e257e34e21980b0516e7c546e6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074931"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287953"
 ---
 # <a name="work-breakdown-structures-overview"></a>Tööjaotuse struktuuride ülevaade
 
@@ -50,7 +50,7 @@ WBS-i funktsioonide kõikide kavandamise võimaluste kasutamiseks lõpetage jär
 
 1.  Seadistage vaikekalender ja projekti kalender.
     1.  Klõpsake suvandit **Projektihaldus ja raamatupidamine** &gt; **Seadistamine** &gt; **Projektihalduse ja raamatupidamise parameetrid** &gt; **Kavandamine**. Väljal **Vaikimisi töökalender** määrake vaikekalender. See on kõigi uute loodavate projektide vaikimisi töökalender.
-    2.  Saate vaikekalendrit konkreetse projekti jaoks muuta. Klõpsake projekti üksikasjade lehte ja seejärel kiirkaardil **Projektimeeskond ja kavandamine** värskendage välja **Plaanimiskalender** , valides muu kalendri.
+    2.  Saate vaikekalendrit konkreetse projekti jaoks muuta. Klõpsake projekti üksikasjade lehte ja seejärel kiirkaardil **Projektimeeskond ja kavandamine** värskendage välja **Plaanimiskalender**, valides muu kalendri.
 
 2.  Seadistage standardsed tööpäevad ja tööaeg. Kalender, mille te määrate oma projekti jaoks töökalendriks, kasutatakse WBS-is, et määratleda järgmine teave.
 
@@ -102,7 +102,7 @@ Hetkel te ei saa WBS-i nummerdamist kohandada.
 
 ### <a name="schedule-estimation"></a>Ajakava prognoosimine
 
-Ajakava prognoosimine on tavaliselt WBS-i loomise teine etapp. Hea tavana peaksite lõpetama ajakava prognoosimise pärast ülesannete loomist. Finance’is lehel **Tööjaotuse strutkuur** on kaks jaotist. Ülemine paan on mõeldud ajakava hindamiseks ja alumisel paanil on **Prognoositud kulud ja tulud** , mida saate kasutada kulude hindamiseks. 
+Ajakava prognoosimine on tavaliselt WBS-i loomise teine etapp. Hea tavana peaksite lõpetama ajakava prognoosimise pärast ülesannete loomist. Finance’is lehel **Tööjaotuse struktuur** on kaks jaotist. Ülemine paan on mõeldud ajakava hindamiseks ja alumisel paanil on **Prognoositud kulud ja tulud**, mida saate kasutada kulude hindamiseks. 
 **Tööülesande sõltuvused** – WBS-is saate luua tööülesannete vahel eelkäija seose. Kui määrate ülesandele eelkäijast ülesande, siis see ülesanne saab käivituda ainult pärast oma eelkäijast ülesande lõpetamist. Tööülesande kavandatav alguskuupäev seatakse automaatselt kõigi selle eelkäijate hiliseimale kuupäevale. 
 
 **Tööülesande kavandamine** – lehtsõlme ülesannete kavandamise määratlevad järgmised tegurid.
@@ -122,7 +122,7 @@ Eelkäijateta lehesõlme ülesande alguskuupäev määratakse automaatselt proje
 
 inimeste arv × kestus × projektikalendri standardse tööpäeva tundide arv. 
 
-Mõnikord võib olla vaja neist reeglitest erinevalt tegutseda. Saate automaatse kavandamise välja lülitada, et takistada rakendusel Finance lehesõlme ülesannete mis tahes seadistamist või parandamist. Kui sisestate teavet ülesande jaoks, mis põhjustab mis tahe plaanimise reeglite rikkumist, kuvatakse ülesande jaoks kavandamise vea ikoon. Kui te ei soovi kavandamise tõrkeid kuvada, klõpsake nuppu **Kuvatakse tõrgevead** , et tõrge välja lülitada. 
+Mõnikord võib olla vaja neist reeglitest erinevalt tegutseda. Saate automaatse kavandamise välja lülitada, et takistada rakendusel Finance lehesõlme ülesannete mis tahes seadistamist või parandamist. Kui sisestate teavet ülesande jaoks, mis põhjustab mis tahe plaanimise reeglite rikkumist, kuvatakse ülesande jaoks kavandamise vea ikoon. Kui te ei soovi kavandamise tõrkeid kuvada, klõpsake nuppu **Kuvatakse tõrgevead**, et tõrge välja lülitada. 
 
 > [!NOTE] 
 > Kokkuvõtte või konteinerülesande väärtuseid arvutatakse jätkuvalt seotud ülesannete väärtuste summana, olenemata sellest, kas automaatse kavandamise abi on sisse või välja lülitatud. 
@@ -203,7 +203,7 @@ Mõlemad need lähenemised põhjustavad ülesande ETC, EAC ja edenemisprotsendi 
 4.  Ülejäänud panus ja edenemisprotsent arvutatakse uue EAC väärtuse põhjal uuesti kõigi mõjutatud alamülesannete jaoks. Nende ülesannete panuse hälve arvutatakse samuti uuesti.
 5.  Kokkuvõtlike ülesannete EAC arvutatakse lehesõlmedest samuti uuesti.
 
-Klõpsake panuse jälgimise vaates suvandit **Laienda tasemeni** , et määrata tase, mille juures teie WBS-i jälgida ja säilitada. WBS laiendatakse panuse jälgimise vaates automaatselt sellele tasemele iga kord, kui selle avate.
+Klõpsake panuse jälgimise vaates suvandit **Laienda tasemeni**, et määrata tase, mille juures teie WBS-i jälgida ja säilitada. WBS laiendatakse panuse jälgimise vaates automaatselt sellele tasemele iga kord, kui selle avate.
 
 ### <a name="cost-tracking-view"></a>Kulude jälgimise vaade
 
@@ -232,7 +232,7 @@ Kulu jälgimise vaade kuvab ülesande eeldatava kulu hälbe, mis põhineb sellel
 4.  Tarbitud CTC ja kulu protsent arvutatakse EAC väärtuse põhjal uuesti kõikide alamülesannete jaoks. Nende ülesannete kulu hälve arvutatakse samuti uuesti.
 5.  Kõikide kokkuvõtlike ülesannete EAC arvutatakse selle muudatuse põhjal uuesti.
 
-Klõpsake kulu jälgimise vaates suvandit **Laienda tasemeni** , et määrata tase, mille juures teie WBS-i jälgida ja säilitada. WBS laiendatakse kulu jälgimise vaates sellele tasemele iga kord, kui selle avate.
+Klõpsake kulu jälgimise vaates suvandit **Laienda tasemeni**, et määrata tase, mille juures teie WBS-i jälgida ja säilitada. WBS laiendatakse kulu jälgimise vaates sellele tasemele iga kord, kui selle avate.
 
 ### <a name="earned-value-management"></a>Teenitud väärtuste haldus
 
@@ -261,7 +261,7 @@ Projektile postitatud kandeid kasutatakse tegeliku kulurea kavandamiseks. Kulud 
 
 ### <a name="how-to-use-the-concepts-of-planned-value-earned-value-and-actual-cost"></a>Planeeritud väärtuse, teenitud väärtuse ja tegeliku kulu mõistete kasutamine
 
-**Ajakava hälve** – kavandamise ajal saate luua ajajoonel töötamiseks prognoosi. Seega on kavandatav väärtus määr, mille järgi projekti planeerijad arvasid, et töö projekti kestel lõpetatakse. Pärast projekti edenemist töö lõpetatakse ja projekt teenib väärtust. Kavandatud väärtuse teenitud väärtusega võrreldes saate vaadata, kuidas projekti töö edeneb. Selle võrdluse tulemust nimetatakse ajakava hälbeks. 
+**Ajakava hälve**– kavandamise ajal saate luua ajajoonel töötamiseks prognoosi. Seega on kavandatav väärtus määr, mille järgi projekti planeerijad arvasid, et töö projekti kestel lõpetatakse. Pärast projekti edenemist töö lõpetatakse ja projekt teenib väärtust. Kavandatud väärtuse teenitud väärtusega võrreldes saate vaadata, kuidas projekti töö edeneb. Selle võrdluse tulemust nimetatakse ajakava hälbeks. 
 
 Kui perioodi planeeritud väärtus on suurem kui teenitud väärtus, siis on projektiga tehtud töö kogus väiksem kui plaanitud. Seega on projekt graafikust maas. Kuna kavandatud väärtus ja teenitud väärtus on väljendatud rahalises mõttes, antakse ka projekti maha jäämisele rahaline väärtus. 
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 336de474c859d30d1ec07ae34bf0c3d578faeef1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58e204b2c1238e00ffb16533cc82dad69fbf77a9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075084"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289454"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Projekti prognooside sünkroonimine otse rakendusest Project Service Automation rakendusse Finance and Operations
 
@@ -46,7 +46,7 @@ Järgmisel joonisel on näidatud, kuidas andmeid rakenduste Project Service Auto
 
 ### <a name="template-and-tasks"></a>Mall ja ülesanded
 
-Saadaolevatele mallidele Microsoft Power Appsi halduskeskuses juurdepääsuks valige **Projektid** ja seejärel valige paremas ülanurgas **Uus projekt** , et valida avalikud mallid.
+Saadaolevatele mallidele Microsoft Power Appsi halduskeskuses juurdepääsuks valige **Projektid** ja seejärel valige paremas ülanurgas **Uus projekt**, et valida avalikud mallid.
 
 Projekti kestuse prognooside sünkroonimiseks Project Service Automationist Finance’i kasutatakse järgmist malli ja aluseks olevaid ülesandeid.
 
@@ -80,18 +80,18 @@ Projekti kestuse prognooside mallil peate kasutama lisandmoodulit Microsoft Powe
 
 #### <a name="set-the-default-forecast-model-id"></a>Vaikimisi prognoosi mudeli ID määramine
 
-Mallis vaikeprognoosi mudeli ID värskendamiseks klõpsake noolt **Vastenda** , et avada vastendamine. Seejärel valige link **Täpsem päring ja filtreerimine**.
+Mallis vaikeprognoosi mudeli ID värskendamiseks klõpsake noolt **Vastenda**, et avada vastendamine. Seejärel valige link **Täpsem päring ja filtreerimine**.
 
 - Kui kasutate vaikimisi Projecti kestuse hinnangu (PSA-st Finile ja Opsile) malli, valige loendis **Rakendatud sammud** suvand **Sisestatud tingimus**. Kirjes **Funktsioon** asendage osa **O\_forecast** prognoosi mudeli ID nimega, mida peaks integratsiooniga koos kasutama. Vaikemallil pärineb prognoosi mudeli ID demoandmetest.
 - Uue malli loomisel peate selle veeru lisama. Valige Power Querys suvand **Lisa tingimuslik veerg** ja sisestage uue veeru nimi, näiteks **MudeliID**. Sisestage veeru jaoks tingimus, et kui projektiülesanne ei ole tühi, siis \<enter the forecast model ID\>; muul juhul tühi.
 
 #### <a name="filter-out-resource-specific-records"></a>Ressursikohaste kirjete filtreerimine
 
-Projecti kestuse prognooside (PSA-st Fini ja Opsi) mallil on vaikimisi filter, mis eemaldab kõik ressursile omased kirjed. Kui loote oma malli, peate selle filtri lisama. Valige link **Täpsem pärin ja filtreerimine** , et filtreerida veergu **msdyn\_islinetask** , et ainult kirjed olekuga **Väär** oleksid hõlmatud.
+Projecti kestuse prognooside (PSA-st Fini ja Opsi) mallil on vaikimisi filter, mis eemaldab kõik ressursile omased kirjed. Kui loote oma malli, peate selle filtri lisama. Valige link **Täpsem pärin ja filtreerimine**, et filtreerida veergu **msdyn\_islinetask**, et ainult kirjed olekuga **Väär** oleksid hõlmatud.
 
 #### <a name="filter-out-empty-transaction-category-rows"></a>Tühjade kandekategooria ridade välja filtreerimine
 
-Peate lisama filtri, et eemaldada kõik read, kus kandekategooriad on tühjad. See toiming on nõutav olenemata sellest, kas kasutate vaikemalli või loote oma malli. See filter eemaldab rakendusest Project Service Automation kõik kokkuvõtteread, mille tõttu rakenduse Finance kestuse prognoos võib olla vale. Valige link **Täpsem päring ja filtreerimine** , et filtreerida välja null-kirjed veerus **msdyn\_transactioncategory\_value**.
+Peate lisama filtri, et eemaldada kõik read, kus kandekategooriad on tühjad. See toiming on nõutav olenemata sellest, kas kasutate vaikemalli või loote oma malli. See filter eemaldab rakendusest Project Service Automation kõik kokkuvõtteread, mille tõttu rakenduse Finance kestuse prognoos võib olla vale. Valige link **Täpsem päring ja filtreerimine**, et filtreerida välja null-kirjed veerus **msdyn\_transactioncategory\_value**.
 
 ### <a name="template-mapping-in-data-integration"></a>Malli vastendamine andmete integratsioonis
 
@@ -137,11 +137,11 @@ Projekti kuluprognooside mallil peate kasutama lisandmoodulit Power Quer, et lõ
 
 #### <a name="filter-to-include-only-expense-estimate-lines"></a>Filter, et kaasata ainult kuluprognoosi read
 
-Projecti kuluprognooside (PSA-st Fini ja Opsi) mallil on vaikefilter, mis sisaldab integratsioonis ainult kuluridu. Kui loote oma malli, peate selle filtri lisama. Valige ülesanne **Kande seosed** ja klõpsake seejärel noolt **Vastenda** , et avada vastendamine. Valige link **Täpsem päring ja filtreerimine**. Filtreerige veergu **msdyn\_transactiontype1** , et see sisaldaks ainult atribuuti **msdyn\_estimateline**.
+Projecti kuluprognooside (PSA-st Fini ja Opsi) mallil on vaikefilter, mis sisaldab integratsioonis ainult kuluridu. Kui loote oma malli, peate selle filtri lisama. Valige ülesanne **Kande seosed** ja klõpsake seejärel noolt **Vastenda**, et avada vastendamine. Valige link **Täpsem päring ja filtreerimine**. Filtreerige veergu **msdyn\_transactiontype1**, et see sisaldaks ainult atribuuti **msdyn\_estimateline**.
 
 #### <a name="set-the-default-forecast-model-id"></a>Vaikimisi prognoosi mudeli ID määramine
 
-Mallis vaikeprognoosi mudeli ID värskendamiseks valige ülesanne **Kuluprognoosid** ja klõpsake seejärel noolt **Vastenda** , et avada vastendamine. Valige link **Täpsem päring ja filtreerimine**.
+Mallis vaikeprognoosi mudeli ID värskendamiseks valige ülesanne **Kuluprognoosid** ja klõpsake seejärel noolt **Vastenda**, et avada vastendamine. Valige link **Täpsem päring ja filtreerimine**.
 
 - Kui kasutate vaikimisi Projecti kuluhinnangu (PSA-st Finile ja Opsile) malli, siis valige Power Querys jaotisest **Rakendatud sammud** esimene suvand **Sisestatud tingimus**. Kirjes **Funktsioon** asendage osa **O\_forecast** prognoosi mudeli ID nimega, mida peaks integratsiooniga koos kasutama. Vaikemallil pärineb prognoosi mudeli ID demoandmetest.
 - Uue malli loomisel peate selle veeru lisama. Valige Power Querys suvand **Lisa tingimuslik veerg** ja sisestage uue veeru nimi, näiteks **MudeliID**. Sisestage veeru jaoks tingimus, et kui prognoosi rea ID ei ole tühi, siis \<enter the forecast model ID\>; muul juhul tühi.

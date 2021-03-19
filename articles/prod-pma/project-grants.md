@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 89801696d6a2924d78c85f6e9b4281409222dbb0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: dfd91e859244cc03b9b358b057bded79eeea0182
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075137"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289364"
 ---
 # <a name="project-grants"></a>Projekti toetused
 
@@ -51,7 +51,7 @@ Saate luua toetuse, sisestades kõik üksikasjad uude kirjesse, samuti saate kop
     Järgmises loendis kirjeldatakse teavet, mis määratletakse igale toetuse üksikasjade lehe kiirvahekaardil.
 
     - **Üldine** - sisestage toetuse nimi, olek, kirjeldus, eesmärk ja summa.
-    - **Kontaktteave** - sisestage üksikasjad personali kohta, toetust haldava osakonna kohta ja toetuse kliendi või toetuse organisatsiooni allika kohta. Samuti saate määrata, kas teie organisatsioon on vaheüksus, mis saab toetuse ja edastab selle seejärel teisele saajale. Valige **Lisa** , et lisada kontaktteavet (nt telefoninumbreid ja meiliaadresse) toetust jagava organisatsiooni kohta.
+    - **Kontaktteave** - sisestage üksikasjad personali kohta, toetust haldava osakonna kohta ja toetuse kliendi või toetuse organisatsiooni allika kohta. Samuti saate määrata, kas teie organisatsioon on vaheüksus, mis saab toetuse ja edastab selle seejärel teisele saajale. Valige **Lisa**, et lisada kontaktteavet (nt telefoninumbreid ja meiliaadresse) toetust jagava organisatsiooni kohta.
     - **Kuupäevad ja tähtajad** - sisestage toetusega ja toetuse taotlusega seotud kuupäevad. Näidete hulka kuuluvad taotlemise tähtaeg, esitamise tähtaeg ja toetuse kinnitamise või tagasilükkamise tähtaeg.
     - **Seotud projektid ja projekti lepingud** - sellele kiirvahekaardile saate sisestada andmeid ainult siis, kui väli **Toetuse olek** kiirvahekaardil **Üldine** on seatud olekusse **Aktiivne** või **Antud**. Seostuva tööülesande lõpuleviimiseks valige üks järgmistest suvanditest.
 

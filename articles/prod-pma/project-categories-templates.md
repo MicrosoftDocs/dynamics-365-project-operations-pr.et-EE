@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: ed7ca3c85d3f99b7eefe10f4ddec822b9aeb1684
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4abb7fe6554825b97df4cc04ee1b02d731cb4af9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075095"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289634"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Projekti kulukategooriate sünkroonimine rakenduste Finance and Operations ja Project Service Automation vahel
 
@@ -64,7 +64,7 @@ Järgmisel joonisel on näidatud, kuidas andmeid rakenduste Project Service Auto
 
 ### <a name="template-and-task"></a>Mall ja ülesanne
 
-Mallile Microsoft Power Appsi halduskeskuses juurdepääsuks valige **Projektid** ja seejärel valige paremas ülanurgas **Uus projekt** , et valida avalikud mallid.
+Mallile Microsoft Power Appsi halduskeskuses juurdepääsuks valige **Projektid** ja seejärel valige paremas ülanurgas **Uus projekt**, et valida avalikud mallid.
 
 Projekti kulukategooriate sünkroonimiseks Finance'ist Project Service Automationisse kasutatakse järgmist malli ja aluseks olevat ülesannet.
 
@@ -86,7 +86,7 @@ Projekti kulukategooriaid hallatakse rakenduses Finance ja need sünkroonitakse 
 Kui sünkroonite rakendusega Project Service automation, peate kasutama rakendust Microsoft Power Query Exceli jaoks, et määrata arvetüüp kandekategoorias. Projekti kulukannete kategooriate (Fin ja Ops PSA-sse) mallis on vaikeveerg ja vastendus. Kui loote oma malli, peate lisama tingimusliku veeru Power Query'is. Toimige järgmiselt.
 
 1. Klõpsake noolt, et avada projekti kulu kategooriate ülesande vastendus projekti kulukategooriate (Fin ja Ops PSA-le) malliga.
-2. Klõpsake linki **Täpsem päring ja filtreerimine** , et avada Power Query.
+2. Klõpsake linki **Täpsem päring ja filtreerimine**, et avada Power Query.
 2. Valige **Lisa tingimuslik veerg**.
 3. Sisestage uue veeru nimi (nt **ArvelduseTüüp)**.
 4. Sisestage järgmine tingimus: **if CATEGORYID not equal to null then 19235001, Otherwise null**.

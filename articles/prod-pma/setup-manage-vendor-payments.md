@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2469c8396eb4867b435f70b046aa421552d0fa1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074935"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288586"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Maksa-kui-on-makstud hankija maksete seadistamine ja kasutamine
 
@@ -56,7 +56,7 @@ Projektile PWP tingimuste seadistamisel peate määrama protsendina minimaalse s
     - **Rühm** - hankija PWP tingimused rakenduvad kõigile hankijarühma hankijatele.
     - **Kõik** - hankija PWP tingimused rakenduvad kõikidele hankijatele.
 
-4. Kui valisite eelmises etapis suvandi **Tabel** või **Rühm** väljal **Hankija/hankijate rühm** , valige hankija või hankijate rühm, kellele PWP tingimused rakenduvad. Kui valisite eelmises etapis suvandi **Kõik** , ei saa välja **Hankija/hankijate rühm** redigeerida.
+4. Kui valisite eelmises etapis suvandi **Tabel** või **Rühm** väljal **Hankija/hankijate rühm**, valige hankija või hankijate rühm, kellele PWP tingimused rakenduvad. Kui valisite eelmises etapis suvandi **Kõik**, ei saa välja **Hankija/hankijate rühm** redigeerida.
 5. Kui hankija jaoks on projektis väljal **Hankija kinnipidamise tingimused** seadistatud kinnipidamise tingimused, valige kinnipidamise tingimustele reegli ID.
 6. Sisestage väljale **PWP läve protsent** projekti läve protsent. Projektile sisestatav protsent määrab minimaalse summa, mille klient peab teile maksma, enne kui teie maksate hankijale.
 

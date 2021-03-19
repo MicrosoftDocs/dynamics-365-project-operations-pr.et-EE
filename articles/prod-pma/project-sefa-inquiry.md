@@ -20,12 +20,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 70dff12c106723dda801668412cfd084c462db4b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074940"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288959"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Föderaalse rahastamise kulude ajakava päring
 
@@ -62,7 +62,7 @@ Peate föderaalse rahastamise kulude ajakava päringus seadistama CFDA numbrid, 
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Föderaalse rahastamise kulude ajakava päringule aruandluseks toetuste seadistamine
 
 1. Minge jaotisse **Projektijuhtimine ja raamatupidamine \> Toetused \> Toetused** ning valige olemasolev toetus.
-2. Määrake kiirvahekaardil **Seadistamine** väljal **Föderaalse riigiabi kataloog** CFDA-le number. Toetuse CFDA number määratleb aruandluse jaoks CFDA klastri.
+2. Määrake kiirvahekaardi **Seadistamine** väljal **Föderaalse riigiabi kataloog** CFDA-le number. Toetuse CFDA number määratleb aruandluse jaoks CFDA klastri.
 3. Sisestage kiirvahekaardile **Kontaktteave** väljastaja andmed, toimides järgmiselt.
 
     1. Sisestage väljale **Toetuse klient** toetuse eest vastutav klient. Olemasoleva toetuse puhul võib see teave olla juba sisestatud.
@@ -79,8 +79,8 @@ Föderaalvalitsus rahastas riigi jaoks infrastruktuuri projekti. Föderaalvalits
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>SEFA aruandlusest toetuste välja jätmine vastavalt toetuse tüübile
 
-1. Minge jaotisse **Projektijuhtimine ja raamatupidamine \> Seadistamine \> Toetused \> Toetuste tüübid**.
-2. Valige kiirvahekaardil **Vaiketeave** märkeruut **Jäta föderaalse rahastamise kulude ajakavast välja**.
+1. Minge jaotisse **Projektijuhtimine ja raamatupidamine \> Seadistamine \> Toetused \> Toetuste tüübid**.
+2. Valige kiirvahekaardil **Vaiketeave** märkeruut **Jäta föderaalse rahastamise kulude ajakavast välja**.
 3. Muudatuste salvestamiseks valige nupp **Salvesta**.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Föderaalse rahastamise kulude ajakava päringu käivitamine

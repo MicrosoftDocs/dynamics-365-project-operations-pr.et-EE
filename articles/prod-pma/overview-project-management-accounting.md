@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075099"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289769"
 ---
 # <a name="project-management-and-accounting-overview"></a>Projekti haldamise ja raamatupidamise ülevaade
 
@@ -205,7 +205,7 @@ Saate kaupu tellida ettevõtte varudest projektis kasutamiseks. Teise võimaluse
 
 Kauba tellimise viis sõltub sellest, kust te neid tellite.
 
--   Kauba tellimiseks ettevõtte varudest tuleb tellimus sisestada kaubavajadusena. Kui kasutate lehte **Kaubavajadused** , saate seadistada vajaduse nii, et saate kaupu osaliste tarnetena. Seega saate üksuste kaubakoguse realiseerimise edasi lükata, kuni kaubad on vajalikud.
+-   Kauba tellimiseks ettevõtte varudest tuleb tellimus sisestada kaubavajadusena. Kui kasutate lehte **Kaubavajadused**, saate seadistada vajaduse nii, et saate kaupu osaliste tarnetena. Seega saate üksuste kaubakoguse realiseerimise edasi lükata, kuni kaubad on vajalikud.
 -   Kui soovite kaupu tellida väliselt hankijalt, tuleb ostutellimus luua lehel **Ostutellimus**.
 
 > [!NOTE] 
@@ -232,7 +232,7 @@ Lisateavet projekti arvete töötlemise kohta leiate jaotisest [Projekti arved](
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Projekti lõpuleviimiseks kulu arvutamine
 
-Hinnangu loomisel saate valida meetodi, mida kasutatakse projekti lõpuleviimiseks kulu arvutamiseks. Saate valida meetodi, mis asub väljal **Kulu lõpetamiseks meetod** lehel **Loo prognoos**. Teie valitud meetodit rakendatakse eraldi iga kuluarvestuse kulurea jaoks. Kui rea olek on **Loodud** , saate selle suhtes rakendatud meetodit muuta lehel **Hinnaprognoos**. 
+Hinnangu loomisel saate valida meetodi, mida kasutatakse projekti lõpuleviimiseks kulu arvutamiseks. Saate valida meetodi, mis asub väljal **Kulu lõpetamiseks meetod** lehel **Loo prognoos**. Teie valitud meetodit rakendatakse eraldi iga kuluarvestuse kulurea jaoks. Kui rea olek on **Loodud**, saate selle suhtes rakendatud meetodit muuta lehel **Hinnaprognoos**. 
 
 Järgmises tabelis on kirjeldatud projekti lõpuleviimiseks kulu arvutamise meetodeid.
 
@@ -300,7 +300,7 @@ Vastavalt teie seadistusele saate prognoosida valitud projekti rahavoogusid. Nä
 -   **Projekti kuupäev:** 5. märts 2012.
 -   **Arve esitamise aeg:** 31. märts 2012. See päev määratletakse arvete esitamise sageduse põhjal. Selles näites määrake arve esitamise sagedus praeguse kuuni. Seega on kõik kanded, mis on sisestatud märtsis, arveldatud kuu viimasel päeval.
 -   **Tähtaeg:** 14. aprill 2012. See tähtaeg määratakse vastavalt projekti jaoks määratud maksetingimustele. Selles näites olete valinud 14-päevase maksetingimuse. Seetõttu lisatakse arve kuupäevale 14 päeva, et saada 14. aprill 2012.
--   **Eeldatav müügi maksekuupäev:** 27. aprill 2012. Selle kuupäeva arvutamiseks lisatakse väljale **Üldised puhverpäevad** lehel **Projekti haldus ja raamatupidamisarvestuse parameetrid** päevade arvule väljal **Individuaalsed puhverpäevad** lehel **Projektilepingud** ja lisatakse seejärel kogusumma välja **Tähtaeg** päevade arvule. Selles näites sisestsite väljale **3** väljale **Üldine puhver päeva** ja **10** väljale **Individuaalne puhver päeva**. Seetõttu lisatakse tähtpäevale 13 päeva, et saada oodatav müügi makse 27. aprillil 2012.
+-   **Eeldatav müügi maksekuupäev:** 27. aprill 2012. Selle kuupäeva arvutamiseks lisatakse väljale **Üldised puhverpäevad** lehel **Projekti haldus ja raamatupidamisarvestuse parameetrid** päevade arvule väljal **Individuaalsed puhverpäevad** lehel **Projektilepingud** ja lisatakse seejärel kogusumma välja **Tähtaeg** päevade arvule. Selles näites sisestsite väljale **3** väljale **Üldine puhver päeva** ja **10** väljale **Individuaalne puhver päeva**. Seetõttu lisatakse tähtpäevale 13 päeva, et saada oodatav müügi makse 27. aprillil 2012.
 
 Üldise puhvri päevad võib asendada individuaalse puhvri päevadega või lisada need individuaalse puhvri päevadele.
 
@@ -323,9 +323,9 @@ Vastavalt määratletud päevadele võib kulu maksekuupäev erineda projekti kuu
 
 Tehingu projektikuupäevaks on näiteks 5. märts 2012 ja järgmised maksetingimused on määratud.
 
--   **Tunnid:** jooksev kuu ( **M** )
--   **Kulud:** 14 päeva ( **D14** )
--   **Kaubad:** 30 päeva ( **D30** )
+-   **Tunnid:** jooksev kuu (**M**)
+-   **Kulud:** 14 päeva (**D14**)
+-   **Kaubad:** 30 päeva (**D30**)
 
 Nende sätete põhjal on siin igal kandetüübil kulu maksekuupäev.
 
@@ -360,11 +360,11 @@ Kui kõik müügi- ja hankijaarved on lõpule viidud, saate vaadata **Rahavoogud
 Teil on võimalik jälgida kulusid, mida teie organisatsioon on **Kuluarvestuse** lehel projekti käigus kandnud. Võrreldes projekti algseid eelarvelisi kulusid praeguste tegelike kuludega, saate määratleda, kas projekt on tasakaalus, üle eelarve või alla eelarve. 
 
 > [!NOTE] 
-> Kui kasutate projekti kulude praeguse oleku vaatamiseks lehte **Kulude kontroll** , kasutage algse ja järelejäänud eelarve jaoks valitud eelarvemudelit. Kui valite kulude arvutamisel muu eelarvemudeli, ei saa arvutuse tulemused olla täpsed.
+> Kui kasutate projekti kulude praeguse oleku vaatamiseks lehte **Kulude kontroll**, kasutage algse ja järelejäänud eelarve jaoks valitud eelarvemudelit. Kui valite kulude arvutamisel muu eelarvemudeli, ei saa arvutuse tulemused olla täpsed.
 
 #### <a name="viewing-the-remaining-budgeted-amounts"></a>Järelejäänud eelarveliste summade vaatamine
 
-Kui kulude kontrolli meetodiks on valitud **Järelejäänud eelarve** lehel **Projekti haldus ja raamatupidamisarvestuse parameetrid** , siis arvutatakse **Kulude kontrolli** lehel kulud, mis pole sisestatud tegelikuna ega märgitud kohustusena. Täpsemalt arvutatakse summad vahekaardil **Üldine** lehe **Kulude kontroll** alumise paanil järgmisel viisil.
+Kui kulude kontrolli meetodiks on valitud **Järelejäänud eelarve** lehel **Projekti haldus ja raamatupidamisarvestuse parameetrid**, siis arvutatakse **Kulude kontrolli** lehel kulud, mis pole sisestatud tegelikuna ega märgitud kohustusena. Täpsemalt arvutatakse summad vahekaardil **Üldine** lehe **Kulude kontroll** alumise paanil järgmisel viisil.
 
 -   **Tegelik kulu** – valitud kulurea projekti jaoks kulutatud kogusumma. Tegelik kulusumma arvutatakse lehel **Pearaamatu värskendused**.
 -   **Kooskõlastatud kulu** - täiendav väljaminek, mille juriidiline isik on võtnud kohustuseks tasuda. Kindlaid kooskõlastatud summasid arvutatakse lehel **Kooskõlastatud kulud**.
@@ -381,7 +381,7 @@ Lehel **Kulude kontroll** vahekaardil **Kõrvalekalle** saate kuvada eeldatava k
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>Kogu eelarve summade vaatamine
 
-Kui kulude kontrolli meetodiks on valitud **Eelarve kogusumma** lehel **Projektihaldus ja raamatupidamisparameetrid** , siis leht **Kulude kontroll** arvutab projekti tegelikud kulud ja projekti kogukulud, mis aitavad teil tuvastada erinevust nende kahe vahel. Täpsemalt, summad arvutatakse lehe **Kulude kontroll** alumise paani veergudes vahekaardil **Üldine** järgmisel viisil.
+Kui kulude kontrolli meetodiks on valitud **Eelarve kogusumma** lehel **Projektihaldus ja raamatupidamisparameetrid**, siis leht **Kulude kontroll** arvutab projekti tegelikud kulud ja projekti kogukulud, mis aitavad teil tuvastada erinevust nende kahe vahel. Täpsemalt, summad arvutatakse lehe **Kulude kontroll** alumise paani veergudes vahekaardil **Üldine** järgmisel viisil.
 
 -   **Eelarve kogukulu** – valitud kulurea eelarveline kogusumma.
 -   **Tegelik kulu** – kulude kogusumma, mis on esinenud projekti valitud kulureas kuupäevani.

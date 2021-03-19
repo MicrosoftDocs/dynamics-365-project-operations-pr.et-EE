@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0383607a07def6c21562bf4b0893fe3ce3db6a04
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7cc9ee9de576549c132e14c333a1000c22a55236
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074938"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288914"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Projekti ülesannete sünkroonimine otse rakendusest Project Service Automation rakendusse Finance and Operations
 
@@ -45,7 +45,7 @@ Järgmisel joonisel on näidatud, kuidas andmeid rakenduste Project Service Auto
 
 ## <a name="template-and-task"></a>Mall ja ülesanne
 
-Mallile Microsoft Power Appsi halduskeskuses juurdepääsuks valige **Projektid** ja seejärel valige paremas ülanurgas **Uus projekt** , et valida avalikud mallid.
+Mallile Microsoft Power Appsi halduskeskuses juurdepääsuks valige **Projektid** ja seejärel valige paremas ülanurgas **Uus projekt**, et valida avalikud mallid.
 
 Projekti ülesannete sünkroonimiseks Project Service Automationist Finance’i kasutatakse järgmist malli ja aluseks olevat ülesannet.
 
