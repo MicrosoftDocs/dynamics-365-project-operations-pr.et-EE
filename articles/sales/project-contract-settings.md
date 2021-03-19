@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 4c04ff004febf3a07b329bf375e38acb43d19887
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181132"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277603"
 ---
 # <a name="project-contract-settings"></a>Projekti lepingu sätted
 
@@ -21,7 +21,7 @@ _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
 Selles teemas kirjeldatakse välju, mis rakenduvad kogu projekti lepingule, sh kõiki lepinguridu mõjutavaid sätteid. Kaasatakse ka teave lepingu kohta, mis on võetud kokku kõigist reaüksustest, et juhtida projekti lepingu KPI-sid.
 
-Järgmises tabelis on toodud projekti lepingu väljad, mis esinevad vaid Dynamics 365 Project Operationsis või mille käitumine erineb oluliselt Dynamics 365 Salesi müügitellimustest.
+Järgmises tabelis on esitatud projektilepingu väljad, mis on rakendusele Dynamics 365 Project Operations kordumatud või mille käitumises on tehtud võrreldes rakendusega Dynamics 365 Sales olulisi muudatusi.
 
 | Väli | Asukoht | Kirjeldus | Allavoolu mõjud |
 | --- | --- | --- | --- |

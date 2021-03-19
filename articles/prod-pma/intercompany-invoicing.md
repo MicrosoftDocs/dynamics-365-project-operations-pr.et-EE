@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4604708dbd7c835c8df1cf48f67e645952f49774
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074982"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270763"
 ---
 # <a name="intercompany-invoicing"></a>Kontsernisisesed arved
 
@@ -44,7 +44,7 @@ Eesmärgiks on muuta kontsernisisese projekti kulude kontroll, tulude kajastamin
 -   Tulu kajastamise viivitamine laenuandvas juriidilises üksuses ja kui laenusaav juriidiline üksus peaks ära tundma kulu.
 -   Kogunenud töö (WIP) tulu laenuandvas juriidilises üksuses.
 -   Määrake edastuse hinnad, mis võivad põhineda erinevatel hinnakujunduse mudelitel. Järgmiselt on toodud mõned näited.
-    -   **Kogus** – summa, mille sisestate väljale **Hind** , on tegelik kulu koguse või ühiku kohta.
+    -   **Kogus** – summa, mille sisestate väljale **Hind**, on tegelik kulu koguse või ühiku kohta.
     -   **Maksude summa** – hind/kulu tehingu kohta ja tasude summa, mille sisestate väljale **Hind**.
     -   **Maksude protsent** – ülekandehind on hind/kulu tehingu kohta, mis on korrutatud tasu protsendiga, mille sisestate väljale **Hind**.
     -   **Müügihinna protsent** – müügihinna protsent, mis kantakse üle laenuandvale juriidilisele üksusele.
@@ -67,7 +67,7 @@ Selles näites peab FRSI olema USSI juriidilise isiku klient ja USSI peab olema 
 
 2. Klõpsake **Projekti haldamine ja raamatupidamine** &gt; **Seadistamine** &gt; **Projekti haldamise raamatupidamisparameetrid** ja seejärel klõpsake vahekaarti **Kontsernisisesed**. Parameetrite seadistamise viis sõltub sellest, kas olete laenuvõttev juriidiline isik või laenuandev juriidiline isik.
    -   Kui olete laenuvõttev juriidiline isik, valige hankekategooria, mida tuleks kasutada tarnija arvete vastendamiseks, mis luuakse automaatselt.
-   -   Kui olete laenuandev juriidiline isik, valige iga laenuvõtja üksuse jaoks iga kandetüübi jaoks vaikimisi kasutatav projekti kategooria. Projekti kategooriaid kasutatakse maksude konfigureerimiseks juhul, kui kontsernisiseste tehingute kategooria on olemas ainult laenvõtval juriidilisel isikul. Saate valida, kas koguda tulu kontsernisiseste kannete jaoks. See kogumine tehakse kannete sisestamisel ja seejärel tühistatakse kontsernisisese arve sisestamisel.
+   -   Kui olete laenuandev juriidiline isik, valige iga laenuvõtja üksuse jaoks iga kandetüübi jaoks vaikimisi kasutatav projekti kategooria. Projekti kategooriaid kasutatakse maksude konfigureerimiseks juhul, kui kontsernisiseste tehingute kategooria on olemas ainult laenu võtval juriidilisel isikul. Saate valida, kas koguda tulu kontsernisiseste kannete jaoks. See kogumine tehakse kannete sisestamisel ja seejärel tühistatakse kontsernisisese arve sisestamisel.
 
 3. Klõpsake **Projektijuhtimine ja raamatupidamine** &gt; **Seadistamine** &gt; **Hinnad** &gt; **Ülekandehind**.
 4. Valige valuuta, tehingutüüp ja ülekandehinna mudel. Arvel kasutatav valuuta on valuuta, mis on kliendi kirjes seadistatud laenuvõtva juriidilise isiku jaoks laenuandvale juriidilisele iskule. Valuutat kasutatakse kirjete vastendamiseks ülekannete maksumuse tabelis.
@@ -94,9 +94,9 @@ USSI, laenuandev juriidiline isik peab looma ja sisestama kontsernisisese arve. 
 
 | Etapp | Sisenemispunkt                                                                                             | Kirjeldus                                                                                                                                      |
 |------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| A    | **Projekti haldus ja raamatupidamine** &gt; **Projekti arved** &gt; **Kontsernisisese kliendi arve**  | Klõpsake nuppu **Uus** , et avada leht **Kontsernisisese arve loomine**.                                                                                  |
+| A    | **Projekti haldus ja raamatupidamine** &gt; **Projekti arved** &gt; **Kontsernisisese kliendi arve**  | Klõpsake nuppu **Uus**, et avada leht **Kontsernisisese arve loomine**.                                                                                  |
 | P    | **Projektihaldus ja raamatupidamine** &gt; **Projekti arved** &gt; **Kontsernisisese kliendi arved** | Lehel **Kontsernisisene** arve, sisestage juriidiline isik, määrake hõlmatav tehing ja klõpsake **Otsi**. |
-| C    | **Projektihaldus ja raamatupidamine** &gt; **Projekti arved** &gt; **Kontsernisisese kliendi arved** | Valige arveldatavad kanded või klõpsake **Vali kõik** , et teha arve loendi kõigi tehingute kohta ja seejärel klõpsake nuppu **OK**.                  |
+| C    | **Projektihaldus ja raamatupidamine** &gt; **Projekti arved** &gt; **Kontsernisisese kliendi arved** | Valige arveldatavad kanded või klõpsake **Vali kõik**, et teha arve loendi kõigi tehingute kohta ja seejärel klõpsake nuppu **OK**.                  |
 | D    | Leht **Kontsernisisene arve**                                                                       | Kuvatakse kontsernisisese kliendi arve soovitus.                                                                                             |
 | E    | Leht **Kontsernisisene arve**                                                                       | Klõpsake **Sisesta**.                                                                                                                                  |
 
@@ -107,7 +107,7 @@ Kui laenuandev juriidiline isik USSI sisestab kontsernisisese kliendiarve, luuak
 |------|----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | A    | **Ostureskontro** &gt; **Arved** &gt; **Ootel tarnija arved**                            | Vaadake arve üle veendumaks, et ajatabeli väärtused on kaasatud, ja seejärel sisestage tarnija arve.                  |
 | P    | **Projektihaldus ja raamatupidamine** &gt; **Projekti arved** &gt; **Projekti arvete ettepanekud** | Looge projekti jaoks uus projektiarve ja kontrollige, kas sisestatud tundide kanded kuvatakse.            |
-| C    | Leht **Projektiarve**                                                                       | Valige projektiarve ja seejärel klõpsake nuppu **Kuva üksikasjad** , et vaadata kulu- ja müügisummat. Seejärel sisestage arve. |
+| C    | Leht **Projektiarve**                                                                       | Valige projektiarve ja seejärel klõpsake nuppu **Kuva üksikasjad**, et vaadata kulu- ja müügisummat. Seejärel sisestage arve. |
 
 
 Lisateavet vt teemast [Kontsernisiseste projektide arvete konfigureerimine](tasks/configure-intercompany-project-invoicing.md).

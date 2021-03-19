@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
-ms.openlocfilehash: 429c289c4ec653b81a1c5302b788db8c8ad26d8c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8241e74e8d9fb5a748bedbd5e913adea0bafa450
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075098"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271123"
 ---
 # <a name="project-timesheets-on-a-mobile-device"></a>Projekti ajatabelid mobiilseadmes
 
@@ -61,7 +61,7 @@ Android ühildub platvormi värskendusega 16, kui see muutub kättesaadavaks.
 
 13. Valikuline: sisestage täiendavad ajatabeli read.
 
-14. Pärast ajatabeli ridade sisestamist valige **Töövoog** \> **Esita** , et esitada oma ajatabeli töövoo kinnitamise protsessiks.
+14. Pärast ajatabeli ridade sisestamist valige **Töövoog** \> **Esita**, et esitada oma ajatabeli töövoo kinnitamise protsessiks.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

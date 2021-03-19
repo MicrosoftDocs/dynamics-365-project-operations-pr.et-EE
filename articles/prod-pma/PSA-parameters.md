@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 1a0cee090e0ecb306aa3bda62c79a57dfade93c0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b8faba1d799e360e58d47a02dc8b46e09fa0d393
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075096"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270898"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Project Service Automationi integreerimise parameetrid
 
@@ -42,9 +42,9 @@ Lehe **Project Service Automationi integreerimise parameetrid** avamiseks minge 
 | Üldist                | Projekti vaiketüüp | Valige projekti vaiketüüp. Kui projektid sünkroonitakse rakendusest Project Service Automation, kasutatakse seda väärtust juhul, kui te ei sisestanud integreerimise mallile vaikeväärtust. Sünkroonimise ajal seatakse uute projektide väli **Projekti tüüp** sellele väärtusele. Samas võidakse seda väärtust uuendada, kui projekti lepinguread sünkroonitakse rakendusest Project Service Automation. |
 |                        | Ajakategooria        | Valige vaikimisi ajakategooria. Seda väärtust kasutatakse juhul, kui tööaja prognoosid sünkroonitakse rakendusest Project Service Automation. Kui prognoositud töötunnid ja tegelikud töötunnid rakendusest Project Service Automation sünkroonitakse, seatakse rakenduses Finance uue projekti tööaja prognooside väli **Kategooria** sellele väärtusele. |
 |                        | Tasu kategooria         | Valige vaikimisi tasu kategooria. Seda väärtust kasutatakse juhul, kui tasu tegelikud näitajad sünkroonitakse rakendusest Project Service Automation. Kui tasu tegelikud näitajad rakendusest Project Service Automation sünkroonitakse, seatakse rakenduses Finance uus tasu kannete väli **Kategooria** sellele väärtusele. |
-| Projektirühma vaikesätted | Projekti tüüp         | Klõpsake nuppu **Uus** , et lisada rida, kus saate valida projekti tüübi, mille jaoks projektirühm määrata. Kindel projekti tüüp on võimalik konfiguratsioonis valida ainult üks kord. |
+| Projektirühma vaikesätted | Projekti tüüp         | Klõpsake nuppu **Uus**, et lisada rida, kus saate valida projekti tüübi, mille jaoks projektirühm määrata. Kindel projekti tüüp on võimalik konfiguratsioonis valida ainult üks kord. |
 |                        | Projekti rühm        | Valige valitud projekti tüübi jaoks vaikimisi projektirühm. Kui uusi projekte sünkroonitakse rakendusest Project Service Automation, seatakse väli **Projektirühm** projekti tüübi jaoks vaikeväärtusele, kui te ei esitanud integreerimise mallis vaikeväärtust. |
-| Arveldustüübi vaikesätted  | Arvelduse tüüp         | Klõpsake nuppu **Uus** , et lisada rida, kus saate valida arvelduse tüübi, mille jaoks määrata vaikimisi rea atribuut. Kindel arvelduse tüüp on võimalik konfiguratsioonis valida ainult üks kord. |
+| Arveldustüübi vaikesätted  | Arvelduse tüüp         | Klõpsake nuppu **Uus**, et lisada rida, kus saate valida arvelduse tüübi, mille jaoks määrata vaikimisi rea atribuut. Kindel arvelduse tüüp on võimalik konfiguratsioonis valida ainult üks kord. |
 |                        | Rea atribuut        | Valige valitud arvelduse tüübi jaoks vaikimisi rea atribuut. Kui uued tööaja prognoosid, uued kuluprognoosid ja uued tegelikud näitajad rakendusest Project Service Automation sünkroonitakse, seatakse väli **Rea atribuut** arveldustüübi vaikeväärtuses. |
 | Funktsioonide lukustamine  | Pole rakendatav       | Valige funktsioon, et keelata rakenduses Finance projektid ja lepingud, mis pärinevad rakenduselt Project Service Automation. Näiteks saate välja lülitada võimaluse muuta lepinguid ja projekte, luua tööjaotuse struktuure ning sisestada Finance'is ajatabelid. Raamatupidamisega seotud väljad on jätkuvalt saadaval, isegi kui need on parameetri sätte poolt muudetud mitte kättesaadavaks. Vaikimisi on kõik funktsioonid lubatud. |
 

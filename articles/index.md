@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7fce84c9cc1f9c1beda73f403c052f779d10559f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2b6a34e6c744e4b8ad9400f05844fefa005536a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120808"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275893"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 
-Microsoft Dynamics 365 Project Operations ühendab müügi-, ressursi-, projektihalduse ja finantsmeeskonnad üheks rakenduseks, et võita rohkem tehinguid, kiirendada projekti kättetoimetamist j amaksimeerida kasumit.
+Microsoft Dynamics 365 Project Operations ühendab müügi, ressursid, projektijuhtimise ja finantsosakonna meeskonnad ühte rakendusse, et võita rohkem tehinguid, kiirendada projekti kättetoimetamist ja maksimeerida kasumlikkus.
 
 -   **Juhid saava ettevõttest ülevaateid**, et suurendada kõikide meeskondade, andmete ja toimingute üleselt nähtavust, koos tehisintellekti võimalustega paremateks ja kiiremateks äriotsusteks.
 -   **Müügiosakond saab** võita rohkem tehinguid ja kiirendada müügitsüklit kiirete ja täpsete hinnapakkumiste, paindliku hinnakujundususe ja sujuva üleminekuga prognoosist täitmiseni.
@@ -40,7 +40,7 @@ Project Operations on juba iseseisvalt võimas tööriist, kuid meie kliendid, k
 Lisateavet vaadake teemast
 
 - [Rakenduse Project Operations ülevaade](https://dynamics.microsoft.com/en-us/project-operations/overview/)
-- [Rakenduse Dynamics 365 Project Operations 2020. aasta 1. laine väljaande ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
+- [Dynamics 365 Project Operationsi 2020. aasta 1. laine väljaande ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
 
 

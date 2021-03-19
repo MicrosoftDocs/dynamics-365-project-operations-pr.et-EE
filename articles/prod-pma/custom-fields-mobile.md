@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075010"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270988"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Rakendage mobiilirakenduse Microsoft Dynamics 365 Project Timesheet iOS-i ja Androidi kohandatud väljad
 
@@ -97,11 +97,11 @@ See atribuut määratleb välja, kui rakenduse pakutavad väärtused on andmebaa
 
 ### <a name="iseditable-noyes"></a>isEditable (NoYes)
 
-Määrake selle atribuudi väärtuseks **Jah** , kui soovite, et kasutajad saavad redigeerida välja ajatabeli kirje jaotises. Määrake atribuudi väärtuseks **Ei** , et väli oleks kirjutuskaitstud.
+Määrake selle atribuudi väärtuseks **Jah**, kui soovite, et kasutajad saavad redigeerida välja ajatabeli kirje jaotises. Määrake atribuudi väärtuseks **Ei**, et väli oleks kirjutuskaitstud.
 
 ### <a name="ismandatory-noyes"></a>isMandatory (NoYes)
 
-Määrake selle atribuudi väärtuseks **Jah** , kui soovite, et väli ajatabeli kirje jaotises on kohustuslik.
+Määrake selle atribuudi väärtuseks **Jah**, kui soovite, et väli ajatabeli kirje jaotises on kohustuslik.
 
 ### <a name="label-str"></a>label (str)
 
@@ -179,9 +179,9 @@ Allpool on ekraanipilt Visual Studio rakendusobjektide puust. See näitab TSTime
 
 See kood reguleerib rakenduses välja kuvasätted. Näiteks kontrollib see väljatüüpi, silti, olenemata sellest, kas väli on kohustuslik ja millises jaotises väli kuvatakse.
 
-Järgmises näites on kuvatud stringiväli ajakannetes. Sellel väljal on kaks suvandit, **Esimene suvand** ja **Teine suvand** , mis on saadaval valikunuppude (raadionupud) kaudu. Rakenduse väli on seostatud **TestLineString** väljaga, mis lisatakse tabelisse TSTimesheetLine.
+Järgmises näites on kuvatud stringiväli ajakannetes. Sellel väljal on kaks suvandit, **Esimene suvand** ja **Teine suvand**, mis on saadaval valikunuppude (raadionupud) kaudu. Rakenduse väli on seostatud **TestLineString** väljaga, mis lisatakse tabelisse TSTimesheetLine.
 
-Pange tähele **TSTimesheetCustomField::newFromMetatdata()** meetodi kasutamist kohandatud väljaatribuutide lähtestamise lihtsustamiseks: **fieldBaseType** , **tableName** , **fieldname** , **label** , **isEditable** , **isMandatory** , **stringLength** ja **numberOfDecimals**. Soovi korral saate need parameetrid määrata ka käsitsi.
+Pange tähele **TSTimesheetCustomField::newFromMetatdata()** meetodi kasutamist kohandatud väljaatribuutide lähtestamise lihtsustamiseks: **fieldBaseType**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength** ja **numberOfDecimals**. Soovi korral saate need parameetrid määrata ka käsitsi.
 
 ```xpp
 ...
@@ -410,7 +410,7 @@ Ajatabeli funktsionaalsuse andmebaasi taseme olemasolev loogika töötab endisel
 
 - Kui **validateWrite** TSTimesheetLine tabelis tagastab väärtuse **vale** ajatabeli rea salvestamisel, kuvatakse mobiilirakenduses tõrketeade.
 - Kui **validateSubmit** TSTimesheetTable tabelis tagastab väärtuse **vale** ajatabeli rea salvestamisel rakenduses, kuvatakse kasutajale tõrketeade.
-- Loogika, mis täidab väljad (näiteks **Reaatribuut** ) **sisestamise** meetodi ajal TSTimesheetLine tabelisse toimib ikka.
+- Loogika, mis täidab väljad (näiteks **Reaatribuut**) **sisestamise** meetodi ajal TSTimesheetLine tabelisse toimib ikka.
 
 ### <a name="hiding-and-marking-out-of-box-fields-as-read-only-via-configuration"></a>Valmis väljade peitmine ja märkimine konfiguratsiooni kaudu kirjutuskaitstuks
 

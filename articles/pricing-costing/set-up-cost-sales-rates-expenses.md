@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180277"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274903"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Kulutuste kulumäärade ja müügihindade seadistamine
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Dynamics 365 Project Operationsis saate tehingute kategooriate jaoks seadistada kulumäärad ja müügihinnad. Kuna kulumäärad ja müügihinnad on välja töötatud kulutuste jaoks, tuleb iga sellist kannet sisaldavat kategooriat ka kulukategooriana seadistada. See seadistus tagab allavoolu funktsionaalsuse täpsuse. Tehingute kategooriate kulumäärasid ja müügihindu saab loetleda ainult ühes valuutas, milleks peab olema hinnakirja päise valuuta.
+Saate seadistada kannete kategooriate jaoks kulu- ja müügihinnad rakenduses Dynamics 365 Project Operations. Kuna kulumäärad ja müügihinnad on välja töötatud kulutuste jaoks, tuleb iga sellist kannet sisaldavat kategooriat ka kulukategooriana seadistada. See seadistus tagab allavoolu funktsionaalsuse täpsuse. Tehingute kategooriate kulumäärasid ja müügihindu saab loetleda ainult ühes valuutas, milleks peab olema hinnakirja päise valuuta.
 
 Tehingukategooriate jaoks kulumäärade ja müügihindade seadistamiseks toimige järgmiselt. 
 

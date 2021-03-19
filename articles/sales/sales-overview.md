@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 8300887e7c5fbd78343d16d191775a67e43138e2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177596"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277378"
 ---
 # <a name="sales-process-overview"></a>Müügiprotsessi ülevaade
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Projektil põhinevas organisatsioonis kasutatavad müügiprotsessid erinevad tootel põhinevas organisatsioonis kasutatavatest müügiprotsessidest. See ilmneb seetõttu, et projektipõhistele organisatsioonidele mõeldud müügi tsüklid on pikemad ja vajavad kohandatud hindamismeetodeid, et analüüsida ja luua iga tehingu jaoks hinnapakkumisi. Rakendus Dynamics 365 Project Operations kasutab mõnda sama järgmist funktsiooni, mida kasutatakse müügiprotsessi jaoks.
+Projektil põhinevas organisatsioonis kasutatavad müügiprotsessid erinevad tootel põhinevas organisatsioonis kasutatavatest müügiprotsessidest. See ilmneb seetõttu, et projektipõhistele organisatsioonidele mõeldud müügi tsüklid on pikemad ja vajavad kohandatud hindamismeetodeid, et analüüsida ja luua iga tehingu jaoks hinnapakkumisi. Dynamics 365 Project Operations kasutab mõnda järgmistest funktsioonidest, mida kasutataks müügiprotsessis.
 
 - Müügivihje kirjet kasutatakse müügiprotsessi jälgimiseks.
 - Sobivaid müügivihjeid jälgitakse müügivõimalustena.

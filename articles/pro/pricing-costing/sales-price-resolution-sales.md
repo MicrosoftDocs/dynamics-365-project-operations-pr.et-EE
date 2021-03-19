@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 92cebbe851c3cface86d0580e7e060134295e8c2
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 25620704570fa702e1e5e09c83005be50f98f20a
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176741"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274498"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>Prognooside ja tegelike näitajate müügihinna lahendamine – liht
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
-Kui Dynamics 365 Project Operationsis lahendatakse prognooside müügihinnad ja tegelikud müügihinnad, kasutab süsteem kõigepealt seotud projekti hinnapakkumise või lepingu kuupäeva ja valuutat müügi hinnakirja lahendamiseks. Pärast müügi hinnakirja lahendamist lahendab süsteem müügi või arvelduskulu.
+Kui hinnangulised ja tegelikud müügihinnad lahendatakse rakenduses Dynamics 365 Project Operations, kasutab süsteem esmalt seotud projekti hinnapakkumise või lepingu kuupäeva ja valuutat. Pärast müügi hinnakirja lahendamist lahendab süsteem müügi või arvelduskulu.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Aja tegelike ja prognoositavate ridade kulumäärade lahendamine
 

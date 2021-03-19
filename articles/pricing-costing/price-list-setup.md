@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 34ee7bb157426507ec7ca8c031f5cb552e85099b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180187"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275488"
 ---
 # <a name="set-up-price-lists"></a>Hinnakirjade seadistamine
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Dynamics 365 Project Operationsi hinnakirjad esindavad hinnakatalooge. Hinnad väljendavad kulu-, müügi- ja arveldusmäärasid. Sõltuvalt sellest, kas hinnakiri väljendab kulumäära või müügi- ja arveldusmäära, on hinnakirja sisuks kas **Müük** või **Kulu**.
+Dynamics 365 Project Operationsi hinnakirjad esindavad hindade kataloogi. Hinnad väljendavad kulu-, müügi- ja arveldusmäärasid. Sõltuvalt sellest, kas hinnakiri väljendab kulumäära või müügi- ja arveldusmäära, on hinnakirja sisuks kas **Müük** või **Kulu**.
 
 Järgmised laiendused on omased Project Operationsile ja neid rakendatakse Dynamics 365 Salesi hinnakirjadele.
 

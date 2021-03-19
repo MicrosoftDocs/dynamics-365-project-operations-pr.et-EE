@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7eb9101352afd27b527bf6b8acc6f92198f44ea
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075121"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270853"
 ---
 # <a name="create-a-project-team"></a>Projektimeeskonna loomine
 
 [!include [banner](../includes/banner.md)]
 
-Varem projektis seadistatud rollide kasutamiseks peab projektijuht seostama rollid projektiga. Projektile võib määrata mitu rolli. Segaduse vältimiseks sildistatakse need rollid reserveerimise ajal automaatselt. Näiteks kui projektijuht nõuab kolme tarkvarainseneri, luuakse automaatselt kolm rolli Tarkvarainsener, millel on sildid **tarkvarainsener 1** , **tarkvarainsener 2** ja **tarkvarainsener 3** , kuna nende sildid luuakse automaatselt. Kui rolli omadused olid varem rollile määratud, rakendatakse need ressursi otsingu ajal justkui filter. Otsingu veelgi täpsemaks muutmiseks saab lisada vastavalt vajadusele täiendavaid tunnuseid.
+Varem projektis seadistatud rollide kasutamiseks peab projektijuht seostama rollid projektiga. Projektile võib määrata mitu rolli. Segaduse vältimiseks sildistatakse need rollid reserveerimise ajal automaatselt. Näiteks kui projektijuht nõuab kolme tarkvarainseneri, luuakse automaatselt kolm rolli Tarkvarainsener, millel on sildid **tarkvarainsener 1**, **tarkvarainsener 2** ja **tarkvarainsener 3**, kuna nende sildid luuakse automaatselt. Kui rolli omadused olid varem rollile määratud, rakendatakse need ressursi otsingu ajal justkui filter. Otsingu veelgi täpsemaks muutmiseks saab lisada vastavalt vajadusele täiendavaid tunnuseid.
 
 Kuvamissätteid saab samuti kohandada, et anda ressursi saadavusest parem vaade. Saadavust võib kuvada tundide, päevade, nädalate, kuude, kvartalite ja aastate lõikes. Lisaks on olemas võimalus kuvada ressursside saadaolev ja allesjäänud võimsus. See suvand on kasulik ajahalduse jaoks, kui prognoosite saadaolevat aega tegevuste või ressursi kättesaadavuse kohta.
 
@@ -37,7 +37,7 @@ Projektijuht saab valida lehel rolli ja seejärel vaba ressursi olemasolul, mis 
 
 [![Projektimeeskonna loend, mis sisaldab nii rolle kui ka tegelikke ressursse](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
-Projektijuhil on mitmeid võimalusi projekti jaoks ressursi broneerimiseks, nagu **Järelejäänud võimsus** , **Täisvõimsus** , **Võimsuse protsent** ja **Konkreetsed tunnid**. Kui ressursi määramised muutuvad, saab neid broneeringu võimalusi igal ajal tühistada. Toetatud on kahte tüüpi broneeringud.
+Projektijuhil on mitmeid võimalusi projekti jaoks ressursi broneerimiseks, nagu **Järelejäänud võimsus**, **Täisvõimsus**, **Võimsuse protsent** ja **Konkreetsed tunnid**. Kui ressursi määramised muutuvad, saab neid broneeringu võimalusi igal ajal tühistada. Toetatud on kahte tüüpi broneeringud.
 
 - **Fikseeritud broneering** – ressursi broneerimine kiideti heaks ja kinnitati, et teatud aja jooksul töötab seal.
 - **Esialge broneerimine** – ressursi broneerimised määrati esialgu töötama konkreetse aja jooksul.

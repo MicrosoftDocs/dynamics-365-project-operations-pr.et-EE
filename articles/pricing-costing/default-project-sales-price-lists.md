@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 04c97429ab8ac769dd22b4127432d80de8fde937
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130933"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275578"
 ---
 # <a name="default-price-lists"></a>Vaikehinnakirjad
 
@@ -21,7 +21,7 @@ _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaa
 
 ## <a name="sales-price-lists"></a>Müügihinnakirjad
 
-Iga projekti hinnapakkumine ja leping Dynamics 365 Project Operationsis sisaldab vaike-müügihinnakirja. 
+Iga projekti hinnapakkumine ja leping rakenduses Dynamics 365 Project Operations sisaldab vaikimisi müügi hinnakirja. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Projekti hinnapakkumiste vaikehinnakiri
 Süsteem lõpetab järgmise protsessi, et teha kindlaks, milline on projekti hinnapakkumise vaikehinnakiri.

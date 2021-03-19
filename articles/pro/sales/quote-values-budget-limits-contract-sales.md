@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 967e2170aac72de629ebb930e485b8cd6560b6ca
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180943"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272428"
 ---
 # <a name="summary-information-on-a-project-quote---lite"></a>Projekti hinnapakkumise kokkuvõtlik teave – liht
 
@@ -21,7 +21,7 @@ _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
 Selles artiklis kirjeldatakse projekti hinnapakkumisega seotud teavet. See hõlmab kõiki hinnapakkumise ridu mõjutavaid sätteid ja hinnapakkumise teavet, mis on summeritud kõigi reaüksuste lõikes, et juhtida projekti hinnapakkumise KPI-sid.
 
-Järgmises tabelis on toodud projekti hinnapakkumise kokkuvõtva teabe väljad, mis esinevad vaid Dynamics 365 Project Operationsi korral või mille käitumine erineb oluliselt Dynamics 365 Salesi hinnapakkumistest.
+Järgmises tabelis on esitatud projekti hinnapakkumise kokkuvõtte teabe väljad, mis on rakendusele Dynamics 365 Project Operations kordumatud või mille käitumises on tehtud võrreldes rakendusega Dynamics 365 Sales olulisi muudatusi.
 
 | **Väli** | **Asukoht** | **Kirjeldus** | **Allavoolu mõjud** |
 | --- | --- | --- | --- |

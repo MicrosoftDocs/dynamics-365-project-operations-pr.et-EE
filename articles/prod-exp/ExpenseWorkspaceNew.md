@@ -1,6 +1,6 @@
 ---
 title: Ümberkujundatud kuluaruanded
-description: Selles teemas antakse teavet kuluaruande olemi ümberkujundatud ja ümbermuudetud kasutuskogemuse kohta rakenduses Microsoft Dynamics 365 Finance. Uus kasutuskogemus lihtsustab kuluaruannete täitmist ja vähendab selleks kuluvat aega.
+description: Selles teemas antakse teavet kuluaruande olemi ümberkujundatud ja ümbermuudetud kasutuskogemuse kohta.
 author: ryansandness
 manager: AnnBe
 ms.date: 06/14/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: d076c0a596940cb08433f7ee57dea54903f6078f
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 7533f8aca317bd8d72e437592b5251fd3a866ba6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960242"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271978"
 ---
 # <a name="redesigned-expense-reports"></a>Ümberkujundatud kuluaruanded
 
@@ -40,12 +40,6 @@ Uue kasutuskogemuse sisselülitamiseks kasutage tööruumi **Funktsiooni haldami
 - Lisatakse uus menüü element kulu välja nähtavuse kohta.
 - Kuluaruannete üksuste (olemasoleva lehe) või kuluaruande välju ei eemaldata.
 - Töövood ja kõik kinnitused viivad teid ikka olemasolevate kuluaruannete lehele.
-
-## <a name="getting-started-video-for-new-users"></a>Uute kasutajate alustamise video
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-[Rakenduse Dynamics 365 for Finance and Operations kulude kasutuskogemuse](https://youtu.be/Ocy-MsTvEE0) video (näidatud ülal) on lisatud [rakenduse Finance and Operations esitusloendisse](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), mis on kättesaadav YouTube’is.
 
 ## <a name="new-features"></a>Uued funktsioonid
 
