@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 035ad22d2b51182c11e5c29d35f74f499fc903d5
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: 770947835af41bd06c02ca08b6ed8e810b9bdcf8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365447"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289949"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Rakenduse Project Operations ressursi-/mittelaopõhiste stsenaariumite jaoks juurutamise ülevaade
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Rakenduse Dynamics 365 Project Operations ressursi-/mittelaopõhiste stsenaariumide jaoks juurutuse tüübil on projektipõhiste ettevõtete jaoks järgmised võimalused.
+Rakenduse  Dynamics 365 Project Operations ressursi-/mittelaopõhiste stsenaariumide jaoks juurutuse tüübil on projektipõhiste ettevõtete jaoks järgmised võimalused.
 
 - Projekti planeerimine Microsoft Pro veebirakendust kasutades
 - Tööjõu ressursside mitmemõõtmeline hinnakujundus ja kuluarvestus

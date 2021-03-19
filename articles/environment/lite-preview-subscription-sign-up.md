@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 44edf2613ea4b26dadbd9edc47c784c488c577de
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175886"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290039"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Eelversiooni kordustellimuseks registreerumine – liht 
 
-See teema selgitab, kuidas tellida eelversiooni partneri pakkumisele ja juurutada Dynamics 365 Project Operations Lite’i juurutust – tehing näidisarveldusele.
+Selles teemas kirjeldatakse, kuidas tellida partnerpakkumise eelversiooni ja juurutada Dynamics 365 Project Operationsi  lihtjuurutamine – tehing näidisarveldusele.
 
 > [!NOTE]
 > See toiming muutub Project Operationsi eelseisvates väljaannetes.
@@ -32,17 +32,17 @@ See teema selgitab, kuidas tellida eelversiooni partneri pakkumisele ja juurutad
 
 Kui saate [eelvaate taotluse](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) kinnituse, saadab Microsoft teile maili teel kaks pakkumist. Need pakkumised võimaldavad teil juurutada Project Operationsi eelvaate.
 
-- Dynamics 365 Project Operations (CRM) – eelvaate prooviversioon
+- Dynamics 365 Project Operations (CRM) – eelversiooni prooviversioon
 - Office 365 Project Operations –eelvaate prooviversioon
 
 > [!IMPORTANT]
 > Selle toimingu peab organisatsioonis tegema ainult üks inimene, rentniku administraator. Kui te pole selle väljalaske tellija, oodake, kuni teie organisatsioon on registreeritud ja teile on saadetud kasutaja mandaat.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – eelvaate prooviversioon 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – eelversiooni prooviversioon 
 
 Enne alustamist veenduge, et oleksite brauseris sisse logitud kasutaja töökontoga rentnikusse, kus soovite Project Operationsi eelvaadet näha.
 
-1. Lunastage esimene pakkumise kood, **Dynamics 365 Project Operations (CRM) – eelvaate prooviversioon**, kleepides selle brauseri URL-i.
+1. Lunastage esimese pakkumise kood **Dynamics 365 Project Operations (CRM) – eelversiooni prooviversioon**, kleepides selle brauseri URL-i.
 
 ![Lunasta pakkumine](./media/16RedeemFirstOfferNew.png)
 
@@ -71,7 +71,7 @@ Korrake samu toiminguid nagu esimese pakkumise koodiga. Lisage kindlasti teine p
 
 ![Litsentside määramine](./media/15AssignLicenses.png)
 
-3. Veenduge, et rakenduste **Dynamics 365 Project Operationsi (CRM) eelvaade** ja **Office 365 Project Operations – eelvaade** litsentsid oleksid valitud. 
+3. Veenduge, et **Dynamics 365 Project Operations (CRM) eelversiooni** ja **Office 365 Project Operations - eelversiooni** litsentsid oleksid valitud. 
 4. Valige käsk **Salvesta muudatused**.
 
 ## <a name="create-a-new-cds-environment"></a>Uue CDS-i keskkonna loomine
@@ -84,7 +84,7 @@ Korrake samu toiminguid nagu esimese pakkumise koodiga. Lisage kindlasti teine p
 
 ![Lisa andmebaas](./media/20CreateEnvironment1.png)
 
-4. Pärast keskkonna loomist installige lahendus **Microsoft Dynamics 365 Project Operations**. 
+4. Pärast keskkonna loomist installige **Microsofti Dynamics 365 Project Operations** lahendus. 
 
 ![Lahenduse installimine](./media/21InstallSolution.png)
 

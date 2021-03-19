@@ -1,6 +1,6 @@
 ---
 title: Tegelikud näitajad
-description: See teema sisaldab teavet selle kohta, kuidas töötada rakenduses Microsoft Dynamics 365 Project Operations tegelike näitajatega.
+description: Selles teemas antakse teavet tegelike andmetega töötamise kohta Microsofti Dynamics 365 Project Operationsis.
 author: rumant
 manager: AnnBe
 ms.date: 09/16/2020
@@ -16,12 +16,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 13c429763fa805fae5324e4dcf1bf7669e842281
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126298"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291794"
 ---
 # <a name="actuals"></a>Tegelikud näitajad 
 
@@ -70,7 +70,7 @@ Kategoorial põhinev ühiku vaikehinna kanne pole saadaval.
 Saate kasutada töölehti kulu või tulu kirjendamiseks materjali-, tasu-, aja-, kulu- või maksukannete järgi. Töölehti saab kasutada järgmistel eesmärkidel.
 
 - Projektiga seotud tegeliku materjalikulu ja müügi kirjendamiseks.
-- Tehingu tegelike andmete teistest süsteemist rakendusse Microsoft Dynamics 365 Project Operations üle viimiseks.
+- Viige tehingu tegelikud andmed teisest süsteemist Microsoft Dynamics 365 Project Operationsse üle.
 - Muus süsteemis aset leidnud kulude kirjendamiseks. Need kulud võivad hõlmata hanke- või alltöövõtu kulusid.
 
 > [!IMPORTANT]
