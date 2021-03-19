@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5a8bfea5540432a62d7075443cf237571bfa4de
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118468"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277828"
 ---
 # <a name="manage-project-based-opportunities"></a>Projektipõhiste müügivõimaluste haldamine
 
@@ -21,7 +21,7 @@ _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaa
 
 Projektipõhiste ettevõtetel on tarne toimingud tavaliselt hajutatud mitmesse riiki ja geograafilisse piirkonda. Projekti täitmise ja tarnimise kulu võib varieeruda vastavalt sellele, milline geograafiline piirkond või allüksustel tarnet haldab. See võib omakorda mõjutada tehingu marginaale. Projektipõhiste teenuste tarne tähendab tavaliselt suurt hulka inimressursi aega, märkimisväärseid kulusid reisidele, materiaalseid kulusid ja muid kulusid.
 
-Dynamics 365 Project Operationsi projektipõhised müügivõimalused on loodud Dynamics 365 Salesi laiendustega. Teemas antakse teavet erinevate väljade ja äriloogikate kohta, mis sisaldub täiendavas funktsionaalsuses, mida projektipõhised ettevõtted vajavad projektipõhiste müügivõimaluste haldamiseks.
+Projektipõhised müügivõimalused rakenduses Dynamics 365 Project Operations on kujundatud laiendustega rakendusele Dynamics 365 Sales. Teemas antakse teavet erinevate väljade ja äriloogikate kohta, mis sisaldub täiendavas funktsionaalsuses, mida projektipõhised ettevõtted vajavad projektipõhiste müügivõimaluste haldamiseks.
 
 ## <a name="view-all-project-based-opportunities"></a>Kõigi projektipõhiste müügivõimaluste vaatamine
 

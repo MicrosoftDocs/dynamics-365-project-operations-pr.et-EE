@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bcdfc7296ec09421668673d8502e7103c887d667
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123868"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279493"
 ---
 # <a name="resource-management-key-concepts"></a>Ressursihalduse põhimõisted
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Ressursid on teenusepõhise organisatsiooni kõige olulisem vara. Võimalus leida õigeid ressursse õigel ajal, broneerida need ressursid projektidele ja hoida neid kasutuses, aitab ettevõtetel täita tulu sihtmärke ning kliendirahulolu eesmärke. Rakenduse Dynamics 365 Project Operationsi projekti ressursieralduse funktsiooni abil saate teha järgmist.
+Ressursid on teenusepõhise organisatsiooni kõige olulisem vara. Võimalus leida õigeid ressursse õigel ajal, broneerida need ressursid projektidele ja hoida neid kasutuses, aitab ettevõtetel täita tulu sihtmärke ning kliendirahulolu eesmärke. Rakenduse Dynamics 365 Project Operations projekti ressursieralduse funktsiooni abil saate teha järgmist.
 
 - Moodustada projektimeeskondi saadaolevate ja kvalifitseeritud ressurside broneerimise kaudu.
 - Luua üldiste meeskonnaliikmete kirjeid ja määratleda nende rolle ning ressursi organisatsiooniüksust.

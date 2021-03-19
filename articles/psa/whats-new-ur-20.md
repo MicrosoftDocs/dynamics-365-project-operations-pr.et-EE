@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: db416343ac9ac2591007e83be80493a48f9ae904
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147108"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280663"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Rakenduse Project Service Automation, värskenduse väljaanne 20, v3
 
@@ -42,7 +42,7 @@ Lahendatud on järgmised probleemid.
 
 - Projekti meeskonnaliikmete importimine jaotamismeetodiga, mis nõuab tundide tulemit ebaselges tõrketeates, kui määratud tunnid on null.
 - Kasutajatele kuvatakse vale tõrge, kui projekti tööülesande väljale **Kirjeldus** on sisestatud maksimaalne arv märke.
-- **Microsofti Dynamics 365 Project Service Automationi lisandmooduli allalaadimise** leht suunab teid ingliskeelsele allalaadimislehele, kui kasutaja keelesätted on määratud Jaapani keeleks.
+- Leht **Microsoft Dynamics 365 Project Service Automationi lisandmooduli allalaadimine** suunab inglisekeelsele allalaadimise lehele, kus kasutaja keelesätted on määratud jaapani keelele.
 - Kui ilmneb serveri tõrge, jääb mõnikord sünkroonimise silt vahekaardil **Ajakava** rakenduse **Projektid** vormides alles.
 - Liigsed tööülesannete värskendused saadetakse serverisse tööülesande muutmisel.
 

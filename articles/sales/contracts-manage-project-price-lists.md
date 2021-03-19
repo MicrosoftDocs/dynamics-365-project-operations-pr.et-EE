@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 030684576e1f53d27921907b07c9e5e0c5efe612
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133320"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278593"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Projektilepingute projekti hinnakirja haldamine
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Rakenduse Dynamics 365 Project Operations projektilepingud on loodud lepingus mitmel päeval kehtivate müügi hinnakirjade toetamiseks. Project Operationis on uus seostatud olem nimega **Projekti hinnakirjad**. Sellel olemil on üks-mitmele-vastavuse seos projektilepinguga.
+Projekti lepingud rakenduses Dynamics 365 Project Operations on loodud lepingus mitmel päeval kehtivate müügi hinnakirjade toetamiseks. Project Operationis on uus seostatud olem nimega **Projekti hinnakirjad**. Sellel olemil on üks-mitmele-vastavuse seos projektilepinguga.
 
 Projekti hinnakirju kasutatakse projekti aja ja kulutehingute hinnastamiseks. Kui lepingul on üks või mitu projekti hinnakirja, kasutatakse neid hinnakirju aja ja kulude kalkulatsioonide ning tegelike näitajate hinna jaoks projektide puhu, mis on seostatud lepinguga lepingurea kaudu.
 

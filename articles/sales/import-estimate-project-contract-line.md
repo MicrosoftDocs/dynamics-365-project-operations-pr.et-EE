@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde924c24dcffe2a8fb690e6eb429e4c3d9fb28
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d51eb890a4744051ddd7268e1f1f11b15a23b609
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126388"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278368"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>Prognoosi importimine projektipõhisele lepingureale
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Rakenduses Dynamics 365 Project Operations saate projekti prognoose projektipõhisele lepingureale importida.
+Dynamics 365 Project Operationsis saate importida prognoosid projektist projektipõhisele lepingureale.
 
 1. Kontrollige, kas projektipõhise lepingurea väli **Projekt** on täidetud.
 2. Valige andmeruudustiku vahekaardil **Lepingurea üksikasjad** suvand **Impordi projekti prognoosidest**. Avaneb dialoogileht, kus on kokkuvõtlikud suvandid. Saadaolevad kokkuvõtlikud suvandid on **Tehingu klass**, **Kategooria**, **Roll** ja **Projekti tööülesanne**. Olenevalt kokkuvõtte valikust kopeeritakse üle projekti prognoos kõigi selle lepingurea tehinguklasside kohta. 

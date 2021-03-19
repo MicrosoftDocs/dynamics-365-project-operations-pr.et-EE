@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 18f43acc64ed72b1543a2d7d91a2648e7e185fc4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bc97af1ec90e60417c502eb329a85004e769e05b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128818"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279133"
 ---
 # <a name="submit-a-resource-request"></a>Ressursitaotluse esitamine
 
@@ -21,7 +21,7 @@ _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaa
 
 Saate loodud ressursinõude esitada ressursitaotlusena. Taotlus saadetakse seejärel täitmiseks ressursihaldurile.
 
-1. Broneeritavate ressursside loendi nägemiseks valige Dynamics 365 Project Operationsis lehel **Projektid** vahekaart **Meeskond**. 
+1. Broneeritavate ressursside loendi nägemiseks rakenduses Dynamics 365 Project Operations valige lehel **Projektid** vahekaart **Meeskond**. 
 2. Valige üldine ressurss, millel on olemas ressursinõue loendist, ja seejärel klõpsake valikut **Esita taotlus**.
 
 Üldise meeskonnaliikme taotluse olek muutub olekuks **Esitatud**.

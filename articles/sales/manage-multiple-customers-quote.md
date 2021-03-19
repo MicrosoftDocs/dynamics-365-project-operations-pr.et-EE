@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b57d052d6b50ee420249cf5441077b092b4e13f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181987"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277873"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Mitme kliendi haldamine projekti hinnapakkumises
 
@@ -23,7 +23,7 @@ Projekti hinnapakkumised toetavad stsenaariumit, kus ettepanek hõlmab mitut lep
 
 Kõik hinnapakkumise vahekaardil **Kliendid** olevad hinnapakkumise kliendid on vaikimisi hinnapakkumise rea kliendid mis tahes hinnapakkumise jaoks loodava **uue** projektipõhise hinnapakkumise ridade puhul. Kõik olemasolevad projektipõhised hinnapakkumise read ei päri pärast neid loodud uusi hinnapakkumise kliendikirjeid.
 
-Hinnapakkumise kliendid ja hinnapakkumise rea kliendid saab enne hinnapakkumise võitmist igal ajal lisada, ajakohastada või kustutada. Hinnapakkumise kehtiv klient peab olema seadistatud kliendina omanikust ettevõtte või juriidilise olemi lehel **Klidendid**. Juriidilised olemid seadistatakse rakenduse Dynamics 365 Project Operations moodulis **Projektihaldus ja raamatupidamine** ja tehakse rakenduse Project Operations moodulites **Projekti müük ja kohaletoimetamine** ettevõtetena kättesaadavaks.
+Hinnapakkumise kliendid ja hinnapakkumise rea kliendid saab enne hinnapakkumise võitmist igal ajal lisada, ajakohastada või kustutada. Hinnapakkumise kehtiv klient peab olema seadistatud kliendina omanikust ettevõtte või juriidilise olemi lehel **Klidendid**. Juriidilised olemid häälestatakse rakenduse Dynamics 365 Project Operations moodulis **Projektihaldus ja raamatupidamine** ning tehakse ettevõtetena kättesaadavaks Project Operationsi moodulites **Projekti müük ja kohaletoimetamine**.
 
 ## <a name="concept-of-a-primary-customer"></a>Peamise kliendi kontseptsioon
 
