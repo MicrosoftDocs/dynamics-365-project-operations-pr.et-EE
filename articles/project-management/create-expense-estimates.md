@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131698"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287053"
 ---
 # <a name="expense-estimates"></a>Kuluprognoosid
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Lisaks ressursipõhiste prognooside määraltemisele võimaldab Dynamics 365 Project Operations projektijuhtidel määratleda iga projekti projektipõhised kulud. Iga kulukirje saab seostada kindla projekti ülesande või kulukategooriaga. Kulukategooriad on tavaliselt määratletud organisatsiooni tasemel. Iga kulukategooria hinna määratleb tavaliselt järgmine hierarhia.
+Koos ressursipõhiste prognooside määratlemisega võimaldab Dynamics 365 Project Operations projektijuhtidel määratleda iga projekti jaoks projektipõhiseid kulusid. Iga kulukirje saab seostada kindla projekti ülesande või kulukategooriaga. Kulukategooriad on tavaliselt määratletud organisatsiooni tasemel. Iga kulukategooria hinna määratleb tavaliselt järgmine hierarhia.
 
 - Organisatsioon
 - Klient

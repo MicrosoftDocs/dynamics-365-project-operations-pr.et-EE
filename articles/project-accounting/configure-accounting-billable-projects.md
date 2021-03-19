@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131968"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287638"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Arveldatavate projektide raamatupidamise konfigureerimine
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Rakendust Dynamics 365 Project Operations toetab arveldatavate projektide erinevaid raamatupidamise valikuid, mis hõlmavad aja- ja materjalikulu ning fikseeritud hinnaga kandeid.
+Dynamics 365 Project Operations toetab mitmesuguseid arveldatavate projektide raamatupidamissuvandeid, mis sisaldavad aega ja materjale ning fikseeritud hinnaga tehinguid.
 
 - **Aja- ja materjalikulu kanded**: need kanded arveldatakse töö edenemise ajal projekti tundide, kulude, kaupade või tasude põhjal. Need kannete kulud saab vastendada iga kande tuluga ja projekti arveldamine toimub töö edenedes. Projekti tulu saab ka koguda ka kande toimumise ajal. Arveldamise ajal tulu kajastatakse ja kui see on kohaldatavad, siis viittulu arvestatakse maha.
 - **Fikseeritud hinnaga kanded**: need kanded arveldatakse vastavalt projekti lepingul põhinevale arvete ajakavale. Fikseeritud hinnaga kannete tulu saab kajastada arveldamisel või arvutada ja sisestada perioodiliselt vastavalt **lõpetatud lepingu** või **lõpetatud protsendi meetoditele**.

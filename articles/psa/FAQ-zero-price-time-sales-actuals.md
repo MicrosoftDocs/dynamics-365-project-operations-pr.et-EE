@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f72e0db94392a35fee9fdcf2c4adb8a08feef13
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: cfb359b4ebd7c1a7a70ffdc2c47cf6291c797566
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146208"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5285748"
 ---
 # <a name="why-is-price-defaulting-to-zero-on-time-sales-actuals"></a>Miks lähtestub aja kande klassiga tegelike müüginäitajate hind väärtusele 0?
 

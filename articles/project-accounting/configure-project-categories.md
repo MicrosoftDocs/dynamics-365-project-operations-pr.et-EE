@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3698b68b5dd0460343d26af0fcea5b9a56be4083
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b7adf61a82714a0148d9c8b1d2b2b37fd611c1cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131923"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287503"
 ---
 # <a name="configure-project-categories"></a>Projektikategooriate konfigureerimine
 
@@ -37,7 +37,7 @@ Kannete kategooriad on määratletud rakenduse Project Operations moodulis.
 
 ## <a name="shared-categories"></a>Ühiskasutuses kategooriad
 
-Dynamics 365 kasutab ühiskasutuses kategooriate mõistet, et kategoriseerida kulusid erinevates rakendustes, nagu Dynamics 365 Finance, Dynamics 365 Supply Chain ja Dynamics 365 Project Operations. Iga loodud kande kategooria jaoks loob Project Operations automaatselt neli seotud üiskasutuses kategooriat: tunnid, kulu, tasud ja kaup. Saate ühiskasutuses kategooriaid läbi vaadata, kui avate **Projektihaldus ja raamatupidamine** \> **Seadistus** \> **Kategooriad** \> **Ühiskasutuses kategooriad**.
+Dynamics 365 kasutab ühiskasutuses kategooriate mõistet kulude kategoriseerimiseks erinevates rakendustes, näiteks rakendustes Dynamics 365 Finance, Dynamics 365 Supply Chain ja Dynamics 365 Project Operations. Iga loodud kande kategooria jaoks loob Project Operations automaatselt neli seotud üiskasutuses kategooriat: tunnid, kulu, tasud ja kaup. Saate ühiskasutuses kategooriaid läbi vaadata, kui avate **Projektihaldus ja raamatupidamine** \> **Seadistus** \> **Kategooriad** \> **Ühiskasutuses kategooriad**.
 
 ## <a name="project-categories"></a>Projektikategooriad
 
