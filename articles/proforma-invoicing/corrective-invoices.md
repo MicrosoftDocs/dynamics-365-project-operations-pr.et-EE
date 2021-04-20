@@ -1,41 +1,264 @@
 ---
-title: Parandatud arved
-description: Selles teemas antakse teavet parandatud arvete kohta.
+title: Projektipõhised parandusarved
+description: See teema sisaldab teavet selle kohta, kuidas luua ja kinnitada Project Operationsis projektipõhiseid parandusarveid.
 author: rumant
-manager: AnnBe
-ms.date: 09/18/2020
+manager: Annbe
+ms.date: 03/29/2021
 ms.topic: article
-ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 734dc01e15339a31ac21f92bb3fb20d634a075ad
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: fc96bb40f5207efc381986d46a3e37dfc1dc111c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287818"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867036"
 ---
-# <a name="corrected-invoices"></a><span data-ttu-id="fde42-103">Parandatud arved</span><span class="sxs-lookup"><span data-stu-id="fde42-103">Corrected invoices</span></span>
+# <a name="corrective-project-based-invoices"></a><span data-ttu-id="7ae6b-103">Projektipõhised parandusarved</span><span class="sxs-lookup"><span data-stu-id="7ae6b-103">Corrective project-based invoices</span></span>
 
-<span data-ttu-id="fde42-104">_**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_</span><span class="sxs-lookup"><span data-stu-id="fde42-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+<span data-ttu-id="7ae6b-104">_**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_</span><span class="sxs-lookup"><span data-stu-id="7ae6b-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
-<span data-ttu-id="fde42-105">Kinnitatud arveid saab muuta.</span><span class="sxs-lookup"><span data-stu-id="fde42-105">Confirmed invoices can be edited.</span></span> <span data-ttu-id="fde42-106">Kinnitatud arve muutmisel luuakse parandatud arve mustand.</span><span class="sxs-lookup"><span data-stu-id="fde42-106">When you edit a confirmed invoice, a draft of the corrected invoice is created.</span></span> <span data-ttu-id="fde42-107">Kuna eeldame, et soovite kõik kanded ja kogused algsest arvest ümber pöörata, kaasatakse selle parandatud arve kõik algse arve tehingud ja kõik selle kogused on null (0).</span><span class="sxs-lookup"><span data-stu-id="fde42-107">Because the assumption is that you want to reverse all the transactions and quantities from the original invoice, the corrected invoice includes all the transactions from the original invoice, and all the quantities on it are zero (0).</span></span>
+<span data-ttu-id="7ae6b-105">Kinnitatud projekti arvet saab parandada muudatuste või krediidi töötlemiseks, pidades läbirääkimisi kliendi ja projektijuhiga.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-105">A confirmed project invoice can be corrected to process changes or credits as negotiated with the customer and project manager.</span></span>
 
-<span data-ttu-id="fde42-108">Kui mõni kanne ei vaja korrigeerimist, saate need korrigeeriva arve mustandist eemaldada.</span><span class="sxs-lookup"><span data-stu-id="fde42-108">When transactions don't require correction, you can remove them from the draft corrective invoice.</span></span> <span data-ttu-id="fde42-109">Ainult osalise koguse ümber pööramiseks või tagastamiseks, saate rea üksikasjade välja Kogus redigeerida.</span><span class="sxs-lookup"><span data-stu-id="fde42-109">To reverse or return only a partial quantity, you can edit the Quantity field on the line detail.</span></span> <span data-ttu-id="fde42-110">Arve rea üksikasjade avamisel näete algse arve kogust.</span><span class="sxs-lookup"><span data-stu-id="fde42-110">If you open the invoice line detail, you can see the original invoice quantity.</span></span> <span data-ttu-id="fde42-111">Seejärel saate praegust arve kogust redigeerida nii, et see on algse arve kogusest väiksem või suurem.</span><span class="sxs-lookup"><span data-stu-id="fde42-111">You can then edit the current invoice quantity so that it's less than or more than the original invoice quantity.</span></span>
+<span data-ttu-id="7ae6b-106">Kinnitatud arve redigeerimiseks avage kinnitatud arve ja valige suvand **Paranda seda arvet**.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-106">To make edits to a confirmed invoice, open the confirmed invoice and select **Correct this Invoice**.</span></span> 
 
-<span data-ttu-id="fde42-112">Korrigeeriva arve kinnitamisel tühistatakse algselt arvestatud müügi tegelik väärtus ja luuakse uus tegelik arve.</span><span class="sxs-lookup"><span data-stu-id="fde42-112">When you confirm a corrective invoice, the original billed sales actual is reversed, and a new billed sales actual is created.</span></span> <span data-ttu-id="fde42-113">Kui kogust on vähendatud, põhjustab erinevus uue arveldamata müügi tegeliku loomise.</span><span class="sxs-lookup"><span data-stu-id="fde42-113">If the quantity was reduced, the difference will cause a new unbilled sales actual to be created too.</span></span> <span data-ttu-id="fde42-114">Näiteks kui algne arvestatud müük oli kaheksa tundi ja parandatud arverea üksikasjadel on vähendatud kogust kuus tundi, pööratakse algne arvestatud müügirida ümber ja luuakse kaks uut tegelikku väärtust.</span><span class="sxs-lookup"><span data-stu-id="fde42-114">For example, if the original billed sale was for eight hours, and the corrected invoice line detail has a reduced quantity of six hours, the original billed sales line is revered and two new actuals are created:</span></span>
+> [!NOTE]
+> <span data-ttu-id="7ae6b-107">See valik pole saadaval, kui projekti arve ei ole kinnitatud või kui projektipõhisel arvel avansid või honorarid või avansside või honoraride vastavusseviimised.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-107">This selection isn't available unless a project invoice is confirmed or the project-based invoice has advances or retainers or reconciliations of advances or retainers.</span></span>
 
-- <span data-ttu-id="fde42-115">Arvestatud müük on tegelikult kuus tundi.</span><span class="sxs-lookup"><span data-stu-id="fde42-115">A billed sales actual for six hours.</span></span>
-- <span data-ttu-id="fde42-116">Ülejäänud kahe tunni eest arveldamata müügi tegelik väärtus.</span><span class="sxs-lookup"><span data-stu-id="fde42-116">An unbilled sales actual for the remaining two hours.</span></span> <span data-ttu-id="fde42-117">See tehing võib olla kas hiljem arvestatud või märgitud mitte-tasuna, olenevalt läbirääkimistest kliendiga.</span><span class="sxs-lookup"><span data-stu-id="fde42-117">This transaction can either be billed later or marked as non-chargeable, depending on the negotiations with the customer.</span></span>
+<span data-ttu-id="7ae6b-108">Uus arve mustand luuakse kinnitatud arvelt.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-108">A new draft invoice is created from the confirmed invoice.</span></span> <span data-ttu-id="7ae6b-109">Kõik varem kinnitatud arve arverea üksikasjad kopeeritakse uude mustandisse.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-109">All invoice line details from the previously confirmed invoice are copied to the new draft.</span></span> <span data-ttu-id="7ae6b-110">Järgnevalt on toodud mõned olulised punktid, et saaksite aru uue parandatud arve rea üksikasjadest.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-110">The following are some of the key points to understand about the line details on the new corrected invoice:</span></span>
+
+- <span data-ttu-id="7ae6b-111">Kõigi koguste väärtused muudetakse nulliks.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-111">All quantities are updated to zero.</span></span> <span data-ttu-id="7ae6b-112">Dynamics 365 Project Operations eeldab, et kõik arveldatud üksused on täielikult krediteeritud.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-112">Dynamics 365 Project Operations assumes that all invoiced items are fully credited.</span></span> <span data-ttu-id="7ae6b-113">Vajaduse korral saate neid koguseid käsitsi värskendada, et kajastada arveldatud kogust, mitte krediteeritud kogust.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-113">If needed, you can manually update these quantities to reflect the quantity that is being invoiced, and not the quantity that is being credited.</span></span> <span data-ttu-id="7ae6b-114">Teie sisestatud koguse põhjal arvutab rakendus krediteeritud koguse.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-114">Based on the quantity you enter, the application calculates the credited quantity.</span></span> <span data-ttu-id="7ae6b-115">See summa kajastub tegelikes näitajates, mis luuakse parandatud arve kinnitamisel.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-115">This amount is reflected in the actuals that are created when the corrected invoice is confirmed.</span></span> <span data-ttu-id="7ae6b-116">Kui muudate maksusummat, peate sisestama õige maksusumma, mitte maksusumma, mis krediteeritakse.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-116">If you are making changes to the tax amount, you must enter the correct tax amount and not the tax amount that is being credited.</span></span>
+- <span data-ttu-id="7ae6b-117">Vahe-eesmärgi parandused töödeldakse alati täieliku krediidina.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-117">Milestone corrections are always processed as full credits.</span></span>
+
+
+> [!IMPORTANT]
+> <span data-ttu-id="7ae6b-118">Arverea üksikasjadel, mis on muude juba arveldatud kulude parandused, on välja **Parandus** väärtuseks seatud **Jah**.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-118">For invoice line details that are corrections to other already invoiced charges, the **Correction** field is set to **Yes**.</span></span> <span data-ttu-id="7ae6b-119">Arvetel, millel on parandatud arve rea üksikasjad, on välja **Sisaldab parandusi** väärtuseks seatud **Jah**.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-119">For invoices that have corrected invoice line details, the **Has corrections** field is set to **Yes**.</span></span>
+
+## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a><span data-ttu-id="7ae6b-120">Parandusarve kinnitamisel loodavad tegelikud näitajad</span><span class="sxs-lookup"><span data-stu-id="7ae6b-120">Actuals created when a corrective invoice is confirmed</span></span>
+
+<span data-ttu-id="7ae6b-121">Järgmises tabelis on loetletud tegelikud andmed, mis luuakse, kui parandusarve on kinnitatud.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-121">The following table lists the actuals that are created when a corrective invoice is confirmed.</span></span>
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="216" valign="top">
+                <p><span data-ttu-id="7ae6b-122">
+                    <strong>Stsenaarium</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7ae6b-122">
+                    <strong>Scenario</strong>
+                </span></span></p>
+            </td>
+            <td width="808" valign="top">
+                <p><span data-ttu-id="7ae6b-123">
+                    <strong>Kinnitusel loodud tegelikud näitajad</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7ae6b-123">
+                    <strong>Actuals created on confirmation</strong>
+                </span></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="7ae6b-124">Varem arveldatud ajatehingu täieliku krediidi arveldamine.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-124">Invoicing the full credit of a previously invoiced time transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="7ae6b-125">Arveldatud müügi tühistamine algse aja jaoks mõeldud arverea üksikasjad tundide ja summa puhul.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-125">A billed sales reversal for the hours and amount on the original invoice line detail for time.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="7ae6b-126">Uue arveldamata müügi tegeliku näitaja tühistamine algse aja jaoks mõeldud arverea üksikasjad tundide ja summa puhul.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-126">A new unbilled sales actual for the hours and amount on the original invoice line detail for time.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+<span data-ttu-id="7ae6b-127">Osalise krediidi arveldamine ajatehinguga.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-127">Invoicing the partial credit on a time transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="7ae6b-128">Arveldatud müügi tühistamine algse aja jaoks mõeldud arverea üksikasjad tundide ja arveldatud summa puhul.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-128">A billed sales reversal for the hours and amount invoiced on the original invoice line detail for time.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="7ae6b-129">Uus arveldamata müügi tegelik väärtus, mis on arveldatav muudetud arverea üksikasjade tundide ja summa eest, selle tühistamine ja samaväärne arveldatud müügi tegelik väärtus.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-129">A new unbilled sales actual that is chargeable for the hours and amount on the edited invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="7ae6b-130">Uus arveldamata müügi tegelik näitaja, mis on arveldatud järelejäänud tundide ja summade eest pärast seda, kui parandatud arvud on arve rea üksikasjades lahutatud.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-130">A new unbilled sales actual that is chargeable for the remaining hours and amount after deducting the corrected figures on the invoice line detail.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="7ae6b-131">Varem arveldatud kulutehingu täieliku krediidi arveldamine.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-131">Invoicing the full credit of a previously invoiced expense transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="7ae6b-132">Arveldatud müügi tühistamine algse kulu jaoks mõeldud arverea üksikasjad koguste ja summa puhul.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-132">A billed sales reversal for the quantity and amount on the original invoice line detail for the expense.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="7ae6b-133">Uus arveldamata müügi tegelik näitaja algse kulu jaoks mõeldud arverea üksikasjad koguste ja summa puhul.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-133">A new unbilled sales actual for the quantity and amount on the original invoice line detail for the expense.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+<span data-ttu-id="7ae6b-134">Varem arveldatud kulutehingu osalise krediidi arveldamine.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-134">Invoicing the partial credit of a previously invoiced expense transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="7ae6b-135">Arveldatud müügi tühistamine algse kulu jaoks mõeldud arverea üksikasjad koguste ja arveldatud summa puhul.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-135">A billed sales reversal for the quantity and amount invoiced on the original invoice line detail for an expense.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="7ae6b-136">Uus arveldamata müügi tegelik väärtus, mis on arveldatav parandatud arverea üksikasjade koduste ja summa eest, selle tühistamine ja samaväärne arveldatud müügi tegelik väärtus.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-136">A new unbilled sales actual that is chargeable for the quantity and amount on the corrected invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="7ae6b-137">Uus arveldamata müügi tegelik näitaja, mis on arveldatud järelejäänud koguste ja summade eest pärast seda, kui parandatud arvud on arve rea üksikasjades lahutatud.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-137">A new unbilled sales actual that is chargeable for the remaining quantity and amount after deducting the corrected figures on the invoice line detail.</span></span>
+                </p>
+            </td>
+        </tr>
+                <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="7ae6b-138">Varem arveldatud materjali kande täieliku krediidi arveldamine.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-138">Invoicing the full credit of a previously invoiced material transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="7ae6b-139">Esitatud arvega müügi tagasipööramine materjali algsel arverea üksikasjal sisalduvale kogusele ja summale.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-139">A billed sales reversal for the quantity and amount on the original invoice line detail for material.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="7ae6b-140">Esitatud uus arveldamata müügi tegelik väärtus materjali algsel arverea üksikasjal sisalduvale kogusele ja summale.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-140">A new unbilled sales actual for the quantity and amount on the original invoice line detail for material.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+<span data-ttu-id="7ae6b-141">Materjali tehingu osalise krediidi eest arve esitamine.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-141">Invoicing the partial credit on a material transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="7ae6b-142">Esitatud arvega müügi tagasipööramine materjali algse arverea üksikasjal sisalduvale arveldatud kogusele ja summale.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-142">A billed sales reversal for the quantity and amount invoiced on the original invoice line detail for material.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="7ae6b-143">Uus arveldamata müügi tegelik väärtus, mille eest esitatakse arve muudetud arve rea üksikasjades oleva koguse ja summa eest, selle ümberpööramine ja sellega võrdväärse arveldatud müügi tegelik summa.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-143">A new unbilled sales actual that is chargeable for the quantity and amount on the edited invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="7ae6b-144">Uus arveldamata müügi tegelik näitaja, mis on arveldatud järelejäänud koguste ja summade eest pärast seda, kui parandatud arvud on arve rea üksikasjades lahutatud.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-144">A new unbilled sales actual that is chargeable for the remaining quantity and amount after deducting the corrected figures on the invoice line detail.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="7ae6b-145">Varem arveldatud tasutehingu täieliku krediidi arveldamine.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-145">Invoicing the full credit of a previously invoiced fee transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="7ae6b-146">Arveldatud müügi tühistamine algse tasu jaoks mõeldud arverea üksikasjad koguste ja summa puhul.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-146">A billed sales reversal for the quantity and amount on the original invoice line detail for the fee.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="7ae6b-147">Uus arveldamata müügi tegelik näitaja algse tasu jaoks mõeldud arverea üksikasjad koguste ja summa puhul.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-147">A new unbilled sales actual for the quantity and amount on the original invoice line detail for the fee.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="7ae6b-148">Varem arveldatud tasutehingu osalise krediidi arveldamine.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-148">Invoicing the partial credit of a previously invoiced fee transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="7ae6b-149">Arveldatud müügi tühistamine algse tasu jaoks mõeldud arverea üksikasjad koguste ja arveldatud summa puhul.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-149">A billed sales reversal for the quantity and amount invoiced on the original invoice line detail for fee.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="7ae6b-150">Uus arveldamata müügi tegelik väärtus, mis on arveldatav redigeeritud parandatud arverea üksikasjade koduste ja summa eest, selle tühistamine ja samaväärne arveldatud müügi tegelik väärtus.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-150">A new unbilled sales actual that is chargeable for the quantity and amount on the edited corrective invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" valign="top">
+                <p>
+<span data-ttu-id="7ae6b-151">Varem arveldatud vahe-eesmärgi täieliku krediidi arveldamine.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-151">Invoicing the full credit of a previously invoiced milestone.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="7ae6b-152">Arveldatud müügi tühistamine algse vahe-eesmärgi jaoks mõeldud arverea üksikasjad summa puhul.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-152">A billed sales reversal for the amount on the original invoice line detail for the milestone.</span></span>
+                </p>
+                <p>
+<span data-ttu-id="7ae6b-153">Vahe-etapi arve olek värskendatakse valikult <b>Kliendi arve on sisestatud</b> valikule <b>Arveldamiseks valmis</b>.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-153">The invoice status of the milestone is updated from <b>Customer Invoice Posted</b> to <b>Ready to Invoice</b>.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" valign="top">
+                <p>
+<span data-ttu-id="7ae6b-154">Varem arveldatud vahe-eesmärgi osalise krediidi arveldamine.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-154">Invoicing the partial credit of a previously invoiced milestone.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="7ae6b-155">Seda stsenaariumi ei toetata.</span><span class="sxs-lookup"><span data-stu-id="7ae6b-155">This scenario isn't supported.</span></span>
+                </p>
+            </td>
+        </tr>       
+    </tbody>
+</table>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
