@@ -3,7 +3,7 @@ title: Toote hinnakirjad
 description: Selles teemas jagatakse teavet kataloogi hinnakujunduse hinnakirjade kohta, mida kasutatakse projekti hinnapakkumiste ja lepingute jaoks.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -14,23 +14,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c0f30bec159254c078024549b7b0dd0c048ef65d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e37f0bf9eef946ab4ebd658cef4e1269cbaf686d
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275353"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877485"
 ---
 # <a name="product-price-lists"></a>Toote hinnakirjad
 
-_**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
+_**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
-Hinnakirjad ja hinnakirjaüksused toetavad tootekataloogi hinda. Enamasti kasutatakse seda funktsiooni projekti hinnapakkumiste ja projekti lepingute kataloogipõhiste ridade jaoks.
-
-Projektil põhinevate ridade puhul kajastab leping lepingut pärast selle võitmist. Kuna läbirääkimiste protsess eelneb tavaliselt võidule, kopeeritakse hinnapakkumisega seotud hind alati nii nagu on uude hinnakirja ja lisatakse lepingule. Seda uut hinnakirja ei saa muuta väljaspool lepingu reguleerimisala. See piirang aitab kaitsta intressimäära kaarti, mis on kokku lepitud mis tahes hindade muudatuste põhjal, mis ilmnevad põhihinnakirjas.
+ Rakenduses Project Operations toetavad olemid **Toote hinnakirjad** ja seotud hinnakirjaüksused toodete hinnakujunduse funktsiooni projektipõhise hinnapakkumise ja lepinguridadega. Projektides kasutatavate toodete puhul kasutatakse projekti hinnakirjade hinnakirjaüksuseid. 
 
 Tooted tuleb seadistada nii, et neil oleksid tootekataloogi vaikimisi kulu ja hinnakiri. Kasutage vaikimisi kulu ja hinnakirja hindade konfigureerimiseks loendi hinda, standardkulu ja praegust kulu. Vaikimisi kasutatakse hinnakirja hindu hinnapakkumise real või projekti lepingurea korral ainult juhul, kui süsteem ei leia hinnapakkumise või projekti lepingu jaoks hinnakirja rida selle toote jaoks.
 
@@ -40,9 +38,7 @@ Tootekataloogi ridade omahinda saab muuta hinnapakkumiste vahel. See võimalus o
 
 Tooteid saate tootekataloogist lisada erinevatesse hinnakirjadesse. Toodete hinnakirja read viitavad alati kindlale ühikule. Hinnakirjaüksuse toote hinda saab konfigureerida valuuta summana. Alternatiivina saab seda konfigureerida loendi hinna, praeguse kulumäära või standardse kulumäära funktsioonina.
 
-PSA toetab mitmesuguseid ümardamise võimalusi, kui hinnad on konfigureeritud loendi hinna, standardkulu või praeguse kulu funktsioonina. Lisaks mitme hinna meetodi ja ümardamise suvandi kasutamisele saate allahindluse loendeid seostada hinnakirja üksustega. 
-
-Kui loote hinnapakkumise jaoks uue kohandatud hinnakirja, valides lehel **Projekti hinnapakkumine** valiku **Kohandatud hinnakiri**, tehakse hinnakirjast koopia ning uue hinnakirja päise välja **olem** väärtuseks seatakse **Müügiolem**. Uue hinnakirja nimi lisatakse hinnapakkumise nimele ja ajatemplile. Samuti saate kasutada uue hinnakirja nime ja hinnapakkumise nime kohandatud töövoogudes, et käivitada kohandatud hinnakujundust kasutavatele hinnapakkumistele täiendavat ülevaadet ja kinnitusi.
+Hinnakujunduse funktsionaalsus toetab mitmesuguseid ümardamise võimalusi, kui toote hinnad on konfigureeritud loendi hinna, standardkulu või praeguse kulu funktsioonina. Lisaks mitme hinna meetodi ja ümardamise suvandi kasutamisele saate allahindluse loendeid seostada hinnakirja üksustega. 
 
  
 ## <a name="default-product-price-list"></a>Toote vaikehinnakiri
@@ -57,7 +53,7 @@ Müügivõimaluse, hinnapakkumise ja projekti lepingu olemid kasutavad vaikimisi
 
 Vaikimisi loetleb hinnapakkumise väli **Toode** kõik hinnapakkumise toodete hinnakirja aktiivsed tooted. Kui toode on inaktiveeritud või kui see on toote mustand, siis seda loendis pole, isegi kui see on hinnakirjas. 
 
-Tootekataloogi read lisatakse arve ridadena esimesel arvel, mis on loodud projekti lepingu jaoks. Arve mustandi korral saab neid arve ridu kustutada. Sel juhul kuvatakse read järgneval arvel, kuni need arveldatakse, või kuni kliendile saadetakse arve. Te ei saa arve rea osalist kogust arveldada. Kui projekti lepingujärgsed toote seeriad on arveldatud, luuakse tegelikud näitajad. Need tegelikud näitajad pole seostatud projekti olemiga lingitud. Teisisõnu ei sõltu tootepõhise projekti lepinguread mis tahes projektil põhinevast kasutusest. Materjalide tarbimist projektides ei jälgita.
+Tootekataloogi read lisatakse arve ridadena esimesel arvel, mis on loodud projekti lepingu jaoks. Arve mustandi korral saab neid arve ridu kustutada. Sel juhul kuvatakse read järgneval arvel, kuni need arveldatakse, või kuni kliendile saadetakse arve. Te ei saa arve rea osalist kogust arveldada. Kui projekti lepingujärgsed toote seeriad on arveldatud, luuakse tegelikud näitajad. Need tegelikud näitajad pole seostatud projekti olemiga lingitud. Teisisõnu ei sõltu tootepõhise projekti lepinguread mis tahes projektil põhinevast kasutusest. 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

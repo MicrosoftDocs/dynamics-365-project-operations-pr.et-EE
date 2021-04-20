@@ -1,6 +1,6 @@
 ---
-title: Projektipõhised parandusarved
-description: See teema sisaldab teavet selle kohta, kuidas luua ja kinnitada Project Operationsis projektipõhiseid parandusarveid.
+title: Projektipõhise parandusarvete loomine
+description: See teema sisaldab teavet Project Operationsi parandusarvete kohta.
 author: rumant
 manager: Annbe
 ms.date: 03/29/2021
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fc96bb40f5207efc381986d46a3e37dfc1dc111c
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 32772d64b3fc77f0af9618edff40e3b295593454
+ms.sourcegitcommit: 504c09365bf404c1f1aa9b5034c1e1e5bc9d0d54
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867036"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788848"
 ---
-# <a name="corrective-project-based-invoices"></a>Projektipõhised parandusarved
+# <a name="create-corrective-project-based-invoices"></a>Projektipõhise parandusarvete loomine 
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
@@ -24,18 +24,19 @@ Kinnitatud projekti arvet saab parandada muudatuste või krediidi töötlemiseks
 Kinnitatud arve redigeerimiseks avage kinnitatud arve ja valige suvand **Paranda seda arvet**. 
 
 > [!NOTE]
-> See valik pole saadaval, kui projekti arve ei ole kinnitatud või kui projektipõhisel arvel avansid või honorarid või avansside või honoraride vastavusseviimised.
+> See valik pole saadaval, kui projekti arve pole kinnitatud.
 
-Uus arve mustand luuakse kinnitatud arvelt. Kõik varem kinnitatud arve arverea üksikasjad kopeeritakse uude mustandisse. Järgnevalt on toodud mõned olulised punktid, et saaksite aru uue parandatud arve rea üksikasjadest.
+Uus arve mustand luuakse kinnitatud arvelt. Kõik varem kinnitatud arve arverea üksikasjad kopeeritakse uude mustandisse. Järgmised on mõned põhipunktid, mis aitavad teil uue parandatud arve rea üksikasju paremini mõista.
 
-- Kõigi koguste väärtused muudetakse nulliks. Dynamics 365 Project Operations eeldab, et kõik arveldatud üksused on täielikult krediteeritud. Vajaduse korral saate neid koguseid käsitsi värskendada, et kajastada arveldatud kogust, mitte krediteeritud kogust. Teie sisestatud koguse põhjal arvutab rakendus krediteeritud koguse. See summa kajastub tegelikes näitajates, mis luuakse parandatud arve kinnitamisel. Kui muudate maksusummat, peate sisestama õige maksusumma, mitte maksusumma, mis krediteeritakse.
+- Kõigi koguste väärtused muudetakse nulliks. See eeldab, et kõik arveldatud üksused on täielikult krediteeritud. Vajaduse korral saate neid koguseid käsitsi värskendada, et kajastada arveldatud kogust, mitte krediteeritud kogust. Teie sisestatud koguse põhjal arvutab rakendus krediteeritud koguse. See summa kajastub tegelikes näitajates, mis luuakse parandatud arve kinnitamisel. Kui muudate maksusummat, peate sisestama õige maksusumma, mitte maksusumma, mis krediteeritakse.
 - Vahe-eesmärgi parandused töödeldakse alati täieliku krediidina.
-
+- Honorari või ettemakse summasid saab parandada juhul, kui kliendile esitati arve vale summaga.
+- Kui varem kinnitatud arvega vastavusse viimiseks on kasutatud valet summat, siis saate parandada honoraride ja ettemaksete vastavusseviimist.
 
 > [!IMPORTANT]
-> Arverea üksikasjadel, mis on muude juba arveldatud kulude parandused, on välja **Parandus** väärtuseks seatud **Jah**. Arvetel, millel on parandatud arve rea üksikasjad, on välja **Sisaldab parandusi** väärtuseks seatud **Jah**.
+> Arverea üksikasjadel, mis on muude juba arveldatud kulude parandused, on välja **Parandus** väärtuseks seatud **Jah**. Arvetel, millel on parandatud arve rea üksikasju, on välja **Parandustega** väärtuseks samuti **Jah**.
 
-## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>Parandusarve kinnitamisel loodavad tegelikud näitajad
+## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Parandatud arve kinnitamisel loodud tegelikud näitajad
 
 Järgmises tabelis on loetletud tegelikud andmed, mis luuakse, kui parandusarve on kinnitatud.
 
@@ -50,6 +51,72 @@ Järgmises tabelis on loetletud tegelikud andmed, mis luuakse, kui parandusarve 
             <td width="808" valign="top">
                 <p>
                     <strong>Kinnitusel loodud tegelikud näitajad</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="4" valign="top">
+                <p>
+Kinnitage arveldatud ettemakse või honorari parandamine.<strong></strong>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Arveldamata müük, mis tühistati vastavusseviimiseks loodud honorari või ettemakse jaoks. See summa on positiivne, kuna selle eesmärk on tühistada negatiivne summa, mis loodi honorari või ettemakse arve esitamisel.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Arveldatud müügi tühistamise tegelik näitaja luuakse honorari või ettemakse summa jaoks, et algne arveldatud müük tühistada.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Honorari või ettemakse parandatud arve real luuakse parandatud summa jaoks uus arveldatud müügi tegelik näitaja.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Honorari või ettemakse parandatud arve rea negatiivse summa arveldamata müügi tegelik näitaja, mida kasutatakse vastavusseviimiseks.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="4" valign="top">
+                <p>
+Kinnitus varem vastavusse viidud honorari või ettemakse parandamise kohta.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Arveldamata müük, mis tühistati vastavusseviimiseks loodud honorari või ettemakse jaoks. See summa on positiivne ja selle eesmärk on tühistada negatiivne summa, mis loodi eelmise vastavusseviimise ajal.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Arveldatud müügi tegelik näitaja tühistatakse eelmise arve summa jaoks.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Uus arveldatud müügi tegelik näitaja parandatud honorari summa jaoks, mis rakendatakse parandatud arvele.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Parandatud järelejäänud honorari või ettemakse negatiivse summa arveldamata müügi tegelik näitaja, mida kasutatakse tulevaste arvete vastavusseviimiseks.
                 </p>
             </td>
         </tr>
@@ -143,51 +210,6 @@ Uus arveldamata müügi tegelik näitaja, mis on arveldatud järelejäänud kogu
                 </p>
             </td>
         </tr>
-                <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Varem arveldatud materjali kande täieliku krediidi arveldamine.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Esitatud arvega müügi tagasipööramine materjali algsel arverea üksikasjal sisalduvale kogusele ja summale.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Esitatud uus arveldamata müügi tegelik väärtus materjali algsel arverea üksikasjal sisalduvale kogusele ja summale.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Materjali tehingu osalise krediidi eest arve esitamine.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Esitatud arvega müügi tagasipööramine materjali algse arverea üksikasjal sisalduvale arveldatud kogusele ja summale.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Uus arveldamata müügi tegelik väärtus, mille eest esitatakse arve muudetud arve rea üksikasjades oleva koguse ja summa eest, selle ümberpööramine ja sellega võrdväärse arveldatud müügi tegelik summa.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Uus arveldamata müügi tegelik näitaja, mis on arveldatud järelejäänud koguste ja summade eest pärast seda, kui parandatud arvud on arve rea üksikasjades lahutatud.
-                </p>
-            </td>
-        </tr>
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
@@ -249,10 +271,9 @@ Varem arveldatud vahe-eesmärgi osalise krediidi arveldamine.
             </td>
             <td width="408" valign="top">
                 <p>
-Seda stsenaariumi ei toetata.
-                </p>
+Mittetoetatud </p>
             </td>
-        </tr>       
+        </tr>        
     </tbody>
 </table>
 

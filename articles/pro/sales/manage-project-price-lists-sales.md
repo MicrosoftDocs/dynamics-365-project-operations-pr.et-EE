@@ -1,27 +1,27 @@
 ---
-title: Projekti hinnapakkumiste projekti hinnakirja haldamine – liht
-description: Selles teemas kirjeldatakse tööd hinnapakkumiste projekti hinnakirjadega. (Sales)
+title: Projekti hinnapakkumiste projekti hinnakirja haldamine
+description: Selles teemas kirjeldatakse tööd hinnapakkumiste projekti hinnakirjadega.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 912d2fad33ac02c3ba980da7eeb88eef5c331230
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273013"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858603"
 ---
-# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Projekti hinnapakkumiste projekti hinnakirja haldamine – liht
+# <a name="manage-project-price-lists-on-project-quotes"></a>Projektipakkumise projekti hinnakirja haldamine 
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
 Projekti hinnapakkumised on loodud toetama mitut kuupäevapõhist müügi hinnakirja. Koos Dynamics 365 Project Operationsiga on lisatud uus seostatud olem nimega **Projekti hinnakirjad**. Sellel olemil on üks-mitmele-seos projekti hinnapakkumisega.
 
-Projekti hinnakirju kasutatakse projekti aja ja kulutehingute hinnastamiseks. Kui hinnapakkumisel on üks või mitu projekti hinnakirja, kasutatakse neid hinnakirju hinnapakkumise rea kaudu hinnapakkumisega seotud aja ja kuluprognooside ning tegelike näitajate hinnastamiseks.
+Projekti hinnakirju kasutatakse projekti aja, materjali ja kulutehingute hinna jaoks. Kui hinnapakkumisel on üks või mitu projekti hinnakirja, kasutatakse neid hinnakirju aja, materjali, kuluprognooside ja tegelike näitajate hinna arvestamiseks projektide jaoks, mis on hinnapakkumisega hinnapakkumise rea kaudu seotud.
 
 Kui projekti hinnapakkumisel pole projekti hinnakirju, kuvatakse hoiatusteade. Teates on kirjas, et kuna projekti hinnakiri puudub, siis teie prognoositavat ja tegelikku projekti tööd ja kulusid ei hinnastata. Selle asemel on neil null (0) müügihind.
 

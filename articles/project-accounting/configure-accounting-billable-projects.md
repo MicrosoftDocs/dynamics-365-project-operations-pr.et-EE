@@ -3,17 +3,17 @@ title: Arveldatavate projektide raamatupidamise konfigureerimine
 description: See teema sisaldab teavet arveldatavate projektide raamatupidamise valikute kohta.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 629e3fc2f9069d104d459d0b4a6fa46c37f5c6f2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287638"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858648"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Arveldatavate projektide raamatupidamise konfigureerimine
 
@@ -58,13 +58,25 @@ Tehke järgmist, et luua uus projekti kulu ja tulu profiil.
 
          - **Saldo**: Project Operationsi integratsiooni töölehe postitamisel debiteeritakse kulukande kulu pearaamatu kontotüübiga *WIP –kulu väärtus*, mis on määratletud vahekaardil **Kulu** lehel **Pearaamatu postitamise seadistus** ja krediteeritakse töölehe rea tasaarvelduskontoga. Vaikimisi kulu tasaarvelduskontod on määratletud jaotises **Projektihaldus ja raamatupidamine** > **Seadistamine** \> **Postitamine** \> **Kulude vaikimisi tasaarvelduskonto**. Raamatupidaja kasutab **järelkulu** funktsiooni, et teisaldada see kulu saldo kontolt perioodiliselt kasumiaruandesse.
         - **Kasumiaruanne**: Project Operationsi integratsiooni töölehe postitamisel debiteeritakse kulukande kulu pearaamatu kontotüübiga *Kulu*, mis on määratletud vahekaardil **Kulu** lehel **Pearaamatu postitamise seadistus** ja krediteeritakse töölehe rea tasaarvelduskontoga. Vaikimisi kulu tasaarvelduskontod on määratletud jaotises **Projektihaldus ja raamatupidamine** \> **Seadistamine** \> **Postitamine** \> **Kulude vaikimisi tasaarvelduskonto**.
+      
+    - **Kulude kirjendamine – üksus**.
+
+         - **Saldo**: Project Operationsi integreerimise töölehe kirjendamisel debiteeritakse üksuse tehingukulu pearaamatu kontotüübil *WIP – kulu väärtus – üksus*, nagu on määratletud vahekaardil **Kulu** lehel **Pearaamatu kirjendamise häälestus**, ja krediteeritakse järgnevalt.
+    
+              - Dokumenditüübi kasutuse jaoks: konto **Kulu – üksus** **pearaamatu kirjendamise häälestuses**.  
+              - Dokumenditüübi ostmiseks: **kontol Hanke integreerimise** **projektihalduse ja raamatupidamise parameetrites**.
+           Raamatupidaja kasutab **järelkulu** funktsiooni, et teisaldada see kulu saldo kontolt perioodiliselt kasumiaruandesse.
+        - **Kasum ja kahjum**: Project Operationsi integreerimise töölehe kirjendamisel debiteeritakse üksuse tehingukulu pearaamatu kontotüübil *Kulu*, nagu on määratletud vahekaardil **Kulu** lehel **Pearaamatu kirjendamise häälestus**, ja krediteeritakse järgnevalt.
+         
+             - Dokumenditüübi kasutuse jaoks: konto **Kulu – üksus** **pearaamatu kirjendamise häälestuses**.  
+             - Dokumenditüübi ostmiseks: **kontol Hanke integreerimise** **projektihalduse ja raamatupidamise parameetrites**.
        
     - **Arveldamine kontol**.
 
         - **Saldo**: projekti arve ettepaneku postitamisel krediteeritakse kontopõhine tehing (arveldamise vahe-eesmärk) pearaamatu konto tüübil *WIP arveldatud – kontol*, mis on määratletud vahekaardil **Tulu** lehel **Pearaamatu postitamise häälestamine** ja debiteeritakse kliendi saldo kontolt.
          - **Kasumiaruanne**: projekti arve ettepaneku postitamisel krediteeritakse kontopõhine tehing (arveldamise vahe-eesmärk) pearaamatu konto tüübil *Arveldatud tulu – kontol*, mis on määratletud vahekaardil **Tulu** lehel **Pearaamatu postitamise häälestamine** ja debiteeritakse kliendi saldo kontolt. Kliendi saldo kontod on määratletud jaotises **Müügireskonto** \> **Seadistamine** \> **Kliendi postitamise profiilid**.
 
-   Kui määrate aja ja materjali arveldusmeetoditele postitamise profiilid, on teil võimalik koguda tulu vastavalt tehingu tüübile (tund, kulu ja tasu). Kui valik **Viittulu** on seatud valikule **Jah**, salvestatakse Project Operationsi integratsiooni töölehe arveldamata müügitehingud üldisesse pearaamatusse. Müügiväärtus debiteeritakse kontol **WIP – müügiväärtuse konto** ja krediteeritakse kontol **Viittulu – müügiväärtus**, mis seadistati lehel **Pearaamatusse postitamise seadistus** vahekaardil **Tulu**. 
+   Kui määratlete aja ja materjali arveldusmeetodi kirjendamise profiilid, on teil võimalik koondada tulu tehingutüübi järgi (tund, kulu, üksus ja tasu). Kui valik **Viittulu** on seatud valikule **Jah**, salvestatakse Project Operationsi integratsiooni töölehe arveldamata müügitehingud üldisesse pearaamatusse. Müügiväärtus debiteeritakse kontol **WIP – müügiväärtuse konto** ja krediteeritakse kontol **Viittulu – müügiväärtus**, mis seadistati lehel **Pearaamatusse postitamise seadistus** vahekaardil **Tulu**. 
   
   > [!NOTE]
   > Valik **Viittulu** on saadaval ainult juhul, kui vastav kandetüüp **Kulu** sisestatakse kasumiaruande kontole.

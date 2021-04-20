@@ -1,6 +1,6 @@
 ---
-title: Projektipõhised lepingurea prognoosimine
-description: See teema sisaldab teavet projektipõhise lepingurea prognooside kohta.
+title: Projekti lepingurea prognoos
+description: Selles teemas antakse teavet projekti lepingurea prognooside kohta.
 author: rumant
 manager: Annbe
 ms.date: 10/27/2020
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cdc8984e080d995e3a0b667fe662291b499235b2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7cb7d7eccf62837ee5abf4cbe29a21dc728eb7ef
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278503"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858513"
 ---
-# <a name="estimate-a-projectbased-contract-line"></a>Projektipõhised lepingurea prognoosimine
+# <a name="estimate-a-project-contract-line"></a>Projekti lepingurea prognoos
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_ 
 
@@ -26,31 +26,36 @@ Projektipõhise lepingurea prognoosimiseks avage projekktipõhise **lepingurea**
    - Luua prognoos otse lepingureal, lisades lepingurea üksikasjad käsitsi.
    - Luues projekti ja projektiplaani ning seejärel seostades projekti ja ülesanded projekti lepingureaga. See võimaldab protsessi, mille abil saate lepingureale sisestatud komponentide põhjal importida projektiplaani prognoosi lepingureale.
 
-## <a name="create-an-estimate-directly-on-a-projectbased-contract-line"></a>Prognoosi loomine otse projektipõhisel lepingureal
+## <a name="create-an-estimate-directly-on-a-project-contract-line"></a>Prognoosi otse projekti lepingureal loomine
+
+Prognoosi loomiseks otse projekti lepingureale toimige järgmiselt.
 
 1. Avage lepingurida ja valige vahekaary **Lepingurea üksikasi**. Sellel vahekaardil loodavad read summeeritakse ja kuvatakse selle **lepingurea** suvandina **Lepinguline väärtus**. 
-2. Andmeruudustikud **Lepingurea üksikasjad** valige suvand **+ Uus lepingurea üksikasi**. Avaneb kiirloomise liugur. Vormil **Lepingurea üksikasjad** on saadaval järgmised read.
+2. Andmeruudustikus **Lepingurea üksikasjad** valige suvand **Uus lepingurea üksikasi**. Avaneb kiirloomise liugur. Lehel **Lepingurea üksikasjad** on saadaval järgmised väljad.
 
 | Väli | Asukoht | Kirjeldus | Allavoolu mõjud |
 | --- | --- | --- | --- |
-| **Kirjeldus** | **Kiirloomine** | Konkreetse prognoosi kirjeldus. | Selle välja vaikeväärtus on automaatselt loodud kuludega seotud lepingurea üksikasi. |
-| **Kande klass** | **Kiirloomine** | See ripploend on tehinguklasside loend, mis sisaldub projektipõhise lepingurea vahekaardil **Üldine**. | Selle välja vaikeväärtus on automaatselt loodud kuludega seotud lepingurea üksikasi. |
-| **Roll** | **Kiirloomine** | Selle töö teostava või seda kulu kandva isiku roll. | Selle välja vaikeväärtus on automaatselt loodud kuludega seotud lepingurea üksikasi. |
-| **Kategooria** | **Kiirloomine** | Töö või kulu kategooria. | Selle välja vaikeväärtus on automaatselt loodud kuludega seotud lepingurea üksikasi. |
-| **Alguskuupäev** | **Kiirloomine** | Töö alguskuupäev. | Selle välja vaikeväärtus on automaatselt loodud kuludega seotud lepingurea üksikasi. |
-| **Lõppkuupäev** | **Kiirloomine** | Töö lõpukuupäev. | Selle välja vaikeväärtus on automaatselt loodud kuluga seotud lepingurea üksikasi. |
-| **Ressursiettevõte** | **Kiirloomine** | Ressursiettevõtte või juriidiline olem, mis kannab kulu ja pakub sellega töötamiseks ressursi. | Selle välja vaikeväärtus on automaatselt loodud kuludega seotud lepingurea üksikasi. Seda välja kasutatakse ka omahinna hankimiseks. |
-| **Ressursi üksus** | **Kiirloomine** | Ressursi üksus, mis kannab selle kulu ja pakub sellega töötamiseks ressursi. | Selle välja vaikeväärtus on automaatselt loodud kuludega seotud lepingurea üksikasi. Seda välja kasutatakse ka omahinna hankimiseks. |
-| **Üksuse ajakava** | **Kiirloomine** | Töö või kulu ühikurühm. Ühikud kuuluvad ühikute ajakavasse või ühikute rühma. Näiteks *miilid* ja *kilomeetrid (km)* on ühikud, mis kuuluvad vahemaad kirjeldavate ühikute rühma. | Selle välja vaikeväärtus on automaatselt loodud kuludega seotud lepingurea üksikasi. |
-| **Ühik** | **Kiirloomine** | Töö või kulu ühik. | Selle välja vaikeväärtus on automaatselt loodud kuludega seotud lepingurea üksikasi. |
-| **Kogus** | **Kiirloomine** | Töö või kulu kogus. | Selle välja vaikeväärtus on automaatselt loodud kuludega seotud lepingurea üksikasi. |
-| **Ühiku hind** | **Kiirloomine** | Tööd teostava rolli või kulukategooria müügihinna arveldusmäär. Selle välja vaikeväärtus pärineb rollil põhineva **ajal** ja projekti hinnakirja ressursiüksuse kombinatsioonil, mis alguskuupäeval kehtib. Kulude jaoks on selle välja vaikeväärtus tehingukategooria hinnaseadistus projekti hinnakirjas, mis alguskuupäeval kehtib. Kui tehingu kategooria hinnakujunduse meetod pole **hind ühiku kohta**, siis vaikesäte puudub ja see väli jäetakse tühjaks. | Tööd teostava rolli või kulukategooria ühikupõhise hinna kulumäär. Selle välja vaikeväärtus on **rollil põhineb aeg** ja ressursiüksuse ühiku kombinatsioon omahinnakirja rolli hinnareal, mis on lisatud alguskuupäeval jõus olevale lepinguüksusele. Kulude jaoks on põhineb välja vaikeväärtus omahinnakirja kategooria hinnareal, mis on lisatud lepinguüksusele, mis alguskuupäeval kehtib. Kui tehingu kategooria hinnakujunduse meetod pole hind ühiku kohta, siis vaikesäte puudub ja see väli jäetakse tühjaks. |
-| **Hinnanguline maks** | **Kiirloomine** | Kasutaja sisestatud selle töö või kulu prognoositav maks. | Kasutaja sisestatud selle töö või kulu prognoositav maks. |
-| **Summa** | **Kiirloomine** | Kasutaja saab selle välja selle väärtuse saab lisada, kui väljad **Kogus** ja **Hind** on jäetud tühjaks. Kui väljad **Kogus** ja **Hind** on täidetud, siis väli **Suma** on kirjutuskaitstud ja arvutatakse järgmiselt: **(kogus \* ühiku hind) + maks**. | &nbsp; |
+| **Kirjeldus** | **Kiirloomine** | Konkreetse prognoosi kirjeldus. | See väärtus läheb vaikimisi seotud lepingurea üksikasjaks, mis luuakse automaatselt. |
+| **Kande liik** | **Kiirloomine** | See kandeklasside loend on kaasatud projektipõhise lepingurea vahekaardile **Üldine**. | See väärtus läheb vaikimisi seotud lepingurea üksikasjaks, mis luuakse automaatselt. |
+| **Vali toode** | **Kiirloomine** | Kehtib, kui kandeklass on **Materjal**. Saate valida määrangu, et see prognoosirida on **olemasoleva** (kataloogi) toote või **sisestatava** toote jaoks. | See väärtus läheb vaikimisi seotud lepingurea üksikasjaks, mis luuakse automaatselt. |
+| **Toode** | **Kiirloomine** | Toote ID tootekataloogist. See väli on lubatud ainult juhul, kui valite väljal **Toote valimine** väärtuse **Olemasolev toode**. ID-d kasutatakse lepingu projekti hinnakirjast müügihinna toomiseks. | See väärtus läheb vaikimisi seotud lepingurea üksikasjaks, mis luuakse automaatselt. |
+| **Sisestatav toode** | **Kiirloomine** | Tekstiväli, kuhu toote nime sisestamiseks. See väli on lubatud ainult juhul, kui valite väljal **Toote valimine** väärtuse **Sisestatav**.| See väärtus läheb vaikimisi seotud lepingurea üksikasjaks, mis luuakse automaatselt. |
+| **Roll** | **Kiirloomine** | Selle töö teostava või seda kulu kandva isiku roll. | See väärtus läheb vaikimisi seotud lepingurea üksikasjaks, mis luuakse automaatselt.|
+| **Kategooria** | **Kiirloomine** | Töö või kulu kategooria. | See väärtus läheb vaikimisi seotud lepingurea üksikasjaks, mis luuakse automaatselt.|
+| **Alguskuupäev** | **Kiirloomine** | Töö alguskuupäev. | See väärtus läheb vaikimisi seotud lepingurea üksikasjaks, mis luuakse automaatselt. |
+| **Lõppkuupäev** | **Kiirloomine** | Töö lõpukuupäev. | See väärtus läheb vaikimisi seotud lepingurea üksikasjaks, mis luuakse automaatselt. |
+| **Ressursiettevõte** | **Kiirloomine** | Ressursiettevõte või juriidiline olem, mis tekitab selle kulu ja annab sellega töötamiseks ressurssi. | See väärtus läheb vaikimisi seotud lepingurea üksikasjaks, mis luuakse automaatselt ja mida kasutatakse kuluhinna toomisel. |
+| **Ressursi üksus** | **Kiirloomine** | Ressursiühik, mis tekitab selle kulu ja annab sellega töötamiseks ressurssi. | See väärtus läheb vaikimisi seotud lepingurea üksikasjaks, mis luuakse automaatselt ja mida kasutatakse kuluhinna toomisel. |
+| **Üksuse ajakava** | **Kiirloomine** | Töö, toote või kulu ühikurühm. Ühikud kuuluvad ühikute ajakavasse või ühikute rühma. Näiteks *miilid* ja *kilomeetrid (km)* on ühikud, mis kuuluvad vahemaad kirjeldavate ühikute rühma. | See väärtus läheb vaikimisi seotud lepingurea üksikasjaks, mis luuakse automaatselt. |
+| **Üksus** | **Kiirloomine** | Töö, toote või kulu ühik. | See väärtus läheb vaikimisi seotud lepingurea üksikasjaks, mis luuakse automaatselt. |
+| **Kogus** | **Kiirloomine** | Töö, toote või kulu kogus. | See väärtus läheb vaikimisi seotud lepingurea üksikasjaks, mis luuakse automaatselt. |
+| **Ühiku hind** | **Kiirloomine** | Tööd tegeva rolli arve määr, toote ühiku hind või toote või kulukategooria müügihind. Välja **Aeg** vaikeväärtus põhineb alguskuupäeval kehtiva projekti hinnakirja rolli hinnareal oleva hinnakujunduse dimensiooni kombinatsioonil. **Kulude** jaoks on selle välja vaikeväärtus tehingukategooria hinnaseadistus projekti hinnakirjas, mis alguskuupäeval kehtib. Kui tehingu kategooria hinnakujunduse meetod pole **hind ühiku kohta**, siis vaikesäte puudub ja see väli jäetakse tühjaks. Toodete puhul põhineb selle välja vaikeväärtus projekti hinnakirja real **Hinnakirjaüksus**, mis kehtib alguskuupäeval.| Tööd tegeva rolli kulumäär või kulukategooria ühiku kulu või toote ühikukulu. Väli **Aeg** põhineb alguskuupäeval kehtivale lepinguüksusele lisatud kulu hinnakirja rolli hinnareal oleva hinnakujunduse dimensiooni kombinatsioonil. **Kulude** korral põhineb selle välja vaikeväärtus alguskuupäeval kehtivale lepinguüksusele lisatud kulu hinnakirja kategooria hinnareal. Kui tehingu kategooria hinnakujunduse meetod pole hind ühiku kohta, siis vaikesäte puudub ja see väli jäetakse tühjaks. Toodete korral põhineb selle välja vaikeväärtus alguskuupäeval kehtivale lepinguüksusele lisatud kulu hinnakirja real **Hinnakirjaüksus**.|
+| **Hinnanguline maks** | **Kiirloomine** | Kasutaja sisestatud selle töö või kulu prognoositav maks. | &nbsp; |
+| **Summa** | **Kiirloomine** | Kui väljad **Kogus** ja **Hind** on tühjaks jäetud, saab sellele väljale lisada väärtuse. Kui väljad **Kogus** ja **Hind** on täidetud, siis väli **Summa** on kirjutuskaitstud ja arvutatakse järgmiselt: **(kogus \* ühiku hind) + maks**. | &nbsp; |
 
 ## <a name="update-prices-on-contract-line-details"></a>Lepingurea üksikasjade hindade uuendamine
 
-Kui muudate hindu projekti hinnakirjas, mis on lisatud lepingule või lepinguüksuse omahinnakirjas, saate muudatuste kajastamiseks värskendada üksiku lepingurea üksikasjade hindu. Valige lehel **Leping** suvand **Arvuta ümber**. Avaneb hoiatus, mis teatab, et selle lepingu kõikide lepinguridade hinnad lähtestatakse. Valige **Jah**, et värskendada nii müügi kui ka kulu lepingurea üksikasjade hindu.
+Kui muudate hindu projekti hinnakirjas, mis on lisatud lepingule või lepinguüksuse omahinnakirjas, saate muudatuste kajastamiseks värskendada üksiku lepingurea üksikasjade hindu. Valige lehel **Leping** suvand **Arvuta ümber**. Kuvatakse hoiatus, mis annab teile teada, et kõigi selle lepingu lepinguridade hinnad lähtestatakse. Valige **Jah**, et värskendada nii müügi kui ka kulu lepingurea üksikasjade hindu.
 
 ## <a name="access-contract-line-details-for-cost"></a>Juurdepääs kulu lepingurea üksikasjadele
 
@@ -68,7 +73,7 @@ Suvandi **Kulu** lepingurea üksikasi määrab vaikevaluuta lepingu lepinguüksu
 Tasuvusarvutused teisendavad **kulu** ja **müügi** lepingurea üksikasjade summad keskkonna põhivaluutasse, et teatada lepingu üldistest ja eeldatavatest marginaalidest.
 
 > [!NOTE]
-> Kuupäeval kehtivate valuutamäärade puudumise tõttu võivad esineda valuuta ümardamisvead ja muutunud marginaalid. Kasutage neid arvutusi projektilepingutes ainult ligikaudsena ja mitte tegeliku seadusjärgse või muu aruandluse jaoks, mis nõuab ümardamises suuremat täpsust ja vahetuskursside kehtivuse kuupäeva teadlikkust.
+> Kuupäeval kehtivate valuutamäärade puudumise tõttu võivad esineda valuuta ümardamisvead ja muutunud marginaalid. Kasutage neid arvutusi ainult projektilepingutes, kuna need on hinnangulised ja need pole tegelikult seadusejärgsed või muul viisil mõeldud aruandluseks, mille puhul on vaja vahetuskursside täpsemat ümardamist ja kehtivuse kuupäeva tõhusust.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

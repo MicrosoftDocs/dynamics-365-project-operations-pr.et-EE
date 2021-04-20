@@ -1,21 +1,21 @@
 ---
-title: Parandatud arved – liht
-description: Selles teemas antakse teavet Project Operationsis parandatud arvete kohta.
+title: Projekti parandusarved
+description: See teema sisaldab teavet selle kohta, kuidas luua ja kinnitada Project Operationsis parandusarveid.
 author: rumant
 manager: Annbe
-ms.date: 10/15/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: eb949ff3a53bcba19d44e1c3d6fe08a6b368108d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ae6d881e4e68b9f467478afe9735fc3186e6b0a8
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274228"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866586"
 ---
-# <a name="corrected-invoices---lite"></a>Parandatud arved – liht
+# <a name="corrective-project-invoices"></a>Projekti parandusarved
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
@@ -37,9 +37,9 @@ Uus arve mustand luuakse kinnitatud arvelt. Kõik varem kinnitatud arve arverea 
 > [!IMPORTANT]
 > Arve rea üksikasjadel, mis on parandustes muude juba arveldatud tasude jaoks, on välja **Parandus** väärtuseks **Jah**. Arvetel, millel on parandatud arve rea üksikasju, on välja **Parandustega** väärtuseks samuti **Jah**.
 
-## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Parandatud arve kinnitamisel loodud tegelikud näitajad.
+## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>Parandusarve kinnitamisel loodavad tegelikud näitajad
 
-Allpool on tegelikud näitajad, mis on loodud rakendusega, mis on seotud parandatud arve mustandis tehtud toimingutega, enne kinnituse kinnitamist.
+Järgmises tabelis on loetletud tegelikud andmed, mis luuakse, kui parandusarve on kinnitatud.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
@@ -214,6 +214,51 @@ Uus arveldamata müügi tegelik näitaja, mis on arveldatud järelejäänud kogu
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
+Varem arveldatud materjali kande täieliku krediidi arveldamine.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Esitatud arvega müügi tagasipööramine materjali algsel arverea üksikasjal sisalduvale kogusele ja summale.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Esitatud uus arveldamata müügi tegelik väärtus materjali algsel arverea üksikasjal sisalduvale kogusele ja summale.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Materjali tehingu osalise krediidi eest arve esitamine.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Esitatud arvega müügi tagasipööramine materjali algse arverea üksikasjal sisalduvale arveldatud kogusele ja summale.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Uus arveldamata müügi tegelik väärtus, mille eest esitatakse arve muudetud arve rea üksikasjades oleva koguse ja summa eest, selle ümberpööramine ja sellega võrdväärse arveldatud müügi tegelik summa.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Uus arveldamata müügi tegelik näitaja, mis on arveldatud järelejäänud koguste ja summade eest pärast seda, kui parandatud arvud on arve rea üksikasjades lahutatud.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
 Varem arveldatud tasutehingu täieliku krediidi arveldamine.
                 </p>
             </td>
@@ -260,7 +305,7 @@ Varem arveldatud vahe-eesmärgi täieliku krediidi arveldamine.
 Arveldatud müügi tühistamine algse vahe-eesmärgi jaoks mõeldud arverea üksikasjad summa puhul.
                 </p>
                 <p>
-Projekti lepingurea vahe-eesmärgi arve või arveldamise olek on muudetud olekuks **Arveldamiseks valmis**.
+Vahe-etapi arve olek värskendatakse valikult <b>Kliendi arve on sisestatud</b> valikule <b>Arveldamiseks valmis</b>.
                 </p>
             </td>
         </tr>

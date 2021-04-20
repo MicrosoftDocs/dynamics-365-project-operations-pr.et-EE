@@ -1,31 +1,41 @@
 ---
-title: Projektide prognoosimise ülevaade
-description: Selles teemas antakse teavet hinnangute kohta rakenduses Dynamics 365 Project Operations.
-author: ruhercul
+title: Finantsprognoosi mõisted
+description: See teema annab teavet Project Operationsi projektide finantsprognooside kohta.
+author: rumant
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: a251be995abddba04cee689714d0a8f4e9d9e7d7
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286873"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701731"
 ---
-# <a name="estimate-projects-overview"></a>Projektide prognoosimise ülevaade
+# <a name="financial-estimation-concepts"></a>Finantsprognoosi mõisted
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
+Rakenduses Dynamics 365 Project Operations saate luua oma projektide finantsprognoosid kahes etapis. 
+1. Müügieelses etapis enne tehingu võitmist. 
+2. Täitmisetapis pärast projektilepingu loomist. 
+
+Finantsprognoosi saate luua projektipõhise töö jaoks, kasutades mis tahes lehte järgmise kolme seas.
+- Leht **Hinnapakkumine**, kasutades hinnapakkumise rea üksikasju.  
+- Leht **Projekti lepingurida**, kasutades lepingurea üksikasju. 
+- Leht **Projekt**, kasutades vahekaardi lehti **Ülesanded** või **Kuluprognoosid**.
+
+## <a name="use-a-project-quote-to-create-an-estimate"></a>Prognoosi loomiseks projekti hinnapakkumise kasutamine
 Projektil põhineva hinnapakkumise puhul saate projekti elluviimiseks nõutava töö prognoosimiseks kasutada olemit **Hinnapakkumise rea üksikasjad**. Seejärel saate seda hinnangut kliendiga jagada.
 
 Projektipõhistel hinnapakkumise ridadel võib olla null kuni palju hinnapakkumise rea üksikasju. Hinnapakkumise rea üksikasju kasutatakse aja, kulude või tasude hindamiseks. Microsoft Dynamics 365 Project Operations ei luba hinnapakkumise rea üksikasjade jaoks olulisi hinnanguid. Neid nimetatakse tehingu klassideks. Hinnangulise maksusumma saab sisestada ka tehingu klassi.
 
 Lisaks tehingu klassidele on hinnapakkumise rea üksikasjades tehingu tüüp. Hinnapakkumise rea üksikasjade joaks toetatakse kahte tüüpi tehinguid: **Kulud** ja **Projekti leping**.
 
-## <a name="estimate-by-using-a-contract"></a>Hindamine lepingu abil
+## <a name="use-a-project-contract-to-create-an-estimate"></a>Prognoosi loomiseks projektilepingu kasutamine
 
 Kui kasutasite projektil põhineva lepingu loomiseks hinnapakkumist, kopeeritakse projekti lepingusse hinnapakkumise iga hinnapakkumise rea kohta esitatud hinnang. Projekti lepingu ülesehitus on nagu projekti hinnapakkumise ülesehitus, millel on read, rea üksikasjad ja arve ajakavad.
 
@@ -35,27 +45,21 @@ Lepingu rea üksikasju kasutatakse aja, kulude või tasude hindamiseks. Eeldatav
 
 Materjali prognoosid ei ole lepingurea üksikasjade seas lubatud.
 
-Projekti lepinguga toetatavad protsessid on arvete loomine ja kinnitamine. Arve loomine loob projektil põhineva arve projekti, mis sisaldab kõiki arveldamata müügi tegelikke näitajaid kuni tänase kuupäevani.
+## <a name="use-a-project-to-create-an-estimate"></a>Prognoosi loomiseks projekti kasutamine 
 
-Kinnitamine teeb lepingu kirjutuskaitstuks ja muudab selle olekust **Mustand** olekuks **Kinnitatud**. Pärast selle toimingu tegemist ei saa te seda tagasi võtta. Kuna see tegevus on püsiv, on parim tava lepingu olekus **Mustand** hoidmine.
-
-Lepingute mustandite ja kinnitatud lepingute eelnõude ainus erinevus on nende olek ja asjaolu, et lepingute mustandeid saab muuta, kuid kinnitatud lepingud ei saa. Arvete loomise ja tegelike jälgimise saab teha nii lepingutes kui ka kinnitatud lepingute eelnõudes.
-
-Projecti toimingud ei toeta lepingute või projektide tellimuste muutmist.
-
-## <a name="estimating-projects"></a>Projektide hindamine
-
-Saate hinnata projektidega seotud aega ja kulusid. Projecti toimingud ei luba projektides kasutatavate materjalide või tasude hindamist.
+Saate hinnata projektidega seotud aega ja kulusid. Project Operations ei toeta projektidele materjalide ega tasude prognoose.
 
 Aja hinnangud luuakse, kui loote tööülesande ja tuvastate toimingu sooritamiseks vajaliku üldise ressursi atribuudid. Aja hinnangud luuakse ajastamise toimingutest. Aja hinnanguid ei looda, kui loote üldised meeskonnaliikmed väljaspool ajakava konteksti.
 
-Kulude hinnangud lehe **Hinnangud** ruudustikus.
+Kulude hinnangud lehe **Kuluprognoosid** ruudustikus.
 
-## <a name="understanding-estimation"></a>Hinnangu ülevaade
+Projekti prognoosi loomist peetakse parimaks tavaks, kuna saate koostada iga projektiplaani ülesande kohta tööjõu või aja ja kulude alt üles üksikasjalikud hinnangud. Seejärel saate kasutada seda üksikasjalikku hinnangut, et luua prognoose iga hinnapakkumise rea kohta ja koostada kliendi jaoks palju tõepärasema hinnapakkumise. Kui impordite või loote projektiplaani abil hinnapakkumise rea jaoks üksikasjaliku hinnangu, impordib Project Operations nende hinnangute müügiväärtused ja kuluväärtused. Pärast importimist saate vaadata projekti hinnapakkumise kasumlikkust, marginaale ja teostatavuse mõõdikuid.
 
-Kasutage allolevat tabelit äriloogika mõistmiseks hindamise faasis.
+## <a name="understanding-estimates"></a>Prognooside mõistine
 
-| Stsenaarium                                                                                                                                                                                                                                                                                                                                          | Olemikirje                                                                                                                                                                                                       | Kandetüüp | Tehingu klass | Lisateave                                                            |
+Kasutage allolevat tabelit äriloogika mõistmiseks prognoosimise faasis.
+
+| Stsenaarium                                                                                                                                                                                                                                                                                                                                          | Olemikirje                                                                                                                                                                                                       | Kandetüüp | Kande liik | Lisateave                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|-------------|-----------------------------------------------------------------------------------|
 | Kui teil on vaja hinnata hinnapakkumise aja müügiväärtust                                                                                                                                                                                                                                                                                    | Hinnapakkumise rea üksikasjade (QLD) kirje on loodud                                                                                                                                                                               | Projektileping | Time        | Tehingu päritolu väli müügi poolel QLD real viitab kulu poole QLD-le |
 |                                                                                                                                                                                                                                                                                     | Süsteem loob teise QLD kirje, kus talletatakse vastavad omahinna väärtused. Süsteem kopeerib kõik mitte-raha väljad müügi QLD-st kulu QLD-sse.                                                                                                                                                                               | Kulu | Time        | Tehingu päritolu väli müügi poolel hinnapakkumise rea üksikasjade (QLD) real viitab kulu poole QLD-le |

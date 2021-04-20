@@ -3,17 +3,17 @@ title: Tööjõukulu arveldusmäärade seadistamine
 description: Selles teemas kirjeldatakse tööjõukulu määrade seadistamist Project Operationsis.
 author: rumant
 manager: Annbe
-ms.date: 10/16/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f0267fce673bbd0080022a8abf2dd0020cc8b662
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274813"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877395"
 ---
 # <a name="set-up-labor-bill-rates"></a>Töö arvelduskulu seadistamine
 
@@ -21,8 +21,8 @@ _ **Rakendub:** Project Operations ressursipõhiste/mitteladustatavate stsenaari
 
 Igale hinnakirjale on seadistatud rolli hinnad või tööjõu määrad, mis kehtivad hinnakirja päises toodud kontekstile ja kehtivuskuupäevadele. Aja arvemäärasid Dynamics 365 Project Operationsis saab seadistada ainult ühes valuutas, mis on hinnakirja päise valuuta.
 
-1. Müügi hinnakirjale tööjõulukul arveldusmäärade seadistamiseks looge hinnakirja päise põhjal hinnakiri. 
-2. Valige andmeruudustiku vahekaardil **Rolli hinnad** suvand **+ Uus rolli hind**. 
+1. Müügihinna loendis töö arvelduskulu häälestamiseks avage **Müük** > **Kliendid** > **Hinnakirjad** ja valige **Uus**, et luua uus hinnakiri. 
+2. Valige andmeruudustiku vahekaardil **Rolli hinnad** suvand **Uus rolli hind**. 
 3. Sisestage paanil **Kiirloomine** rolli ja organisatsiooni üksuse kombinatsioon, mille jaoks teil on arveldusmäära seadistada vaja.
 
    Järgmises tabelis on rolli hinna rea vahekaardi **Üldine** väljad ja paan **Kiirloomine**, mida peate müügi hinnakirjale rolli hindade loomisel meeles pidama.

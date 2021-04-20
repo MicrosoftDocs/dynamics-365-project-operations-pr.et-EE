@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 711255ab66f84fe46d0f16fa72e5a10fe0360394
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 0e1ff0db42adb8b991b26dca1585bd603b2e2276
+ms.sourcegitcommit: f57408d6637f670b920d7ce95f8ace8eb1963093
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499666"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5664638"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-29-v3"></a>Mida on uut või muudetud rakenduse Project Service Automation värskenduse väljaandes 29, V3
 
@@ -30,7 +30,7 @@ ms.locfileid: "5499666"
 
 Meil on hea meel teatada uusimast Dynamics 365 Project Service Automationi rakenduse värskendusest. See väljaanne sisaldab mõningaid olulisi kvaliteedi, jõudluse ja kasutatavuse täiustusi. See väljalase ühildub Dynamics 365 9. x-iga. Sellele väljaandele värskendamiseks külastage veebis Dynamics 365 administreerimiskeskuse lahenduste lehte värskenduse installimiseks. Lisateabe saamiseks vt jaotist [Eelistatud lahenduse installimine, värskendamine või eemaldamine](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
-Selles teemas loetletakse Project Service Automationi V3 värskenduse väljalaske 29 uusi või muudetud funktsioone ja parandusi. Selle versiooni järgu number on V3.10.45.98 ja see on kõigile kättesaadav 2021. a veebruaris ise värskendamise kaudu.
+Selles teemas loetletakse Project Service Automationi V3 värskenduse väljalaske 29 uusi või muudetud funktsioone ja parandusi. Selle versiooni järgu number on V3.10.47.7 ja see on kõigile kättesaadav 2021. a veebruaris ise värskendamise kaudu.
 
 ## <a name="update-release-29"></a>Värskenduste väljalase 29
 

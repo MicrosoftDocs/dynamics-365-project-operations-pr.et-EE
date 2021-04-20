@@ -3,17 +3,17 @@ title: Projektilepingute projekti hinnakirja haldamine
 description: See teema sisaldab teavet projektilepingutes projekti hinnakirjade haldamise kohta.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ffc48782394995781535ae56142dc76afeb9a040
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278593"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858558"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Projektilepingute projekti hinnakirja haldamine
 
@@ -21,13 +21,13 @@ _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaa
 
 Projekti lepingud rakenduses Dynamics 365 Project Operations on loodud lepingus mitmel päeval kehtivate müügi hinnakirjade toetamiseks. Project Operationis on uus seostatud olem nimega **Projekti hinnakirjad**. Sellel olemil on üks-mitmele-vastavuse seos projektilepinguga.
 
-Projekti hinnakirju kasutatakse projekti aja ja kulutehingute hinnastamiseks. Kui lepingul on üks või mitu projekti hinnakirja, kasutatakse neid hinnakirju aja ja kulude kalkulatsioonide ning tegelike näitajate hinna jaoks projektide puhu, mis on seostatud lepinguga lepingurea kaudu.
+Projekti hinnakirju kasutatakse projekti aja, materjali ja kulutehingute hinna jaoks. Kui lepingul on üks või mitu projekti hinnakirja, kasutatakse neid hinnakirju aja, materjali, kuluprognooside ja tegelike näitajate hinna arvestamiseks projektide jaoks, mis on lepinguga lepingurea kaudu seotud.
 
-Kui projektilepingus ei ole projekti hinnakirju, näete hoiatussõnumit, et projekti hinnakirju pole ja teie prognoosidele, tegelikule projekti tööle ega kuludele ei lisata hinda. Müügiväärtustele ei lisata hinda.
+Kui projektilepingus pole projekti hinnakirju, kuvatakse hoiatusteade selle kohta, kas projekti hinnakirju pole, ning teie hinnanguid, projekti tegelikku tööd, materjale ja logitud kulusid ei hinnata. Müügiväärtustele ei lisata hinda.
 
 ## <a name="associate-or-unassociate-a-project-price-list-on-a-project-contract"></a>Projekti hinnakirja projektilepinguga seostamine või seose tühistamine
 
-### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-and-expenses"></a>Projektipõhise töö ja kulude prognoosimiseks konkreetse hinnakirja loomine või seostamine
+### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-material-and-expenses"></a>Konkreetse hinnakirja loomine või seostamine projektipõhise töö, materjali ja kuludega
 
 1. Valige projektilepingus vahekaart **Projekti hinnakirjad**.
 2. Valige andmeruudustikus suvand **+ Lisa uus projekti hinnakiri**.
@@ -52,7 +52,7 @@ Kui projektilepingus ei ole projekti hinnakirju, näete hoiatussõnumit, et proj
 
 ## <a name="set-up-automatic-defaulting-of-project-price-lists-on-a-contract"></a>Lepingu projekti hinnakirjade automaatsete vaikeväärtuste määramise häälestamine
 
-Projekti hinnakirja saab häälestada projektilepingu vaikeloendina. See seadistus aitab tagada, et teie organisatsiooni kõik lepingud algavad konkreetsel hinnaperioodil standardse hinnakirjaga.
+Projekti hinnakirja saab häälestada projekti vaikehinnakirjana. See seadistus tagab, et kõik teie organisatsiooni lepingud algaksid alati selle hinnaperioodi standardse projektihinnakirjaga.
 
 ### <a name="set-up-the-organizational-default-for-project-price-lists"></a>Projekti hinnakirjade organisatsiooni vaikeväärtuste häälestamine
 

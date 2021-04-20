@@ -1,29 +1,27 @@
 ---
-title: Arve automaatse loomise konfigureerimine – liht
-description: Selles teemas antakse teavet näidisarvete automaatse loomise konfigureerimise kohta.
+title: Arve automaatse loomise häälestamine
+description: See teema sisaldab teavet näidisarvete automaatse loomise häälestamise ja konfigureerimise kohta.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 359c5902e0b6a08ab7fc982095062e4d1816db6c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274318"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866812"
 ---
-# <a name="configure-automatic-invoice-creation---lite"></a>Arve automaatse loomise konfigureerimine – liht
+# <a name="set-up-automatic-invoice-creation"></a>Arve automaatse loomise häälestamine 
  
-_**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
+_**Kehtib järgmistele:** lihtjuurutamine – tehing näidisarveldusele, Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks_
 
 Automaatse arve loomise saate konfigureerida rakenduses Dynamics 365 Project Operations. Süsteem loob iga projekti lepingu ja lepingurea jaoks arve ajakaval põhineva näidisarve mustandi. Arve ajakavad konfigureeritakse lepingurea tasemel. Igal lepingureal võib olla eraldi arve ajakava või saab igale lepingureale kaasata sama arve ajakava.
 
-Arve loomisel loob süsteem alati projekti lepingu kohta vähemalt ühe arve. Mõnel juhul luuakse mitu arvet.
-
-Näiteks kui lepingul on mitu klienti, luuakse sama arv arveid kui on kliente, kellel on selle projekti lepingu kohta arveldatavaid tehingud.
+Arve loomisel loob süsteem alati projekti lepingu kohta vähemalt ühe arve. Mõnel juhul luuakse mitu arvet. Näiteks kui lepingul on mitu klienti, luuakse sama arv arveid kui on kliente, kellel on selle projekti lepingu kohta arveldatavaid tehingud.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Tehingute arvesse kaasamise mõistmine 
 

@@ -1,5 +1,5 @@
 ---
-title: Projektipõhiste lepinguridadega töötamine – liht
+title: Projektipõhiste lepinguridade ülevaade
 description: See teema sisaldab teavet projektipõhiste lepinguridadega töötamise kohta.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3b0ff564c2cf9bc5681e14efbfa7983d6959c155
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 824fdd54d7b513b49afd1a6d76d3387df81418e2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273283"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858153"
 ---
-# <a name="work-with-projectbased-contract-lines---lite"></a>Projektipõhiste lepinguridadega töötamine – liht
+# <a name="project-based-contract-lines-overview"></a>Projektipõhiste lepinguridade ülevaade
 
-_**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
+_**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
 Rakenduse Dynamics 365 Project Operations projektipõhised lepinguread on loodud sisaldama suhtluse projekti töö konkreetsete komponentide prognoose ja arvelduse kokkuleppeid. Projektipõhise lepingurea struktuur on laiendatud projekti prognooside ja arveldamise stsenaariumide jaoks järgmiste kontseptsioonidega.
 
@@ -35,11 +35,12 @@ Järgmises tabelis on toodud projektopõhiste lepinguridade vahekaardi **Üldine
 | --- | --- | --- |
 | **Nimi** | Lepingure nimi. See määratleb prognoositava lepingu diskreetse komponendi. Hinnapakkumise põhjal loodud projektilepingu puhul kopeeritakse see väärtus projektipõhise hinnapakkumise rea vastavast väärtusest. | Projekti arvereale kopeeritav nimi, mis luuakse arve loomise ajal lepingureast. |
 | **Arveldusmeetod** | Hinnapakkumise põhjal loodud projektilepingu puhul kopeeritakse see väärtus projektipõhise hinnapakkumise rea vastavalt väljalt. See on suvandikomplekt, mis tähistab rakenduse Project Operations kahte peamist toetatavat lepingumudelit.</br>- **Fikseeritud hind**</br>- **Aeg ja materjal** | Vastavalt viidatud lepingurea arveldusmeetodile käsitletakse tegelikku kannet. Kui tegeliku näitaja poolt viidatud lepungureal on aja ja materjali arveldusmeetod, luuakse kulu ja arveldamata müügi tegelike näitajate kirjed. Kui tegeliku näitaja viidatud lepingureal on fikseeritud arveldusmeetod, luuakse ainult tegelik kulu. |
-| **Project** | Selle välja abil saate tuvastada projekti, mida kasutatakse selle tegevusega seotud tööde pakkumiseks. | Seda väärtust kasutatakse koos suvanditega **Kaasatud ülesanded** ja **Kaasatud tehinguklassid**, et lahendada lepingurea viidet tegelikule või prognoositavale rea kirjele. |
+| **Project** | Selle välja abil saate tuvastada projekti, mida kasutatakse selle tegevusega seotud tööde pakkumiseks. | Seda väärtust kasutatakse koos suvanditega **Kaasatud tööülesanded** ja **Kaasatud tehinguklassid**, et lahendada tegelikul või prognoositud reakirjel lepingurea viide. |
 | **Kaasatud ülesanded** | Näitab, kas see lepingurida sisaldab valitud projekti kõiki projekti ülesandeid või ainult ülesannete alamhulka. See on suvandikomplekt, millel on järgmised võimalikud väärtused.</br>- **Kõik projekti ülesanded**</br>- **Ainult valitud projekti ülesanded**. Selle välja tühi väärtus võrdub suvandi **Kõik projekti ülesanded** valimisega. | Kui valitud on suvand **Aiult valitud ülesanded**, saate valida konkreetsed ülesanded ja seostada need vahekaardil **Ülesande arvelduse seadistus** lehel **Projekt** selle lepingureaga. Väärtust kasutatakse koos klassidega **Projekt** ja **Kaasatud tehingud**, et lahendada lepingurea viidet tegelikule või prognoositavale rea kirjele. |
-| **Kaasa aeg** | Lipp näitab, kas valitud projektiga seotud ajakanded või tööjõukulud kaasatakse sellele lepingureale. Väärtus **Ei** näitab, et ajakandeid ega tööjõukulusid ei kaasata sellele lepingureale. Väärtus **Jah** näitab, et kaasatakse. | Seda väärtust kasutatakse koos projektiga, et lahendada lepingurea viidet tegelikule või prognoositava rea kirjele. |
-| **Kaasa kulu** | Lipp näitab, kas valitud projekti kulude maksumused kaasatakse sellele lepingureale. Väärtus **Ei** näitab, et kulude maksumust ei kaasata sellele lepingureale. Väärtus **Jah** näitab, et kaasatakse. | Seda väärtust kasutatakse koos projektiga, et lahendada lepingurea viidet tegelikule või prognoositava rea kirjele. |
-| **Kaasa tasu** | Lipp näitab, kas valitud projekti tasud kaasatakse sellele lepingureale. Väärtus **Ei** näitab, et tasusid ei kaasata sellele lepingureale. Väärtus **Jah** näitab, et kaasatakse. | Seda väärtust kasutatakse koos projektiga, et lahendada lepingurea viidet tegelikule või prognoositava rea kirjele. |
+| **Kaasa aeg** | Väärtus **Jah**/**Ei** näitab, kas valitud projekti tehingu või tööjõu maksumused lisatakse sellele lepingureale. Väärtus **Ei** näitab, et ajakandeid ega tööjõukulusid ei kaasata sellele lepingureale. Väärtus **Jah** näitab, et kaasatakse. | Seda väärtust kasutatakse seoses projektiga, et lahendada lepingurea kirje tegelikul või prognoositud rea kirjel. |
+| **Kaasa kulu** | Väärtus **Jah**/**Ei** näitab, kas valitud projekti kulu maksumused lisatakse sellele lepingureale. Väärtus **Ei** näitab, et kulude maksumust ei kaasata sellele lepingureale. Väärtus **Jah** näitab, et kaasatakse. | Seda väärtust kasutatakse seoses projektiga, et lahendada lepingurea kirje tegelikul või prognoositud rea kirjel. |
+| **Kaasa materjalid** | Väärtus **Jah**/**Ei** näitab, kas valitud projekti materjali maksumused lisatakse sellele lepingureale. Väärtus **Ei** näitab, et materjali maksumust ei lisata sellele lepingureale. Väärtus **Jah** näitab, et kaasatakse. | Seda väärtust kasutatakse seoses projektiga, et lahendada lepingurea kirje tegelikul või prognoositud rea kirjel. |
+| **Kaasa tasu** | Väärtus **Jah**/**Ei** näitab, kas valitud projekti tasud lisatakse sellele lepingureale. Väärtus **Ei** näitab, et tasusid ei kaasata sellele lepingureale. Väärtus **Jah** näitab, et kaasatakse. | Seda väärtust kasutatakse seoses projektiga, et lahendada lepingurea kirje tegelikul või prognoositud rea kirjel. |
 | **Lepingu summa** | Fikseeritud hinnaga lepingurea puhul on see summa kokkulepitud väärtus, mille eest saadetakse kliendile arve kõikide selle lepingureaga seostatud töökomponentide eest. Aja ja materjali lepingurea puhul on see summa prognoositav väärtus, mille eest saadetakse kliendile arve kõikide selle lepingureaga seostatud töökomponentide eest. Hinnapakkumisest loodud loodud projektilepingu puhul kopeeritakse see väärtus projektipõhise hinnapakkumise rea vastavalt väljalt. Kui projektipõhisel lepingureal on rea üksikasjad, lukustatakse see väli redigeerimiseks ja see summeeritakse lepingurea üksikasjade summa põhjal. | Kui lepingureal on rea üksikasjad olemas, saab seda väärtust muuta, muutes rea üksikasjade summasid. Fikseeritud hinnaga lepingurea korral kasutatakse seda väärtust perioodilise arvelduse vahe-eesmärkide maksueelse summa loomiseks. |
 | **Hinnanguline maks** | Kasutaja saab seda välja redigeerida, et sisestada lepingurea eeldatav maksusumma. Kui projektipõhisel lepingureal on rea üksikasjad, lukustatakse see väli redigeerimiseks ja see summeeritakse lepingurea üksikasjade maksusumma põhjal. | Kui lepingureal on rea üksikasjad olemas, saab seda väärtust muuta, muutes rea üksikasjade maksusummasid. Fikseeritud hinnaga lepingurea korral kasutatakse seda väärtust perioodilise arvelduse vahe-eesmärkide maksusumma loomiseks. |
 | **Lepingu summa pärast maksu mahaarvamist** | Lepingu summa pärast maksu mahaarvamist. See väli on kirjutuskaitstud ja arvutatakse järgnevalt: **lepingu summa + maks**. | Fikseeritud hinnaga lepingurea korral kasutatakse seda väärtust perioodilise arvelduse vahe-eesmärkide loomiseks. |
@@ -54,18 +55,559 @@ Järgmises tabelis on toodud projektopõhiste lepinguridade vahekaardi **Üldine
 
 3. reegel: kui väli **Kaasatud ülesanded** on määratud valikule **Ainult valitud projekti ülesanded**, saab projekti ja teatud tehinguklassid kaasata mitmele lepingu projektipõhisele lepingureale.
 
-| Leping | Lepingurida | Project | Kaasatud ülesanded      | Kaasa aeg | Kaasa kulu | Kaasa tasu | Kehtiv/kehtetu | Põhjus                                                                                                                                                                                                                                                                                                                                                                                                                         |
-|----------|---------------|---------|---------------------|--------------|-----------------|-------------|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| C1       | CL1           | P1      | Tühi               | Ja          | Ja             | Ja         | Kehtetu       | Reegli nr 2 rikkumine. Projekti P1 aeg, kulu ja tasud kaasatakse nii lepinguridadele CL1 kui ka CL2.                                                                                                                                                                                                                                                                                                              |
-| C1       | CL2           | P1      | Tühi               | Ja          | Ja             | Ja         | Kehtetu       | Reegli nr 2 rikkumine. Projekti P1 aeg, kulu ja tasud kaasatakse nii lepinguridadele CL1 kui ka CL2.                                                                                                                                                                                                                                                                                                              |
-| C1       | CL1           | P1      | Tühi               | Ja          | No              | Ja         | Kehtetu       | Reegli nr 2 rikkumine. Projekti P1 aeg ja tasud kaasatakse nii lepinguridadele CL1 kui ka CL2.                                                                                                                                                                                                                                                                                                                          |
-| C1       | CL2           | P1      | Tühi               | Ja          | Ja             | Ja         | Kehtetu       | Reegli nr 2 rikkumine. Projekti P1 aeg ja tasud kaasatakse nii lepinguridadele CL1 kui ka CL2.                                                                                                                                                                                                                                                                                                                          |
-| C1       | CL1           | P1      | Tühi               | Ja          | No              | Ja         | Kehtib           | Projekti P1 aeg ja tasud kaasatakse CL1-s. Projekti P1 kulu on kaasatud reale CL2. </br>   Igale lepingureale kaasatava puhul ei esine ülekatteid ja seega need kehtivad.                                                                                                                                                                                                                         |
-| C1       | CL2           | P1      | Tühi               | No           | Ja             | No          | Kehtib           | Projekti P1 aeg ja tasud kaasatakse CL1-s. Projekti P1 kulu on kaasatud reale CL2. </br>   Igale lepingureale kaasatava puhul ei esine ülekatteid ja seega need kehtivad.                                                                                                                                                                                                                         |
-| C1       | CL1           | P1      | Ainult valitud ülesanded | Ja          | Ja             | Ja         | Kehtetu       | Reegli nr 2 rikkumine.   </br>- C1 sisaldab projekti P1 ülesannete andmehulga aega, kulusid ja tasusid. </br>- CL2 hõlmab kogu projektiga P1 seotud aega, kulu ja tasusid ning seega kattub see sellega, mis on kaasatud C1-te.                                                                                                                                                                                          |
-| C1       | CL2           | P1      | Tühi               | Ja          | Ja             | Ja         | Kehtetu       | Reegli nr 2 rikkumine.   </br>- C1 sisaldab projekti P1 ülesannete andmehulga aega, kulusid ja tasusid. </br>- CL2 hõlmab kogu projektiga P1 seotud aega, kulu ja tasusid ning seega kattub see sellega, mis on kaasatud C1-te.                                                                                                                                                                                          |
-| C1       | CL1           | P1      | Ainult valitud ülesanded | Ja          | Ja             | Ja         | Kehtib           | Reegli nr 3 kohta</br>- C1 sisaldab projekti P1 ülesannete andmehulka aeg, kulud ja tasud. </br> - CL2 sisaldab projekti P1 ülesannete andmehulka aeg, kulud ja tasud. </br> Ainus täiendav valideerimine on CL1 tööülesannete andmekomplekt, mis erineb CL2 tööülesannete andmekomplektist, et vältida kattumist. Selle valideerimise teeb süsteem, kui ülesanded on seostatud. |
-| C1       | CL2           | P1      | Ainult valitud ülesanded | Ja          | Ja             | Ja         | Kehtib           | Reegli nr 3 kohta</br>- C1 sisaldab projekti P1 ülesannete andmehulka aeg, kulud ja tasud. </br> - CL2 sisaldab projekti P1 ülesannete andmehulka aeg, kulud ja tasud. </br> Ainus täiendav valideerimine on CL1 tööülesannete andmekomplekt, mis erineb CL2 tööülesannete andmekomplektist, et vältida kattumist. Selle valideerimise teeb süsteem, kui ülesanded on seostatud. |
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+                    <strong>Leping</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Lepingurida</strong>
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    <strong>Project</strong>
+                </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+                    <strong>Kaasatud ülesanded</strong>
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    <strong>Kaasa aeg</strong>
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    <strong>Kaasa kulu</strong>
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    <strong>Kaasa materjalid</strong>
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    <strong>Kaasamine</strong>
+                </p>
+                <p>
+                    <strong>Tasu</strong>
+                </p>
+            </td>
+            <td width="53" valign="top">
+                <p>
+                    <strong>Kehtiv/kehtetu</strong>
+                </p>
+            </td>
+            <td width="250" valign="top">
+                <p>
+                    <strong>Põhjus</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL1 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+P1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Tühi </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+Kehtetu </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+Reegli nr 2 rikkumine. P1-projekti aeg, kulu, materjalid ja tasud on kaasatud nii lepingureale CL1 kui ka CL2.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL2 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+P1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Tühi </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Ja </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL1 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+P1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Tühi </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+No </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+Kehtetu </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+Reegli nr 2 rikkumine. P1-projekti aeg, materjalid ja tasud on kaasatud nii lepingureale CL1 kui ka CL2.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL2 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+P1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Tühi </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Ja </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL1 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+P1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Tühi </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+No </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+Sobiv </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+P1-projekti aeg, materjale ja tasud on kaasatud reale CL1.
+                </p>
+                <ul>
+                    <li>
+P1-projekti kulu on kaasatud reale CL2.
+                    </li>
+                </ul>
+                <p>
+Igal lepingureal sisalduv ei kattu ja on seetõttu kehtiv.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL2 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+P1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Tühi </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+No </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+No </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+No </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL1 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+P1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Ainult valitud ülesanded </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+Kehtetu </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+Reegli nr 2 rikkumine </p>
+                <p>
+C1 sisaldab aega, materjale, kulusid ja tasusid P1-projekti ülesannete alamhulgas.
+                </p>
+                <p>
+CL2 hõlmab kogu projektiga P1 seotud aega, materjale, kulutusi ja tasusid ning seega kattub see sellega, mis on kaasatud C1-te.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL2 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+P1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Tühi </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Ja </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL1 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+P1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Ainult valitud ülesanded </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+Sobiv </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+Reegli nr 3 kohta </p>
+                <p>
+C1 sisaldab aega, kulusid, materjale ja tasusid P1-projekti ülesannete alamhulgas.
+                </p>
+                <p>
+CL2 sisaldab aega, kulusid, materjale ja tasusid P1-projekti ülesannete alamhulgas.
+                </p>
+                <p>
+Ainus täiendav valideerimine on CL1 toimingute alamhulga ümber, mis erineb CL2 tööülesannete alamhulgast, tagamaks, et seal poleks kattumisi. Seda teeb süsteem ülesannete sidumisel.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL2 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+P1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Ainult valitud ülesanded </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Ja </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

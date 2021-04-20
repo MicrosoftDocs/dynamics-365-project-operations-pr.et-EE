@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f3f18644a51d87cf3bb5b4effba2236eaf3d81a9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0aedaa2ec77bb54031fccd0db2872e0aa5fea5e0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273418"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858243"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Projekti prognooside importimine projektipõhise hinapakkumise reale – liht
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Projekti prognooside importimine projektipõhise hinapakkumise reale 
 
-_**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
+_**Kehtib järgmistele:** lihtjuurutamine – tehing näidisarveldusele, Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks_
 
 Kui projekt luuakse müügieelses etapis, saate valida, kas importida projekti finantskalkulatsioonid projektipõhise hinnapakkumise reale.
 
@@ -30,7 +30,7 @@ Kui projekt luuakse müügieelses etapis, saate valida, kas importida projekti f
   - **Roll** 
   - **Projekti ülesanne**
 
-Olenevalt teie valikust kopeeritakse üle projekti prognoos kõigi selle hinnapakkumise rea kannete klasside kohta. Kaasatud tehinguklasside kontrollimiseks valige projektipõhisel hinnapakkumise real vahekaart **Üldine** ja kontrollige suvandite **Kaasa aeg**, **Kaasa kulu** ja **Kaasa tasud** väärtuseid.  Kui soovite kontrollida, millised tööülesanded on kaasatud, valige hinnapakkumise rea vahekaart **Arveldatavad tööülesanded**.
+Olenevalt teie valikust kopeeritakse üle projekti prognoos kõigi selle hinnapakkumise rea kannete klasside kohta. Kontrollimaks, millised tehinguklassid on kaasatud, valige projektipõhise hinnapakkumise real vahekaart **Üldine** ja kontrollige väärtusi **Kaasa aeg**, **Kaasa kulud**, **Kaasa materjalid** ja **Kaasa tasud**.  Kui soovite kontrollida, millised tööülesanded on kaasatud, valige hinnapakkumise rea vahekaart **Arveldatavad tööülesanded**.
 
 Olenevalt seotud ülesannetest ja kaasatud tehinguklassidest imporditakse nende tööülesannete ja tehinguklassi kombinatsioonide prognoosid hinnapakkumise reale.
 

@@ -3,17 +3,17 @@ title: Juurutamise tüübi määratlemine
 description: Selles teemas antakse teavet, et aidata teha kindlaks oma ettevõtte projektitoimingute õige juurutamistüüp.
 author: stsporen
 manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479559"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663589"
 ---
 # <a name="determine-your-deployment-type"></a>Juurutamise tüübi määratlemine
 
@@ -44,7 +44,7 @@ Meie [juurutuse küsimustik](https://aka.ms/provisionprojectoperations) aitab te
 - [Project Operations ressursi/mitteaktsia stsenaariumite jaoks](#integrated)
 - [Project Operations ressursi/tootmise tellimuste stsenaariumite jaoks](#pma)
 
-Project Operations toetab juriidilise olemi tasemel konfguratsioonide kaudu samas keskkonnas ladustatavat/tootmistellimuste stsenaariumeid ja mitteladustatavaid/ressursipõhiseid stsenaariumeid. Näiteks saab Contoso kasutada ladustatud/tootmistellimuse võimalusi oma USA tootmisettevõttes (juriidiline olem = Contoso tootmine Ameerika Ühendriikides). Contoso saab kasutada ladustatud/tootmistellimuse võimalusi oma Contoso robotõlgade hooldamise asutuses Ühendkuningriigis (juriidiline olem = Contoso robootika Ühendkuningriigis).
+Project Operations toetab juriidilise olemi tasemel konfguratsioonide kaudu samas keskkonnas ladustatavat/tootmistellimuste stsenaariumeid ja mitteladustatavaid/ressursipõhiseid stsenaariumeid. Näiteks saab Contoso kasutada laopõhiseid/tootmistellimuste võimalusi oma USA tootmisüksuses (juriidiline isik = Contoso Manufacturing, Ameerika Ühendriigid). Contoso saab kasutada mittelaopõhiseid/ressursipõhiseid võimalusi oma ettevõtte Contoso Robotics Arms teenindusüksuses Ühendkuningriigis (juriidiline isik = Contoso Robotics, Ühendkuningriik).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Lihtjuurutamine – tehing näidisarveldusele
 
@@ -56,7 +56,7 @@ Lite’i juurutus sisaldab järgmisi võimalusi.
 - Ühtne ressursihaldus
 - Aja jälgimine
 - Põhikulu
-- Näidisarvedamine ja ja kliendile suunatud arveldamine 
+- Näidisarveldus projektijuhi läbivaatuseks ja redigeerimiseks 
 
 #### <a name="deployment-steps"></a>Juurutamise sammud
 Tehke [juurutamise küsimustiku](https://aka.ms/provisionprojectoperations) abil kindlaks rakenduse Project Operations jaoks parim juurutamise mudel.
@@ -94,7 +94,7 @@ Selle juurutuse kohta leiate teavet teemadest [Eelversiooni kordustellimuseks re
 - Täisarveldus
 - Tulu kajastamine
 - Tootmistellimused
-- Materjalide tugi
+- Laopõhiste materjalide tugi koos varudega
 
 #### <a name="deployment-steps"></a>Juurutamise sammud
 Tehke [juurutamise küsimustiku](https://aka.ms/provisionprojectoperations) abil kindlaks rakenduse Project Operations jaoks parim juurutamise mudel.

@@ -3,19 +3,19 @@ title: Avansimakse
 description: Selles teemas antakse teavet avansimaksete kohta.
 author: suvaidya
 manager: AnnBe
-ms.date: 02/01/2021
+ms.date: 03/25/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6da50ac5611fcbd54aef8d8591ee112200468177
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ac8956720deac9e9c9191cefb870a7fbbeedcca
+ms.sourcegitcommit: 9ebf7dd501898053bfa824f732adabf3f273613b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276703"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5715555"
 ---
 # <a name="cash-advance"></a>Avansimakse
 
@@ -60,7 +60,22 @@ Järgmise toimingu teeb tavaliselt raamatupidaja või kasutaja, kellel on raamat
 
 Kui loote ja esitate juba saadud avansimakse jaoks kuluaruande, korrigeeritakse kulud automaatselt avansimakse suhtes. Kui teie avansimakse on suurem kui kulutatud summa, peate tagastama saldo ettevõttele, kasutades kulukategooriat **Tagastatud raha**. Kui ettevõtte makstud avansimakse on väiksem, kui teil kulunud summa, peab ettevõtte saldo teile tagasi maksma. 
 
-### <a name="example"></a>Näide
+### <a name="select-cash-advances-that-apply-to-your-expenses"></a>Valige kuludele rakenduvad sularahaettemaksed
+Enne kuluaruande saatmist saate valida sularahaettemakse, mis ühtib aruande kulutehingutega. Selle funktsiooni kasutamiseks tuleb tööruumis **Funktsiooni haldamine** järgmised kaks funktsiooni lubada.
+
+  - Ümberkujundatud kuluaruanded
+  - Võime vastendada sularaha ettemaksed kuluridadega
+ 
+ Kui need funktsioonid on lubatud, tehke järgmist.
+ 
+  - Iga kulurea kohta saate ühe või mitu sularahaettemakset.
+  - Sularahaettemaks saadaolev saldo on kuluaruande salvestamisel reaalajas nähtav. See võimaldab teil töödelda kulutehinguid ja samal ajal sularahatehinguid tagastada.
+  - Ühe kulukande kohta saate valida mitu sularahaettemakset.
+  - Sularahaettemakse vastavusandmed on kättesaadavad päringut kasutades. 
+ 
+Kui te neid funktsioone ei kasuta, jäävad funktsioonid samaks, kus olemasolevad sularahaettemaksed vähenevad pärast kulu esitamist automaatselt.
+
+### <a name="example"></a>Näide 
 Plaanite reisida Seattle'ist New Yorki konverentsile. Loote avansitaotluse 3000 USD-le, mis põhineb konverentsi pileti, lendude, hotelli, einestamise ja takso prognoositavatel kuludel. Teile ei maksta, kui teie haldur taotlust ei kinnita. Pärast juhi poolt heaks kiitmist makstakse taotletud avansimakse 600 eurot teie pangaokntole. Te osalete seejärel konverentsil. Pärast reisi lõppemist saate teada, et kulude kogusumma oli vaid 570 eurot. Valige **Raha** väljal **Makseviis** ja sisestage oma kulud summas 2790.00 USD. Teie esitatud kulusummat muudetakse automaatselt teile laenatud avansimakse 600 euro suhtes. Nüüd võlgnete vahe 210.00 USD (3000.00 - 2790.00), mille saate ettevõttele tagastada, kasutades kulukategooriat **Raha tagastamine**.
 
 

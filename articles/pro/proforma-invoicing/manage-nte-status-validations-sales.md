@@ -3,17 +3,17 @@ title: Mitteületatava oleku ja valideerimiste haldamine
 description: See teema anna teavet rakenduses Project Operations tehtavatest mitteületatava limiidi kontrollidest.
 author: rumant
 manager: Annbe
-ms.date: 10/22/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5c491d4014ffc2568d7df72b542761ec9b1a90b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7026ff654a9db8e8a22bcef544b043af39865559
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274008"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866722"
 ---
 # <a name="manage-not-to-exceed-status-and-validations"></a>Mitteületatava oleku ja valideerimiste haldamine 
 
@@ -21,7 +21,7 @@ _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaa
 
 ## <a name="not-to-exceed-on-approvals"></a>Mitteületatavad kinnitused
 
-Aja- või kulukirje esitamisel luuakse kinnitamise kirje. Kui kinnitus on tasustatav ja vastendub aja- ja materjalikulu lepingureaga, teeb süsteem mitteületatava valideerimise kontrolli järgmistel tasemetel.
+Aja, kulu või materjali kasutuse kirje esitamisel luuakse kinnituskirje. Kui kinnitus on tasustatav ja vastendub aja- ja materjalikulu lepingureaga, teeb süsteem mitteületatava valideerimise kontrolli järgmistel tasemetel.
 
   - Kontrollige projekti lepingureal kliendi jaoks määratud limiiti
   - Kontrollige lepungureal määratud limiiti
@@ -34,11 +34,11 @@ Kui kontroll läbitakse, lisatakse kinnitusele valideerimise olek **Õnnestus**.
 
 Kui kontroll ebaõnnestu, lisatakse kinnitusele valideerimise olek **Nurjus**. Mitteületatava kinnitamise üksikasjad teavitavad kasutajat, millisel tasemel kinnitamine nurjus.
 
-Kui esitatud aja- või kulukirje loetakse mittetasustatavaks, seatakse mitteületatava kinnitamise olekuks **Pole kohaldatav** koos kinnitamise üksikasjadega, mis on võrdsed väärtusega **Pole kohaldatav**.
+Kui esitatud aja, kulu või materjali kasutuskirjet peetakse mittearveldatavaks, määratakse valideerimisolekuks **Mitte kohaldatav** koos valideerimise üksikasjaga, mis on võrdne valikuga **Mitte kohaldatav**.
 
 ## <a name="not-to-exceed-on-unbilled-sales-actuals"></a>Mitteületatav arveldamata müügi tegelikel näitajatel
 
-Kui aja- või kulukirje kinnitatakse, luuakse kulu ja arveldamata müügi tegelike näitajate kirjed. Kui arveldamata müügi tegelikud näitajad on tasustatavad ja vastenduvad aja- ja materjalikulu lepingureaga, teev rakendus mitteületatava valideerimise kontrolli järgmistel tasemetel.
+Aja, kulu või materjali kasutuskirje kinnitamisel luuakse kulu ja arveldamata müügi tegelike näitajate kirjed. Kui arveldamata müügi tegelikud näitajad on tasustatavad ja vastenduvad aja- ja materjalikulu lepingureaga, teev rakendus mitteületatava valideerimise kontrolli järgmistel tasemetel.
 
   - Kontrollige projekti lepingurea kliendi jaoks määratud limiiti
   - Kontrollige lepungureal määratud limiiti
@@ -55,9 +55,9 @@ Kui arveldamata müügi tegelik näitaja loetakse mittearveldatavaks või tasuta
 
 ## <a name="reset-the-not-to-exceed-status"></a>Mitteületatava oleku lähtestamine
 
-Mitteületatavaid olekuid on võimalik lähtestada hulgi. See võimaldab projektijuhtidel reguleerida mitteületavuse kinnitust, et prioriseerida üje kindla töö-, aja- või kuluorgani arveldamist üle teiste, mis on juba saadaolevate mitteületatavate summade seast pühendatud.
+Mitteületatavaid olekuid on võimalik lähtestada hulgi. Projektijuhid saavad reguleerida mitte ületatavat valideerimist, et prioriseerida üks kindel töö, aja, kulu või materjali jaotuse kasutuse arveldamine teiste suhtes, mis on juba pühendunud saadaolevast mitte ületatavast summast.
 
-Pärast seda, kui mitteületatavuse olek on lähtestatud arveldamata müügi tegelikele näitajatele, kinnitatud summa vähendatakse. Projektijuht saab valida mõne muu töö-, aja- või kuluorgani, millel eelnevalt mitteületamise kinnitumin nurjus, ja hinnata need uuesti. Kinnitatud summa vähendamisega need tegelikud näitajad kinnitamist ei läbi. See aitab projektijuhil rakendada suuremat mõjuvõimu ja kontrolli selle perioodi arveldatavate tehingute üle.
+Pärast seda, kui mitteületatavuse olek on lähtestatud arveldamata müügi tegelikele näitajatele, kinnitatud summa vähendatakse. Projektijuht saab valida mõne muu töö, aja, kulu või materjali jaotuse kasutuskirje, mille varasem mitte ületamise valideerimine ja uuesti hindamine nurjus. Kinnitatud summa vähendamisega need tegelikud väärtused läbivad nüüd valideerimise, mis aitab projektijuhil avaldada suuremat mõju ja omada suuremat kontrolli selle perioodi arveldatavate tehingute üle.
 
 Kui te soovite mitteületamise oleku lähtestada, valige vaates **Aja ja materjali arveldamise võlgnevus** või **Tegelikud näitajad** üks või mitu tegelikku näitajat ja valige seejärel **Lähtesta mitteületatavate olek**.
 

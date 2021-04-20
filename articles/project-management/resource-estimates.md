@@ -1,39 +1,52 @@
 ---
-title: Ressursi prognoosid
-description: See teema sisaldab teavet selle kohta, kuidas Project Operationsis ressursiprognoose arvutatakse.
-author: ruhercul
+title: Projektide ressursi aja finantsprognoosid
+description: Selles teemas antakse teavet, kuidas aja finantsprognoose arvutatakse.
+author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/19/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 98a61746f172b50bf6fa29cb0d21462cd616f417
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: 91156c5cf79af8c66c12b84a6d2b17aa7fe09ed1
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286513"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701821"
 ---
-# <a name="resource-estimates"></a>Ressursi prognoosid
+# <a name="financial-estimates-for-resource-time-on-projects"></a>Projektide ressursi aja finantsprognoosid
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Ressursiprognoosid pärinevad ajafaasiga jõupingutustest, mis on määratletud tööjaotuse struktuuris koos kohaldatavate hinnakujunduse dimensioonidega. Tavaliselt on arvutuseks **kiirus/hr iga rolli jaoks x tunnid.** Iga ressursi ajafaasiga jõupingutus salvestatakse ressursi määramise kirjesse. Hinnastus salvestatakse eelmääratletud hinnakirja. Ühiku teisendust rakendatakse vastavalt kehtivale hinnakirjale.
+Aja finantsprognoosid arvutatakse kolme teguri alusel. 
+
+- Projektiplaani igale lehele määratud üldise või nimelise meeskonnaliikme tüüp. 
+- Töö tüüp või keerukus.
+- Ressursi ülesandele määramise panuse jaotumine. 
+
+Kaks esimest tegurit mõjutavad ressursi määramise ühikukulu või arve määra. Ressursi määramise ühikukulu või arve määr on määratletud määratud ressursi atribuutidega. Need atribuudid sisaldavad organisatsiooniüksust, kuhu ressurss kuulub, ja ressursi standardrolli. Samuti saate lisada ressursile oma ettevõtte jaoks olulisi kohandatud atribuute (nt standardnimetus või kogemuse tase) ja lasta neil mõjutada ühikukulu või määramise arvelduskulu.
+Lisaks ressursi atribuutidele võivad üksuse arvelduskulu või määramise kulumäära mõjutada töö atribuudid (nt ülesanne). Näiteks kui teatud tööülesanded on keerukamad, on nendele konkreetsetele ülesannetele ressursi määramise tulemuseks kõrgem ühikukulu või arveldusmäär kui vähem keerukamatel.   
+
+Kolmas tegur tagab selle määraga tundide koguse. Juhtumites, kus ülesanne katab kahte hinnaperioodi, on tõenäoline, et selle ülesanne ressursi määramise esimese osa kulud ja hind arvestatakse ülesande teisest osast erinevalt. Iga ressursi määramise panuse prognoosimine on kompleksne väärtus, mis salvestatakse igapäevaste vahendite jaotusega.
+
+Üksikasjalikke juhiseid töö ja ressursside kohandatud atribuutide hinnakujunduse ja kulude kogumina häälestamise kohta vaadake teemast [Hinnadimensioonide ülevaade](../pricing-costing/pricing-dimensions-overview.md).
+
+Iga ressursi määramise finantsprognoos arvutatakse **ülesande määr/tund korrutatuna tundide arvuga.**  Sarnaselt panuse prognoosile on iga ressursi määramise kulu ja tulu finantsprognoos keerukas väärtus, mis salvestatakse igapäevase rahasumma jaotusega päeva kohta. 
+
+## <a name="summarizing-financial-estimates-for-time"></a>Aja finantsprognooside summeerimine
+Lehe ülesande aja finantsprognoos on kõigi selle ülesande ressursi määramiste finantsprognooside summa.
+
+Ülemülesande kokkuvõtte aja finantsprognoos on kõigi selle alamülesannete finantsprognooside summa. See on projekti eeldatav tööjõukulu. 
 
 ![Ressursi prognoosid](./media/navigation12.png)
 
 ## <a name="default-cost-price-and-cost-currency"></a>Vaikimisi omahinna ja kulu valuuta
 
-Omahinna vaikeväärtused määratakse organisatsiooni üksusest.
+Vaikimisi omahind pärineb projekti lepinguüksusele lisatud hinnakirjadest. Projekti kuluvaluuta on alati projekti lepinguüksuse valuuta. Ressursi määramisel salvestatakse kulu finantsprognoos projekti kuluvaluutas. Mõnikord erineb valuuta, milles kulumäär hinnakirjas on häälestatud, projekti kuluvaluutast. Sel juhul teisendab rakendus valuuta, milles projekti valuuta omahind on seadistatud. Ruudustikus **Prognoosid** kuvatakse ja summeeritakse kõik kuluprognoosid projekti kuluvaluutas. 
 
 ## <a name="default-bill-rate-and-sales-currency"></a>Arvelduskulu ja müügivaluuta vaikeväärtused
 
-Müügihindu rakendatakse üks kord tehingu kohta. Müügihinna loendi vaikesätete hierarhia on järgmine.
-
-1. Organisatsioon
-2. Klient
-3. Hinnapakkumine/leping
-
+Vaikemüügihind pärineb seotud projektilepingule lisatud projekti hinnakirjadest, kui tehing on võidetud, või seotud projekti hinnapakkumisest, kui tehing on veel müügieelses etapis. Projekti müügivaluuta on alati projekti hinnapakkumise või projektilepingu valuutas. Ressursi määramisel salvestatakse müügi finantsprognoos projekti müügivaluutas. Erinevalt kulust ei saa hinnakirjas seadistatud müügihinnad kunagi erineda projekti müügivaluutast. Valuuta teisendamiseks stsenaariumi pole. Ruudustikus **Prognoosid** kuvatakse ja summeeritakse kõik müügiprognoosid projekti müügivaluutas. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

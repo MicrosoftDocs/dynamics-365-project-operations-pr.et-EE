@@ -3,50 +3,53 @@ title: Kinnituste ülevaade
 description: Selles teemas kirjeldatakse tööd, mis on seotud rakenduse Project Operations kinnitustega.
 author: stsporen
 manager: Annbe
-ms.date: 10/05/2020
+ms.date: 03/31/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: a7573b95998387453b72dbcb73c3de977ed7d913
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b2da22e10cf6c40a2c84bcd32437b2830f830d07
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290353"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852494"
 ---
 # <a name="approvals-overview"></a>Kinnituste ülevaade
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Aja ja kulu esitamised liiguvad läbi kinnitamise töövoo. Pärast kirjete kinnitamist kirjendatakse tehingud tegelikes näitajates või ajakavas broneeritakse aeg.
+Aeg, kulu ja materjalide kasutuse esitused liiguvad kinnituse töövoo. Pärast kirjete kinnitamist kirjendatakse tehingud tegelikes näitajates või ajakavas broneeritakse aeg.
 
 ## <a name="approvals-workflow"></a>Kinnituste töövoog
-Kui te loote ja esitate aja- või kulukirje, luuakse kinnitamise kirje. Projekti kinnitaja või teie juht vaatab teie kirje läbi ja kinnitab selle. Kui kirje on seotud projektiga, siis selle kinnitamisel luuakse tegelikud näitajad. See võimaldab kulu ja arvelduse jälgimist. 
+Aja, kulu või materjali kasutuse kirje loomisel ja esitamisel luuakse kinnituskirje. Projekti kinnitaja või -juht vaatab kirje üle ja kinnitab selle. Kui kirje on seotud projektiga, luuakse tegelikud andmed selle kinnitamise ajal. See võimaldab kulu ja arvelduse jälgimist.
 
 ## <a name="approve-an-entry"></a>Kirje kinnitamine
-Vorm **Kinnitamised** võimaldab teil vahetada erinevate vaadete vahel, et saaksite vaadata erinevat tüüpi kinnitusi.
+Leht **Kinnitused** võimaldab vahetada erinevate vaadete vahel, et saaksite vaadata erinevaid kinnituse tüüpe.
   
-1. Avage vorm **Kinnitused** ja valige suvand **Kulud**, **Aeg** või **Tagasikutsumised**.
+1. Avage leht **Kinnitused** ja valige väärtus **Kulud**, **Aeg**, **Materjalide kasutamine** või **Tagasikutsumised**.
 2. Vaadake kõik kinnitamised läbi ja valige need, mida soovite kinnitada.
 3. Valitud kirjete kinnitamiseks valige **Kinnita**.
-Süsteem töötleb neid kirjeid ja loob tegelikud näitajad või broneeringu.
+Süsteem töötleb neid kirjeid ja loob tegelikud andmed.
 
 ## <a name="reject-an-entry"></a>Kirje tagasi lükkamine
 Projekti kinnitajana võib juhtuda, et peate saatma kirje kasutajale parandamiseks tagasi.
   
-1. Avage vorm **Kinnitused** ja valige tagasi lükkamiseks kirje. 
+1. Avage leht **Kinnitamised** ja valige tagasilükatav kirje. 
 2. Valige **Keeldu**.
-3. Valikuline – lisage dialoogi **Tagasilükkamise kommentaarid** kommentaar, et teavitada kasutajat kirje tagasi lükkamise põhjusest.
+3. Soovi korral lisage kommentaar dialoogiboksi **Tagasilükkamise kommentaarid**, et teavitada kasutajat kirje tagasilükkamise põhjusest.
 4. Valige **OK**. Kirje tagastatakse kasutajale.
   
-## <a name="recall-entries"></a>Kirjete tagasivõtmine
-Mingi hetk võib teil olla vaja esitatud kirje tagasi kutsuda. Kui kirjet pole kinnitatud, siis tagastatakse see kohe. Kinnitatud kirjel võib samas olla materjaalne mõju. Projekti kinnitaja peab tagasikutsumise heaks kiitma, et tagastada tehing suvandisse Tegelikud näitajad.
+## <a name="cancel-approval"></a>Kinnituse tühistamine
+Mõnel juhul peate varem kinnitatud kirje tühistama. Varem kinnitatud kirje tühistamisel on finantsiline mõju. 
+
+## <a name="approving-recall-requests"></a>Tagasikutsumise taotluste kinnitamine
+Mõnel juhul peab konsultant varem kinnitatud kirje tagasi kutsuma. Varem kinnitatud kirje tühistamisel on finantsiline mõju. Projekti kinnitaja peab tehingu tegelike väärtuste juurde tagastamiseks tagasikutsumise kinnitama.
 
 ## <a name="specify-project-approvers"></a>Projekti kinnitajate määratlemine
 Igal projektil on mitu projekti meeskonnaliiget. Saate määrata, millised meeskonnaliikmed on ka projekti kinnitajad.
 
-1. Avage vorm **Projektid** ja avage loendist projekt.
+1. Avage leht **Projektid** ja avage projekt loendist.
 2. Valige vahekaardil **Meeskond** meeskonnaliige, kellest saab projekti kinnitaja, ja valige seejärel nupp **Redigeeri**.
 3. Määrake väli **Projekti kinnitaja** valikule **Jah**.
 4. Valige **Salvesta**.

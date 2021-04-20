@@ -3,17 +3,17 @@ title: Prognooside ja tegelike näitajate müügihindade lahendamine
 description: Selles teemas antakse teavet prognooside ja tegelike näitajate müügihindade lahendamise kohta.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ce095723e8ac300caf7d11ae37b5c721b57795
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274948"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877440"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Prognooside ja tegelike näitajate müügihindade lahendamine
 
@@ -54,6 +54,17 @@ Pärast müügi hinnakirja lahendamist täidab süsteem järgmised etapid vaikim
     | &nbsp; | Juurdehindlus üle omahinna | Rakendades seotud tegeliku kulu ühiku kulumäärale kategooria hinnarea määratud hinnalisandi |
 
 4. Kui süsteem ei suuda vastendada väljade **Kategooria** ja **Ühik** väärtusi, on müügihinna vaikeväärtuseks null (0).
+
+## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Materjali tegelike ja prognoosiridade müügihindade lahendamine
+
+Rakenduses Project Operations kasutatakse materjalide prognoosiridu, et märkida projekti materjalide ja materjalide prognoosiridade hinnapakkumise rea ja lepingurea üksikasju.
+
+Pärast müügi hinnakirja lahendamist täidab süsteem järgmised etapid vaikimisi ühiku müügihinna saamiseks.
+
+1. Süsteem kasutab prognoosireal materjali väljade **Toode** ja **Ühik** kombinatsiooni, et vastendada need lahendatud hinnakirja hinnakirjaüksuse ridadega.
+2. Kui süsteem leiab hinnakirjaüksuse rea, mille väljade **Toode** ja **Ühik** kombinatsiooni jaoks on müügihind ning hinnakujundusmeetodiks on **Valuuta summa**, kasutatakse hinnakirjareal määratud müügihinna.
+3. Kui väljade **Toode** ja **Ühik** väärtused ei ühti, on müügimäära väärtuseks null.
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

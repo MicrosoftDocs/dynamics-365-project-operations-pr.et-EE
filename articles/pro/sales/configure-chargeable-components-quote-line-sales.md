@@ -1,23 +1,23 @@
 ---
-title: Hinnapakkumise rea arveldatavate komponentide konfigureerimine – liht
+title: Hinnapakkumise rea arveldatavate komponentide konfigureerimine
 description: Selles teemas antakse teavet arveldatavate ja mittearveldatavate komponentide seadistamise kohta projektipõhise hinnapakkumise real.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e293587adf15d0523bef6b7e688fdc883aba0fa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1a9e1851bd8c5a4070df2774c945d1f3eabaaa8a
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273868"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858288"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a>Hinnapakkumise rea arveldatavate komponentide konfigureerimine – liht
+# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Hinnapakkumise rea arveldatavate komponentide konfigureerimine 
 
-_**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
+_**Kehtib järgmistele:** lihtjuurutamine – tehing näidisarveldusele, Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks_
 
 Projektipõhine hinnapakkumise rida sisaldab *kaasatud* komponente ja *arveldatavaid* komponente.
 
@@ -61,22 +61,575 @@ Tehingu kategooria võib olla arveldatav või mittearveldatav kindla hinnapakkum
 Tehingu arveldamise tüübi saab konfigureerida hinnapakkumise rea vahekaardil **Arveldatavad kategooriad**, värskendades välja **Arveldamise tüüp** andmeruudustikus **Arveldatavad kategooriad**.
 
 ### <a name="resolve-chargeability"></a>Arveldatavuse lahendamine
-Aja jaoks loodud prognoosi või tegelikku näitajat käsitletakse arveldatavaks ainult juhul, kui hinnapakkumise real on kaasatud väärtus **Aeg** ja kui kategooriaid **Tööülesanne** ja **Roll** konfigureeritakse hinnapakkumise real arveldatavana.
+Aja jaoks loodud prognoos või tegelik näitaja loetakse arveldatavaks järgmisel juhul.
 
-Kulu jaoks loodud prognoosi või tegelikku näitajat käsitletakse arveldatavaks ainult juhul, kui hinnapakkumise real on kaasatud väärtus **Kulu** ja kui väärtused **Tööülesanne** ja **Tehingu kategooria** konfigureeritakse hinnapakkumise real arveldatavana.
+   - **Aeg** lisatakse hinnapakkumise reale.
+   - **Roll** on hinnapakkumise real konfigureeritud kui tasustatav.
+   - **Kaasatud ülesanded** on hinnapakkumise real seatud valikule **Valitud ülesanded**. 
 
-| Kaasab aja | Kaasab kulu | Kaasatud ülesanded | Roll | Kategooria | Toiming | Arveldamine |
-| --- | --- | --- | --- | --- | --- | --- |
-| Ja | Ja | Kogu projekt | Arveldatav | Arveldatav | Ei saa seadistada | Tegeliku aja arveldamine: Arveldatav </br>Tegeliku kulu arveldamise tüüp: Arveldatav |
-| Ja | Ja | Ainult valitud ülesanded | Arveldatav | Arveldatav | Arveldatav | Tegeliku aja arveldamine: Arveldatav</br>Tegeliku kulu arveldamise tüüp: Arveldatav |
-| Ja | Ja | Ainult valitud ülesanded | Mittearveldatav | Arveldatav | Arveldatav | Tegeliku aja arveldamine: Mittearveldatav</br>Tegeliku kulu arveldamise tüüp: Arveldatav |
-| Ja | Ja | Ainult valitud ülesanded | Arveldatav | Arveldatav | Mittearveldatav | Tegeliku aja arveldamine: Mittearveldatav</br> Tegeliku kulu arveldamise tüüp: Mittearveldatav |
-| Ja | Ja | Ainult valitud ülesanded | Mittearveldatav | Arveldatav | Mittearveldatav | Tegeliku aja arveldamine: Mittearveldatav</br> Tegeliku kulu arveldamise tüüp: Mittearveldatav |
-| Ja | Ja | Ainult valitud ülesanded | Mittearveldatav | Mittearveldatav | Arveldatav | Tegeliku aja arveldamine: Mittearveldatav</br> Tegeliku kulu arveldamise tüüp: Mittearveldatav |
-| No | Ja | Kogu projekt | Ei saa seadistada | Arveldatav | Ei saa seadistada | Tegeliku aja arveldamine: Pole saadaval </br>Tegeliku kulu arveldamise tüüp: Arveldatav |
-| No | Ja | Kogu projekt | Ei saa seadistada | Mittearveldatav | Ei saa seadistada | Tegeliku aja arveldamine: Pole saadaval </br>Tegeliku kulu arveldamise tüüp: Mittearveldatav |
-| Ja | No | Kogu projekt | Arveldatav | Ei saa seadistada | Ei saa seadistada | Tegeliku aja arveldamine: Arveldatav</br>Tegeliku kulu arveldamise tüüp: Pole saadaval |
-| Ja | No | Kogu projekt | Mittearveldatav | Ei saa seadistada | Ei saa seadistada | Tegeliku aja arveldamine: Mittearveldatav </br>Tegeliku kulu arveldamise tüüp: Pole saadaval |
+Kui need kolm asja on täidetud, konfigureeritakse **Ülesanne** samuti tasustavana. 
+
+Kulu jaoks loodud prognoos või tegelik näitaja loetakse arveldatavaks järgmisel juhul. 
+
+   - **Kulu** lisatakse hinnapakkumise reale.
+   - **Tehingukategooria** on hinnapakkumise real konfigureeritud kui tasustatav.
+   - **Kaasatud ülesanded** on hinnapakkumise real seatud valikule **Valitud ülesanded**.
+
+Kui need kolm asja on täidetud, konfigureeritakse **Ülesanne** samuti tasustavana. 
+
+Materjali jaoks loodud prognoos või tegelik näitaja loetakse arveldatavaks järgmisel juhul.
+
+   - **Materjalid** lisatakse hinnapakkumise reale.
+   - **Kaasatud ülesanded** on hinnapakkumise real seatud valikule **Valitud ülesanded**.
+
+Kui need kas asja on täidetud, peaks **Ülesanne** olema samuti konfigureeritud tasustavana. 
+
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Kaasab aja</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Kaasab kulu</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Sisaldab materjale</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    <strong>Kaasatud ülesanded</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Roll</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Kategooria</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Toiming</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    <strong>Tasustatavuse mõju</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Kogu projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Arveldatav </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Arveldatav </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ei saa määrata </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Tegeliku aja arveldamine: Arveldatav </p>
+                <p>
+Tegeliku kulu arveldamise tüüp: Arveldatav </p>
+                <p>
+Tegeliku materjali arveldamise tüüp: arveldatav </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Ainult valitud ülesanded </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Arveldatav </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Arveldatav </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Arveldatav </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Tegeliku aja arveldamine: Arveldatav </p>
+                <p>
+Tegeliku kulu arveldamise tüüp: Arveldatav </p>
+                <p>
+Tegeliku materjali arveldamise tüüp: arveldatav </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Ainult valitud ülesanded </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Mittearveldatav</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Arveldatav </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Arveldatav </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Tegeliku aja arveldamine: <strong>mittearveldatav</strong>
+                </p>
+                <p>
+Tegeliku kulu arveldamise tüüp: Arveldatav </p>
+                <p>
+Tegeliku materjali arveldamise tüüp: arveldatav </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Ainult valitud ülesanded </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Arveldatav </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Arveldatav </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Mittearveldatav</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Tegeliku aja arveldamine: <strong>mittearveldatav</strong>
+                </p>
+                <p>
+Tegeliku kulu arveldamise tüüp: <strong>mittearveldatav</strong>
+                </p>
+                <p>
+Tegeliku materjali arveldamise tüüp: <strong>mittearveldatav</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Ainult valitud ülesanded </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Mittearveldatav</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Arveldatav </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Mittearveldatav</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Tegeliku aja arveldamine: <strong>mittearveldatav</strong>
+                </p>
+                <p>
+Tegeliku kulu arveldamise tüüp: <strong>mittearveldatav</strong>
+                </p>
+                <p>
+Tegeliku materjali arveldamise tüüp: <strong>mittearveldatav</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Ainult valitud ülesanded </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Mittearveldatav</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Mittearveldatav</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Arveldatav </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Tegeliku aja arveldamine: <strong>mittearveldatav</strong>
+                </p>
+                <p>
+Tegeliku kulu arveldamise tüüp: <strong>mittearveldatav</strong>
+                </p>
+                <p>
+Tegeliku materjali arveldamise tüüp: arveldatav </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Kogu projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ei saa määrata </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Arveldatav</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ei saa määrata </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Tegeliku aja arveldamine: <strong>pole saadaval</strong>
+                </p>
+                <p>
+Tegeliku kulu arveldamise tüüp: Arveldatav </p>
+                <p>
+Tegeliku materjali arveldamise tüüp: arveldatav </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Kogu projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ei saa määrata </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Mittearveldatav</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ei saa määrata </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Tegeliku aja arveldamine: <strong>pole saadaval</strong>
+                </p>
+                <p>
+Tegeliku kulu arveldamise tüüp: <strong>mittearveldatav</strong>
+                </p>
+                <p>
+Tegeliku materjali arveldamise tüüp: arveldatav </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Kogu projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Arveldatav </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Ei saa määrata </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ei saa määrata </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Tegeliku aja arveldamine: Arveldatav </p>
+                <p>
+Tegeliku kulu arveldamise tüüp: <strong>pole saadaval</strong>
+                </p>
+                <p>
+Tegeliku materjali arveldamise tüüp: arveldatav </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Kogu projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Mittearveldatav</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Ei saa määrata </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ei saa määrata </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Tegeliku aja arveldamine: <strong>mittearveldatav</strong>
+                </p>
+                <p>
+Tegeliku kulu arveldamise tüüp: <strong>pole saadaval</strong>
+                </p>
+                <p>
+Tegeliku materjali arveldamise tüüp: arveldatav </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Kogu projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Arveldatav </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Arveldatav </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ei saa määrata </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Tegeliku aja arveldamine: Arveldatav </p>
+                <p>
+Tegeliku kulu arveldamise tüüp: Arveldatav </p>
+                <p>
+Tegeliku materjali arveldamise tüüp: <strong>pole saadaval</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Kogu projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Mittearveldatav</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Mittearveldatav</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ei saa määrata </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Tegeliku aja arveldamine: <strong>mittearveldatav</strong>
+                </p>
+                <p>
+Tegeliku kulu arveldamise tüüp:<strong> mittearveldatav</strong>
+                </p>
+                <p>
+Tegeliku materjali arveldamise tüüp:<strong> pole saadaval</strong>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

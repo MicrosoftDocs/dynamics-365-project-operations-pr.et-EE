@@ -3,17 +3,17 @@ title: Kulutuste kulumäärade ja müügihindade seadistamine
 description: Selles teemas kirjeldatakse kulumäärade ja müügihindade seadistamist tehingute ja kulutuste kategooriates.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274903"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877215"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Kulutuste kulumäärade ja müügihindade seadistamine
 
@@ -23,9 +23,10 @@ Saate seadistada kannete kategooriate jaoks kulu- ja müügihinnad rakenduses Dy
 
 Tehingukategooriate jaoks kulumäärade ja müügihindade seadistamiseks toimige järgmiselt. 
 
-1. Looge hinnakirja päise põhjal hinnakiri. 
-2. Valige andmeruudustiku menüü suvandis **Kategooria hinnad** nupp **+ Uus kategooria hind**. 
-3. Sisestage lehel **Kiirloomine** tehingukategooria ja üksus, mille jaoks uue hinna loote.
+1. Avage **Müük** > **Kliendid** > **Hinnaloendid**.
+2. Uue hinnakirja loomiseks valige **Uus**. 
+3. Valige andmeruudustiku menüü suvandis **Kategooria hinnad** nupp **Uus kategooria hind**. 
+4. Sisestage lehel **Kiirloomine** tehingukategooria ja üksus, mille jaoks uue hinna loote.
 
 Järgmises tabelis on kategooria hinna rea vahekaardi **Üldine** väljad ja paan **Kiirloomine**, mida peate müügi või omahinnakirjale kategooria hindade loomisel meeles pidama.
 

@@ -1,42 +1,27 @@
 ---
-title: Käsitsi näidisarve loomine
-description: Selles teemas antakse teavet näidisarve loomise kohta.
+title: Näidisarved
+description: See teema sisaldab teavet Project Operationsi näidisarvete kohta.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3289b8bcaddaebe1a3657b5902c1d324f9e0fd53
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: b143ba286f25ecb23fea09a85bca06543f7f55ff
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287773"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866856"
 ---
-# <a name="create-a-manual-proforma-invoice"></a>Käsitsi näidisarve loomine
+# <a name="proforma-invoices"></a>Näidisarved
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Arvete esitamine annab projektijuhtidele teise taseme heakskiidu, enne kui nad loovad klientidele arveid. Esimene tüübikinnituse tase lõpetatakse, kui projekti meeskonnaliikmete esitamise aja- ja kulukanded kiidetakse heaks.
+Näidisarveldamine annab projektijuhtidele teise taseme heakskiidu, enne kui nad loovad klientidele arveid. Esimene tüübikinnituse tase lõpetatakse, kui projekti meeskonnaliikmete esitamise aja-, kulu- ja materjalikanded kiidetakse heaks. Kinnitatud näidisarved on saadaval Project Operationsi projekti raamatupidamise moodulis. Projekti raamatupidajad saavad teha täiendavaid värskendusi, näiteks müügimaks, raamatupidamine ja arve paigutus.
 
-Dynamics 365 Project Operations pole loodud kliendile suunatud arvete loomiseks järgmistel põhjustel.
-
-- See ei sisalda teavet maksude kohta.
-- See ei saa muuta muude valuutade arve valuutaks, kasutades õigesti konfigureeritud valuutakursse.
-- Arveid ei saa õigesti vormindada, et neid saaks printida.
-
-Selle asemel saate kasutada finants- või raamatupidamissüsteemi, et luua kliendiga seotud arveid, mis kasutavad teavet loodid arvete ettepanekutest.
 
 ## <a name="creating-project-invoices"></a>Projekti arvete koostamine
 
@@ -50,7 +35,7 @@ Konkreetse projekti lepingu jaoks arve loomiseks järgige seda etappi.
 
 - Avage **Projekti lepingute** loendi lehel projekti leping ja seejärel valige **Loo arve**.
 
-    Iga valitud projekti lepingu jaoks luuakse arve, mille olek on **Arveldamiseks valmis**. Need tehingud hõlmavad aega, kulusid, verstaposte ja tootepõhiseid lepinguridu.
+    Iga valitud projekti lepingu jaoks luuakse arve, mille olek on **Arveldamiseks valmis**. Need tehingud hõlmavad aega, kulusid, materjale, vahe-etappe ja teisi arveldamata müügi töölehe kandeid.
 
 Arvete hulgi loomiseks tehke järgmist.
 
@@ -60,7 +45,7 @@ Arvete hulgi loomiseks tehke järgmist.
 
 2. Seejärel valige teateboksi sulgemiseks suvand **OK**.
 
-    Iga valitud projekti lepingu jaoks luuakse arve, mille olek on **Arveldamiseks valmis**. Need tehingud hõlmavad aega, kulusid, verstaposte ja tootepõhiseid lepinguridu.
+    Iga valitud projekti lepingu jaoks luuakse arve, mille olek on **Arveldamiseks valmis**. Need tehingud hõlmavad aega, kulusid, materjale, vahe-etappe ja teisi arveldamata müügi töölehe kandeid.
 
 3. Loodud arvete vaatamiseks minge jaotisse **Müügid** \> **Arveldamine** \> **Arved**. Kuvatakse üks arve iga projekti lepingu kohta.
 
@@ -93,11 +78,10 @@ Arvete loomiseks kasutatav pakktöötluse töö on korduv töö. Kui seda pakkt�
  
 ### <a name="edit-a-draft-invoice"></a>Arve mustandi redigeerimine
 
-Projekti arve mustandi loomisel pannakse arvele kõik arveldamata müügi tehingud, mis on loodud aja-ja kuluaruannete kinnitamisel. Kui arve on alles mustand, saate teha järgmisi muudatusi.
+Projekti arve mustandi loomisel pannakse arvele kõik arveldamata müügitehingud, mis loodi aja, kulu ja materjali kasutuse kirjete kinnitamisel. Kui arve on alles mustand, saate teha järgmisi muudatusi.
 
 - Kustutage või redigeerige arve rea üksikasju.
 - Saate redigeerida ja kohandada koguse ja arve tüüpi.
-- Arvega seotud toimingutena saate lisada otse aja, kulu ja tasu. Seda funktsiooni saate kasutada juhul, kui arve rida on vastendatud lepingureaga, mis lubab neid kandetüüpe.
 
 Arve kinnitamiseks valige **Kinnita**. Kinnitamine on ühesuunaline toiming. Suvandi **Kinnita** valimisel teeb süsteem arve kirjutuskaitstuks ja loob iga arverea kohta iga arverea üksikasjadelt arvestatud müügi tegelikud näitajad. Kui arverea üksikasjad viitavad arveldamata müügi tegelikule näitajale, tühistab süsteem ka arveldamata müügi tegeliku näitaja. (Mis tahes aja- või kulukirje põhjal loodud arve rea üksikasjad viitavad arveldamata müügi tegelikule.) Pearaamatu integreerimise süsteemidega saab seda ümberpööramist kasutada projekti poolelioleva töö lõpetamisel (WIP) raamatupidamise jaoks.
 

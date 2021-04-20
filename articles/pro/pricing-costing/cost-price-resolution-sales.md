@@ -1,22 +1,22 @@
 ---
-title: Prognooside ja tegelike näitajate omahinna lahendamine – liht
-description: Selles teemas antakse teavet prognooside ja tegelike näitajate omahindade lahendamise kohta.
+title: Projekti prognooside ja tegelike näitajate omahinna lahendamine
+description: Selles teemas antakse teavet selle kohta, kuidas projekti prognooside ja tegelike näitajate omahinda lahendatakse.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bbb79fdc5c68d67530b5aa34fe6105211eff1768
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f20631f41c560f1a4047aaaa624fa4e8651c687
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274544"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877260"
 ---
-# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>Prognooside ja tegelike näitajate omahinna lahendamine – liht
+# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Projekti prognooside ja tegelike näitajate omahinna lahendamine 
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
@@ -36,6 +36,12 @@ Kui omahinnakiri on lahendatud, vastendatakse aja prognoosi real olevad väljad 
 Kulu prognoositavad read viitavad projekti kulu ja kulu prognoositavate ridade hinnapakkumise ja lepingurea üksikasjadele.
 
 Kui kuluhinnakiri on lahendatud, kasutab süsteem kuluprognoosi ridade välju **Kategooria** ja **Üksus**, et vastendada need lahendatud hinnakirja ridadega **Kategooria hind**. Kui süsteem leiab kategooria hinna rea, millel on väljade **Kategooria** ja **Ühik** kulumäära kombinatsioon, mis on vaikimisi kulumäär. Kui süsteem ei suuda vastendada väärtusi **Kategooria** ja **Üksus**, või ei suuda leida vastavat kategooria hinnarida, kuid hinnakujundusmeetodiks ei ole **Hind üksuse kohta**, on kulumääraks vaikimisi null (0).
+
+## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Materjali tegelike ja prognoosiridade kuluhindade lahendamine
+
+Materjalide prognoosiread viitavad projekti materjalide ja materjalide prognoosiridade hinnapakkumise ja lepingurea üksikasjadele.
+
+Kui omahinna hinnakiri on lahendatud, kasutab süsteem hinnangureal olevate väljade **Toode** ja **Ühik** kombinatsiooni, et vastendada materjali prognoosi lahendatud hinnakirja ridadega **Hinnakirjaüksused**. Kui süsteem leiab tootehinna rea, mille väljade **Toode** ja **Ühik** väärtus on kulumäär, siis läheb kulumäär vaikeväärtusele. Kui süsteem ei saa väärtusi **Toode** ja **Üksus** ühitada või kui see on suudab leida sobiva hinnakirjaüksuse rea, kuid hinnakujundusmeetod põhineb standardsel kulul või praegusel kulul ja kumbki pole tootel määratletud, on ühikukulu vaikeväärtuseks null.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
