@@ -34,7 +34,23 @@
               href: environment/security-model.md
             - name: Rakenduse Project Operations integreerimine juriidilise olemi kohta
               href: environment/resource-configure-integration-per-legal-entity.md
-    - name: Mis on uut?
+        - name: Topeltkirjutamise integreerimise konfigureerimine
+          items:
+            - name: Topeltkirjutamise integreerimise ülevaade
+              href: environment/resource-dual-write-overview.md
+            - name: Rakenduse Project Operations topeltkirjutamise vastenduse versioonid
+              href: environment/resource-dual-write-maps.md
+            - name: Rakenduse Project Operations häälestamise ja konfigureerimisandmete integratsioon
+              href: environment/resource-dual-write-setup-integration.md
+            - name: Projekti prognooside ja tegelike andmete integratsioon
+              href: environment/resource-dual-write-estimates-actuals.md
+            - name: Projekti arve integratsioon
+              href: environment/resource-dual-write-project-invoice.md
+            - name: Kuluhalduse integratsioon
+              href: environment/resource-dual-write-expense.md
+            - name: Tarnija arve integratsioon
+              href: environment/resource-dual-write-vendor-invoice.md
+    - name: Mis on uut
       items:
         - name: Aprill 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
           href: whats-new/whats-new-apr-2021-resource-based.md
@@ -216,6 +232,8 @@
           href: project-management/understand-project-status.md
         - name: Projektikalendrite määratlemine
           href: project-management/define-project-calendars.md
+        - name: Ajastamisrežiimid
+          href: project-management/scheduling-modes.md
         - name: Projekti värskendamine
           href: project-management/update-project.md
         - name: Projekti kopeerimine
@@ -404,6 +422,12 @@
           items:
             - name: Korrigeerimiste töölehtede loomine ja kinnitamine
               href: actuals/create-confirm-correction-journals.md
+    - name: Hange
+      items:
+        - name: Mittelaopõhiste materjalide ja ootel hankija arvete konfigureerimine
+          href: procurement/configure-materials-nonstocked.md
+        - name: Ootel tarnija arveid kasutades mittelaopõhiste materjalide projektide jaoks hankimine
+          href: procurement/pending-vendor-invoices.md
     - name: Arveldamine
       items:
         - name: Arveldusprotsessi ülevaade
@@ -428,6 +452,8 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Projektipõhise arve automatiseerimise konfigureerimine
               href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: Projekti arve ettepanekute haldamine
+          href: invoicing/format-update-project-invoice-proposals.md
     - name: Projekti raamatupidamine
       items:
         - name: Finantsdimensiooni vaikeväärtused
@@ -682,6 +708,8 @@
           href: project-management/understand-project-status.md
         - name: Projektikalendrite määratlemine
           href: project-management/define-project-calendars.md
+        - name: Ajastamisrežiimid
+          hreF: project-management/scheduling-modes.md
         - name: Projekti värskendamine
           href: project-management/update-project.md
         - name: Projekti kopeerimine
@@ -846,8 +874,10 @@
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
 - name: Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
   items:
-    - name: Mis on uut?
+    - name: Mis on uut
       items:
+        - name: Mis on uut aprill 2021 – Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
+          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Mis on uut märtsis 2021 – Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
           href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: Mis on uut jaanuaris 2021 – Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
@@ -871,9 +901,9 @@
     - name: Maksmise ajal maksmise hankijale maksete seadistamine ja kasutamine
       href: prod-pma/setup-manage-vendor-payments.md
     - name: Ostutšekkide projektikulu laekumine
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
+      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
     - name: Projekti arveldamine
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+      href: /dynamics365/finance/accounts-payable/project-invoicing
     - name: Projektiarve ettepaneku tulemus
       href: prod-pma/project-invoice-proposal-performance.md
     - name: Projektilepingud
@@ -998,6 +1028,8 @@
       items:
         - name: Uuenduse väljalaske ajakava Project Service 3.x jaoks
           href: psa/version-history-ps.md
+        - name: 'Mis on uut või muutunud värskenduses 31, V3?'
+          href: psa/whats-new-ur-31.md
         - name: 'Mis on uut või muutunud värskenduses 30, V3?'
           href: psa/whats-new-ur-30.md
         - name: 'Mis on uut või muutunud värskenduse 29.5 kiirparanduses, V3?'
@@ -1327,7 +1359,7 @@
             - name: Ressursikasutuse vaatamine
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling (URS)
-              href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
+              href: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
         - name: Projektijuhi juhend
           items:
             - name: Projektijuhi juhend (Project Service)
