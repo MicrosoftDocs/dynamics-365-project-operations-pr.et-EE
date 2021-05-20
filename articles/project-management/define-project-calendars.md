@@ -1,9 +1,9 @@
 ---
 title: Projektikalendrite määratlemine
-description: Selles teemas leiate teavet projekti kalendri kasutamise kohta, et jälgida projekti ajakava.
+description: Selles teemas antakse teavet selle kohta, kuidas rakendada projektile kalendrimalli projekti ajakava jälgimiseks.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,38 +17,49 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286963"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981295"
 ---
-# <a name="define-project-calendars"></a><span data-ttu-id="eb72c-103">Projektikalendrite määratlemine</span><span class="sxs-lookup"><span data-stu-id="eb72c-103">Define project calendars</span></span>
+# <a name="define-project-calendars"></a><span data-ttu-id="4cfda-103">Projektikalendrite määratlemine</span><span class="sxs-lookup"><span data-stu-id="4cfda-103">Define project calendars</span></span>
 
-<span data-ttu-id="eb72c-104">_**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_</span><span class="sxs-lookup"><span data-stu-id="eb72c-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="4cfda-104">_**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_</span><span class="sxs-lookup"><span data-stu-id="4cfda-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="eb72c-105">Projekti ajakava loomiseks peate looma projektikalendri malli, mis määratleb töötundide arvu päevas ja kõik äri lõpetamised.</span><span class="sxs-lookup"><span data-stu-id="eb72c-105">To create a project schedule, you create a project calendar template that defines the number of working hours per day and any business closures.</span></span> <span data-ttu-id="eb72c-106">Projektikalendri malli loomiseks seostage projekti väljaga **Kalendrimall** töömall.</span><span class="sxs-lookup"><span data-stu-id="eb72c-106">To create a project calendar template, you associate a work template with the **Calendar template** field for the project.</span></span> <span data-ttu-id="eb72c-107">Töömalli loomiseks tehke järgmist.</span><span class="sxs-lookup"><span data-stu-id="eb72c-107">Follow these steps to create a work template.</span></span>
+<span data-ttu-id="4cfda-105">Projekti loomiseks ja haldamiseks peate projektile rakendama kalendrimalli.</span><span class="sxs-lookup"><span data-stu-id="4cfda-105">To create and manage a project, you must apply a calendar template to the project.</span></span> <span data-ttu-id="4cfda-106">Kalendrimallis määratletakse järgmised projektiatribuudid.</span><span class="sxs-lookup"><span data-stu-id="4cfda-106">The calendar template defines the following project attributes:</span></span>
 
-1. <span data-ttu-id="eb72c-108">Valige vasakpoolsel navigatsioonipaanil **Ressursid**.</span><span class="sxs-lookup"><span data-stu-id="eb72c-108">In the left navigation pane, select **Resources**.</span></span> 
-2. <span data-ttu-id="eb72c-109">Avage loendilehel **Ressursid** kasutajakirje ja seejärel tehke valik **Kuva töötunnid**.</span><span class="sxs-lookup"><span data-stu-id="eb72c-109">On the **Resources** list page, open a user record, and then select **Show Work Hours**.</span></span>
+- <span data-ttu-id="4cfda-107">Tööaeg (sh algus- ja lõppaeg)</span><span class="sxs-lookup"><span data-stu-id="4cfda-107">Working hours, including start and end time</span></span>
+- <span data-ttu-id="4cfda-108">Tööpäevad</span><span class="sxs-lookup"><span data-stu-id="4cfda-108">Working days</span></span>
+- <span data-ttu-id="4cfda-109">Kalendri erandid (nt mitte-tööpäevad)</span><span class="sxs-lookup"><span data-stu-id="4cfda-109">Calendar exceptions such as non-working days</span></span>
 
-  > [!NOTE]
-  > <span data-ttu-id="eb72c-110">Veenduge, et brauseriaknas oleks hüpikaknad lubatud.</span><span class="sxs-lookup"><span data-stu-id="eb72c-110">Make sure that you allow pop-ups on the browser page.</span></span> <span data-ttu-id="eb72c-111">Nii saate vaadata ressursi jaoks määratud töötunde.</span><span class="sxs-lookup"><span data-stu-id="eb72c-111">This lets you see the work hours set for the resource.</span></span>
-  
-3. <span data-ttu-id="eb72c-112">Valige vahekaardil **Kuuvaade** suvand **Seadista**.</span><span class="sxs-lookup"><span data-stu-id="eb72c-112">On the **Monthly View** tab, select **Set Up**.</span></span> <span data-ttu-id="eb72c-113">Kuvatakse kolme suvandiga loend.</span><span class="sxs-lookup"><span data-stu-id="eb72c-113">A list of three options appears:</span></span> 
+<span data-ttu-id="4cfda-110">Projektile rakendatud kalendrimall on teie organisatsiooni sätetes määratletud kalendrimalli koopia.</span><span class="sxs-lookup"><span data-stu-id="4cfda-110">The calendar template that's applied to a project is a copy of the calendar template defined in your organization’s settings.</span></span>
 
-  - <span data-ttu-id="eb72c-114">Uus nädalagraafik</span><span class="sxs-lookup"><span data-stu-id="eb72c-114">New Weekly Schedule</span></span>
-  - <span data-ttu-id="eb72c-115">Ühe päeva töögraafik</span><span class="sxs-lookup"><span data-stu-id="eb72c-115">Work Schedule for One Day</span></span>
-  - <span data-ttu-id="eb72c-116">Eemalolekuaeg</span><span class="sxs-lookup"><span data-stu-id="eb72c-116">Time Off</span></span>
+> [!NOTE]
+> <span data-ttu-id="4cfda-111">Kui muudate kalendrimalli, siis need muudatused ei laiene projekti tööajale.</span><span class="sxs-lookup"><span data-stu-id="4cfda-111">If you change the calendar template, those changes don't propagate to the working hours of the project.</span></span> <span data-ttu-id="4cfda-112">Projekti tööaja muutmiseks tuleb rakendada uus mall.</span><span class="sxs-lookup"><span data-stu-id="4cfda-112">To change the working hours of the project, a new template must be applied.</span></span>
 
-4. <span data-ttu-id="eb72c-117">Tehke valik **Uus nädalagraafik** ja seejärel määrake selle ressurside ajakava suvandid.</span><span class="sxs-lookup"><span data-stu-id="eb72c-117">Select **New Weekly Schedule**, and then set the options for this resource schedule.</span></span> <span data-ttu-id="eb72c-118">Saate määrata korduva nädalagraafiku, iga päeva tunniparameetrid, äri lõpetamised ja muud.</span><span class="sxs-lookup"><span data-stu-id="eb72c-118">You can set a recurring weekly schedule, daily hour parameters, business closures, and more.</span></span>
-5. <span data-ttu-id="eb72c-119">Määrake kuupäevavahemik, valige **Salvesta** ja valige seejärel **Sule**.</span><span class="sxs-lookup"><span data-stu-id="eb72c-119">Set the date range, select **Save**, and then select **Close**.</span></span> 
-6. <span data-ttu-id="eb72c-120">Minge tagasi loendilehele **Ressursid** ja valige ressurss, mille jaoks töötunde määrate.</span><span class="sxs-lookup"><span data-stu-id="eb72c-120">Go back to the **Resources** list page, and select the resource that you set the work hours for.</span></span> 
-7. <span data-ttu-id="eb72c-121">Töömalli määramiseks tehke valik **Seadista kalender nimega**.</span><span class="sxs-lookup"><span data-stu-id="eb72c-121">Select **Set Calendar As** to set the work template.</span></span> 
-8. <span data-ttu-id="eb72c-122">Sisestage dialoogiboksis **Töömall** töömalli nimi ja seejärel tehke valik **Rakenda**.</span><span class="sxs-lookup"><span data-stu-id="eb72c-122">In the **Work Template** dialog box, enter a name for the work template, and then select **Apply**.</span></span> 
+<span data-ttu-id="4cfda-113">Oma organisatsiooni jaoks kalendrimalli loomiseks on kaks põhinõuet.</span><span class="sxs-lookup"><span data-stu-id="4cfda-113">To create a calendar template for your organization, there are two key requirements:</span></span>
 
-<span data-ttu-id="eb72c-123">Nüüd saate seostada töömalli projektikalendri malliga.</span><span class="sxs-lookup"><span data-stu-id="eb72c-123">You can now associate the work template with a project calendar template.</span></span>
+- <span data-ttu-id="4cfda-114">Määratlege malli soovitud tööaeg, kasutades uut või olemasolevat broneeritavat ressurssi.</span><span class="sxs-lookup"><span data-stu-id="4cfda-114">Define the desired working hours of the template using a new or existing bookable resource.</span></span>
+- <span data-ttu-id="4cfda-115">Looge uus kalendrimall ja seostage mall broneeritava ressursiga.</span><span class="sxs-lookup"><span data-stu-id="4cfda-115">Create a new calendar template and associate the template with the bookable resource.</span></span>
+
+<span data-ttu-id="4cfda-116">**Määratlege malli tööaeg**</span><span class="sxs-lookup"><span data-stu-id="4cfda-116">**Define the working hours of the template**</span></span>
+
+1. <span data-ttu-id="4cfda-117">Avage **Ressursid** \> **Ressursid**.</span><span class="sxs-lookup"><span data-stu-id="4cfda-117">Go to **Resources** \> **Resources**.</span></span>
+2. <span data-ttu-id="4cfda-118">Looge kalendrimallis viidatav uus ressurss või valige olemasolev ressurss.</span><span class="sxs-lookup"><span data-stu-id="4cfda-118">Create a new resource to reference in the calendar template, or select an existing resource.</span></span>
+3. <span data-ttu-id="4cfda-119">Valige ressursi vahekaart **Tööaeg** ja järgige kalendrireeglite konfigureerimiseks [ressursi töötundide](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) konfigureerimine suuniseid.</span><span class="sxs-lookup"><span data-stu-id="4cfda-119">Select the **Work Hours** tab of the resource and complete the instructions in [Set work hours for a resource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.</span></span>
+
+<span data-ttu-id="4cfda-120">**Looge uus kalendrimall**</span><span class="sxs-lookup"><span data-stu-id="4cfda-120">**Create a new calendar template**</span></span>
+
+1. <span data-ttu-id="4cfda-121">Avage **Sätted** \> **Kalendrimall**.</span><span class="sxs-lookup"><span data-stu-id="4cfda-121">Go to **Settings** \> **Calendar Template**.</span></span>
+2. <span data-ttu-id="4cfda-122">Valige **Uus** ning sisestage nimi, kirjeldus ja malliressurss.</span><span class="sxs-lookup"><span data-stu-id="4cfda-122">Select **New**, and enter a name, description, and template resource.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="4cfda-123">Kui ressursile viidatakse kalendrimallis, seostatakse kalendrimalliga ressursi kalendri koopia.</span><span class="sxs-lookup"><span data-stu-id="4cfda-123">When a resource is referenced in a calendar template, a copy of the resource’s calendar is associated with the calendar template.</span></span> <span data-ttu-id="4cfda-124">Kui kopeeritud malli tööaega muudetakse, ei laiene need muudatused kalendermallile.</span><span class="sxs-lookup"><span data-stu-id="4cfda-124">If the working hours of the copied template change, those changes will not propagate to the calendar template.</span></span>
+
+<span data-ttu-id="4cfda-125">Nüüd saate seostada töömalli projektikalendri malliga.</span><span class="sxs-lookup"><span data-stu-id="4cfda-125">You can now associate the work template with a project calendar template.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
