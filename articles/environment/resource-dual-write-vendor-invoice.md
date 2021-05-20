@@ -1,0 +1,47 @@
+---
+title: Tarnija arve integreerimine
+description: See teema sisaldab teavet Project Operationsi hankija arvete integreerimise kohta.
+author: sigitac
+manager: Annbe
+ms.date: 04/27/2021
+ms.topic: article
+ms.prod: ''
+ms.service: project-operations
+ms.reviewer: kfend
+ms.author: sigitac
+ms.openlocfilehash: 07839436c3777b0554e0721d250bff643e38c088
+ms.sourcegitcommit: 02f00960198cc78a5e96955a9e4390c2c6393bbf
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5955738"
+---
+# <a name="vendor-invoice-integration"></a><span data-ttu-id="0e767-103">Tarnija arve integreerimine</span><span class="sxs-lookup"><span data-stu-id="0e767-103">Vendor invoice integration</span></span>
+
+<span data-ttu-id="0e767-104">_**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_</span><span class="sxs-lookup"><span data-stu-id="0e767-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+
+<span data-ttu-id="0e767-105">Projektiga seotud hankeid rakenduses Dynamics 365 Project Operations saab salvestada, kui lähete jaotisse **Ostureskontro** > **Arved** > **Ootel hankijate arved** ja kasutate ootel hankija arvedokumenti.</span><span class="sxs-lookup"><span data-stu-id="0e767-105">Project-related procurement in Dynamics 365 Project Operations can be recorded by going to **Accounts Payable** > **Invoices** > **Pending vendor invoices** and using a pending vendor invoice document.</span></span> <span data-ttu-id="0e767-106">Lisateavet leiate teemast [Logimata materjalide ostmine ootel oleva hankija arvega](../procurement/pending-vendor-invoices.md).</span><span class="sxs-lookup"><span data-stu-id="0e767-106">For more information, see [Purchase non-stocked materials using a pending vendor invoice](../procurement/pending-vendor-invoices.md).</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="0e767-107">Enne selles teemas kirjeldatud funktsioonide kasutamist vaadake üle ja rakendage nõutavad konfiguratsioonid.</span><span class="sxs-lookup"><span data-stu-id="0e767-107">Before you use the functionality described in this topic, review and apply the required configurations.</span></span> <span data-ttu-id="0e767-108">Lisateavet leiate teemast [Logimata materjalide ja ootel hankijate arvete lubamine](../procurement/configure-materials-nonstocked.md).</span><span class="sxs-lookup"><span data-stu-id="0e767-108">For more information, see [Enable non-stocked materials and pending vendor invoices](../procurement/configure-materials-nonstocked.md).</span></span>
+
+<span data-ttu-id="0e767-109">Project Operationsis sisestatakse projektiga seotud hankija arved spetsiaalsete sisestusreeglite abil.</span><span class="sxs-lookup"><span data-stu-id="0e767-109">In Project Operations, project-related vendor invoices are posted using special posting rules:</span></span>
+
+- <span data-ttu-id="0e767-110">Projektiga seotud kulu (sh tagastamatu maks) ei sisestata kohe pearaamatusse projekti kulukontole.</span><span class="sxs-lookup"><span data-stu-id="0e767-110">Project-related cost (including non-recoverable tax) isn't immediately posted to the project cost account in the general ledger.</span></span> <span data-ttu-id="0e767-111">Selle asemel sisestatakse kulu **Hanke integreerimise kontole**.</span><span class="sxs-lookup"><span data-stu-id="0e767-111">Instead, the cost is posted to the **Procurement integration account**.</span></span> <span data-ttu-id="0e767-112">See konto on konfigureeritud jaotises **Projektihaldus ja raamatupidamine** > **Seadistus** > **Projektihalduse ja raamatupidamise parameetrid** vahekaardil **Project Operations on Dynamics 365 Customer engagement**.</span><span class="sxs-lookup"><span data-stu-id="0e767-112">This account is configured in **Project management and accounting** > **Setup** > **Project management and accounting parameters** on the **Project Operations on Dynamics 365 Customer engagement** tab.</span></span>
+- <span data-ttu-id="0e767-113">Topeltkirjutamine sünkroonib hankija arve üksikasjad rakendusse Microsoft Dataverse järgmiste tabelikaartide abil.</span><span class="sxs-lookup"><span data-stu-id="0e767-113">Dual-write synchronizes vendor invoice details to Microsoft Dataverse using the following table maps:</span></span>
+
+     - <span data-ttu-id="0e767-114">**Project Operationsi integreerimise projekti hankija arve ekspordi olem (msdyn_projectvendorinvoices)**: see tabelikaart sünkroonib hankija arve päise teabe.</span><span class="sxs-lookup"><span data-stu-id="0e767-114">**Project Operations integration project vendor invoice export entity (msdyn_projectvendorinvoices)**: This table map synchronizes vendor invoice header information.</span></span> <span data-ttu-id="0e767-115">Sünkroonitakse ainult vähemalt ühe projekti ID-ga reaga hankija Dataverse’i arved.</span><span class="sxs-lookup"><span data-stu-id="0e767-115">Only vendor invoices with at least one line that contains a project ID are synchronized to Dataverse.</span></span>
+     - <span data-ttu-id="0e767-116">**Project Operationsi integreerimise projekti hankija arve rea ekspordi olem (msdyn_projectvendorinvoices)**: see tabelikaart sünkroonib hankija arve rea teabe.</span><span class="sxs-lookup"><span data-stu-id="0e767-116">**Project Operations integration project vendor invoice line export entity (msdyn_projectvendorinvoicelines)**: This table map synchronizes vendor invoice line information.</span></span> <span data-ttu-id="0e767-117">Dataverse’i sünkroonitakse ainult need read, mis sisaldavad projekti ID-d.</span><span class="sxs-lookup"><span data-stu-id="0e767-117">Only lines that contain a project ID are synchronized to Dataverse.</span></span>
+
+     > [!NOTE]
+     > <span data-ttu-id="0e767-118">Hankija arve üksikasju Dataverse’is ei saa redigeerida.</span><span class="sxs-lookup"><span data-stu-id="0e767-118">Vendor invoice details in Dataverse are not editable.</span></span>
+
+<span data-ttu-id="0e767-119">Maksu alamandmik, hankija alamandmik ja muud finantskonteeringud kirjendatakse hankijaarve konteerimisel vajaduse järgi rakenduses Dynamics 365 Finance, kui hankija arve on sisestatud.</span><span class="sxs-lookup"><span data-stu-id="0e767-119">Tax subledger, vendor subledger, and other financial postings are recorded as applicable in Dynamics 365 Finance when the vendor invoice is posted.</span></span>
+
+![Tarnija arve integreerimine](media/DW7VendorInvoice.png)
+
+<span data-ttu-id="0e767-121">Kui kirjed kirjutatakse olemis **Hankija arve** rakenduses Dataverse, algab kirjete automaatne kinnitamisprotsess.</span><span class="sxs-lookup"><span data-stu-id="0e767-121">When records are written to a **Vendor invoice** entity in Dataverse, an automated approval process of the records begins.</span></span> <span data-ttu-id="0e767-122">Vajaduse korral saab automaatse kinnitamise protsessi oleku üle vaadata, kui avate Dataverse’i jaotise **Täpsemad sätted** > **Süsteem** > **Süsteemitööd**.</span><span class="sxs-lookup"><span data-stu-id="0e767-122">If needed, the automated approval process status can be reviewed in Dataverse by going to **Advanced settings** > **System** > **System jobs**.</span></span> <span data-ttu-id="0e767-123">Pärast kinnitamise lõpetamist loob süsteem olemis **Tegelikud andmed** kandeklassi kirjed.</span><span class="sxs-lookup"><span data-stu-id="0e767-123">After the approval is complete, the system creates material transaction class records in the **Actuals** entity.</span></span>
+
+<span data-ttu-id="0e767-124">Materjaliga seotud tegelikud andmed töödeldakse seejärel topeltkirjutamise tabelikaardi abil, **Project Operationsi integreerimise tegelikud andmed (msdyn_actuals)**.</span><span class="sxs-lookup"><span data-stu-id="0e767-124">Material-related actuals are then processed using the dual-write table map, **Project Operations integration actuals (msdyn_actuals)**.</span></span> <span data-ttu-id="0e767-125">Lisateavet leiate teemast [Projekti prognoosid ja tegelikud andmed](resource-dual-write-estimates-actuals.md).</span><span class="sxs-lookup"><span data-stu-id="0e767-125">For more information, see [Project estimates and actuals](resource-dual-write-estimates-actuals.md).</span></span>
+
+<span data-ttu-id="0e767-126">Perioodiline protsess **Import koondandmetest** loob hankija arvega seotud Project Operationsi integreerimise töölehe read.</span><span class="sxs-lookup"><span data-stu-id="0e767-126">The periodic process, **Import from staging** creates vendor invoice-related Project Operations integration journal lines.</span></span> <span data-ttu-id="0e767-127">Vastaskonto vaikeväärtus on hangete integreerimise konto.</span><span class="sxs-lookup"><span data-stu-id="0e767-127">The offset account defaults to the procurement integration account.</span></span> <span data-ttu-id="0e767-128">Kui integreerimise tööleht on sisestatud, tühjendatakse hankija arvekande kontosaldo ja rea summa teisaldatakse projekti kulukontole.</span><span class="sxs-lookup"><span data-stu-id="0e767-128">When the integration journal is posted, the account balance is cleared for the vendor invoice transaction and the line amount is moved to the project cost account.</span></span> <span data-ttu-id="0e767-129">Projekti alampearaamatu kanded luuakse ka järelarveldamiseks ja tulude kajastamiseks.</span><span class="sxs-lookup"><span data-stu-id="0e767-129">Project subledger transactions are also created for downstream invoicing and revenue recognition purposes.</span></span>

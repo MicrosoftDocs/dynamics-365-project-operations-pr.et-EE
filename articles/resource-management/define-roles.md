@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8c30d504615c9854f99aa1e8e86ec576cd584dc7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fff52c142e4ac1f01fe86808094e94e3974db53a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279718"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949989"
 ---
-# <a name="define-roles"></a><span data-ttu-id="b6167-103">Rollide määratlemine</span><span class="sxs-lookup"><span data-stu-id="b6167-103">Define roles</span></span>
+# <a name="define-roles"></a><span data-ttu-id="8e28c-103">Rollide määratlemine</span><span class="sxs-lookup"><span data-stu-id="8e28c-103">Define roles</span></span>
 
-<span data-ttu-id="b6167-104">_**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_</span><span class="sxs-lookup"><span data-stu-id="b6167-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="8e28c-104">_**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_</span><span class="sxs-lookup"><span data-stu-id="8e28c-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="b6167-105">Saate kasutada rakenduses Dynamics 365 Field Service sisalduvaid funktsioone, et määratleda rollid oma teenuse Dynamics 365 Project Operations keskkonnas.</span><span class="sxs-lookup"><span data-stu-id="b6167-105">You can use the functionality provided in Dynamics 365 Field Service to define the roles in your Dynamics 365 Project Operations environment.</span></span> <span data-ttu-id="b6167-106">Selle seadistuse lõpetamiseks vaadake teemat [Broneeritava ressursi kategooriate seadistamine](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resource-categories).</span><span class="sxs-lookup"><span data-stu-id="b6167-106">To complete this setup, see [Set up bookable resource categories](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resource-categories).</span></span>
+<span data-ttu-id="8e28c-105">Saate kasutada rakenduses Dynamics 365 Field Service sisalduvaid funktsioone, et määratleda rollid oma teenuse Dynamics 365 Project Operations keskkonnas.</span><span class="sxs-lookup"><span data-stu-id="8e28c-105">You can use the functionality provided in Dynamics 365 Field Service to define the roles in your Dynamics 365 Project Operations environment.</span></span> <span data-ttu-id="8e28c-106">Selle seadistuse lõpetamiseks vaadake teemat [Broneeritava ressursi kategooriate seadistamine](/dynamics365/field-service/set-up-bookable-resource-categories).</span><span class="sxs-lookup"><span data-stu-id="8e28c-106">To complete this setup, see [Set up bookable resource categories](/dynamics365/field-service/set-up-bookable-resource-categories).</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
