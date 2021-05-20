@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 319000e6a826580049e8575def5790ab595a3165
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 85722f61a672cc55cd2b511dc80ebfbe4807b957
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289589"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950394"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Projekti lepingute ja projektide sünkroonimine otse Project Service Automationist rakendusse Finance 
 
@@ -109,8 +109,8 @@ Kui rakendatakse integreerimislahendust Project Service Automationist Finance'i,
 ## <a name="prerequisites-and-mapping-setup"></a>Eeltingimused ja vastenduse seadistamine
 
 - Enne kui projekti lepingute ja projektide sünkroonimine saab aset leida, peate sünkroonima kontod.
-- Lisage seadistatud ühenduses väli integratsioonivõtme väli, mis vastendab **msdyn\_organizationalunits** ja **msdyn\_name \[Name\]**. Võimalik, et peate esmalt lisama projekti ühenduse komplektile. Lisateavet leiate teemast [Andmete integreerimine Common Data Service rakendustele](https://docs.microsoft.com/powerapps/administrator/data-integrator).
-- Lisage seadistatud ühenduses väli integratsioonivõtme väli, mis vastendab **msdyn\_projects** ja **msdynce\_projectnumber \[Project Number\]**. Võimalik, et peate esmalt lisama projekti ühenduse komplektile. Lisateavet leiate teemast [Andmete integreerimine Common Data Service rakendustele](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- Lisage seadistatud ühenduses väli integratsioonivõtme väli, mis vastendab **msdyn\_organizationalunits** ja **msdyn\_name \[Name\]**. Võimalik, et peate esmalt lisama projekti ühenduse komplektile. Lisateavet leiate teemast [Andmete integreerimine Common Data Service rakendustele](/powerapps/administrator/data-integrator).
+- Lisage seadistatud ühenduses väli integratsioonivõtme väli, mis vastendab **msdyn\_projects** ja **msdynce\_projectnumber \[Project Number\]**. Võimalik, et peate esmalt lisama projekti ühenduse komplektile. Lisateavet leiate teemast [Andmete integreerimine Common Data Service rakendustele](/powerapps/administrator/data-integrator).
 - Projekti lepingute ja projektide **SourceDataID**-d saab uuendada erineva väärtusega või eemaldada vastendusest. Malli vaikeväärtuseks on **Project Service Automation**.
 - **PaymentTerms** vastendust tuleb värskendada nii, et see kajastaks kehtivaid maksetingimusi Finance'is. Vastenduse saate eemaldada ka projekti tööülesandest. Vaikeväärtuste vastendusel on demo andmete jaoks vaikeväärtused. Järgmises tabelis on toodud väärtused Project Service Automationis.
 
@@ -131,7 +131,7 @@ Kui järgmised tingimused on täidetud, kasutage andmete filtreerimiseks lahendu
 Kui peate kasutama Power Queryd, järgige neid suuniseid.
 
 - Projektide ja lepingute (PSA-st Fin and Opsini) mallil on vaikefilter, mis sisaldab ainult **Tööde üksuse (msdyn\_ordertype = 192350001)** tüüpi müügitellimusi. See filter aitab tagada, et projektilepinguid ei loodaks Finance'is müügitellimustele. Kui loote oma malli, peate selle filtri lisama.
-- Looge Power Query filter, mis sisaldab ainult neid lepingu organisatsioone, mida tuleks sünkroonida integratsiooni ühenduse komplekti juriidilise isiku juurde. Näiteks projekti lepingud, mis on seotud Contoso USA lepingu organisatsioonilise üksusega, tuleb sünkroonida USSI juriidilise isikuga, kuid projektilepingud, mis teil on Contoso Global lepingu organisatsioonilise üksusega tuleb sünkroonida USMF-i juriidilise isikuga. Kui te ei lisa seda filtrit oma tööülesannete vastendamisel, sünkroonitakse kõik projektilepingud juriidilise isikuga, mis on määratletud ühenduse komplekti jaoks, olenemata lepingu organisatsioonilisest üksusest.
+- Looge Power Query filter, mis sisaldab ainult neid lepingu organisatsioone, mida tuleks sünkroonida integratsiooni ühenduse komplekti juriidilise isiku juurde. Näiteks projektilepingud, mis teil on Contoso USA lepingulise korraldusüksusega, tuleks sünkroonida USSI juriidilise isikuga, kuid projektilepingud, mis teil on Contoso Globali lepingute korraldusüksusega, tuleks sünkroonida juriidilise isikuga USMF. Kui te ei lisa seda filtrit oma tööülesannete vastendamisel, sünkroonitakse kõik projektilepingud juriidilise isikuga, mis on määratletud ühenduse komplekti jaoks, olenemata lepingu organisatsioonilisest üksusest.
 
 ## <a name="template-mapping-in-data-integration"></a>Malli vastendamine andmete integratsioonis
 

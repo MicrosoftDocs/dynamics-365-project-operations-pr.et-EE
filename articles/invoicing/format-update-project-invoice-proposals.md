@@ -3,17 +3,17 @@ title: Projekti arve ettepanekute haldamine
 description: Selles teemas antakse üksikasjalikku teavet kliendile suunatud arvete töötlemise kohta Project Operationsi abil ressursipõhiste/mittelaopõhiste stsenaariumide korral.
 author: sigitac
 manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4e663a9a0ca5b197e556d8c36233ab25affda876
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b8eacf2b43219a9adad897637b78a9c94351554
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275848"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950709"
 ---
 # <a name="manage-project-invoice-proposals"></a>Projekti arve ettepanekute haldamine
 
@@ -80,7 +80,8 @@ Fikseeritud hinnaga arveldusmeetodit kasutavad projekti lepinguread arveldatakse
     - **Kliendi** arvelduse käibemaksugrupi vaikeväärtus saadakse alati kliendist.
     - **Otsing** otsib kõigist selle loendi olemitest ja valib esimese saadaoleva väärtuse. Otsing algab olemist **Projekt**, seejärel tuleb olem **Projekti leping** ja seejärel olem **Klient**.
 
-- **Fikseeritud osamakse hinnaga üksuse käibemaksugruppi** kasutatakse välja **Üksuse käibemaksugrupp** vaikeväärtuse saamiseks.
+- **Fikseeritud hinnaga eesmärgitoote müügimaksurühma** kasutatakse arvelduse vahekokkuvõtte **Kauba müügi maksurühm** vaikeväärtusena. Konto omanik saab selle väärtuse üle vaadata ja seda muuta lehel **Kontol tehtud tehingud**. Süsteem kasutab projekti arve arveldamise rea loomisel kontol oleva tehingu väärtust.
+ 
 
 ### <a name="financial-dimensions"></a>Finantsdimensioonid
 
@@ -132,7 +133,7 @@ Leht **Arve ettepanekute vormindamine** võimaldab kuvada kliendi projekti arvel
 
 Prindihaldus kasutab erinevaid aruandefaile, et printida, määrata sihtkohti ja kohandada arve jalusteksti. Prindihalduse saab seadistada mooduli tasandil, kuid neid sätteid saab konkreetse kliendi, lepingu või arve puhul üle kirjutada. Sellele funktsioonile juurdepääsu saamiseks lehel **Projekti arve ettepanek** valige **Printimine** > **Prindihaldus**.
 
-Prindihalduse seadistamine kuvatakse puuvaatena, kus igal sõlmetasemel kuvatakse korrigeerimiseks saadaolevad dokumendid. Saate mooduli, kliendi, lepingu või arve ettepaneku dokumendi tasandil määrata kohandatud väljatrükke. Algdokumendi väljatrüki muutmiseks laiendage soovitud sõlme ja valige **Algüksus**. Valige väljal **Aruande vorming** printimiseks kasutatav aruande vorming. Kohandatud aruandevorminguid saate kasutada [Äridokumendihalduse raamistiku](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management) abil.
+Prindihalduse seadistamine kuvatakse puuvaatena, kus igal sõlmetasemel kuvatakse korrigeerimiseks saadaolevad dokumendid. Saate mooduli, kliendi, lepingu või arve ettepaneku dokumendi tasandil määrata kohandatud väljatrükke. Algdokumendi väljatrüki muutmiseks laiendage soovitud sõlme ja valige **Algüksus**. Valige väljal **Aruande vorming** printimiseks kasutatav aruande vorming. Kohandatud aruandevorminguid saate kasutada [Äridokumendihalduse raamistiku](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management) abil.
 
 ## <a name="post-invoice-proposals"></a>Arve ettepanekute sisestamine
 

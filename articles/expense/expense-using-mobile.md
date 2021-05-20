@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 01df30bf48fa9118771b87363d0418eb6b49ecea
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 2cbce8fbfa622a143f3ebfc34d7d60a7da4a9171
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499891"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950881"
 ---
 # <a name="mobile-expense-app"></a>Mobiilne kulude rakendus
 
@@ -72,16 +72,16 @@ Kui teie organisatsioonis on juurutatud versioon 1611 koos platvormi uuendusega 
 <td>Süsteemihaldur</td>
 <td>KB 4019015 on X++ värskendus või metaandmete kiirparandus, mis sisaldab mobiilset tööruumi <strong>Kuluhaldus</strong>. KB 4019015 rakendamiseks peab teie süsteemiadministraator järgima järgmisi juhiseid.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">DLaadima portaalist Lifecycle Services alla värskendused</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installige metaandmete kiirparandus</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Looma juurutatava paketi</a>, mis sisaldab mudeleid <strong>ApplicationSuite</strong> ja <strong>ExpenseMobile</strong>, ja seejärel laadima LCS-i üles juurutatav pakett.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Rakendage juurutatav pakett</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">DLaadima portaalist Lifecycle Services alla värskendused</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installige metaandmete kiirparandus</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Looma juurutatava paketi</a>, mis sisaldab mudeleid <strong>ApplicationSuite</strong> ja <strong>ExpenseMobile</strong>, ja seejärel laadima LCS-i üles juurutatav pakett.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Rakendage juurutatav pakett</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Avaldama mobiilse tööruumi <strong>Kuluhaldus</strong>.</td>
 <td>Süsteemihaldur</td>
-<td>Vt <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Mobiilse tööruumi avaldamine</a>.</td>
+<td>Vt <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Mobiilse tööruumi avaldamine</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -122,11 +122,11 @@ Mobiilirakenduse Dynamics 365 Unified Ops allalaadimine ja installimine.
 
 1. Avage oma mobiiliseadmes tööruum **Kuluhaldus**.
 2. Valige **Kiire kulu sisestamine**.
-3. Valige kulu kategooria. Näete kulukategooriate loendit, mis on laaditud rakendusse võrguühenduseta kasutamiseks. Vaikimisi laaditakse 50 üksust, kuid arendaja saab seda numbrit muuta. Arendajad peaksid lisateavet vaatama teemast [Mobiilne platvorm](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Kui teie kategooriat loendis pole, valige suvand **Otsing**, et otsida võrgust. Otsige kulukategooriat või vahetage kulutüübi järgi otsimisse.
+3. Valige kulu kategooria. Näete kulukategooriate loendit, mis on laaditud rakendusse võrguühenduseta kasutamiseks. Vaikimisi laaditakse 50 üksust, kuid arendaja saab seda numbrit muuta. Arendajad peaksid lisateavet vaatama teemast [Mobiilne platvorm](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Kui teie kategooriat loendis pole, valige suvand **Otsing**, et otsida võrgust. Otsige kulukategooriat või vahetage kulutüübi järgi otsimisse.
 4. Sisestage kulu tehingu kuupäev.
 5. Valikuline: sisestage kulu jaoks kaupleja.
 6. Sisestage kulu summa.
-7. Valige kulu valuuta. Näete valuutakoodide loendit, mis on laaditud rakendusse võrguühenduseta kasutamiseks. Vaikimisi laaditakse 400 valuutat, kuid arendaja saab seda numbrit muuta. Arendajad peaksid lisateavet vaatama teemast [Mobiilne platvorm](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Kui teie valuutat loendis pole, valige suvand **Otsing**, et otsida võrgust. Otsige valuuta järgi või vahetage nime järgi otsingule.
+7. Valige kulu valuuta. Näete valuutakoodide loendit, mis on laaditud rakendusse võrguühenduseta kasutamiseks. Vaikimisi laaditakse 400 valuutat, kuid arendaja saab seda numbrit muuta. Arendajad peaksid lisateavet vaatama teemast [Mobiilne platvorm](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Kui teie valuutat loendis pole, valige suvand **Otsing**, et otsida võrgust. Otsige valuuta järgi või vahetage nime järgi otsingule.
 8. Valige **Tee foto** või **Vali pilt**.
 9. Järgige ühte härgmistest sammudest.
 
@@ -159,11 +159,11 @@ Mobiilirakenduse Dynamics 365 Unified Ops allalaadimine ja installimine.
 7. Valige loendist üks või mitu kulu.
 8. Valige nupp **Valmis**.
 9. Aruandele uue kulu lisamiseks valige **Uus kulu**.
-10. Valige kulukategooria. Näete kulukategooriate loendit, mis on laaditud rakendusse võrguühenduseta kasutamiseks. Vaikimisi laaditakse 50 üksust, kuid arendaja saab seda numbrit muuta. Arendajad peaksid lisateavet vaatama teemast [Mobiilne platvorm](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Kui teie kategooriat loendis pole, valige suvand **Otsing**, et otsida võrgust. Otsige kulukategooriat või vahetage kulutüübi järgi otsimisse.
+10. Valige kulukategooria. Näete kulukategooriate loendit, mis on laaditud rakendusse võrguühenduseta kasutamiseks. Vaikimisi laaditakse 50 üksust, kuid arendaja saab seda numbrit muuta. Arendajad peaksid lisateavet vaatama teemast [Mobiilne platvorm](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Kui teie kategooriat loendis pole, valige suvand **Otsing**, et otsida võrgust. Otsige kulukategooriat või vahetage kulutüübi järgi otsimisse.
 11. Valikuline: sisestage kulu jaoks kaupleja.
 12. Sisestage kulu tehingu kuupäev.
 13. Sisestage kulu summa.
-14. Valige kulu valuuta. Näete valuutakoodide loendit, mis on laaditud rakendusse võrguühenduseta kasutamiseks. Vaikimisi laaditakse 400 valuutat, kuid arendaja saab seda numbrit muuta. Arendajad peaksid lisateavet vaatama teemast [Mobiilne platvorm](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Kui teie valuutat loendis pole, valige suvand **Otsing**, et otsida võrgust. Otsige valuuta järgi või vahetage nime järgi otsingule.
+14. Valige kulu valuuta. Näete valuutakoodide loendit, mis on laaditud rakendusse võrguühenduseta kasutamiseks. Vaikimisi laaditakse 400 valuutat, kuid arendaja saab seda numbrit muuta. Arendajad peaksid lisateavet vaatama teemast [Mobiilne platvorm](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Kui teie valuutat loendis pole, valige suvand **Otsing**, et otsida võrgust. Otsige valuuta järgi või vahetage nime järgi otsingule.
 15. Valige nupp **Valmis**.
 16. Kulule täiendavate üksikasjade lisamiseks valige suvand **Lisa rohkem üksikasju**. Saadaolevad väljad olenevad teie ettevõttes konfigureeritud kuluhaldusest.
 17. Kui ettevõtte poliitika nõuab kulu jaoks kviitungit, valige suvand **Kviitungid** ja järgige seejärel järgmisi samme.
@@ -209,12 +209,12 @@ Mobiilirakenduse Dynamics 365 Unified Ops allalaadimine ja installimine.
 
         - Kui valisite suvandi **Varasemad külalised**, järgige järgmisi samme.
 
-            1. Valige lonedist üks või mitu varasemat külalist. Näete varasemate külaliste loendit, mille olete lisanud eelmistele kuluaruannetele, mille olete võrguühenduseta kasutamiseks oma rakendusse laadinud. Vaikimisi laaditakse 50 üksust, kuid arendaja saab seda numbrit muuta. Arendajad peaksid lisateavet vaatama teemast [Mobiilne platvorm](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Kui teie varasemat külalist loendis pole, valige suvand **Otsing**, et otsida võrgust. Otsige nime järgi või vahetage organisatsiooni, riigi või ametinimetuse järgi otsingule.
+            1. Valige lonedist üks või mitu varasemat külalist. Näete varasemate külaliste loendit, mille olete lisanud eelmistele kuluaruannetele, mille olete võrguühenduseta kasutamiseks oma rakendusse laadinud. Vaikimisi laaditakse 50 üksust, kuid arendaja saab seda numbrit muuta. Arendajad peaksid lisateavet vaatama teemast [Mobiilne platvorm](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Kui teie varasemat külalist loendis pole, valige suvand **Otsing**, et otsida võrgust. Otsige nime järgi või vahetage organisatsiooni, riigi või ametinimetuse järgi otsingule.
             2. Valige nupp **Valmis**.
 
         - Kui valisite suvandi **Kaastöötajd**, järgige järgmisi samme.
 
-            1. Valige loendist üks või mitu kaastöötajat. Näete kaastöötajate loendit, mis on laaditud rakendusse võrguühenduseta kasutamiseks. Vaikimisi laaditakse 50 üksust, kuid arendaja saab seda numbrit muuta. Arendajad peaksid lisateavet vaatama teemast [Mobiilne platvorm](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Kui teie kaastöötajat loendis pole, valige suvand **Otsing**, et otsida võrgust. Otsige nime järgi või vahetage ettevõtte või ametinimetuse järgi otsingule.
+            1. Valige loendist üks või mitu kaastöötajat. Näete kaastöötajate loendit, mis on laaditud rakendusse võrguühenduseta kasutamiseks. Vaikimisi laaditakse 50 üksust, kuid arendaja saab seda numbrit muuta. Arendajad peaksid lisateavet vaatama teemast [Mobiilne platvorm](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Kui teie kaastöötajat loendis pole, valige suvand **Otsing**, et otsida võrgust. Otsige nime järgi või vahetage ettevõtte või ametinimetuse järgi otsingule.
             2. Valige nupp **Valmis**.
 
     3. Valige nupp **Tagasi**, et naasta kulude üksikasjadesse.
@@ -223,7 +223,7 @@ Mobiilirakenduse Dynamics 365 Unified Ops allalaadimine ja installimine.
 
     1. Valige üksikasjalikuks loeteluks esimene kuupäev.
     2. Valige **Lisa täpsustamine**.
-    3. Valige kulu üksikasjalikuks loeteluks alamkategooria. Näete alamkategooriate loendit, mis on laaditud rakendusse võrguühenduseta kasutamiseks. Vaikimisi laaditakse 50 üksust, kuid arendaja saab seda numbrit muuta. Arendajad peaksid lisateavet vaatama teemast [Mobiilne platvorm](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Kui teie alamkategooriat loendis pole, valige suvand **Otsing**, et otsida võrgust. Otsige kulu alamkategooria nime järgi.
+    3. Valige kulu üksikasjalikuks loeteluks alamkategooria. Näete alamkategooriate loendit, mis on laaditud rakendusse võrguühenduseta kasutamiseks. Vaikimisi laaditakse 50 üksust, kuid arendaja saab seda numbrit muuta. Arendajad peaksid lisateavet vaatama teemast [Mobiilne platvorm](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Kui teie alamkategooriat loendis pole, valige suvand **Otsing**, et otsida võrgust. Otsige kulu alamkategooria nime järgi.
     4. Sisestage üksikasjalikuks loeteluks tehingu summa.
     5. Kui see on vajalik, muutke tehingu kuupäeva.
     6. Valige nupp **Valmis**.

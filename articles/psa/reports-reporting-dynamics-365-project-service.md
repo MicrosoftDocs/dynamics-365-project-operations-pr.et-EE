@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78c62f69c6529669789a461f1ded8e3ea5f8219e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 32b504a862f98dac4b1d9b54289476026d988c13
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283273"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951474"
 ---
 # <a name="reporting-home-page"></a>Aruandluse avaleht
 
@@ -31,15 +31,15 @@ ms.locfileid: "5283273"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Microsoft Dynamics 365 Project Service Automation võimaldab projektipõhistel organisatsioonidel oma äritegevust tõhusalt hallata. Iga projekti puhul peavad meeskonnaliikmed haldama müügivõimalusi, kavandama töid ja tegema neile hinnapakkumisi, leidma projektidele ressursse, haldama tööd vastavalt plaanile, esitama tehtud töö eest arveid ning seejärel tegema projekti lõpule viimiseks vajalikku tööd. Võimalus tegevuste kohta aruandeid luua on organisatsiooni seisundi määramisel ja mis tahes parandusmeetmete kasutusele võtmisel otsustava tähtsusega. PSA kasutab kogu oma aruandluse tegemiseks Microsoft Dynamics 365 aruandluse meetodeid ja tehnoloogiaid. Aruandluse suvandite kohta leiate lisateavet teemast [Aruande kirjutamise juhend rakendusele Dynamics 365 Customer Engagement (on-premises), versioon 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
+Microsoft Dynamics 365 Project Service Automation võimaldab projektipõhistel organisatsioonidel oma äritegevust tõhusalt hallata. Iga projekti puhul peavad meeskonnaliikmed haldama müügivõimalusi, kavandama töid ja tegema neile hinnapakkumisi, leidma projektidele ressursse, haldama tööd vastavalt plaanile, esitama tehtud töö eest arveid ning seejärel tegema projekti lõpule viimiseks vajalikku tööd. Võimalus tegevuste kohta aruandeid luua on organisatsiooni seisundi määramisel ja mis tahes parandusmeetmete kasutusele võtmisel otsustava tähtsusega. PSA kasutab kogu oma aruandluse tegemiseks Microsoft Dynamics 365 aruandluse meetodeid ja tehnoloogiaid. Aruandluse suvandite kohta leiate lisateavet teemast [Aruande kirjutamise juhend rakendusele Dynamics 365 Customer Engagement (on-premises), versioon 9](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
 
 ## <a name="report-wizard"></a>Aruandeviisard
 
-Aruandeviisard võimaldab mittearendajast kasutajatel lihtsaid aruandeid luua. Kuna rakendus koostatakse olemasoleval platvormil, on kogemus samasugune kui see, mis on dokumenteeritud teemas [Aruande loomine või redigeerimine aruandeviisardi abil](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard). Kuid te kasutate siiski rakendusele Project Service Automation omaseid olemeid.
+Aruandeviisard võimaldab mittearendajast kasutajatel lihtsaid aruandeid luua. Kuna rakendus koostatakse olemasoleval platvormil, on kogemus samasugune kui see, mis on dokumenteeritud teemas [Aruande loomine või redigeerimine aruandeviisardi abil](/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard). Kuid te kasutate siiski rakendusele Project Service Automation omaseid olemeid.
 
 ## <a name="custom-sql-server-reporting-services-reports"></a>Kohandatud SQL Serveri aruandlusteenuste aruanded
 
-Kui teie ettevõte vajab kindlat aruannet, mida ei saa aruandeviisardiga luua, saate luua kohandatud aruande. Teil peab olema installitud Microsoft Visual Studio ja vastavad Microsoft SQL Server Data Tools ning aruannete koostamise laiendused. Lisateavet tööriistade ja versioonide kohta leiate teemast [Aruande koostamise keskkond, kasutades tööriista SQL Server Data Tools](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/report-writing-environment-using-sql-server-data-tools). Lisateavet kohandatud aruande koostamise kohta leiate teemast [Looge uus aruanne tööriistaga SQL Server Data Tools](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/create-a-new-report-using-sql-server-data-tools).
+Kui teie ettevõte vajab kindlat aruannet, mida ei saa aruandeviisardiga luua, saate luua kohandatud aruande. Teil peab olema installitud Microsoft Visual Studio ja vastavad Microsoft SQL Server Data Tools ning aruannete koostamise laiendused. Lisateavet tööriistade ja versioonide kohta leiate teemast [Aruande koostamise keskkond, kasutades tööriista SQL Server Data Tools](/dynamics365/customerengagement/on-premises/analytics/report-writing-environment-using-sql-server-data-tools). Lisateavet kohandatud aruande koostamise kohta leiate teemast [Looge uus aruanne tööriistaga SQL Server Data Tools](/dynamics365/customerengagement/on-premises/analytics/create-a-new-report-using-sql-server-data-tools).
 
 ## <a name="power-bi-insights-apps"></a>Power BI ülevaadete rakendused
 

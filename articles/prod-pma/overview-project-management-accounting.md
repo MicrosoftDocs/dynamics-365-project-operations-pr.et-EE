@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2f6ceabe1809cc94357a31f1d57c445593f0f788
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289769"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950439"
 ---
 # <a name="project-management-and-accounting-overview"></a>Projekti haldamise ja raamatupidamise ülevaade
 
@@ -227,7 +227,7 @@ Projektitüüp määratleb, millist arveldamise protseduuri tuleks rakendada. Ar
 Enne projekti jaoks kliendi arve loomist saate luua esialgse arve või arve soovituse. Arvesoovituses saate valida projektiarvele kaasatavad projektikanded. Seejärel saate arve üksikasjad enne projekti arve sisestamist üle vaadata ja selle kliendile või muule rahastamisallikale saata. 
 
 
-Lisateavet projekti arvete töötlemise kohta leiate jaotisest [Projekti arved](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
+Lisateavet projekti arvete töötlemise kohta leiate jaotisest [Projekti arved](/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Projekti lõpuleviimiseks kulu arvutamine

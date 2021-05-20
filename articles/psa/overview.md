@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 371cfc5bc04ac0fe780400247dc1c1762ade9e21
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a1aa7a5529ef23476523f2c00882da30bb3a3e97
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284173"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949629"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Mis on Dynamics 365 Project Service Automation?
 
@@ -47,10 +47,10 @@ Peale selle, et saate jälgida ja juhtida projektipõhise töö kulusid, saavad 
 ## <a name="whats-new-in-psa"></a>Mida on uut rakenduses PSA?
 Meeskonnal on hea meel teatada meie uusimatest värskendustest! Alates täiustustest kuni kasutajaliideseni, vigade parandamiseni ja oluliste uute funktsioonide ja võimaluste lisamiseni. Teie küsisite, meie kuulasime.
 
-Uusimatest täiustustest ja lisadest ülevaate saamiseks vaadake jaotist [Väljalaskemärkmed, oktoober 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index).
+Uusimatest täiustustest ja lisadest ülevaate saamiseks vaadake jaotist [Väljalaskemärkmed, oktoober 2019](/dynamics365-release-plan/2019wave2/index).
 
 ### <a name="in-development"></a>Arendamisel
-Selleks et näha, mida oleme kavandanud lähitulevikku, avage jaotis [Dynamics 365: 2020 väljalaskevoog, plaan 1](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
+Selleks et näha, mida oleme kavandanud lähitulevikku, avage jaotis [Dynamics 365: 2020 väljalaskevoog, plaan 1](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Rakenduse PSA versiooni 3.x spikker
 Kas otsite ressursse, mis aitaksid juurutust plaanida? Vaadake neid allalaaditavaid juhiseid.

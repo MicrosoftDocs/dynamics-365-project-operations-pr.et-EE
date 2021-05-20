@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 92c4cb3e1661f0415d49b84c9a59aba4bda38f20
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d52caf0739ee55c25598318608f0c235107c85f3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282283"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951384"
 ---
 # <a name="sign-in-to-project-service-automation"></a>Sisselogimine Project Service Automation
 
@@ -39,7 +39,7 @@ Kui logite sisse Dynamics 365 rakendustesse, peab teil administraatorilt olema s
   
 - Teie parool  
   
-  Arvatavasti saite selle teabe oma administraatorilt meili teel. Kui teil kogu seda teavet pole või teil esineb sisselogimisega probleeme, vaadake jaotist [Leidke oma administraator või klienditoe esindaja](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
+  Arvatavasti saite selle teabe oma administraatorilt meili teel. Kui teil kogu seda teavet pole või teil esineb sisselogimisega probleeme, vaadake jaotist [Leidke oma administraator või klienditoe esindaja](/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
   
 ## <a name="set-your-personal-options-to-allow-email"></a>Isiklike suvandite määramine meili lubamiseks  
  Peate konfigureerima oma meilisätted, et võimaldada teistel saata meile teie nimel, et [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] saaks saata teile meiliteatisi, kui teil on aega ja kulusid projektide kinnitamiseks või neile registreerumiseks.  

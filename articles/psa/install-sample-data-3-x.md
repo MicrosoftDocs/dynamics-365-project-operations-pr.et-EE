@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 377e50fc5772c4dc146ccee098bf2806bbc8c6b7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275083"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950574"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Näidisandmete installimine Project Service’i rakendusele
 
@@ -136,7 +136,7 @@ Demoandmete paketi jaoks on vaja kuut kasutajat. Selleks et pakett õigesti inst
     - Kontohaldur, kasutaja täisnimi = "Molly Clark"   
     - Praktika- ja projektijuht, kasutaja täisnimi = "Spencer Low"  
     - Meeskonnaliige, kasutaja täisnimi = "Veronica Quek"   
-    - Kasutaja täisnimi = "William Jõgi"
+    - Kasutaja täisnimi = Erik Contoso
   
 2. Demoandmete importimiseks määrake ülaltoodud kuuele kasutajale administraatori roll, et näidiskirjed õigesti imporditaks. 
 
@@ -149,7 +149,7 @@ Demoandmete paketi jaoks on vaja kuut kasutajat. Selleks et pakett õigesti inst
 
 5. Esimese kasutaja kalendrit (sildil **userstocreateandconfigure**) kasutatakse kõikide broneeritavate ressursside tööaja väljade täitmiseks demoandmete importimisel. Valige **Sätted** > **Turve** > **Kasutajad**, otsige üles kasutaja Spencer Low ja avage suvand Tööaeg. Muutke tööaega, valides suvandi **Terve korduv nädalaajakava algusest lõpuni**. Kontrollige, kas **tööaeg on 8.00–17.00 (9 tundi), esmaspäevast reedeni, ja ajavöönd on määratud Vaikse ookeani ajale (USA ja Kanada)**. Seda on vaja projekti- ja ajakavapaneeli õigesti kuvamiseks.
 
-**Soovitus.** Kaaluge organisatsioonist varukoopia loomist juhuks, kui peate minema tagasi lähtekohta, kui näidisandmete installimisel midagi valesti läheb. Lisateavet vt teemast [Eksemplaride varundamine ja taastamine](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Soovitus.** Kaaluge organisatsioonist varukoopia loomist juhuks, kui peate minema tagasi lähtekohta, kui näidisandmete installimisel midagi valesti läheb. Lisateavet vt teemast [Eksemplaride varundamine ja taastamine](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Käivitage Package Deployer
 

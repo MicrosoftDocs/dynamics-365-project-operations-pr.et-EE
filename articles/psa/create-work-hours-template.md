@@ -1,6 +1,6 @@
 ---
-title: Uue töötundide malli loomine
-description: Töötundide malli loomine Project Service'is
+title: Töötundide malli loomine
+description: Selles teemas kirjeldatakse, kuidas luua Project Service’is tööaja malli.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
@@ -18,51 +18,51 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e859a58f86d8cd98fa429beeeb99cf397a207cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285028"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981250"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Töötundide malli loomine (Project Service)
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Enne projekti ajakavade loomist tuleb seadistada projektikalender, mis määratleb ajakavas töötundide arvu päevas ja kõik puhkepäevad. Seda saab teha töötundide malliga, mis sisaldab päeva töötundide, vabade päevade ja muude puhkepäevade andmeid.  
-  
- Projekti loomisel seote töömalli projektikalendriga ajakava rakendamiseks projektile.  
-  
- Töötundide malli loomiseks on kaks võimalust.  
-  
--   Töötundide malli loomine ressursi kalendri põhjal.  
-  
--   Uue töötundide malli loomine.  
-  
-#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a>Töötundide malli loomine ressursi kalendri põhjal  
-  
-1.  Minge jaotisse **Project Service > Ressursid**.  
-  
-2.  Valige ressurss, millel teie töötunnid peaksid põhinema.  
-  
-3.  Klõpsake käsku **Salvesta kalender nimega**, sisestage töötundide malli nimi ja klõpsake käsku **Salvesta**.  
-  
-4.  Kui olete valikute muutmise lõpetanud, klõpsake käsku **Salvesta ja sule**.  
-  
-5.  Klõpsake nuppu **Salvesta** ekraani alumises paremas nurgas.  
-  
-#### <a name="to-create-a-new-work-hours-template"></a>Uue töötundide malli loomine  
-  
-1.  Minge jaotisse **Project Service > Töötundide mallid**.  
-  
-2.  Klõpsake nuppu **Uus**.  
-  
-3.  Sisestage töötundide malli nimi.  
-  
-4.  Valige ressurss, millel töötunnid peaksid põhinema, ja klõpsake käsku **Salvesta**.  
-  
+Projekti loomiseks ja haldamiseks peate projektile rakendama kalendrimalli. Kalendrimallis määratletakse järgmised projektiatribuudid.
+
+- Tööaeg (sh algus- ja lõppaeg)
+- Tööpäevad
+- Kalendri erandid (nt mitte-tööpäevad)
+
+Projektile rakendatud kalendrimall on teie organisatsiooni sätetes määratletud kalendrimalli koopia.
+
+> [!NOTE]
+> Kui muudate kalendrimalli, siis need muudatused ei laiene projekti tööajale. Projekti tööaja muutmiseks tuleb rakendada uus mall.
+
+Oma organisatsiooni jaoks kalendrimalli loomiseks on kaks põhinõuet.
+
+- Määratlege malli soovitud tööaeg, kasutades uut või olemasolevat broneeritavat ressurssi.
+- Looge uus kalendrimall ja seostage mall broneeritava ressursiga.
+
+**Määratlege malli tööaeg**
+
+1. Avage **Ressursid** \> **Ressursid**.
+2. Looge kalendrimallis viidatav uus ressurss või valige olemasolev ressurss.
+3. Valige ressursi vahekaart **Tööaeg** ja järgige kalendrireeglite konfigureerimiseks [ressursi töötundide](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) konfigureerimine suuniseid.
+
+**Looge uus kalendrimall**
+
+1. Avage **Sätted** \> **Kalendrimall**.
+2. Valige **Uus** ning sisestage nimi, kirjeldus ja malliressurss.
+
+
+> [!NOTE]
+> Kui ressursile viidatakse kalendrimallis, seostatakse kalendrimalliga ressursi kalendri koopia. Kui kopeeritud malli tööaega muudetakse, ei laiene need muudatused kalendermallile.
+
+
 ### <a name="see-also"></a>Vt ka  
  [Ressursside seadistamine](../psa/set-up-resources.md)
 
