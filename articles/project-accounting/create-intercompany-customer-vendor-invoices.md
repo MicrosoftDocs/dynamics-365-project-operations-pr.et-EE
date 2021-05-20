@@ -3,17 +3,17 @@ title: Kontsernisisese kliendi ja hankija arvete loomine
 description: Selles teemas antakse teavet kontsernisiseste kliendi ja hankija arvete koostamise kohta.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd9aa1a4d167d556206a487e79983090b3f4592a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 92d08537fe0c2a1deba486974db53e7ebe1ff2d8
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287458"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948385"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Kontsernisisese kliendi ja hankija arvete loomine
 
@@ -25,7 +25,9 @@ Laenu andva juriidilise isiku projekti raamatupidaja saab seadistada pakktöötl
 
 ## <a name="manually-create-an-intercompany-customer-invoice-for-project-transactions"></a>Kontsernisisese kliendi arve käsitsi loomine projekti kannete jaoks 
 
-Kasutage seda toimingut, et luua käsitsi kontsernisiseseid kliendi arveid projekti kannete jaoks. Saate otsida tunde, mille töötajad on sisestanud laenu võtvate juriidiliste isikute projektidele ja kuludele, mille on tekitanud laenu võtvad juriidilised isikud teie nimel. Saate otsida juriidilise isiku nime, projekti lepingu numbrit, projekti numbrit, kuupäevavahemiku või nende suvandite mis tahes kombinatsiooni. Valige otsingutulemustes kontsernisisesele arvele lisatavad kanded.
+Kasutage seda toimingut, et luua käsitsi kontsernisiseseid kliendi arveid projekti kannete jaoks. Saate otsida tunde, mille töötajad on sisestanud laenu võtvate juriidiliste isikute projektidele ja kuludele, mille on tekitanud laenu võtvad juriidilised isikud teie nimel. Saate otsida juriidilise isiku nime, projekti lepingu numbrit, projekti numbrit, kuupäevavahemiku või nende suvandite mis tahes kombinatsiooni. Valige otsingutulemustes kontsernisisesele arvele lisatavad kanded. 
+
+Järgmised sammud tuleb teha laenava juriidilise üksuse jaotises. 
 
 1. Minge rakenduses Dynamics 365 Finance jaotisse **Projekti haldus ja raamatupidamine** > **Projekti arved** > **Kontsernisisesed kliendi arved**. Valige tegevuspaani loendis **Kontsernisisese kliendi arved** suvand **Uus**.
 2. Valige lehe **IC-arve loomine** väljal **Juriidiline isik** laenu võttev juriidiline isik.
@@ -35,9 +37,9 @@ Kasutage seda toimingut, et luua käsitsi kontsernisiseseid kliendi arveid proje
 6. Valige otsingutulemites kontsernisises arve soovitusse kaasatavad kanded ja seejärel klõpsake nuppu **OK**.
 7. Lehel **Kontsernisisese kliendi arve** kuvatakse otsingutulemustes valitud kontsernisiseste projektikanded. Kui soovite enne arve saatmist laenu võtvale juriidilisele isikule tehinguid muuta, toimige järgmiselt.
   
-    1. Avage leht **Arve soovituse loomine**. Valige praeguse arve jaoks veel kontsernisiseseid tehinguid ja valige seejärel **Lisa rida**.
+    1. Avage **ettevõttesisese kliendi arve** lehel arve üksikasjad ja seejärel valige **Lisa rida**.
     2. Rea eemaldamiseks valige see ja klõpsake siis nuppu **Eemalda**.
-    3. Kommentaare, põhjusi, finantsdimensioone ja muud teavet valitud rea kohta saate vaadata kiirkaardil **Arve read**.
+    3. Arverea üksikasjades saate valitud rea kohta vaadata kommentaare, põhjusi, finantsmõõtmeid ja muud teavet.
     
 8. Kontsernisisese kliendi arve konteerimiseks valige tegevuspaanil **Postita**.
 
@@ -52,7 +54,7 @@ Kõigi laenava juriidiliste isikute jaoks saate korraga luua mitu kontsernisises
 2. Lehel **Kontsernisiseste kliendiarvete loomine** väljal **Ettevõte** valige arve juriidiline isik. Kui te ei vali ettevõtet, kuvatakse kõigi laenavate juriidiliste isikute kohta kõik otsingukriteeriumile vastavad tehingud.
 3. Valige jaotises **Loo üks arve**, kas soovite luua ühe arve iga projekti põhjal või laenava juriidilise olemi põhjal.
 4. Valikuline: kindla projekti ja projekti lepingu valimiseks, et luua kontsernisisesed arved, klõpsake nuppu **Vali**. Valige lehe **Päring** väljal **Kriteerium** projekti leping, projekti number või mõlemad ja seejärel klõpsake nuppu **OK**.
-5. Seadistage vahekaardil **Pakktöötlus** pakktöötlus, et luua kontsernisiseseid arveid korduval alusel. Lisateavet leiate teemast [Pakktöötluse töö esitamine vormilt](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
+5. Seadistage vahekaardil **Pakktöötlus** pakktöötlus, et luua kontsernisiseseid arveid korduval alusel. Lisateavet leiate teemast [Pakktöötluse töö esitamine vormilt](/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
 6. Kontsernisiseste arvete konteerimiseks valige tegevuspaanil käsk **Postita**.
 
 > [!NOTE]

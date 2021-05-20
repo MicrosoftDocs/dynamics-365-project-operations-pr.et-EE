@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5eb9c2bdc9274edbc55e730fd844d46477cd19f4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: dc4693981194b8e8c22bfd9bbfda3f77af3e8f99
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285208"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948189"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Projekti müügivõimaluse loomine (Project Service)
 
@@ -39,7 +39,7 @@ Müügivõimalused on soojad müügivihjed klientidelt, kes on huvitatud teie te
   
 3.  Sisestage alale **Kokkuvõte** oma müügivõimaluse ettevõte ja muu teave.  
   
-4.  Lisage müügivihjega seotud märkused ja tegevused (nt telefonikõned või meilid). Lisateavet märkmete ja tegevuste lisamise kohta leiate jaotisest [Toimingute abil märkmete, ülesannete, kõnede või meilidega kursis olemine](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
+4.  Lisage müügivihjega seotud märkused ja tegevused (nt telefonikõned või meilid). Lisateavet märkmete ja tegevuste lisamise kohta leiate jaotisest [Toimingute abil märkmete, ülesannete, kõnede või meilidega kursis olemine](/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
   
 5.  Huvirühmade lisamiseks klõpsake alal **Huvirühmad** valikut **+**.  
   

@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e27cc0919272784a030374f457d1ab1dccc1f9f1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283768"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948133"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Projekti ressursside keskuse kasutusjuhend
 
@@ -48,7 +48,7 @@ Rakendust [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-proj
 ## <a name="install-the-mobile-app"></a>Mobiilirakenduse installimine
 Enne projekti ressursside keskuse rakenduse kasutamist peate oma seadmesse installima mobiilirakenduse. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Rakenduse Dynamics 365 telefonide ja tahvelarvutite jaoks installimine](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Rakenduse Dynamics 365 telefonide ja tahvelarvutite jaoks installimine](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)
 
 ## <a name="basic-navigation"></a>Põhiline navigeerimine
 1.  Mobiilirakendusse sisse logides näete lehte MyApps, kus on toodud rakenduste loend, millele teil on ligipääs. 
@@ -99,7 +99,7 @@ Sisestage kulud vähemalt kord nädalas – või teie juhtide nõutava sageduseg
 5. Jätkake nädala jaoks kulude sisestamist. Kui olete lõpetanud ja kõik tundub õige, koputage käsku **Esita**. Juht vaatab teie kulud üle ja kinnitab need.
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>Mobiilirakenduse kasutamise üldteave 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Mobiilirakenduse põhijuhend](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Mobiilirakenduse põhijuhend](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide)
 
 ### <a name="see-also"></a>Vt ka  
  [Project Service'i ülevaade](../psa/overview.md)   

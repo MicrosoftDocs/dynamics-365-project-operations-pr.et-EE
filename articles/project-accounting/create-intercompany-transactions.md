@@ -3,17 +3,17 @@ title: Kontsernisiseste kannete loomine
 description: Selles teemas antakse teavet kontsernisiseste tehingute koostamise kohta.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b8b35e8875ac4aff1ae9690c4d4afabe25af8dc9
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287413"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880443"
 ---
 # <a name="create-intercompany-transactions"></a>Kontsernisiseste kannete loomine
 
@@ -62,7 +62,7 @@ Helle Ives, GBPM-i palgal olev arendaja paneb kirja 10 töötundi ettevõtte USP
     4. Määrake valuuta väärtuseks **USD**.
     5. Kirje salvestamine
 3. Avage jaotis **Müük** > **Projektilepingud** ja looge kliendi Seiklusmängud jaoks uus projektileping.
-    1. Määrake omanikettevõtteks **USPM** ja lepingu sõlmivaks üksuseks **Jõgi Robootika US**.
+    1. Määrake omanikust ettevõte üksusele **USPM** ja lepinguüksus ettevõttele **Contoso Robotics US**.
     2. Valige kliendiks Seiklusmängud.
     3. Valige toote hinnakiri ja salvestage kirje.
     4. Vahekaardil **Lepinguread** looge uus lepingurida. Määrake mis tahes nimi ja valige arveldusviisiks **Aeg ja materjalid**.
@@ -94,7 +94,7 @@ Helle Ives, GBPM-i palgal olev arendaja paneb kirja 10 töötundi ettevõtte USP
     See arveldamata müük on nüüd arveldamiseks valmis. Kliendi Seiklusmängud arve saab vajaduse korral finantsiliselt kirjendada.
 
 10. Logige sisse kui **GBPM**-i raamatupidaja. Avage rakenduse Project Operations eksemplar ja avage ettevõte **GBPM**. 
-11. Minge jaotisse **Projektihaldus ja raamatupidamine** > **Perioodiline** > **Project Operations rakenduses Customer Engagement** > **Koondtabelist importimine** ja käitage perioodiline protsess, et täita Project Operationsi integreerimise tööleht.
+11. Minge jaotisse **Projektihaldus ja raamatupidamine** > **Perioodiline** > **Project Operationsi integreerimine** > **Import etapitabelist** ja käivitage perioodiline protsess, et täita Project Operationsi integreerimise tööleht.
 12. Minge jaotisse **Projektihaldus ja raamatupidamine** > **Töölehed** > **Project Operationsi integreerimise tööleht** ja vaadake read läbi. Süsteem loob järgmised töölehe read.
 
     | **Kande tüüp** | **Hind** | **Tehingu valuuta** | **Summa** |

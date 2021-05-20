@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 1aae04230104d27db2f62db8e674697fd83460ac
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663589"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948099"
 ---
 # <a name="determine-your-deployment-type"></a>Juurutamise tüübi määratlemine
 
@@ -99,7 +99,7 @@ Selle juurutuse kohta leiate teavet teemadest [Eelversiooni kordustellimuseks re
 #### <a name="deployment-steps"></a>Juurutamise sammud
 Tehke [juurutamise küsimustiku](https://aka.ms/provisionprojectoperations) abil kindlaks rakenduse Project Operations jaoks parim juurutamise mudel.
 
-Selle juurutuse kohta leiate teavet teemadest [Eelversiooni kordustellimuseks registreerumine](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/finance/toc.json) ja [Uue keskkonna ettevalmistamine](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/finance/toc.json). 
+Selle juurutuse kohta leiate teavet teemadest [Eelversiooni kordustellimuseks registreerumine](/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=%2fdynamics365%2ffinance%2ftoc.json) ja [Uue keskkonna ettevalmistamine](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=%2fdynamics365%2ffinance%2ftoc.json). 
 
 
 
