@@ -1,9 +1,9 @@
 ---
 title: Projektikalendrite määratlemine
-description: Selles teemas leiate teavet projekti kalendri kasutamise kohta, et jälgida projekti ajakava.
+description: Selles teemas antakse teavet selle kohta, kuidas rakendada projektile kalendrimalli projekti ajakava jälgimiseks.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,38 +17,49 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286963"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981295"
 ---
 # <a name="define-project-calendars"></a>Projektikalendrite määratlemine
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Projekti ajakava loomiseks peate looma projektikalendri malli, mis määratleb töötundide arvu päevas ja kõik äri lõpetamised. Projektikalendri malli loomiseks seostage projekti väljaga **Kalendrimall** töömall. Töömalli loomiseks tehke järgmist.
+Projekti loomiseks ja haldamiseks peate projektile rakendama kalendrimalli. Kalendrimallis määratletakse järgmised projektiatribuudid.
 
-1. Valige vasakpoolsel navigatsioonipaanil **Ressursid**. 
-2. Avage loendilehel **Ressursid** kasutajakirje ja seejärel tehke valik **Kuva töötunnid**.
+- Tööaeg (sh algus- ja lõppaeg)
+- Tööpäevad
+- Kalendri erandid (nt mitte-tööpäevad)
 
-  > [!NOTE]
-  > Veenduge, et brauseriaknas oleks hüpikaknad lubatud. Nii saate vaadata ressursi jaoks määratud töötunde.
-  
-3. Valige vahekaardil **Kuuvaade** suvand **Seadista**. Kuvatakse kolme suvandiga loend. 
+Projektile rakendatud kalendrimall on teie organisatsiooni sätetes määratletud kalendrimalli koopia.
 
-  - Uus nädalagraafik
-  - Ühe päeva töögraafik
-  - Eemalolekuaeg
+> [!NOTE]
+> Kui muudate kalendrimalli, siis need muudatused ei laiene projekti tööajale. Projekti tööaja muutmiseks tuleb rakendada uus mall.
 
-4. Tehke valik **Uus nädalagraafik** ja seejärel määrake selle ressurside ajakava suvandid. Saate määrata korduva nädalagraafiku, iga päeva tunniparameetrid, äri lõpetamised ja muud.
-5. Määrake kuupäevavahemik, valige **Salvesta** ja valige seejärel **Sule**. 
-6. Minge tagasi loendilehele **Ressursid** ja valige ressurss, mille jaoks töötunde määrate. 
-7. Töömalli määramiseks tehke valik **Seadista kalender nimega**. 
-8. Sisestage dialoogiboksis **Töömall** töömalli nimi ja seejärel tehke valik **Rakenda**. 
+Oma organisatsiooni jaoks kalendrimalli loomiseks on kaks põhinõuet.
+
+- Määratlege malli soovitud tööaeg, kasutades uut või olemasolevat broneeritavat ressurssi.
+- Looge uus kalendrimall ja seostage mall broneeritava ressursiga.
+
+**Määratlege malli tööaeg**
+
+1. Avage **Ressursid** \> **Ressursid**.
+2. Looge kalendrimallis viidatav uus ressurss või valige olemasolev ressurss.
+3. Valige ressursi vahekaart **Tööaeg** ja järgige kalendrireeglite konfigureerimiseks [ressursi töötundide](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) konfigureerimine suuniseid.
+
+**Looge uus kalendrimall**
+
+1. Avage **Sätted** \> **Kalendrimall**.
+2. Valige **Uus** ning sisestage nimi, kirjeldus ja malliressurss.
+
+> [!NOTE]
+> Kui ressursile viidatakse kalendrimallis, seostatakse kalendrimalliga ressursi kalendri koopia. Kui kopeeritud malli tööaega muudetakse, ei laiene need muudatused kalendermallile.
 
 Nüüd saate seostada töömalli projektikalendri malliga.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
