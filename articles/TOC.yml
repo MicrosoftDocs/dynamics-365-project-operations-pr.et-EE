@@ -50,8 +50,10 @@
               href: environment/resource-dual-write-expense.md
             - name: Tarnija arve integratsioon
               href: environment/resource-dual-write-vendor-invoice.md
-    - name: Mis on uut
+    - name: Mis on uut?
       items:
+        - name: Mai 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: Aprill 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Märts 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
@@ -374,6 +376,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: Kulukategooriate seadistamine
               href: expense/set-up-expense-categories.md
+            - name: Läbisõidu seadistamine läbisõidu määra astmeid kasutades
+              href: expense/set-up-mileage.md
         - name: Isiklikud kulud
           href: expense/personal-expenses-expense-report.md
         - name: Kontsernisisesed kulud
@@ -502,12 +506,14 @@
           href: environment/lite-preview-subscription-sign-up.md
         - name: Project Operationsi juurutamine – liht
           href: environment/lite-deployment.md
-        - name: Demoseadistamise ja konfiguratsiooniandmete rakendamine – lihtversioon
+        - name: Demoversiooni seadistamise ja konfiguratsiooniandmete rakendamine – lihtversioon
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Turbemudel
           href: environment/security-model.md
     - name: Mis on uut?
       items:
+        - name: Mis on uut mais 2021 – lihtjuurutamine
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Mis on uut aprillis 2021 – lihtjuurutamine
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Mis on uut märtsis 2021 – lihtjuurutamine
@@ -1028,6 +1034,8 @@
       items:
         - name: Uuenduse väljalaske ajakava Project Service 3.x jaoks
           href: psa/version-history-ps.md
+        - name: 'Mis on uut või muutunud värskenduses 32, V3?'
+          href: psa/whats-new-ur-32.md
         - name: 'Mis on uut või muutunud värskenduses 31, V3?'
           href: psa/whats-new-ur-31.md
         - name: 'Mis on uut või muutunud värskenduses 30, V3?'
@@ -1266,6 +1274,8 @@
               href: psa/time-entry-calendar.md
             - name: Iganädalaste ajakirjete kohandamine
               href: psa/time-entry-extensibility-v3.md
+            - name: Kinnitamiskomplektid
+              href: psa/approval-set.md
     - name: KKK ja tõrkeotsing (3.x)
       items:
         - name: Miks on tegeliku kulu maksumuse vaikeväärtus null?
