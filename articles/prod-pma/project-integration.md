@@ -2,11 +2,9 @@
 title: Microsoft Project Clienti integreerimine
 description: Projekti ajakava kavandamine ja haldamine võib olla keeruline, seega peavad projektijuhid kasutama tööriistu, mis aitavad neil seda tööülesannet hallata. Integreerimine rakendusega Microsoft Project Client pakub tuge projekti tööjaotuse struktuuri avamiseks ja haldamiseks.
 author: Yowelle
-manager: AnnBe
 ms.date: 12/11/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 032d726bb6206c563b573f30d13fe2697a13c949
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289319"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999441"
 ---
 # <a name="microsoft-project-client-integration"></a>Microsoft Project Clienti integreerimine
 

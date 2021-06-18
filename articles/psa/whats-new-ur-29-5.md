@@ -2,8 +2,6 @@
 title: Mida on uut või muudetud rakenduse Project Service Automation värskenduse väljaandes 29.5, Hotfix, V3
 description: Selles teemas loetletakse Project Service Automationi värskenduse väljalaske 29.5 V3 funktsioonid ja parandused.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 03/26/2021
 ms.topic: article
@@ -17,16 +15,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 99ba353236ad88b8bdff2c1b25e1247fa4bf3455
-ms.sourcegitcommit: 9ebf7dd501898053bfa824f732adabf3f273613b
+ms.openlocfilehash: d5050945c4ab7c1da61b07ec08bed20f32e166b9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "5715659"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999171"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-295-v3"></a>Mida on uut või muudetud rakenduse Project Service Automation värskenduse väljaandes 29.5, V3
 
-Meil on hea meel teatada uusimast Dynamics 365 Project Service Automationi rakenduse värskendusest. See väljaanne sisaldab mõningaid olulisi kvaliteedi, jõudluse ja kasutatavuse täiustusi. See väljalase ühildub Dynamics 365 9. x-iga. Sellele väljaandele värskendamiseks külastage veebis Dynamics 365 administreerimiskeskuse lahenduste lehte värskenduse installimiseks. Lisateabe saamiseks vt jaotist [Eelistatud lahenduse installimine, värskendamine või eemaldamine](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+Meil on hea meel teatada uusimast Dynamics 365 Project Service Automationi rakenduse värskendusest. See väljaanne sisaldab mõningaid olulisi kvaliteedi, jõudluse ja kasutatavuse täiustusi. See väljalase ühildub Dynamics 365 9. x-iga. Sellele väljaandele värskendamiseks külastage veebis Dynamics 365 administreerimiskeskuse lahenduste lehte värskenduse installimiseks. Lisateabe saamiseks vt jaotist [Eelistatud lahenduse installimine, värskendamine või eemaldamine](/power-platform/admin/install-remove-preferred-solution.md).
 
 Selles teemas loetletakse Project Service Automationi V3 värskenduse väljalaske 29.5 uusi või muudetud funktsioone ja parandusi. Selle versiooni järgunumber on V3.10.47.150 ja see on jaanuaris 2021 automaatvärskendusega kõigile saadaval.
 

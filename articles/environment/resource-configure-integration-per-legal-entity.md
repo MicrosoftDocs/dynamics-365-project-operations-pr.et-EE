@@ -2,18 +2,16 @@
 title: Project Operationsi integratsiooni konfigureerimine vastavalt juriidilise isikule
 description: Selles teemas kirjeldatakse Project Operationsis integratsiooni seadistamist vastavalt juriidilisele isikule.
 author: sigitac
-manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ccdbdce6b7d006adc9be2b5f3573dd8e79dd2b8d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e5a12de275a9f886434da45fbbed5140e3913d83
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276973"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000071"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Project Operationsi integratsiooni konfigureerimine vastavalt juriidilise isikule 
 
