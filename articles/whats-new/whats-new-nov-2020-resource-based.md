@@ -2,18 +2,16 @@
 title: Mis on uut novembris 2020 – Project Operations ressursi-/mittelaopõhiste stsenaariumite jaoks
 description: See teema sisaldab teavet ressursi-/mittelaopõhiste stsenaariumite jaoks mõeldud rakenduse Project Operations 2020. aasta novembri väljalaskes saadaolevate kvaliteedi värskenduste kohta.
 author: sigitac
-manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fa6530a0eefb1ae6a84a662c6131182d97d49aeb
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: f6b14a1cbe7f3d41c86aedaf863434214f911eaa
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950934"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995616"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Mis on uut novembris 2020 – Project Operations ressursi-/mittelaopõhiste stsenaariumite jaoks
 

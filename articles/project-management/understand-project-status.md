@@ -2,18 +2,16 @@
 title: Projekti oleku mõistmine
 description: Selles teemas antakse teavet projektidele määratud oleku kohta rakenduses Dynamics 365 Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fc9b107507008fd2381d3669552d754d2c867a7f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ad8c012b93bc65595dca33df1770562916c557e0
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286468"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993411"
 ---
 # <a name="understand-project-status"></a>Projekti oleku mõistmine
 

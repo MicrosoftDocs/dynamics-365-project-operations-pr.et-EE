@@ -2,19 +2,17 @@
 title: Logimata materjalide ja ootel hankija arvete konfigureerimine
 description: Selles teemas selgitatakse, kuidas lubada logimata materjale ja ootel olevaid hankija arveid.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a84245a246f49ab69466aba0fec332f0489eec6c
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880637"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993906"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Logimata materjalide ja ootel hankija arvete konfigureerimine
 
@@ -61,11 +59,11 @@ Kui kasutate standardseid demoandmeid, peate algse sünkroonimise korral peatama
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Aktiveerige töövoog, et luua ettevõtted hankija olemi põhjal
 
-Topeltkirjutamise korraldamise lahendus pakub [hankijate põhiintegreerimise](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Selle funktsiooni eeltingimusena tuleb hankija andmed luua olemis **Kontod**. Aktiveerige malli töövooprotsess, et luua tarnijad tabelis **Kontod**, nagu on kirjeldatud jaotises [Hankijate kujunduse vahetamine](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+Topeltkirjutamise korraldamise lahendus pakub [hankijate põhiintegreerimise](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Selle funktsiooni eeltingimusena tuleb hankija andmed luua olemis **Kontod**. Aktiveerige malli töövooprotsess, et luua tarnijad tabelis **Kontod**, nagu on kirjeldatud jaotises [Hankijate kujunduse vahetamine](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
 
 ### <a name="set-products-to-be-created-as-active"></a>Määra tooted loomisel aktiivseks
 
-Logimata materjalid peavad olema konfigureeritud **Välja antud toodetena** jaotises Rahandus. Topeltkirjutamise korraldamise lahendus pakub [välja antud toodete integreerimise Dataverse’i tootekataloogi](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping) valmislahendust. Vaikimisi sünkroonitakse jaotise Rahandus tooted Dataverse’i mustandisse. Kui soovite toote sünkroonida aktiivse olekuga, et seda saaks otse kasutada materjali kasutusdokumentides või ootel hankija arvetes, avage jaotis **Süsteem** > **Haldus** > **Süsteemihaldus** > **Süsteemi sätted** ja määrake vahekaardil **Müük** suvandi **Loote tooted aktiivse olekuga** väärtuseks **Jah**.
+Logimata materjalid peavad olema konfigureeritud **Välja antud toodetena** jaotises Rahandus. Topeltkirjutamise korraldamise lahendus pakub [välja antud toodete integreerimise Dataverse’i tootekataloogi](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md) valmislahendust. Vaikimisi sünkroonitakse jaotise Rahandus tooted Dataverse’i mustandisse. Kui soovite toote sünkroonida aktiivse olekuga, et seda saaks otse kasutada materjali kasutusdokumentides või ootel hankija arvetes, avage jaotis **Süsteem** > **Haldus** > **Süsteemihaldus** > **Süsteemi sätted** ja määrake vahekaardil **Müük** suvandi **Loote tooted aktiivse olekuga** väärtuseks **Jah**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Eeltingimuste konfigureerimine jaotises Rahandus
 
