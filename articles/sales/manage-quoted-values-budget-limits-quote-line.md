@@ -2,18 +2,16 @@
 title: Projekti hinnapakkumise ridade ülevaade
 description: Selles teemas antakse teavet projekti hinnapakkumise ridade kasutamise kohta projektitöös.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fa48a90c275eae1b0c0dbce685ae718dd9674c88
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: 72feb791e48c9bacd4a0b7ea5cd77ddc8eb5f514
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858018"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996291"
 ---
 # <a name="project-quote-lines-overview"></a>Projekti hinnapakkumise ridade ülevaade
 
