@@ -1,9 +1,7 @@
 ---
 title: Värskenduse kaalutlused – Microsoft Dynamics 365 Project Service Automation versioon 2.x või 1.x versioonile 3.x
 description: Selles teemas antakse teavet kaalutluste kohta, mida peate tegema, kui täiendate Project Service Automationi versiooni 2.x või 1.x versioonile 3.
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -18,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ff0777705c6d0e2c0d8aa4ed191f4ae6b1786100
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 04ae6aa3ef6a14a6f85dce3eaa5af01e0adce9ba
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281653"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014876"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Täienduse kaalutlused – üleminek PSA versioonilt 2.x või 1.x versioonile 3
 
@@ -83,15 +81,15 @@ Enne kui alustate täiendusega, soovitame teil uuesti luua meeskonna iga projekt
 
 Nende ülesannete puhul, mis määratakse üldistele meeskonnaliikmetele ja mis loodi funktsiooni **Loo meeskond** abil, jätab täiendus üldise ressursi meeskonda ja määramise üldisele meeskonnaliikmele. Soovitame teil pärast täiendust, kuid enne ressursitaotluse broneerimist või esitamist luua ressursinõude üldise meeskonnaliikme jaoks. See säilitab kõik need üldistele meeskonnaliikmetele tehtud organisatsiooniüksuste määramised, mis on projekti lepingut sõlmivast organisatsiooniüksusest erinevad.
 
-Näiteks projektis Project Z on lepingut sõlmivaks organisatsiooniüksuseks Jõgi US. Projektiplaanis määratakse juurutusfaasis olevatele testülesannetele tehnilise konsultandi roll ja määratud organisatsiooniüksus on Jõgi India.
+Näiteks projektis Projekt Z on lepingut sõlmivaks organisatsiooniüksuseks Contoso USA. Projektiplaanis määratakse juurutusfaasis teenindusülesannetele roll tehniline konsultant ja määratud organisatsiooniüksus on Contoso India.
 
 ![Juurutusfaasi organisatsiooni määramine](media/org-unit-assignment-09.png)
 
-Pärast juurutusfaasi määratakse integreerimise testülesanne tehnilise konsultandi rolli, aga organisatsiooniüksuseks seatakse Jõgi US.  
+Pärast juurutusfaasi määratakse integreerimise testimise ülesandele roll tehniline konsultant, kuid organisatsiooniüksuseks seatakse Contoso US.  
 
 ![Integreerimise testülesande organisatsiooni määramine](media/org-unit-generate-team-10.png)
 
-Kui loote projekti jaoks meeskonna, luuakse ülesannetes olevate erinevate organisatsiooniüksuste tõttu kaks üldist meeskonnaliiget. Jõgi India ülesanded määratakse tehnilisele konsultandile 1 ja Jõgi USA ülesanded tehnilisele konsultandile 2.  
+Kui loote projekti jaoks meeskonna, luuakse ülesannetes olevate erinevate organisatsiooniüksuste tõttu kaks üldist meeskonnaliiget. Tehnilisele konsultandile 1 määratakse Contoso India ülesanded ja tehnilisele konsultandile 2 jäävad Contoso USA ülesanded.  
 
 ![Loodud üldised meeskonnaliikmed](media/org-unit-assignments-multiple-resources-11.png)
 
@@ -106,7 +104,7 @@ Organisatsiooniüksust näete prognooside vaates.
  
 Kui täiendus on lõpuni jõudnud, lisatakse üldisele meeskonnaliikmele vastav rea ülesandel olev organisatsiooniüksus üldisele meeskonnaliikmele ja rea ülesanne eemaldatakse. Seetõttu soovitame teil enne täiendamist luua või uuesti luua meeskonna iga üldisi ressursse sisaldava projekti jaoks.
 
-Nende ülesannete puhul, mis on määratud rollile sellise organisatsiooniüksusega, mis erineb lepingut sõlmivast organisatsiooniüksusest, ja kus meeskond pole loodud, loob täiendus rolli jaoks üldise meeskonnaliikme, aga kasutab meeskonnaliikme organisatsiooniüksuse jaoks lepingut sõlmivat üksust. Viidates tagasi Project Z näitele, on määratud lepingut sõlmivale organisatsiooniüksusele Jõgi US ja projektiplaani testülesannetele koos juurutusfaasiga tehnilise konsultandi roll ning organisatsiooniüksus on määratud Jõgi Indiale. Integreerimise testülesandele, mis viiakse lõpuni pärast juurutusfaasi, määratakse tehnilise konsultandi rolli. Organisatsiooniüksus on Jõgi USA ja meeskonda pole loodud. Täiendamise käigus luuakse üks üldine meeskonnaliige, tehniline konsultant, kellele on määratud kõigi kolme ülesande tunnid, ja Jõgi US-i organisatsiooniüksus ehk projekti lepingut sõlmiv organisatsiooniüksus.   
+Nende ülesannete puhul, mis on määratud rollile sellise organisatsiooniüksusega, mis erineb lepingut sõlmivast organisatsiooniüksusest, ja kus meeskond pole loodud, loob täiendus rolli jaoks üldise meeskonnaliikme, aga kasutab meeskonnaliikme organisatsiooniüksuse jaoks lepingut sõlmivat üksust. Viidates tagasi Project Z näitele, siis lepingut sõlmivale organisatsiooniüksusele Contoso US ja projektiplaani testülesannetele koos juurutusfaasiga on määratud tehnilise konsultandi roll ning organisatsiooniüksus on määratud Contoso Indiale. Integreerimise testülesandele, mis viiakse lõpuni pärast juurutusfaasi, määratakse tehnilise konsultandi rolli. Organisatsiooniüksus on Contoso USA ja meeskonda pole loodud. Täiendamise käigus luuakse üks üldine meeskonnaliige, tehniline konsultant, kellele on määratud kõigi kolme ülesande tunnid, ja Contoso USA organisatsiooniüksus ehk projekti lepingut sõlmiv organisatsiooniüksus.   
  
 Kui muudate loomata meeskonnaliikmete erinevate ressurssi organisatsiooniüksuste vaikeväärtusi, soovitame teile meeskonna luua või uuesti luua nende projektide jaoks, mis sisaldavad enne täiendamist üldisi ressursse, nii et organisatsiooniüksuste määramised ei läheks kaotsi.
 

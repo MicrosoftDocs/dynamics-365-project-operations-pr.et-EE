@@ -2,8 +2,6 @@
 title: Mitme valuutaga stsenaariumid (versioon 3.x)
 description: Selles teemas antakse teavet mitme valuutaga stsenaariumi kohta.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33e44297dc80801c3e4416cd9fc3bedae5f3c4ba
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 70f27d29c74a82f0307bd0724347960e5755e3a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291704"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014786"
 ---
 # <a name="multiple-currency-scenarios"></a>Mitme valuutaga stsenaariumid
 
@@ -36,7 +34,7 @@ Rakenduses Microsoft Dynamics 365 on kaks valuutakontseptsiooni.
 - **Tehingu valuuta** – valuuta, milles tehing toimub. 
 - **Põhivaluuta** – Dynamics 365 eksemplari valuuta. See valuuta seadistatakse juhul, kui Dynamics 365 eksemplar on ette valmistatud. Seda ei saa muuta.
 
-Näiteks, Jõgi USA müüs 100 T-särki Suurbritannia kliendile hinnaga 15 naelsterlingit (GBP) tükk. Järgmine tabel näitab, kuidas see kanne salvestatakse tootetellimuste üksusesse.
+Näiteks, Contoso USA müüs 100 T-särki Suurbritannia kliendile hinnaga 15 naelsterlingit (GBP) tükk. Järgmine tabel näitab, kuidas see kanne salvestatakse tootetellimuste üksusesse.
 
 | Toode | Kogus | Ühiku hind | Valuuta | Summa | Vahetuskurss | Hind ühiku kohta (alus)| Summa (alus)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
@@ -68,14 +66,14 @@ PSA laiendab tehingu valuuta kontseptsiooni kulude ja müügi jaoks järgmistel 
 
 ## <a name="multiple-currency-scenario"></a>Mitme valuutaga stsenaarium
 
-Selles jaotises on näide projektist, milles Jõgi UK saadab tooteid Fabrikami-nimelisele kliendile Jaapanis. Siin näete, kuidas selle stsenaarium üles on ehitatud.
+Selles jaotises on näide projektist, milles Contoso UK saadab tooteid Fabrikami-nimelisele kliendile Jaapanis. Siin näete, kuidas selle stsenaarium üles on ehitatud.
 
 1. GBP ja Jaapani jeen (JPY) seadistatakse jaotises **Sätted** \> **Ettevõtte haldus** \> **Valuutad**. 
 2. Seadistatakse kliendikonto nimega **Fabrikami – Jaapan** ja ettevõtte konto valuutaks valitakse JPY.
-3. Seadistatakse organisatsiooniüksus nimega **Jõgi UK** ja selle valuutaks valitakse GBP.
-4. Luuakse projekti leping, milles **Jõgi UK** on määratletud kui tellija ja **Fabrikami – Jaapan** on määratud kliendiks.
+3. Seadistatakse organisatsiooniüksus nimega **Contoso UK** ja selle valuutaks valitakse GBP.
+4. Luuakse projektileping, milles **Contoso UK** on määratletud kui lepingut sõlmiv üksus ja **Fabrikam – Jaapan** on määratud kliendiks.
 5. Projekti lepinguread luuakse, võttes aluseks projekti erinevate tehingute klasside arvete esitamise korra, näiteks arvete esitamise aja või kulude järgi.
-6. Luuakse projekt, kus **Jõgi UK** on määratletud hankija. Luuakse projekt ja vastendatakse see projekti lepinguridadega.
+6. Luuakse projekt, kus **Contoso UK** on määratletud hankijana. Luuakse projekt ja vastendatakse see projekti lepinguridadega.
 
 
 Hinnapakkumise rea üksikasju, projekti lepingurea üksikasju või ajakava kalkulatsiooni rida kasutava prognoosi jooksul luuakse olemis alati kaks kirjet. Üks kirje on kulu ja teine müügi jaoks.
