@@ -2,19 +2,17 @@
 title: Mis on uut veebruaris 2021 – Project Operations ressursi-/mittelaopõhiste stsenaariumite jaoks
 description: See teema sisaldab teavet ressursi-/mittelaopõhiste stsenaariumite jaoks mõeldud rakenduse Project Operations 2021. aasta veebruari väljalaskes saadaolevate kvaliteedi värskenduste kohta.
 author: sigitac
-manager: tfehr
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8270214d47f712cdb0942991b0ffb5baff64cbfb
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 73be15d4d58531e6e181df92eaee2b4d7b924382
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948009"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012626"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Mis on uut veebruaris 2021 – Project Operations ressursi-/mittelaopõhiste stsenaariumite jaoks
 
