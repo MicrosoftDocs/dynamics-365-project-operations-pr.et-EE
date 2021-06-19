@@ -2,8 +2,6 @@
 title: Projektide ressursside avaleht
 description: Selles teemas antakse teavet ressursihalduse võimaluste kohta rakenduses Project Service Automation (PSA) for Dynamics 365.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,41 +16,41 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7fb1e2fbe08c3b2885b690915904d172f14fdb54
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b806b111e579609092239518ebae14b1355941e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282868"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008621"
 ---
-# <a name="resourcing-projects-home-page"></a><span data-ttu-id="1f6cd-103">Projektide ressursside avaleht</span><span class="sxs-lookup"><span data-stu-id="1f6cd-103">Resourcing projects home page</span></span>
+# <a name="resourcing-projects-home-page"></a><span data-ttu-id="d5400-103">Projektide ressursside avaleht</span><span class="sxs-lookup"><span data-stu-id="d5400-103">Resourcing projects home page</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="1f6cd-104">Ressursid on teenusepõhise organisatsiooni kõige olulisem vara.</span><span class="sxs-lookup"><span data-stu-id="1f6cd-104">Resources are the most important asset of a service-based organization.</span></span> <span data-ttu-id="1f6cd-105">Võimalus leida õigeid ressursse õigel ajal, broneerida need ressursid projektidele ja hoida neid kasutuses, aitab ettevõtetel täita tulu sihtmärke ning kliendirahulolu eesmärke.</span><span class="sxs-lookup"><span data-stu-id="1f6cd-105">The ability to find the right resources at the right time, book those resources on projects and keep them utilized, helps the organization meet revenue targets and customer satisfaction goals.</span></span> <span data-ttu-id="1f6cd-106">Rakenduse Project Service Automation (PSA) projekti ressursieralduse funktsiooni abil saate teha järgmist.</span><span class="sxs-lookup"><span data-stu-id="1f6cd-106">You can use the project resourcing functionality in Project Service Automation (PSA) to do the following:</span></span>
+<span data-ttu-id="d5400-104">Ressursid on teenusepõhise organisatsiooni kõige olulisem vara.</span><span class="sxs-lookup"><span data-stu-id="d5400-104">Resources are the most important asset of a service-based organization.</span></span> <span data-ttu-id="d5400-105">Võimalus leida õigeid ressursse õigel ajal, broneerida need ressursid projektidele ja hoida neid kasutuses, aitab ettevõtetel täita tulu sihtmärke ning kliendirahulolu eesmärke.</span><span class="sxs-lookup"><span data-stu-id="d5400-105">The ability to find the right resources at the right time, book those resources on projects and keep them utilized, helps the organization meet revenue targets and customer satisfaction goals.</span></span> <span data-ttu-id="d5400-106">Rakenduse Project Service Automation (PSA) projekti ressursieralduse funktsiooni abil saate teha järgmist.</span><span class="sxs-lookup"><span data-stu-id="d5400-106">You can use the project resourcing functionality in Project Service Automation (PSA) to do the following:</span></span>
 
-- <span data-ttu-id="1f6cd-107">Moodustada projektimeeskondi saadaolevate ja kvalifitseeritud ressurside broneerimise kaudu.</span><span class="sxs-lookup"><span data-stu-id="1f6cd-107">Form project teams by booking available and qualified resources.</span></span>
-- <span data-ttu-id="1f6cd-108">Luua üldiste meeskonnaliikmete kirjeid ja määratleda nende rolle ning ressursi organisatsiooniüksust.</span><span class="sxs-lookup"><span data-stu-id="1f6cd-108">Create generic team member records and define their roles and resource organization unit.</span></span>
-- <span data-ttu-id="1f6cd-109">Luua üldistele meeskonnaliikmetele nende ülesannete määramistest ressursinõudeid.</span><span class="sxs-lookup"><span data-stu-id="1f6cd-109">Generate resource requirements for generic team members from their task assignments.</span></span>
-- <span data-ttu-id="1f6cd-110">Sobitada oskuseid vastendades ressursi nõudluses määratletud oskuseid ressursside saadaolevate oskustega.</span><span class="sxs-lookup"><span data-stu-id="1f6cd-110">Match skills by identifying the skills defined on the resource demand against available resource skills.</span></span>
-- <span data-ttu-id="1f6cd-111">Asendada ressursse.</span><span class="sxs-lookup"><span data-stu-id="1f6cd-111">Substitute resources.</span></span>
-- <span data-ttu-id="1f6cd-112">Joondada projekti ajakava määramisi ja ressursi broneeringuid.</span><span class="sxs-lookup"><span data-stu-id="1f6cd-112">Align project schedule assignments and resource bookings.</span></span>
-- <span data-ttu-id="1f6cd-113">Ühitada broneeringute ja määramiste vahelisi erinevusi.</span><span class="sxs-lookup"><span data-stu-id="1f6cd-113">Reconcile differences in bookings and assignments.</span></span>
-- <span data-ttu-id="1f6cd-114">Muuta ressursi broneeringuid vastavalt kontorist väljasolekule.</span><span class="sxs-lookup"><span data-stu-id="1f6cd-114">Change resource bookings in response to out-of-office status.</span></span>
-- <span data-ttu-id="1f6cd-115">Teha koostööd projektijuhtide ja ressursihaldurite vahel.</span><span class="sxs-lookup"><span data-stu-id="1f6cd-115">Collaborate between project managers and resource managers.</span></span>
-- <span data-ttu-id="1f6cd-116">Vaadata ressursside kasutuse ajalugu sihtmärgiga seoses, sh jaotust ressursside ajakasutuse kohta.</span><span class="sxs-lookup"><span data-stu-id="1f6cd-116">View the history of resource utilization against a target, including a breakdown of how the resources' time was utilized.</span></span>
-- <span data-ttu-id="1f6cd-117">Säilitada oskuste ja oskustaseme hoidlat.</span><span class="sxs-lookup"><span data-stu-id="1f6cd-117">Maintain a skills and proficiency repository.</span></span>
+- <span data-ttu-id="d5400-107">Moodustada projektimeeskondi saadaolevate ja kvalifitseeritud ressurside broneerimise kaudu.</span><span class="sxs-lookup"><span data-stu-id="d5400-107">Form project teams by booking available and qualified resources.</span></span>
+- <span data-ttu-id="d5400-108">Luua üldiste meeskonnaliikmete kirjeid ja määratleda nende rolle ning ressursi organisatsiooniüksust.</span><span class="sxs-lookup"><span data-stu-id="d5400-108">Create generic team member records and define their roles and resource organization unit.</span></span>
+- <span data-ttu-id="d5400-109">Luua üldistele meeskonnaliikmetele nende ülesannete määramistest ressursinõudeid.</span><span class="sxs-lookup"><span data-stu-id="d5400-109">Generate resource requirements for generic team members from their task assignments.</span></span>
+- <span data-ttu-id="d5400-110">Sobitada oskuseid vastendades ressursi nõudluses määratletud oskuseid ressursside saadaolevate oskustega.</span><span class="sxs-lookup"><span data-stu-id="d5400-110">Match skills by identifying the skills defined on the resource demand against available resource skills.</span></span>
+- <span data-ttu-id="d5400-111">Asendada ressursse.</span><span class="sxs-lookup"><span data-stu-id="d5400-111">Substitute resources.</span></span>
+- <span data-ttu-id="d5400-112">Joondada projekti ajakava määramisi ja ressursi broneeringuid.</span><span class="sxs-lookup"><span data-stu-id="d5400-112">Align project schedule assignments and resource bookings.</span></span>
+- <span data-ttu-id="d5400-113">Ühitada broneeringute ja määramiste vahelisi erinevusi.</span><span class="sxs-lookup"><span data-stu-id="d5400-113">Reconcile differences in bookings and assignments.</span></span>
+- <span data-ttu-id="d5400-114">Muuta ressursi broneeringuid vastavalt kontorist väljasolekule.</span><span class="sxs-lookup"><span data-stu-id="d5400-114">Change resource bookings in response to out-of-office status.</span></span>
+- <span data-ttu-id="d5400-115">Teha koostööd projektijuhtide ja ressursihaldurite vahel.</span><span class="sxs-lookup"><span data-stu-id="d5400-115">Collaborate between project managers and resource managers.</span></span>
+- <span data-ttu-id="d5400-116">Vaadata ressursside kasutuse ajalugu sihtmärgiga seoses, sh jaotust ressursside ajakasutuse kohta.</span><span class="sxs-lookup"><span data-stu-id="d5400-116">View the history of resource utilization against a target, including a breakdown of how the resources' time was utilized.</span></span>
+- <span data-ttu-id="d5400-117">Säilitada oskuste ja oskustaseme hoidlat.</span><span class="sxs-lookup"><span data-stu-id="d5400-117">Maintain a skills and proficiency repository.</span></span>
 
 
-<span data-ttu-id="1f6cd-118">PSA-s saate oma projekti personali hulka lisada üldiseid või nimega ressursside meeskondi.</span><span class="sxs-lookup"><span data-stu-id="1f6cd-118">You can staff your project with a team of generic or named resources in PSA.</span></span> <span data-ttu-id="1f6cd-119">Saate meeskonnaliikmete lisamiseks ja määramiseks ning nende broneeringute ja määramiste haldamiseks kasutada mitmesuguseid meetodeid.</span><span class="sxs-lookup"><span data-stu-id="1f6cd-119">You can use various methods to add and assign team members and to manage their bookings and assignments.</span></span> <span data-ttu-id="1f6cd-120">Lisateavet leiate järgmistest teemadest.</span><span class="sxs-lookup"><span data-stu-id="1f6cd-120">For additional information, see the following topics:</span></span>
+<span data-ttu-id="d5400-118">PSA-s saate oma projekti personali hulka lisada üldiseid või nimega ressursside meeskondi.</span><span class="sxs-lookup"><span data-stu-id="d5400-118">You can staff your project with a team of generic or named resources in PSA.</span></span> <span data-ttu-id="d5400-119">Saate meeskonnaliikmete lisamiseks ja määramiseks ning nende broneeringute ja määramiste haldamiseks kasutada mitmesuguseid meetodeid.</span><span class="sxs-lookup"><span data-stu-id="d5400-119">You can use various methods to add and assign team members and to manage their bookings and assignments.</span></span> <span data-ttu-id="d5400-120">Lisateavet leiate järgmistest teemadest.</span><span class="sxs-lookup"><span data-stu-id="d5400-120">For additional information, see the following topics:</span></span>
 
-- [<span data-ttu-id="1f6cd-121">Broneeritavate nimega ressurside broneerimine projektimeeskonnale ja neile ülesannete määramine</span><span class="sxs-lookup"><span data-stu-id="1f6cd-121">Book named bookable resources to a project team and assigning them tasks</span></span>](assign-named-bookable-resource.md)
-- [<span data-ttu-id="1f6cd-122">Ülesandele üldiste broneeritavate ressursside määramine ja ressursinõuete loomine</span><span class="sxs-lookup"><span data-stu-id="1f6cd-122">Assign generic bookable resources to a task and generate resource requirements</span></span>](assign-generic-bookable-resource.md)
-- [<span data-ttu-id="1f6cd-123">Nimega ressursside broneerimine ressursinõuetest</span><span class="sxs-lookup"><span data-stu-id="1f6cd-123">Book named resources from resource requirements</span></span>](book-named-resource.md)
-- [<span data-ttu-id="1f6cd-124">Ressursitaotluse esitamine</span><span class="sxs-lookup"><span data-stu-id="1f6cd-124">Submit a resource request</span></span>](submit-resource-request.md)
-- [<span data-ttu-id="1f6cd-125">Pakutud projekti ressursi ressursitaotlusest kinnitamine või tagasilükkamine</span><span class="sxs-lookup"><span data-stu-id="1f6cd-125">Accept or reject a proposed project resource from a resource request</span></span>](accept-reject-proposed-resource.md)
+- [<span data-ttu-id="d5400-121">Broneeritavate nimega ressurside broneerimine projektimeeskonnale ja neile ülesannete määramine</span><span class="sxs-lookup"><span data-stu-id="d5400-121">Book named bookable resources to a project team and assigning them tasks</span></span>](assign-named-bookable-resource.md)
+- [<span data-ttu-id="d5400-122">Ülesandele üldiste broneeritavate ressursside määramine ja ressursinõuete loomine</span><span class="sxs-lookup"><span data-stu-id="d5400-122">Assign generic bookable resources to a task and generate resource requirements</span></span>](assign-generic-bookable-resource.md)
+- [<span data-ttu-id="d5400-123">Nimega ressursside broneerimine ressursinõuetest</span><span class="sxs-lookup"><span data-stu-id="d5400-123">Book named resources from resource requirements</span></span>](book-named-resource.md)
+- [<span data-ttu-id="d5400-124">Ressursitaotluse esitamine</span><span class="sxs-lookup"><span data-stu-id="d5400-124">Submit a resource request</span></span>](submit-resource-request.md)
+- [<span data-ttu-id="d5400-125">Pakutud projekti ressursi ressursitaotlusest kinnitamine või tagasilükkamine</span><span class="sxs-lookup"><span data-stu-id="d5400-125">Accept or reject a proposed project resource from a resource request</span></span>](accept-reject-proposed-resource.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
