@@ -2,19 +2,17 @@
 title: Tööülesande ruudustikus töötamise tõrkeotsing
 description: Selles teemas kirjeldatakse tõrkeotsingu teavet, mida on vaja tööülesande ruudustikus töötamisel.
 author: ruhercul
-manager: tfehr
 ms.date: 01/19/2021
 ms.topic: article
 ms.product: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: dedd989cc7c959d9ea97a0abfb13f8f1b2150a56
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
+ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286558"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6213395"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Tööülesande ruudustikus töötamise tõrkeotsing 
 
@@ -57,7 +55,7 @@ Project Operations vajab, et projekti parameeter viitaks PEX-i lõpp-punktile. S
  ![PEX-i lõpp-punkti väli projekti parameetris](media/projectparameter.png)
 
 1. Lisage **PEX-i lõpp-punkti** väli lehele **Projekti parameetrid**.
-2. Lisage väljale järgmine väärtus: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=\<id>&type=2`
+2. Lisage väljale järgmine väärtus: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
 3. Eemaldage väli lehelt **Projekti parameetrid**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Projekti õigused veebi jaoks

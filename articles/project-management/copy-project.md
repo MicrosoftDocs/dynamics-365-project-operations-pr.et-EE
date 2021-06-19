@@ -2,30 +2,29 @@
 title: Projekti kopeerimine
 description: Selles teemas antakse teavet rakenduses Dynamics 365 Project Operations projektide kopeerimise kohta.
 author: ruhercul
-manager: AnnBe
-ms.date: 02/22/2021
+ms.date: 05/21/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: af1942e81691d9e13fdcbbf68599c1a8a4004582
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: c3055ab5b8c07faa2bc9167956d283e2a66029dd
+ms.sourcegitcommit: 173f2b1f4e063c440a5f78d76d456c62aadbd89e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479514"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6091249"
 ---
 # <a name="copy-a-project"></a>Projekti kopeerimine
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Dynamics 365 Project Operationsi abil saate kiiresti uusi projekte koostada, valides **Kopeeri projekt** vormil **Projektid**. Projekti kopeerimiseks avage projekt, mida soovite kopeerida, ja seejärel valige toiming **Kopeeri projekt**. Toiming kopeerib järgneva.
+Dynamics 365 Project Operationsi abil saate kiiresti uusi projekte koostada, valides **Kopeeri projekt** vormil **Projektid**. Projekti kopeerimiseks avage projekt, mida soovite kopeerida, ja seejärel valige toiming **Kopeeri projekt**. Toiminguga kopeeritakse järgnev.
 
-- Projekti atribuudid (eeldatav alguskuupäev kopeeritakse lähteprojektist)
+- Projekti atribuudid 
 - Tööjaotuse struktuur
 - Projektimeeskonna liikmed
 - Projekti prognoosid
 - Projekti kuluprognoosid
+- Projektimaterjali prognoosid
 
 ## <a name="project-properties"></a>Projekti atribuudid
 
@@ -42,11 +41,15 @@ Kui projekt on kopeeritud, kopeeritakse väärtused järgmistel väljadel.
 - Üldine projekti olek
 - Kommentaarid
 - Prognoosid
-- Eeldatav alguskuupäev
-- Lõppkuupäev
+- Eeldatav alguskuupäev: see on kuupäev, millal projekt koopiast luuakse.
+- Eeldatav lõpukuupäev: seda kuupäeva muudetakse koopiast loodud uue projekti alguskuupäeva põhjal.
 - Tööpanus (tunnid)
 - Eeldatav tööjõukulu
 - Eeldatav kulude maksumus
+- Eeldatav materjalikulu
+
+> [!NOTE]
+> Projekti kopeerimine on pikaaegne toiming. Kopeeritakse ka projektikirjed, nende vastavad atribuudid ja paljud seostuvad olemid. Toimingu pikaajalise loomuse tõttu on pärast koopia käivitamist sihtprojekti leht redigeerimiseks lukus, kuni kopeerimistoiming on lõpule jõudnud.
 
 ## <a name="work-breakdown-structure"></a>Tööjaotuse struktuur
 
@@ -58,7 +61,7 @@ Kui projektimeeskond kopeeritakse lähteprojektist, kopeeritakse üldised ressur
 
 ## <a name="estimates"></a>Prognoosid
 
-Kui projekt on kopeeritud, kopeeritakse lähteprojektist nii ressursi kui ka kulu prognoosiread. 
+Kui projekt on kopeeritud, kopeeritakse ressursi, kulu ja materjali prognoosi read lähteprojektist. 
 
 Lisateavet programmiliselt valikule Kopeeri projekt juurdepääsemise kohta leiate teemast [Projektimallide väljatöötamine toiminguga Kopeeri projekt](dev-copy-project.md).
 

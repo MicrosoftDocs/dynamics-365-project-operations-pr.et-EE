@@ -2,19 +2,17 @@
 title: Töö kuluaruande isiklike kuludega
 description: Selles teemas antakse teavet selle kohta, kuidas toimida töötajate poolt äri eesmärgil reisides tekkinud isiklike kuludega.
 author: suvaidya
-manager: tfehr
-ms.date: 11/18/2020
+ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: d2d558ad4f1a35f83af93d37e377db66d7f70e4f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ae25eca08089d224f1e17e95eeb571054de8a5c0
+ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276209"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6025679"
 ---
 # <a name="work-with-personal-expenses-on-an-expense-report"></a>Töö kuluaruande isiklike kuludega
 
@@ -28,6 +26,15 @@ Töötaja isiklike kuludega töötamiseks võib kasutada kahte meetodit.
   - **Maksab ettevõte:** teie ettevõte maksab ettevõtte krediitkaardi kogu arve ja seejärel võtab isiklike kulude summa maha töötaja kontolt.
 
 Saate valida meetodi, mida teie ettevõte kasutab, lehel **Kulu haldamise parameetrid**.
+
+
+## <a name="enable-split-expense-function-when-personal-amount-field-has-value-defined"></a>Tükeldatud kulufunktsiooni lubamine, kui isikliku summa väljal on väärtus määratletud
+
+Funktsioon **Luba tükeldatud kulufunktsioon, kui isikliku summa väljal on väärtus määratletud** rakendub ainult kuluaruannetele, mis on reataseme töövoo abil kinnitatud. Aruanded kinnitatakse, kui minnakse jaotiss **Kuluaruannete töötlemine** > **Mulle määratud kuluaruanded** > **Ava kuluaruanne**. 
+
+Selle funktsiooni lubamiseks avage **Tööruumid** > **Funktsioonihaldus**, valige **Luba tükeldatud kulufunktsioon, kui isikliku summa väljal on väärtus määratletud** ja valige seejärel **Luba kohe**. 
+
+Kui funktsioon on lubatud, genereerivad seda funktsiooni kasutavad kuluread aruande esitamisel kaks rida. Luuakse kaks rida, et kinnitaja saaks iga rea eraldi kinnitada.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Ajakava API-de kasutamine kavandamise olemitega toimingute tegemiseks
 description: Selles teemas on toodud teave ja näited ajakava API-de kasutamise kohta.
 author: sigitac
-manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950799"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116792"
 ---
 # <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Ajakava API-de kasutamine kavandamise olemitega toimingute tegemiseks
 
@@ -268,7 +266,6 @@ Järgnevalt on toodud piirangute ja teadaolevate probleemide loend.
 - Igal kasutajal saab maksimaalselt olla 10 avatud suvandit **OperationSet**.
 - Project Operations toetab praegu projektil kokku maksimaalselt 500 ülesannet.
 - Suvandi **OperationSet** tõrkeolek ja tõrkelogid pole hetkel saadaval.
-- Ajakava API-d on avalikus eelversioonis. Microsoft ei toeta nende API-de kasutamist töökeskkonnas.
 - [Projektide ja tööülesannete piirangud ja piirid](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
 ## <a name="error-handling"></a>Tõrketöötlus
