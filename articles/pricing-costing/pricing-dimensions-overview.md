@@ -2,19 +2,17 @@
 title: Hinnakujunduse dimensioonide ülevaade
 description: See teema sisaldab teavet hinnakujunduse dimensioonide kohta rakenduses Dynamics 365 Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ff675823d84c6e2b83be1e313f881bd672e53981
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 01ba11e34e7d8a59716fa9d8c8be3389ab380048
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275398"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004976"
 ---
 # <a name="pricing-dimensions-overview"></a>Hinnakujunduse dimensioonide ülevaade
 
@@ -59,18 +57,18 @@ Järgmises näites on toodud arve määrad, mis on seadistatud vastavalt rollile
 
 **Näidishinnad**
 
-| Roll        | Organisatsiooniüksus    |Ühik      |Hind      |Valuuta  |
+| Roll        | Organisatsiooniüksus    |Üksus      |Hind      |Valuuta  |
 | ------------|-------------|----------|----------:|----------|
-| Arendaja   | Jõgi US  |Hour | 200|USD     |
-| Arendaja   | Jõgi India |Hour|   112|USD     |
+| Arendaja   | Contoso US  |tund | 200|USD     |
+| Arendaja   | Contoso India |tund|   112|USD     |
 
 
 **Kulumäära näidis**
 
-| Palgavahemik     | Organisatsiooniüksus    |Ühik      |Hind      |Valuuta  |
+| Palgavahemik     | Organisatsiooniüksus    |Üksus      |Hind      |Valuuta  |
 | ----------------|-------------|----------|----------:|----------|
-| Minu company_Band1 | Jõgi US  |Hour | 145|USD     |
-| Minu company_Band2 | Jõgi India |Hour|   67|USD     |
+| Minu company_Band1 | Contoso US  |tund | 145|USD     |
+| Minu company_Band2 | Contoso India |tund|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
