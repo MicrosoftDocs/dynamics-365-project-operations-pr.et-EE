@@ -2,8 +2,6 @@
 title: Organisatsiooniüksused
 description: Selles teemas antakse teavet rakenduses Dynamics 365 Project Service Automation organisatsiooniliste üksuste kohta.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89ff652e186601ccdf75d99dc08a4f082e576cb0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291659"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009611"
 ---
 # <a name="organizational-units"></a>Organisatsiooniüksused 
 
@@ -79,14 +77,14 @@ Kui rakendate Dynamics 365, optimeerige äriüksuste hierarhia jaoks turvakontro
 
 #### <a name="example-of-organizational-units-and-business-units"></a>Organisatsiooni- ja äriüksuste näide
 
-Jõgi, Ltd.-l on edukas Microsofti tehnoloogia kasutamise kogemus. Marko ja Brita on mõlemad C\# arendajad, kuid Brita asub Ameerika Ühendriikides, samas kui Marko elab Indias. Kuna enamike projektide puhul on osalemiseks vaja nii Jõgi India kui ka Jõgi USA ressursse ning Marko ja Brita vajavad sama turvataset, et selle tegevusala projektidele juurde pääseda. Kuid Jõgi India arendajate kulu erineb oluliselt Jõgi USA arendajate kuludest.
+Contoso, Ltd.-l on edukas Microsofti tehnoloogia kasutamise kogemus. Marko ja Brita on mõlemad C\# arendajad, kuid Brita asub Ameerika Ühendriikides, samas kui Marko elab Indias. Kuna enamike projektide puhul on osalemiseks vaja nii Contoso India kui ka Contoso USA ressursse ning Prakash ja Tricia vajavad sama turvataset, et selle tegevusala projektidele juurde pääseda. Kuid Contoso India arendajate kulu erineb oluliselt Contoso USA arendajate kuludest.
 
 Siin on optimaalne viis selle stsenaariumi kujundamiseks Dynamics 365 ja PSA abil.
 
 1. Looge Microsofti tehnoloogiline tegevus äriüksusena ning seostage sellega Marko ja Brita. Sel viisil tagate, et mõlemal töötajal oleks sama turvatase, et kõigile selle ala projektidele juurde pääseda. Mõlemal on võimalik kontrollida edenemist ning aruande aega, kulusid ja tööülesannete värskendusi. 
 2. Looge kaks organisatsiooniüksust, et tagada projekti kulu õigesti kajastamine. 
-3. Seostage Brita Jõgi USA-ga ja Marko Jõgi Indiaga.
-4. Määrake vastavad kulu hinnakirjad mõlemale organisatsiooniüksusele. Nii saate tagada, et Markoi ja Brita projektile kirjendatud kulud kajastavad täpselt Jõgi USA ja Jõgi India vahelise erinevuse kulusid.
+3. Seostage Tricia Contoso USA-ga ja Prakash Contoso Indiaga.
+4. Määrake vastavad kulu hinnakirjad mõlemale organisatsiooniüksusele. Nii saate tagada, et Prakashi ja Tricia projektile kirjendatud kulud kajastaksid täpselt Contoso USA ja Contoso India vahelise erinevuse kulusid.
 
 ### <a name="are-organizational-units-related-to-sales-territories-in-dynamics-365"></a>Kas organisatsiooniüksused on rakenduses Dynamics 365 seotud müügipiirkondadega?
 
@@ -96,11 +94,11 @@ Organisatsiooniüksus on ettevõtte sisemine rühm või allüksus, mis jälgib t
 
 #### <a name="example-of-organizational-units-and-sales-territories"></a>Organisatsiooniüksuste ja müügipiirkondade näide
 
-Jõgi, Ltd.-l on kaks arenduskeskust: Jõgi USA ja Jõgi India. Nende kahe arenduskeskuse ressursside kulu on väga erinev.
+Contoso, Ltd.-l on kaks arenduskeskust: Contoso USA ja Contoso India. Nende kahe arenduskeskuse ressursside kulu on väga erinev.
 
-Jõgi müüb oma IT-teenuseid paljudel rahvusvahelistel turgudel, nagu Ladina-Ameerika, Põhja-Ameerika, Aasia ja Vaikse ookeani piirkond, Lääne-Euroopa ja Lähis-Idas. Sama projekti rollide arveldusmäärad võivad nendel turgudel olla väga erinevad.
+Contoso müüb oma IT-teenuseid paljudel rahvusvahelistel turgudel, nagu Ladina-Ameerika, Põhja-Ameerika, Aasia ja Vaikse ookeani piirkond, Lääne-Euroopa ja Lähis-Idas. Sama projekti rollide arveldusmäärad võivad nendel turgudel olla väga erinevad.
 
-Jõgi USA ja Jõgi India tuleks seadistada organisatsiooniüksustena ja igal organisatsiooniüksusel peaks olema oma kulude hinnakiri. Aasia ja Vaikse ookeani piirkond, Ladina-Ameerika, Põhja-Ameerika, Lääne-Euroopa ja Lähis-Ida tuleks seadistada müügipiirkondade järgi ja igal müügipiirkonnal peaks olema oma müügi hinnakiri.
+Contoso USA ja Contoso India tuleks häälestada organisatsiooniüksustena ja igal organisatsiooniüksusel peaks olema oma kulude hinnakiri. Aasia ja Vaikse ookeani piirkond, Ladina-Ameerika, Põhja-Ameerika, Lääne-Euroopa ja Lähis-Ida tuleks seadistada müügipiirkondade järgi ja igal müügipiirkonnal peaks olema oma müügi hinnakiri.
 
 ### <a name="why-is-there-a-restriction-on-the-association-of-price-lists-with-organizational-units"></a>Miks on hinnakirja ja organisatsiooniüksuse seostamisel piirangud? 
 
@@ -124,7 +122,7 @@ Ei. Praeguses PSA väljaandes ei ole organisatsiooniüksused hierarhilised. See 
 Kui teil on kulukeskuste, allüksuste, arvete osakondade jne keerukas hierarhia, seadistage selle hierarhia lehed eraldiseisvate organisatsiooniüksustena.
 Järgmine näide illustreerib tüüpilist hierarhiat.
 
-**Jõgi India**
+**ContosoIndia**
 
   - SAP-praktika 
 
@@ -136,7 +134,7 @@ Järgmine näide illustreerib tüüpilist hierarhiat.
     - Tehnilised konsultandid
     - Funktsionaalsed konsultandid 
     
-**Jõgi US**
+**Contoso USA**
 
  - SAP-praktika 
 
@@ -149,14 +147,14 @@ Järgmine näide illustreerib tüüpilist hierarhiat.
     - Funktsionaalsed konsultandid 
  
 Kui teie hierarhia on sarnane, peate selle seadistama lameda loendina, nagu siin näidatud.
-- Jõgi India – SAP-praktika – tehnilised konsultandid 
-- Jõgi India – SAP-praktika – funktsionaalsed konsultandid       
-- Jõgi India – Microsofti tehnoloogiapraktika funktsionaalsed konsultandid 
-- Jõgi India – Microsofti tehnoloogiapraktika funktsionaalsed konsultandid 
-- Jõgi USA – SAP-praktika – tehnilised konsultandid  
-- Jõgi USA – SAP-praktika – funktsionaalsed konsultandid  
-- Jõgi USA – Microsofti tehnoloogiapraktika tehnilised konsultandid 
-- Jõgi USA – Microsofti tehnoloogiapraktika funktsionaalsed konsultandid
+- Contoso India – SAP-praktika – tehnilised konsultandid 
+- Contoso India – SAP-praktika – funktsionaalsed konsultandid       
+- Contoso India – Microsofti tehnoloogiapraktika funktsionaalsed konsultandid 
+- Contoso India – Microsofti tehnoloogiapraktika funktsionaalsed konsultandid 
+- Contoso USA – SAP-praktika – tehnilised konsultandid  
+- Contoso USA – SAP-praktika – funktsionaalsed konsultandid  
+- Contoso USA – Microsofti tehnoloogiapraktika tehnilised konsultandid 
+- Contoso USA – Microsofti tehnoloogiapraktika – tehnilised konsultandid
 
 ### <a name="were-a-small-professional-services-company-that-operates-as-only-one-division-how-can-we-best-use-the-organizational-unit-concept-in-the-current-version-of-psa"></a>Me oleme väike professionaalne teenindusettevõte, mis tegutseb ainult ühe allüksusena. Kuidas saaksime PSA praegust versiooni organisatsiooniüksuste seisukohast parimal võimalikul viisil kasutada?
 

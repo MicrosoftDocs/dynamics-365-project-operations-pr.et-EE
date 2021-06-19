@@ -2,12 +2,10 @@
 title: Kohandatud väljade seadistamine hinnakujunduse dimensioonidena
 description: Selles teemas kirjeldatakse, kuidas seadistada kohandatud hinnakujunduse dimensioone.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 81f926e0aa209dd83f9b850c2342bd35a4f236c3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282463"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008306"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Kohandatud väljade seadistamine hinnakujunduse dimensioonidena 
 
@@ -73,12 +71,12 @@ Hinnakujunduse dimensioone on kahte tüüpi.
   
 | Roll        | Organisatsiooniüksus    |Töö asukoht      |Standardpealkiri      |Ressursi töötunnid      |  Tõsta hinda|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Jõgi India|Kohapeal            |                    |Ületunnitöö                 |15     |
-|             | Jõgi India|Kohalik             |                    |Ületunnitöö                 |10     |
-|             | Jõgi US   |Kohalik             |                    |Ületunnitöö                 |20     |
+|             | Contoso India|Kohapeal            |                    |Ületunnitöö                 |15     |
+|             | Contoso India|Kohalikud             |                    |Ületunnitöö                 |10     |
+|             | Contoso US   |Kohalikud             |                    |Ületunnitöö                 |20     |
 
 
-Kui Jõgi Indiast pärinev ressurss, mille põhimäär on 100 USA dollarit, töötab kohapeal ning nad logivad ajakirjesse 8 tundi tavalist tööaega ja 2 tundi ületunnitööd, kasutab Project Service’i hinnakujunduse mootor 8 tunni salvestamiseks põhimäära väärtusega 100 (kokku 800 USA dollarit). 2 tunni ületunnitöö puhul rakendatakse põhimäärale 100 juurde 15%-hinnalisandit, saades ühiku hinnaks 115 USA dollarit ja salvestades kogukulu väärtuseks 230 USA dollarit.
+Kui Contoso Indiast pärinev ressurss, mille põhimäär on 100 USA dollarit, töötab kohapeal ning nad logivad ajakirjes 8 tundi tavalist tööaega ja 2 tundi ületunnitööd, kasutab Project Service’i hinnakujunduse mootor 8 tunni salvestamiseks põhimäära väärtusega 100 (kokku 800 USA dollarit). 2 tunni ületunnitöö puhul rakendatakse põhimäärale 100 juurde 15%-hinnalisandit, saades ühiku hinnaks 115 USA dollarit ja salvestades kogukulu väärtuseks 230 USA dollarit.
 
 ### <a name="applicable-to-cost"></a>Kehtib kulu kohta 
 Kui see on seadistatud sättele **Jah**, tähendab see seda, et kulu ja hinnalisandi määrade saamisel peab **Rolli hinnale** ja **Rolli hinna hinnalisandile** vastamiseks kasutama sisendi konteksti dimensiooniväärtust.

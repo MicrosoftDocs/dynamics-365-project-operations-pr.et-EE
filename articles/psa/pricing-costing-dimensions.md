@@ -2,12 +2,10 @@
 title: Hinnakujunduse ja kuluarvestuse dimensioonide avaleht
 description: Selles teemas antakse ülevaade hindade dimensioonidest.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 137fee27dd2302d47ae12faccde1682cff43db93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9a2e2f7ed394229bbc553af9e616a6f322857195
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284128"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009251"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Hinnakujunduse ja kuluarvestuse dimensioonide avaleht
 
@@ -65,18 +63,18 @@ Järgmises näites on toodud arve määrad, mis on seadistatud vastavalt rollile
 
 **Näidishinnad**
 
-| Roll        | Organisatsiooniüksus    |Ühik      |Hind      |Valuuta  |
+| Roll        | Organisatsiooniüksus    |Üksus      |Hind      |Valuuta  |
 | ------------|-------------|----------|----------:|----------|
-| Arendaja   | Jõgi US  |Hour | 200|USD     |
-| Arendaja   | Jõgi India |Hour|   112|USD     |
+| Arendaja   | Contoso US  |tund | 200|USD     |
+| Arendaja   | Contoso India |tund|   112|USD     |
 
 
 **Kulumäära näidis**
 
-| Palgavahemik     | Organisatsiooniüksus    |Ühik      |Hind      |Valuuta  |
+| Palgavahemik     | Organisatsiooniüksus    |Üksus      |Hind      |Valuuta  |
 | ----------------|-------------|----------|----------:|----------|
-| Minu company_Band1 | Jõgi US  |Hour | 145|USD     |
-| Minu company_Band2 | Jõgi India |Hour|   67|USD     |
+| Minu company_Band1 | Contoso US  |tund | 145|USD     |
+| Minu company_Band2 | Contoso India |tund|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
