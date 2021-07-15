@@ -28,6 +28,8 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Keskkondade juurutamine
           items:
+            - name: Rakenduse Project Operations Dataverse käsitsi juurutamine koos topeltkirjutuse toega
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Uue keskkonna ettevalmistamine
               href: environment/resource-provision-new-environment.md
             - name: Turbemudel
@@ -48,10 +50,14 @@
               href: environment/resource-dual-write-project-invoice.md
             - name: Kuluhalduse integratsioon
               href: environment/resource-dual-write-expense.md
-            - name: Tarnija arve integratsioon
+            - name: Hankija arve integratsioon
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Mis on uut?
       items:
+        - name: Juuli 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: Juuni 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
+          href: whats-new/whats-new-june-2021-resource-based.md
         - name: Mai 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
           href: whats-new/whats-new-may-2021-resource-based.md
         - name: Aprill 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
@@ -282,7 +288,7 @@
           items:
             - name: Projektimallide arendamine projekti kopeerimisega
               href: project-management/dev-copy-project.md
-            - name: Ajakava API-de kasutamine (avalik eelversioon)
+            - name: Projekti ajakava API-de kasutamine (avalik eelversioon)
               href: project-management/schedule-api-preview.md
     - name: Ressursihaldus
       items:
@@ -430,14 +436,12 @@
       items:
         - name: Mittelaopõhiste materjalide ja ootel hankija arvete konfigureerimine
           href: procurement/configure-materials-nonstocked.md
-        - name: Ootel tarnija arveid kasutades mittelaopõhiste materjalide projektide jaoks hankimine
+        - name: Ootel hankija arveid kasutades mittelaopõhiste materjalide projektide jaoks hankimine
           href: procurement/pending-vendor-invoices.md
     - name: Arveldamine
       items:
         - name: Arveldusprotsessi ülevaade
           href: invoicing/post-project-invoices.md
-        - name: Projekti arve ettepanekute haldamine
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: Näidisarveldamine
           items:
             - name: Projektipõhiste arvete võlgnevuste haldamine
@@ -456,8 +460,22 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Projektipõhise arve automatiseerimise konfigureerimine
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Projekti arve ettepanekute haldamine
-          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Kliendiarvete loomine
+          items:
+            - name: Projektiarve ettepanekute haldamine
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: Projektiarve mustandi ettepanekute õige raamatupidamine
+              href: invoicing/correct-project-invoice-proposals.md
+        - name: Kontsernisisesed arved
+          items:
+            - name: Kontsernisisese arvelduse ülevaade
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Kontsernisisese arveldamise konfigureerimine
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Kontsernisiseste kannete loomine
+              href: project-accounting/create-intercompany-transactions.md
+            - name: Kontsernisisese kliendi ja hankija arvete loomine
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Projekti raamatupidamine
       items:
         - name: Finantsdimensiooni vaikeväärtused
@@ -470,21 +488,11 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Integreerimise tööleht rakenduses Project Operations
           href: project-accounting/project-operations-integration-journal.md
-        - name: Kontsernisisesed arved
-          items:
-            - name: Kontsernisisese arvelduse ülevaade
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: Kontsernisisese arveldamise konfigureerimine
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: Kontsernisiseste kannete loomine
-              href: project-accounting/create-intercompany-transactions.md
-            - name: Kontsernisisese kliendi ja hankija arvete loomine
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Tulu kajastamine
       items:
         - name: Tulu kajastamise ülevaade
           href: revenue-recognition/revenue-recognition-overview.md
-        - name: Tulu kajastamise seadistamine
+        - name: Tulu kajastamise häälestamine
           items:
             - name: Perioodi tüüpide seadistamine
               href: project-accounting/period-types.md
@@ -512,6 +520,10 @@
           href: environment/security-model.md
     - name: Mis on uut?
       items:
+        - name: Mis on uut juulis 2021 – lihtjuurutamine
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: Mis on uut juunis 2021 – lihtjuurutamine
+          href: pro/whats-new/whats-new-june-2021-lite.md
         - name: Mis on uut mais 2021 – lihtjuurutamine
           href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Mis on uut aprillis 2021 – lihtjuurutamine
@@ -762,7 +774,7 @@
           items:
             - name: Projektimallide arendamine projekti kopeerimisega
               href: project-management/dev-copy-project.md
-            - name: Ajakava API-de kasutamine (avalik eelversioon)
+            - name: Projekti ajakava API-de kasutamine (avalik eelversioon)
               href: project-management/schedule-api-preview.md
     - name: Ressursihaldus
       items:
@@ -880,9 +892,13 @@
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
 - name: Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
   items:
-    - name: Mis on uut
+    - name: Mis on uut?
       items:
-        - name: Mis on uut aprill 2021 – Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
+        - name: Mis on uut juulis 2021 – Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: Mis on uut mais 2021 – Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
+        - name: Mis on uut aprillis 2021 – Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Mis on uut märtsis 2021 – Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
           href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
@@ -1034,9 +1050,13 @@
       items:
         - name: Uuenduse väljalaske ajakava Project Service 3.x jaoks
           href: psa/version-history-ps.md
-        - name: 'Mis on uut või muutunud värskenduses 32, V3?'
+        - name: 'Mis on uut või muutunud uuenduse väljalaskes 33, V3?'
+          href: psa/whats-new-ur-33.md
+        - name: 'Mis on uut või muutunud uuenduse väljalaskes 32.5, V3?'
+          href: psa/whats-new-ur-32-5.md
+        - name: 'Mis on uut või muutunud uuenduse väljalaskes 32, V3?'
           href: psa/whats-new-ur-32.md
-        - name: 'Mis on uut või muutunud värskenduses 31, V3?'
+        - name: 'Mis on uut või muutunud uuenduse väljalaskes 31, V3?'
           href: psa/whats-new-ur-31.md
         - name: 'Mis on uut või muutunud värskenduses 30, V3?'
           href: psa/whats-new-ur-30.md
