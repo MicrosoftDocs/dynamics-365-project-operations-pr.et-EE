@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ebdb543560027d223715d0e5c70c864b706cb2c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
+ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007136"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304251"
 ---
 # <a name="integration-journal-in-project-operations"></a>Integreerimise tööleht rakenduses Project Operations
 
@@ -26,7 +26,7 @@ Aja- ja kulukirjed loovad **tegelikud** tehingud, mis esindavad projektiga seose
 Project Operationsi integreerimise töölehe kirjed luuakse kasutades perioodilist protsessi **Koondtabelist importimine**. Saate selle protsessi käivitada, kui avate **Dynamics 365 Finance** > **Projektihaldus ja raamatupidamine** > **Perioodiline** > **Project Operationsi integreerimine** > **Koondtabelist importimine**. Saate vastavalt vajadusele käivitada toimingu interaktiivselt või konfigureerida protsessi töötama taustal.
 
 Kui perioodiline protsess töötab, leitakse kõik tegelikud näitajad, mis ei ole veel Project Operationsi integreerimise töölehele lisatud. Luuakse iga tegeiku tehingu töölehe rida.
-Süsteem rühmitab töölehe read eraldi töölehtedeks vastavalt väljal **Project Operationsi integreerimise töölehe perioodi ühik** valitud väärtusele (**Finance** > **Projektihaldus ja raamatupidamine** > **Seadistus** > **Projektihalduse ja raamatupidamise parameetrid**, vahekaart **Project Operations teenuses Dynamics 365 Customer Engagement**). Selle välja võimalikud väärtused on hõlmavad.
+Süsteem rühmitab töölehe read eraldi töölehtedeks vastavalt väljal **Project Operationsi integreerimise töölehe perioodi ühik** valitud väärtusele (**Rahandus** > **Projektihaldus ja raamatupidamine** > **Seadistus** > **Projektihalduse ja raamatupidamise parameetrid**, vahekaart **Project Operations teenuses Dynamics 365 Customer Engagement**). Selle välja võimalikud väärtused on hõlmavad.
 
   - **Päevad**: tegelikud näitajad rühmitatakse tehingu kuupäeva järgi. Iga päeva jaoks luuakse eraldi tööleht.
   - **Kuud**: tegelikud näitajad on rühmitatud kalendrikuu järgi. Iga kuu jaoks luuakse eraldi tööleht.

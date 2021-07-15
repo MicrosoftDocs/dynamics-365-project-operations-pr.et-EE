@@ -1,19 +1,19 @@
 ---
-title: Ajakava API-de kasutamine kavandamise olemitega toimingute tegemiseks
-description: Selles teemas on toodud teave ja näited ajakava API-de kasutamise kohta.
+title: Projekti ajakava API-de kasutamine ajastamise olemitega toimingute tegemiseks
+description: Selles teemas on toodud teave ja näited projekti ajakava API-de kasutamise kohta.
 author: sigitac
-ms.date: 04/27/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
-ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
+ms.openlocfilehash: 4915261c08a3271a919e04084e92a14b297c1b35
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6116792"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6293222"
 ---
-# <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Ajakava API-de kasutamine kavandamise olemitega toimingute tegemiseks
+# <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Projekti ajakava API-de kasutamine ajastamise olemitega toimingute tegemiseks
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
@@ -22,9 +22,9 @@ _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaa
 
 ## <a name="scheduling-entities"></a>Olemite ajastamine
 
-Ajakava API-d annavad võimaluse teha suvandiga **Olemite ajastamine** loomise, värskendamise ja kustutamise toiminguid. Neid olemeid hallatakse veebirakenduse Project ajastamise mootori kaudu. Suvandiga **Olemite ajastamine** toimingute loomine, värskendamine ja kustutamine oli rakenduse Dynamics 365 Project Operations varasemates väljaannetes piiratud.
+Projekti ajakava API-d annavad võimaluse teha **ajastamise olemitega** loomise, värskendamise ja kustutamise toiminguid. Neid olemeid hallatakse veebirakenduse Project ajastamise mootori kaudu. Suvandiga **Olemite ajastamine** toimingute loomine, värskendamine ja kustutamine oli rakenduse Dynamics 365 Project Operations varasemates väljaannetes piiratud.
 
-Järgmises tabelis on toodud suvandi **Olemite kavandamine** täielik loend.
+Järgmises tabelid on toodud projekti ajakava olemite täielik loend.
 
 | Olemi nimi  | Olemi loogiline nimi |
 | --- | --- |
@@ -39,19 +39,19 @@ Järgmises tabelis on toodud suvandi **Olemite kavandamine** täielik loend.
 
 OperationSet on tööühiku muster, mida saab kasutada juhul, kui kandes tuleb töödelda mitut ajakava mõjutavat taotlust.
 
-## <a name="schedule-apis"></a>API-de kavandamine
+## <a name="project-schedule-apis"></a>Projekti ajakava API-d
 
-Järgnev on praeguste API-de ajastamise loend.
+Järgnev on praeguste projekti ajakava API-de loend.
 
 - **msdyn_CreateProjectV1**: seda API-d saab kasutada projekti loomiseks. Projekt ja vaikimisi projektisalv luuakse kohe.
 - **msdyn_CreateTeamMemberV1**: seda API-d saab kasutada projektimeeskonna liikme loomiseks. Meeskonnaliikme kirje luuakse kohe.
 - **msdyn_CreateOperationSetV1**: seda API-d saab kasutada mitme taotluse ajastamiseks, mis tuleb kande sees teha.
-- **msdyn_PSSCreateV1**: seda API-d saab kasutada olemi loomiseks. Olem võib olla mis tahes ajastamise olem, mis toetab loomise toimingut.
-- **msdyn_PSSUpdateV1**: seda API-d saab kasutada olemi uuendamiseks. Olem võib olla mis tahes ajastamise olem, mis toetab värskendamise toimingut.
-- **msdyn_PSSDeleteV1**: seda API-d saab kasutada olemi kustutamiseks. Olem võib olla mis tahes ajastamise olem, mis toetab kustutamise toimingut.
+- **msdyn_PSSCreateV1**: seda API-d saab kasutada olemi loomiseks. Olem võib olla mis tahes priekti ajastamise olemitest, mis toetab loomistoimingut.
+- **msdyn_PSSUpdateV1**: seda API-d saab kasutada olemi uuendamiseks. Olem võib olla mis tahes priekti ajastamise olemitest, mis toetab värskendamistoimingut.
+- **msdyn_PSSDeleteV1**: seda API-d saab kasutada olemi kustutamiseks. Olem võib olla mis tahes priekti ajastamise olemitest, mis toetab kustutamistoimingut.
 - **msdyn_ExecuteOperationSetV1**: seda API-d kasutatakse antud toimingute komplektis kõikide toimingute täitmiseks.
 
-## <a name="using-schedule-apis-with-operationset"></a>Ajakava API-de kasutamine üksusega OperationSet
+## <a name="using-project-schedule-apis-with-operationset"></a>Projekti ajakava API-de kasutamine väärtusega OperationSet
 
 Kuna nii API **CreateProjectV1** kui ka **CreateTeamMemberV1** kirjed luuakse kohe, ei saa neid API-sid olemis **OperationSet** otse kasutada. Samas saate kasutada API-d, et luua vajalikke kirjeid, luua üksuse **OperationSet** ja kasutada seejärel neid eelnevalt loodud kirjeid üksuses **OperationSet**.
 
@@ -257,7 +257,7 @@ Järgmistes tabelites määratletakse väljad, mille **loomine** ja **redigeerim
 ## <a name="limitations-and-known-issues"></a>Piirangud ja teadaolevad probleemid
 Järgnevalt on toodud piirangute ja teadaolevate probleemide loend.
 
-- Ajakava API-sid saavad kasutada ainult **Microsoft Projecti litsentsiga kasutajad.** Neid ei saa kasutada järgnevad.
+- Projekti ajakava API-sid saavad kasutada ainult **Microsoft Projecti litsentsiga kasutajad**. Neid ei saa kasutada järgnevad.
     - Rakenduse kasutajad
     - Süsteemi kasutajad
     - Integratsiooni kasutajad
@@ -271,7 +271,7 @@ Järgnevalt on toodud piirangute ja teadaolevate probleemide loend.
 ## <a name="error-handling"></a>Tõrketöötlus
 
    - Toimingukomplektide põhjal loodud tõrgete ülevaatamiseks minge jaotisesse **Sätted** \> **Kavanda integreerimine** \> **Toimingutekomplekt**.
-   - Projekti kavandamise teenuse kaudu loodud tõrgete ülevaatamiseks minge jaotisesse **Sätted** \> **Kavanda integreerimine** \> **PSS-i vealogi**.
+   - Projekti ajastamisteenuses loodud tõrgete läbivaatamiseks minge jaotisse **Sätted** \> **Ajakava integreerimine** \> **PSS-i tõrkelogid**.
 
 ## <a name="sample-scenario"></a>Näidisstsenaarium
 

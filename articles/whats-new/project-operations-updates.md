@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d19148c868aa5be77db59e70fcf1fb8b7de6868c
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 951ce2f277c0c2c447ee5b2e7add4febbc8486d9
+ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213440"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6433558"
 ---
 # <a name="project-operations-updates"></a>Rakenduse Project Operations värskendused
 
@@ -28,17 +28,17 @@ Dynamics 365 Project Operations koosneb kahest komponendist.
 - Projektihaldus ja raamatupidamine rakenduse Dynamics 365 Finance keskkonnas hõlmab kuluhalduse võimalusi, projekti raamatupidamist ja tulu kajastamist. Finance and Operationsi rakenduse keskkonda kasutatakse Project Operationsi ressursipõhiste/mittelaopõhiste stsenaariumite jaoks ja Project Operationsi ressursi-/tootmispõhiste stsenaariumite jaoks.
 
 ## <a name="project-operations-release-notes"></a>Project Operationsi versioonimärkmed
-- Project Operationsi uusimad versioonimärkmed [ressursipõhise/mittelaopõhiste](whats-new-may-2021-resource-based.md) stsenaariumide jaoks.
-- Project Operationsi uusimad versioonimärkmed [Lihtjuurutamise](../pro/whats-new/whats-new-may-2021-lite.md) stsenaariumide jaoks.
-- Project Operationsi uusimad versioonimärkmed [ ressursi-/tootmispõhiste](../prod-pma/whats-new/whats-new-apr-2021-stocked.md) stsenaariumide jaoks.
+- Project Operationsi uusimad versioonimärkmed [ressursipõhise/mittelaopõhiste](whats-new-july-2021-resource-based.md) stsenaariumide jaoks.
+- Project Operationsi uusimad versioonimärkmed [Lihtjuurutamise](../pro/whats-new/whats-new-july-2021-lite.md) stsenaariumide jaoks.
+- Project Operationsi uusimad versioonimärkmed [ ressursi-/tootmispõhiste](../prod-pma/whats-new/whats-new-jul-2021-stocked.md) stsenaariumide jaoks.
 
 ## <a name="project-operations-latest-version"></a>Project Operationsi uusim versioon
 
 | Project Operations Dataverse'i keskkonnas | Projektihaldus ja raamatupidamine Finance and Operationsi rakenduste keskkondades | 
 | --- | --- |
-| 4.10.0.186 | 10.0.18 |
+| 4.12.0.148 | 10.0.20 |
 
-Project Operationsi ressursipõhise/mittelaopõhise stsenaariumi puhul soovitame kasutada topeltkirjutuse korraldamise versiooni 2.2.2.60 või hilisemat.
+Project Operationsi ressursipõhise/mittelaopõhise stsenaariumi puhul soovitame kasutada topeltkirjutuse korraldamise versiooni 2.2.2.83 või hilisemat.
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Project Operationsi väljalaske ajakava Dataverse'i keskkonnas
 
@@ -47,23 +47,25 @@ Project Operationsi uuendused Dataverse'i keskkonnas on saadaval igakuiselt.
 | Jaam | Piirkond | Praegune versiooni number | Lihtjuurutuse automaatsed värskendused | Ressursi/mitteloapõhise juurutuse automaatsed värskendused | Järgmise versiooni number | Järgmine versioon üldiselt saadaval |
 |-----------|-----------------------|-----------------|--------------|---------------------|---------------------|---------------------|
 | Jaam 1 |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Esimene väljalase         |  4.10.0.186     | Lõpetatud     | Lõpetatud            | TBD                 | 28. mai 2021           |
+|   &nbsp;  | Esimene väljalase         |  4.12.0.148     | Lõpetatud     | 9. juuli 2021          | TBD                 | 6. august 2021        |
 | Jaam 2 |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Lõuna-Ameerika         |  4.10.0.186     | Lõpetatud     | Lõpetatud            | TBD                 | 28. mai 2021           |
-|    &nbsp; | Kanada                |  4.10.0.186     | Lõpetatud     | Lõpetatud            | TBD                 | 28. mai 2021           |
-|   &nbsp;  | India                 |  4.10.0.186     | Lõpetatud     | Lõpetatud            | TBD                 | 28. mai 2021           |
-|   &nbsp;  | Prantsusmaa                |  4.10.0.186     | Lõpetatud     | Lõpetatud            | TBD                 | 28. mai 2021           |
-|   &nbsp;  | Araabia Ühendemiraadid  |  4.10.0.186     | Lõpetatud     | Lõpetatud            | TBD                 | 28. mai 2021           |
-|   &nbsp;  | Lõuna-Aafrika          |  4.10.0.186     | Lõpetatud     | Lõpetatud            | TBD                 | 28. mai 2021           |
+|   &nbsp;  | Lõuna-Ameerika         |  4.12.0.148     | 9. juuli 2021   | 16. juuli 2021          | TBD                 | 6. august 2021        |
+|    &nbsp; | Kanada                |  4.12.0.148     | 9. juuli 2021   | 16. juuli 2021          | TBD                 | 6. august 2021        |
+|   &nbsp;  | India                 |  4.12.0.148     | 9. juuli 2021   | 16. juuli 2021          | TBD                 | 6. august 2021        |
+|   &nbsp;  | Prantsusmaa                |  4.12.0.148     | 9. juuli 2021   | 16. juuli 2021          | TBD                 | 6. august 2021        |
+|   &nbsp;  | Araabia Ühendemiraadid  |  4.12.0.148     | 9. juuli 2021   | 16. juuli 2021          | TBD                 | 6. august 2021        |
+|   &nbsp;  | Lõuna-Aafrika          |  4.12.0.148     | 9. juuli 2021   | 16. juuli 2021          | TBD                 | 6. august 2021        |
 | Jaam 3 |      &nbsp;           |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Jaapan                 |  4.10.0.186     | Lõpetatud     | Lõpetatud            | TBD                 | 4. juuni 2021          |
-|   &nbsp;  | Aasia ja Vaikse ookeani piirkond          |  4.10.0.186     | Lõpetatud     | Lõpetatud            | TBD                 | 4. juuni 2021          |
-|   &nbsp;  | Suurbritannia         |  4.10.0.186     | Lõpetatud     | Lõpetatud            | TBD                 | 4. juuni 2021          |
-|   &nbsp;  | Okeaania               |  4.10.0.186     | Lõpetatud     | Lõpetatud            | TBD                 | 4. juuni 2021          |
+|   &nbsp;  | Jaapan                 |  4.11.0.164     | Lõpetatud     | Lõpetatud            | 4.12.0.148          | 9. juuli 2021          |
+|   &nbsp;  | Aasia ja Vaikse ookeani piirkond          |  4.11.0.164     | Lõpetatud     | Lõpetatud            | 4.12.0.148          | 9. juuli 2021          |
+|   &nbsp;  | Suurbritannia         |  4.11.0.164     | Lõpetatud     | Lõpetatud            | 4.12.0.148          | 9. juuli 2021          |
+|   &nbsp;  | Okeaania               |  4.11.0.164     | Lõpetatud     | Lõpetatud            | 4.12.0.148          | 9. juuli 2021          |
 | Jaam 4 |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Euroopa                |  4.10.0.186     | Lõpetatud     | Lõpetatud            | TBD                 | 11. juuni 2021          |
+|   &nbsp;  | Euroopa                |  4.11.0.164     | Lõpetatud     | Lõpetatud            | 4.12.0.148          | 16. juuli 2021          |
 | Jaam 5 |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Põhja-Ameerika         |  4.10.0.186     | Lõpetatud     | 11. juuni 2021          | TBD                 | 18. juuni 2021          |
+|   &nbsp;  | Põhja-Ameerika         |  4.11.0.164     | Lõpetatud     | 9. juuli 2021          | 4.12.0.148          | 23. juuli 2021          |
+
+
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Projektihalduse ja raamatupidamise väljalaske ajakava Finance and Operationsi rakenduste keskkonnas
 
@@ -71,16 +73,16 @@ Projektihalduse ja raamatupidamise värskendused avaldatakse kahekda korda aasta
 
 |          Toetatud versioon          | Eelversiooni saadavus (PEAP) | Üldiselt saadaval (ise värskendatav) | Automaatsete värskenduste ajakava (LCS-i värskenduse sätete kaudu) loomise alguskuupäev |   Teenuse osutamise lõpp   |
 |:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|          10.0.19          |        23. aprill 2021       |            18. juuni 2021           |                             2. juuli 2021                             | 17. september 2021 |
 |          10.0.18          |        5. märts 2021        |           16. aprill 2021          |                            30. aprill 2021                            |    16. juuli 2021   |
-|          10.0.17          |       1. veebruar 2021      |           19. märts 2021          |                             2. aprill 2021                            |    11. juuni 2021   |
+
 
 Sihtväljalaske kuupäevad võivad muutuda. Lisateavet vaadake teemast [Teenuse värskenduste saadavus](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 |          Sihtversioon          | Eelversiooni saadavus (PEAP) | Üldiselt saadaval (ise värskendatav) | Automaatsete värskenduste ajakava (LCS-i värskenduse sätete kaudu) loomise alguskuupäev |   Teenuse osutamise lõpp   |
 |:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|          10.0.19          |        23. aprill 2021       |            18. juuni 2021           |                             2. juuli 2021                             | 17. september 2021 |
 |          10.0.20          |         28. mai 2021        |           16. juuli 2021           |                             30. juuli 2021                             |  22. oktoober 2021  |
-
+|          10.0.21          |         02. august 2021     |           17. september 2021      |                             1. oktoober 2021                           |  10. detsember 2021  |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
