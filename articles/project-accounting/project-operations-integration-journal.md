@@ -26,7 +26,7 @@ Aja- ja kulukirjed loovad **tegelikud** tehingud, mis esindavad projektiga seose
 Project Operationsi integreerimise töölehe kirjed luuakse kasutades perioodilist protsessi **Koondtabelist importimine**. Saate selle protsessi käivitada, kui avate **Dynamics 365 Finance** > **Projektihaldus ja raamatupidamine** > **Perioodiline** > **Project Operationsi integreerimine** > **Koondtabelist importimine**. Saate vastavalt vajadusele käivitada toimingu interaktiivselt või konfigureerida protsessi töötama taustal.
 
 Kui perioodiline protsess töötab, leitakse kõik tegelikud näitajad, mis ei ole veel Project Operationsi integreerimise töölehele lisatud. Luuakse iga tegeiku tehingu töölehe rida.
-Süsteem rühmitab töölehe read eraldi töölehtedeks vastavalt väljal **Project Operationsi integreerimise töölehe perioodi ühik** valitud väärtusele (**Rahandus** > **Projektihaldus ja raamatupidamine** > **Seadistus** > **Projektihalduse ja raamatupidamise parameetrid**, vahekaart **Project Operations teenuses Dynamics 365 Customer Engagement**). Selle välja võimalikud väärtused on hõlmavad.
+Süsteem rühmitab töölehe read eraldi töölehtedeks vastavalt väljal **Project Operationsi integreerimise töölehe perioodi ühik** valitud väärtusele (**Finance** > **Projektihaldus ja raamatupidamine** > **Seadistus** > **Projektihalduse ja raamatupidamise parameetrid**, vahekaart **Project Operations teenuses Dynamics 365 Customer Engagement**). Selle välja võimalikud väärtused on hõlmavad.
 
   - **Päevad**: tegelikud näitajad rühmitatakse tehingu kuupäeva järgi. Iga päeva jaoks luuakse eraldi tööleht.
   - **Kuud**: tegelikud näitajad on rühmitatud kalendrikuu järgi. Iga kuu jaoks luuakse eraldi tööleht.
