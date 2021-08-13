@@ -832,6 +832,16 @@
           items:
             - name: Ressursikasutuse ülevaade
               href: resource-management/resource-utilization-overview.md
+    - name: Allhankelepingute haldus rakenduses Project Operations
+      items:
+        - name: Allhankelepingute halduse ülevaade
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Allhankelepingute põhimõisted
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Hankijate ja projekti hinnakirjade haldus
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Alltöövõtjad broneeritavate ressurssidena
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: Aeg
       items:
         - name: Kellaaja ülevaade
@@ -1050,9 +1060,11 @@
       items:
         - name: Uuenduse väljalaske ajakava Project Service 3.x jaoks
           href: psa/version-history-ps.md
-        - name: 'Mis on uut või muutunud uuenduse väljalaskes 33, V3?'
+        - name: 'Mis on uut või muutunud värskenduses 34, V3?'
+          href: psa/whats-new-ur-34.md
+        - name: 'Mis on uut või muutunud värskenduses 33, V3?'
           href: psa/whats-new-ur-33.md
-        - name: 'Mis on uut või muutunud uuenduse väljalaskes 32.5, V3?'
+        - name: 'Mis on uut või muutunud värskenduses 32.5, V3?'
           href: psa/whats-new-ur-32-5.md
         - name: 'Mis on uut või muutunud uuenduse väljalaskes 32, V3?'
           href: psa/whats-new-ur-32.md
