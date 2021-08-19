@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7407c98aad79806dcbaf25e81ff3e08397b41ffe
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 37549080d76e3bffd7cb002aee8e3c46b9eeb18e3cec915cd971881b69747534
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996561"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993236"
 ---
 # <a name="project-invoice-integration"></a>Projekti arve integreerimine
 
@@ -20,7 +20,7 @@ Selles teemas antakse teavet Project Operationsi topeltkirjutamisega integreerim
 
 Project Operationsis haldab projekti haldur projekti arvelduse mahajäämust ja loob kliendile pro forma arve rakenduses Microsoft Dataverse. Selle pro forma arve põhjal loob müügireskontro ametnik või projekti raamatupidaja kliendile suunatud arve. Topeltkirjutamise integreerimine tagab pro forma arve üksikasjade sünkroonimise rakendustega Finance and Operations. Pärast kliendile suunatud arve sisestamist värskendab süsteem asjakohased projekti tegelikud andmed rakenduses Dataverse raamatupidamise üksikasjadega. Järgmine joonis annab sellest integreerimisest kõrgetasemelise kontseptuaalse ülevaate.
 
-   ![Projekti arve integreerimine](./media/DW5Invoicing.png)
+   ![Projekti arve integreerimine.](./media/DW5Invoicing.png)
 
 Pärast seda, kui projektijuht kinnitab pro forma arve rakenduses Dataverse, sünkroonitakse pro forma arve päise teave rakendustega Finance and Operations, kasutades topeltkirjutamise kaarti **Projekti arvesoovitus V2 (arved)**. See on üks võimalus, kuidas integreerida Dataverse rakendustesse Finance and Operations. Projekti arve loomist või kustutamist otse rakenduses Finance and Operations ei toetata.
 

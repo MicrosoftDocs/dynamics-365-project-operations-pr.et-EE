@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fcb3c85af092667cc5a473ab4674c3be47e33327
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007586"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992381"
 ---
 # <a name="estimates"></a>Hinnangud
 
@@ -83,24 +83,24 @@ Kui lisasite hinnapakkumise rea üksikasjadesse kohandatud välja ja soovite, et
 1. Avage PluginRegistrationTool ja looge ühendus võrgueksemplariga.
 2. Valige **Otsi** ja otsige lisandmoodulit, mida soovite värskendada.
 
-    ![Otsingupuu dialoogiboks](media/basic-guide-19.png)
+    ![Otsingupuu dialoogiboks.](media/basic-guide-19.png)
 
 3. Valige lisandmoodul ja seejärel valige avalehel suvand **Vali**.
 4. Valige värskendamiseks lisandmooduli etapp, paremklõpsake nuppu ja seejärel valige **Värskenda**.
 
-    ![Etapi valimine lisandmoodulis](media/basic-guide-20.png)
+    ![Etapi valimine lisandmoodulis.](media/basic-guide-20.png)
 
 5. Valige dialoogiboksis **Värskenda olemasolevat etappi** väljal **Filtreerimise atribuudid** kolmikpunkt (**...**).
  
-    ![Olemasoleva etapi värskendamise dialoogiboks](media/basic-guide-21.png)
+    ![Olemasoleva etapi värskendamise dialoogiboks.](media/basic-guide-21.png)
 
 6. Valige dialoogiboksis **Vali atribuudid** märkeruudud kohandatud atribuutide jaoks.
 
-    ![Atribuutide valimise dialoogiboks](media/basic-guide-22.png)
+    ![Atribuutide valimise dialoogiboks.](media/basic-guide-22.png)
 
 7. Valige dialoogiboksi sulgemiseks nupp **OK**, seejärel valige **Värskenda etappi**.
  
-    ![Etapi värskendamise nupp](media/basic-guide-23.png)
+    ![Etapi värskendamise nupp.](media/basic-guide-23.png)
 
 8. Korrake etappe 1–7 teise lisandmooduli jaoks.
 9. Sulgege PluginRegistrationTool.

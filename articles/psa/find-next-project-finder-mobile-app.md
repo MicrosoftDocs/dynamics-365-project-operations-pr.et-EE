@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f686c8329c3965ab98b7de9909dc3567b6cb5094
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007496"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990763"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Järgmise projekti otsimine rakendusega Project Finder Mobile (Project Service)
 
@@ -38,12 +38,12 @@ Rakendusega Project Finder Mobile saate oma [!INCLUDE[tn_iphone](../includes/tn-
   
  Koputage huvipakkuva projekti kõrval asuvat noolt, et näha rohkem üksikasju ja projektile registreeruda.  
   
- ![Oskustele vastavate projektide loend rakenduses Project Finder Mobile](../psa/media/project-service-project-finder-list.png "Oskustele vastavate projektide loend rakenduses Project Finder Mobile")  
+ ![Oskustele vastavate projektide loend rakenduses Project Finder Mobile.](../psa/media/project-service-project-finder-list.png "Oskustele vastavate projektide loend rakenduses Project Finder Mobile")  
   
 ## <a name="update-your-skills"></a>Oskuste värskendamine  
  Oma oskuste ja pädevustasemete värskendamiseks koputage kuva paremas alanurgas profiilinuppu.  
   
- ![Profiili nupp rakenduses Project Finder Mobile](../psa/media/project-service-project-finder-profile.png "Profiili nupp rakenduses Project Finder Mobile")  
+ ![Profiili nupp rakenduses Project Finder Mobile.](../psa/media/project-service-project-finder-profile.png "Profiili nupp rakenduses Project Finder Mobile")  
   
 ### <a name="see-also"></a>Vt ka  
  [Aja-, kulu- ja koostööjuhend](../psa/time-expense-collaboration-guide.md)

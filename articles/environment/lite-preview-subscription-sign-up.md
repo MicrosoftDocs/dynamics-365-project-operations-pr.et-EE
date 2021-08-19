@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2b5a65f5e29915c349d40400ebbf3e4923b36a67
-ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
+ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "6334777"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991526"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Eelversiooni kordustellimuseks registreerumine – liht 
 
@@ -52,16 +52,16 @@ Enne alustamist veenduge, et oleksite brauseris sisse logitud kasutaja töökont
 
 1. Valmistage ette uus Project Operationsi Dataverse’i juurutuse keskkond, järgides juhiseid teemas [Dataverse’i juurutuse mudel](lite-deployment.md). Keskkonnatüübi valimisel kasutage kindlasti valikut **Prooviversioon (tellimusepõhine)**.
 
-  ![Uus keskkond](./media/19CreateEnvironment.png)
+  ![Uus keskkond.](./media/19CreateEnvironment.png)
 
 2. Valige säte **Luba Dynamics 365 rakendused** ja jätke väli **Juuruta neid rakendusi automaatselt** tühjaks.  
 3. Keskkonna loomiseks valige nupp **Salvesta**.
 
-  ![Lisa andmebaas](./media/20CreateEnvironment1.png)
+  ![Andmebaasi lisamine.](./media/20CreateEnvironment1.png)
 
 4. Pärast keskkonna loomist installige **Microsofti Dynamics 365 Project Operations** lahendus. 
 
-![Lahenduse installimine](./media/21InstallSolution.png)
+![Lahenduse installimine.](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>CDS-i konfiguratsiooni ja seadistuse demoandmete installimine
 

@@ -6,12 +6,12 @@ ms.date: 11/09/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 86f4cd2c26ebfca621d1b226b571d220d3b2441e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6010331"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992201"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Lahenduse loomine kohandatud hinnakujunduse dimensioonide jaoks
 
@@ -26,7 +26,7 @@ ms.locfileid: "6010331"
 2.  Sisestage lahenduse nimi, organisatsiooni *<your organization name> hinnakujunduse dimensioonid*.
 3. Sisestage ülejäänud nõutav teave ja calige seejärel **Salvesta**.
 
-  ![Kohandatud hinnakujunduse dimensiooni lahenduse loomine](./media/Creation-of-custom-pricing-dimension-solution.png)
+  ![Kohandatud hinnakujunduse dimensiooni lahenduse loomine.](./media/Creation-of-custom-pricing-dimension-solution.png)
  
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Lisage kõik nõutavad olemid ja seotud komponendid hinnakujunduse dimensiooni lahendusse
 
@@ -49,19 +49,19 @@ Lisage oma hinnakujunduse lahendusele järgmised teenuse Project Service olemid,
    - **Rolli hind**
    - **Ajakirje**
  
-   ![Olemasolevate olemite kohandatud hinnakujunduse dimensiooni lahenduse lisamine](./media/Existing-entities-to-PD-solution.png)
+   ![Olemasolevate olemite kohandatud hinnakujunduse dimensiooni lahenduse lisamine.](./media/Existing-entities-to-PD-solution.png)
  
  4. Vaadake iga olemi kohta lisatavaid komponente ja iga olemi kohta olemi varade lõplikku loendit. 
 
    >[!NOTE]
    > Kaasake iga valitud olemite jaoks kõik vormid ja vaated.
 
-  ![Lisatud olemid](./media/solution-component-selection.png)
+  ![Lisatud olemid.](./media/solution-component-selection.png)
 
 
 5.  Kui teil palutakse lisada valitud olemite jaoks mis tahes sõltuvaid olemeid, valige suvand **Ei, ära kaasa nõutavaid komponente.**
 
-    ![Kaasab sõltuvad olemid](./media/Do-not-include-required.png)
+    ![Kaasab sõltuvad olemid.](./media/Do-not-include-required.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

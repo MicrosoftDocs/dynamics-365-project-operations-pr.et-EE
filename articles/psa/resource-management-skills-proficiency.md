@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 976650cc71b0cdb75d5ce2d7532cd78bd91d3670
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 73509fda4a715a4131781645736e49cfb02115da2c3650c5a966e35360e7703f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008666"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990491"
 ---
 # <a name="skills-and-proficiency-models"></a>Oskuste ja oskustaseme mudelid
 
@@ -33,7 +33,7 @@ Oskused on ressursi tunnused, mis on ühiskasutuses rakenduse Dynamics 365 Proje
 
 Oskuste hoidla säilitamiseks rakenduses Project Service Automation tehke valikud **Ressursid** \> **Ressursi oskused**. 
 
-> ![Ressursi oskused](media/Resource-Management-image84.png)
+> ![Ressursi oskused.](media/Resource-Management-image84.png)
 
 ## <a name="use-proficiency-models-to-rate-resources"></a>Kasutage ressursside hindamiseks oskustaseme mudeleid
 
@@ -43,7 +43,7 @@ Ressursside oskusi hinnatakse oskustaseme mudelitega. Individuaalsed hinnangud o
 2. Määrake uues hindamismudelis minimaalne hinnangu väärtus, maksimaalne hinnangu väärtus ja hinnatav olem.
 3. Andmeruudustikus **Hinnangu väärtused** saate määratleda erinevad hinnangu väärtused, minimaalsest maksimaalseni.
 
-> ![Minimaalsed ja maksimaalsed hinnangud on määratletud](media/Resource-Management-image85.png)
+> ![Määratletud on minimaalsed ja maksimaalsed hinnangud.](media/Resource-Management-image85.png)
 
 Need hinnangu väärtused kuvatakse filtrites **Ressursinõuded**, **Ajakavapaneel** ja **Ajakava abimees**.
 
