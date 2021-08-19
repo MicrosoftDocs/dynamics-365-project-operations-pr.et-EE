@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d82302f12ba75a92f2de0e9746ad7e61ce0cdc6b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995166"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997106"
 ---
 # <a name="configure-project-categories"></a>Projektikategooriate konfigureerimine
 
@@ -23,7 +23,7 @@ Järgmisel diagrammil on toodud kannete kategooriate, ühiskasutuses kategooriat
 
 Kannete kategooriad on projekti kannete peamine rühmitamine. Selles rühmas on ühiskasutuses kategooriate komplekt, mida saab rakenduste ja moodulite üleselt ühiselt kasutada. Täpsustades seda veelgi, siis projekti kategooriad on kategooriate kõige granuleeritum tase. Projekti kategooriad on omased juriidilistele olemitele, moodulitele ja rakendusele.
 
-![Kannete kategooriate, ühiskasutuses kategooriate ja projekti kategooriate vaheline korrelatsioon](media/project-categories.png)
+![Kandekategooriate, ühiskategooriate ja projektikategooriate vaheline korrelatsioon.](media/project-categories.png)
 
 ## <a name="transaction-categories"></a>Kandekategooriad
 

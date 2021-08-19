@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24032a77834005c444972f8d234d3acb33d19135
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998316"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996926"
 ---
 # <a name="project-settings"></a>Projekti sätted
 
@@ -45,9 +45,9 @@ Projekti ajakava loomiseks peate looma projektikalendri malli, mis määratleb t
 
   - Uus nädalagraafik
   - Ühe päeva töögraafik
-  - Vaba aeg
+  - Eemalolekuaeg
 
-> ![Suvandite seadistamine](media/project-13.png)
+> ![Suvandite seadistamine.](media/project-13.png)
 
 4. Tehke valik **Uus nädalagraafik** ja seejärel määrake selle ressurside ajakava suvandid. Saate määrata korduva nädalagraafiku, iga päeva tunniparameetrid, äri lõpetamised ja muud.
 5. Määrake kuupäevavahemik, tehke valik **Salvesta** ja seejärel klõpsake käsku **Sule**. 
