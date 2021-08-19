@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49d109be3d55e7f208edb2698e420f40bb7843df
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998406"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995171"
 ---
 # <a name="sales-estimates-and-projects"></a>Müügiprognoosid ja projektid
 
@@ -35,11 +35,11 @@ Müügiprotsessi käigus saate luua müügiprognoose, kui seostate projekti mü�
 
 Projektipõhise hinnapakkumise rea loomisel saate luua uue projekti või seostada olemasoleva projekti lehel **Hinnapakkumise rida**. 
 
-> ![Hinnapakkumise rea vorm](media/project-8.png)
+> ![Hinnapakkumise rea vorm.](media/project-8.png)
  
 Kui loote hinnapakkumise rea üksikasjadest uue projekti, võite ära kasutada projekti malle. Projektimallid on mudelprojektid, mis esindavad standardseid projektiplaane ja organisatsioonile tüüpilisi finantskalkulatsioone. Need võivad esindada ka projektiplaanide koopiaid ja varasemate projektide prognoose.
 
-> ![Hinnapakkumise rea üksikasjad](media/project-9.png)
+> ![Hinnapakkumise rea üksikasjad.](media/project-9.png)
   
 Kui loote hinnapakkumisest projekti, seostatakse projekt automaatselt hinnapakkumise reaga.
 

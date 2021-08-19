@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae7f22b9cb092e956d0f1eaf1f1997c8e97392f4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012311"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995261"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Kohandatud lahenduste loomine hinnakujunduse dimensioonide jaoks
 
@@ -32,7 +32,7 @@ ms.locfileid: "6012311"
 1. Valige **Sätted** > **Lahendused** ja valige seejärel **Uus**. 
 2. Pange lahendusele nimi **Organisatsiooni \<your organization name> hinnakujunduse dimensioonid**, sisestage ülejäänud nõutav teave ja valige seejärel **Salvesta**.
 
-> ![Kohandatud lahenduse loomine hinnakujunduse dimensioonide jaoks](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Kohandatud lahenduse loomine hinnakujunduse dimensioonide jaoks.](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Lisage kõik nõutavad olemid ja seotud komponendid hinnakujunduse dimensiooni lahendusse
 Hinnakujunduse lahendusele tuleb lisada järgmised Project Service’i olemid. Läbige selle protseduuri etapid, et muuta hinnakujunduse lahenduses teatud olulisi skeeme, et olemid oleksid uutest hinnakujunduse dimensioonidest teadlikud.
@@ -54,16 +54,16 @@ Hinnakujunduse lahendusele tuleb lisada järgmised Project Service’i olemid. L
 - Rolli hind 
 - Ajakirje 
 
-> ![Olemasolevate olemite lisamine hinnakujunduse dimensioonide lahendusse](media/Existing-entities-to-PD-solution.png)
+> ![Olemasolevate olemite lisamine hinnakujunduse dimensioonide lahendusse.](media/Existing-entities-to-PD-solution.png)
 
-> ![Lahenduse komponentide valimine](media/Dimension-Components.png)
+> ![Lahenduse komponentide valimine.](media/Dimension-Components.png)
 
 > [!NOTE]
 > Veenduge, et kõigi valitud olemite jaoks kaasatakse kõik vormid ja vaated.
 
 4. Kui teil palutakse kaasata valitud olemite jaoks kõik sõltuvad olemid, valige **Ei**.
 
-> ![Ära kaasa kõiki seotud komponente](media/Do-not-include-required.png)
+> ![Ära kaasa kõiki seotud komponente.](media/Do-not-include-required.png)
 
 
 

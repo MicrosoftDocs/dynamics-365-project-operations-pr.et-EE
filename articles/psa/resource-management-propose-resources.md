@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 02e47338e34a37e05455e2bc6e6a175210ed6bc7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9fe63f424735f22dc6b525631287e7ff36db17f37aad8e14e926f5cc9be39136
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997956"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995036"
 ---
 # <a name="propose-project-resources"></a>Projektile ressursside pakkumine
 
@@ -38,7 +38,7 @@ Ilmnevad järgmised olekuvärskendused.
 
 - Lehel **Ajakava abimees** värskendatakse olekuindikaatoreid näitamaks, et broneering on soovituslik, mitte fikseeritult broneeritud.
 
-    ![Soovitatud broneeringu olekuindikaatorid lehel Ajakava abimees](media/Resource-Management-image63.png)
+    ![Soovitatud broneeringu olekuindikaatorid lehel Ajakavaabiline.](media/Resource-Management-image63.png)
 
 - Ressursitaotluses muudetakse olekuks **Vajab ülevaatamist**.
 
@@ -46,7 +46,7 @@ Ilmnevad järgmised olekuvärskendused.
 
 - Projekti vahekaardil **Meeskond** muudetakse üldiste meeskonnaliikmete väärtus **Taotluse olek** väärtusele **Vajab ülevaatamist**.
 
-    ![Üldiste meeskonnaliikmete taotluse olek muudeti vahekaardil Meeskond väärtusele Vajab ülevaatamist](media/Resource-Management-image48.png)
+    ![Üldiste meeskonnaliikmete taotluse olek muudeti vahekaardil Meeskond väärtusele Vajab ülevaatamist.](media/Resource-Management-image48.png)
 
 Projektijuht saab ettepaneku vastu võtta või tagasi lükata.
 
@@ -70,7 +70,7 @@ Kasutuse arvutamiseks kasutatakse järgmiseid valemeid.
 
 Vaate **Ressursikasutus** leiate paanilt **Ressursid**.
 
-![Ressursikasutuse vaade](media/Resource-Management-image65.png)
+![Ressursikasutuse vaatamine.](media/Resource-Management-image65.png)
 
 Iga ruudustiku lahter esindab perioodis (nt päev, nädal või kuu) oleva ressursi tasustatavat kasutusprotsenti. Lahtrite värvimiseks kasutatakse järgmisi valemeid.
 
@@ -84,7 +84,7 @@ Ruudustik nõuab, et määraksite sihtkasutuse kas rollile või konkreetsele res
 
 Peale selle tuleb igale broneeritavale ressursile määrata vaikeroll. Avage **Ressursid** \> **Ressursid**. Kontrollige vahekaardil **Project Service**, et ressursi roll oleks määratletud ja selle väli **On vaikimisi** oleks määratud väärtusele **Jah**. Saate lisada veel rolle, kus väärtus **On vaikimisi = Ei**. Roll, kus väärtust **On vaikimisi = Jah**, kasutatakse ressursi kasutuse hindamiseks selle rolli eesmärgi suhtes.
 
-![Vaikeroll on määratud](media/Resource-Management-image67.png)
+![Vaikeroll on määratud.](media/Resource-Management-image67.png)
 
 Vahekaardil **Project Service** saate ressursi jaoks määrata ka eraldi sihtkasutuse. Seejärel kasutab kasutuse arvutus seda sihtkasutust, et hinnata ressursi sihti, mitte ressursi vaikerolli sihti.
 
@@ -96,21 +96,21 @@ On ülioluline, et ressursihaldurid saaksid vaadata ressursside saadavust ja vä
 
 Ressurssi töötundide alusel arvutatakse ressursi saadavust. Ressursibroneeringud tarbivad ressursside võimsust.
 
-![Ajakavapaneel](media/Resource-Management-image68.png)
+![Ajakavapaneel.](media/Resource-Management-image68.png)
 
 Ajakavapaneel kasutab broneeringute, saadavuse ja ülebroneerimiste ning ka broneeringute oleku kuvamiseks värve ja varjustust. Ajakavapaneeli üks säte võimaldab teil kuvada legendi.
 
 Kui ajakavapaneelil kuvatakse konkreetse broneeritava ressursi kõrval parempoole suunatud nool, saab ressurssi laiendada, et kuvada selle töö üksikasju, millele ressurss on broneeritud.
 
-![Broneeritav ressurss on ajakavapaneelil laiendatud](media/Resource-Management-image69.png)
+![Broneeritav ressurss on ajakavapaneelil laiendatud.](media/Resource-Management-image69.png)
 
 Kuna rakendus Dynamics 365 Project Service Automation kasutab mootorit Universal Resource Scheduling, ja kui teil on installitud ka rakendus Dynamics 365 Field Service, saate vaadata üksikasju projektide ressursibroneeringute, töötellimuste ja muude olemite kohta, millele olete kavandamise laiendanud.
 
-![Projektide ressursibroneeringute ja töötellimuste üksikasjad](media/Resource-Management-image70.png)
+![Projektide ja töötellimuste ressursibroneeringute üksikasjad.](media/Resource-Management-image70.png)
 
 Konkreetse ressursi kohta lisateabe saamiseks paremklõpsake seda, et avada ressursikaart.
 
-![Ressursikaart](media/Resource-Management-image71.png)
+![Ressursikaart.](media/Resource-Management-image71.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

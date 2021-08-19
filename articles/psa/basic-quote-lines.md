@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a46ec93744067205e1aa8c99dba52967a1780957
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014912"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995441"
 ---
 # <a name="quotes-and-quote-lines"></a>Hinnapakkumised ja hinnapakkumise read
 
@@ -84,7 +84,7 @@ Professionaalsed teenindusorganisatsioonid esitavad oma klientidele hinnapakkumi
 
 Iga hinnapakkumise reaga saab seostada ühe või mitu neist tehingu klassifikatsioonidest. Pärast hinnapakkumise võitmist kantakse tehingu klassifikatsiooni ja hinnapakkumise rea vaheline vastendamine üle lepingu reale.
  
-> ![Ekraanipilt tehingutüüpide vastendamisest hinnapakkumise ja lepingu ridadele](media/basic-guide-5.png)
+> ![Kuvatõmmis kandetüüpide vastendamisest hinnapakkumise ja lepinguridadega.](media/basic-guide-5.png)
   
 Näiteks võib hinnapakkumine sisaldada kahte järgmist hinnapakkumise rida. 
 - Nõustamistöö, mis kasutab aja- ja materjali arveldusmeetodit, kus rakendatakse aja- ja tasutehingute klassifikatsioone. Näiteks arveldatakse kõigi rakenduse **Dynamics AX Implementation** näidisprojekti aja- ja teenustasud kliendile vastavalt aja- ja materjalikulule. 
