@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33c27acc6747c94d76892f41031adc46150da0e0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011546"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987521"
 ---
 # <a name="business-transactions"></a>Äritehingud
 
@@ -88,7 +88,7 @@ Koos saate tehingute päritolu ja tehingute seose olemite kaudu jälgida äriteh
 
 Järgmises näites on toodud ajakannete tüüpiline töötlemine PSA projekti töötsüklis.
 
-> ![Töötlemise ajakirjed Project Service’i teenusetsüklis](media/basic-guide-17.png)
+> ![Ajakirjete töötlemine Project Service’i töötsüklis.](media/basic-guide-17.png)
  
 1. Ajakirje esitamise põhjuseks on kahe töölehe rea loomine: üks kulu ja teine arveldamata müügi jaoks.
 2. Ajakirje lõplik kinnitamine põhjustab kahe tegeliku versiooni loomise: üks kulu ja teine arveldamata müügi jaoks.

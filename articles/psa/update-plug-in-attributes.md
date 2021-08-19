@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b0d50733340f277453f4ef5b52bdd3ee089449cd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012806"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988781"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Lisandmooduli atribuutide värskendamine uute hinnakujunduse dimensioonide lisamiseks
 
@@ -42,25 +42,25 @@ Järgmised etapid selgitavad teile lisandmoodulite registreerimise protsessi.
 1. Avage **PluginRegistrationTool** ja looge ühendus oma võrguühendusega eksemplariga.
 2. Klõpsake käsku **Otsi** ja otsige üles lisandmoodul, mida soovite värskendada.
 
- ![Otsingupuu kuvatõmmis](media/PRT-1.png)
+ ![Otsingupuu kuvatõmmis.](media/PRT-1.png)
 
 3. Pärast lisandmooduli leidmist valige see ja klõpsake valikut **Vali Põhivormil**.
 
 4. Valige lisandmooduli etapp, mida soovite värskendada, paremklõpsake seda ja valige seejärel käsk **Värskenda**.
 
- ![Kuvatõmmis värskendatavast lisandmoodulist](media/PRT-2.png)
+ ![Kuvatõmmis värskendatavast lisandmoodulist.](media/PRT-2.png)
  
 5. Klõpsake värskendamise aknas filtreerimise atribuutides kolmikpunkti (**...**).
 
- ![Kuvatõmmis olemasoleva etapi värskendamise konfiguratsiooniteabest](media/PRT-3.png)
+ ![Kuvatõmmis olemasoleva etapi värskendamise konfiguratsiooniteabest.](media/PRT-3.png)
  
 6. Valige hinnakujunduse atribuudi märkeruudud.
 
- ![Kuvatõmmis, kus on näha hinnakujunduse atribuutide märkeruutude valikut](media/PRT-4.png)
+ ![Kuvatõmmis, kus on näha hinnakujunduse atribuutide märkeruutude valikut.](media/PRT-4.png)
 
 7. Lehe sulgemiseks klõpsake nuppu **OK** ja seejärel käsku **Värskenda etappi**.
 
- ![Kuvatõmmis, kus on näha nuppu „Värskenda etappi”](media/PRT-5.png)
+ ![Kuvatõmmis, kus on näha nuppu „Värskenda etappi”.](media/PRT-5.png)
  
 8. Korrake seda protsessi ka teise lisandmooduli puhul, **PreOperationQuoteLineDetail – msdyn_quotelinetransaction-i värskendamine**.
 

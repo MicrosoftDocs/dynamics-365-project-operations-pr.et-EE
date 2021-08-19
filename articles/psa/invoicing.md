@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e0dc911bb0ca72af547262a5716ef1091ea81c81
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015056"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985496"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Rakenduses Project Service Automation arvete esitamine
 
@@ -50,7 +50,7 @@ Konkreetse projekti lepingu jaoks arve loomiseks järgige seda etappi.
 
 - Avage **Projekti lepingute** loendi lehel projekti leping ja seejärel valige **Loo arve**.
 
-    ![Projekti arvete loomine konkreetse projekti lepingu jaoks](media/CreateProjectInvoicesOneByOne.png)
+    ![Projekti arvete loomine konkreetse projekti lepingu jaoks.](media/CreateProjectInvoicesOneByOne.png)
 
     Iga valitud projekti lepingu jaoks luuakse arve, mille olek on **Arveldamiseks valmis**. Need tehingud hõlmavad aega, kulusid, verstaposte ja tootepõhiseid lepinguridu.
 
@@ -58,7 +58,7 @@ Arvete hulgi loomiseks tehke järgmist.
 
 1. Valige **projekti lepingute** loendilehel üks või mitu projekti lepingut, mille jaoks peate arve looma, ja seejärel valige **Loo projekti arved**.
 
-    ![Projekti arvete koostamine hulgikaupa](media/CreateProjectInvoicesBulk.png)
+    ![Projekti arvete koostamine hulgikaupa.](media/CreateProjectInvoicesBulk.png)
 
     Hoiatusteade teatab, et enne arvete loomist võib olla viivitus. Protsess kuvatakse ka.
 

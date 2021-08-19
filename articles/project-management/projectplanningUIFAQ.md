@@ -2,17 +2,17 @@
 title: Tööülesande ruudustikus töötamise tõrkeotsing
 description: Selles teemas kirjeldatakse tõrkeotsingu teavet, mida on vaja tööülesande ruudustikus töötamisel.
 author: ruhercul
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213395"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989096"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Tööülesande ruudustikus töötamise tõrkeotsing 
 
@@ -24,7 +24,7 @@ Selles teemas kirjeldatakse, kuidas parandada probleeme, mis võivad ilmneda kul
 
 Project Operations vajab, et kolmanda osapoole küpsised oleksid lubatud, et tööjaotuse struktuuri renderdada. Kui kolmanda osapoole küpsised pole lubatud, näete toimingute nägemise asemel tühja lehte, kui valite vahekaardi **Tööülesanded** lehel **Projekt**.
 
-![Tühi vahekaart, kui kolmanda osapoole küpsised pole lubatud](media/blankschedule.png)
+![Tühi vahekaart, kui kolmanda osapoole küpsised pole lubatud.](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>Lahendus
@@ -52,11 +52,22 @@ Brauserite Microsoft Edge või Google Chrome korral kirjeldavad järgmised toimi
 Project Operations vajab, et projekti parameeter viitaks PEX-i lõpp-punktile. See lõpp-punkt on nõutav, et suhelda teenusega, mida kasutatakse tööjaotuse struktuuri renderdamiseks. Kui parameeter pole lubatud, kuvatakse tõrketeade "Projekti parameeter ei ole kehtiv". 
 
 ### <a name="workaround"></a>Lahendus
- ![PEX-i lõpp-punkti väli projekti parameetris](media/projectparameter.png)
 
 1. Lisage **PEX-i lõpp-punkti** väli lehele **Projekti parameetrid**.
-2. Lisage väljale järgmine väärtus: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
-3. Eemaldage väli lehelt **Projekti parameetrid**.
+2. Tuvastage, millist tüüpi toodet kasutate. Seda väärtust kasutatakse PEX-i lõpp-punkti seadmisel. Allalaadimisel on tootetüüp juba PEX-i lõpp-punktis määratletud. Hoidke see väärtus alles. 
+   
+    ![PEX-i lõpp-punkti väli projekti parameetris.](media/pex-endpoint.png)
+
+3. Lisage väljale järgmine väärtus: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+
+   
+   | Toote tüüp                         | Tüübi parameeter |
+   |--------------------------------------|----------------|
+   | Project for the Web vaikeorganisatsioonis   | tüüp=0         |
+   | Project for the Web CDS-i nimetatud organisatsioonis | tüüp=1         |
+   | Project Operations                   | tüüp=2         |
+   
+4. Eemaldage väli lehelt **Projekti parameetrid**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Projekti õigused veebi jaoks
 
@@ -67,7 +78,7 @@ Project Operations sõltub välisest ajastamisteenusest. Teenuse kasutamiseks pe
 
 1. Avage **Sätted > Turvalisus > Kasutajad > Rakenduse kasutajad**.  
 
-   ![Rakenduse lugeja](media/applicationuser.jpg)
+   ![Rakenduse lugeja.](media/applicationuser.jpg)
    
 2. Topeltklõpsake rakenduse kasutajakirjet, et kontrollida järgmist.
 
@@ -76,7 +87,7 @@ Project Operations sõltub välisest ajastamisteenusest. Teenuse kasutamiseks pe
  
 3. Kui kasutajat pole olemas, saate luua uue kasutajakirje. Valige **Uued kasutajad**. Muutke sisestusvormiks **Rakenduse kasutaja** ja seejärel lisage **Rakenduse ID**.
 
-   ![Rakenduse kasutaja üksikasjad](media/applicationuserdetails.jpg)
+   ![Rakenduse kasutaja üksikasjad.](media/applicationuserdetails.jpg)
 
 4. Kontrollige, et kasutajale on määratud õige litsents ja et teenus on litsentsi teenuseplaani üksikasjades lubatud.
 5. Veenduge, et kasutaja saab avada lehe project.microsoft.com.

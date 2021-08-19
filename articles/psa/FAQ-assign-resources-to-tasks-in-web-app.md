@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32a04ddef901515cd77262b5ae6be2458cb6b00c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 25cf017c53d7db23e467b3b610e2990e56e95cb56bdf9820e427dfeeeb979637
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993286"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987701"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Kuidas määrata veebirakenduses (Project Service v2.x) ülesandele reserveeritavat ressurssi?
 
@@ -43,7 +43,7 @@ Selle meetodiga saate lisada ressursi projekti meeskonnale ja seejärel määrat
 3.  Valige kuupäevade väärtused **Alates** ja **Kuni**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Kuvatõmmis meeskonnaliikme lisamisest](media/FAQ-Resources-to-Tasks2-1.png "Kuvatõmmis meeskonnaliikme lisamisest")
+    > ![Kuvatõmmis meeskonnaliikme lisamisest.](media/FAQ-Resources-to-Tasks2-1.png "Kuvatõmmis meeskonnaliikme lisamisest")
  
 4.  Valige ressursi reserveerimiseks üks järgmistest eraldamismeetoditest.
     - **Täisvõimsus** reserveerib määratud ajavahemikuks ressursi täieliku võimsuse.
@@ -63,12 +63,12 @@ Selle meetodiga saate lisada ressursi projekti meeskonnale ja seejärel määrat
     3. Valige **OK**. Meeskonnaliige on nüüd ülesandele määratud.
 
     > [!div class="mx-imgBorder"] 
-    > ![Kuvatõmmis WBS-iga ressursside lisamisest](media/FAQ-Resources-to-Tasks2-2.png "Kuvatõmmis WBS-iga ressursside lisamisest")
+    > ![Kuvatõmmis WBS-iga ressursside lisamisest.](media/FAQ-Resources-to-Tasks2-2.png "Kuvatõmmis WBS-iga ressursside lisamisest")
  
 Näete meeskonnaliikmete ruudustikus jaotise Määratud tunnid all ressursi määratud tundide koguaega. See on väiksem kui ressursile reserveeritud tunnid või sellega võrdne. 
 
 > [!div class="mx-imgBorder"] 
-> ![Kuvatõmmis ressursile määratud tundidest](media/FAQ-Resources-to-Tasks2-3.png "Kuvatõmmis ressursile määratud tundidest")
+> ![Kuvatõmmis ressursile määratud tundidest.](media/FAQ-Resources-to-Tasks2-3.png "Kuvatõmmis ressursile määratud tundidest")
  
 Kui ülesanne, mida püüate ressursile reserveerida, algab pärast ressursi reserveeringute lõppkuupäeva, siis ei kuvata ressurssi ripploendis.
 
@@ -92,22 +92,22 @@ See meetod tagab, et ressurssidel oleks ülesannete jaoks piisavalt reserveering
 4. Valige **OK**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Kuvatõmmis WBSi abil ressursi lisamisest](media/FAQ-Resources-to-Tasks2-4.png "Kuvatõmmis WBSi abil ressursi lisamisest")
+    > ![Kuvatõmmis WBSi abil ressursi lisamisest.](media/FAQ-Resources-to-Tasks2-4.png "Kuvatõmmis WBSi abil ressursi lisamisest")
  
 Kui olete lõpetanud WBS-is ülesannetele rollide määramise, valige käsk **Projektimeeskonna loomine**. Rakendus Project Service loob rollide, organisatsiooniüksuste ressursside ja projekti kalendri põhjal vähima arvu üldiseid meeskonnaliikmeid, koondades selleks ülesande määranguid.
 
 > [!div class="mx-imgBorder"] 
-> ![Kuvatõmmis projekti meeskonna loomisest](media/FAQ-Resources-to-Tasks2-5.png "Kuvatõmmis projekti meeskonna loomisest")
+> ![Kuvatõmmis projektimeeskonna loomisest.](media/FAQ-Resources-to-Tasks2-5.png "Kuvatõmmis projekti meeskonna loomisest")
  
 Meeskonnaliikmete ruudustikus näete üldise ressursitüübiga ressursse koos rolli ja ametikoha nimega. Kui töö lõpetamiseks on rolli jaoks vaja kahte ressurssi, siis loob meeskonna loomise funktsioon kaks meeskonnaliiget ja kasutab nende eristamiseks ametikoha nime.
 
 > [!div class="mx-imgBorder"] 
-> ![Kuvatõmmis kahe üldise ressursi lisamisest](media/FAQ-Resources-to-Tasks2-6.png "Kuvatõmmis kahe üldise ressursi lisamisest")
+> ![Kuvatõmmis kahe üldise ressursi lisamisest.](media/FAQ-Resources-to-Tasks2-6.png "Kuvatõmmis kahe üldise ressursi lisamisest")
  
 Saate avada üldise meeskonnaliikme varuressursi nõude, kui valite suvandi Ressursinõue all oleva lingi.
 
 > [!div class="mx-imgBorder"] 
-> ![Kuvatõmmis varuressursi nõude avamisest](media/FAQ-Resources-to-Tasks2-7.png "Kuvatõmmis varuressursi nõude avamisest")
+> ![Kuvatõmmis varuressursi nõude avamisest.](media/FAQ-Resources-to-Tasks2-7.png "Kuvatõmmis varuressursi nõude avamisest")
 
 Valige üldise ressursi jaoks suvand **Reserveeri** ja seejärel saate kasutada ajakavapaneeli, et leida ning reserveerida päris ressurss. Samuti saate esitada nõude ressursihaldurile täitmiseks, kui valite käsu **Esita taotlus**.
 

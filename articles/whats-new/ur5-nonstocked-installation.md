@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d85a180aa094a048b4422605b25151d10785f67d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011051"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986756"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Project Operationsi värskendamine Finance'i keskkonnas
 
@@ -33,7 +33,7 @@ See teema sisaldab teavet selle kohta, kuidas värskendada rakendust Dynamics 36
 4. Kontrollige, et keskkond töötab. Kui see pole käivitunud, käivitage keskkond.
 5. Valige jaotise **Uus väljaanne** osas **Saadaolevad värskendused** 10.0.15 nägemiseks **Vaata värskendust**.
 
-![Värskenduse vaatamise nupp](media/view-update.png)
+![Värskenduse vaatamise nupp.](media/view-update.png)
 
 6. Valige lehel **Binaarsed värskendused** suvand **Salvesta pakett**.
 7. Valige lehel **Värskenduste vaatamine ja salvestamine** suvand **Salvesta pakett**.
@@ -47,11 +47,11 @@ See teema sisaldab teavet selle kohta, kuidas värskendada rakendust Dynamics 36
 2. Valige loendist varem salvestatud pakett ja seejärel valige **Rakenda**.
 3. Valige **Jah**, et kinnitada oma paketi juurutamise soov.
 
-![Paketi juurutamise dialoogikanda kinnitamine](media/confirm-package-deployment.png)
+![Paketi juurutamise dialoogiboksi kinnitamine.](media/confirm-package-deployment.png)
 
 4. Valige **Jah**, et kinnitada oma soov rakendust värskendada.
 
-![Rakenduse värskendamise dialoogiakna kinnitamine](media/confirm-application-update.png)
+![Rakenduse värskendamise dialoogiboksi kinnitamine.](media/confirm-application-update.png)
 
 Juurutamine ja rakenduse värskendamine algab. 
 
@@ -84,7 +84,7 @@ UR5-le värskendamise osana on nõutavad järgmised olemite turbeõiguste värsk
 
 1. Avage Dataverse'i keskkonnas **Sätted** ja valige rühmas **Süsteem** valik **Turve**.
 
-![Dataversei keskkonna sätted](media/Picture21.png)
+![Dataverse’i keskkonna sätted.](media/Picture21.png)
 
 2. Valige suvand **Turberollid**.
 3. Valige rollide loendist **topeltkirjutuse rakenduse kasutaja** ja valige vahekaart **Kohandatud olemid**. 
@@ -121,7 +121,7 @@ UR5-le värskendamise osana on nõutavad järgmised olemite turbeõiguste värsk
 6. Valige vastenduste loendist vastendus **Pearaamat (msdyn_ledgers)** koos kõige eeltingimustega ja valige märkeruut **Algne sünkroonimine**. 
 7. Valige väljal **Alge sünkroonimise ülem** **rakendustekomplekt Finance and Operations** ja seejärel valige **Käivita**.
  
- ![Pearaamatu vastenduse sünkroonimine](media/DW6.png)
+ ![Pearaamatu vastenduse sünkroonimine.](media/DW6.png)
  
 
 

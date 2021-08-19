@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992961"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987611"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Projekti reserveeringu loomine ajakavapaneelilt
 
@@ -43,7 +43,7 @@ Saate luua üldise ressursi ja määrata sellele projektis ülesande või mitu �
 
 1.  Ajakavapaneelil kuvatakse seda ressursinõuet vahekaardil **Avatud nõuded**. Kui teil on mitu avatud nõuet, võib teil ruudustikus vaja minna veerufiltrite abi. 
 
-    ![Nõude vahekaardi avamine ajakavapaneelil](media/FAQ-Project-Booking-Schedule-Board-1.png "Kuvatõmmis reserveeringute ja määrangute tabelist")
+    ![Nõude vahekaardi avamine ajakavapaneelil.](media/FAQ-Project-Booking-Schedule-Board-1.png "Kuvatõmmis reserveeringute ja määrangute tabelist")
 
 2. Valige nõue. Valitud rea kohal avaneb vahekaart **Otsi kättesaadavust**.
  
@@ -53,7 +53,7 @@ Saate luua üldise ressursi ja määrata sellele projektis ülesande või mitu �
 
     Käsu **Reserveeri** valimine reserveerib ressursi projekti meeskonda.
 
-![Ressursi broneeringu loomine](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Ressursi broneeringu paneeli loomine.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Peamisest nõudest reserveerimine
@@ -62,7 +62,7 @@ Projekti loomisel rakenduses Project Service luuakse automaatselt ressursinõue 
 
 1. Peamise nõudega ressursi reserveerimiseks ajakavapaneelil valige vahekaart **Projekt**. Kui teil on palju projekte, peate võib olla kasutama veerus **Projekt** veerufiltreid.
 
-   ![Veerufiltrid ajakavapaneelil](media/FAQ-Project-Booking-Schedule-Board-2.png "Kuvatõmmis reserveeringute ja määrangute tabelist")
+   ![Veerufiltrid ajakavapaneelil.](media/FAQ-Project-Booking-Schedule-Board-2.png "Kuvatõmmis reserveeringute ja määrangute tabelist")
 
 2. Valige nõue, mille nimeks on vaid projekti nimi ja kestus on null (0).
 

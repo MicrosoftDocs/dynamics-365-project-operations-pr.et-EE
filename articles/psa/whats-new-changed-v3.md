@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 26d79ff79801f8ad0f80020d49fdc80f76dd9aef
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: afce9cd2d4b3920dc5de5d3deab8920a7f51f275a73918a84db300739b1b4feb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007001"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987071"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Mis on uut või muudetud Project Service Automation versioonis 3?
 
@@ -36,7 +36,7 @@ Selles jaotises kirjeldatakse kasutajaliideses (UI), funktsionaalsuses ja termin
 ## <a name="project-scheduling"></a>Projekti ajastamine
 Projekti ajakava, mis oli eelmistes versioonides tuntud tööjaotuse struktuuri (WBS) nime all, on nüüd ajakava nime all ja seda saab avada, kui klõpsate vahekaarti **Ajakava**. 
 
-![Projekti ajakava](media/psa-schedule-01.png)
+![Projekti ajakava.](media/psa-schedule-01.png)
 
 Ajakavas on nüüd suhtluseks uus pind, mis on nii kaasaegne kui ka ligipääsetav. Samas ei ole aluseks olev Project Service Automationi kavandamise mootor muutunud. Ajakava ruudustiku lindil olevate juhtnuppude abil saate töötada ajakavaga, mis on Project Service Automationi eelmise versiooniga sarnane. Ajakavale tehtud lisamuudatused on järgmised.
 
@@ -95,22 +95,22 @@ Olemasoleva projekti ajakava ettepoole nihutamisel juhtub järgmine.
 ## <a name="estimates"></a>Prognoosid
 Prognoosid on jagatud kahe vahekaardi vahel: **Ressursi määramine** ja **Prognoosid**. Vahekaart **Ressursi määramine** sisaldab panuse prognoose ja kuvab ajafaasi vaates ülesannete ressursi määramised. Saate prognoose muuta vastavalt sellele, mida kavandamismootor on loonud.
 
-![Ressursi määramiste vahekaart, millel on näha panuse prognoosid ja ülesannete ressursi määramised](media/resource-assignments-tab-02.png)
+![Vahekaart Ressursimääramised, millel on näha ülesannete panuse prognoosid ja ressursimääramised.](media/resource-assignments-tab-02.png)
 
 Vahekaardil **Prognoosid** on näha ressursi määramiste kulude ja müügi summad. Summad on kirjutuskaitstud. Kulude ja müügi hinnakujundus põhineb nüüd ajakavas olevate meeskonnaliikmete määramistel. See tähendab seda, et kui teil ilma ühegi määramiseta ülesanne, kuvatakse see ülesanne määramatute salves. See tähendab ka seda, et ilma **rollita**, mis on vaikimisi hinnakujunduse dimensioon, ei looda ka eeldatavat kulu või müüki, kui teil on projektiga seostatud klient või leping/hinnapakkumine. 
 
-![Vahekaart Prognoosid, kus on näha kulude ja müügi summad](media/estimates-tab-03.png)
+![Vahekaart Prognoosid, kus on näha kulude ja müügi summad.](media/estimates-tab-03.png)
   
 Kategooriat toetatakse ka ajakava vaates olevate ülesannete puhul. Kui rühmitate prognooside ajafaasi vaates kategooria järgi, saate parema kogemuse – eriti siis, kui teil on projektis olemas ka kulude prognoosid. Kulude prognoosid sisestatakse eraldi vahekaardil asuva ruudustiku abil. 
 
 Kulude prognoosid saab sisestada ruudustikku vahekaardil **Kulude prognoosid**. 
 
-![Kulude prognooside vahekaart, kus on näha kulude prognooside ruudustikku](media/expense-estimates-tab-04.png)
+![Vahekaart Kuluprognoosid, kus on näha kulude prognooside ruudustikku.](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Ressursihaldus
 Tänu uuele ühtsele kliendipõhisele kasutajaliidesele ning broneeringute ja määramiste vahelistes suhetes tehtud muudatustele on Project Service Automationi versioonis 3 versiooniga 2 või 1 võrreldes oluliselt muutunud projektile üldiste või tegelike ressursside määramine. Broneeritavate ressursside – nii **tegelike** kui ka **üldiste** – mõisted jäävad samas, nagu ka meeskonnaliikmed, nõuded, määramised ja broneeringud.   
 
-![Ressursivalija kasutamine](media/resource-management-05.png)
+![Ressursivalija kasutamine.](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Tegeliku broneeritava ressursi määramine 
 Project Service Automationi versioonis 3 ei ole broneeringute ja tööülesannete määramine nii tihedalt põimunud kui varasemates Project Service Automationi versioonides. Saate **tegeliku** meeskonnaliikme broneerimiseks kasutada meeskonna ruudustikku, mis sarnaneb turul olevaga.
@@ -136,7 +136,7 @@ Kui nõue täidetakse mitme ressursiga, jääb üldine ressurss meeskonda ja ül
 ### <a name="reconciliation"></a>Vastavusse viimine
 Vahekaardil **Vastavusse viimine** kuvatakse kõigi projekti meeskonnaliikmete kõik broneeringud ja ülesanded. Vaates kuvatakse tundide arv lahtrites, mis võivad esindada ajapunkte kuudest päevadeni. See vaade võimaldab projektijuhtidel oma töörühma jaoks viia vastavusse meeskonnaliikmete broneeringuid ja nende määramised. See on kasulik, sest broneeringud ja ülesanded pole omavahel tihedalt seotud ning see tagab projekti kavandamisel suurema paindlikkuse. 
 
-![Vahekaart Vastavusse viimine, kus on näha projekti meeskonnaliikmete broneeringud ja määramised](media/resource-reconciliation-tab-06.png)
+![Vahekaart Vastavusse viimine, kus on näha projekti meeskonnaliikmete broneeringud ja määramised.](media/resource-reconciliation-tab-06.png)
 
 Iga ressursi puhul tehakse vaates kindlaks meeskonnaliikme broneeringute ja nende ülesannete määramiste ümberarvestuse vahe ning kuvatakse järgmised kaks erinevust, mis võivad broneeringute ja määramistega seoses projektis ette tulla. 
 
@@ -151,21 +151,21 @@ Selles jaotises kirjeldatakse, mis on Project Service Automation versioonis 3 mu
 ### <a name="landing-page"></a>Sihtleht
 Mittelaiendatav kohandatud ajakirje kogemus on versioonist 3 eemaldatud. Selle asemel on nüüd laiendatav ja hõlbusfunktsioonidega algruudustiku kogemus. Saate ajakirje funktsioonile ligi, kui kasutate vasakul asuvat saidikaarti. Selle muudatuse tõttu ei saa te enam ühe nädala kaupa aega sisestada. Selle asemel peate looma ajakirje iga ruudustikus oleva päeva jaoks. Pärast paari ajakirje loomist saavad kasutajad luua ajakirjeid hulgi kaupa, kasutades funktsiooni **Kopeeri**, mida kirjeldatakse selles jaotises hiljem. 
 
-![Ajakirje sihtleht](media/time-entry-landing-page-07.png)
+![Ajakirje sihtleht.](media/time-entry-landing-page-07.png)
  
 ### <a name="create-new-time-entries"></a>Uute ajakirjete loomine 
 Klõpsake lindil nuppu **Uus**, et avada ajakirje kiirloomise leht, kuhu saate sisestada kestuse minutites, tundides või päevades. Selleks alustage tähe h, m või d tippimist koos numbriga.  
 
-![Ajakirje kiirloomine](media/quick-create-time-entry-08.png)
+![Ajakirje kiirloomine.](media/quick-create-time-entry-08.png)
 
 Süsteemivaated toetavad otsinguvälju. Näiteks pärast projektiteabe sisestamist seatakse välja **Projektiülesanne** vaikevaateks **Minu avatud projekti ülesanded**. Kui soovite luua ajakirjeid selliste ülesannete jaoks, mis pole kasutajale määratud, klõpsake otsingu otsingus valikut **Muuda vaadet** ja valige suvand **Kõik aktiivsed projektiülesanded**. Kui ajakirje on loodud ja ruudustikus kuvatud, saate redigeerida mis tahes rea väärtust otse ruudustikus.  
 
 ### <a name="bulk-createcopy"></a>Hulgi kaupa loomine/kopeerimine 
 Pärast paari ajakirje loomist saate kopeerimise funktsiooni abil luua hulgi kaupa täiendavaid ajakirjeid. Klõpsake käsku **Kopeeri**, et avada **kopeerimise** dialoog. **Perioodi algus: alguskuupäev** – määrake kuupäevavahemik, millest ajaperioodid tuleb kopeerida. **Perioodi lõpp: alguskuupäev** – määrake kuupäev, mille jaoks ajakirjed tuleb luua. Klõpsake käsku **Kopeeri**, et kopeerida ajakirjed vastavasse nädalapäeva, mis on kuvatud väljal **Perioodi lõpp**. Näiteks viimase nädala esmaspäeva ajakirje kopeeritakse selle nädala esmaspäeva, mis on määratud väljal **Perioodi lõpp**. 
 
-![Ajakirjete kopeerimine hulgi kaupa](media/bulk-copy-time-entry-09.png)
+![Ajakirjete kopeerimine hulgi kaupa.](media/bulk-copy-time-entry-09.png)
  
-### <a name="import-data"></a>Andmete importimine 
+### <a name="import-data"></a>Impordi andmed 
 Määramised ja vahetused järgivad sama kasutajaliidese mustrit ning see võimaldab kasutajal määrata kuupäevavahemiku, kust broneerimisi tuleb importida. Seejärel peate eraldi välja valima broneeringud, mis tuleks kopeerida ajakannete **mustanditesse**. Versioonis 3 ei näe te ruudustikus ega kalendris enam **soovitatud** ajakirjete mustrit.  
 
 ### <a name="change-in-calendar-control"></a>Kalendri juhtelemendi muudatus
@@ -179,7 +179,7 @@ Versioonis 3 ei kasutata nädala ajakirjete kuvamiseks enam kohandatud kalendri 
 
 **Aja- ja kulukirjetes olevate kohandatud väljade andmete hõivamine ning nende levitamine esitamis- ja kinnitamisvoogu toetavate olemite kaudu** – järgmisel skeemil on näidatud ajakirjete tavaline töötlemine.
 
-![Ajakirje voo protsess](media/process-time-entries-10.png)
+![Ajakirje voo protsess.](media/process-time-entries-10.png)
 
 Kui ärinõuetes on sätestatud, et aja ja kulu olemid peavad hõivama kohandatud hinnakujunduse dimensioonid ning levitama väärtusi, mis on määratud kohandatud hinnakujunduse dimensioonis aja ja kirje ressursi järgi kõigi eelmistel piltidel olevate olemite kaudu, vaadake jaotist [Kohandatud väljade seadistamine hinnakujunduse dimensioonidena](set-up-pricing-dimensions.md)
 
@@ -236,7 +236,7 @@ Versioonides 1 ja 2 tehti konkreetsete hinnapakkumise ning lepingute jaoks rolli
 
 Versioonis 3 seadistatakse aga rolli- või kulukategooria järgi tehtavad arveldatavuse valikud hinnapakkumise rea või lepingurea tasandil. Hinnakujunduse seadistamine on arveldatavuse seadistamisest eraldi. **Arveldatavad rollid** ja **Arveldatavad kategooriad** leiate lehtede **Hinnapakkumise rida** ja **Lepingurida** vahekaartidena, ilma et peaksite kasutama ülemist navigeerimisriba.
 
-![Arveldatavad rollid](media/chargeable-12.png)
+![Arveldatavad rollid.](media/chargeable-12.png)
  
 Arveldatavate rollide ja kategooriate seadistamine kasutab ka redigeeritavat valmisruudustiku juhtelementi. Iga rolli ja kategooria puhul jäävad hinnapakkumise tegemise ning lepingu sõlmimise faasis arvelduse tüübi toetatud valikud, **Arveldatav** ja **Mittearveldatav**, samaks nagu eelmistes versioonides. **Tasuta** ei ole hinnapakkumise tegemise või lepingu sõlmimise faasis toetatud tüüp. **Tasuta** tüüpi toetatakse ainult aja või kujude kinnitamise ajal.  
  
@@ -247,11 +247,11 @@ Versioonis 3 on Project Service Automationi hinnapakkumise ja Project Service Au
   
 Järgmisel pildil on kuvatud vaade enne kohandatud hinnakirjade loomist.
 
-![Enne kohandatud hinnakirju](media/before-custom-price-lists-13.png)
+![Enne kohandatud hinnakirju.](media/before-custom-price-lists-13.png)
 
 Järgmisel pildil on kuvatud vaade pärast kohandatud hinnakirjade loomist.
 
-![Pärast kohandatud hinnakirju](media/after-custom-price-lists-14.png)
+![Pärast kohandatud hinnakirju.](media/after-custom-price-lists-14.png)
 
 > [!NOTE]
 > Kui klõpsate kohandatud hinnakirja loomiseks valikut **Kohandatud hindade loomine**, võib hinnakiri ilmuda väikese viivitusajaga. Soovitame ruudustikku värskendada, mitte mitu korda klõpsata. Kohandatud hinnakiri on loodud siis, kui seostatud hinnakirja nimele on lisatud hinnapakkumise nimi või projekti lepingu nimi.

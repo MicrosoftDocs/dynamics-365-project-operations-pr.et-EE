@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7c7ca0dbaeb8938fc2254da782b359a5dd29e6da
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015011"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985136"
 ---
 # <a name="manage-resource-requests-project-service"></a>Ressursitaotluste haldamine (Project Service)
 
@@ -43,7 +43,7 @@ Kontohaldurid ja projektijuhid taotlevad oma projektide jaoks regulaarselt ressu
   
    -   Klõpsake valikut **Filter**, et kuvada paan **Filter**, kus saate tulemusi filtreerida organisatsiooniüksuse, rolli, oskuse või muude atribuutide järgi.  
   
-       ![Project Service'i ressursitaotluste kuva](../psa/media/project-service-resource-request-screen.png "Project Service'i ressursitaotluste kuva")  
+       ![Project Service'i ressursitaotluste kuva.](../psa/media/project-service-resource-request-screen.png "Project Service'i ressursitaotluste kuva")  
   
 3. Valige reserveeritava ressursi kalendris ajaperiood, milleks soovite ressursi reserveerida, seejärel klõpsake ressursi reserveerimiseks käsku **Reserveeri** või reserveerimisettepaneku tegemiseks käsku **Reserveerimisettepanek** ja laske see taotlejal kinnitada. Saate ressursi reserveerida esialgselt või kindlalt.  
   

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: db63413456e4b91d308af9c1103000d5cdc693f7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999891"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988106"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Projekti tegelike näitajate sünkroonimine otse Project Service Automationist projekti integreerimise töölehele rakendusse Finance and Operations sisestamiseks
 
@@ -42,7 +42,7 @@ Project Service Automationist Finance’i integreerimise lahendus kasutab andmet
 
 Järgmisel joonisel on näidatud, kuidas andmeid rakenduste Project Service Automation ja Finance vahel sünkroonitakse.
 
-[![Andmevoog Project Service Automationi integreerimiseks rakendusega Finance and Operations](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Andmevoog Project Service Automationi integreerimiseks rakendusega Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Projekti tegelikud näitajad rakendusest Project Service Automation
 
@@ -93,9 +93,9 @@ Mallis sisestatud tingimusliku veeru värskendamiseks klõpsake noolt **Vastenda
 
 Järgmistel joonistel on toodud andmete integratsioonis malli ülesande vastendamise näide. Vastendus näitab välja teavet, mis sünkroonitakse Project Service Automationist rakendusse Finance.
 
-[![Malli vastendamine - tegelikud näitajad](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![Malli vastendamine - tegelikud näitajad.](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![Malli vastendamine - kande seosed](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![Malli vastendamine - kande seosed.](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## <a name="import-from-staging-table-after-integration-from-project-service-automation"></a>Koondtabelist pärast integreerimist rakendusest Project Service Automation importimine
 
@@ -135,9 +135,9 @@ Projekti tegelike näitajate cärskendatud mallil peate kasutama lisandmoodulit 
 
 Järgmisel joonisel on toodud andmete integratsioonis malli ülesande vastendamiste näited. Vastendus näitab välja teavet, mis sünkroonitakse Finance'ist Project Service Automationisse.
 
-[![Malli vastendamine - tegelike näitajate värskendus](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![Malli vastendamine - tegelike näitajate värskendus.](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![Malli vastendamine - kane värskendus](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+[![Malli vastendamine - kande värskendus.](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

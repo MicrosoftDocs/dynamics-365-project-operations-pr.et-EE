@@ -10,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 19fae15bf309936cab415c2a71a414ab37837fce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007271"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985541"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Näidisandmete installimine Project Service’i rakendusele
 
@@ -86,7 +86,7 @@ Plaanige nii, et arvuti oleks võrku ühendatud ja **seadistus-/viiteandmete** i
 Arvuti ekraanisäästja funktsioon peab olema välja lülitatud. Muidu võivad installimise seansi mandaadid ekraanisäästja rakendumisel kaduma minna (kui te ei hoia seanssi pidevalt aktiivsena).
 
 > [!div class="mx-imgBorder"]
-> ![Ekraanisäästja sätete kuvatõmmis, ekraanisäästja on välja lülitatud](media/sample-data-1.png)
+> ![Ekraanisäästja sätete kuvatõmmis, kui ekraanisäästja on välja lülitatud.](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Allalaadimine ja lahtipakkimine
 
@@ -142,7 +142,7 @@ Demoandmete paketi jaoks on vaja kuut kasutajat. Selleks et pakett õigesti inst
 3. Avage **PkgFolder** ning otsige üles ja avage fail **ImportUserMapFile.xml**. Värskendage väljad **New=** süsteemis vastavate kasutajate meiliaadressidega.
 
    > [!div class="mx-imgBorder"]
-   > ![UserMapFile’i kuvatõmmis](media/sample-data-7.png)
+   > ![UserMapFile’i kuvatõmmis.](media/sample-data-7.png)
 
 4. Kui kasutajal täisnimega Spencer Low on muu kasutaja ID kui **"spencerl"**, peate värskendama täiendavat faili. Avage fail **DemoDataPreImportConfig.xml** ja otsige üles silt **userstocreateandconfigure**. Värskendage silti **\<login\>** sisselogimise ID-ga (tõstutundlik). 
 
@@ -172,7 +172,7 @@ Demoandmete paketi jaoks on vaja kuut kasutajat. Selleks et pakett õigesti inst
 5. Valige nupp **Edasi**, kuni näete dialoogi **Demoandmete seadistamine**.
 
    > [!div class="mx-imgBorder"]
-   > ![Demoandmete installija olekuakna kuvatõmmis](media/sample-data-3.png)
+   > ![Demoandmete installija olekuakna kuvatõmmis.](media/sample-data-3.png)
 
 6. Enne jätkamist pange tähele, et näidisandmete installimine võib kesta kuni ühe tunni (tavaliselt ~10 minutit). Peate veenduma, et arvuti oleks kogu installimisprotsessi aja sees ja võrku ühendatud ning seanss oleks pidevalt aktiivne.   
 
@@ -191,10 +191,10 @@ Kui näidisandmed on täielikult laaditud, logige sisse kasutajana Spencer Low j
 - Kui Field Service’i rakendus on installitud, valige suvandid **Project Service** > **Sätted** > **Hinnakirjad**. Kinnitage, et olemas oleks arveldus- ja kulumäärad. Valige **Field Service** > **Sätted** > **Hinnakirjad** ning kontrollige, et andmekogumis oleks olemas iga riigi/piirkonna jaoks sobivas valuutas arveldus- ja kulumäärad.
 
   > [!div class="mx-imgBorder"]
-  > ![Aktiivsete hinnakirjade kuvatõmmis](media/sample-data-4.png)
+  > ![Aktiivsete hinnakirjade kuvatõmmis.](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Aktiivsete organisatsiooniüksuste kuvatõmmis](media/sample-data-5.png)
+  > ![Aktiivsete organisatsiooniüksuste kuvatõmmis.](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Tehnilised märkused
 
@@ -295,7 +295,7 @@ Kui peate muutma broneeritava näidisressursi töötunde, valige **Universal Res
 Valige kasutaja (nt Spencer Low) ja muutke tema töötunnid tundidele, mida soovite rakendada mitmele kasutajale. Valige **Universal Resource Scheduling** > **Sätted** > **Töötundide mallid** ja muutke kirjet **Vaikimisi töömall**. Väljas **Malli ressurss** valige kasutaja töötundidega, mida soovite rakendada teistele ressurssidele. Valige **Universal Resource Scheduling** > **Plaanimine** > **Ressursid** > **Aktiivsed broneeritavad ressursid**. Valige ressursid, mida soovite muuta, ja seejärel valige suvand **Kalendri määramine**. Ripploendist **Töömall** valige mall **Vaikimisi töötund** või muu õige ressursiga mall. Kui lähete plaanimistahvlile, peaksite nägema, et ressursside töötunde on nüüd värskendatud.
 
 > [!div class="mx-imgBorder"]
-> ![Aktiivsete broneeritavate ressursside kuvatõmmis](media/sample-data-6.png)
+> ![Aktiivsete broneeritavate ressursside kuvatõmmis.](media/sample-data-6.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

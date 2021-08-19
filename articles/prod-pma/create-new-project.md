@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8218747366be8536601cb007318c642ac122536b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006236"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985946"
 ---
 # <a name="create-a-new-project"></a>Uue projekti loomine
 
@@ -51,7 +51,7 @@ Saate ressursile määrata kategooriaid ka vastavalt vajadusele. Kategooria tü�
 
 Projektijuht saab projekti jaoks vajalike rollide loomiseks kasutada projekti ressursside funktsiooni. Rolle saab kasutada juhul, kui kinnitatud ressursid on ressursside reserveerimisel endiselt tundmatud. Rolle saab ajutiselt reserveerida plaanitud ressurssidena, et saaksite projekti kavandamise etappidega jätkata.
 
-[![Rolli näide](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![Rolli näide.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
 **Stsenaarium:** ettevõte Contoso palgati aega ja materjali hõlmava projekti lõpuleviimiseks, mis omab kinnitatud projekti renti. Noorem-projektijuht endiselt lõpetab projekti ulatust. Ressursihaldur määratleb praegu konkreetsed ressursid, mis reserveeritakse uue projektiga töötamiseks. Projekti kriitilise iseloomu tõttu taotles projekti sponsor ühe rollina vanem-projektijuhti. Ressursihaldur peab hankima uue ressursi ja määrama süsteemis rolli juhul, kui noorem-projektijuht vajab projekti kavandamise ajal ressursi teavet.
 
