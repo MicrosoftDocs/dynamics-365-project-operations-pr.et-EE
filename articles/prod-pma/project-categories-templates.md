@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 2816d363dbfe6ef2d98a584b214f72d9b30c49bb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999846"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001111"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Projekti kulukategooriate sünkroonimine rakenduste Finance and Operations ja Project Service Automation vahel
 
@@ -56,7 +56,7 @@ Kui projekti kulukategooriad on Project Service Automationis määratud, toimub 
 
 Järgmisel joonisel on näidatud, kuidas andmeid rakenduste Project Service Automation ja Finance vahel sünkroonitakse.
 
-[![Andmevoog Project Service Automationi integreerimiseks rakendusega Finance](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
+[![Andmevoog Project Service Automationi integreerimiseks rakendusega Finance.](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
 
 ## <a name="project-expense-category-synchronization-from-finance-to-project-service-automation"></a>Projekti kulukategooria sünkroonimine rakendustest Finance rakendusse Project Service Automation
 
@@ -93,7 +93,7 @@ Kui sünkroonite rakendusega Project Service automation, peate kasutama rakendus
 
 Järgmisel joonisel on toodud andmete integratsioonis malli ülesande vastendamise näide. Vastendus näitab välja teavet, mis sünkroonitakse Finance'ist Project Service Automationisse.
 
-[![Projekti kulukategooria malli vastendamine rakendusse Project Service Automation](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
+[![Projekti kulukategooria malli vastendamine rakendusse Project Service Automation.](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
 
 ## <a name="project-expense-category-synchronization-from-project-service-automation-to-finance"></a>Projekti kulukategooria sünkroonimine rakendustest Project Service Automation rakendusse Finance
 
@@ -121,7 +121,7 @@ Järgmisel joonisel on toodud andmete integratsioonis malli ülesande vastendami
 > [!NOTE]
 > Vastendus näitab välja teavet, mis sünkroonitakse Project Service Automationist rakendusse Finance.
 
-[![Malli vastendamine Project Service Automationist rakendusse Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+[![Malli vastendamine Project Service Automationist rakendusse Finance.](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

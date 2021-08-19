@@ -8,12 +8,12 @@ ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
 ms.custom: intro-internal
-ms.openlocfilehash: e8d62dcf9975e5427926210a881dec2c256f1b8b
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368471"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001966"
 ---
 # <a name="pricing-dimensions-overview"></a>Hinnakujunduse dimensioonide ülevaade
 
@@ -33,7 +33,7 @@ Seetõttu on olemas kahte tüüpi hinnakujunduse dimensiooniväärtusi.
 
 Rakenduses Dynamics 365 Project Operations tarnitakse vaikimisi seatud hinnakujunduse dimensioonidega. Neid hinnakujunduse dimensioone saate vaadata, kui avate **Project Operations** > **Parameetrid**. Veenduge, et parameetri kirjel on vahekaardil **Summal põhinevad hinnakujunduse dimensioonid**, et selle rollide **msdyn_resourcecategory** ja ressursi organisatsiooniüksus **msdyn_organizationalunit** väljad **Kehtib müügi kohta** ja **Kehtib kulu kohta** oleks seatud väärtusele **Jah**. Kui need väljad on lubatud, saate seadistada iga rolli ja organisatsiooniüksuse kombinatsiooni hinna ja maksumuse.
 
-![Esiletõstetud projektiteenuse parameetrite kuvatõmmis, millel on esile tõstetud „Kehtib müügi kohta”](media/PS-OOB-parameters.png)
+![Project Service’i parameetrite kuvatõmmis, millel on esile tõstetud „Kehtib müügi kohta”.](media/PS-OOB-parameters.png)
 
 Kui teil on vaja ressursside hinda või kulu, kasutades täiendavaid atribuute, saate luua kohandatud välju, olemeid ja dimensioone. Lisateabe saamiseks vaadake järgmisi teemasid. 
   

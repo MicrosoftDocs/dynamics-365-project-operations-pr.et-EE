@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bde3c434680f0651293cbce13ecdce945c3a743
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5f2e9b8e189be0594569e14ebc41c6ed452afd10aba34ea1397b3e3f66cd2e96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997506"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005611"
 ---
 # <a name="synchronize-resource-capacity"></a>Ressursi võimsuse sünkroonimine
 
@@ -29,7 +29,7 @@ ms.locfileid: "5997506"
 
 Ressursi sünkroonimise protsess aitab tagada, et teave kalendrist ja põhikalendrist liiguks alla projekti ressursi ajastamisse. Kui kalendrit muudetakse, teevad protsessid projekti ressursside ajastamisse nõutavaid värskendusi. Protsessid aitavad ka parandada jõudlust, kuna kalendri ressursi teave sünkroonitakse eelnevalt. Seetõttu toimuvad ressursside kavandamise teabe värskendused kiiremini. Soovitame ajastada protsessid partiidena, mitte üks korraga. Vastasel juhul on oht, et keegi unustab kaasavad kuupäevad, millal teavet viimati sünkrooniti. Kui kaasavaid kuupäevi ei kasutata, võib kuupäevade sünkroonimise ajal esineda vahesid.
 
-![Kalendri sünkroonimine](./media/projectresourcing04-1024x471.jpg)
+![Kalendri sünkroonimine.](./media/projectresourcing04-1024x471.jpg)
 
 ## <a name="synchronize-resource-capacity-roll-ups"></a>Ressursi võimsuse sünkroonimise ümberarvestused
 
@@ -46,7 +46,7 @@ Me soovitame kasutada partiid. Valikud on võimsuse reserveeringute sünkroonimi
     | Alguskuupäev  | Sisestage ressursi võimsuse ümberarvestuse sünkroniseerimisprotsessi alguskuupäev. |
     | Lõppkuupäev    | Sisestage ressursi võimsuse ümberarvestuse sünkroniseerimisprotsessi lõpukuupäev. |
 
-[![Sünkroonimisprotsess](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+[![Sünkroonimisprotsess.](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

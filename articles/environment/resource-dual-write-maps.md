@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025769"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003811"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Rakenduse Project Operations topeltkirjutamise vastenduse versioonid
 
@@ -32,7 +32,7 @@ Järgmised kaardid on Project Operationsi lahenduse jaoks nõutavad eeltingimuse
 
 1. Valige kaartide loendist kõigi eeltingimustega kaart Pearaamat **(msdyn\_ledgers)** ja valige märkeruut **Algne sünkroonimine**. Valige väljal **Algse sünkroonimise põhirakendused** rakendus **Finance and Operations** nii pearaamatu kui ka kõigi eeltingimuste kaartide jaoks. Valige **Käivita**.
 
-![Pearaamatu vastenduse sünkroonimine](media/DW6.png)
+![Pearaamatu vastenduse sünkroonimine.](media/DW6.png)
 
 2. Ülaltoodud tabelis loetletud ülejäänud tabelikaartide puhul järgige samu suuniseid. Ärge märkige nende kaartide käivitamisel ruutu **Algne sünkroonimine**.
 
@@ -65,7 +65,7 @@ Loetletud kaartide käivitamiseks tehke järgmist.
 
 1. Lubage projekti ressursirollid **kõigile ettevõtetele (bookableresourcecategories)** tabelikaardil, kuna see kaart nõuab algset sünkroonimist. Valige väljal **Algse sünkroonimise ülem** väärtus **Ühisandmeteenus**. 
 
- ![Ressursirolli tabelikaardi sünkroonimine](media/6ResourceInitialSync.jpg)
+ ![Ressursirolli tabelikaardi sünkroonimine.](media/6ResourceInitialSync.jpg)
 
  Enne järgmise etapi juurde liikumist oodake, kuni kaardi olek on **Töötab**.
 

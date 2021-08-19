@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: c1dcf642f79ce64cb83285ac6dc6d7eaf815145c
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369371"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005386"
 ---
 # <a name="intercompany-invoicing-overview"></a>Kontsernisisese arvelduse ülevaade
 
@@ -22,7 +22,7 @@ Teie organisatsioonis võib olla mitu allüksust, tütarettevõtet ja muud jurii
 
 Järgmisel pildil on kujutatud tüüpiline stsenaarium, kus kaks juriidilist üksust: Contoso Robotics USA (laenav juriidiline isik) ja Contoso Robotics UK (laenu andev juriidiline isik) jagavad ressursse projekti kohale toimetamiseks kliendile Adventure Works. Selle stsenaariumi puhul sõlmtakse ettevõttele Adventure Works töö tegemiseks leping ettevõttega Contoso Robotics USA.
 
-![Kontsernisisesed arved](./media/IntercompanyScenario.png) 
+![Kontsernisisesed arved.](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations kasutab kontsernisiseste tehingute töötlemiseks järgmist voogu.
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Operations kasutab kontsernisiseste tehingute töötlemisek
 
 Järgmisel joonisel on toodud kontsernisisene arveldamine, kuna see on seotud raamatupidamise sündmustega ja eeldatavate pearaamatu sisestustega.
 
-![Kontsernisisene voog](./media/IntercompanyFlow.png)
+![Kontsernisisene voog.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 

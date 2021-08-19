@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009161"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002551"
 ---
 # <a name="project-costs-and-revenue"></a>Projekti kulud ja tulud
 
@@ -31,7 +31,7 @@ ms.locfileid: "6009161"
 
 Projekti prognoosid annavad finantsülevaate töö kohta, mis on projekti ajakavas prognoositud ja plaanitud. Lehe **Projektid** vahekaardil **Prognoosid** kuvatakse teie poolt plaanitava töö kulude ja tulude mõju. Samuti pakub see teavet paljude eelmääratletud dimensioonide kohta. 
 
-> ![Vahekaart Prognoosid](media/project-5.png)
+> ![Vahekaart Prognoosid.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Projekti omahind ja müügiväärtused
 
@@ -66,13 +66,13 @@ Kui süsteem rolli hinda ei leia, määratakse prognoosireal olev müügihind va
 
 Vahekaardil **Prognoosid** on ruudustiku vaade, mis kuvab prognoosiread. Ruudustikus on veerud ühik, omahind kokku ja müügihind kokku, nagu on toodud alljärgneval joonisel. 
 
-> ![Vahekaardi Prognoosid ruudustiku vaade](media/project-6.png)
+> ![Vahekaardi Prognoosid ruudustiku vaade.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Ajafaasidega ülevaade projekti prognoosidest
 
 Projekti prognooside ajafaasi vaade kuvab ruudustiku vaatest prognoosi andmed ajaskaala üleselt, teie valitud ajateljel. Vaikimisi liigendatakse prognoosi andmed dimensioonis **Roll**.
 
-> ![Projekti prognooside ajafaasi vaade](media/project-7.png)
+> ![Projekti prognooside ajafaasi vaade.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Prognoositud panuse jaotamine ülesande režiimi põhjal
 

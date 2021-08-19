@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008306"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002326"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Kohandatud väljade seadistamine hinnakujunduse dimensioonidena 
 
@@ -41,11 +41,11 @@ Selleks et väli saaks muutuda hinnakujunduse dimensiooniks, peab see olema:
 - Loodud väljana **Rolli hinna** ja **Rolli hinna hinnalisandi** olemites. Lisateavet selle kohta, kuidas seda teha, leiate jaotisest [Kohandatud väljade lisamine hinna seadistamisele ja ülekande olemitele](field-references.md).
 - Luuakse reana tabelisse **Hinnakujunduse dimensioon**. Näiteks lisage hinnakujunduse dimensiooni read järgmisel pildil kuvatud kujul. 
 
-![Summapõhised hinnakujunduse dimensiooni read](media/Amt-based-PD.png)
+![Summapõhised hinnakujunduse dimensiooni read.](media/Amt-based-PD.png)
 
 Pange tähele, et Ressursi töötunnid (**msdyn_resourceworkhours**) on lisatud hinnalisandipõhise dimensioonina ja see on lisatud vahekaardil **Hinnalisandipõhise hinnakujunduse dimensioon** olevasse ruudustikku.
 
-![Hinnalisandipõhised hinnakujunduse dimensioonide read](media/Markup-based-PD.png)
+![Hinnalisandipõhised hinnakujunduse dimensioonide read.](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Mis tahes hinnakujunduse dimensiooni andmete muudatus siin tabelis, olemasolev või uus, lisatakse Project Service’ hinnakujunduse äriloogikasse alles pärast vahemälu värskendamist. Vahemälu värskendusaeg võib olla kuni 10 minutit. Oodake see aeg ära, et näha hinnakujunduse vaikeloogikas muutusi, mis peavad tulenema hinnakujunduse dimensiooni andmete muudatustest.

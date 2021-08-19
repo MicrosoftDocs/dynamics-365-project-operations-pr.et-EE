@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 37c7b15daa75cc3ba53ff6a3bcc0ab54717aa62d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008801"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002416"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Project Service Automation andmemudeliga töötamine
 
@@ -53,7 +53,7 @@ PSA lisab Dynamics 365 andmemudelisse ka uusi hinnapakkumisega seotud olemeid. J
 
 Muud olemid, mille PSA hinnapakkumistele lisab on **Hinnapakkumise rea projekti hinnakiri**, **Hinnapakkumise rea ressursikategooria** ja **Hinnapakkumise rea kande kategooria**.
 
-![Diagramm, mis näitab hinnapakkumist, hinnapakkumise rida ja projekti seost](media/PS-Reporting-image2.png "Diagramm, mis näitab hinnapakkumist, hinnapakkumise rida ja projekti seost")
+![Diagramm, mis näitab hinnapakkumist, hinnapakkumise rida ja projekti seoseid.](media/PS-Reporting-image2.png "Diagramm, mis näitab hinnapakkumist, hinnapakkumise rida ja projekti seost")
 
 ## <a name="reporting-on-project-contracts"></a>Projektilepingute aruandlus
 
@@ -69,7 +69,7 @@ PSA lisab ka uusi olemeid, mis on mõeldud projektilepingute jaoks. Järgmiselt 
 
 Muud olemid, mille PSA lepingutele lisab on **Projekti lepingurea projekti hinnakiri**, **Projekti lepingurea ressursikategooria** ja **Projekti lepingurea kande kategooria**.
 
-![Diagramm, mis näitab tellimust, tellimuse rida ja projekti seost](media/PS-Reporting-image3.png "Diagramm, mis näitab tellimust, tellimuse rida ja projekti seost")
+![Diagramm, mis näitab tellimust, tellimuse rida ja projekti seoseid.](media/PS-Reporting-image3.png "Diagramm, mis näitab tellimust, tellimuse rida ja projekti seost")
 
 ## <a name="reporting-on-projects"></a>Projektide aruandlus
 
@@ -81,7 +81,7 @@ Olem **Projektid** ja sellega seotud olemid on PSA jaoks eksklusiivsed. **Projek
 - **Ressursinõue** – see olem sisaldab mis tahes üldressursi meeskonnaliikmetele mõeldud nõudeid.
 - **Hinnang** ja **Hinnangurida** – nendel olemitel on seos päis/rida ja need sisaldavad projekti kuluhinnanguid. Ülesande prognoose talletatakse olemis **Ressursi prognoos**.
 
-![Diagramm, mis näitab ressursi nõude ja projekti seost](media/PS-Reporting-image4.png "Diagramm, mis näitab ressursi nõude ja projekti seost")
+![Diagramm, mis näitab ressursinõude ja projekti seoseid.](media/PS-Reporting-image4.png "Diagramm, mis näitab ressursi nõude ja projekti seost")
 
 ## <a name="reporting-on-resources"></a>Ressursside aruandlus
 
@@ -92,7 +92,7 @@ Projektiressursid kasutavad rakendusest Universal Resource Scheduling (URS) pär
 - **Broneeritava ressursi kategooria** – see olem tähistab broneeritava ressursi rolli.
 - **Broneeritava ressursi broneeringud** – see olem tähistab aega, mis on projektides ressursi jaoks broneeritud. Igal broneeringul on nii päise olem kui ka reaolemid ja igal real on olek, mis tähistab broneeringu olekut.
 
-![Diagramm, mis näitab broneeritava ressursi omaduste seoseid](media/PS-Reporting-image5.png "Diagramm, mis näitab broneeritava ressursi omaduste seoseid")
+![Diagramm, mis näitab broneeritava ressursi omaduste seoseid.](media/PS-Reporting-image5.png "Diagramm, mis näitab broneeritava ressursi omaduste seoseid")
 
 ## <a name="reporting-on-actual-transactions"></a>Tegelike kannete aruandlus
 
@@ -120,7 +120,7 @@ Kui töötate olemiga **Tegelik**, on oluline mõista, millised kanded on olemis
 
 Olem **Kande päritolu** talletab kirje **Tegelik** päritolu ja olem **Kande seos** talletab kirjega **Tegelik** seotud kirjed. Peale selle sisaldab kirje **Tegelik** viiteid projektile, projekti lepingule (tellimus), broneeritavale ressursile ja kliendile.
 
-![Diagramm, mis näitab kande ühendust, päritolu ja tegelikke seoseid](media/PS-Reporting-image6.png "Diagramm, mis näitab kande ühendust, päritolu ja tegelikke seoseid")
+![Diagramm, mis näitab kande ühendust, päritolu ja tegelikke seoseid.](media/PS-Reporting-image6.png "Diagramm, mis näitab kande ühendust, päritolu ja tegelikke seoseid")
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
