@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f7f116877340e9efec1aa7b3af875920f38fcdce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014966"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000571"
 ---
 # <a name="project-pricing"></a>Projekti hinnakujundus 
 
@@ -46,7 +46,7 @@ Hinnakirja olemil on kolm seostuvat tabelit, mis talletavad hindu.
   - **Tehingukategooria hind** – see tabel talletab hinnad tehingukategooriate kaupa ja seda kasutatakse kulukategooriate hindade seadistamiseks.
   - **Hinnakirja üksused** – see tabel talletab kataloogis olevate toodete hindu.
 
-> ![Hindade konfigureerimine hinnakirja kasutades](media/basic-guide-12.png)
+> ![Hindade konfigureerimine hinnakirja kasutades.](media/basic-guide-12.png)
  
 Hinnakiri on hinnakaart. Hinnakaart on kombinatsioon hinnakirja olemist ja seotud ridadest, mis on tabelites rolli hind, tehingukategooria hind ja hinnakirja üksused.
 
@@ -58,7 +58,7 @@ Inimressursside aeg on tavaliselt noteeritud vastavalt rollile, mille ressurss t
 
 Ühikurühm **Aeg** sisestatakse, kui PSA on installitud. Sel on vaikeühik **Tund**. Ühikurühma **Aeg** või ühiku **Tund** atribuute ei saa kustutada, ümber nimetada ega redigeerida. Soovi korral saate aga ühikurühma **Aeg** lisada ka muid ühikuid. Kui proovite kustutada kas ühikurühma **Aeg** või ühiku **Tund**, võite PSA äriloogikas tõrkeid põhjustada.
 
-> ![Hindade konfigureerimine rolli järgi](media/basic-guide-13.png)
+> ![Hindade konfigureerimine rolli järgi.](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Tehingukategooriad ja kulukategooriad
 
@@ -68,7 +68,7 @@ Reisikulud ja muud kulud, mis projektikonsultandid kannavad, arvestatakse tavali
 - **Juurdehindluse protsent** – tegeliku kulu protsent on kliendile arvestatud. 
 - **Ühiku hind** – iga kulukategooria ühiku kohta määratakse arve hind. Kliendile arvestatud summa arvutatakse vastavalt konsultandi aruannete ühikute arvule. Läbisõit kasutab hinna ja ühiku hinna hinnakujundusmeetodit. Näiteks läbisõidu kulukategooria saab konfigureerida 30 USA dollari eest (USD) päevas või 2 USD miili kohta. Kui konsultant teatab projektis läbisõidu, arvutatakse arve summa konsultandi teatatud miilide arvu põhjal.
 
-> ![Kulukategooriate hinna konfigureerimine](media/basic-guide-14.png)
+> ![Kulukategooriate hinna konfigureerimine.](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Projekti müügihind ja alistamine
 
@@ -114,7 +114,7 @@ Kuid hinnapakkumise puhul saate kasutada põhihinnakirja. Soovi korral saate ka 
 
 Kohandatud projekti hinnakirja loomisel kopeeritakse ainult hinnakirja projekti komponendid. Teisisõnu uus hinnakiri, mis on loodud olemasoleva projekti hinnakirja koopiana, mis on lisatud hinnapakkumisele, ning sellel uuel hinnakirjal on ainult seotud rollihinnad ja tehingukategooriate hinnad.
 
-> ![Projekti lepingu kohandatud hinnakujunduse vaatamine ja konfigureerimine](media/basic-guide-15.png)
+> ![Projekti lepingu kohandatud hinnakujunduse vaatamine ja konfigureerimine.](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Kulude jälgimine
 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f01ba14baa0a2378b0a230a46aed3a682342ce6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58d5aa68dd5af7fc2b39caac429948e55bbc94c39dfb7fc9ae15a37cc3c92ce6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014201"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000526"
 ---
 # <a name="sales-processes"></a>Müügiprotsessid
 
@@ -39,7 +39,7 @@ Projektil põhinevas organisatsioonis kasutatavad müügiprotsessid erinevad too
 
 Järgmisel pildil on kujutatud tüüpiline müügiprotsess projektil põhinevas organisatsioonis.
 
-> ![Müügiprotsess projektil põhinevas organisatsioonis](media/basic-guide-1.png)
+> ![Müügiprotsess projektipõhises organisatsioonis.](media/basic-guide-1.png)
 
 ## <a name="estimating-a-sale"></a>Müügi hindamine
 Müügi väärtust saab hinnata varem tarnitud projektide ja projektide keerukuse alusel. Projektide puhul, mis hõlmavad laiendusi eelmiste projektidega või projektidele, mille puhul tarnija asjatundlikkus on suur ja kasutatakse tuntud töömalle, saate kasutada lihtsamat hindamisprotsessi. Keerulisemate projektide korral on tavaliselt pikem ostuprotsess. Seetõttu on müügi hindamise protsessis rohkem faase. Selle protsessi alguses kasutab müügimeeskond kontohaldurite ja valdkonnaekspertide (SME-d) panust, et hakata koostama kõrgetasemelist hinnangut iga hinnapakkumise töö komponendi kohta. Nende tööde komponente esindavad hinnapakkumise read. 
@@ -50,7 +50,7 @@ Saate projekti jaoks luua mitu hinnapakkumist ja rühmitada need ühe müügivõ
 
 Saate luua ka alternatiivseid hinnapakkumisi ühe müügivõimaluse olemi tüübi alusel või seadistada süsteemi nii, et hinnapakkumise võitmisel luuakse projekti leping. Sel juhul saate projekti lepingu kirjele manustada Wordi dokumendi, esindab SOW-i.
 
-![Hinnapakkumise sulgemine projekti lepingu loomiseks](media/basic-guide-2.png)
+![Hinnapakkumise sulgemine projekti lepingu loomiseks.](media/basic-guide-2.png)
 
 ## <a name="configuring-the-sales-process"></a>Müügiprotsessi konfigureerimine
 Äriprotsessi voogusid (BPF-id) saate kasutada rakenduses Microsoft Dynamics 365, et oma müügiprotsessi konfigureerida. BPF-id annavad teie töötajatele juhendava visuaalse liidese, mida nad saavad kasutada, et teisaldada tehinguid edasi teie ettevõtte jaoks tüüpilistes etappides.
@@ -66,7 +66,7 @@ Näiteks võivad teie ettevõtte müügiprotsessis olla järgmised kuus etappi.
 
 Neid kuut etappi esindavad noolsulud (\>), mille valite iga loodava müügivõimaluse olemi tüübi laiendamiseks.
 
-![Äriprotsessi konfigureerimine rakenduses Dynamics 365](media/basic-guide-3.png)
+![Äriprotsessi konfigureerimine rakenduses Dynamics 365.](media/basic-guide-3.png)
  
 Teie organisatsioon võib sama tehingu kujutamisel kasutada erinevaid olemeid. Müügiprotsessi alguses esindab tehingut müügivõimaluse olem. Aja möödudes ja üksikasjade ilmumisel võite ühe või mitme hinnapakkumise loomiseks kasutada kõrgetasemelisi hinnanguid. Kui ettevõttesisesed ja kliendi huvirühmad vaatavad ühe neist hinnapakkumistest läbi, esindab tehingut hinnapakkumise olem. Pärast seda, kui klient on hinnapakkumise vastu võtnud, esindab tehingut projekti leping või SOW. Selle käitumise toetamiseks on BPF-id struktureeritud nii, et iga protsessi etapp on seotud erineva andmebaasi tabeliga.
 
@@ -77,7 +77,7 @@ Kui liigutate tehinguid läbi etappide, palutakse teil luua asjakohane olemikirj
 > [!NOTE]
 > Rakenduses PSA on konkreetsed lehed müügivõimaluse, hinnapakkumise, tellimuse ja arve olemite jaoks. Peate nende olemite projekti teabelehtede abil looma Project Service’i müügivõimalused, hinnapakkumised, tellimused ja arved. Kui kasutate kirje loomiseks mõnda muud lehte, ei saa te seda kirjet lehelt **Projekti teave** avada. Kui soovite kirje lehel **Projekti teave** avada, peate kirje kustutama ja looma selle uuesti kasutades lehte **Projekti teave**. Lehel **Projekti teave** on iga olemi tüübi äriloogikas tagatud, et kirje välja **Tüüp** väärtus on seatud õigesti ja kõik kohustuslikud mõisted on õigesti lähtestatud.
 
-> ![Uue tellimuse projekti teave](media/basic-guide-4.png)
+> ![Uue tellimuse projekti teave.](media/basic-guide-4.png)
  
 ## <a name="differences-between-project-service-automation-and-sales"></a>Rakenduste Project Service Automation ja Sales erinevused
 Kuigi PSA-s kasutatakse müügiprotsessi käigus rakenduses Sales müügiprotsessi põhivõimalusi, on sellel projektipõhiste organisatsioonide äritegevuse erinevuste tõttu mõned olulised erinevused. Järgmiselt on toodud mõned näited.
