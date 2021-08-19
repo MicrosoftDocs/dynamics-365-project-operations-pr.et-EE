@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.custom: intro-internal
-ms.openlocfilehash: 41265534661e51565bf31105ef69cec9b3b181c3
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 5c0f98a6f08129ebef9b6d3fed1cc85969aa347c815a643d3c8dd639b42c0e8c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6367886"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008221"
 ---
 # <a name="resource-management-modes-overview"></a>Ressursihalduse režiimide ülevaade
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations toetab kahte režiimi, üldise broneerimisvoo k�
 ## <a name="central-mode"></a>Keskne režiim
 Organisatsioonidele, kes tsentraliseerivad ressursside eraldamise projektidele, pakub keskne režiim võimalust, kuidas tagada, et projektijuhid saavad määratleta ressursinõude projekti tasandil. Ressursinõuete täitmine delegeeritakse ressursihaldurile. Projektijuhid saavad ressursihalduri poolt pakutud ressursse aktsepteerida või tagasi lükata.
 
-![Keskne režiim](./media/resource-management-central.png)
+![Keskne režiim.](./media/resource-management-central.png)
 
 Ressursside haldamiseks keskses režiimis vaadake järgmist.
 
@@ -37,7 +37,7 @@ Ressursside haldamiseks keskses režiimis vaadake järgmist.
 ## <a name="hybrid-mode"></a>Hübriidrežiim
 Organisatsioonides, kes vajavad ressursside eraldamisel paindlikkust, võimaldab hübriidrežiim nii projektijuhtidele kui ka ressursihalduritele ressursside broneerimist.
 
-![Hübriidrežiim](./media/resource-management-hybrid.png)
+![Hübriidrežiim.](./media/resource-management-hybrid.png)
 
 Lisaks toetatud keskse režiimi protsessile vaadake järgmisi teemasid kõigi teiste toetatud broneerimisvoogude haldamise kohta hübriidrežiimis.
 

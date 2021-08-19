@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1bd789f4ee4d5b4603093be24aa25addafa9e8e8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998496"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008581"
 ---
 # <a name="product-based-quote-lines"></a>Tootepõhised hinnapakkumise read
 
@@ -58,7 +58,7 @@ Kui määrate selle välja väärtuseks **Hinnakirja tühistamine**, ei sea Dyna
 
 Pärast seda, kui olete installinud PSA, sisestatakse vaikimisi müügihinnad hinnapakkumise tootepõhistele ridadele. Välja **Hinnakiri** väärtuseks seatakse **Hinnakirja tühistamine**, et saaksite hinnapakkumise ridadel redigeerida vaikimisi kasutatavat hinda.
 
-> ![Hinnakirja tühistamise määramine](media/basic-guide-10.png)
+> ![Hinnakirja tühistamise määramine.](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>Toodete koguselised tegurid
 
@@ -78,7 +78,7 @@ Näiteks Dynamics 365 võib sisaldada järgmisi atribuute.
 
 Atribuute **Kasutajate arv** ja **Kuude arv** saab märgistada koguse tegurina, redigeerides tootesarja atribuute. 
 
-> ![Kasutajate arvu ja kuude arvu märgistamine kvaliteeditegurina](media/basic-guide-11.png)
+> ![Kasutajate arvu ja kuude arvu märgistamine kvaliteeditegurina.](media/basic-guide-11.png)
  
 
 

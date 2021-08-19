@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1e22337d3fd3e7ff4147a9547fd3c272f4185d3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d9a81d7242e78dafad871bb07c03459f1de21884d196c6ee7dd9619b2c410404
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009386"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007096"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>Üldiste broneeritavate ressursside määramine tööülesande jaoks ressursi nõuete loomine 
 
@@ -33,21 +33,21 @@ Peale broneerimise ja projektile nime või tegeliku ressurssi määramise, saate
 
 1. Avage rakenduses Project Service Automation (PSA) lehel **Projekt** ja sisestage vahekaardil **Ajakava** üldressursi positsiooni nimi ajakava lahtrisse **Ressurss**. Või klõpsake ressursivalija avamiseks lahtris ikooni **Ressurss** ja seejärel sisestage selle üldressursi nimi, mida soovite luua.
 
-![Üldise meeskonnaliikme loomine ja määramine](media/RM-how-to-9.png)
+![Üldise meeskonnaliikme loomine ja määramine.](media/RM-how-to-9.png)
 
 See avab paneeli **Kiirloomine: projekti meeskonnaliige**. 
 
 2. Sisestage üldressursi meeskonnaliikme roll ja organisatsiooniüksus ning klõpsake siis käsku **Salvesta**.
 
-![Üldise meeskonnaliikme kiirloomine](media/RM-how-to-10.png)
+![Üldise meeskonnaliikme kiirloomine.](media/RM-how-to-10.png)
 
 3. Kui olete loonud uue üldressursi meeskonnaliikme, määratakse talle tööülesanne. Saate jätkata selle üldressursi määramist tööülesannete ajakava muudele toimingutele.
 
-![Olemasoleva üldise meeskonnaliikme määramine tööülesannetele](media/RM-how-to-11.png)
+![Olemasoleva üldise meeskonnaliikme määramine tööülesannetele.](media/RM-how-to-11.png)
 
 4. Pärast seda, kui olete määranud üldressursi, saate ressursi nõude genereerida ja selle täita otse ressursihaldurisse ressursi taotluse broneerimisel või esitamisel.
 
-![Üldise meeskonnaliikme jaoks nõude loomine](media/RM-how-to-12.png)
+![Üldise meeskonnaliikme jaoks nõude loomine.](media/RM-how-to-12.png)
 
 Meeskonnaliikme ruudustikul saate peale ülalmainitud ressursivalija kasutamist lisada üldisi ressursse otse. Ressursid lisatakse ressursi nõudele, mis põhineb paanil **Kiirloomine: projekti meeskonnaliige** määratud algus- ja lõppkuupäevadel ning eraldamise meetodil.
 
@@ -55,7 +55,7 @@ Erinevust näete juhul, kui lisate otse üldise meeskonnaliikme ja määrate ül
 
 Nõude avamiseks ja oskuste, eelistatud ressursside jms lisamiseks võite klõpsata ka meeskonna ruudustikus linki **Ressursinõue**.
 
-![Ressursinõue](media/RM-how-to-13.png)
+![Ressursinõue.](media/RM-how-to-13.png)
 
 
 

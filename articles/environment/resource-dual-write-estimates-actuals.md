@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d8aa1541a3560db175acead1d000895312b299db
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c558ab1eb5070f6d1a2db06b630e8807cc67819f9bdd57c15ec346f484e04fe9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000026"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006286"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Projekti prognooside ja tegelike andmete integreerimine
 
@@ -30,7 +30,7 @@ Prognooside loomiseks on projekti jaoks vaja kehtivat raamatupidamiskonfiguratsi
 
 Tööjõu prognoosid loob projektijuht või ressursihaldur, kes määrab projekti ülesandele ka üldise või nimelise ressursi. Ressursi määramise kirjeid saab üle vaadata vahekaardil **Ressursi määramine** lehel **Projekti üksikasjad** Dataverse’is. Ressursi määramise kirjed Dataverse’is loovad tunniprognoosi kirjed rakenduses Finance and Operations, kasutades **Project Operationsi integreerimise üksust tunniprognoosideks (msdyn\_resourceassignments)**.
 
-   ![Tööjõu prognooside integreerimine](./Media/DW4LaborEstimates.png)
+   ![Tööjõu prognooside integreerimine.](./Media/DW4LaborEstimates.png)
 
 Topeltkirjutuse abil sünkroonitakse ressursi määramise kirjed koondtabeliga (**ProjCDSEstimateHoursImport**) ja seejärel kasutatakse äriloogikat tunniprognoosi kirjete loomiseks ja värskendamiseks (**ProjForecastEmpl**).
 
@@ -40,7 +40,7 @@ Projekti raamatupidaja vaatab rakendustes Finance and Operations loodud prognoos
 
 Projektijuht loob kuluprognoosid vahekaardil **Kuluprognoos** lehel **Projekti üksikasjad** Dataverse’is. Kuluprognoosi kirjed salvestatakse Dataverse’is olemisse **Prognoosirida**. Need prognoosikirjed on kannete klassiga **Kulu** ja sünkroonitakse rakendustes Finance and Operations kuluprognoosi kirjetega, kasutades **Kuluprognooside Project Operationsi integreerimise üksust (msdyn\_estimatelines)**.
 
-   ![Kuluprognooside integreerimine](./Media/DW4ExpenseEstimates.png)
+   ![Kuluprognooside integreerimine.](./Media/DW4ExpenseEstimates.png)
 
 Topeltkirjutamine sünkroonib kuluprognoosi kirjed koondtabeliga **ProjCDSEstimateExpenseImport)** ja seejärel kasutab äriloogikat kuluprognoosi kirjete loomiseks ja värskendamiseks (**ProjForecastCost**). Prognoosiread salvestavad müügiprognoosi ja kuluprognoosi kirjed eraldi. Äriloogika täidab rakenduses Finance and Operations ühe kuluprognoosi kirje, kasutades seda üksikasja koondtabelis.
 
@@ -50,7 +50,7 @@ Projekti raamatupidaja saab vaadata kuluprognoosi kirjeid rakenduses Finance and
 
 Materjalide prognoosid loob projektijuht vahekaardi **Materjalide prognoosid** lehel **Projekti üksikasjad** Dataverse’is. Olulised prognoosikirjed salvestatakse Dataverse’i üksuses **Prognoosirida**. Neil prognoosikirjetel on kandeklass **Materjal** ja need sünkroonitakse üksuste prognoosikirjetega rakendustes Finance and Operations, kus kasutatakse **Materjaliprognooside jaoks projekti integreerimise tabelit (msdyn\_estimatelines)**.
 
-   ![Materjaliprognooside integreerimine](./Media/DW4MaterialEstimates.png)
+   ![Materjaliprognooside integreerimine.](./Media/DW4MaterialEstimates.png)
 
 Topeltkirjutamine sünkroonib materjaliprognoosi kirjed koondtabeliga **ProjForecastSalesImpor** ja seejärel kasutab äriloogikat üksuste prognoosikirjete loomiseks ja värskendamiseks (**ForecastSales**). Prognoosiread salvestavad müügiprognoosi ja kuluprognoosi kirjed eraldi. Äriloogika täidab rakenduses Finance and Operations ühe üksuse prognoosikirje, kasutades seda üksikasja koondtabelis.
 
@@ -60,7 +60,7 @@ Projekti raamatupidaja saab vaadata üksuste prognoosikirjeid rakenduses Finance
 
 Projekti tegelikud andmed luuakse Dataverse’is aja, kulu, materjalide ja arveldustegevuse põhjal. Selles Dataverse’i olemis hõivatakse kõik nende tehingute tegevusatribuudid, sh kogus, kuluhind, müügihind. Lisateavet vt teemast [Tegelikud näitajad](../actuals/actuals-overview.md). Tegelikud kirjed sünkroonitakse rakendusega Finance and Operations, kasutades edasiseks arvestuseks topeltkirjutamise tabelikaarti **Project Operationsi integreerimise tegelikud näitajad (msdyn\_actuals)**.
 
-   ![Tegelike näitajate integreerimine](./Media/DW4Actuals.png)
+   ![Tegelike näitajate integreerimine.](./Media/DW4Actuals.png)
 
 Tabelikaart **Project Operationsi integreerimise tegelikud andmed** sünkroonib kõik kirjed Dataverse’i olemi **Tegelikud väärtused** asukohast, atribuudi **Jäta sünkroonimine vahele (ainult sisekasutuseks)** väärtuseks on määratud **Väär**. Atribuudi väärtus seatakse Dataverse’i kirje loomisel automaatselt. Näited, kus selle atribuudi väärtuseks on määratud **Tõene**, on järgmised.
 

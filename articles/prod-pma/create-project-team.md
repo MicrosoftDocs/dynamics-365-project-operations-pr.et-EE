@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8d3d39aa28565692bf894ff8d4fc8f8c3c5542d4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006191"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005791"
 ---
 # <a name="create-a-project-team"></a>Projektimeeskonna loomine
 
@@ -33,7 +33,7 @@ Kuvamissätteid saab samuti kohandada, et anda ressursi saadavusest parem vaade.
 
 Projektijuht saab valida lehel rolli ja seejärel vaba ressursi olemasolul, mis nõudega ühtib, valida ressursi reserveerimine rolli täitmiseks. Pange tähele, et ressursse ei pea kavandamise etapis sellel hetkel reserveerima. WBS-i loomisel saate rolle asendada projekti töötajate ressurssidega. Kui rollid asendatakse WBS-is töötajatest ressurssidega, siis ressursi seadistus värskendab automaatselt projektimeeskonda loendit ja ajakava.
 
-[![Projektimeeskonna loend, mis sisaldab nii rolle kui ka tegelikke ressursse](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Projektimeeskonna loend, mis sisaldab nii rolle kui ka tegelikke ressursse.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 Projektijuhil on mitmeid võimalusi projekti jaoks ressursi broneerimiseks, nagu **Järelejäänud võimsus**, **Täisvõimsus**, **Võimsuse protsent** ja **Konkreetsed tunnid**. Kui ressursi määramised muutuvad, saab neid broneeringu võimalusi igal ajal tühistada. Toetatud on kahte tüüpi broneeringud.
 

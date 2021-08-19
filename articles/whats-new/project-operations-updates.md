@@ -2,17 +2,17 @@
 title: Rakenduse Project Operations värskendused
 description: See teema sisaldab teavet rakenduse Dynamics 365 Project Operations väljastatud versioonide kohta.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 951ce2f277c0c2c447ee5b2e7add4febbc8486d9
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: a7b398bae07956f4c3de15ec53a860fca15422dd9f2a977086669ebf2fcdb240
+ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433558"
+ms.lasthandoff: 08/09/2021
+ms.locfileid: "7024778"
 ---
 # <a name="project-operations-updates"></a>Rakenduse Project Operations värskendused
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations koosneb kahest komponendist.
 
 | Project Operations Dataverse'i keskkonnas | Projektihaldus ja raamatupidamine Finance and Operationsi rakenduste keskkondades | 
 | --- | --- |
-| 4.12.0.148 | 10.0.20 |
+| 4.13.0.152 | 10.0.20 |
 
 Project Operationsi ressursipõhise/mittelaopõhise stsenaariumi puhul soovitame kasutada topeltkirjutuse korraldamise versiooni 2.2.2.83 või hilisemat.
 
@@ -45,27 +45,29 @@ Project Operationsi ressursipõhise/mittelaopõhise stsenaariumi puhul soovitame
 Project Operationsi uuendused Dataverse'i keskkonnas on saadaval igakuiselt. 
 
 | Jaam | Piirkond | Praegune versiooni number | Lihtjuurutuse automaatsed värskendused | Ressursi/mitteloapõhise juurutuse automaatsed värskendused | Järgmise versiooni number | Järgmine versioon üldiselt saadaval |
-|-----------|-----------------------|-----------------|--------------|---------------------|---------------------|---------------------|
-| Jaam 1 |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Esimene väljalase         |  4.12.0.148     | Lõpetatud     | 9. juuli 2021          | TBD                 | 6. august 2021        |
-| Jaam 2 |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Lõuna-Ameerika         |  4.12.0.148     | 9. juuli 2021   | 16. juuli 2021          | TBD                 | 6. august 2021        |
-|    &nbsp; | Kanada                |  4.12.0.148     | 9. juuli 2021   | 16. juuli 2021          | TBD                 | 6. august 2021        |
-|   &nbsp;  | India                 |  4.12.0.148     | 9. juuli 2021   | 16. juuli 2021          | TBD                 | 6. august 2021        |
-|   &nbsp;  | Prantsusmaa                |  4.12.0.148     | 9. juuli 2021   | 16. juuli 2021          | TBD                 | 6. august 2021        |
-|   &nbsp;  | Araabia Ühendemiraadid  |  4.12.0.148     | 9. juuli 2021   | 16. juuli 2021          | TBD                 | 6. august 2021        |
-|   &nbsp;  | Lõuna-Aafrika          |  4.12.0.148     | 9. juuli 2021   | 16. juuli 2021          | TBD                 | 6. august 2021        |
-| Jaam 3 |      &nbsp;           |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Jaapan                 |  4.11.0.164     | Lõpetatud     | Lõpetatud            | 4.12.0.148          | 9. juuli 2021          |
-|   &nbsp;  | Aasia ja Vaikse ookeani piirkond          |  4.11.0.164     | Lõpetatud     | Lõpetatud            | 4.12.0.148          | 9. juuli 2021          |
-|   &nbsp;  | Suurbritannia         |  4.11.0.164     | Lõpetatud     | Lõpetatud            | 4.12.0.148          | 9. juuli 2021          |
-|   &nbsp;  | Okeaania               |  4.11.0.164     | Lõpetatud     | Lõpetatud            | 4.12.0.148          | 9. juuli 2021          |
-| Jaam 4 |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Euroopa                |  4.11.0.164     | Lõpetatud     | Lõpetatud            | 4.12.0.148          | 16. juuli 2021          |
-| Jaam 5 |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Põhja-Ameerika         |  4.11.0.164     | Lõpetatud     | 9. juuli 2021          | 4.12.0.148          | 23. juuli 2021          |
+|-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
+| Jaam 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Esimene väljalase         |  4.13.0.152     | Lõpetatud           | 13. august 2021     | TBD                 | 27. august 2021     |
+| Jaam 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Lõuna-Ameerika         |  4.13.0.152     | 13. august 2021    | 20. august 2021     | TBD                 | 27. august 2021     |
+|    &nbsp; | Kanada                |  4.13.0.152     | 13. august 2021    | 20. august 2021     | TBD                 | 27. august 2021     |
+|   &nbsp;  | India                 |  4.13.0.152     | 13. august 2021    | 20. august 2021     | TBD                 | 27. august 2021     |
+|   &nbsp;  | Prantsusmaa                |  4.13.0.152     | 13. august 2021    | 20. august 2021     | TBD                 | 27. august 2021     |
+|   &nbsp;  | Araabia Ühendemiraadid  |  4.13.0.152     | 13. august 2021    | 20. august 2021     | TBD                 | 27. august 2021     |
+|   &nbsp;  | Lõuna-Aafrika          |  4.13.0.152     | 13. august 2021    | 20. august 2021     | TBD                 | 27. august 2021     |
+| Jaam 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Jaapan                 |  4.12.0.152     | Lõpetatud*          | Lõpetatud            | 4.13.0.152          | 13. august 2021     |
+|   &nbsp;  | Aasia ja Vaikse ookeani piirkond          |  4.12.0.152     | Lõpetatud*          | Lõpetatud            | 4.13.0.152          | 13. august 2021     |
+|   &nbsp;  | Suurbritannia         |  4.12.0.152     | Lõpetatud*          | Lõpetatud            | 4.13.0.152          | 13. august 2021     |
+|   &nbsp;  | Okeaania               |  4.12.0.152     | Lõpetatud*          | Lõpetatud            | 4.13.0.152          | 13. august 2021     |
+| Jaam 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Euroopa                |  4.12.0.152     | Lõpetatud           | Lõpetatud            | 4.13.0.152          | 20. august 2021     |
+| Jaam 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Põhja-Ameerika         |  4.12.0.152     | 13. august 2021    | 20. august 2021     | 4.13.0.152          | 27. august 2021     |
 
 
+> [!NOTE]
+> Automaatne juurutamine on versiooni 4.12.0.148 jaoks lõpule jõudnud. 2021. aasta juuli väljaande värskendatud versiooni jaoks ei plaanita automaatset juurutamist.
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Projektihalduse ja raamatupidamise väljalaske ajakava Finance and Operationsi rakenduste keskkonnas
 
@@ -73,16 +75,16 @@ Projektihalduse ja raamatupidamise värskendused avaldatakse kahekda korda aasta
 
 |          Toetatud versioon          | Eelversiooni saadavus (PEAP) | Üldiselt saadaval (ise värskendatav) | Automaatsete värskenduste ajakava (LCS-i värskenduse sätete kaudu) loomise alguskuupäev |   Teenuse osutamise lõpp   |
 |:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|          10.0.20          |         28. mai 2021        |           16. juuli 2021           |                             30. juuli 2021                             |  22. oktoober 2021  |
 |          10.0.19          |        23. aprill 2021       |            18. juuni 2021           |                             2. juuli 2021                             | 17. september 2021 |
-|          10.0.18          |        5. märts 2021        |           16. aprill 2021          |                            30. aprill 2021                            |    16. juuli 2021   |
+
 
 
 Sihtväljalaske kuupäevad võivad muutuda. Lisateavet vaadake teemast [Teenuse värskenduste saadavus](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 |          Sihtversioon          | Eelversiooni saadavus (PEAP) | Üldiselt saadaval (ise värskendatav) | Automaatsete värskenduste ajakava (LCS-i värskenduse sätete kaudu) loomise alguskuupäev |   Teenuse osutamise lõpp   |
 |:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|          10.0.20          |         28. mai 2021        |           16. juuli 2021           |                             30. juuli 2021                             |  22. oktoober 2021  |
 |          10.0.21          |         02. august 2021     |           17. september 2021      |                             1. oktoober 2021                           |  10. detsember 2021  |
-
+|          10.0.22          |      3. september 2021      |          22. oktoober 2021         |                           5. november, 2021                           |  14. jaanuar 2022  |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

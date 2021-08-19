@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bc58c805bfe1a3087600b8d4a6be2d1bcdd18188
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 95f064e0f83d2052ac4ae9673b4fcdcd16a2574246d3320e1ed3798cd6ff062b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997911"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007006"
 ---
 # <a name="soft-book-requirements"></a>Esialgse broneerimise nõuded
 
@@ -29,30 +29,30 @@ ms.locfileid: "5997911"
 
 Ressursinõuet saab fikseeritult broneerida. Fikseeritud broneering loob pakkumise, mis kasutab ressursi võimsust. Seejärel saadetakse pakkumine kinnitamiseks tagasi taotlejale. Esialgne broneering lisab ressursi ebalevalt projektimeeskonda ja sellel on ajakavapaneelil teistsugune olek, kuid see ei tarbi ressursi võimsust. Ressursi esialgseks broneerimiseks ajakavapaneelilt määrake väli **Broneerimise olek** väärtusele **Esialgne**.
 
-![Broneeringu olekuks on määratud Esialgne](media/Resource-Management-image77.png)
+![Broneeringu olekuks on määratud Esialgne.](media/Resource-Management-image77.png)
 
 Kui vahekaart **Meeskond** on vaates **Nimega meeskonnaliikmed**, kuvatakse ressurss seal. Esialgselt broneeritud tunnid esitatakse veerus **Esialgselt broneeritud tunnid**.
 
-![Esialgselt broneeritud tunnid nimega meeskonnaliikmete vaates](media/Resource-Management-image78.png)
+![Esialgselt broneeritud tunnid nimega meeskonnaliikmete vaates.](media/Resource-Management-image78.png)
 
 Esialgselt broneeritud meeskonnaliikmeid saab määrata ülesannetele.
 
-![Ülesandele määratud esialgselt broneeritud meeskonnaliige](media/Resource-Management-image79.png)
+![Ülesandele määratud esialgselt broneeritud meeskonnaliige.](media/Resource-Management-image79.png)
 
 Vahekaardil **Vastavusseviimine** ei kuvata esialgselt broneeritud ressursile ühtegi broneeringut, kuna vahekaart **Vastavusseviimine** arvestab ainult fikseeritud broneeringutega.
 
-![Broneeringuteta esialgselt broneeritud ressurss vahekaardil Vastavusseviimine](media/Resource-Management-image80.png)
+![Broneeringuteta esialgselt broneeritud ressurss vahekaardil Vastavusseviimine.](media/Resource-Management-image80.png)
 
 > [!NOTE]
 > Te ei saa ressurssi esialgselt broneerida nõudest, mis loodi üldisest meeskonnaliikmest.
 
 Ressursi esialgse broneerimise jaoks kasutatakse ajakavapaneelil erinevat värvi.
 
-![Esialgsed broneeringud ajakavapaneelil](media/Resource-Management-image81.png)
+![Esialgsed broneeringud ajakavapaneelil.](media/Resource-Management-image81.png)
 
 Esialgse broneeringu teisendamiseks fikseeritud broneeringuks paremklõpsake ajakavapaneelil esialgset broneeringut ja seejärel tehke valikud **Muuda olekut** \> **Fikseeritud broneering** \> **Fikseeritud**.
 
-![Broneeringu oleku muutmine fikseerituks](media/Resource-Management-image82.png)
+![Broneeringu oleku muutmine fikseerituks.](media/Resource-Management-image82.png)
 
 Broneeringut muudetakse ja olekut muudetakse ajakavapaneelil. Kuna broneeringu olekuks on nüüd **Fikseeritud**, kuvatakse ressurss broneerituna ja selle võimsust ning saadavust reguleeritakse.
 
@@ -60,7 +60,7 @@ Sama meetodit saate kasutada ka fikseeritud või esialgse broneeringu ajakavapan
 
 Esialgselt broneeritud ressursi teisendamiseks fikseeritud broneeringuks projekti vahekaardil **Meeskond**, valige ressurss ja seejärel tehke valik **Kinnita**.
 
-![Käsk Kinnita](media/Resource-Management-image83.png)
+![Käsk Kinnita.](media/Resource-Management-image83.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
