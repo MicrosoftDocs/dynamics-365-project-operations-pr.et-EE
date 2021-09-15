@@ -4,9 +4,11 @@
   items:
     - name: Juurutamise tüübi määratlemine
       href: environment/determine-deployment-type.md
+    - name: Rakenduse Project Operations prooviversioonidele registreerumine
+      href: environment/admin-trials.md
     - name: Rakenduse Project Operations värskendused
       href: whats-new/project-operations-updates.md
-- name: Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
+- name: Rakendus Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
   items:
     - name: Alustamine
       items:
@@ -52,8 +54,10 @@
               href: environment/resource-dual-write-expense.md
             - name: Hankija arve integratsioon
               href: environment/resource-dual-write-vendor-invoice.md
-    - name: Mis on uut?
+    - name: Mis on uut
       items:
+        - name: August 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
+          href: whats-new/whats-new-august-2021-resource-based.md
         - name: Juuli 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: Juuni 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
@@ -412,12 +416,14 @@
               href: expense/vat-recovery.md
     - name: Materjali kasutus
       items:
-        - name: Projektides ja projektiülesannetes materjali kasutuse kirjendamine
+        - name: Projektide ja projektiülesannete materjali kasutuse kirjendamine
           href: material/material-usage-log.md
     - name: Kinnitused
       items:
         - name: Kinnituste ülevaade
           href: approvals/approvals-overview.md
+        - name: Kinnitamiskomplektid
+          href: approvals/approval-sets.md
         - name: Arendaja märkmed
           items:
             - name: Kinnituste arendaja märkmed
@@ -518,8 +524,12 @@
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Turbemudel
           href: environment/security-model.md
-    - name: Mis on uut?
+    - name: Mis on uut
       items:
+        - name: Mis on uut 2021 2. laine varajases juurdepääsus – lihtjuurutamine
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Mis on uut augustis 2021 – lihtjuurutamine
+          href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Mis on uut juulis 2021 – lihtjuurutamine
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: Mis on uut juunis 2021 – lihtjuurutamine
@@ -834,14 +844,28 @@
               href: resource-management/resource-utilization-overview.md
     - name: Allhankelepingute haldus rakenduses Project Operations
       items:
-        - name: Allhankelepingute halduse ülevaade
+        - name: Allhankelepingute haldus rakenduses Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Allhankelepingute sõlmimine 2021 a. oktoobri varajases juurdepääsus
+          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Allhankelepingute põhimõisted
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Hankijate ja projekti hinnakirjade haldus
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: Alltöövõtjad broneeritavate ressurssidena
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Allhankelepingute päise üksikasjad
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Allhankelepingu ajaread
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Allhankelepingu kuluread
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Allhankelepingu tooteread
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Allhankelepingu rea ressursid
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Allhankelepingu rea vahe-eesmärgid
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: Aeg
       items:
         - name: Kellaaja ülevaade
@@ -862,12 +886,14 @@
           href: expense/basic-expense.md
     - name: Materjali kasutus
       items:
-        - name: Projektides ja projektiülesannetes materjali kasutuse kirjendamine
+        - name: Projektide ja projektiülesannete materjali kasutuse kirjendamine
           href: material/material-usage-log.md
     - name: Kinnitused
       items:
         - name: Kinnituste ülevaade
           href: approvals/approvals-overview.md
+        - name: Kinnitamiskomplektid
+          href: approvals/approval-sets.md
         - name: Arendaja märkmed
           items:
             - name: Kinnituste arendaja märkmed
@@ -1058,8 +1084,10 @@
       href: psa/overview.md
     - name: Mis on uut?
       items:
-        - name: Uuenduse väljalaske ajakava Project Service 3.x jaoks
+        - name: Värskenduste väljalaske ajakava Project Service 3.x jaoks
           href: psa/version-history-ps.md
+        - name: 'Mis on uut või muutunud värskenduses 35, V3?'
+          href: psa/whats-new-ur-35.md
         - name: 'Mis on uut või muutunud värskenduses 34, V3?'
           href: psa/whats-new-ur-34.md
         - name: 'Mis on uut või muutunud värskenduses 33, V3?'
@@ -1306,7 +1334,7 @@
               href: psa/time-entry-calendar.md
             - name: Iganädalaste ajakirjete kohandamine
               href: psa/time-entry-extensibility-v3.md
-            - name: Kinnitamiskomplektid
+            - name: Kinnitamiskomplektid rakenduses Project Service Automation
               href: psa/approval-set.md
     - name: KKK ja tõrkeotsing (3.x)
       items:
