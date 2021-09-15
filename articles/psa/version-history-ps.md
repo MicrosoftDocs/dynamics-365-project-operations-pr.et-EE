@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ed43676954c9535cc84986bc4099cca33ada09ba18c7950ccacb0dec575d0636
-ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
+ms.openlocfilehash: 7abb9e851c99c66677dd45e20f5b8bd179e9464d
+ms.sourcegitcommit: c2d57a8cd6638c08dbf1aa53e3819e6a736ad118
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/09/2021
-ms.locfileid: "7024823"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474518"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Uuenduse väljalaske ajakava Project Service 3.x jaoks
 
@@ -37,7 +37,7 @@ ms.locfileid: "7024823"
 
 | Lahendus  | Uusim versioon |
 |-------|----|
-| Project Service Automation    | 3.10.55.38 |
+| Project Service Automation    | 3.10.56.110 |
 | Project Service Automationi töölaua lisandmoodul                | 3.15          |
 
 Project Service’i värskenduste kohta leiate teavet teemast [Dynamics 365 väljalaskeplaanid](/dynamics365/release-plans/). 
@@ -45,28 +45,28 @@ Project Service’i värskenduste kohta leiate teavet teemast [Dynamics 365 väl
 | Jaam  | Regioon | Praegune versioon | Järgmine versioon |  Ajastatud kuupäev
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Jaam 1</strong> | |  |  | |
-| | <i>Esimene väljalase</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 27. august 2021
+| | <i>Esimene väljalase</i> | [3.10.56.110](whats-new-ur-35.md) | TBD | 01. oktoober 2021
 |<strong>Jaam 2</strong> | |  |  | |
-| | <i>Lõuna-Ameerika</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03. september 2021
-| | <i>Kanada</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03. september 2021
-| | <i>India</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03. september 2021
-| | <i>Prantsusmaa</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03. september 2021
-| | <i>Araabia Ühendemiraadid</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03. september 2021
-| | <i>Lõuna-Aafrika</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03. september 2021
-| | <i>Saksamaa</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03. september 2021
-| | <i>Šveits</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03. september 2021
+| | <i>Lõuna-Ameerika</i> | [3.10.56.110](whats-new-ur-35.md) | TBD | 01. oktoober 2021
+| | <i>Kanada</i> | [3.10.56.110](whats-new-ur-35.md) | TBD | 01. oktoober 2021
+| | <i>India</i> | [3.10.56.110](whats-new-ur-35.md) | TBD | 01. oktoober 2021
+| | <i>Prantsusmaa</i> | [3.10.56.110](whats-new-ur-35.md) | TBD | 01. oktoober 2021
+| | <i>Araabia Ühendemiraadid</i> | [3.10.56.110](whats-new-ur-35.md) | TBD | 01. oktoober 2021
+| | <i>Lõuna-Aafrika</i> | [3.10.56.110](whats-new-ur-35.md) | TBD | 01. oktoober 2021
+| | <i>Saksamaa</i> | [3.10.56.110](whats-new-ur-35.md) | TBD | 01. oktoober 2021
+| | <i>Šveits</i> | [3.10.56.110](whats-new-ur-35.md) | TBD | 01. oktoober 2021
 |<strong>Jaam 3</strong> | |  |  | |
-| | <i>Jaapan</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13. august 2021
-| | <i>Aasia ja Vaikse ookeani piirkond</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13. august 2021
-| | <i>Suurbritannia</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13. august 2021
-| | <i>Okeaania</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13. august 2021
+| | <i>Jaapan</i> | [3.10.55.38](whats-new-ur-34.md) | [3.10.56.110](whats-new-ur-35.md) | 10. september 2021
+| | <i>Aasia ja Vaikse ookeani piirkond</i> | [3.10.55.38](whats-new-ur-34.md) | [3.10.56.110](whats-new-ur-35.md) | 10. september 2021
+| | <i>Suurbritannia</i> | [3.10.55.38](whats-new-ur-34.md) | [3.10.56.110](whats-new-ur-35.md) | 10. september 2021
+| | <i>Okeaania</i> | [3.10.55.38](whats-new-ur-34.md) | [3.10.56.110](whats-new-ur-35.md) | 10. september 2021
 |<strong>Jaam 4</strong> | |  |  | |
-| | <i>Euroopa</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 20. august 2021
+| | <i>Euroopa</i> | [3.10.55.38](whats-new-ur-34.md) | [3.10.56.110](whats-new-ur-35.md) | 17. september 2021
 |<strong>Jaam 5</strong> | |  |  | |
-| | <i>Põhja-Ameerika</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 27. august 2021
+| | <i>Põhja-Ameerika</i> | [3.10.55.38](whats-new-ur-34.md) | [3.10.56.110](whats-new-ur-35.md) | 24. september 2021
 |<strong>Jaam 6</strong> | |  |  | |
-| | <i>Riigiasutuste ühispilvekeskkond</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 27. august 2021
-| | <i>Sihtotstarbelised skaalarühmad</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 03. september 2021
+| | <i>Riigiasutuste ühispilvekeskkond</i> | [3.10.55.38](whats-new-ur-34.md) | [3.10.56.110](whats-new-ur-35.md) | 24. september 2021
+| | <i>Sihtotstarbelised skaalarühmad</i> | [3.10.55.38](whats-new-ur-34.md) | [3.10.56.110](whats-new-ur-35.md) | 01. oktoober 2021
 
 >[!Note]
 > - Kuupäevad kõigis piirkondades, v.a riigiasutuste ühispilvkeskkond (GCC), näitavad järgmise automaatse värskendamise aega. GCC kuupäevad näitavad versiooni saadavust. Praegu neid piirkondi automaatselt ei värskendata.
