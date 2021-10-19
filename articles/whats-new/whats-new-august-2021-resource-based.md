@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: cd5a7e74fc90c6138cd672ff6109b59a8d2ae916
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 26861472d3af20c58b3d01142b834d535cf99715
+ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323456"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7501366"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Mis on uut augustis 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
 
@@ -31,7 +31,7 @@ Selles väljaandes sisalduvad järgmised funktsioonid.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Rakenduse Project Operations topeltkirjutamise kaartide värskendused
 
-Selles väljaandes ei ole värskendusi Project Operationsi topeltkirjutuse vastenduste jaoks. 
+Selles väljaandes ei ole Project Operationsi topeltkirjutuse kaartide jaoks värskendusi.
 
 Project Operationsi topeltkijrutusega kaartide praeguse loendi ja versioonide jaoks vaadake teemat [Project Operationsi topeltkirjutamise kaardi versioonid](../environment/resource-dual-write-maps.md).
 

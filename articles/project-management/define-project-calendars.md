@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 181032b27ee67591a3bb40ab080477c51c1e34a46e9aac20039e4e5df3a5ab1d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9c2ea49e008d6cde40f152320face073c7e5f548
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000931"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487635"
 ---
 # <a name="define-project-calendars"></a>Projektikalendrite määratlemine
 
@@ -46,7 +46,7 @@ Oma organisatsiooni jaoks kalendrimalli loomiseks on kaks põhinõuet.
 
 1. Avage **Ressursid** \> **Ressursid**.
 2. Looge kalendrimallis viidatav uus ressurss või valige olemasolev ressurss.
-3. Valige ressursi vahekaart **Tööaeg** ja järgige kalendrireeglite konfigureerimiseks [ressursi töötundide](/dynamics365/field-service/set-work-hours-resource.md) konfigureerimine suuniseid.
+3. Valige ressursi vahekaart **Tööaeg** ja järgige kalendrireeglite konfigureerimiseks [ressursi töötundide](/dynamics365/field-service/set-work-hours-resource) konfigureerimine suuniseid.
 
 **Looge uus kalendrimall**
 

@@ -2,16 +2,16 @@
 title: Project Operationsi prooviversioonidele registreerumine
 description: Selles teemas kirjeldatakse, kuidas juurutada rakenduse Dynamics 365 Project Operations prooviversiooni.
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418452"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599208"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Project Operationsi prooviversioonidele registreerumine 
 
@@ -85,15 +85,9 @@ Enne alustamist logige brauserisse kasutaja töökontoga sisse selles rentnikus,
 
    Pärast ettevalmistamise käivitumist suunatakse teid Power Platformi halduskeskuse keskkondade loendisse. Ettevalmistuse ajal on teie keskkonna olekuks **Eksemplari ettevalmistamine**.
  
-  Pärast ettevalmistamise lõpuleviimist on teie keskkonna olekuks **Valmis**.
+  Kui ettevalmistamine on lõpule viidud, on teie keskkonna olekuks **Valmis**. Keskkonna ettevalmistamine hõlmab demoandmete juurutamist.
  
-4.  Pärast ettevalmistamise lõpuleviimist valige vastav Microsoft Dataverse'i URL ja rakendustekomplekti Finance and Operations URL-id juurutuse valideerimiseks.
-
-## <a name="demo-data-installation"></a>Näidisandmete installimine
-
-Järgmiste linkide abil saate juurdepääsu nii mittelaopõhiste materjalide kui ka lihtjuurutamisega stsenaariumide demo andmepakettidele. 
-- [Mittelaopõhiste materjalide demoandmed](resource-apply-pro-setup-config-data.md)
-- [Lihtjuurutuse demoandmed](lite-apply-demo-setup-config-data.md)
+4.  Valige juurutamise valideerimiseks vastavad Microsoft Dataverse’i URL ja teenuse Finance and Operations rakenduste URL-id.
 
 ## <a name="configuring-dual-write"></a>Topeltkirjutuse konfigureerimine
 Konfigureerige oma topeltkirjutuse vastendused ainult mittelaopõhiste materjalide juurutamistele. Lisateavet leiate teemast [Rakenduse Project Operations topeltkirjutamise vastenduse versioonid](resource-dual-write-maps.md).

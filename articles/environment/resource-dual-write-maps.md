@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003811"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547104"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Rakenduse Project Operations topeltkirjutamise vastenduse versioonid
 
@@ -49,8 +49,8 @@ Järgmised kaardid on Project Operationsi lahenduse jaoks nõutavad eeltingimuse
 | Project Operationsi integreerimistabel materjaliprognooside jaoks (msdyn\_estimatelines) | 1.0.0.0 | Pole vajalik ettevalmistuse jaoks. |
 | Projekti arve ettepanekud V2 (arved) | 1.0.0.3 | Pole vajalik ettevalmistuse jaoks. |
 | Project Operationsi integreerimise tegelikud näitajad (msdyn_actuals) | 1.0.0.14 | Pole vajalik ettevalmistuse jaoks. |
-| Project Operationsi integreerimise lepingurea vahekokkuvõtted (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | Pole vajalik ettevalmistuse jaoks. |
-| Project Operationsi integreerimise olem kuluprognooside jaoks (msdyn_estimateslines) | 1.0.0.2 | Pole vajalik ettevalmistuse jaoks. |
+| Project Operationsi integratsiooni lepingurea vahekokkuvõtted (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Pole vajalik ettevalmistuse jaoks. |
+| Project Operationsi integratsiooni olem kuluprognooside jaoks (msdyn_estimatelines) | 1.0.0.2 | Pole vajalik ettevalmistuse jaoks. |
 | Project Operationsi integreerimise olem tunniprognooside jaoks (msdyn_resourceassignments) | 1.0.0.5 | Pole vajalik ettevalmistuse jaoks. |
 | Project Operationsi integreerimise projekti kulukategooriate ekspordi olem (msdyn_expensecategories) | 1.0.0.1 | Pole vajalik ettevalmistuse jaoks. |
 | Project Operationsi integreerimise projekti kulude ekspordi olem (msdyn_expenses) | 1.0.0.2 | Pole vajalik ettevalmistuse jaoks. |

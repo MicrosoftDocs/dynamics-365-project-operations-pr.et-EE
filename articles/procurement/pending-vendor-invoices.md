@@ -2,17 +2,17 @@
 title: Logimata materjalide ostmine ootel oleva hankija arve abil
 description: Selles teemas kirjeldatakse, kuidas kirjendada ootel hankija arveid.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2ce9f244eaa549742aeb55024ca9ef4d82cde1bd4a5b9c7f8c762cf72e0da83f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009031"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547284"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Logimata materjalide ostmine ootel oleva hankija arve abil
 
@@ -20,7 +20,7 @@ _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
 Kuna ettevõttes kasutatakse projekti jaoks logimata materjale, saab kulud kohe projekti kohta kirjendada. 
 
-Näiteks teeb ettevõte Contoso Robotics US tarkvara uuendamise projekti ja vajab tarkvaralitsentse. Need litsentsid on pärit kolmandalt osapoolelt.  Funktsiooni Dynamics 365 Finance kasutamisel fikseerib ostureskontro ametnik ootel oleva hankija arve dokumendi ja omistab litsentsikulud otse seadmete uuendamise projektile. 
+Näiteks töötab ettevõte Contoso Robotics US vahendite uuendamise projekti kallal ja vajab tarkvaralitsentse. Need litsentsid on pärit kolmandalt osapoolelt.  Funktsiooni Dynamics 365 Finance kasutamisel fikseerib ostureskontro ametnik ootel oleva hankija arve dokumendi ja omistab litsentsikulud otse seadmete uuendamise projektile. 
 
 > [!IMPORTANT]
 > Enne selles teemas kirjeldatud funktsioonide kasutamist vaadake üle ja rakendage nõutavad konfiguratsioonid. Lisateavet leiate teemast [Logimata materjalide ja ootel hankija arvete lubamine](configure-materials-nonstocked.md). 
@@ -45,4 +45,5 @@ Ootel hankija arved saab registreerida lehel **Ootel tarnija arved** (**Osturesk
     - Hankija saldosumma.
     - Käibemaksu summa.
     - Projektiga seotud kulud kirjendatakse hanke integreerimise kontole.
-    - Projekti tegelik kande väärtus Dataverse’is. Seda tehingut töödeldakse edasi, kasutades [Project Operationsi integreerimise töölehte](../project-accounting/project-operations-integration-journal.md). Selle töölehe sisestamine teisaldab summa hanke integreerimise kontolt projekti kulu kontole.
+    - Projekti tegeliku kulu tehing teenuses Dataverse.  Seda tehingut töödeldakse edasi, kasutades [Project Operationsi integreerimise töölehte](../project-accounting/project-operations-integration-journal.md). Selle töölehe sisestamine teisaldab summa hanke integreerimise kontolt projekti kulu kontole. 
+    - Ostud, mille eest arved esitatakse projekti kliendile aja- ja materjalide arveldusmeetodit kasutades. Lisaks luuakse teenuses Dataverse ostude jaoks arveldamata müügitehingud. Teenuse Dataverse toodete hinnakirja kasutatakse arveldamata müügitehingute müügihindade ja summade jaoks.

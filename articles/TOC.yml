@@ -54,8 +54,12 @@
               href: environment/resource-dual-write-expense.md
             - name: Hankija arve integratsioon
               href: environment/resource-dual-write-vendor-invoice.md
-    - name: Mis on uut
+    - name: Mis on uut?
       items:
+        - name: Oktoober 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: September 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
+          href: whats-new/whats-new-sept-2021-resource-based.md
         - name: August 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: Juuli 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
@@ -292,13 +296,13 @@
           items:
             - name: Projektimallide arendamine projekti kopeerimisega
               href: project-management/dev-copy-project.md
-            - name: Projekti ajakava API-de kasutamine (avalik eelversioon)
+            - name: Projekti ajakava API-de kasutamine
               href: project-management/schedule-api-preview.md
     - name: Ressursihaldus
       items:
         - name: Põhimõisted
           href: resource-management/resource-management-key-concepts.md
-        - name: Reserveeringud vs määramised
+        - name: Broneeringud vs määramised
           href: resource-management/booking-vs-assignment.md
         - name: Ressursihalduse režiimide ülevaade
           href: resource-management/resource-management-mode-overview.md
@@ -442,8 +446,16 @@
       items:
         - name: Mittelaopõhiste materjalide ja ootel hankija arvete konfigureerimine
           href: procurement/configure-materials-nonstocked.md
-        - name: Ootel hankija arveid kasutades mittelaopõhiste materjalide projektide jaoks hankimine
+        - name: Mittelaopõhiste materjalide projektide jaoks hankimine ootel hankija arveid kasutades
           href: procurement/pending-vendor-invoices.md
+        - name: Projektide jaoks mittelaopõhiste materjalide tellimine projekti ostutellimusi kasutades
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Hankija lojaalsus
+          items:
+            - name: Hankija lojaalsuse ülevaade
+              href: procurement/vendor-retention-overview.md
+            - name: Hankija lojaalsuse seadistamine
+              href: procurement/set-up-vendor-retention.md
     - name: Arveldamine
       items:
         - name: Arveldusprotsessi ülevaade
@@ -528,6 +540,10 @@
       items:
         - name: Mis on uut 2021 2. laine varajases juurdepääsus – lihtjuurutamine
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Mis on uut oktoobris 2021 – lihtjuurutamine
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: Mis on uut septembris 2021 – lihtjuurutamine
+          href: pro/whats-new/whats-new-sept-2021-lite.md
         - name: Mis on uut augustis 2021 – lihtjuurutamine
           href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Mis on uut juulis 2021 – lihtjuurutamine
@@ -784,13 +800,13 @@
           items:
             - name: Projektimallide arendamine projekti kopeerimisega
               href: project-management/dev-copy-project.md
-            - name: Projekti ajakava API-de kasutamine (avalik eelversioon)
+            - name: Projekti ajakava API-de kasutamine
               href: project-management/schedule-api-preview.md
     - name: Ressursihaldus
       items:
         - name: Põhimõisted
           href: resource-management/resource-management-key-concepts.md
-        - name: Reserveeringud vs määramised
+        - name: Broneeringud vs määramised
           href: resource-management/booking-vs-assignment.md
         - name: Ressursihalduse režiimide ülevaade
           href: resource-management/resource-management-mode-overview.md
@@ -858,7 +874,7 @@
           href: pro/subcontracting/subcontract-header-details.md
         - name: Allhankelepingu ajaread
           href: pro/subcontracting/subcontract-line-time.md
-        - name: Allhankelepingu kuluread
+        - name: Allhankelepingu kulukategooriate read
           href: pro/subcontracting/subcontract-line-expense.md
         - name: Allhankelepingu tooteread
           href: pro/subcontracting/subcontract-line-products.md
@@ -1086,6 +1102,8 @@
       items:
         - name: Värskenduste väljalaske ajakava Project Service 3.x jaoks
           href: psa/version-history-ps.md
+        - name: 'Mis on uut või muutunud värskenduses 36, V3?'
+          href: psa/whats-new-ur-36.md
         - name: 'Mis on uut või muutunud värskenduses 35, V3?'
           href: psa/whats-new-ur-35.md
         - name: 'Mis on uut või muutunud värskenduses 34, V3?'

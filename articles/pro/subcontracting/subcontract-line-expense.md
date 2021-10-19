@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9e8e7bb66063dab6db1ac8da1753913aee0ef3fc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 0c32bf2ac54de98a921d338e436ecd089e68a759
+ms.sourcegitcommit: cd4e81f129681a12f2efe63ec2bb14e611cf88ba
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323816"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "7506094"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Allhankelepingu read kulukategooriate jaoks
 
@@ -29,23 +29,23 @@ Rakenduses Project Operations kulukategooriatele allhankelepingu rea loomiseks t
 
 Järgmine tabel sisaldab teavet **Allhankelepingu rea** üksikasjade lehe väljade ja **Kiirloomise** lehe kohta.
 
-| **Väli** |  **Kirjeldus** |
-| ----------| ---------------- |
-| Nimetus | Allhankelepingu rea nimi. |
-| Kirjeldus | Allhankelepingu real ostetavate teenuse- või tootekategooriate lühikirjeldus. |
-| Rea tüüp | Selle välja vaikeväärtus on **Kogusepõhine**.  |
-| Arveldusmeetod | Allhankelepingu rea arveldusmeetod. Rea arveldusmeetodi põhjal on fikseeritud hinnaga arveldusmeetodi jaoks saadaval vahe-eesmärgi põhine arvegraafik.  |
-| Tehingu liik | Selle välja vaikeväärtus on **Aeg**. Toodete ostmiseks allhankelepingu ridade loomiseks määrake välja **Kande liik** väärtuseks **Kulu**. See väljaväärtus näitab, et allhankelepingu rida kasutatakse projektides kasutatavate toodete või teenuste kategooria ostu kirjendamiseks. |
-| Tehingu kategooria | Valige kandekategooria. |
-| Soovitud algus | Kuupäev, millal ostu kategooriad peavad hankijalt saadaval olema. Soovitud algust kasutatakse projekti hinnakirja valimiseks allhankelepingule lisatud projekti hinnakirjade hulgast. Allhankelepingu rea kategooria kulu vaikeväärtus saadakse sellest hinnakirjast. |
-| Soovitud lõpp | Kuupäev, millal ostu kategooriaid enam ei vajata. See kuupäev põhjustab hoiatuse, kui projektijuht seostab selle allhankelepingu rea konkreetse kuluprognoosiga selliste projektide jaoks, mille kuupäev on pärast seda kuupäeva. |
-| Tellitud kogus | Hankijalt ostetava kategooria kogus. Kui projektijuht ületab ostetud kogust, kuvatakse hoiatus.  |
-| Ühikurühm | Selle välja väärtuse vaikeväärtused põhinevad valitud kategooria jaoks seadistatud vaikimisi ühikurühmal. |
-| Üksus | Selle välja väärtuse vaikeväärtused põhinevad valitud kategooria jaoks seadistatud vaikeühikul. Kategooria ja ühiku kombinatsiooni kasutatakse allhankelepingu real vaikimisi ühiku hinna saamiseks. |
-| Ühiku hind | Ühiku hinnavälja vaikeväärtuseks on projekti hinnakirjaga seotud kategooria hindade kategooria ja ühiku kombinatsioon, mis on kohaldatav allhankelepingu rea soovitud algusele.  |
-| Vahesumma | See kirjutuskaitstud väli arvutatakse koguse ühiku hinnana koguse ja ühiku hinna väärtuste sisestamisel automaatselt. Kui üks või mõlemad väljad on tühjad, saate sellele väljale väärtuse käsitsi sisestada.  |
-| Käibemaks | Sisestage käibemaksu summa.  |
-| Kogusumma | Allhankelepingu rea kogusumma koos maksudega. Selle välja väärtus arvutatakse kui vahesumma + käibemaks.  |
+| **Väli** | **Kirjeldus** | **Funktsionaalne mõju** |
+| --- | --- | --- |
+| Nimetus | Tuvastamisel abiks oleva allhankelepingu rea nimi. | See kuvatakse kõigis otsingutes allhankelepingu ridade põhjal esimese veeruna. |
+| Kirjeldus | Allhankelepingu real ostetavate kulukategooriate lühikirjeldus. | Pole |
+|Rea tüüp | Selle välja vaikeväärtus on **Kogusepõhine**. |Pole |
+| Arveldusmeetod | See on Project Operationsi toetatud kahte peamist lepingumudelit esindav suvandikomplekt: **Fikseeritud hind** ning **Kellaaeg ja materjal**. | Kui valitud on fikseeritud hinnaga arveldusmeetod, on allhankelepingu ridade jaoks tehtud kättesaadavaks vahe-eesmärkidel põhineb arve ajakava. |
+| Tehingu liik | Selle välja vaikeväärtus on **Kellaaeg**. Toodete ostmiseks allhankelepingu ridade loomiseks määrake välja **Kande liik** väärtuseks **Kulu**.  | See näitab, et projektides kasutatava kulukategooria ostu talletamiseks kasutatakse allhankelepingu rida. |
+| Tehingu kategooria | Näitab süsteemi aktiivsete kannete kategooriate loendit. |Pole |
+| Soovitud algus | Sisestage kuupäev, millal ostukategooriad peavad olema hankijalt saadaval. | Taotletud algust kasutatakse allhankelepingule lisatud projekti hinnakirjade loendist projekti hinnakirja valimiseks. Allhankelepingu rea kategooria kulu pärineb sellest hinnakirjast. |
+| Soovitud lõpp | Sisestage kuupäev, millal ostukategooriaid enam vaja pole. | Seda kasutatakse hoiatuste kuvamiseks, kui projektijuht seostab selle allhankelepingu rea projekti konkreetse kuluprognoosiga, mis on pärast seda kuupäeva vajalik. |
+| Tellitud kogus | Hankijalt ostetava kategooria kogus. | Seda kasutatakse hoiatuste nägemiseks, kui projektijuht saab selle kogusega võrreldes liiga palju.|
+| Ühikurühm | Vaikeväärtus põhineb valitud kategooria jaoks määratud vaikimisi ühikurühmal. |Pole |
+| Üksus | Vaikevalik põhineb valitud kategooria jaoks määratud vaikimisi ühiku.  | Suvandite **Kategooria** ja **Ühik** kombinatsiooni kasutatakse allhankelepingu rea vaikeväärtusena või arvutatud ühikuhinnana.  |
+| Ühiku hind | Vaikeväärtus kasutab suvandite **Kategooria** ja **Ühik** kombinatsiooni projekti hinnakirjaga seotud kategooria hindadest, mis kehtivad allhankelepingu rea taotletud ajal. |Pole |
+| Vahesumma | See on kirjutuskaitstud väli, mis arvutatakse koguse X ühikuhinnana, kui sisestatud on nii koguse- kui ka ühikuhinna väärtused. Kui mõlemad väljad on tühjad, võite sellele väljale sisestada väärtuse. |Pole |
+| Käibemaks | Sisestage käibemaksu summa. |Pole |
+| Kogusumma | Allhankelepingu rea kogusumma koos maksudega. Selle välja väärtus arvutatakse kui vahesumma + käibemaks. |Pole |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

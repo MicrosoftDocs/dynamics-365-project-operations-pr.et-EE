@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3301e5a627e4842009fcd5e352f1b76fd3053ee3
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7f99853f5f649f96225b7d72580db97bb92de7c5
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323771"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558497"
 ---
 # <a name="subcontract-line-milestones"></a>Allhankelepingu rea vahe-eesmärgid
 
@@ -50,15 +50,15 @@ Allhankelepingu fikseeritud hinnaga vahe-eesmärke saab luua käsitsi, kui need 
 3. Valige vahekaardi **Allhankelepingu rea vahe-eesmärgid** andmeruudustikus **+ Uus allhankelepingu vahe-eesmärk**.
 4. Sisestage lehel **Uus allhankelepingu rea vahe-eesmärk** nõutav teave vastavalt järgmisele tabelile.
 
-    | Väli | Kirjeldus |
-    | --- | --- |
-    | Vahekokkuvõtte nimi | Vahe-eesmärgi nimi. |
-    | Kirjeldus | Vahe-eesmärgi kirjeldus.  |
-    | Vahekokkuvõtte kuupäev | Kuupäev, millal arve automaatse loomise protsess peaks vaatama selle vahe-eesmärgi olekut, et kaaluda selle arveldamist. See väärtus lisatakse hankija arve reale selle allhankelepingu arveldamisel. |
-    | Summa | Vahe-eesmärgi summa või väärtus, mille eest esitatakse kliendile arve. See väärtus lisatakse hankija arve reale selle allhankelepingu arveldamisel. |
-    | Maks | Vahe-eesmärgile rakendatav maksusumma. See väärtus lisatakse hankija arve reale selle allhankelepingu arveldamisel. |
-    | Summa pärast maksude mahaarvamist | See kirjutuskaitstud väli, mida arvutatakse kui summa + maks. See väärtus lisatakse hankija arve reale selle allhankelepingu arveldamisel. |
-    | Arve olek | Vahe-eesmärgi loomisel on selleks olekuks alati määratud **Pole arveldamiseks valmis**.  Kui olekuks on **Arveldamiseks valmis**, sisaldab hankija arve loomine hankija arvel seda vahe-eesmärki. |
+    | Väli | Kirjeldus |Funktsionaalne mõju|
+    | --- | --- |----------------------|
+    | Vahekokkuvõtte nimi | Vahe-eesmärgi nimi. |See kuvatakse kõigis otsingutes allhankelepingu ridade vahe-eesmärkide põhjal esimese veeruna. Selle vahe-eesmärgi põhjal loodud hankija arverida kasutab hankija arve vaikimisi nimena ka allhankelepingu rea vahe-eesmärgi nime.|
+    | Kirjeldus | Vahe-eesmärgi kirjeldus. |Selle vahe-eesmärgi põhjal loodud hankija arverida kasutab hankija arve vaikimisi kirjeldusena ka allhankelepingu rea vahe-eesmärgi kirjeldust.|
+    | Vahekokkuvõtte kuupäev | Kuupäev, millal arve automaatse loomise protsess peaks vaatama selle vahe-eesmärgi olekut, et kaaluda selle arveldamist.| Seda väärtust kasutatakse selle allhankelepingu rea jaoks arve esitamisel hankija arverea vaikimisi kuupäevana. |
+    | Summa | Vahe-eesmärgi summa või väärtus, mille eest esitatakse kliendile arve. |Seda väärtust kasutatakse selle allhankelepingu rea jaoks arve esitamisel hankija arverea vaikimisi summana. |
+    | Maks | Vahe-eesmärgile rakendatav maksusumma.| Seda väärtust kasutatakse selle allhankelepingu rea jaoks arve esitamisel hankija arverea vaikimisi maksusummana. |
+    | Summa pärast maksude mahaarvamist | Seda kirjutuskaitstud välja arvutatakse kui summa + maks.|Seda väärtust kasutatakse selle allhankelepingu rea jaoks arve esitamisel hankija arverea vaikeväärtusena. |
+    | Arve olek | Vahe-eesmärgi loomisel on selleks olekuks alati määratud **Pole arveldamiseks valmis**.|  Kui olekuks on **Arveldamiseks valmis**, sisaldab hankija arve loomine hankija arvel seda vahe-eesmärki. |
 
 5. Valige **Salvesta ja sule**.
 
