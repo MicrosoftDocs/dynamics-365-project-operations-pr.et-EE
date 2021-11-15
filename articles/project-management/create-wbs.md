@@ -2,16 +2,16 @@
 title: Tööjaotuse struktuuri loomine
 description: Selles teemas kirjeldatakse, kuidas luua uues kavandamisliideses põhijuhtelementidega tööjaotuse struktuuri (WBS).
 author: ruhercul
-ms.date: 01/07/2021
+ms.date: 06/30/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
+ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998726"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655412"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Tööjaotuse struktuuri (WBS) loomine
 
@@ -117,5 +117,26 @@ Project Operationsi ajakava abil saate luua ülesannete vahel eelkäijate seosei
 
 **Ajakava** ruudustik on täielikult juurdepääsetav ja seda saab kasutada ekraanilugeja, näiteks Narrator, JAWS või NVDA. Saate liikuda läbi ruudustiku ala nooleklahvide abil (nagu rakenduses Microsoft Excel), saate kasutada tabeldusklahvi, et interaktiivse kasutajaliidese elemente edasi arendada, ning võite kasutada allanoolt, sisestusklahvi või tühikut, et valida ja avada rippmenüüd.
 
+## <a name="project-limitations"></a>Projekti piirangud 
+Kui kasutate Project Operationsis tööjaotuse struktuuri, peaksite olema kursis järgmiste piirangutega. Need piirangud kehtivad projektidele ja ülesannetele. Lisateavet leiate teemast [Project for the web piirangud ja piirid](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Väli**                                          |  **Piirang**           |
+|----------------------------------------------------|----------------------|
+| Projekti ülesannete maksimaalne koguarv                  | 500                  |
+| Projekti maksimaalne kogukestus               | 3650 päeva (10 aastat) |
+| Projekti ressursside maksimaalne koguarv              | 150                  |
+| Projekti linkide maksimaalne koguarv (ainult järglane) | 600                  |
+| Projekti kohandatud väljade maksimaalne koguarv          | 10                   |
+
+**Ülesande piirangud**
+
+| **Väli**                               |   **Piirang**           |
+|-----------------------------------------|-----------------------|
+| Maksimaalne hierarhiatase                 | 10 taset             |
+| Maksimaalne linkide arv (eelkäija + järglane) | 20                    |
+| Lehe ülesande maksimaalne kestus           | 1250 päeva             |
+| Kokkuvõtva ülesande maksimaalne kestus      | 3650 päeva (10 aastat)  |
+| Ülesandele määratud maksimaalne ressursside arv    | 20 ressurssi          |
+| Ülesande toetatud kuupäevavahemik         | 1/1/2000–12/31/2149 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

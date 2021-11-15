@@ -54,7 +54,9 @@
               href: environment/resource-dual-write-expense.md
             - name: Hankija arve integratsioon
               href: environment/resource-dual-write-vendor-invoice.md
-    - name: Mis on uut?
+        - name: Rakenduse Dynamics 365 Project Operations desinstallimine
+          href: environment/uninstall-project-operations.md
+    - name: Mis on uut
       items:
         - name: Oktoober 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
           href: whats-new/whats-new-oct-2021-resource-based.md
@@ -298,6 +300,8 @@
               href: project-management/dev-copy-project.md
             - name: Projekti ajakava API-de kasutamine
               href: project-management/schedule-api-preview.md
+            - name: Projekti ajakava API jõudlus
+              href: project-management/project-schedule-api-performance.md
     - name: Ressursihaldus
       items:
         - name: Põhimõisted
@@ -802,6 +806,8 @@
               href: project-management/dev-copy-project.md
             - name: Projekti ajakava API-de kasutamine
               href: project-management/schedule-api-preview.md
+            - name: Projekti ajakava API jõudlus
+              href: project-management/project-schedule-api-performance.md
     - name: Ressursihaldus
       items:
         - name: Põhimõisted
@@ -1102,6 +1108,8 @@
       items:
         - name: Värskenduste väljalaske ajakava Project Service 3.x jaoks
           href: psa/version-history-ps.md
+        - name: 'Mis on uut või muutunud värskenduses 37, V3?'
+          href: psa/whats-new-ur-37.md
         - name: 'Mis on uut või muutunud värskenduses 36, V3?'
           href: psa/whats-new-ur-36.md
         - name: 'Mis on uut või muutunud värskenduses 35, V3?'

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 970fcc71b3ebe1489c676727598ebbb296e9c989
-ms.sourcegitcommit: 23f68542fb5913534f0f76529b843cd268dbd7f6
+ms.openlocfilehash: 493218d53075f3044adce47bed8ecdc031cca8e7
+ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "7623323"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7783418"
 ---
 # <a name="project-operations-updates"></a>Rakenduse Project Operations värskendused
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations koosneb kahest komponendist.
 
 | Project Operations Dataverse'i keskkonnas | Projektihaldus ja raamatupidamine Finance and Operationsi rakenduste keskkondades | 
 | --- | --- |
-| 4.25.0.91 | 10.0.20 |
+| 4.26.0.145 | 10.0.21 |
 
 Project Operationsi ressursipõhise/mittelaopõhise stsenaariumi puhul soovitame kasutada topeltkirjutuse korraldamise versiooni 2.2.2.83 või hilisemat.
 
@@ -47,23 +47,23 @@ Project Operationsi uuendused Dataverse'i keskkonnas on saadaval igakuiselt.
 | Jaam | Piirkond | Praegune versiooni number | Lihtjuurutuse automaatsed värskendused | Ressursi/mitteloapõhise juurutuse automaatsed värskendused | Järgmise versiooni number | Järgmine versioon üldiselt saadaval |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Jaam 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Esimene väljalase         |  4.25.0.91      | Lõpetatud           | Lõpetatud            | TBD                 | 29. oktoober 2021    |
+|   &nbsp;  | Esimene väljalase         |  4.26.0.145     | 12. november, 2021  | 19. november, 2021   | TBD                 | 03. detsember 2021   |
 | Jaam 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Lõuna-Ameerika         |  4.25.0.91      | Lõpetatud           | 15. oktoober 2021    | TBD                 | 29. oktoober 2021    |
-|   &nbsp;  | Kanada                |  4.25.0.91      | Lõpetatud           | 15. oktoober 2021    | TBD                 | 29. oktoober 2021    |
-|   &nbsp;  | India                 |  4.25.0.91      | Lõpetatud           | 15. oktoober 2021    | TBD                 | 29. oktoober 2021    |
-|   &nbsp;  | Prantsusmaa                |  4.25.0.91      | Lõpetatud           | 15. oktoober 2021    | TBD                 | 29. oktoober 2021    |
-|   &nbsp;  | Lõuna-Aafrika          |  4.25.0.91      | Lõpetatud           | 15. oktoober 2021    | TBD                 | 29. oktoober 2021    |
+|   &nbsp;  | Lõuna-Ameerika         |  4.26.0.145     | 12. november, 2021  | 19. november, 2021   | TBD                 | 03. detsember 2021   |
+|   &nbsp;  | Kanada                |  4.26.0.145     | 12. november, 2021  | 19. november, 2021   | TBD                 | 03. detsember 2021   |
+|   &nbsp;  | India                 |  4.26.0.145     | 12. november, 2021  | 19. november, 2021   | TBD                 | 03. detsember 2021   |
+|   &nbsp;  | Prantsusmaa                |  4.26.0.145     | 12. november, 2021  | 19. november, 2021   | TBD                 | 03. detsember 2021   |
+|   &nbsp;  | Lõuna-Aafrika          |  4.26.0.145     | 12. november, 2021  | 19. november, 2021   | TBD                 | 03. detsember 2021   |
 | Jaam 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Jaapan                 |  4.25.0.91      | 15. oktoober 2021   | 22. oktoober 2021    | TBD                 | 05. november, 2021   |
-|   &nbsp;  | Aasia ja Vaikse ookeani piirkond          |  4.25.0.91      | 15. oktoober 2021   | 22. oktoober 2021    | TBD                 | 05. november, 2021   |
-|   &nbsp;  | Suurbritannia         |  4.25.0.91      | 15. oktoober 2021   | 22. oktoober 2021    | TBD                 | 05. november, 2021   |
-|   &nbsp;  | Okeaania               |  4.25.0.91      | 15. oktoober 2021   | 22. oktoober 2021    | TBD                 | 05. november, 2021   |
-|   &nbsp;  | Araabia Ühendemiraadid  |  4.25.0.91      | 15. oktoober 2021   | 22. oktoober 2021    | TBD                 | 05. november, 2021   |
+|   &nbsp;  | Jaapan                 |  4.26.0.145     | 12. november, 2021  | 19. november, 2021   | TBD                 | 10. detsember 2021   |
+|   &nbsp;  | Aasia ja Vaikse ookeani piirkond          |  4.26.0.145     | 12. november, 2021  | 19. november, 2021   | TBD                 | 10. detsember 2021   |
+|   &nbsp;  | Suurbritannia         |  4.26.0.145     | 12. november, 2021  | 19. november, 2021   | TBD                 | 10. detsember 2021   |
+|   &nbsp;  | Okeaania               |  4.26.0.145     | 12. november, 2021  | 19. november, 2021   | TBD                 | 10. detsember 2021   |
+|   &nbsp;  | Araabia Ühendemiraadid  |  4.26.0.145     | 12. november, 2021  | 19. november, 2021   | TBD                 | 10. detsember 2021   |
 | Jaam 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Euroopa                |  4.14.0.99      | Lõpetatud           | Lõpetatud            | 4.25.0.91           | 15. oktoober 2021    |
+|   &nbsp;  | Euroopa                |  4.25.0.91      | Lõpetatud           | Lõpetatud            | 4.26.0.145          | 12. november, 2021   |
 | Jaam 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Põhja-Ameerika         |  4.14.0.99      | Lõpetatud           | 08. oktoober 2021    | 4.25.0.91           | 22. oktoober 2021    |
+|   &nbsp;  | Põhja-Ameerika         |  4.25.0.91      | Lõpetatud           | Lõpetatud            | 4.26.0.145          | 19. november, 2021   |
 
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Projektihalduse ja raamatupidamise väljalaske ajakava Finance and Operationsi rakenduste keskkonnas
@@ -72,14 +72,15 @@ Projektihalduse ja raamatupidamise värskendused avaldatakse kahekda korda aasta
 
 |Toetatud versioon| Eelversiooni saadavus (PEAP) | Üldiselt saadaval (ise värskendatav) | Automaatsete värskenduste ajakava (LCS-i värskenduse sätete kaudu) loomise alguskuupäev |   Teenuse osutamise lõpp   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|     10.0.22     |      3. september 2021      |        22. oktoober 2021           |                          5. november, 2021                            | 14. jaanuar 2022   |
 |    10.0.21      |         02. august 2021     |           17. september 2021      |                             1. oktoober 2021                          |  10. detsember 2021 |
-|    10.0.20      |         28. mai 2021        |           16. juuli 2021           |                             30. juuli 2021                            |  22. oktoober 2021  |
+
 
 Sihtväljalaske kuupäevad võivad muutuda. Lisateavet vaadake teemast [Teenuse värskenduste saadavus](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 |Sihtversioon | Eelversiooni saadavus (PEAP) | Üldiselt saadaval (ise värskendatav) | Automaatsete värskenduste ajakava (LCS-i värskenduse sätete kaudu) loomise alguskuupäev |   Teenuse osutamise lõpp   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.22     |      3. september 2021      |          22. oktoober 2021         |                           5. november, 2021                           |  14. jaanuar 2022  |
 |     10.0.23     |      15. oktoober 2021       |        10. detsember 2021          |                          31. detsember 2021                           | 18. märts 2022     |
+|     10.0.24     |      3. detsember 2021       |        14. jaanuar 2022           |                          4. veebruar 2022                            | 15. aprill 2022     |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
