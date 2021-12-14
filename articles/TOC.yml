@@ -58,6 +58,8 @@
           href: environment/uninstall-project-operations.md
     - name: Mis on uut
       items:
+        - name: November 2021 – Project Operations ressursipõhiste/mitteaktsiapõhiste stsenaariumite jaoks
+          href: whats-new/whats-new-nov-2021-resource-based.md
         - name: Oktoober 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: September 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
@@ -302,6 +304,8 @@
               href: project-management/schedule-api-preview.md
             - name: Projekti ajakava API jõudlus
               href: project-management/project-schedule-api-performance.md
+            - name: Projekti plaanimise logid
+              href: project-management/schedule-api-logs.md
     - name: Ressursihaldus
       items:
         - name: Põhimõisted
@@ -544,6 +548,8 @@
       items:
         - name: Mis on uut 2021 2. laine varajases juurdepääsus – lihtjuurutamine
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Mis on uut novembris 2021 – lihtjuurutamine
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: Mis on uut oktoobris 2021 – lihtjuurutamine
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: Mis on uut septembris 2021 – lihtjuurutamine
@@ -950,8 +956,12 @@
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
 - name: Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
   items:
-    - name: Mis on uut?
+    - name: Mis on uut
       items:
+        - name: Mis on uut oktoobris 2021 – Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: Mis on uut septembris 2021 – Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: Mis on uut juulis 2021 – Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: Mis on uut mais 2021 – Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
@@ -1108,6 +1118,8 @@
       items:
         - name: Värskenduste väljalaske ajakava Project Service 3.x jaoks
           href: psa/version-history-ps.md
+        - name: 'Mis on uut või muutunud värskenduses 37.5, V3?'
+          href: psa/whats-new-ur-37-5.md
         - name: 'Mis on uut või muutunud värskenduses 37, V3?'
           href: psa/whats-new-ur-37.md
         - name: 'Mis on uut või muutunud värskenduses 36, V3?'

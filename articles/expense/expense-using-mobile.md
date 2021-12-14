@@ -2,7 +2,7 @@
 title: Mobiilne kulude rakendus
 description: Selles teemas kirjeldatakse, kuidas kasutada kuluhalduse mobiilset tööruumi.
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 88251552a937f0a3a066e08b87dbd5f7b73c46c69776fbc788d37cc21fe73541
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
+ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993191"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7818178"
 ---
 # <a name="mobile-expense-app"></a>Mobiilne kulude rakendus
 
@@ -47,47 +47,14 @@ Saate kasutada järgmisi funktsioone.
 - Esitada kuluaruande kinnitamiseks ja hüvitamiseks.
 - Kinnitada või lükata tagasi kuluaruandeid, millele olete määratud kinnitajaks.
 
-## <a name="prerequisites"></a>Eeltingimused
-Eeltingimused erinevad sõltuvalt teie organisatsioonis juurutatud versioonist.
+## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Eeltingimused, kui kasutate Dynamics 365 Finance
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Eeltingimused, kui kasutate rakendust Dynamics 365 Finance 
 Kui teie organisatsiooni jaoks on juurutatud rakendus Finance, peab süsteemiadministraator avaldama mobiilse tööruumi **Kuluhaldus**. 
-
-### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Eeltingimused kui kasutate versiooni 1611 koos platvormi värskendusega 3 või hilisemaga
-Kui teie organisatsioonis on juurutatud versioon 1611 koos platvormi uuendusega 3 või hilisemaga, peab süsteemiadministraator lõpule viima järgmised eeltingimused. 
-
-<table>
-<thead>
-<tr class="header">
-<th>Eeltingimus</th>
-<th>Roll</th>
-<th>Kirjeldus</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>KB 4019015 rakendamine.</td>
-<td>Süsteemihaldur</td>
-<td>KB 4019015 on X++ värskendus või metaandmete kiirparandus, mis sisaldab mobiilset tööruumi <strong>Kuluhaldus</strong>. KB 4019015 rakendamiseks peab teie süsteemiadministraator järgima järgmisi juhiseid.
-<ol>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">DLaadima portaalist Lifecycle Services alla värskendused</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installige metaandmete kiirparandus</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Looma juurutatava paketi</a>, mis sisaldab mudeleid <strong>ApplicationSuite</strong> ja <strong>ExpenseMobile</strong>, ja seejärel laadima LCS-i üles juurutatav pakett.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Rakendage juurutatav pakett</a>.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Avaldama mobiilse tööruumi <strong>Kuluhaldus</strong>.</td>
-<td>Süsteemihaldur</td>
-<td>Vt <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Mobiilse tööruumi avaldamine</a>.</td>
-</tr>
-</tbody>
-</table>
 
 ## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Mobiilirakenduse Dynamics 365 Unified Ops allalaadimine ja installimine
 Mobiilirakenduse Dynamics 365 Unified Ops allalaadimine ja installimine.
 
-- [Androidi telefonidele](https://go.microsoft.com/fwlink/?linkid=850662)
+- [Android telefonide puhul](https://go.microsoft.com/fwlink/?linkid=850662)
 - [iPhone’idele](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Logige mobiilirakendusse sisse
@@ -103,11 +70,11 @@ Mobiilirakenduse Dynamics 365 Unified Ops allalaadimine ja installimine.
 3. Valige **Tee foto** või **Vali pilt**.
 4. Järgige ühte härgmistest sammudest.
 
-   - Kui valisite suvandi **Tee foto**, järgige järgmisi samme.
+    - Kui valisite suvandi **Tee foto**, järgige järgmisi samme.
 
-      1. Teid suunatakse oma mobiiliseadme kaamerasse, et saaksite teha kviitungist foto. 
-      2. Kui olete foto tegemise lõpetanud, valige foto aktsepteerimiseks **OK**.
-      3. Valikuline: sisestage foto nimi ja sisestage soovitud märkmed.
+        1. Teid suunatakse oma mobiiliseadme kaamerasse, et saaksite teha kviitungist foto. 
+        2. Kui olete foto tegemise lõpetanud, valige foto aktsepteerimiseks **OK**.
+        3. Valikuline: sisestage foto nimi ja sisestage soovitud märkmed.
 
     - Kui valisite suvandi **Vali pilt**, järgige järgmisi samme.
 
@@ -133,20 +100,20 @@ Mobiilirakenduse Dynamics 365 Unified Ops allalaadimine ja installimine.
 
 10. Valige nupp **Valmis**.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Kuluaruande kinnitamine kasutades mobiilset tööruumi Kuluhaldus (kui kasutate 2017. a juulu värskendust)
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Kuluaruande kinnitamine kuluhalduse mobiilse tööruumi abil
 
 1. Avage oma mobiiliseadmes tööruum **Kuluhaldus**.
 2. **Kulude kinnitused** kuvavad kuluaruannete arvu, mis on teile kinnitamiseks määratud. Seda arvu värskendatakse ligikaudu iga 30 minuti tagant. Valige **Kulude kinnitused**.
 
     Kuvatakse kuluaruannete loend, mis on teile kinnitamiseks määratud.
-    
+
 3. Valige kuluaruanne, et vaadata selle kulude üksikasju.
 4. Valige kulu, et vaadata selle üksikasju. Kulu kohta kuvatav teave sisaldab kogu kviitungi, külaliste ja üksikasjaliku loetelu üksikasju.
 5. Tagasi lehel **Kuluaruanne** valige kuluaruande kinnitamine või tagasi lükkamine.
 6. Sisestage kinnitamistoimingu mis tahes kommentaarid.
 7. Valige nupp **Valmis**.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Uue kuluaruande loomine loomine ja selle kinnitamiseks esitamine kasutades mobiilset tööruumi Kuluhaldus (kui kasutate 2017. a juuli värskendust)
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Looge uus kuluaruanne ja esitage see kinnitamiseks kuluhalduse mobiilse tööruumi abil
 
 1. Avage oma mobiiliseadmes tööruum **Kuluhaldus**.
 2. Valige **Kulu sisestamine**.
@@ -184,12 +151,12 @@ Mobiilirakenduse Dynamics 365 Unified Ops allalaadimine ja installimine.
                     1. Valige loendist pilt.
                     2. Valikuline: sisestage pildi nimi ja sisestage soovitud märkmed.
 
-            3.  Valige nupp **Valmis**.
+            3. Valige nupp **Valmis**.
 
         - Kui valisite suvandi **Manusta kviitung**, järgige järgmisi samme.
 
-            1.  Valige loendist üks või mitu pilti.
-            2.  Valige nupp **Valmis**.
+            1. Valige loendist üks või mitu pilti.
+            2. Valige nupp **Valmis**.
 
     3. Valige nupp **Tagasi**, et naasta kulude üksikasjadesse.
 
@@ -235,5 +202,30 @@ Mobiilirakenduse Dynamics 365 Unified Ops allalaadimine ja installimine.
 23. Sisestage kinnitaja jaoks mis tahes kommentaarid.
 24. Valige nupp **Valmis**.
 
+## <a name="frequently-asked-questions"></a>Korduma kippuvad küsimused
+
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Miks ei sisesta mobiilirakendus Kulu vaikimisi makseviisi?
+
+Organisatsioonid saavad iga loodud kulukategooria jaoks kohandada **makseviisi** vaikesättet. Lisaks saate makseviiside seadistamisel seada välja **Vaikimisi makseviis** **ainult impordiks**.
+
+Kui **makseviisi puhul on lubatud ainult importimine, ei** sisestata makseviisi vaikimisi. See on tühi kulukategooriates, kus see makseviis on seadistatud. Selline käitumine on järjepidev nii veebikogemuses kui ka mobiilses kogemuses.
+    
+Kui **maksemeetodi puhul pole lubatud ainult importimine,** sisestatakse määratud väärtus vaikimisi kulukategooriate jaoks, kus see makseviis on seadistatud. Siiski on teadaolev probleem, kus vaikeväärtust ei sisestata rakendusse Kulu mobiilirakendus. Selle probleemi lahendamiseks valige enne kuluaruande salvestamist käsitsi makseviis. 
+
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Miks ei saa mobiilirakenduses Kulu lisada või muuta finantsdimensioone?
+
+Dimensioonide ja jaotuste sisestamist ei toetata. Selle piiranguga töötamiseks saate need väljad mobiilirakenduses vaikimisi määrata, seadistades projekti või töötaja kohta finantsdimensioonid.
+
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Miks kuvatakse mobiilirakenduses Kulu mõnikord sünkroonimisviga?
+
+Kui kuluread ei vasta poliitikanõuetele ja kasutaja esitab kuluaruande poliitikahoiatust käsitlemata, ei sünkroonita mobiiliandmeid serveriga ja ilmneb sünkroonimise tõrge. Kõik kuluaruanded, mis esitatakse pärast sünkroonimise nurjumist, jäävad nurjunud olekusse ja põhjustavad rohkem sünkroonimise tõrkeid. Ainus viis selle olukorra parandamiseks on sünkroonimisteatiste käsitsi kustutamine. Seda probleemi on käsitletud, peatades kuluaruannete esitamise, kui poliitikahoiatusi pole käsitletud, nii et sünkroonimisvigu välditakse.
+
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Miks ei kajastu projekti ja kategooria valideerimine rakenduses Kulu õigesti?
+
+Seda kinnitamist praegu ei toetata. Kuid toetust võib tulevikus lisada. 
+
+### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Milliseid dokumenditüüpe toetatakse mobiilirakenduses Kulu?
+
+Rakendus Kulu toetab ainult pilte. Praegu ei toeta see PDF-e ega muid dokumente.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
