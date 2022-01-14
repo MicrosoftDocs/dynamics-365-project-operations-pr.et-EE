@@ -7,20 +7,20 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 20f277bc9b6f571c0144eaaa867bb97c0cf30ddb
-ms.sourcegitcommit: 04ebe764afa22742b3fbf8f12af31e8eea93682e
+ms.openlocfilehash: fb9dad5b04ef2933ed8a8d8211f888f13df5ba40
+ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7827321"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7942880"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Mis on uut novembris 2021 – Project Operations ressursi-/mittelaopõhiste stsenaariumite jaoks
 
 *Kehtib: ressursipõhiste/mitteladustatavate stsenaariumite jaoks*
 
-See teema kehtib järgmiste Microsoft Dynamics 365 Project Operations komponentide ja versioonide kohta.
+See teema kehtib järgmiste Microsofti komponentide ja versioonide Dynamics 365 Project Operations kohta.
 
-- Project Operations Dataverse keskkonnaversioonis 4.26.0.145, 4.26.0.148, või 4.26.0.150
+- Project Operations Dataverse keskkonnaversioonis 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
 - Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnaversioonis 10.0.22
 
 ## <a name="features-included-in-this-release"></a>Selles väljaandes sisalduvad funktsioonid
@@ -33,7 +33,7 @@ Selles väljaandes sisalduvad järgmised funktsioonid.
 
 Selles väljaandes ei ole Project Operationsi topeltkirjutuse kaartide jaoks värskendusi. Project Operationsi topeltkijrutusega kaartide praeguse loendi ja versioonide jaoks vaadake teemat [Project Operationsi topeltkirjutamise kaardi versioonid](/dynamics365/project-operations/environment/resource-dual-write-maps).
 
-Project Operationsi Dataverse lahenduse ja Finance lahenduse versiooni värskendamisel käivitage alati kaardi uusim versioon ja lubage kõik seotud tabelikaardid. Mõned funktsioonid ja võimalused ei pruugi õigesti töötada, kui kaardi uusim versioon pole aktiveeritud. Kaardi aktiivset versiooni saate vaadata veerust **Versioon** lehel **Topeltkirjutamine**. Kaardi uue versiooni aktiveerimiseks valige **Tabelivastenduse versioonid**, valige uusim versioon ja seejärel salvestage valitud versioon. Kui olete kohandanud kastist väljas oleva tabelikaardi, taotlege muudatused uuesti. Lisateabe saamiseks vt [Rakenduse elutsükli haldus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)
+Project Operationsi lahenduse ja Finance'i lahenduse versiooni värskendamisel käivitage alati kaardi uusim versioon ja lubage kõik seotud Dataverse tabelikaardid. Mõned funktsioonid ja võimalused ei pruugi õigesti töötada, kui kaardi uusim versioon pole aktiveeritud. Kaardi aktiivset versiooni saate vaadata veerust **Versioon** lehel **Topeltkirjutamine**. Kaardi uue versiooni aktiveerimiseks valige **Tabelivastenduse versioonid**, valige uusim versioon ja seejärel salvestage valitud versioon. Kui olete kohandanud kastist väljas oleva tabelikaardi, taotlege muudatused uuesti. Lisateabe saamiseks vt [Rakenduse elutsükli haldus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)
 
 Kui kaardi käivitamisel ilmneb probleem, järgige kahe [kirja tõrkeotsingu juhendi kaartide jaotises Puuduvad tabeliveerud olevaid](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) juhiseid.
 
@@ -67,7 +67,7 @@ Kui kaardi käivitamisel ilmneb probleem, järgige kahe [kirja tõrkeotsingu juh
 | Projektihaldus ja raamatupidamine | [596263](https://fix.lcs.dynamics.com/Issue/Details/?bugId=596263) | Kui hankija säilitamine on vabastatud, on kande sisestamisel lisaread, mis on valed. |
 | Projektihaldus ja raamatupidamine | [598758](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598758) | Project Operationsi integratsioonitöölehe konteerimisel nurjub see, kuna kontol puuduvad dimensioonid, mida ei konteerita. |
 | Projektihaldus ja raamatupidamine | [602650](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602650) | **Vahekaarti Projekt** ei saa ootel hankija arvel redigeerida, kui kaubale on määratud hankekategooria. |
-| Projektihaldus ja raamatupidamine | [605121](https://fix.lcs.dynamics.com/Issue/Details/?bugId=605121) | Navigeerimispaan puudub, kui te pole Project Operationsi Dataverse sisse logitud. |
+| Projektihaldus ja raamatupidamine | [605121](https://fix.lcs.dynamics.com/Issue/Details/?bugId=605121) | Navigeerimispaan puudub, kui te pole Project Operationsi sisse logitud Dataverse. |
 | Projektihaldus ja raamatupidamine | [602728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602728) | Kui konteerite projektiarve tulu rakendatud hoidu korpusesse, ilmneb probleem, kuna kande kande kanded ei tasakaalusta. |
 | Projektihaldus ja raamatupidamine | [603624](https://fix.lcs.dynamics.com/Issue/Details/?bugId=603624) | Hinnangu loomine pärast arvesoovituse konteerimist blokeerib parandusridade importimise. |
 | Projektihaldus ja raamatupidamine | [606083](https://fix.lcs.dynamics.com/Issue/Details/?bugId=606083) | Täielikult arveldatud vahe-eesmärgi kirje muutmine ei tohiks olla võimalik. |

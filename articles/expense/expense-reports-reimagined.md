@@ -1,8 +1,8 @@
 ---
-title: Ümberkujundatud kuluaruanded
+title: Ümberkujunetud kuluaruanded (sisaldab videot)
 description: Selles teemas kirjeldatakse ümberkujundatud kuluaruande kirjendamise kogemust.
 author: suvaidya
-ms.date: 07/08/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997826"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7941048"
 ---
 # <a name="expense-reports-reimagined"></a>Ümberkujundatud kuluaruanded
 
@@ -58,6 +58,7 @@ Uue keskkonna sisselülitamiseks kasutage tööruumi **Funktsioonihaldus**, et l
 | Uute kuluridade salvestamine ja lisamine | Uute kulude sisestamisel on saadaval nupud **Salvesta** ja **Uus**, et aidata teil kiiresti ridu sisestada. |
 | Jaotatud ja üksikasjalike ridade parem nähtavus | Üksikasjalikud ja tükeldatud read lisatakse otse kulude loendisse, et suurendada nähtavust ja aidata teil hõlpsalt kindlaks teha, kas esineb vigu. |
 | Täpsustatud ridadel alamkategooria üksikasjade vaatamine | Ülemkulu täpsustatud read näitavad kuluaruande alamkategooria silte. Täpsustamine aitab teil vaadata lühidalt täpsemaid üksikasju.|
+|Korduvate kulude kiire üksikasjalik loetlemine | Ümberkujundatud kulu tööruum võimaldab korduvaid kulusid kiiresti loetleda, lisades alamkategooria, alguskuupäeva ja koguse. Kogus viitab sellele, mitu korda tasu korduvat kogu perioodi jooksul. |
 | Täpsustamise ajal kviitungite kuvamine | Täpsustamise ajal saab kuvada kviitungeid. |
 | Avansimakse valik | Valige ühe kulutehingu täitmiseks üks või mitu avansimakset. |
 | Avansimakse saldo | Vaadake avansimakse saldo üle reaalajas, kui loote kinnitatud ja makstud sularahas tehtud avansimaksete suhtes kulukirje. |

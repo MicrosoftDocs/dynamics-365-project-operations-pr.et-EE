@@ -2,16 +2,16 @@
 title: Project Operationsi prooviversioonidele registreerumine
 description: Selles teemas kirjeldatakse, kuidas juurutada rakenduse Dynamics 365 Project Operations prooviversiooni.
 author: ruhercul
-ms.date: 10/04/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
-ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
+ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
+ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599208"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901612"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Project Operationsi prooviversioonidele registreerumine 
 
@@ -90,7 +90,8 @@ Enne alustamist logige brauserisse kasutaja töökontoga sisse selles rentnikus,
 4.  Valige juurutamise valideerimiseks vastavad Microsoft Dataverse’i URL ja teenuse Finance and Operations rakenduste URL-id.
 
 ## <a name="configuring-dual-write"></a>Topeltkirjutuse konfigureerimine
-Konfigureerige oma topeltkirjutuse vastendused ainult mittelaopõhiste materjalide juurutamistele. Lisateavet leiate teemast [Rakenduse Project Operations topeltkirjutamise vastenduse versioonid](resource-dual-write-maps.md).
+- Topeltkirjutus turberollide konfigureerimiseks lugege teavet teemast [Turbesätete värskendamine rakenduses Project Operations Dataverse](resource-provision-new-environment.md).
+- Kahe kirjutamiskaartide konfigureerimiseks lugege artiklit [Käivita Project Operationsi topeltkirjutuskaardid](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Litsentside määramine
 

@@ -7,20 +7,20 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e8560e7c7d6bae1bb2fda389a63bde1c57654bcb
-ms.sourcegitcommit: 04ebe764afa22742b3fbf8f12af31e8eea93682e
+ms.openlocfilehash: 0fd910fb1b1e4e4576afa386a600e56e6f2dd504
+ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7827276"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7942926"
 ---
 # <a name="whats-new-november-2021---project-operations-lite-deployment"></a>Mis on uus november 2021 - Project Operations lite juurutamine
 
 _Kohaldub: lihtjuurutus - tehing proforma arveldusega_
 
-See teema kehtib järgmiste Microsoft Dynamics 365 Project Operations komponentide ja versioonide kohta.
+See teema kehtib järgmiste Microsofti komponentide ja versioonide Dynamics 365 Project Operations kohta.
 
-- Project Operations Dataverse keskkonnaversioonis 4.26.0.145, 4.26.0.148, või 4.26.0.150
+- Project Operations Dataverse keskkonnaversioonis 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
   
 ## <a name="features-included-in-this-release"></a>Selles väljaandes sisalduvad funktsioonid
 
