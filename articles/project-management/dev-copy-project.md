@@ -2,16 +2,18 @@
 title: Projekti mallide arendamine funktsiooniga Kopeeri projekt
 description: Selles teemas antakse teavet selle kohta, kuidas kohandatud toimingut Kopeeri projekt kasutades projekti malle luua.
 author: stsporen
+manager: Annbe
 ms.date: 01/21/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d12301b4e7baabeb0f045f9a11d4695fc026339af3fa7650db7177c495c71e90
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 87696b41db20e9ec70270c850d9acfe05df8cd84
+ms.sourcegitcommit: d5004acb6f1c257b30063c873896fdea92191e3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989243"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5045004"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Projekti mallide arendamine funktsiooniga Kopeeri projekt
 
@@ -42,7 +44,7 @@ Olemas on kolm sisendparameetrit.
 - **{"clearTeamsAndAssignments":true}**: veebi projekti vaikekäitumine ja see eemaldab kõik ülesanded ja meeskonnaliikmed.
 - **{"removeNamedResources":true}** Project Operationsi vaikekäitumine ja see ennistab määramised üldistele ressurssidele.
 
-Lisateavet toimingute vaikeväärtuste kohta leiate teemast [Veebi API toimingute kasutamine](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+Lisateavet toimingute vaikeväärtuste kohta leiate teemast [Veebi API toimingute kasutamine](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)
 
 ## <a name="specify-fields-to-copy"></a>Määrake kopeeritavad väljad 
 Kui tegevus valitakse, vaatav suvand **Kopeeri projekt** projektivaadet **Kopeeri projekti veerud**, et määratleda, millised väljad projekti kopeerimisel kopeeritakse.
@@ -110,6 +112,3 @@ Järgmine näide näitab, kuidas kutsuda **CopyProsource'i** kohandatud toimingu
     }
 }
 ```
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

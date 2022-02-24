@@ -2,9 +2,10 @@
 title: Mis on Dynamics 365 Project Service Automation?
 description: Project Service'i sissejuhatus ja ülevaade
 author: stsporen
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 9/23/2019
 ms.topic: article
 ms.author: ruhercul
@@ -17,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a78d8a2085821d6ba44750cfdba909c2c38b42ff
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000256"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150528"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Mis on Dynamics 365 Project Service Automation?
 
@@ -46,10 +47,10 @@ Peale selle, et saate jälgida ja juhtida projektipõhise töö kulusid, saavad 
 ## <a name="whats-new-in-psa"></a>Mida on uut rakenduses PSA?
 Meeskonnal on hea meel teatada meie uusimatest värskendustest! Alates täiustustest kuni kasutajaliideseni, vigade parandamiseni ja oluliste uute funktsioonide ja võimaluste lisamiseni. Teie küsisite, meie kuulasime.
 
-Uusimatest täiustustest ja lisadest ülevaate saamiseks vaadake jaotist [Väljalaskemärkmed, oktoober 2019](/dynamics365-release-plan/2019wave2/index).
+Uusimatest täiustustest ja lisadest ülevaate saamiseks vaadake jaotist [Väljalaskemärkmed, oktoober 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index).
 
 ### <a name="in-development"></a>Arendamisel
-Selleks et näha, mida oleme kavandanud lähitulevikku, avage jaotis [Dynamics 365: 2020 väljalaskevoog, plaan 1](/dynamics365-release-plan/2020wave1/index).
+Selleks et näha, mida oleme kavandanud lähitulevikku, avage jaotis [Dynamics 365: 2020 väljalaskevoog, plaan 1](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Rakenduse PSA versiooni 3.x spikker
 Kas otsite ressursse, mis aitaksid juurutust plaanida? Vaadake neid allalaaditavaid juhiseid.
@@ -79,12 +80,9 @@ Kas otsite ressursse, mis aitaksid juurutust plaanida? Vaadake neid allalaaditav
 
  [Tehnilised ülevaated (rakenduse versioon 2.x või 1.x)](../psa/white-papers.md)
 
- [Märkused arendajatele (rakenduse versioon 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
+ [Märkused arendajatele (rakenduse versioon 2. x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
 
  ## <a name="watch-a-2-minute-overview-video"></a>Vaadake 2 minuti pikkust ülevaatlikku videot
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
+ <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

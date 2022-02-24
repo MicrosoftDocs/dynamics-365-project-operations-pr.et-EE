@@ -1,25 +1,29 @@
 ---
-title: Arve automaatse loomise häälestamine
-description: See teema sisaldab teavet näidisarvete automaatse loomise häälestamise ja konfigureerimise kohta.
+title: Arve automaatse loomise konfigureerimine – liht
+description: Selles teemas antakse teavet näidisarvete automaatse loomise konfigureerimise kohta.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1cce457fbc04ba9d3890d73439e6e7fd3db44d84a4498d5dc68ed82d362158b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997511"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176561"
 ---
-# <a name="set-up-automatic-invoice-creation"></a>Arve automaatse loomise häälestamine 
+# <a name="configure-automatic-invoice-creation---lite"></a>Arve automaatse loomise konfigureerimine – liht
  
-_**Kehtib järgmistele:** lihtjuurutamine – tehing näidisarveldusele, Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks_
+_**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
-Automaatse arve loomise saate konfigureerida rakenduses Dynamics 365 Project Operations. Süsteem loob iga projekti lepingu ja lepingurea jaoks arve ajakaval põhineva näidisarve mustandi. Arve ajakavad konfigureeritakse lepingurea tasemel. Igal lepingureal võib olla eraldi arve ajakava või saab igale lepingureale kaasata sama arve ajakava.
+Saate rakenduses Dynamics 365 Project Operations automaatse arve loomise konfigureerida. Süsteem loob iga projekti lepingu ja lepingurea jaoks arve ajakaval põhineva näidisarve mustandi. Arve ajakavad konfigureeritakse lepingurea tasemel. Igal lepingureal võib olla eraldi arve ajakava või saab igale lepingureale kaasata sama arve ajakava.
 
-Arve loomisel loob süsteem alati projekti lepingu kohta vähemalt ühe arve. Mõnel juhul luuakse mitu arvet. Näiteks kui lepingul on mitu klienti, luuakse sama arv arveid kui on kliente, kellel on selle projekti lepingu kohta arveldatavaid tehingud.
+Arve loomisel loob süsteem alati projekti lepingu kohta vähemalt ühe arve. Mõnel juhul luuakse mitu arvet.
+
+Näiteks kui lepingul on mitu klienti, luuakse sama arv arveid kui on kliente, kellel on selle projekti lepingu kohta arveldatavaid tehingud.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Tehingute arvesse kaasamise mõistmine 
 
@@ -87,6 +91,3 @@ Arvete loomiseks kasutatav pakktöötluse töö on korduv töö. Kui seda pakkt�
 
 > [!NOTE]
 > Project Operationsis pakett-arveldamine töötab ainult projekti lepinguridade jaoks, mis on arvegraafikute poolt konfigureeritud. Fikseeritud hinnaga arveldusmeetodiga lepingureal peavad olema seadistatud vahe-eesmärgid. Aja- ja materjalikulu arveldusmeetodiga projekti lepingurea jaoks peab olema seadistatud kuupäevapõhine ajakava.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

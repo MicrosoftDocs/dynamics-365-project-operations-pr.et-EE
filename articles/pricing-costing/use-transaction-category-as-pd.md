@@ -2,16 +2,18 @@
 title: Kandekategooria kasutamine hinnakujunduse dimensioonina
 description: Selles teemas antakse teavet selle kohta, kuidas kasutada välja Kandekategooria hinnakujunduse dimensioonina.
 author: rumant
+manager: tfehr
 ms.date: 11/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ab8093aca9a33bbbaef41c6fc7d33cad930bfadd13b0f7587c3de9032ac0d630
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bace11455d34fdda95e08be1a7cc37850a0cf589
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996116"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513976"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Kandekategooria kasutamine hinnakujunduse dimensioonina
 
@@ -48,6 +50,3 @@ Järgmises tabelis on toodud olemite kaupa kõik valmiskujul vormid ja vaated. L
 2. Kontrollige, kas lehe **Parameetrid** vahekaardil **Summapõhised hinnakujunduse dimensioonid** näitab vahekaardil olev ruudustik olemi **Hinnakujunduse dimensioonid** kirjeid.
 3. Lisage sellesse loendisse **Kandekategooria** ja seadke väljade **Kehtib kulu kohta** ja **Kehtib müügi kohta** väärtusteks **Jah**.
 4. Valige väljast **Dimensiooni tüüp** väärtus **Summapõhine** ja seejärel valige suvandi **Kandekategooria** jaoks prioriteet, kui see on seotud kulu ja müügiga.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

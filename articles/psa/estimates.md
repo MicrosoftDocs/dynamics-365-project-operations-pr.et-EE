@@ -2,6 +2,8 @@
 title: Hinnangud
 description: Selles teemas antakse teavet hinnangute kohta rakenduses Dynamics 365 Project Service Automation.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2fa81067ad6e7c291b9ad9468db051e8f6187da9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992381"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151428"
 ---
 # <a name="estimates"></a>Hinnangud
 
@@ -83,27 +85,24 @@ Kui lisasite hinnapakkumise rea üksikasjadesse kohandatud välja ja soovite, et
 1. Avage PluginRegistrationTool ja looge ühendus võrgueksemplariga.
 2. Valige **Otsi** ja otsige lisandmoodulit, mida soovite värskendada.
 
-    ![Otsingupuu dialoogiboks.](media/basic-guide-19.png)
+    ![Otsingupuu dialoogiboks](media/basic-guide-19.png)
 
 3. Valige lisandmoodul ja seejärel valige avalehel suvand **Vali**.
 4. Valige värskendamiseks lisandmooduli etapp, paremklõpsake nuppu ja seejärel valige **Värskenda**.
 
-    ![Etapi valimine lisandmoodulis.](media/basic-guide-20.png)
+    ![Etapi valimine lisandmoodulis](media/basic-guide-20.png)
 
 5. Valige dialoogiboksis **Värskenda olemasolevat etappi** väljal **Filtreerimise atribuudid** kolmikpunkt (**...**).
  
-    ![Olemasoleva etapi värskendamise dialoogiboks.](media/basic-guide-21.png)
+    ![Olemasoleva etapi värskendamise dialoogiboks](media/basic-guide-21.png)
 
 6. Valige dialoogiboksis **Vali atribuudid** märkeruudud kohandatud atribuutide jaoks.
 
-    ![Atribuutide valimise dialoogiboks.](media/basic-guide-22.png)
+    ![Atribuutide valimise dialoogiboks](media/basic-guide-22.png)
 
 7. Valige dialoogiboksi sulgemiseks nupp **OK**, seejärel valige **Värskenda etappi**.
  
-    ![Etapi värskendamise nupp.](media/basic-guide-23.png)
+    ![Etapi värskendamise nupp](media/basic-guide-23.png)
 
 8. Korrake etappe 1–7 teise lisandmooduli jaoks.
 9. Sulgege PluginRegistrationTool.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

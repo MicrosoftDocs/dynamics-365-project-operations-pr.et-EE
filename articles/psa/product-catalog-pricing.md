@@ -2,6 +2,8 @@
 title: Tootekataloogi hinnakiri
 description: Selles teemas antakse teavet tootekataloogi hinna kohta rakenduses Dynamics 365 Project Service Automation (PSA).
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3fb9b51d58cbe3b0db6dad902461b90ac04cc42f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000166"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151203"
 ---
 # <a name="product-catalog-pricing"></a>Tootekataloogi hinnakiri 
 
@@ -44,7 +46,7 @@ Tooteid saate tootekataloogist lisada erinevatesse hinnakirjadesse. Toodete hinn
 
 PSA toetab mitmesuguseid ümardamise võimalusi, kui hinnad on konfigureeritud loendi hinna, standardkulu või praeguse kulu funktsioonina. Lisaks mitme hinna meetodi ja ümardamise suvandi kasutamisele saate allahindluse loendeid seostada hinnakirja üksustega. 
 
-> ![Toodete lisamine tootekataloogist erinevatesse hinnakirjadesse.](media/basic-guide-16.png)
+> ![Toodete lisamine tootekataloogist erinevatesse hinnakirjadesse](media/basic-guide-16.png)
 
 Kui loote hinnapakkumise jaoks uue kohandatud hinnakirja, valides lehel **Projekti hinnapakkumine** valiku **Kohandatud hinnakiri**, teeb PSA hinnakirja koopia ning uue hinnakirja päise välja **olem** väärtuseks seatakse **Müügiolem**. Uue hinnakirja nimi lisatakse hinnapakkumise nimele ja ajatemplile. Samuti saate kasutada uue hinnakirja nime ja hinnapakkumise nime kohandatud töövoogudes, et käivitada kohandatud hinnakujundust kasutavatele hinnapakkumistele täiendavat ülevaadet ja kinnitusi.
 
@@ -62,6 +64,3 @@ Müügivõimaluse, hinnapakkumise ja projekti lepingu olemid kasutavad vaikimisi
 Vaikimisi loetleb hinnapakkumise väli **Toode** kõik hinnapakkumise toodete hinnakirja aktiivsed tooted. Kui toode on inaktiveeritud või kui see on toote mustand, siis seda loendis pole, isegi kui see on hinnakirjas. 
 
 Tootekataloogi read lisatakse arve ridadena esimesel arvel, mis on loodud projekti lepingu jaoks. Arve mustandi korral saab neid arve ridu kustutada. Sel juhul kuvatakse read järgneval arvel, kuni need arveldatakse, või kuni kliendile saadetakse arve. PSA puhul ei saa arve rea osalist kogust arveldada. Kui projekti lepingujärgsed toote seeriad on arveldatud, luuakse tegelikud näitajad. Need tegelikud näitajad pole seostatud projekti olemiga lingitud. Teisisõnu ei sõltu tootepõhise projekti lepinguread mis tahes projektil põhinevast kasutusest. PSA ei jälgi materjalide tarbimist projektides.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Mitme kliendi haldamine projekti hinnapakkumises
 description: Selles teemas antakse teavet mitmut projekti rahastavat klienti hõlmavate hinnapakkumistega töötamise kohta.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: eef3e8754cdfdb810ffd5283976445edbb126b51e20d5b51d603d2ba9e2c02c9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991976"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181987"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Mitme kliendi haldamine projekti hinnapakkumises
 
@@ -21,7 +23,7 @@ Projekti hinnapakkumised toetavad stsenaariumit, kus ettepanek hõlmab mitut lep
 
 Kõik hinnapakkumise vahekaardil **Kliendid** olevad hinnapakkumise kliendid on vaikimisi hinnapakkumise rea kliendid mis tahes hinnapakkumise jaoks loodava **uue** projektipõhise hinnapakkumise ridade puhul. Kõik olemasolevad projektipõhised hinnapakkumise read ei päri pärast neid loodud uusi hinnapakkumise kliendikirjeid.
 
-Hinnapakkumise kliendid ja hinnapakkumise rea kliendid saab enne hinnapakkumise võitmist igal ajal lisada, ajakohastada või kustutada. Hinnapakkumise kehtiv klient peab olema seadistatud kliendina omanikust ettevõtte või juriidilise olemi lehel **Klidendid**. Juriidilised olemid häälestatakse rakenduse Dynamics 365 Project Operations moodulis **Projektihaldus ja raamatupidamine** ning tehakse ettevõtetena kättesaadavaks Project Operationsi moodulites **Projekti müük ja kohaletoimetamine**.
+Hinnapakkumise kliendid ja hinnapakkumise rea kliendid saab enne hinnapakkumise võitmist igal ajal lisada, ajakohastada või kustutada. Hinnapakkumise kehtiv klient peab olema seadistatud kliendina omanikust ettevõtte või juriidilise olemi lehel **Klidendid**. Juriidilised olemid seadistatakse rakenduse Dynamics 365 Project Operations moodulis **Projektihaldus ja raamatupidamine** ja tehakse rakenduse Project Operations moodulites **Projekti müük ja kohaletoimetamine** ettevõtetena kättesaadavaks.
 
 ## <a name="concept-of-a-primary-customer"></a>Peamise kliendi kontseptsioon
 
@@ -49,6 +51,3 @@ Hinnapakkumise klienti saab luua, uuendada või kustutada lehe **Hinnapakkumine*
 Saate muuta arveldamise jagamise protsente, kasutades reasisese ruudustiku redigeerimise kogemust. Kui arvelduse jagamise protsentide summa ei ole kokku 100%, esineb tõrge. Pärast arveldamise jagamise protsentide värskendamist värskendage lehte, et viga eemaldada.
 
 Võite proovida ka valida hinnapakkumise kliend andmeruudustikus suvand **Jaota ühtlaselt**. See toiming määrab arveldamise jaotamise kõigile hinnapakkumiste klientidele. Kui esineb ümardamise tegur, lisatakse see ümardamise kliendile. Üks hinnapakkumise klientidest on alati märgistatud kui ümardatav klient. See tähendab, et hinnapakkumise kliendi kirjel on lipu **Ümardamine** väärtuseks määratud **Jah**. Tavaliselt on see hinnapakkumise peamine klient, kuid seda saab muuta.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

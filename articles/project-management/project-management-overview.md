@@ -1,18 +1,19 @@
 ---
 title: Projekti haldamise ülevaade
-description: Selles teemas antakse teavet projektihalduse sätete kohta rakenduses Dynamics 365 Project Operations.
+description: Selles teemas antakse teavet projektihaldusest Dynamics 365 Project Operationsis.
 author: ruhercul
+manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: f728b3665770e65357f85a5c6da3fb8aecd7923d57baddb4e4c720fcc920ee01
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c2bca0c7dfc957753f0d05f9a3b5cc45bc13b920
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990986"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127558"
 ---
 # <a name="project-management-overview"></a>Projekti haldamise ülevaade
 
@@ -25,6 +26,3 @@ Rakenduse Dynamics 365 Project Operations projektihalduse tööriistad aitavad t
 - Projekti prognooside kasutamine müügiprotsessi käigus.
 - Ressursinõuete prognoosimine konveieril olevate projektide jaoks.
 - Projektide edukaks elluviimine edenemise ja tarbitud kulude jälgimise kaudu.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

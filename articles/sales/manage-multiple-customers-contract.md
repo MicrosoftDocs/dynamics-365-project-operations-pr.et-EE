@@ -2,16 +2,18 @@
 title: Mitme kliendi haldamine projekti lepingutes
 description: See teema sisaldab teavet selle kohta, kuidas hallata projektilepingud mitut klienti.
 author: rumant
+manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1adb786c36d43a148e8c5a8b25ded5a997557119f7e6e9e2248935ad4ed211d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5554cb062710c3587d81b1a29771a7af84d2d05f
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992066"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643160"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Mitme kliendi haldamine projekti lepingutes
 
@@ -45,6 +47,3 @@ Saate lepingu kliendi luua, uuendada või kustutada lehe **Leping** vahekaardil 
 Saate redigeerida arveldamise jaotumist redugeerides ruudustikku. Kui arveldamise jaotumise protsentide kogusumma ei ole 100 protsenti, ilmneb tõrge. Pärast arveldamise jaotumise protsendi muutmist värskendage leht **Projektileping** tõrke eemaldamiseks.
 
 Võite ka valida projektilepingu kliendi andmeruudustikus suvandi **Jaota ühtlaselt**. Arveldamise jaotumised on jaotatud ühtlaselt kõikide projektilepingu klientide vahel. Kui esineb mis tahes ümardamise tegur, lisatakse tegur ümardamise kliendile. Ühel lepingu kliendil on alati suvandi **Ümardamine** määratud valikule **Jah**. See klient on ümardav klient. Tavaliselt on ümardatav klient ka lepingu peamine klient, kuid seda pole vaja.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

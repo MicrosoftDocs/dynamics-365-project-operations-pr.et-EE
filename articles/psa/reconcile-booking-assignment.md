@@ -2,6 +2,8 @@
 title: Broneeringute ja määramiste vastavusse viimine
 description: Selles teemas antakse teavet tegelike näitajate kohta.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 264271a5be63cb2e51f175595a48bef5fbff0a42a37795c85dd5b4725deec35e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9528bd983e6e18197138f0720abccdc6d6fa1ed5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995126"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147918"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Broneeringute ja määramiste vastavusse viimine
 
@@ -51,11 +53,11 @@ Mõnel juhul, kui väli **Ajaskaala** on määratud tasemele, mis on suurem kui 
 
 Kõrgemate ajatasemete vaatamisel kuvatakse vahekaardil **Vastavusseviimine** lahtrite indikaator, mis teavitab teid, et madalamatel ajatasemetel on erinevusi. Näiteks kuvatakse järgmisel joonisel lahtri indikaator 2018. aasta oktoobrikuu lahtris ressursile, mille nimi on Iris Mäe. Seega näete, et kuigi ressursi broneeringud ja määramised on tasemel **Kuu** summeerituna võrdsed, ei ühti need madalamatel tasemetel.
 
-![Lahknevad broneeringud ja määramised igakuisel tasemel.](media/reconcile-assignments-01.JPG)
+![Sobimatud broneeringud ja määramised igakuisel tasemel](media/reconcile-assignments-01.JPG)
 
 Topeltklõpsake lahtrit, et suumida järgmisele madalamale tasemele ja vaadata erinevust. Näiteks kui topeltklõpsate 2018. aasta oktoobrikuu erinevust Iris Mäe jaoks, lähete süvitsi tasemele **Nädal**. Seejärel näete, et ressursil on broneeritud 16 tundi, kuid oktoobri kahel esimesel nädalal pole ühtegi määramist, ja on 16 tundi määramisi, kuid mitte ühtegi broneeringut oktoobri kolmandal nädalal.
 
-![Lahknevad broneeringud ja määramised iganädalasel tasemel.](media/reconcile-assignments-02.JPG)
+![Sobimatud broneeringud ja määramised iganädalasel tasemel](media/reconcile-assignments-02.JPG)
 
 Järgmiselt kõrgemalt tasemelt välja suumimiseks saate lahtrit paremklõpsata. Samuti saate lahtri indikaatori välja lülitada, kui valite nupu **Sätted**. 
 
@@ -68,13 +70,13 @@ Selleks et tagada täpsed ja prognoositavad tulemused broneeringu pikendamisel, 
 
 - Kasutaja peab konfigureerima oma seadme ajavööndi, et see vastaks teie süsteemi isikupärastamise sätetes määratletud ajavööndile.
  
-  ![Ajavööndi sätted operatsioonisüsteemis Windows 10.](media/reconcile-assignments-03.png)
+  ![Ajavööndi sätted operatsioonisüsteemis Windows 10](media/reconcile-assignments-03.png)
 
-  ![Ajavööndi sätted isikupärastamise sätetes.](media/reconcile-assignments-04.png)
+  ![Ajavööndi sätted isikupärastamise sätetes](media/reconcile-assignments-04.png)
  
 - Broneeritaval ressursil peab olema vähemalt üks minut tööaega, mis kattub kontuuridega, mida kasutatakse taotletud laienduse määratlemiseks. Näiteks on järgmises näites toodud ülevaate ressursse tööajaga, mis jääb vahemikku 9:00 ja 19:00. 
 
-  ![Ressursi kontuuride võrdlus.](media/reconcile-assignments-05.png)
+  ![Ressursi kontuuride võrdlus](media/reconcile-assignments-05.png)
 
 Järgnev tabel näitab järgmist.
 
@@ -83,22 +85,19 @@ Järgnev tabel näitab järgmist.
 - Ressursid B: see ressurss asub erinevas ajavööndis kui projekt ja seetõttu algab oma ajavööndis kell 7:00. Kuid broneeringud algavad kell 9:00, kuna see on määramise kontuuri varaseim alguskellaaeg.
 - Ressursid C ja D: ressursid asuvad ka erinevates ajavööndites, nii üksteisest kui ka projektist erinevates, ning nende broneeringud ei alga varem kui nende vastavad saadaolevad alguskellaajad.
 
-|Entity  |Kalender  |
+|Olem  |Calendar  |
 |-|-|
-|Projekti kalendri mall   | ![projekti kalender.](media/reconcile-assignments-06.png) |
-|Ressurss A  | ![Ressursi A kalender.](media/reconcile-assignments-06.png) |
-|Ressurss B  |  ![Ressursi B kalender.](media/reconcile-assignments-07.png) |
-|Ressurss C  |  ![Ressursi C kalender.](media/reconcile-assignments-08.png) |
-|Ressurss D  | ![Ressursi D kalender.](media/reconcile-assignments-09.png)  |
+|Projekti kalendri mall   | ![projekti kalender](media/reconcile-assignments-06.png) |
+|Ressurss A  | ![Ressursi A kalender](media/reconcile-assignments-06.png) |
+|Ressurss B  |  ![Ressursi B kalender](media/reconcile-assignments-07.png) |
+|Ressurss C  |  ![Ressursi C kalender](media/reconcile-assignments-08.png) |
+|Ressurss D  | ![Ressursi D kalender](media/reconcile-assignments-09.png)  |
  
 Kui liigute vastavusse viimise vaatesse, siis kuvatakse ressursimääramisi ja seotud broneeringu puudujääke.
- ![Vastavusseviimise vaade enne pikendamist.](media/reconcile-assignments-10.png)
+ ![Vastavusseviimise vaade enne pikendamist](media/reconcile-assignments-10.png)
 
 Pärast broneeringu pikendamise funktsiooni käivitamist iga ressursi puhul, pikendatakse edukalt iga ressursi broneeringuid. Põhjus on selles, et iga ressursi tööaeg kattus puudujäägi kontuuriga.
- ![Vastavusseviimise vaade pärast broneeringu pikendamist.](media/reconcile-assignments-11.png) 
+ ![Vastavusseviimise vaade pärast broneeringu pikendamist](media/reconcile-assignments-11.png) 
 
 Kuid broneeringute üksikasjade täpsem vaatlemine näitab erinevusi broneeringute algusajas. Broneeringud ei alga varem kui määramise kontuuri alguskellaaeg ega varem kui ressursi saadaolev alguskellaaeg.
- ![Ajakavapaneelil olevate ressursside uued broneeringud.](media/reconcile-assignments-12.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ ![Ajakavapaneelil olevate ressursside uued broneeringud](media/reconcile-assignments-12.png)

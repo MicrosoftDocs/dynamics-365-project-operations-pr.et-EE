@@ -2,9 +2,11 @@
 title: Valuuta
 description: See teema sisaldab teavet selle kohta, kuidas lisada ja eemaldada Project Operationsis valuuta tüüpe.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 0a5ae29f1a11f62c6edfca64c4751338f42a26f24c4f8230018b0b45a4ee2ddb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 093eaa78b5f88aee364a753374a56c33e20a5ce3
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999581"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642268"
 ---
 # <a name="currency"></a>Valuuta
 
@@ -69,6 +71,3 @@ Enne selle toimingu käivitamist kontrollige, et teie turberoll sisaldab süstee
 
 > [!IMPORTANT]
 >  Te ei saa kustutada valuutasid, mida kasutavad teised kirjed; need saab ainult inaktiveerida. Inaktiveerimisel ei eemaldata olemasolevates kirjetes (nt müügivõimalustes või tellimustes) talletatud valuutateavet. Kuid te ei saa valida inaktiveeritud valuutat uute kannete jaoks.  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

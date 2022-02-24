@@ -2,6 +2,8 @@
 title: Projekti edenemine ja kulu tarbimine
 description: Selles teemas kirjeldatakse projekti edenemise ja tarbitud kulude jälgimist.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/21/2020
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8bde19fbf1dd9f0c760455ecb7f7f2bd14a358d441bf024ec0cdefa42866f53e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0b69cee49e028b98bbb32e4a7e7aedf5479527dc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987161"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148008"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Projekti edenemine ja kulu tarbimine
 
@@ -96,6 +98,3 @@ Andmete jälitamine vaadetes **Panuse jälgimine** ja **Kulude jälgimine** kuva
 Väli **Üldine projekti olek** on redigeeritav väli, mis kuvab projekti üldise oleku. See kasutab kasvavale ohule viitamiseks värvkodeerimist (nt roheline, kollane ja punane). Väli **Kommentaarid** võimaldab projektijuhil sisestada oleku kohta konkreetseid märkuseid. Väli **Olekut värskendatud** pole redigeeritav ja väärtus on ajatempel, mis näitab, millal olekut viimati värskendati.
 
 Väljad **Ajakava täitmine** ja **Kulude täitmine** määratakse jälgimise kuupäevast. Kui vaates **Panuse jälgimine** on juursõlme ajakava ja kuluhälve positiivsed, saate need väljad määrata väärtusele **Ees**. Kui juursõlme ajakava ja kuluhälve on negatiivsed, saate need määrata väärtusele **Taga**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

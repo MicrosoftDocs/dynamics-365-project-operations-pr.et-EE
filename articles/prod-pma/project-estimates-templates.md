@@ -2,9 +2,11 @@
 title: Projekti prognooside sünkroonimine otse rakendusest Project Service Automation rakendusse Finance and Operations
 description: Selles teemas kirjeldatakse malle ja aluseks olevaid tööülesandeid, mida kasutatakse projekti kestuse prognooside ja projekti kuluprognooside sünkroonimiseks otse rakendusest Microsoft Dynamics 365 Project Service Automation rakendusse Dynamics 365 Finance.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 336de474c859d30d1ec07ae34bf0c3d578faeef1
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988196"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075084"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Projekti prognooside sünkroonimine otse rakendusest Project Service Automation rakendusse Finance and Operations
 
@@ -38,7 +40,7 @@ Project Service Automationist Finance’i integreerimise lahendus kasutab andmet
 
 Järgmisel joonisel on näidatud, kuidas andmeid rakenduste Project Service Automation ja Finance vahel sünkroonitakse.
 
-[![Andmevoog Project Service Automationi integreerimiseks rakendusega Finance.](./media/ProjectEstimatesFlow.png)](./media/ProjectEstimatesFlow.png)
+[![Andmevoog Project Service Automationi integreerimiseks rakendusega Finance](./media/ProjectEstimatesFlow.png)](./media/ProjectEstimatesFlow.png)
 
 ## <a name="project-hour-estimates"></a>Projekti kestuse prognoosid
 
@@ -95,7 +97,7 @@ Peate lisama filtri, et eemaldada kõik read, kus kandekategooriad on tühjad. S
 
 Järgmisel joonisel on toodud andmete integratsioonis malli ülesande vastendamise näide. Vastendus näitab välja teavet, mis sünkroonitakse Project Service Automationist rakendusse Finance.
 
-[![Malli ülesande vastendamine andmete integratsioonis.](./media/ProjectHourEstimatesMapping.jpg)](./media/ProjectHourEstimatesMapping.jpg)
+[![Malli ülesande vastendamine andmete integratsioonis](./media/ProjectHourEstimatesMapping.jpg)](./media/ProjectHourEstimatesMapping.jpg)
 
 ## <a name="project-expense-estimates"></a>Projekti kuluprognoosid
 
@@ -165,9 +167,6 @@ vastasel juhul **null**
 
 Järgmisel joonisel on toodud andmete integratsioonis malli ülesande vastendamiste näited. Vastendus näitab välja teavet, mis sünkroonitakse Project Service Automationist rakendusse Finance.
 
-[![Kuluprognoosi kannete malli vastendamine.](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
+[![Kuluprognoosi kannete malli vastendamine](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
-[![Kuluprognoosi malli vastendamine.](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Kuluprognoosi malli vastendamine](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)

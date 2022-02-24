@@ -2,6 +2,8 @@
 title: Projekti oleku jälgimine
 description: Projekti oleku jälgimine Project Service’is
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32e5867a773206aaed532645302b7f7cc789d5074f9acdb3bbb95acf8492d25e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e9c8b594d468016264d0b4d9745597a35f55e50e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996701"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149583"
 ---
 # <a name="track-a-projects-status-project-service"></a>Projekti oleku jälgimine (Project Service)
 
@@ -56,6 +58,3 @@ Tegevuste edenedes värskendatakse projekti etappe, kajastades tegevuste etappi.
 
 ### <a name="see-also"></a>Vt ka  
  [Projektijuhi juhend](../psa/project-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

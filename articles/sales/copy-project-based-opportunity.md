@@ -2,16 +2,18 @@
 title: Projektipõhiste müügivõimaluste kopeerimine
 description: Selles teemas antakse teavet rakenduses Project Operations projektipõhiste müügivõimaluste kopeerimise kohta.
 author: rumant
+manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 83fe41cb16be6bdd91219fc59e517ae0e5848afec5f771edde575bb5c24f9865
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 26ae5cc267bb06f958bbf9cdce2d80ccde9d3d24
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999716"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181630"
 ---
 # <a name="copy-project-based-opportunities"></a>Projektipõhiste müügivõimaluste kopeerimine
 
@@ -32,6 +34,3 @@ Projekti müügivõimalusi saab hõlpsasti kopeerida, et luua uusi projekti mü�
     | Hinnakujunduse kopeerimine | Jah/ei väärtus, mis näitab, kas müügivõimaluse hinnakiri tuleks kopeerida lähtemüügivõimalusest. | Kui valite suvandi **Jah**, kopeeritakse hinnakirjad lähtemüügivõimalusest sihtmüügivõimalusele. Kui valite suvandi **Ei**, määratakse hinnakirjad uuesti vaikeväärtustele uusimate hinnakirjade põhjal. |
 
 3. Valige **OK**. Süsteem loob valitud parameetrite põhjal projekti müügivõimaluse koopia ja avatakse uus projekti müügivõimalus.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

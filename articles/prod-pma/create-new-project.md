@@ -2,9 +2,11 @@
 title: Uue projekti loomine
 description: Selles teemas antakse teavet uue projekti loomise kohta.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985946"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270718"
 ---
 # <a name="create-a-new-project"></a>Uue projekti loomine
 
@@ -51,9 +53,9 @@ Saate ressursile määrata kategooriaid ka vastavalt vajadusele. Kategooria tü�
 
 Projektijuht saab projekti jaoks vajalike rollide loomiseks kasutada projekti ressursside funktsiooni. Rolle saab kasutada juhul, kui kinnitatud ressursid on ressursside reserveerimisel endiselt tundmatud. Rolle saab ajutiselt reserveerida plaanitud ressurssidena, et saaksite projekti kavandamise etappidega jätkata.
 
-[![Rolli näide.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![Rolli näide](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**Stsenaarium:** ettevõte Contoso palgati aega ja materjali hõlmava projekti lõpuleviimiseks, mis omab kinnitatud projekti renti. Noorem-projektijuht endiselt lõpetab projekti ulatust. Ressursihaldur määratleb praegu konkreetsed ressursid, mis reserveeritakse uue projektiga töötamiseks. Projekti kriitilise iseloomu tõttu taotles projekti sponsor ühe rollina vanem-projektijuhti. Ressursihaldur peab hankima uue ressursi ja määrama süsteemis rolli juhul, kui noorem-projektijuht vajab projekti kavandamise ajal ressursi teavet.
+**Stsenaarium:** Contoso palgati lõpetama aja- ja materjalikulu projekti, millel on kinnitatud projekti põhikiri. Noorem-projektijuht endiselt lõpetab projekti ulatust. Ressursihaldur määratleb praegu konkreetsed ressursid, mis reserveeritakse uue projektiga töötamiseks. Projekti kriitilise iseloomu tõttu taotles projekti sponsor ühe rollina vanem-projektijuhti. Ressursihaldur peab hankima uue ressursi ja määrama süsteemis rolli juhul, kui noorem-projektijuht vajab projekti kavandamise ajal ressursi teavet.
 
 Järgmised juhised näitavad, kuidas ressursihaldur saab seadistada vanem-projektijuhi rolli ja seostada ressursi omadused sellega. Hiljem saab rolli kasutada saadaolevate ressursside otsimiseks, mis vastavad ressursi nõutavatele pädevustele.
 

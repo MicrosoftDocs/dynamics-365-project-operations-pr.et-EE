@@ -2,16 +2,18 @@
 title: Projektide kulude finantsprognoosid
 description: Selles teemas antakse teavet projektipõhiste kulude määratlemise või prognoosimise kohta.
 author: rumant
+manager: Annbe
 ms.date: 03/19/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f4d42724af61aa241671e8dacacbe2be5a7d531f55c2025a89ff777ac41e9b67
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ad4901b1264289f1da881154bc147fc3f8da698f
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987836"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701777"
 ---
 # <a name="financial-estimates-for-expenses-on-projects"></a>Projektide kulude finantsprognoosid
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_

@@ -2,17 +2,18 @@
 title: Rakenduse Project Operations ladustamise-/tootmispõhiste stsenaariumite jaoks juurutamise ülevaade
 description: Selles teemas antakse teavet juurutuse tüübi kohta Project Operationsi ladustamise-/tootmispõhistes stsenaariumides.
 author: rumant
+manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 06775a41b17fab5cd7a72d6cfbb92cb7608b6cc2411eb96bd67513e1de10ad63
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7bad4de10a508f0c1aa2cc6bb0c41081f81fb259
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009076"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365450"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Rakenduse Project Operations ladustamise-/tootmispõhiste stsenaariumite jaoks juurutamise ülevaade
 
@@ -42,6 +43,3 @@ Valige see juurutamise tüüp, et kasutada rakendust Dynamics 365 Project Operat
 - Ettevõtte tasemel käibemaksu ja vahetuskursi määra mootor kliendile suunatud arvete loomiseks.
 - Rahvusvaheliste finantsaruandluse standardite (IFRS) nõuetele vastavad projekti raamatupidamise ja tuluarvestuse süsteem.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Hinnapakkumised ja hinnapakkumise read
 description: Selles teemas antakse teavet hinnapakkumiste ja hinnapakkumiste ridade kohta.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 024a7cdb81340a077e839d92c4321c8b0051404b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995441"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145112"
 ---
 # <a name="quotes-and-quote-lines"></a>Hinnapakkumised ja hinnapakkumise read
 
@@ -84,7 +86,7 @@ Professionaalsed teenindusorganisatsioonid esitavad oma klientidele hinnapakkumi
 
 Iga hinnapakkumise reaga saab seostada ühe või mitu neist tehingu klassifikatsioonidest. Pärast hinnapakkumise võitmist kantakse tehingu klassifikatsiooni ja hinnapakkumise rea vaheline vastendamine üle lepingu reale.
  
-> ![Kuvatõmmis kandetüüpide vastendamisest hinnapakkumise ja lepinguridadega.](media/basic-guide-5.png)
+> ![Ekraanipilt tehingutüüpide vastendamisest hinnapakkumise ja lepingu ridadele](media/basic-guide-5.png)
   
 Näiteks võib hinnapakkumine sisaldada kahte järgmist hinnapakkumise rida. 
 - Nõustamistöö, mis kasutab aja- ja materjali arveldusmeetodit, kus rakendatakse aja- ja tasutehingute klassifikatsioone. Näiteks arveldatakse kõigi rakenduse **Dynamics AX Implementation** näidisprojekti aja- ja teenustasud kliendile vastavalt aja- ja materjalikulule. 
@@ -129,6 +131,3 @@ Fikseeritud hinnaga hinnapakkumise rea puhul saate kasutada ruudustikku **Arve a
 - Võrdse jaotusega arvete esitamise vahekokkuvõtete loomiseks valige arve sagedus, sisestage hinnapakkumise rea arveldamise alguskuupäev ja valige hinnapakkumise päisest jaotisest **Kokkuvõte** suvand **Soovitud täitmise kuupäev**. Seejärel valige **Loo perioodilised vahekokkuvõtted**, et luua valitud arve sageduse põhjal võrdselt jaotatud vahekokkuvõtted. 
 - Ühekordse summaga arvete esitamise etapi loomiseks looge vahekokkuvõte ja seejärel sisestage hinnapakkumise rea väärtus vahekokkuvõtte summana.
 - Projekti plaanis konkreetsete ülesannete põhjal arvete esitamise vahekokkuvõtete loomiseks looge vahekokkuvõte ja vastendage see projekti ajakava elemendiga arvete esitamise verstaposti kasutajaliideses.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

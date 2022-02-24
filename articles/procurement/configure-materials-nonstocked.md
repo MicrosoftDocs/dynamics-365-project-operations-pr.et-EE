@@ -2,17 +2,17 @@
 title: Logimata materjalide ja ootel hankija arvete konfigureerimine
 description: Selles teemas selgitatakse, kuidas lubada logimata materjale ja ootel olevaid hankija arveid.
 author: sigitac
-ms.date: 06/22/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9b55d959228062fc3577cf7f12d8926f51e9791f98c73fdc4b78251312a8a77a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003226"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993906"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Logimata materjalide ja ootel hankija arvete konfigureerimine
 
@@ -59,11 +59,11 @@ Kui kasutate standardseid demoandmeid, peate algse sünkroonimise korral peatama
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Aktiveerige töövoog, et luua ettevõtted hankija olemi põhjal
 
-Topeltkirjutamise korraldamise lahendus pakub [hankijate põhiintegreerimise](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Selle funktsiooni eeltingimusena tuleb hankija andmed luua olemis **Kontod**. Aktiveerige malli töövooprotsess, et luua tarnijad tabelis **Kontod**, nagu on kirjeldatud jaotises [Hankijate kujunduse vahetamine](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch).
+Topeltkirjutamise korraldamise lahendus pakub [hankijate põhiintegreerimise](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Selle funktsiooni eeltingimusena tuleb hankija andmed luua olemis **Kontod**. Aktiveerige malli töövooprotsess, et luua tarnijad tabelis **Kontod**, nagu on kirjeldatud jaotises [Hankijate kujunduse vahetamine](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
 
 ### <a name="set-products-to-be-created-as-active"></a>Määra tooted loomisel aktiivseks
 
-Logimata materjalid peavad olema konfigureeritud **Välja antud toodetena** jaotises Rahandus. Topeltkirjutamise korraldamise lahendus pakub [välja antud toodete integreerimise Dataverse’i tootekataloogi](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping) valmislahendust. Vaikimisi sünkroonitakse jaotise Rahandus tooted Dataverse’i mustandisse. Kui soovite toote sünkroonida aktiivse olekuga, et seda saaks otse kasutada materjali kasutusdokumentides või ootel hankija arvetes, avage jaotis **Süsteem** > **Haldus** > **Süsteemihaldus** > **Süsteemi sätted** ja määrake vahekaardil **Müük** suvandi **Loote tooted aktiivse olekuga** väärtuseks **Jah**.
+Logimata materjalid peavad olema konfigureeritud **Välja antud toodetena** jaotises Rahandus. Topeltkirjutamise korraldamise lahendus pakub [välja antud toodete integreerimise Dataverse’i tootekataloogi](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md) valmislahendust. Vaikimisi sünkroonitakse jaotise Rahandus tooted Dataverse’i mustandisse. Kui soovite toote sünkroonida aktiivse olekuga, et seda saaks otse kasutada materjali kasutusdokumentides või ootel hankija arvetes, avage jaotis **Süsteem** > **Haldus** > **Süsteemihaldus** > **Süsteemi sätted** ja määrake vahekaardil **Müük** suvandi **Loote tooted aktiivse olekuga** väärtuseks **Jah**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Eeltingimuste konfigureerimine jaotises Rahandus
 
@@ -88,7 +88,7 @@ Project Operationsis saate kirjendada materjalide prognoose ja kasutamist välja
 2. Valige väljal **Toote tüüp** **Üksus** ja väljal **Toote alamtüüp** väärtus **Toode**.
 3. Sisestage toote number (WRITEIN) ja toote nimi (sisestatav toode).
 4. Valige üksuse mudelirühm. Veenduge, et teie valitud kauba mudeli rühmas oleks välja **varude poliitika laotoote** väärtuseks seatud **Väär**.
-5. Valige väärtused väljade **Üksuse rühm**, **Mäluruumi dimensioonirühma** ja **Jälgimise dimensioonirühm** jaoks. Kasutage valikut **Hoiustamise mõõdud** ainult suvandi **Koht** jaoks ja väljal **Jälgimise mõõtmed** valige **Puudub**.
+5. Valige väärtused väljade **Üksuse rühm**, **Mäluruumi dimensioonirühma** ja **Jälgimise dimensioonirühm** jaoks. Kasutage väärtust **Mäluruumi dimensioon** ainult suvandi **Koht** jaoks ja ärge määrake jälgimisdimensioone.
 6. Valige väärtused väljal **Laoühik**, **Ostuühik** ja **Müügiühik** ning seejärel salvestage oma muudatused.
 7. Määrake vahekaardil **Plaan** tellimuse vaikesätted ja vahekaardil **Varud** vaikeasukoht ja ladu.
 8. Minge jaotisse **Projekti haldus ja raamatupidamine** > **Seadistus** > **Projektihalduse ja -raamatupidamise parameetrid** ja avage **Project Operations on Dynamics 365 Dataverse**. 

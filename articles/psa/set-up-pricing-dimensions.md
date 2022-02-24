@@ -2,10 +2,12 @@
 title: Kohandatud väljade seadistamine hinnakujunduse dimensioonidena
 description: Selles teemas kirjeldatakse, kuidas seadistada kohandatud hinnakujunduse dimensioone.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002326"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150348"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Kohandatud väljade seadistamine hinnakujunduse dimensioonidena 
 
@@ -41,11 +43,11 @@ Selleks et väli saaks muutuda hinnakujunduse dimensiooniks, peab see olema:
 - Loodud väljana **Rolli hinna** ja **Rolli hinna hinnalisandi** olemites. Lisateavet selle kohta, kuidas seda teha, leiate jaotisest [Kohandatud väljade lisamine hinna seadistamisele ja ülekande olemitele](field-references.md).
 - Luuakse reana tabelisse **Hinnakujunduse dimensioon**. Näiteks lisage hinnakujunduse dimensiooni read järgmisel pildil kuvatud kujul. 
 
-![Summapõhised hinnakujunduse dimensiooni read.](media/Amt-based-PD.png)
+![Summapõhised hinnakujunduse dimensiooni read](media/Amt-based-PD.png)
 
 Pange tähele, et Ressursi töötunnid (**msdyn_resourceworkhours**) on lisatud hinnalisandipõhise dimensioonina ja see on lisatud vahekaardil **Hinnalisandipõhise hinnakujunduse dimensioon** olevasse ruudustikku.
 
-![Hinnalisandipõhised hinnakujunduse dimensioonide read.](media/Markup-based-PD.png)
+![Hinnalisandipõhised hinnakujunduse dimensioonide read](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Mis tahes hinnakujunduse dimensiooni andmete muudatus siin tabelis, olemasolev või uus, lisatakse Project Service’ hinnakujunduse äriloogikasse alles pärast vahemälu värskendamist. Vahemälu värskendusaeg võib olla kuni 10 minutit. Oodake see aeg ära, et näha hinnakujunduse vaikeloogikas muutusi, mis peavad tulenema hinnakujunduse dimensiooni andmete muudatustest.
@@ -71,12 +73,12 @@ Hinnakujunduse dimensioone on kahte tüüpi.
   
 | Roll        | Organisatsiooniüksus    |Töö asukoht      |Standardpealkiri      |Ressursi töötunnid      |  Tõsta hinda|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso India|Kohapeal            |                    |Ületunnitöö                 |15     |
-|             | Contoso India|Kohalikud             |                    |Ületunnitöö                 |10     |
-|             | Contoso US   |Kohalikud             |                    |Ületunnitöö                 |20     |
+|             | Jõgi India|Kohapeal            |                    |Ületunnitöö                 |15     |
+|             | Jõgi India|Kohalik             |                    |Ületunnitöö                 |10     |
+|             | Jõgi US   |Kohalik             |                    |Ületunnitöö                 |20     |
 
 
-Kui Contoso Indiast pärinev ressurss, mille põhimäär on 100 USA dollarit, töötab kohapeal ning nad logivad ajakirjes 8 tundi tavalist tööaega ja 2 tundi ületunnitööd, kasutab Project Service’i hinnakujunduse mootor 8 tunni salvestamiseks põhimäära väärtusega 100 (kokku 800 USA dollarit). 2 tunni ületunnitöö puhul rakendatakse põhimäärale 100 juurde 15%-hinnalisandit, saades ühiku hinnaks 115 USA dollarit ja salvestades kogukulu väärtuseks 230 USA dollarit.
+Kui Jõgi Indiast pärinev ressurss, mille põhimäär on 100 USA dollarit, töötab kohapeal ning nad logivad ajakirjesse 8 tundi tavalist tööaega ja 2 tundi ületunnitööd, kasutab Project Service’i hinnakujunduse mootor 8 tunni salvestamiseks põhimäära väärtusega 100 (kokku 800 USA dollarit). 2 tunni ületunnitöö puhul rakendatakse põhimäärale 100 juurde 15%-hinnalisandit, saades ühiku hinnaks 115 USA dollarit ja salvestades kogukulu väärtuseks 230 USA dollarit.
 
 ### <a name="applicable-to-cost"></a>Kehtib kulu kohta 
 Kui see on seadistatud sättele **Jah**, tähendab see seda, et kulu ja hinnalisandi määrade saamisel peab **Rolli hinnale** ja **Rolli hinna hinnalisandile** vastamiseks kasutama sisendi konteksti dimensiooniväärtust.
@@ -92,6 +94,3 @@ Dimensiooni prioriteedi seadistamine aitab Project Service’ hinnakujundusel lu
 
 - **Kuluprioriteet**: dimensiooni kuluprioriteedi väärtus näitab seadistatud kuluhindadega vastendamisel selle dimensiooni kaalu. **Kuluprioriteedi** väärtus peab olema kordumatu nende dimensioonide seas, mis **kehtivad kulu kohta**.
 - **Müügiprioriteet**: dimensiooni müügiprioriteedi väärtus näitab seadistatud müügihindade või arveldusmääradega vastendamisel selle dimensiooni kaalu. **Müügiprioriteedi** väärtus peab olema kordumatu nende dimensioonide seas, mis **kehtivad müügi kohta**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

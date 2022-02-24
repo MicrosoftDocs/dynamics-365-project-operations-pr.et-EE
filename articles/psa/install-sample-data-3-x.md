@@ -3,6 +3,7 @@ title: Näidisandmete installimine
 description: Selles teemas antakse teavet Project Service Automationis näidisandmete installimise kohta.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -10,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: aaeb4163c7ace1c3bf4db61f1a10a13cfbdc4fc2
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985541"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144498"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Näidisandmete installimine Project Service’i rakendusele
 
@@ -86,7 +87,7 @@ Plaanige nii, et arvuti oleks võrku ühendatud ja **seadistus-/viiteandmete** i
 Arvuti ekraanisäästja funktsioon peab olema välja lülitatud. Muidu võivad installimise seansi mandaadid ekraanisäästja rakendumisel kaduma minna (kui te ei hoia seanssi pidevalt aktiivsena).
 
 > [!div class="mx-imgBorder"]
-> ![Ekraanisäästja sätete kuvatõmmis, kui ekraanisäästja on välja lülitatud.](media/sample-data-1.png)
+> ![Ekraanisäästja sätete kuvatõmmis, ekraanisäästja on välja lülitatud](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Allalaadimine ja lahtipakkimine
 
@@ -135,20 +136,20 @@ Demoandmete paketi jaoks on vaja kuut kasutajat. Selleks et pakett õigesti inst
     - Kontohaldur, kasutaja täisnimi = "Molly Clark"   
     - Praktika- ja projektijuht, kasutaja täisnimi = "Spencer Low"  
     - Meeskonnaliige, kasutaja täisnimi = "Veronica Quek"   
-    - Kasutaja täisnimi = Erik Contoso
+    - Kasutaja täisnimi = "William Jõgi"
   
 2. Demoandmete importimiseks määrake ülaltoodud kuuele kasutajale administraatori roll, et näidiskirjed õigesti imporditaks. 
 
 3. Avage **PkgFolder** ning otsige üles ja avage fail **ImportUserMapFile.xml**. Värskendage väljad **New=** süsteemis vastavate kasutajate meiliaadressidega.
 
    > [!div class="mx-imgBorder"]
-   > ![UserMapFile’i kuvatõmmis.](media/sample-data-7.png)
+   > ![UserMapFile’i kuvatõmmis](media/sample-data-7.png)
 
 4. Kui kasutajal täisnimega Spencer Low on muu kasutaja ID kui **"spencerl"**, peate värskendama täiendavat faili. Avage fail **DemoDataPreImportConfig.xml** ja otsige üles silt **userstocreateandconfigure**. Värskendage silti **\<login\>** sisselogimise ID-ga (tõstutundlik). 
 
 5. Esimese kasutaja kalendrit (sildil **userstocreateandconfigure**) kasutatakse kõikide broneeritavate ressursside tööaja väljade täitmiseks demoandmete importimisel. Valige **Sätted** > **Turve** > **Kasutajad**, otsige üles kasutaja Spencer Low ja avage suvand Tööaeg. Muutke tööaega, valides suvandi **Terve korduv nädalaajakava algusest lõpuni**. Kontrollige, kas **tööaeg on 8.00–17.00 (9 tundi), esmaspäevast reedeni, ja ajavöönd on määratud Vaikse ookeani ajale (USA ja Kanada)**. Seda on vaja projekti- ja ajakavapaneeli õigesti kuvamiseks.
 
-**Soovitus.** Kaaluge organisatsioonist varukoopia loomist juhuks, kui peate minema tagasi lähtekohta, kui näidisandmete installimisel midagi valesti läheb. Lisateavet vt teemast [Eksemplaride varundamine ja taastamine](/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Soovitus.** Kaaluge organisatsioonist varukoopia loomist juhuks, kui peate minema tagasi lähtekohta, kui näidisandmete installimisel midagi valesti läheb. Lisateavet vt teemast [Eksemplaride varundamine ja taastamine](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Käivitage Package Deployer
 
@@ -172,7 +173,7 @@ Demoandmete paketi jaoks on vaja kuut kasutajat. Selleks et pakett õigesti inst
 5. Valige nupp **Edasi**, kuni näete dialoogi **Demoandmete seadistamine**.
 
    > [!div class="mx-imgBorder"]
-   > ![Demoandmete installija olekuakna kuvatõmmis.](media/sample-data-3.png)
+   > ![Demoandmete installija olekuakna kuvatõmmis](media/sample-data-3.png)
 
 6. Enne jätkamist pange tähele, et näidisandmete installimine võib kesta kuni ühe tunni (tavaliselt ~10 minutit). Peate veenduma, et arvuti oleks kogu installimisprotsessi aja sees ja võrku ühendatud ning seanss oleks pidevalt aktiivne.   
 
@@ -191,10 +192,10 @@ Kui näidisandmed on täielikult laaditud, logige sisse kasutajana Spencer Low j
 - Kui Field Service’i rakendus on installitud, valige suvandid **Project Service** > **Sätted** > **Hinnakirjad**. Kinnitage, et olemas oleks arveldus- ja kulumäärad. Valige **Field Service** > **Sätted** > **Hinnakirjad** ning kontrollige, et andmekogumis oleks olemas iga riigi/piirkonna jaoks sobivas valuutas arveldus- ja kulumäärad.
 
   > [!div class="mx-imgBorder"]
-  > ![Aktiivsete hinnakirjade kuvatõmmis.](media/sample-data-4.png)
+  > ![Aktiivsete hinnakirjade kuvatõmmis](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Aktiivsete organisatsiooniüksuste kuvatõmmis.](media/sample-data-5.png)
+  > ![Aktiivsete organisatsiooniüksuste kuvatõmmis](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Tehnilised märkused
 
@@ -295,7 +296,4 @@ Kui peate muutma broneeritava näidisressursi töötunde, valige **Universal Res
 Valige kasutaja (nt Spencer Low) ja muutke tema töötunnid tundidele, mida soovite rakendada mitmele kasutajale. Valige **Universal Resource Scheduling** > **Sätted** > **Töötundide mallid** ja muutke kirjet **Vaikimisi töömall**. Väljas **Malli ressurss** valige kasutaja töötundidega, mida soovite rakendada teistele ressurssidele. Valige **Universal Resource Scheduling** > **Plaanimine** > **Ressursid** > **Aktiivsed broneeritavad ressursid**. Valige ressursid, mida soovite muuta, ja seejärel valige suvand **Kalendri määramine**. Ripploendist **Töömall** valige mall **Vaikimisi töötund** või muu õige ressursiga mall. Kui lähete plaanimistahvlile, peaksite nägema, et ressursside töötunde on nüüd värskendatud.
 
 > [!div class="mx-imgBorder"]
-> ![Aktiivsete broneeritavate ressursside kuvatõmmis.](media/sample-data-6.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> ![Aktiivsete broneeritavate ressursside kuvatõmmis](media/sample-data-6.png)

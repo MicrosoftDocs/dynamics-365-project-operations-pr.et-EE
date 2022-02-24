@@ -2,9 +2,11 @@
 title: Projekti hinnakirja haldamine hinnapakkumises
 description: Selles teemas antakse teavet Projecti hinnakirja olemi kohta.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8cfabf98f1a38823c777b6e388fbbb65d02877e3cd433069dd3845c292f2b277
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003901"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177191"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Projekti hinnakirja haldamine hinnapakkumises
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Rakendus Dynamics 365 Project Operations pikendab hinnakirja olemit rakenduses Dynamics 365 Sales. 
+Dynamics 365 Project Operations laiendab olemit Hinnakiri rakenduses Dynamics 365 Sales. 
 
 ## <a name="key-entities"></a>Võtmeolemid
 
@@ -118,6 +120,3 @@ Nagu arve määrad, seadistatakse inimressursside jaoks ka kulumäärad, kasutad
     1. Organisatsiooniüksusega seotud omahinna hinnakiri.
     2. Project Operaruibsi parameetritega seotud omahinna hinnakiri. Kuna parameetritele saab lisada paljudes erinevates valuutades esitatud omahinna hinnakirju, siis viiakse valuuta vastendamine lõpuni projekti tellija organisatsiooniüksuse, lepingu või hinnakirja ja omahinna hinnakirja valuuta vahel.
     3. Kulude puhul ei rakendata omahinna ja kulu hinnalisandi hinnakujundusmeetodit omahinna hinnakirjadele. Isegi juhul, kui neid hinnakujundusmeetodeid kasutatakse tehingukategooria kulude seadistamiseks omahinna hinnakirjadel, ignoreerib süsteem neid ja ühtegi vaikimisi omahinda ei sisestata.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

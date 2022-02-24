@@ -2,9 +2,11 @@
 title: Kontsernisisesed arved
 description: See artikkel pakub teavet ja näiteid ettevõtete kontsernisiseste arvete kohta.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995801"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270763"
 ---
 # <a name="intercompany-invoicing"></a>Kontsernisisesed arved
 
@@ -33,7 +35,7 @@ Teie organisatsioonis võib olla mitu allüksust, tütarettevõtet ja muud jurii
 
 Järgmisel joonisel on kujutatud tüüpiline stsenaarium, kus kaks juriidilist isikut, SI FR (laenav juriidiline isik) ja SI USA (laenuandev juriidiline isik) jagavad ressursse, et pakkuda projekti kliendile A. Selle stsenaariumi jaoks on SI FR sõlminud lepingu, et pakkuda tööd kliendile A. 
 
-[![Kontsernisisese arve näide.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Kontsernisisese arve näide](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 Eesmärgiks on muuta kontsernisisese projekti kulude kontroll, tulude kajastamine, maksud ja edastamise hind paindlikumaks ja tõhusamaks. Lisaks on saadaval järgmised võimalused.
 

@@ -2,9 +2,11 @@
 title: Projekti ressursiplaanimise jõudlus
 description: Selles teemas kirjeldatakse suure hulga projektide jaoks ressursside kavandamise jõudluse parandamist.
 author: Yowelle
+manager: AnnBe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: 9dc638a7b2d8e0db45b5acfa5cc9512f356f8b2635028748a1e2c3230605c154
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007276"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074939"
 ---
 # <a name="project-resource-scheduling-performance"></a>Projekti ressursiplaanimise jõudlus
 
@@ -67,6 +69,3 @@ Ressursi ajastamise jõudluse suurendamise lubamiseks läbige järgmised etapid.
 
 > [!NOTE]
 > See jaotab üldandmed tabelisse **ResRollup** kõigile teie keskkonna ettevõtetele, nii et pakett-töö tuleb käivitada ainult ühes juriidilises isikus. Seda pakett-tööd on vaja kõigi **Ressursi saadavuse** vaadete jaoks. Kui seda pakett-tööd ei käivitata, siis andmed **ResRollup** luuakse lennult, mis võib võtta aega.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

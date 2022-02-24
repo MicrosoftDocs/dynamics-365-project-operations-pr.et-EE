@@ -2,10 +2,12 @@
 title: Kasutage broneeritavat ressurssi hinnakujunduse dimensioonina
 description: Selles teemas antakse teavet broneeritava ressursi kasutamise kohta hinnakujunduse dimensioonina.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c551673708ae2d965979136e92326be98252304a601964c1fbc52a329c592712
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988961"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144993"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Kasutage broneeritavat ressurssi hinnakujunduse dimensioonina
 
@@ -62,18 +64,15 @@ Broneeritud ressursi puhul on olemil **Projekti meeskonnaliikmed** veidi teistsu
 1. Selleks topeltklõpsake ruudustikus **Hinnakujunduse dimensioonid** rida, et avada suvandi **msdyn_bookableresource** dimensioonide leht.
 2. Dimensioonide lehel klõpsake vahekaardil **Seotud** nuppu **Hinnakujunduse dimensioonide väljanimed**.
 
- ![Hinnadimensioonide väljanimede vahekaart.](media/PD-fieldname.png)
+ ![Hinnadimensioonide väljanimede vahekaart](media/PD-fieldname.png)
 
 4. Klõpsake avanevas seosete vaates käsku **Lisa uus hinnakujunduse dimensiooni väljanimi.**
 
- ![Lisa uus hinnakujunduse dimensiooni väljanimi.](media/Add-NewPD-fieldname.png)
+ ![Lisa uus hinnakujunduse dimensiooni väljanimi](media/Add-NewPD-fieldname.png)
 
 
 Avaneb leht **Uus hinnakujunduse dimensiooni väljanimi** suvandi **msdyn_bookableresource** jaoks. 
 
 5. Lisage suvand **msdyn_projectteam** väljale **Olemi loogiline nimi** ja suvand **msdyn_bookableresourceid** väljale **Välja nimi**. Kirje salvestamine
 
- ![Uus hinnakujunduse dimensiooni väljanime vorm.](media/PD-fieldname-Added.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ ![Uus hinnakujunduse dimensioonide välja nimede vorm](media/PD-fieldname-Added.png)

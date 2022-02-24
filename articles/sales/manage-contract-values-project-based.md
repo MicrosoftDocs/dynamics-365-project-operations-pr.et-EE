@@ -2,16 +2,18 @@
 title: Projektipõhiste lepinguridadega töötamine
 description: See teema sisaldab teavet projektipõhiste lepinguridade kohta.
 author: rumant
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c1c935a998cba8bd42ba2f11c8310d41e72de94adac7c2cb83f4c7224127b10b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990041"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181709"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Projektipõhiste lepinguridadega töötamine
 
@@ -55,6 +57,3 @@ Reegel: projekti ja teatud tehinguklassi saab kaasata ainult ühele lepingu proj
 | C1       | CL2           | P1      | No           | Ja             | No          | Kehtib           | Projekti P1 aeg ja tasud kaasatakse CL1-s. Projekti P1 kulu on kaasatud reale CL2. </br>   Igale lepingureale kaasatava puhul ei esine ülekatteid ja seega need kehtivad.  |
 | C1       | CL1           | P1      | Ja          | Ja             | Ja         | Kehtetu       | Rikub reeglit. Projekti P1 aeg, kulu ja tasud kaasatakse kahe lepingu ridadel.                                                                                               |
 | CL2      | CL2           | P1      | Ja          | Ja             | Ja         | Kehtetu       | Rikub reeglit. Projekti P1 aeg, kulu ja tasud kaasatakse kahe lepingu ridadel.                                                                                               |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
-title: Ümberkujunetud kuluaruanded (sisaldab videot)
+title: Ümberkujundatud kuluaruanded
 description: Selles teemas kirjeldatakse ümberkujundatud kuluaruande kirjendamise kogemust.
 author: suvaidya
-ms.date: 12/16/2021
+manager: AnnBe
+ms.date: 03/26/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
-ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
-ms.translationtype: MT
+ms.openlocfilehash: 79e6a407689813f8c87fdffba0cda84df10d3b83
+ms.sourcegitcommit: 46726e5c8c994735c1e570e08d6ed8f9c9341319
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7941048"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5717690"
 ---
 # <a name="expense-reports-reimagined"></a>Ümberkujundatud kuluaruanded
 
@@ -26,13 +28,13 @@ Kuluaruande kirje on ümber kujundatud, et muuta protsess lihtsamaks ja vähenda
 
 - Uus kuluhalduse tööruum, mis võimaldab teil pääseda juurde oma delegaadi kuludele.
 - Uus kviitungi sobitamine kogemus, mis näitab päise tasemel kviitungeid paremini ja muudab kviitungite kuluridadele lisamise protsessi lihtsamaks.
-- Uus kirjutuskaitstud ruudustik, mis võimaldab teil vaadata rohkem kuluridu ja teisi andmeveerge. Nüüd saate vaadata kõiki täpsustatud ja jaotatud ridukoos nende ülemkuludega.
+- Uus kirjutuskaitstud ruudustik, mis võimaldab teil vaadata palju rohkem kuluridu ja täiendavate veergude andmeid. Nüüd saate vaadata kõiki täpsustatud ja jaotatud ridukoos nende ülemkuludega.
 - Kulude muutmise lihtsustatud paan.
 - Ümber kujundatud tõrke-, hoiatus- ja poliitika sõnumid, mis pakuvad probleemile õiget konteksti ja arusaama ning kuidas seda lahendada. Oleme eemaldanud mitu sõnumit, mis ilmusid enne, kui kasutajad said oma tööülesandeid täita ja probleeme lahendada.
 - Uus leht, et määrata nõutavad väljad, valikulised väljad ja väljad, mida ei tohiks kaasata. See leht aitab vähendada väljade arvu, mis tuleb määrata.
 - Uus välimus ja vaade kuluaruannetele, nii et aruanded ei näe välja justkui need olid loodud raamatupidamisega tegelejatele.
 
-Uue keskkonna sisselülitamiseks kasutage tööruumi **Funktsioonihaldus**, et lülitada sisse funktsioon **Ümberkujundatud kuluaruannete tööruum**. Selle funktsiooni sisselülitamisel tehakse järgmised toimingud.
+Uue kasutuskogemuse sisselülitamiseks kasutage **funktsiooni haldamise** tööruumi, et lülitada sisse funktsioon **Ümberkujundatud kuluaruanded**. Selle funktsiooni sisselülitamisel tehakse järgmised toimingud.
 
 - Olemasolev kulu tööruum asendatakse uue tööruumiga.
 - Lisatakse uus menüü element kulu välja nähtavuse kohta.
@@ -45,7 +47,7 @@ Uue keskkonna sisselülitamiseks kasutage tööruumi **Funktsioonihaldus**, et l
 
 | Uus funktsioon | Kirjeldus |
 |---|----|
-| Kuluvälja nähtavus | Uuel seadistamise leht võimaldab teil määrata, millised väljad peaksid olema organisatsiooni jaoks keelatud. Samuti saate määrata, millised väljad peavad olema nõutavad ja millised väljad on soovitatavad. |
+| Kuluvälja nähtavus | Uus seadistusleht võimaldab teil määrata, millised väljad tuleks organisatsiooni jaoks keelata, millised väljad peavad olema nõutud ja millised väljad on soovitatud. |
 | Kohustuslikud väljad | Uus lihtne konfiguratsioon võimaldab teil muuta teatud väljad kohustuslikuks, ilma et oleks vaja kasutada poliitika raamistikku. |
 | Valikulised väljad | Lisatud on teine leht valikuliste väljade jaoks. Sel viisil ei tunne töötajad, et nad peaksid välja määrama, kuid väljad on siiski hõlpsalt juurdepääsetavad. |
 | Manustamata kviitungite lisamine | Võimalus lisada kuluaruandele manustamata kviitungeid on tööruumis ja kuluaruandes paremini nähtav. |
@@ -57,16 +59,13 @@ Uue keskkonna sisselülitamiseks kasutage tööruumi **Funktsioonihaldus**, et l
 | Vahetuskursi kalkulaator | Lisatud on vahetuskursi kalkulaator, mis võimaldab teil arvutada omast taskust makstavate mitmevaluutaliste tehingute vahetuskurssi. |
 | Uute kuluridade salvestamine ja lisamine | Uute kulude sisestamisel on saadaval nupud **Salvesta** ja **Uus**, et aidata teil kiiresti ridu sisestada. |
 | Jaotatud ja üksikasjalike ridade parem nähtavus | Üksikasjalikud ja tükeldatud read lisatakse otse kulude loendisse, et suurendada nähtavust ja aidata teil hõlpsalt kindlaks teha, kas esineb vigu. |
-| Täpsustatud ridadel alamkategooria üksikasjade vaatamine | Ülemkulu täpsustatud read näitavad kuluaruande alamkategooria silte. Täpsustamine aitab teil vaadata lühidalt täpsemaid üksikasju.|
-|Korduvate kulude kiire üksikasjalik loetlemine | Ümberkujundatud kulu tööruum võimaldab korduvaid kulusid kiiresti loetleda, lisades alamkategooria, alguskuupäeva ja koguse. Kogus viitab sellele, mitu korda tasu korduvat kogu perioodi jooksul. |
 | Täpsustamise ajal kviitungite kuvamine | Täpsustamise ajal saab kuvada kviitungeid. |
 | Avansimakse valik | Valige ühe kulutehingu täitmiseks üks või mitu avansimakset. |
 | Avansimakse saldo | Vaadake avansimakse saldo üle reaalajas, kui loote kinnitatud ja makstud sularahas tehtud avansimaksete suhtes kulukirje. |
 
 Algne versioon keskendub kulude sisestamise stsenaariumidele. Mis tahes kuluaruande läbivaatuse või kinnitamise stsenaariumi korral jätkatakse olemasoleva kululehe kasutamist.
 
-
-Järgmisi funktsioone kuluaruannete ümberkujundatud tööruumis ei toetata, kuid need on edaspidistes väljaannetes plaanis. 
+Järgmisi funktsioone ümberkujundatud kulude tööruumis ei toetata.
 
 - Reisitellimuse integreerimine
 - Päevapõhine kulukirje

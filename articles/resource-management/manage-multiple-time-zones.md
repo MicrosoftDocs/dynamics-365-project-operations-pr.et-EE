@@ -2,16 +2,18 @@
 title: Ajavööndite haldamine
 description: Projekti loomisel põhineb selle ajavöönd rakendatud töötunni mallis määratletud ajavööndil.
 author: ruhercul
+manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d3fc0453e3038839107a98c4179e6bd4aede95cf4a5fcfe2d52f823b83029485
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 278b226c88c2f441262eb5be0504f34a1964848c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988691"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119818"
 ---
 # <a name="manage-time-zones"></a>Ajavööndite haldamine
 
@@ -32,13 +34,13 @@ Suvandi **Broneeringu pikendamine** kasutamisel täpsete ja prognoositavate tule
 
 - Kasutaja peab konfigureerima oma seadme ajavööndi, et see vastaks süsteemi suvandis **Isikupärastamise sätted** määratletud ajavööndile.
  
-  ![Ajavööndi sätted operatsioonisüsteemis Windows 10.](media/reconcile-assignments-03.png)
+  ![Ajavööndi sätted operatsioonisüsteemis Windows 10](media/reconcile-assignments-03.png)
 
-  ![Ajavööndi sätted isikupärastamise sätetes.](media/reconcile-assignments-04.png)
+  ![Ajavööndi sätted isikupärastamise sätetes](media/reconcile-assignments-04.png)
  
 - Broneeritaval ressursil peab olema vähemalt üks minut tööaega, mis kattub kontuuridega, mida kasutatakse taotletud laienduse määratlemiseks. Näiteks järgmised ressursid, mille tööaeg jääb vahemikku 9.00–19.00. 
 
-  ![Ressursi kontuuride võrdlus.](media/reconcile-assignments-05.png)
+  ![Ressursi kontuuride võrdlus](media/reconcile-assignments-05.png)
 
 Järgnev tabel näitab järgmist.
 
@@ -47,25 +49,22 @@ Järgnev tabel näitab järgmist.
 - Ressurss B: see ressurss asub erinevas ajavööndis kui projekt ja alustab oma ajavööndis kell 7.00. Kuid broneeringud algavad kell 9:00, kuna see on määramise kontuuri varaseim alguskellaaeg.
 - Ressursid C ja D: ressursid asuvad erinevates ajavööndites, mõlemad erinevad üksteise ja projekti ajavööndist, ja nende broneeringud ei alga varem kui nende vastavad saadavuse algusajad.
 
-|Entity  |Kalender  |
+|Olem  |Calendar  |
 |-|-|
-|Projekti kalendri mall   | ![projekti kalender.](media/reconcile-assignments-06.png) |
-|Ressurss A  | ![Ressursi A kalender.](media/reconcile-assignments-06.png) |
-|Ressurss B  |  ![Ressursi B kalender.](media/reconcile-assignments-07.png) |
-|Ressurss C  |  ![Ressursi C kalender.](media/reconcile-assignments-08.png) |
-|Ressurss D  | ![Ressursi D kalender.](media/reconcile-assignments-09.png)  |
+|Projekti kalendri mall   | ![projekti kalender](media/reconcile-assignments-06.png) |
+|Ressurss A  | ![Ressursi A kalender](media/reconcile-assignments-06.png) |
+|Ressurss B  |  ![Ressursi B kalender](media/reconcile-assignments-07.png) |
+|Ressurss C  |  ![Ressursi C kalender](media/reconcile-assignments-08.png) |
+|Ressurss D  | ![Ressursi D kalender](media/reconcile-assignments-09.png)  |
  
 Kui liigute vaatesse **Vastavusse viimine**, kuvatakse ressursi määramised ja seostatud broneeringu puudujäägid.
 
-![Vastavusseviimise vaade enne pikendamist.](media/reconcile-assignments-10.png)
+![Vastavusseviimise vaade enne pikendamist](media/reconcile-assignments-10.png)
 
 Kui iga ressursi jaoks on kasutatud broneeringu pikendamise funktsiooni, pikendatakse iga ressursi broneeringuid, kuna iga ressursi tööajad kattuvad puudujäägi kontuuridega.
 
-![Vastavusseviimise vaade pärast broneeringu pikendamist.](media/reconcile-assignments-11.png) 
+![Vastavusseviimise vaade pärast broneeringu pikendamist](media/reconcile-assignments-11.png) 
 
 Pange tähele, et broneeringute üksikasjade täpsem vaatamine näitab, et broneeringute algusaeg on erinev. Broneeringud ei alusta varem kui määramise kontuuri algusaeg ja mitte varem kui ressursi saadavuse algusaeg.
 
-![Ajakavapaneelil olevate ressursside uued broneeringud.](media/reconcile-assignments-12.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Ajakavapaneelil olevate ressursside uued broneeringud](media/reconcile-assignments-12.png)

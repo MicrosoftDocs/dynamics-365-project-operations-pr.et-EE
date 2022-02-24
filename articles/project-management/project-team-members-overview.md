@@ -2,17 +2,18 @@
 title: Projektimeeskonna liikmed
 description: Selles teemas antakse teavet selle kohta, kuidas töötada projekti meeskonnaliikmete teabe, atribuutide ja kavandamisega.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 034b39b93b7c5cb640e7dd8281e0d224d69d8adaf3eedbdff288a96e7fb9920b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994001"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127423"
 ---
 # <a name="project-team-members"></a>Projektimeeskonna liikmed
 
@@ -59,6 +60,3 @@ Meeskonnaliikmete ruudustikust saab teha järgmisi toiminguid.
 
 - **Uus**: lisaks ressursside otse ajakavasse lisamisele saavad projektijuhid lisada meeskonnaliikmete ruudustikku uusi nimelisi või üldisi meeskonnaliikmeid.
 - **Kustutamine**: ühe või mitme meeskonnaliikme valimisel saab projektijuht kustutada ressursid, kes enam projektis ei osale. Meeskonnaliikme kustutamise korral kustutatakse ka kõik seostuvad ressursi määramised ja tühistatakse kõik olemasolevad broneeringud.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

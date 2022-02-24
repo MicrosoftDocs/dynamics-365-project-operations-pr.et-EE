@@ -2,23 +2,24 @@
 title: Müügiprotsessi ülevaade
 description: Selles teemas antakse teavet põhiliste müügiprotsesside kohta.
 author: rumant
+manager: Annbe
 ms.date: 10/29/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 3bda8a11d0cb6fe97a3daa640bf95717ef9913000e6b1a28a0a27a35527dbf6f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991841"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177596"
 ---
 # <a name="sales-process-overview"></a>Müügiprotsessi ülevaade
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Projektil põhinevas organisatsioonis kasutatavad müügiprotsessid erinevad tootel põhinevas organisatsioonis kasutatavatest müügiprotsessidest. See ilmneb seetõttu, et projektipõhistele organisatsioonidele mõeldud müügi tsüklid on pikemad ja vajavad kohandatud hindamismeetodeid, et analüüsida ja luua iga tehingu jaoks hinnapakkumisi. Dynamics 365 Project Operations kasutab mõnda järgmistest funktsioonidest, mida kasutataks müügiprotsessis.
+Projektil põhinevas organisatsioonis kasutatavad müügiprotsessid erinevad tootel põhinevas organisatsioonis kasutatavatest müügiprotsessidest. See ilmneb seetõttu, et projektipõhistele organisatsioonidele mõeldud müügi tsüklid on pikemad ja vajavad kohandatud hindamismeetodeid, et analüüsida ja luua iga tehingu jaoks hinnapakkumisi. Rakendus Dynamics 365 Project Operations kasutab mõnda sama järgmist funktsiooni, mida kasutatakse müügiprotsessi jaoks.
 
 - Müügivihje kirjet kasutatakse müügiprotsessi jälgimiseks.
 - Sobivaid müügivihjeid jälgitakse müügivõimalustena.
@@ -62,6 +63,3 @@ Rakenduses Project Operations ei saa jälgida hinnapakkumises tehtud läbivaatam
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Hinnapakkumiste ja projekti lepingute kommentaaride ja kinnituste jälgimine
 Hinnapakkumiste ja projekti lepingute läbivaatamist ja kinnitamist saate hallata kirje seina ning postituste abil. Teie organisatsioon saab luua kohandatud töövooge ja lisandmooduleid, et määrata, suunata, laiendada ja hallata teatiste läbivaatuse ja kinnitamise tööüksusi.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

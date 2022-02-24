@@ -2,16 +2,18 @@
 title: Tööjaotuse struktuuri loomine
 description: Selles teemas kirjeldatakse, kuidas luua uues kavandamisliideses põhijuhtelementidega tööjaotuse struktuuri (WBS).
 author: ruhercul
-ms.date: 12/16/2021
+manager: tfehr
+ms.date: 01/07/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
-ms.translationtype: MT
+ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928610"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841328"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Tööjaotuse struktuuri (WBS) loomine
 
@@ -91,15 +93,13 @@ Järgmises tabelis on toodud täiendavad ajakava atribuudid.
 | Nimetus | Tööülesande nimi. |
 | ID | Tööjaotuse struktuuris sisalduva ülesande ID. |
 
-Administraatorina saate tööülesande olemis määratleda kohandatud välju. Kuid välju ei saa ajakava ruudustikus kuvada. Kohandatud väljade nägemiseks lisage need **Projekti ülesande** üksikasjade lehele.
-
 ## <a name="staffing-attributes"></a>Personaliatribuudid
 
-Personaliatribuute saab kasutada ajakava välja **Ressursid** kaudu. Saate otsida olemasolevat ressurssi või valida käsu **Loo** ja siis lisada paneelil **Kiirloomine** uue ressursina projekti meeskonnaliikme.  Kui otsite ressurssi ressursivalija abil ülesanderuudustikus, tahvlivaates või ganttis, tagastab otsing kas olemasolevad projektimeeskonna liikmed või aktiivsed broneeritavad ressursid.
+Personaliatribuute saab kasutada ajakava välja **Ressursid** kaudu. Saate otsida olemasolevat ressurssi või valida käsu **Loo** ja siis lisada paneelil **Kiirloomine** uue ressursina projekti meeskonnaliikme.
 
 Väljad **Roll**, **Ressursiühik** ja **Positsiooni nimi** on kasutusel ülesandega seotud vajaduste kirjeldamiseks. Neid personaliatribuute koos ülesannete ajakavaga kasutatakse selleks, et leida selle toimingu jaoks saadaolevaid ressursse.
 
-   - **Roll** : määrake ülesande täitmiseks vajalik ressursi tüüp.,
+   - **Roll**: määrake, millist tüüpi ressurssi toimingu jaoks vaja on.
    - **Ressursiühik**: määrake ühik, millest ülesandega seotud ressursid tuleks määrata. See atribuut mõjutab ülesande maksumust ja müügihinda juhul, kui ressursi kulu ja arve määr seatakse vastavalt ressursiühikule.
    - **Positsiooni nimi**: sisestage üldisele ressursile sõbralik nimi, mis on selle ressursi kohatäiteks, mis lõppkokkuvõttes tööd tegema hakkab.
 
@@ -116,28 +116,3 @@ Project Operationsi ajakava abil saate luua ülesannete vahel eelkäijate seosei
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Hõlbustusfunktsioonid ja kiirklahvid
 
 **Ajakava** ruudustik on täielikult juurdepääsetav ja seda saab kasutada ekraanilugeja, näiteks Narrator, JAWS või NVDA. Saate liikuda läbi ruudustiku ala nooleklahvide abil (nagu rakenduses Microsoft Excel), saate kasutada tabeldusklahvi, et interaktiivse kasutajaliidese elemente edasi arendada, ning võite kasutada allanoolt, sisestusklahvi või tühikut, et valida ja avada rippmenüüd.
-
-## <a name="project-limitations"></a>Projekti piirangud 
-Kui kasutate Project Operationsis tööjaotuse struktuuri, peaksite olema kursis järgmiste piirangutega. Need piirangud kehtivad projektidele ja ülesannetele. Lisateavet leiate teemast [Project for the web piirangud ja piirid](/project-for-the-web/project-for-the-web-limits-and-boundaries).
-
-| **Väli**                                          |  **Piirang**           |
-|----------------------------------------------------|----------------------|
-| Projekti ülesannete maksimaalne koguarv                  | 500                  |
-| Projekti maksimaalne kogukestus               | 3650 päeva (10 aastat) |
-| Projekti ressursside maksimaalne koguarv              | 150                  |
-| Projekti linkide maksimaalne koguarv (ainult järglane) | 600                  |
-| Projekti kohandatud väljade maksimaalne koguarv          | 10                   |
-| Maksimaalsed kontroll-loendi üksused tööülesande kohta                   | 20                   |
-
-**Ülesande piirangud**
-
-| **Väli**                               |   **Piirang**           |
-|-----------------------------------------|-----------------------|
-| Maksimaalne hierarhiatase                 | 10 taset             |
-| Maksimaalne linkide arv (eelkäija + järglane) | 20                    |
-| Lehe ülesande maksimaalne kestus           | 1250 päeva             |
-| Kokkuvõtva ülesande maksimaalne kestus      | 3650 päeva (10 aastat)  |
-| Ülesandele määratud maksimaalne ressursside arv    | 20 ressurssi          |
-| Ülesande toetatud kuupäevavahemik         | 1/1/2000–12/31/2149 |
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

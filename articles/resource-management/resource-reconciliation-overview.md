@@ -2,25 +2,27 @@
 title: Ressursi vastavusseviimise ülevaade
 description: Selles teemas antakse teavet, mis aitab teil tagada, et ressursside broneeringud ja projektidele määramised on joondatud.
 author: ruhercul
+manager: AnnBe
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
-ms.custom: intro-internal
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1542e97955902486d22ca637514e4e121fae70e2b227cafc7020c031061b5f98
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8723cfad1e7cd07774e37023c5427b0a5833a554
+ms.sourcegitcommit: cffc84187007b34211c90babef8af5152d4d92ea
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994766"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "4849619"
 ---
 # <a name="resource-reconciliation-overview"></a>Ressursi vastavusseviimise ülevaade
 
@@ -46,6 +48,3 @@ Kui teil on ressursi jaoks tööülesanded, kuid ei mingeid broneeringuid, valig
 Broneeringud, mis on loodud **Broneeringu pikendamise** toimingu kaudu seostatakse esmase projekti nõudega. Kui pikendus on algatatud, saab määratleda konkreetsed nõuded, mida tuleb pikendada, sest ressurss võib olla seotud projekti rohkem kui ühe nõudega.
 
 Projektijuht või ressursihaldur saab seejärel kasutada ajakavapaneeli, et hallata mis tahes olukordi, kus ressurss on üle broneeritud.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

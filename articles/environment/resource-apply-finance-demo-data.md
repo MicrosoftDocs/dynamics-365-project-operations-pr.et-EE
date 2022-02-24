@@ -2,16 +2,18 @@
 title: Demoandmete rakendamine rakenduse Finance pilvepõhises keskkonnas
 description: Selles teemas kirjeldatakse Project Operationsi demoandmete rakendamist Dynamics 365 Finance pilvepõhisesse keskkonda.
 author: sigitac
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a7cdbd2847ce45972aadd0d1a2d4f26270727ad9
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009661"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365233"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Demoandmete rakendamine rakenduse Finance pilvepõhises keskkonnas
 
@@ -22,40 +24,40 @@ _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
 1. Avage oma LCS-i projektis leht **Keskkonna üksikasjad**. Pange tähele, et see sisaldab Remote Desktop Protocoli (RDP) abil keskkonnaga ühenduse loomiseks vajalikke üksikasju.
 
-![Keskkonna üksikasjad.](./media/1EnvironmentDetails.png)
+![i keskkonna üksikasjad](./media/1EnvironmentDetails.png)
 
 Esimene esiletõstetud mandaatide komplekt on kohaliku ettevõtte mandaat ja sisaldab hüperlinki kaugtöölaua ühendusele. Mandaat sisaldab keskkonna administraatori kasutajanime ja parooli. Teist mandaatide kogumit kasutatakse selles keskkonnas SQL-i serverisse sisselogimiseks.
 
 2. Liikuge keskkonda läbi hüperlingi jaotises **Kohalikud kontod** ja kasutage autentimiseks **Kohaliku konto mandaati**.
 3. Minge jaotisse **Interneti infoteenused** > **Rakenduste kogumid** > **AOSService** ja peatage teenus. Peatate praegu teenuse, et saaksite minna edasi SQL-i andmebaasi asendamisega.
 
-![AOS-i peatamine.](./media/2StopAOS.png)
+![AOS-i peatamine](./media/2StopAOS.png)
 
 4. Minge jaotisse **Teenused** ja peatage järgmised kaks üksust.
 
 - Microsoft Dynamics 365 Unified Operations: paketthalduse teenus
 - Microsoft Dynamics 365 Unified Operations: andmete importimise eksportimise raamistik
 
-![Teenuste peatamine.](./media/3StopServices.png)
+![Peatage teenused](./media/3StopServices.png)
 
 5. Avage Microsoft SQL Server Management Studio. Logige sisse SQL serveri mandaadiga ja kasutage axdbadmin kasutajat ja parooli LCS-i lehelt **Keskkondade üksikasjad**.
 
-![SQL Server Management Studio.](./media/4SSMS.png)
+![SQL Server Management Studio](./media/4SSMS.png)
 
 6. Avage Object Exploereris **Andmebaasid** ja otsige üles **AXDB**. Andmebaasi asendate uue andmebaasiga, mis asub [allalaadimiskeskuses](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip). 
 7. Kopeerige ZIP-fail VM-i, millesse oled kaugelt sisenenud, ja pakkige zip-faili sisu lahti.
 8. Paremklõpsake SQL Server Management Studios valikul **AxDB** ja seejärel valige **Tööülesanded** > **Taasta** > **Andmebaas**.
 
-![Andmebaasi taastamine.](./media/5RestoreDatabase.png)
+![Andmebaasi taastamine](./media/5RestoreDatabase.png)
 
 9. Valige **Lähteseade** ja liikuge kopeeritud zip-failist lahtipakitud faili juurde.
 
-![Lähteseadmed.](./media/6SourceDevice.png)
+![Lähteseadmed](./media/6SourceDevice.png)
 
 10. Valige **Suvandid** ja seejärel valige **Kirjuta olemasolev andmebaas üle** ja **Sulge olemasolevad ühendused sihtkoha andmebaasiga**. 
 11. Valige **OK**.
 
-![Sätete taastamine.](./media/7RestoreSetting.png)
+![Sätete taastamine](./media/7RestoreSetting.png)
 
 Teile saadetakse kinnitus, et AXDB-i taastamine õnnestus. Pärast selle kinnituse saamist saate SQL Services Management Studio sulgeda.
 
@@ -66,17 +68,14 @@ Teile saadetakse kinnitus, et AXDB-i taastamine õnnestus. Pärast selle kinnitu
 15. Käivitage .ext-faili kasutades oma kasutaja aadressi väljal **Meiliaadress**. 
 16. Valige käsk **Esita**.
 
-![Administraatori ettevalmistamine.](./media/8AdminUserProvisioning.png)
+![Administraatori ettevalmistamine](./media/8AdminUserProvisioning.png)
 
 Selle lõpuleviimiseks kulub mõni minut. Peaksite saama kinnituse, et administraatori kasutaja värskendamine õnnestus.
 
 17. Lõpuks käivitage administraatorina käsuviip ja tehke iisreset
 
-![IIS-i lähtestamine.](./media/9IISReset.png)
+![IIS reset](./media/9IISReset.png)
 
 18. Sulgege kaugtöölaua seanss ja kasutage LCS-i lehte **Keskkonna üksikasjad**, et logida keskkonda sisse ja kontrollida, et see töötab ootuspäraselt.
 
-![Finance and Operations.](./media/10FinanceAndOperations.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Finance and Operations](./media/10FinanceAndOperations.png)

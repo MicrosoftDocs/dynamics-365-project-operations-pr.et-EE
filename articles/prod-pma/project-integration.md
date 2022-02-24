@@ -2,9 +2,11 @@
 title: Microsoft Project Clienti integreerimine
 description: Projekti ajakava kavandamine ja haldamine võib olla keeruline, seega peavad projektijuhid kasutama tööriistu, mis aitavad neil seda tööülesannet hallata. Integreerimine rakendusega Microsoft Project Client pakub tuge projekti tööjaotuse struktuuri avamiseks ja haldamiseks.
 author: Yowelle
-ms.date: 06/16/2021
+manager: AnnBe
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988016"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075017"
 ---
 # <a name="microsoft-project-client-integration"></a>Microsoft Project Clienti integreerimine
 
@@ -125,13 +127,3 @@ Uue tööjaotuse struktuuri loomiseks rakendust Microsoft Project Client kasutad
 8.  Valige ressurssidega kasutamiseks suvand **Kalender**.
 
 11. Klõpsake **OK**.
-
-> [!NOTE]
-> Projecti kliendi lisandmoodul ei toeta projekti ID vormingus järgmisi tärke.
-> 
->   - Allkriips
->   - Punkt
->   - Tühikuklahv
->   - Kaldkriips
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

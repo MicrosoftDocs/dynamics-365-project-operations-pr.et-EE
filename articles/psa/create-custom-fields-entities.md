@@ -2,10 +2,12 @@
 title: Kohandatud väljade ja olemite loomine
 description: Selles teemas kirjeldatakse, kuidas luua suvandikomplekte ja olemeid oma platvormi Power Apps lahenduses.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992426"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144858"
 ---
 # <a name="create-custom-fields-and-entities"></a>Kohandatud väljade ja olemite loomine 
 
@@ -43,7 +45,7 @@ Hinnakujunduse dimensioon võib olla suvandikomplekt või olem. Mõlemad tuleb l
 2. Valige rakenduses Solution Explorer vasakul navigeerimispaanil suvand **Olemid**.
 3. Klõpsake nuppu **Uus**, et luua uus olem nimega **Standardne pealkiri**. Sisestage ülejäänud nõutav teave ja seejärel klõpsake nuppu **Salvesta**.
 
-> ![Olemi Standardne pealkiri määratlus.](media/Standard-Title-entity-definition.png)
+> ![Standardse pealkirja olemi kirjeldus](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Suvandikomplektil põhinevad dimensioonid 
@@ -54,9 +56,9 @@ Saate luua kaks suvandikomplektil põhinevat dimensiooni. Kasutage suvandit **Re
 2. Valige rakenduses Solution Explorer vasakul navigeerimispaanil suvand **Suvandikomplektid**. 
 3. Uue suvandikomplekti loomiseks klõpsake nuppu **Uus**, sisestage ülejäänud nõutav teave ja seejärel klõpsake nuppu **Salvesta**.
 
-> ![Suvandikomplektil põhinev hinnakujunduse dimensioon nimega Ressursi tööasukoht.](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Suvandikomplektil põhinev hinnakujunduse dimensioon nimega ressursi töö asukoht ](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Suvandikomplektil põhinev hinnakujunduse dimensioon nimega Ressursi töötunnid.](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Suvandikomplektil põhinev hinnakujunduse dimensioon nimega ressursi töö tunnid ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Olemil põhinevate dimensioonide andmete loomine
@@ -68,9 +70,6 @@ Olemil põhinevate dimensioonide andmeid saate luua ka käsitsi, või kasutada r
 3. Sulgege vorm. 
 4. Korrake etappe 1–3, et luua teine standardne suvandile Süsteemi vaneminsener.
 
-> ![Näidisandmed olemi Standardne pealkiri jaoks.](media/ST-data.png)
+> ![Standardse jaotise olemi andmete Näidisandmete ](media/ST-data.png)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

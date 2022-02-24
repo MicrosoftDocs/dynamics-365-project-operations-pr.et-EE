@@ -2,6 +2,8 @@
 title: Töötundide malli loomine
 description: Selles teemas kirjeldatakse, kuidas luua Project Service’is tööaja malli.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 90525cf1e7cd487a03b064466ad1b13f8afb7819443fc4bacf9c7d3eee86f0b6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987386"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981250"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Töötundide malli loomine (Project Service)
 
@@ -49,7 +51,7 @@ Oma organisatsiooni jaoks kalendrimalli loomiseks on kaks põhinõuet.
 
 1. Avage **Ressursid** \> **Ressursid**.
 2. Looge kalendrimallis viidatav uus ressurss või valige olemasolev ressurss.
-3. Valige ressursi vahekaart **Tööaeg** ja järgige kalendrireeglite konfigureerimiseks [ressursi töötundide](/dynamics365/field-service/set-work-hours-resource.md) konfigureerimine suuniseid.
+3. Valige ressursi vahekaart **Tööaeg** ja järgige kalendrireeglite konfigureerimiseks [ressursi töötundide](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) konfigureerimine suuniseid.
 
 **Looge uus kalendrimall**
 

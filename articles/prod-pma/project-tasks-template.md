@@ -2,9 +2,11 @@
 title: Projekti ülesannete sünkroonimine otse rakendusest Project Service Automation rakendusse Finance and Operations
 description: Selles teemas kirjeldatakse malli ja aluseks olevat tööülesannet, mida kasutatakse projekti ülesannete sünkroonimiseks otse rakendusest Microsoft Dynamics 365 Project Service Automation rakendusse Dynamics 365 Finance.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0383607a07def6c21562bf4b0893fe3ce3db6a04
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992786"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074938"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Projekti ülesannete sünkroonimine otse rakendusest Project Service Automation rakendusse Finance and Operations
 
@@ -39,7 +41,7 @@ Project Service Automationist Finance’i integreerimise lahendus kasutab andmet
 
 Järgmisel joonisel on näidatud, kuidas andmeid rakenduste Project Service Automation ja Finance vahel sünkroonitakse.
 
-[![Andmevoog Project Service Automationi integreerimiseks rakendusega Finance.](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
+[![Andmevoog Project Service Automationi integreerimiseks rakendusega Finance](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
 
 ## <a name="template-and-task"></a>Mall ja ülesanne
 
@@ -80,7 +82,4 @@ Kui peate kasutama Power Queryd, järgige seda suunist.
 
 Järgmisel joonisel on toodud andmete integratsioonis malli ülesande vastendamiste näide. Vastendus näitab välja teavet, mis sünkroonitakse Project Service Automationist rakendusse Finance.
 
-[![Malli vastendamine.](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Malli vastendamine](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)

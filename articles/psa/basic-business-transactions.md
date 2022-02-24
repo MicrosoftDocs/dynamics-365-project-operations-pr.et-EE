@@ -2,6 +2,8 @@
 title: Äritehingud
 description: Selles teemas antakse teavet äritehingute kohta.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3a8506effc453280177d74f94dcf9310e310c098
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987521"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149898"
 ---
 # <a name="business-transactions"></a>Äritehingud
 
@@ -88,7 +90,7 @@ Koos saate tehingute päritolu ja tehingute seose olemite kaudu jälgida äriteh
 
 Järgmises näites on toodud ajakannete tüüpiline töötlemine PSA projekti töötsüklis.
 
-> ![Ajakirjete töötlemine Project Service’i töötsüklis.](media/basic-guide-17.png)
+> ![Töötlemise ajakirjed Project Service’i teenusetsüklis](media/basic-guide-17.png)
  
 1. Ajakirje esitamise põhjuseks on kahe töölehe rea loomine: üks kulu ja teine arveldamata müügi jaoks.
 2. Ajakirje lõplik kinnitamine põhjustab kahe tegeliku versiooni loomise: üks kulu ja teine arveldamata müügi jaoks.
@@ -147,6 +149,3 @@ Järgmises tabelis on kuvatud eelmise töövoo tehingute seose olemi kirjed.
 | Arve paranduse mustand       | Arve rea tehingu GUID | Asendamine          | msdyn_invoicelinetransaction | Arveldatud müügi GUID            | Algne           | msdyn_actual       |
 | Arve parandamise kinnitamine     | Arveldatud müügi tagasipööramise GUID    | Tagasipööramine          | msdyn_actual                 | Arveldatud müügi GUID            | Algne           | msdyn_actual       |
 | Uus arveldamata müügi tegelik GUID | Asendamine                     | msdyn_actual       | Arveldatud müügi GUID            | Algne                     | msdyn_actual       |                    |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

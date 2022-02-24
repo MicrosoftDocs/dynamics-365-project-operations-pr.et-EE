@@ -2,6 +2,8 @@
 title: Projekti kulud ja tulud
 description: Selles teemas antakse teavet projekti kulude ja tulude prognoosimise kohta.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 279c1119d334a7f60906e33b3fc7ca22ff9a360d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002551"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148323"
 ---
 # <a name="project-costs-and-revenue"></a>Projekti kulud ja tulud
 
@@ -31,7 +33,7 @@ ms.locfileid: "7002551"
 
 Projekti prognoosid annavad finantsülevaate töö kohta, mis on projekti ajakavas prognoositud ja plaanitud. Lehe **Projektid** vahekaardil **Prognoosid** kuvatakse teie poolt plaanitava töö kulude ja tulude mõju. Samuti pakub see teavet paljude eelmääratletud dimensioonide kohta. 
 
-> ![Vahekaart Prognoosid.](media/project-5.png)
+> ![Vahekaart Prognoosid](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Projekti omahind ja müügiväärtused
 
@@ -66,13 +68,13 @@ Kui süsteem rolli hinda ei leia, määratakse prognoosireal olev müügihind va
 
 Vahekaardil **Prognoosid** on ruudustiku vaade, mis kuvab prognoosiread. Ruudustikus on veerud ühik, omahind kokku ja müügihind kokku, nagu on toodud alljärgneval joonisel. 
 
-> ![Vahekaardi Prognoosid ruudustiku vaade.](media/project-6.png)
+> ![Vahekaardi Prognoosid ruudustiku vaade](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Ajafaasidega ülevaade projekti prognoosidest
 
 Projekti prognooside ajafaasi vaade kuvab ruudustiku vaatest prognoosi andmed ajaskaala üleselt, teie valitud ajateljel. Vaikimisi liigendatakse prognoosi andmed dimensioonis **Roll**.
 
-> ![Projekti prognooside ajafaasi vaade.](media/project-7.png)
+> ![Projekti prognooside ajafaasi vaade](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Prognoositud panuse jaotamine ülesande režiimi põhjal
 
@@ -95,6 +97,3 @@ Nii ruudustiku vaates kui ka ajafaasi vaates saate valida, milliseid välju kuva
 ## <a name="expense-estimates"></a>Kuluprognoosid
 
 Ruudustiku vaate nupp **Lisa uus kuluprognoos** võimaldab teil talletada kõik projektiga kaasnevad, kuid mitte otseselt tööga seotud kulud. Saate talletada kuluprognoosid konkreetse ülesande või kogu projekti jaoks. Valige kulukategooriad ja esialgne kuupäev, mil kulu esineda võib. Kui seotud kulude hinnakirjas ja müügihinnakirjas on vaikehinnad (või kui hinnalisandi protsendid on kulukategooriate jaoks määratletud), sisetatakse need seostamise toimumisel prognoosireale automaatselt.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

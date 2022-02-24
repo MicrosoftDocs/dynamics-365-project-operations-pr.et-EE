@@ -1,23 +1,23 @@
 ---
-title: Projekti loomine ja värskendamine
+title: Projekti värskendamine
 description: Selles teemas kirjeldatakse Project Operationsis projektide värskendamist.
 author: ruhercul
-ms.date: 10/20/2021
+ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d0847b5343cf3e353b91eae04c94509f14213ba5
-ms.sourcegitcommit: 51224cb3bf7cdeae6614d39fc8d899c83dbad5f2
-ms.translationtype: MT
+ms.openlocfilehash: c07542444b970430d8143a60aad6970305769b22
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7678344"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993366"
 ---
-# <a name="create-and-update-a-project"></a>Projekti loomine ja värskendamine
+# <a name="update-a-project"></a>Projekti värskendamine
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Järgmine on kokkuvõte väljadest, mida saab projektis pärast selle loomist värskendada. See hõlmab ka kõiki kohalduvaid mõjusid, mis põhinevad neil värskendustel.
+Allpool on kokkuvõte väljadest, mida saab projektis värskendada pärast selle loomist ja mis tahes värskendustega seotud tagajärgedest.
 
 ## <a name="project-detail-fields"></a>Projekti üksikasjade väljad
 
@@ -25,8 +25,8 @@ Järgmine on kokkuvõte väljadest, mida saab projektis pärast selle loomist v�
 - **Kirjeldus**: Projekti ülevaade.
 - **Klient**: ettevõte, kellele projekt toimetatakse.
 - **Kalendri Mall**: projekti tööaeg. Pärast välja muutmist arvutatakse kogu ajakava ümber.
-- **Valuuta**: projekti valuuta. Selle välja vaikeväärtus põhineb valuutal, mis on määratletud lepingut sõlmivas üksuses. Kui lepingut sõlmivat üksust värskendatakse, värskendatakse ka seda välja.
-- **Lepingut sõlmiv üksus**: organisatsiooniüksus, mis esindab ettevõtte rühma või allüksust, kes vastutab peamiselt müügi võitmise eest ja tööde ning teenuste kliendile pakkumise eest.  Kui projektijuhi organisatsiooniüksust pole määratletud, siis määratakse selle välja väärtuseks vaikimisi projekti parameetrites määratletud väärtus.
+- **Valuuta**: projekti valuuta. See väli vaikeväärtus põhineb lepingut sõlmiva üksuse määratletud valuutal. Kui lepingut sõlmivat üksust värskendatakse, värskendatakse ka seda välja.
+- **Lepingut sõlmiv üksus**: organisatsiooniüksus, mis esindab ettevõtte rühma või allüksust, kes vastutab peamiselt müügi võitmise eest ja tööde ning teenuste kliendile pakkumise eest. 
 - **Projektijuht**: projekti meeskonnaliige, kellel on õigus ajakirjeid ja kulusid üle vaadata ning kinnitada.
 
 ## <a name="estimate-fields"></a>Väljade prognoosimine

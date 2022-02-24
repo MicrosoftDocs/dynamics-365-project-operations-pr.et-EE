@@ -2,16 +2,18 @@
 title: Projekti hinnapakkumiste loomine müügivõimalustest
 description: Selles teemas antakse teavet müügivõimalusest projekti hinnapakkumise loomise kohta.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: acc7c6d0d3162163f071a9ab56950e4876aa711c94d36b3c9149cd46d76c57bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999626"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118108"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Projekti hinnapakkumiste loomine müügivõimalustest
 
@@ -54,6 +56,3 @@ Olemasoleva hinnapakkumise saab siduda müügivõimalusega. Olemasoleva hinnapak
    Kui teisaldate müügivõimaluse sellesse etappi, saate selle hinnapakkumise valida selle müügivõimalusega seostatud hinnapakkumiste loendist. Selle hinnapakkumise valimine näitab, et liigute sellega edasi.
 
    Kõik teised müügivõimalusega seotud hinnapakkumised on endiselt saadaval ja aktiivsed, kuni üks neist on võidetud. Saate liigutada müügiprotsessi tagasi eelmisesse etappi (**Kinnita sobivakd**) ja valida mõne muu hinnapakkumise sellega edasi liikumiseks.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

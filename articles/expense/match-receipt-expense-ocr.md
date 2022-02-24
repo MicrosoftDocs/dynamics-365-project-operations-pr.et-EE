@@ -2,9 +2,11 @@
 title: Kviitungi jäädvustamine OCR-i kasutades
 description: Selles teemas antakse teavet kviitungite tähemärkide optilise tuvastamise (OCR) töötlemise kohta.
 author: suvaidya
-ms.date: 11/10/2021
+manager: AnnBe
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
-ms.translationtype: MT
+ms.openlocfilehash: fd0cb0fb094260fa3e82d7a2f200f328a39dd7a1
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798035"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499846"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Kviitungi jäädvustamine OCR-i kasutades
 
@@ -52,7 +54,7 @@ Kulu loomiseks või kulu kviitungi kaudu vastendamiseks toimige järgmiselt.
 
 ## <a name="installation"></a>Installimine
 
-Nende täpsemate kuluvõimaluste kasutamiseks installige Microsoft Dynamics 365 Finance kuluhaldusteenuse lisandmoodul ja lülitage eksemplari funktsioonid sisse. Lisandmoodulile pääsete juurde oma projektist Microsoft Dynamics elutsükli teenustes (LCS).
+Nende täiustatud kulude võimaluste kasutamiseks installige Microsoft Dynamics 365 Finance'i jaoks kuluhaldusteenuse lisandmoodul ja lülitage sisse oma eksemplari funktsioonid. Lisandmoodulile pääsete ligi oma projektist teenuse Microsoft Dynamics Lifecycle Services (LCS) kaudu.
 
 1. Logige LCS-i sisse ja avage soovitud keskkond.
 2. Minge jaotisse **Kõik üksikasjad**.
@@ -73,7 +75,7 @@ Nende funktsioonide sisselülitamisel tehakse järgmised toimingud.
 - Lisatakse uus menüü element kulu välja nähtavuse kohta.
 - Saate siiski avada eelmise lehe **Kuluaruanded**, avades jaotise **Kuluhaldus > Minu kulud > Kuluaruanded**.
 - Töövood ja kõik kinnitused viivad teid ikka olemasolevate kuluaruannete lehele.
-- Kviitungeid töödeldakse Microsoft Azure kognitiivsete teenuste kaudu ning metaandmed ekstraheeritakse ja lisatakse.
+- Kviitungeid töödeldakse Microsoft Azure Cognitive Services'i kaudu ja metaandmed eraldatakse ning lisatakse.
 - Lisatakse suvand, mis võimaldab luua kuluaruande, mis sisaldab vastendatud kinnitamata kviitungeid.
 - Suvand, mis lisatakse kuluaruannetesse, võimaldab teil luua kviitungi põhjal kulurea või üritab vastendada olemasoleva kviitungi olemasoleva kulureaga.
 
@@ -85,18 +87,7 @@ Ei, Microsoft on oma kviitungite töötlemise teenuse jaoks loonud üldise masin
 
 **Kus see funktsioon on saadaval ja töödeldud?**
 
-Selle funktsiooni kättesaadavus erinevates piirkondades on loetletud järgmises tabelis. Kui teie piirkonda praegu ei toetata, esitage taotlus, et seada prioriteediks OCR-teenuse kättesaadavus teie piirkonnas. 
-
-| Regioon | Toetatud                         |
-|--------|-----------------------------------|
-| USA    | Ja                               |
-| CAN    | Ja                               |
-| Ühendkuningriigid     | Ja                               |
-| AUS    | Ja                               |
-| ELI     | Osaliselt. Ainult inglise keele kviitungid. |
-| Aasia   | No                                |
-| Jaapan  | No                                |
-| Aafrika | No                                |
+Praegu toetatakse seda Ameerika Ühendriikides.
 
 **Kuhu minu kviitungid lähevad?**
 

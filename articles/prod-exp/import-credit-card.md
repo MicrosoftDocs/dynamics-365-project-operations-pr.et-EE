@@ -2,9 +2,11 @@
 title: Krediitkaarditehingute importimine ja säilitamine
 description: Selles teemas kirjeldatakse kuluga seotud krediitkaarditehingute importimist ja haldamist. Neid tehinguid saab seadistada nii, et need imporditakse automaatselt regulaarselt teatud aja tagant, või neid saab vajaduse kohaselt käsitsi importida.
 author: KimANelson
+manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPbsMainDataLines
 audience: Application User
@@ -16,18 +18,18 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c3a53d2ae4eae411364aaf68ac806b55335c75d4870a24715954ccae327f4358
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: df5c6bce8a534f4f8b1872e2bd5cc8a58ef11189
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995846"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271573"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>Krediitkaarditehingute importimine ja säilitamine
 
 Kuluga seotud krediitkaarditehinguid saab seadistada nii, et need imporditakse automaatselt korduvas ajakava põhjal. Teise võimalusena saab kandeid käsitsi vajadusel importida. Krediitkaarditehinguid imporditakse krediitkaarditehingute andmete olemi kaudu.
 
-Lisateavet andmeolemite kohta leiate teemast [Andmeolemid ](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
+Lisateavet andmeolemite kohta leiate teemast [Andmeolemid ](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
 
 ## <a name="import-credit-card-transactions"></a>Krediitkaarditehingute importimine
 

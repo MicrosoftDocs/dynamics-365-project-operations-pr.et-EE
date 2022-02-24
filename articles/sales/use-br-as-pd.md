@@ -2,16 +2,18 @@
 title: Broneeritava ressursi kasutamine hinnakujunduse dimensioonina
 description: Selles teemas antakse teavet selle kohta, kuidas kasutada broneeritavat ressursi hinnakujunduse dimensioonina.
 author: Rumant
+manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1e8487d3d32acab294bb2de16fb0278f357f774e62b553eb0c1ebd5b6246e332
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b0c5cb85f7c43f7b2fd9c367d7f7ac9c3250e0a1
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996251"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643078"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Broneeritava ressursi kasutamine hinnakujunduse dimensioonina
 
@@ -64,18 +66,15 @@ Suvandi **msydn_bookableresource** hinnakujunduse dimensiooni kirjet tuleb selle
 1. Topeltklõpsake ruudustikus **Hinnakujunduse dimensioonid** rida, et avada suvandi **msdyn_bookableresource** dimensioonide leht.
 2. Valige dimensioonide lehel vahekaardil **Seotud** suvand **Hinnakujunduse dimensioonide väljanimed**.
 
-  ![Hinnadimensioonide väljanimede vahekaart.](media/PD-fieldname.png)
+  ![Hinnadimensioonide väljanimede vahekaart](media/PD-fieldname.png)
 
 3. Valige avanevas seosete vaates suvand **Lisa uus hinnakujunduse dimensiooni väljanimi**.
 
-  ![Lisa uus hinnakujunduse dimensiooni väljanimi.](media/Add-NewPD-fieldname.png)
+  ![Lisa uus hinnakujunduse dimensiooni väljanimi](media/Add-NewPD-fieldname.png)
 
   Avaneb leht **Uus hinnakujunduse dimensiooni väljanimi** suvandi **msdyn_bookableresource** jaoks. 
 
 4. Lisage lehel **Uus hinnakujunduse dimensiooni väljanimi** lisandmoodul **msdyn_projectteam** suvandile **Olemi loogiline nimi**.
 5. Lisage lisandmoodul **msdyn_bookableresourceid** suvandile **Väljanimi**.
 
- ![Uus hinnakujunduse dimensiooni väljanime vorm.](media/PD-fieldname-Added.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ ![Uus hinnakujunduse dimensioonide välja nimede vorm](media/PD-fieldname-Added.png)

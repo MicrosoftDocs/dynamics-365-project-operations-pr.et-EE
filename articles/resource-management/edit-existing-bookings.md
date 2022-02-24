@@ -2,16 +2,18 @@
 title: Broneeringute redigeerimine
 description: Selles teemas antakse teavet selle kohta, kuidas broneeringuid värskendada ja muuta.
 author: ruhercul
+manager: Annbe
 ms.date: 11/12/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 7f3676811f304fe852bda46ac85291c3b75958d8dd1e0a07f87c58ef5efe8738
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3980df0608c387d47ad68bbf2e816d408f1c2cf0
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008311"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841327"
 ---
 # <a name="edit-bookings"></a>Broneeringute redigeerimine
 
@@ -31,6 +33,3 @@ Ruudustikust **Meeskonnaliige** saab projektijuht esile tõsta konkreetse ressur
 ## <a name="schedule-board"></a>Ajakavapaneel
 
 **Ajakavapaneelilt** on ressursihalduril kõigi organisatsiooni broneeringute portfelli vaade. Sellest vaatest saab ressursihaldur pikendada, lühendada või teisaldada olemasolevaid broneeringuid samamoodi, nagu võimaldab jaotis **Broneeringute haldamine**. Ressursihaldur saab asendada ka kindlale broneeringule eraldatud olemasolevad ressursid, tehes paremklõpsu broneeringul ja valides suvandi **Ressursi asendamine**. Ressursihaldurid saavad ka olemasolevate broneeringute kontuure redigeerida, tehes paremklõpsu broneeringul ja valides käsku **Redigeeri**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

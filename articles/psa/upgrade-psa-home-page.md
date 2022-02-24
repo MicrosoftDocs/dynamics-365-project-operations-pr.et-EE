@@ -1,10 +1,11 @@
 ---
 title: Täiendamise avaleht
 description: Selles teemas kirjeldatakse, kust leida olulist teavet Dynamics 365 Project Service Automation uute ja muudetud funktsioonide kohta ning kuidas täiendada uusimale versioonile.
+manager: kfend
 ms.prod: ''
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 05/30/2019
 ms.topic: article
 author: rumant
@@ -18,12 +19,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2b9b14d72157ae0046e1ca6abdc604b8dbc30377b5b24f5d79617a7201b1bf10
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006736"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150078"
 ---
 # <a name="upgrade-home-page"></a>Täiendamise avaleht
 
@@ -64,6 +65,3 @@ Alates 1. märtsist 2020 ei saa Dynamics PSA kliendid enam luua uut keskkonda va
 
 > [!NOTE]
 > Selleks et saada Field Service’i ja PSA rakenduste vanemaid versioone kasutades parimat kogemust, minge lehele **Süsteemisätted** ning valige välja **Kasuta ainult uut ühtset kasutajaliidest (soovitatav)** sätteks **Ei**, sest need versioonid ei ole loodud UCI-s õigesti laadimiseks. Kui olete UCI välja lülitanud, saate neid Field Service’i ja PSA versioone avada ning käivitada vana veebikliendi kaudu. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

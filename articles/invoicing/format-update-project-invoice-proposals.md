@@ -2,16 +2,18 @@
 title: Projekti arve ettepanekute haldamine
 description: Selles teemas antakse üksikasjalikku teavet kliendile suunatud arvete töötlemise kohta Project Operationsi abil ressursipõhiste/mittelaopõhiste stsenaariumide korral.
 author: sigitac
-ms.date: 04/12/2021
+manager: Annbe
+ms.date: 01/29/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 83e5af60d0a3baf0b59da2a97c6b156ef5b2b7ed
+ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989906"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5089230"
 ---
 # <a name="manage-project-invoice-proposals"></a>Projekti arve ettepanekute haldamine
 
@@ -78,8 +80,7 @@ Fikseeritud hinnaga arveldusmeetodit kasutavad projekti lepinguread arveldatakse
     - **Kliendi** arvelduse käibemaksugrupi vaikeväärtus saadakse alati kliendist.
     - **Otsing** otsib kõigist selle loendi olemitest ja valib esimese saadaoleva väärtuse. Otsing algab olemist **Projekt**, seejärel tuleb olem **Projekti leping** ja seejärel olem **Klient**.
 
-- **Fikseeritud hinnaga eesmärgitoote müügimaksurühma** kasutatakse arvelduse vahekokkuvõtte **Kauba müügi maksurühm** vaikeväärtusena. Konto omanik saab selle väärtuse üle vaadata ja seda muuta lehel **Kontol tehtud tehingud**. Süsteem kasutab projekti arve arveldamise rea loomisel kontol oleva tehingu väärtust.
- 
+- **Fikseeritud osamakse hinnaga üksuse käibemaksugruppi** kasutatakse välja **Üksuse käibemaksugrupp** vaikeväärtuse saamiseks.
 
 ### <a name="financial-dimensions"></a>Finantsdimensioonid
 
@@ -131,7 +132,7 @@ Leht **Arve ettepanekute vormindamine** võimaldab kuvada kliendi projekti arvel
 
 Prindihaldus kasutab erinevaid aruandefaile, et printida, määrata sihtkohti ja kohandada arve jalusteksti. Prindihalduse saab seadistada mooduli tasandil, kuid neid sätteid saab konkreetse kliendi, lepingu või arve puhul üle kirjutada. Sellele funktsioonile juurdepääsu saamiseks lehel **Projekti arve ettepanek** valige **Printimine** > **Prindihaldus**.
 
-Prindihalduse seadistamine kuvatakse puuvaatena, kus igal sõlmetasemel kuvatakse korrigeerimiseks saadaolevad dokumendid. Saate mooduli, kliendi, lepingu või arve ettepaneku dokumendi tasandil määrata kohandatud väljatrükke. Algdokumendi väljatrüki muutmiseks laiendage soovitud sõlme ja valige **Algüksus**. Valige väljal **Aruande vorming** printimiseks kasutatav aruande vorming. Kohandatud aruandevorminguid saate kasutada [Äridokumendihalduse raamistiku](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management) abil.
+Prindihalduse seadistamine kuvatakse puuvaatena, kus igal sõlmetasemel kuvatakse korrigeerimiseks saadaolevad dokumendid. Saate mooduli, kliendi, lepingu või arve ettepaneku dokumendi tasandil määrata kohandatud väljatrükke. Algdokumendi väljatrüki muutmiseks laiendage soovitud sõlme ja valige **Algüksus**. Valige väljal **Aruande vorming** printimiseks kasutatav aruande vorming. Kohandatud aruandevorminguid saate kasutada [Äridokumendihalduse raamistiku](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management) abil.
 
 ## <a name="post-invoice-proposals"></a>Arve ettepanekute sisestamine
 
@@ -142,6 +143,3 @@ Arve vaatamiseks enne sisestamist tühjendage märkeruut **Sisestamine**. Arvele
 Lisaks lehele **Arve ettepanek** saab arve ettepanekuid sisestada ka perioodilise töö **Arve ettepanekute sisestamine** abil. Selle töö leidmiseks avage **Projektihaldus ja raamatupidamine** > **Perioodiline** > **Projekti arved** > **Arve ettepanekute sisestamine**.
 
 Sellel lehel on kuvatud kõik sisestamisvalmis arve ettepanekud. Arve ettepanekute sisestamise saate ajastada, valides suvandi **Partii**. Seadistage **Partiitöötluse parameeter** väärtusele **Jah** ja määrake partiitöötluse korduvus valides suvandi **Korduvus**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,22 +2,24 @@
 title: Hinnakirjade kopeerimine
 description: Selles teemas antakse teavet, kuidas Project Operationsis hinnakirju kopeerida.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ad09bdce563a48843b3ed96e7aaabd9c0d5960336b9e1c74fddb9b61f760f4cd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003721"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181492"
 ---
 # <a name="copy-price-lists"></a>Hinnakirjade kopeerimine
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Hinnakirjade koopiaid saate luua rakenduses Dynamics 365 Project Operations. Näiteks saate luua eeloleva aasta hinnakirjad, kasutades selleks jooksva aasta hinnakirja.  Soovi korral võite kopeerida arve määrade ja müügihindade hinnakirja kulude hinnakirjast. 
+Dynamics 365 Project Operationsis saate hinnakirjadest koopiaid luua. Näiteks saate luua eeloleva aasta hinnakirjad, kasutades selleks jooksva aasta hinnakirja.  Soovi korral võite kopeerida arve määrade ja müügihindade hinnakirja kulude hinnakirjast. 
 
 Hinnakirjast koopia tegemiseks toimige järgmiselt.
 
@@ -41,6 +43,3 @@ Hinnakirjast koopia tegemiseks toimige järgmiselt.
 1. Hinnakirja vahekaartidel **Roll**, **Kategooria** ja **Hinnakirjaüksus** saate valida suvandi **Värskenda hindu**, et rakendada andmeruudustiku kõikidele hindadele hinnalisand. 
 2. Sisestage avanevas dialoogiboksis hinnalisand. Hindade vähendamiseks teatud protsendi võrra saate sisestada ka negatiivse hinnalisandi protsendi. 
 3. Valige dialoogi lehel **OK** ja kinnitage seejärel, et andmeruudustiku hinnad vastavad teie tehtud muudatustele.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,10 +2,12 @@
 title: Iganenud veebiressursid Project Service Automation versioonis 3.x
 description: Selles teemas kirjeldatakse veebiressursse, mida enam Dynamics 365 Project Service Automation versioonis 3.0 ei kasutata.
 author: makk
+manager: rchawla
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/14/2018
 ms.topic: article
+ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -14,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e0ec1e01094ad4ec9deebc9bf0e9d3e197c16e2b03e6393f9dda7df97e7f1921
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7c63000cc9d320340dad824256e63dc445b3a921
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988916"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148548"
 ---
 # <a name="deprecated-web-resources-in-project-service-automation-3x"></a>Iganenud veebiressursid Project Service Automation versioonis 3.x
 
@@ -536,6 +538,3 @@ Kuna Dynamics 365 Project Service Automation lahenduses on uus kliendi kasutajal
 - msdyn\_\\Kellaaeg\\Rakendus\\Skriptid\\Vaated\\SubmitDialog.js
 - msdyn\_\\Kellaaeg\\Rakendus\\Skriptid\\Vaated\\TimeEntryView.js
 - msdyn\_\\Kellaaeg\\Moca\\Skriptid\\TimeEntryRibbon.js
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

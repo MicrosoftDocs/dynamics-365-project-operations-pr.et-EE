@@ -2,16 +2,18 @@
 title: Ressursinõude redigeerimine
 description: Selles teemas kirjeldatakse ressursinõude andmete värskendamist.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8c80c7148df972e542ea1952ef333b3c7c2709b4409ffaf0508f8f617d5f9894
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 988d3338f19443f1d8bcb7cf77e69aa3c1cff155
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999761"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128773"
 ---
 # <a name="edit-a-resource-requirement"></a>Ressursinõude redigeerimine
 
@@ -35,5 +37,3 @@ Projektijuhina läbige meeskonnaliikme ressursinõude redigeerimiseks järgmised
 ## <a name="edit-resource-assignment-contours"></a>Ressursi määramise kontuuride muutmine
 
 Lisaks ressursinõuete üksikasjade muutmisele saab projektijuht värskendada ressursinõude individuaalset kontuuri, kasutades funktsiooni **Määra muster**. Kui **Määra muster** on valitud, avaneb leht ja saate vaadata kontuure päeva, nädala või kuu ajaskaalal. Iga kontuuri saab korrigeerida kindla ajavahemiku algus-ja lõppkellaaja ning kogu jõupingutuse jaoks.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

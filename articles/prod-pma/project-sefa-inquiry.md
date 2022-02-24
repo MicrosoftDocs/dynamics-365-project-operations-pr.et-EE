@@ -2,9 +2,11 @@
 title: Föderaalse rahastamise kulude ajakava päring
 description: Selles teemas antakse teavet föderaalse rahastamise päringu kulude ajakava kohta.
 author: velofog
+manager: Ann Beebe
 ms.date: 04/2/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PSNProjSEFAinquiry
 audience: Application User
@@ -18,12 +20,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: d0cc3db3fd05fa809f707b15a50380753ac8f9f779f45c13f707321d2b0e0841
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007231"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074940"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Föderaalse rahastamise kulude ajakava päring
 
@@ -60,7 +62,7 @@ Peate föderaalse rahastamise kulude ajakava päringus seadistama CFDA numbrid, 
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Föderaalse rahastamise kulude ajakava päringule aruandluseks toetuste seadistamine
 
 1. Minge jaotisse **Projektijuhtimine ja raamatupidamine \> Toetused \> Toetused** ning valige olemasolev toetus.
-2. Määrake kiirvahekaardi **Seadistamine** väljal **Föderaalse riigiabi kataloog** CFDA-le number. Toetuse CFDA number määratleb aruandluse jaoks CFDA klastri.
+2. Määrake kiirvahekaardil **Seadistamine** väljal **Föderaalse riigiabi kataloog** CFDA-le number. Toetuse CFDA number määratleb aruandluse jaoks CFDA klastri.
 3. Sisestage kiirvahekaardile **Kontaktteave** väljastaja andmed, toimides järgmiselt.
 
     1. Sisestage väljale **Toetuse klient** toetuse eest vastutav klient. Olemasoleva toetuse puhul võib see teave olla juba sisestatud.
@@ -77,8 +79,8 @@ Föderaalvalitsus rahastas riigi jaoks infrastruktuuri projekti. Föderaalvalits
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>SEFA aruandlusest toetuste välja jätmine vastavalt toetuse tüübile
 
-1. Minge jaotisse **Projektijuhtimine ja raamatupidamine \> Seadistamine \> Toetused \> Toetuste tüübid**.
-2. Valige kiirvahekaardil **Vaiketeave** märkeruut **Jäta föderaalse rahastamise kulude ajakavast välja**.
+1. Minge jaotisse **Projektijuhtimine ja raamatupidamine \> Seadistamine \> Toetused \> Toetuste tüübid**.
+2. Valige kiirvahekaardil **Vaiketeave** märkeruut **Jäta föderaalse rahastamise kulude ajakavast välja**.
 3. Muudatuste salvestamiseks valige nupp **Salvesta**.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Föderaalse rahastamise kulude ajakava päringu käivitamine
@@ -102,6 +104,3 @@ Föderaalse rahastamise kulude ajakava päring sisaldab järgmisi veerge.
 - Föderaalse riigiabi kataloogi
 - Kviitungid
 - Kulutused
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

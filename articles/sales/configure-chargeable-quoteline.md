@@ -2,16 +2,18 @@
 title: Projektipõhise hinnapakkumise rea arveldatavate komponentide konfigureerimine
 description: Selles teemas antakse teavet kaasatud, tasustatava ja ühekordselt nõutavate komponentide kohta projektipõhise hinnapakkumise ridade puhul.
 author: rumant
+manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 251d0013b445d2f7d17fbe1908f0db2e05cfc2670ac667deb363c98f608a2aef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 36765ab3687a8aaf3ae4a631516a1d61c14e981e
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003991"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642538"
 ---
 # <a name="configure-the-chargeable-components-of-a-project-based-quote-line"></a>Projektipõhise hinnapakkumise rea arveldatavate komponentide konfigureerimine
 
@@ -51,6 +53,3 @@ Eeldatavat või tegelikku loodud kulu käsitletakse arveldatava kulu järgi ainu
 | No | Ja | Ei saa seadistada | Mittearveldatav | Tegeliku aja arveldamine: Pole saadaval </br>Tegeliku kulu arveldamise tüüp: Mittearveldatav |
 | Ja | No | Arveldatav | Ei saa seadistada | Tegeliku aja arveldamine: Arveldatav </br>Tegeliku kulu arveldamise tüüp: Pole saadaval |
 | Ja | No | Mittearveldatav | Ei saa seadistada | Tegeliku aja arveldamine: Mittearveldatav </br> Tegeliku kulu arveldamise tüüp: Pole saadaval |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

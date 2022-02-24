@@ -2,6 +2,8 @@
 title: Mitme valuutaga stsenaariumid (versioon 3.x)
 description: Selles teemas antakse teavet mitme valuutaga stsenaariumi kohta.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bdb9ccad84e0f510118502d4253f5c83a760f8bb
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005116"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145668"
 ---
 # <a name="multiple-currency-scenarios"></a>Mitme valuutaga stsenaariumid
 
@@ -34,7 +36,7 @@ Rakenduses Microsoft Dynamics 365 on kaks valuutakontseptsiooni.
 - **Tehingu valuuta** – valuuta, milles tehing toimub. 
 - **Põhivaluuta** – Dynamics 365 eksemplari valuuta. See valuuta seadistatakse juhul, kui Dynamics 365 eksemplar on ette valmistatud. Seda ei saa muuta.
 
-Näiteks, Contoso USA müüs 100 T-särki Suurbritannia kliendile hinnaga 15 naelsterlingit (GBP) tükk. Järgmine tabel näitab, kuidas see kanne salvestatakse tootetellimuste üksusesse.
+Näiteks, Jõgi USA müüs 100 T-särki Suurbritannia kliendile hinnaga 15 naelsterlingit (GBP) tükk. Järgmine tabel näitab, kuidas see kanne salvestatakse tootetellimuste üksusesse.
 
 | Toode | Kogus | Ühiku hind | Valuuta | Summa | Vahetuskurss | Hind ühiku kohta (alus)| Summa (alus)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
@@ -66,14 +68,14 @@ PSA laiendab tehingu valuuta kontseptsiooni kulude ja müügi jaoks järgmistel 
 
 ## <a name="multiple-currency-scenario"></a>Mitme valuutaga stsenaarium
 
-Selles jaotises on näide projektist, milles Contoso UK saadab tooteid Fabrikami-nimelisele kliendile Jaapanis. Siin näete, kuidas selle stsenaarium üles on ehitatud.
+Selles jaotises on näide projektist, milles Jõgi UK saadab tooteid Fabrikami-nimelisele kliendile Jaapanis. Siin näete, kuidas selle stsenaarium üles on ehitatud.
 
 1. GBP ja Jaapani jeen (JPY) seadistatakse jaotises **Sätted** \> **Ettevõtte haldus** \> **Valuutad**. 
 2. Seadistatakse kliendikonto nimega **Fabrikami – Jaapan** ja ettevõtte konto valuutaks valitakse JPY.
-3. Seadistatakse organisatsiooniüksus nimega **Contoso UK** ja selle valuutaks valitakse GBP.
-4. Luuakse projektileping, milles **Contoso UK** on määratletud kui lepingut sõlmiv üksus ja **Fabrikam – Jaapan** on määratud kliendiks.
+3. Seadistatakse organisatsiooniüksus nimega **Jõgi UK** ja selle valuutaks valitakse GBP.
+4. Luuakse projekti leping, milles **Jõgi UK** on määratletud kui tellija ja **Fabrikami – Jaapan** on määratud kliendiks.
 5. Projekti lepinguread luuakse, võttes aluseks projekti erinevate tehingute klasside arvete esitamise korra, näiteks arvete esitamise aja või kulude järgi.
-6. Luuakse projekt, kus **Contoso UK** on määratletud hankijana. Luuakse projekt ja vastendatakse see projekti lepinguridadega.
+6. Luuakse projekt, kus **Jõgi UK** on määratletud hankija. Luuakse projekt ja vastendatakse see projekti lepinguridadega.
 
 
 Hinnapakkumise rea üksikasju, projekti lepingurea üksikasju või ajakava kalkulatsiooni rida kasutava prognoosi jooksul luuakse olemis alati kaks kirjet. Üks kirje on kulu ja teine müügi jaoks.
@@ -103,6 +105,3 @@ Dynamics 365 tegeleb automaatselt summade ümberarvestusega erinevates valuutade
 | Kulu           | Arveldamata müük   | 17. juuni | Marko  | Autorent           | 1 EA     | 150 EUR      | 150 EUR     | 0.94          | 159.57 USD     |
 
 Kui soovite arvutada projekti arveldamata müügi kogusummat, saate kõigi seostuvate arvestatud müügi tegelike väärtuste väljale **Summa** luua ümberarvestuse välja. Ümberarvestuse väli on Dynamics 365 konstruktsioon, mis võimaldab seostuvate kirjete jaoks kiiresti valemeid luua.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

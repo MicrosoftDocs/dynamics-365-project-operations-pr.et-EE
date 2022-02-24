@@ -2,16 +2,18 @@
 title: Ajakirjete laiendamine
 description: Selles teemas antakse teavet selle kohta, kuidas saavad arendajad saavad ajakirje juhtelementi laiendada.
 author: stsporen
+manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993326"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124633"
 ---
 # <a name="extending-time-entries"></a>Ajakirjete laiendamine
 
@@ -142,6 +144,3 @@ Kasutage lisandmoodulite kinnitusi kõikide nende kinnituste jaoks, mis vajavad 
 
 ### <a name="copying-time-entries"></a>Ajakirjete kopeerimine
 Kasutage vaadet **Kopeeri ajakirje veerge**, et määratleda ajavahemiku jooksul kopeeritavate väljade loend. Väljad **Kuupäev** ja **Kestus** on nõutavad ja neid ei tohi vaatest eemaldada.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

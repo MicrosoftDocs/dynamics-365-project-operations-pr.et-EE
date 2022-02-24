@@ -2,17 +2,19 @@
 title: Rakenduse Project Operations häälestamise ja konfigureerimisandmete integreerimine
 description: Selles teemas antakse teavet Project Operationsi topeltkirjutamise kaartide seadistamise ja konfigureerimise kohta.
 author: sigitac
+manager: Annbe
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d263f7c5ef0d562edde6a603340a3b8746195df190fdb527bfa40297f68eed2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d5fe81dca30039f99d5d7b9bb459214e540db945
+ms.sourcegitcommit: bc51629df94c164325cf2afee387d0e7cda66da7
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986531"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938973"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Rakenduse Project Operations häälestamise ja konfigureerimisandmete integreerimine
 
@@ -24,7 +26,7 @@ Selles teemas antakse teavet rakenduse Project Operations seadistamis- ja konfig
 
 Projektilepinguid, lepinguread ja projektid luuakse rakenduses Dataverse ja sünkroonitakse rakendusega Finance and Operations, et neid täiendavalt raamatupidamist kasutada. Nende olemite kirjeid saab luua ja kustutada ainult rakenduse Dataverse kaudu. Küll aga saab nendesse kirjetesse rakenduses Finance and Operations lisada raamatupidamisatribuute, nagu müügimaksurühma vaikeatribuudid ja finantsdimensioonid.
 
-  ![Projekti lepingu integreerimise mõisted.](./media/1ProjectContract.jpg)
+  ![Projekti lepingu integreerimise mõisted](./media/1ProjectContract.jpg)
 
 Müügitegevuse müügivihjeid, võimalusi ja hinnapakkumisi jälgitakse rakenduses Dataverse ning neid ei sünkroonita rakendusega Finance and Operations, kuna selle tegevusega pole seotud järelarvestust.
 
@@ -51,7 +53,7 @@ Projekti lepinguread saab läbi vaadata projekti raamatupidaja rakenduses Financ
 
 Fikseeritud hinnaga arveldamise meetodit kasutavad projektilepingu read arveldatakse arveldamise vahekokkuvõtete kaudu. Arvelduse vahekokkuvõtted sünkroonitakse rakenduse Finance and Operations ettemaksukannetega, kasutades tabelikaarti **Projekti integreerimise lepingu rea vahekokkuvõtted (msdyn\_contractlinescheduleofvalues)**.
 
-  ![Arvelduste vahekokkuvõtete integreerimine.](./media/2Milestones.jpg)
+  ![Arvelduste vahekokkuvõtete integreerimine](./media/2Milestones.jpg)
 
 Raamatupidaja saab üle vaadata ettemaksukanded ja kohandada nende tehingute raamatupidamisatribuute, minnes jaotisse **Projektihaldus ja raamatupidamine** > **Projekti lepingud** > **Haldus** > **Kontokanded** või **Projektihaldus ja raamatupidamine** > **Kõik projektid** > **Haldus** > **Kontokanded**.
 
@@ -61,13 +63,13 @@ Kui loote selle projektilepingu rea jaoks esmalt arvelduse vahekokkuvõtte, loob
 
 Projekti tööülesanded sünkroonitakse rakendusega Finance and Operations, kasutades tabelikaarte **Projektiülesanded (msdyn\_projecttasks)** ainult viiteks. Toimingute loomist, värskendamist ja kustutamist ei toetata rakenduse Finance and Operations kaudu.
 
-  ![Projektiülesannete integreerimine.](./media/3Tasks.jpg)
+  ![Projektiülesandega integreerimine](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Projekti ressursid
 
 Olem **Projekti ressursirollid** sünkroonitakse rakendusega Finance and Operations, tabelikaarti **projekti ressursirolle kõigi ettevõtete jaoks (broneeritavate ressursside kategooriad)** kasutatakse ainult viitamiseks. Kuna ressursirollid rakenduses Dataverse pole ettevõttekohased, loob süsteem automaatselt vastavad ettevõttekohased ressursirollide kirjed rakenduses Finance and Operations automaatselt kõigi juriidiliste isikute jaoks, kes on kaasatud topeltkirjutamisega integreerimisulatusse.
 
-![Ressursirollide integreerimine.](./media/5Resources.jpg)
+![Ressursirollide integreerimine](./media/5Resources.jpg)
 
 Rakenduse Project Operations projektiressursse hallatakse Dataverse’is ja neid ei sünkroonita rakendusega Finance and Operations.
 
@@ -75,6 +77,6 @@ Rakenduse Project Operations projektiressursse hallatakse Dataverse’is ja neid
 
 Kandekategooriaid hallatakse Dataverse’is ja sünkroonitakse rakendusega Finance and Operations, kasutades tabelikaarti **Projektikannete kategooriad (msdyn\_transactioncategories)**. Pärast kandekategooria kirje sünkroonimist loob süsteem automaatselt neli ühiskategooria kirjet. Iga kirje vastab rakenduses Finance and Operations olevale tehingutüübile ja seob need kandekategooria kirjega.
 
-![Kandekategooriate integreerimine.](./media/4TransactionCategories.jpg)
+![Kandekategooriate integreerimine](./media/4TransactionCategories.jpg)
 
 Prognooside ja tegelike kulude kandekategooriate kasutamiseks peab projekti ettevõte või süsteemiadministraator looma igas juriidilises isikus vastavad projektikategooriad. Lisateavet leiate teemast [Projektikategooriate konfigureerimine](../project-accounting/configure-project-categories.md).

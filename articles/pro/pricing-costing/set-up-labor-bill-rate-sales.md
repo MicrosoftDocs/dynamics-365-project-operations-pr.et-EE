@@ -2,22 +2,24 @@
 title: Töö arvelduskulu seadistamine – liht
 description: Selles teemas kirjeldatakse tööjõukulu määrade seadistamist Project Operationsis.
 author: rumant
+manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9b8c4a19260156480e40f2cc26afa83df3ec9fe9de53edc0ad0ca8c7b78bf352
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007591"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181176"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Töö arvelduskulu seadistamine – liht
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
-Igale hinnakirjale on seadistatud rolli hinnad või tööjõu määrad, mis kehtivad hinnakirja päises toodud kontekstile ja kehtivuskuupäevadele. Aja arvemäärasid Dynamics 365 Project Operationsis saab seadistada ainult ühes valuutas, mis on hinnakirja päise valuuta.
+Igale hinnakirjale on seadistatud rolli hinnad või tööjõu määrad, mis kehtivad hinnakirja päises toodud kontekstile ja kehtivuskuupäevadele. Ajakulu arveldusmäärad saab Dynamics 365 Project Operationsis seadistada ainult ühes valuutas, milleks on hinnakirja päise valuuta.
 
 1. Müügi hinnakirjale tööjõulukul arveldusmäärade seadistamiseks looge hinnakirja päise põhjal hinnakiri. 
 2. Valige andmeruudustiku vahekaardil **Rolli hinnad** suvand **+ Uus rolli hind**. 
@@ -53,6 +55,3 @@ Näiteks Fabrikam India arendaja, kes töötab USA projektiga, arveldatav tasu o
     | Arendaja | Fabrikam US | 150 USD |
 
 3. Lisage müügi hinnakiri **Fabrikam USA arveldusmäärad** projekti lepingu või teatud konto projekti hinnakirjale.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

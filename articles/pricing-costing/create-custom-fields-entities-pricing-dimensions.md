@@ -2,9 +2,11 @@
 title: Kohandatud väljade ja olemite loomine hinnakujunduse dimensioonidena
 description: Selles teemas antakse teavet, kuidas luua kohandatud suvandikomplekte või olemeid.
 author: rumant
+manager: AnnBe
 ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 40a6a4173cb0e4d7ea5bcf24c8954fe9d7e079d1e9ecf4aac252b5133f12d3ff
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fc5917856b8f28d36dc55593a68eba7823a00b36
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003631"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642808"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Kohandatud väljade ja olemite loomine hinnakujunduse dimensioonidena
 
@@ -44,7 +46,7 @@ Olemil põhinevate dimensioonide loomiseks toimige järgmiselt.
 3. Valige **Uus**, et luua uus olem nimega **Standardne pealkiri**. 
 4. Sisestage ülejäänud nõutav teave ja calige seejärel **Salvesta**.
 
-> ![Olemi Standardne pealkiri määratlus.](media/Standard-Title-entity-definition.png)
+> ![Standardse pealkirja olemi kirjeldus](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>Suvandikomplektil põhinevad dimensioonid 
 Saate luua kaks suvandikomplektil põhinevat dimensiooni. 
@@ -54,11 +56,11 @@ Saate luua kaks suvandikomplektil põhinevat dimensiooni.
 
 Järgmine graafiline vaade sisaldab dimensiooni **Ressursi tööasukoht**. 
 
-> ![Suvandikomplektil põhinev hinnakujunduse dimensioon nimega Ressursi tööasukoht.](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Suvandikomplektil põhinev hinnakujunduse dimensioon nimega ressursi töö asukoht](media/Option-set-PD-called-Resource-Work-Location.png)
 
 Järgmine graafiline vaade sisaldab dimensiooni **Ressursi töötunnid**. 
 
-> ![Suvandikomplektil põhinev hinnakujunduse dimensioon nimega Ressursi töötunnid.](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![Suvandikomplektil põhinev hinnakujunduse dimensioon nimega ressursi töö tunnid](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. Avage **Sätted** > **Lahendused** ja topeltklõpsake seejärel suvandit **Organisatsiooni \<your organization name> hinnakujunduse dimensioonid**. 
 2. Valige rakenduses Solution Explorer vasakul navigeerimispaanil **Suvandikomplektid**. 
@@ -74,7 +76,4 @@ Olemil põhinevate dimensioonide andmeid saate luua ka käsitsi, või kasutada r
 4. Sulgege leht. 
 5. Korrake etappe 1–3, et luua teine standardne suvandile Süsteemi vaneminsener.
 
-> ![Näidisandmed olemi Standardne pealkiri jaoks.](media/ST-data.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> ![Näidisandmed olemi Standardne pealkiri jaoks](media/ST-data.png)

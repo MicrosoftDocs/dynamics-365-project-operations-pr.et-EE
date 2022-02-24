@@ -2,17 +2,19 @@
 title: Tegelike näitajate seostamine algsete kirjetega
 description: Selles teemas kirjeldatakse, kuidas siduda tegelikud andmed algsete kirjetega (nt ajakirje, kulukirje või materjalide kasutuslogid).
 author: rumant
+manager: tfehr
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 545775c4eae6c3dc689f264e7f662471c17b2340
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991751"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852584"
 ---
 # <a name="link-actuals-to-original-records"></a>Tegelike näitajate seostamine algsete kirjetega
 
@@ -77,7 +79,7 @@ Olemid **Tehingu päritolu** ja **Tehingu seos** aitavad koos jälgida äritehin
 
 Järgmises näites on toodud ajakannete tüüpiline töötlemine Project Operationsi projekti töötsüklis.
 
-> ![Ajakirjete töötlemine Project Service’i töötsüklis.](media/basic-guide-17.png)
+> ![Töötlemise ajakirjed Project Service’i teenusetsüklis](media/basic-guide-17.png)
  
 1. Ajakirje esitamine loob kaks töölehe rida: üks rida kulu ja üks rida arveldamata müügi jaoks.
 2. Ajakirje lõplik kinnitamine loob kaks tegelikku versiooni: üks tegelik väärtus kulu ja teine tegelik väärtus arveldamata müügi jaoks.

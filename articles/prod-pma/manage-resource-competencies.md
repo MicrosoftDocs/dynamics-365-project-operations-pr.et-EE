@@ -2,9 +2,11 @@
 title: Ressursi pädevuste haldamine
 description: Selles teemas antakse teavet projekti ressurssidele pädevuste seadistamise kohta.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f93fbda0ad6435c627eb7e580f92fd90481034cae2236b9a636195883470ca5c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007411"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270628"
 ---
 # <a name="manage-resource-competencies"></a>Ressursi pädevuste haldamine
 
@@ -29,7 +31,7 @@ ms.locfileid: "7007411"
 
 Ressursi pädevused on ressursi haldamise olulised osad. Pädevusi saab kasutada algtasemena, et määratleda ressursid, millel on õige oskuste, hariduse, sertifitseerimise ja projektide kogemuse tasakaal. Peaksite selle teabe häälestama iga ressursi jaoks ja seda regulaarselt värskendama. Sel viisil saate maksimeerida võimalusi, kui teatud ressursi pädevused projekti ressursi määramise käigus vastenduvad.
 
-[![Oskuste, sertifitseerimise, hariduse ja projektide kogemuse näited.](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+[![Oskuste, sertifitseerimise, hariduse ja projektide kogemuse näited](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
 
 Järgmistest toimingutest leiate teavet selle kohta, kuidas teatud ressursi pädevusi seadistada.
 

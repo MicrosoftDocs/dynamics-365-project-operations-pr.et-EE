@@ -2,9 +2,11 @@
 title: Rakendage mobiilirakenduse Microsoft Dynamics 365 Project Timesheet iOS-i ja Androidi kohandatud väljad
 description: Selles teemas kirjeldatakse kohandatud väljade juurutamiseks laienduste kasutamise ühiseid mudeleid.
 author: Yowelle
+manager: AnnBe
 ms.date: 05/29/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005746"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270988"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Rakendage mobiilirakenduse Microsoft Dynamics 365 Project Timesheet iOS-i ja Androidi kohandatud väljad
 
@@ -153,13 +155,13 @@ See atribuut kontrollib, millises järjestuses kuvatakse kohandatud väljad rake
 
 Allpool on pilt mobiilirakendusest ajatabeli kirje loomise kohta. See näitab valmis välju ja kohandatud välja jaotises Ajakanne nimega Teststring, mille loeteluväärtus Teine variant on juba seatud.
 
-![Teststringi kohandatud väli rakenduses.](media/timesheet-entry.jpg)
+![Testistringi kohandatud väli rakenduses](media/timesheet-entry.jpg)
 
 
 
 Allpool on pilt mobiilirakenduse kasutajast, kes valib ühe loetelusuvanditest, mis on saadaval Testistringi kohandatud välja jaoks.  Kaks valikut Esimene valik ja Teine valik on kuvatud raadionuppudena. Teine suvand on praegu valitud.
 
-![Teststringi kohandatud välja valikunupud (raadionupud).](media/enum-option.jpg)
+![Testistringi kohandatud välja valikunupud (raadionupud)](media/enum-option.jpg)
 
 
 
@@ -171,7 +173,7 @@ Pange tähele, et kohandatud väljadel ei pea olema andmebaasi kirjete varundami
 
 Allpool on ekraanipilt Visual Studio rakendusobjektide puust. See näitab TSTimesheetLine tabeli laiendust, mille väli TestLineString on lisatud kohandatud väljana.
 
-![Reastring.](media/b6756b4a3fc5298093327a088a7710fd.png)
+![Reastring](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>Kasutage TSTimesheetSettings klassi buildCustomFieldList meetodi käsuahelat, et kuvada väli ajatabeli kirje jaotises
 
@@ -317,11 +319,11 @@ final class TSTimesheetEntryService_Extension
 
 Allpool on pilt mobiilirakenduse kasutajast, kes vaatab ajatabelit. Ülemises parempoolses nurgas on valitud nupp Rohkem teavet, et kuvada suvandit Kuva rohkem üksikasju.  
 
-![Käsk Kuva rohkem üksikasju.](media/show-more.png)
+![Käsk Kuva rohkem üksikasju](media/show-more.png)
 
 Allpool on pilt mobiilirakendusest, kus kuvatakse ajatabeli jaotist Rohkem. Kohandatud väli nimega "Selle ajatabeli kasutamise määr (arvutatud kohandatud väli)" on lisatud ajatabeli päise jaotisse. Kohandatud väljale seatakse kirjutuskaitstud väärtus 0,667.
 
-![Jaotis Rohkem.](media/more-section.jpg)
+![Jaotis Rohkem](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>Laiendage TSTimesheetTable tabelit, et sellel oleks kohandatud väli
 
@@ -414,7 +416,7 @@ Ajatabeli funktsionaalsuse andmebaasi taseme olemasolev loogika töötab endisel
 
 Mobiilirakenduses saate projektiparameetrites teha valmisväljad kirjutuskaitstuks või peidetuks. Seadistage suvandid jaotise **Mobiili ajatabelid** vahekaardi **Ajatabel** lehel **Projekti haldamise ja raamatupidamise parameetrid**.
 
-![Projekti parameetrid.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![Projekti parameetrid](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>Laienduste kaudu valimiseks saadaolevate tegevuste muutmine
 

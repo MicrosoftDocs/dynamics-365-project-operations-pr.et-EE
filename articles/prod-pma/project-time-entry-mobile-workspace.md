@@ -2,9 +2,11 @@
 title: Projekti ajasisestuse mobiilne tööruum
 description: Selles teemas kirjeldatakse, kuidas kasutada Projecti ajakirjete mobiilset tööruumi. See tööruum võimaldab kasutajatel oma mobiilsideseadme kaudu sisestada ja salvestada aega projekti jaoks.
 author: Yowelle
+manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 23a5a9f25cfdd6df74257b3500c7a035d711b5f6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989546"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074937"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Projekti ajasisestuse mobiilne tööruum
 
@@ -46,7 +48,7 @@ Täpsemalt saavad kasutajad teha mobiilses tööruumis **Projekti ajakirje** teh
 Eeltingimused erinevad sõltuvalt teie organisatsioonis juurutatud Microsoft Dynamics 365 versioonile.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Eeltingimused, kui kasutate rakendust Dynamics 365 Finance
-Kui teie organisatsiooni jaoks on juurutatud Finance, peab süsteemiadministraator avaldama **Projecti aja sisestamise** mobiilse tööruumi. Juhiseid vaadake teemast [Mobiilse tööruumi avaldamine](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+Kui teie organisatsiooni jaoks on juurutatud Finance, peab süsteemiadministraator avaldama **Projecti aja sisestamise** mobiilse tööruumi. Juhiseid vaadake teemast [Mobiilse tööruumi avaldamine](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Eeltingimused kui kasutate versiooni 1611 koos Platformi värskendusega 3 või hilisemaga
 Kui teie organisatsioonis on juurutatud versioon 1611 koos Platformi uuendusega 3 või hilisemaga, peab süsteemiadministraator lõpule viima järgmised eeltingimused. 
@@ -66,17 +68,17 @@ Kui teie organisatsioonis on juurutatud versioon 1611 koos Platformi uuendusega 
 <td>Süsteemihaldur</td>
 <td>KB 4018050 on X++ värskendus või metaandmete kiirparandus, mis sisaldab mobiilset tööruumi <strong>Projecti ajakirje</strong> KB 4018050 rakendamiseks peab teie süsteemiadministraator järgima järgmisi juhiseid.
 <ol>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Laadige metaandmete kiirparandus alla portaalist Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installige metaandmete kiirparandus</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Looge juurutatav pakett</a>, mis sisaldab mudeleid <strong>ApplicationSuite</strong> ja <strong>ProjectMobile</strong>, ja seejärel laadige LCS-i üles juurutatav pakett.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Rakendage juurutatav pakett</a>.</li>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Laadige metaandmete kiirparandus alla portaalist Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installige metaandmete kiirparandus</a>.</li>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Looge juurutatav pakett</a>, mis sisaldab mudeleid <strong>ApplicationSuite</strong> ja <strong>ProjectMobile</strong>, ja seejärel laadige LCS-i üles juurutatav pakett.</li>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Rakendage juurutatav pakett</a>.</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>Avaldage <strong>Projecti ajakirje</strong> mobiilne tööruum.</td>
 <td>Süsteemihaldur</td>
-<td>Vt <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Mobiilse tööruumi avaldamine</a>.</td>
+<td>Vt <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Mobiilse tööruumi avaldamine</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -94,23 +96,20 @@ Mobiilirakenduse Finance and Operations allalaadimine ja installimine
 3.  Esmakordsel sisselogimisel küsitakse teilt kasutajanime ja parooli. Sisestage oma identimisteave.
 4.  Pärast sisselogimist kuvatakse teie ettevõtte jaoks saadaolevad tööruumid. Pange tähele, et kui teie süsteemiadministraator avaldab uue tööruumi hiljem, tuleb teil mobiilsete tööruumide loendit värskendada.
 
-[![Tõmbeliigutusega värskendamine.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Tõmbeliigutusega värskendamine](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="enter-time-by-using-the-project-time-entry-mobile-workspace"></a>Sisestage aeg, kasutades Projecti ajakirje mobiilset tööruumi
 1.  Valige oma mobiilsideseadmes tööruum **Projekti aja sisestamise**.
 2.  Valige **Aja sisestus**. Näidatud on selle jooksva nädala kalendri kuupäevad.
 3.  Valige valitud kuupäeval suvand **Toimingud**&gt;**Uus kirje**.
 4.  Sisestage salvestatavate tundide arv.
-5.  Valige ajakirje jaoks projekt. Loendis on toodud projektid, mis on laaditud rakendusse võrguühenduseta kasutamiseks. Vaikimisi laaditakse 50 üksust, kuid arendaja saab seda numbrit muuta. Lisateavet vt: [Mobiilne platvorm](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+5.  Valige ajakirje jaoks projekt. Loendis on toodud projektid, mis on laaditud rakendusse võrguühenduseta kasutamiseks. Vaikimisi laaditakse 50 üksust, kuid arendaja saab seda numbrit muuta. Lisateavet vt: [Mobiilne platvorm](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 6.  Kui teie projekti loendis pole, valige **Otsi**. Otsige nime järgi või vahetage projekti nime või kliendi järgi otsingule.
-7.  Valige kategooria. Loendis on toodud kategooriad, mis on laaditud rakendusse võrguühenduseta kasutamiseks. Vaikimisi laaditakse 50 üksust, kuid arendaja saab seda numbrit muuta. Lisateavet vt: [Mobiilne platvorm](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+7.  Valige kategooria. Loendis on toodud kategooriad, mis on laaditud rakendusse võrguühenduseta kasutamiseks. Vaikimisi laaditakse 50 üksust, kuid arendaja saab seda numbrit muuta. Lisateavet vt: [Mobiilne platvorm](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 8.  Kui teie kategooriat loendis pole, valige **Otsi**. Otsige kategooria järgi või vahetage kategooria nime järgi otsingule.
-9.  Valige tegevus. Loendis on toodud tegevused, mis on laaditud rakendusse võrguühenduseta kasutamiseks. Vaikimisi laaditakse 50 üksust, kuid arendaja saab seda numbrit muuta. Lisateavet vt: [Mobiilne platvorm](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+9.  Valige tegevus. Loendis on toodud tegevused, mis on laaditud rakendusse võrguühenduseta kasutamiseks. Vaikimisi laaditakse 50 üksust, kuid arendaja saab seda numbrit muuta. Lisateavet vt: [Mobiilne platvorm](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 10. Kui teie tegevust loendis pole, valige **Otsi**. Otsige tegevuse numbri järgi või vahetage otsingule eesmärgi põhjal.
 
 11. Valige rea atribuut.
 12. Valikuline: sisestage kõik välised ja sisemised kommentaarid.
 13. Valige nupp **Valmis**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

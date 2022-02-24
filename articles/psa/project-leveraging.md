@@ -2,6 +2,8 @@
 title: Müügiprognoosid ja projektid
 description: See teema pakub teavet selle kohta, kuidas müügiprotsessis ajakava ja prognoose ära kasutada.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 76e21f80e51e6f3092880dc629ba90b400805486
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995171"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148368"
 ---
 # <a name="sales-estimates-and-projects"></a>Müügiprognoosid ja projektid
 
@@ -35,11 +37,11 @@ Müügiprotsessi käigus saate luua müügiprognoose, kui seostate projekti mü�
 
 Projektipõhise hinnapakkumise rea loomisel saate luua uue projekti või seostada olemasoleva projekti lehel **Hinnapakkumise rida**. 
 
-> ![Hinnapakkumise rea vorm.](media/project-8.png)
+> ![Hinnapakkumise rea vorm](media/project-8.png)
  
 Kui loote hinnapakkumise rea üksikasjadest uue projekti, võite ära kasutada projekti malle. Projektimallid on mudelprojektid, mis esindavad standardseid projektiplaane ja organisatsioonile tüüpilisi finantskalkulatsioone. Need võivad esindada ka projektiplaanide koopiaid ja varasemate projektide prognoose.
 
-> ![Hinnapakkumise rea üksikasjad.](media/project-9.png)
+> ![Hinnapakkumise rea üksikasjad](media/project-9.png)
   
 Kui loote hinnapakkumisest projekti, seostatakse projekt automaatselt hinnapakkumise reaga.
 
@@ -52,6 +54,3 @@ Saate määrata töökoormuse ja ajastada prognoose, kui kasutate lehe **Projekt
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Prognooside importimine projektist hinnapakkumisse
 
 Pärast projekti prognooside määramist saate need importida hinnapakkumise reale. Projekti prognooside summeerimiseks kande tüübi, rolli või ülesande taseme järgi tehke lehe **Hinnapakkumise rea üksikasjad** ribal valik **Impordi prognoosidest**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
