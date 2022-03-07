@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58e6970dbe902deeef144e563bcfcd09046c70ce
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: c15be8d9884c31298f996477c732c542fce65fcc
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149268"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275263"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Järgmise projekti otsimine rakendusega Project Finder Mobile (Project Service)
 
@@ -49,3 +49,6 @@ Rakendusega Project Finder Mobile saate oma [!INCLUDE[tn_iphone](../includes/tn-
   
 ### <a name="see-also"></a>Vt ka  
  [Aja-, kulu- ja koostööjuhend](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

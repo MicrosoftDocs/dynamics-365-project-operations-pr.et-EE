@@ -2,11 +2,9 @@
 title: Ostutellimuses üksuste vastuvõtmine üksuse nõudest
 description: Selles teemas selgitatakse, kuidas võtta üksuse nõudest tulenevalt võta vastu ostutellimuse eest saadud üksused.
 author: Yowelle
-manager: AnnBe
 ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage, ProjTable, ProjSalesItemReq, InventItemIdLookupSimple, PurchCreateFromSalesOrder, VendAccountItemLookup, PurchTable, PurchEditLines
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a5b3622458da957ed150311f6ea75d5f1444d5f1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: da5eff576040f20cc206800b4d4ca987d08b0185ec5364bc1efc940f85d36371
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075123"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998951"
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>Ostutellimuses üksuste vastuvõtmine üksuse nõudest
 
@@ -56,3 +54,6 @@ Selle toiming kasutab USSI andmekomplekti.
 21. Tippige väljale **Toote kviitung** väärtus.
 22. Valige **OK**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

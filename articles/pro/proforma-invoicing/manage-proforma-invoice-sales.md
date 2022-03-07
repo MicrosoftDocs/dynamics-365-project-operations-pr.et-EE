@@ -1,21 +1,19 @@
 ---
-title: Näidisarve haldamine – liht
-description: Selles teemas antakse teavet näidisarvetega töötamise kohta.
+title: Projekti näidisarve haldamine
+description: See teema sisaldab teavet projekti näidisarvetega töötamise kohta.
 author: rumant
-manager: Annbe
-ms.date: 10/27/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cd56b99c3ed455848edbd9ff4419afa58d782a3e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: f14cf9d5ee25247500180081b8f407ee311db481a5ef5eac330e75d45baba54a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181537"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997421"
 ---
-# <a name="manage-a-proforma-invoice---lite"></a>Näidisarve haldamine – liht
+# <a name="manage-a-proforma-project-invoice"></a>Projekti näidisarve haldamine 
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
@@ -69,9 +67,9 @@ Rakenduses Project Operations on iga prijekti lepingurea jaoks üks arverida. Ar
 
 Iga projekti arve arverida sisaldab arverea üksikasju. Need rea üksikasjad on seotud arveldamata müügi tegelike ja vahe-eesmärkide summaga, mis on seotud arverea viidatud lepingureaga. Kõik need tehingud on märgitud kui **Arveldamiseks valmis**.
 
-Rea **Aja ja materjali arve** jaoks on arverea üksikasjad rühmitatud valikuteks **Arveldatav**, **Mittearveldatav** ja **Tasuta** lehel **Arverida**. **Arveldatava arverea** üksikasjad lisatakse arverea kogusummale. **Tasuta** ja **mitte-arveldatavaid tegelikke näitajaid** arverea kogusummale ei lisata.
+Real **Aja ja materjali arve** on arverea üksikasjad rühmitatud lehel **Arverida** valikuteks **Arveldatav**, **Mittearveldatav** ja **Tasuta** lehel. **Arveldatava arverea** üksikasjad lisatakse arverea kogusummale. **Tasuta** ja **mittearveldatavad tegelikud väärtused** pole arverea kogusummaga võrdsed.
 
-Rea **Fikseeritud hinnaga arve** jaoks luuakse arverea üksikasjad vahe-eesmärkidest, mis on seotud arvereal märgitud kui **Arveldamiseks valmis**. Pärast seda, kui arverea üksikasjad on vahe-eesmörgi põhjal loodud, uuendatakse vahe-eesmärgi arveldamine olekule **Kliendi arve loodud**.
+Real **Fikseeritud hinnaga arve** luuakse arverea üksikasjad vahe-etappidest, mis on seotud lepingureal märgitud kui **Arveldamiseks valmis**. Pärast seda, kui arverea üksikasjad on vahe-eesmörgi põhjal loodud, uuendatakse vahe-eesmärgi arveldamine olekule **Kliendi arve loodud**.
 
 ### <a name="edit-invoice-line-details"></a>Arve rea üksikasjade redigeerimine
 
@@ -98,8 +96,12 @@ Arverea üksikasjades, mida toetavad arveldamata müügi tegelikud näitajad, on
 | **Maks** | Määratakse vaikimisi allika tegelikust näitajast. Kasutaja saab välja muuta | Kasutaja saab välja muuta, kui loob uue arverea üksikasja ilma tegeliku näitaja toeta. |
 | **Laiendatud summa** | Arvutatud väli, arvutatakse valemiga **summa + maks**. Kirjutuskaitstud väli, mis on redigeerimiseks lukustatud. | &nbsp; |
 | **Arveldustüüp** | Määratakse vaikimisi allika tegelikust näitajast. Kasutaja saab välja muuta. | Suvandi **Arveldatav** lisab arverea kogusummale rea. **Tasuta** ja **Mitte-arveldatav** jätavad selle arverea kogusummast välja. |
+| **Vali toode** | Vaikimisi allika tegelikust väärtusest määratud, see väli on kirjutuskaitstud. | Kui loote uue arverea üksikasja ilma tegelikku väärtust varundamata, saab seda välja redigeerida. |
+| **Toode** | Vaikimisi allika tegelikust väärtusest määratud, see väli on kirjutuskaitstud. | Kui loote uue arverea üksikasja ilma tegelikku varundamata, saab seda välja redigeerida, kui välja **Toote valimine** väärtuseks on määratud **Olemasolev toode**. |
+| **Toote nimi** | Vaikimisi allika tegelikust väärtusest määratud, see väli on kirjutuskaitstud. | Uues arverea üksikasjas, kus toote ID valitakse kataloogist, määratakse selle välja väärtuseks toote nimi. Sisestatava toote korral on välja väärtuseks seatud sisestatav nimi. |
+| **Sisestatav kirjeldus** | Vaikimisi allika tegelikust väärtusest määratud, see väli on kirjutuskaitstud. | Kui loote uue arverea üksikasja ilma tegelikku varundamata, saate lisada tootele sisestatava kirjelduse. |
 | **Kandetüüp** | Määratakse vaikimisi allika tegelikust näitajast. Kirjutuskaitstud väli, mis on redigeerimiseks lukustatud. | On vaikimisi määratud valikule **Arveldatud müük** ja lukustatud, kui loote uue **arverea üksikasja** ilma tegeliku näitaja toeta.  |
-| **Kande klass** | Määratakse vaikimisi allika tegelikust näitajast. Kirjutuskaitstud väli, mis on redigeerimiseks lukustatud. | Määratakse vaikimisi vastavalt sellele, kas kasutaja otsustab luua arverea üksikasja **Aeg**, **Kulu** või **Tasu**, luues samal ajal ilma tegeliku näitaja toetuseta uue **arverea üksikasja**. Redigeerimiseks lukustatud. |
+| **Kande klass** | Määratakse vaikimisi allika tegelikust näitajast. Kirjutuskaitstud väli, mis on redigeerimiseks lukustatud. | Vaikimisi määratud selle põhjal, kas kasutaja otsustab luua arverea üksikasja **Aeg**, **Kulu**, **Materjal** või **Tasuta**, luues samal ajal ilma tegeliku varundamiseta uue **arverea üksikasja**. Redigeerimiseks lukustatud. |
 
 Arverea üksikasjades, mida toetab vahe-eesmärk, on saadaval järgmised väljad.
 
@@ -144,3 +146,6 @@ Kui teil on tegelikke näitajaid, mis lisandusid pärast arve loomist, saate lis
 Rakenduses Project Operations saate luua projektipõhiste arveridadega arveread toodete jaoks, mis ei kohaldu ühelegi projektile või kohalduvad kõikidele projektidele koos. Need arveread luuakse projektipõhiste lepinguridadena ja pärast nende märkimist arveldamiseks valmis, lisatakse need tootepõhiste arveridadena.
 
 Pärast tootepühiste arveridade lisamist ei saa neid muuta. Samas saab need näidisarve mustandist kustutada.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Projektipõhise hinnapakkumise ridade arve ajakavad
 description: Selles teemas kirjeldatakse hinnapakkumise ridade arve ajakavade ja vahe-eesmärkide loomist.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 0d07596b299d71b229487faf80a09e368059575ea37095d2c82d35561d009c96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180817"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988601"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Projektipõhise hinnapakkumise ridade arve ajakavad
 
@@ -68,3 +66,6 @@ Avage fikseeritud hinnaga hinnapakkumise rida, kuhu peate vahe-eesmärgi looma. 
 | Arve olek | Kiirloomine | Kui vahe-eesmärk on loodud, on see olek alati määratud valikule **Pole arveldamiseks valmis**. | See paljundatakse projekti lepingurea vahe-eesmärgile ja arvele. |
 | Rea summa | Kiirloomine | Vahe-eesmärgi summa või väärtus, mille eest esitatakse kliendile arve. | See paljundatakse projekti lepingurea vahe-eesmärgile ja arvele. |
 | Maks | Kiirloomine | Vahe-eesmärgile rakendatav maksu summa. | See paljundatakse projekti lepingurea vahe-eesmärgile ja arvele. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

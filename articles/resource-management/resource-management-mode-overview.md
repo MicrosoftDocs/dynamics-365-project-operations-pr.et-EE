@@ -1,50 +1,52 @@
 ---
 title: Ressursihalduse režiimide ülevaade
-description: Selles teemas antakse teavet ressursihalduse funktsionaalsusest Dynamics 365 Project Operationsis.
+description: Selles teemas antakse teavet ressursihalduse funktsionaalsuse kohta rakenduses Dynamics 365 Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 73ba6190e2e366f22372102d14d26f6d71ba0bc1
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.custom: intro-internal
+ms.openlocfilehash: 5c0f98a6f08129ebef9b6d3fed1cc85969aa347c815a643d3c8dd639b42c0e8c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118513"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008221"
 ---
 # <a name="resource-management-modes-overview"></a>Ressursihalduse režiimide ülevaade
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
 
-Dynamics 365 Project Operations toetab kahte režiimi, et saaksite kogu reserveeringu voogu käivitada. Haldusrežiim määratletakse projekti parameetrina ja seda saab muuta juhul, kui teie äritegevus vajab muutmist.    
+Dynamics 365 Project Operations toetab kahte režiimi, üldise broneerimisvoo käivitamiseks. Haldusrežiim määratletakse projekti parameetrina ja seda saab muuta juhul, kui teie äritegevus vajab muutmist.    
 
 ## <a name="central-mode"></a>Keskne režiim
 Organisatsioonidele, kes tsentraliseerivad ressursside eraldamise projektidele, pakub keskne režiim võimalust, kuidas tagada, et projektijuhid saavad määratleta ressursinõude projekti tasandil. Ressursinõuete täitmine delegeeritakse ressursihaldurile. Projektijuhid saavad ressursihalduri poolt pakutud ressursse aktsepteerida või tagasi lükata.
 
-![Keskne režiim](./media/resource-management-central.png)
+![Keskne režiim.](./media/resource-management-central.png)
 
 Ressursside haldamiseks keskses režiimis vaadake järgmist.
 
-- [Ülesandele üldiste broneeritavate ressursside määramine ja ressursinõuete loomine](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Nimega ressursside broneerimine ressursinõuetest](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
-- [Ressursitaotluse esitamine](https://docs.microsoft.com/dynamics365/project-service/submit-resource-request)
-- [Ressursinõude täitmine](https://docs.microsoft.com/dynamics365/project-service/resource-management-fulfill-requests)
-- [Pakutud projekti ressursi ressursitaotlusest kinnitamine või tagasilükkamine](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
+- [Ülesandele üldiste broneeritavate ressursside määramine ja ressursinõuete loomine](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Nimega ressursside broneerimine ressursinõuetest](/dynamics365/project-service/book-named-resource)
+- [Ressursitaotluse esitamine](/dynamics365/project-service/submit-resource-request)
+- [Ressursinõude täitmine](/dynamics365/project-service/resource-management-fulfill-requests)
+- [Pakutud projekti ressursi ressursitaotlusest kinnitamine või tagasilükkamine](/dynamics365/project-service/accept-reject-proposed-resource)
 
 ## <a name="hybrid-mode"></a>Hübriidrežiim
 Organisatsioonides, kes vajavad ressursside eraldamisel paindlikkust, võimaldab hübriidrežiim nii projektijuhtidele kui ka ressursihalduritele ressursside broneerimist.
 
-![Hübriidrežiim](./media/resource-management-hybrid.png)
+![Hübriidrežiim.](./media/resource-management-hybrid.png)
 
 Lisaks toetatud keskse režiimi protsessile vaadake järgmisi teemasid kõigi teiste toetatud broneerimisvoogude haldamise kohta hübriidrežiimis.
 
 Ressursi otse projektile broneerimine.
-- [Broneerige projekti meeskonnale nimega broneeritavad ressursid ja määrake ülesandeid](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
+- [Broneerige projekti meeskonnale nimega broneeritavad ressursid ja määrake ülesandeid](/dynamics365/project-service/assign-named-bookable-resource)
 
 Ressursi broneerimine ressursinõudest.
-- [Ülesandele üldiste broneeritavate ressursside määramine ja ressursinõuete loomine](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Nimega ressursside broneerimine ressursinõuetest](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+- [Ülesandele üldiste broneeritavate ressursside määramine ja ressursinõuete loomine](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Nimega ressursside broneerimine ressursinõuetest](/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

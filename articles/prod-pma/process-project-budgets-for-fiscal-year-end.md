@@ -2,11 +2,9 @@
 title: Projekti eelarvete ülekandmine finantsaasta lõpus
 description: Selles artiklis kirjeldatakse kuidas viia allesolevaid eelarve summasid tulevastesse aastatesse ja luua eelarve registri üksikasju.
 author: Yowelle
-manager: AnnBe
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: be3dc039b92e88cac6f6b3b7f72bc32ecf587539
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075089"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008036"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Projekti eelarvete ülekandmine finantsaasta lõpus
 
@@ -98,3 +96,6 @@ Allesolevate eelarve summade töötlemisel saate luua pearaamatusse ülekantavat
 5. Valige iga projekti jaoks, mida soovite töödelda, projekti rea alguses soovitud suvand. 
 6. Valige **Töötle**, et kanda valitud projektide allesolevad eelarve summad üle valitud finantsaastasse.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Plaanimisrežiimid
 description: Selles teemas antakse teavet arvete plaanimisrežiimide kohta.
 author: ruhercul
-manager: AnnBe
-ms.date: 05/04/2021
+ms.date: 05/28/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fe54944999617b248ff925148a78601dd4be7aca
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
-ms.translationtype: HT
+ms.openlocfilehash: 41e56d01c3cfa62558b10e178085a4408a0aadb023f3f7347a61d121f542bb08
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981430"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987746"
 ---
 # <a name="scheduling-modes"></a>Plaanimisrežiimid
 
@@ -25,12 +23,12 @@ Dynamics 365 Project Operations annab organisatsioonidele võimaluse määratled
 Rakenduses Project Operations on saadaval kolm plaanimisrežiimi.
 
   - Fikseeritud kestus (see on vaikerežiim)
-  - Fikseeritud töö
+  - Fikseeritud panus (*töö*)
   - Fikseeritud ühikud
 
 Kindla ajastamisrežiimi määratlusega seotud väärtused on määratletud järgmise valemiga.
 
-  Pingutus (*töö*) = kestus × ühikud
+  Panus = kestus × ühikud
 
 Projekti plaanimisrežiimi määratlemisel määrate ühe nendest väärtustest, mida ei saa seejärel muuta. Selle väärtuse konstandina hoidmine seab sellele väärtusele prioriteedi, mis teavitab süsteemi seda mitte muutma, kui teised kaks väärtust muutuvad. Järgnev tabel annab teavet konkreetse režiimi valimise mõjude kohta.
 

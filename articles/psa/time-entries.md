@@ -2,8 +2,6 @@
 title: Ajakirjete loomine
 description: Selles teemas kirjeldatakse, kuidas luua ajakirjeid.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 520d3a6e6cc3d486d778c66c2ef7fd3ff20cd582
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 0d0e21d0964788564d3db9173c3a0b3378cd0049b4455a23ccc1bccd1c21d9e7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149673"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990401"
 ---
 # <a name="create-time-entries"></a>Ajakirjete loomine
 
@@ -70,3 +68,6 @@ Saate importida projekti broneeringute ja ülesannete andmeid. Andmete importimi
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Rühmitamise, sortimise, otsimise ja filtreerimise võimalused
 
 Saate ajakirjeid rühmitada ja filtreerida veergudes määratud dimensioonide järgi. Valige väljast **Rühmitusalus** dimensioon, mida soovite ajakirjete filtreerimiseks kasutada. Saate ajakirjeid sortida ka tõusvas või kahanevas järjekorras, kasutades veerupäises olevat sortimisnoolt. Peale selle saate ka kirjeid kuvada või peita, kui vajutate veerupäistes olevat nuppu **Filtreeri** ja sisestate seejärel väljale **Otsi** teksti, mida tuleks kasutada ajakirjete otsimiseks projekti nime, projekti ülesande, ajakirje või ressursi järgi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

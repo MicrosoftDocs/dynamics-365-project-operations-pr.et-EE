@@ -2,8 +2,6 @@
 title: Arvete vaatamine ja saatmine
 description: Arvete kuvamine ja saatmine Project Service’is
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f67254267e1d6f5db3a1cdf4b9c0f4d44226a4f3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 3971c10370f41d6729f2a51bf0c9e1dbe0757bec
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143913"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002501"
 ---
 # <a name="view-and-send-invoices-project-service"></a>Arvete kuvamine ja saatmine (Project Service)
 
@@ -58,3 +56,6 @@ Projekti loomisel määrate arvete loomise sageduse. Saate arveid vaadata ja ül
   
 ### <a name="see-also"></a>Vt ka  
  [Projektijuhi juhend](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

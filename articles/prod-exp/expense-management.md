@@ -2,9 +2,11 @@
 title: Kuluhalduse ülevaade
 description: Selles teemas antakse üldteavet kuluhalduse ja täiendavate ressursside linkide kohta. Saate kasutada kuluhaldust, et luua integreeritud töövoog, kus saate talletada makseviisi teavet, importida krediitkaardi tehinguid ja jälgida raha, mida töötajad kulutavad, kui nad katavad teie äritegevusega seotud kulusid.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0fe9f763e18507fa232cb830f8e0b6852374b65b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c27eede55e01dd1437dfc480741922ed9d617bff
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993546"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271843"
 ---
 # <a name="expense-management-overview"></a>Kuluhalduse ülevaade
 
@@ -35,7 +37,7 @@ Lisateavet vaadake teemast [Kuluhalduse konfigureerimine](plan-expense-managemen
 
 ### <a name="whats-new-and-in-development"></a>Mis on uut ja mida arendatakse
 
-Plaanitavate uute funktsioonide kavandamise kohta leiate teavet teemast [Microsoft Dynamics 365 väljalaskekava](/dynamics365/release-plans/).
+Plaanitavate uute funktsioonide kavandamise kohta leiate teavet teemast [Microsoft Dynamics 365 väljalaskekava](https://go.microsoft.com/fwlink/?linkid=2010158).
 
 #### <a name="expense-report-entry"></a>Kuluaruande kirje
 

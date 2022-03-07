@@ -2,19 +2,18 @@
 title: Hinnakujunduse dimensioonide ülevaade
 description: See teema sisaldab teavet hinnakujunduse dimensioonide kohta rakenduses Dynamics 365 Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
+ms.custom: intro-internal
+ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650182"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001966"
 ---
 # <a name="pricing-dimensions-overview"></a>Hinnakujunduse dimensioonide ülevaade
 
@@ -34,7 +33,7 @@ Seetõttu on olemas kahte tüüpi hinnakujunduse dimensiooniväärtusi.
 
 Rakenduses Dynamics 365 Project Operations tarnitakse vaikimisi seatud hinnakujunduse dimensioonidega. Neid hinnakujunduse dimensioone saate vaadata, kui avate **Project Operations** > **Parameetrid**. Veenduge, et parameetri kirjel on vahekaardil **Summal põhinevad hinnakujunduse dimensioonid**, et selle rollide **msdyn_resourcecategory** ja ressursi organisatsiooniüksus **msdyn_organizationalunit** väljad **Kehtib müügi kohta** ja **Kehtib kulu kohta** oleks seatud väärtusele **Jah**. Kui need väljad on lubatud, saate seadistada iga rolli ja organisatsiooniüksuse kombinatsiooni hinna ja maksumuse.
 
-![Esiletõstetud projektiteenuse parameetrite kuvatõmmis, millel on esile tõstetud „Kehtib müügi kohta”](media/PS-OOB-parameters.png)
+![Project Service’i parameetrite kuvatõmmis, millel on esile tõstetud „Kehtib müügi kohta”.](media/PS-OOB-parameters.png)
 
 Kui teil on vaja ressursside hinda või kulu, kasutades täiendavaid atribuute, saate luua kohandatud välju, olemeid ja dimensioone. Lisateabe saamiseks vaadake järgmisi teemasid. 
   
@@ -59,15 +58,18 @@ Järgmises näites on toodud arve määrad, mis on seadistatud vastavalt rollile
 
 **Näidishinnad**
 
-| Roll        | Organisatsiooniüksus    |Ühik      |Hind      |Valuuta  |
+| Roll        | Organisatsiooniüksus    |Üksus      |Hind      |Valuuta  |
 | ------------|-------------|----------|----------:|----------|
-| Arendaja   | Jõgi US  |Hour | 200|USD     |
-| Arendaja   | Jõgi India |Hour|   112|USD     |
+| Arendaja   | Contoso US  |tund | 200|USD     |
+| Arendaja   | Contoso India |tund|   112|USD     |
 
 
 **Kulumäära näidis**
 
-| Palgavahemik     | Organisatsiooniüksus    |Ühik      |Hind      |Valuuta  |
+| Palgavahemik     | Organisatsiooniüksus    |Üksus      |Hind      |Valuuta  |
 | ----------------|-------------|----------|----------:|----------|
-| Minu company_Band1 | Jõgi US  |Hour | 145|USD     |
-| Minu company_Band2 | Jõgi India |Hour|   67|USD     |
+| Minu company_Band1 | Contoso US  |tund | 145|USD     |
+| Minu company_Band2 | Contoso India |tund|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

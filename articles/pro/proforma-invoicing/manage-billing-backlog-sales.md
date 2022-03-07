@@ -1,21 +1,19 @@
 ---
-title: Arvete võlgnevuste haldamine – liht
-description: Selles teemas kirjeldatakse mitmesuguseid vaateid, mida saab kasutada arvete võlgnevuste haldamisel.
+title: Projekti arvete võlgnevuste haldamine
+description: See teema sisaldab teavet erinevate saadaolevate vaadete kohta, mida kasutada projektide arveldamise mahajäämuse haldamisel.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e3ca167fa53a6923727eff3e7c34c8706dc7455
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
-ms.translationtype: HT
+ms.openlocfilehash: 27ef2ae90778394d15b979a13215c8f5af483cda0312682e9fc7256b8282b999
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176966"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988286"
 ---
-# <a name="manage-the-billing-backlog---lite"></a>Arvete võlgnevuste haldamine – liht
+# <a name="manage-project-billing-backlog"></a>Projekti arvete võlgnevuste haldamine 
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
@@ -60,3 +58,6 @@ Arveldamata müüginäitajad, mille valiku **Ei saa ületada** olekuks on **Nurj
 Kui mitme kliendiga sõlmitud lepinguridadel on aja- ja materjalikulu arveldamise meetod, siis luuakse aja ja kulu kinnitamisel iga lepingurea jaoks iga kliendi kohta üks arveldamata müügi näitaja, mis on iga kliendi jaoks määratletud arvestatud protsendina. Vaates **Aja- ja materjalikuluga arvete võlgnevus** näete neid kindlat klienti puudutavaid arveldamata müügi näitajaid. Kõik need arveldamata müügi tegelike näitajate kirjed saab märkida kui **Arveldamiseks valmis**, sellest vaatest eraldi.
 
 Arve mustandil olev arveldamata müügi näitaja kuvatakse selles vaates arvelduse olekuga **Kliendi arve on loodud**. Kui arve mustand kinnitatakse, muutub selle kirje arveldamise olekuks **Kliendi arve on sisestatud**. Ärge värskendage seda oleku väärtust kohandatud koodi abil. Rakendus Project Operation ei tööta õigesti, kui oleku väärtused on värskendatud kohandatud koodiga.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

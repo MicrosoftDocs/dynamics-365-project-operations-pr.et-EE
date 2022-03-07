@@ -2,28 +2,26 @@
 title: Tööjaotuse struktuuride ülevaade
 description: Tööjaotuse struktuur (WBS) on projekti jaoks tehtava töö kirjeldus. See on tööülesannete hierarhia, mis esindab projektimeeskonna arusaama töö koosseisust ning iga komponendi või tööülesande suurusest, maksumusest ja kestusest.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 23861
+ms.custom: intro-internal
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 093f9901aec0db1fa8f920533c0084f877f26445fd07159e8e1ae0cf53849641
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074931"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998816"
 ---
 # <a name="work-breakdown-structures-overview"></a>Tööjaotuse struktuuride ülevaade
 
@@ -102,7 +100,7 @@ Hetkel te ei saa WBS-i nummerdamist kohandada.
 
 ### <a name="schedule-estimation"></a>Ajakava prognoosimine
 
-Ajakava prognoosimine on tavaliselt WBS-i loomise teine etapp. Hea tavana peaksite lõpetama ajakava prognoosimise pärast ülesannete loomist. Finance’is lehel **Tööjaotuse strutkuur** on kaks jaotist. Ülemine paan on mõeldud ajakava hindamiseks ja alumisel paanil on **Prognoositud kulud ja tulud**, mida saate kasutada kulude hindamiseks. 
+Ajakava prognoosimine on tavaliselt WBS-i loomise teine etapp. Hea tavana peaksite lõpetama ajakava prognoosimise pärast ülesannete loomist. Finance’is lehel **Tööjaotuse struktuur** on kaks jaotist. Ülemine paan on mõeldud ajakava hindamiseks ja alumisel paanil on **Prognoositud kulud ja tulud**, mida saate kasutada kulude hindamiseks. 
 **Tööülesande sõltuvused** – WBS-is saate luua tööülesannete vahel eelkäija seose. Kui määrate ülesandele eelkäijast ülesande, siis see ülesanne saab käivituda ainult pärast oma eelkäijast ülesande lõpetamist. Tööülesande kavandatav alguskuupäev seatakse automaatselt kõigi selle eelkäijate hiliseimale kuupäevale. 
 
 **Tööülesande kavandamine** – lehtsõlme ülesannete kavandamise määratlevad järgmised tegurid.
@@ -316,3 +314,6 @@ Teise võimalusena saate parandada ajastamise vigu individuaalselt, klõpsates i
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

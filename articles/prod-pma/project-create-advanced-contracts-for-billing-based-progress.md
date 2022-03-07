@@ -2,11 +2,9 @@
 title: Edenemisel põhinevate arvete jaoks täpsemate lepingute loomine
 description: Selles teemas kirjeldatakse, kuidas luua projekti lepinguid, et saaksite luua klientidele arveid vastavalt lõpuleviidud töö protsendile.
 author: RadhikaRS
-manager: AnnBe
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 661e8aa0be70e9c8aadcb3a3d9dd6d39d1bcb2fd55d198b3c9af19fc2d0ae9d3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075085"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000976"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Edenemisel põhinevate arvete jaoks täpsemate lepingute loomine
 [!include [banner](../includes/banner.md)]
@@ -103,3 +101,6 @@ Eelarve kategooriaid kasutatakse automaatselt arve summade arvutamiseks iga kate
 8. Valikuline: arvelduseegli määramine täiendavatele projektidele. Valige kiirkaardi **Projekt** jaotises **Saadaolevad projektid** projekt ja seejärel valige parempoolne noolenupp, et lisada projekt jaotisse **Valitud projektid**.
 9. Valikuline: protsendi summa arvutamine, mille klient arvel maksetest kinni on pidanud. Valige kiirvahekaardil **Maksete kinnipidamise tingimused** rahastamise allikas ja seejärel sisestage väljale **Kinnipidamise protsent** kinnipidamise protsent.
 10. Korrake neid juhiseid, et luua projekti lepingu jaoks täiendavaid arveldusreegleid.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

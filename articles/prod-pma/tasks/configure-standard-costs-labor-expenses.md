@@ -2,11 +2,9 @@
 title: Tööjõukulude ja väljaminekute standardsete kulude konfigureerimine
 description: Selles teemas kirjeldatakse, kuidas seadistada projekti tööjõu ja väljaminekute jaoks standardseid kulusid.
 author: Yowelle
-manager: AnnBe
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjCostPriceHour, ProjSalesPriceHour, ProjCostPriceExpense, ProjSalesPriceCost
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b3eb6b1d4d75b095383689dd53a59a15fe9e884a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 517e5ae776cff18aec81e5446a7aaedfba61ac0c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075013"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011006"
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>Tööjõukulude ja väljaminekute standardsete kulude konfigureerimine
 
@@ -54,3 +52,6 @@ Selles teemas kirjeldatakse, kuidas seadistada projekti tööjõu ja väljaminek
 22. Väljale **Hinnakujundus** sisestage arv. Tegelik müügihind, mida rakendatakse juhul, kui töötaja sisestab tehingu Kulu töölehele, on kõrgeima tasemega müügihind. Näiteks kui seadistatakse nii üldine müügihind kui ka töötajale omane müügihind, kasutatakse töötajale määratud müügihinda.  
 23. Valige **Salvesta**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

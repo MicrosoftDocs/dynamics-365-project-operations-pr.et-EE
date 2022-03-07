@@ -1,8 +1,6 @@
 ---
 title: Ressursitaotluse esitamine
 description: Selles teemas antakse teavet projekti ressursi taotluse esitamise kohta.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 173572be43149aea253bf7beddb993f8c50ab337
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149718"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6984957"
 ---
 # <a name="submitting-a-resource-request"></a>Ressursitaotluse esitamine
 
@@ -36,8 +34,11 @@ Saate loodud ressursinõude esitada ressursitaotlusena. Taotlus saadetakse seej�
 1. Broneeritavate ressursside loendi nägemiseks klõpsake Project Service Automation (PSA) lehel **Projektid** vahekaarti **Meeskond**. 
 2. Valige üldine ressurss, millel on olemas ressursinõue loendist, ja seejärel klõpsake valikut **Esita taotlus**.
 
-![Ressursitaotluse esitamine](media/RM-how-to-18.png)
+![Ressursitaotluse esitamine.](media/RM-how-to-18.png)
 
 Üldise meeskonnaliikme taotluse olek muutub olekuks **Esitatud**.
 
 Kui ressursihaldur on taotluse ära täitnud, asendatakse loodud ressurss nimega ressurssiga – seda juhul, kui ressursihaldur täidab nimega ressursi broneeringuga taotluse. Muidu jääb meeskonnale üldine ressurss ja taotluse olekuks seatakse **Vajab ülevaatamist**, kui ressursihaldur on teinud nimega ressursi ettepaneku.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

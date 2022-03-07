@@ -2,11 +2,9 @@
 title: Kohandatud väljade seadistamine hinnakujunduse dimensioonidena
 description: Selles teemas kirjeldatakse, kuidas seadistada kohandatud väljade abil hinnakujunduse dimensioone.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
-ms.translationtype: HT
+ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650200"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003586"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Kohandatud väljade seadistamine hinnakujunduse dimensioonidena
 
@@ -44,11 +42,11 @@ Selleks et väli saaks muutuda hinnakujunduse dimensiooniks, peab see olema:
 
 - Luuakse reana tabelisse **Hinnakujunduse dimensioon**. Näiteks lisage hinnakujunduse dimensiooni read järgmisel pildil kuvatud kujul. 
 
-![Summapõhised hinnakujunduse dimensiooni read](media/Amt-based-PD.png)
+![Summapõhised hinnakujunduse dimensiooni read.](media/Amt-based-PD.png)
 
 Ressursi töötunnid (**msdyn_resourceworkhours**) lisatakse hinnalisandipõhise dimensioonina ja see on lisatud vahekaardil **Hinnalisandipõhise hinnakujunduse dimensioon** olevasse ruudustikku.
 
-![Hinnalisandipõhised hinnakujunduse dimensioonide read](media/Markup-based-PD.png)
+![Hinnalisandipõhised hinnakujunduse dimensioonide read.](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]
@@ -75,12 +73,12 @@ Hinnakujunduse dimensioone on kahte tüüpi.
   
 | Roll        | Organisatsiooniüksus    |Töö asukoht      |Standardpealkiri      |Ressursi töötunnid      |  Tõsta hinda|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Jõgi India|Kohapeal            |                    |Ületunnitöö                 |15     |
-|             | Jõgi India|Kohalik             |                    |Ületunnitöö                 |10     |
-|             | Jõgi US   |Kohalik             |                    |Ületunnitöö                 |20     |
+|             | Contoso India|Kohapeal            |                    |Ületunnitöö                 |15     |
+|             | Contoso India|Kohalikud             |                    |Ületunnitöö                 |10     |
+|             | Contoso US   |Kohalikud             |                    |Ületunnitöö                 |20     |
 
 
-Kui Contoso Indiast pärinev ressurss, mille põhimäär on 100 USA dollarit, töötab kohapeal ning nad logivad ajakirjesse 8 tundi tavalist tööaega ja 2 tundi ületunnitööd, kasutab hinnakujunduse mootor 8 tunni salvestamiseks põhimäära väärtusega 100 (kokku 800 USA dollarit). 2 tunni ületunnitöö puhul rakendatakse põhimäärale 100 juurde 15%-hinnalisandit, saades ühiku hinnaks 115 USA dollarit ja salvestades kogukulu väärtuseks 230 USA dollarit.
+Kui Contoso Indiast pärinev ressurss, mille põhimäär on 100 USA dollarit, töötab kohapeal ning nad logivad ajakirjes 8 tundi tavalist tööaega ja 2 tundi ületunnitööd, kasutab hinnakujunduse mootor 8 tunni salvestamiseks põhimäära väärtusega 100 (kokku 800 USA dollarit). 2 tunni ületunnitöö puhul rakendatakse põhimäärale 100 juurde 15%-hinnalisandit, saades ühiku hinnaks 115 USA dollarit ja salvestades kogukulu väärtuseks 230 USA dollarit.
 
 ### <a name="applicable-to-cost"></a>Kehtib kulu kohta 
 Kui see on seadistatud sättele **Jah**, tähendab see seda, et kulu ja hinnalisandi määrade saamisel peab **Rolli hinnale** ja **Rolli hinna hinnalisandile** vastamiseks kasutama sisendi konteksti dimensiooniväärtust.
@@ -96,3 +94,6 @@ Dimensiooni prioriteedi seadistamine aitab hinnakujundusel luua hinda isegi siis
 
 - **Kuluprioriteet**: dimensiooni kuluprioriteedi väärtus näitab seadistatud kuluhindadega vastendamisel selle dimensiooni kaalu. **Kuluprioriteedi** väärtus peab olema kordumatu nende dimensioonide seas, mis **kehtivad kulu kohta**.
 - **Müügiprioriteet**: dimensiooni müügiprioriteedi väärtus näitab seadistatud müügihindade või arveldusmääradega vastendamisel selle dimensiooni kaalu. **Müügiprioriteedi** väärtus peab olema kordumatu nende dimensioonide seas, mis **kehtivad müügi kohta**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

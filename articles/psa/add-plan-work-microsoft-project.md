@@ -2,8 +2,6 @@
 title: Project Service’i lisandmooduli kasutamine töö planeerimiseks tarkvaras Microsoft Project | MicrosoftDocs
 description: Selles teemas kirjeldatakse, kuidas lisada, konfigureerida ja kasutada Microsoft Projecti lisandmooduleid teenuse Microsoft Project Service jaoks.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9556feac5481e20bde1c9624c0eccc05385eaa94
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145983"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005296"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Lisandmooduli Project Service Automation kasutamine töö planeerimiseks tarkvaras Microsoft Project
 
@@ -231,3 +229,6 @@ Järgmises tabelis kirjeldatakse, kuidas sünkroonitakse andmeid rakenduste Proj
 
 ### <a name="see-also"></a>Vt ka  
  [Projektijuhi juhend](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

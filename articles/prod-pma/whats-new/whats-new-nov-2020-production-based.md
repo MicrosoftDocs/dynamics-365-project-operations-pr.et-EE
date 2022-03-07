@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b671f314ddae9a59167bb9059dc7b076df95cb9d
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: 28b967ddb6bec9fcc1be099e6ab218f38640a14c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365449"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287998"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Mis on uut novembris 2020 – Project Operations ladustamise-/tootmispõhiste stsenaariumite jaoks
 
@@ -26,3 +26,6 @@ Teabe saamiseks selles värskenduses sisalduvate paranduste kohta logige sisse t
 ## <a name="regulatory-updates"></a>Regulatiivsed uuendused
 
 Lisateavet teenuse Dynamics 365 Finance and Operations rakenduste regulatiivsete uuenduste kohta vaadake teemast [Regulatiivsed uuendused](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Saate ka LCS-i sisse logida ja vaadata kavandatud regulatiivseid värskendusi, kasutades probleemi otsimise tööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

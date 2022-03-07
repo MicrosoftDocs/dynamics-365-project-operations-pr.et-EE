@@ -2,18 +2,16 @@
 title: Ressursikalendrite määratlemine
 description: Selles teemas kirjeldatakse, kuidas määratleda rakenduses Project Operations ressusrsside tööajakalendrid.
 author: ruhercul
-manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: daa49cf8ba9ba005a16777f590c4c06d024de529
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: ff10da57fd0767b00282537b241d5d16d95feca8741a620a277306bd8aa53ce5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123913"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990311"
 ---
 # <a name="define-resource-calendars"></a>Ressursikalendrite määratlemine
 
@@ -43,3 +41,6 @@ Igal projektiga töötaval ressursil peab olema tööajakalender, et määratled
 2. Valige ruudustiku vaatest värskendamiseks kuni 25 **Broneeritavat ressurssi**.
 3. Valige suvand **Määra kalender** ja kuvatakse dialoog saadaolevate tööajamallide loendiga.
 4. Valige mall, mida soovite kasutada, ja valige seejärel **Rakenda**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

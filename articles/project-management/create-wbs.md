@@ -2,18 +2,16 @@
 title: Tööjaotuse struktuuri loomine
 description: Selles teemas kirjeldatakse, kuidas luua uues kavandamisliideses põhijuhtelementidega tööjaotuse struktuuri (WBS).
 author: ruhercul
-manager: tfehr
 ms.date: 01/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: ac3facacd95e5e677635cb037d0d3458da612410
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841328"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005696"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Tööjaotuse struktuuri (WBS) loomine
 
@@ -93,6 +91,8 @@ Järgmises tabelis on toodud täiendavad ajakava atribuudid.
 | Nimetus | Tööülesande nimi. |
 | ID | Tööjaotuse struktuuris sisalduva ülesande ID. |
 
+Administraatorina saate tööülesande olemis määratleda kohandatud välju. Kuid välju ei saa ajakava ruudustikus kuvada. Kohandatud väljade nägemiseks lisage need **Projekti ülesande** üksikasjade lehele.
+
 ## <a name="staffing-attributes"></a>Personaliatribuudid
 
 Personaliatribuute saab kasutada ajakava välja **Ressursid** kaudu. Saate otsida olemasolevat ressurssi või valida käsu **Loo** ja siis lisada paneelil **Kiirloomine** uue ressursina projekti meeskonnaliikme.
@@ -116,3 +116,6 @@ Project Operationsi ajakava abil saate luua ülesannete vahel eelkäijate seosei
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Hõlbustusfunktsioonid ja kiirklahvid
 
 **Ajakava** ruudustik on täielikult juurdepääsetav ja seda saab kasutada ekraanilugeja, näiteks Narrator, JAWS või NVDA. Saate liikuda läbi ruudustiku ala nooleklahvide abil (nagu rakenduses Microsoft Excel), saate kasutada tabeldusklahvi, et interaktiivse kasutajaliidese elemente edasi arendada, ning võite kasutada allanoolt, sisestusklahvi või tühikut, et valida ja avada rippmenüüd.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,19 +2,17 @@
 title: Mis on uut aprillis 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
 description: See teema annab teavet Project Operationsi ressursipõhiste/mittelaopõhiste stsenaariumite jaoks 2021. a aprilli väljalaskes saadaolevate kvaliteedivärskenduste kohta.
 author: sigitac
-manager: tfehr
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 339a488908add09c5e4f62568bb83b78450e7082
-ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
-ms.translationtype: HT
+ms.openlocfilehash: dbce86e88f8315ac4a4957c1128b5619d5328bdbbe27793e161f8f2691899481
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935469"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008131"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Mis on uut aprillis 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
 

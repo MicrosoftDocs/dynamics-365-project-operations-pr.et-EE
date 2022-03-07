@@ -2,6 +2,8 @@
 title: Ressursi broneeringud ja kuidas need on seotud ülesande määramistega
 description: Selles teemas antakse teavet selle kohta, kuidas hallata nimega ressursse, ressursside broneerimist ja ülesande määramist ning seda, kuidas need üksteisega seotud on.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -16,16 +18,15 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 72c741d8a0644589004ba20afbcd0baff7cfcb06
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c4b976b49bd643bc7a774a86b1ba89bd76d7c916
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993186"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124993"
 ---
 # <a name="resource-bookings-and-how-they-relate-to-task-assignments"></a>Ressursi broneeringud ja kuidas need on seotud ülesande määramistega
 
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 Nimelisi ressursse saab broneerida projekti meeskonnale ja määrata projekti ülesannetele kahel järgmisel viisil.
 
@@ -66,6 +67,3 @@ Vaade **Vastavusse viimine** võimaldab projektijuhil näha iga projekti meeskon
 > [!NOTE]
 > Kui liigutate ülesannet, millele olete ise kontuuri seadistanud, siis neid kontuure ei hoita alles. Need kontuurid luuakse uuesti projekti kalendri järgi, et võtta arvesse muutusi töötundides ja puhkepäevades. See on taotluslik, kuna süsteem ei tea esialgse kontuuri eesmärki ja ei saa otsustada, kas kontuuri säilitamine uues ajavahemikus oleks sobiv. Kuna reserveeringud ja määrangud pole ühendatud, siis säilitavad reserveeringud esialgsed reserveeringu kontuurid. Sel juhul peate tühistama ja uue ülesande kontuurile uuesti reserveerima.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

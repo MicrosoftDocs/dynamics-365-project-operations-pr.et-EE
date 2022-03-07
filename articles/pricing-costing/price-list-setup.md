@@ -2,24 +2,22 @@
 title: Hinnakirjade seadistamine
 description: Selles teemas kirjeldatakse, kuidas seadistada kulude ja müügi hinnakirju.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 227e9a6f0ce6fd3fa1c2b0bd9afa014a3ec4f9758ead0dfb408156535692575c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180187"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009481"
 ---
 # <a name="set-up-price-lists"></a>Hinnakirjade seadistamine
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Dynamics 365 Project Operationsi hinnakirjad esindavad hinnakatalooge. Hinnad väljendavad kulu-, müügi- ja arveldusmäärasid. Sõltuvalt sellest, kas hinnakiri väljendab kulumäära või müügi- ja arveldusmäära, on hinnakirja sisuks kas **Müük** või **Kulu**.
+Dynamics 365 Project Operationsi hinnakirjad esindavad hindade kataloogi. Hinnad väljendavad kulu-, müügi- ja arveldusmäärasid. Sõltuvalt sellest, kas hinnakiri väljendab kulumäära või müügi- ja arveldusmäära, on hinnakirja sisuks kas **Müük** või **Kulu**.
 
 Järgmised laiendused on omased Project Operationsile ja neid rakendatakse Dynamics 365 Salesi hinnakirjadele.
 
@@ -40,3 +38,6 @@ Järgmises tabelis on toodud need väljad hinnakirja vahekaardil **Üldine**, mi
 | Valuuta | Vahekaart **Üldine** ja vormid **Kiirloomine** | Seda välja kasutatakse selle hinnakirjaga seotud iga rolli, kategooria või hinnakirja üksuse rea valuuta vaikeväärtusena. | **Müügi** hinnakirjades ei saa rolle, kategooriaid ega hinnakirja üksuse ridu luua üheski teises valuutas peale selle valuuta. **Kulu** hinnakirjades saate luua rolli hinna rea mistahes valuutas. Siin määratletud valuutat kasutatakse vaikimisi. Kasutaja rolli hindadega seotud seadistus võib selle väärtuse alistada, et lubada tööjõu kulumäära seadistamise mistahes valuutas. Kategooria kulumäärasid ja hinnakirjaüksuse kulusid saab seadistada ainult siin määratletud valuutas. |
 | Ajaühik | Vahekaart **Üldine** ja vormid **Kiirloomine** | Seda välja kasutatakse selle hinnakirjaga seotud iga rolli rea ajaühiku vaikeväärtuse saamiseks. | Seda välja väärtust kasutatakse ainult seotud rolli hinna seadistamisel. Hinnakirjades **Kulu** ja **Müük** saate luua rolli hinna rea mistahes ajaühikus. Siin määratletud ajaühikut kasutatakse vaikimisi. Kasutaja rolli hindadega seotud seadistus võib selle väärtuse alistada, et lubada tööjõu kulu ja arveldusmäära seadistamise mistahes ajaühikus. |
 | Kirjeldus | Vahekaart **Üldine** ja vormid **Kiirloomine** | See tekstiväli võimaldab teil anda hinnakirja mitmerealise kirjelduse. | See väli kuvatakse hinnakirja vaates **Seostatud** erinevates üksustes, millel on seotud hinnakirjad. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

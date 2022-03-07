@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 63ad6544f0ec0a893aebd8d81f3ee895e51c294e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: c4a3424bed704243dfb5524fa541c3fcc0899e57
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146118"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5285613"
 ---
 # <a name="actuals-overview"></a>Tegelike näitajate ülevaade
 
@@ -330,3 +330,6 @@ PSA salvestab projekti jooksul toimuvad finantstehingud. Need kanded kirjendatak
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

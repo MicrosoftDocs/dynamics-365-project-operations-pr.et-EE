@@ -1,8 +1,6 @@
 ---
 title: Tööjaotuse struktuuri täiendamise kaalutlused
 description: Selles teemas kirjeldatakse, kuidas täiendada tööjaotuse struktuuri Project Service Automation versioonilt 2.x versioonile 3.x.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 5258813410c3cea015775898cc72ba1574549edd8ee0c8b7aad8c94943eb5a60
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149538"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992336"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Tööjaotuse struktuuri täiendamise kaalutlused
 
@@ -34,20 +32,20 @@ Selles teemas kirjeldatakse, kuidas täiendada tööjaotuse struktuuri Project S
 ## <a name="key-entities"></a>Põhiolemid
 Täpse tööjaotuse struktuuri jaoks, mis on juba ressurssidega laaditud, on nõutavad järgmised olemid.
 
-- [Projekt](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [Projektimeeskond](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [Projekti ülesanne](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [Ressursimääramised](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [Projekti ülesande sõltuvus](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [Reserveeritavad ressursid](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [Projekt](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [Projektimeeskond](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [Projekti ülesanne](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [Ressursimääramised](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [Projekti ülesande sõltuvus](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [Reserveeritavad ressursid](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 Ressursiga laaditud tööjaotuse struktuuri määratlemiseks peate läbi tegema järgmised etapid.
 
-1. Uue projekti loomine. Lisateavet uue projekti loomise kohta leiate jaotisest [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
-2. Ühe või mitme ülesande loomine. Lisateavet ülesande loomise kohta leiate jaotisest [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
-3. Ülesannete sõltuvuste määramine. Lisateavet leiate teemast [Projekti tööülesande sõltuvus](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
-4. Projekti meeskonnaliikmete määramine projektile. Lisateavet leiate jaotisest [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
-5. Projekti meeskonnaliikmete määramine ülesannetele. Lisateavet leiate jaotisest [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
+1. Uue projekti loomine. Lisateavet uue projekti loomise kohta leiate jaotisest [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
+2. Ühe või mitme ülesande loomine. Lisateavet ülesande loomise kohta leiate jaotisest [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
+3. Ülesannete sõltuvuste määramine. Lisateavet leiate teemast [Projekti tööülesande sõltuvus](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
+4. Projekti meeskonnaliikmete määramine projektile. Lisateavet leiate jaotisest [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
+5. Projekti meeskonnaliikmete määramine ülesannetele. Lisateavet leiate jaotisest [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
 
 ## <a name="project-team-relationships"></a>Projekti meeskonna seosed
 
@@ -96,3 +94,6 @@ Eduka täienduse tagamiseks tuleb õigesti säilitada järgmised seosed.
 
 - Kõik projekti ülesande sõltuvused peavad olema seotud sama projektiga.
 - Ülesandel ei saa samale sõltuvusele viidata rohkem kui üks kord.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

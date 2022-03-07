@@ -2,19 +2,17 @@
 title: Projekti müügi hinnakirjade tühistamine
 description: See teema sisaldab teavet kohandatud müügi hinnakirjade loomise kohta.
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
-ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
-ms.translationtype: HT
+ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672226"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009571"
 ---
 # <a name="override-project-sales-price-lists"></a>Projekti müügi hinnakirjade tühistamine
 
@@ -52,3 +50,6 @@ Saate kasutada iga sellist hinnakirja ja teha kohandusi töö (rolli hind) ja ku
 Projektilepingus on projekti hinnakujunduse vaikeväärtused alati pärit lepingu nimega kohandatud hinnakirjast ja luuakse nimele lisatud ajatempliga. See on tõene, kui leping loodi hinnapakkumise võitmise ajal või kui leping loodi nullist. Vajaduse korral saate selle kohandatud hinnakirjaga seose eemaldada ja seostada selle asemel projektilepinguga standardse hinnakirja.
 
 Kui seostate hinnapakkumise või lepingu projekti hinnakirjad standardse hinnakirjaga, mõjutavad kõik hinnakirja hindade muudatused kõiki hinnapakkumisi ja lepinguid, mis seda hinnakirja kasutavad.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

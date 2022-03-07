@@ -2,18 +2,16 @@
 title: Oskused ja sertifikaadid
 description: Selles teemas antakse teavet ressurssidele oskuste ja sertifikaatide omaduste lisamise kohta.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1d04148f2e0953744da5ca32aa9062e3ae9530e7
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: bf892d791b192005cc72d7fed08f2f22a12c002eb270a0faef6ae476fafafc20
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128863"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990176"
 ---
 # <a name="skills-and-certifications"></a>Oskused ja sertifikaadid
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
@@ -43,3 +41,5 @@ Ressursinõudele tunnuste lisamine võimaldab teil dokumenteerida ressursi poolt
 3. Valige alamruudustikust **Oskused** suvand **+ Lisa uus nõude tunnus.**
 4. Leidke ja valige kiirloomispaanil nõutavad tunnused ja lisage **Hinnangu väärtus**.
 5. Valige **Salvesta ja sule**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

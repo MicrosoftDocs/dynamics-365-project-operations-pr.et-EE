@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3441a386c142d8c73066c6eb1e0371678c44d94c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1b8d68068c151c8530b9a7d3dccb742902fdc6a3
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271213"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960647"
 ---
 # <a name="travel-requisitions-overview"></a>Reisitellimuste ülevaade
 
@@ -32,6 +32,3 @@ Teie organisatsioon võib nõuda, et enne töötajatele ettevõtte poolt tasutav
 Reisitellimusi ja poliitikaid saab kasutada eelarve kontrollimiseks. Kui teie organisatsioon töötab näiteks fikseeritud hinnaga projektiga, mis nõuab reisimist, peavad projekti meeskonnaliikmete sõidukulud vastama projekti eelarvele. Nõudes, et reisikulud kinnitatakse enne nende tekkimist, saab organisatsioon aidata tagada, et projekt jääb eelarve piiresse.
 
 Saate reisitellimuste poliitikaid seadistada lehel **Reisitellimus**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

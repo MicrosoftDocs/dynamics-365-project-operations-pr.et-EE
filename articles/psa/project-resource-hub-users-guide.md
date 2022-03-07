@@ -2,8 +2,6 @@
 title: Projekti ressursside keskuse kasutusjuhend
 description: Project Service'i projekti ressursside keskuse lõppkasutajale mõeldud juhend
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
-ms.translationtype: HT
+ms.openlocfilehash: ac815eb82114c00af712a7ae76e43f28841ac5023be81f97718dc7ce529e1d34
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948133"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987251"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Projekti ressursside keskuse kasutusjuhend
 
@@ -54,28 +52,28 @@ Enne projekti ressursside keskuse rakenduse kasutamist peate oma seadmesse insta
 1.  Mobiilirakendusse sisse logides näete lehte MyApps, kus on toodud rakenduste loend, millele teil on ligipääs. 
 2.  Valige **Projekti ressursside keskus**.
 
-![Rakenduse valimine](media/chooseApp_1.png "Rakenduse valimine")
+![Valige rakendus.](media/chooseApp_1.png "Rakenduse valimine")
 
 **Navigeerimisriba**
 
-Navigeerimisriba kaudu pääsete oma tööalale, saate luua uue kirje, teha otsingut või täita muid ülesandeid. Puudutage rohkematele käskudele juurde pääsemiseks nuppu ![Nupp Kuva rohkem](media/MoreButton.png "Nupp Kuva rohkem")
+Navigeerimisriba kaudu pääsete oma tööalale, saate luua uue kirje, teha otsingut või täita muid ülesandeid. Puudutage rohkematele käskudele juurde pääsemiseks nuppu ![Nupp Kuva rohkem.](media/MoreButton.png "Nupp Kuva rohkem")
 
-![Navigeerimisriba](media/NavBar_2.png "Navigeerimisriba")
+![Navigeerimisriba.](media/NavBar_2.png "Navigeerimisriba")
 
 **Lemmikud ja hiljuti kasutatud kirjed**
 
 Jaotised Lemmikud ja Hiljuti kasutatud pakuvad kiiret juurdepääsu teie kirjetele, vaadetele ja armatuurlaudadele. 
 
-- Neile jaotistele juurdepääsuks koputage navigeerimisribal nuppu **Menüü** ![Nupp Menüü](media/MenuButton.png "Nupp Menüü") ning valige seejärel nupp **Lemmikud ja hiljutised** ![Nupp Lemmikud](media/FavButton.png "Nupp Lemmikud").
+- Neile jaotistele juurdepääsemiseks koputage navigeerimisribal nuppu **Menüü** ![Nupp Menüü.](media/MenuButton.png "Nupp Menüü") ja seejärel koputage nuppu **Lemmikud ja hiljutised** ![Nupp Lemmikud](media/FavButton.png "Nupp Lemmikud").
 
 - Üksuse kinnitamine lemmikuna koputage **Hiljuti kasutatud** üksuste loendis knopkat. See kinnitab ja liigutab üksuse kausta Lemmikud.
 
-  ![Lemmikud ja hiljutised üksused](media/Favs_3.png "Lemmikud ja hiljutised üksused")
+  ![Lemmikud ja hiljutised üksused.](media/Favs_3.png "Lemmikud ja hiljutised üksused")
  
 ## <a name="enter-time"></a>Kellaaja sisestamine
 Sisestage tunnid vähemalt kord nädalas – või teie juhtide nõutava sagedusega – et tagada klientidele arvete esitamine ja teie õige krediteerimine.
 
-1. Koputage nuppu Menüü ![Nupp Menüü](media/MenuButton.png "Nupp Menüü") ja seejärel suvandit **Ajakirjed**. See avab teie kalendri.
+1. Koputage nuppu Menüü ![Nupp Menüü.](media/MenuButton.png "Nupp Menüü") ja siis valikut **Ajakirjed**. See avab teie kalendri.
 
 2. Kalendri eelmise või järgmise nädala vaatamiseks koputage nuppu **Eelmine** või **Järgmine**. Praegusele nädalale naasmiseks koputage valikut **Täna**.
 

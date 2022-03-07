@@ -1,26 +1,24 @@
 ---
-title: Näidisarve kinnitamine – liht
-description: Selles teemas antakse teavet Project Operationsis näidisarvete kinnitamise kohta.
+title: Projekti näidisarve kinnitamine
+description: See teema sisaldab teavet Project Operationsi projekti näidisarvete kinnitamise kohta.
 author: rumant
-manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 02b671e4ad327b2448529d7119211613f3a9cb27
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
-ms.translationtype: HT
+ms.openlocfilehash: 37efb4923cbf9696ff85dfcd6dee9aac6badd68ed74a515e5ea5598aacfa3a83
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176516"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992966"
 ---
-# <a name="confirm-a-proforma-invoice---lite"></a>Näidisarve kinnitamine – liht
+# <a name="confirm-a-proforma-project-invoice"></a>Projekti näidisarve kinnitamine 
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
 
-Pärast näidisarve kinnitamist värskendatakse projekti arve olekuks **Kinnitatud**. Kui arve on kinnitatud, muutub see kirjutuskaitstuks. Edaspidi saab arvet parandada ainult juhul, kui on kliendi algatatud parandused või krediidid, või kui arve on märgitud tasutuks.
+Pärast näidisarve kinnitamist värskendatakse projekti arve olekuks **Kinnitatud**. Kui arve on kinnitatud, muutub see kirjutuskaitstuks. Edaspidi saate arve parandada ainult juhul, kui on olemas kliendiga seotud parandused või krediidid.
 
 Järgmises tabelis on loetletud süsteemi loodud tegelikud näitajad. Need tegelikud näitajad luuakse teatud toimingute tegemisel projekti arve mustandisse enne selle kinnitamist.
 
@@ -231,6 +229,70 @@ Uus arveldamata müügi tegelik väärtus, mis on arveldatav muudetud arverea ü
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
+Materjali tehingu arveldamine ilma arve mustandit muutmata.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Arveldamata müügi tagasipööramine materjali algsel kasutuse kinnitusel sisalduvale kogusele ja summale.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Arveldatud müügi tegelik näitaja materjali algsel kasutuse kinnitusel sisalduvale kogusele ja summale.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Materjali tehingu arveldamine, mida on koguse vähendamiseks muudetud.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Arveldamata müügi tagasipööramine algsel aja kinnitusel sisalduvale kogusele ja summale.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Uus arveldamata müügi tegelik väärtus, mis on arveldatav muudetud arverea üksikasjade koguse ja summa eest, tegeliku arveldamata müügi tühistamine ja samaväärne arveldatud müügi tegelik väärtus.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Uus arveldamata müügi tegelik väärtus, mis on mittearveldatav muudetud arverea üksikasjade järelejäänud koguse ja summa eest pärast parandatud arvude mahaarvamist, tegeliku arveldamata müügi tühistamine ja samaväärne arveldatud müügi tegelik väärtus.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Materjali tehingu arveldamine, mida on koguse suurendamiseks muudetud.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Arveldamata müügi tagasipööramine materjali algsel kasutuse kinnitusel sisalduvale kogusele ja summale.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Uus arveldamata müügi tegelik väärtus, mis on arveldatav muudetud arverea üksikasjade koguse ja summa eest, tegeliku arveldamata müügi tühistamine ja samaväärne arveldatud müügi tegelik väärtus.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
 Arve esitamine.
                 </p>
             </td>
@@ -273,3 +335,6 @@ Selle toote rea arveldatud tegelik müük, mille kogus ja summa pärineb tootep�
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,24 +2,22 @@
 title: Meeskonnaliikmete lisamine meeskonnaliikmete ruudustikust
 description: Selles teemas antakse teavet meeskonnaliikmete ressursside haldamise kohta.
 author: ruhercul
-manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: c4ff7792a9a99cbbe791a10dbc5157ffd51de285c02f23471532a09e7a55b031
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121528"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008401"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Meeskonnaliikmete lisamine meeskonnaliikmete ruudustikust
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Rakendus Dynamics 365 Project Operations sisaldab ressursihalduri armatuurlauda, mis pakub visuaalset ülevaadet ressursi nõudlusest ja kasutamisest kogu ettevõttes. Armatuurlaua diagramme saate kasutada järgmise teabe visualiseerimiseks.
+Dynamics 365 Project Operations sisaldab ressursihalduri armatuurlauda, mis pakub visuaalset ülevaadet ressursi nõudlusest ja kasutamisest kogu ettevõttes. Armatuurlaua diagramme saate kasutada järgmise teabe visualiseerimiseks.
 
 - **Ressursi nõudlus**: diagramm **Aktiivne ressursitaotlus** kuvab esitatud ressursid. Ressursid on koondatud kas rolli või projekti kaudu.
 - **Esitamata ressursi nõudmised**: diagramm **Määramata ressursi nõudlus** näitab kõiki ressursinõudeid, mida pole veel esitatud. See diagramm aitab ressursihalduritel vaadata nõudlust, mis pole kindel ja mida võidakse esitada ressursitaotluse kaudu.
@@ -200,3 +198,6 @@ Kui vaatate aega kõrgemal tasemel, on vahekaardil **Vastavusseviimine** määra
 Kui teil on ressursi jaoks tööülesanded, kuid ei ühtegi broneeringut, valige vormi **Projektid** vahekaardil **Vastavusseviimine** broneeringu puudujääk, seejärel valige käsk **Pikenda reserveeringut**. Kuvatakse dialoogiboks **Pikenda reserveeringut** ja kuvatakse broneering, mis on vajalik ressursi puudujäägi lahendamiseks. Dialoogiboks näitab ka ressursi olemasolevaid broneeringuid kõigis projektides või muudes kavandatud üksustes. Kui valite ressursi reserveeringu loomiseks valiku **OK**, võite selle ressursi saadavusest olenemata põhjustada ülebroneeringu.
 
 Projektijuht või ressursihaldur saab seejärel kasutada ajakavapaneeli, et hallata mis tahes olukordi, kus ressurss on üle broneeritud.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

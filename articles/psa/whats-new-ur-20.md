@@ -2,8 +2,6 @@
 title: Mida on uut või muudetud rakenduse Project Service Automation värskenduse väljaandes 20, V3
 description: Selles teemas loetletakse Project Service Automationi värskenduse väljalaske 20, v3 saadaolevaid funktsioone ja parandusi.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
 ms.topic: article
@@ -17,18 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 9939e2f354b69dcbc304f4f6e2ac41a00f251fed69f37978059f4053335ee651
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147108"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993596"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Rakenduse Project Service Automation, värskenduse väljaanne 20, v3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Meil on hea meel teatada uusimast Dynamics 365 Project Service Automationi rakenduse värskendusest. See väljaanne sisaldab mõningaid olulisi kvaliteedi, jõudluse ja kasutatavuse täiustusi. See väljalase ühildub Dynamics 365 9. x-iga. Sellele väljaandele värskendamiseks külastage veebis Dynamics 365 administreerimiskeskuse lahenduste lehte värskenduse installimiseks. Lisateabe saamiseks vt jaotist [Eelistatud lahenduse installimine, värskendamine või eemaldamine](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+Meil on hea meel teatada uusimast Dynamics 365 Project Service Automationi rakenduse värskendusest. See väljaanne sisaldab mõningaid olulisi kvaliteedi, jõudluse ja kasutatavuse täiustusi. See väljalase ühildub Dynamics 365 9. x-iga. Sellele väljaandele värskendamiseks külastage veebis Dynamics 365 administreerimiskeskuse lahenduste lehte värskenduse installimiseks. Lisateabe saamiseks vt jaotist [Eelistatud lahenduse installimine, värskendamine või eemaldamine](/power-platform/admin/install-remove-preferred-solution).
 
 Selles teemas loetletakse Project Service Automationi V3 värskenduse väljalaske 20 uusi või muudetud funktsioone ja parandusi. Selle versiooni järgu number on V 3.10.31.37 ja on üldiselt saadaval 2020. a juuni enesevärskenduse kaudu.
 
@@ -42,7 +40,7 @@ Lahendatud on järgmised probleemid.
 
 - Projekti meeskonnaliikmete importimine jaotamismeetodiga, mis nõuab tundide tulemit ebaselges tõrketeates, kui määratud tunnid on null.
 - Kasutajatele kuvatakse vale tõrge, kui projekti tööülesande väljale **Kirjeldus** on sisestatud maksimaalne arv märke.
-- **Microsofti Dynamics 365 Project Service Automationi lisandmooduli allalaadimise** leht suunab teid ingliskeelsele allalaadimislehele, kui kasutaja keelesätted on määratud Jaapani keeleks.
+- Leht **Microsoft Dynamics 365 Project Service Automationi lisandmooduli allalaadimine** suunab inglisekeelsele allalaadimise lehele, kus kasutaja keelesätted on määratud jaapani keelele.
 - Kui ilmneb serveri tõrge, jääb mõnikord sünkroonimise silt vahekaardil **Ajakava** rakenduse **Projektid** vormides alles.
 - Liigsed tööülesannete värskendused saadetakse serverisse tööülesande muutmisel.
 
@@ -62,3 +60,6 @@ Lahendatud on järgmised probleemid.
 - **Organisatsiooni ühiku omahinna** loendid lubavad efektiivse kuupäeva kattumist.
 - Kasutajad ei tohi muuta **OrgUnit** it juhul, kui tellimuse tüüp ei ole tööpõhine, kuna selle tulemuseks on nullviite erandi tõrge.
 - Kui proovite navigeerida vormilt **Hinnapakkumise rea üksikasjad** tagasi vahekaardile **Hinnapakkumine**, siis vorm värskendab ja kuvab vahekaardi **Kokkuvõte**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

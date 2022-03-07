@@ -2,18 +2,16 @@
 title: Arve ajakavade loomine projekipõhisel lepingureal – liht
 description: See teema annab teavet arve ajakavade ja vahe-eesmärkide loomise kohta.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 728a35b2b69fb63a2b20f218c250365c5068370f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: dc0cf92ed7af0353baa0f93fc7fb69e02905f805eb04a7b4c7bc99cfe59da62a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180322"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006061"
 ---
 # <a name="create-invoice-schedules-on-a-project-based-contract-line---lite"></a>Arve ajakavade loomine projekipõhisel lepingureal – liht
 
@@ -74,3 +72,6 @@ Kui fikseeritud hinnaga vahe-eesmärke ei jagata regulaarselt, saate need luua k
 | Maks | Kiirloomine | Vahe-eesmärgile rakendatav maksusumma. | See lisatakse projekti lepingurea vahe-eesmärgile ja arvele. |
 
 4. Valige **Salvesta ja sule**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 61db23e19614f5c3be5c8b46fbf72463705e409c
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 3503b17e54fc0b321582c30ce534e4cb3f497a5f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148098"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283678"
 ---
 # <a name="project-stage-types"></a>Projekti etappide tüübid 
 
@@ -65,3 +65,6 @@ Kui projekti töö on lõpule viidud, saab projektijuht värskendada projekti et
 ## <a name="close"></a>Sule
 
 Kui projekti jaoks on kõik kanded talletatud, saab projektijuht värskendada projekti etapile **Sule**. Sel hetkel ei saa kandeid enam talletada ja projekt on seatud kirjutuskaitstuks.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Projektimallid
 description: Selles teemas antakse teavet selle kohta, kuidas kasutada projektimalle kiireks projekti seadistamiseks.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db42c9ea7280274cdc9cc90f1487f27e08f892e5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148053"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002506"
 ---
 # <a name="project-templates"></a>Projektimallid 
 
@@ -49,7 +47,7 @@ Projekti loomiseks projektimallist on mitu võimalust.
 
 - Projekti loomisel hinnapakkumisest saate valida dialoogiboksis **Kiirloomine: projekt** projektimalli.
 
-> ![Dialoogiboks Kiirloomine: projekt](media/project-11.png)
+> ![Kiirloomine: projekti dialoogiboks.](media/project-11.png)
 
 - Projekti loomisel suvandiga **Uus projekt**, kuvatakse enne kirje salvestamist leht **Projekt**. Valige väljal **Vali mall** üks organisatsiooni eelmääratletud projektimallidest.
 - Kasutage lehel **Malliolem** suvandit **Loo projekt mallist**.
@@ -69,3 +67,6 @@ Projekti prognoosiridade üleselt kopeerimisel värskendatakse hinnakirju. Kulud
 ### <a name="copying-a-project-team"></a>Projektimeeskonna kopeerimine
 
 Projektimeeskonna kopeerimisel projektimallist projekti kopeeritakse üldised ressursid koos mallis määratletud oskuste ja pädevustega. Üldiseid ressursi määramisi säilitatakse samamoodi, nagu nad olid projektimallis. Nimega ressursse projektimallides ei toetata.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Projektimeeskonna loomine
 description: Selles teemas antakse teavet projektimeeskonna loomise ja haldamise kohta.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270853"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005791"
 ---
 # <a name="create-a-project-team"></a>Projektimeeskonna loomine
 
@@ -35,7 +33,7 @@ Kuvamissätteid saab samuti kohandada, et anda ressursi saadavusest parem vaade.
 
 Projektijuht saab valida lehel rolli ja seejärel vaba ressursi olemasolul, mis nõudega ühtib, valida ressursi reserveerimine rolli täitmiseks. Pange tähele, et ressursse ei pea kavandamise etapis sellel hetkel reserveerima. WBS-i loomisel saate rolle asendada projekti töötajate ressurssidega. Kui rollid asendatakse WBS-is töötajatest ressurssidega, siis ressursi seadistus värskendab automaatselt projektimeeskonda loendit ja ajakava.
 
-[![Projektimeeskonna loend, mis sisaldab nii rolle kui ka tegelikke ressursse](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Projektimeeskonna loend, mis sisaldab nii rolle kui ka tegelikke ressursse.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 Projektijuhil on mitmeid võimalusi projekti jaoks ressursi broneerimiseks, nagu **Järelejäänud võimsus**, **Täisvõimsus**, **Võimsuse protsent** ja **Konkreetsed tunnid**. Kui ressursi määramised muutuvad, saab neid broneeringu võimalusi igal ajal tühistada. Toetatud on kahte tüüpi broneeringud.
 

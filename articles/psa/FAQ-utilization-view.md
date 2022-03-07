@@ -2,6 +2,8 @@
 title: Arveldatava ressursikasutuse vaatamine
 description: Selles teemas antakse teavet ressursi kasutamise vaate kohta.
 author: ruhercul
+manager: kfend
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -16,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 6daa6cfa1c6a237d8a1685123f7c1a6926418bfe
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992829"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074978"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Arveldatava ressursikasutuse vaatamine
-
-[!include [banner](../includes/psa-now-project-operations.md)]
  
 Vaates **Kasutamise vaade** lehel **Project Service ressursi kasutamine** kuvatakse tasustatav kasutamine iga broneeritava ressursi kohta. Vaade põhineb ajakavapaneelil, nii et leiate sellelt mitmeid sarnaseid funktsioone.
 
@@ -99,6 +99,3 @@ Kui te ei näe arveldatavat kasutust, kontrollige järgmist.
   - Projekti varundav projekti lepingurea roll on määratud mittearveldatavaks.
   - Projektil pole seostatud lepingurida.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

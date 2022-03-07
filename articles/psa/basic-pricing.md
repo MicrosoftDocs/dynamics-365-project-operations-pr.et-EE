@@ -2,8 +2,6 @@
 title: Projekti hinnakujundus
 description: Selles teemas antakse teavet hinnakujunduse kohta rakenduses Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 176b84671ca0b5b998c44be4f306d1f8f5200c72
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148908"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000571"
 ---
 # <a name="project-pricing"></a>Projekti hinnakujundus 
 
@@ -48,7 +46,7 @@ Hinnakirja olemil on kolm seostuvat tabelit, mis talletavad hindu.
   - **Tehingukategooria hind** – see tabel talletab hinnad tehingukategooriate kaupa ja seda kasutatakse kulukategooriate hindade seadistamiseks.
   - **Hinnakirja üksused** – see tabel talletab kataloogis olevate toodete hindu.
 
-> ![Hindade konfigureerimine hinnakirja kasutades](media/basic-guide-12.png)
+> ![Hindade konfigureerimine hinnakirja kasutades.](media/basic-guide-12.png)
  
 Hinnakiri on hinnakaart. Hinnakaart on kombinatsioon hinnakirja olemist ja seotud ridadest, mis on tabelites rolli hind, tehingukategooria hind ja hinnakirja üksused.
 
@@ -60,7 +58,7 @@ Inimressursside aeg on tavaliselt noteeritud vastavalt rollile, mille ressurss t
 
 Ühikurühm **Aeg** sisestatakse, kui PSA on installitud. Sel on vaikeühik **Tund**. Ühikurühma **Aeg** või ühiku **Tund** atribuute ei saa kustutada, ümber nimetada ega redigeerida. Soovi korral saate aga ühikurühma **Aeg** lisada ka muid ühikuid. Kui proovite kustutada kas ühikurühma **Aeg** või ühiku **Tund**, võite PSA äriloogikas tõrkeid põhjustada.
 
-> ![Hindade konfigureerimine rolli järgi](media/basic-guide-13.png)
+> ![Hindade konfigureerimine rolli järgi.](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Tehingukategooriad ja kulukategooriad
 
@@ -70,7 +68,7 @@ Reisikulud ja muud kulud, mis projektikonsultandid kannavad, arvestatakse tavali
 - **Juurdehindluse protsent** – tegeliku kulu protsent on kliendile arvestatud. 
 - **Ühiku hind** – iga kulukategooria ühiku kohta määratakse arve hind. Kliendile arvestatud summa arvutatakse vastavalt konsultandi aruannete ühikute arvule. Läbisõit kasutab hinna ja ühiku hinna hinnakujundusmeetodit. Näiteks läbisõidu kulukategooria saab konfigureerida 30 USA dollari eest (USD) päevas või 2 USD miili kohta. Kui konsultant teatab projektis läbisõidu, arvutatakse arve summa konsultandi teatatud miilide arvu põhjal.
 
-> ![Kulukategooriate hinna konfigureerimine](media/basic-guide-14.png)
+> ![Kulukategooriate hinna konfigureerimine.](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Projekti müügihind ja alistamine
 
@@ -116,7 +114,7 @@ Kuid hinnapakkumise puhul saate kasutada põhihinnakirja. Soovi korral saate ka 
 
 Kohandatud projekti hinnakirja loomisel kopeeritakse ainult hinnakirja projekti komponendid. Teisisõnu uus hinnakiri, mis on loodud olemasoleva projekti hinnakirja koopiana, mis on lisatud hinnapakkumisele, ning sellel uuel hinnakirjal on ainult seotud rollihinnad ja tehingukategooriate hinnad.
 
-> ![Projekti lepingu kohandatud hinnakujunduse vaatamine ja konfigureerimine](media/basic-guide-15.png)
+> ![Projekti lepingu kohandatud hinnakujunduse vaatamine ja konfigureerimine.](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Kulude jälgimine
 
@@ -131,3 +129,6 @@ Nagu arve määrad, seadistatakse inimressursside jaoks ka kulumäärad, kasutad
     1. Organisatsiooniüksusega seotud omahinna hinnakiri.
     2. Project Service’i parameetritega seotud omahinna hinnakiri. Kuna Project Service’i parameetritele saab lisada paljudes erinevates valuutades esitatud omahinna hinnakirju, siis teeb PSA valuuta vastendamise projekti tellija organisatsiooniüksuse, lepingu või hinnakirja ja omahinna hinnakirja valuuta vahel.
     3. Kulude puhul ei rakendata omahinna ja kulu hinnalisandi hinnakujundusmeetodit omahinna hinnakirjadele. Isegi juhul, kui neid hinnakujundusmeetodeid kasutatakse tehingukategooria kulude seadistamiseks omahinna hinnakirjadel, ignoreerib süsteem neid ja ühtegi vaikimisi omahinda ei sisestata.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

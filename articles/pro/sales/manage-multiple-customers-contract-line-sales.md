@@ -2,18 +2,16 @@
 title: Projektipõhistel lepinguridadel mitme kliendi haldamine – liht
 description: See teema sisaldab teavet projektipõhistel lepinguridadel mitme kliendi haldamise kohta.
 author: rumant
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f28e7d1363647621f7bd23504aa6d4ea3fc95fc9
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: a7e29b1a92a5fefcf4812931383d03e5f81a27001f0e6525bb4eeb8dc93b18b9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181601"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001786"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines---lite"></a>Projektipõhistel lepinguridadel mitme kliendi haldamine – liht
 
@@ -43,3 +41,6 @@ Allpool on projektipõhise lepingurea kliendikirje rea **Leping** väljad, et ne
 Arveldamise jaotumise protsente saab redigeerida ruudustikus. Kui arveldamise jaotumise protsentide kogusumma ei ole 100 protsenti, ilmneb tõrge. Pärast arveldamise jaotumise protsentide muutmist värskendage leht tõrke eemaldamiseks.
 
 Võite ka valida lepingurea kliendi andmeruudustikus suvandi **Jaota ühtlaselt**. See toiming omistab arvelduse jaotused ühtlaselt kõikidele lepingurea klientidele. Kui esineb mis tahes ümardamise tegur, lisatakse see ümardamise kliendile. Üks lepingurea klient märdistatakse alati **ümardamise** kliendina koos lipuga **Ümardamine** seatud valikule **Jah**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Projektipõhiste hinnapakkumiste ridadel mitme kliendi haldamine
 description: See teema sisaldab teavet, kuidas hallata projektipõhistel hinnapakkumiste ridadel mitut klienti.
 author: rumant
-manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 48336af0ad522e9d6aa68fa82ffa7921f09662d4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: bf3d10cc4a742f7247586d09f5b209cbfdbbd790bdf97e09da06d9db583e61a5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118558"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992021"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Projektipõhiste hinnapakkumiste ridadel mitme kliendi haldamine
 
@@ -44,3 +42,6 @@ Järgmises tabelis on toodud projektipõhise hinnapakkumise rea hinnapakkumise r
 Saate arvedamise jaotamise protsente muuta rea sees. Kui arvelduse jagamise protsentide summa ei ole kokku 100%, esineb tõrge. Pärast arveldamise jagamise protsentide muutmist värskendage hinnapakkumise rea lehte, et viga eemaldada.
 
 Kasutage hinnapakkumise rea alamruudustikus ühtlaselt jaotamise toimingut, et jaotada arvelduse jaotused kõigile hinnapakkumise rea klientidele. Kui esineb ümardamise tegur, lisatakse see ümardamise kliendile. Üks hinnapakkumise rea kliente on alati märgitud ümardava kliendina, mis tähendab, et hinnapakkumise rea kliendi kirjel on ümardamise lipu väärtuseks määratud **Jah**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

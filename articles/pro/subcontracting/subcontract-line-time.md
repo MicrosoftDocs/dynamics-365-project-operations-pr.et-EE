@@ -6,12 +6,12 @@ ms.date: 08/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 29b38ec9124502e4283b71d13434b1e0420bc413
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 10ebe0fcc86b4652ac01e28108361df1f768b61d
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547239"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323861"
 ---
 # <a name="subcontract-lines-for-time"></a>Allhankelepingu ajaread
 
@@ -30,22 +30,23 @@ Rakenduses Project Operations allhankelepingu ajarea loomiseks tehke järgmised 
 
   Järgmine tabel sisaldab teavet **Allhankelepingu rea** lehe väljade ja **Kiirloomise** lehe kohta.
 
-| **Väli** | **Kirjeldus** | **Funktsionaalne mõju** |
-| --- | --- | --- |
-| Nimetus | Tuvastamisel abiks oleva allhankelepingu rea nimi. | See kuvatakse kõigis otsingutes allhankelepingu ridade põhjal esimese veeruna. |
-| Kirjeldus | Allhankelepingu real ostetavate teenuste lühikirjeldus. |Pole |
-| Rea tüüp |   Selle välja vaikeväärtus on **Kogusepõhine**.| Pole |
-| Arveldusmeetod | See on Project Operationsi toetatud kahte peamist lepingumudelit esindav suvandikomplekt: **Fikseeritud hind** ning **Kellaaeg ja materjal**. | Valitud arveldusmeetodil põhinedes tehakse allhankelepingu ridade jaoks kättesaadavaks vahe-eesmärkidel põhineva arve ajakava koos fikseeritud hinnaga arveldusmeetodiga. |
-| Tehingu liik | Vaikeväärtus on **Aeg**. | See näitab, et allhankelepingu rida kasutatakse alltöövõtja aja ostmise talletamiseks. |
-| Roll | Valige allhankelepingu ressursside rull, kelle aega ostetakse. | Allhankelepingu ressursi täidetav roll määrab ostu kulu. |
-| Soovitud algus | Sisestage kuupäev, millal alltöövõtja ressursid peavad tööga alustama. | Seda kasutatakse allhankelepingule lisatud projekti hinnakirjade loendist projekti hinnakirja valimiseks. Allhankelepingu rea rolli kulu pärineb sellest hinnakirjast. |
-| Soovitud lõpp | Sisestage kuupäev, millal alltöövõtja ressursi ülesanne lõpeb. | Seda kasutatakse hoiatuste näitamiseks, kui projektijuht kasutab ressursi nõude jaoks mahtu pärast seda kuupäeva. |
-| Tellitud kogus | Sisestage hankijalt ostetud rolli tundide arv. | Seda kasutatakse hoiatuste näitamiseks, kui projektijuht kasutab ressursi nõude jaoks seda mahtu liigselt. |
-| Ühikurühm | Vaikeväärtus on **Ajaühiku rühm**, mida ei saa muuta. | Pole|
-| Üksus | Selle välja vaikeväärtus on tundide baasühik suvandist **Ajaühiku rühm**. Seda väärtust saate muuta, et osta mistahes ühikut suvandist **Ajaühiku rühm**, näiteks päev või nädal. | Suvandite **Roll** ja **Ühik** kombinatsiooni kasutatakse allhankelepingu rea vaikeväärtusena või arvutatud ühikuhinnana. |
-| Ühiku hind | Ühiku vaikehind kasutab suvandite **Roll** ja **Ühik** kombinatsiooni projekti hinnakirjast, mis kehtivad allhankelepingu rea kuupäeval **Taotletud algusaeg**. | Kui rakendatavas projekti hinnakirjas on hind seadistatud muus ühikus kui allhankelepingu rea ühik, kasutab süsteem ühikuhinna arvutamiseks ühiku teisendamist. |
-| Vahesumma |    See on kirjutuskaitstud väli, mis arvutatakse koguse × ühikuhinnana, kui sisestatud on nii koguse- kui ka ühikuhinna väärtused. Kui kas kogus, ühikuhind või mõlemad on tühjad, võite sisestada väärtuse väljale. | Pole|
-| Käibemaks |   Sisestage käibemaksu summa. |Pole |
-| Kogusumma | Allhankelepingu rea kogusumma koos maksudega. Selle välja väärtus arvutatakse kui vahesumma + käibemaks.|Pole |
+| **Väli** | **Kirjeldus** |
+| --- | --- |
+| Nimetus | Allhankelepingu rea nimi. |
+| Kirjeldus | Allhankelepingu real ostetavate teenuste lühikirjeldus. | 
+| Rea tüüp | See väli on vaikeväärtus.  |
+| Arveldusmeetod | Valige arveldusmeetod. Viidatud allhankelepingu rea arveldusmeetodi põhjal tehakse fikseeritud hinnaga arveldusmeetodi jaoks kättesaadavaks vahe-eesmärgi põhine arvegraafik. |
+| Tehingu liik | See väli on vaikeväärtus, mis näitab, kas allhankelepingu rida kasutatakse alltöövõtja aja ostmise kirjendamiseks. |
+| Roll | Selle allhankelepingu ressursi roll, kelle aega ostetakse. Allhankelepingu ressursile määratud roll määrab ostu maksumuse. |
+| Soovitud algus | Kuupäev, millal allhankelepingu ressursid peavad tööd alustama. Soovitud algust kasutatakse projekti hinnakirja valimiseks allhankelepingule lisatud projekti hinnakirjade hulgast. Allhankelepingu rea rolli hinna vaikeväärtus saadakse sellest hinnakirjast. |
+| Soovitud lõpp | Kuupäev, millal alltöövõtja ressursside määramine lõpeb. Seda kuupäeva kasutatakse hoiatuste kuvamiseks, kui projektijuht kasutab seda mahtu pärast seda kuupäeva toimuvate ressursinõuete jaoks. |
+| Tellitud kogus | Hankijalt ostetavate rolli tundide arv. Seda väärtust kasutatakse hoiatuste kuvamiseks, kui projektijuht ületab ressursinõude jaoks seda mahtu. |
+| Ühikurühm | Selle välja vaikeväärtuseks on ühikurühm Aeg ja seda ei saa muuta.  |
+| Üksus | Selle välja vaikeväärtuseks on tundide baasühik ühikurühmast Aeg. Seda väärtust saate muuta, et osta mistahes ühikurühma Aeg ühik, näiteks päev või nädal. Rolli ja ühiku kombinatsiooni kasutatakse allhankelepingu real ühiku hinna arvutamiseks. |
+| Ühiku hind | Ühiku hinnavälja vaikeväärtuseks on projekti hinnakirja hindade rolli ja ühiku kombinatsioon, mis on kohaldatav allhankelepingu rea soovitud alguskuupäevale. Kui rakendatavas projekti hinnakirjas on hind seadistatud muus ühikus kui allhankelepingu rea ühik, kasutab süsteem ühikuhinna arvutamiseks ühiku teisendamist. |
+| Vahesumma | See on kirjutuskaitstud väli, mis arvutatakse valemiga **kogus x ühiku hind**, kui nii koguse kui ka ühiku hinna väärtused on sisestatud. Kui kas kogus, ühikuhind või mõlemad on tühjad, võite sisestada väärtuse väljale. |
+| Käibemaks |  Sisestage käibemaksu summa. |
+| Kogusumma | Allhankelepingu rea kogusumma koos maksudega. |
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

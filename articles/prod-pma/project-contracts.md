@@ -2,11 +2,9 @@
 title: Projektilepingud
 description: Selles teemas on toodud näited projektilepingutest, mida saate luua erinevat tüüpi projektide ja rahastamisallikate jaoks, ning seda, kuidas saate hallata lepinguid ja klientide arveprojekte.
 author: Yowelle
-manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7d15523f1b22bb8813a47f9f822f12bc4162104
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 1b92668c38071e8b1afdee9a79fd4a25190248ada30380bfb79054a6dc587f95
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075087"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001021"
 ---
 # <a name="project-contracts"></a>Projektilepingud
 
@@ -344,3 +342,6 @@ Esimesel kuul registreerisid projekti konsultandid kokku 800 tundi. Projektile a
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

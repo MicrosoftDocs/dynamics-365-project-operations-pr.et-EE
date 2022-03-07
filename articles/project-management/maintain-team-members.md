@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 60b6788d881518502d314e9ee5daf6bbc0ae8764
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131518"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286828"
 ---
 # <a name="maintain-team-members"></a>Meeskonnaliikmete haldamine
 
@@ -21,7 +21,7 @@ _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaa
 
 Saate lisada nimega ressursi oma projekti meeskonnale, kui broneerite neid otse meeskonnale.
 
-1. Avage rakenduses Dynamics 365 Project Operations suvand **Projektid** ja valige selle projekti avamine, mille jaoks broneerite.
+1. Avage rakenduses Dynamics 365 Project Operations **Projektid** ja valige selle projekti avamine, mille jaoks broneerite.
 2. Valige lehel **Projekt** vahekaardil **Meeskond** nupp **Uus**. 
 3. Valige dialoogiboksis **Kiirloomine: projekti meeskonnaliige** broneeritav ressurss. Välja **Roll** täidetakse ressursi vaikerolliga, kui neil on selline määratud. Saate rolli muuta. 
 4. Valige ressursside vajalike kuupäevade algus- ja lõpukuupäevad ning valige ressursi võimsuse jaotamise meetod. 
@@ -42,3 +42,6 @@ Kui te teete valiku, lisatakse ressurss projekti meeskonda ja määratakse töö
 Ressursi võimsuse broneerimiseks projektile saate kasutada vahekaardi **Sobitamine** pikendatud broneerimise võimalust või vahekaarti **Ajakava**.
 
 Pärast seda, kui meeskonnaliige on teie projektile broneeritud, saate kasutada suvandeid **Säilita broneeringud** või **Ajakavapaneel** otse, et hallata oma broneeringuid.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

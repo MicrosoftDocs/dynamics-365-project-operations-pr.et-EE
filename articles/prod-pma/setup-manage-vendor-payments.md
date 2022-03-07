@@ -2,11 +2,9 @@
 title: Maksa-kui-on-makstud hankija maksete seadistamine ja kasutamine
 description: Selles teemas kirjeldatakse, kuidas luua maksa-kui-on-makstud (PWP) tingimusi, et saaksite vabastada osalisi hankija makseid vastavalt kliendi maksetele.
 author: RadhikaRS
-manager: AnnBe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 9976dadf57f1c84bf3f295ff3c8359c16e4849a3bf887f8bd33e46a04e2a5952
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074935"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008851"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Maksa-kui-on-makstud hankija maksete seadistamine ja kasutamine
 
@@ -80,3 +78,6 @@ Kui hankija lõpetab töö projektiga ja saadab teile arve, peate projekti oleku
 2. Sisestage lehe **Hankija arved maksa kui on makstud tingimustega** otsinguvälja väärtused, et leida hankija arve, mida soovite üle vaadata, ja seejärel valige **Otsi**.
 3. Valige kiirvahekaardil **Hankija arve read** need read, mida soovite muuta.
 4. Kui **Maksa kui on makstud** tingimused on arve rea kohta täidetud, valige **Vabasta hankija makse**. Valik **Maksa kui on makstud** kustutatakse ja välja **Maksmiseks valmis** väärtus muudetakse olekusse **Jah**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

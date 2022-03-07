@@ -2,11 +2,9 @@
 title: Projektikalendrite määratlemine
 description: Selles teemas antakse teavet selle kohta, kuidas rakendada projektile kalendrimalli projekti ajakava jälgimiseks.
 author: ruhercul
-manager: AnnBe
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
-ms.translationtype: HT
+ms.openlocfilehash: 9c2ea49e008d6cde40f152320face073c7e5f548
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981295"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487635"
 ---
 # <a name="define-project-calendars"></a>Projektikalendrite määratlemine
 
@@ -48,7 +46,7 @@ Oma organisatsiooni jaoks kalendrimalli loomiseks on kaks põhinõuet.
 
 1. Avage **Ressursid** \> **Ressursid**.
 2. Looge kalendrimallis viidatav uus ressurss või valige olemasolev ressurss.
-3. Valige ressursi vahekaart **Tööaeg** ja järgige kalendrireeglite konfigureerimiseks [ressursi töötundide](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) konfigureerimine suuniseid.
+3. Valige ressursi vahekaart **Tööaeg** ja järgige kalendrireeglite konfigureerimiseks [ressursi töötundide](/dynamics365/field-service/set-work-hours-resource) konfigureerimine suuniseid.
 
 **Looge uus kalendrimall**
 

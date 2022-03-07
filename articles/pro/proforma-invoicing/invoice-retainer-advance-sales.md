@@ -1,5 +1,5 @@
 ---
-title: Honorari või ettemaksu arveldamine
+title: Honorari või ettemaksu arve – liht
 description: Selles teemas antakse teavet selle kohta, kuidas Project Operationsis honorari või ettemaksu arveldada.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
+ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596187"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180547"
 ---
-# <a name="invoice-a-retainer-or-an-advance"></a>Honorari või ettemaksu arve
+# <a name="invoice-a-retainer-or-an-advance---lite"></a>Honorari või ettemaksu arve – liht
 
-_**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
+_**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
-Dynamics 365 Project Operations toetab honoraril põhinevaid lepinguid ja ühekordseid ettemakseid. Projekti lepingu korral saate salvestada honoraride või ühekordse ettemakse ajakava. Kuid projekti lepingu tasemel salvestamine ei tee muuda honorari ega ettemaksu kohe kasutamiseks saadaolevaks. Honorari või ettemakse kasutamiseks arvel, mille kliendile tegelikult esitate, tuleb kõigepealt arveldada honorar või ettemakse.
+Dynamics 365 Project Operations toetab honoraril põhinevaid lepinguid ja ühekordseid ettemakse. Projekti lepingu korral saate salvestada honoraride või ühekordse ettemakse ajakava. Kuid projekti lepingu tasemel salvestamine ei tee muuda honorari ega ettemaksu kohe kasutamiseks saadaolevaks. Honorari või ettemakse kasutamiseks arvel, mille kliendile tegelikult esitate, tuleb kõigepealt arveldada honorar või ettemakse.
 
 Honorari või ettemakse arveldamiseks täitke järgmised juhised.
 

@@ -2,8 +2,6 @@
 title: Arvelduse mahajäämuse ülevaatamine projektide ja projektilepingute jaoks
 description: Selles teemas antakse teavet aja, kulude ja toote mahajäämuste ülevaatamise ning selle kohta, kuidas neid arveldusvalmiks märkida.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 092455a131f556e4f943f6bb89d7e38358f0a697
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150483"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006960"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Arvelduse mahajäämuse ülevaatamine projektide ja projektilepingute jaoks
 
@@ -42,7 +40,7 @@ Arveldamata tegelikud müügid näitavad arvete võlgnevust ja nende arveldamise
 
 Aja ja materjalide arvete võlgnevuse ülevaatamiseks tehke valikud **Müügid** \> **Arveldus** \> **Ajakavast mahajäämus ja materjali arvete võlgnevused**. Valige kõik arveldamata tegelikud müügid, mis on arveldamiseks valmis ja seejärel valige **Arveldamiseks valmis**. Nende tegelike näitajate arveldamise olek muudetakse väärtusele **Arveldamiseks valmis**.
 
-![Ajakavast mahajäämus ja materjali arvete võlgnevused](media/TMBacklog.png)
+![Ajakavast mahajäämus ja materjali arvete võlgnevused.](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>Toodete arvete võlgnevuste ülevaatamine
 
@@ -50,7 +48,7 @@ Kui projektileping sisaldab tootepõhiseid lepinguridu, kaalutakse PSA-s neid ri
 
 Toodete arvete võlgnevuse ülevaatamiseks tehke valikud **Müügid** \> **Arveldus** \> **Toodete arvete võlgnevused**. Valige kõik tootepõhised lepinguread, mis on arveldamiseks valmis ja seejärel tehke valik **Arveldamiseks valmis**. Nende ridade arveldamise olek muudetakse väärtusele **Arveldamiseks valmis**.
 
-![Toodete arvete võlgnevused](media/ProductBacklog.png)
+![Toodete arvete võlgnevused.](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>Arveldamise vahe-eesmärkide ülevaatamine fikseeritud hinnaga lepingutes
 
@@ -58,4 +56,7 @@ Iga projekti lepingurida, millel on fikseeritud hinnaga arveldusmeetod, peab mä
 
 Arveldamise vahe-eesmärkide ülevaatamiseks tehke valikud **Müügid** \> **Arveldus** \> **Fikseeritud hinna vahe-eesmärgid**. Valige vahe-eesmärgid, mis on arveldamiseks valmis ja seejärel tehke valik **Arveldamiseks valmis**. Nende vahe-eesmärkide arveldamise olek muudetakse väärtusele **Arveldamiseks valmis**.
 
-![Fikseeritud hinna vahe-eesmärgid](media/FPBacklog.png)
+![Fikseeritud hinna vahe-eesmärgid.](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,9 +1,9 @@
 ---
 title: Tegelikud näitajad
-description: Selles teemas antakse teavet tegelike andmetega töötamise kohta Microsofti Dynamics 365 Project Operationsis.
+description: See teema sisaldab teavet selle kohta, kuidas töötada rakenduses Microsoft Dynamics 365 Project Operations tegelike näitajatega.
 author: rumant
 manager: AnnBe
-ms.date: 04/01/2021
+ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -16,18 +16,18 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 304c51a4e502ad6ecec1fd821e98d6604ddd59ba
-ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
+ms.openlocfilehash: 13c429763fa805fae5324e4dcf1bf7669e842281
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5852539"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126298"
 ---
 # <a name="actuals"></a>Tegelikud näitajad 
 
-_**Rakendub:** Project Operationsi ressursipõhiste/mittelaopõhiste stsenaariumide korral, lihtjuurutamine – tehing näidisarveldusele_
+_**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Tegelikud andmed esindavad projekti läbivaadatud ja kinnitatud finantsilist ning ajakava edenemist. Need luuakse aja, kulu, materjali kasutuskirjete, töölehe kannete ja arvete kinnitamise tulemusena.
+Tegelikud andmed on projektiga lõpule viidud tööd. Need luuakse aja- ja kulukirjete ja ning töölehe kannete ja arvete tulemusena.
 
 ## <a name="journal-lines-and-time-submission"></a>Töölehe read ja aja esitamine
 
@@ -45,7 +45,7 @@ Kui esitatav ajakirje seotakse projektiga, mis on vastendatud fikseeritud hinnag
 
 Vaikehindade looise loogika asub töölehe real. Ajakirje välja väärtused kopeeritakse töölehe reale. Need väärtused hõlmavad tehingu kuupäeva, lepingurida, millega projekt on vastendatud, ja vastava hinnakirja valuutat.
 
-Vaikimisi hinnakujundust mõjutavaod välju (nt **roll** ja **ressursiüksus**) kasutatakse töölehe rea sobiva hinna kindlakstegemiseks. Saate lisada ajakirjele kohandatud välja. Kui soovite kanda välja väärtuse tegelikele väärtustele, looge väli tabelites **Tegelikud** ja **Töölehe kanne**. Kasutage kohandatud koodi, et edastada valitud välja väärtuse töölehe rea kaudu ajakirjest tegelikele näitajatele, kasutades kande päritolu. Lisateavet kannete päritolu ja ühenduste kohta vaadake teemast [Tegelike näitajate seostamine algsete kirjetega](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
+Vaikimisi hinnakujundust mõjutavaid välju (nt **Roll** ja **Organisatsiooniüksus**) kasutatakse töölehe rea vastava hinna määratlemiseks. Saate lisada ajakirjele kohandatud välja. Kui soovite, et väljale oleks kantud tegelikud väärtused, looge tegelikes olemites väli ja kasutage välja vastendusi, et kopeerida väli ajakirjest tegelikule.
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Töölehe read ja põhikulu esitamine
 
@@ -57,42 +57,24 @@ Kui esitatud põhikulu kirje on seotud projektiga, mis on vastendatud mõne aja 
 
 ### <a name="fixed-price"></a>Fikseeritud hind
 
-Kui esitatud põhikulu kirje on ühendatud projektiga, mis on vastendatud fikseeritud hinnaga lepingureaga, loob süsteem ühe töölehe rea ainult kulu jaoks.
+Kui esitatav põhikulu kirje seotakse projektiga, mis on vastendatud fikseeritud hinnaga lepingureaga, loob süsteem ühe töölehe rea kulu jaoks.
 
 ### <a name="default-pricing"></a>Vaikimisi hinnakujundus
 
-Kulude vaikehindade sisestamise loogika põhineb kulukategoorial. Sobiva hinnakirja määratlemiseks kasutatakse tehingu kuupäeva, lepingurida, millega projekt on vastendatud, ja valuutat. Vaikimisi hinnakujundust mõjutavaod välju (nt **tehingukategooria** ja **ressursiüksus**) kasutatakse töölehe rea sobiva hinna kindlakstegemiseks. Samas toimib see ainult juhul, kui hinnakirjas on hinnakujundusmeetodiks **Ühiku hind**. Kui hinnakujundusmeetodiks on **Kulu** või **Hinnalisand kulule**, kasutatakse kulukirje loomisel sisestatud hinda kulude jaoks ja müügiesindaja rea hind arvutatakse hinnakujundusmeetodi põhjal. 
+Kulude vaikehindade sisestamise loogika põhineb kulukategoorial. Sobiva hinnakirja määratlemiseks kasutatakse tehingu kuupäeva, lepingurida, millega projekt on vastendatud ja valuutat. Samas vaikimisi määratakse hinna enda jaoks sisestatav summa otse kulu ja müügiga seotud kulu töölehe ridadel.
 
-Saate lisata kulukirjele kohandatud välja. Kui soovite kanda välja väärtuse tegelikele väärtustele, looge väli tabelites **Tegelikud** ja **Töölehe kanne**. Kasutage kohandatud koodi, et edastada valitud välja väärtuse töölehe rea kaudu ajakirjest tegelikele näitajatele, kasutades kande päritolu. Lisateavet kannete päritolu ja ühenduste kohta vaadake teemast [Tegelike näitajate seostamine algsete kirjetega](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
-
-## <a name="journal-lines-and-material-usage-log-submission"></a>Töölehe kanded ja materjali kasutuslogi esitamine
-
-Lisateavet kulukirje kohta vaadake teemast [Materjalide kasutuslogi](../material/material-usage-log.md).
-
-### <a name="time-and-materials"></a>Aeg ja materjalid
-
-Kui edastatud materjalide kasutuslogi kirje on seotud aja ja materjalide lepingureaga vastendatud projektiga, loob süsteem kaks tekstirida – ühe kulu ja ühe tasustamata müügi jaoks.
-
-### <a name="fixed-price"></a>Fikseeritud hind
-
-Kui esitatud materjali kasutuslogi kirje on ühendatud projektiga, mis on vastendatud fikseeritud hinnaga lepingureaga, loob süsteem ühe töölehe rea ainult kulu jaoks.
-
-### <a name="default-pricing"></a>Vaikimisi hinnakujundus
-
-Materjali vaikehindade sisestamise loogika põhineb tootel ja ühikukombinatsioonil. Sobiva hinnakirja määratlemiseks kasutatakse tehingu kuupäeva, lepingurida, millega projekt on vastendatud, ja valuutat. Vaikimisi hinnakujundust mõjutavaod välju (nt **toote ID** ja **ressursiüksus**) kasutatakse töölehe rea sobiva hinna kindlakstegemiseks. Kuid see toimib ainult kataloogitoodete puhul. Sisestatavate toodete puhul kasutatakse materjalide kasutuslogi kirje loomisel sisestatud hinda töölehe ridade kulu- ja müügihinnana. 
-
-Saate lisata kirjele **Materjali kasutuslogi** kohandatud välja. Kui soovite kanda välja väärtuse tegelikele väärtustele, looge väli tabelites **Tegelikud** ja **Töölehe kanne**. Kasutage kohandatud koodi, et edastada valitud välja väärtuse töölehe rea kaudu ajakirjest tegelikele näitajatele, kasutades kande päritolu. Lisateavet kannete päritolu ja ühenduste kohta vaadake teemast [Tegelike näitajate seostamine algsete kirjetega](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
+Kategoorial põhinev ühiku vaikehinna kanne pole saadaval.
 
 ## <a name="use-entry-journals-to-record-costs"></a>Kirjete töölehtede kasutamine kulude kirjendamiseks
 
 Saate kasutada töölehti kulu või tulu kirjendamiseks materjali-, tasu-, aja-, kulu- või maksukannete järgi. Töölehti saab kasutada järgmistel eesmärkidel.
 
-- Viige tehingu tegelikud andmed teisest süsteemist Microsoft Dynamics 365 Project Operationsse üle.
+- Projektiga seotud tegeliku materjalikulu ja müügi kirjendamiseks.
+- Tehingu tegelike andmete teistest süsteemist rakendusse Microsoft Dynamics 365 Project Operations üle viimiseks.
 - Muus süsteemis aset leidnud kulude kirjendamiseks. Need kulud võivad hõlmata hanke- või alltöövõtu kulusid.
 
 > [!IMPORTANT]
 > Rakendus ei kinnita töölege rea tüüpi ega töölehe reale sisestatud seotud hinnakirja. Seega peaksid tegelike näitajate loomiseks kasutama kirjete töölehti ainult kasutaja, kes on täielikult teadlik raamatupidamuslikust mõjust, mis tegelikel näitajatel projektile on. Selle töölehe tüübi mõju tõttu peaksite hoolikalt valima, kellel on kirjete töölehtede loomisele juurdepääs.
-
 ## <a name="record-actuals-based-on-project-events"></a>Projektisündmuste põhjal tegelike andmete kirjendamine
 
 Project Operations salvestab projekti jooksul toimuvad finantstehingud. Need kanded kirjendatakse tegelike andmetena. Järgmistes tabelites on esitatud mitmesugused tegelike andmete tüübid, mis olenevad sellest, kas projekt on aja- ja materjalikulu või fikseeritud hinnaga projekt, mis on eelmüügi etapis, või on see sisemine projekt.
@@ -360,6 +342,3 @@ Project Operations salvestab projekti jooksul toimuvad finantstehingud. Need kan
 </tr>
 </tbody>
 </table>
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

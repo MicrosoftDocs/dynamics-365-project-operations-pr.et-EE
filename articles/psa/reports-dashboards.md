@@ -2,8 +2,6 @@
 title: Armatuurlauad
 description: Selles teemas antakse teavet rakendusse Dynamics 365 Project Service Automation kaasatud aruandluse armatuurlaudade kohta.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5573bdaf05cb430131d92be771fb91900fb5453a
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 975f88b671f1ce46888731cc2aef4ea07228a71abe8e7c520d4c4a6e7be3b537
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147783"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990536"
 ---
 # <a name="dashboards"></a>Armatuurlauad
 
@@ -35,8 +33,11 @@ Rakendusse Dynamics 365 Project Service Automation on kaasatud kaks süsteemi ar
 
 ## <a name="practice-manager"></a>Harjutushaldur 
 
-Armatuurlaud **Harjutushaldur** pakub harjutushalduritele graafilist armatuurlauda kulude, müügi, kogutulu ja kasutuse jälgimiseks. Samuti võimaldab see harjutushalduritel tükeldada teavet erinevate dimensioonide alusel, nagu klient, projekt või ressursiroll. Lisateavet armatuurlaudade loomise ja kohandamise kohta leiate jaotisest [Armatuurlaudade loomine või redigeerimine](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
+Armatuurlaud **Harjutushaldur** pakub harjutushalduritele graafilist armatuurlauda kulude, müügi, kogutulu ja kasutuse jälgimiseks. Samuti võimaldab see harjutushalduritel tükeldada teavet erinevate dimensioonide alusel, nagu klient, projekt või ressursiroll. Lisateavet armatuurlaudade loomise ja kohandamise kohta leiate jaotisest [Armatuurlaudade loomine või redigeerimine](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
 
 ## <a name="resource-manager"></a>Ressursihaldur 
 
 Armatuurlaud **Ressursihaldur** pakub ressursihalduritele graafilist armatuurlauda ressursitaotluste, ressursside nõudluse ja kasutuse jälgimiseks. Samuti võimaldab see ressursihalduritel tükeldada jälgitavat teavet erinevate dimensioonide alusel.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

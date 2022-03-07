@@ -2,18 +2,16 @@
 title: Tööjõukulu määrade seadistamine
 description: Selles teemas kirjeldatakse tööjõukulu määrade seadistamist Project Operationsis.
 author: rumant
-manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 2c41bab8626087e3cadc075b02011ef974b5eecb16e83ed67f78f4e020a83dd8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180592"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986171"
 ---
 # <a name="set-up-labor-cost-rates"></a>Tööjõukulu määrade seadistamine
 
@@ -40,7 +38,7 @@ Järgmises tabelis on toodud mõned väljad, mis on olulised omahinnakirjas tö�
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Allüksusest või juriidilisest isikust hindade ja kulude väljapoole ülekandmine.
 
-Projektipõhistes ettevõtetes on tavapärane kasutada projektideks erinevate juriidiliste isikute või allüksuste töötajaid. Projekti võib täita üks juriidiline isik, kuid projektiga töötavad töötajad või konsultandid võivad pärineda kas samast juriidilisest isikust või mõnest muust, või võib esineda nende mõlema kombinatsioon. Dynamics 365 Project Operationsis on juriidiline üksus, millele kuulub projekti kättetoimetamine **Omanikust ettevõtte** ja allüksus, millele kuulub täitmine, on **Lepingut sõlmiv üksus**. Muud juriidilised isikud, mis pakuvad ressursse, on **Ressursiettevõtted** ja ressursse pakkuvad allüksused on **Ressursiüksused**. Enamikus riikides on ettevõtted kohustatud tagama, et juriidiline isiku või allüksus võtavad ressursside kasutamise eest omanikust ettevõttelt ja lepingut sõlmivalt üksuselt tasu.
+Projektipõhistes ettevõtetes on tavapärane kasutada projektideks erinevate juriidiliste isikute või allüksuste töötajaid. Projekti võib täita üks juriidiline isik, kuid projektiga töötavad töötajad või konsultandid võivad pärineda kas samast juriidilisest isikust või mõnest muust, või võib esineda nende mõlema kombinatsioon. Dynamics 365 Project Operationsis on juriidiline isik, kellele kuulub projekti kättetoimetamine **Omanikust ettevõte** ja allüksus, kellele kuulub kättetoimetamine on **Lepingut sõlmiv üksus**. Muud juriidilised isikud, mis pakuvad ressursse, on **Ressursiettevõtted** ja ressursse pakkuvad allüksused on **Ressursiüksused**. Enamikus riikides on ettevõtted kohustatud tagama, et juriidiline isiku või allüksus võtavad ressursside kasutamise eest omanikust ettevõttelt ja lepingut sõlmivalt üksuselt tasu.
 
 Näiteks peab Fabrikami ettevõte tagama, et Fabrikam India-Robotics on leppinud Fabrikam US-Roboticsi või Fabrikam UK-Roboticsiga kokku kulumäära kaardis.
 
@@ -84,3 +82,6 @@ Fabrikam UK-Roboticsi omahinnakirjas saab kulumäärasid väljendada järgmiselt
 | Arendaja | Fabrikam UK | 115 GBP |
 
 Omahinnakiri võib pakkuda tööjõukulu määrasid mitmes valuutas. Projekti kuluprognoosi loomisel teisendab Project Operations need kulumäärad projekti valuutasse ja kuvab need kasutajale. Kui ajakirje kinnitatakse ja luuakse tegelik kulu, hinnastatakse tegelik kulu omahinnakirja vastava rolli hinnarea valuutas. Ühe projekti aja tegeliku kulu saab kirjendada mitmes valuutas. Kuid projekti tasandil tegeliku tööjõu kulu ümberarvestamisel või summeerimisel teisendab Project Operations kõik tööjõukulu summad projekti valuutasse, mida kasutaja saab vaadata.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

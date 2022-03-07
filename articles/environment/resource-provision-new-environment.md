@@ -2,19 +2,17 @@
 title: Uue keskkonna ettevalmistamine
 description: Selles teemas antakse teavet uue Project Operationsi keskkonna ettevalmistamise kohta.
 author: sigitac
-manager: Annbe
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
+ms.openlocfilehash: d0712d9d5dfc6c35ccd07142ff5948f50e6a254c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4727785"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995481"
 ---
 # <a name="provision-a-new-environment"></a>Uue keskkonna ettevalmistamine
 
@@ -36,7 +34,7 @@ Kasutage järgmisi samme, et lubada Project Operationsi automaatse ettevalmistam
 
 ## <a name="provision-a-project-operations-environment"></a>Project Operationsi keskkonna ettevalmistamine
 
-1. Avage uue Dynamics 365 Finance [eelvaatekeskkonna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) või [liivakasti-/töökeskkonna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) juurutamine. 
+1. Avage uue Dynamics 365 Finance [eelvaatekeskkonna](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) või [liivakasti-/töökeskkonna](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) juurutamine. 
 2. Läbige **Keskkonna ettevalmistamise** viisard. 
 
 > [!IMPORTANT]
@@ -209,3 +207,6 @@ Kui olete rakenduse Finance keskkonnale rakendanud demoandmeid, lugege jaotist [
 
 
 Teie Project Operationsi keskkond on nüüd ettevalmistatud ja konfigureeritud. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

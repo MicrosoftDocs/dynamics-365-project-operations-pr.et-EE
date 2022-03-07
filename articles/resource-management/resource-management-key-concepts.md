@@ -2,24 +2,22 @@
 title: Ressursihalduse põhimõisted
 description: Selles teemas antakse teavet ressursihalduse võimalustest Microsoft Dynamics Project Operationsis.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: c76fb297fc1832284d488f28e552ded2c1c27cf88d3a9352f2a31e667aac746e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123868"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994811"
 ---
 # <a name="resource-management-key-concepts"></a>Ressursihalduse põhimõisted
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Ressursid on teenusepõhise organisatsiooni kõige olulisem vara. Võimalus leida õigeid ressursse õigel ajal, broneerida need ressursid projektidele ja hoida neid kasutuses, aitab ettevõtetel täita tulu sihtmärke ning kliendirahulolu eesmärke. Rakenduse Dynamics 365 Project Operationsi projekti ressursieralduse funktsiooni abil saate teha järgmist.
+Ressursid on teenusepõhise organisatsiooni kõige olulisem vara. Võimalus leida õigeid ressursse õigel ajal, broneerida need ressursid projektidele ja hoida neid kasutuses, aitab ettevõtetel täita tulu sihtmärke ning kliendirahulolu eesmärke. Rakenduse Dynamics 365 Project Operations projekti ressursieralduse funktsiooni abil saate teha järgmist.
 
 - Moodustada projektimeeskondi saadaolevate ja kvalifitseeritud ressurside broneerimise kaudu.
 - Luua üldiste meeskonnaliikmete kirjeid ja määratleda nende rolle ning ressursi organisatsiooniüksust.
@@ -35,3 +33,6 @@ Ressursid on teenusepõhise organisatsiooni kõige olulisem vara. Võimalus leid
 
 
 Project Operationsis saate oma projekti personali hulka lisada üldiseid või nimega ressursside meeskondi. Saate meeskonnaliikmete lisamiseks ja määramiseks ning nende broneeringute ja määramiste haldamiseks kasutada mitmesuguseid meetodeid. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

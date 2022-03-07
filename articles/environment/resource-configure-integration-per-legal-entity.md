@@ -2,24 +2,22 @@
 title: Project Operationsi integratsiooni konfigureerimine vastavalt juriidilise isikule
 description: Selles teemas kirjeldatakse Project Operationsis integratsiooni seadistamist vastavalt juriidilisele isikule.
 author: sigitac
-manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122878"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999401"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Project Operationsi integratsiooni konfigureerimine vastavalt juriidilise isikule 
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-See teema selgitab vajalikke etappe, mis on vajalikud Dynamics 365 Project Operationsi konfigureerimiseks vastavalt juriidilisele isikule.
+Selles teemas kirjeldatakse etappe, mis on vajalikud rakenduse Dynamics 365 Project Operations konfigureerimiseks juriidilise isiku koha.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Funktsiooni võtmete lubamine rakenduses Dynamics 365 Finance
 
@@ -51,3 +49,6 @@ Iga lahenduses Dynamics 365 Customer Engagement Project Operationsi kasutav juri
   - **Arveldustüübi vaikesätted**: Project Operations kasutab fikseeritud arveldustüübi vaikeväärtuste kogumit, mis tuleb vastendada Finance'is rea atribuutidega. Looge kirje iga arveldustüübi kohta: **Määramata**, **Tasustatav**, **Mittearveldatav**, **Tasuta** ja **Pole saadaval**.
   - **Projekti kategooria vaikesätted**: valige iga kandetüübi jaoks kasutatavad projekti vaikekategooriad. Neid vaikeväärtusi kasutatakse **Project Operationsi integreerimise töölehel** ja nendes prognoosides, kus projekti tegelikuks näitajaks ei ole tehingu kategooriat määratud.
   - **Prognoosid**: valige prognoosi mudel, mida kasutatakse aja- ja kuluprognoosideks.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

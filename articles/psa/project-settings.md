@@ -2,8 +2,6 @@
 title: Projekti sätted
 description: Selles teemas antakse teavet projektihalduse sätete kohta.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148143"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996926"
 ---
 # <a name="project-settings"></a>Projekti sätted
 
@@ -47,9 +45,9 @@ Projekti ajakava loomiseks peate looma projektikalendri malli, mis määratleb t
 
   - Uus nädalagraafik
   - Ühe päeva töögraafik
-  - Vaba aeg
+  - Eemalolekuaeg
 
-> ![Suvandite seadistamine](media/project-13.png)
+> ![Suvandite seadistamine.](media/project-13.png)
 
 4. Tehke valik **Uus nädalagraafik** ja seejärel määrake selle ressurside ajakava suvandid. Saate määrata korduva nädalagraafiku, iga päeva tunniparameetrid, äri lõpetamised ja muud.
 5. Määrake kuupäevavahemik, tehke valik **Salvesta** ja seejärel klõpsake käsku **Sule**. 
@@ -68,3 +66,6 @@ Kõik organisatsioonid peavad need rollid seadistama lehel **Aktiivsed ressursik
 ## <a name="price-lists"></a>Hinnakirjad
 
 Hinnakirjad võimaldavad teil määrata organisatsioonis ressursirollide, kulukategooriate, toodete ja muude elementide jaoks oma- ning müügihinnad. Enne, kui määrate projekti jaoks edastatava töö finantskalkulatsioonid, peate looma tugikulud ja müügihinnakirja. Peate parameetrite jaotises seadistama ka vaikimisi kulu- ja müügihinnakirja, mis rakendub kõigile organisatsioonis loodavatele projektidele. Seadistage kindlasti lehel **Aktiivsed projektiparameetrid** vaikimisi kulu- ja müügihinnakiri.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

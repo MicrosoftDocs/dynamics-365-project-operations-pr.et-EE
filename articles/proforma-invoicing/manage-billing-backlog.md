@@ -2,39 +2,61 @@
 title: Arvete võlgnevuste haldamine
 description: Selles teemas antakse teavet, kuidas Project Operationsis arvete võlgnevusi vaadata ja nendega töötada.
 author: rumant
-manager: Annbe
-ms.date: 10/20/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 2e839c1f32248fff6d97271796666b5031f66490ccd98574045b770100bf379f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122338"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991076"
 ---
-# <a name="manage-the-billing-backlog"></a>Arvete võlgnevuste haldamine
+# <a name="manage-billing-backlog"></a>Arvete võlgnevuste haldamine
 
-_**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
+_ **Rakendub:** Project Operations ressursipõhiste/mitteladustatavate stsenaariumite jaoks
 
-Dynamics 365 Project Operationsis on kaks püsivat vaadet, mis aitavad teil arvete võlgnevustega töötada ja neid hallata. Need on **Fikseeritud hinna vahe-eesmärgid** ja **Ajakavast mahajäämus ja materjali arvete võlgnevused**. Vaate valimiseks Project Operationsi alal **Müük** valige vasakpoolsel navigeerimise lehel suvand **Arveldamine**. Arvete võlgnevuste lingid salvestatakse sinna.
+Rakendusel Dynamics 365 Project Operations on eraldi vaated, mille abil arvete võlgnevusi hallata. Arvete võlgnevuste haldamiseks valige lingid jaotise **Arveldamine** alas **Müük**. 
+
+Saadaval on järgmised vaated.
+
+- Honorarid ja ettemaksed
+- Saadaolevad honorarid ja ettemaksed
+- Fikseeritud hinna vahe-eesmärgid
+- Ajakavast mahajäämus ja materjali arvete võlgnevused
+
+## <a name="retainers-and-advances"></a>Honorarid ja ettemaksed
+
+Vaade **Honorarid ja ettemaksed** loetleb kõikide projektilepingute honorarid ja ettemaksed. Pärast seda, kui honorar või ettemaks on arveldatud, muutub ettemakse summa kasutamiseks kättesaadavaks.
+
+## <a name="available-retainers-and-advances"></a>Saadaolevad honorarid ja ettemaksed
+
+Vaade **Saadaolevad honorarid ja ettemaksed** loetleb kõikide projektilepingute kõik saadaolevad honorarid ja ettemaksed. Pärast seda, kui honorar või ettemaks on arveldatud, muutub ettemakse summa kasutamiseks kättesaadavaks ja see lisatakse loendisse. Kui honorari või ettemakse summa on täielikult kasutatud, eemaldatakse see loendist.
 
 ## <a name="fixed-price-milestones"></a>Fikseeritud hinna vahe-eesmärgid
 
-Selles vaates loetletakse süsteemi projekti lepinguridade kõik fikseeritud hinna vahe-eesmärgid. Ühe- või mitmekordseid vahe-eesmärke saab selles vaates märgistada kui **Arveldamiseks valmis** või **Pole arveldamiseks valmis**. Kui märgite vahe-eesmärgi väärtuseks **Arveldamiseks valmis**, siis on vahe-eesmärk arve mustandi jaoks saadaval.
+Vaade **Fikseeritud hinna vahe-eesmärgid** loetleb kõikide projekti lepinguridade fikseeritud hinnaga vahe-eesmärgid. Sellest vaatest saab ühe või mitu vahe-eesmärki märkida kui **Arveldamiseks valmis** või **Pole arveldamiseks valmis**. Kui märgite vahe-eesmärgi olekuks **Arveldamiseks valmis**, muutub see kättesaadavaks arve mustandina.
 
-Kui mitme kliendiga lepinguridadel on fikseeritud hinnaga arveldusmeetod, luuakse iga lepingurea kliendi jaoks üks vahe-eesmärk. Kasutaja loob vahe-eesmärgi ja see vahe-eesmärk jaotatakse klientide vahel = konkreetsed vahe-eesmärgi kirjed ettevõttesiseselt, vastavalt iga lepingurea kliendi jaoks määratletud arveldusprotsendile. Vaates **Fikseeritud hinna vahe-eesmärgid** kuvatakse erinevad kliendiga seotud vahe-eesmärgi kirjed. Kõik need vahe-eesmärgi kirjed saab märkida kui **Arveldamiseks valmis**, sellest vaatest eraldi. Kui üks või mitu seotud vahe-eesmärgi jaotust märgitakse kui **Arveldamiseks valmis**, muutub päise olek olekust **Pole alustatud** olekuks  **Pooleli**. Kui kõik vahe-eesmärgi jaotused on arveldatud, muutub päise vahe-eesmärgi olekuks **Lõpetatud**.
+Kui mitme kliendi lepinguridadel on fikseeritud hinnaga arveldusmeetod, luuakse lepingurea iga kliendi jaoks vahe-eesmärk. Vahe-eesmärgi saab luua ja seejärel jagada konkreetseteks kliendiga seotud vahe-eesmärgi kirjeteks. Jagamine on sisemine ja vastab lepingurea iga kliendi jaoks määratletud arvestatud protsendile. Vaates **Fikseeritud hinna vahe-eesmärgid** kuvatakse konkreetse kliendiga seotud vahe-eesmärgi kirjed. Kõik need vahe-eesmärgi kirjed saab märkida kui **Arveldamiseks valmis**, sellest vaatest eraldi. Kui üks või mitu seotud vahe-etapi jaotust on märgitud kui **Arveldamiseks valmis**, värskendatakse päise olek valikult **Pole alustatud** olekule **Pooleli**. Kui kõik vahe-etapi jaotised on arveldatud, värskendatakse päise etapi olekuks **Lõpule viidud**.
 
-Selles vaates kuvatakse arve mustandi vahe-eesmärk, mille arvelduse olek on **Kliendi arve on loodud**. Kui arve mustand kinnitatakse, muutub selle kirje arveldamise olekuks **Arve sisestatud**. Selle oleku väärtuse värskendamist kohandatud koodi abil ei soovitata. Projekt Operations ei tööta õigesti, kui oleku väärtused on värskendatud kohandatud koodiga.
+Selles vaates kuvatakse arve mustandi vahe-eesmärk, mille arvelduse olek on **Kliendi arve on loodud**. Arve mustandi kinnitamisel värskendatakse kirje arveldamise olekuks **Kliendi arve on postitatud**. 
+
+> [!NOTE] 
+> Ärge värskendage seda olekuväärtust kohandatud koodi abil. Rakendus Project Operation ei tööta õigesti, kui oleku väärtused on värskendatud kohandatud koodiga.
 
 ## <a name="time-and-material-billing-backlog"></a>Ajakavast mahajäämus ja materjali arvete võlgnevused
 
-Selles vaates loetletakse kõik arveldamata müügi tegelikud näitajad, mida pole kõigis süsteemi projekti lepingutes arveldatud. Ühe- või mitmekordseid arveldamata müügi tegelikke näitajaid saab selles vaates märgistada kui **Arveldamiseks valmis** või **Pole arveldamiseks valmis**. Arveldamata müügi tegeliku näitaja märgistamine kui **Arveldamiseks valmis** muudab selle kättesaadavaks arve mustandina esitamiseks.
+Vaade **Ajakavast mahajäämus ja materjali arvete võlgnevused** loetleb kõik arveldamata müügi tegelikud näitajad kõikid süsteemi projektilepingute üleselt, mille arve pole esitatud. Ühe- või mitmekordseid arveldamata müügi tegelikke näitajaid saab selles vaates märgistada kui **Arveldamiseks valmis** või **Pole arveldamiseks valmis**. Arveldamata müügi tegeliku näitaja märgistamine kui **Arveldamiseks valmis** muudab selle kättesaadavaks arve mustandina esitamiseks.
 
-Arveldamata müügi tegelikud näitajad, mille oleku **Mitteületatav** väärtust **Ebaõnnestus** ei saa märkida kui **Arveldamiseks valmis**. Kui need tegelikud näitajad peavad olema tähistatud sellisena, lähtestage olekuks määratud lepingurea tegelikud näitajad ja seejärel hinnake olekud **Mitteületatav**.
+Arveldamata müüginäitajad, mille valiku **Ei saa ületada** olekuks on **Nurjunud**, ei saa märkida kui **Arveldamiseks valmis**. Kui tegelikud andmed tuleb märkida kui **Arveldamiseks valmis**, lähtestage kinnitatud lepingurea teiste tegelike tulemuste olek ja hinnake seejärel olek **Mitte ületada** uuesti.
 
-Mitme kliendiga lepinguridade korral, millel on aja- ja materjalikulu arveldusmeetod, mil aeg ja kulud kinnitatakse, luuakse iga lepingurea jaoks iga kliendi kohta eraldi arveldatud müügi tegelik näitaja, mis on määratletud lepingurea iga kliendi jaoks määratletud arveldusprotsendi alusel. Vaates **Aja- ja materjalikulu arvete võlgnevused** näete üksikuid kliendipõhiseid arveldamata müügi tegelikke näitajaid. Kõik need arveldamata müügi tegelike näitajate kirjed saab märkida kui **Arveldamiseks valmis**, sellest vaatest eraldi.
+Kui mitme kliendiga sõlmitud lepinguridadel on aja- ja materjalikulu arveldamise meetod, siis luuakse aja ja kulu kinnitamisel iga lepingurea jaoks iga kliendi kohta üks arveldamata müügi näitaja, mis on iga kliendi jaoks määratletud arvestatud protsendina. Vaates **Aja- ja materjalikuluga arvete võlgnevus** näete neid kindlat klienti puudutavaid arveldamata müügi näitajaid. Kõik need arveldamata müügi tegelike näitajate kirjed saab märkida kui **Arveldamiseks valmis**, sellest vaatest eraldi.
 
-Selles vaates kuvatakse arve mustandi arveldamata müügi tegelik näitaja, mille väli **Arvelduse olek** on **Kliendi arve on loodud**. Kui arve mustand kinnitatakse, muutub selle kirje arveldamise olekuks **Kliendi arve on sisestatud**. Selle oleku väärtuse värskendamist, kui see on selles olekus, kohandatud koodi abil ei soovitata. Projekt Operations ei tööta õigesti, kui oleku väärtused on värskendatud kohandatud koodiga.
+Arveldamata müügi tegelik väärtus, mis on arve mustandil, kuvatakse selles vaates arve olekuga **Kliendiarve on loodud**. Kui arve mustand kinnitatakse, muutub selle kirje arveldamise olekuks **Kliendi arve on sisestatud**. 
+
+> [!NOTE] 
+> Ärge värskendage seda olekuväärtust kohandatud koodi abil. Rakendus Project Operation ei tööta õigesti, kui oleku väärtused on värskendatud kohandatud koodiga.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

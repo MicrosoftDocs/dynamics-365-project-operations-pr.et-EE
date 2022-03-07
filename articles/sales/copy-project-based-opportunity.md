@@ -5,19 +5,19 @@ author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 26ae5cc267bb06f958bbf9cdce2d80ccde9d3d24
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 89f5a63581f36b30634bdd302a6d360d6b5e75bd
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181630"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074895"
 ---
 # <a name="copy-project-based-opportunities"></a>Projektipõhiste müügivõimaluste kopeerimine
 
-_**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
+_**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
 
 Projekti müügivõimalusi saab hõlpsasti kopeerida, et luua uusi projekti müügivõimalusi. 
@@ -25,7 +25,7 @@ Projekti müügivõimalusi saab hõlpsasti kopeerida, et luua uusi projekti mü�
 1. Minge loendi lehele **Projekti müügivõimalused** ja valige loendist müügivõimalus. Või avage konkreetse müügivõimaluse üksikasjade leht. 
 2. Valige lehelt **Kopeeri**. Avaneb dialoogileht, mis sisaldab järgmist välja teavet. Sõltuvalt selles dialoogis valitud väärtustest võib koopia protsess muutuda.
 
-    | **Väli** | **Kirjeldus** | **Allavoolu mõjud** |
+    | **Väli** | **Asjakohasus, eesmärk ja juhised** | **Allavoolu mõjud** |
     | --- | --- | --- |
     | Teema | Sisestage siht-müügivõimaluse vastav teema. Kui dialoog avaneb, määrab süsteem selle lähtemüügivõimaluse teemaks koos sellele lisatud suvandiga **koopia**. | Sellel väljal puudub allavoolu mõju. |
     | Ettevõte | Viide kliendi ettevõttele või konto kirjele. Kui dialoog avaneb, määrab süsteem selle lähtemüügivõimaluse kontole. | See väli on müügivõimaluse peamine klient. |

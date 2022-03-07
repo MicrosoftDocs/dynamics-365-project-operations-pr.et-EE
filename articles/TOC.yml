@@ -4,9 +4,11 @@
   items:
     - name: Juurutamise tüübi määratlemine
       href: environment/determine-deployment-type.md
+    - name: Rakenduse Project Operations prooviversioonidele registreerumine
+      href: environment/admin-trials.md
     - name: Rakenduse Project Operations värskendused
       href: whats-new/project-operations-updates.md
-- name: Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
+- name: Rakendus Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
   items:
     - name: Alustamine
       items:
@@ -28,6 +30,8 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Keskkondade juurutamine
           items:
+            - name: Rakenduse Project Operations Dataverse käsitsi juurutamine koos topeltkirjutuse toega
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Uue keskkonna ettevalmistamine
               href: environment/resource-provision-new-environment.md
             - name: Turbemudel
@@ -48,10 +52,24 @@
               href: environment/resource-dual-write-project-invoice.md
             - name: Kuluhalduse integratsioon
               href: environment/resource-dual-write-expense.md
-            - name: Tarnija arve integratsioon
+            - name: Hankija arve integratsioon
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: Rakenduse Dynamics 365 Project Operations desinstallimine
+          href: environment/uninstall-project-operations.md
     - name: Mis on uut
       items:
+        - name: Oktoober 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: September 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
+          href: whats-new/whats-new-sept-2021-resource-based.md
+        - name: August 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
+          href: whats-new/whats-new-august-2021-resource-based.md
+        - name: Juuli 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: Juuni 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
+          href: whats-new/whats-new-june-2021-resource-based.md
+        - name: Mai 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: Aprill 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Märts 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
@@ -280,13 +298,15 @@
           items:
             - name: Projektimallide arendamine projekti kopeerimisega
               href: project-management/dev-copy-project.md
-            - name: Ajakava API-de kasutamine (avalik eelversioon)
+            - name: Projekti ajakava API-de kasutamine
               href: project-management/schedule-api-preview.md
+            - name: Projekti ajakava API jõudlus
+              href: project-management/project-schedule-api-performance.md
     - name: Ressursihaldus
       items:
         - name: Põhimõisted
           href: resource-management/resource-management-key-concepts.md
-        - name: Reserveeringud vs määramised
+        - name: Broneeringud vs määramised
           href: resource-management/booking-vs-assignment.md
         - name: Ressursihalduse režiimide ülevaade
           href: resource-management/resource-management-mode-overview.md
@@ -374,6 +394,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: Kulukategooriate seadistamine
               href: expense/set-up-expense-categories.md
+            - name: Läbisõidu seadistamine läbisõidu määra astmeid kasutades
+              href: expense/set-up-mileage.md
         - name: Isiklikud kulud
           href: expense/personal-expenses-expense-report.md
         - name: Kontsernisisesed kulud
@@ -402,12 +424,14 @@
               href: expense/vat-recovery.md
     - name: Materjali kasutus
       items:
-        - name: Projektides ja projektiülesannetes materjali kasutuse kirjendamine
+        - name: Projektide ja projektiülesannete materjali kasutuse kirjendamine
           href: material/material-usage-log.md
     - name: Kinnitused
       items:
         - name: Kinnituste ülevaade
           href: approvals/approvals-overview.md
+        - name: Kinnitamiskomplektid
+          href: approvals/approval-sets.md
         - name: Arendaja märkmed
           items:
             - name: Kinnituste arendaja märkmed
@@ -426,14 +450,20 @@
       items:
         - name: Mittelaopõhiste materjalide ja ootel hankija arvete konfigureerimine
           href: procurement/configure-materials-nonstocked.md
-        - name: Ootel tarnija arveid kasutades mittelaopõhiste materjalide projektide jaoks hankimine
+        - name: Mittelaopõhiste materjalide projektide jaoks hankimine ootel hankija arveid kasutades
           href: procurement/pending-vendor-invoices.md
+        - name: Projektide jaoks mittelaopõhiste materjalide tellimine projekti ostutellimusi kasutades
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Hankija lojaalsus
+          items:
+            - name: Hankija lojaalsuse ülevaade
+              href: procurement/vendor-retention-overview.md
+            - name: Hankija lojaalsuse seadistamine
+              href: procurement/set-up-vendor-retention.md
     - name: Arveldamine
       items:
         - name: Arveldusprotsessi ülevaade
           href: invoicing/post-project-invoices.md
-        - name: Projekti arve ettepanekute haldamine
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: Näidisarveldamine
           items:
             - name: Projektipõhiste arvete võlgnevuste haldamine
@@ -452,8 +482,22 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Projektipõhise arve automatiseerimise konfigureerimine
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Projekti arve ettepanekute haldamine
-          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Kliendiarvete loomine
+          items:
+            - name: Projektiarve ettepanekute haldamine
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: Projektiarve mustandi ettepanekute õige raamatupidamine
+              href: invoicing/correct-project-invoice-proposals.md
+        - name: Kontsernisisesed arved
+          items:
+            - name: Kontsernisisese arvelduse ülevaade
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Kontsernisisese arveldamise konfigureerimine
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Kontsernisiseste kannete loomine
+              href: project-accounting/create-intercompany-transactions.md
+            - name: Kontsernisisese kliendi ja hankija arvete loomine
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Projekti raamatupidamine
       items:
         - name: Finantsdimensiooni vaikeväärtused
@@ -466,21 +510,11 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Integreerimise tööleht rakenduses Project Operations
           href: project-accounting/project-operations-integration-journal.md
-        - name: Kontsernisisesed arved
-          items:
-            - name: Kontsernisisese arvelduse ülevaade
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: Kontsernisisese arveldamise konfigureerimine
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: Kontsernisiseste kannete loomine
-              href: project-accounting/create-intercompany-transactions.md
-            - name: Kontsernisisese kliendi ja hankija arvete loomine
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Tulu kajastamine
       items:
         - name: Tulu kajastamise ülevaade
           href: revenue-recognition/revenue-recognition-overview.md
-        - name: Tulu kajastamise seadistamine
+        - name: Tulu kajastamise häälestamine
           items:
             - name: Perioodi tüüpide seadistamine
               href: project-accounting/period-types.md
@@ -502,12 +536,26 @@
           href: environment/lite-preview-subscription-sign-up.md
         - name: Project Operationsi juurutamine – liht
           href: environment/lite-deployment.md
-        - name: Demoseadistamise ja konfiguratsiooniandmete rakendamine – lihtversioon
+        - name: Demoversiooni seadistamise ja konfiguratsiooniandmete rakendamine – lihtversioon
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Turbemudel
           href: environment/security-model.md
-    - name: Mis on uut?
+    - name: Mis on uut
       items:
+        - name: Mis on uut 2021 2. laine varajases juurdepääsus – lihtjuurutamine
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Mis on uut oktoobris 2021 – lihtjuurutamine
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: Mis on uut septembris 2021 – lihtjuurutamine
+          href: pro/whats-new/whats-new-sept-2021-lite.md
+        - name: Mis on uut augustis 2021 – lihtjuurutamine
+          href: pro/whats-new/whats-new-august-2021-lite.md
+        - name: Mis on uut juulis 2021 – lihtjuurutamine
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: Mis on uut juunis 2021 – lihtjuurutamine
+          href: pro/whats-new/whats-new-june-2021-lite.md
+        - name: Mis on uut mais 2021 – lihtjuurutamine
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Mis on uut aprillis 2021 – lihtjuurutamine
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Mis on uut märtsis 2021 – lihtjuurutamine
@@ -756,13 +804,15 @@
           items:
             - name: Projektimallide arendamine projekti kopeerimisega
               href: project-management/dev-copy-project.md
-            - name: Ajakava API-de kasutamine (avalik eelversioon)
+            - name: Projekti ajakava API-de kasutamine
               href: project-management/schedule-api-preview.md
+            - name: Projekti ajakava API jõudlus
+              href: project-management/project-schedule-api-performance.md
     - name: Ressursihaldus
       items:
         - name: Põhimõisted
           href: resource-management/resource-management-key-concepts.md
-        - name: Reserveeringud vs määramised
+        - name: Broneeringud vs määramised
           href: resource-management/booking-vs-assignment.md
         - name: Ressursihalduse režiimide ülevaade
           href: resource-management/resource-management-mode-overview.md
@@ -814,6 +864,30 @@
           items:
             - name: Ressursikasutuse ülevaade
               href: resource-management/resource-utilization-overview.md
+    - name: Allhankelepingute haldus rakenduses Project Operations
+      items:
+        - name: Allhankelepingute haldus rakenduses Project Operations
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Allhankelepingute sõlmimine 2021 a. oktoobri varajases juurdepääsus
+          href: pro/subcontracting/Subcontracting_EA_scope.md
+        - name: Allhankelepingute põhimõisted
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Hankijate ja projekti hinnakirjade haldus
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Alltöövõtjad broneeritavate ressurssidena
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Allhankelepingute päise üksikasjad
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Allhankelepingu ajaread
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Allhankelepingu kulukategooriate read
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Allhankelepingu tooteread
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Allhankelepingu rea ressursid
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Allhankelepingu rea vahe-eesmärgid
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: Aeg
       items:
         - name: Kellaaja ülevaade
@@ -834,12 +908,14 @@
           href: expense/basic-expense.md
     - name: Materjali kasutus
       items:
-        - name: Projektides ja projektiülesannetes materjali kasutuse kirjendamine
+        - name: Projektide ja projektiülesannete materjali kasutuse kirjendamine
           href: material/material-usage-log.md
     - name: Kinnitused
       items:
         - name: Kinnituste ülevaade
           href: approvals/approvals-overview.md
+        - name: Kinnitamiskomplektid
+          href: approvals/approval-sets.md
         - name: Arendaja märkmed
           items:
             - name: Kinnituste arendaja märkmed
@@ -874,9 +950,13 @@
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
 - name: Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
   items:
-    - name: Mis on uut
+    - name: Mis on uut?
       items:
-        - name: Mis on uut aprill 2021 – Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
+        - name: Mis on uut juulis 2021 – Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: Mis on uut mais 2021 – Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
+        - name: Mis on uut aprillis 2021 – Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Mis on uut märtsis 2021 – Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
           href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
@@ -1026,9 +1106,23 @@
       href: psa/overview.md
     - name: Mis on uut?
       items:
-        - name: Uuenduse väljalaske ajakava Project Service 3.x jaoks
+        - name: Värskenduste väljalaske ajakava Project Service 3.x jaoks
           href: psa/version-history-ps.md
-        - name: 'Mis on uut või muutunud värskenduses 31, V3?'
+        - name: 'Mis on uut või muutunud värskenduses 37, V3?'
+          href: psa/whats-new-ur-37.md
+        - name: 'Mis on uut või muutunud värskenduses 36, V3?'
+          href: psa/whats-new-ur-36.md
+        - name: 'Mis on uut või muutunud värskenduses 35, V3?'
+          href: psa/whats-new-ur-35.md
+        - name: 'Mis on uut või muutunud värskenduses 34, V3?'
+          href: psa/whats-new-ur-34.md
+        - name: 'Mis on uut või muutunud värskenduses 33, V3?'
+          href: psa/whats-new-ur-33.md
+        - name: 'Mis on uut või muutunud värskenduses 32.5, V3?'
+          href: psa/whats-new-ur-32-5.md
+        - name: 'Mis on uut või muutunud uuenduse väljalaskes 32, V3?'
+          href: psa/whats-new-ur-32.md
+        - name: 'Mis on uut või muutunud uuenduse väljalaskes 31, V3?'
           href: psa/whats-new-ur-31.md
         - name: 'Mis on uut või muutunud värskenduses 30, V3?'
           href: psa/whats-new-ur-30.md
@@ -1266,6 +1360,8 @@
               href: psa/time-entry-calendar.md
             - name: Iganädalaste ajakirjete kohandamine
               href: psa/time-entry-extensibility-v3.md
+            - name: Kinnitamiskomplektid rakenduses Project Service Automation
+              href: psa/approval-set.md
     - name: KKK ja tõrkeotsing (3.x)
       items:
         - name: Miks on tegeliku kulu maksumuse vaikeväärtus null?

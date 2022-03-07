@@ -2,6 +2,8 @@
 title: Ressursi oskuste lisamine
 description: Oskuste seostamine Project Service'i ressurssidega
 author: JohnPBurrows
+manager: kfend
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -16,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1e7b37c77c7ba688dc33ed382ec7ef610a5dee2d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1a11861308f9bda200061880447497fd2c57b32e
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992745"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074930"
 ---
 # <a name="add-resource-skills-project-service"></a>Ressursi oskuste lisamine (Project Service)
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -45,6 +45,3 @@ Teie klientide projektid nõuavad töö täitmiseks kahtlemata erinevaid oskusi,
   
 ### <a name="see-also"></a>Vt ka  
  [Ressursside seadistamine](../psa/set-up-resources.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

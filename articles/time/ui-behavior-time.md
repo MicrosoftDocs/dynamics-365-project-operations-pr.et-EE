@@ -2,18 +2,16 @@
 title: Ajakirje kasutajaliidese käitumine
 description: Selles teemas antakse teavet kasutajaliidese käitumist ajakirjega.
 author: stsporen
-manager: AnnBe
 ms.date: 03/03/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
-ms.translationtype: HT
+ms.openlocfilehash: ef99f220e9ff207a7620a900aa0630e2803f4f7261eccfbf73ed79717648bf92
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499609"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999446"
 ---
 # <a name="time-entry-ui-behavior"></a>Ajakirje kasutajaliidese käitumine
 
@@ -32,7 +30,7 @@ Ruudustik **Iganädalane ajakirje** on kohandatud juhtelement, millel on kaks pe
 | Avatud kirje    | Alt + Shift + o           |
 | Esita        | Alt + Shift + s           |
 | Kutsu tagasi        | Alt + Shift + r           |
-| Delete        | Alt + Shift + d           |
+| Kustutusklahv (Delete)        | Alt + Shift + d           |
 | Nädala kopeerimine     | Alt + Shift + w           |
 
 ## <a name="dimensions"></a>Mõõtmed

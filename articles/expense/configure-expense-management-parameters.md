@@ -2,18 +2,16 @@
 title: Kuluhalduse parameetrite konfigureerimine
 description: Selles teemas kirjeldatakse kuluhalduse üldist käitumist juhtivaid parameetreid.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 1cabb0be624f7f6c12761e4fb6d5a095396a5940a37616bb3a304798e1f97808
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121033"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007771"
 ---
 # <a name="configure-expense-management-parameters"></a>Kuluhalduse parameetrite konfigureerimine
 
@@ -83,3 +81,6 @@ Selles teemas kirjeldatakse kuluhalduse üldist käitumist juhtivaid parameetrei
 | Kuva korruptsioonivastane tõend   | Valige see suvand, kui soovite, et aruande loomisel näidatakse korruptsioonivastane tekst. Seejärel saab lubada teatud kulukategooria, mille puhul on nõutav, et kuluaruande jaoks saaks valida korruptsioonivastase tõendi. Näiteks võib valitsuse ametliku kuluga seotud kingituste kategooria nõuda, et töötaja kinnitaks, et kulu vastab valitsuse ametnikega seotud ettevõtte poliitikale. |
 | Esitaja korruptsioonivastane sõnum | Sisestage tekst, mis näidatakse kuluarunnet koostavale töötajale. Kindlas keeles kuvatava teksti sisestamiseks, mis põhineb kasutaja keelel, valige suvand **Tõlked**. |
 | Kinnitaja korruptsioonivastane sõnum  | Sisestage tekst, mis näidatakse kinnitajale kuluarunde koostamise ajal. Kindlas keeles kuvatava teksti sisestamiseks, mis põhineb kasutaja keelel, valige suvand **Tõlked**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

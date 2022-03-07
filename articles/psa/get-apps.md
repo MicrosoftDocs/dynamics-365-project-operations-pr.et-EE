@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cea18b38a69be518bf072cd11ee8757034c0479c
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: fd7f14ce5f08356e64eda5cd3ae4f9518bb894e0
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947964"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149223"
 ---
 # <a name="get-the-apps-project-service"></a>Rakenduste hankimine (Project Service)
 
@@ -30,12 +30,9 @@ ms.locfileid: "5947964"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Kui soovite sisestada aja ja kulud mobiilseadmes, [hankige ja installige Dynamics 365 telefonidele ja tahvelarvutitele](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).  
+Kui soovite sisestada aja ja kulud mobiilseadmes, [hankige ja installige Dynamics 365 telefonidele ja tahvelarvutitele](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).  
   
  Samuti saate uue projekti leidmiseks ja sellega töötamise taotlemiseks kasutada oma telefonis olevat rakendust Project Finder Mobile. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Järgmise projekti otsimine rakendusega Project Finder Mobile](../psa/find-next-project-finder-mobile-app.md) 
   
 ### <a name="see-also"></a>Vt ka  
  [Aja-, kulu- ja koostööjuhend](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

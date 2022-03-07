@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075099"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289769"
 ---
 # <a name="project-management-and-accounting-overview"></a>Projekti haldamise ja raamatupidamise ülevaade
 
@@ -205,7 +205,7 @@ Saate kaupu tellida ettevõtte varudest projektis kasutamiseks. Teise võimaluse
 
 Kauba tellimise viis sõltub sellest, kust te neid tellite.
 
--   Kauba tellimiseks ettevõtte varudest tuleb tellimus sisestada kaubavajadusena. Kui kasutate lehte **Kaubavajadused**, saate seadistada vajaduse nii, et saate kaupu osaliste tarnetena. Seega saate üksuste kaubakoguse realiseerimise edasi lükata, kuni kaubad on vajalikud.
+-   Kauba tellimiseks ettevõtte varudest tuleb tellimus sisestada kaubavajadusena. Kui kasutate lehte **Kaubavajadused**, saate seadistada vajaduse nii, et saate kaupu osaliste tarnetena. Seega saate üksuste kaubakoguse realiseerimise edasi lükata, kuni kaubad on vajalikud.
 -   Kui soovite kaupu tellida väliselt hankijalt, tuleb ostutellimus luua lehel **Ostutellimus**.
 
 > [!NOTE] 
@@ -300,7 +300,7 @@ Vastavalt teie seadistusele saate prognoosida valitud projekti rahavoogusid. Nä
 -   **Projekti kuupäev:** 5. märts 2012.
 -   **Arve esitamise aeg:** 31. märts 2012. See päev määratletakse arvete esitamise sageduse põhjal. Selles näites määrake arve esitamise sagedus praeguse kuuni. Seega on kõik kanded, mis on sisestatud märtsis, arveldatud kuu viimasel päeval.
 -   **Tähtaeg:** 14. aprill 2012. See tähtaeg määratakse vastavalt projekti jaoks määratud maksetingimustele. Selles näites olete valinud 14-päevase maksetingimuse. Seetõttu lisatakse arve kuupäevale 14 päeva, et saada 14. aprill 2012.
--   **Eeldatav müügi maksekuupäev:** 27. aprill 2012. Selle kuupäeva arvutamiseks lisatakse väljale **Üldised puhverpäevad** lehel **Projekti haldus ja raamatupidamisarvestuse parameetrid** päevade arvule väljal **Individuaalsed puhverpäevad** lehel **Projektilepingud** ja lisatakse seejärel kogusumma välja **Tähtaeg** päevade arvule. Selles näites sisestsite väljale **3** väljale **Üldine puhver päeva** ja **10** väljale **Individuaalne puhver päeva**. Seetõttu lisatakse tähtpäevale 13 päeva, et saada oodatav müügi makse 27. aprillil 2012.
+-   **Eeldatav müügi maksekuupäev:** 27. aprill 2012. Selle kuupäeva arvutamiseks lisatakse väljale **Üldised puhverpäevad** lehel **Projekti haldus ja raamatupidamisarvestuse parameetrid** päevade arvule väljal **Individuaalsed puhverpäevad** lehel **Projektilepingud** ja lisatakse seejärel kogusumma välja **Tähtaeg** päevade arvule. Selles näites sisestsite väljale **3** väljale **Üldine puhver päeva** ja **10** väljale **Individuaalne puhver päeva**. Seetõttu lisatakse tähtpäevale 13 päeva, et saada oodatav müügi makse 27. aprillil 2012.
 
 Üldise puhvri päevad võib asendada individuaalse puhvri päevadega või lisada need individuaalse puhvri päevadele.
 
@@ -440,3 +440,6 @@ Pärast seda, kui aruanne on arvutatud, saate vaadata järgmist teavet lehe **Pr
 -   **Tarbimine** – teave tundide, kaupade, kulude ja palgaarvestuse toimingute tarbimise kohta.
 -   **Arve** – teave arvete ja ettemakstud arvete kohta.
 -   **Tunnimäär** – tulu ja kulu kontidele sisestatud tunnimäärad.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
