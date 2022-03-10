@@ -2,12 +2,10 @@
 title: Iganenud veebiressursid Project Service Automation versioonis 3.x
 description: Selles teemas kirjeldatakse veebiressursse, mida enam Dynamics 365 Project Service Automation versioonis 3.0 ei kasutata.
 author: makk
-manager: rchawla
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/14/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,14 +14,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 46aab1bdce15613ce0551de5a8265b9130aa1938
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: e0ec1e01094ad4ec9deebc9bf0e9d3e197c16e2b03e6393f9dda7df97e7f1921
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074967"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988916"
 ---
 # <a name="deprecated-web-resources-in-project-service-automation-3x"></a>Iganenud veebiressursid Project Service Automation versioonis 3.x
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Kuna Dynamics 365 Project Service Automation lahenduses on uus kliendi kasutajaliides ja seal on tehtud ka muid muudatusi, ei ole mõned veebiressursid enam kasutusel. Seetõttu on need versioonis 3.0 aegunud (iganenud).
 
@@ -536,3 +536,6 @@ Kuna Dynamics 365 Project Service Automation lahenduses on uus kliendi kasutajal
 - msdyn\_\\Kellaaeg\\Rakendus\\Skriptid\\Vaated\\SubmitDialog.js
 - msdyn\_\\Kellaaeg\\Rakendus\\Skriptid\\Vaated\\TimeEntryView.js
 - msdyn\_\\Kellaaeg\\Moca\\Skriptid\\TimeEntryRibbon.js
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

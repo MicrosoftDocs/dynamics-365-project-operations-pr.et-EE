@@ -2,8 +2,6 @@
 title: Projekti reserveeringu loomine ajakavapaneelilt
 description: Selles teemas kirjeldatakse, kuidas ajakavapaneelilt projekti reserveeringut luua.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccbfedec82b2d9035b51cf1b283ae5c441f1cbcc
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122293"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987611"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Projekti reserveeringu loomine ajakavapaneelilt
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Te saate ressursi projektile reserveerida kas otse vahekaardil **Meeskond** või luues ressursinõude üldise meeskonnaliikme määrangust ja seejärel loodud nõuet projekti meeskonnaliikmega täites.
 
@@ -43,7 +43,7 @@ Saate luua üldise ressursi ja määrata sellele projektis ülesande või mitu �
 
 1.  Ajakavapaneelil kuvatakse seda ressursinõuet vahekaardil **Avatud nõuded**. Kui teil on mitu avatud nõuet, võib teil ruudustikus vaja minna veerufiltrite abi. 
 
-    ![Nõude vahekaardi avamine ajakavapaneelil](media/FAQ-Project-Booking-Schedule-Board-1.png "Kuvatõmmis reserveeringute ja määrangute tabelist")
+    ![Nõude vahekaardi avamine ajakavapaneelil.](media/FAQ-Project-Booking-Schedule-Board-1.png "Kuvatõmmis reserveeringute ja määrangute tabelist")
 
 2. Valige nõue. Valitud rea kohal avaneb vahekaart **Otsi kättesaadavust**.
  
@@ -53,7 +53,7 @@ Saate luua üldise ressursi ja määrata sellele projektis ülesande või mitu �
 
     Käsu **Reserveeri** valimine reserveerib ressursi projekti meeskonda.
 
-![Ressursi broneeringu loomine](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Ressursi broneeringu paneeli loomine.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Peamisest nõudest reserveerimine
@@ -62,7 +62,7 @@ Projekti loomisel rakenduses Project Service luuakse automaatselt ressursinõue 
 
 1. Peamise nõudega ressursi reserveerimiseks ajakavapaneelil valige vahekaart **Projekt**. Kui teil on palju projekte, peate võib olla kasutama veerus **Projekt** veerufiltreid.
 
-   ![Veerufiltrid ajakavapaneelil](media/FAQ-Project-Booking-Schedule-Board-2.png "Kuvatõmmis reserveeringute ja määrangute tabelist")
+   ![Veerufiltrid ajakavapaneelil.](media/FAQ-Project-Booking-Schedule-Board-2.png "Kuvatõmmis reserveeringute ja määrangute tabelist")
 
 2. Valige nõue, mille nimeks on vaid projekti nimi ja kestus on null (0).
 
@@ -89,3 +89,6 @@ Uue ressursinõude kaudu broneerimiseks täitke järgmised juhised.
 
 4. Nüüd, kui ressurss on reserveeritud, peate ülesandeid käsitsi määrama.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

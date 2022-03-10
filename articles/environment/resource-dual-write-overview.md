@@ -7,12 +7,13 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ce4f7bf8185e6f3f942df14d30d7b8d0a3e4444a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: b65c40e8aaa9524c1c634738dadd23f21e86e2ec095c47bc849467c8806addbc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998676"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007906"
 ---
 # <a name="project-operations-dual-write-integration-overview"></a>Project Operationsi topeltkirjutamise integreerimise ülevaade
 
@@ -22,7 +23,7 @@ Project Operations kasutab [topeltkirjutamise võimalusi](/dynamics365/fin-ops-c
 
 Järgmisel joonisel on näidatud, kuidas andmeid sünkroonitakse selle Dataverse’i ja Finance’i vahelise integreerimise osana.
 
-![Project Operationsi andmevoogude ülevaade](./media/ProjectOperationsFlows.jpg)
+![Project Operationsi andmevoogude ülevaade.](./media/ProjectOperationsFlows.jpg)
 
 Project Operations Dataverse’is pakub tänapäevast kasutajaliidest (UI) ja lihtsat koodita / madala koodiga laiendatavust, kasutades Power Platformi võimalusi. Projektijuhid, ressursihaldurid, projektimeeskonna liikmed ja muud peakontori töötajad teevad oma Project Operationsi tegevusi Dataverse’is.
 

@@ -2,8 +2,6 @@
 title: Arveldatava ressursikasutuse vaatamine
 description: Selles teemas antakse teavet ressursi kasutamise vaate kohta.
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,18 +16,20 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6daa6cfa1c6a237d8a1685123f7c1a6926418bfe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074978"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007141"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Arveldatava ressursikasutuse vaatamine
+
+[!include [banner](../includes/psa-now-project-operations.md)]
  
 Vaates **Kasutamise vaade** lehel **Project Service ressursi kasutamine** kuvatakse tasustatav kasutamine iga broneeritava ressursi kohta. Vaade põhineb ajakavapaneelil, nii et leiate sellelt mitmeid sarnaseid funktsioone.
 
-> ![Kasutusvaate kuvatõmmis](media/FAQ-utilization-1.png)
+> ![Kasutusvaate kuvatõmmis.](media/FAQ-utilization-1.png)
  
 
 Arveldatava kasutuse arvutamine toimib järgmiselt.
@@ -48,7 +48,7 @@ Kasutuse eesmärgi saab seada kas ressursi vaikerollis või üksikressursis. Arv
 2. Seejärel valige kirje avamiseks ressurss. 
 3. Vahekaardil **Project Service** saate seada ressursi kasutamise eesmärgi.
 
-> ![Kuvatõmmis kasutuse eesmärgi seadmisest vahekaardil Project Service](media/FAQ-utilization-2.png)
+> ![Kuvatõmmis vahekaardi Project Service kasutamisest sihtkasutuse seadistamiseks.](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>Kasutamise eesmärgi seadmine rollile
 
@@ -56,7 +56,7 @@ Kasutuse eesmärgi saab seada kas ressursi vaikerollis või üksikressursis. Arv
 2. Valige roll ja avage kirje. 
 3. Seadke rollile kasutuse eesmärk.
 
-> ![Kuvatõmmis kasutuse eesmärgi seadmisest ressursirollides](media/FAQ-utilization-3.png)
+> ![Kuvatõmmis ressursirollide kasutamisest sihtkasutuse seadistamiseks.](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>Arveldatava ressursikasutuse arvutamine
 
@@ -99,3 +99,6 @@ Kui te ei näe arveldatavat kasutust, kontrollige järgmist.
   - Projekti varundav projekti lepingurea roll on määratud mittearveldatavaks.
   - Projektil pole seostatud lepingurida.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

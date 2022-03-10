@@ -2,8 +2,7 @@
 title: Rakenduse Project Finder Mobile funktsioonide lubamine
 description: Rakenduse Project Finder Mobile funktsioonide lubamine Project Service'i jaoks
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
+ms.prod: ''
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,22 +17,24 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af267b5adc48b6edec57de196f91e338c058558c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 8651ba591853faf648587dcbd4c50625ba94360958d7b418e89aa0bf09464a89
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132958"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004891"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Rakenduse Project Finder Mobile funktsioonide lubamine (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Teie ressursid saavad rakendust Project Finder Mobile kasutada oma telefonis koos rakendusega [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], et leida uusi projekte, millega töötada, ja värskendada oma oskusekomplekte.  
   
  Rakendus on saadaval [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)]’idele, [!INCLUDE[tn_android](../includes/tn-android.md)]-telefonidele ja [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)]’ile.  
-  
- Peate määrama oma organisatsiooniüksuse jaoks parameetrite sättes mõne suvandi, et võimaldada kasutajatel vaadata projektide ressursinõudeid ja värskendada oma oskusi.  
+    
+ Peate määrama oma organisatsiooniüksuse jaoks parameetrite sättes mõne suvandi, et võimaldada kasutajatel vaadata projektide ressursinõudeid ja värskendada oma oskusi.
   
 > [!NOTE]
 >  Rakendus Project Finder Mobile töötab ainult koos teenusega [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] (mitte asutusesiseste installide puhul).  
@@ -46,22 +47,25 @@ Teie ressursid saavad rakendust Project Finder Mobile kasutada oma telefonis koo
   
 4. Määrake valiku **Luba ressursil oskuste värskendamine** sätteks **Jah**.  
   
-   ![ProjectService_ProjectFinderEnable](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
+   ![ProjectService_ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
   
    See on globaalne säte. Projektijuhid saavad üksiku projekti nähtavuse selle projekti lehel **Projektimeeskond**.  
   
-   ![ProjectService_ProjectTeamVisible](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
+   ![ProjectService_ProjectTeamVisible.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
   
 ## <a name="email-notifications"></a>Meiliteatised  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] saadab ressursitaotlusi puudutavad meilid järgmistel aegadel järgmistele adressaatidele.  
   
 |Adressaat|Üritus|  
 |---------------|-----------|  
-|Projektijuht|- Kui ressurss registreerub rakenduse Project Finder Mobile abil projektile.|  
-|Ressurss|- Kui projektitöö, millele ressurss on registreerunud, on teine ressurss juba teinud.<br />- Kui tema oskuste kinnitustaotlus on kinnitatud või tagasi lükatud.<br />- Kui tema projektile registreerumise taotlus on kinnitatud või tagasi lükatud.|  
+|Projektijuht|- Ressurss registreerub rakenduse Project Finder Mobile abil projektile.|  
+|Ressurss|- Projektitöö, millele ressurss on registreerunud, on teine ressurss juba teinud.<br />- Oskuste kinnitamise taotlus on kinnitatud või tagasi lükatud.<br />- Projektile registreerumise taotlus on kinnitatud või tagasi lükatud.|  
   
-## <a name="privacy-notice"></a>Privaatsusavaldus  
+## <a name="privacy-notice"></a>Privaatsusteatis  
  [!INCLUDE[cc_privacy_crm_project_finder_mobile_app](../includes/cc-privacy-crm-project-finder-mobile-app.md)]  
   
 ### <a name="see-also"></a>Vt ka  
  [Ressursside seadistamine](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

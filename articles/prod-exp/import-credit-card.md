@@ -2,11 +2,9 @@
 title: Krediitkaarditehingute importimine ja säilitamine
 description: Selles teemas kirjeldatakse kuluga seotud krediitkaarditehingute importimist ja haldamist. Neid tehinguid saab seadistada nii, et need imporditakse automaatselt regulaarselt teatud aja tagant, või neid saab vajaduse kohaselt käsitsi importida.
 author: KimANelson
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPbsMainDataLines
 audience: Application User
@@ -18,20 +16,18 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 6cec15e436bc699e361577c970dd5845c6c68908
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: c3a53d2ae4eae411364aaf68ac806b55335c75d4870a24715954ccae327f4358
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075109"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995846"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>Krediitkaarditehingute importimine ja säilitamine
 
-[!include [banner](../includes/banner.md)]
-
 Kuluga seotud krediitkaarditehinguid saab seadistada nii, et need imporditakse automaatselt korduvas ajakava põhjal. Teise võimalusena saab kandeid käsitsi vajadusel importida. Krediitkaarditehinguid imporditakse krediitkaarditehingute andmete olemi kaudu.
 
-Lisateavet andmeolemite kohta leiate teemast [Andmeolemid ](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
+Lisateavet andmeolemite kohta leiate teemast [Andmeolemid ](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
 
 ## <a name="import-credit-card-transactions"></a>Krediitkaarditehingute importimine
 
@@ -52,3 +48,6 @@ Lisateavet andmeolemite kohta leiate teemast [Andmeolemid ](https://docs.microso
 Pärast seda, kui töötaja kirje on lõpetatud, on töötaja Active Directory Domain Services'i (AD DS) konto keelatud. Siiski võib esineda aktiivseid krediitkaarditehinguid, mida peab veel kuludesse kandma ja tagasi maksma. Lehelt **Krediitkaarditehingud** saate töötaja ümber määrata mistahes krediitkaarditehingu korral, kus seotud töötaja on töölt lahkunud.
 
 Valige üks või mitu krediitkaarditehingut ja seejärel valige **Kannete ümbermääramine**. Seejärel saate valida mõne muu töötaja, kellele soovite krediitkaarditehingud määrata. Pärast seda, kui krediitkaarditehingud on ümber määratud, saab neid valida kuluaruande jaoks ja tagasi maksta kuluaruande tavalise protsessi kaudu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

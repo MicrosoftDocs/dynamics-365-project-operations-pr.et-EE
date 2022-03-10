@@ -2,28 +2,26 @@
 title: Projekti haldamise ja raamatupidamise ülevaade
 description: Projekti haldamise ja raamatupidamise funktsioone saab kasutada mitmes tööstusharus, et pakkuda teenust, toota toodet või saavutada tulemus.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: 87983
+ms.custom: intro-internal
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289769"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007501"
 ---
 # <a name="project-management-and-accounting-overview"></a>Projekti haldamise ja raamatupidamise ülevaade
 
@@ -36,14 +34,14 @@ Projekt on tegevuste rühm, mis on mõeldud teenuse osutamiseks, toote tootmisek
 ## <a name="projects-across-industries"></a>Projektid erinevates tööstusharudes
 Projektijuhtimise ja raamatupidamise funktsioone saab kasutada mitmes tööstusharus, nagu on näidatud järgmisel illustratsioonil.
 
-[![Projektid erinevates tööstusharudes](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projektid erinevates tööstusharudes.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 Kõnekeskuse kaudu saab piletit kasutada kõne lahendamiseks vajalike toimingute kogumi kirjeldamiseks. Konsultatsiooniettevõtted, nagu juhtimise või tehnilise konsultatsiooni organisatsioonid või reklaamiagentuurid, nimetavad oma tegevusi projektideks. Kampaania esindab turunduses kogu tööd, mis tuleb teha. Projektil põhinevas tootmises on tootmistellimus seotud mitmesuguste töödega, mida tuleb teha, et toota teatud valmistooteid. Mis tahes nime nende jaoks ka kasutatakse, hõlmavad need projektid ressursside, aja ja kulude arvestust ning projektihaldamise ja raamatupidamisarvestuse funktsionaalsus võib aidata nende projektide kavandamisel, teostamisel ja analüüsil.
 
 ## <a name="project-phases"></a>Projekti etapid
 Kuigi järgmine protsessivoog on suunatud välisprojektidele või ühe või mitme kliendi jaoks lõpule viidud projektile, rakendub funktsionaalsus ka sisemistele, ainult kuluarvestuse projektidele. 
 
-![Projekti 3 etappi](./media/3-stages-of-a-project.png) 
+![Projekti 3 etappi.](./media/3-stages-of-a-project.png) 
 
 Nagu on näidatud eelmises illustratsioonis, saab projektijuhtimist ja raamatupidamist jagada kolme etappi.
 
@@ -52,7 +50,7 @@ Nagu on näidatud eelmises illustratsioonis, saab projektijuhtimist ja raamatupi
 3.  Analüüsimine
 
 ## <a name="initiate-the-project"></a>Projekti algatamine
-Projekti algatamisel ilmnevad mitmed olulised protsessid. Projektipakkumise abil saate teatada kliendile eeldatavast tööst, kuludest ja materjalidest. Saate projektilepingus kirjeldada arvetingimusi, limiite ja kokkuleppeid. Tööjaotuse struktuuri (WBS) abil saate tööd kavandada ja hinnata. Projekti täitmise juhtimiseks saate seadistada prognoosid ja eelarved. Järgmisel joonisel on kujutatud projekti ülesehitus.[![project structure](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Projekti algatamisel ilmnevad mitmed olulised protsessid. Projektipakkumise abil saate teatada kliendile eeldatavast tööst, kuludest ja materjalidest. Saate projektilepingus kirjeldada arvetingimusi, limiite ja kokkuleppeid. Tööjaotuse struktuuri (WBS) abil saate tööd kavandada ja hinnata. Projekti täitmise juhtimiseks saate seadistada prognoosid ja eelarved. Järgmisel joonisel on kujutatud projekti ülesehitust.[![projekti struktuur](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Projekti hinnapakkumiste loomine
 
@@ -227,7 +225,7 @@ Projektitüüp määratleb, millist arveldamise protseduuri tuleks rakendada. Ar
 Enne projekti jaoks kliendi arve loomist saate luua esialgse arve või arve soovituse. Arvesoovituses saate valida projektiarvele kaasatavad projektikanded. Seejärel saate arve üksikasjad enne projekti arve sisestamist üle vaadata ja selle kliendile või muule rahastamisallikale saata. 
 
 
-Lisateavet projekti arvete töötlemise kohta leiate jaotisest [Projekti arved](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
+Lisateavet projekti arvete töötlemise kohta leiate jaotisest [Projekti arved](/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Projekti lõpuleviimiseks kulu arvutamine

@@ -2,18 +2,16 @@
 title: Müügivõimaluse seadistused – liht
 description: See teema sisaldab teavet projektipõhiste tehingute ja projektipõhiste müügivõimaluste ridade kohta.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ed82cb511337d9f6286e13b244d049022a184eef
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
-ms.translationtype: HT
+ms.openlocfilehash: 6a9a1ea9dacdb3aa2dbc8a0500481b204ff14eddfc1138e3db43ff568d7cd48b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950619"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994451"
 ---
 # <a name="header-details-for-project-opportunities"></a>Projekti müügivõimaluste päise üksikasjad
 

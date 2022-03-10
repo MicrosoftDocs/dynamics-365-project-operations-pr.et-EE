@@ -2,11 +2,9 @@
 title: Projekti ressursiplaanimise jõudlus
 description: Selles teemas kirjeldatakse suure hulga projektide jaoks ressursside kavandamise jõudluse parandamist.
 author: Yowelle
-manager: AnnBe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: 34c31570778f9b64c23387112cf56fa1139cd0fd
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 9dc638a7b2d8e0db45b5acfa5cc9512f356f8b2635028748a1e2c3230605c154
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289004"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007276"
 ---
 # <a name="project-resource-scheduling-performance"></a>Projekti ressursiplaanimise jõudlus
 

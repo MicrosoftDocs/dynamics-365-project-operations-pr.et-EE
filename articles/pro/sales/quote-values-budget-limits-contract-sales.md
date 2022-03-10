@@ -2,26 +2,24 @@
 title: Projekti hinnapakkumise kokkuvõtlik teave – liht
 description: Selles teemas kirjeldatakse teavet ja sätteid, mis rakenduvad projekti hinnapakkumistele ja neiud mõjutavad. (Sales)
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: ddc85d8c475dc7cdbe910fad31b5a6d8b617512c8a19cbae9543cb7a3e1d409e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180943"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989636"
 ---
-# <a name="summary-information-on-a-project-quote---lite"></a>Projekti hinnapakkumise kokkuvõtlik teave – liht
+# <a name="header-details-for-project-quotes"></a>Projekti hinnapakkumiste päise üksikasjad
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
 Selles artiklis kirjeldatakse projekti hinnapakkumisega seotud teavet. See hõlmab kõiki hinnapakkumise ridu mõjutavaid sätteid ja hinnapakkumise teavet, mis on summeritud kõigi reaüksuste lõikes, et juhtida projekti hinnapakkumise KPI-sid.
 
-Järgmises tabelis on toodud projekti hinnapakkumise kokkuvõtva teabe väljad, mis esinevad vaid Dynamics 365 Project Operationsi korral või mille käitumine erineb oluliselt Dynamics 365 Salesi hinnapakkumistest.
+Järgmises tabelis on esitatud projekti hinnapakkumise kokkuvõtte teabe väljad, mis on rakendusele Dynamics 365 Project Operations kordumatud või mille käitumises on tehtud võrreldes rakendusega Dynamics 365 Sales olulisi muudatusi.
 
 | **Väli** | **Asukoht** | **Kirjeldus** | **Allavoolu mõjud** |
 | --- | --- | --- | --- |
@@ -41,3 +39,6 @@ Allpool on toodud projekti hinnapakkumises saadaolevad vahekaardid ja KPI-d, mis
 | Kasumlikkuse analüüs | Hinnapakkumise vahekaart | Vahekaart kuvab järgmisi mõõdikud.</br>- Arveldatav kulu kokku</br></br>- Mittearveldatav kulu kokku</br>- Kogutulu</br>- Kogutulu (alus)</br>- Kogutulu</br>- Korrigeeritud kogutulu|
 | Võrdlus kliendi ootustega | Hinnapakkumise vahekaart | See vahekaart kuvab järgmisi mõõdikud.</br>- Eeldatav lõpetamine</br>- Nõutav lõpetamine</br>- Kliendi eelarve</br>- Hinnapakkumise väärtus |
 | Hinnapakkumise analüüs | Hinnapakkumise vahekaart | See vahekaart võtab kokku järgmised projekti hinnapakkumise KPI-d</br>- Võrdlus kliendi ootustega eelarve ja ajakava suhtes</br>- Kogutulu</br>- Korrigeeritud kogutulu |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

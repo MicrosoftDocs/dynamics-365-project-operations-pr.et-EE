@@ -2,12 +2,11 @@
 title: Hinnakujunduse ja kuluarvestuse dimensioonide avaleht
 description: Selles teemas antakse ülevaade hindade dimensioonidest.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 137fee27dd2302d47ae12faccde1682cff43db93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284128"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998456"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Hinnakujunduse ja kuluarvestuse dimensioonide avaleht
 
@@ -42,7 +41,7 @@ Arvestades nende töö tüüpilisi atribuute ja töö tegemiseks vajalikke inime
 
 PSA tarnitakse vaikimisi seatud hinnakujunduse dimensioonidega. Neid saate vaadata, kui avate **Project Service** > **Parameetrid**. Veenduge, et parameetri kirjel on vahekaardil **Summal põhinevad hinnakujunduse dimensioonid**, et selle rollide **msdyn_resourcecategory** ja ressursi organisatsiooniüksus **msdyn_organizationalunit** väljad **Kehtib müügi kohta** ja **Kehtib kulu kohta** oleks seatud väärtusele **Jah**. See võimaldab teil seadistada iga rolli ja organisatsiooniüksuse kombinatsiooni hinna ja maksumuse.
 
-![Esiletõstetud projektiteenuse parameetrite kuvatõmmis, millel on esile tõstetud „Kehtib müügi kohta”](media/PS-OOB-parameters.png)
+![Project Service’i parameetrite kuvatõmmis, millel on esile tõstetud „Kehtib müügi kohta”.](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Kui olete kasutanud valmiskujul rolli välju ja organisatsiooniüksust hinnakujunduse mõõtmetena enne PSA versiooni 3, ei ole mingeid jälgitavaid muudatusi. Saate jätkuvalt kasutada Project Service nagu tavaliselt. 
@@ -65,18 +64,18 @@ Järgmises näites on toodud arve määrad, mis on seadistatud vastavalt rollile
 
 **Näidishinnad**
 
-| Roll        | Organisatsiooniüksus    |Ühik      |Hind      |Valuuta  |
+| Roll        | Organisatsiooniüksus    |Üksus      |Hind      |Valuuta  |
 | ------------|-------------|----------|----------:|----------|
-| Arendaja   | Jõgi US  |Hour | 200|USD     |
-| Arendaja   | Jõgi India |Hour|   112|USD     |
+| Arendaja   | Contoso US  |tund | 200|USD     |
+| Arendaja   | Contoso India |tund|   112|USD     |
 
 
 **Kulumäära näidis**
 
-| Palgavahemik     | Organisatsiooniüksus    |Ühik      |Hind      |Valuuta  |
+| Palgavahemik     | Organisatsiooniüksus    |Üksus      |Hind      |Valuuta  |
 | ----------------|-------------|----------|----------:|----------|
-| Minu company_Band1 | Jõgi US  |Hour | 145|USD     |
-| Minu company_Band2 | Jõgi India |Hour|   67|USD     |
+| Minu company_Band1 | Contoso US  |tund | 145|USD     |
+| Minu company_Band2 | Contoso India |tund|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

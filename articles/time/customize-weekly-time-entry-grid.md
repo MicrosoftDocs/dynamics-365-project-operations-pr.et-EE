@@ -2,18 +2,16 @@
 title: Ajakirjete laiendamine
 description: Selles teemas antakse teavet selle kohta, kuidas saavad arendajad saavad ajakirje juhtelementi laiendada.
 author: stsporen
-manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074855"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993326"
 ---
 # <a name="extending-time-entries"></a>Ajakirjete laiendamine
 
@@ -144,3 +142,6 @@ Kasutage lisandmoodulite kinnitusi kõikide nende kinnituste jaoks, mis vajavad 
 
 ### <a name="copying-time-entries"></a>Ajakirjete kopeerimine
 Kasutage vaadet **Kopeeri ajakirje veerge**, et määratleda ajavahemiku jooksul kopeeritavate väljade loend. Väljad **Kuupäev** ja **Kestus** on nõutavad ja neid ei tohi vaatest eemaldada.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Kinnitatud aja- või kulukirjete tagasivõtmine
 description: Selles teemas antakse teavet varem kinnitatud aja- või kulukirjete tagasivõtmise kohta.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,14 +15,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7bacd70881a6c463cc449a365173da5338a3d3fc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: e90b84bbfcd007e97e96b294144f058ac73746e3d358437692f0a8e6e92b8de3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075003"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998321"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Kinnitatud aja- või kulukirjete tagasivõtmine
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -98,10 +98,13 @@ Kui tagasivõtmisetaotlus lükatakse tagasi, ei ole projektile finantsmõju.
 
 Järgmisel joonisel on kuvatud muudatused, mis toimuvad kinnitatud ajakirjetes nende tagasivõtmisel.
 
-![Ajakirje oleku üleminekud](media/TimeEntryStateTransitions.png)
+![Ajakirje oleku üleminekud.](media/TimeEntryStateTransitions.png)
 
 ## <a name="changes-to-expense-entry-records"></a>Kulukirjete kirjete muudatused
 
 Järgmisel joonisel on kuvatud muudatused, mis toimuvad kinnitatud kulukirjetes nende tagasivõtmisel.
 
-![Kulukirje oleku üleminekud](media/ExpenseEntryStateTransitions.png)
+![Kulukirje oleku üleminekud.](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

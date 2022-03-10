@@ -2,16 +2,16 @@
 title: Finantsdimensiooni vaikeväärtused
 description: Selles teemas antakse teavet, kuidas häälestada finantsdimensiooni vaikeväärtused.
 author: sigitac
-ms.date: 10/26/2020
+ms.date: 12/14/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d2509f74d34ac3dce4c6915ca860283750eb50b1
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
+ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013301"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922933"
 ---
 # <a name="financial-dimension-defaults"></a>Finantsdimensiooni vaikeväärtused
 
@@ -60,6 +60,15 @@ Projekte luuakse ja hallatakse CDS-is. Projektide raamatupidamise atribuudid mä
 4. Määrake finantsdimensiooni vaikeväärtused. Pange tähele, et finantsdimensioonide vaikeväärtused pärinevad kliendi kontolt. Kui projekt on seostatud mitme projektilepingu kliendiga lepingureaga, kasutatakse vaikimisi finatsdimensioonideks peamist klienti.
 
 Projekti vaikimisi finantsdimensioone kasutatakse suvandis **Project Operationsi integreerimise tööleht** ja seotud projekti arvete ridade jaoks aja, kulu ja tasu kannete jaoks tööleherea vaikeväärtuste määramiseks.
+
+## <a name="apply-financial-dimensions-for-project-time-entries"></a>Projekti ajakannete finantsdimensioonide sidumine
+Projekti ajakannete finantsdimensioonide sidumiseks arvestage, et dimensiooni vaikeväärtus põhineb järgmisel tellimusel.
+
+1. Ressurss
+2. Project
+3. Rahastamise allikas
+
+Näiteks kui ressursil on määratud vaikedimensioon, rakendatakse see projektis määratud vaikediuvisiooni peale. Samamoodi rakendatakse rahastamisallikas määratud vaikedimensioonile projekti vaikedimensiooni.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

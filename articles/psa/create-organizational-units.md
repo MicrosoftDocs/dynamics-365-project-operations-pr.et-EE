@@ -2,8 +2,6 @@
 title: Organisatsiooniüksuste loomine
 description: Organisatsiooniüksuste loomine Project Service'is
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d88ba698e59633b9c550a2d5a82cd1df6a2b24fc
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: e4df3775e802681c51d6d6491110419bea2a17d7e7694f0879417800b5a6db37
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290399"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993686"
 ---
 # <a name="create-organizational-units-project-service"></a>Organisatsiooniüksuste loomine (Project Service)
 

@@ -2,19 +2,17 @@
 title: Mis on uut detsembris 2020 – Project Operations ressursi-/mittelaopõhiste stsenaariumite jaoks
 description: See teema sisaldab teavet ressursi-/mittelaopõhiste stsenaariumite jaoks mõeldud rakenduse Project Operations 2020. aasta detsembri väljalaskes saadaolevate kvaliteedi värskenduste kohta.
 author: sigitac
-manager: tfehr
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3889402ab991e307bc3fe5463098dfab383a53b4
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
-ms.translationtype: HT
+ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4727875"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6984866"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Mis on uut detsembris 2020 – Project Operations ressursi-/mittelaopõhiste stsenaariumite jaoks
 
@@ -108,4 +106,7 @@ Selles väljaandes sisalduvad järgmised funktsioonid.
 | Reisimine ja kulu                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Kuluaruande automaatse kirjendamise töövoog on lõpetatud, kuid arvet ei kirjendata                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Regulatiivsed uuendused
-Lisateavet teenuse Finance and Operations rakenduste regulatiivsete uuenduste kohta vaadake teemast [Regulatiivsed uuendused](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Saate ka LCS-i sisse logida ja vaadata kavandatud regulatiivseid värskendusi, kasutades probleemi otsimise tööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
+Lisateavet teenuse Finance and Operations rakenduste regulatiivsete uuenduste kohta vaadake teemast [Regulatiivsed uuendused](/dynamics365/finance/localizations/regulatory-updates). Saate ka LCS-i sisse logida ja vaadata kavandatud regulatiivseid värskendusi, kasutades probleemi otsimise tööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

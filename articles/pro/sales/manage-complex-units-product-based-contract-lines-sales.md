@@ -2,24 +2,22 @@
 title: Kompleksühikute haldamine tootepõhiste lepinguridade jaoks – liht
 description: Selles teemas antakse teavet kordustellimusel põhinevate toodete müügi toetamise kohta.
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a58a13c8186f36e6031fe3c6f3c3a57ea920ac9e
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
-ms.translationtype: HT
+ms.openlocfilehash: 6bd4e11bf96d9f7d77c77fe081fde02b421c3139915150480a8d1a4d812887f6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177371"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003361"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>Kompleksühikute haldamine tootepõhiste lepinguridade jaoks – liht
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
-Dynamics 365 Project Operations kasutab kordustellimuse põhiste toodete müügi toetamiseks koguse tegureid. Kordustellimusel põhinevate toodete puhul väljendatakse lepingu või projekti lepingurea kogust kasutaja kuude arvuna.
+Dynamics 365 Project Operations kasutab kordustellimuse põhiste toodete müügi toetamiseks koguselisi tegureid. Kordustellimusel põhinevate toodete puhul väljendatakse lepingu või projekti lepingurea kogust kasutaja kuude arvuna.
 
 Kordustellimuse tarkvara hind talletatakse kataloogis ühe kasutaja kuu hinnana. Müügiprotsessi jooksul on hind lepingureal tavaliselt ühe kasutaja hind kuus, mille müügiagent oli kokku leppinud ja diskonteerinud. Igal lepingul on erinev arv kasutajaid ja kordustellimuse kuude arv on erinev. Kogus, mida kasutatakse lepingurea summa arvutamiseks, on kasutajate arvu ja kordustellimuse kuude arvu toode.
 
@@ -46,3 +44,6 @@ Tooteatribuutidest koguseliste tegurite loomiseks tehke järgmist.
 7. Korrake samme 2–6 kõigi atribuutide jaoks, mis koos moodustavad tootepõhise lepingurea koguse.
 
 Kui koguselised tegurid on häälestatud ja kasutaja loob selle toote jaoks lepingurea, siis lepingurea kogus on lukus. Kogus arvutatakse seejärel selle lepingurea atribuudi väärtuste tootena.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

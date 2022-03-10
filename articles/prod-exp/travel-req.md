@@ -2,26 +2,25 @@
 title: Reisitellimuste ülevaade
 description: Selles teemas antakse teavet reisitellimuste kohta. Reisitellimuse dokumentidega plaanitud reisikulud.
 author: saraschi2
-manager: AnnBe
 ms.date: 02/23/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvRequisitionList
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b8d68068c151c8530b9a7d3dccb742902fdc6a3
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 9e6f7f92101b79db7145ca7f3e44aa22e5f21bddfc5fe3d5adfa765fe37b8fd8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960647"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988151"
 ---
 # <a name="travel-requisitions-overview"></a>Reisitellimuste ülevaade
 
@@ -32,3 +31,6 @@ Teie organisatsioon võib nõuda, et enne töötajatele ettevõtte poolt tasutav
 Reisitellimusi ja poliitikaid saab kasutada eelarve kontrollimiseks. Kui teie organisatsioon töötab näiteks fikseeritud hinnaga projektiga, mis nõuab reisimist, peavad projekti meeskonnaliikmete sõidukulud vastama projekti eelarvele. Nõudes, et reisikulud kinnitatakse enne nende tekkimist, saab organisatsioon aidata tagada, et projekt jääb eelarve piiresse.
 
 Saate reisitellimuste poliitikaid seadistada lehel **Reisitellimus**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,24 +2,24 @@
 title: Projektilepingud – põhimõisted – liht
 description: Selles teemas antakse teavet projektilepingute põhimõistete kohta.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ce37c9dd18fd01e599e8766389e42c066e182547
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: a797a4fef6276f6ed008b0e58eed4c7480ba3492bcc166a362d4ff2816acf777
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177056"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991436"
 ---
-# <a name="project-contracts---key-concepts---lite"></a>Projektilepingud – põhimõisted – liht
+# <a name="concepts-unique-to-project-contracts"></a>Projektilepingute kordumatud mõisted
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
-Selles teemas antakse teavet põhimõistete kohta, millele enne Dynamics 365 Project Operationsis projekti lepingu kasutamist tähelepanu pöörata.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Selles teemas käsitletakse põhimõisteid, millest tuleb teadlik olla enne, kui hakkate kasutama projekti lepinguid rakenduses Dynamics 365 Project Operations.
 
 ## <a name="contracting-unit"></a>Lepingut sõlmiv üksus
 
@@ -91,3 +91,6 @@ Project Operationsi lepingud on koostatud Dynamics 365 Salesi lepingute põhjal.
 - Project Operationsi lepingutel on nende oma vorm ja kasutajaliidese elemendid, ärireeglid, äriloogika lisandmoodulid ja kliendipoolsed skriptid, mis muudavad need Salesi lepingutest erinevaks.
 
 Neil põhjustel ei peaks te kasutama müügi ja projekti lepingut vaheldumisi.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

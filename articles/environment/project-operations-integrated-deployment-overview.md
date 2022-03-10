@@ -2,18 +2,17 @@
 title: Rakenduse Project Operations ressursi-/mittelaopõhiste stsenaariumite jaoks juurutamise ülevaade
 description: Selles teemas antakse teavet juurutuse tüübi kohta Project Operationsi ressursi-/mittelaopõhistes stsenaariumides.
 author: rumant
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 770947835af41bd06c02ca08b6ed8e810b9bdcf8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.custom: intro-internal
+ms.openlocfilehash: a66877471e584bc76ddfe508a5d4cb47e38dd7aeb5f2bebe795b41a1de462ef9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289949"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009706"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Rakenduse Project Operations ressursi-/mittelaopõhiste stsenaariumite jaoks juurutamise ülevaade
 

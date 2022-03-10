@@ -2,8 +2,6 @@
 title: Täiendavate parameetrisätete konfigureerimine
 description: Project Service'i täiendavate parameetrisätete konfigureerimine
 author: JohnPBurrows
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24a4fe83471da916fb91cfe20e739279c08d8e5e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: fb23569db5136cd1b8b7d2f5735de8a91b441b76ab7e027d27087b3785f4636e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074956"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000436"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>Täiendavate parameetrisätete konfigureerimine (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -65,3 +65,6 @@ Projektiparameetrite määramiseks tehke järgmist.
 
 ### <a name="see-also"></a>Vt ka  
  [Ressursside seadistamine](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

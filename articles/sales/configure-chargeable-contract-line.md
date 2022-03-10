@@ -1,21 +1,19 @@
 ---
-title: Projektipõhise lepingurea arveldatavate komponentide konfigureerimine
+title: Projekti lepingurea arveldatavate komponentide konfigureerimine
 description: Selles teemas antakse teavet kaasatud, arveldatavate ja mittearveldatavate komponentide kohta lepinguridadel.
 author: rumant
-manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2266d8e0fe998e7161ede4cb4eaf7d3c70c54f71
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 51151089df67e2d164fc6315c1291f880917f43f1fba189304cb305ea973cecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278683"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004036"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Projektipõhise lepingurea arveldatavate komponentide konfigureerimine
+# <a name="configure-chargeable-components-of-a-project-contract-line"></a>Projekti lepingurea arveldatavate komponentide konfigureerimine
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 

@@ -2,8 +2,6 @@
 title: Pädevusmudelite seadistamine
 description: Pädevusmudelite seadistamine Project Service’is
 author: JohnPBurrows
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 653b7eef12c57203fbc6853e97d3be43bdb85b9d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: f8eca6fc162c4bae2b5e8e977b2a504a75f0535c36c58f376a7948e619f15fa2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075173"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006871"
 ---
 # <a name="set-up-proficiency-models-project-service"></a>Pädevusmudelite seadistamine (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -51,3 +51,6 @@ Nüüd, kui olete lisanud klientide projektidele oskused, vajate moodust oma nõ
   
 ### <a name="see-also"></a>Vt ka  
  [Ressursside seadistamine](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

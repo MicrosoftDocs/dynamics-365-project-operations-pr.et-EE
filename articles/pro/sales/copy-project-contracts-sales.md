@@ -2,18 +2,16 @@
 title: Projektilepingute kopeerimine – liht
 description: Selles teemas antakse teavet Project Operationsis projekti lepingute kopeerimise kohta.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4137fc400c7fdd8fecd9d8349bf7f57f3470b51f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: d5c45c6f1631d9e20bd0416410c7fe24a11623da425c8e2a633b085fbfabdd79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181402"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006016"
 ---
 # <a name="copy-project-contracts---lite"></a>Projektilepingute kopeerimine – liht
 
@@ -45,3 +43,6 @@ Väärtusest **Algne leping** ei kopeerita väärtusesse **Eesmärkleping** jär
   - Kliendi eelarve teave
 
 Kuna see teave on iga lepingu jaoks spetsiifiline, siis neid välju ja kirjeid ei kopeerita. Lepingu tasemel kopeeritakse projektide ja toodete lepinguread, lepingurea üksikasjade prognoosid ja mitte ületatavad väärtused. Hindade ja kulumäära vaikeväärtused sõltuvad valikust väljal **Hinnakujunduse kopeerimine**, mis on valikud dialoogilehel **Parameetrite kopeerimine**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

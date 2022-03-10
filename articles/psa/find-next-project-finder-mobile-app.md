@@ -2,8 +2,6 @@
 title: Järgmise projekti otsimine rakendusega Project Finder Mobile
 description: Järgmise projekti otsimine Project Service'i rakendusega Project Finder Mobile
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c15be8d9884c31298f996477c732c542fce65fcc
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275263"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990763"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Järgmise projekti otsimine rakendusega Project Finder Mobile (Project Service)
 
@@ -40,12 +38,12 @@ Rakendusega Project Finder Mobile saate oma [!INCLUDE[tn_iphone](../includes/tn-
   
  Koputage huvipakkuva projekti kõrval asuvat noolt, et näha rohkem üksikasju ja projektile registreeruda.  
   
- ![Oskustele vastavate projektide loend rakenduses Project Finder Mobile](../psa/media/project-service-project-finder-list.png "Oskustele vastavate projektide loend rakenduses Project Finder Mobile")  
+ ![Oskustele vastavate projektide loend rakenduses Project Finder Mobile.](../psa/media/project-service-project-finder-list.png "Oskustele vastavate projektide loend rakenduses Project Finder Mobile")  
   
 ## <a name="update-your-skills"></a>Oskuste värskendamine  
  Oma oskuste ja pädevustasemete värskendamiseks koputage kuva paremas alanurgas profiilinuppu.  
   
- ![Profiili nupp rakenduses Project Finder Mobile](../psa/media/project-service-project-finder-profile.png "Profiili nupp rakenduses Project Finder Mobile")  
+ ![Profiili nupp rakenduses Project Finder Mobile.](../psa/media/project-service-project-finder-profile.png "Profiili nupp rakenduses Project Finder Mobile")  
   
 ### <a name="see-also"></a>Vt ka  
  [Aja-, kulu- ja koostööjuhend](../psa/time-expense-collaboration-guide.md)

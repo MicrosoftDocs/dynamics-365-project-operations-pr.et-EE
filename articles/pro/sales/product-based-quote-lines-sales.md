@@ -2,18 +2,17 @@
 title: Tootepõhiste hinnapakkumiste ridade ülevaade – liht
 description: See teema sisaldab teavet tootepõhiste hinnapakkumise ridadega töötamise kohta.
 author: rumant
-manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f6aa428c486f149308ad078f9d7a80a0be0f0f04
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.custom: intro-internal
+ms.openlocfilehash: 871597b38d72d2b670c375d2a1711a6022e3446ba3955a3d2a233a6486d85f5c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4178183"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003316"
 ---
 # <a name="product-based-quote-lines-overview---lite"></a>Tootepõhiste hinnapakkumiste ridade ülevaade – liht
 
@@ -46,3 +45,6 @@ Kui hinnapakkumise rida põhineb tootekataloogil, saate müügihinna alistada ot
 Kui valite suvandi **Hinnakirja tühistamine**, siis vaikimisi hinda ei määrata. Selle asemel peate sisestama toote hinna hinnapakkumise real. Kui valite suvandi **Kasuta vaikeväärtust**, kasutatakse vaikimisi müügihinda ja see väli on redigeerimiseks lukus.
 
 Vaikimisi müügihinnad sisestatakse hinnapakkumise tootepõhistele ridadele. Välja **Hinnakiri** väärtuseks seatakse **Hinnakirja tühistamine**, et saaksite hinnapakkumise ridadel redigeerida vaikimisi kasutatavat hinda. See on rakendusele Project Operations omane rakenduse Dynamics 365 Sales tootepõhiste ridade käitumise alistamiseks.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

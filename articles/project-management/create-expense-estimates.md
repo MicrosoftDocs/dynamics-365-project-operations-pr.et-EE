@@ -1,28 +1,22 @@
 ---
-title: Kuluprognoosid
+title: Projektide kulude finantsprognoosid
 description: Selles teemas antakse teavet projektipõhiste kulude määratlemise või prognoosimise kohta.
-author: ruhercul
-manager: Annbe
-ms.date: 10/01/2020
+author: rumant
+ms.date: 03/19/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.author: rumant
+ms.openlocfilehash: f4d42724af61aa241671e8dacacbe2be5a7d531f55c2025a89ff777ac41e9b67
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287053"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987836"
 ---
-# <a name="expense-estimates"></a>Kuluprognoosid
+# <a name="financial-estimates-for-expenses-on-projects"></a>Projektide kulude finantsprognoosid
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Koos ressursipõhiste prognooside määratlemisega võimaldab Dynamics 365 Project Operations projektijuhtidel määratleda iga projekti jaoks projektipõhiseid kulusid. Iga kulukirje saab seostada kindla projekti ülesande või kulukategooriaga. Kulukategooriad on tavaliselt määratletud organisatsiooni tasemel. Iga kulukategooria hinna määratleb tavaliselt järgmine hierarhia.
-
-- Organisatsioon
-- Klient
-- Hinnapakkumine/leping
+Dynamics 365 Project Operations võimaldab projektijuhtidel määratleda iga projekti või ülesande jaoks projektipõhised kulutused. Iga kuluüksuse saab seostada konkreetse projektiülesandega. Kulud liigitatakse erinevateks kulukategooriatesse, mis on määratletud organisatsiooni tasemel. Iga kulukategooria hinnakujundus ja kuluarvestus on määratletud hinnakirjas. 
 
 Projekti kulu vaatamiseks, lisamiseks või kustutamiseks tehke järgmist.
 
@@ -30,14 +24,20 @@ Projekti kulu vaatamiseks, lisamiseks või kustutamiseks tehke järgmist.
 2. Valige vahekaart **Projekti prognoosid** ja vaadake projekti kulude loendit.
 3. Valige uue kulu lisamiseks suvand **Uus kulu**. Või valige kustutamiseks kulu ja valige seejärel **Kustuta kulu**.
 
-Iga kulurea üksuse jaoks on määratletud järgmised atribuudid.
+Järgmine tabel sisaldab teavet väljade kohta projekti real **Kuluprognoos**. 
 
-- **Kategooria**: levinud rühmitused, mida kasutatakse kõigi projektiga seotud kulude kirjeldamiseks.
-- **Alguskuupäev**: kulu prognoositav tekkimise kuupäev.
-- **Kogus**: kindla kategooria kuluüksuste eeldatav arv.
-- **Ühiku omahind**: kulu maksumuse arvutamiseks kasutatava ühiku hind.
-- **Ühiku müügihind**: kulu müüguhinna arvutamiseks kasutatava ühiku hind.
-
+| **Väli** | **Kirjeldus** | **Allavoolu mõjud** |
+| --- | --- | --- |
+| Toiming | Projekti ülesannete loend. See hõlmab kokkuvõtte- ja lehetoiminguid. | Ülesande valimine kuluprognoosi rea jaoks mõjutab ülesande prognoositavad maksumuse kulu ja eeldatava kulu müüki. Kui see väli jäetakse tühjaks, jälgitakse ja summeeritakse kuluprognoosi ainult projekti tasandil. |
+| Kategooria | Kandekategooriate loend, mille kulukategooriad on rakenduses lingitud. | Kategooria valimine juhib kuluprognoosi rea hinnakujundust ja kulusid. |
+| Alguskuupäev | Kulu ilmnemise prognoositav kuupäev. | Sellel väljal puudub allavoolu mõju. |
+| Ühikurühm | Selle välja vaikeväärtus pärineb ühikurühmast, mis on häälestatud valitud kategooria vaikevalikuks. Saate selle välja värskendada, et valida mõne muu ühikurühma. | Sellel väljal puudub allavoolu mõju. |
+| Üksus | Selle välja vaikeväärtus on vaikimisi valitud kategooria vaikeühik. Saate selle välja värskendada, et valida mõne muu ühiku. | Ühiku muutmise tulemuseks on erinev vaikimisi ühikuhind ja kulu. |
+| Kogus | Esineva prognoositava kulu kogus. | Sellel väljal puudub allavoolu mõju. |
+| Ühiku kulu | Valitud kategooria ja ühiku kombinatsiooni kulu, mis on häälestatud rakendatavas kuluhinnakirjas | Ühikukulu kuvatakse alati projekti kuluvaluutas. |
+| Ühiku hind | Valitud kategooria ja ühiku kombinatsiooni hind, mis on häälestatud rakendatavas müügi hinnakirjas. | Ühiku hind kuvatakse alati projekti müügivaluutas. |
+| Kogukulu | Kulusumma, mis arvutatakse kui kogus \* ühikukulu.| Kulusumma kuvatakse alati projekti kuluvaluutas. |
+| Müük kokku | Müügisumma, mis arvutatakse kui kogus \* ühikuhind. | Müügisumma kuvatakse alati projekti müügivaluutas. |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Kuluaruanded ja mitu kinnitajat
 description: Selles teemas antakse teavet kuluaruannete kohta, mis vajavad kinnitamist rohkem kui ühe inimese poolt.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9b9826c89e9deb870adb053f82bd049906f56052
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 2acae2d518a02539f01d5498450236999fe609d1e8f26b5f90e18b986b83cab1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276523"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988421"
 ---
 # <a name="expense-reports-and-multiple-approvers"></a>Kuluaruanded ja mitu kinnitajat
 

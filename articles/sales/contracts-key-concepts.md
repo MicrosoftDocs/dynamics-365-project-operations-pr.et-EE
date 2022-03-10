@@ -2,20 +2,18 @@
 title: Projektilepingud – põhimõisted
 description: Selles teemas antakse teavet projektilepingute peamiste mõistete kohta Project Operationsis.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fa00bd5b4a1179f38d5dfb63a47b39eec69c6ecf
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642133"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986936"
 ---
-# <a name="project-contracts---key-concepts"></a>Projektilepingud – põhimõisted
+# <a name="concepts-unique-to-project-based-contracts"></a>Projektipõhiste lepingute kordumatud mõisted
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
@@ -88,3 +86,6 @@ Arve ajakavad on iga lepingurea jaoks konkreetsed ja need on vajalikud automaats
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Dynamics 365 Salesi tellimuste muudatused
 
 Project Operationsi lepingud on koostatud Dynamics 365 Salesi tellimustele. Siiski on funktsionaalsuses olulisi kõrvalekaldeid ja erinevusi. Lepingutel on nende oma vorm ja kasutajaliidese elemendid, ärireeglid, äriloogika lisandmoodulid ja kliendipoolsed skriptid, mis muudavad need tellimustest erinevaks. Neil põhjustel ärge kasutage müügitellimust ja Project Operationsi lepingut vaheldumisi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

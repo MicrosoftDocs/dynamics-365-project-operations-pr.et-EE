@@ -2,18 +2,17 @@
 title: Kontsernisisese arvelduse ülevaade
 description: Selles teemas on toodud teave ja näited projektide kontsernisisese arveldamise kohta.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ad75089de1a2f99646f7aba213e199a2bec347d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.custom: intro-internal
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287323"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005386"
 ---
 # <a name="intercompany-invoicing-overview"></a>Kontsernisisese arvelduse ülevaade
 
@@ -21,9 +20,9 @@ _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
 Teie organisatsioonis võib olla mitu allüksust, tütarettevõtet ja muud juriidilist isikut, kes edastavad üksteisele tooteid ja teenuseid projektidele. Teenust või toodet pakkuva juriidilise isiku nimi on *laenu andev juriidiline olem*. Teenust või toodet saava juriidilise isiku nimi on *laenav juriidiline olem*.
 
-Järgmisel joonisel on kujutatud tüüpiline stsenaarium, kus kaks juriidilist olemit Jõgi Robootika USA (laenav juriidiline olem) ja Jõgi Robootika UK (laenu andev juriidiline olem) jagavad ressursse, et viia ellu projekt kliendi Seiklusmängud jaoks. Selle stsenaariumi korral on Jõgi Robootika USA sõlminud lepingu tegema tööd ettevõtte Seikusmängud heaks.
+Järgmisel pildil on kujutatud tüüpiline stsenaarium, kus kaks juriidilist üksust: Contoso Robotics USA (laenav juriidiline isik) ja Contoso Robotics UK (laenu andev juriidiline isik) jagavad ressursse projekti kohale toimetamiseks kliendile Adventure Works. Selle stsenaariumi puhul sõlmtakse ettevõttele Adventure Works töö tegemiseks leping ettevõttega Contoso Robotics USA.
 
-![Kontsernisisesed arved](./media/IntercompanyScenario.png) 
+![Kontsernisisesed arved.](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations kasutab kontsernisiseste tehingute töötlemiseks järgmist voogu.
 
@@ -36,7 +35,7 @@ Dynamics 365 Project Operations kasutab kontsernisiseste tehingute töötlemisek
 
 Järgmisel joonisel on toodud kontsernisisene arveldamine, kuna see on seotud raamatupidamise sündmustega ja eeldatavate pearaamatu sisestustega.
 
-![Kontsernisisene voog](./media/IntercompanyFlow.png)
+![Kontsernisisene voog.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 

@@ -2,18 +2,16 @@
 title: Turbemudel
 description: Selles teemas antakse teavet rakenduse Dynamics 365 Project Operations turbe mudeli kohta.
 author: stsporen
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3f65d13809fef342be8bec682c11d95c4d9e9b19
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276793"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991481"
 ---
 # <a name="security-model"></a>Turbemudel
 
@@ -58,9 +56,9 @@ Rühmad võimaldavad projekti õigusi ja toetavaid koostöö artefakte üheskoos
 
 Project Operations ei loo rühma kaudse tegevuse kaudu ja teeb seda ainult pakiliste rühmade selgesõnalise tegevuse kaudu.
 
-Rühma liikmete otsing dialoogis **Rühma haldus** on piiratud nendega, kes on määratud keskkonna turberühma osaks. Lisateavet vt jaotisest [Kasutajate keskkondadele juurdepääsu juhtimine: turberühmad ja litsentsid](https://docs.microsoft.com/power-platform/admin/control-user-access).
+Rühma liikmete otsing dialoogis **Rühma haldus** on piiratud nendega, kes on määratud keskkonna turberühma osaks. Lisateavet vt jaotisest [Kasutajate keskkondadele juurdepääsu juhtimine: turberühmad ja litsentsid](/power-platform/admin/control-user-access).
 
-![Rühma režiim](./media/groupsmode.png)
+![Rühmarežiim.](./media/groupsmode.png)
 
 1. Projekti loob ja omab loov kasutaja.
 2. Projekti omanikuks värskendatakse meeskond.
@@ -70,7 +68,7 @@ Rühma liikmete otsing dialoogis **Rühma haldus** on piiratud nendega, kes on m
 ## <a name="deployment-recommendation"></a>Juurutamise soovitus
 Office'i rühma koostöömudeli arenedes lisatakse funktsionaalsus, et aja jooksul saaks pakkuda üksikasjalikumat kontrolli. Klientidel, kes juurutavad Project Operationsi täna, soovitatakse keskenduda traditsioonilisele Microsoft Dynamics 365 turbemudelile.
 
-Lisateavet leiate jaotisest [Common Data Service'i turvalisus](https://docs.microsoft.com/power-platform/admin/wp-security).
+Lisateavet leiate jaotisest [Common Data Service'i turvalisus](/power-platform/admin/wp-security).
 
 ## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operations ja Microsoft Dynamics 365 Finance'i turvalisus
 Project Operations sisaldab järgmisi rolle.
@@ -78,7 +76,7 @@ Project Operations sisaldab järgmisi rolle.
 - Projektijuht
 - Projekti raamatupidaja
 
-Lisateavet lahenduse Finance turbe kohta leiate teemast [Rollipõhine turve](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+Lisateavet lahenduse Finance turbe kohta leiate teemast [Rollipõhine turve](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
 

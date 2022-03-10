@@ -2,19 +2,17 @@
 title: Mis on uut detsembris 2020 – Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
 description: See teema sisaldab teavet ladustatud-/tootmispõhiste stsenaariumite jaoks mõeldud rakenduse Project Operations 2020. aasta detsembri väljalaskes saadaolevate kvaliteedi värskenduste kohta.
 author: Yowelle
-manager: Annbe
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 5aac6b77b0d07a090a071b075711e3dd915e6be4
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
-ms.translationtype: HT
+ms.openlocfilehash: 14c31f27c0d8871063b3c6689a70f32201958002b50ac4c721c4e26c3359b631
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4727948"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008806"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Mis on uut või muutunud Project Operationsi ressursi-/tootmispõhiste stsenaariumite jaoks detsembris 2020
 
@@ -141,4 +139,7 @@ See teema kehtib rakenduse Dynamics 365 Project Operations järgmistele komponen
 
 ## <a name="regulatory-updates"></a>Regulatiivsed uuendused
 
-Lisateavet teenuse Dynamics 365 Finance regulatiivsete uuenduste kohta vaadake teemast [Regulatiivsed uuendused](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Veel üks võimalus regulatiivsete värskenduste kohta teada saada on logida teenusesse Lifecycle Services (LCS) ja vaadata plaanitud regulatiivseid värskendusi, kasutades probleemide otsingu tööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
+Lisateavet teenuse Dynamics 365 Finance regulatiivsete uuenduste kohta vaadake teemast [Regulatiivsed uuendused](/dynamics365/finance/localizations/regulatory-updates). Veel üks võimalus regulatiivsete värskenduste kohta teada saada on logida teenusesse Lifecycle Services (LCS) ja vaadata plaanitud regulatiivseid värskendusi, kasutades probleemide otsingu tööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

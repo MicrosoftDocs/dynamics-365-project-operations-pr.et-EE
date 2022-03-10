@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6992498df5beb97d4e7197e301f093320dc28a23
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
-ms.translationtype: HT
+ms.openlocfilehash: 8cff4c37e1c2df29041ef86cdcf05afa6093f890565a855024202e87fd533ea5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433648"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009211"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>Mis on uut juulis 2021 – Project Operationsi lihtjuurutus
 
@@ -20,7 +20,7 @@ _Kohaldub: lihtjuurutus - tehing proforma arveldusega_
 
 See teema kehtib rakenduse Dynamics 365 Project Operations järgmistele komponentide ja versioonide kohta.
 
-  - Project Operations Dataverse’i keskkonna versioonis 4.12.0.148.
+  - Project Operations Dataverse’i keskkonna versioonis 4.12.0.148 või 4.12.0.152.
 
 ## <a name="quality-updates"></a>Kvaliteedi värskendused
 | **Funktsiooni ala**              | **Viitenumber** | **Kvaliteedi värskendus**                                                                                                                                                                                             |
@@ -59,3 +59,4 @@ See teema kehtib rakenduse Dynamics 365 Project Operations järgmistele komponen
 | Üldist                       | 2296857              | Pikaajaliste tööde edenemise jälgimine.                                                                                                                                                                        |
 | Üldist                       | 2253682              | Project Operationsi topeltkirjutamise lahendust ei peaks installima, kui topeltkirjutamise tuum on installitud keskkonnas, kus puudub topeltkirjutamise korraldamise lahendus.                                                |
 | Üldist                       | 2316420              | Project Service’i tuuma ettevalmistamine nurjub, kui rakenduse kasutaja ettevõtte üksust muudetakse.                                                                                                                     |
+| Üldist                       | 2376405              | Parandati väljaandjapõhine värskendusprobleem (kvaliteedivärskendus on saadaval versioonis 4.12.0.152)                                                                                                                     |

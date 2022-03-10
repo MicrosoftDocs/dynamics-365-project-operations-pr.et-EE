@@ -1,8 +1,6 @@
 ---
 title: Kuidas ma saan projekti etappide äriprotsessi vooge kohandada?
 description: Ülevaade, kuidas projekti etappide äriprotsessi vooge kohandada.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d0168f187e6b0880713aac04bd87dbc2209197d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 15540f524fb8fca8f69a2249f783289ba683cad7dabbf58ecbf620d147e5d491
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148998"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002956"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Kuidas ma saan projekti etappide äriprotsessi vooge kohandada?
 
@@ -62,11 +60,11 @@ Kui täiendamine pole võimalik, saate projekti üksuse äriprotsessi voo projek
 1. Lisage vaikekonfiguratsioonile lisaetappe, säilitades ingliskeelsed nimetused etappidele **Quote** (Pakkumine), **Plan** (Plaan) ja **Close** (Sulgemine).
 
 
-![Kuvatõmmis vaikekonfiguratsioonile etappide lisamisest](media/FAQ-Customize-BPF-1.png)
+![Kuvatõmmis vaikekonfiguratsioonile etappide lisamisest.](media/FAQ-Customize-BPF-1.png)
  
 2. Looge oma äriprotsessi voog ja muutke see projekti üksuse jaoks peamiseks äriprotsessi vooks – see võimaldab teil etappide jaoks soovitud nimesid kasutada. Siiski, kui soovite kasutada samu standardseid projekti etappe **Quote** (Pakkumine), **Plan** (Plaan) ja **Close** (Sulgemine), siis peate tegema kohandusi, mis põhinevad teie kohandatud etappide nimedel. Keerukam loogika on projekti sulgemises, mille saate ikkagi käivitada, kui desaktiveerite projekti kirje.
 
-![BPF-i kohandamine](media/FAQ-Customize-BPF-2.png)
+![BPF-i kohandamine.](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>Muud tähelepanekud rakenduse Project Service versiooni 2.4.4.30 või varasema kohta platvormil 9.0
 
@@ -82,11 +80,11 @@ Enda protsessi voo loomiseks projekti üksuse jaoks tehke järgmist.
 
 1. Valige **Sätted** > **Protsessikeskus**. Ärge kopeerige projekti etappide äriprotsessi voogu, sest sellega koos kopeeritakse ka rakenduse Project Service äriloogika.
 
-  ![Loo protsess](media/FAQ-Customize-BPF-3.png)
+  ![Loo protsess.](media/FAQ-Customize-BPF-3.png)
 
 2. Kasutage funktsiooni Process Designer (Protsessi kujundaja), et luua soovitud etappide nimesid. Kui soovite samu funktsioone nagu vaikeetappidel **Quote** (Pakkumine), **Plan** (Plaan) ja **Close** (Sulgemine), siis peate need looma teie kohandatud äriprotsessi voo etappide nimede põhjal.
 
-   ![Kuvatõmmis funktsiooni Protsessi kujundaja kasutamisest BPF-i kohandamiseks](media/FAQ-Customize-BPF-4.png) 
+   ![Kuvatõmmis funktsiooni Protsessikujundaja kasutamisest BPF-i kohandamiseks.](media/FAQ-Customize-BPF-4.png) 
 
 3. Klõpsake funktsioonis Protsessi kujundaja nuppu **Protsessi voo järjestus**, et muuta kohandatud äriprotsessi voog projekti üksuse peamiseks äriprotsessi vooks, liigutades selleks seda projekti etappide äriprotsessi voo kohale loendi tippu.
 
@@ -97,13 +95,16 @@ Enda protsessi voo loomiseks projekti üksuse jaoks tehke järgmist.
 
 4. Lisage projekti üksusele uus kohandatud väli, et hõivata oma kohandatud äriprotsessi voo kohandatud etapid. Peate lisama äriloogika (lisandmooduli/töövoo), et värskendada seda välja siis, kui kohandatud äriprotsessi voo etappi värskendatakse.
 
-   ![Kuvatõmmis projekti üksuse kohandamisest](media/FAQ-Customize-BPF-6-720.png)
+   ![Kuvatõmmis projekti olemi kohandamisest.](media/FAQ-Customize-BPF-6-720.png)
 
 5. Muutke tabelit **Projektid etappide järgi**, et kasutada oma uut kohandatud välja etappide jaoks.
 
-   ![Kuvatõmmis tabeli Projektid etappide järgi kasutamisest](media/FAQ-Customize-BPF-7-720.png)
+   ![Kuvatõmmis tabeli Projektid etappide järgi kasutamisest.](media/FAQ-Customize-BPF-7-720.png)
 
 6. Muutke projekti üksuse vaateid, et need hõlmaksid teie uut kohandatud välja kõikide etappide jaoks.
 
-   ![Kuvatõmmis projekti üksuse vaadete muutmisest](media/FAQ-Customize-BPF-8-720.png)
+   ![Kuvatõmmis projekti olemi vaadete muutmisest.](media/FAQ-Customize-BPF-8-720.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

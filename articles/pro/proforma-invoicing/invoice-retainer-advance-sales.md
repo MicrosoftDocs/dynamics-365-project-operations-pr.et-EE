@@ -1,25 +1,23 @@
 ---
-title: Honorari või ettemaksu arve – liht
+title: Honorari või ettemaksu arveldamine
 description: Selles teemas antakse teavet selle kohta, kuidas Project Operationsis honorari või ettemaksu arveldada.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180547"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997466"
 ---
-# <a name="invoice-a-retainer-or-an-advance---lite"></a>Honorari või ettemaksu arve – liht
+# <a name="invoice-a-retainer-or-an-advance"></a>Honorari või ettemaksu arve
 
-_**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
+_**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Dynamics 365 Project Operations toetab honoraril põhinevaid lepinguid ja ühekordseid ettemakse. Projekti lepingu korral saate salvestada honoraride või ühekordse ettemakse ajakava. Kuid projekti lepingu tasemel salvestamine ei tee muuda honorari ega ettemaksu kohe kasutamiseks saadaolevaks. Honorari või ettemakse kasutamiseks arvel, mille kliendile tegelikult esitate, tuleb kõigepealt arveldada honorar või ettemakse.
+Dynamics 365 Project Operations toetab honoraril põhinevaid lepinguid ja ühekordseid ettemakseid. Projekti lepingu korral saate salvestada honoraride või ühekordse ettemakse ajakava. Kuid projekti lepingu tasemel salvestamine ei tee muuda honorari ega ettemaksu kohe kasutamiseks saadaolevaks. Honorari või ettemakse kasutamiseks arvel, mille kliendile tegelikult esitate, tuleb kõigepealt arveldada honorar või ettemakse.
 
 Honorari või ettemakse arveldamiseks täitke järgmised juhised.
 
@@ -51,3 +49,6 @@ Seda saab näha lehe **Arve** ruudustikus **Rakendatud honorarid ja ettemaksed**
 | Kasutatud summa | Lehe **Projekti arve** ruudustik **Rakendatud honorarid ja ettemaksed**  | See kirjutuskaitstud väli esitab arvutatud väärtuse, mis võtab kokku, kui palju on honorari või ettemakset kasutatud. | Seda välja saab kliendile kuvada prinditud arvel, et näidata honorari või ettemakse summat, mis on juba kasutatud. |
 | Rea summa | Lehe **Projekti arve** ruudustik **Rakendatud honorarid ja ettemaksed**  | See redigeeritav väli esitab selles projekti arves kasutatud honorari või ettemakse summa. See summa ei saa olla suurem kui summa, mis on saadaval ettemaksena. Süsteem arvutab automaatselt ruudustiku väljade **Summa** ja **Kasutatud summa** vahe. Saate seda summat vähendada, et kasutada väiksemat summat kui on saadaval, kuid te ei saa suurendada summat, et kasutada rohkem kui on saadaval. | Seda välja saab kliendile kuvada prinditud arvel, et näidata honorari või ettemakse summat, mida arvel kasutatakse. |
 | Honorari saldo summa. | Lehe **Projekti arve** ruudustik **Rakendatud honorarid ja ettemaksed**  | See kirjutuskaitstud väli esitab väärtuse, kui palju honorarist või ettemaksest pärast arve kinnitamist alles on. | Seda välja saab kliendile kuvada prinditud arvel, et näidata honorari või ettemakse summat, mis pärast arve kinnitamist ja maksmist alles jääb. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

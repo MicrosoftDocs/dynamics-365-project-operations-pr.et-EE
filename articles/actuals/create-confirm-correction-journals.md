@@ -2,11 +2,9 @@
 title: Paranduste töölehtede loomine ja kinnitamine
 description: Selles teemas antakse teavet, kuidas luua ja kinnitada paranduse töölehte.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8ca35d1e66cbacaf65b7cd43493e3588f213788e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f12cdba286a9e29e2c4eb4041effbe779cba65f3562684d625b21bc3bae809d6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276928"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986711"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Paranduste töölehtede loomine ja kinnitamine
 

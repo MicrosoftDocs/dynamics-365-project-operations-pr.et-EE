@@ -2,18 +2,16 @@
 title: Mis on uut novembris 2020 – Project Operations ladustamise-/tootmispõhiste stsenaariumite jaoks
 description: See teema sisaldab teavet ladustatud-tootmispõhiste stsenaariumite jaoks mõeldud rakenduse Project Operations 2020. aasta novembri väljalaskes saadaolevate kvaliteedi värskenduste kohta.
 author: sigitac
-manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 28b967ddb6bec9fcc1be099e6ab218f38640a14c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 7ffbca7929133e7828d08ad4b4e7bd6b702c15e39726421a35241d23d1123f48
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287998"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003181"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Mis on uut novembris 2020 – Project Operations ladustamise-/tootmispõhiste stsenaariumite jaoks
 
@@ -25,7 +23,7 @@ Teabe saamiseks selles värskenduses sisalduvate paranduste kohta logige sisse t
 
 ## <a name="regulatory-updates"></a>Regulatiivsed uuendused
 
-Lisateavet teenuse Dynamics 365 Finance and Operations rakenduste regulatiivsete uuenduste kohta vaadake teemast [Regulatiivsed uuendused](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Saate ka LCS-i sisse logida ja vaadata kavandatud regulatiivseid värskendusi, kasutades probleemi otsimise tööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
+Lisateavet teenuse Dynamics 365 Finance and Operations rakenduste regulatiivsete uuenduste kohta vaadake teemast [Regulatiivsed uuendused](/dynamics365/finance/localizations/regulatory-updates). Saate ka LCS-i sisse logida ja vaadata kavandatud regulatiivseid värskendusi, kasutades probleemi otsimise tööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
