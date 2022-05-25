@@ -60,8 +60,16 @@
               href: environment/resource-dual-write-vendor-invoice.md
         - name: Rakenduse Dynamics 365 Project Operations desinstallimine
           href: environment/uninstall-project-operations.md
-    - name: Mis on uut?
+    - name: Mis on uut
       items:
+        - name: Mai 2022 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
+          href: whats-new/whats-new-may-2022-resource-based.md
+        - name: Aprill 2022 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
+          href: whats-new/whats-new-apr-2022-resource-based.md
+        - name: Märts 2022 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
+          href: whats-new/whats-new-mar-2022-resource-based.md
+        - name: Veebruar 2022 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
+          href: whats-new/whats-new-feb-2022-resource-based.md
         - name: Detsember 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
           href: whats-new/whats-new-dec-2021-resource-based.md
         - name: November 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
@@ -94,7 +102,7 @@
       items:
         - name: Projektimüügi toimingute ülevaade
           href: sales/sales-overview.md
-        - name: Häälestamine
+        - name: Seadistus
           items:
             - name: Tooted
               href: sales/sales-products.md
@@ -102,6 +110,8 @@
               href: sales/sales-units-unit-groups.md
             - name: Valuuta
               href: sales/sales-currency.md
+            - name: Organisatsiooniüksused
+              href: sales/OrgUnits.md
         - name: Projekti müügivihjete haldamine
           href: sales/manage-leads.md
         - name: Projekti müügivõimaluste haldamine
@@ -288,8 +298,6 @@
               href: project-management/project-cost-tracking.md
             - name: Projektide tööjõutulu jälgimine
               href: project-management/project-sales-tracking.md
-            - name: Kogukuluprognoosi värskendamine
-              href: project-management/update-completed-estimate.md
         - name: Projektimeeskonna liikmed
           items:
             - name: Projektimeeskonna liikmete ülevaade
@@ -308,6 +316,8 @@
               href: project-management/dev-copy-project.md
             - name: Projekti ajakava API-de kasutamine
               href: project-management/schedule-api-preview.md
+            - name: Projekti ajakava API-de kasutamine tarkvaraga Power Automate
+              href: project-management/scheduling-apis-powerautomate.md
             - name: Projekti ajakava API jõudlus
               href: project-management/project-schedule-api-performance.md
             - name: Projekti plaanimise logid
@@ -426,8 +436,8 @@
           href: expense/travel-requisition.md
         - name: Avansimakse
           href: expense/cash-advance.md
-        - name: Päevarahad
-          href: expense/per-diems.md
+        - name: Päevarahade kulud
+          href: expense/per-diem-expenses.md
         - name: Mobiilne kulude rakendus
           href: expense/expense-using-mobile.md
         - name: Finantshaldus
@@ -444,27 +454,39 @@
           href: approvals/approvals-overview.md
         - name: Kinnitamiskomplektid
           href: approvals/approval-sets.md
+        - name: Varem kinnitatud kirjete kinnitamise tühistamine
+          href: approvals/cancelapproval.md
+        - name: Varem kinnitatud kirjete tagasivõtmine
+          href: approvals/recall-cancel.md
         - name: Arendaja märkmed
           items:
-            - name: Kinnituste arendaja märkmed
+            - name: Arendaja märkmed kinnituste kohta
               href: approvals/dev-notes-approvals.md
     - name: Tegelikud näitajad
       items:
+        - name: Äritehingud rakenduses Project Operations
+          href: actuals/businesstransactions.md
         - name: Tegelike näitajate ülevaade
           href: actuals/actuals-overview.md
-        - name: Tegelike näitajate seostamine algsete kirjetega
+        - name: Kannete päritolu – tegelike andmete linkimine lähteandmetega
           href: actuals/linkingactuals.md
-        - name: Korrigeerimiste töölehed
+        - name: Kannete ühendused – erinevate kandetüüpide tegelike andmete linkimine
+          href: actuals/connectingactuals.md
+        - name: Töölehed
           items:
+            - name: Kirjete töölehtede loomine ja kinnitamine
+              href: actuals/create-confirm-entry-journals.md
             - name: Korrigeerimiste töölehtede loomine ja kinnitamine
               href: actuals/create-confirm-correction-journals.md
     - name: Hange
       items:
         - name: Mittelaopõhiste materjalide ja ootel hankija arvete konfigureerimine
           href: procurement/configure-materials-nonstocked.md
-        - name: Mittelaopõhiste materjalide projektide jaoks hankimine ootel hankija arveid kasutades
+        - name: Projektide jaoks hankekategooriate konfigureerimine
+          href: procurement/configure-procurement-categories.md
+        - name: Kaupade ja teenuste projektide jaoks hankimine ootel hankija arveid kasutades
           href: procurement/pending-vendor-invoices.md
-        - name: Projektide jaoks mittelaopõhiste materjalide tellimine projekti ostutellimusi kasutades
+        - name: Projektide jaoks kaupade ja teenuste tellimine projekti ostutellimusi kasutades
           href: procurement/non-stocked-materials-project-purchase-orders.md
         - name: Hankija lojaalsus
           items:
@@ -538,6 +560,18 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Tulukalkulatsioonide haldamine
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Täpsem konfiguratsioon
+      items:
+        - name: Saate üleminekul migreerida täielikult arveldatud arvelduse etapid
+          href: advanced-configuration/migrating-invoiced-milestones.md
+    - name: Versioonitäiendus
+      items:
+        - name: Modernsete kinnituste kaalutlused versioonitäiendusel
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Project Operationsi rakendused
+      items:
+        - name: Rakenduse Project Operations meeskonnaliikme rakendus
+          href: team-member/project-operations-team-member.md
     - name: Tõrkeotsing
       items:
         - name: Projektimüügi toimingud
@@ -562,6 +596,14 @@
       items:
         - name: Mis on uut 2021 2. laine varajases juurdepääsus – lihtjuurutamine
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Mis on uut mais 2022 – lihtjuurutamine
+          href: pro/whats-new/whats-new-may-2022-lite.md
+        - name: Mis on uut aprillis 2022 – lihtjuurutamine
+          href: pro/whats-new/whats-new-apr-2022-lite.md
+        - name: Mis on uut märtsis 2022 – lihtjuurutamine
+          href: pro/whats-new/whats-new-mar-2022-lite.md
+        - name: Mis on uut veebruaris 2022 – lihtjuurutamine
+          href: pro/whats-new/whats-new-feb-2022-lite.md
         - name: Mis on uut detsembris 2021 – lihtjuurutamine
           href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: Mis on uut novembris 2021 – lihtjuurutamine
@@ -594,7 +636,7 @@
       items:
         - name: Projektimüügi toimingute ülevaade
           href: sales/sales-overview.md
-        - name: Häälestamine
+        - name: Seadistus
           items:
             - name: Tooted
               href: sales/sales-products.md
@@ -602,6 +644,8 @@
               href: sales/sales-units-unit-groups.md
             - name: Valuuta
               href: sales/sales-currency.md
+            - name: Organisatsiooniüksused
+              href: sales/OrgUnits.md
         - name: Projekti müügivihjete haldamine
           href: pro/sales/managing-leads-sales.md
         - name: Projekti müügivõimaluste haldamine
@@ -808,8 +852,6 @@
               href: project-management/project-cost-tracking.md
             - name: Projektide tööjõutulu jälgimine
               href: project-management/project-sales-tracking.md
-            - name: Kogukuluprognoosi värskendamine
-              href: project-management/update-completed-estimate.md
         - name: Projektimeeskonna liikmed
           items:
             - name: Projektimeeskonna liikmete ülevaade
@@ -828,6 +870,8 @@
               href: project-management/dev-copy-project.md
             - name: Projekti ajakava API-de kasutamine
               href: project-management/schedule-api-preview.md
+            - name: Projekti ajakava API-de kasutamine tarkvaraga Power Automate
+              href: project-management/scheduling-apis-powerautomate.md
             - name: Projekti ajakava API jõudlus
               href: project-management/project-schedule-api-performance.md
     - name: Ressursihaldus
@@ -886,12 +930,10 @@
           items:
             - name: Ressursikasutuse ülevaade
               href: resource-management/resource-utilization-overview.md
-    - name: Allhankelepingute haldus rakenduses Project Operations
+    - name: Allhankelepingu haldus
       items:
         - name: Allhankelepingute haldus rakenduses Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: Allhankelepingute sõlmimine 2021 a. oktoobri varajases juurdepääsus
-          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Allhankelepingute põhimõisted
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Hankijate ja projekti hinnakirjade haldus
@@ -924,6 +966,28 @@
           href: pro/subcontracting/recording-subcon-actuals.md
         - name: Allhankelepingu oleku üleminekud
           href: pro/subcontracting/subcon-states.md
+    - name: Projekti hankija arved
+      items:
+        - name: Hankija arveldamine – mõiste ja loomine
+          href: pro/subcontracting/vendor-invoice-overview.md
+        - name: Hankija arvete päise üksikasjad
+          href: pro/subcontracting/vendor-invoice-header.md
+        - name: Hankija arveread aja jaoks
+          href: pro/subcontracting/vendor-invoice-line-time.md
+        - name: Hankija arveread toodete jaoks
+          href: pro/subcontracting/vi-line-material.md
+        - name: Hankija arveread vahe-eesmärkide jaoks
+          href: pro/subcontracting/vi-line-milestone.md
+        - name: Hankija arveread kulukategooriate jaoks
+          href: pro/subcontracting/vi-line-expense.md
+        - name: Kinnitatud tegelike andmetega hankija arvete kinnitamine
+          href: pro/subcontracting/VI-Verification.md
+        - name: Projekti hankija arve tühistamine
+          href: pro/subcontracting/cancel-vi.md
+        - name: Projekti hankija arve kinnitamine
+          href: pro/subcontracting/confirm-vi.md
+        - name: Hankija arve oleku üleminekud
+          href: pro/subcontracting/vi-state-model.md
     - name: Aeg
       items:
         - name: Aja ülevaade
@@ -952,18 +1016,28 @@
           href: approvals/approvals-overview.md
         - name: Kinnitamiskomplektid
           href: approvals/approval-sets.md
+        - name: Varem kinnitatud kirjete kinnitamise tühistamine
+          href: approvals/cancelapproval.md
+        - name: Varem kinnitatud kirjete tagasivõtmine
+          href: approvals/recall-cancel.md
         - name: Arendaja märkmed
           items:
-            - name: Kinnituste arendaja märkmed
+            - name: Arendaja märkmed kinnituste kohta
               href: approvals/dev-notes-approvals.md
     - name: Tegelikud näitajad
       items:
+        - name: Äritehingud rakenduses Project Operations
+          href: actuals/businesstransactions.md
         - name: Tegelike näitajate ülevaade
           href: actuals/actuals-overview.md
-        - name: Tegelike näitajate seostamine algsete kirjetega
+        - name: Kannete päritolu – tegelike andmete linkimine lähteandmetega
           href: actuals/linkingactuals.md
-        - name: Korrigeerimiste töölehed
+        - name: Kannete ühendused – erinevate kandetüüpide tegelike andmete linkimine
+          href: actuals/connectingactuals.md
+        - name: Töölehed
           items:
+            - name: Kirjete töölehtede loomine ja kinnitamine
+              href: actuals/create-confirm-entry-journals.md
             - name: Korrigeerimiste töölehtede loomine ja kinnitamine
               href: actuals/create-confirm-correction-journals.md
     - name: Näidisarveldamine
@@ -984,6 +1058,14 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Projektiarve automatiseerimise konfigureerimine
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
+    - name: Versioonitäiendus
+      items:
+        - name: Modernsete kinnituste kaalutlused versioonitäiendusel
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Project Operationsi rakendused
+      items:
+        - name: Rakenduse Project Operations meeskonnaliikme rakendus
+          href: team-member/project-operations-team-member.md
 - name: Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
   items:
     - name: Mis on uut?
@@ -1010,43 +1092,39 @@
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: Projekti haldamise ja raamatupidamise ülevaade
       href: prod-pma/overview-project-management-accounting.md
-    - name: Kontsernisisesed arved
-      href: prod-pma/intercompany-invoicing.md
-    - name: Kontsernisisese projekti arveldamise konfigureerimine
-      href: prod-pma/tasks/configure-intercompany-project-invoicing.md
-    - name: Tööjõukulude ja väljaminekute standardsete kulude konfigureerimine
-      href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
-    - name: Hankija maksete kinnipidamistingimuste loomine ja rakendamine
-      href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
-    - name: Maksmise ajal maksmise hankijale maksete seadistamine ja kasutamine
-      href: prod-pma/setup-manage-vendor-payments.md
-    - name: Ostutšekkide projektikulu laekumine
-      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
-    - name: Projekti arveldamine
-      href: /dynamics365/finance/accounts-payable/project-invoicing
-    - name: Projektiarve ettepaneku tulemus
-      href: prod-pma/project-invoice-proposal-performance.md
-    - name: Projektilepingud
-      href: prod-pma/project-contracts.md
-    - name: Ettemaksul põhinevate lepingute loomine edenemise põhjal arveldamiseks
-      href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
-    - name: Projekti prognoosid ja eelarved
-      href: prod-pma/project-forecasts-budgets.md
-    - name: Projekti eelarvete jaoks eelarvemudeli loomine
-      href: prod-pma/create-forecast-models-project-budgets.md
-    - name: Projekti eelarvete edastamine finantsaastalõpus
-      href: prod-pma/process-project-budgets-for-fiscal-year-end.md
-    - name: Projekti müügitellimused
-      href: prod-pma/project-sales-orders.md
-    - name: Projekti ostutellimused
-      href: prod-pma/project-purchase-orders.md
-    - name: Projekti hinnapakkumised
-      href: prod-pma/project-quotations.md
-    - name: 'Projekti hinnapakkumise kinnitamine, värskendamine ja saatmine'
-      href: prod-pma/confirm-update-send-project-quotation.md
-    - name: Hinnapakkumise ülekandmine projekti
-      href: prod-pma/transfer-quote-new-existing-project.md
-    - name: Projekti ressursid
+    - name: Projektimüügi toimingud
+      items:
+        - name: Projekti hinnapakkumised
+          href: prod-pma/project-quotations.md
+        - name: 'Projekti hinnapakkumise kinnitamine, värskendamine ja saatmine'
+          href: prod-pma/confirm-update-send-project-quotation.md
+        - name: Hinnapakkumise ülekandmine projekti
+          href: prod-pma/transfer-quote-new-existing-project.md
+        - name: Projektilepingud
+          href: prod-pma/project-contracts.md
+        - name: Projekti õigused
+          href: prod-pma/project-grants.md
+    - name: Hinnakujundus ja kuluarvutus
+      items:
+        - name: Tööjõukulude ja väljaminekute standardsete kulude konfigureerimine
+          href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
+    - name: Projektijuhtimine
+      items:
+        - name: Tööjaotuse struktuuride ülevaade
+          href: prod-pma/work-breakdown-structures.md
+        - name: Microsoft Project Clienti integreerimine
+          href: prod-pma/project-integration.md
+        - name: Teenusekomplekti Project mobiilirakenduste ülevaade
+          href: prod-pma/project-mobile-application-overview.md
+        - name: Projekti ajasisestuse mobiilne tööruum
+          href: prod-pma/project-time-entry-mobile-workspace.md
+        - name: Projekti ajatabeli mobiilirakendus
+          href: prod-pma/project-timesheet.md
+        - name: Projekti ajatabelid mobiilseadmes
+          href: prod-pma/mobile-timesheets.md
+        - name: Kohandatud väljade kasutamine mobiilirakenduses Project Timesheet
+          href: prod-pma/custom-fields-mobile.md
+    - name: Ressursihaldus
       items:
         - name: Projekti ressursside ülevaade
           href: prod-pma/project-resourcing.md
@@ -1066,30 +1144,108 @@
           href: prod-pma/project-scheduling-performance.md
         - name: Tööjaotuse struktuuri mallide rollide seadistamine
           href: prod-pma/set-up-roles-wbs-template.md
-        - name: Ressursside täitmine planeeritud ressursside jaoks
+        - name: Ressursside täitmine plaanitud ressursside jaoks
           href: prod-pma/resource-fulfillment-planned-resources.md
-    - name: Ostutellimuses üksuste vastuvõtmine üksuse nõudest
-      href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
-    - name: Tööjaotuse struktuurid
+    - name: Projekti eelarved ja prognoosid
       items:
-        - name: Tööjaotuse struktuuride ülevaade
-          href: prod-pma/work-breakdown-structures.md
-        - name: Microsoft Project Clienti integreerimine
-          href: prod-pma/project-integration.md
-        - name: Teenusekomplekti Project mobiilirakenduste ülevaade
-          href: prod-pma/project-mobile-application-overview.md
-        - name: Projekti ajasisestuse mobiilne tööruum
-          href: prod-pma/project-time-entry-mobile-workspace.md
-        - name: Projekti ajatabeli mobiilirakendus
-          href: prod-pma/project-timesheet.md
-        - name: Projekti ajatabelid mobiilseadmes
-          href: prod-pma/mobile-timesheets.md
-        - name: Kohandatud väljade rakendamine projekti ajatabeli mobiilidrakenduses
-          href: prod-pma/custom-fields-mobile.md
-    - name: Projekti õigused
-      href: prod-pma/project-grants.md
-    - name: Projekti hinnangu likvideerimine
-      href: prod-pma/eliminate-project-estimate.md
+        - name: Projekti prognoosid ja eelarved
+          href: prod-pma/project-forecasts-budgets.md
+        - name: Projekti eelarvete jaoks eelarvemudeli loomine
+          href: prod-pma/create-forecast-models-project-budgets.md
+        - name: Projekti eelarvete edastamine finantsaasta lõpus
+          href: prod-pma/process-project-budgets-for-fiscal-year-end.md
+    - name: Aeg
+      items:
+        - name: Finantsdimensioonide vaikeväärtused projekti ajakirjete jaoks
+          href: prod-pma/time-entry-dimension-defaults.md
+    - name: Kulu
+      items:
+        - name: Kulude ülevaade
+          href: expense/expense-overview.md
+        - name: Uue kulu keskkond
+          items:
+            - name: Ümberkujundatud kuluaruanded
+              href: expense/expense-reports-reimagined.md
+            - name: Kviitungi jäädvustamine OCR-i kasutades
+              href: expense/match-receipt-expense-ocr.md
+        - name: Konfigureerimine ja häälestamine
+          items:
+            - name: Poliitikate seadistamine
+              href: expense/set-up-policies.md
+            - name: Töövoogude seadistamine
+              href: expense/set-up-workflows.md
+            - name: Delegeerimise haldamine
+              href: expense/manage-delegation.md
+            - name: Kuluhalduse parameetrite konfigureerimine
+              href: expense/configure-expense-management-parameters.md
+            - name: Krediitkaardi integratsiooni seadistamine
+              href: expense/set-up-credit-card-integration.md
+            - name: Kulukategooriate seadistamine
+              href: expense/set-up-expense-categories.md
+            - name: Läbisõidu seadistamine läbisõidu määra astmeid kasutades
+              href: expense/set-up-mileage.md
+        - name: Kulude üksikasjalik loetelu
+          href: prod-exp/expense-itemization.md
+        - name: Isiklikud kulud
+          href: expense/personal-expenses-expense-report.md
+        - name: Kontsernisisesed kulud
+          href: prod-exp/intercompany-expense.md
+        - name: Kuluaruannete loomine
+          items:
+            - name: Kuluaruande jaotused
+              href: expense/distributions-expense-report.md
+        - name: Kuluaruannete kinnitamine
+          items:
+            - name: Kuluaruanded ja mitu kinnitajat
+              href: expense/expense-reports-multiple-approvers.md
+        - name: Kuluaruannete postitamine
+          href: expense/posting-expense-reports.md
+        - name: Reisitellimus
+          href: expense/travel-requisition.md
+        - name: Avansimakse
+          href: expense/cash-advance.md
+        - name: Päevarahade kulud
+          href: expense/per-diem-expenses.md
+        - name: Mobiilne kulude rakendus
+          href: expense/expense-using-mobile.md
+        - name: Finantshaldus
+          items:
+            - name: Käibemaksu sissenõudmine
+              href: expense/vat-recovery.md
+    - name: Hange
+      items:
+        - name: Projekti ostutellimused
+          href: prod-pma/project-purchase-orders.md
+        - name: Ostutšekkide projektikulu laekumine
+          href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
+        - name: Ostutellimuses üksuste vastuvõtmine üksuse nõudest
+          href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
+        - name: Maksmise ajal maksmise hankijale maksete seadistamine ja kasutamine
+          href: prod-pma/setup-manage-vendor-payments.md
+        - name: Hankija maksete kinnipidamistingimuste loomine ja rakendamine
+          href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
+    - name: Projekti arveldamine
+      items:
+        - name: Projekti arveldamine
+          href: /dynamics365/finance/accounts-payable/project-invoicing
+        - name: Projektiarve ettepaneku tulemus
+          href: prod-pma/project-invoice-proposal-performance.md
+        - name: Ettemaksul põhinevate lepingute loomine edenemise põhjal arveldamiseks
+          href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
+        - name: Projekti müügitellimused
+          href: prod-pma/project-sales-orders.md
+        - name: Üksuse nõuded mitme rahastamise allikaga projektilepingutele
+          href: prod-pma/multiple-funding-sources-item-req.md
+    - name: Kontsernisisesed arved
+      items:
+        - name: Kontsernisisesed arved
+          href: prod-pma/intercompany-invoicing.md
+        - name: Kontsernisisese projekti arveldamise konfigureerimine
+          href: prod-pma/tasks/configure-intercompany-project-invoicing.md
+    - name: Tulu kajastamine
+      items:
+        - name: Projekti hinnangu likvideerimine
+          href: prod-pma/eliminate-project-estimate.md
 - name: Kuluhaldus
   items:
     - name: Kuluhalduse ülevaade
@@ -1148,6 +1304,16 @@
       items:
         - name: Värskenduste väljalaske ajakava Project Service 3.x jaoks
           href: psa/version-history-ps.md
+        - name: 'Mis on uut või muutunud värskenduses 43, V3?'
+          href: psa/whats-new-ur43.md
+        - name: 'Mis on uut või muutunud värskenduses 42, V3?'
+          href: psa/whats-new-ur-42.md
+        - name: 'Mis on uut või muutunud värskenduses 41, V3?'
+          href: psa/whats-new-ur-41.md
+        - name: 'Mis on uut või muutunud värskenduses 40, V3?'
+          href: psa/whats-new-ur-40.md
+        - name: 'Mis on uut või muutunud värskenduses 39, V3?'
+          href: psa/whats-new-ur-39.md
         - name: 'Mis on uut või muutunud värskenduses 38, V3?'
           href: psa/whats-new-ur-38.md
         - name: 'Mis on uut või muutunud värskenduses 37.5, V3?'
@@ -1238,6 +1404,8 @@
           href: psa/implementation-guides/reporting-guide.md
     - name: Üleminek rakenduselt Project Service Automation rakendusele Project Operations – lihtjuurutus
       href: psa/upgrade-project-operations-non-stocked.md
+    - name: Funktsioonide muudatused rakenduselt Project Service Automation rakendusele Project Operations üleminekul
+      href: psa/psa-project-operations-changes.md
     - name: Rakenduse Project Service Automation värskendus (rakenduse versioon 3.x)
       items:
         - name: Rakenduse Project Service Automation värskendus
