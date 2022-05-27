@@ -6,7 +6,7 @@ ms.custom:
 - dyn365-projectservice
 - intro-internal
 ms.date: 9/23/2019
-ms.topic: article
+ms.topic: overview
 ms.author: ruhercul
 audience: Admin
 search.audienceType:
@@ -17,12 +17,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 4479f8b1d7cce5d3008ffa285c66da2669532576
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000256"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580175"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Mis on Dynamics 365 Project Service Automation?
 
@@ -42,14 +43,6 @@ Rakendus Project Service Automation (PSA) võimaldab organisatsioonidel tõhusal
 - … ja veel muudki.
 
 Peale selle, et saate jälgida ja juhtida projektipõhise töö kulusid, saavad üksikkonsultandid projektile kulunud aega ja kulusid mobiili või veebibrauseri kaudu hõlpsalt sisestada ja jälgida.
-
-## <a name="whats-new-in-psa"></a>Mida on uut rakenduses PSA?
-Meeskonnal on hea meel teatada meie uusimatest värskendustest! Alates täiustustest kuni kasutajaliideseni, vigade parandamiseni ja oluliste uute funktsioonide ja võimaluste lisamiseni. Teie küsisite, meie kuulasime.
-
-Uusimatest täiustustest ja lisadest ülevaate saamiseks vaadake jaotist [Väljalaskemärkmed, oktoober 2019](/dynamics365-release-plan/2019wave2/index).
-
-### <a name="in-development"></a>Arendamisel
-Selleks et näha, mida oleme kavandanud lähitulevikku, avage jaotis [Dynamics 365: 2020 väljalaskevoog, plaan 1](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Rakenduse PSA versiooni 3.x spikker
 Kas otsite ressursse, mis aitaksid juurutust plaanida? Vaadake neid allalaaditavaid juhiseid.
@@ -80,10 +73,6 @@ Kas otsite ressursse, mis aitaksid juurutust plaanida? Vaadake neid allalaaditav
  [Tehnilised ülevaated (rakenduse versioon 2.x või 1.x)](../psa/white-papers.md)
 
  [Märkused arendajatele (rakenduse versioon 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
-
- ## <a name="watch-a-2-minute-overview-video"></a>Vaadake 2 minuti pikkust ülevaatlikku videot
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
-
 
 
 

@@ -4,14 +4,14 @@ description: Selles teemas antakse teavet projektide fikseeritud hinnaga prognoo
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 451f0403f0111b5ea4de6c91b54eae157830e413d3a21f23bd841a66905e147b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 290608e5663f9c953212c156771bbf1ad6b1e901
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006421"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578703"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Fikseeritud hinnaga tulukalkulatsiooniga projektid 
 
@@ -26,7 +26,7 @@ Kui te loote rakenduses Dynamics 365 Project Operations teenuses Microsoft Datav
 ## <a name="review-fixed-price-revenue-estimates-projects"></a>Fikseeritud hinnaga tulukalkulatsioonidega projektide läbivaatamine
 Fikseeritud hinnaga tulukalkulatsioonidega projektide läbivaatamiseks tehke järgmist.
 
-1. Avage rakenduse Dynamics 365 Finance keskkonnas suvand **Projektihaldus ja raamatupidamine** > **Projektid** > **Fikseeritud hinnaga tulukalkulatsiooniga projektid**.
+1. Minge Dynamics 365 Finance keskkonnas projektide haldamise ja raamatupidamise **projektide** > **juurde** > **Fikseeritud hinnaga tulude hinnangu projektid**.
 2. Valige projekt, mida soovite vaadata, ja topeltklõpsake suvandit **Hinnangu projekti ID**, et avada kirje ja vaadata läbi projekti üksikasjad.
 3. Laiendage vahekaarti **Projekt**. Näete ruudustikus **Valitud projektid** ühte projekti. Süsteem kasutab seda vaikimisi projektina, kuna see on projekti lepingureaga seostatud projekt. 
 4. Seose muutmiseks valige täiendavad projektid ja lisage need ruudustikku **Valitud projektid**. Kui selles ruudustikus on valitud mitu projekti, siis projekti lõpuleviimise protsent ja tulukalkulatsioonid arvutatakse kõikide valitud projektide jaoks koos.

@@ -1,25 +1,25 @@
 ---
 title: Project Operationsi värskendamine Finance'i keskkonnas
-description: See teema sisaldab teavet selle kohta, kuidas värskendada Project Operationsi Dynamics 365 Finance'i keskkonnas.
+description: Selles teemas antakse teavet selle kohta, kuidas värskendada Project Operationsi Dynamics 365 Finance keskkonnas.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986756"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579924"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Project Operationsi värskendamine Finance'i keskkonnas
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
 
-See teema sisaldab teavet selle kohta, kuidas värskendada rakendust Dynamics 365 Project Operations Dynamics 365 Finance'i keskkonnas. Project Operationsi uuendamiseks värskendusele 5 (UR5) on vaja kolme toimingut.
+See teema annab teavet selle kohta, kuidas värskendada Dynamics 365 Project Operations oma Dynamics 365 Finance keskkonnas. Project Operationsi uuendamiseks värskendusele 5 (UR5) on vaja kolme toimingut.
 
 - [Paketi importimine eelvaate projekti](#import)
 - [Värskenduse rakendamine](#apply)
@@ -119,7 +119,7 @@ UR5-le värskendamise osana on nõutavad järgmised olemite turbeõiguste värsk
 4. Rakendage lehel **Tabelivastenduse versioon** vastenduse uus versioon kõigile kolmele olemile.
 5. Valige vastenduste taaskäivitamiseks lehel **Topeltkijutamine** käsk Käivita.
 6. Valige vastenduste loendist vastendus **Pearaamat (msdyn_ledgers)** koos kõige eeltingimustega ja valige märkeruut **Algne sünkroonimine**. 
-7. Valige väljal **Alge sünkroonimise ülem** **rakendustekomplekt Finance and Operations** ja seejärel valige **Käivita**.
+7. Valige väljal **Koond** algse sünkroonimise **jaoks rakendused** Finance and Operations (Finance and Operations) ja seejärel valige **Käivita**.
  
  ![Pearaamatu vastenduse sünkroonimine.](media/DW6.png)
  

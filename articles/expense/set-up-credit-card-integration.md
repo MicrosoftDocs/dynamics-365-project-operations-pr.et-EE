@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 49c8f2369a8be41fbc04c74bdb6b565b4f4b7b79
-ms.sourcegitcommit: 9f26cf8bb640af1eb9f7f0872805965d7ffcb9d3
+ms.openlocfilehash: 2c9d993f1999b0be24794bbe828afa8eb74744e9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "7826251"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8577048"
 ---
 # <a name="set-up-credit-card-integration"></a>Krediitkaardi integratsiooni seadistamine
 
@@ -30,7 +30,7 @@ Kuluga seotud krediitkaarditehinguid saab seadistada nii, et need imporditakse a
 
 Krediitkaarditehingute importimiseks toimige järgmiselt.
 
-1. Valige lehel **Krediitkaarditehingud** suvand **impordi tehingud**. Kui avate andmehaldust esimest korda, peab süsteem enne jätkamist värskendama andmeolemite loendit.
+1. Valige lehel **Krediitkaarditehingud** suvand **impordi tehingud**. Kui avate andmehalduse esimest korda, peab süsteem enne jätkamist andmeolemite loendit värskendama.
 2. Sisestage väljale **Nimi** imporditöö kordumatu kirjeldus.
 3. Valige väljal **Allika andmete vorming** imporditavaid krediitkaarditehinguid sisaldava faili vorming.
 4. Valige **Laadi üles** ja seejärel otsige ja valige imporditav fail.
@@ -50,18 +50,18 @@ Valige üks või mitu krediitkaarditehingut ja seejärel valige **Kannete ümber
 
 ## <a name="delete-credit-card-transactions"></a>Krediitkaarditehingute kustutamine 
 
-Mõnikord võib pärast krediitkaarditehingute importimist olla vaja teatud tehingud kustutada. Selle põhjuseks võib olla asjaolu, et kanded on duplikaadid või kuna andmed pole täpsed. Administraatorid saavad kasutada funktsiooni **Kustuta krediitkaartide tehingud**, et valida ja kustutada krediidikaarditehingud, mis pole kuluaruandele **lisatud**. 
+Mõnikord võib pärast krediitkaarditehingute importimist olla vaja teatud tehingud kustutada. Selle põhjuseks võib olla asjaolu, et tehingud on duplikaadid või kuna andmed pole täpsed. Administraatorid saavad kasutada funktsiooni **Kustuta krediitkaartide tehingud**, et valida ja kustutada krediidikaarditehingud, mis pole kuluaruandele **lisatud**. 
 
 1. Avage **Perioodilised ülesanded** > **Krediitkaarditehingute kustutamine**.
 2. Valige **Filter** ja sisestage kaasatavate kirjete tuvastamiseks teave.
 3. Kirjete kustutamiseks valige **OK**. 
 
-## <a name="storing-credit-card-numbers"></a>Krediitkaardinumbrite salvestamine
+## <a name="storing-credit-card-numbers"></a>Krediitkaardinumbrite talletamine
 
-Krediitkaardinumbrite hoidmiseks on saadaval kolm võimalust. Krediitkaardi numbrid salvestatakse **kuluhalduse parameetrite** lehele.
+Krediitkaardinumbrite salvestamiseks on saadaval kolm võimalust. Krediitkaardi numbrid salvestatakse **lehele Kuluhalduse parameetrid**.
 
-- **Takista kaardi numbri sisestamist** – krediitkaardinumbreid ei salvestata.
-- **Räsikaardi numbrid (pood viimased neli numbrit)** – krediitkaardinumbrite viimased neli numbrit salvestatakse krüpteeritud vormingus.
-- **Poekaardi numbrid** – krediitkaardi numbrid salvestatakse krüpteerimata vormingus. See suvand ei vasta maksekaarditööstuse (PCI) andmeturbe standardile (DSS). Seetõttu peaksid organisatsiooni administraatorid pci DSS-i eeskirjadega vastavusse hoidmiseks valima, kas mitte salvestada krediitkaardinumbreid või salvestada räsikaardi numbreid.
+- **Kaardi numbri sisestamise vältimine** – krediitkaardinumbreid ei salvestata.
+- **Räsikaardi numbrid (salvestage viimased neli numbrit)** – krediitkaardinumbrite viimased neli numbrit salvestatakse krüpteeritud vormingus.
+- **Poekaardi numbrid** – krediitkaardinumbrid salvestatakse krüpteerimata vormingus. See suvand ei vasta maksekaarditööstuse (PCI) andmeturbe standardile (DSS). Seetõttu peaksid organisatsiooni administraatorid pci DSS-i eeskirjadele vastavuses hoidmiseks valima, kas mitte salvestada krediitkaardinumbreid või salvestada räsikaardi numbreid.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

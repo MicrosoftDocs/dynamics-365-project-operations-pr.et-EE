@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 085b7e4d9274f8c8d94d7a84109cfa782acf3dbb9241bfd25ecb8c2f329e1bb8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5c57b2596e1d480ff59591618f073ceb8f70a289
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986846"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574089"
 ---
 # <a name="products"></a>Tooted
 
@@ -30,7 +30,7 @@ Tooted on teie ettevõtte selgroog. Tootekataloog rakenduses Dynamics 365 Sales 
 
 ## <a name="add-a-product"></a>Toote lisamine
 
-1.  Veenduge, et teil oleks Sales Manager Professional või süsteemiadministraatori roll, et saaksite Dynamics 365 Sales Professional tooteid lisada.
+1.  Veenduge, et teil on Sales Manager Professional või süsteemiadministraatori roll, et saaksite rakenduses Dynamics 365 Sales Professional tooteid lisada.
 2.  Valige saidikaardil jaotises **Seadistus** valik **Tooted**.
 3.  Valige **Lisa toode** ja täitke järgmised andmed.
 

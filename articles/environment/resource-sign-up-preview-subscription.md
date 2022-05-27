@@ -4,20 +4,20 @@ description: Selles teemas antakse teavet Project Operationsi tellimise ja juuru
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323411"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575805"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Project Operationsi registreerumine eelvaate kordustellimusele ressursside/mitte laosolevate stsenaariumite jaoks
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Selles teemas kirjeldatakse, kuidas tellida prooviversiooni ja juurutada Project Operationsi keskkonda ressursipõhistes/mittelaopõhistes stsenaariumides.
 
@@ -40,7 +40,7 @@ Enne alustamist veenduge, et oleksite brauseris sisse logitud kasutaja töökont
 
   Näete, et kinnituse pakkumine on edukalt lunastatud.
 
-### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance'i eelversiooni prooviversioon
+### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance eelvaate prooviversioon
 
 Minge jaotisse [Dynamics 365 for Finance eelversiooni prooviversioon](https://aka.ms/trypoche) ja korrake pakkumisega eelmise jaotise juhiseid, registreeruge pilvmajutusega keskkondade jaoks.  
 
@@ -49,7 +49,7 @@ Minge jaotisse [Dynamics 365 for Finance eelversiooni prooviversioon](https://ak
 > [!IMPORTANT]
 > Järgmiste toimingute lõpuleviimiseks on teil vaja oma organisatsiooni Microsoft 365 portaali administraatori juurdepääsu.
 
-1. Oma kasutajatele litsentside määramiseks avage [Microsofti 365 halduskeskus](https://portal.office.com/).
+1. Kasutajatele litsentside määramiseks minge [Microsoft 365 halduskeskusesse](https://portal.office.com/).
 
 2. Valige lehel **Aktiivsed kasutajad** need kasutajad, kellele soovite litsentsi määrata.
 

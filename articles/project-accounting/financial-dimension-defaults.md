@@ -4,22 +4,22 @@ description: Selles teemas antakse teavet, kuidas häälestada finantsdimensioon
 author: sigitac
 ms.date: 12/14/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
-ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
-ms.translationtype: HT
+ms.openlocfilehash: 9f43fed57a1411a55dcd7929f34e87aed136a6b5
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "7922933"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579485"
 ---
 # <a name="financial-dimension-defaults"></a>Finantsdimensiooni vaikeväärtused
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Project Operations kasutab [finantsdimensioonide](/dynamics365/finance/general-ledger/financial-dimensions) raamistikku rakenduses Dynamics 365 Finance, et pakkuda projekti alammooduli ja üldiste pearaamatu tehingute kohta täiendavad ülevaateid.
+
+Dynamics 365 Project Operations [kasutab Dynamics 365 Finance finantsdimensioonide](/dynamics365/finance/general-ledger/financial-dimensions) raamistikku, et anda täiendavaid ülevaateid projekti alammoodulite ja pearaamatukannete kohta.
 
 Vaikimisi finantsdimensioonid saab määrata kliendile, projekti finantseerimisallikale, vahe-eesmärgile, projekti leingureale või projektile.
 
@@ -60,15 +60,5 @@ Projekte luuakse ja hallatakse CDS-is. Projektide raamatupidamise atribuudid mä
 4. Määrake finantsdimensiooni vaikeväärtused. Pange tähele, et finantsdimensioonide vaikeväärtused pärinevad kliendi kontolt. Kui projekt on seostatud mitme projektilepingu kliendiga lepingureaga, kasutatakse vaikimisi finatsdimensioonideks peamist klienti.
 
 Projekti vaikimisi finantsdimensioone kasutatakse suvandis **Project Operationsi integreerimise tööleht** ja seotud projekti arvete ridade jaoks aja, kulu ja tasu kannete jaoks tööleherea vaikeväärtuste määramiseks.
-
-## <a name="apply-financial-dimensions-for-project-time-entries"></a>Projekti ajakannete finantsdimensioonide sidumine
-Projekti ajakannete finantsdimensioonide sidumiseks arvestage, et dimensiooni vaikeväärtus põhineb järgmisel tellimusel.
-
-1. Ressurss
-2. Project
-3. Rahastamise allikas
-
-Näiteks kui ressursil on määratud vaikedimensioon, rakendatakse see projektis määratud vaikediuvisiooni peale. Samamoodi rakendatakse rahastamisallikas määratud vaikedimensioonile projekti vaikedimensiooni.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,16 @@
 title: Materjalide oma- ja müügihindade seadistamine
 description: Selles teemas antakse teavet, kuidas seadistada projektides kasutatavate materjalide kulu- ja müügihindu.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 03/21/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c80317ac56c4e1ed465273ea6d0a7c65f1f5830c349a9b8d5b6f7f8d92424c7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 1b1b679f15662d922804deefb6372adcdf4d4839
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999176"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576863"
 ---
 # <a name="set-up-cost-and-sales-rates-for-materials"></a>Materjalide oma- ja müügihindade seadistamine
 
@@ -25,6 +25,9 @@ Toodete kulu- ja müügihindade häälestamiseks tehke järgmist.
 2. Valige suvandis **Hinnakirjaüksused** alamruudustiku menüüs valik **Uus hinnakirjaüksus**. 
 3. Sisestage lehel **Kiirloomine** toode ja ühik, mille jaoks uue hinna loote.
 
-Lisateabe saamiseks selle kohta, kuidas kataloogiüksuste jaoks hindu määratleda, vaadake teemasid [Toodete hinnakujundus](/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md) ja [Valuuta ja hinna täpsuse kümnendkohtade arv](/dynamics365/sales-enterprise/decimal-precision-currency-pricing.md).
+Kataloogiüksuste hindade määratlemise kohta leiate lisateavet teemast [Toote hinnakujunduse määratlemine hinnakirjade ja hinnakirja kaupadega](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) ning [kümnendtäpsus valuutas ja hinnakujunduses](/dynamics365/sales/decimal-precision-currency-pricing).
+> [!NOTE]
+> Dynamics 365 Project Operations ei toeta kõiki toodete hinnakujundusmeetodeid nagu Dynamics 365 Sales. Ainus hinnameetod, mida projektides kasutatavate toodete puhul toetatakse, on *valuuta summa*.
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

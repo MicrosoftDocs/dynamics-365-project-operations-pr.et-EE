@@ -4,14 +4,14 @@ description: Selles teemas antakse teavet, kuidas rakendust Dynamics 365 Project
 author: stsporen
 ms.date: 11/09/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b87c9324b1c95c10ef1e18b0fbf4572bdbe76827
-ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
+ms.openlocfilehash: e2600c770477ad32cebb66f33a8ca31502a6da3d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783638"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575851"
 ---
 # <a name="uninstall-dynamics-365-project-operations"></a>Rakenduse Dynamics 365 Project Operations desinstallimine 
 
@@ -35,8 +35,8 @@ Rakenduse Dynamics 365 Project Operations desinstallimiseks peab teile olema mä
     | 6 | ProjectServiceCore_Patch                           | Lisamärkused puuduvad.                                                                         |
     | 7 | ProjectServiceCore                                 | Lisamärkused puuduvad.                                                                         |
     | 8 | ProjectServiceDeprecatedComponents                 | Kui seda ei leitud, jätke see lahendus vahele.                                                            |
-    | 9 | FieldServiceCommon                                 | Nõutav topeltkirjutuse jaoks rakendusega Dynamics 365 Finance või Dynamics 365 Supply Chain Management.   |
-    | 10 | msdyn_AssetCommon                                  | Nõutav topeltkirjutuse jaoks rakendusega Dynamics 365 Finance või Dynamics 365 Supply Chain Management.   |
+    | 9 | FieldServiceCommon                                 | Vajalik topeltkirjutamiseks Dynamics 365 Finance või Dynamics 365 Supply Chain Management.   |
+    | 10 | msdyn_AssetCommon                                  | Vajalik topeltkirjutamiseks Dynamics 365 Finance või Dynamics 365 Supply Chain Management.   |
     | 11 | msdyn_TESA_Anchor                                  | Nõutav rakenduse Dynamics 365 Field Service puhul.                                                     |
     | 12 | msdyn_TESA_Patch                                   | Nõutav rakenduse Dynamics 365 Field Service puhul.                                                     |
     | 13 | msdyn_TESA                                         | Nõutav rakenduse Dynamics 365 Field Service puhul.                                                     |
