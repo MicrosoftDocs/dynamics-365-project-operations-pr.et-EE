@@ -5,14 +5,14 @@ author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: e20ea17691c592493a790fb38451b35db03416be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995621"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600047"
 ---
 # <a name="proforma-invoices"></a>Näidisarved
 
@@ -82,6 +82,9 @@ Projekti arve mustandi loomisel pannakse arvele kõik arveldamata müügitehingu
 - Saate redigeerida ja kohandada koguse ja arve tüüpi.
 
 Arve kinnitamiseks valige **Kinnita**. Kinnitamine on ühesuunaline toiming. Suvandi **Kinnita** valimisel teeb süsteem arve kirjutuskaitstuks ja loob iga arverea kohta iga arverea üksikasjadelt arvestatud müügi tegelikud näitajad. Kui arverea üksikasjad viitavad arveldamata müügi tegelikule näitajale, tühistab süsteem ka arveldamata müügi tegeliku näitaja. (Mis tahes aja- või kulukirje põhjal loodud arve rea üksikasjad viitavad arveldamata müügi tegelikule.) Pearaamatu integreerimise süsteemidega saab seda ümberpööramist kasutada projekti poolelioleva töö lõpetamisel (WIP) raamatupidamise jaoks.
+
+> [!NOTE]
+> Kinnitatud proforma arveid ja nendega seotud kirjeid, nagu arveread ja arverea üksikasjad, ei saa redigeerida ega kustutada. 
 
 ### <a name="correct-a-confirmed-invoice"></a>Kinnitatud arve parandmine
 

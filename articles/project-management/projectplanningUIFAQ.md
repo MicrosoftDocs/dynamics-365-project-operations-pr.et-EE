@@ -2,17 +2,17 @@
 title: Tööülesande ruudustikus töötamise tõrkeotsing
 description: Selles teemas kirjeldatakse tõrkeotsingu teavet, mida on vaja tööülesande ruudustikus töötamisel.
 author: ruhercul
-ms.date: 09/22/2021
+ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 67136229d84a09886fffe9677b10f671aea3c393
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547194"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596413"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Tööülesande ruudustikus töötamise tõrkeotsing 
 
@@ -70,6 +70,9 @@ Project Operations vajab, et projekti parameeter viitaks PEX-i lõpp-punktile. S
       | Project Operations                   | tüüp=2             |
 
 4. Eemaldage väli lehelt **Projekti parameetrid**.
+
+### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Leevendamine 3: logige sisse project.microsoft.com
+Microsoft Edge Avage brauseris uus vahekaart, avage project.microsoft.com ja logige sisse, kasutades kasutajarolli, mida kasutate Project Operationsile juurdepääsuks.
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Probleem: projekti ei laadita ja kasutajaliides jääb spinnerile kinni
 

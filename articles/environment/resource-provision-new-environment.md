@@ -5,20 +5,20 @@ author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
-ms.translationtype: HT
+ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928656"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594803"
 ---
 # <a name="provision-a-new-environment"></a>Uue keskkonna ettevalmistamine
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Selles teemas antakse teavet selle kohta, kuidas juurutada uut rakenduse Dynamics 365 Project Operations keskkonda ressursi-/mittelaopõhiste stsenaariumide jaoks.
 
@@ -34,7 +34,7 @@ Kasutage järgmisi samme, et lubada Project Operationsi automaatse ettevalmistam
 
 ## <a name="provision-a-project-operations-environment"></a>Project Operationsi keskkonna ettevalmistamine
 
-1. Avage uue Dynamics 365 Finance [eelvaatekeskkonna](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) või [liivakasti-/töökeskkonna](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) juurutamine. 
+1. Avage uus Dynamics 365 Finance [demokeskkond](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) või [liivakasti/tootmiskeskkonna](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) juurutamine. 
 2. Läbige **Keskkonna ettevalmistamise** viisard. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Võimalik, et peate selle versiooni saamiseks rakendama oma Finance'i keskkonnal
 
     ![Rakenda lahendused.](./media/13ApplySolutions.png)
 
-5. Valige mõlemad lahendused, **Rakenduse Dynamics 365 Finance and Operations topeltkirjutamise olemikaart** ja **Rakenduse Dynamics 365 Project Operations topeltkirjutamise olemikaardid** ja valige seejärel suvand **Rakenda**.
+5. Valige mõlemad lahendused, **Dynamics 365 Finance and Operations kahe kirjutamisolemi kaart** ja **Dynamics 365 Project Operations topeltkirjutuse olemikaardid**, ning seejärel valige **Rakenda**.
 
     ![Lahenduste kinnitamine.](./media/14ConfirmSolutions.png)
 

@@ -4,14 +4,14 @@ description: Selles teemas kirjeldatakse, kuidas luua uues kavandamisliideses p�
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
-ms.translationtype: HT
+ms.openlocfilehash: cdc1ffdd1f53f65627b511582e52ca27fa53c127
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928610"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597793"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Tööjaotuse struktuuri (WBS) loomine
 
@@ -99,7 +99,7 @@ Personaliatribuute saab kasutada ajakava välja **Ressursid** kaudu. Saate otsid
 
 Väljad **Roll**, **Ressursiühik** ja **Positsiooni nimi** on kasutusel ülesandega seotud vajaduste kirjeldamiseks. Neid personaliatribuute koos ülesannete ajakavaga kasutatakse selleks, et leida selle toimingu jaoks saadaolevaid ressursse.
 
-   - **Roll** : määrake ülesande täitmiseks vajalik ressursi tüüp.,
+   - **Roll**: määrake ülesande täitmiseks vajaliku ressursi tüüp.,
    - **Ressursiühik**: määrake ühik, millest ülesandega seotud ressursid tuleks määrata. See atribuut mõjutab ülesande maksumust ja müügihinda juhul, kui ressursi kulu ja arve määr seatakse vastavalt ressursiühikule.
    - **Positsiooni nimi**: sisestage üldisele ressursile sõbralik nimi, mis on selle ressursi kohatäiteks, mis lõppkokkuvõttes tööd tegema hakkab.
 
@@ -124,10 +124,10 @@ Kui kasutate Project Operationsis tööjaotuse struktuuri, peaksite olema kursis
 |----------------------------------------------------|----------------------|
 | Projekti ülesannete maksimaalne koguarv                  | 500                  |
 | Projekti maksimaalne kogukestus               | 3650 päeva (10 aastat) |
-| Projekti ressursside maksimaalne koguarv              | 150                  |
+| Projekti ressursside maksimaalne koguarv              | 300                  |
 | Projekti linkide maksimaalne koguarv (ainult järglane) | 600                  |
 | Projekti kohandatud väljade maksimaalne koguarv          | 10                   |
-| Maksimaalsed kontroll-loendi üksused tööülesande kohta                   | 20                   |
+| Maksimaalsed kontroll-loendi üksused ülesande kohta                   | 20                   |
 
 **Ülesande piirangud**
 

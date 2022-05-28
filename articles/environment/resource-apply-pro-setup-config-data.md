@@ -4,27 +4,27 @@ description: Selles teemas kirjeldatakse konfiguratsiooni andmete seadistamist j
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 6fb91de30a2414fa7dd8dba47b28cf4824948565
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986621"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594711"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Konfiguratsiooniandmete häälestamine ja rakendamine teenuses Common Data Service 
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>Eeltingimused
 
 Enne andmete teenuses Common Data Service (CDS) konfigureerimise alustamist peavad olema täidetud järgmised eeltingimused.
 
-1.  Valmistage CDS-i keskkond ja rakenduse Dynamics 365 Finance keskkond Project Operationsi jaoks ette.
-2.  Rakenduse Dynamics 365 Finance juriidilise olemi teavet jagatakse CDS-i keskkonnaga. See tähendab, et CDS-i olemil **Ettevõte** on järgmised ettevõtte kirjed.
+1.  Cds-keskkonna ja Dynamics 365 Finance keskkonna pakkumine Project Operationsi jaoks.
+2.  Dynamics 365 Finance juriidilise isiku teavet jagatakse CDS-i keskkonda. See tähendab, et CDS-i olemil **Ettevõte** on järgmised ettevõtte kirjed.
   - THPM
   - USPM
   - GBPM
@@ -37,7 +37,7 @@ Enne andmete teenuses Common Data Service (CDS) konfigureerimise alustamist peav
 
 ![Konfiguratsiooni migreerimine.](./media/1ConfigurationMigration.png)
 
-4. Valige CMT viisardi lehel 2 **juurutuse tüübiks** **Microsoft 365**.
+4. Valige CMT viisardi lehel 2 **Microsoft 365** **Juurutuse tüübiks**.
 5. Valige märkeruudud **Saadaolevate asutuste loendi kuvamine** ja **Kuva täpsemad**.
 6. Valige oma rentniku piirkond, sisestage oma mandaat ja valige **Logi sisse**.
 
@@ -132,7 +132,7 @@ Enne andmete teenuses Common Data Service (CDS) konfigureerimise alustamist peav
 12. Värskendage järgmised väljad.
 
  - **Vaikeettevõte**: USPM
- - **Organisatsiooni vaikeühik**: Contoso Robotics Global
+ - **Vaike-organisatsiooniüksus**: Contoso Robotics Global
  - **Arve sagedus**: seitsmes ja viimane päev
  - **Tööaja mall**: muutke loodud malliks.
 

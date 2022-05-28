@@ -4,14 +4,14 @@ description: Selles teemas antakse teavet kontsernisiseste tehingute koostamise 
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 88e5658c9087fdb19adce1c23bc5cad0ad0fa434
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005476"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599958"
 ---
 # <a name="create-intercompany-transactions"></a>Kontsernisiseste kannete loomine
 
@@ -30,14 +30,14 @@ Kontsernisisese tehingu kinnitamisel luuakse järgmised tegelikud tehingud
 
 Kulu, ressursiüksuse kulu ning organisatsioonidevahelise üksuse müügitehingu hinnakujundus ja valuuta määratakse **organisatsiooni üksuse** poolt. Seda on oluline meeles pidada, kui otsustate, kuidas ettevõtteid ja organisatsiooniüksusi oma juurutuses struktureerida.
 
-Müügivõimaluse, hinnapakkumise, projektilepingu ja projekti kirjete loomisel kontrollib süsteem, kas lepingut sõlmiva üksuse valuuta ühtib lepingu sõlmiva ettevõtte arvestusvaluutaga. Kui need pole samad, saab luua järgmised kirjed. Organisatsiooniüksuse valuuta määratletakse rakenduses Dynamics 365 Project Operations, avades suvandi **Dataverse** > **Sätted** > **Organisatsiooniüksused**. Ettevõtte arvestusvaluuta üksus määratletakse rakenduses Dynamics 365 Finance, avades suvandi **Pearaamat** > **Pearaamatu seadistamine** > **Pearaamat**. Valuuta sünkroonitakse pearaamatute topeltkirjendamise kaarti kasutades teie Dataverse’i keskkonnaga.
+Müügivõimaluse, hinnapakkumise, projektilepingu ja projekti kirjete loomisel kontrollib süsteem, kas lepingut sõlmiva üksuse valuuta ühtib lepingu sõlmiva ettevõtte arvestusvaluutaga. Kui need pole samad, saab luua järgmised kirjed. Organisatsiooniüksuse valuuta määratletakse rakenduses Dynamics 365 Project Operations, avades suvandi **Dataverse** > **Sätted** > **Organisatsiooniüksused**. Ettevõtte arvestusvaluuta määratletakse Dynamics 365 Finance minnes **pearaamatu** > **seadistusraamatusse** > **·**. Valuuta sünkroonitakse pearaamatute topeltkirjendamise kaarti kasutades teie Dataverse’i keskkonnaga.
 
 Süsteem loob ressursiühiku kulu ja organisatsioonidevahelise üksuse müükide tegelikud näitajad järgmistes olukordades.
 
   - Kui ressursiüksus erineb lepingut sõlmivast üksusest
   - Kui ressursiettevõte erineb lepingut sõlmivast ettevõttest
 
-Samas viiakse rakenduse Dynamics 365 Finance keskkonda täiendava raamatupidamise jaoks üle ainult tehingud, millel on leingut sõlmivast ettevõttest erinev ressursiettevõtte.
+Dynamics 365 Finance keskkonda kantakse aga täiendavaks raamatupidamiseks üle ainult tehingud, millel on lepingulisest ettevõttest erinev ressursiühing.
 
 Projekti tegelike näitajate raamatupidamine salvestatakse rakenduse Finance teenuse Project Operations integreerimise töölehele. Süsteem loob järgmised töölehe kanded.
 
@@ -60,7 +60,7 @@ Helle Ives, GBPM-i palgal olev arendaja paneb kirja 10 töötundi ettevõtte USP
     4. Määrake valuuta väärtuseks **USD**.
     5. Kirje salvestamine
 3. Avage jaotis **Müük** > **Projektilepingud** ja looge kliendi Seiklusmängud jaoks uus projektileping.
-    1. Määrake omanikust ettevõte üksusele **USPM** ja lepinguüksus ettevõttele **Contoso Robotics US**.
+    1. Määrake omanikettevõtteks **USPM** ja lepingu sõlmivaks üksuseks **Jõgi Robootika US**.
     2. Valige kliendiks Seiklusmängud.
     3. Valige toote hinnakiri ja salvestage kirje.
     4. Vahekaardil **Lepinguread** looge uus lepingurida. Määrake mis tahes nimi ja valige arveldusviisiks **Aeg ja materjalid**.

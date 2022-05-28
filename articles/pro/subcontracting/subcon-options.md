@@ -1,19 +1,19 @@
 ---
-title: Projektimeeskonna liikmete alltöövõtuvõimalused
-description: Selles teemas selgitatakse Microsofti projektimeeskonna liikmete alltöövõtu võimalusi Dynamics 365 Project Operations.
+title: Allhankelepingu valikud projektimeeskonna liikmete jaoks
+description: Selles teemas selgitatakse Microsofti projektimeeskonna liikmete alltöövõtusuvandeid Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 4db283db728b50ccf76eafabfd643313620bbce2
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: aacd2f97d3120a854c78fe87e512fad1c43b9651
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903649"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600185"
 ---
-# <a name="subcontracting-options-for-project-team-members"></a>Projektimeeskonna liikmete alltöövõtuvõimalused
+# <a name="subcontracting-options-for-project-team-members"></a>Allhankelepingu valikud projektimeeskonna liikmete jaoks
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
@@ -21,51 +21,51 @@ _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
 Microsoftis Dynamics 365 Project Operations saate hinnata ühe või mitme projektimeeskonna liikme jaoks saadaolevaid alltöövõtusuvandeid. Saadaolevad alltöövõtuvõimalused võimaldavad teil teha järgmist.
 
-- Looge valitud projektimeeskonna liikmetele uus alltöövõtt ja/või looge olemasolevale allhankele uued read. 
-- Reserveerige juba olemasoleva allhanke- ja alltöövõtuliini vastu. 
+- Looge uus alltöövõtt ja/või looge valitud projektimeeskonna liikmetele olemasolevale alltöövõtule uued read. 
+- Reserveerige juba olemasoleva alltöövõtu- ja alltöövõtuliini suhtes. 
 
-Saate valida üldiste projektimeeskonna liikmete saadaolevate alltöövõtuvõimaluste hulgast või valida projektimeeskonna liikmete hulgast, kes on komplekteeritud nimega ressursiga, mis on lepinguline töötaja. 
+Saate valida üldiste projektimeeskonna liikmete saadaolevate alltöövõtuvõimaluste hulgast või valida projektimeeskonna liikmete hulgast, kellel on lepinguline töötaja nimega ressurss. 
 
-Alltöövõtu võimalusi ei ole saadaval järgmisteks.
+Alltöövõtu võimalusi pole saadaval järgmiste jaoks.
 
-- Projektimeeskonna liikmed, kes on töötajaga komplekteeritud. 
-- Projektimeeskonna liikmed, kes on juba seotud alltöövõtu- ja alltöövõtuliiniga. 
+- Projektimeeskonna liikmed, kes on töötanud töötajaga. 
+- Projektimeeskonna liikmed, kes on juba seotud alltöövõtu- ja alltöövõtureaga. 
 
-## <a name="subcontracting-an-unstaffed-project-team-member"></a>Alltöövõtuta projektimeeskonna liige
+## <a name="subcontracting-an-unstaffed-project-team-member"></a>Alltöövõtt personalita projektimeeskonna liikmelt
 
-Üldise või töötaja jaoks saadaolevate alltöövõtuvõimaluste ülevaatamiseks ja nende hulgast valimiseks tehke järgmist.
+Üldise või personalita projektimeeskonna liikme saadaolevate alltöövõtusuvandite ülevaatamiseks ja nende hulgast valimiseks tehke järgmist.
 
-1. Valige üks või mitme projektimeeskonna liikme kirje, kus ressurss on üldine ressurss.
-2. Veenduge, et ükski valitud projektimeeskonna liikme kirje pole juba alltöövõtulepinguga. 
-3. Valige **projektimeeskonna** liikmete alamruudustikus alltöövõtusuvandid. Avaneb **dialoogiboks** Alltöövõtusuvandid. 
+1. Valige üks või mitu projektimeeskonna liikme kirjet, kus ressurss on üldine ressurss.
+2. Veenduge, et ükski valitud projektimeeskonna liikmekirjetest pole juba allhanke korras. 
+3. Valige **projektimeeskonna liikmete alamruudustikus alltöövõtu suvandid**. Avaneb **dialoog Alltöövõtusuvandid**. 
 4. Kui valisite 1. etapis ainult ühe projektimeeskonna liikme kirje, on saadaval järgmised suvandid.
-    - Looge uusi alltöövõturidu. 
-    - Reserveerige olemasoleva allhankega Kui valisite 1. etapis mitu projektimeeskonna liikme kirjet, on ainus võimalik võimalus luua uus alltöövõturida.
-5. Võimalus reserveerida olemasoleva allhankerea vastu võimaldab teil valida allhanke- ja alltöövõtuliini, mille vastu soovite reserveerida. Võimsuse reserveerimiseks allhankerea valimisel peaksite tagama, et valitud allhankerida on aja jooksul ja et projektimeeskonna liikmel nõutav roll vastab alltöövõtuliinil ostetud rollile.
-6. Kui valite projektimeeskonna liikmetele uute alltöövõturidade loomise, võimaldab süsteem valida allhanke, mida soovite need read luua. Alltöövõtt, mille valite uute ridade loomiseks, peaks olema **olekus** Mustand. Selle suvandiga, et luua valitud projektimeeskonna liikmetele uued alltöövõturead, loob süsteem iga projektimeeskonna liikme jaoks ühe allhankerea aja kohta. Roll, tunnid ja kuupäevad kopeeritakse projektimeeskonna liikmelt igale loodud allhankereale. 
-7. Kui üldine meeskonnaliige on seotud alltöövõtu- ja alltöövõtureaga, **uuendatakse üldise meeskonnaliikme rea väli Töötaja liik** **lepinguliseks töötajaks** ja **alltöövõtu** kehtivuse väärtuseks määratakse **Kehtiv**.
+    - Looge uusi alltöövõtu ridu. 
+    - Reserveeri olemasoleva allhanke vastu Kui valisite 1. etapis mitu projektimeeskonna liikme kirjet, on ainus saadaolev võimalus luua uued alltöövõturead.
+5. Olemasoleva allhankerea reserveerimise võimalus võimaldab teil valida allhanke- ja alltöövõturea, mille vastu soovite reserveerida. Kui valite võimsuse reserveerimiseks allhankerea, peaksite tagama, et valitud allhankerida on ajakohane ja et projektimeeskonna liikmel nõutav roll vastab alltöövõtureal ostetud rollile.
+6. Kui otsustate projektimeeskonna liikmetele luua uusi alltöövõturidu, võimaldab süsteem valida allhankelepingu, mille soovite need read luua. Alltöövõtt, mille valite uute ridade loomiseks, peaks olema olekus **Mustand**. Selle suvandiga valitud projektimeeskonna liikmetele uute alltöövõturidade loomiseks loob süsteem iga projektimeeskonna liikme jaoks ühe alltöövõturea. Roll, tunnid ja kuupäevad kopeeritakse projektimeeskonna liikmelt igale loodavale allhankereale. 
+7. Kui üldine meeskonnaliige on seostatud alltöövõtu- ja alltöövõtureaga, **uuendatakse üldise meeskonnaliikme rea väli Töötaja tüüp** lepingutöötajaks **ja** **väärtuseks allhanke kehtivus** väärtuseks **määratakse Kehtiv**.
 
-## <a name="subcontracting-a-staffed-project-team-member"></a>Töötajaga projektimeeskonna liikme alltöövõtt
+## <a name="subcontracting-a-staffed-project-team-member"></a>Personaliseeritud projektimeeskonna liikme alltöövõtt
 
-Sarnaselt üldistele või personalita meeskonnaliikmetele saate vaadata ka personaliga projektimeeskonna liikme alltöövõtuvõimalusi, kui töötaja on lepinguline töötaja. Personali või nimega projektimeeskonna liikme saadaolevate alltöövõtuvõimaluste ülevaatamiseks ja nende hulgast valimiseks tehke järgmist.
+Nagu üldised või personalita meeskonnaliikmed, saate vaadata ka personaliga projektimeeskonna liikme alltöövõtu võimalusi, kui töötaja on lepinguline töötaja. Töötaja või nimega projektimeeskonna liikme saadaolevate alltöövõtuvõimaluste ülevaatamiseks ja nende hulgast valimiseks tehke järgmist.
 
-1. Valige üks või mitme projektimeeskonna liikme kirje, kus ressurss on nimega lepinguline töötaja.
-2. Veenduge, et ükski valitud projektimeeskonna liikmekirje pole juba alltöövõtulepinguga. 
-3. Valige **projektimeeskonna** liikmete alamruudustikus alltöövõtusuvandid. Avaneb **dialoogiboks** Alltöövõtusuvandid. 
+1. Valige üks või mitu projektimeeskonna liikme kirjet, kus ressurss on nimega lepingutöötaja.
+2. Veenduge, et ükski valitud projektimeeskonna liikme kirje pole juba allhanke korras allhanke korras. 
+3. Valige **projektimeeskonna liikmete alamruudustikus alltöövõtu suvandid**. Avaneb **dialoog Alltöövõtusuvandid**. 
 4. Kui valisite 1. etapis ainult ühe projektimeeskonna liikme kirje, on saadaval järgmised suvandid.
-      - Looge uusi alltöövõturidu.
+      - Looge uusi alltöövõtu ridu.
       - Reserveerige olemasoleva allhanke vastu.
-  Kui valisite 1. etapis mitu projektimeeskonna liikme kirjet, on ainus võimalik võimalus luua uus allhankeread.
-5. Võimalus reserveerida olemasoleva allhankerea vastu võimaldab teil valida allhanke- ja alltöövõtuliini, mille vastu soovite reserveerida. Võimsuse reserveerimiseks allhankerea valimisel peaksite tagama järgmise.
-      - Valitud allhankerida on aja jaoks. 
-      - Projektimeeskonna liikmel nõutav roll vastab alltöövõtuliinil ostetud rollile. 
-      - Hankija, millega lepinguline töötaja on seotud, on sama, mis alltöövõtul olev hankija.
-6. Kui valite projektimeeskonna liikmetele uute alltöövõturidade loomise, võimaldab süsteem valida allhanke, mida soovite need read luua. Selle suvandiga peaksite tagama, et hankija, kuhu lepinguline töötaja kuulub, on sama, mis alltöövõtu hankija. 
-7. Alltöövõtt, mille valite uute ridade loomiseks, peaks olema **olekus** Mustand. Selle suvandiga, et luua valitud projektimeeskonna liikmetele uued alltöövõturead, loob süsteem iga projektimeeskonna liikme jaoks ühe allhankerea aja kohta. Roll, tunnid ja kuupäevad kopeeritakse projektimeeskonna liikmelt igale loodud allhankereale.  
-8. Kui nimetatud meeskonnaliige on seotud alltöövõtu- ja alltöövõtureaga, **uuendatakse nimega meeskonnaliikme rea väli Töötaja liik** **lepinguliseks töötajaks** ja **alltöövõtu kehtivuse** väärtuseks **määratakse Kehtiv**.
+  Kui valisite 1. etapis mitu projektimeeskonna liikme kirjet, on ainus võimalus luua uued alltöövõturead.
+5. Olemasoleva allhankerea reserveerimise võimalus võimaldab teil valida allhanke- ja alltöövõturea, mille vastu soovite reserveerida. Kui valite võimsuse reserveerimiseks alltöövõturea, peaksite tagama järgmise.
+      - Valitud alltöövõturida on ajastatud. 
+      - Projektimeeskonna liikmel nõutav roll vastab allhanke realt ostetud rollile. 
+      - Hankija, kellega lepingutöötaja on seotud, on sama, mis allhanke hankijal.
+6. Kui otsustate projektimeeskonna liikmetele luua uusi alltöövõturidu, võimaldab süsteem valida allhankelepingu, mille soovite need read luua. Selle suvandiga peaksite tagama, et hankija, kellele lepingutöötaja kuulub, on sama, mis allhanke hankija. 
+7. Alltöövõtt, mille valite uute ridade loomiseks, peaks olema olekus **Mustand**. Selle suvandiga valitud projektimeeskonna liikmetele uute alltöövõturidade loomiseks loob süsteem iga projektimeeskonna liikme jaoks ühe alltöövõturea. Roll, tunnid ja kuupäevad kopeeritakse projektimeeskonna liikmelt igale loodavale allhankereale.  
+8. Kui nimega meeskonnaliige on seotud alltöövõtu- ja alltöövõtureaga, **uuendatakse nimega meeskonnaliikmete rea väli Töötaja tüüp** väärtuseks **Lepingutöötaja** ja **väärtuseks allhanke kehtivus** väärtuseks **määratakse Kehtiv**.
 
-## <a name="re-costing-subcontractor-assignments"></a>Alltöövõtja määramise ümberminek
+## <a name="re-costing-subcontractor-assignments"></a>Alltöövõtjate määramiste ümbermaksmine
 
-Kui projektimeeskonna liige (üldine või nimeline) on lingitud alltöövõturidadega, kasutades **dialoogi** alltöövõtusuvandid, lähevad meeskonnaliikme ülesannetele määratud ülesanded allhankega seotud ostuhinnakirja alusel ümber. Valige **lehel** Projekti üksikasjad vahekaardil **Hinnangud nupp Hindade** **värskendamine**, et näha alltöövõtuotsusest tulenevat värskendatud hinnakujundust ja/või kuluarvestust.
+Kui projektimeeskonna liige (üldine või nimega) on dialoogiboksi Alltöövõtusuvandite **abil** lingitud alltöövõtu ridadega, võetakse kõik meeskonnaliikme ülesannete määramised allhankega seotud ostuhinnakirja alusel ümber. **Valige lehe Projekti üksikasjad** vahekaardil **Hinnangud** nupp Uuenda hindu **,** et näha alltöövõtuotsusest tulenevat värskendatud hinnakujundust ja/või kuluarvestust.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

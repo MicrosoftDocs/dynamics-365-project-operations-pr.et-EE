@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998456"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593607"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Hinnakujunduse ja kuluarvestuse dimensioonide avaleht
 
@@ -64,18 +65,18 @@ Järgmises näites on toodud arve määrad, mis on seadistatud vastavalt rollile
 
 **Näidishinnad**
 
-| Roll        | Organisatsiooniüksus    |Üksus      |Hind      |Valuuta  |
+| Roll        | Organisatsiooniüksus    |Ühik      |Hind      |Valuuta  |
 | ------------|-------------|----------|----------:|----------|
-| Arendaja   | Contoso US  |tund | 200|USD     |
-| Arendaja   | Contoso India |tund|   112|USD     |
+| Arendaja   | Jõgi US  |Hour | 200|USD     |
+| Arendaja   | Jõgi India |Hour|   112|USD     |
 
 
 **Kulumäära näidis**
 
-| Palgavahemik     | Organisatsiooniüksus    |Üksus      |Hind      |Valuuta  |
+| Palgavahemik     | Organisatsiooniüksus    |Ühik      |Hind      |Valuuta  |
 | ----------------|-------------|----------|----------:|----------|
-| Minu company_Band1 | Contoso US  |tund | 145|USD     |
-| Minu company_Band2 | Contoso India |tund|   67|USD     |
+| Minu company_Band1 | Jõgi US  |Hour | 145|USD     |
+| Minu company_Band2 | Jõgi India |Hour|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

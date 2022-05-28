@@ -4,14 +4,14 @@ description: See teema sisaldav teavet selle kohta, kuidas luua ja kasutada rake
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993551"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594205"
 ---
 # <a name="set-up-cost-templates"></a>Kulumallide seadistamine
 
@@ -56,7 +56,7 @@ Otsustamine, millist lähenemisviisi kulumalli loomiseks kasutada, võib oleneda
 ## <a name="create-cost-templates"></a>Kulumallide loomine
 Kulumallide loomiseks tehke järgmist.
 
-1. Rakenduse Dynamics 365 Finance keskkonnas kulumallidele juurdepääsuks minge jaotisse **Projektihaldus ja raamatupidamine** > **Seadistamine** > **Hinnangud** > **Kulumall**.
+1. Kulumallidele juurdepääsuks avage **Dynamics 365 Finance keskkonnas projektihalduse ja raamatupidamise** > **seadistushinnangute** > **·** > **kulumall**.
 2. Uue kulumalli loomiseks valige **Uus**. Sisestage nimi ja kirjeldus.
 3. Sisestage iga kandetüübi jaoks kulurea ID.
 4. Valige vaikimisi lõpuleviimise meetod.

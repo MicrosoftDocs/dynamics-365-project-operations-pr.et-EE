@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.openlocfilehash: 1d4c2cce88514e7822515fc407fc7cf31cb34924
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798035"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596275"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Kviitungi jäädvustamine OCR-i kasutades
 
@@ -52,7 +52,7 @@ Kulu loomiseks või kulu kviitungi kaudu vastendamiseks toimige järgmiselt.
 
 ## <a name="installation"></a>Installimine
 
-Nende täpsemate kuluvõimaluste kasutamiseks installige Microsoft Dynamics 365 Finance kuluhaldusteenuse lisandmoodul ja lülitage eksemplari funktsioonid sisse. Lisandmoodulile pääsete juurde oma projektist Microsoft Dynamics elutsükli teenustes (LCS).
+Nende täiustatud kuluvõimaluste kasutamiseks installige 365 Finance'i lisandmoodul Microsoft Dynamics Kuluhaldusteenus ja lülitage oma eksemplari funktsioonid sisse. Lisandmoodulile pääsete ligi oma projektist teenuse Microsoft Dynamics Lifecycle Services (LCS) kaudu.
 
 1. Logige LCS-i sisse ja avage soovitud keskkond.
 2. Minge jaotisse **Kõik üksikasjad**.
@@ -73,7 +73,7 @@ Nende funktsioonide sisselülitamisel tehakse järgmised toimingud.
 - Lisatakse uus menüü element kulu välja nähtavuse kohta.
 - Saate siiski avada eelmise lehe **Kuluaruanded**, avades jaotise **Kuluhaldus > Minu kulud > Kuluaruanded**.
 - Töövood ja kõik kinnitused viivad teid ikka olemasolevate kuluaruannete lehele.
-- Kviitungeid töödeldakse Microsoft Azure kognitiivsete teenuste kaudu ning metaandmed ekstraheeritakse ja lisatakse.
+- Kviitungeid töödeldakse Microsoft Azure Cognitive Services'i kaudu ja metaandmed eraldatakse ning lisatakse.
 - Lisatakse suvand, mis võimaldab luua kuluaruande, mis sisaldab vastendatud kinnitamata kviitungeid.
 - Suvand, mis lisatakse kuluaruannetesse, võimaldab teil luua kviitungi põhjal kulurea või üritab vastendada olemasoleva kviitungi olemasoleva kulureaga.
 
@@ -85,7 +85,7 @@ Ei, Microsoft on oma kviitungite töötlemise teenuse jaoks loonud üldise masin
 
 **Kus see funktsioon on saadaval ja töödeldud?**
 
-Selle funktsiooni kättesaadavus erinevates piirkondades on loetletud järgmises tabelis. Kui teie piirkonda praegu ei toetata, esitage taotlus, et seada prioriteediks OCR-teenuse kättesaadavus teie piirkonnas. 
+Selle funktsiooni saadavus erinevates piirkondades on loetletud järgmises tabelis. Kui teie piirkonda praegu ei toetata, esitage taotlus OCR-teenuse kättesaadavuse prioriseerimiseks teie piirkonnas. 
 
 | Regioon | Toetatud                         |
 |--------|-----------------------------------|
@@ -93,7 +93,7 @@ Selle funktsiooni kättesaadavus erinevates piirkondades on loetletud järgmises
 | CAN    | Ja                               |
 | Ühendkuningriigid     | Ja                               |
 | AUS    | Ja                               |
-| ELI     | Osaliselt. Ainult inglise keele kviitungid. |
+| ELI     | Osaliselt. Ainult ingliskeelsed kviitungid. |
 | Aasia   | No                                |
 | Jaapan  | No                                |
 | Aafrika | No                                |
