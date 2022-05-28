@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
-ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
+ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7679204"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600783"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Mis on uut juunis 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
 
@@ -21,7 +21,7 @@ _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 See teema kehtib rakenduse Dynamics 365 Project Operations järgmistele komponentide ja versioonide kohta.
 
 - Project Operations Dynamics 365 Dataverse’i keskkonna versioonis 4.11.0.156 või 4.11.0.164.
-- Projektihaldus ja raamatupidamine Finance and Operationsi rakenduste keskkondade versioonis 10.0.19.
+- Projektijuhtimine ja raamatupidamine Finance and Operationsi rakenduste keskkondade versioonis 10.0.19.
 
 ## <a name="features-included-in-this-release"></a>Selles väljaandes sisalduvad funktsioonid
 
@@ -38,7 +38,7 @@ Selles väljaandes ei ole Project Operationsi topeltkirjutuse kaartide jaoks vä
 
 Project Operationsi topeltkijrutusega kaartide praeguse loendi ja versioonide jaoks vaadake teemat [Project Operationsi topeltkirjutamise kaardi versioonid](../environment/resource-dual-write-maps.md).
 
-Käitage oma keskkonnas alati kaardi uusimat versiooni ja lubage oma Project Operationsi Dataverse’i lahenduse ja Finance and Operationsi rakenduste lahenduse versiooni värskendamisel kõik seotud tabelivastendused. Kui kaardi uusim versioon pole aktiveeritud, ei pruugi teatud funktsioonid ja võimalused õigesti töötada. Kaardi aktiivset versiooni saate vaadata lehe **Topeltkirjutamine** veerus **Versioon**. Aktiveerige kaardi uus versioon, valides suvandi **Tabelikaardi versioonid**, valides uusima versiooni ja salvestades seejärel valitud versiooni. Kui olete kohandanud kasutusvalmis tabelikaardi, rakendage muudatused uuesti. Lisateabe saamiseks vt [Rakenduse elutsükli haldus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)
+Käivitage alati oma keskkonnas kaardi uusim versioon ja lubage project Operationsi lahenduse ning Finance and Dataverse Operationsi rakenduste lahenduse versiooni värskendamisel kõik seostuvad tabelikaardid. Kui kaardi uusim versioon pole aktiveeritud, ei pruugi teatud funktsioonid ja võimalused õigesti töötada. Kaardi aktiivset versiooni saate vaadata lehe **Topeltkirjutamine** veerus **Versioon**. Aktiveerige kaardi uus versioon, valides suvandi **Tabelikaardi versioonid**, valides uusima versiooni ja salvestades seejärel valitud versiooni. Kui olete kohandanud kasutusvalmis tabelikaardi, rakendage muudatused uuesti. Lisateabe saamiseks vt [Rakenduse elutsükli haldus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)
 
 Kui kaardi käivitamisel esineb probleem, järgige topeltkirjutamise tõrkeotsingu juhendi jaotises [Probleem kaartidel puuduvate tabeli veergudega](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps).
 
@@ -62,7 +62,7 @@ Kui kaardi käivitamisel esineb probleem, järgige topeltkirjutamise tõrkeotsin
 | Aeg ja kulu | 2194431 | Ruudustik **Ajakirje** peab arvestama algusnädalat, mis on määratud **süsteemi sätetes**. |
 | Aeg ja kulu | 2277311 | Pärast ruudustikus **Ajakirje** lahtris väärtuse kustutamist jääb kursor ruusustikku. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektihaldus ja raamatupidamine rakenduses Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektijuhtimine ja raamatupidamine Dynamics 365 Finance
 
 | Funktsiooni ala | Viitenumber | Kvaliteedi värskendus |
 | --- | --- | --- |

@@ -1,34 +1,33 @@
 ---
 title: Projekti lepingute ja projektide sünkroonimine otse Project Service Automationist rakendusse Finance
-description: Selles teemas kirjeldatakse malli ja aluseks olevaid tööülesandeid, mida kasutatakse projektilepingute ja projektide sünkroonimiseks otse rakendusest Microsoft Dynamics 365 Project Service Automation rakendusse Dynamics 365 Finance.
+description: Selles teemas kirjeldatakse malli ja selle aluseks olevaid toiminguid, mida kasutatakse projektilepingute ja projektide sünkroonimiseks otse Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance.
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 92ebdd864c59168d6f4a4540c6915d6b0dc8a1fb
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001066"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684637"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Projekti lepingute ja projektide sünkroonimine otse Project Service Automationist rakendusse Finance 
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Selles teemas kirjeldatakse malli ja aluseks olevaid tööülesandeid, mida kasutatakse projektilepingute ja projektide sünkroonimiseks otse rakendusest Dynamics 365 Project Service Automation rakendusse Dynamics 365 Finance.
+
+Selles teemas kirjeldatakse malli ja selle aluseks olevaid toiminguid, mida kasutatakse projektilepingute ja projektide sünkroonimiseks otse Dynamics 365 Project Service Automation Dynamics 365 Finance.
 
 > [!NOTE] 
 > Kui kasutate rakendust Enterprise edition 7.3.0, peate installima KB 4074835.
@@ -121,15 +120,15 @@ Kui rakendatakse integreerimislahendust Project Service Automationist Finance'i,
 
 ## <a name="power-query"></a>Power Query
 
-Kui järgmised tingimused on täidetud, kasutage andmete filtreerimiseks lahendust Microsoft Power Query for Excel.
+Microsoft Power Query for Excel abil saate andmeid filtreerida, kui on täidetud järgmised tingimused.
 
 - Teil on Dynamics 365 Salesis müügitellimused.
 - Teil on Project Service Automationis mitu organisatsiooniüksust ja need üksused vastendatakse mitme juriidilise olemiga Finance'is.
 
-Kui peate kasutama Power Queryd, järgige neid suuniseid.
+Kui peate kasutama Power Query, järgige järgmisi juhiseid.
 
 - Projektide ja lepingute (PSA-st Fin and Opsini) mallil on vaikefilter, mis sisaldab ainult **Tööde üksuse (msdyn\_ordertype = 192350001)** tüüpi müügitellimusi. See filter aitab tagada, et projektilepinguid ei loodaks Finance'is müügitellimustele. Kui loote oma malli, peate selle filtri lisama.
-- Looge Power Query filter, mis sisaldab ainult neid lepingu organisatsioone, mida tuleks sünkroonida integratsiooni ühenduse komplekti juriidilise isiku juurde. Näiteks projektilepingud, mis teil on Contoso USA lepingulise korraldusüksusega, tuleks sünkroonida USSI juriidilise isikuga, kuid projektilepingud, mis teil on Contoso Globali lepingute korraldusüksusega, tuleks sünkroonida juriidilise isikuga USMF. Kui te ei lisa seda filtrit oma tööülesannete vastendamisel, sünkroonitakse kõik projektilepingud juriidilise isikuga, mis on määratletud ühenduse komplekti jaoks, olenemata lepingu organisatsioonilisest üksusest.
+- Power Query Looge filter, mis hõlmab ainult lepingulisi organisatsioone, mis tuleks sünkroonida integratsiooniühenduse komplekti juriidilise isikuga. Näiteks projekti lepingud, mis on seotud Contoso USA lepingu organisatsioonilise üksusega, tuleb sünkroonida USSI juriidilise isikuga, kuid projektilepingud, mis teil on Contoso Global lepingu organisatsioonilise üksusega tuleb sünkroonida USMF-i juriidilise isikuga. Kui te ei lisa seda filtrit oma tööülesannete vastendamisel, sünkroonitakse kõik projektilepingud juriidilise isikuga, mis on määratletud ühenduse komplekti jaoks, olenemata lepingu organisatsioonilisest üksusest.
 
 ## <a name="template-mapping-in-data-integration"></a>Malli vastendamine andmete integratsioonis
 

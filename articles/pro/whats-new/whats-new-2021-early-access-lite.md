@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a201e3e4333b8892eea72387222d64e18b74d71b
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323906"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723671"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Mis on 2021 2. laine varajases juurdepääsus uut – Project Operations lihtjuurutus
 
@@ -26,7 +26,7 @@ Väljaanne rakendatakse ainult juhul, kui keskkond on [varajase juurdepääsuga 
 
 ## <a name="features-included-in-this-release"></a>Selles väljaandes sisalduvad funktsioonid
 
-[Allhankelepingute haldus](../subcontracting/subcontracting_EA_scope.md) - see funktsioon pakub paremat nähtavust ja kontrolli projekti tööde kõigi aspektide üle. Allhankelepingute halduse eelversioon sisaldab järgmisi võimalusi.
+[Allhankelepingute haldus](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview) - see funktsioon pakub paremat nähtavust ja kontrolli projekti tööde kõigi aspektide üle. Allhankelepingute halduse eelversioon sisaldab järgmisi võimalusi.
 
   - Projektijuht saab hankijaga allhankelepingu sõlmida. Vaikimisi kasutatakse allhankelepingut sõlmides hankijakirjele lisatud hinnakirju. Hankija kontol on seosetüüp **Hankija** või **Tarnija**.
   - Projektijuht saab kõik ostud täpsustada allhankelepingu reaüksustena. Allhankelepingu read võivad olla aja, kulude või toodete jaoks. Allhankelepingu rea tehinguklass määratleb, mille jaoks rida on.

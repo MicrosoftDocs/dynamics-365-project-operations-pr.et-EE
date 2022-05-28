@@ -4,14 +4,14 @@ description: Selles teemas kirjeldatakse, kuidas luua kohandatud hinnakujunduse 
 author: Rumant
 ms.date: 11/09/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 82593d3d00b008c1922d70c508bc77624aeb46b3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992201"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601105"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Lahenduse loomine kohandatud hinnakujunduse dimensioonide jaoks
 
@@ -23,7 +23,7 @@ ms.locfileid: "6992201"
 ## <a name="create-a-solution-for-custom-pricing-dimensions"></a>Lahenduse loomine kohandatud hinnakujunduse dimensioonide jaoks
 
 1.  Valige **Sätted** > **Lahendused** ja valige seejärel **Uus**.
-2.  Sisestage lahenduse nimi, organisatsiooni *<your organization name> hinnakujunduse dimensioonid*.
+2.  Sisestage lahenduse nimi, organisatsiooni *\<your organization name\> hinnakujunduse dimensioonid*.
 3. Sisestage ülejäänud nõutav teave ja calige seejärel **Salvesta**.
 
   ![Kohandatud hinnakujunduse dimensiooni lahenduse loomine.](./media/Creation-of-custom-pricing-dimension-solution.png)

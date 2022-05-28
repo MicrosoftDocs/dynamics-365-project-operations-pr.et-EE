@@ -5,20 +5,19 @@ author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 274023
 ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 0559f881aba2d0a9c65ad123a40803743fc7407bb0d87ac6e8280ee8e30d36b7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001471"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8682797"
 ---
 # <a name="expense-management-mobile-workspace"></a>Kuluhalduse mobiilne tööruum
 
@@ -35,7 +34,7 @@ Paljud organisatsioonid nõuavad, et töötaja poolt hüvitamiseks esitatavale r
 
 Eelkõige võimaldab mobiilne tööruum **Kuluhaldus** kasutajatel täita järgmisi ülesandeid.
 
-- Tehke kviitungist foto ja laadige see üles rakendusse Dynamics 365 Finance. Saate lisada selle foto kuluaruandele hiljem.
+- Tehke kviitungist foto ja laadige see üles Dynamics 365 Finance. Saate lisada selle foto kuluaruandele hiljem.
 - Laadida jäädvustatud kviitungina üles faili. Saate lisada selle faili kuluaruandele hiljem.
 - Luua manustatud kviitungit kasutades uue kulurea. Saate seejärel hiljem lisada reaüksuse kuluaruandele ja esitada selle kinnitamiseks ning hüvitamiseks.
 
@@ -53,7 +52,7 @@ Saate kasutada järgmisi funktsioone.
 ## <a name="prerequisites"></a>Eeltingimused
 Eeltingimused erinevad sõltuvalt teie organisatsioonis juurutatud versioonist.
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Eeltingimused, kui kasutate rakendust Dynamics 365 Finance 
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Eeltingimused, kui kasutate Dynamics 365 Finance 
 Kui teie organisatsiooni jaoks on juurutatud rakendus Finance, peab süsteemiadministraator avaldama mobiilse tööruumi **Kuluhaldus**. Juhiseid vaadake teemast [Mobiilsete tööruumide avaldamine](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Eeltingimused kui kasutate versiooni 1611 koos platvormi värskendusega 3 või hilisemaga

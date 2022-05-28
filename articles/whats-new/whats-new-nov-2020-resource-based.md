@@ -4,14 +4,14 @@ description: See teema sisaldab teavet ressursi-/mittelaopõhiste stsenaariumite
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007951"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600369"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Mis on uut novembris 2020 – Project Operations ressursi-/mittelaopõhiste stsenaariumite jaoks
 
@@ -20,7 +20,7 @@ _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 See teema kehtib rakenduse Dynamics 365 Project Operations järgmistele komponentide ja versioonide kohta.
 
 - Project Operations CDS-i keskkonna versioonis 4.4.0.70
-- Projektihaldus ja raamatupidamine rakenduse Dynamics 365 Finance keskkonna versioonis 10.0.14
+- Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnaversioonis 10.0.14
 
 ## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Rakenduse Project Operations ressursi-/mittelaopõhiste stsenaariumite jaoks värskendused
 
@@ -42,7 +42,7 @@ See teema kehtib rakenduse Dynamics 365 Project Operations järgmistele komponen
 | Aja- ja kiirsisestuse kirje | 2059859          | Kulukirje loomisel avaneb ootamatu hüpikaken.                                                                                                                         |
 | Muu                        | 2044181          | (Ostutellimuse desinstallimine) Kui proovite desinstallida msdyn_ProjectServiceCore_Patch ja msdyn Projektiteenuse põhilahendusi, ilmneb tõrge „Kirje pole saadaval”.  |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektihaldus ja raamatupidamine rakenduses Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektijuhtimine ja raamatupidamine Dynamics 365 Finance
 
 | Funktsiooni ala        | Viitenumber | Kvaliteedi värskendus                                                                                                                                                            |
 |---------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ See teema kehtib rakenduse Dynamics 365 Project Operations järgmistele komponen
 | Projekti raamatupidamine  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Funktsiooni lubamine, mitu lepingurida ei ole ilma CDS-i integreerimiseta võimalikud.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Regulatiivsed uuendused
-Lisateavet teenuse Finance and Operations rakenduste regulatiivsete uuenduste kohta vaadake teemast [Regulatiivsed uuendused](/dynamics365/finance/localizations/regulatory-updates). Saate ka LCS-i sisse logida ja vaadata kavandatud regulatiivseid värskendusi, kasutades probleemi otsimise tööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
+Finance and Operationsi rakenduste regulatiivsete värskenduste kohta leiate teavet teemast [Regulatiivsed värskendused](/dynamics365/finance/localizations/regulatory-updates). Saate ka LCS-i sisse logida ja vaadata kavandatud regulatiivseid värskendusi, kasutades probleemi otsimise tööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

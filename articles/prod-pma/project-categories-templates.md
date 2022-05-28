@@ -1,32 +1,31 @@
 ---
-title: Projekti kulukategooriate sünkroonimine rakenduste Finance and Operations ja Project Service Automation vahel
-description: Selles teemas kirjeldatakse malle ja aluseks olevaid tööülesandeid, mida kasutatakse projekti kulukategooriate sünkroonimiseks rakenduste Microsoft Dynamics 365 Finance ja Dynamics 365 Project Service Automation vahel.
+title: Projekti kulukategooriate sünkroonimine rahanduse ja operatsioonide ning projektiteenuse automatiseerimise vahel
+description: Selles teemas kirjeldatakse malle ja selle aluseks olevaid toiminguid, mida kasutatakse projekti kulukategooriate sünkroonimiseks vahemikus Microsoft Dynamics 365 Finance ja Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001111"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685465"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Projekti kulukategooriate sünkroonimine rakenduste Finance and Operations ja Project Service Automation vahel
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Projekti kulukategooriate sünkroonimine rahanduse ja operatsioonide ning projektiteenuse automatiseerimise vahel
 
 [!include[banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse malle ja aluseks olevaid tööülesandeid, mida kasutatakse projekti kulukategooriate sünkroonimiseks rakenduste Dynamics 365 Finance ja Dynamics 365 Project Service Automation vahel.
+Selles teemas kirjeldatakse malle ja selle aluseks olevaid toiminguid, mida kasutatakse projekti kulukategooriate sünkroonimiseks Dynamics 365 Finance ja rakenduse vahel Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - Projekti ülesannete integreerimine, kulukande kategooriad, kuluprognoosid ja funktsioonide lukustamine on saadaval versioonis 8.0.
@@ -81,10 +80,10 @@ Projekti kulukategooriaid hallatakse rakenduses Finance ja need sünkroonitakse 
 
 ### <a name="power-query"></a>Power Query
 
-Kui sünkroonite rakendusega Project Service automation, peate kasutama rakendust Microsoft Power Query Exceli jaoks, et määrata arvetüüp kandekategoorias. Projekti kulukannete kategooriate (Fin ja Ops PSA-sse) mallis on vaikeveerg ja vastendus. Kui loote oma malli, peate lisama tingimusliku veeru Power Query'is. Toimige järgmiselt.
+Kui sünkroonite projektiteenuste automatiseerimisega, peate kandekategooria arveldustüübi määramiseks kasutama Rakendust Microsoft Power Query for Excel. Projekti kulukannete kategooriate (Fin ja Ops PSA-sse) mallis on vaikeveerg ja vastendus. Kui loote oma malli, peate rakenduses lisama tingimusveeru Power Query. Toimige järgmiselt.
 
 1. Klõpsake noolt, et avada projekti kulu kategooriate ülesande vastendus projekti kulukategooriate (Fin ja Ops PSA-le) malliga.
-2. Klõpsake linki **Täpsem päring ja filtreerimine**, et avada Power Query.
+2. Avamiseks **klõpsake linki Eelpäring ja Filtreerimine** Power Query.
 2. Valige **Lisa tingimuslik veerg**.
 3. Sisestage uue veeru nimi (nt **ArvelduseTüüp)**.
 4. Sisestage järgmine tingimus: **if CATEGORYID not equal to null then 19235001, Otherwise null**.

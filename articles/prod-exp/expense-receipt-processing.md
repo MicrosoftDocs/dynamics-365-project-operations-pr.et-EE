@@ -1,24 +1,23 @@
 ---
 title: Kuludokumentide töötlemine
-description: Selles teemas antakse teavet kviitungite tähemärkide optilise tuvastamise (OCR) töötlemise kohta. See funktsioon on mõeldud rakenduses Microsoft Dynamics 365 Finance kuluaruannete loomisel kasutuskogemuse parandamiseks.
+description: Selles teemas antakse teavet kviitungite tähemärkide optilise tuvastamise (OCR) töötlemise kohta. Selle funktsiooni eesmärk on parandada kasutajakogemust kuluaruannete loomisel rakenduses Microsoft Dynamics 365 Finance.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001381"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684315"
 ---
 # <a name="expense-receipt-processing"></a>Kuludokumentide töötlemine
 
@@ -51,7 +50,7 @@ Kulu loomiseks või kulu kviitungi kaudu vastendamiseks tehke järgmist.
 
 See funktsioon töötab koos funktsiooniga **Kuluaruannete ümberkujundamine**, et aidata lihtsustada kulu kogemust. See funktsioon on saadaval ainult Tier 2+ keskkondades, milleks on on Liivakasti ja tootmine.
 
-Nende täiustatud kulude võimaluste kasutamiseks installige Microsoft Dynamics 365 Finance'i jaoks kuluhaldusteenuse lisandmoodul ja lülitage sisse oma eksemplari funktsioonid. Lisandmoodulile pääsete ligi oma projektist teenuse Microsoft Dynamics Lifecycle Services (LCS) kaudu.
+Nende täiustatud kuluvõimaluste kasutamiseks installige 365 Finance'i lisandmoodul Microsoft Dynamics Kuluhaldusteenus ja lülitage oma eksemplari funktsioonid sisse. Lisandmoodulile pääsete ligi oma projektist teenuse Microsoft Dynamics Lifecycle Services (LCS) kaudu.
 
 1. Logige LCS-i sisse ja avage soovitud keskkond.
 2. Minge jaotisse **Kõik üksikasjad**.

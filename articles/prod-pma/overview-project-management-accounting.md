@@ -3,25 +3,23 @@ title: Projekti haldamise ja raamatupidamise ülevaade
 description: Projekti haldamise ja raamatupidamise funktsioone saab kasutada mitmes tööstusharus, et pakkuda teenust, toota toodet või saavutada tulemus.
 author: Yowelle
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: be384b19781e605255a24506e94e0852076b9ca9
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007501"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683579"
 ---
 # <a name="project-management-and-accounting-overview"></a>Projekti haldamise ja raamatupidamise ülevaade
 
@@ -248,7 +246,7 @@ Järgmises tabelis on kirjeldatud projekti lõpuleviimiseks kulu arvutamise meet
 <tbody>
 <tr class="odd">
 <td>Kogukulu – tegelik</td>
-<td>Prognoositavad kulud tuleb sisestada käsitsi. Kui veerud <strong>Kogukulu</strong> või <strong>Kogukogus</strong> lehel <strong>Kuluprognoos</strong> on lõpule viidud, lahutatakse tegelikud kulud kasutaja sisestatud kogusummast. Tulemuseks on kulu projekti lõpuleviimiseks. Tavaliselt ei jälgita kulude edenemist, võttes aluseks näiteks hotellides peatumisi ja söögikordi, mis on igal perioodil salvestatud. Selle asemel. Jälgimine põhineb tavaliselt prognoositava tundide kogusummaga võrdlusel. See lähenemine ei nõua prognoosimudelit ja kogukulu või kogukogust saab käsitsi muuta. Kui väärtus sisestatakse veergu <strong>Kogukulu</strong> või <strong>Üldkogus</strong>, võrdleb Finance seda väärtust selles perioodis sisestatud tegelike kannetega ja seejärel vähendab selle väärtust veerus <strong>Lõpuleviidav kogus</strong> või <strong>Kulu lõpuleviimiseks</strong>.</td>
+<td>Prognoositavad kulud tuleb sisestada käsitsi. Kui veerud <strong>Kogukulu</strong> või <strong>Kogukogus</strong> lehel <strong>Kuluprognoos</strong> on lõpule viidud, lahutatakse tegelikud kulud kasutaja sisestatud kogusummast. Tulemuseks on kulu projekti lõpuleviimiseks. Tavaliselt ei jälgita kulude&#39; edenemist näiteks hotelli peatumiste ja söögikordade arvu põhjal, mis registreeritakse igal perioodil. Selle asemel. Jälgimine põhineb tavaliselt prognoositava tundide kogusummaga võrdlusel. See lähenemine ei&#39; nõua prognoosimudelit ja kogukulu või koguhulka saab käsitsi muuta. Kui väärtus sisestatakse veergu <strong>Kogukulu</strong> või <strong>Üldkogus</strong>, võrdleb Finance seda väärtust selles perioodis sisestatud tegelike kannetega ja seejärel vähendab selle väärtust veerus <strong>Lõpuleviidav kogus</strong> või <strong>Kulu lõpuleviimiseks</strong>.</td>
 </tr>
 <tr class="even">
 <td>Kogueelarve – tegelik</td>

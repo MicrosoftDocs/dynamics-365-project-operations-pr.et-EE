@@ -1,32 +1,31 @@
 ---
-title: Projekti prognooside sünkroonimine otse rakendusest Project Service Automation rakendusse Finance and Operations
-description: Selles teemas kirjeldatakse malle ja aluseks olevaid tööülesandeid, mida kasutatakse projekti kestuse prognooside ja projekti kuluprognooside sünkroonimiseks otse rakendusest Microsoft Dynamics 365 Project Service Automation rakendusse Dynamics 365 Finance.
+title: Projekti hinnangute sünkroonimine otse projekti teenuse automatiseerimisest finance'i ja operatsioonideni
+description: Selles teemas kirjeldatakse malle ja selle aluseks olevaid ülesandeid, mida kasutatakse projekti tunni hinnangute ja projekti kuluprognooside sünkroonimiseks otse Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988196"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684591"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Projekti prognooside sünkroonimine otse rakendusest Project Service Automation rakendusse Finance and Operations
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Projekti hinnangute sünkroonimine otse projekti teenuse automatiseerimisest finance'i ja operatsioonideni
 
 [!include[banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse malle ja aluseks olevaid tööülesandeid, mida kasutatakse projekti kestuse prognooside ja projekti kuluprognooside sünkroonimiseks otse rakendusest Dynamics 365 Project Service Automation rakendusse Dynamics 365 Finance.
+Selles teemas kirjeldatakse malle ja selle aluseks olevaid ülesandeid, mida kasutatakse projekti tunni hinnangute ja projekti kuluprognooside sünkroonimiseks otse Dynamics 365 Project Service Automation Dynamics 365 Finance.
 
 > [!NOTE]
 > - Projekti ülesannete integreerimine, kulukande kategooriad, kestuse prognoosi ja funktsioonide lukustamine on saadaval versioonis 8.0.
@@ -70,7 +69,7 @@ Enne projekti kestuse prognooside sünkroonimise toimumist peate sünkroonima pr
 
 ### <a name="power-query"></a>Power Query
 
-Projekti kestuse prognooside mallil peate kasutama lisandmoodulit Microsoft Power Query for Excel, et lõpetada järgmised ülesanded.
+Projektitunni hinnangute mallis peate järgmiste toimingute täitmiseks kasutama Rakendust Microsoft Power Query for Excel.
 
 - Määrake vaikimisi prognoosimudeli ID, mida kasutatakse, kui integratsioon loob uue kestuse prognoosid.
 - Filtreerige ülesandest välja kõik ressursile omased kirjed, mis kestuse prognoosi integreerimises nurjuvad.
@@ -81,7 +80,7 @@ Projekti kestuse prognooside mallil peate kasutama lisandmoodulit Microsoft Powe
 Mallis vaikeprognoosi mudeli ID värskendamiseks klõpsake noolt **Vastenda**, et avada vastendamine. Seejärel valige link **Täpsem päring ja filtreerimine**.
 
 - Kui kasutate vaikimisi Projecti kestuse hinnangu (PSA-st Finile ja Opsile) malli, valige loendis **Rakendatud sammud** suvand **Sisestatud tingimus**. Kirjes **Funktsioon** asendage osa **O\_forecast** prognoosi mudeli ID nimega, mida peaks integratsiooniga koos kasutama. Vaikemallil pärineb prognoosi mudeli ID demoandmetest.
-- Uue malli loomisel peate selle veeru lisama. Valige Power Querys suvand **Lisa tingimuslik veerg** ja sisestage uue veeru nimi, näiteks **MudeliID**. Sisestage veeru jaoks tingimus, et kui projektiülesanne ei ole tühi, siis \<enter the forecast model ID\>; muul juhul tühi.
+- Uue malli loomisel peate selle veeru lisama. Valige Power Query rakenduses **Lisa tingimusveerg** ja sisestage uue veeru nimi (nt **ModelID)**. Sisestage veeru jaoks tingimus, et kui projektiülesanne ei ole tühi, siis \<enter the forecast model ID\>; muul juhul tühi.
 
 #### <a name="filter-out-resource-specific-records"></a>Ressursikohaste kirjete filtreerimine
 
@@ -126,7 +125,7 @@ Enne projekti kuluprognooside sünkroonimise toimumist peate sünkroonima projek
 
 ### <a name="power-query"></a>Power Query
 
-Projekti kuluprognooside mallil peate kasutama lisandmoodulit Power Quer, et lõpetada järgmised ülesanded.
+Projekti kuluprognooside mallis peate kasutama Power Query järgmiste toimingute lõpuleviimiseks.
 
 - Filter, et kaasata ainult kuluprognoosi rea kirjeid.
 - Määrake vaikimisi prognoosimudeli ID, mida kasutatakse, kui integratsioon loob uue kestuse prognoosid.
@@ -141,8 +140,8 @@ Projecti kuluprognooside (PSA-st Fini ja Opsi) mallil on vaikefilter, mis sisald
 
 Mallis vaikeprognoosi mudeli ID värskendamiseks valige ülesanne **Kuluprognoosid** ja klõpsake seejärel noolt **Vastenda**, et avada vastendamine. Valige link **Täpsem päring ja filtreerimine**.
 
-- Kui kasutate vaikimisi Projecti kuluhinnangu (PSA-st Finile ja Opsile) malli, siis valige Power Querys jaotisest **Rakendatud sammud** esimene suvand **Sisestatud tingimus**. Kirjes **Funktsioon** asendage osa **O\_forecast** prognoosi mudeli ID nimega, mida peaks integratsiooniga koos kasutama. Vaikemallil pärineb prognoosi mudeli ID demoandmetest.
-- Uue malli loomisel peate selle veeru lisama. Valige Power Querys suvand **Lisa tingimuslik veerg** ja sisestage uue veeru nimi, näiteks **MudeliID**. Sisestage veeru jaoks tingimus, et kui prognoosi rea ID ei ole tühi, siis \<enter the forecast model ID\>; muul juhul tühi.
+- Kui kasutate projekti kuluprognoose (PSA to Fin and Ops) vaikemalli, Power Query valige jaotises Rakendatud sammud jaotisest **Rakendatud sammud** esimene **lisatud tingimus**. Kirjes **Funktsioon** asendage osa **O\_forecast** prognoosi mudeli ID nimega, mida peaks integratsiooniga koos kasutama. Vaikemallil pärineb prognoosi mudeli ID demoandmetest.
+- Uue malli loomisel peate selle veeru lisama. Valige Power Query rakenduses **Lisa tingimusveerg** ja sisestage uue veeru nimi (nt **ModelID)**. Sisestage veeru jaoks tingimus, et kui prognoosi rea ID ei ole tühi, siis \<enter the forecast model ID\>; muul juhul tühi.
 
 #### <a name="transform-the-billing-types"></a>Arvelduse tüüpide teisendamine
 
