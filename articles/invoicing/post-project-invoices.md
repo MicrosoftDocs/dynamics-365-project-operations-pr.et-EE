@@ -3,16 +3,15 @@ title: Arveldusprotsessi ülevaade
 description: Selles teemas antakse arveldustoimingute ülevaade Project Operationsis ressursipõhiste/mittelaopõhiste stsenaariumide korral.
 author: sigitac
 ms.date: 01/29/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 0328d5321909bcc17754da4e19d7652b77a665d5
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003766"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582705"
 ---
 # <a name="invoicing-process-overview"></a>Arveldusprotsessi ülevaade
 
@@ -22,7 +21,7 @@ Project Operations ressursipõhistele/mittelaopõhistele stsenaariumidele pakub 
 
 ![Arveldusvoo diagramm.](./media/invoicing-flow.png)
 
-Projekti lepingurida määratleb seostatud projektitehingute arveldusmeetodi. Kui projektijuht kiidab aja- ja kulutehingud heaks, salvestab süsteem tehingud olemis **Projekti tegelikud näitajad** ja saadab andmed Dynamics 365 Finance'i moodulisse **Projektijuhtimine ja raamatupidamine**. Seejärel vaatab projekti raamatupidaja kirjed üle ja postitab need [Project Operationsi integreerimise töölehe](../project-accounting/project-operations-integration-journal.md) abil. See tööleht sisaldab projekti tegelike näitajate jaoks olulisi raamatupidamise üksikasju, nagu arveldamine, käibemaksu rühm, arveldusüksuse käibemaksu rühm ja finantsdimensioonid.
+Projekti lepingurida määratleb seostatud projektitehingute arveldusmeetodi. Kui projektijuht kinnitab aja- ja kulukanded, salvestab süsteem tehingud **olemis Project Actuals** ja saadab teabe Dynamics 365 Finance projektihaldus- ja **raamatupidamismoodulisse**. Seejärel vaatab projekti raamatupidaja kirjed üle ja postitab need [Project Operationsi integreerimise töölehe](../project-accounting/project-operations-integration-journal.md) abil. See tööleht sisaldab projekti tegelike näitajate jaoks olulisi raamatupidamise üksikasju, nagu arveldamine, käibemaksu rühm, arveldusüksuse käibemaksu rühm ja finantsdimensioonid.
 
 Projektijuht arveldamata müügitehingud üle vaadata, kasutades aja- ja materjali arveldusmeetodit jaotises [Aja ja materjali arveldamise võlgnevused](../proforma-invoicing/manage-billing-backlog.md#time-and-material-billing-backlog) ja fikseeritud hinnaga arveldamist jaotises [Fikseeritud hinnaga osamaksed](../proforma-invoicing/manage-billing-backlog.md#fixed-price-milestones). Need vaated võimaldavad teil filtreerida ja valida tehinguid, mis tuleb kaasata järgmisesse arveldustsüklisse, ja märkida need siis olekusse **Arveldamiseks valmis**.
 

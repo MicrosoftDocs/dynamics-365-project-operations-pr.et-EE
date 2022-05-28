@@ -1,94 +1,39 @@
 ---
-title: Tegelike näitajate seostamine algsete kirjetega
-description: Selles teemas kirjeldatakse, kuidas siduda tegelikud andmed algsete kirjetega (nt ajakirje, kulukirje või materjalide kasutuslogid).
+title: Kande päritolu – tegelike seoste linkimine nende allikaga
+description: Selles teemas selgitatakse, kuidas kande päritolu mõistet kasutatakse tegelike seoste linkimiseks algsete lähtekirjetega (nt aja sisestamine, kulukanne või materjali kasutuslogid).
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 908f78f7d58ec4b18f37d03b6fa7c4e2295491fa
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991751"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584821"
 ---
-# <a name="link-actuals-to-original-records"></a>Tegelike näitajate seostamine algsete kirjetega
+# <a name="transaction-origins---link-actuals-to-their-source"></a>Kande päritolu – tegelike seoste linkimine nende allikaga
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-
-Rakenduses Dynamics 365 Project Operations on *äritehing* abstraktne mõiste, mida olem ei esinda. Mõned olemite levinumad väljad ja protsessid on aga mõeldud äritehingute mõiste kasutamiseks. Järgmised olemid kasutavad seda kontseptsiooni.
-
-- Hinnapakkumise rea üksikasjad
-- Lepingurea üksikasjad
-- Hinnangu read
-- Töölehe read
-- Tegelikud
-
-Nende olemite seas **hinnapakkumise rea üksikasjade**, **lepingurea üksikasjade** ja **hinnangu read** vastendatakse projekti töötsükli prognoosi etapiga. **Töölehe read** ja **Tegelikud olemid** vastendatakse projekti töötsükli täitmise etapiga.
-
-Project Operations tuvastab kirjed nendes viies olemis äritehingutena. Ainus erinevus on see, et olemite kirjeid, mis on vastendatud prognoosi etapiga, loetakse finantsprognoosideks, kuid olemite kirjeid, mis on vastendatud täitmise etappidega, loetakse juba toimunud finantsfaktideks.
-
-## <a name="concepts-that-are-unique-to-business-transactions"></a>Ärikannetele kordumatud mõisted
-Järgmised mõisted on äritehingute mõiste jaoks kordumatud.
-
-- Tehingu tüüp
-- Tehingu klass
-- Tehingu päritolu
-- Tehingu seos
-
-### <a name="transaction-type"></a>Tehingu tüüp
-
-Tehingu tüüp tähistab projekti finantsmõju ajastust ja konteksti. Seda tähistab suvandikomplekt, millel on Project Operationsis järgmised toetatud väärtused.
-
-  - Kulu
-  - Projekti leping
-  - Arveldamata müük
-  - Arveldatud müük
-  - Organisatsioonidevaheline müük
-  - Ressursiühiku maksumus
-
-### <a name="transaction-class"></a>Tehingu klass
-
-Tehingu klass tähistab erinevat tüüpi kulusid, mis on seotud projektidega. Seda tähistab suvandikomplekt, millel on Project Operationsis järgmised toetatud väärtused.
-
-  - Aeg
-  - Kulu
-  - Materjal
-  - Tasu
-  - Vahe-eesmärk
-  - Maks
-
-Äriloogika kasutab suvandit **Vahekokkuvõte** tavaliselt Project Operationsis fikseeritud hinnaga arvete puhul.
-
-### <a name="transaction-origin"></a>Kande päritolu
-
-**Kande päritolu** on olem, mis talletab iga äritehingu päritolu. Kuna projekt algab, tekitab iga äritehing teise äritehingu, mis omakorda loob uue jne. Tehingu päritolu olem on välja töötatud selleks, et talletada andmeid iga tehingu päritolu kohta, et aidata aruandluse ja jälgimisega. 
-
-### <a name="transaction-connection"></a>Tehingu seos
-
-**Tehingu seos** on olem, mis talletab kahe sarnase äritehingu (nt kulu ja seotud müügi tegelikud näitajad) vahelisi seoseid või tehingu tagasipöördumist, mis käivitatakse arveldamise tegevuste (nt arve kinnituse või arve korrektsiooni) alusel.
-
-Olemid **Tehingu päritolu** ja **Tehingu seos** aitavad koos jälgida äritehingute ning toimingute vahelisi seoseid, mis põhjustavad kindla äritehingu loomist.
-
-### <a name="example-how-transaction-origin-works-with-transaction-connection"></a>Näide: kuidas tehingu päritolu töötab koos tehingu seosega
+Kande päritolukirjed luuakse, et linkida tegelikud andmed nende allikaga, näiteks ajakannete, kulukannete, materjali kasutuslogide ja projektiarvetega.
 
 Järgmises näites on toodud ajakannete tüüpiline töötlemine Project Operationsi projekti töötsüklis.
 
-> ![Ajakirjete töötlemine Project Service’i töötsüklis.](media/basic-guide-17.png)
+> ![Töötlemisaeg tervikuna Project Operationsis.](media/basic-guide-17.png)
  
-1. Ajakirje esitamine loob kaks töölehe rida: üks rida kulu ja üks rida arveldamata müügi jaoks.
-2. Ajakirje lõplik kinnitamine loob kaks tegelikku versiooni: üks tegelik väärtus kulu ja teine tegelik väärtus arveldamata müügi jaoks.
-3. Kui luuakse uus projekti arve, luuakse arverea tehing, kasutades arveldamata müügi tegelikke andmeid. 
-4. Pärast arve kinnitamist luuakse kaks uut tegelikku versiooni: arveldamata müügi tühistamise tegelik ja arveldatud müügi tegelik.
+1. Ajakande esitamisel luuakse kaks žurnaalirida: üks kulu ja teine sisestamata müügi jaoks.
+2. Ajakande lõplik kinnitamine põhjustab kahe tegeliku loomise: üks kulu ja teine sisestamata müügi jaoks.
+3. Kui kasutaja loob projekti arve, luuakse arverea tehing, kasutades arveldamata müügi tegelikke andmeid.
+4. Pärast arve kinnitamist luuakse kaks uut tegelikku versiooni: arveldamata müügi tühistamine ja arveldatud müügi tegelik.
 
-Kõik need sündmused loovad kirje olemites **Tehingu päritolu** ja **Tehingu seos**. Need uued kirjed aitavad luua kirjete vaheliste seoste ajaloo, mis loodi ajakirje, töölehe rea, tegelike ja arverea üksikasjade üleselt.
+Iga selle töötlemistöövoo sündmus käivitab olemis Transaction origin kirjete loomise, et aidata luua jälgi nende kirjete vahelistest seostest, mis on loodud ajakande, žurnaalirea, tegelike ja arverea üksikasjade vahel.
 
-Järgmises tabelis on toodud töövoo olemi **Tehingu päritolu** kirjed.
+Järgmises tabelis on kuvatud eelmise töövoo tehingute päritolu olemi kirjed.
 
-| Üritus                        | Päritolu                   | Päritolu tüüp                       | Kanne                       | Tehingu tüüp         |
+| Sündmus                        | Päritolu                   | Päritolu tüüp                       | Tehing                       | Tehingu tüüp         |
 |------------------------------|--------------------------|-----------------------------------|-----------------------------------|--------------------------|
 | Edasta ajakirje        | Ajakirje kirje GUID   | Ajakirje                        | Töölehe rea kirje GUID (kulu)   | Töölehe rida             |
 | Ajakirje kirje GUID       | Ajakirje               | Töölehe rea kirje GUID (müük)  | Töölehe rida                      |                          |
@@ -124,18 +69,9 @@ Järgmises tabelis on toodud töövoo olemi **Tehingu päritolu** kirjed.
 | Paranduse arve rea GUID           | Arve rida             | Uus arveldamata müügi tegelik GUID    | Tegelik                            |                          |
 | Parandatud arve GUID      | Arve                  | Uus arveldamata müügi tegelik GUID    | Tegelik                            |                          |
 
-Järgmises tabelis on toodud töövoo olemi **Tehingu seos** kirjed.
 
-| Üritus                          | Kanne 1                 | Tehingu 1 roll | Tehingu 1 tüüp           | Kanne 2                | Tehingu 2 roll | Tehingu 2 tüüp |
-|--------------------------------|-------------------------------|--------------------|------------------------------|------------------------------|--------------------|--------------------|
-| Edasta ajakirje          | Töölehe rea (müük) GUID     | Arveldamata müük     | msdyn_journalline            | Töölehe rea (kulu) GUID     | Kulu               | msdyn_journalline  |
-| Kinnitatud aeg                  | Arveldamata tegelik (müük) GUID  | Arveldamata müük     | msdyn_actual                 | Tegelike kulu (kulu) GUID       | Kulu               | msdyn_actual       |
-| Arve loomine               | Arve rea üksikasjade GUID      | Arveldatud müük       | msdyn_invoicelinetransaction | Arveldamata müügi tegelik GUID   | Arveldamata müük     | msdyn_actual       |
-| Arve kinnitamine           | Tegeliku GUID tagasipööramine         | Tagasipööramine          | msdyn_actual                 | Originaalne arveldamata müügi GUID | Algne           | msdyn_actual       |
-| Arveldatud müügi GUID              | Arveldatud müük                  | msdyn_actual       | Arveldamata müügi tegelik GUID   | Arveldamata müük               | msdyn_actual       |                    |
-| Arve paranduse mustand       | Arve rea tehingu GUID | Asendamine          | msdyn_invoicelinetransaction | Arveldatud müügi GUID            | Algne           | msdyn_actual       |
-| Arve parandamise kinnitamine     | Arveldatud müügi tagasipööramise GUID    | Tagasipööramine          | msdyn_actual                 | Arveldatud müügi GUID            | Algne           | msdyn_actual       |
-| Uus arveldamata müügi tegelik GUID | Asendamine                     | msdyn_actual       | Arveldatud müügi GUID            | Algne                     | msdyn_actual       |                    |
+Järgmisel joonisel on näidatud lingid, mis luuakse tegelike ja nende allikate vahel erinevatel sündmustel, kasutades projektitoimingute ajakirjete näidet.
 
+> ![Kuidas on tegelikud andmed projektitoimingutes lähtekirjetega lingitud?](media/TransactionOrigins.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

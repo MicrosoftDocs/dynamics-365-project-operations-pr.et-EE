@@ -4,14 +4,14 @@ description: Selles teemas antakse teavet, et aidata teha kindlaks oma ettevõtt
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994631"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584131"
 ---
 # <a name="determine-your-deployment-type"></a>Juurutamise tüübi määratlemine
 
@@ -25,7 +25,7 @@ _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaa
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Dynamicsi olemasolevad kliendid, kes kasutavad rakendust Dynamics 365 Project Service Automation
 Project Operations sisaldab võimalusi, mis tarnitakse koos rakendusega Project Service Automation. 2021. aasta väljalaske 1. laine klientidele väljastatakse versiooniuuenduse tee.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Rakenduse Dynamics 365 Finance olemasolevad kliendid, kes kasutavad projektihaldust ja raamatupidamist 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Projektijuhtimist ja raamatupidamist kasutavate Dynamics 365 Finance olemasolevad kliendid 
 
 Rakenduse Finance olemasolevad kliendid, kes kasutavad projektihalduse ja raamatupidamise funktsiooni, saavad jätkata selle endisel kujul kasutamist. Vaadake teemat [Project Operations ressursi/tootmise tellimuste stsenaariumite jaoks](#pma).
 
@@ -42,7 +42,7 @@ Meie [juurutuse küsimustik](https://aka.ms/provisionprojectoperations) aitab te
 - [Project Operations ressursi/mitteaktsia stsenaariumite jaoks](#integrated)
 - [Project Operations ressursi/tootmise tellimuste stsenaariumite jaoks](#pma)
 
-Project Operations toetab juriidilise olemi tasemel konfguratsioonide kaudu samas keskkonnas ladustatavat/tootmistellimuste stsenaariumeid ja mitteladustatavaid/ressursipõhiseid stsenaariumeid. Näiteks saab Contoso kasutada laopõhiseid/tootmistellimuste võimalusi oma USA tootmisüksuses (juriidiline isik = Contoso Manufacturing, Ameerika Ühendriigid). Contoso saab kasutada mittelaopõhiseid/ressursipõhiseid võimalusi oma ettevõtte Contoso Robotics Arms teenindusüksuses Ühendkuningriigis (juriidiline isik = Contoso Robotics, Ühendkuningriik).
+Project Operations toetab juriidilise olemi tasemel konfguratsioonide kaudu samas keskkonnas ladustatavat/tootmistellimuste stsenaariumeid ja mitteladustatavaid/ressursipõhiseid stsenaariumeid. Näiteks saab Contoso kasutada ladustatud/tootmistellimuse võimalusi oma USA tootmisettevõttes (juriidiline olem = Contoso tootmine Ameerika Ühendriikides). Contoso saab kasutada ladustatud/tootmistellimuse võimalusi oma Contoso robotõlgade hooldamise asutuses Ühendkuningriigis (juriidiline olem = Contoso robootika Ühendkuningriigis).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Lihtjuurutamine – tehing näidisarveldusele
 

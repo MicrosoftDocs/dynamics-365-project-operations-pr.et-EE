@@ -4,14 +4,14 @@ description: Selles teemas antakse üksikasjalikku teavet kliendile suunatud arv
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb8d470dbcaae48db7ec1b7c0d69d55c0c9e0f17
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989906"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585603"
 ---
 # <a name="manage-project-invoice-proposals"></a>Projekti arve ettepanekute haldamine
 
@@ -22,7 +22,7 @@ Teie arveosakond saab projekti arve ettepanekuid töödelda, kui on täidetud j�
   - Projektijuht kinnitab proforma arve rakenduses Microsoft Dataverse.
   - Kõik arveldamata aja- ja materjali müügitehingud, mis on kaasatud proforma arvesse, sisestatakse Dynamics 365 **Project Operations integratsiooni** töölehe abil.
 
-Projekti arve ettepaneku lõpetamiseks rakenduses Dynamics 365 Finance toimige järgmiselt.
+Projektiarve ettepaneku lõpuleviimiseks rakenduses Dynamics 365 Finance tehke järgmist.
 
 1. Vaadake üle aja- ja materjali tehingute arveldusteave ja sisestage tööleht **Project Operationsi integratsioon**.
 2. Vaadake üle fikseeritud hinnaga arveldamise vahe-eesmärkide arveldusandmed.

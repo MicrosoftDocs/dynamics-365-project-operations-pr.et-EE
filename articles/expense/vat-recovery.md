@@ -4,14 +4,14 @@ description: Selles teemas selgitatakse, kuidas saada kõlblike käibemaksutehin
 author: suvaidya
 ms.date: 10/10/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 64e9f4091fdf40cc702e83a165fe0a5be5043359348210bbe4afcd8a18055133
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7c961763d3d670117c5a576db485ebcfdcf9ec9f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999356"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581141"
 ---
 # <a name="vat-recovery-in-expense-management"></a>Käibemaksu sissenõudmine kuluhalduses
 
@@ -33,25 +33,25 @@ Pärast eeltingimuste täitmist tuleb käibemaksutehingutelt tagasimaksete saami
 4. Saatke käibemaksutagastuse andmed kolmanda osapoole tarnijale, et saaksite esitada rahvusvahelise tagasimakse nõude.
 5. Siseriikliku käibemaksutagastuse kulude töötlemine.
 
-Järgmistes jaotistes on toodud näited selle kohta, kuidas Contoso töötajad iga etapi läbivad.
+Järgmistes jaotistes on toodud näited, mis näitavad, kuidas Contoso töötajad iga etappi läbivad.
 
 ## <a name="enter-tax-information-about-credit-card-transactions-to-identify-eligible-vat-refunds"></a>Krediitkaarditehingute maksuteabe sisestamine, et tuvastada kõlblikud käibemaksutagastused
 
-Ameerika Ühendriikides asuv Contoso müügiesindaja Nancy, kes naasis hiljuti Ühendkuningriigist ärireisilt. Reisi ajal tekkisid Nancyle einestamisel mõned isikliku krediikaardi kulud. Nancy peab nüüd kulude ühitamiseks looma kuluaruande.
+Nancy, Contoso müügiesindaja, kes asub USA-s, naases hiljuti müügireisilt Ühendkuningriiki. Reisi ajal tekkisid Nancyle einestamisel mõned isikliku krediikaardi kulud. Nancy peab nüüd kulude ühitamiseks looma kuluaruande.
 
 Kui Nancy sisestab kuluandesse andmed, valib ta **Ühendkuningriik** väljal **Riik/piirkond** lehel **Kuluaruande redigeerimine**. Seejärel filtreeritakse käibemaksugrupi loend nii, et sellel oleks kuvatud ainult Ühendkuningriigi suhtes kohaldatavad rühmad. Nancy valib käibemaksugrupi **Ühendkuningriik 001** ja seejärel valib käibemaksugrupist üksuse **Eined**. Järgmisena lisab Nancy majutuse kohta uue tehingu. Kuna Ühendkuningriigi majutuse kohta on ainult üks käbiemaksugrupp ja üks üksuse käibemaksugrupp, täidetakse need andmed Nancy kuluaruandel automaatselt.
 
-Contoso poliitika kohaselt peab kõigil kuludel olema vastav kviitung. Seega, kui Nancy salvestab kuluaruande, saab ta teate, mis ütleb, et ta peab lisama kviitungi iga tema kuluaruandes loetletud tehingu kohta. Nancy kontrollib, et ta on lisanud oma kuluaruandele digitaalse pildi iga tehingu kviitungi kohta ja seejärel esitab aruande kinnitamiseks. Seejärel saadab ta paberkviitungid tugikeskuse töötlevale meeskonnale. See meeskond saadab kolmandast osapoolest tarnijale käibemaksu sissenõudmise andmed, mis esitab Contoso jaoks rahvusvahelise käibemaksu sissenõudmise.
+Contoso poliitika kohaselt peab kõigil kuludel olema vastav kviitung. Seega, kui Nancy salvestab kuluaruande, saab ta teate, mis ütleb, et ta peab lisama kviitungi iga tema kuluaruandes loetletud tehingu kohta. Nancy kontrollib, et ta on lisanud oma kuluaruandele digitaalse pildi iga tehingu kviitungi kohta ja seejärel esitab aruande kinnitamiseks. Seejärel saadab ta paberkviitungid tugikeskuse töötlevale meeskonnale. See meeskond saadab käibemaksutagastuse andmed kolmanda osapoole tarnijale, kes esitab Contosole rahvusvahelise käibemaksu tagastamise deklaratsiooni.
 
 ## <a name="verify-tax-information-and-post-an-expense-report"></a>Maksuteabe kontrollimine ja kuluaruande sisestamine
 
-Enne aprilli saab Contoso ostureskontro koordinaator sisestada kogu kuluaruandelt puuduva maksuteabe, enne kui aruande saab sisestada. Ta avab lehe **Kuluaruande üksikasjad** ja näeb Nancy kinnitatud kuluaruannet. April avab seejärel kuluaruande, et kuvada tehingute üksikasju. Ta näeb, et Nancy ei sisestanud ühe tehingu jaoks üksuse käibemaksugruppi. Kuna seda teavet ei ole antud, ei saa April kuluaruannet sisestada. Seetõttu vaatab ta kuluhalduse lehte **Maksukonfiguratsioonid** ja leiab riigile/piirkonnale ja tehingu tüübile sobiva käibemaksugrupi. April saab nüüd kuluaruande pearaamatusse sisestada.
+Enne kui April, Contoso ostureskontro koordinaator, saab kuluaruande sisestada, peab ta sisestama mistahes sellelt puuduvad maksuandmed. Ta avab lehe **Kuluaruande üksikasjad** ja näeb Nancy kinnitatud kuluaruannet. April avab seejärel kuluaruande, et kuvada tehingute üksikasju. Ta näeb, et Nancy ei sisestanud ühe tehingu jaoks üksuse käibemaksugruppi. Kuna seda teavet ei ole antud, ei saa April kuluaruannet sisestada. Seetõttu vaatab ta kuluhalduse lehte **Maksukonfiguratsioonid** ja leiab riigile/piirkonnale ja tehingu tüübile sobiva käibemaksugrupi. April saab nüüd kuluaruande pearaamatusse sisestada.
 
 Kui April kuluaruande sisestab, luuakse käibemaksutagastuse tööüksus. See tööüksus määratakse tugikeskuse töötleva meeskonna liikmele. April saab sõnumi, mis kinnitab, et sisestus oli edukas. Selles teates tuuakse välja ka tagastamiseks tuvastatud käibemaksutehingute number.
 
 ## <a name="process-expenses-that-are-eligible-for-international-vat-recovery"></a>Selliste kulude töötlemine, mis on kõlblikud saama rahvusvahelist käibemaksutagastust
 
-Contoso arveldusosakonna töötlemismeeskonna liige Arne vastutab selle eest, et kontrollida kogu kuluaruannetes olevat käibemaksu tagastusnõudmise kohta käivat teavet. Ta avab lehe **Kulu maksutagastus** ja valib Nancy esitatud kuluaruande. Seejärel Arnie kontrollib, et kõik nõutavad kviitungid on lisatud ja et sisestatud on õige käibemaksugrupi ja üksuse käibemaksukoodid.
+Arnie on Contoso tugikeskuse töötleva meeskonna liige, kes kontrollib, et kõik käibemaksutagastuse nõutavad andmed on kuluaruannetel kajastatud. Ta avab lehe **Kulu maksutagastus** ja valib Nancy esitatud kuluaruande. Seejärel Arnie kontrollib, et kõik nõutavad kviitungid on lisatud ja et sisestatud on õige käibemaksugrupi ja üksuse käibemaksukoodid.
 
 Kui Arnie saab Nancylt paberkviitungid, kontrollib ta neid digitaalsete kviitungite suhtes ja seejärel muudab kuluaruande olekuks **Tagasimakseks valmis**.
 

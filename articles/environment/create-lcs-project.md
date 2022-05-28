@@ -4,14 +4,14 @@ description: Selles teemas antakse teavet teie Project Operationsi keskkonna jao
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 425cd38c204a67cda9ce03bdc96b728e03499c87aeddd6f62924b57e16b21167
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 842ccaeed53f8829b7520a420972c2e31ebf4821
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989951"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584177"
 ---
 # <a name="start-a-new-lcs-project"></a>Uue LCS-projekti loomine
 
@@ -27,7 +27,7 @@ Kasutage teenust Lifecycle Services (LCS) oma Dynamics 365 Project Operationsi k
   ![LCS-i projektitüübi valimine.](./media/create-lcs-1.png)
 
 5. Pange projektile nimi. 
-6. Valige toote nimeks **Finance and Operations** ja valige soovitud tööstusharu ja metoodika. 
+6. Valige **tootenimeks Finance and Operations** ning valige tööstusharu ja metoodika. 
 7. Valige käsk **Loo**.
 
 ![LCS-i projekti loomine.](./media/create-lcs-2.png)

@@ -3,16 +3,15 @@ title: Kontsernisisese arvelduse ülevaade
 description: Selles teemas on toodud teave ja näited projektide kontsernisisese arveldamise kohta.
 author: sigitac
 ms.date: 11/19/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: b7bb4384657c71552390bbc3d60f3c5d0e4136b4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005386"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586247"
 ---
 # <a name="intercompany-invoicing-overview"></a>Kontsernisisese arvelduse ülevaade
 
@@ -20,7 +19,7 @@ _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
 Teie organisatsioonis võib olla mitu allüksust, tütarettevõtet ja muud juriidilist isikut, kes edastavad üksteisele tooteid ja teenuseid projektidele. Teenust või toodet pakkuva juriidilise isiku nimi on *laenu andev juriidiline olem*. Teenust või toodet saava juriidilise isiku nimi on *laenav juriidiline olem*.
 
-Järgmisel pildil on kujutatud tüüpiline stsenaarium, kus kaks juriidilist üksust: Contoso Robotics USA (laenav juriidiline isik) ja Contoso Robotics UK (laenu andev juriidiline isik) jagavad ressursse projekti kohale toimetamiseks kliendile Adventure Works. Selle stsenaariumi puhul sõlmtakse ettevõttele Adventure Works töö tegemiseks leping ettevõttega Contoso Robotics USA.
+Järgmisel joonisel on kujutatud tüüpiline stsenaarium, kus kaks juriidilist olemit Jõgi Robootika USA (laenav juriidiline olem) ja Jõgi Robootika UK (laenu andev juriidiline olem) jagavad ressursse, et viia ellu projekt kliendi Seiklusmängud jaoks. Selle stsenaariumi korral on Jõgi Robootika USA sõlminud lepingu tegema tööd ettevõtte Seikusmängud heaks.
 
 ![Kontsernisisesed arved.](./media/IntercompanyScenario.png) 
 

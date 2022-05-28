@@ -4,14 +4,14 @@ description: See teema sisaldab teavet selle kohta, kuidas häälestada tulukalk
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 487e3de7895ca0752e6c9033c7bb7007ba89301c01e6205b3bc8a7d750724bc9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 83cf88bafbc7fc97fba664e278b232c24db53391
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998771"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580451"
 ---
 # <a name="period-types"></a>Perioodi tüübid
 
@@ -22,7 +22,7 @@ Perioodi tüüp määratleb, kui sageli projekti tulusid arvutatakse. See teema 
 ## <a name="create-and-work-with-period-types"></a>Perioodi tüüpide loomine ja nendega töötamine
 Perioodi tüüpide loomiseks ja nendega töötamiseks tehke järgmist.
 
-1. Avage oma rakenduse Dynamics 365 Finance keskkonnas suvand **Projektihaldus ja raamatupidamine** > **Häälestus** > **Kalkulatsioonid** > **Perioodi tüübid**.
+1. Avage Dynamics 365 Finance keskkonnas **projektihalduse ja raamatupidamise** > **seadistushinnangute** > **·** > **perioodi tüübid**.
 2. Uue perioodi tüübi loomiseks valige **Uus**. Sisestage nimi ja kirjeldus.
 3. Väljal **Sagedus** valige väärtus.
 

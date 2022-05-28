@@ -3,19 +3,19 @@ title: Näidisandmete installimine
 description: Selles teemas antakse teavet Project Service Automationis näidisandmete installimise kohta.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
 author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 952f3c3c037bb8459bdd1400288c4ea8604ce282
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985541"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581831"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Näidisandmete installimine Project Service’i rakendusele
 
@@ -135,7 +135,7 @@ Demoandmete paketi jaoks on vaja kuut kasutajat. Selleks et pakett õigesti inst
     - Kontohaldur, kasutaja täisnimi = "Molly Clark"   
     - Praktika- ja projektijuht, kasutaja täisnimi = "Spencer Low"  
     - Meeskonnaliige, kasutaja täisnimi = "Veronica Quek"   
-    - Kasutaja täisnimi = Erik Contoso
+    - Kasutaja täisnimi = "William Jõgi"
   
 2. Demoandmete importimiseks määrake ülaltoodud kuuele kasutajale administraatori roll, et näidiskirjed õigesti imporditaks. 
 

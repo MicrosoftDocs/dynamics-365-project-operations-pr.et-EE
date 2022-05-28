@@ -6,29 +6,25 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f12cdba286a9e29e2c4eb4041effbe779cba65f3562684d625b21bc3bae809d6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: c15db854e3d130150ad7afc707a126b37c57f62d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986711"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582798"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Paranduste töölehtede loomine ja kinnitamine
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Mõnikord võib aja- või kulukirje olla valesti sisestatud. Näiteks võib konsultant ajakirje loomisel valida vale kuupäev või kulu sisestades numbrite järjekorda muuta. Kui konsultant ei saa esitatud kirjetele värskendusi teha, saab administraator projekti kirje otse ära parandada.
-
-Selle teema toimingute lõpuleviimiseks on teil vaja administraatori õigusi.
+Mõnikord võib aja- või kulukanne sisestada valesti. Näiteks võib konsultant valida ajakirje loomisel vale kuupäeva või valida kulu sisestamisel vale projekti. Kui konsultant ei saa esitatud kandeid värskendada, saab tagavaraadministraator projekti tegelikud andmed otse parandada.
 
 ## <a name="correct-approved-time-entries"></a>Kinnitatud ajakirjete parandamine     
 
@@ -46,8 +42,8 @@ Projekti ühe või mitme ajakirje parandamiseks läbige järgmised sammud.
 
 6. Valige **Eelvaade**. Valkige dialoogiboksis **OK**. Vahekaardil **Töölehe read** saate vaadata algsete tegelike näitajate loendit, mis on seotud valitud ajakannetega, mis on tagasipööratud, ja neile vastavate loodud parandatud ridadega. Kui tuleb teha täiendavaid parandusi, korrake etappe 5 ja 6. 
 
-> [!NOTE]
-> Kõik parandatud tegelikud väärtused on samad, mille valisite jaotises **Ajakannete uued väärtused**.
+    > [!NOTE]
+    > Kõik parandatud tegelikud väärtused on samad, mille valisite jaotises **Ajakannete uued väärtused**.
 
 7. Kui parandust kuvatakse nii nagu eeldati, valige **Kinnita**. Valkige dialoogiboksis **OK**.
 
@@ -55,12 +51,10 @@ Projekti ühe või mitme ajakirje parandamiseks läbige järgmised sammud.
 
 9. Vaadake tehtud muudatusi lehe **Projektid** vahekaardil **Tegelikud näitajad**. 
 
-> [!NOTE]
-> Kui vahekaart **Tegelikud näitajad** ei ole kuvatud, valige **Seostuvad** > **Tegelikud näitajad**.  
+    > [!NOTE]
+    > Kui vahekaart **Tegelikud näitajad** ei ole kuvatud, valige **Seostuvad** > **Tegelikud näitajad**.  
 
 10. Loendis **Tegelik seostatud vaade** näete, et tagasipööratud algsed ajakanded on endiselt loetletud, nagu on ka vastavad parandatud ajakanded. 
-
-Näiteks on järgmisel joonisel kaks reaüksust kogustega 8.00, millel on summa veerus loetletud deebetid. Lisaks on kaks reaüksust kogusega -8.00, mis näitavad summa veerus krediteeritud summasid. Need parandused viivad koguse nulli.
 
  
 ## <a name="correct-approved-expense-entries"></a>Kinnitatud kulukirjete parandamine
@@ -79,14 +73,30 @@ Näiteks on järgmisel joonisel kaks reaüksust kogustega 8.00, millel on summa 
 
 6. Kui parandatud väärtused on sellised nagu eeldati, valige **Kinnita**. Valkige dialoogiboksis **OK.** Kui väärtused ei ole näidatud nii nagu eeldatud, valige **Tühista**, et naasta loendisse **Kinnitatud kulud**. Korrake toiminguid 2 kuni 5. 
 
-> [!NOTE]
-> Parandatud tegelikud väärtused on samad, mille valisite jaotises **Kulude uued väärtused**.
+7. Pärast parandustöölehe kinnitamist naaske muudatuste vaatamiseks värskendatud projekti või projektide juurde.
 
-7. Pärast paranduste töölehe kinnitamist minge tagasi värskendatud projekti või projektide juurde, et saaksite oma muudatusi vaadata.  
-
-8. Vaadake projekti lehe vahekaardil **Tegelikud näitajad** välja **Tegelik seostatud vaade**. Loetletud on algsed kirjed ja parandatud kirjed. Järgmisel joonisel on kuvatud algsed kulukirje summad ja vastavad parandatud kulukirje summad. 
+8. Vaadake projekti lehel vahekaardil **Tegelikud andmed üle** loend Tegelik seostatud **vaade**. Loetletud on algsed kirjed ja parandatud kirjed.
 
 
+## <a name="correct-approved-material-usage-logs"></a>Parandatud kinnitatud materjali kasutuslogid
+
+Ühe või mitme materjali kasutuslogi kande parandamiseks tehke järgmist.
+
+1. Valige **alal Müük** vasakpoolsel navigeerimispaanil jaotises **Kanded** väärtus **Tegelikud**.
+
+2. **Kasutage loendis Tegelikud veerufiltrid** materjalikande **klassi valimiseks**, nii et kuvatakse ainult materjalide tegelikud tegelikud andmed. Kuvatavate tegelike lahtrite edasiseks piiramiseks kasutage muid veerufiltreid. Pärast soovitud tegelike kogumi leidmist valige tegelikud andmed ja seejärel valige **Õiged kanded**. Luuakse automaatselt uus parandustööleht ja **määratakse materjaliparanduse** tüüp.
+
+3. Sisestage **lehe Uus tööleht** väljale **Kirjeldus** paranduse kirjeldus. **Seejärel valige menüü** Materjaliparandus **jaotises Uued materjaliväärtused** valitud materjaliridade jaoks korrigeeritavad andmeväljad. Näiteks saate materjali määrata mõnele muule projektile või parandada toodet, materjali kuupäeva või allhankelepingut.
+
+4. Valige **Eelvaade**. Seejärel valige dialoogiboksis **OK**.
+
+5. Kontrollige vahekaardil **Töölehe read** parandusi. Saate vaadata loendit algsetest tegelikest, mis on seotud tühistatud valitud materjalikannetega ja loodud parandatud vastavate ridadega.
+
+6. Kui parandatud väärtused on sellised nagu eeldati, valige **Kinnita**. Seejärel valige dialoogiboksis **OK**. Kui väärtused pole ootuspärased, valige **loendisse Tegelikud** naasmiseks **Loobu**. Seejärel korrake samme 2 kuni 5.
+
+7. Pärast parandustöölehe kinnitamist naaske muudatuste vaatamiseks värskendatud projekti või projektide juurde.
+
+8. Vaadake projekti lehel vahekaardil **Tegelikud andmed üle** loend Tegelik seostatud **vaade**. Loetletud on algsed kirjed ja parandatud kirjed.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

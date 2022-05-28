@@ -4,29 +4,29 @@ description: See teema sisaldab teavet integreerimise töölehega töötamise ko
 author: sigitac
 ms.date: 10/27/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5e1a455d055fe562a1946cc3b90c8274ef1a4b12
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987926"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582429"
 ---
 # <a name="integration-journal-in-project-operations"></a>Integreerimise tööleht rakenduses Project Operations
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Aja- ja kulukirjed loovad **tegelikud** tehingud, mis esindavad projektiga seoses lõpule viidud töö toiminguvaadet. Dynamics 365 Project Operations pakub raamatupidajatele tööriista, et vaadata tehinguid ja muuta vastavalt vajadusele raamatupidamise atribuute. Pärast läbivaatamise ja korrigeerimise lõpetamist sisestatakse kanded projekti alammoodulisse ja pearaamatusse. Raamatupidaja saab teha need toimingud kasutades töölehte **Project Operationsi integreerimine** suvandis **Dynamics 365 Finance** > **Projektihaldus ja raamatupidamine** > **Töölehed** >  tööleht **Project Operationsi integreerimine**.
+Aja- ja kulukirjed loovad **tegelikud** tehingud, mis esindavad projektiga seoses lõpule viidud töö toiminguvaadet. Dynamics 365 Project Operations pakub raamatupidajatele tööriista, et vaadata tehinguid ja muuta vastavalt vajadusele raamatupidamise atribuute. Pärast läbivaatamise ja korrigeerimise lõpetamist sisestatakse kanded projekti alammoodulisse ja pearaamatusse. Raamatupidaja saab neid toiminguid teha projektitoimingute integreerimise töölehel(Dynamics 365 Finance Projektihaldus- ja raamatupidamisžurnaalid **Projektioperatsioonide** integreerimine **.** > **·** > **·** > **·**
 
 ![Integreerimise töölehe voog.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Kirjete loomine Project Operationsi integreerimise töölehel
 
-Project Operationsi integreerimise töölehe kirjed luuakse kasutades perioodilist protsessi **Koondtabelist importimine**. Saate selle protsessi käivitada, kui avate **Dynamics 365 Finance** > **Projektihaldus ja raamatupidamine** > **Perioodiline** > **Project Operationsi integreerimine** > **Koondtabelist importimine**. Saate vastavalt vajadusele käivitada toimingu interaktiivselt või konfigureerida protsessi töötama taustal.
+Project Operationsi integreerimise töölehe kirjed luuakse kasutades perioodilist protsessi **Koondtabelist importimine**. Seda protsessi saate käivitada **, minnes Dynamics 365 Finance** > **Projektihaldus ja raamatupidamine** > **Perioodiliste** > **projektitoimingute integreerimise** > **import lavastustabelist**. Saate vastavalt vajadusele käivitada toimingu interaktiivselt või konfigureerida protsessi töötama taustal.
 
 Kui perioodiline protsess töötab, leitakse kõik tegelikud näitajad, mis ei ole veel Project Operationsi integreerimise töölehele lisatud. Luuakse iga tegeiku tehingu töölehe rida.
-Süsteem rühmitab töölehe read eraldi töölehtedeks vastavalt väljal **Project Operationsi integreerimise töölehe perioodi ühik** valitud väärtusele (**Finance** > **Projektihaldus ja raamatupidamine** > **Seadistus** > **Projektihalduse ja raamatupidamise parameetrid**, vahekaart **Project Operations teenuses Dynamics 365 Customer Engagement**). Selle välja võimalikud väärtused on hõlmavad.
+Süsteem rühmitab žurnaaliread eraldi töölehtedeks, lähtudes väljal Projektitoimingute integreerimise tööleht väljal Perioodi üksus valitud **väärtusest (** Finantsprojekti **haldus ja raamatupidamine** > **Setup** > **Project management and accounting parameters** > **,** Project Operations on Dynamics 365 Customer Engagement **).** Selle välja võimalikud väärtused on hõlmavad.
 
   - **Päevad**: tegelikud näitajad rühmitatakse tehingu kuupäeva järgi. Iga päeva jaoks luuakse eraldi tööleht.
   - **Kuud**: tegelikud näitajad on rühmitatud kalendrikuu järgi. Iga kuu jaoks luuakse eraldi tööleht.
@@ -40,10 +40,10 @@ Tööleh read luuakse vastavalt projekti tegelikele näitajatele. Järgnev loend
   - Väli **Kanne** näitab iga tegeliku tehingu kande numbrit. Kande numbri järjestuse määratleb vahekaart **Numbriseeriad** lehel **Projektihalduse ja raamatupidamise parameetrid**. Igale reale määratakse uus number. Pärast kande sisestamist saate vaadata, kuidas kulu- ja arveldamata müügitehingud on seotud, valided lehel **Kande tehingud** suvandi **Seotud kanded**.
   - Väli **Kategooria** näitab seotud projekti tegelike näitajate tehingu kategooriate põhjal projekti tehingut ja vaikeväärtusi.
     - Kui **Tehingu kategooria** on projekti tegelikes näitajates määratud ja seotud **Projekti kategooria** on kindlas juriidilises olemis olemas, on kategooria vaikeväärtuseks see projekti kategooria.
-    - Kui **Kande kategooria** pole projekti tegelikes näitajates määratud, kasutab süsteem välja **Projekti kategooria vaikeväärtused** väärtust vahekaardil **Project Operations teenuses Dynamics 365 Customer Engagement** lehel **Projektihalduse ja raamatupidamise parameetrid**.
+    - Kui **kategooria** Kanne pole projekti tegelikus komplektis määratud, kasutab süsteem lehe Projektihaldus- ja raamatupidamisparameetrite **vahekaardi** Projektitoimingud **Dynamics 365 Customer Engagement** välja **Projekti kategooria vaikesätted olevat väärtust**.
   - Väli **Ressurss** näitab selle tehinguga seotud projekti ressurssi. Ressurssi kasutatakse kliendile tehtavates projekti arve ettepanekutes viitena.
-  - Välja **Vahetuskurss** vaikeväärtus pärineb suvandist **Valuuta vahetuskurss**, mis on määratud rakenduses Dynamics 365 Finance. Kui vahetuskursi seadistus puudub, ei lisa **koondtabelist importimise** perioodiline protsess töölehele kirjet ja töö täitmise logisse lisatakse tõrketeade.
-  - Väli **Rea atribuut** tähistab projekti tegelike näitajate arve tüüpi. Rea atribuudi ja arve tüübi vastendamine on määratletud vahekaardil **Project Operations teenuses Dynamics 365 Customer Engagement** lehel **Projektihaldus ja raamatupidamise parameetrid**.
+  - Valuutakursi **·** **väli on vaikimisi Dynamics 365 Finance. aastal määratud valuutakursilt**. Kui vahetuskursi seadistus puudub, ei lisa **koondtabelist importimise** perioodiline protsess töölehele kirjet ja töö täitmise logisse lisatakse tõrketeade.
+  - Väli **Rea atribuut** tähistab projekti tegelike näitajate arve tüüpi. Rea atribuut ja arveldustüübi vastendamine on määratletud **lehe Projektihaldus- ja raamatupidamisparameetrite vahekaardil** Projektitoimingud **Dynamics 365 Customer Engagement**.
 
 Rakenduse Project Operations integreerimise töölehe ridadel saab värskendada ainult järgmisi raamatupidamise atribuute:
 

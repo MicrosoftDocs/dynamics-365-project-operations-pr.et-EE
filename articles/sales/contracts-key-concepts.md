@@ -4,26 +4,26 @@ description: Selles teemas antakse teavet projektilepingute peamiste mõistete k
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986936"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582935"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Projektipõhiste lepingute kordumatud mõisted
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Selles teemas käsitletakse põhimõisteid, millest tuleb teadlik olla enne, kui hakkate kasutama projekti lepinguid rakenduses Dynamics 365 Project Operations.
 
 ## <a name="owning-company"></a>Omanikust ettevõte
 
-Omanikust ettevõte on juriidiline olem rakenduse Dynamics 365 Finance Project Operationsi moodulis **Projektide haldamine ja raamatupidamine**. Omanikust ettevõte esindab juriidilist olemit, mis arvestab tehinguga seotud kulu ja tulu.
+Omanik on juriidiline isik projektijuhtimise ja raamatupidamise **moodulist** Project Operations alates Dynamics 365 Finance. Omanikust ettevõte esindab juriidilist olemit, mis arvestab tehinguga seotud kulu ja tulu.
 
 ## <a name="contracting-unit"></a>Lepingut sõlmiv üksus
 
