@@ -2,16 +2,16 @@
 title: Projekti ajakava API-de kasutamine ajastamise olemitega toimingute tegemiseks
 description: Selles teemas on toodud teave ja näited projekti ajakava API-de kasutamise kohta.
 author: sigitac
-ms.date: 09/09/2021
+ms.date: 01/13/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
-ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
-ms.translationtype: HT
+ms.openlocfilehash: cabdf9716e4e25ed682368b99a87b3a3bf483cca
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7487680"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8592043"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Projekti ajakava API-de kasutamine ajastamise olemitega toimingute tegemiseks
 
@@ -42,7 +42,7 @@ OperationSet on tööühiku muster, mida saab kasutada juhul, kui kandes tuleb t
 
 Järgnev on praeguste projekti ajakava API-de loend.
 
-- **msdyn_CreateProjectV1**: seda API-d saab kasutada projekti loomiseks. Projekt ja vaikimisi projektisalv luuakse kohe.
+- **msdyn_CreateProjectV1**: seda API-d saab kasutada projekti loomiseks. Projekt ja projekti vaikeämber luuakse kohe.
 - **msdyn_CreateTeamMemberV1**: seda API-d saab kasutada projektimeeskonna liikme loomiseks. Meeskonnaliikme kirje luuakse kohe.
 - **msdyn_CreateOperationSetV1**: seda API-d saab kasutada mitme taotluse ajastamiseks, mis tuleb kande sees teha.
 - **msdyn_PSSCreateV1**: seda API-d saab kasutada olemi loomiseks. Olem võib olla mis tahes priekti ajastamise olemitest, mis toetab loomistoimingut.
@@ -58,12 +58,12 @@ Kuna nii API **CreateProjectV1** kui ka **CreateTeamMemberV1** kirjed luuakse ko
 
 | Olemi ajastamine | Koosta | Värskendus | Kustutusklahv (Delete) | Olulised kaalutlused |
 | --- | --- | --- | --- | --- |
-Projekti ülesanne | Ja | Ja | Ja | Pole |
-| Projektiülesande sõltuvus | Ja | Ja | | Projektiülesande sõltuvuskirjeid ei värskendata. Selle asemel saab vana kirje kustutada ja luua uue kirje. |
+Projekti ülesanne | Ja | Ja | Ja | Välju **Edenemine**, **pingutustäpne ja** Järelejäänud **saab** redigeerida project for the Webis, kuid neid ei saa Project Operationsis redigeerida.  |
+| Projektiülesande sõltuvus | Ja |  | Ja | Projektiülesande sõltuvuskirjeid ei värskendata. Selle asemel saab vana kirje kustutada ja luua uue kirje. |
 | Ressursi määramine | Ja | Ja | | Järgmiste väljadega toiminguid ei toetata: **BookableResourceID** (Broneeritava ressursi ID), **Effort** (Panus), **EffortCompleted** (Lõpule viidud panus), **EffortRemaining** (Järelejäänud panus) ja **PlannedWork** (Planeeritud töö). Ressursi määramise kirjeid ei värskendata. Selle asemel saab vana kirje kustutada ja luua uue kirje. |
-| Projektisalv | Puudub | Puudub | Puudub | Vaikesalv luuakse API-d **CreateProjectV1** kasutades. |
+| Projektisalv | Ja | Ja | Ja | Vaikeämber luuakse CreateProjectV1 **API abil**. Projektiämbrite loomise ja kustutamise tugi lisati värskendusväljaandesse 16. |
 | Projektimeeskonna liige | Ja | Ja | Ja | Kasutage loomistoiminguks API-d **CreateTeamMemberV1**. |
-| Project | Ja | Ja | Puudub | Järgmiste väljadega toiminguid ei toetata: **StateCode** (Olekukood), **BulkGenerationStatus** (Hulgiloomise olek), **GlobalRevisionToken** (Üldine redaktsioonitõend), **CalendarID** (Kalendri ID), **Effort** (Panus), **EffortCompleted** (Lõpule jõudnud panus), **EffortRemaining** (Järelejäänud panus), **Progress** (Edenemine), **Finish** (Lõpp), **TaskEarliestStart** (Ülesande varajaseim algus) ja **Duration** (Kestus). |
+| Project | Ja | Ja |  | Järgmiste väljadega toiminguid ei toetata: **StateCode** (Olekukood), **BulkGenerationStatus** (Hulgiloomise olek), **GlobalRevisionToken** (Üldine redaktsioonitõend), **CalendarID** (Kalendri ID), **Effort** (Panus), **EffortCompleted** (Lõpule jõudnud panus), **EffortRemaining** (Järelejäänud panus), **Progress** (Edenemine), **Finish** (Lõpp), **TaskEarliestStart** (Ülesande varajaseim algus) ja **Duration** (Kestus). |
 
 Neid API-sid saab kutsuda olemiobjektidega, mis sisaldavad kohandatud välju.
 
@@ -71,196 +71,207 @@ ID atribuut on valikuline. Kui see on antud, proovib süsteem seda kasutada ja l
 
 ## <a name="restricted-fields"></a>Piiratud väljad
 
-Järgmistes tabelites määratletakse väljad, mille **loomine** ja **redigeerimine** on piiratud.
+Järgmised tabelid määratlevad väljad, mis on piiratud jaotisega **Loo** ja **redigeerimine**.
 
 ### <a name="project-task"></a>Projekti ülesanne
 
-| **Loogiline nimi**                       | **Saab luua** | **Saab redigeerida**     |
+| Loogiline nimi                           | Saab luua     | Saab redigeerida         |
 |----------------------------------------|----------------|------------------|
-| msdyn_actualcost                       | ei             | ei               |
-| msdyn_actualcost_base                  | ei             | ei               |
-| msdyn_actualend                        | ei             | ei               |
-| msdyn_actualsales                      | ei             | ei               |
-| msdyn_actualsales_base                 | ei             | ei               |
-| msdyn_actualstart                      | ei             | ei               |
-| msdyn_costatcompleteestimate           | ei             | ei               |
-| msdyn_costatcompleteestimate_base      | ei             | ei               |
-| msdyn_costconsumptionpercentage        | ei             | ei               |
-| msdyn_effortcompleted                  | ei             | ei               |
-| msdyn_effortestimateatcomplete         | ei             | ei               |
-| msdyn_iscritical                       | ei             | ei               |
-| msdyn_iscriticalname                   | ei             | ei               |
-| msdyn_ismanual                         | ei             | ei               |
-| msdyn_ismanualname                     | ei             | ei               |
-| msdyn_ismilestone                      | ei             | ei               |
-| msdyn_ismilestonename                  | ei             | ei               |
-| msdyn_LinkStatus                       | ei             | ei               |
-| msdyn_linkstatusname                   | ei             | ei               |
-| msdyn_msprojectclientid                | ei             | ei               |
-| msdyn_plannedcost                      | ei             | ei               |
-| msdyn_plannedcost_base                 | ei             | ei               |
-| msdyn_plannedsales                     | ei             | ei               |
-| msdyn_plannedsales_base                | ei             | ei               |
-| msdyn_pluginprocessingdata             | ei             | ei               |
-| msdyn_progress                         | ei             | ei (jah P4W jaoks) |
-| msdyn_remainingcost                    | ei             | ei               |
-| msdyn_remainingcost_base               | ei             | ei               |
-| msdyn_remainingsales                   | ei             | ei               |
-| msdyn_remainingsales_base              | ei             | ei               |
-| msdyn_requestedhours                   | ei             | ei               |
-| msdyn_resourcecategory                 | ei             | ei               |
-| msdyn_resourcecategoryname             | ei             | ei               |
-| msdyn_resourceorganizationalunitid     | ei             | ei               |
-| msdyn_resourceorganizationalunitidname | ei             | ei               |
-| msdyn_salesconsumptionpercentage       | ei             | ei               |
-| msdyn_salesestimateatcomplete          | ei             | ei               |
-| msdyn_salesestimateatcomplete_base     | ei             | ei               |
-| msdyn_salesvariance                    | ei             | ei               |
-| msdyn_salesvariance_base               | ei             | ei               |
-| msdyn_scheduleddurationminutes         | ei             | ei               |
-| msdyn_scheduledend                     | ei             | ei               |
-| msdyn_scheduledstart                   | ei             | ei               |
-| msdyn_schedulevariance                 | ei             | ei               |
-| msdyn_skipupdateestimateline           | ei             | ei               |
-| msdyn_skipupdateestimatelinename       | ei             | ei               |
-| msdyn_summary                          | ei             | ei               |
-| msdyn_varianceofcost                   | ei             | ei               |
-| msdyn_varianceofcost_base              | ei             | ei               |
+| msdyn_actualcost                       | No             | No               |
+| msdyn_actualcost_base                  | No             | No               |
+| msdyn_actualend                        | No             | No               |
+| msdyn_actualsales                      | No             | No               |
+| msdyn_actualsales_base                 | No             | No               |
+| msdyn_actualstart                      | No             | No               |
+| msdyn_costatcompleteestimate           | No             | No               |
+| msdyn_costatcompleteestimate_base      | No             | No               |
+| msdyn_costconsumptionpercentage        | No             | No               |
+| msdyn_effortcompleted                  | Ei (jah projektile)             | Ei (jah projektile)               |
+| msdyn_effortremaining                  | Ei (jah projektile)              | Ei (jah projektile)                |
+| msdyn_effortestimateatcomplete         | No             | No               |
+| msdyn_iscritical                       | No             | No               |
+| msdyn_iscriticalname                   | No             | No               |
+| msdyn_ismanual                         | No             | No               |
+| msdyn_ismanualname                     | No             | No               |
+| msdyn_ismilestone                      | No             | No               |
+| msdyn_ismilestonename                  | No             | No               |
+| msdyn_LinkStatus                       | No             | No               |
+| msdyn_linkstatusname                   | No             | No               |
+| msdyn_msprojectclientid                | No             | No               |
+| msdyn_plannedcost                      | No             | No               |
+| msdyn_plannedcost_base                 | No             | No               |
+| msdyn_plannedsales                     | No             | No               |
+| msdyn_plannedsales_base                | No             | No               |
+| msdyn_pluginprocessingdata             | No             | No               |
+| msdyn_progress                         | Ei (jah projektile)             | Ei (jah projektile) |
+| msdyn_remainingcost                    | No             | No               |
+| msdyn_remainingcost_base               | No             | No               |
+| msdyn_remainingsales                   | No             | No               |
+| msdyn_remainingsales_base              | No             | No               |
+| msdyn_requestedhours                   | No             | No               |
+| msdyn_resourcecategory                 | No             | No               |
+| msdyn_resourcecategoryname             | No             | No               |
+| msdyn_resourceorganizationalunitid     | No             | No               |
+| msdyn_resourceorganizationalunitidname | No             | No               |
+| msdyn_salesconsumptionpercentage       | No             | No               |
+| msdyn_salesestimateatcomplete          | No             | No               |
+| msdyn_salesestimateatcomplete_base     | No             | No               |
+| msdyn_salesvariance                    | No             | No               |
+| msdyn_salesvariance_base               | No             | No               |
+| msdyn_scheduleddurationminutes         | No             | No               |
+| msdyn_scheduledend                     | No             | No               |
+| msdyn_scheduledstart                   | No             | No               |
+| msdyn_schedulevariance                 | No             | No               |
+| msdyn_skipupdateestimateline           | No             | No               |
+| msdyn_skipupdateestimatelinename       | No             | No               |
+| msdyn_summary                          | No             | No               |
+| msdyn_varianceofcost                   | No             | No               |
+| msdyn_varianceofcost_base              | No             | No               |
 
 ### <a name="project-task-dependency"></a>Projektiülesande sõltuvus
 
-| **Loogiline nimi**              | **Saab luua** | **Saab redigeerida** |
+| Loogiline nimi                  | Saab luua     | Saab redigeerida     |
 |-------------------------------|----------------|--------------|
-| msdyn_linktype                | ei             | ei           |
-| msdyn_linktypename            | ei             | ei           |
-| msdyn_predecessortask         | jah            | ei           |
-| msdyn_predecessortaskname     | jah            | ei           |
-| msdyn_project                 | jah            | ei           |
-| msdyn_projectname             | jah            | ei           |
-| msdyn_projecttaskdependencyid | jah            | ei           |
-| msdyn_successortask           | jah            | ei           |
-| msdyn_successortaskname       | jah            | ei           |
+| msdyn_linktype                | No             | No           |
+| msdyn_linktypename            | No             | No           |
+| msdyn_predecessortask         | Ja            | No           |
+| msdyn_predecessortaskname     | Ja            | No           |
+| msdyn_project                 | Ja            | No           |
+| msdyn_projectname             | Ja            | No           |
+| msdyn_projecttaskdependencyid | Ja            | No           |
+| msdyn_successortask           | Ja            | No           |
+| msdyn_successortaskname       | Ja            | No           |
 
 ### <a name="resource-assignment"></a>Ressursi määramine
 
-| **Loogiline nimi**             | **Saab luua** | **Saab redigeerida** |
+| Loogiline nimi                 | Saab luua     | Saab redigeerida     |
 |------------------------------|----------------|--------------|
-| msdyn_bookableresourceid     | jah            | ei           |
-| msdyn_bookableresourceidname | jah            | ei           |
-| msdyn_bookingstatusid        | ei             | ei           |
-| msdyn_bookingstatusidname    | ei             | ei           |
-| msdyn_committype             | ei             | ei           |
-| msdyn_committypename         | ei             | ei           |
-| msdyn_effort                 | ei             | ei           |
-| msdyn_effortcompleted        | ei             | ei           |
-| msdyn_effortremaining        | ei             | ei           |
-| msdyn_finish                 | ei             | ei           |
-| msdyn_plannedcost            | ei             | ei           |
-| msdyn_plannedcost_base       | ei             | ei           |
-| msdyn_plannedcostcontour     | ei             | ei           |
-| msdyn_plannedsales           | ei             | ei           |
-| msdyn_plannedsales_base      | ei             | ei           |
-| msdyn_plannedsalescontour    | ei             | ei           |
-| msdyn_plannedwork            | ei             | ei           |
-| msdyn_projectid              | jah            | ei           |
-| msdyn_projectidname          | ei             | ei           |
-| msdyn_projectteamid          | ei             | ei           |
-| msdyn_projectteamidname      | ei             | ei           |
-| msdyn_start                  | ei             | ei           |
-| msdyn_taskid                 | ei             | ei           |
-| msdyn_taskidname             | ei             | ei           |
-| msdyn_userresourceid         | ei             | ei           |
+| msdyn_bookableresourceid     | Ja            | No           |
+| msdyn_bookableresourceidname | Ja            | No           |
+| msdyn_bookingstatusid        | No             | No           |
+| msdyn_bookingstatusidname    | No             | No           |
+| msdyn_committype             | No             | No           |
+| msdyn_committypename         | No             | No           |
+| msdyn_effort                 | No             | No           |
+| msdyn_effortcompleted        | No             | No           |
+| msdyn_effortremaining        | No             | No           |
+| msdyn_finish                 | No             | No           |
+| msdyn_plannedcost            | No             | No           |
+| msdyn_plannedcost_base       | No             | No           |
+| msdyn_plannedcostcontour     | No             | No           |
+| msdyn_plannedsales           | No             | No           |
+| msdyn_plannedsales_base      | No             | No           |
+| msdyn_plannedsalescontour    | No             | No           |
+| msdyn_plannedwork            | No             | No           |
+| msdyn_projectid              | Ja            | No           |
+| msdyn_projectidname          | No             | No           |
+| msdyn_projectteamid          | No             | No           |
+| msdyn_projectteamidname      | No             | No           |
+| msdyn_start                  | No             | No           |
+| msdyn_taskid                 | No             | No           |
+| msdyn_taskidname             | No             | No           |
+| msdyn_userresourceid         | No             | No           |
 
 ### <a name="project-team-member"></a>Projektimeeskonna liige
 
-| **Loogiline nimi**                                 | **Saab luua** | **Saab redigeerida** |
+| Loogiline nimi                                     | Saab luua     | Saab redigeerida     |
 |--------------------------------------------------|----------------|--------------|
-| msdyn_calendarid                                 | ei             | ei           |
-| msdyn_creategenericteammemberwithrequirementname | ei             | ei           |
-| msdyn_deletestatus                               | ei             | ei           |
-| msdyn_deletestatusname                           | ei             | ei           |
-| msdyn_effort                                     | ei             | ei           |
-| msdyn_effortcompleted                            | ei             | ei           |
-| msdyn_effortremaining                            | ei             | ei           |
-| msdyn_finish                                     | ei             | ei           |
-| msdyn_hardbookedhours                            | ei             | ei           |
-| msdyn_hours                                      | ei             | ei           |
-| msdyn_markedfordeletiontimer                     | ei             | ei           |
-| msdyn_markedfordeletiontimestamp                 | ei             | ei           |
-| msdyn_msprojectclientid                          | ei             | ei           |
-| msdyn_percentage                                 | ei             | ei           |
-| msdyn_requiredhours                              | ei             | ei           |
-| msdyn_softbookedhours                            | ei             | ei           |
-| msdyn_start                                      | ei             | ei           |
+| msdyn_calendarid                                 | No             | No           |
+| msdyn_creategenericteammemberwithrequirementname | No             | No           |
+| msdyn_deletestatus                               | No             | No           |
+| msdyn_deletestatusname                           | No             | No           |
+| msdyn_effort                                     | No             | No           |
+| msdyn_effortcompleted                            | No             | No           |
+| msdyn_effortremaining                            | No             | No           |
+| msdyn_finish                                     | No             | No           |
+| msdyn_hardbookedhours                            | No             | No           |
+| msdyn_hours                                      | No             | No           |
+| msdyn_markedfordeletiontimer                     | No             | No           |
+| msdyn_markedfordeletiontimestamp                 | No             | No           |
+| msdyn_msprojectclientid                          | No             | No           |
+| msdyn_percentage                                 | No             | No           |
+| msdyn_requiredhours                              | No             | No           |
+| msdyn_softbookedhours                            | No             | No           |
+| msdyn_start                                      | No             | No           |
 
 ### <a name="project"></a>Project
 
-| **Loogiline nimi**                       | **Saab luua** | **Saab redigeerida** |
+| Loogiline nimi                           | Saab luua     | Saab redigeerida     |
 |----------------------------------------|----------------|--------------|
-| msdyn_actualexpensecost                | ei             | ei           |
-| msdyn_actualexpensecost_base           | ei             | ei           |
-| msdyn_actuallaborcost                  | ei             | ei           |
-| msdyn_actuallaborcost_base             | ei             | ei           |
-| msdyn_actualsales                      | ei             | ei           |
-| msdyn_actualsales_base                 | ei             | ei           |
-| msdyn_contractlineproject              | jah            | ei           |
-| msdyn_resourceorganizationalunitid     | jah            | ei           |
-| msdyn_contractorganizationalunitidname | jah            | ei           |
-| msdyn_costconsumption                  | ei             | ei           |
-| msdyn_costatcompleteestimate           | ei             | ei           |
-| msdyn_costestimateatcomplete_base      | ei             | ei           |
-| msdyn_costvariance                     | ei             | ei           |
-| msdyn_costvariance_base                | ei             | ei           |
-| msdyn_duration                         | ei             | ei           |
-| msdyn_effort                           | ei             | ei           |
-| msdyn_effortcompleted                  | ei             | ei           |
-| msdyn_effortestimateatcompleteeac      | ei             | ei           |
-| msdyn_effortremaining                  | ei             | ei           |
-| msdyn_finish                           | jah            | jah          |
-| msdyn_globalrevisiontoken              | ei             | ei           |
-| msdyn_islinkedtomsprojectclient        | ei             | ei           |
-| msdyn_islinkedtomsprojectclientname    | ei             | ei           |
-| msdyn_linkeddocumenturl                | ei             | ei           |
-| msdyn_msprojectdocument                | ei             | ei           |
-| msdyn_msprojectdocumentname            | ei             | ei           |
-| msdyn_plannedexpensecost               | ei             | ei           |
-| msdyn_plannedexpensecost_base          | ei             | ei           |
-| msdyn_plannedlaborcost                 | ei             | ei           |
-| msdyn_plannedlaborcost_base            | ei             | ei           |
-| msdyn_plannedsales                     | ei             | ei           |
-| msdyn_plannedsales_base                | ei             | ei           |
-| msdyn_progress                         | ei             | ei           |
-| msdyn_remainingcost                    | ei             | ei           |
-| msdyn_remainingcost_base               | ei             | ei           |
-| msdyn_remainingsales                   | ei             | ei           |
-| msdyn_remainingsales_base              | ei             | ei           |
-| msdyn_replaylogheader                  | ei             | ei           |
-| msdyn_salesconsumption                 | ei             | ei           |
-| msdyn_salesestimateatcompleteeac       | ei             | ei           |
-| msdyn_salesestimateatcompleteeac_base  | ei             | ei           |
-| msdyn_salesvariance                    | ei             | ei           |
-| msdyn_salesvariance_base               | ei             | ei           |
-| msdyn_scheduleperformance              | ei             | ei           |
-| msdyn_scheduleperformancename          | ei             | ei           |
-| msdyn_schedulevariance                 | ei             | ei           |
-| msdyn_taskearlieststart                | ei             | ei           |
-| msdyn_teamsize                         | ei             | ei           |
-| msdyn_teamsize_date                    | ei             | ei           |
-| msdyn_teamsize_state                   | ei             | ei           |
-| msdyn_totalactualcost                  | ei             | ei           |
-| msdyn_totalactualcost_base             | ei             | ei           |
-| msdyn_totalplannedcost                 | ei             | ei           |
-| msdyn_totalplannedcost_base            | ei             | ei           |
+| msdyn_actualexpensecost                | No             | No           |
+| msdyn_actualexpensecost_base           | No             | No           |
+| msdyn_actuallaborcost                  | No             | No           |
+| msdyn_actuallaborcost_base             | No             | No           |
+| msdyn_actualsales                      | No             | No           |
+| msdyn_actualsales_base                 | No             | No           |
+| msdyn_contractlineproject              | Ja            | No           |
+| msdyn_resourceorganizationalunitid     | Ja            | No           |
+| msdyn_contractorganizationalunitidname | Ja            | No           |
+| msdyn_costconsumption                  | No             | No           |
+| msdyn_costatcompleteestimate           | No             | No           |
+| msdyn_costestimateatcomplete_base      | No             | No           |
+| msdyn_costvariance                     | No             | No           |
+| msdyn_costvariance_base                | No             | No           |
+| msdyn_duration                         | No             | No           |
+| msdyn_effort                           | No             | No           |
+| msdyn_effortcompleted                  | No             | No           |
+| msdyn_effortestimateatcompleteeac      | No             | No           |
+| msdyn_effortremaining                  | No             | No           |
+| msdyn_finish                           | Ja            | Ja          |
+| msdyn_globalrevisiontoken              | No             | No           |
+| msdyn_islinkedtomsprojectclient        | No             | No           |
+| msdyn_islinkedtomsprojectclientname    | No             | No           |
+| msdyn_linkeddocumenturl                | No             | No           |
+| msdyn_msprojectdocument                | No             | No           |
+| msdyn_msprojectdocumentname            | No             | No           |
+| msdyn_plannedexpensecost               | No             | No           |
+| msdyn_plannedexpensecost_base          | No             | No           |
+| msdyn_plannedlaborcost                 | No             | No           |
+| msdyn_plannedlaborcost_base            | No             | No           |
+| msdyn_plannedsales                     | No             | No           |
+| msdyn_plannedsales_base                | No             | No           |
+| msdyn_progress                         | No             | No           |
+| msdyn_remainingcost                    | No             | No           |
+| msdyn_remainingcost_base               | No             | No           |
+| msdyn_remainingsales                   | No             | No           |
+| msdyn_remainingsales_base              | No             | No           |
+| msdyn_replaylogheader                  | No             | No           |
+| msdyn_salesconsumption                 | No             | No           |
+| msdyn_salesestimateatcompleteeac       | No             | No           |
+| msdyn_salesestimateatcompleteeac_base  | No             | No           |
+| msdyn_salesvariance                    | No             | No           |
+| msdyn_salesvariance_base               | No             | No           |
+| msdyn_scheduleperformance              | No             | No           |
+| msdyn_scheduleperformancename          | No             | No           |
+| msdyn_schedulevariance                 | No             | No           |
+| msdyn_taskearlieststart                | No             | No           |
+| msdyn_teamsize                         | No             | No           |
+| msdyn_teamsize_date                    | No             | No           |
+| msdyn_teamsize_state                   | No             | No           |
+| msdyn_totalactualcost                  | No             | No           |
+| msdyn_totalactualcost_base             | No             | No           |
+| msdyn_totalplannedcost                 | No             | No           |
+| msdyn_totalplannedcost_base            | No             | No           |
 
+### <a name="project-bucket"></a>Projektisalv
+
+| Loogiline nimi          | Saab luua      | Saab redigeerida     |
+|-----------------------|-----------------|--------------|
+| msdyn_displayorder    | Ja             | No           |
+| msdyn_name            | Ja             | Ja          |
+| msdyn_project         | Ja             | No           |
+| msdyn_projectbucketid | Ja             | No           |
 
 ## <a name="limitations-and-known-issues"></a>Piirangud ja teadaolevad probleemid
 Järgnevalt on toodud piirangute ja teadaolevate probleemide loend.
 
-- Projekti ajakava API-sid saavad kasutada ainult **Microsoft Projecti litsentsiga kasutajad**. Neid ei saa kasutada järgnevad.
+- Projektigraafiku API-sid **saavad kasutada ainult Microsoft Projecti litsentsiga** kasutajad. Neid ei saa kasutada järgnevad.
+
     - Rakenduse kasutajad
     - Süsteemi kasutajad
     - Integratsiooni kasutajad
     - Teised kasutajad, kes ei oma nõutavat litsentsi
+
 - Igal suvandil **OperationSet** saab olla maksimaalselt 100 toimingut.
 - Igal kasutajal saab maksimaalselt olla 10 avatud suvandit **OperationSet**.
 - Project Operations toetab praegu projektil kokku maksimaalselt 500 ülesannet.
@@ -269,8 +280,8 @@ Järgnevalt on toodud piirangute ja teadaolevate probleemide loend.
 
 ## <a name="error-handling"></a>Tõrketöötlus
 
-   - Toimingukomplektide põhjal loodud tõrgete ülevaatamiseks minge jaotisesse **Sätted** \> **Kavanda integreerimine** \> **Toimingutekomplekt**.
-   - Projekti ajastamisteenuses loodud tõrgete läbivaatamiseks minge jaotisse **Sätted** \> **Ajakava integreerimine** \> **PSS-i tõrkelogid**.
+- Toimingukomplektide põhjal loodud tõrgete ülevaatamiseks minge jaotisesse **Sätted** \> **Kavanda integreerimine** \> **Toimingutekomplekt**.
+- Projekti ajastamisteenuses loodud tõrgete läbivaatamiseks minge jaotisse **Sätted** \> **Ajakava integreerimine** \> **PSS-i tõrkelogid**.
 
 ## <a name="sample-scenario"></a>Näidisstsenaarium
 
@@ -492,7 +503,6 @@ private Entity GetTask(string name, EntityReference projectReference, EntityRefe
     task["msdyn_effort"] = 4d;
     task["msdyn_scheduledstart"] = DateTime.Today;
     task["msdyn_scheduledend"] = DateTime.Today.AddDays(5);
-    task["msdyn_progress"] = 0.34m;
     task["msdyn_start"] = DateTime.Now.AddDays(1);
     task["msdyn_projectbucket"] = GetBucket(projectReference).ToEntityReference();
     task["msdyn_LinkStatus"] = new OptionSetValue(192350000);
@@ -524,9 +534,7 @@ private Entity GetResourceAssignment(string name, Entity teamMember, Entity task
     assignment["msdyn_taskid"] = task.ToEntityReference();
     assignment["msdyn_projectid"] = project.ToEntityReference();
     assignment["msdyn_name"] = name;
-    assignment["msdyn_start"] = DateTime.Now;
-    assignment["msdyn_finish"] = DateTime.Now;
-
+   
     return assignment;
 }
 

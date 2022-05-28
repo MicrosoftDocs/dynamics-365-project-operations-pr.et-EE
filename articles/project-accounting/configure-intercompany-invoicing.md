@@ -4,14 +4,14 @@ description: Sellest teemast leiate teavet ja näiteid kontsernisiseste arvete s
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 09bbd1bf640cc86b16afb8c2b824329b92f833df836e9313491d57a2f1646440
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ad6022670048e5aa3635998852b78c49af461d4e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994046"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591583"
 ---
 # <a name="configure-intercompany-invoicing"></a>Kontsernisisese arveldamise konfigureerimine
 
@@ -21,11 +21,11 @@ Täitke järgmised etapid, et seadistada projektide jaoks kontsernisisene arveld
 
 ## <a name="example-configure-intercompany-invoicing"></a>Näide: kontsernisisese arveldamise konfigureerimine
 
-Järgmises näites on laenu võttev juriidiline isik Contoso Robotics USA (USPM) ja laenu andev juriidiline isik Contoso Robotics UK (GBPM). 
+Järgmises näites on Contoso Robotics USA (USPM) laenav juriidiline isik ja Contoso Robotics UK (GBPM) on laenuandja juriidiline isik. 
 
 1. **Konfigureerige juriidiliste isikute vahel kontsernisisene raamatupidamine**. Kõik laenu andvate ja laenu võtvate juriidiliste isikute paarid peavad olema konfigureeritud pearaamatu [kontsernisisese raamatupidamisarvestuse](/dynamics365/finance/general-ledger/intercompany-accounting-setup) lehel.
     
-    1. Minge rakenduses Dynamics 365 Finance jaotisse **Pearaamat** > **Konteeringu seadistamine** > **Kontsernisisene raamatupidamisarvestus**. Looge kirje, kasutades järgmist teavet.
+    1. Avage Dynamics 365 Finance **pearaamatu** > **sisestamise häälestus** > **Kontsernisisene raamatupidamine**. Looge kirje, kasutades järgmist teavet.
 
         - **Algne ettevõte** = **GBPM**
         - **Sihtettevõte** = **USPM**
@@ -35,13 +35,13 @@ Järgmises näites on laenu võttev juriidiline isik Contoso Robotics USA (USPM)
      1. Valige väljal Rahandus ettevõte juriidiline isiku **GBPM**.
      2. Avage **Müügireskontro** > **Klient** > **Kõik kliendid**. Looge juriidilise isiku jaoks uus kirje: **USPM**.
      3. Laiendage jaotist **Nimi**, filtreerige kirjed **tüübi järgi** ja valige **Juriidilised isikud**. 
-     4. Leidke ettevõtte **Contoso Robotics USA (USPM)** kliendikirje ja valige see.
+     4. Saate otsida ja valida **Contoso Robotics USA (USPM)** jaoks kliendikirjeid.
      5. Valige **Kasuta vastet**. 
      6. Valige kliendirühm **50 – ettevõttesisesed kliendid** ja seejärel salvestage kirje.
      7. Valige juriidiline isik **USPM**.
      8. Minge jaotisse **Ostureskontro** > **Hankijad** > **Kõik hankijad**. Looge juriidilise isiku jaoks uus kirje: **GBPM**.
      9. Laiendage jaotist **Nimi**, filtreerige kirjed **tüübi järgi** ja valige **Juriidilised isikud**. 
-     10. Leidke ettevõtte **Contoso Robotics UK (GBPM)** kliendikirje ja valige see.
+     10. Saate otsida ja valida **Contoso Robotics UK (GBPM)** jaoks kliendikirjeid.
      11. Valige suvand **Kasuta vastet**, valige hankijarühm ja salvestage seejärel kirje.
      12. Valige hankija kirjes **Üldine** > **Seadista** > **Kontsernisisene**.
      13. Vahekaardil **Kauplemise seos** seadke väärtus **Aktiivne** olekusse **Jah**.
@@ -80,19 +80,19 @@ Järgmises näites on laenu võttev juriidiline isik Contoso Robotics USA (USPM)
 
 5. **Seadistage tööjõu siirdehind**. Kontsernisisese kande hinnakujundus konfigureeritakse Dataverse’i lahenduses Project Operations. Konfigureerige [tööjõu kulumäärad](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity) ja [tööjõu arve määrad](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions) kontsernisisese arvelduse jaoks. Kontsernisiseste kuluaruannete puhul ei toetata ülekande hinda. Kontsernisisese ühiku müügihind seatakse alati samale väärtusele kui ümberhangete ühiku omahind.
 
-      Arendaja ressursikulu ettevõttes Contoso Robotics UK on 88 GBP tunnis. Contoso Robotics UK esitab ettevõttele Contoso arve 120 USD iga selle ressursi USA projektide jaoks töötatud tunni eest. Contoso Robotics USA esitab kliendile Adventure Works 200 USD suuruse arve töö eest, mille tegi Contoso Robotics UK arendajaressurss.
+      Ettevõttes Contoso Robotics UK on arendaja ressursi kulu 88 naela tunnis. Contoso Robotics UK esitab ettevõttele Contoso Robotics USA arve 120 USD iga tunni eest, kui see ressurss töötas USA projektides. Contoso Robotics USA esitab kliendile Adventure Works 200 USD suuruse arve Contoso Robotics UK arendajaressursside tehtud töö eest.
 
-      1. Avage Dataverse’i lahenduses Project Operations jaotis **Müük** > **Hinnakirjad**. Looge uus omahinna hinnakiri nimega **Contoso Robotics UK hinnad.** 
+      1. Avage Dataverse’i lahenduses Project Operations jaotis **Müük** > **Hinnakirjad**. Looge uus omahinna loend nimega **Contoso Robotics UK kulumäärad**. 
       2. Looge omahinna loendis järgmise teabega kirje.
          - **Roll** = **Arendaja**
          - **Kulu** = **88 GBP**
-      3. Minge jaotisse **Sätted** > **Organisatsiooniüksused** ja lisage see omahinna hinnakiri organisatsiooniüksusele **Contoso Robotics UK**.
-      4. Minge jaotisse **Müük** > **Hinnakirjad**. Looge omahinna hinnakiri nimega **Contoso Robotics USA hinnad**. 
+      3. Minge jaotisse **sätted** > **Organisatsioonilised üksused** ja lisage see omahinna loend organisatsiooni üksusele **Contoso Robotics UK**.
+      4. Minge jaotisse **Müük** > **Hinnakirjad**. Looge uus omahinna loend nimega **Contoso Robotics USA kulumäärad**. 
       5. Looge omahinna loendis järgmise teabega kirje.
           - **Roll** = **Arendaja**
           - **Ressursiettevõte** = **Contoso Robotics UK**
           - **Kulu** = **120 USD**
-      6. Minge üksusse **Sätted** > **Organisatsiooniüksused** ja lisage **Contoso Robotics USA hinnad** organisatsiooniüksuse **Contoso Robotics USA** omahinna hinnakirjale.
+      6. Minge jaotisse **Sätted** > **Organisatsioonilised üksused** ja lisage see omahinna loend **Contoso Robotics USA kulumäärad** **Contoso Robotics USA** organisatsiooni üksusele.
       7. Minge jaotisse **Müük** > **Hinnakirjad**. Looge müügi hinnakiri nimega **Adventure Worksi arveldusmäärad**. 
       8. Looge müügi hinnakirjas järgmise teabega kirje.
           - **Roll** = **Arendaja**

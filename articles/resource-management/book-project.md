@@ -2,16 +2,16 @@
 title: Projektile reserveerimine
 description: Selles teemas kirjeldatakse projektile ressursi broneerimist.
 author: ruhercul
-ms.date: 10/01/2020
+ms.date: 01/24/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 719892a37f381fc0ad6c3ccaca5c4d87c9947a4d7a39dca96aef464d04a71af0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: b47ae8cb38be6d29804aec8b069e6a8aec0ffb70
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994901"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591356"
 ---
 # <a name="book-to-a-project"></a>Projektile reserveerimine
 
@@ -53,6 +53,9 @@ Kui ressursihaldur peab broneerima ressursi projekti jaoks otse, saavad nad kasu
     - Broneerigu olek
     - Broneerimismeetod
     - Kestus
+   
+   > [!NOTE]
+   > Dynamics 365 Project Operations Praegu ei toeta see ajakava juhatust.   
 
 ## <a name="book-from-the-project-form"></a>Vormilt Projekt broneerimine
 

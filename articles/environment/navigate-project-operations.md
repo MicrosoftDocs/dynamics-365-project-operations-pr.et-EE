@@ -4,25 +4,25 @@ description: See teema sisaldav teavet selle kohta, kuidas pääseda rakendusele
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 50afe2c0e247cb9d9c5f970810fa917d002ae1d0
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994586"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591859"
 ---
 # <a name="navigate-project-operations"></a>Rakenduses Project Operations liikumine
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Ressursi-/mittelaopõhiste stsenaarumide jaoks mõeldud rakendus Dynamics 365 Project Operations koosneb kahest komponendist. 
 
  - **Project Operations keskkonnas Common Data Service (CDS)**: see komponent katab võimalusi ja protsesse alates müügivõimalusest kuni näidisarveldamiseni. 
- - **Projektihaldus ja raamatupidamine rakenduse Dynamics 365 Finance keskkonnas**: see komponent hõlmab kuluhalduse võimalusi, projekti raamatupidamist ja tulu kajastamist. 
+ - **Projektijuhtimine ja Dynamics 365 Finance keskkonna** arvestus: see komponent hõlmab kulujuhtimise võimalusi, projektiarvestust ja tulude kajastamist. 
 
 Pärast rakenduse Project Operations ettevalmistamist selles teemas kirjeldatud viisil, pakub teenuse Lifecycle Services (LCS) leht **Keskkonna üksikasjad** lihtsat juurdepääsu rakenduse Project Operations mõlemale komponendile.  
 

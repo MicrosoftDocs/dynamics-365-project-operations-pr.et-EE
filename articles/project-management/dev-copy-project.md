@@ -2,76 +2,80 @@
 title: Projekti mallide arendamine funktsiooniga Kopeeri projekt
 description: Selles teemas antakse teavet selle kohta, kuidas kohandatud toimingut Kopeeri projekt kasutades projekti malle luua.
 author: stsporen
-ms.date: 01/21/2021
+ms.date: 03/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: d12301b4e7baabeb0f045f9a11d4695fc026339af3fa7650db7177c495c71e90
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 72aa2db7c717eeab85ada448c673bf702087baeb
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989243"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590893"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Projekti mallide arendamine funktsiooniga Kopeeri projekt
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
 Dynamics 365 Project Operations toetab võimalust kopeerida projekti ja ennistada kõik ülesanded tagasi üldistele rolli esindavatele ressurssidele. Kliendid saavad seda funktsiooni kasutada põhiliste projekti mallide loomiseks.
 
 Kui valite suvandi **Kopeeri projekt**, värskendatakse sihtprojekti olekut. Kasutage suvandit **Oleku põhjus**, et määratleda, millal kopeerimise toiming lõpetada. Suvandi **Kopeeri projekt** valimine värskendab projekti alguskuupäeva praegusele alguskuupäevale, kui sihtprojekti olemis ei tuvastata sihtkuupäeva.
 
-## <a name="copy-project-custom-action"></a>Kohandatud toiming Kopeeri projekt 
+## <a name="copy-project-custom-action"></a>Kohandatud toiming Kopeeri projekt
 
 ### <a name="name"></a>Nimetus 
 
-**msdyn_CopyProjectV2**
+msdyn\_ CopyProjectV3
 
 ### <a name="input-parameters"></a>Sisendparameetrid
+
 Olemas on kolm sisendparameetrit.
 
-| Parameeter          | Tüüp   | Väärtused                                                   | 
-|--------------------|--------|----------------------------------------------------------|
-| ProjectCopyOption  | String | **{"removeNamedResources":true}** või **{"clearTeamsAndAssignments":true}** |
-| SourceProject      | Olemi viide | Algne projekt |
-| Sihtmärk             | Olemi viide | Sihtprojekt |
+- **ReplaceNamedResources** või **ClearTeamsAndAssignments** – määrake ainult üks suvanditest. Ära sea mõlemat.
 
+    - **\{"ReplaceNamedResources":true\}** – Project Operationsi vaikekäitumine. Kõik nimetatud ressursid asendatakse üldiste ressurssidega.
+    - **\{"ClearTeamsAndAssignments":true\}** – Project for the Web vaikekäitumine. Kõik ülesanded ja meeskonnaliikmed eemaldatakse.
 
-- **{"clearTeamsAndAssignments":true}**: veebi projekti vaikekäitumine ja see eemaldab kõik ülesanded ja meeskonnaliikmed.
-- **{"removeNamedResources":true}** Project Operationsi vaikekäitumine ja see ennistab määramised üldistele ressurssidele.
+- **SourceProject** – lähteprojekti olemiviide, millest kopeerida. See parameeter ei saa olla tühine.
+- **Sihtmärk** – sihtprojekti olemiviide, kuhu kopeerida. See parameeter ei saa olla tühine.
 
-Lisateavet toimingute vaikeväärtuste kohta leiate teemast [Veebi API toimingute kasutamine](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+Järgmises tabelis on esitatud kokkuvõte kolmest parameetrist.
 
-## <a name="specify-fields-to-copy"></a>Määrake kopeeritavad väljad 
+| Parameeter                | Tüüp             | Väärtus                 |
+|--------------------------|------------------|-----------------------|
+| ReplaceNamedResources    | Loogiline          | **Tõene** või **väär** |
+| ClearTeamsAndAssignments | Loogiline          | **Tõene** või **väär** |
+| SourceProject            | Olemi viide | Lähteprojekt    |
+| Sihtkeel                   | Olemi viide | Sihtprojekt    |
+
+Toimingute vaikesätete kohta leiate lisateavet teemast [Veebi API toimingute](/powerapps/developer/common-data-service/webapi/use-web-api-actions) kasutamine.
+
+### <a name="validations"></a>Valideerimised
+
+Järgmised valideerimised on tehtud.
+
+1. Null kontrollib ja toob lähte- ja sihtprojektid, et kinnitada mõlema projekti olemasolu organisatsioonis.
+2. Süsteem kinnitab, et sihtprojekt kehtib kopeerimiseks, kontrollides järgmisi tingimusi.
+
+    - Projektis pole varasemat tegevust (sh vahekaardi Tööülesanded **valimine**) ja projekt on äsja loodud.
+    - Varasemat koopiat pole, selles projektis pole importi taotletud ja projektil pole olekut **Nurjunud**.
+
+3. Toimingut ei kutsuta HTTP abil.
+
+## <a name="specify-fields-to-copy"></a>Määrake kopeeritavad väljad
+
 Kui tegevus valitakse, vaatav suvand **Kopeeri projekt** projektivaadet **Kopeeri projekti veerud**, et määratleda, millised väljad projekti kopeerimisel kopeeritakse.
 
-
 ### <a name="example"></a>Näide
-Järgmine näide näitab, kuidas kutsuda **CopyProsource'i** kohandatud toimingut parameetrikomplektiga **removeNamedResources**.
+
+Järgmises näites on näidatud, kuidas helistada **copyProjectV3** kohandatud toimingule parameetrikomplektiga **removeNamedResources**.
+
 ```C#
 {
     using System;
     using System.Runtime.Serialization;
     using Microsoft.Xrm.Sdk;
     using Newtonsoft.Json;
-
-    [DataContract]
-    public class ProjectCopyOption
-    {
-        /// <summary>
-        /// Clear teams and assignments.
-        /// </summary>
-        [DataMember(Name = "clearTeamsAndAssignments")]
-        public bool ClearTeamsAndAssignments { get; set; }
-
-        /// <summary>
-        /// Replace named resource with generic resource.
-        /// </summary>
-        [DataMember(Name = "removeNamedResources")]
-        public bool ReplaceNamedResources { get; set; }
-    }
 
     public class CopyProjectSample
     {
@@ -89,27 +93,32 @@ Järgmine näide näitab, kuidas kutsuda **CopyProsource'i** kohandatud toimingu
             var sourceProject = new Entity("msdyn_project", sourceProjectId);
 
             Entity targetProject = new Entity("msdyn_project");
-            targetProject["msdyn_subject"] = "Example Project";
+            targetProject["msdyn_subject"] = "Example Project - Copy";
             targetProject.Id = organizationService.Create(targetProject);
 
-            ProjectCopyOption copyOption = new ProjectCopyOption();
-            copyOption.ReplaceNamedResources = true;
-
-            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption);
+            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption, true, false);
             Console.WriteLine("Done ...");
         }
 
-        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, ProjectCopyOption projectCopyOption)
+        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, bool replaceNamedResources = true, bool clearTeamsAndAssignments = false)
         {
-            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV2");
+            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV3");
             req["SourceProject"] = sourceProject;
             req["Target"] = TargetProject;
-            req["ProjectCopyOption"] = JsonConvert.SerializeObject(projectCopyOption);
+
+            if (replaceNamedResources)
+            {
+                req["ReplaceNamedResources"] = true;
+            }
+            else
+            {
+                req["ClearTeamsAndAssignments"] = true;
+            }
+
             OrganizationResponse response = organizationService.Execute(req);
         }
     }
 }
 ```
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

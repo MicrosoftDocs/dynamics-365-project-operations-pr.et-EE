@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
-ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7818178"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588915"
 ---
 # <a name="mobile-expense-app"></a>Mobiilne kulude rakendus
 
@@ -54,7 +54,7 @@ Kui teie organisatsiooni jaoks on juurutatud rakendus Finance, peab süsteemiadm
 ## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Mobiilirakenduse Dynamics 365 Unified Ops allalaadimine ja installimine
 Mobiilirakenduse Dynamics 365 Unified Ops allalaadimine ja installimine.
 
-- [Android telefonide puhul](https://go.microsoft.com/fwlink/?linkid=850662)
+- [Androidi telefonidele](https://go.microsoft.com/fwlink/?linkid=850662)
 - [iPhone’idele](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Logige mobiilirakendusse sisse
@@ -113,7 +113,7 @@ Mobiilirakenduse Dynamics 365 Unified Ops allalaadimine ja installimine.
 6. Sisestage kinnitamistoimingu mis tahes kommentaarid.
 7. Valige nupp **Valmis**.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Looge uus kuluaruanne ja esitage see kinnitamiseks kuluhalduse mobiilse tööruumi abil
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Looge uus kuluaruanne ja esitage see kinnitamiseks kuluhalduse mobiilse tööruumi abil.
 
 1. Avage oma mobiiliseadmes tööruum **Kuluhaldus**.
 2. Valige **Kulu sisestamine**.
@@ -204,28 +204,28 @@ Mobiilirakenduse Dynamics 365 Unified Ops allalaadimine ja installimine.
 
 ## <a name="frequently-asked-questions"></a>Korduma kippuvad küsimused
 
-### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Miks ei sisesta mobiilirakendus Kulu vaikimisi makseviisi?
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Miks mobiilirakendus Kulu vaikimisi makseviisi ei sisesta?
 
-Organisatsioonid saavad iga loodud kulukategooria jaoks kohandada **makseviisi** vaikesättet. Lisaks saate makseviiside seadistamisel seada välja **Vaikimisi makseviis** **ainult impordiks**.
+Organisatsioonid saavad kohandada **vaikimisi makseviisi** sätet iga kulukategooria jaoks, kui see on loodud. Lisaks saate makseviiside seadistamisel seada **välja Vaikemakseviis** väärtuseks **Ainult impordi**.
 
-Kui **makseviisi puhul on lubatud ainult importimine, ei** sisestata makseviisi vaikimisi. See on tühi kulukategooriates, kus see makseviis on seadistatud. Selline käitumine on järjepidev nii veebikogemuses kui ka mobiilses kogemuses.
+Kui **ainult** importimine on makseviisi jaoks lubatud, ei sisestata makseviisi vaikimisi. See on tühi kulukategooriates, kus see makseviis on seadistatud. See käitumine on järjepidev nii veebikogemuses kui ka mobiilses kogemuses.
     
-Kui **maksemeetodi puhul pole lubatud ainult importimine,** sisestatakse määratud väärtus vaikimisi kulukategooriate jaoks, kus see makseviis on seadistatud. Siiski on teadaolev probleem, kus vaikeväärtust ei sisestata rakendusse Kulu mobiilirakendus. Selle probleemi lahendamiseks valige enne kuluaruande salvestamist käsitsi makseviis. 
+Kui **ainult** importimine pole makseviisi puhul lubatud, sisestatakse määratud väärtus vaikimisi kulukategooriate puhul, kus see makseviis on häälestatud. Siiski on teadaolev probleem, kus vaikeväärtust mobiilirakendusse Kulu ei sisestata. Selle probleemi lahendamiseks valige enne kuluaruande salvestamist käsitsi makseviis. 
 
-### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Miks ei saa mobiilirakenduses Kulu lisada või muuta finantsdimensioone?
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Miks ei saa mobiilirakenduses Kulu finantsdimensioone lisada ega redigeerida?
 
-Dimensioonide ja jaotuste sisestamist ei toetata. Selle piiranguga töötamiseks saate need väljad mobiilirakenduses vaikimisi määrata, seadistades projekti või töötaja kohta finantsdimensioonid.
+Dimensioonide ja jaotuste sisestamist ei toetata. Selle piiranguga töötamiseks võite lasta need väljad mobiilirakenduses vaikimisi seadistada, seadistades projekti või töötaja kohta vaikedimensioonid.
 
-### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Miks kuvatakse mobiilirakenduses Kulu mõnikord sünkroonimisviga?
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Miks kuvatakse mobiilirakenduses Kulu mõnikord sünkroonimistõrge?
 
-Kui kuluread ei vasta poliitikanõuetele ja kasutaja esitab kuluaruande poliitikahoiatust käsitlemata, ei sünkroonita mobiiliandmeid serveriga ja ilmneb sünkroonimise tõrge. Kõik kuluaruanded, mis esitatakse pärast sünkroonimise nurjumist, jäävad nurjunud olekusse ja põhjustavad rohkem sünkroonimise tõrkeid. Ainus viis selle olukorra parandamiseks on sünkroonimisteatiste käsitsi kustutamine. Seda probleemi on käsitletud, peatades kuluaruannete esitamise, kui poliitikahoiatusi pole käsitletud, nii et sünkroonimisvigu välditakse.
+Kui kuluread ei vasta poliitikanõuetele ja kasutaja esitab kuluaruande ilma poliitikahoiatust käsitlemata, ei sünkroonita mobiiliandmeid serveriga ja ilmneb sünkroonimise tõrge. Kõik kuluaruanded, mis esitatakse pärast sünkroonimistõrke ilmnemist, jäävad nurjunud olekusse ja põhjustavad rohkem sünkroonimistõrkeid. Ainus viis selle olukorra lahendamiseks on sünkroonimisteatiste käsitsi kustutamine. Selle probleemi lahendamiseks on peatatud kuluaruannete esitamine, kui poliitikahoiatusi pole käsitletud, et vältida sünkroonimisvigu.
 
-### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Miks ei kajastu projekti ja kategooria valideerimine rakenduses Kulu õigesti?
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Miks ei kajastu projekti ja kategooria valideerimine mobiilirakenduses Kulu õigesti?
 
-Seda kinnitamist praegu ei toetata. Kuid toetust võib tulevikus lisada. 
+Seda kinnitust praegu ei toetata. Toetust võib siiski tulevikus lisada. 
 
-### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Milliseid dokumenditüüpe toetatakse mobiilirakenduses Kulu?
+### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Milliseid dokumenditüüpe mobiilirakenduses Kulu toetatakse?
 
-Rakendus Kulu toetab ainult pilte. Praegu ei toeta see PDF-e ega muid dokumente.
+Mobiilirakendus Kulu toetab ainult pilte. Praegu ei toeta see PDF-faile ega muid dokumente.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

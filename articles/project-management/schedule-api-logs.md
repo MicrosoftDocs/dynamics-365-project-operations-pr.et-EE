@@ -1,102 +1,102 @@
 ---
 title: Projekti plaanimise logid
-description: See teema pakub teavet ja näidiseid, mis aitavad teil kasutada projekti planeerimise logisid projekti plaanimisteenuse ja projekti planeerimise API-dega seotud tõrgete jälgimiseks.
+description: Selles teemas on teave ja näidised, mis aitavad teil kasutada projekti plaanimise logisid projekti plaanimise teenuse ja projektiplaneerimise API-dega seotud tõrgete jälgimiseks.
 author: ruhercul
 ms.date: 11/30/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 1c5632a880fa30d1b863c326b22e3d930c9564dc
-ms.sourcegitcommit: 844ec8eacd0fc10d1659b437cc5cbb4480ec9e1e
+ms.openlocfilehash: 1a58a588d3e2fb92f1b4a4ed0f6f69d0a63908db
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "7877508"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589513"
 ---
 # <a name="project-scheduling-logs"></a>Projekti plaanimise logid
 
-_**Kehtib:** Ressursi/ladustamata stsenaariumide projektitoimingud, Lite'i juurutamine – tehing proforma arvetega_, _Veebiprojekt_
+_**Kehtib:** Projektitoimingud ressursi/ladustamata põhistsenaariumide puhul, Lite juurutamine - arveldamine proforma arvetega_, _Project for the Web_
 
-Microsoft Dynamics 365 Project Operations kasutab [project for the](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5) Webi peamise plaanimismootorina. Selle asemel, et kasutada standardseid Microsoft Dataverse veebirakenduste programmeerimisliidesed (API-d), kasutab Project Operations uusi projekti planeerimise API-sid projektiülesannete, ressursimääramiste, ülesannete sõltuvuste, projektiämbrite ja projektimeeskondade liikmete loomiseks, värskendamiseks ja kustutamiseks. Kui aga tööjaotusstruktuuri (WBS) olemite loomisel, värskendamisel või kustutamisel töötatakse programmiliselt, võib esineda tõrkeid. Nende tõrgete ja toimingute ajaloo jälgimiseks on rakendatud kaks uut halduslogi: **operatsioonikomplekt** ja projekti **plaanimisteenus (PSS).** Nendele logidele juurdepääsemiseks minge **jaotisse Sätete** \> **ajakava integreerimine**.
+Microsoft Dynamics 365 Project Operations kasutab [Project for the Webi](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5) oma peamise plaanimismootorina. Selle asemel, et kasutada standardseid Microsoft Dataverse veebirakenduste programmeerimisliideseid( API-sid), kasutab Project Operations uusi projekti plaanimise API-sid projektiülesannete, ressursimääramiste, ülesandesõltuvuste, projektiämbrite ja projektimeeskondade liikmete loomiseks, värskendamiseks ja kustutamiseks. Kui aga luuakse, värskendatakse või kustutatakse toiminguid programmiliselt tööjaotuse struktuuri (WBS) olemites, võivad ilmneda tõrked. Nende tõrgete ja toimingute ajaloo jälgimiseks on rakendatud kaks uut halduslogi: **operatsioonide komplekt** ja **projekti planeerimise teenus (PSS)**. Nendele logidele juurdepääsemiseks minge jaotisse **Seadete** \> **ajakava integreerimine.**
 
-Järgmisel joonisel on näidatud projekti plaanimise logide andmemudel.
+Järgmisel joonisel on näidatud projektiplaneerimise logide andmemudel.
 
 ![Projekti plaanimise logide andmemudel.](media/LOGDATAMODEL.jpg)
 
-## <a name="operation-set-log"></a>Toimingukomplekti logi
+## <a name="operation-set-log"></a>Toimingu määra logi
 
-Logi Toimingu seadmine jälgib operatsioonikomplekti käivitamist, mida kasutatakse ühe või mitme projektiprojekti projektimeeskonna liikmega seotud toimingute loomiseks, värskendamiseks või kustutamiseks partiis. **Väli Operatsioon olekus näitab** toimingukomplekti üldist olekut. Toimingukomplekti kandevõime üksikasjad on jäädvustatud seostuvates toimingukomplekti üksikasjade kirjetes.
+Logi Toiming Set jälgib toimingukomplekti täitmist, mida kasutatakse projektide, projektiülesannete, ressursimäärangute, ülesandesõltuvuste, projektiämbrite või projektimeeskonna liikmete partii toimingute käitamiseks. Väli **Toiming olekus** näitab toimingukomplekti üldist olekut. Toimingukomplekti kasuliku koormuse üksikasjad jäädvustatakse seotud toimingukomplekti üksikasjade kirjetesse.
 
-### <a name="operation-set"></a>Toimingukomplekt
+### <a name="operation-set"></a>Toimingu komplekt
 
-Järgmises tabelis kuvatakse väljad, mis on seotud **olemiGa** Toimingukomplekt.
+Järgmises tabelis kuvatakse väljad, mis on seotud **olemiga Toimingukomplekt**.
 
 | SchemaName            | Kirjeldus                                                                                                  | DisplayName            |
 |-----------------------|--------------------------------------------------------------------------------------------------------------|------------------------|
 | msdyn_completedon     | Kuupäev/kellaaeg, millal toimingukomplekt lõpetati või nurjus.                                                | CompletedOn            |
-| msdyn_correlationid   | Taotluse **väärtus** correlationId.                                                                  | CorrelationId          |
-| msdyn_description     | Operatsioonikomplekti kirjeldus.                                                                        | Kirjeldus            |
-| msdyn_executedon      | Kirje käivitamise kuupäev/kellaaeg.                                                                       | Täideviimise kuupäev            |
+| msdyn_correlationid   | Taotluse **väärtus correlationId**.                                                                  | CorrelationId          |
+| msdyn_description     | Toimingukomplekti kirjeldus.                                                                        | Kirjeldus            |
+| msdyn_executedon      | Kirje esitamise kuupäev/kellaaeg.                                                                       | Käivituskuupäev            |
 | msdyn_operationsetId  | Olemi eksemplaride ainuidentifikaator.                                                                   | OperationSet           |
-| msdyn_Project         | Projektiga seotud projekt.                                                            | Project                |
-| msdyn_projectid       | Taotluse **projectId** väärtus.                                                                      | ProjectId (aegunud) |
+| msdyn_Project         | Operatsioonikomplektiga seotud projekt.                                                            | Project                |
+| msdyn_projectid       | Taotluse **väärtus ProjectId**.                                                                      | ProjectId (aegunud) |
 | msdyn_projectName     | Pole rakendatav.                                                                                              | Pole rakendatav         |
-| msdyn_PSSErrorLog     | Toimingukomplektiga seotud projekti plaanimisteenuse tõrkelogi ainuidentifikaator. | PSS-i tõrkelogi          |
+| msdyn_PSSErrorLog     | Toimingukomplektiga seostatud tõrkelogi Project Scheduling Service ainuidentifikaator. | PSS-i tõrkelogi          |
 | msdyn_PSSErrorLogName | Pole rakendatav.                                                                                              | Pole rakendatav         |
-| msdyn_status          | Toimingukomplekti olek.                                                                             | Olek                 |
+| msdyn_status          | Operatsioonikomplekti olek.                                                                             | Olek                 |
 | msdyn_statusName      | Pole rakendatav.                                                                                              | Pole rakendatav         |
-| msdyn_useraadid       | Selle kasutaja Azure Active Directory (Azure AD) objekti ID, kuhu taotlus kuulub.                     | UserAADID              |
+| msdyn_useraadid       | Selle Azure Active Directory kasutaja (Azure AD) objekti ID, kellele taotlus kuulub.                     | UserAADID              |
 
-### <a name="operation-set-detail"></a>Toimingukomplekti üksikasjad
+### <a name="operation-set-detail"></a>Toimingu määra detail
 
-Järgmises tabelis kuvatakse väljad, mis on seotud **olemiGa Toimingu seadmine** Üksikasjad.
+Järgmises tabelis kuvatakse väljad, mis on seotud **olemiga Toimingukomplekti üksikasjad**.
 
 | SchemaName                 | Kirjeldus                                                                                 | DisplayName           |
 |----------------------------|---------------------------------------------------------------------------------------------|-----------------------|
-| msdyn_cdspayload           | Päringu seerianumbrid Dataverse väljad.                                            | CdsPayload            |
-| msdyn_entityname           | Päringu olemi nimi.                                                     | EntityName            |
-| msdyn_httpverb             | Taotluse meetod.                                                                         | HTTPVerb (iganenud) |
+| msdyn_cdspayload           | Taotluse seeriaviisilised Dataverse väljad.                                            | CdsPayload            |
+| msdyn_entityname           | Taotluse olemi nimi.                                                     | EntityName            |
+| msdyn_httpverb             | Taotlusmeetod.                                                                         | HTTPVerb (iganenud) |
 | msdyn_httpverbName         | Pole rakendatav.                                                                             | Pole rakendatav        |
-| msdyn_operationset         | Kirjesse kuuluva toimingukomplekti ainuidentifikaator.                      | OperationSet          |
+| msdyn_operationset         | Selle toimingukomplekti ainuidentifikaator, kuhu kirje kuulub.                      | OperationSet          |
 | msdyn_operationsetdetailId | Olemi eksemplaride ainuidentifikaator.                                                  | OperationSeti üksikasi   |
 | msdyn_operationsetName     | Pole rakendatav.                                                                             | Pole rakendatav        |
-| msdyn_operationtype        | Operatsioonikomplekti üksikasjad.                                             | Toimingu tüüp         |
+| msdyn_operationtype        | Toimingukomplekti detaili toimingu tüüp.                                             | Toimingu tüüp         |
 | msdyn_operationtypeName    | Pole rakendatav.                                                                             | Pole rakendatav        |
-| msdyn_psspayload           | Taotluse väljad järjestatud projektiplaneerimise hooldus.                           | PssPayload            |
+| msdyn_psspayload           | Taotluse väljad Projekti plaanimisteenus on järjestatud.                           | PssPayload            |
 | msdyn_recordid             | Päringukirje ID.                                                       | Kirje ID             |
-| msdyn_requestnumber        | Automaatselt loodud number, mis tuvastab taotluste vastuvõtmise järjekorra. | Taotluse number        |
+| msdyn_requestnumber        | Automaatselt genereeritud number, mis tuvastab tellimuse, milles taotlused vastu võeti. | Taotluse number        |
 
 ## <a name="project-scheduling-service-error-logs"></a>Projekti plaanimisteenuse tõrkelogid
 
-Projekti plaanimisteenuse tõrge logib hõivamistõrked, mis ilmnevad siis, kui projekti plaanimisteenus proovib **toimingut Salvesta** või **Ava**. Nende logide loomise kohta on kolm toetatud stsenaariumi.
+Tõrkelogid Projekti plaanimisteenuse logid jäädvustavad tõrkeid, mis ilmnevad, kui projekti plaanimisteenus proovib toimingut **Salvesta** või **Ava**. Nende logide loomisel on kolm toetatud stsenaariumi.
 
-- Kasutaja algatatud toimingud nurjuvad kriitiliselt (näiteks määramist ei saa puuduvate õiguste tõttu luua).
-- Projekti plaanimisteenus ei saa olemile programmiliselt luua, värskendada, kustutada ega teha muid kaskaadtoiminguid.
-- Kasutajal esineb tõrkeid, kui kirje ei avane (nt projekti avamisel või meeskonnaliikme teabe värskendamisel).
+- Kasutaja algatatud toimingud nurjuvad kriitiliselt (nt määramist ei saa puuduvate õiguste tõttu luua).
+- Projekti plaanimisteenus ei saa olemil programmiliselt luua, värskendada, kustutada ega teha muid kaskaadtoiminguid.
+- Kasutajal ilmneb tõrkeid, kui kirjet ei avata (nt kui projekt avatakse või meeskonnaliikme teavet värskendatakse).
 
 ### <a name="project-scheduling-service-log"></a>Projekti plaanimisteenuse logi
 
-Järgmises tabelis kuvatakse väljad, mis sisalduvad projekti plaanimisteenuse logis.
+Järgmises tabelis kuvatakse väljad, mis on kaasatud logisse Projekti plaanimisteenus.
 
 | SchemaName          | Kirjeldus                                                                    | DisplayName    |
 |---------------------|--------------------------------------------------------------------------------|----------------|
 | msdyn_CallStack     | Erandi kutsevirn.                                               | Kutsevirn     |
 | msdyn_correlationid | Vea korrelatsiooni ID.                                               | CorrelationId  |
-| msdyn_errorcode     | Väli, mida kasutatakse Dataverse tõrkekoodi või HTTP tõrkekoodi talletamiseks. | Tõrkekood     |
-| msdyn_HelpLink      | Link avaliku spikri dokumentatsioonile.                                       | Spikri link      |
-| msdyn_log           | Projekti plaanimisteenuse logi.                                   | Logi            |
-| msdyn_project       | Vealogiga seotud projekt.                             | Project        |
+| msdyn_errorcode     | Väli, mida kasutatakse tõrketähise Dataverse või HTTP-tõrkekoodi talletamiseks. | Tõrkekood     |
+| msdyn_HelpLink      | Link avalikule spikridokumentatsioonile.                                       | Spikri link      |
+| msdyn_log           | Projekti planeerimise teenuse logi.                                   | Logi            |
+| msdyn_project       | Tõrkelogiga seostatud projekt.                             | Project        |
 | msdyn_projectName   | Projekti nimi, kui toimingukomplekti kandevõime säilib. | Pole rakendatav |
 | msdyn_psserrorlogId | Olemi eksemplaride ainuidentifikaator.                                     | PSS-i tõrkelogi  |
 | msdyn_SessionId     | Projekti seansi ID.                                                        | Seansi ID     |
 
 ## <a name="error-log-cleanup"></a>Tõrkelogi puhastamine
 
-Vaikimisi saab nii projektiplaneerimise teenuse tõrkelogisid kui ka operatsioonikomplekti logi puhastada iga 90 päeva järel. Kõik kirjed, mis on vanemad kui 90 päeva, kustutatakse. Kuid muutes **msdyn_StateOperationSetAge lehe Projekti** **parameetrid** väärtust, saavad administraatorid koristusvahemikku reguleerida nii, et see oleks 1 kuni 120 päeva. Selle väärtuse muutmiseks on saadaval mitu meetodit.
+Vaikimisi saab iga 90 päeva järel puhastada nii Project Scheduling Service'i tõrkelogisid kui ka toimingukomplekti logi. Kõik kirjed, mis on vanemad kui 90 päeva, kustutatakse. Kuid muutes lehe Projekti parameetrid **välja** msdyn_StateOperationSetAge **väärtust**, saavad administraatorid puhastusvahemikku reguleerida nii, et see oleks vahemikus 1 kuni 120 päeva. Selle väärtuse muutmiseks on saadaval mitu meetodit.
 
-- Kohandage **olemit** Projektiparameeter, luues kohandatud lehe ja lisades välja **Aegunud toimingute määra** vanus.
+- Olemi **Projektiparameeter** kohandamiseks looge kohandatud leht ja lisage **väli Aegunud toimingute määra vanus**.
 - Kasutage kliendikoodi, mis kasutab [WebApi tarkvaraarenduskomplekti (SDK)](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord).
-- Kasutage teenuse SDK-koodi, mis kasutab **mudelipõhistes rakendustes Xrm SDK updateRecord** meetodit (kliendi API viide). Power Apps sisaldab värskendusrekordi meetodi kirjeldust ja toetatud **parameetreid**.
+- Kasutage teenuse SDK koodi, mis kasutab mudelipõhistes rakendustes Xrm SDK **updateRecord** meetodit (Kliendi API viide). Power Apps sisaldab meetodi updateRecord **kirjeldust** ja toetatud parameetreid.
 
     ```C#
     Xrm.WebApi.retrieveMultipleRecords('msdyn_projectparameter').then(function (response) {

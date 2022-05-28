@@ -1,5 +1,5 @@
 ---
-title: Ümberkujunetud kuluaruanded (sisaldab videot)
+title: Kuluaruanded on ümber kujundatud (sisaldab videot)
 description: Selles teemas kirjeldatakse ümberkujundatud kuluaruande kirjendamise kogemust.
 author: suvaidya
 ms.date: 12/16/2021
@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
-ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
+ms.openlocfilehash: 562ec3701a607ed95f663f3e0846d044b3bf504e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7941048"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586937"
 ---
 # <a name="expense-reports-reimagined"></a>Ümberkujundatud kuluaruanded
 
@@ -58,7 +58,7 @@ Uue keskkonna sisselülitamiseks kasutage tööruumi **Funktsioonihaldus**, et l
 | Uute kuluridade salvestamine ja lisamine | Uute kulude sisestamisel on saadaval nupud **Salvesta** ja **Uus**, et aidata teil kiiresti ridu sisestada. |
 | Jaotatud ja üksikasjalike ridade parem nähtavus | Üksikasjalikud ja tükeldatud read lisatakse otse kulude loendisse, et suurendada nähtavust ja aidata teil hõlpsalt kindlaks teha, kas esineb vigu. |
 | Täpsustatud ridadel alamkategooria üksikasjade vaatamine | Ülemkulu täpsustatud read näitavad kuluaruande alamkategooria silte. Täpsustamine aitab teil vaadata lühidalt täpsemaid üksikasju.|
-|Korduvate kulude kiire üksikasjalik loetlemine | Ümberkujundatud kulu tööruum võimaldab korduvaid kulusid kiiresti loetleda, lisades alamkategooria, alguskuupäeva ja koguse. Kogus viitab sellele, mitu korda tasu korduvat kogu perioodi jooksul. |
+|Korduvate kulude kiire üksikasjalik üksikasjalik esitamine | Ümberkujundatud kulu tööruum võimaldab korduvaid kulusid kiiresti loetleda, lisades alamkategooria, alguskuupäeva ja koguse. Kogus viitab sellele, mitu korda laengut pidevalt korratakse. |
 | Täpsustamise ajal kviitungite kuvamine | Täpsustamise ajal saab kuvada kviitungeid. |
 | Avansimakse valik | Valige ühe kulutehingu täitmiseks üks või mitu avansimakset. |
 | Avansimakse saldo | Vaadake avansimakse saldo üle reaalajas, kui loote kinnitatud ja makstud sularahas tehtud avansimaksete suhtes kulukirje. |

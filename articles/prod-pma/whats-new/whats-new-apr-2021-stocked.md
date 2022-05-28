@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 0b214678a17e5b1cdacb89ae00e4acb83b8292d02ff937f30e307751d39f152d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 42b4da3a77d56891454d094cd771575ff9bff081
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005566"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589605"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>Mis on rakenduses Project Operations logimata/tootmispõhiste stsenaariumite puhul uut või muudetud 2021. a aprillis?
 
@@ -20,7 +20,7 @@ _**Kehtib järgmiste puhul:** Project Operations ladustamise-/tootmispõhiste st
 
 See teema kehtib rakenduse Dynamics 365 Project Operations järgmistele komponentide ja versioonide kohta.
 
-- Projektihaldus ja raamatupidamine rakenduse Dynamics 365 Finance keskkonna versioonis 10.0.18
+- Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnaversioonis 10.0.18
  
 ### <a name="quality-updates"></a>Kvaliteedi värskendused
                                                                                                                                                                                   
@@ -83,7 +83,7 @@ See teema kehtib rakenduse Dynamics 365 Project Operations järgmistele komponen
 | Reisimine ja kulu                | [550575](https://fix.lcs.dynamics.com/Issue/Details/?bugId=550575) | Kui kulukategooria on mitte projektipõhisest kategooriast, ei kopeerita lehel **Kulud** valitud finantsdimensioone kuluaruandesse.                                          |
 
 ### <a name="regulatory-updates"></a>Regulatiivsed uuendused
-Lisateavet teenuse Finance and Operations rakenduste regulatiivsete uuenduste kohta vaadake teemast [Regulatiivsed uuendused](/dynamics365/finance/localizations/regulatory-updates). Saate ka LCS-i sisse logida ja vaadata kavandatud regulatiivseid värskendusi, kasutades probleemi otsimise tööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
+Finance and Operationsi rakenduste regulatiivsete värskenduste kohta leiate teavet teemast [Regulatiivsed värskendused](/dynamics365/finance/localizations/regulatory-updates). Saate ka LCS-i sisse logida ja vaadata kavandatud regulatiivseid värskendusi, kasutades probleemi otsimise tööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

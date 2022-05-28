@@ -4,14 +4,14 @@ description: Selles teemas selgitatakse, kuidas rakendust Project Operations Dat
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 06325a9a9f9084d1f506f2493c32565fe7b7c52ae6fe22c81339b9c1d632e688
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986441"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591215"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Rakenduse Project Operations Dataverse käsitsi juurutamine koos topeltkirjutuse toega
 
@@ -37,7 +37,7 @@ Selle toimingu lõpuleviimiseks peate administraatorina sisse logima.
 3. Valige keskkonna tüüp. Kui registreerusite prooviversiooni jaoks, valige **Prooviversioon (kordustellimusel põhinev)**.
 4. Kinnitage juurutuspiirkond.
 5. Lubage suvand **Loo selle keskkonna joaks andmebaas**. 
-6. Kinnitage keel ja seejärel kontrollige, kas valuuta ühtib teie rakenduste Finance and Operations valuutaga.
+6. Kinnitage keel ja kinnitage seejärel, et valuuta vastab teie finance and Operationsi rakenduste valuutale.
 7. Lubage suvand **Dynamics 365 rakendused** ja veenduge, et välja **Juuruta need rakendused automaatselt** väärtuseks oleks seatud **Puudub**.
 8. Lisage turberühm, kui turberühm on nõutav.
 9. Keskkonna loomiseks valige nupp **Salvesta**.
@@ -62,4 +62,4 @@ Selle toimingu saate teha ainult juhul, kui olete enne Project Operationsi insta
 
 ## <a name="link-your-environments"></a><a name="link"></a>Keskkondade sidumine
 
-Pärast Dataverse’i keskkonna juurutamist saate häälestada oma Finance and Operationsi rakendustes seose. Järgige juhiseid teemas [Oma keskkondade sidumiseks topeltkirjutuse viisardi kasutamine](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Pärast keskkonna juurutamist Dataverse saate lingi seadistada rakendustes Finance and Operations. Järgige juhiseid teemas [Oma keskkondade sidumiseks topeltkirjutuse viisardi kasutamine](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

@@ -3,15 +3,15 @@ title: Allhankelepingute haldus rakenduses Project Operations
 description: Selles teemas antakse terviklik ülevaade allhankelepingute haldusprotsessi kohta tüüpiliselt projektipõhistes organisatsioonides.
 author: rumant
 ms.date: 08/02/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 993edfd064279a970d7c42d5fcefd794e949a931
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323591"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593009"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Allhankelepingute haldus rakenduses Project Operations
 
@@ -46,7 +46,7 @@ Allhankelepingu rida võib olla kogusepõhine või tööpõhine.
 
 Kui allhankelepingu rida on **kogusepõhine** saab allhankelepingu real ostetava aja, kulu või materjali kogust kasutada mistahes projekti juures.
 
-Kui allhankelepingu rida on **tööpõhine**, vastendatakse allhankelepingu rida projektiplaanis sõlmega esindatava tööga. Allhankelepingu rea väärtus on kõigi töö teostamiseks vajalike komponentide summa. Need modelleeritakse allhankelepingu rea üksikasjadena ja need võivad olla aja, kulude või materjalide kogumid. Tööpõhise allhankelepingu rea korral on allhankelepingu rida mõeldud ühele projektile.
+Kui allhankelepingu rida on **tööpõhine**, vastendatakse allhankelepingu rida projektiplaanis sõlmega esindatava tööga. Allhankelepingu rea väärtus on kõigi töö teostamiseks vajalike komponentide summa. Need modelleeritakse allhankelepingu rea üksikasjadena ja need võivad olla aja, kulude või materjalide kogumid. Tööpõhise allhankelepingu rea korral on allhankelepingu rida mõeldud ühele projektile. Seda tüüpi allhanked on currenlty, mida Project Operations ei toeta.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

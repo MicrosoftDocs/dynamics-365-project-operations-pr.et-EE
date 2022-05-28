@@ -4,20 +4,20 @@ description: Selles teemas kirjeldatakse, kuidas rakendada demoseadistamist ja k
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e25d358f1fd7705d580855d372d85690f6a5e265d3ba2b60fc26742bf3edc86f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: ecb5da3bccf35f8ed7e2246f68dd4da2b145c6be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993281"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586983"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Project Operationsi demoseadistamise ja konfiguratsiooniandmete rakendamine – liht 
 
 _**Lite’i juurutamine – tehing näidisarveldusele_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>Eeltingimused
 
@@ -32,7 +32,7 @@ Enne konfigureerimise alustamist peab teil olema teenuse Common Data Service (CD
 
     ![Konfiguratsiooni migreerimine.](./media/1ConfigurationMigration.png)
 
-4. Valige CMT viisardi lehel 2 **juurutuse tüübiks** **Microsoft 365**.
+4. Valige CMT viisardi lehel 2 **Microsoft 365** **Juurutuse tüübiks**.
 5. Valige märkeruudud **Saadaolevate asutuste loendi kuvamine** ja **Kuva täpsemad**.
 6. Valige oma rentniku piirkond, sisestage oma mandaat ja valige seejärel **Logi sisse**.
 

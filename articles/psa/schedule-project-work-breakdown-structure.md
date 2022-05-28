@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 896f19746bde1ba6cf2acd6d558137f4271a5cd99424043053eefe128d3b4250
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 24e13642ac1fb9e90daab6d8aa9b16ed9c2defbf
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996791"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587351"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Tööjaotuse struktuuriga projekti plaanimine (Project Service)
 
@@ -63,7 +64,7 @@ Projekti ajakavas on andmed selle kohta, millist tööd on vaja teha, millised r
 ## <a name="task-types"></a>Ülesannete tüübid  
 Tööjaotuse struktuuri koostamisel kasutatakse järgmisi ülesannete tüüpe.  
 
-| | | 
+| Toiming | Kirjeldus | 
 |---------------------------------------|-----------------------------------------------------------------| 
 | **Projekti juursõlm** | Projekti ülataseme kokkuvõtteülesanne. Kõik muud projekti ülesanded luuakse selle alla. Juurülesande nimi on projekti nimi. Juursõlme panus, kuupäevad ja kestus põhinevad selle all oleva hierarhia väärtustel. Juursõlme atribuute saab muuta või juursõlme saab kustutada. | 
 | **Kokkuvõtvad ehk konteinerülesanded** | Kokkuvõttev ülesanne on alamülesannetega ülesanne. Kokkuvõtval ülesandel pole oma tööpanust ega maksumust. Selle tööpanus ja maksumus koosneb alamülesannete koondväärtusest. Kokkuvõtva ülesande nime saab muuta, kuid panust, kuupäevi ega kestust ei saa muuta, kuna need arvutatakse automaatselt. Kokkuvõtva ülesande kustutamisel kustutatakse ülesanne ja kõik selle alamülesanded.|  
