@@ -1,19 +1,19 @@
 ---
-title: Varem kinnitatud kannete tagasikutsumine
-description: Selles teemas selgitatakse, kuidas projektimeeskonna liige saab taotleda varem esitatud ja kinnitatud aja-, kulu- ja materjalikasutuse kirjete tagasikutsumist ning kuidas projektijuht saab tagasikutsumise taotlusi kinnitada või tagasi lükata.
+title: Varem kinnitatud kirjete tagasivõtmine
+description: Selles artiklis selgitatakse, kuidas projektimeeskonna liige saab taotleda varem esitatud ja kinnitatud aja-, kulu- ja materjalikasutuse kirjete tagasikutsumist ning kuidas projektijuht saab tagasikutsumise taotlusi kinnitada või tagasi lükata.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 18796e803ff73806aaa60b453048ee3160406b40
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 54fc7ac2301a4423ebf70b0b67ad489580c347b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586569"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930359"
 ---
-# <a name="recall-previously-approved-entries"></a>Varem kinnitatud kannete tagasikutsumine
+# <a name="recall-previously-approved-entries"></a>Varem kinnitatud kirjete tagasivõtmine
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 

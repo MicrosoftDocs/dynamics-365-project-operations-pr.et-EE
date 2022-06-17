@@ -1,6 +1,6 @@
 ---
 title: Projekti tegelike andmete sünkroonimine otse Project Service Automationist projekti integreerimise töölehele sisestamiseks rakenduses Finance and Operations
-description: Selles teemas kirjeldatakse malle ja selle aluseks olevaid ülesandeid, mida kasutatakse projekti tegelike kirjete sünkroonimiseks otse Microsoft Dynamics 365 Project Service Automation rahandusse ja operatsioonidesse.
+description: Selles artiklis kirjeldatakse malle ja selle aluseks olevaid ülesandeid, mida kasutatakse projekti tegelike sünkroonimiseks otse Microsoft Dynamics 365 Project Service Automation rahandusse ja operatsioonidesse.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7d912a11d9c7bc66ed43911ee32f25092d551cd6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683533"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929485"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Projekti tegelike andmete sünkroonimine otse Project Service Automationist projekti integreerimise töölehele sisestamiseks rakenduses Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse malle ja selle aluseks olevaid toiminguid, mida kasutatakse projekti tegelike sünkroonimiseks otse Dynamics 365 Project Service Automation Dynamics 365 Finance.
+Selles artiklis kirjeldatakse malle ja nende aluseks olevaid ülesandeid, mida kasutatakse projekti tegelike andmete sünkroonimiseks otse Dynamics 365 Project Service Automation Dynamics 365 Finance.
 
 Malliga sünkroonitakse tehingud rakendusest Project Service Automation koondtabelisse rakenduses Finance. Kui sünkroonimine on lõpule jõudnud, **peate** andmed koondtabelist integratsiooni töölehele importima.
 

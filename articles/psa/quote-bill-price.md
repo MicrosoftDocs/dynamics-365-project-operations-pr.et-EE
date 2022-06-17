@@ -1,6 +1,6 @@
 ---
 title: Hinnapakkumise, hinnakujunduse ja arveldamise avaleht
-description: Selles teemas antakse teavet hinnapakkumise, hinnakujunduse ja arveldamise kohta.
+description: Selles artiklis antakse teavet tsiteerimise, hinnakujunduse ja arveldamise kohta.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 09be2e3ed2bb17374f5d5151abf4ce7e5e2530a1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ef63d48703059bac8cadf3b12ecb025ae103d44d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581095"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926725"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>Hinnapakkumise, hinnakujunduse ja arveldamise avaleht
 
@@ -33,7 +33,7 @@ ms.locfileid: "8581095"
 
 Hinnapakkumine, hinnakujundus ja arveldamine on funktsioonid, mida kasutavad nii väikesed kui ka suured organisatsioonid. Kui mõistate, kuidas need funktsioonid rakenduses töötavad, saavad organisatsioonid konfiguratsioone hõlpsamini kohandada.
 
-Järgmistest teemadest leiate lisateavet rakenduse PSA funktsioonide hinnapakkumine, hinnakujundus ja arveldamine kohta.
+Järgmised artiklid annavad lisateavet PSA tsiteerimise, hinnakujunduse ja arveldusfunktsioonide kohta.
 
 - [Müügiprotsess](basic-sales-process.md)
 - [Hinnapakkumise read](basic-quote-lines.md)

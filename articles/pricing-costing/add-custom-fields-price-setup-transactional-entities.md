@@ -1,6 +1,6 @@
 ---
 title: 'Nõutavate kohandatud väljade lisamine hinna seadistusele ja ülekande olemitele '
-description: Selles teemas kirjeldatakse, kuidas lisada olemitele ja vormidele ning vaadetele nõutavaid kohandatud välja viiteid.
+description: Selles artiklis antakse teavet selle kohta, kuidas lisada nõutavaid kohandatud väljaviiteid olemitele ning vormidele ja vaadetele.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d7b5a3e7976f1ec4c01df2d9bf0aa620e747e9f4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a984dc9e04857e101fa012734fd822440899aced
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597379"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926035"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Nõutavate kohandatud väljade lisamine hinna seadistusele ja ülekande olemitele 
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Selles teemas eeldatakse, et olete läbinud toimingud teemas [Hinnakujunduse dimensioonidena kasutamiseks mõeldud kohandatud väljade ja olemite loomine](create-custom-fields-entities-pricing-dimensions.md). Kui te pole neid toiminguid lõpetanud, minge tagasi, viige need lõpuni ja seejärel tulge selle teema juurde tagasi. 
+Selles artiklis eeldatakse, et olete lõpetanud artiklis "Loo kohandatud väljad ja olemid, [mida kasutatakse hinnakujundusdimensioonidena"](create-custom-fields-entities-pricing-dimensions.md). Kui te ei ole neid protseduure lõpetanud, minge tagasi ja täitke need ning seejärel pöörduge tagasi selle artikli juurde. 
 
-Selles teemas kirjeldatakse protseduure, kuidas lisada olemitele ja kasutajaliidese (UI) elementidele (nt vormidele ja vaadetele) nõutavaid kohandatud välja viiteid.
+Selles artiklis näitavad protseduurid, kuidas lisada nõutavad kohandatud väljaviited olemitele ja kasutajaliidese (kasutajaliidese) elementidele, nagu vormid ja vaated.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Kohandatud hinnakujunduse dimensioonide väljade lisamine 
 Pärast kohandatud väljade ja olemite loomist on järgmiseks etapiks hindade seadistamise ja ülekande olemite teadlikkus kohandatud olemitest või suvandikomplekti loomisest, luues viite välju. Sõltuvalt sellest, kas teie hinnakujunduse dimensioonide loend sisaldab suvandikomplekt mõõtmeid või olemi dimensioone või mõlemat, järgige ainult **Suvandikomplekti põhjal kohandatud hinnakujunduse dimensioonide** või **Vastavalt olemile kohandatud hinnakujunduse** etappe või mõlemaid.

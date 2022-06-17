@@ -1,19 +1,19 @@
 ---
-title: Kandeühendused – erinevate kandetüüpide tegelike linkide linkimine
-description: Selles teemas selgitatakse, kuidas tehinguühendust kasutatakse erinevat tüüpi tegelike seoste linkimiseks, et aidata jälgida kasumlikkust, arvelduse mahajäämust ja arveldatud versus sisestamata tuluarvutusi.
+title: Kannete ühendused – erinevate kandetüüpide tegelike andmete linkimine
+description: Selles artiklis selgitatakse, kuidas tehinguühendust kasutatakse erinevat tüüpi tegelike kirjete linkimiseks, et aidata jälgida kasumlikkust, arvelduse mahajäämust ja arveldatud versus sisendvälistamata tuluarvutusi.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2e8d75a69e27619e6a21f0fe61e2c656e94017b0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19a78336099f54c5d6b36a963a90b9fd77e3d0af
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580773"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926081"
 ---
-# <a name="transaction-connections---link-actuals-of-different-transaction-types"></a>Kandeühendused – erinevate kandetüüpide tegelike linkide linkimine
+# <a name="transaction-connections---link-actuals-of-different-transaction-types"></a>Kannete ühendused – erinevate kandetüüpide tegelike andmete linkimine
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 

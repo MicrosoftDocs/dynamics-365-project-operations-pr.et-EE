@@ -1,17 +1,17 @@
 ---
 title: Project Operationsi prooviversioonidele registreerumine
-description: Selles teemas kirjeldatakse, kuidas juurutada rakenduse Dynamics 365 Project Operations prooviversiooni.
+description: Selles artiklis antakse teavet rakenduse prooviversiooni juurutamise kohta Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584269"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959644"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Project Operationsi prooviversioonidele registreerumine 
 
@@ -19,9 +19,9 @@ _**Kehtib järgmiste puhul:** Project Operations ressursipõhiste/mittelaopõhis
 
 
 
-Selles teemas kirjeldatakse, kuidas tellida partneri pakkumise eelvaadet ja juurutada Dynamics 365 Project Operations keskkonda.
+Selles artiklis selgitatakse, kuidas tellida eelvaatepartneri pakkumist ja juurutada Dynamics 365 Project Operations keskkonda.
 
-Uue Project Operationsi prooviversiooniga saate automaatselt juurutada ükskõik millise kolmest toetatud juurutusstsenaariumist, täites küsimustiku, mis soovitab parimat juurutusviisi. Selles teemas antakse teavet selle kohta, kuidas teha järgmisi asju.
+Uue Project Operationsi prooviversiooniga saate automaatselt juurutada ükskõik millise kolmest toetatud juurutusstsenaariumist, täites küsimustiku, mis soovitab parimat juurutusviisi. See artikkel annab teavet selle kohta, kuidas:
 
 - Lunastada oma prooviversiooni pakkumine.
 - Käivitada ettevalmistus.
@@ -89,7 +89,8 @@ Enne alustamist logige brauserisse kasutaja töökontoga sisse selles rentnikus,
 4.  Valige juurutuse kinnitamiseks vastav Microsoft Dataverse URL ning Finance and Operationsi rakenduste URL-id.
 
 ## <a name="configuring-dual-write"></a>Topeltkirjutuse konfigureerimine
-- Topeltkirjutamise turberollide konfigureerimiseks lugege teemat [Project Operationsi turbesätete värskendamine rakenduses Dataverse](resource-provision-new-environment.md).
+- Topeltkirjutamise turberollide konfigureerimiseks lugege teemat [Project Operationsi turbesätete värskendamine rakenduses Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Topeltkirjutamise konfiguratsioonile juurdepääsemiseks liikuge eksemplarile Finance and Operations ning seejärel liikuge andmehalduse topeltkirjutuse **juurde** > **·**.
 - Kahe kirjutamisega kaartide konfigureerimiseks lugege teemat [Käivita projektitoimingud kahe kirjutamise kaardid](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Litsentside määramine

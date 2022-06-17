@@ -1,6 +1,6 @@
 ---
 title: Olemi, juhtelemendi ja kasutajaliidese muudatused (Project Service Automation 3.x)
-description: Selles teemas kirjeldatakse rakenduse Microsoft Dynamics Project Service Automation 3.x lahenduse muudatusi.
+description: Selles artiklis kirjeldatakse project service automation 3.x lahenduse muudatusi Microsoft Dynamics.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,19 +15,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da43e0d15e655977c0c1be7348192a0189a56a6c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f54d263666c4fb999464f98c0138fc008dbbbd2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597563"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926863"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Olemi, juhtelemendi ja kasutajaliidese muudatused (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-Rakenduse Microsoft Dynamics Project Service Automation (PSA) 3.x väljaandes on tehtud palju muudatusi olemitele, juhtelementidele, vaadetele ja kasutajaliidesele. See dokument sisaldab teavet tähtsate muudatuste kohta.
+Rakenduse Microsoft Dynamics Project Service Automation (PSA) 3.x väljaandes on tehtud palju muudatusi olemitele, juhtelementidele, vaadetele ja kasutajaliidesele. See artikkel annab teavet nende oluliste muudatuste kohta.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Põhi- ja tütarüksuste seosed müügidokumendi, müügidokumendi rea, müügidokumendi rea üksikasjade olemite jaoks
 Enne versiooni 3.0 välja antud rakenduse Dynamics 365 Project Service Automation (PSA) versioonides rakendati osa müügidokumentide, müügidokumentide ridade ja müügidokumentide rea üksikasjade olemite vahelistest seostest stringiväljade kaudu, mis sisaldaks seotud üksuse GUID stringi esitust. Selle põhjuseks olid platvormi piirangud, mis nõudsid lahenduse serveri ja kliendi pooltel märkimisväärset kohandatud koodi, et muuta need suhted sarnasteks tüüpiliste rakenduse Dynamics CRM olemisuhetega ja panna stringi väljad toimima nagu otsinguväljad.

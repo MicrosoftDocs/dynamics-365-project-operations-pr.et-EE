@@ -1,6 +1,6 @@
 ---
 title: Projekti plaanimine ja jälgimine
-description: Selles teemas on toodud link lisateabele rakenduses Project Service Automation plaanimise ja jälgimise kohta.
+description: Selles artiklis on link teabele planeerimise ja jälgimise kohta Project Service Automationis.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 781e5afb30f5f3e7d81084c5f9bdb0c8ab200d9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b10a9b2f636b05955783c320597673fa7d24e131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589881"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933257"
 ---
 # <a name="project-planning-and-tracking"></a>Projekti plaanimine ja jälgimine
 
@@ -32,7 +32,7 @@ ms.locfileid: "8589881"
 
 Rakendus Project Service aitab teeninduse organisatsioonidel tuvastada müügivõimalusi, esitada pakkumisi, sõlmida lepingute kokkuleppeid, hallata ressursse, jälgida aega ja kulusid, esitada klientidele arveid ning täita projekte õigeaegselt ja eelarve piires. 
 
-Selles teemas varem olnud PDF-i link on eemaldatud ja sisu on teisaldatud järgmistesse teemadesse.
+Selles artiklis varem olnud PDF-link on eemaldatud ja sisu on teisaldatud järgmistesse artiklitesse:
 
 - [Projekti ajakavad](../project-creating.md)
 - [Projekti kulud ja tulud](../project-estimating.md)
@@ -43,7 +43,7 @@ Selles teemas varem olnud PDF-i link on eemaldatud ja sisu on teisaldatud järgm
 - [Projekti sätted](../project-settings.md)
 
 > [!NOTE]
-> See teema eemaldatakse tulevasest dokumentatsiooni värskendusest. 
+> See artikkel eemaldatakse tulevases dokumentatsioonivärskenduses. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

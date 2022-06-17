@@ -1,17 +1,17 @@
 ---
 title: Projektipõhiste hinnapakkumiste ridade ülevaade
-description: Selles teemas antakse teavet projektitööks projektipõhiste hinnapakkumise ridade kasutamise kohta.
+description: Selles artiklis antakse teavet projektipõhiste hinnapakkumisridade kasutamise kohta projektitöös.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0a9661d9b91ffeece4c66b129846632b30ebebc8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 90c5affa25b113476e43f0bbbadd5c9615f9c05c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591077"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934453"
 ---
 # <a name="project-based-quote-lines-overview"></a>Projektipõhiste hinnapakkumiste ridade ülevaade 
 

@@ -1,6 +1,6 @@
 ---
 title: Hinnapakkumised ja hinnapakkumise read
-description: Selles teemas antakse teavet hinnapakkumiste ja hinnapakkumiste ridade kohta.
+description: Selles artiklis antakse teavet jutumärkide ja hinnapakkumisridade kohta.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ff0a221b9d9ee1176f4e6c996613e33a6ca5e84
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4c59f018adc7ee439fd77a819e2fb7620941e958
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599035"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933349"
 ---
 # <a name="quotes-and-quote-lines"></a>Hinnapakkumised ja hinnapakkumise read
 
@@ -39,7 +39,7 @@ Rakenduses Dynamics 365 Project Service Automation on kahte tüüpi hinnapakkumi
 - Müügipakkumine ei sisalda mõningaid väljasid ja mõisteid, mis on kaasatud projekti hinnapakkumises. Väljad sisaldavad järgmisi: **Hankeüksus**, **Kontohaldur** ja **Maksja: kontakti nimi**.  
 - Müügipakkumisi ja projekti hinnapakkumisi tuvastab ka suvandikomplekti põhine väli, mille nimi on **Tüüp**. Müügipakkumise puhul on sellel väljal väärtus **Kaubal põhinev**. Projekti hinnapakkumise puhul on sellel väärtus **Tööl põhinev**.
 
-Selles teemas keskendutakse projekti hinnapakkumiste üksikasjadele.
+See artikkel keskendub projekti hinnapakkumiste üksikasjadele.
 
 Projekti hinnapakkumisel PSA-s võib olla mitu rea üksust või hinnapakkumise rida. Tegelikult on projekti hinnapakkumisel rea üksuste jaoks kaks ruudustikku. Üks ruudustik on projektil põhinevate ridade jaoks, mis võimaldavad üksikasjalikke hindamisi. Teine ruudustik on tootel põhinevate ridade jaoks, ms kasutavad lihtsat ühikuhinnal ja kogusel põhinevat lähenemisviisi.
 

@@ -1,6 +1,6 @@
 ---
 title: Mida on uut või muudetud rakenduse Project Service Automation värskenduse väljaandes 28.6, Hotfix, V3
-description: Selles teemas loetletakse Project Service Automationi värskenduse väljalaske 28.6 V3 funktsioonid ja parandused.
+description: Selles artiklis loetletakse funktsioonid ja parandused, mis on saadaval jaotises Project Service Automation Update Release 28.6 Hotfix, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/22/2021
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d6249febc1dc35e9ab3a2a8a876b6fe98e165c5b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6120cf62fcaa346d00c6db7babb0261d9c633775
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587168"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925115"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-286-v3"></a>Mida on uut või muudetud rakenduse Project Service Automation värskenduse väljaandes 28.6, V3
 
 Meil on hea meel teatada uusimast Dynamics 365 Project Service Automationi rakenduse värskendusest. See väljaanne sisaldab mõningaid olulisi kvaliteedi, jõudluse ja kasutatavuse täiustusi. See väljalase ühildub Dynamics 365 9. x-iga. Sellele väljaandele värskendamiseks külastage veebis Dynamics 365 administreerimiskeskuse lahenduste lehte värskenduse installimiseks. Lisateabe saamiseks vt jaotist [Eelistatud lahenduse installimine, värskendamine või eemaldamine](/power-platform/admin/install-remove-preferred-solution).
 
-Selles teemas loetletakse Project Service Automationi V3 värskenduse väljalaske 28.6 uusi või muudetud funktsioone ja parandusi. Selle versiooni järgunumber on V3.10.46.147 ja see on jaanuaris 2021 automaatvärskendusega kõigile saadaval.
+Selles artiklis loetletakse funktsioonid ja parandused, mis on project Service Automation V3, Update Release 28.6 jaoks uued või muudetud. Selle versiooni järgunumber on V3.10.46.147 ja see on jaanuaris 2021 automaatvärskendusega kõigile saadaval.
 
 ## <a name="update-release-286"></a>Värskenduste väljalase 28.6
 

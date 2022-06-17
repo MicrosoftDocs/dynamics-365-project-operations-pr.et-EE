@@ -1,17 +1,17 @@
 ---
 title: Ressursihalduse režiimide ülevaade
-description: Selles teemas antakse teavet ressursihalduse funktsionaalsuse kohta rakenduses Dynamics 365 Project Operations.
+description: Selles artiklis antakse teavet rakenduse ressursihalduse funktsioonide kohta Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: f30bac95b2beb92345cbe25332963c58d2bde4bb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dd50d12686a6ad17f6a95ccf0c2f1447cc470bf7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585051"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928427"
 ---
 # <a name="resource-management-modes-overview"></a>Ressursihalduse režiimide ülevaade
 
@@ -38,7 +38,7 @@ Organisatsioonides, kes vajavad ressursside eraldamisel paindlikkust, võimaldab
 
 ![Hübriidrežiim.](./media/resource-management-hybrid.png)
 
-Lisaks toetatud keskse režiimi protsessile vaadake järgmisi teemasid kõigi teiste toetatud broneerimisvoogude haldamise kohta hübriidrežiimis.
+Lisaks toetatud keskrežiimi protsessile vaadake kõiki muid toetatud broneerimisvooge hübriidrežiimis järgmistest artiklitest.
 
 Ressursi otse projektile broneerimine.
 - [Broneerige projekti meeskonnale nimega broneeritavad ressursid ja määrake ülesandeid](/dynamics365/project-service/assign-named-bookable-resource)

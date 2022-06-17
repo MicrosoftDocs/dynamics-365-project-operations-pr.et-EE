@@ -1,6 +1,6 @@
 ---
 title: Näidisandmete installimine
-description: Selles teemas antakse teavet Project Service Automationis näidisandmete installimise kohta.
+description: Selles artiklis antakse teavet näidisandmete installimise kohta Project Service Automationisse.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
 ms.reviewer: johnmichalak
@@ -10,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 952f3c3c037bb8459bdd1400288c4ea8604ce282
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8fb3854c139125abbf499622d048e2ff0791516a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581831"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926771"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Näidisandmete installimine Project Service’i rakendusele
 

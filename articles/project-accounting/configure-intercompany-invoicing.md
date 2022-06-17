@@ -1,17 +1,17 @@
 ---
 title: Kontsernisisese arveldamise konfigureerimine
-description: Sellest teemast leiate teavet ja näiteid kontsernisiseste arvete seadistamise kohta projektidele.
+description: Selles artiklis antakse teavet ja näiteid projektide kontsernisisese arveldamise konfigureerimise kohta.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ad6022670048e5aa3635998852b78c49af461d4e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ae0c2662bb6b2789ab520f08c7c21935b651ced5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591583"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929351"
 ---
 # <a name="configure-intercompany-invoicing"></a>Kontsernisisese arveldamise konfigureerimine
 

@@ -1,6 +1,6 @@
 ---
 title: Mida on uut või muudetud rakenduse Project Service Automation värskenduse väljaandes 17.5, Hotfix, V3
-description: Selles teemas loetletakse Project Service Automationi värskenduse väljalaske 17.5, V3 saadaolevaid funktsioone ja parandusi.
+description: Selles artiklis loetletakse funktsioonid ja parandused, mis on saadaval project service automation update release 17.5, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 03/13/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 6d4dc77263b7ce8cb2bfa0a7e61d1b55a849b624
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f008d8da11b7fecb308a00350a78298b83991d87
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577323"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926449"
 ---
 # <a name="project-service-automation-update-release-175-v3"></a>Rakenduse Project Service Automation, värskenduse väljaanne 17.5, v3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8577323"
 
 Meil on hea meel teatada uusimast Dynamics 365 Project Service Automationi rakenduse värskendusest. See väljaanne sisaldab mõningaid olulisi kvaliteedi, jõudluse ja kasutatavuse täiustusi.  See väljalase ühildub Dynamics 365 9. x-iga. Sellele väljaandele värskendamiseks külastage veebis Dynamics 365 administreerimiskeskuse lahenduste lehte värskenduse installimiseks. Lisateabe saamiseks vt jaotist [Eelistatud lahenduse installimine, värskendamine või eemaldamine](/power-platform/admin/install-remove-preferred-solution).
 
-Selles teemas loetletakse V3 värskenduse väljalaske 17.5 uusi või muudetud funktsioone ja parandusi. Selle versiooni järgunumber on V3.10.7.32 ja see on märtsis 2020 automaatvärskendusega kõigile saadaval.
+Selles artiklis loetletakse funktsioonid ja parandused, mis on uued või muudetud V3, Update Release 17.5 jaoks. Selle versiooni järgunumber on V3.10.7.32 ja see on märtsis 2020 automaatvärskendusega kõigile saadaval.
 
 
 ## <a name="update-release-175"></a>Värskenduste väljalase 17.5

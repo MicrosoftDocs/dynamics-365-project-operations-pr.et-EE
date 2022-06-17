@@ -1,24 +1,24 @@
 ---
 title: Mis on uut veebruaris 2022 – Project Operations ressursi-/mittelaopõhiste stsenaariumite jaoks
-description: Selles teemas antakse teavet kvaliteedivärskenduste kohta, mis on saadaval project Operationsi 2022. aasta veebruari väljaandes ressursi-/ladustamata stsenaariumide jaoks.
+description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval Project Operationsi 2022. aasta veebruari väljaandes ressursi-/ladustamata stsenaariumide jaoks.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 76ae00517c857415c89d7a03f421686dad28da93
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b036c0a3c39c52cb15277293679ef88906cae2c4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600829"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932981"
 ---
 # <a name="whats-new-february-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Mis on uut veebruaris 2022 – Project Operations ressursi-/mittelaopõhiste stsenaariumite jaoks
 
 *Kehtib: ressursipõhiste/mitteladustatavate stsenaariumite jaoks*
 
-See teema kehtib järgmiste Microsofti Dynamics 365 Project Operations komponentide ja versioonide kohta.
+See artikkel kehtib järgmiste Microsofti Dynamics 365 Project Operations komponentide ja versioonide kohta.
 
 - Projektitoimingud keskkonnaversioonis Dataverse 4.28.0.120
 - Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnaversioonis 10.0.24
@@ -76,11 +76,11 @@ Kui kaardi käivitamisel ilmneb probleem, järgige topeltkirjutamise tõrkeotsin
 
 ## <a name="removed-and-deprecated-features"></a>Eemaldatud ja aegunud funktsioonid
 
-Teema [Project Operations](removed-depreciated-features-project.md) teema eemaldatud või aegunud funktsioonid kirjeldavad funktsioone, mis on rakenduse jaoks Dynamics 365 Project Operations eemaldatud või aegunud.
+Artiklis [Eemaldatud või aegunud funktsioonid jaotises Project Operations](removed-depreciated-features-project.md) kirjeldatakse funktsioone, mis on rakenduse jaoks Dynamics 365 Project Operations eemaldatud või aegunud.
 
 - Eemaldatud funktsioon pole enam tootes saadaval.
 - Aegunud funktsioon pole aktiivses arenduses ja võidakse tulevases värskenduses eemaldada.
 
-12 kuud enne mis tahes funktsiooni eemaldamist tootest kuvatakse [project Operationsi](removed-depreciated-features-project.md) teema eemaldatud või aegunud funktsioonides amortisatsiooniteade.
+Amortisatsiooniteade kuvatakse [Project Operationsi](removed-depreciated-features-project.md) artiklis Eemaldatud või aegunud funktsioonides 12 kuud enne mis tahes funktsiooni tootest eemaldamist.
 
 Muudatuste katkestamiseks, mis mõjutavad ainult kompileerimisaega, kuid on binaarsed ühilduvad liivakasti ja tootmiskeskkondadega, on amortisatsiooniaeg vähem kui 12 kuud. Tavaliselt on need muudatused funktsionaalsed värskendused, mis tuleb kompilaatorile teha.

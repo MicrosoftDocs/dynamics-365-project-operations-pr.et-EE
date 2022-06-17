@@ -1,6 +1,6 @@
 ---
 title: Projektile ressursside pakkumine
-description: Selles teemas kirjeldatakse projektile ressursside pakkumist.
+description: See artikkel annab teavet projekti ressursside pakkumise kohta.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: fc18c5cbd1a564e186f533a3c0f972e60229a6d9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 379c75578846e2834321045edc7deb116aff7b06
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587443"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930819"
 ---
 # <a name="propose-project-resources"></a>Projektile ressursside pakkumine
 

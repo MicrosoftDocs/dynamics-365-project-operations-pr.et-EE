@@ -1,24 +1,24 @@
 ---
 title: Mis on uut mais 2021 – Project Operationsi lihtjuurutamine
-description: See teema annab teavet Project Operationsi lihtjuurutamise 2021. a mai väljalaskes saadaolevate kvaliteedivärskenduste kohta.
+description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval Project Operations lite'i juurutuse 2021. aasta mais.
 author: sigitac
 ms.date: 05/17/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 854a8c2290281b4d11a045321a334d8866806041
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a5d67159b732e0309e03c64fb6dadcc7b8cbff51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583671"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934177"
 ---
 # <a name="whats-new-may-2021---project-operations-lite-deployment"></a>Mis on uut mais 2021 – Project Operationsi lihtjuurutamine
 
 _Kohaldub: lihtjuurutus - tehing proforma arveldusega_
 
-See teema kehtib rakenduse Dynamics 365 Project Operations järgmistele komponentide ja versioonide kohta.
+See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja versioonide kohta.
 
    - Project Operations Dataverse’i keskkonna versioonis 4.10.0.186.
 

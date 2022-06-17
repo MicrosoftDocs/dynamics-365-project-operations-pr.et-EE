@@ -1,17 +1,17 @@
 ---
 title: Projekti kopeerimine
-description: Selles teemas antakse teavet rakenduses Dynamics 365 Project Operations projektide kopeerimise kohta.
+description: Selles artiklis antakse teavet rakendustes projektide kopeerimise kohta rakenduses Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 03/07/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e9b637d2d282d123dfacb8a295292ea06549aa1e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b358f9e45278d886f3e6e8e8cd747fc0ea30212b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574425"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925759"
 ---
 # <a name="copy-a-project"></a>Projekti kopeerimine
 

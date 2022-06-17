@@ -1,6 +1,6 @@
 ---
 title: Hinnakujunduse ja kuluarvestuse dimensioonide avaleht
-description: Selles teemas antakse ülevaade hindade dimensioonidest.
+description: See artikkel annab ülevaate hinnakujunduse dimensioonidest.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88c77d90bccaa5f10e8f75d60ae121d699bc0976
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593607"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925437"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Hinnakujunduse ja kuluarvestuse dimensioonide avaleht
 
@@ -47,7 +47,7 @@ PSA tarnitakse vaikimisi seatud hinnakujunduse dimensioonidega. Neid saate vaada
 > [!IMPORTANT]
 > Kui olete kasutanud valmiskujul rolli välju ja organisatsiooniüksust hinnakujunduse mõõtmetena enne PSA versiooni 3, ei ole mingeid jälgitavaid muudatusi. Saate jätkuvalt kasutada Project Service nagu tavaliselt. 
 
-Kui teil on vaja ressursside hinda või kulu, kasutades täiendavaid atribuute, saate luua kohandatud välju, olemeid ja dimensioone. Lisateavet leiate järgmistest teemadest, kuid pange tähele, et protseduurid tuleb lõpule viia allpool toodud järjekorras.
+Kui teil on vaja ressursside hinda või kulu, kasutades täiendavaid atribuute, saate luua kohandatud välju, olemeid ja dimensioone. Lisateabe saamiseks vaadake järgmisi artikleid, kuid pange tähele, et peate protseduurid täitma allpool loetletud järjekorras:
 
 - [Kohandatud väljade ja olemite loomine](create-custom-fields-entities.md)
 - [Kohandatud väljade lisamine hinna seadistusele ja ülekande olemitele](field-references.md)

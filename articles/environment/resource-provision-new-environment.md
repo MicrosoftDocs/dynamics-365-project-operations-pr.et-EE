@@ -1,18 +1,18 @@
 ---
 title: Uue keskkonna ettevalmistamine
-description: Selles teemas antakse teavet uue Project Operationsi keskkonna ettevalmistamise kohta.
+description: Selles artiklis antakse teavet selle kohta, kuidas pakkuda uut Project Operationsi keskkonda.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594803"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931601"
 ---
 # <a name="provision-a-new-environment"></a>Uue keskkonna ettevalmistamine
 
@@ -20,7 +20,7 @@ _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
 
 
-Selles teemas antakse teavet selle kohta, kuidas juurutada uut rakenduse Dynamics 365 Project Operations keskkonda ressursi-/mittelaopõhiste stsenaariumide jaoks.
+Selles artiklis antakse teavet selle kohta, kuidas pakkuda uut Dynamics 365 Project Operations keskkonda ressursi-/ladustamata stsenaariumide jaoks.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Project Operationsi automaatse ettevalmistamise lubamine LCS projektis
 

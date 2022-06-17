@@ -1,6 +1,6 @@
 ---
 title: Tegelikud näitajad
-description: Selles teemas antakse teavet tegelike andmetega töötamise kohta Microsofti Dynamics 365 Project Operationsis.
+description: Selles artiklis antakse teavet selle kohta, kuidas Microsofti tegelikega töötada Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f0cb8c478e2ce6fba589d51d95649f53f62e883
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2551b7d6d20df170c913e302e734583135265529
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581279"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924793"
 ---
 # <a name="actuals"></a>Tegelikud näitajad
 
@@ -33,7 +33,7 @@ Tegelikud andmed esindavad projekti läbivaadatud ja kinnitatud finantsilist nin
 
 Projektitoimingud kirjendavad projekti kaasamise elutsükli jooksul toimuvad finantstehingud tegelikena. Tegelike tegelike loomine elutsükli erinevatel üritustel varieerub sõltuvalt sellest, kas projekti kaasamine kasutab aja ja materjalide arveldusmudelit või fikseeritud hinna arveldusmudelit ja kas see on müügieelses etapis või on see sisemine projekt.
 
-Järgmised teemad selgitavad erinevate variatsioonide mõju tabelile Actuals erinevatel üritustel:
+Järgmistes artiklites selgitatakse mõju tabelile Tegelikud erinevatel üritustel erinevate variatsioonide puhul:
 
 - [Tegelikud mõjud ajas ja materjalide kaasamises](ActualsonTM.md)
 - [Tegelik mõju fikseeritud hinna kaasamisele](ActualonFP.md)

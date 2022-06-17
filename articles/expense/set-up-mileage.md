@@ -1,17 +1,17 @@
 ---
 title: Läbisõidu seadistamine läbisõidu määra astmeid kasutades
-description: Selles teemas antakse teavet nii läbisõidu määrade kui ka läbisõidu määra astmete kohta.
+description: See artikkel annab teavet läbisõidukiiruse ja läbisõidumäära tasemete kohta.
 author: suvaidya
 ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 04dc6d0f2d8c7439012368ab6f46a1f69cb02804
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 03ca18c8fef6228f2ba553ebe50447beda5a857c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576955"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930129"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>Läbisõidu seadistamine läbisõidu määra astmeid kasutades
 

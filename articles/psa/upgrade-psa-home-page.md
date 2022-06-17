@@ -1,6 +1,6 @@
 ---
 title: Täiendamise avaleht
-description: Selles teemas kirjeldatakse, kust leida olulist teavet Dynamics 365 Project Service Automation uute ja muudetud funktsioonide kohta ning kuidas täiendada uusimale versioonile.
+description: Selles artiklis kirjeldatakse, kust leida olulist teavet rakenduse uute ja muudetud funktsioonide Dynamics 365 Project Service Automation ning uusimale versioonile ülemineku protsessi kohta.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -19,12 +19,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 337bb2d13eae7cc971b801a3c9662a7a1769909f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5dcf41af31a60b952ce82c08e3c082490d59d4f6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591379"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926633"
 ---
 # <a name="upgrade-home-page"></a>Täiendamise avaleht
 
@@ -48,14 +48,14 @@ Eelnevalt pidid kliendid, kellel on PSA versiooni 2.x eksemplar täiendama versi
 Enne kui alustate täiendusprotsessi, soovitame teil ära teha järgmised ülesanded.
 
 - Kontrollige, kas nii Dynamics 365 Field Service kui ka Project Service Automation on tuvastatud eksemplarile installitud. Kui mõlemad lahendused on installitud, peaksite enne eksemplari tavapärase kasutamise jätkamist plaanima mõlema täiendamist.
-- Vaadake järgmised teemad tähelepanelikult üle. Kui olete teadlik versioonidevahelistest erinevustest ja mõistate neid, aitab see teil täiendusprotsessi teha. Nendes teemades kirjeldatakse PSA-s tehtud olulisi muudatusi ning esitatakse kaalutlusi ja soovitusi versioonile 3.x ülemineku plaanimiseks.
+- Vaadake hoolikalt läbi järgmised artiklid. Kui olete teadlik versioonidevahelistest erinevustest ja mõistate neid, aitab see teil täiendusprotsessi teha. Need artiklid annavad teavet PSA suurte muudatuste kohta koos kaalutluste ja soovitustega versioonile 3.x ülemineku planeerimiseks.
 
     - [Mis on uut või muudetud Project Service Automation versioonis 3?](whats-new-changed-v3.md)
     - [Täienduse kaalutlused – üleminek Project Service Automation versioonilt 2.x või 1.x versioonile 3](upgrade-v3.md)
 
 - Enne tootmiseksemplari täiendamist täiendage oma liivakasti eksemplari, et hinnata juurutamisel ilmnevaid muudatusi.
 
-Kui olete eelmainitud teemad läbi vaadanud ja olete valmis täiendama PSA versioonile 3.x või UCI-põhisele versioonile, esitage Microsofti tugiteenusele oma avaldus, et muuta täiendus halduskeskuse kaudu kättesaadavaks. Esitage taotluses oma eksemplari üksikasjad.
+Pärast seda, kui olete varem mainitud artiklid üle vaadanud ja olete valmis üle minema PSA versioonile 3.x või UCI-põhisele versioonile, esitage Microsofti tugiteenusele taotlus täienduse kättesaadavaks tegemiseks halduskeskusest. Esitage taotluses oma eksemplari üksikasjad.
 
 ## <a name="older-versions-of-psa-psa-version-2x-in-a-newly-created-instance"></a>Vanemad PSA versioonid (PSA versioon 2.x) äsja loodud eksemplaris
 

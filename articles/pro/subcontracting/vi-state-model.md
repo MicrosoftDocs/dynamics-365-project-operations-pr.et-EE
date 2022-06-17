@@ -1,25 +1,25 @@
 ---
-title: Hankija arve riigi üleminekud
-description: Selles teemas selgitatakse Microsofti hankijaarve olekusiirdeid Dynamics 365 Project Operations.
+title: Hankija arve oleku üleminekud
+description: Selles artiklis selgitatakse Microsofti hankijaarve olekusiirdeid Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7efb52621ee325d5025dfad0b45218d1fe20a063
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 58b07322fb6480fdeb07eb867a7aabc0eff7b955
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584683"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934315"
 ---
-# <a name="state-transitions-on-a-vendor-invoice"></a>Hankija arve riigi üleminekud
+# <a name="state-transitions-on-a-vendor-invoice"></a>Hankija arve oleku üleminekud
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
-Selles teemas selgitatakse Microsofti hankijaarve olekusiirdeid Dynamics 365 Project Operations. Kasutatakse järgmisi olekuid: **Mustand**, **Ülevaatamine**, **Kinnitatud**, **Ootel** ja **Tühistatud**.
+Selles artiklis selgitatakse Microsofti hankijaarve olekusiirdeid Dynamics 365 Project Operations. Kasutatakse järgmisi olekuid: **Mustand**, **Ülevaatamine**, **Kinnitatud**, **Ootel** ja **Tühistatud**.
 
 Järgmistel illustratsioonidel on näidatud oleku üleminekud.
 

@@ -1,21 +1,21 @@
 ---
 title: Mitme kliendi haldamine projekti lepingutes
-description: See teema sisaldab teavet selle kohta, kuidas hallata projektilepingud mitut klienti.
+description: Selles artiklis antakse teavet selle kohta, kuidas hallata projektilepingus mitut klienti.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: bf8b0d313b2b07924d730fe8923b05559bbcc244
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591307"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928335"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Mitme kliendi haldamine projekti lepingutes
 
-See teema sisaldab teavet selle kohta, kuidas hallata projektilepingud mitut klienti. Saate kasutada projektilepingut, kui tehingu rahastamiseks on vaja mitme kliendi lepingulist kokkulepet. Lehel **Projektipeling** sisaldab vahekaart **Kokkuvõte** teavet tehingu peamise kliendi kohta. Teised tehingus osalevad kliendid saab lisada vahekaardile **Kliendid**.
+Selles artiklis antakse teavet selle kohta, kuidas hallata projektilepingus mitut klienti. Saate kasutada projektilepingut, kui tehingu rahastamiseks on vaja mitme kliendi lepingulist kokkulepet. Lehel **Projektipeling** sisaldab vahekaart **Kokkuvõte** teavet tehingu peamise kliendi kohta. Teised tehingus osalevad kliendid saab lisada vahekaardile **Kliendid**.
 
 Kõik projektilepingu jaoks loodavate uute projektipõhiste lepinguridade projektilepingu vahekaardi **Kliendid** lepinguliste klientide vaikeväärtused pärinevad lepingurea klientidelt. Kõik olemasolevad projektipõhised lepinguread ei päri hiljem loodavaid uusi lepingu klientide kirjeid.
 

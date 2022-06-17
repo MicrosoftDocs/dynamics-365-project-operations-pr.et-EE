@@ -1,17 +1,17 @@
 ---
 title: Projektilepingud – põhimõisted
-description: Selles teemas antakse teavet projektilepingute peamiste mõistete kohta Project Operationsis.
+description: Selles artiklis antakse teavet projektioperatsioonide projektilepingute põhimõistete kohta.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 016a5d1defacdc6ba5828ca26395c9123e9323d0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582935"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926219"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Projektipõhiste lepingute kordumatud mõisted
 
@@ -19,7 +19,7 @@ _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
 
 
-Selles teemas käsitletakse põhimõisteid, millest tuleb teadlik olla enne, kui hakkate kasutama projekti lepinguid rakenduses Dynamics 365 Project Operations.
+Selles artiklis on toodud põhimõisted, millest tuleb teadlik olla enne projektilepingute kasutamise alustamist rakenduses Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Omanikust ettevõte
 

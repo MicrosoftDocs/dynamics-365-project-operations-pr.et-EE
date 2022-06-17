@@ -1,17 +1,17 @@
 ---
 title: Allhankelepinguga komponentide aja, kulude ja materjalikasutuse kirjendamine
-description: Selles teemas selgitatakse, kuidas Microsoft jälgib allhankekomponentide projektidele salvestatud aega, kulusid ja materjalikasutust Dynamics 365 Project Operations.
+description: Selles artiklis selgitatakse, kuidas Microsoft jälgib allhankekomponentide projektidele salvestatud aega, kulusid ja materjalikasutust Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a31b4a1092cc4829cbfc789e8b8e30030b2826b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1c05b941fb51c8b56422e3b5d3868c9b69197187
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599219"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927645"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Allhankekomponentide projektide aja, kulude ja materjalikasutuse registreerimine
 
@@ -19,7 +19,7 @@ ms.locfileid: "8599219"
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
-Selles teemas selgitatakse, kuidas Microsoft jälgib allhankekomponentide projektidele salvestatud aega, kulusid ja materjalikasutust Dynamics 365 Project Operations.
+Selles artiklis selgitatakse, kuidas Microsoft jälgib allhankekomponentide projektidele salvestatud aega, kulusid ja materjalikasutust Dynamics 365 Project Operations.
 
 ## <a name="costing-for-subcontractor-time-on-projects"></a>Alltöövõtja aja kulu projektidele
 Projektitoimingutes saavad lepingulised töötajad projektidele aega salvestada sarnaselt töötajatega. Projektidele ja/või projektiülesannetele aja sisestamisel saab lepinguline töötaja valida kindla alltöövõtu- ja alltöövõturea.

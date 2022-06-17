@@ -1,6 +1,6 @@
 ---
 title: Mida on uut või muudetud rakenduse Project Service Automation värskenduse väljaandes 14, V3
-description: Selles teemas antakse teavet selle kohta, mida on uut rakenduse Project Service Automation värskenduse väljaandes 14, v3.
+description: Selles artiklis antakse teavet selle kohta, mis on uut Project Service Automation Update Release 14 V3-s.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8504ac5a0ce7254baee9139e4407e712c758540d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e8e5132f970e3ec5742842175c118faf98a7b079
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594298"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926541"
 ---
 # <a name="project-service-automation-update-release-14-v3"></a>Rakenduse Project Service Automation, värskenduse väljaanne 14, v3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8594298"
 
 Meil on hea meel teatada uusimast rakenduse Dynamics 365 Project Service Automation (PSA) värskendusest. See väljaanne sisaldab mõningaid olulisi kvaliteedi, jõudluse ja kasutatavuse täiustusi. See väljalase ühildub Dynamics 365 9. x-iga. Sellele väljaandele värskendamiseks külastage veebis Dynamics 365 administreerimiskeskust ja avage värskenduse installimiseks lahenduste leht. Lisateabe saamiseks vt jaotist [Eelistatud lahenduse installimine, värskendamine või eemaldamine](/power-platform/admin/install-remove-preferred-solution).
 
-Selles teemas loetletakse PSA V3 värskenduse väljalaske 14 uusi või muudetud funktsioone ja parandusi. Selle versiooni järgu number on V3.10.4.21 ja see on saadaval järgmise ajakava järgi.
+Selles artiklis loetletakse funktsioonid ja parandused, mis on PSA V3, Update Release 14 jaoks uued või muudetud. Selle versiooni järgu number on V3.10.4.21 ja see on saadaval järgmise ajakava järgi.
 
 - **Üldine saadavus (automaatvärskendus):** jaanuar 2020
 - **Automaatvärskendus:** veebruar 2020

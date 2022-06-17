@@ -1,17 +1,17 @@
 ---
 title: Rakenduse Project Operations topeltkirjutamise vastenduse versioonid
-description: Selles teemas loetletakse rakenduse Dynamics 365 Project Operations jaoks vajalikud topeltkirjutamise kaardid.
+description: Selles artiklis on loetletud kahe kirjutamise kaardid, mis on vajalikud rakenduse jaoks Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612745"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959624"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Rakenduse Project Operations topeltkirjutamise vastenduse versioonid
 
@@ -54,7 +54,7 @@ Järgmised kaardid on Project Operationsi lahenduse jaoks nõutavad eeltingimuse
 | Project Operationsi integreerimise olem tunniprognooside jaoks (msdyn_resourceassignments) | 1.0.0.5 | Pole vajalik ettevalmistuse jaoks. ||
 | Project Operationsi integreerimise projekti kulukategooriate ekspordi olem (msdyn_expensecategories) | 1.0.0.1 | Pole vajalik ettevalmistuse jaoks. ||
 | Project Operationsi integreerimise projekti kulude ekspordi olem (msdyn_expenses) | 1.0.0.3 | Pole vajalik ettevalmistuse jaoks. ||
-| Project Operationsi integreerimise projekti tarnija arve ekspordist (msdyn_projectvendorinvoices) | 1.0.0.0 | Pole vajalik ettevalmistuse jaoks. ||
+| Project Operationsi integreerimise projekti tarnija arve ekspordist (msdyn_projectvendorinvoices) | 1.0.0.1 | Pole vajalik ettevalmistuse jaoks. |10.0.26 või uuemad|
 | Project Operationsi integratsioon projekti tarnija arve rea ekspordist (msdyn_projectvendorinvoices) | 1.0.0.4 | Pole vajalik ettevalmistuse jaoks. | 10.0.26 või uuemad |
 | Projekti ressursside rollid kõigile ettevõtetele (bookableresourcecategories) | 1.0.0.1 | Nõuab tabelikaardi jaoks algset sünkroonimist, et sünkroonida projektijuhi ja meeskonna liikme ressursirollid, mis on ettevalmistamise ajal Dynamics 365 Dataverse’i keskkonnas asustatud. Dataverse on algse sünkroonimise põhiallikas. ||
 | Projektiülesanded (msdyn_projecttasks) | 1.0.0.4 | Pole vajalik ettevalmistuse jaoks. ||

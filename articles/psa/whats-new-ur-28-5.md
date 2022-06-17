@@ -1,6 +1,6 @@
 ---
 title: Mida on uut või muudetud rakenduse Project Service Automation värskenduse väljaandes 28.5, Hotfix, V3
-description: Selles teemas loetletakse Project Service Automationi värskenduse väljalaske 28.5 V3 funktsioonid ja parandused.
+description: Selles artiklis loetletakse funktsioonid ja parandused, mis on saadaval jaotises Project Service Automation Update Release 28.5 Hotfix, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8c10e626094a229f2adf2137e847537becf29b55
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7d232150445091e64ca0ec804994050757b159df
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595309"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928703"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-285-v3"></a>Mida on uut või muudetud rakenduse Project Service Automation värskenduse väljaandes 28.5, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8595309"
 
 Meil on hea meel teatada uusimast Dynamics 365 Project Service Automationi rakenduse värskendusest. See väljaanne sisaldab mõningaid olulisi kvaliteedi, jõudluse ja kasutatavuse täiustusi. See väljalase ühildub Dynamics 365 9. x-iga. Sellele väljaandele värskendamiseks külastage veebis Dynamics 365 administreerimiskeskuse lahenduste lehte värskenduse installimiseks. Lisateabe saamiseks vt jaotist [Eelistatud lahenduse installimine, värskendamine või eemaldamine](/power-platform/admin/install-remove-preferred-solution).
 
-Selles teemas loetletakse funktsioonid ja parandused, mis on uued või muudetud rakenduse Project Service Automation V3 väljalaske 28.5 jaoks. See versiooni järgu number on V3.10.46.87 ja on üldiselt saadaval ise värskendamise kaudu jaanuaris 2021.
+Selles artiklis loetletakse funktsioonid ja parandused, mis on project service automation V3 jaoks uued või muudetud, Update Release 28.5 Sellel versioonil on järguline arv V3.10.46.87 ja see on üldiselt saadaval isevärskenduse kaudu 2021. aasta jaanuaris.
 
 ## <a name="update-release-285-hotfix"></a>Värskenduse väljaanne 28.5 Kiirparandus
 

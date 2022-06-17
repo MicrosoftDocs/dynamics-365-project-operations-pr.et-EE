@@ -1,6 +1,6 @@
 ---
 title: Ostutellimuses üksuste vastuvõtmine üksuse nõudest
-description: Selles teemas selgitatakse, kuidas võtta üksuse nõudest tulenevalt võta vastu ostutellimuse eest saadud üksused.
+description: Selles artiklis selgitatakse, kuidas kaubanõudest ostutellimusel kaupu vastu võtta.
 author: Yowelle
 ms.date: 08/06/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab08dda6e81609595f54f3dd71c0154c12807270
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 9bbe15fac325ad00bdd2f2fc6ddf3ae15df45271
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682522"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929531"
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>Ostutellimuses üksuste vastuvõtmine üksuse nõudest
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas võtta üksuse nõudest tulenevalt võta vastu ostutellimuse eest saadud üksused.
+Selles artiklis selgitatakse, kuidas kaubanõudest ostutellimusel kaupu vastu võtta.
 
 Üksuse kande asemel nõuet kasutades saate planeerida kohaletoimetamise vahetult enne üksuse tegelikku kasutamist, luua ostutellimuse, kaasata üksus kaubandusleppe raamistikku ning kaasata üksuse nõue tootmisplaneerimises. 
 

@@ -1,24 +1,24 @@
 ---
 title: Mis on uut, märts 2022 – Project Operations Lite juurutamine
-description: Selles teemas antakse teavet kvaliteedivärskenduste kohta, mis on saadaval Project Operations lite juurutuse 2022. aasta märtsikuu väljaandes.
+description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval Project Operations lite juurutuse 2022. aasta märtsi väljaandes.
 author: sigitac
 ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8a83491da1d312406dfb36f5ad214c307c15cfbf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 321d59568bfd33bb00a1500afe514fbecf9a0250
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583745"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934223"
 ---
 # <a name="whats-new-march-2022---project-operations-lite-deployment"></a>Mis on uut, märts 2022 – Project Operations Lite juurutamine
 
 _Kohaldub: lihtjuurutus - tehing proforma arveldusega_
 
-See teema kehtib järgmiste Microsofti Dynamics 365 Project Operations komponentide ja versioonide kohta.
+See artikkel kehtib järgmiste Microsofti Dynamics 365 Project Operations komponentide ja versioonide kohta.
 
 - Projektitoimingud keskkonnaversioonis Dataverse 4.30.0.99
 
@@ -51,9 +51,9 @@ See teema kehtib järgmiste Microsofti Dynamics 365 Project Operations komponent
 
 ## <a name="removed-and-deprecated-features"></a>Eemaldatud ja aegunud funktsioonid
 
-Teema [Project Operations](../../whats-new/removed-depreciated-features-project.md) teema eemaldatud või aegunud funktsioonid kirjeldavad funktsioone, mis on rakenduse jaoks Dynamics 365 Project Operations eemaldatud või aegunud.
+Artiklis [Eemaldatud või aegunud funktsioonid jaotises Project Operations](../../whats-new/removed-depreciated-features-project.md) kirjeldatakse funktsioone, mis on rakenduse jaoks eemaldatud või aegunud Dynamics 365 Project Operations.
 
 - Eemaldatud funktsioon pole enam tootes saadaval.
 - Aegunud funktsioon pole aktiivses arenduses ja võidakse tulevases värskenduses eemaldada.
 
-12 kuud enne mis tahes funktsiooni eemaldamist tootest kuvatakse [project Operationsi](../../whats-new/removed-depreciated-features-project.md) teema eemaldatud või aegunud funktsioonides amortisatsiooniteade.
+Amortisatsiooniteade kuvatakse [Project Operationsi](../../whats-new/removed-depreciated-features-project.md) artiklis Eemaldatud või aegunud funktsioonides 12 kuud enne mis tahes funktsiooni tootest eemaldamist.

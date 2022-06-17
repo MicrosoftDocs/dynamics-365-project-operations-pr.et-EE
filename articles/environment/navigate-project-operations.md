@@ -1,17 +1,17 @@
 ---
 title: Rakenduses Project Operations liikumine
-description: See teema sisaldav teavet selle kohta, kuidas pääseda rakendusele Project Operations teenusest Lifecycle Services ligi.
+description: Selles artiklis antakse teavet selle kohta, kuidas elutsükli teenuste kaudu project Operationsile juurde pääseda.
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 50afe2c0e247cb9d9c5f970810fa917d002ae1d0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d8573b65373fe88c5b0617be585e2d3c77f1ca6e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591859"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931647"
 ---
 # <a name="navigate-project-operations"></a>Rakenduses Project Operations liikumine
 
@@ -24,7 +24,7 @@ Ressursi-/mittelaopõhiste stsenaarumide jaoks mõeldud rakendus Dynamics 365 Pr
  - **Project Operations keskkonnas Common Data Service (CDS)**: see komponent katab võimalusi ja protsesse alates müügivõimalusest kuni näidisarveldamiseni. 
  - **Projektijuhtimine ja Dynamics 365 Finance keskkonna** arvestus: see komponent hõlmab kulujuhtimise võimalusi, projektiarvestust ja tulude kajastamist. 
 
-Pärast rakenduse Project Operations ettevalmistamist selles teemas kirjeldatud viisil, pakub teenuse Lifecycle Services (LCS) leht **Keskkonna üksikasjad** lihtsat juurdepääsu rakenduse Project Operations mõlemale komponendile.  
+Pärast selles artiklis kirjeldatud projektitoimingute pakkumist pakub elutsükli teenuste (LCS) **keskkonna üksikasjade** leht hõlpsat juurdepääsu projektitoimingute mõlemale komponendile.  
 
 Kasutage jaotises olevat keskkonna nime (**Teenuse Common Data Service keskkonna nimi)**, et navigeerida rakendusse Project Operations CDS-i keskkonnas. 
 

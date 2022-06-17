@@ -1,6 +1,6 @@
 ---
 title: Rakenduses Project Service Automation arvete esitamine
-description: Selles teemas antakse teavet arvete esitamise kohta.
+description: See artikkel annab teavet arvete esitamise kohta.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 84134778225bfce1126ccf70b32e0c82c4ccc3fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fa036dda6514449b04e1416bde2cd9c21fc558b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579301"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926817"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Rakenduses Project Service Automation arvete esitamine
 
@@ -94,7 +94,7 @@ Kui **ProcessRunner** on töö lõpetanud, kutsub see töövoo **ProcessRunCalle
 Arvete loomiseks kasutatav pakktöötluse töö on korduv töö. Kui seda pakktöötlust käitatakse mitu korda, luuakse mitu tööeksemplari ja need põhjustavad tõrkeid. Seetõttu peaksite pakktöötluse käivitama ainult üks kord ja selle peate uuesti käivitama ainult siis, kui see lakkab töötamast.
 
 > [!NOTE]
-> Project Service Automationi paketina arveldamine töötab ainult projekti lepinguridade jaoks, mis on arve ajakavade poolt konfigureeritud. Fikseeritud hinnaga arveldusmeetodiga lepingureal peavad olema seadistatud vahe-eesmärgid. Aja- ja materjalikulu arveldusmeetodiga projekti lepingurea jaoks peab olema seadistatud kuupäevapõhine ajakava. Hinnapakkumise real põhineva projekti kontekstis arveldamise sageduste seadistamise teave on toodud järgmises teemas: [Hinnapakkumised ja hinnapakkumise read](basic-quote-lines.md#invoice-schedule). Sama kehtib ka projektipõhisele lepingureale.      
+> Project Service Automationi paketina arveldamine töötab ainult projekti lepinguridade jaoks, mis on arve ajakavade poolt konfigureeritud. Fikseeritud hinnaga arveldusmeetodiga lepingureal peavad olema seadistatud vahe-eesmärgid. Aja- ja materjalikulu arveldusmeetodiga projekti lepingurea jaoks peab olema seadistatud kuupäevapõhine ajakava. Teave arveldussageduste seadistamise kohta hinnapakkumisreal põhineva projekti kontekstis on esitatud artiklis, [hinnapakkumised ja hinnapakkumisread](basic-quote-lines.md#invoice-schedule). Sama kehtib ka projektipõhisele lepingureale.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>PSA arve mustandi redigeerimine
 

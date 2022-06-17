@@ -1,6 +1,6 @@
 ---
 title: Täpsemad organisatsiooniüksused
-description: Selles teemas antakse teavet rakenduses Dynamics 365 Project Service Automation organisatsiooniliste üksuste kohta.
+description: Selles artiklis antakse teavet rakenduse organisatsiooniüksuste kohta Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 80208be7be56d0b09354c45cd2afd96958daf985
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dd9de490b7d6d847e3226b371e06ac671a7836a8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589421"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927093"
 ---
 # <a name="about-organizational-units"></a>Organisatsiooniüksustest 
 

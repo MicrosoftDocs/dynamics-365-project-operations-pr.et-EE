@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d919a26000b127dd6fb2fd8a49d79e3087f1c403
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: 6c9424b8aaf867254bde085cffaa649c846920cc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710109"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933993"
 ---
 # <a name="configure-expense-management"></a>Kuluhalduse konfigureerimine
 
-Selles teemas kirjeldatakse, milliseid kaalutlusi ja otsuseid tuleb plaanimisprotsessis teha enne, kui kuluhalduse konfigureerite. Kuluhalduses saate talletada teavet makseviiside, reisitellimuste, kuluaruannete, poliitikate jms kohta.
+Selles artiklis kirjeldatakse kaalutlusi ja otsuseid, mida peate enne kuluhalduse konfigureerimist plaanimisprotsessi käigus tegema. Kuluhalduses saate talletada teavet makseviiside, reisitellimuste, kuluaruannete, poliitikate jms kohta.
 
 Kuna kuluhalduse konfiguratsiooni plaanimisel tehtud otsused põhinevad teie organisatsiooni hierarhial ja finantsstruktuuril, peate viitama nende alade jaoks plaanitavatele dokumentidele.
 

@@ -1,18 +1,18 @@
 ---
 title: Project Operationsi topeltkirjutamise integreerimine
-description: Selles teemas antakse ülevaade Project Operationsi topeltkirjutamise integreerimisest.
+description: Selles artiklis antakse ülevaade Project Operationsi kahekirjutamise integratsioonist.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: overview
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9b57b8bab9a6821e71a16b191804af21ae5d0b5a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d365a036f96ff4f7b14107b43e8c6b70df0b5362
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582751"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927967"
 ---
 # <a name="project-operations-dual-write-integration-overview"></a>Project Operationsi topeltkirjutamise integreerimise ülevaade
 

@@ -1,24 +1,24 @@
 ---
 title: Mis on uut aprillis 2022 – Project Operationsi lihtjuurutamine
-description: Selles teemas antakse teavet Microsoft lite juurutuse 2022. aasta aprilli väljaandes saadaolevate kvaliteedivärskenduste Dynamics 365 Project Operations kohta.
+description: Selles artiklis antakse teavet Microsoft lite juurutuse 2022. aasta aprilli väljaandes saadaolevate kvaliteedivärskenduste Dynamics 365 Project Operations kohta.
 author: sigitac
 ms.date: 04/08/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6f75d75e57d6a6396b0148f0449899735089b06a
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 6d6fc52d535244b339e43f88e85797a957d98b89
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613321"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927461"
 ---
 # <a name="whats-new-april-2022---project-operations-lite-deployment"></a>Mis on uut aprillis 2022 – Project Operationsi lihtjuurutamine
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
-See teema kehtib järgmiste Microsofti Dynamics 365 Project Operations komponentide ja versioonide kohta.
+See artikkel kehtib järgmiste Microsofti Dynamics 365 Project Operations komponentide ja versioonide kohta.
 
 - Projektitoimingud keskkonnaversioonis Dataverse 4.41.0.45
 
