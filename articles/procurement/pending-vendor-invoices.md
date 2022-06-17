@@ -1,18 +1,18 @@
 ---
 title: Ladustamata materjalide või hankekategooriate ostmine ootel hankija arve abil
-description: Selles teemas kirjeldatakse, kuidas kirjendada ootel hankija arveid.
+description: Selles artiklis selgitatakse, kuidas salvestada ootel hankija arveid.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: b1c05755f6759e90e031a11261f15a2c4b6b716e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612652"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921987"
 ---
 # <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Ladustamata materjalide või hankekategooriate ostmine ootel hankija arve abil
 
@@ -23,7 +23,7 @@ Kuna ettevõte hangib projekti jaoks ladustamata materjale või hankekategooriai
 Näiteks töötab ettevõte Contoso Robotics US vahendite uuendamise projekti kallal ja vajab tarkvaralitsentse. Need litsentsid on pärit kolmandalt osapoolelt.  Kasutades Dynamics 365 Finance, salvestab ostureskontro sekretär ootel hankija arve dokumendi ja omistab litsentsikulud otse seadmete uuendamise projekti vastu. 
 
 > [!IMPORTANT]
-> Enne selles teemas kirjeldatud funktsioonide kasutamist vaadake üle ja rakendage nõutavad konfiguratsioonid. Lisateavet leiate teemadest [Ladustamata materjalide ja ootel hankijaarvete](configure-materials-nonstocked.md) lubamine ning [Hankekategooriate kasutamine projekti ostutellimuste ja ootel hankija arvetega](configure-procurement-categories.md)
+> Enne käesolevas artiklis kirjeldatud funktsioonide kasutamist vaadake üle ja rakendage vajalikud konfiguratsioonid. Lisateavet leiate teemadest [Ladustamata materjalide ja ootel hankijaarvete](configure-materials-nonstocked.md) lubamine ning [Hankekategooriate kasutamine projekti ostutellimuste ja ootel hankija arvetega](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Projektiga seotud ootel hankija arve postitamine 
 

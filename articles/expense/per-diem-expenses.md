@@ -1,6 +1,6 @@
 ---
-title: Päevaraha kulud päevaraha kohta
-description: See teema annab teavet selle kohta, kuidas töötada päevaraha kuludega.
+title: Päevarahade kulud
+description: See artikkel annab teavet selle kohta, kuidas töötada päevaraha kuludega.
 author: suvaidya
 ms.date: 03/18/2022
 ms.topic: article
@@ -13,17 +13,17 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fe72f066a6819c3b43e3977d5e7afb01ba95338c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0d2f95b677720726049d7d010e9738ad8c513802
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596045"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923183"
 ---
-# <a name="per-diem-expenses"></a>Päevaraha kulud päevaraha kohta
+# <a name="per-diem-expenses"></a>Päevarahade kulud
 
 > [!IMPORTANT] 
-> Selles teemas kirjeldatud funktsioonid on sihtkasutajatele eelvaateväljaande osana saadaval.
+> Selles artiklis kirjeldatud funktsioonid on sihitud kasutajatele eelvaateväljaande osana saadaval.
 
 Päevaraha on fikseeritud, etteantud päevaraha, mida ettevõte maksab oma töötajatele majutuse (hotellide), söögikordade ja juhuslike kulude eest, mida need töötajad tööreisil kannavad. Ettevõte maksab seda toetust töötajatele, selle asemel et maksta tegelikke reisikulusid. Töötajad saavad kasutada oma **juhuslikke / muid** päevarahasid, et katta näpunäiteid, toateenindust, pesupesemis- või keemilise puhastuse teenuseid oluliste ärikohtumiste jaoks. Päevaraha määr võib varieeruda sõltuvalt sellest, kas tööandja otsustab hüvitada majutuse ja toitmise kombineeritud kulud või ainult söögi- ja juhuslike kulude eest.
 

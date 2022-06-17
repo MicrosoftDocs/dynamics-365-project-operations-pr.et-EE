@@ -1,24 +1,24 @@
 ---
 title: Mis on uut mais 2022 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
-description: Selles teemas antakse teavet kvaliteedivärskenduste kohta, mis on saadaval Microsofti Dynamics 365 Project Operations 2022. aasta mai väljaandes ressursi-/ladustamata põhistsenaariumide jaoks.
+description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval Microsofti Dynamics 365 Project Operations 2022. aasta mai väljaandes ressursi-/ladustamata stsenaariumide jaoks.
 author: sigitac
 ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d3ac63f0d33d36cc5b6d4cea3ab8167e5974cfe6
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: beb75fc4b721d52cddbdaf2d20194218cefced5e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710117"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921389"
 ---
 # <a name="whats-new-may-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Mis on uut mais 2022 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-See teema kehtib järgmiste Microsofti Dynamics 365 Project Operations komponentide ja versioonide kohta.
+See artikkel kehtib järgmiste Microsofti Dynamics 365 Project Operations komponentide ja versioonide kohta.
 
 - Projektitoimingud keskkonnaversioonis Dataverse 4.42.0.70
 - Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnaversioonis 10.0.26
@@ -38,7 +38,7 @@ Kui kaardi käivitamisel ilmneb probleem, järgige topeltkirjutamise tõrkeotsin
 | --- | --- | --- |
 | Ressursihaldus | 2634019 | Täiustatud tõrketeated ettevõtte valideerimiseks üldiste meeskonnaliikmete lisamisel ressurssidena. |
 | Projekti plaanimine ja jälgimine | 2648515 | Omaniku-ID **·**, **oleku** ja **oleku** piiratud värskendused plaanimisolemites. |
-| Arveldamine ja hinnakujundus | 2653167 | **Hinnanguruudustiku** kümnendkoha eraldaja peab järgima isiklike **suvandite vormingusätteid**. |
+| Arveldamine ja hinnakujundus | 2653167 | **Hinnanguruudustiku** kümnendkoha eraldaja peab järgima isiklike suvandite **vormingusätteid**. |
 | Arveldamine ja hinnakujundus| 2662251 | Väärtused väljadel **Parandatud ühik** ja **Ühik** vaikeväärtused, kui loote kirjeid materjalihinnangutes. |
 | Arveldamine ja hinnakujundus| 2571408 | Sisestamata müügireaalsused tembeldatakse mustandiarve loomisel proformaarve ID-ga. |
 

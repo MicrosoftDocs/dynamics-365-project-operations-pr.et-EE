@@ -1,6 +1,6 @@
 ---
 title: Tööjaotuse struktuuri täiendamise kaalutlused
-description: Selles teemas kirjeldatakse, kuidas täiendada tööjaotuse struktuuri Project Service Automation versioonilt 2.x versioonile 3.x.
+description: See artikkel annab teavet tööjaotuse struktuuri uuendamise kohta project service automation 2.x-lt 3.x-le.
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 13ad93d5be3c0ab07c81db28d3e13561e9d40017
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 42bf03b5e3be4b7bdce87148254ce69e381ffdf1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599725"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913109"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Tööjaotuse struktuuri täiendamise kaalutlused
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Selles teemas kirjeldatakse, kuidas täiendada tööjaotuse struktuuri Project Service Automation versioonilt 2.x versioonile 3.x. Selles teemas määratletakse projekti töökorras olek Project Service Automation (PSA), mis on vajalik edukaks täienduseks. Samuti leiate sellest teemast teavet levinud blokeerimistingimuste kohta, mis põhjustavad täienduse nurjumist. Lisateavet projekti ülesannete ja nende funktsioonide määratlemise kohta projekti ajakava raames leiate jaotisest [Projekti ajakavad](project-creating.md).
+See artikkel annab teavet tööjaotuse struktuuri uuendamise kohta project service automation 2.x-lt 3.x-le. Selles artiklis määratletakse projekti tervislik seisund Project Service Automationis (PSA), mis on vajalik edukaks uuendamiseks. Samuti leiate sellest teemast teavet levinud blokeerimistingimuste kohta, mis põhjustavad täienduse nurjumist. Lisateavet projekti ülesannete ja nende funktsioonide määratlemise kohta projekti ajakava raames leiate jaotisest [Projekti ajakavad](project-creating.md).
 
 ## <a name="key-entities"></a>Põhiolemid
 Täpse tööjaotuse struktuuri jaoks, mis on juba ressurssidega laaditud, on nõutavad järgmised olemid.

@@ -1,6 +1,6 @@
 ---
 title: Üleminek projecti teenuse automatiseerimiselt projektitoimingutele
-description: See teema annab ülevaate rakendusest ülemineku protsessist Microsoft Dynamics 365 Project Service Automation Dynamics 365 Project Operations.
+description: Selles artiklis antakse ülevaade rakendusest Microsoft Dynamics 365 Project Service Automation Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/13/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
-ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
+ms.openlocfilehash: 30eb02240de6617d4c550ce59db2a454eee36f5b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626734"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912971"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Üleminek projecti teenuse automatiseerimiselt projektitoimingutele
 
-Meil on hea meel teatada esimesest kolmest etapist, et uuendada alates rakendusest Microsoft Dynamics 365 Project Service Automation Dynamics 365 Project Operations. See teema annab ülevaate klientidele, kes alustavad seda põnevat teekonda. Tulevased teemad hõlmavad arendaja kaalutlusi ja üksikasju funktsioonide täiustamise kohta. Need mitte ainult ei anna juhiseid, mis aitavad teil valmistuda project Operationsile üleminekuks, vaid selgitavad ka seda, mida võite oodata pärast täiendamist.
+Meil on hea meel teatada esimesest kolmest etapist, et uuendada alates rakendusest Microsoft Dynamics 365 Project Service Automation Dynamics 365 Project Operations. See artikkel annab ülevaate klientidele, kes alustavad seda põnevat teekonda. Tulevased artiklid sisaldavad arendaja kaalutlusi ja üksikasju funktsioonide täiustamise kohta. Need mitte ainult ei anna juhiseid, mis aitavad teil valmistuda project Operationsile üleminekuks, vaid selgitavad ka seda, mida võite oodata pärast täiendamist.
 
 Täienduse tarneprogramm jagatakse kolme etappi.
 
@@ -90,7 +90,7 @@ Pärast kohanduste värskendamist projektitoimingute puhtaks importimiseks liiku
     > [!NOTE]
     > Sõltuvalt keskkonna andmete hulgast võib uuendamine võtta mitu tundi. Põhimeeskond, kes uuendamist haldab, peaks vastavalt planeerima ja käivitama versioonitäienduse väljaspool tööaega. Mõnel juhul, kui andmemaht on suur, tuleks uuendamine käivitada nädalavahetusel. Ajakava otsus peaks põhinema madalamate keskkondade testimistulemustel.
 
-3. Vajadusel täiendage kohandatud lahendusi. Sel hetkel juurutage kõik kohandustes [tehtud muudatused selle teema jaotises Kohandamine](#testing-and-refactoring-customizations) ja lähtestamine.
+3. Vajadusel täiendage kohandatud lahendusi. Sel hetkel juurutage kõik kohandustes [tehtud muudatused selle artikli jaotises Kohandamiste testimine ja refactoring](#testing-and-refactoring-customizations).
 4. **Avage sätete** \> **lahendused** ja valige, et desinstallida **lahendus Project Operations Deprecated Components.**
 
     See lahendus on ajutine lahendus, mis sisaldab olemasolevat andmemudelit ja komponente, mis on versioonitäienduse ajal olemas. Selle lahenduse eemaldamisega eemaldate kõik väljad ja komponendid, mida enam ei kasutata. Sel viisil aitate liidest lihtsustada ning muuta integreerimine ja laiendamine lihtsamaks.
@@ -126,7 +126,6 @@ Osana jätkuvatest investeeringutest Project Operationsi on arvelduses ja hinnak
 | Project Service Automation                             | Projektitoimingute Lite juurutus                        | Toetatud               |
 | Dynamics 365 Finance projektijuhtimine ja raamatupidamine | Projektitoimingute Lite juurutus                        | Praegu ei toetata |
 | Finantsprojekti juhtimine ja raamatupidamine              | Project Operations ressursi/mitteaktsia stsenaariumite jaoks     | Praegu ei toetata |
-| Finantsprojekti juhtimine ja raamatupidamine              | Project Operations ressursi/tootmise tellimuste stsenaariumite jaoks | Praegu ei toetata |
 | Projektiteenuse automatiseerimine 3.x                         | Project Operations ressursi/mitteaktsia stsenaariumite jaoks     | Praegu ei toetata |
 | Veebiprojekt (spetsiaalne keskkond)            | Projektitoimingute Lite juurutus                        | Praegu ei toetata |
 

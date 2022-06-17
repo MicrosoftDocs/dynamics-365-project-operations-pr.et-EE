@@ -1,25 +1,25 @@
 ---
 title: Tööülesande ruudustikus töötamise tõrkeotsing
-description: Selles teemas kirjeldatakse tõrkeotsingu teavet, mida on vaja tööülesande ruudustikus töötamisel.
+description: Selles artiklis on toodud tõrkeotsinguteave, mis on vajalik tegumiruudustikus töötamisel.
 author: ruhercul
 ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596413"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911039"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Tööülesande ruudustikus töötamise tõrkeotsing 
 
 
 _**Kehtiv järgnevale:** Project Operations ressursi-/mitteressursipõhised stsenaariumid, lihtjuurutus – tehing näidisarveldusele, Project for the web_
 
-Teenuse Dynamics 365 Project Operations kasutatav ülesande ruudustik on teenuses Microsoft Dataverse majutatud iFrame. Selle kasutamise tulemusena peavad autentimise ja autoriseerimise õigeks toimimiseks olema täidetud erinõuded. Selles teemas antakse ülevaade levinumatest probleemidest, mis võivad mõjutada ruudustiku renderdamist või tööülesannete haldamist tööjaotuse struktuuris (WBS).
+Teenuse Dynamics 365 Project Operations kasutatav ülesande ruudustik on teenuses Microsoft Dataverse majutatud iFrame. Selle kasutamise tulemusena peavad autentimise ja autoriseerimise õigeks toimimiseks olema täidetud erinõuded. Selles artiklis kirjeldatakse levinud probleeme, mis võivad mõjutada võrgu renderdamise võimet või hallata tööülesandeid tööjaotuse struktuuris (WBS).
 
 Levinud probleemide hulka kuulub järgnev.
 

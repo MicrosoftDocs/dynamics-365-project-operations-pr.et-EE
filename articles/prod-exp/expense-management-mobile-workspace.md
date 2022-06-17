@@ -1,6 +1,6 @@
 ---
 title: Kuluhalduse mobiilne tööruum
-description: Selles teemas kirjeldatakse, kuidas kasutada kuluhalduse mobiilset tööruumi. See tööruum võimaldab kasutajatel jäädvustada kviitung ja see üles laadida, et nad saaksid selle hiljem kuluaruandele lisada. Lisaks saavad kasutajad kiiresti luua manustatud kviitungit kasutades kulurea ja luua ning hallata oma kuluaruandeid.
+description: Selles artiklis antakse teavet kuluhalduse mobiilse tööruumi kohta. See tööruum võimaldab kasutajatel jäädvustada kviitung ja see üles laadida, et nad saaksid selle hiljem kuluaruandele lisada. Lisaks saavad kasutajad kiiresti luua manustatud kviitungit kasutades kulurea ja luua ning hallata oma kuluaruandeid.
 author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
@@ -12,16 +12,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: aba8073fcf788f94bbcc622ab963426d230e9999
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682797"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920883"
 ---
 # <a name="expense-management-mobile-workspace"></a>Kuluhalduse mobiilne tööruum
 
-Selles teemas kirjeldatakse, kuidas kasutada mobiilset tööruumi **Kuluhaldus**. See tööruum võimaldab kasutajatel jäädvustada kviitung ja see üles laadida, et nad saaksid selle hiljem kuluaruandele lisada. Lisaks saavad kasutajad kiiresti luua manustatud kviitungit kasutades kulurea ja luua ning hallata oma kuluaruandeid. Lisaks saavad kinnitajad kasutada mobiilset tööruumi **Kuluhaldus**, et vaadata neile määratud kuluaruandeid ning kas need kuluaruanded kinnitada või tagasi lükata.
+Selles artiklis antakse teavet kuluhalduse **mobiilse tööruumi kohta**. See tööruum võimaldab kasutajatel jäädvustada kviitung ja see üles laadida, et nad saaksid selle hiljem kuluaruandele lisada. Lisaks saavad kasutajad kiiresti luua manustatud kviitungit kasutades kulurea ja luua ning hallata oma kuluaruandeid. Lisaks saavad kinnitajad kasutada mobiilset tööruumi **Kuluhaldus**, et vaadata neile määratud kuluaruandeid ning kas need kuluaruanded kinnitada või tagasi lükata.
 
 
 See mobiilne tööruum on mõeldud kasutamiseks mobiilirakendusega Dynamics 365 Unified Ops.

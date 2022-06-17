@@ -1,24 +1,24 @@
 ---
 title: Mis on 2021 2. laine varajases juurdepääsus uut – Project Operations lihtjuurutus
-description: Selles teemas antakse teavet Project Operationsi lihtjuurutuse 2021. aasta 2. laine varajase juurdepääsu väljaandes olevate funktsioonide kohta.
+description: Selles artiklis antakse teavet funktsioonide kohta, mis on saadaval Project Operations lite juurutuse 2021. aasta laine 2 varajase juurdepääsu väljaandes.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: d245868c8bd9ff332707a81c074d6c7ae3649378
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723671"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924103"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Mis on 2021 2. laine varajases juurdepääsus uut – Project Operations lihtjuurutus
 
 _Kohaldub: lihtjuurutus - tehing proforma arveldusega_
 
-See teema kehtib rakenduse Dynamics 365 Project Operations järgmistele komponentide ja versioonide kohta.
+See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja versioonide kohta.
 
   - Project Operations Dataverse’i keskkonna versioonis 4.23.0.4
 

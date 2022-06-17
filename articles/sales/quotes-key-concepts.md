@@ -1,6 +1,6 @@
 ---
 title: Hinnapakkumised - põhimõisted
-description: Selles teemas antakse teavet projektide hinnapakkumiste ja müügipakkumiste kohta, mis on saadaval projekti toimingutes.
+description: Selles artiklis antakse teavet projektipakkumiste ja müügipakkumiste kohta, mis on saadaval Project Operationsis.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fbaed6a0967ce4ef4eec572de9e2a7da95c3cbd9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579900"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912511"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Projektipõhiste hinnapakkumiste kordumatud mõisted
 
@@ -35,7 +35,7 @@ Rakenduses Dynamics 365 Project Operations on kahte tüüpi hinnapakkumisi: proj
 - **Väljad ja kontseptsioonid**: müügipakkumine ei sisalda mõningaid väljasid ja mõisteid, mis on kaasatud projekti hinnapakkumises. Väljad sisaldavad järgmisi: **Hankeüksus**, **Kontohaldur** ja **Maksja: kontakti nimi**.  
 - **Tüüp**: müügipakkumisi ja projekti hinnapakkumisi tuvastab ka suvandikomplekti põhine väli **Tüüp**. Müügipakkumise puhul on sellel väljal väärtus **Kaubal põhinev**. Projekti hinnapakkumise puhul on sellel väärtus **Tööl põhinev**.
 
-Selles teemas keskendutakse projekti hinnapakkumiste üksikasjadele.
+See artikkel keskendub projekti hinnapakkumiste üksikasjadele.
 
 Projekti hinnapakkumisel Project Operationsis võib olla mitu rea üksust või hinnapakkumise rida. Tegelikult on projekti hinnapakkumisel rea üksuste jaoks kaks ruudustikku. Üks ruudustik on projektil põhinevate ridade jaoks, mis võimaldavad üksikasjalikke hindamisi. Teine ruudustik on tootel põhinevate ridade jaoks, ms kasutavad lihtsat ühikuhinnal ja kogusel põhinevat lähenemisviisi.
 

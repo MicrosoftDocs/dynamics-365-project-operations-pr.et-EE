@@ -1,6 +1,6 @@
 ---
 title: Edenemisel põhinevate arvete jaoks täpsemate lepingute loomine
-description: Selles teemas kirjeldatakse, kuidas luua projekti lepinguid, et saaksite luua klientidele arveid vastavalt lõpuleviidud töö protsendile.
+description: Selles artiklis selgitatakse, kuidas luua projektilepinguid, et saaksite luua klientidele arveid, mis põhinevad protsendil lõpetatud töödest.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: bdafc2ed2398054d8b0bf42bdd96dfe0eccee93b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 26fe072b8241c7fdc96629f534e33a8fe53d3164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683158"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913661"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Edenemisel põhinevate arvete jaoks täpsemate lepingute loomine
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas luua projekti lepinguid, et saaksite luua klientidele arveid vastavalt lõpuleviidud töö protsendile. Arve summad arvutatakse automaatselt projekti jaoks seadistatud eelarve töökategooriate jaoks. Arve ajastamine määratakse kliendiga projekti lepingu üle läbirääkimisi pidades.
+Selles artiklis selgitatakse, kuidas luua projektilepinguid, et saaksite luua klientidele arveid, mis põhinevad protsendil lõpetatud töödest. Arve summad arvutatakse automaatselt projekti jaoks seadistatud eelarve töökategooriate jaoks. Arve ajastamine määratakse kliendiga projekti lepingu üle läbirääkimisi pidades.
 
-Selle teema toimingute abil saate seadistada lepingu, seostatud projekti ja arveldamise reeglid, mis arvutavad arve summasid projekti jaoks määratud eelarveliste töökategooriate jaoks.
+Selle artikli protseduure saate kasutada lepingu, seostatud projekti ja arveldusreeglite seadistamiseks, mis arvutavad projekti jaoks seadistatud eelarvekategooriate arvesummad.
 
 Kui olete lepingu ja projekti loonud, saate projekti üksikasjad seadistada. Näiteks saate määratleda tegevused ja määrata projektile töötajad.
 

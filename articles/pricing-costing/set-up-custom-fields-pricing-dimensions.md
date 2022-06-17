@@ -1,6 +1,6 @@
 ---
 title: Kohandatud väljade seadistamine hinnakujunduse dimensioonidena
-description: Selles teemas kirjeldatakse, kuidas seadistada kohandatud väljade abil hinnakujunduse dimensioone.
+description: Selles artiklis antakse teavet hinnakujundusdimensioonide häälestamise kohta kohandatud väljade abil.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0c0c43e483ebcb016747e533d685f13fd5dd8700
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599403"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917571"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Kohandatud väljade seadistamine hinnakujunduse dimensioonidena
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Enne kui alustate, eeldame, et olete lõpetanud toimingud teemades [Kohandatud väljade ja olemite loomine](create-custom-fields-entities-pricing-dimensions.md) ning [Nõutavate kohandatud väljade lisamine hinna seadistamisele ja ülekande olemitele](add-custom-fields-price-setup-transactional-entities.md). Kui te pole neid toiminguid lõpetanud, minge tagasi, viige need lõpuni ja seejärel tulge selle teema juurde tagasi. 
+Enne alustamist eeldab see artikkel, et olete artiklites protseduurid lõpule viinud, [Kohandatud väljade ja olemite](create-custom-fields-entities-pricing-dimensions.md) loomine ning [nõutavate kohandatud väljade lisamine hinnahäälestusele ja tehinguolemitele](add-custom-fields-price-setup-transactional-entities.md). Kui te ei ole neid protseduure lõpetanud, minge tagasi ja täitke need ning seejärel pöörduge tagasi selle artikli juurde. 
 
-Selles teemas kirjeldatakse, kuidas seadistada kohandatud hinnakujunduse dimensioone. Pange tähele, et lehe **Parameetrid** vahekaart **Summapõhised hinnakujunduse dimensioonid** näitab hinnakujunduse dimensioonide kirjeid. Vaikimisi on sellel vahekaardil ruudustikus kaks rida.
+Selles artiklis antakse teavet kohandatud hinnakujundusdimensioonide seadistamise kohta. Pange tähele, et lehe **Parameetrid** vahekaart **Summapõhised hinnakujunduse dimensioonid** näitab hinnakujunduse dimensioonide kirjeid. Vaikimisi on sellel vahekaardil ruudustikus kaks rida.
 
 - **msdyn_resourcecategory** (roll)
 - **msdyn_OrganizationalUnit** (organisatsiooniüksus)

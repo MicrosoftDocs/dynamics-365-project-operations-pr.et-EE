@@ -1,17 +1,17 @@
 ---
 title: Tootepõhiste lepinguridade ülevaade – liht
-description: Selles teemas antakse teavet tootepõhiste lepinguridade kohta.
+description: Selles artiklis antakse teavet tootepõhiste lepinguridade kohta.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8006e90e0d4fdf02042f26b261775a92f87f47ca
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4ad1fe6d5d56468d887535ddf107eefed3cbd28d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598207"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919871"
 ---
 # <a name="product-based-contract-lines-overview---lite"></a>Tootepõhiste lepinguridade ülevaade – liht
 

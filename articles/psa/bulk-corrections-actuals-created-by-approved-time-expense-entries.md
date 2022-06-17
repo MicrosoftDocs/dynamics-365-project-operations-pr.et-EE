@@ -1,6 +1,6 @@
 ---
 title: Kinnitatud aja- ja kulukirjete loodud tegelike näitajate hulgiparandused
-description: Selles teemas selgitatakse, kuidas administraator saab teha üksikuid või hulgiparandusi eelnevalt kinnitatud aja- või kulukirjetele, kui arveldus ei ole lõpetatud.
+description: Selles artiklis selgitatakse, kuidas administraator saab varem kinnitatud aja- või kulukannetes üksikuid või hulgiparandusi teha, kui arveldamine pole lõpule viidud.
 author: rumant
 ms.date: 04/02/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 107ba01f2fd5717e1717824631aeee099d8a8205
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 82c9b38e4c79511fe3b6abfcb973fff8b56f1522
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683357"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916284"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Kinnitatud aja- ja kulukirjete loodud tegelike näitajate hulgiparandused
 
@@ -28,7 +28,7 @@ ms.locfileid: "8683357"
 
 Mõnikord võib aja- või kulukirje olla valesti sisestatud. Näiteks võib konsultant ajakirje loomisel valida vale kuupäev või kulu sisestades numbrite järjekorda muuta. Kui konsultant ei saa esitatud kirjetele värskendusi teha, saab administraator projekti kirje otse ära parandada.
 
-Selle teema toimingute lõpuleviimiseks on teil vaja administraatori õigusi.
+Selles artiklis toodud protseduuride lõpuleviimiseks on vaja administraatori õigusi.
 
 ## <a name="correct-approved-time-entries"></a>Kinnitatud ajakirjete parandamine     
 

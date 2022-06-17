@@ -1,33 +1,33 @@
 ---
 title: Lisandmooduli atribuutide värskendamine uute hinnakujunduse dimensioonidega
-description: Selles teemas kirjeldatakse, kuidas värskendada hinnakujunduse dimensioonide jaoks lisandmooduli atribuute.
+description: Selles artiklis antakse teavet hinnakujundusdimensioonide lisandmooduli atribuutide värskendamise kohta.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b3b441b9ea0418e10db80a86613b2c41ea2c4673
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2ae502fea533d9f199ef5ee1cc85b623f08cbd84
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575023"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920009"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Lisandmooduli atribuutide värskendamine uute hinnakujunduse dimensioonidega
 
-Selles teemas kirjeldatakse, kuidas värskendada hinnakujunduse dimensioonide jaoks lisandmooduli atribuute.
+Selles artiklis antakse teavet hinnakujundusdimensioonide lisandmooduli atribuutide värskendamise kohta.
 
 > [!NOTE]
-> See teema kehtib ainult rakenduse Dynamics 365 Project Operations hinnapakkumise ja lepingu funktsioonide kohta.
+> See artikkel kehtib ainult rakenduses olevatele hinnapakkumis- ja lepingufunktsioonidele Dynamics 365 Project Operations.
 
-## <a name="prerequisites"></a>Eeltingimused
-Enne selles teemas toodud juhiste täitmist peate viima lõpule toimingud järgmistes teemades.
+## <a name="prerequisites"></a>eeltingimused
+Enne selle artikli juhiste täitmist peate olema täitnud järgmistes artiklites toodud protseduurid.
 
   - [Kohandatud väljade ja olemite loomine](create-custom-fields-entities-pricing-dimensions.md) 
   - [Kohandatud väljade lisamine hinna seadistusele ja ülekande olemitele ](add-custom-fields-price-setup-transactional-entities.md)
   - [Kohandatud väljade seadistamine hinnakujunduse dimensioonidena](set-up-custom-fields-pricing-dimensions.md). 
   
-Kui te pole neid toiminguid lõpetanud, viige need lõpuni ja seejärel tulge selle teema juurde tagasi.
+Kui te ei ole neid protseduure lõpetanud, täitke need ja seejärel naaske selle artikli juurde.
 
 ## <a name="register-a-plug-in"></a>Lisandmooduli registreerimine
 Kui projekti hinnapakkumise rea jaoks luuakse lehel **Hinnapakkumise rida** hinnapakkumise rea üksikasi, loob süsteem kaks hinnangu rida. Üks rida on hinnangu kulupoole jaoks ja teine rida on müügipoole jaoks. Sama kehtib ka projekti lepinguridade kohta.

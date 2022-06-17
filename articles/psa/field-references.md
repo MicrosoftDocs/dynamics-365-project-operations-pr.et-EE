@@ -1,6 +1,6 @@
 ---
 title: Kohandatud väljade lisamine hinna seadistusele ja ülekande olemitele
-description: Selles teemas antakse teavet kohandatud väljade lisamise kohta hinna seadistamisel ja ülekande olemitele.
+description: Selles artiklis antakse teavet kohandatud väljade lisamise kohta hinnahäälestus- ja tehinguolemitesse.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: cb4a99b10e5d0c79e80bcd46d2f60ccdab4487aa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b666d1767306b9833fba36c6ed2c59a633c5fdf0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596919"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920469"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Kohandatud väljade lisamine hinna seadistusele ja ülekande olemitele 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Selles teemas eeldatakse, et olete teemas protseduurid lõpetanud, [saate luua kohandatud välju ja olemeid](create-custom-fields-entities.md). Kui te pole neid toiminguid lõpetanud, minge tagasi, viige need lõpuni ja seejärel tulge selle teema juurde tagasi. 
+Selles artiklis eeldatakse, et olete lõpetanud artiklis " [Loo kohandatud väljad ja olemid" protseduurid](create-custom-fields-entities.md). Kui te ei ole neid protseduure lõpetanud, minge tagasi ja täitke need ning seejärel pöörduge tagasi selle artikli juurde. 
 
-Selles teemas kirjeldatakse protseduure, kuidas lisada olemitele ja kasutajaliidese (UI) elementidele (nt vormidele ja vaadetele) nõutavaid kohandatud välja viiteid.
+Selles artiklis näitavad protseduurid, kuidas lisada nõutavad kohandatud väljaviited olemitele ja kasutajaliidese (kasutajaliidese) elementidele, nagu vormid ja vaated.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Kohandatud hinnakujunduse dimensioonide väljade lisamine 
 Pärast kohandatud väljade ja olemite loomist on järgmiseks etapiks hindade seadistamise ja ülekande olemite teadlikkus kohandatud olemitest või suvandikomplekti loomisest, luues viite välju. Sõltuvalt sellest, kas teie hinnakujunduse dimensioonide loend sisaldab suvandikomplekt mõõtmeid või olemi dimensioone või mõlemat, järgige ainult **Suvandikomplekti põhjal kohandatud hinnakujunduse dimensioonide** või **Vastavalt olemile kohandatud hinnakujunduse** etappe või mõlemaid.

@@ -1,17 +1,17 @@
 ---
 title: Projektide ja ülesannete vastendamine projektipõhise hinnapakkumise reaga
-description: Selles teemas kirjeldatakse projektide ja tööülesannete vastendamist projektipõhise tööülesande reaga.
+description: Selles artiklis antakse teavet selle kohta, kuidas projekte ja ülesandeid projektipõhise ülesandereaga vastendada.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ff2fa219fd1981e5e11f93dfe7cd65afefc6afb9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597287"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917157"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Projektide ja ülesannete vastendamine projektipõhise hinnapakkumise reaga
 

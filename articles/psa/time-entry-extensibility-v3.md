@@ -1,6 +1,6 @@
 ---
 title: Iganädalaste ajakirjete kohandamine
-description: Selles teemas kirjeldatakse, kuidas rakendada organisatsiooni tegevust toetavaid ärireegleid.
+description: Selles artiklis antakse teavet selle kohta, kuidas rakendada kohandatud ärireegleid, mis toetavad organisatsiooni tavasid.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1cc32a1d8776f4adaa0031154aba6bd6733b7f7d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bdc8df4050d895504fa126e2ee55fcd3b4de123f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581049"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918951"
 ---
 # <a name="customize-weekly-time-entry"></a>Iganädalaste ajakirjete kohandamine 
 
@@ -46,7 +46,7 @@ Jaotises **Dimensioonid** kuvatakse veerupäistena kõik dimensioonid, mille suh
 - Tüüp
 - Kirje olek
 
-Jaotis **Dimensioonid** ei luba tekstisisest redigeerimist. Seda jaotist toetab vaade, mis võimaldab lisada kohandatud välju iganädalase ajakirje ruudustikku. Lisateavet kohandatud väljade lisamise kohta leiate selle teema hilisemast jaotisest „Laiendatavus”.
+Jaotis **Dimensioonid** ei luba tekstisisest redigeerimist. Seda jaotist toetab vaade, mis võimaldab lisada kohandatud välju iganädalase ajakirje ruudustikku. Lisateavet kohandatud väljade lisamise kohta leiate selle artikli hilisemast jaotisest "Laiendatavus".
 
 ### <a name="duration"></a>Kestus
 Jaotises Kestus kuvatakse nädalapäevad veerupäistena. Selles jaotises lubatakse tekstisisest redigeerimist. Pärast sobivate dimensioonidega ajakirje rea loomist saavad kasutajad kiiresti tekstisiseselt sisestada aja, mis nad nendele dimensioonidele kulutasid.

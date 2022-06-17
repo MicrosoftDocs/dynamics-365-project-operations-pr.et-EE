@@ -1,6 +1,6 @@
 ---
 title: Rakendage mobiilirakenduse Microsoft Dynamics 365 Project Timesheet iOS-i ja Androidi kohandatud väljad
-description: Selles teemas kirjeldatakse kohandatud väljade juurutamiseks laienduste kasutamise ühiseid mudeleid.
+description: Selles artiklis on toodud levinud mustrid laienduste kasutamiseks kohandatud väljade rakendamiseks.
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 79ef62d6911b393248536e4cc73475f6c35a22e2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 03b79d58d1f91e07034b8c9efb408e6d7a9c29a8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682748"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913707"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Rakendage mobiilirakenduse Microsoft Dynamics 365 Project Timesheet iOS-i ja Androidi kohandatud väljad
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse kohandatud väljade juurutamiseks laienduste kasutamise ühiseid mudeleid. Käsitletakse järgmisi teemasid.
+Selles artiklis on toodud levinud mustrid laienduste kasutamiseks kohandatud väljade rakendamiseks. Käsitletakse järgmisi artikleid:
 
 - Erinevad andmetüübid, mida kohandatud väljaraamistik toetab
 - Kuidas kuvada kirjutuskaitstud või redigeeritavaid välju ajatabeli kirjetesse ja salvestada kasutaja esitatud väärtused tagasi andmebaasi
@@ -35,7 +35,7 @@ Selles teemas kirjeldatakse kohandatud väljade juurutamiseks laienduste kasutam
 
 ## <a name="audience"></a>Publik
 
-See teema on mõeldud arendajatele, kes integreerivad oma kohandatud väljad Microsoft Dynamics 365 Project Timesheeti mobiilsesse rakendusse, mis on saadaval Apple iOS-i ja Google Androidi jaoks. Eeldame, et lugejad tunnevad X + + arenduse ja projekti ajatabeli funktsioone.
+See artikkel on mõeldud arendajatele, kes integreerivad oma kohandatud väljad mobiilirakendusse Microsoft Dynamics 365 Project Timesheet, mis on saadaval Apple iOS-ile ja Google'ile Android. Eeldame, et lugejad tunnevad X + + arenduse ja projekti ajatabeli funktsioone.
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Andmete leping – TSTimesheetCustomField X++ klass
 
@@ -64,7 +64,7 @@ Atribuut **FieldBaseType** objektil **TsTimesheetCustom** määratleb rakenduses
 
 - Kui atribuut **stringOptions** on esitatud **TSTimesheetCustomField** objektil, on need loendi elemendid ainsad väärtused, mida kasutajad saavad valida valikunuppude (raadionuppude) abil.
 
-    Sellisel juhul võib väljal string olla loendiväärtus kasutaja kirje eesmärgil. Väärtuse salvestamiseks andmebaasi loeteluna vastendage stringi väärtus tagasi loendi väärtusele, enne kui salvestate andmebaasi, kasutades käsuliini (vt "TSTimesheetEntryService klassis käsuahela kasutamine, et salvestada ajatabeli kanne rakendusest tagasi andmebaasi" hiljem selles teemas näitena).
+    Sellisel juhul võib väljal string olla loendiväärtus kasutaja kirje eesmärgil. Kui soovite väärtuse andmebaasi nuumväärtusena salvestada, vastendage stringi väärtus enne loendisse salvestamist käsitsi käsuliini abil (vt klassi TSTimesheetEntryService käsuahelat ajatabeli kirje salvestamiseks rakendusest tagasi andmebaasi" jaotisest, mis on selle artikli hilisemas osas).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ See atribuut määrab sildi, mis kuvatakse rakenduses välja kõrval.
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (List of Strings)
 
-See atribuut rakendub ainult juhul, kui välja **fieldBaseType** väärtuseks on seatud **String**. Kui **stringOptions** on seatud, siis stringi väärtused, mis on saadaval valikunuppude (raadionuppude) kaudu, määratakse loendis olevate stringide järgi. Kui ühtegi stringi ei pakuta, lubatakse väljale string vabateksti sisestamine (vt jaotist "TSTimesheetEntryService klassi käsuliini kasutamine, et salvestada ajatabeli kirje rakendusest tagasi andmebaasi" edaspidi selles teemas).
+See atribuut rakendub ainult juhul, kui välja **fieldBaseType** väärtuseks on seatud **String**. Kui **stringOptions** on seatud, siis stringi väärtused, mis on saadaval valikunuppude (raadionuppude) kaudu, määratakse loendis olevate stringide järgi. Kui stringe ei pakuta, on stringiväljale vabas vormis kirje lubatud (vt näiteks selle artikli hilisemas artiklis jaotist "TSTimesheetEntryService'i käsuliini kasutamine ajatabeli kirje salvestamiseks rakendusest tagasi andmebaasi").
 
 ### <a name="stringlength-int"></a>stringLength (int)
 

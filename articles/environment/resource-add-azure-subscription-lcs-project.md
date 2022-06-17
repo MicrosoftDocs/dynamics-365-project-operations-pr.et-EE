@@ -1,23 +1,23 @@
 ---
 title: Azure’i kordustellimuse lisamine LCS-i projektile
-description: See teema pakub teavet selle kohta, kuidas Azure'i tellimust LCS-i projektiga ühendada.
+description: Selles artiklis antakse teavet selle kohta, kuidas ühendada Azure'i tellimus LCS-projektiga.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 839c510838b0bccb718b8ca8a4f71a1c46e7ea3f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 64ee8cfa7394a08c3d588c0e8f4a73185d9496cf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595907"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912143"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Azure’i kordustellimuse lisamine LCS-i projektile
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Pilvepõhiseid keskkondi tuleb juurutada kasutades olemasolevat Azure'i korduvtellimust. See teema selgitab, kuidas olemasolevat Azure'i tellimust LCS-i projektiga ühendada. 
+Pilvepõhiseid keskkondi tuleb juurutada kasutades olemasolevat Azure'i korduvtellimust. Selles artiklis selgitatakse, kuidas ühendada olemasolev Azure'i tellimus LCS-projektiga. 
 
 ## <a name="grant-admin-consent"></a>Administraatori nõusoleku andmine
 
@@ -59,7 +59,7 @@ Autoriseerimine on nüüd lõpule viidud.
 2. Sisestage oma Azure'i kordustellimuse ID. Oma Azure'i kordustellimuse ID leiate [Azure'i portaalis](https://ms.portal.azure.com/) ekraani alumisest vasakult nurgast jaotisest  **Sätted**.
 3. Valige väljal **Konfigureeri Azure'i ressursihalduri kasutamiseks** suvand **Jah**.
 4. Veenduge, et Azure'i kordustellimuse AAD rentniku domeen ühtib kasutatava Azure'i tellimust omava domeeniga ja valige **edasi**.
-5. Valige kuval **Microsoft Azure'i seadistus** kinnitamiseks käsk **Edasi**. Kui kuvatakse sellel kuval tõrge, pöörduge tagasi selle teema jaotisse [Dynamicsi juurutamisteenustele Azure'i tellimuse juurdepääsu andmine](#provide) ja veenduge, et olete kõik sammud lõpule viinud.
+5. Valige kuval **Microsoft Azure'i seadistus** kinnitamiseks käsk **Edasi**. Kui kuvatakse sellel ekraanil tõrge, pöörduge tagasi jaotisse [Dynamicsi juurutusteenuste juurdepääs Azure'i tellimusele](#provide) selles artiklis ja veenduge, et olete kõik juhised täitnud.
 6. Laadige Azure’i halduse sert alla oma arvuti kohalikku kausta. Paluge oma Azure’i kordustellimuse administraatoril üles laadida sert Azure’i haldusportaali, valides tellimuse ja avades suvandid **Sätted** > **Haldusserdid**. See sert võimaldab LCS-l teie nimel Azure’iga suhelda. Kui teie kasutajal on tellimusele juurdepääs, võite selle etapi vahele jätta.
 7. Valige **Edasi**.
 8. Valige juurutamiseks Azure'i piirkond ja valige andmekeskus, mis on lähedal sellele, kus kavatsete seda süsteemi kasutada.

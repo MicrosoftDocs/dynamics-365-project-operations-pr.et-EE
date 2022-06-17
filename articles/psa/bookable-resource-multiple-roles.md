@@ -1,6 +1,6 @@
 ---
 title: Projekti müügi ja kulude prognoosimine juhul, kui broneeritav ressurss täidab projekti jaoks mitut rolli
-description: Selles teemas antakse teavet selle kohta, kuidas hinnakujunduse dimensioone saab kasutada projekti mitut rolli täitva ressursi hinnakujunduse ja kulude toetuseks.
+description: Selles artiklis antakse teavet selle kohta, kuidas hinnakujundusdimensioone saab kasutada projekti mitut rolli täitva ressursi hinnakujunduse ja kuluarvestuse toetamiseks.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f8b84de740a3d610e49acea8fa13885b977b440c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5adaa7b83aae69c15aa268e723417172f1b56f42
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590709"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916145"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Projekti müügi ja kulude prognoosimine juhul, kui broneeritav ressurss täidab projekti jaoks mitut rolli 
 

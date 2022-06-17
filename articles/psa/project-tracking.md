@@ -1,6 +1,6 @@
 ---
 title: Projekti edenemine ja kulu tarbimine
-description: Selles teemas kirjeldatakse projekti edenemise ja tarbitud kulude jälgimist.
+description: Selles artiklis antakse teavet projekti edenemise ja kulutarbimise jälgimise kohta.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 56b78aa70f23a9a723f008973678bb29c4bbce1d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: afcac5e6fbb7ed8a5a5f7f5876c6035b59eebcc2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575253"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921757"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Projekti edenemine ja kulu tarbimine
 
@@ -30,7 +30,7 @@ ms.locfileid: "8575253"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Vajadus edenemise jälgimiseks ajakava suhtes sõltub majandusharust. Mõned majandusharud jälgivad minimaalsel tasandil, samas kui teised jälgivad kõrgemal tasemel. Selles teemas kirjeldatakse, kuidas kasutada ajakava oma organisatsiooni vajadustele vastavalt.
+Vajadus edenemise jälgimiseks ajakava suhtes sõltub majandusharust. Mõned majandusharud jälgivad minimaalsel tasandil, samas kui teised jälgivad kõrgemal tasemel. Selles artiklis kuvatakse, kuidas ajastada, et täita oma organisatsiooni nõudeid.
 
 ## <a name="effort-tracking-view"></a>Panuse jälgimise vaade
 

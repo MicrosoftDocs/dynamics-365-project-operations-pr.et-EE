@@ -1,26 +1,26 @@
 ---
 title: Broneeritava ressursi kasutamine hinnakujunduse dimensioonina
-description: Selles teemas antakse teavet selle kohta, kuidas kasutada broneeritavat ressursi hinnakujunduse dimensioonina.
+description: Selles artiklis antakse teavet selle kohta, kuidas kasutada broneeritavat ressurssi hinnakujundusdimensioonina.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dcd01d80236f0218bc6fa3a1fe1389f8314f3c9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c467c45885bbd8931eccc75862f537c0f46433ef
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598622"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914811"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Broneeritava ressursi kasutamine hinnakujunduse dimensioonina
 
  _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_ 
 
-Selles teemas antakse teavet selle kohta, kuidas kasutada broneeritavat ressursi hinnakujunduse dimensioonina. Kui teie hinnakujunduse strateegia on häälestatud nii, et igal broneeritaval ressursil peab olema kindel hinna või kulumäär, kasutage broneeritavat ressurssi hinnakujunduse dimensioonina.
+Selles artiklis antakse teavet selle kohta, kuidas kasutada broneeritavat ressurssi hinnakujundusdimensioonina. Kui teie hinnakujunduse strateegia on häälestatud nii, et igal broneeritaval ressursil peab olema kindel hinna või kulumäär, kasutage broneeritavat ressurssi hinnakujunduse dimensioonina.
 
-## <a name="prerequisites"></a>Eeltingimused
-Enne selles teemas toodud toimingu lõpetamist peab teil olema oma organisatsiooni jaoks uus hinnakujunduse lahendus. Kui te pole seda veel loonud, lugege teemat [Kohandatud väljade ja olemite loomine](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
+## <a name="prerequisites"></a>eeltingimused
+Enne selle artikli protseduuride lõpuleviimist peab teil olema oma organisatsiooni jaoks uus hinnakujundusdimensiooni lahendus. Kui te pole seda veel loonud, lugege teemat [Kohandatud väljade ja olemite loomine](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>Välja Broneeritav ressurss lisamine vormidele ja vaadetele
 Hinnakujunduse dimensiooni lahenduses välja **Broneeritav ressurss** nähtavaks muutmiseks peate lisama välja kõikidele vormiedele ja vaadetele olemina.

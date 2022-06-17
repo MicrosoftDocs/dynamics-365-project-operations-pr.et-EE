@@ -1,6 +1,6 @@
 ---
 title: Täiustatud hinnapakkumiste tegemine, hinnakujundus ja arveldamine
-description: Selles teemas kirjeldatakse teavet hinnapakkumiste tegemise, arveldamise ja hinnakujunduse kohta rakenduses Project Service Automation.
+description: Selles artiklis antakse teavet projektiteenuste automatiseerimise tsiteerimise, arveldamise ja hinnakujunduse kohta.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 54047f34d950fc79e510bfe0d6601e271c02a92c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8106a18fefc34141fdc5d350c60e87ec4b2a4c1d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579347"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921803"
 ---
 # <a name="advanced-quoting-pricing-and-billing-guide"></a>Hinnapakkumiste tegemise, hinnakujunduse ja arveldamise täpsem juhend
 
@@ -32,7 +32,7 @@ ms.locfileid: "8579347"
 
 Võimalus leida õigel ajal õigeid ressursse, neid ressursse projektidele broneerida ja ressursse kasutada, aitab organisatsioonidel täita tulude ja klientide rahulolu eesmärke. 
 
-Selles teemas varem olnud PDF-i link on eemaldatud ja sisu on teisaldatud järgmistesse teemadesse.
+Selles artiklis varem olnud PDF-link on eemaldatud ja sisu on teisaldatud järgmistesse artiklitesse:
 
 - [Hinnapakkumised, hinnakujundus ja arveldamine](../quote-bill-price.md)
 - [Müügiprotsessid](../basic-sales-process.md)
@@ -50,7 +50,7 @@ Selles teemas varem olnud PDF-i link on eemaldatud ja sisu on teisaldatud järgm
 - [Tegelike andmete salvestamine](../advanced-actuals.md)
 
 > [!NOTE]
-> See teema eemaldatakse tulevasest dokumentatsiooni värskendusest. 
+> See artikkel eemaldatakse tulevases dokumentatsioonivärskenduses. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

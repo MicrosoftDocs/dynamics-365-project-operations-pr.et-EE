@@ -1,17 +1,17 @@
 ---
 title: Project Operationsi registreerumine eelvaate kordustellimusele ressursside/mitte laosolevate stsenaariumite jaoks
-description: Selles teemas antakse teavet Project Operationsi tellimise ja juurutamise kohta ressursi-/mitte laosolevate stsenaariumite jaoks.
+description: Selles artiklis antakse teavet selle kohta, kuidas projektitoiminguid uuesti tellida ja juurutada varudeta/ladustamata stsenaariumide jaoks.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575805"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920101"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Project Operationsi registreerumine eelvaate kordustellimusele ressursside/mitte laosolevate stsenaariumite jaoks
 
@@ -19,7 +19,7 @@ _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
 
 
-Selles teemas kirjeldatakse, kuidas tellida prooviversiooni ja juurutada Project Operationsi keskkonda ressursipõhistes/mittelaopõhistes stsenaariumides.
+Selles artiklis selgitatakse, kuidas tellida proovipakkumine ja juurutada Project Operationsi keskkonda ressursi-/ladustamata stsenaariumide jaoks.
 
 ## <a name="prerequisites"></a>Eeltingimused
 - Kasutajal, kes eelvaate juurutab, peab olema Azure'i rentniku globaalse administraatori õigused. Rentniku saate luua esimese pakkumise lunastamise ajal. 
@@ -60,19 +60,19 @@ Minge jaotisse [Dynamics 365 for Finance eelversiooni prooviversioon](https://ak
 
 ## <a name="start-a-new-project-in-lcs"></a>LCS-is uue projekti alustamine
 
-Looge uus LCS-i projekt, nagu kirjeldatud teemas [LCS-is uue projekti alustamine](create-lcs-project.md)
+Artiklis kirjeldatud uue LCS-projekti loomine LCS-is [uue projekti alustamine](create-lcs-project.md)
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>Azure’i kordustellimuse lisamine LCS-i projektile
 
-Selle toimingu lõpuleviimiseks järgige juhiseid teemas [Azure'i tellimuse lisamine LCS-i projektile](resource-add-azure-subscription-lcs-project.md).
+Selle ülesande täitmiseks järgige artiklis " [Azure'i tellimuse lisamine LCS-projektile" toodud juhiseid](resource-add-azure-subscription-lcs-project.md).
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Finance'i demokeskkonna juurutamine Project Operationsiga ressursi/mitte laosoleva stsenaariumide jaoks
 
-Juurutuse lõpuleviimiseks järgige juhiseid teemas [Uue keskkonna ettevalmistamine](resource-provision-new-environment.md). Kasutage eelversiooni korral [demokeskkonna](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) juurutuse tüüpi. 
+Järgige artiklis " [Uue keskkonna](resource-provision-new-environment.md) pakkumine juurutamise lõpuleviimiseks" toodud juhiseid. Kasutage eelversiooni korral [demokeskkonna](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) juurutuse tüüpi. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>CDS-i seadistuse ja konfiguratsiooniandmete installimine
 
-Installige teemas kirjeldatud CDS-i seadistuse ja konfiguratsiooni andmed, [Seadistage ja rakendage konfiguratsiooni andmeid rakenduses Common Data Service](resource-apply-pro-setup-config-data.md).
+Installige CDS-i häälestus- ja konfiguratsiooniandmed, nagu on kirjeldatud artiklis, [Konfiguratsiooniandmete häälestamine ja rakendamine aknas Common Data Service](resource-apply-pro-setup-config-data.md).
 Viige see etapp lõpule alles pärast teenuse Finance juurutamist ja kui demoandmed on valmis.
 
 

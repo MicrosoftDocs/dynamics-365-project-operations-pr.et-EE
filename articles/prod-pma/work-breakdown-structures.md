@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1e69d7cc97e3a7a59bdba387282fe19d12f5780
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7f1a77c6e4e5f0926ff7afe1066f9a0cf7cdfb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683395"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920653"
 ---
 # <a name="work-breakdown-structures-overview"></a>Tööjaotuse struktuuride ülevaade
 
@@ -35,7 +35,7 @@ WBS üksikasjalikkuse aste sõltub hinnangute nõutavast täpsuse tasemest ja ne
 
 Seevastu projektid sellistes tööstusharudes, nagu meedia ja reklaam, tarkvara ja IT-taristu, kipuvad olema ainulaadsed ning tootlikkus oleneb tööülesannet täitva üksikisiku kogemusest ja pädevusest. Seega kasutavad need majandusharud WBS-i, et saada ülevaade projekti ligikaudsest mahust, mitte projekti üksikasjaliku edenemise jälgimiseks. 
 
-WBS loomine on intensiivne protsess, mida tehakse tavaliselt pika aja jooksul ja mis nõuab koostööd ning teavet paljudelt erinevatelt inimestelt. Selles teemas kirjeldatakse, kuidas saate kasutada WBS-i täiustusi, et rahuldada prognooside ja jälgimise nõudeid.
+WBS loomine on intensiivne protsess, mida tehakse tavaliselt pika aja jooksul ja mis nõuab koostööd ning teavet paljudelt erinevatelt inimestelt. Selles artiklis kirjeldatakse, kuidas saate WBS-i täiustusi kasutada hinnangute ja jälgimise nõuete täitmiseks.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>WBS-i loomise eeltingimused
 WBS-i loomiseks peab teil olema võimalik luua töögraafik ja prognoosida töö maksumust.
@@ -166,7 +166,7 @@ Rakendusel Finance on WBS-is projekti kohta kolm vaadet: kavandamise vaade, mahu
 
 ### <a name="planning-view"></a>Kavandamise vaade
 
-Kavandamise vaates kuvatakse ajakava ja kulu teabe kavandatav või algne hinnang. Kui WBS-is ei ole projekti versiooni ja algväärtuse jälgimiseks funktsioone, on selle vaate väärtused mõeldud põhiversiooni esindamiseks. Selle teema ajakava prognoosi ja kuluprognoosi jaotised kirjeldavad seda vaadet ja kuidas seda WBS-i loomiseks kasutatakse.
+Kavandamise vaates kuvatakse ajakava ja kulu teabe kavandatav või algne hinnang. Kui WBS-is ei ole projekti versiooni ja algväärtuse jälgimiseks funktsioone, on selle vaate väärtused mõeldud põhiversiooni esindamiseks. Selle artikli jaotised Ajakava hinnang ja kulude hindamine kirjeldavad seda vaadet ja seda, kuidas seda WBS-i loomiseks kasutatakse.
 
 ### <a name="effort-tracking-view"></a>Panuse jälgimise vaade
 

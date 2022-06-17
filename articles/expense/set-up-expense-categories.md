@@ -1,17 +1,17 @@
 ---
 title: Kulukategooriate seadistamine
-description: Selles teemas kirjeldatakse kuluarvestuse kulukategooriate ja kuluaruannete ühiskasutuses olevate kategooriate seadistamist.
+description: Selles artiklis antakse teavet kulukategooriate ja ühiskategooriate seadistamise kohta kuluaruannete jaoks.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 925c0894616df587b8a749bc00ea52ed06672827
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 602a56cb26d2f97143ffedcdfa96ac751c7b252f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577001"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917756"
 ---
 # <a name="set-up-expense-categories"></a>Kulukategooriate seadistamine
 

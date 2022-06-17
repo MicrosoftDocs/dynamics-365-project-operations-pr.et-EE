@@ -1,24 +1,24 @@
 ---
 title: Mis on uut või muudetud Project Operationsis, september 2021 ladustatud / tootmispõhiste stsenaariumide puhul
-description: Selles teemas antakse teavet kvaliteedivärskenduste kohta, mis on saadaval Project Operationsi 2021. aasta septembri väljaandes ladustatud/tootmispõhiste stsenaariumide jaoks.
+description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval Project Operationsi 2021. aasta septembri väljaandes ladustatud/tootmispõhiste stsenaariumide jaoks.
 author: andchoi
 ms.date: 11/11/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 24de8626199a3ed56bb6703b78d746ff7a43a089
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1e99471b4338209c1f7fe411084d1745d74b2d2c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582015"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916513"
 ---
 # <a name="whats-new-or-changed-in-project-operations-september-2021-for-stockedproduction-based-scenarios"></a>Mis on uut või muudetud Project Operationsis, september 2021 ladustatud / tootmispõhiste stsenaariumide puhul
 
 _**Kehtib järgmiste puhul:** Project Operations ladustamise-/tootmispõhiste stsenaariumide jaoks_
 
-See teema kehtib järgmiste Microsofti Dynamics 365 Project Operations komponentide ja versioonide kohta.
+See artikkel kehtib järgmiste Microsofti Dynamics 365 Project Operations komponentide ja versioonide kohta.
 
 - Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnaversioonis 10.0.21
  

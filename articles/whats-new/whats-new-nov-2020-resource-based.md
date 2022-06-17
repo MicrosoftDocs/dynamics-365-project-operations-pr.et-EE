@@ -1,23 +1,23 @@
 ---
 title: Mis on uut novembris 2020 – Project Operations ressursi-/mittelaopõhiste stsenaariumite jaoks
-description: See teema sisaldab teavet ressursi-/mittelaopõhiste stsenaariumite jaoks mõeldud rakenduse Project Operations 2020. aasta novembri väljalaskes saadaolevate kvaliteedi värskenduste kohta.
+description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval project Operationsi 2020. aasta novembri väljaandes ressursi-/ladustamata põhistsenaariumide jaoks.
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b98c968a040c14f4d11c350885e2cbb984596c48
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600369"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923413"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Mis on uut novembris 2020 – Project Operations ressursi-/mittelaopõhiste stsenaariumite jaoks
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-See teema kehtib rakenduse Dynamics 365 Project Operations järgmistele komponentide ja versioonide kohta.
+See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja versioonide kohta.
 
 - Project Operations CDS-i keskkonna versioonis 4.4.0.70
 - Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnaversioonis 10.0.14

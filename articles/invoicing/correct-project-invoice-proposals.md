@@ -1,17 +1,17 @@
 ---
 title: Mustandist projekti arve ettepanekute raamatupidamise parandamine
-description: Selles teemas selgitatakse, kuidas muuta mustandist arve ettepanekul raamatupidamisega seotud teavet.
+description: Selles artiklis selgitatakse, kuidas arvesoovituses raamatupidamisalast teavet kohandada.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 32f566a798d07b698693392f3aa1823f91fe5408
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575069"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921205"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Mustandist projekti arve ettepanekute raamatupidamise parandamine
 
@@ -19,7 +19,7 @@ _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
 Projekti arvete *toimingu üksikasju* haldab projektijuht näidisarvel. Need üksikasjad hõlmavad otsuseid tundide, kulude, materjalide või vahe-eesmärkide kohta, mille eest tuleb esitada arve, hindade ning avansi- ja honorarisummade taotlemise kohta. Pärast algse näidisarve kinnitamist saate toimingu üksikasju muuta, luues ja kinnitades [korrigeeriva näidisarve](../proforma-invoicing/corrective-invoices.md).
 
-Projekti arvete *raamatupidamise üksikasju* hallatakse kliendile suunatud arvedokumendis. Need üksikasjad hõlmavad arvele rakendatud käibemaksu arvutamist ja finantsdimensioone. Selles teemas on toodud üksikasjad selle kohta, kuidas neid raamatupidamise üksikasju saab mustandi projekti arve ettepanekus muuta.
+Projekti arvete *raamatupidamise üksikasju* hallatakse kliendile suunatud arvedokumendis. Need üksikasjad hõlmavad arvele rakendatud käibemaksu arvutamist ja finantsdimensioone. Selles artiklis on toodud üksikasjad selle kohta, kuidas neid raamatupidamisandmeid saab projektiarve ettepaneku eelnõuga korrigeerida.
 
 ## <a name="adjust-sales-tax"></a>Käibemaksu muutmine
 

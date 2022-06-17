@@ -1,6 +1,6 @@
 ---
 title: Mida on uut või muudetud rakenduse Project Service Automation värskenduse väljaandes 29, V3
-description: Selles teemas loetletakse Project Service Automationi värskenduse väljalaske 29, V3 saadaolevaid funktsioone ja parandusi.
+description: Selles artiklis loetletakse funktsioonid ja parandused, mis on saadaval rakenduses Project Service Automation Update Release 29, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/22/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 56cf47d207c7ee518d5d4b53866c3d6ddf1d1fb3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 733bbad53933b2de62222e78e3c5c919543c59e9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587213"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915364"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-29-v3"></a>Mida on uut või muudetud rakenduse Project Service Automation värskenduse väljaandes 29, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8587213"
 
 Meil on hea meel teatada uusimast Dynamics 365 Project Service Automationi rakenduse värskendusest. See väljaanne sisaldab mõningaid olulisi kvaliteedi, jõudluse ja kasutatavuse täiustusi. See väljalase ühildub Dynamics 365 9. x-iga. Sellele väljaandele värskendamiseks külastage veebis Dynamics 365 administreerimiskeskuse lahenduste lehte värskenduse installimiseks. Lisateabe saamiseks vt jaotist [Eelistatud lahenduse installimine, värskendamine või eemaldamine](/power-platform/admin/install-remove-preferred-solution).
 
-Selles teemas loetletakse Project Service Automationi V3 värskenduse väljalaske 29 uusi või muudetud funktsioone ja parandusi. Selle versiooni järgu number on V3.10.47.7 ja see on kõigile kättesaadav 2021. a veebruaris ise värskendamise kaudu.
+Selles artiklis loetletakse funktsioonid ja parandused, mis on project Service Automation V3, Update Release 29 jaoks uued või muudetud. Selle versiooni järgu number on V3.10.47.7 ja see on kõigile kättesaadav 2021. a veebruaris ise värskendamise kaudu.
 
 ## <a name="update-release-29"></a>Värskenduste väljalase 29
 

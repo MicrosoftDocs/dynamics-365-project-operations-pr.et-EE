@@ -1,6 +1,6 @@
 ---
 title: Mida on uut või muudetud rakenduse Project Service Automation värskenduse väljaandes 17, V3
-description: Selles teemas loetletakse Project Service Automationi värskenduse väljalaske 17, V3 saadaolevaid funktsioone ja parandusi.
+description: Selles artiklis loetletakse funktsioonid ja parandused, mis on saadaval jaotises Project Service Automation Update Release 17, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 03/06/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 70749646f5b67db3cf868a6d9a83c14dc490793a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c8486ef689f0d8ab014c2248fc6e5d0fddc937e7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585086"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915685"
 ---
 # <a name="project-service-automation-update-release-17-v3"></a>Rakenduse Project Service Automation, värskenduse väljaanne 17, v3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8585086"
 
 Meil on hea meel teatada uusimast Dynamics 365 Project Service Automationi rakenduse värskendusest. See väljaanne sisaldab mõningaid olulisi kvaliteedi, jõudluse ja kasutatavuse täiustusi.  See väljalase ühildub Dynamics 365 9. x-iga. Sellele väljaandele värskendamiseks külastage veebis Dynamics 365 administreerimiskeskuse lahenduste lehte värskenduse installimiseks. Lisateabe saamiseks vt jaotist [Eelistatud lahenduse installimine, värskendamine või eemaldamine](/power-platform/admin/install-remove-preferred-solution).
 
-Selles teemas loetletakse PSA V3 värskenduse väljalaske 17 uusi või muudetud funktsioone ja parandusi. Selle versiooni järgunumber on V3.10.6.34 ja see on märtsis 2020 automaatvärskendusega kõigile saadaval.
+Selles artiklis loetletakse funktsioonid ja parandused, mis on uued või muudetud PSA V3, Update Release 17 jaoks. Selle versiooni järgunumber on V3.10.6.34 ja see on märtsis 2020 automaatvärskendusega kõigile saadaval.
 
 
 ## <a name="update-release-17"></a>Värskenduste väljalase 17

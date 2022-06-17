@@ -1,6 +1,6 @@
 ---
 title: Projekti plaanimise avaleht
-description: Selles teemas antakse teavet projekti plaanimise kohta.
+description: Selles artiklis antakse teavet projekti planeerimise kohta.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ef893b78ca3a421e22dbbabdce7a0a18d4b9abd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f6309a2eecd0f6c7d38f2d88120300eb342be629
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588134"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919089"
 ---
 # <a name="project-planning-home-page"></a>Projekti plaanimise avaleht
 
@@ -43,7 +43,7 @@ Rakenduse PSA projektihalduse tööriistad aitavad teil projekte hõlpsasti käi
 - Ressursinõuete prognoosimine konveieril olevate projektide jaoks.
 - Projektide edukaks elluviimine edenemise ja tarbitud kulude jälgimise kaudu.
 
-Järgmistest teemadest leiate teavet, mis aitab projektijuhtidel prognoosida tööd, hinnata projektikulusid ja prognoosida ressursinõudeid, kasutades selleks rakenduse PSA toetatud tööriistu.
+Järgmistes artiklites antakse teavet, mis aitab projektijuhtidel PSA-s toetatud tööriistu kasutades hinnata tööd, hinnata projektikulusid ja prognoosida ressursivajadusi.
 
 - [Ajakava loomine](project-creating.md)
 - [Projekti kulude ja tulude prognoosimine](project-estimating.md)

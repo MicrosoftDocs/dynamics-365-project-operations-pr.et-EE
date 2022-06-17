@@ -1,17 +1,17 @@
 ---
 title: Allhankelepingute päise üksikasjad
-description: Selles teemas kirjeldatakse Project Operationsis allhankelepingu päises antud funktsionaalsust.
+description: Selles artiklis selgitatakse projektitoimingute alltöövõtu päises pakutavaid funktsioone.
 author: rumant
 ms.date: 09/14/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fade0ff876486ad60ffd9ad618be7864c1b28185
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 85649d08228b16178eb8d6be9af5a6731def74bf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598161"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914167"
 ---
 # <a name="header-details-for-subcontracts"></a>Allhankelepingute päise üksikasjad
 
@@ -19,7 +19,7 @@ ms.locfileid: "8598161"
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
-Selles teemas kirjeldatakse rakenduses Dynamics 365 Project Operations allhankelepingu päises antud funktsionaalsust.
+Selles artiklis selgitatakse rakenduses alltöövõtupäises pakutavaid funktsioone Dynamics 365 Project Operations.
 
 Kui projektijuht projekte kavandab ja käivitab, võib ta palgata alltöövõtjaid ja osta hankijatelt tooteid ja teenuseid. Kui projektijuhil on vaja tooteid või teenuseid osta, võib ta Project Operationsis allhankelepingu luua.
 

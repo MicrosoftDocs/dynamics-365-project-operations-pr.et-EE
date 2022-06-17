@@ -1,6 +1,6 @@
 ---
 title: Kohandatud väljade seadistamine hinnakujunduse dimensioonidena
-description: Selles teemas kirjeldatakse, kuidas seadistada kohandatud hinnakujunduse dimensioone.
+description: Selles artiklis antakse teavet kohandatud hinnakujundusdimensioonide seadistamise kohta.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14d27b53b42744d47e298bf5a926c1262dbf44d4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591905"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922592"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Kohandatud väljade seadistamine hinnakujunduse dimensioonidena 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Enne kui alustate, eeldame, et olete lõpetanud toimingud teemades [Kohandatud väljade ja olemite loomine](create-custom-fields-entities.md) ning [Kohandatud väljade lisamine hinna seadistamisele ja ülekande olemitele](field-references.md). Kui te pole neid toiminguid lõpetanud, minge tagasi, viige need lõpuni ja seejärel tulge selle teema juurde tagasi. 
+Enne alustamist eeldab see artikkel, et olete artiklites protseduurid lõpule viinud, [Looge kohandatud väljad ja olemid](create-custom-fields-entities.md) ning [Lisage kohandatud väljad hinnahäälestus- ja tehinguolemitesse](field-references.md). Kui te ei ole neid protseduure lõpetanud, minge tagasi ja täitke need ning seejärel pöörduge tagasi selle artikli juurde. 
 
-Selles teemas kirjeldatakse, kuidas seadistada kohandatud hinnakujunduse dimensioone. Project Service’i veebiliidese lehel **Parameetrid** kuvatakse vahekaardil **Summapõhised hinnakujunduse dimensioonid** hinnakujunduse dimensiooni olemites olevad kirjed. Project Service’i installimise käigus luuakse selle vahekaardi ruudustikus vaikimisi 2 rida:
+Selles artiklis antakse teavet kohandatud hinnakujundusdimensioonide seadistamise kohta. Project Service’i veebiliidese lehel **Parameetrid** kuvatakse vahekaardil **Summapõhised hinnakujunduse dimensioonid** hinnakujunduse dimensiooni olemites olevad kirjed. Project Service’i installimise käigus luuakse selle vahekaardi ruudustikus vaikimisi 2 rida:
 
 - **msdyn_resourcecategory** (roll)
 - **msdyn_OrganizationalUnit** (organisatsiooniüksus)

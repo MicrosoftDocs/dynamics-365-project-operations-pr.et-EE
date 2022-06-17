@@ -1,6 +1,6 @@
 ---
 title: Ühikud ja ühikurühmad
-description: Selles teemas antakse teavet ühikute ja ühikurühmade loomise kohta rakenduses Dynamics 365 Project Operations.
+description: Selles artiklis antakse teavet selle kohta, kuidas rakenduses üksusi ja ühikugruppe luua Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e0e1339c8fccb52b7471dc49a19be4dfc37be605
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a46b7d182d3d7fc77c1275c108f5dc569ffebff1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578427"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921435"
 ---
 # <a name="units-and-unit-groups"></a>Ühikud ja ühikurühmad
 
@@ -28,7 +28,7 @@ _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaa
 
 Ühikud on kogused või mõõtühikud, milles tooteid või teenuseid müüte. Näiteks kui müüte aiatarvikuid, võite müüa seemneid pakkide, karpide ja kaubaalustena. Ühikurühm on nende ühikute kogum.
 
-Selle teema juhiste täitmiseks veenduge, et teile on määratud süsteemiadministraatori või müügiesindaja halduri roll või samaväärsed õigused.
+Selle artikli juhiste lõpuleviimiseks veenduge, et olete määratud süsteemiadministraatori või müügispetsialisti halduri rolli või teil on samaväärsed õigused.
 
 ## <a name="create-a-unit-group"></a>Ühikurühma loomine
 

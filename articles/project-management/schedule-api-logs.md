@@ -1,17 +1,17 @@
 ---
 title: Projekti plaanimise logid
-description: Selles teemas on teave ja näidised, mis aitavad teil kasutada projekti plaanimise logisid projekti plaanimise teenuse ja projektiplaneerimise API-dega seotud tõrgete jälgimiseks.
+description: Selles artiklis antakse teavet ja näidiseid, mis aitavad teil kasutada projekti plaanimise logisid projekti plaanimise teenuse ja projekti plaanimise API-dega seotud tõrgete jälgimiseks.
 author: ruhercul
 ms.date: 11/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 1a58a588d3e2fb92f1b4a4ed0f6f69d0a63908db
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c57419642e90e4def01f2cd2474c9e82dc162b86
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589513"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923690"
 ---
 # <a name="project-scheduling-logs"></a>Projekti plaanimise logid
 

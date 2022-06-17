@@ -1,24 +1,24 @@
 ---
 title: Mis on uut detsembris 2020 – Project Operations Lite’i juurutamine – tehing näidisarveldusele
-description: See teema sisaldab teavet Project Operations Lite’i juurutuse – tehing näidisarveldusele 2020. aasta detsembri väljalaskes saadaolevate kvaliteedivärskenduste kohta.
+description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval Project Operations Lite juurutamise 2020. aasta detsembri väljaandes - tegeleb arvete esitamisega.
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: aaaa8827eaee4df86616ab1399d8ed4a869aba77
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3c23e13919540913755223634a24802ff3064f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585419"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924057"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Mis on uut detsembris 2020 – Project Operations Lite’i juurutamine – tehing näidisarveldusele
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
-See teema kehtib rakenduse Dynamics 365 Project Operations järgmistele komponentide ja versioonide kohta.
+See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja versioonide kohta.
 
   - Project Operations Dataverse’i keskkonna versioonis 4.5.0.134 
 

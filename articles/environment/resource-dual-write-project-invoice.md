@@ -1,22 +1,22 @@
 ---
 title: Projekti arve integreerimine
-description: Selles teemas antakse teavet Project Operationsi topeltkirjutamisega integreerimise kohta kliendi arvelduses.
+description: Selles artiklis antakse teavet Project Operationsi topeltkirjutamise integreerimise kohta kliendi arveldamiseks.
 author: sigitac
 ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1e7294360f041b030efca225c6754fe3bbc0eadf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5ee2d78f1ca1d78f6909d9995a92ac301f06d6a6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581233"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912097"
 ---
 # <a name="project-invoice-integration"></a>Projekti arve integreerimine
 
-Selles teemas antakse teavet Project Operationsi topeltkirjutamisega integreerimise kohta kliendi arvelduses.
+Selles artiklis antakse teavet Project Operationsi topeltkirjutamise integreerimise kohta kliendi arveldamiseks.
 
 Project Operationsis haldab projekti haldur projekti arvelduse mahajäämust ja loob kliendile pro forma arve rakenduses Microsoft Dataverse. Selle pro forma arve põhjal loob müügireskontro ametnik või projekti raamatupidaja kliendile suunatud arve. Kahe kirjutamise integreerimine tagab, et proforma arve üksikasjad sünkroonitakse rakendustega Finance and Operations. Pärast kliendile suunatud arve sisestamist värskendab süsteem asjakohased projekti tegelikud andmed rakenduses Dataverse raamatupidamise üksikasjadega. Järgmine joonis annab sellest integreerimisest kõrgetasemelise kontseptuaalse ülevaate.
 

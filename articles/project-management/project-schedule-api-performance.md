@@ -1,28 +1,28 @@
 ---
 title: Projekti ajakava API jõudlus
-description: Selles teemas antakse teavet projekti ajakava API-de jõudluse võrdlustestide kohta ja tuuakse välja head tavad optimaalseks kasutamiseks.
+description: Selles artiklis antakse teavet projekti ajakava API-de jõudlusnäitajate kohta ja määratakse kindlaks optimaalse kasutamise parimad tavad.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3c14d27c561a86cd359cbdcbb448ae764dd3d90e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ee1bd8e4412ee1d10f445628c5dc87cc9fa91d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593837"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911177"
 ---
 # <a name="project-schedule-api-performance"></a>Projekti ajakava API jõudlus
 
 _**Kehtiv järgnevale:** Project Operations ressursi-/mitteressursipõhised stsenaariumid, lihtjuurutus – tehing näidisarveldusele, Project for the web_
 
-Selles teemas antakse teavet projekti ajakava rakenduse programmeerimisliideste (API-de) jõudluse võrdlustestide kohta ja tuuakse välja head tavad kasutamise optimeerimiseks.
+Selles artiklis antakse teavet projekti ajakava rakenduste programmeerimisliideste (API)de jõudlusnäitajate kohta ja määratakse kindlaks kasutamise optimeerimise parimad tavad.
 
 ## <a name="project-scheduling-service"></a>Projekti kavandamise teenus
 Projekti kavandamise teenus on mitme rentnikuga teenus, mis töötab teenuses Microsoft Azure. See on mõeldud suhtluse parandamiseks, pakkudes kasutajatele projektidega töötades kiiret ja sujuvat kogemust. See täiustus saavutatakse muutmise taotluste kinnitamise, nende töötlemise ja tulemuse kohese tagastamise kaudu. Teenus püsib asünkroonselt rakenduses Dataverse ja ei takista kasutajatel muid toiminguid tegemast.
 
-Projekti ajakava API-d sõltuvad projekti kavandamise teenusest taotluste käitamisel, mida on täpsemalt kirjeldatud selle teema hilisemates jaotistes.
+Projekti ajakava API-d tuginevad projekti plaanimise teenusele, et käivitada taotlusi, mida kirjeldatakse üksikasjalikumalt selle artikli hilisemates jaotistes.
 
 Projekti ajakava API-d on välja töötatud nii, et need töötaksid järgmiste tööjaotuse struktuuri (WBS) olemitega.
 

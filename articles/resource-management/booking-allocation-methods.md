@@ -1,6 +1,6 @@
 ---
 title: Broneeringu eraldusmeetodid
-description: Selles teemas antakse teavet selle kohta, kuidas broneeringu eraldusmeetorid Project Operationsis töötavad.
+description: Selles artiklis antakse teavet selle kohta, kuidas broneerimiseraldusmeetodid Project Operationsis toimivad.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: db3cb98227343465af1cf6a447ec9c5d6bdd13ff
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 55bf54ada3150bb42d1d47046ddc7e3a1fd8d192
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583027"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912695"
 ---
 # <a name="booking-allocation-methods"></a>Broneeringu eraldusmeetodid
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Olenemata sellest, kas lisate meeskonnaliikme projektile otse vahekaardilt **Meeskond** või broneerite ressursi projektile või nõudele ajakavapaneelilt, on paar broneeringu jaotamismeetodit, mida saate kasutada. Selles artiklis selgitatakse, kuidas iga meetod töötab, ja millised meetodid võivad põhjustada ressursside ülebroneerimist.
+Olenemata sellest, kas lisate meeskonnaliikme projektile otse vahekaardilt **Meeskond** või broneerite ressursi projektile või nõudele ajakavapaneelilt, on paar broneeringu jaotamismeetodit, mida saate kasutada. Selles artiklis selgitatakse, kuidas iga meetod toimib ja millised meetodid võivad viia ressursside ülebroneerimiseni.
 
 ## <a name="booking-allocation-methods"></a>Broneeringu eraldusmeetodid
 

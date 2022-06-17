@@ -1,6 +1,6 @@
 ---
 title: Projekti hinnangute sünkroonimine otse projekti teenuse automatiseerimisest finance'i ja operatsioonideni
-description: Selles teemas kirjeldatakse malle ja selle aluseks olevaid ülesandeid, mida kasutatakse projekti tunni hinnangute ja projekti kuluprognooside sünkroonimiseks otse Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance.
+description: Selles artiklis kirjeldatakse malle ja selle aluseks olevaid ülesandeid, mida kasutatakse projekti tunni hinnangute ja projekti kuluprognooside sünkroonimiseks otse Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: fb39a377a51b09f04564b4fe8527e34f0ea12682
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684591"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920837"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Projekti hinnangute sünkroonimine otse projekti teenuse automatiseerimisest finance'i ja operatsioonideni
 
 [!include[banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse malle ja selle aluseks olevaid ülesandeid, mida kasutatakse projekti tunni hinnangute ja projekti kuluprognooside sünkroonimiseks otse Dynamics 365 Project Service Automation Dynamics 365 Finance.
+Selles artiklis kirjeldatakse malle ja selle aluseks olevaid ülesandeid, mida kasutatakse projekti tunni hinnangute ja projekti kuluprognooside sünkroonimiseks otse Dynamics 365 Project Service Automation Dynamics 365 Finance.
 
 > [!NOTE]
 > - Projekti ülesannete integreerimine, kulukande kategooriad, kestuse prognoosi ja funktsioonide lukustamine on saadaval versioonis 8.0.

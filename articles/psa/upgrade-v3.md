@@ -1,6 +1,6 @@
 ---
 title: Värskenduse kaalutlused – Microsoft Dynamics 365 Project Service Automation versioon 2.x või 1.x versioonile 3.x
-description: Selles teemas antakse teavet kaalutluste kohta, mida peate tegema, kui täiendate Project Service Automationi versiooni 2.x või 1.x versioonile 3.
+description: Selles artiklis antakse teavet kaalutluste kohta, mida peate tegema, kui lähete Project Service Automationi versioonilt 2.x või 1.x versioonile 3.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f67b2fe39c9d0224207e7c655892318ec7e09b8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601749"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918905"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Täienduse kaalutlused – üleminek PSA versioonilt 2.x või 1.x versioonile 3
 
@@ -40,7 +40,7 @@ Project Service Automation versioonis 2 ja 1 salvestati ülesanded **Ülesande o
 
 Project Service Automationi versioonis 3 on muutunud skeem, mille alusel määratakse broneeritavaid ressursse ülesannetele. Rea ülesanne on iganenud ning olemis **Ülesanne** oleva ülesande ja olemis **Ressursi määramine** oleva meeskonnaliikme vahel on otsene 1:1 suhe. Projekti meeskonnaliikmetele määratud ülesanded salvestatakse nüüd otse olemisse Ressursi määramine.  
 
-Need muudatused mõjutavad kõikide nende olemasolevate projektide täiendamist, millel on projekti meeskonnas ressursi määramised nimega broneeritavate ressursside ja üldiste ressursside jaoks. Selles teemas on välja toodud kaalutlused, mida peate oma projektidega seoses arvesse võtma, kui täiendate versioonile 3. 
+Need muudatused mõjutavad kõikide nende olemasolevate projektide täiendamist, millel on projekti meeskonnas ressursi määramised nimega broneeritavate ressursside ja üldiste ressursside jaoks. Selles artiklis on toodud kaalutlused, mida peate versioonile 3 üleminekul oma projektide puhul arvesse võtma. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Nimega ressurssidele määratud ülesanded
 Kui kasutate aluseks olevat ülesande olemit, võimaldavad versioonis 2 ja 1 olevad ülesanded meeskonnaliikmetele määrata muid rolle kui neile määratud vaikerollid. Näiteks Heidi Kukk, kellele on vaikimisi määratud programmihalduri roll, saab määrata ka arendaja rolli. Versioonis 3 on nimega meeskonnaliikme roll alati vaikeroll, seega kõigi ülesannete puhul, millele Heidi Kukk määratakse, kasutatakse tema programmihalduri vaikerolli.

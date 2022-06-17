@@ -1,17 +1,17 @@
 ---
 title: Täielikult arveldatud arvelduse vahe-eesmärkide migreerimine üleehitamisel
-description: Selles teemas selgitatakse, kuidas migreerida fikseeritud hinnaga arvelduse vahe-eesmärgid, mis on kliendile arveldatud avatud projektilepingute eest enne kasutusaja loomise kuupäeva.
+description: Selles artiklis selgitatakse, kuidas migreerida fikseeritud hinnaga arvelduse verstapostid, mille eest on kliendile esitatud arve avatud projektilepingute eest enne kasutuselt lahkumise kuupäeva.
 author: sigitac
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ccdba864a68521024b2c479c12cf5cea616c5bbf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d7bb3dbb5acd9be447c405ec17f18d00c500f655
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576265"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912235"
 ---
 # <a name="migrate-fully-invoiced-billing-milestones-at-cutover"></a>Täielikult arveldatud arvelduse vahe-eesmärkide migreerimine üleehitamisel
 

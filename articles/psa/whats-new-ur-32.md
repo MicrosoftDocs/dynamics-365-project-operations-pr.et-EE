@@ -1,6 +1,6 @@
 ---
 title: Mida on uut või muudetud rakenduse Project Service Automation värskenduse väljaandes 32, V3
-description: Selles teemas loetletakse Project Service Automationi värskenduse väljalaske 32, V3 saadaolevaid funktsioone ja parandusi.
+description: Selles artiklis loetletakse funktsioonid ja parandused, mis on saadaval jaotises Project Service Automation Update Release 32, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 06/01/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3ad87eceb90a48997aadf00803b8d14c5108eb83
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5124137c24da9b579ee1365524d66d9135b2d420
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580083"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912879"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-32-v3"></a>Mida on uut või muudetud rakenduse Project Service Automation värskenduse väljaandes 32, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8580083"
 
 Meil on hea meel teatada rakenduse Microsoft Dynamics 365 Project Service Automation uusimast värskendusest. See väljaanne sisaldab mõningaid olulisi kvaliteedi, jõudluse ja kasutatavuse täiustusi. See ühildub rakendusega Dynamics 365 9.x. Sellele väljaandele värskendamiseks külastage Dynamics 365 veebilahenduste halduskeskust ja installige värskendus. Lisateabe saamiseks vt jaotist [Eelistatud lahenduse installimine, värskendamine või eemaldamine](/power-platform/admin/install-remove-preferred-solution).
 
-Selles teemas loetletakse Project Service Automationi V3 värskenduse väljalaske 32 uusi või muudetud funktsioone ja parandusi. Selle versiooni järgu number on V3.10.53.108 ja see on üldiselt saadaval isevärskenduse kaudu 2021. aasta juunis.
+Selles artiklis loetletakse funktsioonid ja parandused, mis on project service automation V3, Update Release 32 jaoks uued või muudetud. Selle versiooni järgu number on V3.10.53.108 ja see on üldiselt saadaval isevärskenduse kaudu 2021. aasta juunis.
 
 ## <a name="update-release-32"></a>Värskenduste väljalase 32
 

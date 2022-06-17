@@ -1,6 +1,6 @@
 ---
 title: Mida on uut või muudetud rakenduse Project Service Automation värskenduse väljaandes 20, V3
-description: Selles teemas loetletakse Project Service Automationi värskenduse väljalaske 20, v3 saadaolevaid funktsioone ja parandusi.
+description: Selles artiklis loetletakse funktsioonid ja parandused, mis on saadaval jaotises Project Service Automation Update Release 20, V3
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4b1a8b5b65f0dfeeff74db363c918206c64e81f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7265f4999ee9c584450efcf444621c00acd65920
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588823"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913057"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Rakenduse Project Service Automation, värskenduse väljaanne 20, v3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8588823"
 
 Meil on hea meel teatada uusimast Dynamics 365 Project Service Automationi rakenduse värskendusest. See väljaanne sisaldab mõningaid olulisi kvaliteedi, jõudluse ja kasutatavuse täiustusi. See väljalase ühildub Dynamics 365 9. x-iga. Sellele väljaandele värskendamiseks külastage veebis Dynamics 365 administreerimiskeskuse lahenduste lehte värskenduse installimiseks. Lisateabe saamiseks vt jaotist [Eelistatud lahenduse installimine, värskendamine või eemaldamine](/power-platform/admin/install-remove-preferred-solution).
 
-Selles teemas loetletakse Project Service Automationi V3 värskenduse väljalaske 20 uusi või muudetud funktsioone ja parandusi. Selle versiooni järgu number on V 3.10.31.37 ja on üldiselt saadaval 2020. a juuni enesevärskenduse kaudu.
+Selles artiklis loetletakse funktsioonid ja parandused, mis on project service automation V3, Update Release 20 jaoks uued või muudetud. Selle versiooni järgu number on V 3.10.31.37 ja on üldiselt saadaval 2020. a juuni enesevärskenduse kaudu.
 
 ## <a name="update-release-20"></a>Värskenduste väljalase 20
 

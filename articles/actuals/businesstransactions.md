@@ -1,6 +1,6 @@
 ---
-title: Ärikanded projektitoimingutes
-description: Selles teemas antakse ülevaade Microsofti äritehingute kontseptsioonist Dynamics 365 Project Operations.
+title: Äritehingud rakenduses Project Operations
+description: Selles artiklis antakse ülevaade Microsofti äritehingute kontseptsioonist Dynamics 365 Project Operations.
 author: rumant
 ms.date: 01/31/2022
 ms.topic: overview
@@ -13,14 +13,14 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2022-01-31
-ms.openlocfilehash: 0c6fe583af0dcaa62204b35c1093746b13b6e00e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fab0061af6e615c25d0fbf79d024370285dc6f86
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582199"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923275"
 ---
-# <a name="business-transactions-in-project-operations"></a>Ärikanded projektitoimingutes
+# <a name="business-transactions-in-project-operations"></a>Äritehingud rakenduses Project Operations
 
 _**Rakendub:** Project Operationsi ressursipõhiste/mittelaopõhiste stsenaariumide korral, lihtjuurutamine – tehing näidisarveldusele_
 

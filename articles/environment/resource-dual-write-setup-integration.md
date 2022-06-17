@@ -1,24 +1,24 @@
 ---
 title: Rakenduse Project Operations häälestamise ja konfigureerimisandmete integreerimine
-description: Selles teemas antakse teavet Project Operationsi topeltkirjutamise kaartide seadistamise ja konfigureerimise kohta.
+description: Selles artiklis antakse teavet Project Operationsi kahe kirjutamiskaartide seadistamise ja konfigureerimise kohta.
 author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 173ff01e938af48d2d6488d5e59cf4e74b3af8e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586891"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914535"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Rakenduse Project Operations häälestamise ja konfigureerimisandmete integreerimine
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Selles teemas antakse teavet rakenduse Project Operations seadistamis- ja konfiguratsiooniolemite topeltkirjutamise integreerimise kohta.
+Selles artiklis antakse teavet seadistus- ja konfiguratsiooniolemite Project Operationsi topeltkirjutamise integratsiooni kohta.
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>Projektilepingud, lepinguread ja projektid
 

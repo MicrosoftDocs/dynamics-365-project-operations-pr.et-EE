@@ -1,24 +1,24 @@
 ---
 title: Broneeringute redigeerimine
-description: Selles teemas antakse teavet selle kohta, kuidas broneeringuid värskendada ja muuta.
+description: Selles artiklis antakse teavet selle kohta, kuidas broneeringuid värskendada ja muuta.
 author: ruhercul
 ms.date: 11/12/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 94ff047e868b29eb75acce43b6e6594533a33bf0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4834d42d3b5d285a5c1b386ddd4ede1e09cf0067
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594343"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915225"
 ---
 # <a name="edit-bookings"></a>Broneeringute redigeerimine
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
 
-Kui projektis toimuvad muudatused, mis nõuavad olemasolevate broneeringute värskendamist, on muudatuste tegemiseks mitu võimalust. Selles teemas kirjeldatakse seda, kuidas broneeringuid värskendada ja muuta.
+Kui projektis toimuvad muudatused, mis nõuavad olemasolevate broneeringute värskendamist, on muudatuste tegemiseks mitu võimalust. Selles artiklis kirjeldatakse, kuidas broneeringuid värskendada ja muuta.
 
 ## <a name="resource-reconciliation"></a>Ressursi vastavusseviimine
 

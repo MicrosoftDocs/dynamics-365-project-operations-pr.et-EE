@@ -1,23 +1,23 @@
 ---
 title: Project Operationsi integratsiooni konfigureerimine vastavalt juriidilise isikule
-description: Selles teemas kirjeldatakse Project Operationsis integratsiooni seadistamist vastavalt juriidilisele isikule.
+description: Selles artiklis antakse teavet juriidilise isiku integratsiooni häälestamise kohta Project Operationsis.
 author: sigitac
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 64606a20a49fd8e9602b6ac3c1ab1880796eb128
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f33e641ee0932655282618c99a26e2603660059
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585833"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914673"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Project Operationsi integratsiooni konfigureerimine vastavalt juriidilise isikule 
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Selles teemas kirjeldatakse etappe, mis on vajalikud rakenduse Dynamics 365 Project Operations konfigureerimiseks juriidilise isiku koha.
+See artikkel juhendab teid toimingutes, mis on vajalikud juriidilise isiku konfigureerimiseks Dynamics 365 Project Operations.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Funktsiooniklahvide lubamine Dynamics 365 Finance
 

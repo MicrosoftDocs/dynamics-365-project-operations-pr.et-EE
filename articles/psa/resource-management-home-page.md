@@ -1,6 +1,6 @@
 ---
 title: Ressursihalduse avaleht
-description: Selles teemas kirjeldatakse ressursside haldamist.
+description: See artikkel annab teavet ressursside haldamise kohta.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1d909b0cb3530b5f1a829983d2d4737d81bf0d1b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bf61922ab185a4a5589b9aa9247ab93909ce169b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578749"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913247"
 ---
 # <a name="resource-management-home-page"></a>Ressursihalduse avaleht
 
@@ -31,9 +31,9 @@ ms.locfileid: "8578749"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Ressursid on teenusepõhise organisatsiooni kõige olulisem vara. Võime leida ja broneerida soovi korral õigeid ressursse ja hoida neid kasutuses, aitab ettevõtetel täita tulu sihtmärke ning kliendirahulolu eesmärke. Järgmised teemad keskenduvad rakenduse Dynamics 365 Project Service Automation ressursihalduse võimalustele.
+Ressursid on teenusepõhise organisatsiooni kõige olulisem vara. Võime leida ja broneerida soovi korral õigeid ressursse ja hoida neid kasutuses, aitab ettevõtetel täita tulu sihtmärke ning kliendirahulolu eesmärke. Järgmised artiklid keskenduvad ressursihalduse võimalustele Dynamics 365 Project Service Automation:
 
-- [Ressursside haldus](manage-resources.md)
+- [Halda ressursse](manage-resources.md)
 - [Põhimõisted](reports-key-concepts.md)
 - [Ressursitaotluste täitmine](resource-management-fulfill-requests.md)
 - [Soovitatavad ressursid](resource-management-propose-resources.md)

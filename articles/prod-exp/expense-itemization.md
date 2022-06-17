@@ -1,17 +1,17 @@
 ---
 title: Kulude üksikasjalik loetelu
-description: Selles teemas selgitatakse, kuidas kulusid ümber kujundatud kulu tööruumi abil üksikasjalikult kirjeldada.
+description: Selles artiklis selgitatakse, kuidas kulusid ümber kujundatud kulu tööruumi abil loetleda.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 34b11c6bd8be729957973a60fccccc2dd32c2669
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 71bfbe83259804fc0b0355c81d430805da23dd45
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574517"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920929"
 ---
 # <a name="expense-itemization"></a>Kulude üksikasjalik loetelu
 

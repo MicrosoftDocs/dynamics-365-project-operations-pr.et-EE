@@ -1,25 +1,25 @@
 ---
 title: Project Operationsi värskendamine Finance'i keskkonnas
-description: Selles teemas antakse teavet selle kohta, kuidas värskendada Project Operationsi Dynamics 365 Finance keskkonnas.
+description: Selles artiklis antakse teavet selle kohta, kuidas värskendada Project Operationsi Dynamics 365 Finance keskkonnas.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579924"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912465"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Project Operationsi värskendamine Finance'i keskkonnas
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
 
-See teema annab teavet selle kohta, kuidas värskendada Dynamics 365 Project Operations oma Dynamics 365 Finance keskkonnas. Project Operationsi uuendamiseks värskendusele 5 (UR5) on vaja kolme toimingut.
+Selles artiklis antakse teavet selle kohta, kuidas värskendada Dynamics 365 Project Operations oma Dynamics 365 Finance keskkonnas. Project Operationsi uuendamiseks värskendusele 5 (UR5) on vaja kolme toimingut.
 
 - [Paketi importimine eelvaate projekti](#import)
 - [Värskenduse rakendamine](#apply)

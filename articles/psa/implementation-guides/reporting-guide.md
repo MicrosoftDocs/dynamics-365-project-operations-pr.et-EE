@@ -1,6 +1,6 @@
 ---
 title: Aruandlusjuhend
-description: Selles teemas antakse teavet aruandluse kohta.
+description: Selles artiklis on lingid aruandluse kohta käivale teabele.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1039f38e0a3ced13d824e10d88cd502f546b96fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: acd9b885c17ae0ca05780242a4c8d3837f814f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577553"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919181"
 ---
 # <a name="reporting-guide"></a>Aruandlusjuhend
 
@@ -32,14 +32,14 @@ ms.locfileid: "8577553"
 
 Selle rakenduse aruandluse meetodid ja tehnoloogiad aitavad teil määratleda oma projektide seisundit ja tuvastada, millal teil on vaja kasutusele võtta parandusmeetmeid. 
 
-Selles teemas varem olnud PDF-i link on eemaldatud ja sisu on teisaldatud järgmistesse teemadesse.
+Selles artiklis varem olnud PDF-link on eemaldatud ja sisu on teisaldatud järgmistesse artiklitesse:
 
 - [Aruandluse avaleht](../reports-reporting-dynamics-365-project-service.md)
 - [Armatuurlauad](../reports-dashboards.md)
 - [Project Service Automation andmemudeliga töötamine](../reports-working-project-service-data-model.md)
 
 > [!NOTE]
-> See teema eemaldatakse tulevasest dokumentatsiooni värskendusest. 
+> See artikkel eemaldatakse tulevases dokumentatsioonivärskenduses. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

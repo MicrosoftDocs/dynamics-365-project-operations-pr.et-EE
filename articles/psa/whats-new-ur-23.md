@@ -1,6 +1,6 @@
 ---
 title: Mida on uut või muudetud rakenduse Project Service Automation värskenduse väljaandes 23, V3
-description: Selles teemas loetletakse Project Service Automationi värskenduse väljalaske 23, V3 saadaolevaid funktsioone ja parandusi.
+description: Selles artiklis loetletakse funktsioonid ja parandused, mis on saadaval project service automation update release 23, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 08/25/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: cc918f1516d4751b3f8e70a93d8fc66058201f22
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 968626c7b2097a9b85178cb000b3633a766f54c9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581601"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913024"
 ---
 # <a name="project-service-automation-update-release-23-v3"></a>Rakenduse Project Service Automation, värskenduse väljaanne 23, v3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8581601"
 
 Meil on hea meel teatada uusimast Dynamics 365 Project Service Automationi rakenduse värskendusest. See väljaanne sisaldab mõningaid olulisi kvaliteedi, jõudluse ja kasutatavuse täiustusi. See väljalase ühildub Dynamics 365 9. x-iga. Sellele väljaandele värskendamiseks külastage veebis Dynamics 365 administreerimiskeskuse lahenduste lehte värskenduse installimiseks. Lisateabe saamiseks vt jaotist [Eelistatud lahenduse installimine, värskendamine või eemaldamine](/power-platform/admin/install-remove-preferred-solution).
 
-Selles teemas loetletakse Project Service Automationi V3 värskenduse väljalaske 23 uusi või muudetud funktsioone ja parandusi. Selle versiooni järgunumber on V 3.10.34.30 ja see on augustis 2020 automaatvärskendusega kõigile saadaval.
+Selles artiklis loetletakse funktsioonid ja parandused, mis on project Service Automation V3, Update Release 23 jaoks uued või muudetud. Selle versiooni järgunumber on V 3.10.34.30 ja see on augustis 2020 automaatvärskendusega kõigile saadaval.
 
 ## <a name="update-release-23"></a>Värskenduste väljalase 23
 

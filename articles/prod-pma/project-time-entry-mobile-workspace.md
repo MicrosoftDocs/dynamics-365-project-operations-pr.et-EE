@@ -1,6 +1,6 @@
 ---
 title: Projekti ajasisestuse mobiilne tööruum
-description: Selles teemas kirjeldatakse, kuidas kasutada Projecti ajakirjete mobiilset tööruumi. See tööruum võimaldab kasutajatel oma mobiilsideseadme kaudu sisestada ja salvestada aega projekti jaoks.
+description: Selles artiklis antakse teavet projekti ajasisestuse mobiilse tööruumi kohta. See tööruum võimaldab kasutajatel oma mobiilsideseadme kaudu sisestada ja salvestada aega projekti jaoks.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 64a80d931332a4d6edfcd175d7168a7815ddca38
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: a163e32dae0231b5d71d1de2dbb473593b989164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683947"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919533"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Projekti ajasisestuse mobiilne tööruum
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas kasutada **Projecti ajakirjete** mobiilset tööruumi. See tööruum võimaldab kasutajatel oma mobiilsideseadme kaudu sisestada ja salvestada aega projekti jaoks.
+Selles artiklis antakse teavet projekti ajasisestuse **mobiilse tööruumi kohta**. See tööruum võimaldab kasutajatel oma mobiilsideseadme kaudu sisestada ja salvestada aega projekti jaoks.
 
 See mobiilne tööruum on mõeldud kasutamiseks mobiilirakendusega Dynamics 365 Unified Ops. 
 

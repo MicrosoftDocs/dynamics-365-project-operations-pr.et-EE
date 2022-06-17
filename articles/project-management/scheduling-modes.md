@@ -1,17 +1,17 @@
 ---
 title: Plaanimisrežiimid
-description: Selles teemas antakse teavet arvete plaanimisrežiimide kohta.
+description: Selles artiklis antakse teavet plaanimisrežiimide kohta.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: cb507528c4815f5149c813bba0a354f7d840a4a5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3cbe14f8d458c5d9631e0595912afa8cbb87b9de
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588409"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923643"
 ---
 # <a name="scheduling-modes"></a>Plaanimisrežiimid
 
@@ -38,7 +38,7 @@ Projekti plaanimisrežiimi määratlemisel määrate ühe nendest väärtustest,
 | Fikseeritud jõupingutusega ülesanne    | Kestus arvutatakse ümber. | Ühikud arvutatakse ümber.    | Kestus arvutatakse ümber. |
 | Fikseeritud kestusega ülesanne  | Jõupingutus arvutatakse ümber.   | Jõupingutus arvutatakse ümber.    | Ühikud arvutatakse ümber.   |
 
-Lisateavet antud režiimi konfliktide kohta leiate teemast [Täpsema ajastamise jaoks ülesandetüübi muutmine](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). Teemas kasutatakse terminit **Töö** termini **Jõupingutus** asemel.
+Lisateavet antud režiimi konfliktide kohta leiate teemast [Täpsema ajastamise jaoks ülesandetüübi muutmine](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). Artiklis kasutatakse pingutuse **asemel terminit** Töö **·**.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>Ettevõtte plaanimisrežiimi muutmine
 

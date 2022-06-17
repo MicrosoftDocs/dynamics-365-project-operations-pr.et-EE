@@ -1,17 +1,17 @@
 ---
 title: Mis on uut novembris 2020 – Project Operations ladustamise-/tootmispõhiste stsenaariumite jaoks
-description: See teema sisaldab teavet ladustatud-tootmispõhiste stsenaariumite jaoks mõeldud rakenduse Project Operations 2020. aasta novembri väljalaskes saadaolevate kvaliteedi värskenduste kohta.
+description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval 2020. aasta novembris avaldatud project Operationsi väljaandes ladustatud tootmispõhiste stsenaariumide jaoks.
 author: sigitac
 ms.date: 10/15/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 24796eb70f5da6fa181ef7e88ec5d4d4fddbb436
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 67f71aa045dc3c9dd513462709db79436c971b7b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576587"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911224"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Mis on uut novembris 2020 – Project Operations ladustamise-/tootmispõhiste stsenaariumite jaoks
 

@@ -1,17 +1,17 @@
 ---
 title: Projekti hinnapakkumise kokkuvõtlik teave – liht
-description: Selles teemas kirjeldatakse teavet ja sätteid, mis rakenduvad projekti hinnapakkumistele ja neiud mõjutavad. (Sales)
+description: Selles artiklis antakse teavet teabe ja sätete kohta, mis rakenduvad projektipakkumistele ja mõjutavad neid. (Sales)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 267978da59ba1c916272ec0c9ff9044ed0d81f50
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3441348cb46804f8f76cb23b3f916fe69c3fbe99
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574885"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917019"
 ---
 # <a name="header-details-for-project-quotes"></a>Projekti hinnapakkumiste päise üksikasjad
 

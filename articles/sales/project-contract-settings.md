@@ -1,23 +1,23 @@
 ---
 title: Projekti lepingu sätted
-description: Selles teemas kirjeldatakse välju, mis mõjutavad lepinguridu ja antakse lepingu kohta teavet, mis summeritakse kõigist reaüksustest.
+description: Selles artiklis antakse teavet lepinguridu mõjutavate väljade ja lepingu kohta käiva teabe kohta, mis on kokku võetud kõigis reaüksustes.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 461e6026730e4895b4d660db0f50b621432fd01a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1c3317eb36a98e14074fb504cfac5ff6e25fa3a0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580943"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921573"
 ---
 # <a name="header-details-for-project-based-contracts"></a>Projektipõhiste lepingute päise üksikasjad
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Selles teemas kirjeldatakse välju, mis rakenduvad kogu projekti lepingule, sh kõiki lepinguridu mõjutavaid sätteid. Kaasatakse ka teave lepingu kohta, mis on võetud kokku kõigist reaüksustest, et juhtida projekti lepingu KPI-sid.
+Selles artiklis antakse teavet väljade kohta, mis rakenduvad kogu projektilepingule, sh sätteid, mis mõjutavad kõiki lepinguridu. Kaasatakse ka teave lepingu kohta, mis on võetud kokku kõigist reaüksustest, et juhtida projekti lepingu KPI-sid.
 
 Järgmises tabelis on esitatud projektilepingu väljad, mis on rakendusele Dynamics 365 Project Operations kordumatud või mille käitumises on tehtud võrreldes rakendusega Dynamics 365 Sales olulisi muudatusi.
 

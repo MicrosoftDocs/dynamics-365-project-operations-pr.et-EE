@@ -1,6 +1,6 @@
 ---
 title: Aruandluse avaleht
-description: Selles teemas antakse teavet aruandluse kohta rakenduses Dynamics 365 Project Service Automation.
+description: Selles artiklis antakse teavet rakenduses aruandluse kohta Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da9458741563aa918bc09259e35ba9002ff0ba13
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cf55495cc435d929bd305c9fea270aeb2d62a3da
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595953"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921665"
 ---
 # <a name="reporting-home-page"></a>Aruandluse avaleht
 
@@ -47,7 +47,7 @@ Kui teie ettevõte vajab kindlat aruannet, mida ei saa aruandeviisardiga luua, s
 
 
 ## <a name="additional-resources"></a>Lisaressursid
-Lisateavet aruandluse kohta rakenduses PSA leiate järgmistest teemadest.
+Lisateavet PSA-s aruandluse kohta leiate järgmistest artiklitest.
 
 - [Project Service’i andmemudeliga töötamine](reports-working-project-service-data-model.md)
 - [Armatuurlauad](reports-dashboards.md)

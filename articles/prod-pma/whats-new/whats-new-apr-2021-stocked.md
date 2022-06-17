@@ -1,24 +1,24 @@
 ---
 title: Mis on rakenduses Project Operations logimata/tootmispõhiste stsenaariumite puhul uut või muudetud 2021. a aprillis?
-description: Selles teemas antakse teavet kvaliteediuuenduste kohta, mis on saadaval rakenduses Project Operations 2021. aasta aprilli väljaandes logimata/tootmispõhiste stsenaariumide jaoks.
+description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval Project Operationsi 2021. aasta aprilli väljaandes ladustatud/tootmispõhiste stsenaariumide jaoks.
 author: andchoi
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 42b4da3a77d56891454d094cd771575ff9bff081
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 726e940d2cb5dff11c682c27dc936322856b6440
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589605"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916467"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>Mis on rakenduses Project Operations logimata/tootmispõhiste stsenaariumite puhul uut või muudetud 2021. a aprillis?
 
 _**Kehtib järgmiste puhul:** Project Operations ladustamise-/tootmispõhiste stsenaariumide jaoks_
 
-See teema kehtib rakenduse Dynamics 365 Project Operations järgmistele komponentide ja versioonide kohta.
+See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja versioonide kohta.
 
 - Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnaversioonis 10.0.18
  

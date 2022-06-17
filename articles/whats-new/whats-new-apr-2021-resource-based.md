@@ -1,24 +1,24 @@
 ---
 title: Mis on uut aprillis 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
-description: See teema annab teavet Project Operationsi ressursipõhiste/mittelaopõhiste stsenaariumite jaoks 2021. a aprilli väljalaskes saadaolevate kvaliteedivärskenduste kohta.
+description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval project Operationsi 2021. aasta aprilli väljaandes ressursi-/ladustamata stsenaariumide jaoks.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 07622ed798fd8d70e0ce5cc42297bd5056402474
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a060bdc4e4c9f37ec666b1cf4d078986ad1571db
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589099"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912419"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Mis on uut aprillis 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-See teema kehtib rakenduse Dynamics 365 Project Operations järgmistele komponentide ja versioonide kohta.
+See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja versioonide kohta.
 
 - Project Operations Dataverse’i keskkonna versioonis 4.9.0.221
 - Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnaversioonis 10.0.17

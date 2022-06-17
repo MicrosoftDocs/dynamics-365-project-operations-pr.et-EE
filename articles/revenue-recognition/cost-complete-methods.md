@@ -1,23 +1,23 @@
 ---
 title: Meetodite lõpetamise kulu
-description: Selles teemas kirjeldatakse projekti lõpetamise kulu arvutamiseks kasutatud meetodeid.
+description: Selles artiklis antakse teavet meetodite kohta, mida kasutatakse projekti lõpuleviimiseks kulu arvutamiseks.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 244afa919e5fbc16be8f905acce2e2354c7da974
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 39c10673afd04ad7d4a94a01211c2f9d335a02c2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601657"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920285"
 ---
 # <a name="cost-to-complete-methods"></a>Meetodite lõpetamise kulu
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Selles teemas kirjeldatakse projekti lõpetamise kulu arvutamiseks kasutatud meetodeid. Projekti lõpetamise kulu arvutamiseks saate kasutada mitut viisi. 
+Selles artiklis antakse teavet meetodite kohta, mida kasutatakse projekti lõpuleviimiseks kulu arvutamiseks. Projekti lõpetamise kulu arvutamiseks saate kasutada mitut viisi. 
 
 Kui loote projekti jaoks prognoosi lehe **Loo prognoos** väljal **Meetodi lõpetamise kulu**, saate valida ühe järgmistest kuludest, et meetodid lõpetada.
 

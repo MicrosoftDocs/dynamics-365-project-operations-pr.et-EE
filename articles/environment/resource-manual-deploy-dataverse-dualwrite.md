@@ -1,25 +1,25 @@
 ---
 title: Rakenduse Project Operations Dataverse käsitsi juurutamine koos topeltkirjutuse toega
-description: Selles teemas selgitatakse, kuidas rakendust Project Operations Dataverse käsitsi juurutada, et see toetaks topeltkirjutamist.
+description: Selles artiklis selgitatakse, kuidas rakendus Project Operations Dataverse käsitsi juurutada, et see toetaks topeltkirjutamist.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591215"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912005"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Rakenduse Project Operations Dataverse käsitsi juurutamine koos topeltkirjutuse toega
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Selles teemas selgitatakse, kuidas juurutada käsitsi rakendust Microsoft Dynamics 365 Project Operations teenuses Microsoft Dataverse, et see toetaks topeltkirjutamist. Project Operations tuvastab keskkonna konfiguratsiooni ja lisab eeltingimuste täitumisel topeltkirjutamise lisatoe.
+Selles artiklis selgitatakse, kuidas Microsoft Dynamics 365 Project Operations Microsoft Dataverse käsitsi juurutada, et see toetaks topeltkirjutamist. Project Operations tuvastab keskkonna konfiguratsiooni ja lisab eeltingimuste täitumisel topeltkirjutamise lisatoe.
 
-Kui olete teenuse Microsoft Dynamics Lifecycle Services (LCS) kaudu juurutamise ajal järginud selles teemas toodud juhiseid, saate Microsoft Power Platformi integratsiooni juurutamise (varem tuntud kui Common Data Service keskkond) vahele jätta.
+Kui olete selles artiklis juhiseid järginud, saate elutsükli teenuste (LCS) kaudu Microsoft Dynamics juurutamise (varem tuntud kui Microsoft Power Platform keskkond) juurutamise Common Data Service vahele jätta.
 
 Project Operationsi teenuses Dataverse juurutamise protsess, et see toetaks topeltkirjutust, omab nelja peamist etappi.
 

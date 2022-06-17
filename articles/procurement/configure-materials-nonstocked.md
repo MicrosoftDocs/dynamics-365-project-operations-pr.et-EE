@@ -1,18 +1,18 @@
 ---
 title: Logimata materjalide ja ootel hankija arvete konfigureerimine
-description: Selles teemas selgitatakse, kuidas lubada logimata materjale ja ootel olevaid hankija arveid.
+description: Selles artiklis selgitatakse, kuidas lubada ladustamata materjale ja ootel hankija arveid.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1b14ab17a317e7082bc9c24709590745a5c48ea8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6473ef3510f0d3641a2d61b6a1b1f28980993277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592963"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913753"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Logimata materjalide ja ootel hankija arvete konfigureerimine
 
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Käitage topeltkirjutuse kaarte logimata materjalide ja hankija arve integreerimiseks
 
-Selles jaotises antakse teavet logimata materjalide ja tarnija arvete jaoks vajalike kaartide kohta. Veenduge, et teie keskkonnas töötaks jaotises [Uue keskkonna ettevalmistamine](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) loetletud eeltingimuste kaardid.
+Selles jaotises antakse teavet logimata materjalide ja tarnija arvete jaoks vajalike kaartide kohta. Veenduge, et uues [keskkonnas](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) artiklis Säte loetletud eeltingimuskaardid töötaksid teie keskkonnas.
 
 1. Minge jaotisse Lifecycle Services (LCS), liikuge oma LCS-i projekti ja minge lehele **Keskkonna üksikasjad**.
 2. Valige jaotises **Common Data Service’i keskkonnateave** suvand **Link CDS-iga rakendustele**. Pärast lingi valimist suunatakse teid vastenduste olemite loendisse.

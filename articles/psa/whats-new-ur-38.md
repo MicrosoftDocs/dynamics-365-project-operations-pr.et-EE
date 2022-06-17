@@ -1,6 +1,6 @@
 ---
 title: Mida on uut või muudetud rakenduse Project Service Automation värskenduse väljaandes 38, V3
-description: Selles teemas loetletakse funktsioonid ja parandused, mis on saadaval rakenduse Microsoft Dynamics 365 Project Service Automation värskenduse väljaandes 38, V3.
+description: Selles artiklis loetletakse funktsioonid ja parandused, mis on saadaval versioonis Microsoft Dynamics 365 Project Service Automation Update Release 38, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 12/06/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 16994535d57dc1d7fefbe6e892c154f52638c7c0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ccc08cd0bc365bd4761424a4c0ceac91985e7c89
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598713"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915180"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-38-v3"></a>Mida on uut või muudetud rakenduse Project Service Automation värskenduse väljaandes 38, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8598713"
 
 Meil on hea meel teatada rakenduse Microsoft Dynamics 365 Project Service Automation uusimast värskendusest. See väljaanne sisaldab mõningaid olulisi kvaliteedi, jõudluse ja kasutatavuse täiustusi. See ühildub rakendusega Dynamics 365 9.x. Sellele väljaandele värskendamiseks külastage Dynamics 365 veebilahenduste halduskeskust ja installige värskendus. Lisateabe saamiseks vt jaotist [Eelistatud lahenduse installimine, värskendamine või eemaldamine](/power-platform/admin/install-remove-preferred-solution).
 
-Selles teemas loetletakse funktsioonid ja parandused, mis on project service automation update release 38, V3 jaoks uued või muudetud. Selle versiooni järgu number on V3.10.59.117 ja see on kõigile kättesaadav 2021. a detsembris ise värskendamise kaudu.
+Selles artiklis loetletakse funktsioonid ja parandused, mis on project service automation update release 38, V3 jaoks uued või muudetud. Selle versiooni järgu number on V3.10.59.117 ja see on kõigile kättesaadav 2021. a detsembris ise värskendamise kaudu.
 
 ## <a name="update-release-38"></a>Värskenduste väljalase 38
 

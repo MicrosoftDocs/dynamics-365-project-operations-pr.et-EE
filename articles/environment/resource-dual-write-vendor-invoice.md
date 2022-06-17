@@ -1,18 +1,18 @@
 ---
 title: Tarnija arve integreerimine
-description: See teema sisaldab teavet Project Operationsi hankija arvete integreerimise kohta.
+description: Selles artiklis antakse teavet hankija arve integreerimise kohta Project Operationsis.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d1e41638b6fe827e9e577860a78a84a9948053e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591170"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912051"
 ---
 # <a name="vendor-invoice-integration"></a>Tarnija arve integreerimine
 
@@ -21,7 +21,7 @@ _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 Projektiga seotud hankeid rakenduses Dynamics 365 Project Operations saab salvestada, kui lähete jaotisse **Ostureskontro** > **Arved** > **Ootel hankijate arved** ja kasutate ootel hankija arvedokumenti. Lisateavet leiate teemast [Logimata materjalide ostmine ootel oleva hankija arvega](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Enne selles teemas kirjeldatud funktsioonide kasutamist vaadake üle ja rakendage nõutavad konfiguratsioonid. Lisateavet leiate teemast [Logimata materjalide ja ootel hankijate arvete lubamine](../procurement/configure-materials-nonstocked.md).
+> Enne käesolevas artiklis kirjeldatud funktsioonide kasutamist vaadake üle ja rakendage vajalikud konfiguratsioonid. Lisateavet leiate teemast [Logimata materjalide ja ootel hankijate arvete lubamine](../procurement/configure-materials-nonstocked.md).
 
 Project Operationsis sisestatakse projektiga seotud hankija arved spetsiaalsete sisestusreeglite abil.
 

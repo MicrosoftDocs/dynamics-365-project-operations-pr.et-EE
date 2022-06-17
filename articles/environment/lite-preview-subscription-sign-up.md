@@ -1,21 +1,21 @@
 ---
 title: Eelversiooni kordustellimuseks registreerumine – liht
-description: See teema pakub teavet selle kohta, kuidas tellida ja juurutada Project Operations Lite’i juurutust – tehing näidisarveldusele.
+description: See artikkel annab teavet selle kohta, kuidas tellida ja juurutada Project Operations lite juurutust - tegeleda proforma arveldusega.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587995"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921251"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Eelversiooni kordustellimuseks registreerumine – liht 
 
-Selles teemas selgitatakse, kuidas tellida proovipakkumist ja juurutada Dynamics 365 Project Operationsi lihtjuurutust  – tehing näidisarveldusele.
+Selles artiklis selgitatakse, kuidas tellida proovipakkumine ja juurutada Dynamics 365 Project Operations lite juurutamine - tegeleda proforma arvete esitamisega.
 
 > [!NOTE]
 > See toiming muutub Project Operationsi eelseisvates väljaannetes.
@@ -50,7 +50,7 @@ Enne alustamist veenduge, et oleksite brauseris sisse logitud kasutaja töökont
 
 ## <a name="create-a-new-dataverse-environment"></a>Loo uus Dataverse keskkond
 
-1. Valmistage ette uus Project Operationsi Dataverse’i juurutuse keskkond, järgides juhiseid teemas [Dataverse’i juurutuse mudel](lite-deployment.md). Keskkonnatüübi valimisel kasutage kindlasti valikut **Prooviversioon (tellimusepõhine)**.
+1. Uue Project Operationsi Dataverse juurutuskeskkonna pakkumine, järgides artiklis toodud juhiseid juurutusmudel [Dataverse](lite-deployment.md). Keskkonnatüübi valimisel kasutage kindlasti valikut **Prooviversioon (tellimusepõhine)**.
 
   ![Uus keskkond.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ Enne alustamist veenduge, et oleksite brauseris sisse logitud kasutaja töökont
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>CDS-i konfiguratsiooni ja seadistuse demoandmete installimine
 
-Installige CDS-i konfiguratsioon ja seadistage demoandmed, järgides juhiseid teemas [Demoseadistamise ja konfiguratsiooniandmete rakendamine](lite-apply-demo-setup-config-data.md).
+Installige CDS-konfiguratsioon ja seadistage demoandmed, järgides artiklis olevaid juhiseid, [Rakenda demo häälestust ja konfiguratsiooniandmeid](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

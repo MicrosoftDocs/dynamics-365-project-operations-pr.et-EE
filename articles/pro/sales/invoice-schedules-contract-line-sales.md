@@ -1,17 +1,17 @@
 ---
 title: Arve ajakavade loomine projekipõhisel lepingureal – liht
-description: See teema annab teavet arve ajakavade ja vahe-eesmärkide loomise kohta.
+description: Selles artiklis antakse teavet arvegraafikute ja vahe-eesmärkide loomise kohta.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: edacae144f5c4879d3cfdf9585281858d7312589
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 403b993c3f61ca5f0fb1bac45331aa0613d16439
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581969"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921113"
 ---
 # <a name="create-invoice-schedules-on-a-project-based-contract-line---lite"></a>Arve ajakavade loomine projekipõhisel lepingureal – liht
 

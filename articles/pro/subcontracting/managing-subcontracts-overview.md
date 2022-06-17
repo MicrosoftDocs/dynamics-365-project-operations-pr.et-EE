@@ -1,17 +1,17 @@
 ---
 title: Allhankelepingute haldus rakenduses Project Operations
-description: Selles teemas antakse terviklik ülevaade allhankelepingute haldusprotsessi kohta tüüpiliselt projektipõhistes organisatsioonides.
+description: Selles artiklis antakse ülevaade alltöövõtu haldamise protsessist tavaliselt projektipõhistes organisatsioonides.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f5e025b5f741935494349fb1bdfd3a19bacb5e1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593009"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911499"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Allhankelepingute haldus rakenduses Project Operations
 
@@ -19,7 +19,7 @@ ms.locfileid: "8593009"
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
-Selles teemas antakse terviklik ülevaade allhankelepingute haldusprotsessi kohta projektipõhistes organisatsioonides. Teenuste allhange järgib tavaliselt järgmisel diagrammil esitatud äriprotsessi voogu.
+Selles artiklis antakse ülevaade projektipõhiste organisatsioonide alltöövõtu haldamise protsessist. Teenuste allhange järgib tavaliselt järgmisel diagrammil esitatud äriprotsessi voogu.
 
 ![Allhankelepingute sõlmimisprotsessi voog](../media/SubcontractingProcessFlow.png)
 

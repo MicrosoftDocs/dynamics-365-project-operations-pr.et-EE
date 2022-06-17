@@ -1,6 +1,6 @@
 ---
 title: Kasutage broneeritavat ressurssi hinnakujunduse dimensioonina
-description: Selles teemas antakse teavet broneeritava ressursi kasutamise kohta hinnakujunduse dimensioonina.
+description: Selles artiklis antakse teavet broneeritava ressursi kasutamise kohta hinnakujundusdimensioonina.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7b07ac8659c9eccf3db41775acf5ca2043016a59
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: becb64bb137079422a765dd7cd61369297e1ffb1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576403"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916099"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Kasutage broneeritavat ressurssi hinnakujunduse dimensioonina
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Selles teemas antakse teavet broneeritava ressursi kasutamise kohta hinnakujunduse dimensioonina. Enne alustamist peate looma uue hinnakujunduse dimensiooni lahenduse, kui te seda juba teinud ei ole. Kui teil on hinnakujunduse dimensiooni lahendus juba olemas, saate selles lahenduses muudatusi teha. Kui te pole oma organisatsiooni jaoks uut hinnakujunduse dimensiooni lahendust loonud, viige lõpuni teema [Kohandatud väljade ja olemite loomine](create-custom-fields-entities.md) protseduurid.
+Selles artiklis antakse teavet broneeritava ressursi kasutamise kohta hinnakujundusdimensioonina. Enne alustamist peate looma uue hinnakujunduse dimensiooni lahenduse, kui te seda juba teinud ei ole. Kui teil on hinnakujunduse dimensiooni lahendus juba olemas, saate selles lahenduses muudatusi teha. Kui te pole oma organisatsiooni jaoks uut hinnakujundusdimensioonilahendust loonud, täitke toimingud [artiklis Kohandatud väljade ja olemite](create-custom-fields-entities.md) loomine.
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Lisage vormidele ja vaadetele broneeritav ressurss
 Selleks, et muuta väljad hinna dimensiooni lahenduses kasutajaliideses nähtavaks, tuleb teil läbida kõik Project Service’i põhiolemite vormid ja vaated ning lisada need väljad nende olemite vormidele ja vaadetele.

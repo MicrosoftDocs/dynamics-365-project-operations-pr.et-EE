@@ -1,17 +1,17 @@
 ---
 title: Allhankelepingu rea ressursid
-description: Selles teemas kirjeldatakse, kuidas määrata sihtotstarbelised ressursid, mille hankija on konkreetse allhankelepingu aja rea jaoks andnud.
+description: Selles artiklis selgitatakse, kuidas määrata spetsiaalseid ressursse, mida hankija pakub konkreetse allhankerea jaoks.
 author: rumant
 ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 96bce2d6797c124331ce0174b16804ff8dfec993
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 84fbbd6e1a82db2b2d998b5f41579396df884ec3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576081"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924149"
 ---
 # <a name="subcontract-line-resources"></a>Allhankelepingu rea ressursid
 

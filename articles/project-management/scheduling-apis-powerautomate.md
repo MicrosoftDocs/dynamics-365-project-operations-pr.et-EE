@@ -1,25 +1,25 @@
 ---
-title: Projekti ajakava API-de kasutamine koos Power Automate
-description: See teema pakub näidisvoogu, mis kasutab Projecti ajakava rakenduste programmeerimisliidesi (API-sid).
+title: Projekti ajakava API-de kasutamine tarkvaraga Power Automate
+description: See artikkel pakub näidisvoogu, mis kasutab Projecti ajakava rakenduste programmeerimisliideseid (API-sid).
 author: ruhercul
 ms.date: 01/26/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9708226b0955cfa6c405b9616c14765f9ebc21f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2527375ff3f3d631f3bb3de1458abb3b8838db54
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597701"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916329"
 ---
-# <a name="use-project-schedule-apis-with-power-automate"></a>Projekti ajakava API-de kasutamine koos Power Automate
+# <a name="use-project-schedule-apis-with-power-automate"></a>Projekti ajakava API-de kasutamine tarkvaraga Power Automate
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Selles teemas kirjeldatakse näidisvoogu, mis näitab, kuidas luua täielik projektiplaan toimingukomplekti loomise ja olemi värskendamise abil Microsoft Power Automate. Näites kirjeldatakse, kuidas luua projekt, projektimeeskonna liige, operatsioonikomplektid, projektiülesanded ja ressursimäärangud. Selles teemas selgitatakse ka olemi värskendamist ja toimingukomplekti käivitamist.
+Selles artiklis kirjeldatakse näidisvoogu, mis näitab, kuidas luua täielik projektiplaan toimingukomplekti loomise ja olemi värskendamise abil Microsoft Power Automate. Näites kirjeldatakse, kuidas luua projekt, projektimeeskonna liige, operatsioonikomplektid, projektiülesanded ja ressursimäärangud. Selles artiklis selgitatakse ka olemi värskendamist ja toimingukomplekti käivitamist.
 
-Järgnevalt on toodud täielik loend toimingutest, mis on dokumenteeritud selle teema näidisvoos.
+Järgnevalt on toodud täielik loend sammudest, mis on dokumenteeritud selles artiklis näidisvoos.
 
 1. [Päästiku loomine PowerApps](#1)
 2. [Projekti loomine](#2)
@@ -40,7 +40,7 @@ Järgnevalt on toodud täielik loend toimingutest, mis on dokumenteeritud selle 
 
 ## <a name="assumptions"></a>Eeldused
 
-See teema eeldab, et teil on põhiteadmised Dataverse platvormist, pilvevoogudest ja projekti ajakava rakenduse programmeerimisliidest (API). Lisateavet leiate selle teema hilisemast jaotisest [Viited](#references).
+Selles artiklis eeldatakse, et teil on põhiteadmised platvormist, pilvevoogudest Dataverse ja projekti ajakava rakenduse programmeerimisliidesest (API). Lisateavet leiate selle artikli jaotisest [Viited](#references).
 
 ## <a name="create-a-flow"></a>Voo loomine
 
@@ -65,7 +65,7 @@ Lahenduseteadliku voo loomiseks [järgige neid juhiseid](/power-automate/overvie
 1. **Valige lehel Lahendused** loodud lahendus ja seejärel valige **Uus**.
 2. Valige vasakpoolsel paanil **Pilvevoogude** \> **automatiseerimise** \> **pilvevoog** \> **Kohene.**
 3. Sisestage väljale **Voo nimi** väärtus Aja API demovoog **.**
-4. **Valige loendis Vali, kuidas seda voo** käivitada, suvand **Power Apps**. Päästiku loomisel Power Apps sõltub loogika sinust kui autorist. Selles teemas jätke sisendparameetrid testimiseks tühjaks.
+4. **Valige loendis Vali, kuidas seda voo** käivitada, suvand **Power Apps**. Päästiku loomisel Power Apps sõltub loogika sinust kui autorist. Selles artiklis jätke sisendparameetrid testimiseks tühjaks.
 5. Valige käsk **Loo**.
 
 ## <a name="step-2-create-a-project"></a><a id="2"></a>2. etapp: looge projekt

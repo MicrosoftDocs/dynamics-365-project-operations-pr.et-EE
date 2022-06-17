@@ -1,24 +1,24 @@
 ---
 title: Mis on uut detsember 2021 - Project Operations lite juurutus
-description: Selles teemas antakse teavet kvaliteedivärskenduste kohta, mis on saadaval Project Operations lite juurutuse 2021. aasta detsembri väljaandes.
+description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval Project Operations lite juurutuse 2021. aasta detsembri väljaandes.
 author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b1ff0a14bf6cb445913bcba11f83234826014857
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 301acc5be76fb0318d6298820b62ae5bb05efac3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585373"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914075"
 ---
 # <a name="whats-new-december-2021---project-operations-lite-deployment"></a>Mis on uut detsember 2021 - Project Operations lite juurutus
 
 _Kohaldub: lihtjuurutus - tehing proforma arveldusega_
 
-See teema kehtib järgmiste Microsofti Dynamics 365 Project Operations komponentide ja versioonide kohta.
+See artikkel kehtib järgmiste Microsofti Dynamics 365 Project Operations komponentide ja versioonide kohta.
 
 - Projektitoimingud keskkonnaversioonis Dataverse 4.27.0.195, 4.27.0.242, 4.27.0.244
 
