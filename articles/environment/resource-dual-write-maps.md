@@ -1,17 +1,17 @@
 ---
 title: Rakenduse Project Operations topeltkirjutamise vastenduse versioonid
-description: Selles artiklis on loetletud kahe kirjutamise kaardid, mis on vajalikud rakenduse jaoks Dynamics 365 Project Operations.
+description: Selles artiklis on toodud loend kahekordse kirjutamisega kaartidest, mis on vajalikud Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 04/22/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
+ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959624"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112424"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Rakenduse Project Operations topeltkirjutamise vastenduse versioonid
 
@@ -25,12 +25,12 @@ Järgmised kaardid on Project Operationsi lahenduse jaoks nõutavad eeltingimuse
 
 | Tabelivastendus | Algne sünkroonimine |
 | --- | --- |
-| Pearaamat (msdyn_ledgers) | Nõuab tabelikaardi ja kõigi eeltingimuste algset sünkroonimist. Esmase sünkroonimise põhijuhend on finance and Operationsi rakendused. |
+| Pearaamat (msdyn_ledgers) | Nõuab tabelikaardi ja kõigi eeltingimuste algset sünkroonimist. Master esialgseks sünkroonimiseks on finance and operationsi rakendused. |
 | Juriidilised isikud (cdm_companies) | Pole nõutav. Süsteem asustab selle olemi automaatselt, kui keskkonnad on seotud topeltkirjutusega. |
 | Kliendid V3 (kontod) | Pole vajalik ettevalmistuse jaoks. |
 | Tarnijad V2 (msdyn_vendors) | Pole vajalik ettevalmistuse jaoks. |
 
-1. Valige kaartide loendist kõigi eeltingimustega kaart Pearaamat **(msdyn\_ledgers)** ja valige märkeruut **Algne sünkroonimine**. Valige väljal **Koond** esmase **sünkroonimise jaoks nii pearaamatukaardi kui ka kõigi eeltingimuskaartide jaoks finance and Operationsi rakendused**. Valige **Käivita**.
+1. Valige kaartide loendist kõigi eeltingimustega kaart Pearaamat **(msdyn\_ledgers)** ja valige märkeruut **Algne sünkroonimine**. Tehke väljal **Master for initial sync** valik **Finance and operationsi rakendused** nii pearaamatukaardi kui ka kõigi eeltingimuste kaartide jaoks. Valige **Käivita**.
 
 ![Pearaamatu vastenduse sünkroonimine.](media/DW6.png)
 
@@ -46,7 +46,7 @@ Järgmised kaardid on Project Operationsi lahenduse jaoks nõutavad eeltingimuse
 | Projekti lepingupäised (müügitellimused) | 1.0.0.1 | Pole vajalik ettevalmistuse jaoks. ||
 | Projekti lepinguread (salesorderdetails) | 1.0.0.0 | Pole vajalik ettevalmistuse jaoks. ||
 | Projekti rahastamisallikas (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Pole vajalik ettevalmistuse jaoks. ||
-| Project Operationsi integreerimistabel materjaliprognooside jaoks (msdyn\_estimatelines) | 1.0.0.0 | Pole vajalik ettevalmistuse jaoks. ||
+| Projekti integratsioonitabel materjaliprognooside jaoks (msdyn\_ estimate lines) | 1.0.0.0 | Pole vajalik ettevalmistuse jaoks. ||
 | Projekti arve ettepanekud V2 (arved) | 1.0.0.3 | Pole vajalik ettevalmistuse jaoks. ||
 | Project Operationsi integreerimise tegelikud näitajad (msdyn_actuals) | 1.0.0.14 | Pole vajalik ettevalmistuse jaoks. ||
 | Project Operationsi integratsiooni lepingurea vahekokkuvõtted (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Pole vajalik ettevalmistuse jaoks. ||

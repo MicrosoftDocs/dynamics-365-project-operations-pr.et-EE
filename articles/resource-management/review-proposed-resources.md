@@ -1,6 +1,6 @@
 ---
 title: Soovitatavate ressursside ülevaade
-description: See artikkel annab teavet selle kohta, kuidas projekti ressursse pakkuda.
+description: Selles artiklis antakse teavet selle kohta, kuidas projektiressursse välja pakkuda.
 author: ruhercul
 ms.date: 08/18/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f20dda2b7b384608b8f4b548c18ac21d07fee07
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2a5b5159ceb8aa5b29dffad59517bc11fbf16871
+ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924839"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183969"
 ---
 # <a name="review-proposed-resources"></a>Soovitatavate ressursside ülevaade
 
@@ -40,8 +40,8 @@ Soovitatud ressursside ülevaatamiseks toimige järgmiselt.
     Ilmnevad järgmised olekuvärskendused.
 
     - Lehel **Ajakava abimees** värskendatakse olekuindikaatoreid näitamaks, et broneering on soovituslik, mitte fikseeritult broneeritud.
-    - Ressursitaotluses muudetakse olekuks **Vajab ülevaatamist**.
-    - Projekti vahekaardil **Meeskond** muudetakse üldiste meeskonnaliikmete väärtus **Taotluse olek** väärtusele **Vajab ülevaatamist**.
+    - Ressursitaotlusel peaks taotluse läbivaataja muutma olekuks **Vajaduste läbivaatus**.
+    - **Projekti vahekaardil Meeskond** muudetakse üldise meeskonnaliikme **taotluse oleku** väärtus automaatselt väärtuseks **Vajaduste läbivaatus**.
 
 Projektijuht saab ettepaneku kas vastu võtta või tagasi lükata.
 

@@ -1,24 +1,24 @@
 ---
 title: Demoandmete rakendamine rakenduse Finance pilvepõhises keskkonnas
-description: Selles artiklis selgitatakse, kuidas rakendada demoandmeid Project Operationsist Dynamics 365 Finance pilvepõhisesse keskkonda.
+description: Selles artiklis selgitatakse, kuidas rakendada demoandmeid Project Operationsist Dynamics 365 Finance pilve hostitud keskkonda.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce53c171929f0610c53025becaebea46d902c90
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 793b1a01f3bf692bb9f4c2d9abad9a44b110544a
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924655"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029892"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Demoandmete rakendamine rakenduse Finance pilvepõhises keskkonnas
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
 > [!IMPORTANT]
-> See artikkel on rakendatav ainult Microsoft Dynamics 365 Finance versioonile 10.0.13 ja seda saab esitada ainult pilvepõhises keskkonnas. Täitke selles artiklis **toodud juhised ENNE** kvaliteedivärskenduste rakendamist keskkonnale.
+> See artikkel kehtib ainult Microsoft Dynamics 365 Finance'i versiooni 10.0.13 kohta ja seda saab teha ainult pilve hostitud keskkonnas. Täitke selles artiklis **toodud juhised ENNE** keskkonnale kvaliteedivärskenduste rakendamist.
 
 1. Avage oma LCS-i projektis leht **Keskkonna üksikasjad**. Pange tähele, et see sisaldab Remote Desktop Protocoli (RDP) abil keskkonnaga ühenduse loomiseks vajalikke üksikasju.
 
@@ -76,7 +76,7 @@ Selle lõpuleviimiseks kulub mõni minut. Peaksite saama kinnituse, et administr
 
 18. Sulgege kaugtöölaua seanss ja kasutage LCS-i lehte **Keskkonna üksikasjad**, et logida keskkonda sisse ja kontrollida, et see töötab ootuspäraselt.
 
-![Rahandus ja tegevus.](./media/10FinanceAndOperations.png)
+![Rahandus ja toimingud.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

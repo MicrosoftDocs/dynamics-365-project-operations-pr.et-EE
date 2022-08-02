@@ -1,18 +1,18 @@
 ---
 title: Mis on Project Operationsis ressursi-/tootmispõhiste stsenaariumite jaoks 2021. a juulis uut või muutunud
-description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval 2021. aasta juulis project Operationsi väljaandes ladustatud/tootmispõhiste stsenaariumide jaoks.
+description: Sellest artiklist leiate teavet kvaliteedivärskenduste kohta, mis on saadaval 2021. aasta juuli väljaandes Project Operations laos/tootmispõhiste stsenaariumide jaoks.
 author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: df9a68c5a12e6aec140867eb1db3d88279c05795
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: c04d0465f5f7dd43ba50d4c0d2937b45fed6df86
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933625"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028835"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>Mis on Project Operationsis ressursi-/tootmispõhiste stsenaariumite jaoks 2021. a juulis uut või muutunud
 
@@ -20,7 +20,7 @@ _**Kehtib järgmiste puhul:** Project Operations ladustamise-/tootmispõhiste st
 
 See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja versioonide kohta.
 
-- Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnaversioonis 10.0.20
+- Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnas versioon 10.0.20
  
 ### <a name="quality-updates"></a>Kvaliteedi värskendused
                                                                                                                                                                                   
@@ -64,7 +64,7 @@ See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja v
 | Reisimine ja kulu                  | [523557](https://fix.lcs.dynamics.com/Issue/Details/?bugId=523557) | Kui töövoogu ei leitud, peaks tööriist **Kuludokumendi oleku lähtestamine** lähtestama kuluaruande olekule **Mustand**. 
 
 ### <a name="regulatory-updates"></a>Regulatiivsed uuendused
-Finance and Operationsi rakenduste regulatiivsete värskenduste kohta leiate teavet teemast [Regulatiivsed värskendused](/dynamics365/finance/localizations/regulatory-updates). Samuti saate logida sisse teenusesse Lifecycle Services (LCS) ja vaadata plaanitud regulatiivseid värskendusi, kasutades probleemi otsingutööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
+Lisateavet finance and operationsi rakenduste regulatiivsete värskenduste kohta leiate teemast [Regulatiivsed värskendused](/dynamics365/finance/localizations/regulatory-updates). Samuti saate logida sisse teenusesse Lifecycle Services (LCS) ja vaadata plaanitud regulatiivseid värskendusi, kasutades probleemi otsingutööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

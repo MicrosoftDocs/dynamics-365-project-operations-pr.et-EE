@@ -1,18 +1,18 @@
 ---
 title: Mis on uut aprillis 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
-description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval project Operationsi 2021. aasta aprilli väljaandes ressursi-/ladustamata stsenaariumide jaoks.
+description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval 2021. aasta aprilli väljaandes Project Operations ressursipõhiste/varumata stsenaariumide jaoks.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a060bdc4e4c9f37ec666b1cf4d078986ad1571db
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 490b7aa38bfdfbcdce21a21e582296e4ce15aeeb
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912419"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029249"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Mis on uut aprillis 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
 
@@ -21,7 +21,7 @@ _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja versioonide kohta.
 
 - Project Operations Dataverse’i keskkonna versioonis 4.9.0.221
-- Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnaversioonis 10.0.17
+- Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnas versioon 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Selles väljaandes sisalduvad funktsioonid
 
@@ -42,13 +42,13 @@ Järgmises loendis kuvatakse topeltkirjutusega kaardid, mida on muudetud või li
 | **Olemikaart** | **Värskendatud versioon** | **Kommentaarid** |
 | --- | --- | --- |
 | Project Operationsi integreerimise tegelikud andmed (msdyn\_actuals) | 1.0.0.14 | Materjali projekti tegelike andmete sünkroonimiseks on kaarti muudetud. |
-| Project Operationsi integreerimisolem kuluprognooside jaoks (msdyn\_estimateslines) | 1.0.0.2 | Lisatud projektilepingu rea sünkroonimine ülesandepõhise arveldustoe rakendustega Finance and Operations. |
-| Project Operationsi integreerimisolem tunniprognooside jaoks (msdyn\_resourceassignments) | 1.0.0.5 | Lisatud projektilepingu rea sünkroonimine ülesandepõhise arveldustoe rakendustega Finance and Operations. |
-| Project Operationsi integreerimistabel materjaliprognooside jaoks (msdyn\_estimatelines) | 1.0.0.0 | Uus tabelikaart materjaliprognooside sünkroonimiseks rakendustesse Dataverse Finance and Operations. |
-| Project Operationsi integratsiooni projekti hankija arve ekspordi olem (msdyn\_projectvendorinvoices) | 1.0.0.0 | Uus tabelikaart hankija arve päiste sünkroonimiseks finance and Operationsi rakendustest rakendusse Dataverse. |
-| Project Operationsi integratsiooni projekti hankija arve ekspordirea olem (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Uus tabelikaart hankija arveridade sünkroonimiseks rakendustest Finance and Operations rakendusega Dataverse. |
+| Project Operationsi integreerimisolem kuluprognooside jaoks (msdyn\_estimateslines) | 1.0.0.2 | Lisatud projektilepingu rea sünkroonimine finance and operationsi rakendustega ülesandepõhise arvelduse toe jaoks. |
+| Project Operationsi integreerimisolem tunniprognooside jaoks (msdyn\_resourceassignments) | 1.0.0.5 | Lisatud projektilepingu rea sünkroonimine finance and operationsi rakendustega ülesandepõhise arvelduse toe jaoks. |
+| Project Operationsi integreerimistabel materjaliprognooside jaoks (msdyn\_estimatelines) | 1.0.0.0 | Uus tabelikaart materjaliprognooside Dataverse sünkroonimiseks finance and operationsi rakendustega. |
+| Project Operationsi integratsiooni projekti hankija arve ekspordi olem (msdyn\_projectvendorinvoices) | 1.0.0.0 | Uus tabelikaart hankija arvete päiste sünkroonimiseks finance and operationsi rakendustest Dataverse. |
+| Project Operationsi integratsiooni projekti hankija arve ekspordirea olem (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Uus tabelikaart hankija arveridade sünkroonimiseks finance and operationsi rakendustest Dataverse. |
 
-Project Operationsi lahenduse ning Finance and Dataverse Operationsi lahenduse versiooni värskendamisel peaksite alati käitama oma keskkonnas kaardi uusimat versiooni ja lubama kõik seotud tabelikaardid. Kui kaardi uusim versioon pole aktiveeritud, ei pruugi teatud funktsioonid ja võimalused õigesti töötada. Kaardi aktiivset versiooni saate vaadata veerus **Versioon**, mis asub lehel **Topeltkirjutamine**. Kaardi uue versiooni aktiveerimiseks valige **Tabelikaardi versioonid** valige uusim versioon ja seejärel salvestage valitud versioon. Kui olete kohandanud kasutusvalmis tabelikaardi, rakendage muudatused uuesti. Lisateabe saamiseks vt [Rakenduse elutsükli haldus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)
+Project Operationsi Dataverse lahenduse ning finants- ja operatsioonilahenduse versiooni värskendamisel peaksite oma keskkonnas alati käivitama kaardi uusima versiooni ja lubama kõik seotud tabelikaardid. Kui kaardi uusim versioon pole aktiveeritud, ei pruugi teatud funktsioonid ja võimalused õigesti töötada. Kaardi aktiivset versiooni saate vaadata veerus **Versioon**, mis asub lehel **Topeltkirjutamine**. Kaardi uue versiooni aktiveerimiseks valige **Tabelikaardi versioonid** valige uusim versioon ja seejärel salvestage valitud versioon. Kui olete kohandanud kasutusvalmis tabelikaardi, rakendage muudatused uuesti. Lisateabe saamiseks vt [Rakenduse elutsükli haldus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)
 
 Kui kaardi käivitamisel ilmneb probleem, järgige suuniseid topeltkirjutamise tõrkeotsingu juhendi teemas [Kaardil puuduvad tabeliveerud](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps).
 
@@ -79,7 +79,7 @@ Kui kaardi käivitamisel ilmneb probleem, järgige suuniseid topeltkirjutamise t
 | Aeg ja kulu | 2204377 | Kopeeritud ajatabelid peavad olema automaatselt kuvatud, kui valite aja kirjendamise ajal suvandi **Kopeeri nädal**. |
 | Aeg ja kulu | 2209059 | Välja **Olek** saab ajakirjete Dynamics 365 Field Service jaoks muuta. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektijuhtimine ja raamatupidamine Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektijuhtimine ja raamatupidamine Dynamics 365 Finance. aastal
 
 | **Funktsiooni ala** | **Viitenumber** | **Kvaliteedi värskendus** |
 | --- | --- | --- |

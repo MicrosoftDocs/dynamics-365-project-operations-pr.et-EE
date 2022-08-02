@@ -1,102 +1,102 @@
 ---
-title: Täielikult arveldatud arvelduse vahe-eesmärkide migreerimine üleehitamisel
-description: Selles artiklis selgitatakse, kuidas migreerida fikseeritud hinnaga arvelduse verstapostid, mille eest on kliendile esitatud arve avatud projektilepingute eest enne kasutuselt lahkumise kuupäeva.
+title: Täielikult arveldatud arvelduse verstapostide migreerimine ületõstmisel
+description: Selles artiklis selgitatakse, kuidas migreerida fikseeritud hinnaga arvelduse verstaposte, mis on kliendile avatud projektilepingute eest arve esitatud enne kasutuselevõtu kuupäeva.
 author: sigitac
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d7bb3dbb5acd9be447c405ec17f18d00c500f655
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 05cd71f9860b5698e3a26bc72660b0b2044206c8
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912235"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028697"
 ---
-# <a name="migrate-fully-invoiced-billing-milestones-at-cutover"></a>Täielikult arveldatud arvelduse vahe-eesmärkide migreerimine üleehitamisel
+# <a name="migrate-fully-invoiced-billing-milestones-at-cutover"></a>Täielikult arveldatud arvelduse verstapostide migreerimine ületõstmisel
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
 ## <a name="scenario"></a>Stsenaarium
 
-Contoso läheb Microsoftiga Dynamics 365 Project Operations ressursi- ja ladustamata stsenaariumide jaoks otseülekandena. Ülelõiketegevuse raames peab rakendusmeeskond migreerima avatud projektilepingud vanast süsteemist. Mõned projektilepingud sisaldavad lepinguridu, mis kasutavad fikseeritud hinnaga arveldusmeetodit ja mis on juba osaliselt arveldatud lõpptarbijale. Juurutusmeeskond peab need arvelduse verstapostid migreerima konteeritud **kliendiarvena**, kuna need tuleb tulude kajastamise eesmärgil kaasata lepingu koguväärtusesse. Siiski ei tohi mõjutada klientide saldosid müügireskontros ja pearaamatus.
+Contoso läheb Microsoftiga Dynamics 365 Project Operations otseülekandesse ressursside / varudeta stsenaariumide jaoks. Osana kärpetegevustest peab rakendusmeeskond avatud projektilepingud vanast süsteemist üle viima. Mõned projektilepingud sisaldavad lepinguridu, mis kasutavad fikseeritud hinnaga arveldusmeetodit ja mille eest on lõppkliendile juba osaliselt arve esitatud. Juurutusmeeskond peab need arvelduse verstapostid kliendiarve sisestamisena **üle** viima, kuna need tuleb tulu kajastamise eesmärgil kaasata lepingu koguväärtusse. Klientide saldosid müügireskontros ja pearaamatus ei tohi see siiski mõjutada.
 
 ## <a name="solution"></a>Lahendus
 
 ### <a name="prerequisites"></a>eeltingimused
 
-- Dynamics 365 Finance 10.0.24 või uuem tuleb paigaldada.
-- Keskkond, kus migreerimisetapid lõpetatakse, peab olema hooldusrežiimis. Vahe-eesmärkide migreerimise ajal ei tohiks teha muid tegevusi.
-- Rändesamme tuleb järgida täpselt nii, nagu siin kirjeldatud, ja neid saab kasutada ainult ülelõiketegevuseks. Microsoft ei toeta selle funktsiooni muud kasutamist.
+- Dynamics 365 Finance 10.0.24 või uuem versioon.
+- Keskkond, kus migreerimisetapid lõpule viiakse, peab olema hooldusrežiimis. Verstapostide ületamise ajal ei tohiks teha muid tegevusi.
+- Migreerimisetappe tuleb järgida täpselt nii, nagu siin kirjeldatud, ja neid saab kasutada ainult ületõstetegevuse jaoks. Microsoft ei toeta selle võimaluse muud kasutamist.
 
-### <a name="create-a-cutover-version-of-the-project-operations-integration-contract-line-milestones-dual-write-map"></a>Project Operationsi integratsioonilepingu rea vahe-eesmärkide kahe kirjutamise kaardi ülelõikeversiooni loomine 
+### <a name="create-a-cutover-version-of-the-project-operations-integration-contract-line-milestones-dual-write-map"></a>Project Operationsi integratsioonilepingu rea verstapostide ületõsteversiooni loomine kahekordse kirjutamisega kaardil 
 
-1. Veenduge, et olemi Project Operations integration contract line milestones sihtvastendus **oleks** ajakohane. 
+1. Veenduge, et üksus Project Operations integration contract rea verstapostide üksus target vastendus **oleks** ajakohane. 
 
-    1. Avage jaotises Finance **andmehaldusolemid** \> **ja** valige **olem Project Operationsi integratsioonilepingu rea vahe-eesmärgid.** 
-    2. Valige **Muuda sihtvastendusi**. 
-    3. **Valige lehel** Vastendamine sihtgrupini **käsk Loo vastendamine** ja seejärel kinnitage, et soovite vastenduse luua.
+    1. Avage finance jaotises **Andmehalduse** \> **andmeüksused** ja valige **üksus Project Operationsi integratsioonilepingu rea verstapostid.** 
+    2. Valige **Käsk Muuda sihtvastendusi**. 
+    3. **Valige lehel Kaardi koondamine sihtimiseks** suvand **Loo vastendus** ja seejärel kinnitage, et soovite vastenduse luua.
 
-2. Projektitoimingute integreerimise lepingurea vahe-eesmärkide **(msdyn** contractlinelineschedule ofvalues **) kahe kirjutamiskaardi peatamine ja värskendamine\_**. 
+2. Peatage ja värskendage **Project Operationsi integratsiooni lepingurea verstaposte** (**msdyn\_ contractlinescheduleofvalues**) kahekordse kirjutamisega kaarti. 
 
-    1. **Avage jaotis Andmehaldus** \> **Dual-write**, valige kaart ja avage selle üksikasjad. 
+    1. Avage **Andmehaldus** \> **Kahekordne kirjutamine**, valige kaart ja avage selle üksikasjad. 
     2. Valige **Stopp** ja oodake, kuni süsteem kaardi peatab. 
     3. Valige **Värskenda tabeleid**.
 
 3. Lisage kande oleku vastendus.
 
-    1. Valige **Lisa vastendamine**.
-    2. Valige uuel real veerus **Finance and Operations rakenduste** veerg **väli TRANSSTATUS \[TRANSSTATUS\]**.
-    3. Valige veerus **Microsoft Dataverse** **msdyn\_ invoicestatus \[Invoice olek\]**.
-    4. Valige veerus **Kaardi tüüp** paremnool (**\>**).
-    5. Valige kuvatavas dialoogiboksis väljal **Sünkrooni** suund **Dataverse väärtus Finance and Operations (rakendused** Finance and Operations).
+    1. Valige **Lisa vastendus**.
+    2. Valige uuel real **veerus** Finance and operations apps (Finants- ja operatsioonirakendused **) väli TRANSSTATUS \[TRANSSTATUS\]**.
+    3. Veerus valige **Microsoft Dataverse** **msdyn\_ invoicestatus \[Arve olek\]**.
+    4. **Valige veerus Kaardi tüüp** paremnool (**\>**).
+    5. Valige kuvatavas dialoogiboksis väljal **Sünkroonimissuund** väärtus **Dataverse Finance and Operationsi rakendused**.
     6. Valige **Lisa teisendus**.
-    7. Valige väljal **Teisenduse** tüüp **väärtusmap**.
+    7. Väljal **Teisenduse tüüp** valige **Väärtusmap**.
     8. Valige **Lisa väärtuse vastendus**.
-    9. Sisestage **vasakul väljal väärtus 4**. Sisestage õigele väljale **192350001**. 
+    9. Sisestage **vasakpoolsele väljale 4**. Sisestage **parempoolsele väljale 192350001**. 
     10. Valige **Salvesta** ja seejärel sulgege dialoogiboks.
 
-4. Topeltkirjutuskaardi versiooni salvestamiseks valige **Salvesta**. 
-5. Valige tabelipaani **Lisamine väljal** Avaldaja **väärtus Vaikeväljaandja** **.**
-6. Sisestage väljale **Versioon** versioon.
-7. Sisestage väljale **Kirjeldus** märkme selle kaardi üleehitamise versiooni kohta. 
+4. Topeltkirjutusega **kaardi versiooni salvestamiseks valige** Salvesta nimega. 
+5. **Valige tabeli** lisamise paanil väljal **Publisher** suvand **Vaikimisi väljaandja**.
+6. Sisestage **versioon väljale Versioon**.
+7. Sisestage väljale **Kirjeldus** märkus kaardi selle ülelõikeversiooni kohta. 
 8. Valige **Salvesta**.
-9. Käivita kaart.
+9. Käivitage kaart.
 
-### <a name="migrate-invoiced-milestones-to-the-dataverse-environment"></a>Arveldatud vahe-eesmärkide Dataverse migreerimine keskkonda
+### <a name="migrate-invoiced-milestones-to-the-dataverse-environment"></a>Arveldatud verstapostide migreerimine Dataverse keskkonda
 
-1. Looge keskkonnas Project Operations Dataverse vahe-eesmärgid, mille arve olek **on arveldamiseks** valmis. Sel hetkel ärge migreerige ühtegi verstaposti, mida pole arveldatud.
+1. Looge keskkonnas Project Operations Dataverse verstapostid, mille arve olek **on arveldamiseks** valmis. Siinkohal ärge migreerige verstaposte, mille eest pole arvet esitatud.
 
     > [!NOTE]
-    > Enne arvelduse vahe-eesmärkide migreerimist veenduge, et projektilepingu reaga seotud finantsdimensioonid oleksid seatud ootuspäraselt. Finantsdimensioone ei saa pärast migreerimise lõpuleviimist redigeerida.
+    > Enne arvelduse verstapostide migreerimist veenduge, et projekti lepingureaga seotud finantsdimensioonid oleksid seatud ootuspäraselt. Finantsdimensioone ei saa pärast migreerimise lõpuleviimist redigeerida.
 
-2. Kui kõik verstapostid on migreeritud, peatage järgmised topeltkirjutamise kaardid.
+2. Kui kõik verstapostid on migreeritud, peatage järgmised kahekordselt kirjutatud kaardid:
 
-    - Project Operationsi integreerimise lepingurea verstapostid (msdyn\_ lepingulineschedule ofvalues)
+    - Project Operations integration contract rea verstapostid (msdyn\_ contractlinescheduleofvalues)
     - Project Operationsi integreerimise tegelikud andmed (msdyn\_actuals)
     - Projektiarve ettepanek V2 (arved)
 
-    Kaartide peatamiseks tehke järgmist.
+    Kaartide peatamiseks toimige järgmiselt.
 
-    1. Avage jaotises Finance **jaotis Andmehaldus** \> **Dual-write**, valige kaart ja avage selle üksikasjad.
+    1. Avage Finance'is **andmehaldus** \> **Topeltkirjutus**, valige kaart ja avage selle üksikasjad.
     2. Valige **Stopp** ja oodake, kuni süsteem kaardi peatab.
 
-3. Looge ja kinnitage keskkonnas Project Operations Dataverse arvelduse vahe-eesmärkide jaoks pro forma arved. 
+3. Looge ja kinnitage keskkonnas Project Operations Dataverse arvelduse verstapostide jaoks pro forma arved. 
 
-    1. Avage saidikaardil projektilepingud, valige lepingud ja seejärel valige **Loo arved**.
+    1. Minge saidikaardil projekti lepingute juurde, valige lepingud ja seejärel valige **Loo arved**.
     2. Pärast arvete loomist avage need saidikaardi menüüst **Arved** ja seejärel valige **Kinnita**.
 
-    See samm loob keskkonnas nõutavad kirjed Dataverse. Kuid see ei mõjuta saadaolevaid finantse ja kontosid, kuna varem loetletud topeltkirjutamise kaardid peatati.
+    See etapp loob keskkonnas nõutavad kirjed Dataverse. Kuid see ei mõjuta finantse ja saadaolevaid arveid, kuna varem loetletud topeltkirjutusega kaardid peatati.
 
-4. Kui kõik pro forma arved on kinnitatud, tagastage kõik topeltkirjutatud kaardid algsesse olekusse.
+4. Kui kõik pro-forma arved on kinnitatud, tagastage kõik topeltkirjutusega kaardid nende algsesse olekusse.
 
-    1. **Värskendage project operationsi integratsioonilepingu rea vahe-eesmärkide** (**msdyn\_ contractlinelinescheduleofvalues**) versiooni topeltkirjutuskaardiga tagasi originaali. 
-    2. Valige kaardiloendist kahe kirjutamise kaart, valige **Tabelikaardi versioon** ja seejärel valige tabelikaardi algne versioon.
+    1. Värskendage Project Operationsi integratsioonilepingu rea verstapostide **versiooni**(**msdyn\_ contractlinescheduleofvalues**) topeltkirjutusega kaart tagasi originaalile. 
+    2. Valige kaardiloendist topeltkirjutusega kaart, valige **Tabelikaardi versioon** ja seejärel valige tabelikaardi algne versioon.
     3. Valige **Salvesta**.
-    4. Taaskäivitage järgmised topeltkirjutamise kaardid.
+    4. Taaskäivitage järgmised topeltkirjutuskaardid:
 
-        - Project Operationsi integreerimise lepingurea verstapostid (msdyn\_ lepingulineschedule ofvalues)
+        - Project Operations integration contract rea verstapostid (msdyn\_ contractlinescheduleofvalues)
         - Project Operationsi integreerimise tegelikud andmed (msdyn\_actuals)
         - Projektiarve ettepanek V2 (arved)
 
-Verstapostid on nüüd migreeritud ja süsteem on valmis järgmisteks sammudeks ülelõiketegevuses.
+Verstapostid on nüüd migreeritud ja süsteem on valmis järgmisteks sammudeks ülelõikamistegevuses.

@@ -4,7 +4,7 @@ description: Projektimalli loomine Project Service'is
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
-ms.date: 8/03/2018
+ms.date: 07/19/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 127b6e43a15f19a42791e78b55865ab11ca50c7a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8159e0390441e5029f9beb0228cffcbc4d683479
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598989"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177420"
 ---
 # <a name="create-a-project-template-project-service"></a>Projektimalli loomine (Project Service)
 
@@ -35,14 +35,21 @@ Projektimallid säästavad teie aega, kui ettevõte teeb regulaarselt pakkumisi 
 ## <a name="components-of-project-template"></a>Projektimalli komponendid
  Projektimall koosneb kolmest osast.  
   
-- **Tööjaotuse struktuur**: projektimalli tööjaotuse struktuur sisaldab sama elemendikomplekti mis projekt. Saate luua ülesannete hierarhia, seostada rolle ülesandega, määratleda ajakava atribuute, määrata sõltuvusi ja kuvada kõik andmed Gantti diagrammil. Projektimallide tööjaotuse struktuur toetab ka iga ülesande puhul ülesanderežiime. Projektimalli ja projekti vahel pole töö ajakava loomisel mingit erinevust.  
+- **Tööjaotuse struktuur**: projektimalli tööjaotuse struktuur sisaldab sama elemendikomplekti mis projekt. Saate luua ülesandehierarhia, seostada rollid ülesandega, määratleda ajakava atribuute, seada sõltuvusi ja vaadata kõiki Ganttis olevaid andmeid. Projektimallide tööjaotuse struktuur toetab ka iga ülesande ülesanderežiime. Töögraafiku loomisel ei ole projektimalli ja projekti vahel vahet.  
   
 - **Projektiprognoosid**: mallide projektiprognoosid toimivad samal moel, nagu projektides, välja arvatud see, et hinnakirjad oma- ja müügihindade vaikeväärtuste määramiseks on alati funktsiooni [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] parameetrites määratletud omahinna ja müügihinna vaikehinnakirjad. Ülejäänud funktsioonid on samad mis projektis.  
   
 - **Projektimeeskonna moodustamine**: projektimalli jaoks projektimeeskonna moodustamisel ei saa mallis broneerida nimelist ressurssi. Saate kasutada tööjaotuse struktuuris olevat valikut **Projektimeeskonna loomine**, et luua üldiste ressursside kogum. Saate ka määrata üldiste ressursside puhul nõutavad oskused ja pädevused. Projektimallides ei saa üldist ressurssi asendada reserveeritava ressursiga.  
-  
+
+## <a name="create-a-project-template-from-an-existing-project"></a>Projektimalli loomine olemasolevast projektist
+Projektimalli saate luua projektist järgmistel viisidel.
+
+- **Tööjaotuse struktuur**: projektist tuletatud malli tööjaotuse struktuur kopeerib kõik ülesanded ja sõltuvused. Loodud ülesanded põhinevad üldistel meeskonnaliikmetel, kes lisatakse projektimeeskonnale projektimalli loomisel.
+- **Projekti prognoosid**: kui olemasolevast projektist luuakse projektimall, kopeeritakse lähteprojekti prognoosid projektimalli.
+- **Projektimeeskonna liikmed**: kui olemasolevast projektist luuakse mall, asendatakse kõik nimega meeskonnaliikmed organisatsiooni üldise ressursiga. Kõik ametikohtade nimed ja rollid säilitatakse.
+
 ## <a name="create-a-project-from-a-template"></a>Projekti loomine mallist  
- Malli põhjal projekti loomiseks on järgmised võimalused.  
+ Mallist saate projekti luua järgmistel viisidel.  
   
 -   Projekti loomisel hinnapakkumisest saate valida projektimalli projekti kiirloomise vormil.  
   

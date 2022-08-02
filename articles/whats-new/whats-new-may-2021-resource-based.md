@@ -1,18 +1,18 @@
 ---
 title: Mis on uut mais 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
-description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval project Operationsi 2021. aasta mais ressursi-/ladustamata põhistsenaariumide jaoks.
+description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval 2021. aasta mai väljaandes Project Operations ressursipõhiste/varumata stsenaariumide jaoks.
 author: sigitac
 ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 425b0eb78b5f03d4b0da9a792d6e33fc96adf060
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: cc5e8104702951fd787d02407d26671e46d44f0c
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930405"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029984"
 ---
 # <a name="whats-new-may-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Mis on uut mais 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
 
@@ -21,7 +21,7 @@ _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja versioonide kohta.
 
 - Project Operations rakenduse Dynamics 365 Dataverse keskkonna versioonis 4.10.0.186
-- Projektijuhtimine ja raamatupidamine Finance and Operationsi rakenduste keskkondade versioonis 10.0.18
+- Projektijuhtimine ja raamatupidamine Finance and Operationsi rakenduste keskkondades versioon 10.0.18
 
 ## <a name="features-included-in-this-release"></a>Selles väljaandes sisalduvad funktsioonid
 
@@ -41,7 +41,7 @@ Järgmises loendis on näidatud Project Operationsi 2021. aasta mais väljalaske
 | Project Operationsi integratsiooni projekti hankija arve ekspordirea olem (msdyn\_projectvendorinvoicelines) | 1.0.0.1 | Kvaliteedi värskendused |
 | Projektid V2 (msdyn\_projects) | 1.0.0.2 | Kvaliteedi värskendused |
 
-Käivitage alati oma keskkonnas kaardi uusim versioon ja lubage project Operationsi lahenduse ning Finance and Dataverse Operationsi rakenduste lahenduse versiooni värskendamisel kõik seostuvad tabelikaardid. Kui kaardi uusim versioon pole aktiveeritud, ei pruugi teatud funktsioonid ja võimalused õigesti töötada. Kaardi aktiivset versiooni saate vaadata veerus **Versioon**, mis asub lehel **Topeltkirjutamine**. Kaardi uue versiooni aktiveerimiseks valige **Tabelivastenduse versioonid**, valige uusim versioon ja seejärel salvestage valitud versioon. Kui olete kohandanud kasutusvalmis tabelikaardi, rakendage muudatused uuesti. Lisateabe saamiseks vt [Rakenduse elutsükli haldus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)
+Käitage oma keskkonnas alati kaardi uusimat versiooni ja lubage project operationsi Dataverse lahenduse ning finance and operationsi rakenduste lahenduse versiooni värskendamisel kõik seotud tabelikaardid. Kui kaardi uusim versioon pole aktiveeritud, ei pruugi teatud funktsioonid ja võimalused õigesti töötada. Kaardi aktiivset versiooni saate vaadata veerus **Versioon**, mis asub lehel **Topeltkirjutamine**. Kaardi uue versiooni aktiveerimiseks valige **Tabelivastenduse versioonid**, valige uusim versioon ja seejärel salvestage valitud versioon. Kui olete kohandanud kasutusvalmis tabelikaardi, rakendage muudatused uuesti. Lisateabe saamiseks vt [Rakenduse elutsükli haldus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)
 
 Kui teil tekib kaardi käivitamisel probleeme, järgige topeltkirjutamise tõrkeotsingu juhendi jaotises [Probleem kaardilt puuduvate tabeli veergudega](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps).
 
@@ -67,7 +67,7 @@ Kui teil tekib kaardi käivitamisel probleeme, järgige topeltkirjutamise tõrke
 | Ajakirje | 2202476 | Leht **Ajakirje** kasutab nüüd reageerimisruudustiku juhtelementi ja lahendab probleeme, nagu ruudustiku vastuolu. |
 | Ajakirje | 2223377 | Ajakirje peidetakse jaotisest **Seotud** lehel **Broneeritav ressurss**, et vältida kasutatavusega segamini ajamist. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektijuhtimine ja raamatupidamine Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektijuhtimine ja raamatupidamine Dynamics 365 Finance. aastal
 
 | Funktsiooni ala | Viitenumber | Kvaliteedi värskendus |
 | --- | --- | --- |

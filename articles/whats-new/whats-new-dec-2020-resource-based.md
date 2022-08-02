@@ -1,18 +1,18 @@
 ---
 title: Mis on uut detsembris 2020 – Project Operations ressursi-/mittelaopõhiste stsenaariumite jaoks
-description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval 2020. aasta detsembris avaldatud projektitoimingute väljaandes ressursi-/ladustamata põhistsenaariumide jaoks.
+description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval 2020. aasta detsembri väljaandes Project Operations ressursipõhiste/varumata stsenaariumide jaoks.
 author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8eb5d2e31f8d3506fc07332cf78efda979c46206
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2b2cf628e6b6f4744cc0ee9deee2a92528a2410d
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933027"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029709"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Mis on uut detsembris 2020 – Project Operations ressursi-/mittelaopõhiste stsenaariumite jaoks
 
@@ -21,7 +21,7 @@ _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja versioonide kohta.
 
 - Project Operations Dataverse’i keskkonna versioonis 4.5.0.134
-- Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnaversioonis 10.0.15
+- Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnas versioon 10.0.15
 
 Lisateavet sellele väljaandele värskendamise kohta leiate jaotisest [Project Operationsi värskendamine Finance'i keskkonnas](ur5-nonstocked-installation.md).
 
@@ -61,12 +61,12 @@ Selles väljaandes sisalduvad järgmised funktsioonid.
 | Projekti plaanimine ja jälgimine | 2057197          | Hinnanguline rea kopeerimine koos ülesande viitega pole toetatud                                                                                                     |
 | Projekti plaanimine ja jälgimine | 2060687          | Ajavööndi hoiatus nüüd kaob pärast teatud kestust                                                                                                      |
 | Ressursihaldus           | 1832887          | Vaikimisi ressursi kategooria ID peab olema staatiline, et tagada korratavad andmekoormused teenuste Dataverse ja Finance keskkondades                                                 |
-| Aeg ja kulu              | 2081793          | **Kulukategooria nimi** peab olema vastendatud rakendustes Finance and Operations väljaga **Kulukategooria kirjeldus**                                                  |
+| Aeg ja kulu              | 2081793          | **Kulukategooria nimi** peab olema vastendatud finance and operationsi rakendustes kulukategooria kirjelduse **väljaga**                                                  |
 | Aeg ja kulu              | 2034882          | Nupp **Uus** kuvatakse ajakirjete jaoks käsuribal kaks korda, kui Dynamics 365 Field Service on installitud                                          |
 | Aeg ja kulu              | 2056028          | Värskendage lehte **Kellaaja redigeerimine**, et kaasata ajarida                                                                                                              |
 | Aeg ja kulu              | 1983747          | Ajakirje tabel kuvab täiendavaid andmeid                                                                                                                   |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektijuhtimine ja raamatupidamine Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektijuhtimine ja raamatupidamine Dynamics 365 Finance. aastal
 
 | Funktsiooni ala                        | Viitenumber | Kvaliteedi värskendus                                                                                                                                                                                                                                                   |
 |-------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ Selles väljaandes sisalduvad järgmised funktsioonid.
 | Reisimine ja kulu                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Kuluaruande automaatse kirjendamise töövoog on lõpetatud, kuid arvet ei kirjendata                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Regulatiivsed uuendused
-Finance and Operationsi rakenduste regulatiivsete värskenduste kohta leiate teavet teemast [Regulatiivsed värskendused](/dynamics365/finance/localizations/regulatory-updates). Saate ka LCS-i sisse logida ja vaadata kavandatud regulatiivseid värskendusi, kasutades probleemi otsimise tööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
+Lisateavet finance and operationsi rakenduste regulatiivsete värskenduste kohta leiate teemast [Regulatiivsed värskendused](/dynamics365/finance/localizations/regulatory-updates). Saate ka LCS-i sisse logida ja vaadata kavandatud regulatiivseid värskendusi, kasutades probleemi otsimise tööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

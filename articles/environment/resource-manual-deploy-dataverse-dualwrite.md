@@ -1,25 +1,25 @@
 ---
 title: Rakenduse Project Operations Dataverse käsitsi juurutamine koos topeltkirjutuse toega
-description: Selles artiklis selgitatakse, kuidas rakendus Project Operations Dataverse käsitsi juurutada, et see toetaks topeltkirjutamist.
+description: Selles artiklis selgitatakse, kuidas project operationsi Dataverse rakendust käsitsi juurutada, et see toetaks topeltkirjutust.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a25e2a59f1c069057c6689825ce52b13d842af71
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912005"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028559"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Rakenduse Project Operations Dataverse käsitsi juurutamine koos topeltkirjutuse toega
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Selles artiklis selgitatakse, kuidas Microsoft Dynamics 365 Project Operations Microsoft Dataverse käsitsi juurutada, et see toetaks topeltkirjutamist. Project Operations tuvastab keskkonna konfiguratsiooni ja lisab eeltingimuste täitumisel topeltkirjutamise lisatoe.
+Selles artiklis selgitatakse, kuidas Microsofti Dynamics 365 Project Operations Microsoft Dataverse käsitsi juurutada, et see toetaks topeltkirjutust. Project Operations tuvastab keskkonna konfiguratsiooni ja lisab eeltingimuste täitumisel topeltkirjutamise lisatoe.
 
-Kui olete selles artiklis juhiseid järginud, saate elutsükli teenuste (LCS) kaudu Microsoft Dynamics juurutamise (varem tuntud kui Microsoft Power Platform keskkond) juurutamise Common Data Service vahele jätta.
+Kui olete elutsükli teenuste (LCS) kaudu Microsoft Dynamics juurutamise ajal järginud selles artiklis toodud juhiseid, võite integratsiooni (varem tuntud kui Microsoft Power Platform keskkond) Common Data Service juurutamise vahele jätta.
 
 Project Operationsi teenuses Dataverse juurutamise protsess, et see toetaks topeltkirjutust, omab nelja peamist etappi.
 
@@ -37,7 +37,7 @@ Selle toimingu lõpuleviimiseks peate administraatorina sisse logima.
 3. Valige keskkonna tüüp. Kui registreerusite prooviversiooni jaoks, valige **Prooviversioon (kordustellimusel põhinev)**.
 4. Kinnitage juurutuspiirkond.
 5. Lubage suvand **Loo selle keskkonna joaks andmebaas**. 
-6. Kinnitage keel ja kinnitage seejärel, et valuuta vastab teie finance and Operationsi rakenduste valuutale.
+6. Kinnitage keel ja seejärel veenduge, et valuuta vastab teie finants- ja toimingurakenduste valuutale.
 7. Lubage suvand **Dynamics 365 rakendused** ja veenduge, et välja **Juuruta need rakendused automaatselt** väärtuseks oleks seatud **Puudub**.
 8. Lisage turberühm, kui turberühm on nõutav.
 9. Keskkonna loomiseks valige nupp **Salvesta**.
@@ -62,4 +62,4 @@ Selle toimingu saate teha ainult juhul, kui olete enne Project Operationsi insta
 
 ## <a name="link-your-environments"></a><a name="link"></a>Keskkondade sidumine
 
-Pärast keskkonna juurutamist Dataverse saate lingi seadistada rakendustes Finance and Operations. Järgige juhiseid teemas [Oma keskkondade sidumiseks topeltkirjutuse viisardi kasutamine](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Dataverse Pärast keskkonna juurutamist saate lingi seadistada oma finance and operationsi rakendustes. Järgige juhiseid teemas [Oma keskkondade sidumiseks topeltkirjutuse viisardi kasutamine](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

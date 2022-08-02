@@ -1,25 +1,25 @@
 ---
 title: Tööülesande ruudustikus töötamise tõrkeotsing
-description: Selles artiklis on toodud tõrkeotsinguteave, mis on vajalik tegumiruudustikus töötamisel.
+description: Sellest artiklist leiate tõrkeotsinguteabe, mida on vaja ülesanderuudustikus töötamiseks.
 author: ruhercul
-ms.date: 04/05/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 208ed55abf4cdf0ad2b035bd923e183ff3cae660
+ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911039"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9188226"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Tööülesande ruudustikus töötamise tõrkeotsing 
 
 
 _**Kehtiv järgnevale:** Project Operations ressursi-/mitteressursipõhised stsenaariumid, lihtjuurutus – tehing näidisarveldusele, Project for the web_
 
-Teenuse Dynamics 365 Project Operations kasutatav ülesande ruudustik on teenuses Microsoft Dataverse majutatud iFrame. Selle kasutamise tulemusena peavad autentimise ja autoriseerimise õigeks toimimiseks olema täidetud erinõuded. Selles artiklis kirjeldatakse levinud probleeme, mis võivad mõjutada võrgu renderdamise võimet või hallata tööülesandeid tööjaotuse struktuuris (WBS).
+Ülesande ruudustik, mida Dynamics 365 Project Operations kasutab, on hostitud iframe sees Microsoft Dataverse. Selle kasutamise tulemusena peavad autentimise tagamiseks olema täidetud erinõuded ja autoriseerimine toimib õigesti. Selles artiklis kirjeldatakse levinud probleeme, mis võivad mõjutada ruudustiku renderdamist või ülesannete haldamist tööjaotuse struktuuris (WBS).
 
 Levinud probleemide hulka kuulub järgnev.
 
@@ -32,7 +32,7 @@ Levinud probleemide hulka kuulub järgnev.
 
 ### <a name="mitigation-1-enable-cookies"></a>1. kohandus: lubage küpsised
 
-Tööjaotuse struktuuri renderdamiseks nõuab Project Operations, et kolmanda osapoole küpsised oleksid lubatud. Kui kolmanda osapoole küpsised pole lubatud, näete toimingute nägemise asemel tühja lehte, kui valite vahekaardi **Tööülesanded** lehel **Projekt**.
+Tööjaotuse struktuuri renderdamiseks nõuab Project Operations, et kolmanda osapoole küpsised oleksid lubatud. Kui kolmanda osapoole küpsised pole lubatud, näete ülesannete kuvamise asemel tühja lehte, kui valite **lehel Projekt vahekaardi** Tööülesanded **·**.
 
 Brauserite Microsoft Edge või Google Chrome korral kirjeldavad järgmised toimingud seda, kuidas oma brauserisätteid värskendada ja lubada kolmanda osapoole küpsiseid.
 
@@ -57,10 +57,10 @@ Brauserite Microsoft Edge või Google Chrome korral kirjeldavad järgmised toimi
 
 ### <a name="mitigation-2-validate-the-pex-endpoint-has-been-correctly-configured"></a>2. leevendus: kontrollige, kas PEX-i lõpp-punkt on õigesti konfigureeritud
 
-Project Operations vajab, et projekti parameeter viitaks PEX-i lõpp-punktile. See lõpp-punkt on vajalik teenusega suhtlemiseks, mida kasutatakse tööjaotuse struktuuri renderdamiseks. Kui parameeter pole lubatud, kuvatakse tõrketeade "Projekti parameeter ei ole kehtiv". PEX-i lõpp-punkti uuendamiseks tehke järgmist.
+Project Operations vajab, et projekti parameeter viitaks PEX-i lõpp-punktile. See lõpp-punkt on vajalik teenusega suhtlemiseks, mida kasutatakse tööjaotuse struktuuri renderdamiseks. Kui parameeter pole lubatud, kuvatakse tõrketeade "Projekti parameeter pole kehtiv". PEX-i lõpp-punkti uuendamiseks tehke järgmist.
 
 1. Lisage **PEX-i lõpp-punkti** väli lehele **Projekti parameetrid**.
-2. Tuvastage, millist tüüpi toodet kasutate. Seda väärtust kasutatakse PEX-i lõpp-punkti seadmisel. Allalaadimisel on tootetüüp juba PEX-i lõpp-punktis määratletud. Hoidke see väärtus alles.
+2. Tuvastage tootetüüp, mida kasutate. Seda väärtust kasutatakse PEX-i lõpp-punkti seadmisel. Allalaadimisel on tootetüüp juba PEX-i lõpp-punktis määratletud. Hoidke see väärtus alles.
 3. Lisage väljale järgmine väärtus: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`. Järgmises tabelis on toodud tüübiparameeter, mida tuleks tootetüübi põhjal kasutada.
 
       | **Toote tüüp**                     | **Tüübi parameeter** |
@@ -72,11 +72,14 @@ Project Operations vajab, et projekti parameeter viitaks PEX-i lõpp-punktile. S
 4. Eemaldage väli lehelt **Projekti parameetrid**.
 
 ### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Leevendamine 3: logige sisse project.microsoft.com
-Microsoft Edge Avage brauseris uus vahekaart, avage project.microsoft.com ja logige sisse, kasutades kasutajarolli, mida kasutate Project Operationsile juurdepääsuks.
+
+Avage brauseris uus vahekaart, minge jaotisse project.microsoft.com ja logige sisse kasutajarolliga, mida kasutate Project Operationsile juurdepääsemiseks. On oluline, et brauseris oleks Microsofti tootesse sisse logitud ainult üks kasutaja. Tõrketeade "login.microsoftonline.com keeldus ühenduse loomisest" ilmneb kõige sagedamini siis, kui sisse on logitud rohkem kui üks kasutaja, nagu on näidatud järgmisel joonisel.
+
+![Valige konto sisselogimisleht, mis näitab, et kaks kasutajat on sisse logitud.](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Probleem: projekti ei laadita ja kasutajaliides jääb spinnerile kinni
 
-Ülesande ruudustiku laadimiseks peavad autentimise jaoks olema hüpikaknad lubatud. Kui hüpikaknad ei ole lubatud, jääb ekraan laadimisspinneri peale kinni. Järgmisel pildil on näidatud URL, millel aadressiribal on blokeeritud hüpikaken, mille tulemusena jääb spinner lehe laadimise proovimisel toppama. 
+Ülesande ruudustiku laadimiseks peavad autentimise jaoks olema hüpikaknad lubatud. Kui hüpikaknad ei ole lubatud, jääb ekraan laadimisspinneri peale kinni. Järgmisel joonisel on url aadressiribal blokeeritud hüpiksildiga, mille tulemusel jääb spinner lehe laadimisel jänni. 
 
    ![Toppama jäänud spinner ja blokeeritud hüpikaken.](media/popupsblocked.png)
 
@@ -112,7 +115,7 @@ Teise võimalusena saate teha järgmised toimingud.
 
 ## <a name="issue-3-administration-of-privileges-for-project-for-the-web"></a>Probleem 3: Project for the Webi õiguste haldus
 
-Project Operations sõltub välisest ajastamisteenusest. Teenuse jaoks on vaja, et kasutajale oleks määratud mitu rolli, mis võimaldaks tal WBS-iga seotud olemeid lugeda ja kirjutada. Nende olemite hulka kuuluvad projektiülesanded, ressursi määramised ja ülesande sõltuvused. Kui kasutaja ei saa WBS-i vahekaardile **Ülesanded** liikumisel renderdada, on see arvatavasti seetõttu, et suvandi **Project Operations** valik **Projekt** pole lubatud. Kasutaja võib saada kas turberolliga või juurdepääsu keelamisega seotud tõrke.
+Project Operations sõltub välisest ajastamisteenusest. Teenus nõuab, et kasutajale oleks määratud mitu rolli, mis võimaldavad tal lugeda ja kirjutada WBS-iga seotud olemitele. Nende olemite hulka kuuluvad projektiülesanded, ressursi määramised ja ülesande sõltuvused. Kui kasutaja ei saa vahekaardile Tööülesanded liikudes WBS-i renderdada **, on põhjus tõenäoliselt** selles, et Project **for** Project Operations **pole lubatud.** Kasutaja võib saada kas turberolliga või juurdepääsu keelamisega seotud tõrke.
 
 ### <a name="mitigation-1-validate-the-application-user-and-end-user-security-roles"></a>1. leevendus: valideerige rakenduse kasutaja ja lõppkasutaja turberollid
 

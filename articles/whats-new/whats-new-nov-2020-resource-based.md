@@ -1,17 +1,17 @@
 ---
 title: Mis on uut novembris 2020 – Project Operations ressursi-/mittelaopõhiste stsenaariumite jaoks
-description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval project Operationsi 2020. aasta novembri väljaandes ressursi-/ladustamata põhistsenaariumide jaoks.
+description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval 2020. aasta novembri väljaandes Project Operations ressursipõhiste/varumata stsenaariumide jaoks.
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b98c968a040c14f4d11c350885e2cbb984596c48
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 75a7b63c12b0ad3c6808785b6cbe6f22bd65f126
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923413"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029525"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Mis on uut novembris 2020 – Project Operations ressursi-/mittelaopõhiste stsenaariumite jaoks
 
@@ -20,7 +20,7 @@ _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja versioonide kohta.
 
 - Project Operations CDS-i keskkonna versioonis 4.4.0.70
-- Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnaversioonis 10.0.14
+- Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnas versioon 10.0.14
 
 ## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Rakenduse Project Operations ressursi-/mittelaopõhiste stsenaariumite jaoks värskendused
 
@@ -42,7 +42,7 @@ See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja v
 | Aja- ja kiirsisestuse kirje | 2059859          | Kulukirje loomisel avaneb ootamatu hüpikaken.                                                                                                                         |
 | Muu                        | 2044181          | (Ostutellimuse desinstallimine) Kui proovite desinstallida msdyn_ProjectServiceCore_Patch ja msdyn Projektiteenuse põhilahendusi, ilmneb tõrge „Kirje pole saadaval”.  |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektijuhtimine ja raamatupidamine Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektijuhtimine ja raamatupidamine Dynamics 365 Finance. aastal
 
 | Funktsiooni ala        | Viitenumber | Kvaliteedi värskendus                                                                                                                                                            |
 |---------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja v
 | Projekti raamatupidamine  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Funktsiooni lubamine, mitu lepingurida ei ole ilma CDS-i integreerimiseta võimalikud.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Regulatiivsed uuendused
-Finance and Operationsi rakenduste regulatiivsete värskenduste kohta leiate teavet teemast [Regulatiivsed värskendused](/dynamics365/finance/localizations/regulatory-updates). Saate ka LCS-i sisse logida ja vaadata kavandatud regulatiivseid värskendusi, kasutades probleemi otsimise tööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
+Lisateavet finance and operationsi rakenduste regulatiivsete värskenduste kohta leiate teemast [Regulatiivsed värskendused](/dynamics365/finance/localizations/regulatory-updates). Saate ka LCS-i sisse logida ja vaadata kavandatud regulatiivseid värskendusi, kasutades probleemi otsimise tööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,18 +1,18 @@
 ---
 title: Mis on uut märtsis 2021 – Project Operations ressursi-/mittelaopõhiste stsenaariumite jaoks
-description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval 2021. aasta märtsi väljaandes Project Operations ressursi-/ladustamata stsenaariumide jaoks.
+description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval 2021. aasta märtsi väljaandes Project Operations ressursipõhiste/varumata stsenaariumide jaoks.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: fbdcb01117c39f879f80319b01d278c91a56e8f6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e93b4eaad98267f163bad4aff3e4fdcc661e2ab0
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932935"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028183"
 ---
 # <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Mis on uut märtsis 2021 – Project Operations ressursi-/mittelaopõhiste stsenaariumite jaoks
 
@@ -21,7 +21,7 @@ _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja versioonide kohta.
 
 - Project Operations Dataverse’i keskkonna versioonis 4.8.0.91 
-- Projektijuhtimine ja Dynamics 365 Finance keskkonnaversiooni arvestus 10.0.16 
+- Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnas versioon 10.0.16 
 
 ## <a name="quality-updates"></a>Kvaliteedi värskendused
 
@@ -48,7 +48,7 @@ Lisateavet vaadake jaotisest [Mis on uut jaanuaris 2021 – Project Operations r
 
 ## <a name="regulatory-updates"></a>Regulatiivsed uuendused
 
-Finance and Operationsi rakenduste regulatiivsete värskenduste kohta leiate teavet teemast [Regulatiivsed värskendused](/dynamics365/finance/localizations/regulatory-updates). Veel üks võimalus regulatiivsete värskenduste kohta teada saada on logida teenusesse LCS ja vaadata plaanitud regulatiivseid värskendusi, kasutades probleemide otsingu tööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
+Lisateavet finance and operationsi rakenduste regulatiivsete värskenduste kohta leiate teemast [Regulatiivsed värskendused](/dynamics365/finance/localizations/regulatory-updates). Veel üks võimalus regulatiivsete värskenduste kohta teada saada on logida teenusesse LCS ja vaadata plaanitud regulatiivseid värskendusi, kasutades probleemide otsingu tööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

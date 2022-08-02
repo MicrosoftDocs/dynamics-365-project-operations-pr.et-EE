@@ -1,18 +1,18 @@
 ---
 title: Mis on Project Operationsis ressursi-/tootmispõhiste stsenaariumite jaoks 2021. a mais uut või muutunud
-description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval 2021. aasta mais avaldatud project Operationsi väljaandes ladustatud/tootmispõhiste stsenaariumide jaoks.
+description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval 2021. aasta mai väljaandes Project Operations laos/tootmispõhiste stsenaariumide jaoks.
 author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: ec1f256e77bad581bb415611260809e377dc38e8
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: eff34a4e9fc1fc6429f1fa7a3e4b0d5b664222f9
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927139"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029387"
 ---
 # <a name="whats-new-or-changed-in-project-operations-may-2021-for-stockedproduction-based-scenarios"></a>Mis on Project Operationsis ressursi-/tootmispõhiste stsenaariumite jaoks 2021. a mais uut või muutunud
 
@@ -20,7 +20,7 @@ ms.locfileid: "8927139"
 
 See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja versioonide kohta.
 
-- Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnaversioonis 10.0.19
+- Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnas versioon 10.0.19
  
 ### <a name="quality-updates"></a>Kvaliteedi värskendused
                                                                                                                                                                                   
@@ -93,7 +93,7 @@ See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja v
 | Reisimine ja kulu                  | [574900](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574900) | Kulu mobiilirakenduses on probleeme sünkroonimisega. 
 
 ### <a name="regulatory-updates"></a>Regulatiivsed uuendused
-Finance and Operationsi rakenduste regulatiivsete värskenduste kohta leiate teavet teemast [Regulatiivsed värskendused](/dynamics365/finance/localizations/regulatory-updates). Samuti saate logida sisse teenusesse Lifecycle Services (LCS) ja vaadata plaanitud regulatiivseid värskendusi, kasutades probleemi otsingutööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
+Lisateavet finance and operationsi rakenduste regulatiivsete värskenduste kohta leiate teemast [Regulatiivsed värskendused](/dynamics365/finance/localizations/regulatory-updates). Samuti saate logida sisse teenusesse Lifecycle Services (LCS) ja vaadata plaanitud regulatiivseid värskendusi, kasutades probleemi otsingutööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

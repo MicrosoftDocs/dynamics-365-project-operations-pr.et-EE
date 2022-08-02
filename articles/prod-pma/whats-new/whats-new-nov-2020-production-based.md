@@ -1,17 +1,17 @@
 ---
 title: Mis on uut novembris 2020 – Project Operations ladustamise-/tootmispõhiste stsenaariumite jaoks
-description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval 2020. aasta novembris avaldatud project Operationsi väljaandes ladustatud tootmispõhiste stsenaariumide jaoks.
+description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval 2020. aasta novembri väljaandes Project Operations laotootmisel põhinevate stsenaariumide jaoks.
 author: sigitac
 ms.date: 10/15/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 67f71aa045dc3c9dd513462709db79436c971b7b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 8f19f8476ed2b7958f0ba90d135bda483d05c923
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911224"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028197"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Mis on uut novembris 2020 – Project Operations ladustamise-/tootmispõhiste stsenaariumite jaoks
 
@@ -23,7 +23,7 @@ Teabe saamiseks selles värskenduses sisalduvate paranduste kohta logige sisse t
 
 ## <a name="regulatory-updates"></a>Regulatiivsed uuendused
 
-Teavet Dynamics 365 Finance and Operations rakenduste regulatiivsete värskenduste kohta leiate teemast [Regulatiivsed värskendused](/dynamics365/finance/localizations/regulatory-updates). Saate ka LCS-i sisse logida ja vaadata kavandatud regulatiivseid värskendusi, kasutades probleemi otsimise tööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
+Lisateavet dynamics 365 Finance and Operationsi rakenduste regulatiivsete värskenduste kohta leiate teemast [Regulatiivsed värskendused](/dynamics365/finance/localizations/regulatory-updates). Saate ka LCS-i sisse logida ja vaadata kavandatud regulatiivseid värskendusi, kasutades probleemi otsimise tööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

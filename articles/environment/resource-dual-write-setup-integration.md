@@ -1,55 +1,55 @@
 ---
 title: Rakenduse Project Operations häälestamise ja konfigureerimisandmete integreerimine
-description: Selles artiklis antakse teavet Project Operationsi kahe kirjutamiskaartide seadistamise ja konfigureerimise kohta.
+description: Sellest artiklist leiate teavet Project Operationsi topeltkirjutuskaartide häälestamise ja konfigureerimise kohta.
 author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 173ff01e938af48d2d6488d5e59cf4e74b3af8e4
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d03393de893c39ceb53c06a3031395f765a26f55
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914535"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029147"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Rakenduse Project Operations häälestamise ja konfigureerimisandmete integreerimine
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Selles artiklis antakse teavet seadistus- ja konfiguratsiooniolemite Project Operationsi topeltkirjutamise integratsiooni kohta.
+Sellest artiklist leiate teavet installi- ja konfiguratsiooniolemite Project Operationsi topeltkirjutusega integreerimise kohta.
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>Projektilepingud, lepinguread ja projektid
 
-Projektilepingud, lepinguread ja projektid luuakse täiendavaks raamatupidamiseks rakendustes Dataverse Finance and Operations ja sünkroonitakse nendega. Nende olemite kirjeid saab luua ja kustutada ainult rakenduse Dataverse kaudu. Siiski saab rakendustes Finance and Operations nendele kirjetele lisada raamatupidamisatribuute, nagu käibemaksugrupi vaikesätted ja finantsdimensioonid.
+Projektilepingud, lepinguread ja projektid luuakse Dataverse ja sünkroonitakse finance and operationsi rakendustega täiendava raamatupidamise jaoks. Nende olemite kirjeid saab luua ja kustutada ainult rakenduse Dataverse kaudu. Raamatupidamisatribuute, nagu käibemaksugrupi vaikeväärtused ja finantsdimensioonid, saab aga nendele kirjetele lisada finance and operationsi rakendustes.
 
   ![Projekti lepingu integreerimise mõisted.](./media/1ProjectContract.jpg)
 
-Müügitegevuse müügivihjeid, müügivõimalusi ja hinnapakkumisi jälgitakse rakenduses ja neid ei sünkroonita rakendustega Dataverse Finance and Operations, kuna selle tegevusega pole seotud järgmise etapi raamatupidamist.
+Müügitegevuse müügivihjeid, müügivõimalusi ja hinnapakkumisi jälgitakse ja neid ei sünkroonita Dataverse finants- ja toimingurakendustega, kuna selle tegevusega pole seotud järgmise etapi raamatupidamisarvestust.
 
-Projektilepingu funktsioon rakenduses Dataverse loob projektilepingu kirje rakendustes Finance and Operations, kasutades **tabelikaarti Projekti lepingupäised (müügitellimused).** Projekti lepingu salvestamine Dataverse’is käivitab ka projekti lepingu kliendi olemikirje loomise. See kirje sünkroonitakse rakendustega Finance and Operations tabelikaardi Project funding source (msdyn **projectcontractssplitbillingrules)\_ abil**. See kaart sünkroonib ka projekti lepingu kliendi lisamised, värskendused ja kustutamised. Tükeldatud arveldusprotsendid projektilepingu klientide vahel on omandatud ainult rakenduses Dataverse ja neid ei sünkroonita rakendustega Finance and Operations.
+Projektilepingu funktsioon loob rakenduses Dataverse Finance and Operations projektilepingu kirje, kasutades **tabelikaarti Project contract headers (salesorders).** Projekti lepingu salvestamine Dataverse’is käivitab ka projekti lepingu kliendi olemikirje loomise. See kirje sünkroonitakse finants- ja toimingurakendustega, kasutades **tabelit Project funding source (msdyn\_ projectcontractssplitbillingrules).** See kaart sünkroonib ka projekti lepingu kliendi lisamised, värskendused ja kustutamised. Arveldusprotsentide jagamine projektilepingu klientide vahel omandatakse ainult finance and operationsi rakendustes Dataverse ja neid ei sünkroonita nendega.
 
-Pärast projektilepingu loomist Dataverse rakenduses saate projekti raamatupidaja värskendada selle projektilepingu raamatupidamisatribuute finance and Operations rakendustes, minnes jaotisse **Projektihaldus- ja raamatupidamislepingud** > **Projektilepingud** > **Kuva** > **vaikearvestus**. Raamatupidaja saab üle vaadata projekti tegevuslepingu atribuudid, näiteks nõutud tarnekuupäeva ja lepingu summa, valides rakenduses Finance and Operations projektilepingu ID, mis avab seotud projektilepingu kirje Dataverse rakenduses.
+Pärast projektilepingu loomist Dataverse rakenduses saab projekti raamatupidaja värskendada selle projektilepingu raamatupidamisatribuute finance and operationsi rakendustes, minnes jaotisse **Projektihaldus ja raamatupidamine** > **Projektilepingute** > **seadistamine** > **Kuva vaikearvestus**. Raamatupidaja saab üle vaadata operatiivse projekti lepingu atribuudid, nagu taotletud tarnekuupäev ja lepingu summa, valides finance and operationsi rakendustes projekti lepingu ID, mis avab seotud projektilepingu kirje rakenduses Dataverse.
 
-Projekti olem sünkroonitakse rakendustega Finance and Operations tabelikaardi Projektid V2 (msdyn **projects)\_ abil**. Projekti raamatupidaja saab teha järgmist.
+Projekti olem sünkroonitakse finants- ja toimingurakendustega, kasutades **tabelikaarti Projects V2 (msdyn\_ projects).** Projekti raamatupidaja saab teha järgmist.
 
-  - Vaadake projektid finance and Operationsi rakendustes üle, minnes projektijuhtimisse **ja raamatupidamisse** > **Kõik projektid**. 
-  - Saate värskendada projekti raamatupidamisatribuute rakendustes Finance and Operations rakendustes, minnes jaotisse **Projektihaldus ja raamatupidamine** > **Kõik projektid** > **Seadista** > **Kuva vaikearvestus**.  
-  - Vaadake üle operatiivprojekti atribuudid (nt hinnangulised algus- ja lõppkuupäevad), valides rakenduses Finance and Operations projekti ID, mis avab rakenduses seotud projektikirje Dataverse.
+  - Vaadake projekte finance and operationsi rakendustes üle, minnes jaotisse **Projektihaldus ja raamatupidamine** > **Kõik projektid**. 
+  - Värskendage projekti raamatupidamisatribuute finance and operationsi rakendustes, minnes jaotisse **Projektihaldus ja raamatupidamine** > **Kõik projektid** > **Seadistatud** > **Kuva vaikearvestus**.  
+  - Vaadake üle projekti tööatribuudid, nagu hinnangulised algus- ja lõppkuupäevad, valides finance and operationsi rakendustes projekti ID, mis avab seotud projektikirje rakenduses Dataverse.
 
 Projekt seostatakse projekti lepinguga olemi **Projekti lepingurida** kaudu.
 
-Projektilepingu read rakenduses Dataverse loob projektilepingu arveldusreegli rakendustes Finance and Operations, kasutades **tabelikaarti Projekti lepinguridu (salesorderdetails).** Arveldusmeetod määratleb projektilepingu arveldusreegli tüübi rakendustes Finance and Operations.
+Projekti lepinguread loob Dataverse rakenduses Finance and Operations projektilepingu arveldusreegli, kasutades **tabelit Project contract lines (salesorderdetails)** kaart. Arveldusmeetod määratleb finance and operationsi rakendustes projektilepingu arveldusreegli tüübi.
 
   - Aja ja materjali arveldusmeetodiga projektilepingu read loovad aja- ja materjalitüübi arveldusreegli.
   - Fikseeritud hinnaga arveldusmeetodiga lepinguread loovad vahekokkuvõtte arveldusreegli.
 
-Projekti lepinguridu saab projekti raamatupidaja vaadata rakendustes Finance and Operations, minnes jaotisse **Projektihaldus- ja raamatupidamisprojektilepingud** > **·** > **Seadistage** > **Kuva vaikearvestus** ja vaadake üle vahekaardi Leping ridade **üksikasjad**. Raamatupidaja saab sellel vahekaardil määrata fikseeritud hinna arveldusmeetodi lepinguridade vaikedimensioonid.
+Projekti lepinguread saab projekti raamatupidaja finance and operationsi rakendustes üle vaadata, **minnes lehele Projektihaldus ja raamatupidamine** > **Projektilepingud** > **Seadistage** > **vaikearvestus** ja vaadake üle vahekaardil Lepingu read **olevad** üksikasjad. Raamatupidaja saab sellel vahekaardil määrata ka fikseeritud hinnaga arveldusmeetodi lepingu ridadele vaikefinantsdimensioonid.
 
 ## <a name="billing-milestones"></a>Arvelduse vahekokkuvõtted
 
-Fikseeritud hinnaga arveldamise meetodit kasutavad projektilepingu read arveldatakse arveldamise vahekokkuvõtete kaudu. Arvelduse vahe-eesmärgid sünkroonitakse projekti ettemaksukannetega Finance and Operationsi rakendustes, kasutades **tabelikaarti Project Operations integration contract line milestones (msdyn\_ contractlinescheduleofvalues).**
+Fikseeritud hinnaga arveldamise meetodit kasutavad projektilepingu read arveldatakse arveldamise vahekokkuvõtete kaudu. Arvelduse verstapostid sünkroonitakse projekti ettemaksukannetega finance and operationsi rakendustes, kasutades **Project Operationsi integratsiooni lepingurea verstapostide (msdyn\_ contractlinescheduleofvalues)** tabelikaarti.
 
   ![Arvelduste vahekokkuvõtete integreerimine.](./media/2Milestones.jpg)
 
@@ -59,21 +59,21 @@ Kui loote selle projektilepingu rea jaoks esmalt arvelduse vahekokkuvõtte, loob
 
 ### <a name="project-tasks"></a>Projekti ülesanded
 
-Projektiülesanded sünkroonitakse rakendustega Finance and Operations tabelikaardi Project tasks (msdyn **projecttasks)\_ kaudu** ainult viiteeesmärkidel. Finance and Operationsi rakenduste kaudu ei toetata toimingute loomist, värskendamist ja kustutamist.
+Projektiülesanded sünkroonitakse finance and operationsi rakendustega Project tasks (msdyn **projecttasks)\_ tabelikaardi kaudu** ainult viitamise eesmärgil. Toimingute loomist, värskendamist ja kustutamist ei toetata finance and operationsi rakenduste kaudu.
 
   ![Projektiülesannete integreerimine.](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Projekti ressursid
 
-Olem **Projekti ressursirollid** sünkroonitakse rakendustega Finance and Operations, kasutades **projekti ressursirolle kõigi ettevõtete (broneeritavate ressursside)** tabelikaardi jaoks ainult viiteeesmärkidel. Kuna ressursirollid rakenduses Dataverse ei ole ettevõttespetsiifilised, loob süsteem finance and Operationsi rakendustes automaatselt vastavad ettevõttespetsiifilised ressursirollide kirjed kõigi juriidiliste isikute jaoks, kes on kaasatud kahe kirjutamise integratsiooniulatusse.
+Olem **Projekti ressursirollid** sünkroonitakse finance and operationsi rakendustega, kasutades **tabelit Project resource roles for all companies (bookableres resourcescecategories) (Projekti ressursirollid)** ainult viitamise eesmärgil. Kuna ressursirollid Dataverse ei ole ettevõttepõhised, loob süsteem vastavad ettevõttepõhised ressursirollide kirjed finants- ja operatsioonirakendustes automaatselt kõigile juriidilistele isikutele, kes on kaasatud topeltkirjutusega integratsiooni ulatusse.
 
 ![Ressursirollide integreerimine.](./media/5Resources.jpg)
 
-Project Operationsi projektiressursse hoitakse rakenduses Dataverse ja neid ei sünkroonita rakendustega Finance and Operations.
+Project Operationsi projektiressursse hoitakse rakenduses Dataverse Finance and Operations ja neid ei sünkroonita rakendustega Finance and Operations.
 
 ### <a name="transaction-categories"></a>Kandekategooriad
 
-Tehingukategooriaid säilitatakse ja sünkroonitakse rakendustega Dataverse Finance and Operations, kasutades **tabelikaarti Project transaction categories (msdyn\_ transactioncategories).** Pärast kandekategooria kirje sünkroonimist loob süsteem automaatselt neli ühiskategooria kirjet. Iga kirje vastab rakenduse Finance and Operations kandetüübile ja seob need kandekategooria kirjega.
+Kandekategooriaid hoitakse finants- ja toimingurakendustes Dataverse ning sünkroonitakse nendega, kasutades **tabelit Projekti kandekategooriad (msdyn\_ transactioncategories).** Pärast kandekategooria kirje sünkroonimist loob süsteem automaatselt neli ühiskategooria kirjet. Iga kirje vastab finants- ja toimingurakendustes tehingutüübile ja seob need kandekategooria kirjega.
 
 ![Kandekategooriate integreerimine.](./media/4TransactionCategories.jpg)
 

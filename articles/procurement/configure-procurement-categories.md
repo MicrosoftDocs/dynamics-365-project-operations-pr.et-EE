@@ -7,49 +7,49 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f71c6bfcd183613471a4cc10e16a5a54571fac31
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927415"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028605"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>Hankekategooriate kasutamine projekti ostutellimuste ja ootel hankija arvetega
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Ostuspetsialistid saavad luua ja hallata nende kaupade ja teenuste katalooge, mida saab kasutada projekti ostutellimustes ja ootel hankija arvetes. [Hankekataloogid](/dynamics365/supply-chain/procurement/procurement-catalogs) annavad teile lihtsa viisi ostude kategoriseerimiseks, ilma et peaksite konfigureerima ja kasutama väljastatud toodete kataloogi. Aja-, kulu- või kaubakannete puhul saab iga hankekategooria vastendada projektikategooriaga. Pärast hankekategooriat kasutava ootel hankija arve konteerimist loob süsteem aja-, kulu- või materjaliprojekti tegelikud andmed, projektikanded ja alammooduli kanded.
+Ostuspetsialistid saavad luua ja hallata katalooge kaupadest ja teenustest, mida saab kasutada projekti ostutellimustes ja ootel hankija arvetes. [Hankekataloogid](/dynamics365/supply-chain/procurement/procurement-catalogs) annavad teile lihtsa viisi ostude kategoriseerimiseks, ilma et peaksite väljastatud toodete kataloogi konfigureerima ja kasutama. Iga hankekategooria saab vastendada aja-, kulu- või kaubakannete projektikategooriaga. Pärast hankekategooriat kasutava ootel hankija arve sisestamist loob süsteem aja-, kulu- või materjaliprojekti tegelikud, projektikanded ja alammooduli kirjed.
 
-## <a name="minimum-version-requirements"></a>Versiooni miinimumnõuded
+## <a name="minimum-version-requirements"></a>Minimaalsed versiooninõuded
 
-Microsofti Dynamics 365 Project Operations ladustamata/ressursipõhiste stsenaariumide jaoks projekti ostutellimustega hankekategooriate kasutamiseks on vaja järgmisi versioone.
+Järgmised versioonid on vajalikud hankekategooriate kasutamiseks projekti ostutellimustega Microsofti Dynamics 365 Project Operations varudeta/ressursipõhiste stsenaariumide korral.
 
-- Project Operationsi Dataverse lahenduse versioon 4.41.0.45 või uuem versioon
-- Rahandus- ja operatsioonide keskkonnaversioon 10.0.26 või uuem versioon
+- Project Operationsi Dataverse lahenduse versioon 4.41.0.45 või uuem
+- Finance and Operationsi keskkonna versioon 10.0.26 või uuem
 
-## <a name="run-dual-write-maps-for-procurement-category-support"></a>Hankekategooria toe topeltkirjutuskaartide käivitamine
+## <a name="run-dual-write-maps-for-procurement-category-support"></a>Hankekategooria toe jaoks kahe kirjutisega kaartide käitamine
 
-Veenduge, et Project Operationsi integreerimise projekti hankija arve rea ekspordiolemi msdyn **projectvendorinvoicelines\_ vastendamine kasutaks** versiooni 1.0.0.4 või uuemat versiooni.
+Veenduge, et vastendamisel **Project Operationsi integreerimise projekti hankija arve rea ekspordi olem msdyn\_ projectvendorinvoicelines** kasutab versiooni 1.0.0.4 või uuemat versiooni.
 
 ## <a name="enable-the-feature-key-for-procurement-categories"></a>Hankekategooriate funktsioonivõtme lubamine
 
-Järgige neid juhiseid hankekategooriate kasutamise funktsiooni lubamiseks projekti ostutellimustega.
+Järgige neid juhiseid, et lubada hankekategooriate kasutamise funktsioon projekti ostutellimustega.
 
-1. Avage Dynamics 365 Finance **funktsioonihalduse** tööruum.
-1. Otsige funktsiooniloendist üles **funktsioon Kasuta hankekategooriaid projektitoimingutes ressursipõhiste/ladustamata stsenaariumide** jaoks ja seejärel valige **Luba**.
+1. Avage Dynamics 365 Finance **tööruum Funktsioonihaldus**.
+1. Otsige funktsioonide loendist üles **funktsioon Kasuta hankekategooriaid rakenduses Project Operations ressursipõhiste/varumata stsenaariumide** jaoks ja seejärel valige **Luba**.
 
 > [!IMPORTANT]
-> Eeltingimusena peate lubama **ka funktsiooni Luba ootel hankija arved Project Operationsis ressursipõhiste/ladustamata stsenaariumide** jaoks.
+> Eeltingimusena peate lubama **ka funktsiooni Luba ootel hankija arved project operationsis ressursipõhiste/ladustamata stsenaariumide** jaoks.
 
-## <a name="map-project-categories-in-the-procurement-category-hierarchy"></a>Projektikategooriate vastendamine kategoorias Hanked
+## <a name="map-project-categories-in-the-procurement-category-hierarchy"></a>Projektikategooriate vastendamine hankekategooriate hierarhias
 
-Projektikategooriate vastendamiseks hankekategooriatega kategoorias Hange kategooria **hierarhias** tehke järgmist.
+Järgige neid juhiseid projektikategooriate vastendamiseks hankekategooriatega hankekategooriatega **hankekategooriate** hierarhias.
 
-1. **Avage hanke- ja hankekategooriad \> Hanked**.
-1. Valige **Redigeeri kategooriahierarhiat**.
-1. Valige soovitud kategooriahierarhia sõlm ja seejärel seostage vahekaardil Projektikategooriate **määramine sõlm projektikategooriaga kategooriast Aeg**, **Kulu** või **Kaubaprojekt** (st **kategooria Vaikeaeg** **või** Vaikekulu **).**
+1. Avage **Hanked ja hanked \> Hankekategooriad**.
+1. Valige **Kategooriahierarhia** redigeerimine.
+1. Valige soovitud kategooriahierarhia sõlm ja seejärel seostage vahekaardil Projektikategooriate määramine sõlm **projektikategooriaga kategooriast Aeg**, **Kulu** või **Üksus Projekt** (**st kategooria Vaikeaeg** **või** Vaikekulu **).**
 1. Valige **Salvesta**.
 1. Sulgege leht.
 
 > [!NOTE]
-> Hankekategooria vastendamine projektikategooriaga on valikuline. Kui hankekategooriat pole vastendatud, kasutab süsteem väärtust, mis on seatud **lehe Projektihaldus- ja raamatupidamisparameetrite** **vahekaardi** Project 365 Customer engagement **jaotises Projekti kategooria vaikesätted jaotises** Projekti kategooria vaikesätted väljal **Kaup**.
+> Hankekategooria vastendamine projektikategooriaga on valikuline. Kui hankekategooriat ei vasteta, kasutab süsteem väärtust, mis on määratud väljal **Kaup** vahekaardil Projektitoimingud Dynamics 365 Customer engagement **vahekaardil** Projektihalduse ja raamatupidamise parameetrid jaotises **Projektikategooria vaikeväärtused** **.**

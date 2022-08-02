@@ -1,17 +1,17 @@
 ---
 title: Läbisõidu seadistamine läbisõidu määra astmeid kasutades
-description: See artikkel annab teavet läbisõidukiiruse ja läbisõidumäära tasemete kohta.
+description: Selles artiklis antakse teavet läbisõidumäärade ja läbisõidumäära astmete kohta.
 author: suvaidya
 ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 03ca18c8fef6228f2ba553ebe50447beda5a857c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9689bbaf4c4f88ad9f746c3f98676f97e634ab6c
+ms.sourcegitcommit: 5e1f549a2e55a87351b2979e3aff402ed35487e1
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930129"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9064273"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>Läbisõidu seadistamine läbisõidu määra astmeid kasutades
 
@@ -50,5 +50,15 @@ Funktsioon **Mitme saa määra funktsiooniga läbisõidu astme jaoks läbisõidu
 
 Pärast funktsiooni lubamist lähtestage algsed läbisõidu astmed õigetele, et need kajastaksid välja **Kogus** väärtust õigesti. 
 
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Läbisõidu kogusummade arvutamise lubamine finantsaasta funktsiooni järgi
+
+Funktsioon **Läbisõidu kogusummade arvutamine finantsaasta** abil võimaldab kuluhalduse parameetrites uue sätte, mis teostab läbisõidu kogusummade arvutusi kalendriaasta asemel finantsaasta kaupa. Selle funktsiooni lubamiseks tehke järgmist.
+
+1. Minge jaotisse **Tööruumid** > **Funktsiooni juhtimine**.
+1. Otsige loendist üles ja valige **läbisõidu kogusummade arvutamine finantsaasta** järgi ning seejärel valige **Luba kohe**.
+1. Avage **Kuluhalduse** > **seadistus** > **Üldkulude** > **halduse parameetrid**.
+1. **Leidke ja lubage** lehel Kuluhalduse parameetrid **läbisõidu kogusummade** jaoks suvand Kasuta finantsaasta.
+
+Pärast seda, kui olete lubanud kasutada **läbisõidu kogusummade** jaoks finantsaasta, arvutatakse läbisõidu kogusummad finantsaasta järgi.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

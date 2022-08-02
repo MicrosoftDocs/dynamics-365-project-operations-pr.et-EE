@@ -1,18 +1,18 @@
 ---
 title: Mis on rakenduses Project Operations logimata/tootmispõhiste stsenaariumite puhul uut või muudetud 2021. a aprillis?
-description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval Project Operationsi 2021. aasta aprilli väljaandes ladustatud/tootmispõhiste stsenaariumide jaoks.
+description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval 2021. aasta aprilli väljaandes Project Operations for stocked/production-based scenarios.
 author: andchoi
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 726e940d2cb5dff11c682c27dc936322856b6440
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 74cace069e0b5a982e6ea1df0607ff72f1911a0f
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916467"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028149"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>Mis on rakenduses Project Operations logimata/tootmispõhiste stsenaariumite puhul uut või muudetud 2021. a aprillis?
 
@@ -20,7 +20,7 @@ _**Kehtib järgmiste puhul:** Project Operations ladustamise-/tootmispõhiste st
 
 See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja versioonide kohta.
 
-- Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnaversioonis 10.0.18
+- Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnas versioon 10.0.18
  
 ### <a name="quality-updates"></a>Kvaliteedi värskendused
                                                                                                                                                                                   
@@ -83,7 +83,7 @@ See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja v
 | Reisimine ja kulu                | [550575](https://fix.lcs.dynamics.com/Issue/Details/?bugId=550575) | Kui kulukategooria on mitte projektipõhisest kategooriast, ei kopeerita lehel **Kulud** valitud finantsdimensioone kuluaruandesse.                                          |
 
 ### <a name="regulatory-updates"></a>Regulatiivsed uuendused
-Finance and Operationsi rakenduste regulatiivsete värskenduste kohta leiate teavet teemast [Regulatiivsed värskendused](/dynamics365/finance/localizations/regulatory-updates). Saate ka LCS-i sisse logida ja vaadata kavandatud regulatiivseid värskendusi, kasutades probleemi otsimise tööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
+Lisateavet finance and operationsi rakenduste regulatiivsete värskenduste kohta leiate teemast [Regulatiivsed värskendused](/dynamics365/finance/localizations/regulatory-updates). Saate ka LCS-i sisse logida ja vaadata kavandatud regulatiivseid värskendusi, kasutades probleemi otsimise tööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

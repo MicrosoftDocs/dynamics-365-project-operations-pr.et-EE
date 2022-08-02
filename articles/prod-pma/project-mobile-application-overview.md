@@ -1,6 +1,6 @@
 ---
 title: Projekti mobiilirakenduse ülevaade
-description: Selles artiklis antakse üldist teavet mobiilsideseadmes saadaolevate projekti ajaga seotud rakenduste kohta Microsoft Dynamics 365 Project Timesheet, mis on projekti ajakohased rakendused, projekti ajakirje ja minu ajatabelid/ajatabelid.
+description: Selles artiklis antakse üldist teavet projekti ajaga seotud rakenduste, Microsoft Dynamics 365 Project Timesheet projekti aja sisestamise ja minu ajatabelite/ajatabelite kohta, mis on saadaval mobiilseadmes.
 author: Yowelle
 ms.date: 05/28/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: ecd6bded5fcf834ea14f7aca1ff11a1ede162877
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922861"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028881"
 ---
 # <a name="project-mobile-applications-overview"></a>Projekti mobiilirakenduse ülevaade
 
@@ -29,15 +29,15 @@ Microsoft Dynamics 365 Project Timesheeti, projekti kellaaja olemi ja suvandi Mi
 
 ## <a name="project-timesheet-mobile-app"></a>Mobiilirakendus Project Timesheet
 
-Mobiilirakendus Dynamics 365 Project Timesheet võimaldab kasutajatel oma mobiilsideseadmes esitada ja kinnitada projektide ajatabeleid. See mobiilirakendus avab ajatabeli funktsioonid Dynamics 365 Finance projektihaldus- ja raamatupidamisvaldkonnas. See aitab parandada kasutaja tööviljakust ja tõhusust ning aitab ka projekti ajatabelite õigeaegse sisestamise ja kinnitamisega.
+Mobiilirakendus Dynamics 365 Project Timesheet võimaldab kasutajatel oma mobiilsideseadmes esitada ja kinnitada projektide ajatabeleid. See mobiilirakendus toob esile ajatabeli funktsionaalsuse Dynamics 365 Finance alal Projektihaldus ja raamatupidamine. See aitab parandada kasutaja tööviljakust ja tõhusust ning aitab ka projekti ajatabelite õigeaegse sisestamise ja kinnitamisega.
 
 ## <a name="project-time-entry-workspace"></a>Projekti ajasisestuse tööruum
 
-Projekti ajasisestuse tööruum võimaldab kasutajatel sisestada ja hoida kokku aega projekti suhtes. Samas see ei võimalda kasutajatel projekti ajatabeleid esitada ega kinnitada. Seda saab kasutada ainult aja sisestamiseks. See mobiilne tööruum on mõeldud kasutamiseks koos mobiilirakendusega Finance and Operations.
+Projekti ajasisestuse tööruum võimaldab kasutajatel sisestada ja hoida kokku aega projekti suhtes. Samas see ei võimalda kasutajatel projekti ajatabeleid esitada ega kinnitada. Seda saab kasutada ainult aja sisestamiseks. See mobiilne tööruum on mõeldud kasutamiseks koos finance and operations mobiilirakendusega.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Minu ajatabelid / Ajatabelid minu poolt läbivaatamiseks
 
-Minu ajatabelid (optimeeritud mobiilidele) ja Ajatabelid minu poolt läbivaatamiseks (optimeeritud mobiilidele) moodustavad lahenduse, mis võimaldab töötajatel mobiilsideseadmes luua, esitada ja kinnitada projekti ajatabeleid. Töötajad pääsevad rakenduse Finance funktsioonile juurde rakenduse URL-i kaudu. See lahendus ei nõua mobiilirakendust Finance and Operations.
+Minu ajatabelid (optimeeritud mobiilidele) ja Ajatabelid minu poolt läbivaatamiseks (optimeeritud mobiilidele) moodustavad lahenduse, mis võimaldab töötajatel mobiilsideseadmes luua, esitada ja kinnitada projekti ajatabeleid. Töötajad pääsevad rakenduse Finance funktsioonile juurde rakenduse URL-i kaudu. See lahendus ei vaja finance and operations mobiilirakendust.
 
 ## <a name="for-more-information"></a>Lisateabe saamiseks
 

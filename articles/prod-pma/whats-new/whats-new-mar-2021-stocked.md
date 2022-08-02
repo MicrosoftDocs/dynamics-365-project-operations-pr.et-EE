@@ -1,18 +1,18 @@
 ---
 title: Mis on rakenduses Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks märtsis 2021 uut või muutunud
-description: Selles artiklis antakse teavet 2021. aasta märtsi projektitoimingute väljaandes saadaolevate kvaliteedivärskenduste kohta ladustatud/tootmispõhiste stsenaariumide jaoks.
+description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval 2021. aasta märtsi väljaandes Project Operations laos/tootmispõhiste stsenaariumide jaoks.
 author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: fffa9d70574c8c91b63ceb5055af64a49c9d398b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 727f2c782370b61fce65385fe29fbfa6f2387087
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911315"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028743"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Mis on rakenduses Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks märtsis 2021 uut või muutunud
 
@@ -20,7 +20,7 @@ _**Kehtib järgmiste puhul:** Project Operations ladustamise-/tootmispõhiste st
 
 See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja versioonide kohta.
 
-- Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnaversioonis 10.0.17
+- Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnas versioon 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Selles väljaandes sisalduvad funktsioonid
 Selles väljaandes sisalduvad järgmised funktsioonid.
@@ -121,7 +121,7 @@ Selles väljaandes sisalduvad järgmised funktsioonid.
 | Projektihaldus ja raamatupidamine | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | Pärandi tööjaotuse struktuuri (WBS) klassi meetod, **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** on iganenud.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Regulatiivsed uuendused
-Finance and Operationsi rakenduste regulatiivsete värskenduste kohta leiate teavet teemast [Regulatiivsed värskendused](/dynamics365/finance/localizations/regulatory-updates). Saate ka LCS-i sisse logida ja vaadata kavandatud regulatiivseid värskendusi, kasutades probleemi otsimise tööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
+Lisateavet finance and operationsi rakenduste regulatiivsete värskenduste kohta leiate teemast [Regulatiivsed värskendused](/dynamics365/finance/localizations/regulatory-updates). Saate ka LCS-i sisse logida ja vaadata kavandatud regulatiivseid värskendusi, kasutades probleemi otsimise tööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

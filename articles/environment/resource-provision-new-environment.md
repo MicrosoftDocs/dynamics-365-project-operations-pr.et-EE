@@ -1,18 +1,18 @@
 ---
 title: Uue keskkonna ettevalmistamine
-description: Selles artiklis antakse teavet selle kohta, kuidas pakkuda uut Project Operationsi keskkonda.
+description: Selles artiklis antakse teavet uue Project Operationsi keskkonna ettevalmistamise kohta.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 78f40ebe79c038799fbc59902442ad6c23fb94d4
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931601"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028492"
 ---
 # <a name="provision-a-new-environment"></a>Uue keskkonna ettevalmistamine
 
@@ -20,7 +20,7 @@ _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
 
 
-Selles artiklis antakse teavet selle kohta, kuidas pakkuda uut Dynamics 365 Project Operations keskkonda ressursi-/ladustamata stsenaariumide jaoks.
+Selles artiklis antakse teavet selle kohta, kuidas ressursipõhiste/varudeta stsenaariumide jaoks uut Dynamics 365 Project Operations keskkonda ette valmistada.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Project Operationsi automaatse ettevalmistamise lubamine LCS projektis
 
@@ -34,7 +34,7 @@ Kasutage järgmisi samme, et lubada Project Operationsi automaatse ettevalmistam
 
 ## <a name="provision-a-project-operations-environment"></a>Project Operationsi keskkonna ettevalmistamine
 
-1. Avage uus Dynamics 365 Finance [demokeskkond](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) või [liivakasti/tootmiskeskkonna](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) juurutamine. 
+1. Avage uus Dynamics 365 Finance [demokeskkond](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) või [liivakasti/ tootmiskeskkonna](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) juurutamine. 
 2. Läbige **Keskkonna ettevalmistamise** viisard. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Võimalik, et peate selle versiooni saamiseks rakendama oma Finance'i keskkonnal
 
     ![Rakenda lahendused.](./media/13ApplySolutions.png)
 
-5. Valige mõlemad lahendused, **Dynamics 365 Finance and Operations kahe kirjutamisolemi kaart** ja **Dynamics 365 Project Operations topeltkirjutuse olemikaardid**, ning seejärel valige **Rakenda**.
+5. Valige mõlemad lahendused, **Dynamics 365 Finance Dual Write Entity Map** ja **Dynamics 365 Project Operations Dual Write Entity Maps** ning seejärel valige **Rakenda**.
 
     ![Lahenduste kinnitamine.](./media/14ConfirmSolutions.png)
 

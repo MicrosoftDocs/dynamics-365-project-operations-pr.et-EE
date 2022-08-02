@@ -1,17 +1,17 @@
 ---
 title: Project Operationsi prooviversioonidele registreerumine
-description: Selles artiklis antakse teavet rakenduse prooviversiooni juurutamise kohta Dynamics 365 Project Operations.
+description: Sellest artiklist leiate teavet selle kohta, kuidas juurutada prooviversiooni Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 6a6986cfd6c01d1c22d37a10c8d824730fad2e9e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959644"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029295"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Project Operationsi prooviversioonidele registreerumine 
 
@@ -21,7 +21,7 @@ _**Kehtib järgmiste puhul:** Project Operations ressursipõhiste/mittelaopõhis
 
 Selles artiklis selgitatakse, kuidas tellida eelvaatepartneri pakkumist ja juurutada Dynamics 365 Project Operations keskkonda.
 
-Uue Project Operationsi prooviversiooniga saate automaatselt juurutada ükskõik millise kolmest toetatud juurutusstsenaariumist, täites küsimustiku, mis soovitab parimat juurutusviisi. See artikkel annab teavet selle kohta, kuidas:
+Uue Project Operationsi prooviversiooniga saate automaatselt juurutada ükskõik millise kolmest toetatud juurutusstsenaariumist, täites küsimustiku, mis soovitab parimat juurutusviisi. See artikkel annab teavet selle kohta, kuidas teha järgmist.
 
 - Lunastada oma prooviversiooni pakkumine.
 - Käivitada ettevalmistus.
@@ -86,18 +86,18 @@ Enne alustamist logige brauserisse kasutaja töökontoga sisse selles rentnikus,
  
   Kui ettevalmistamine on lõpule viidud, on teie keskkonna olekuks **Valmis**. Keskkonna ettevalmistamine hõlmab demoandmete juurutamist.
  
-4.  Valige juurutuse kinnitamiseks vastav Microsoft Dataverse URL ning Finance and Operationsi rakenduste URL-id.
+4.  Juurutuse valideerimiseks valige vastav Microsoft Dataverse URL ning finance and operationsi rakenduste URL-id.
 
 ## <a name="configuring-dual-write"></a>Topeltkirjutuse konfigureerimine
-- Topeltkirjutamise turberollide konfigureerimiseks lugege teemat [Project Operationsi turbesätete värskendamine rakenduses Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
-- Topeltkirjutamise konfiguratsioonile juurdepääsemiseks liikuge eksemplarile Finance and Operations ning seejärel liikuge andmehalduse topeltkirjutuse **juurde** > **·**.
-- Kahe kirjutamisega kaartide konfigureerimiseks lugege teemat [Käivita projektitoimingud kahe kirjutamise kaardid](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
+- Topeltkirjutuse turberollide konfigureerimise kohta leiate teavet teemast [Turbesätete värskendamine rakenduses Project Operations Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Topeltkirjutuse konfiguratsioonile juurdepääsemiseks liikuge finance and operations eksemplari, seejärel liikuge **andmehalduse** > **topeltkirjutusse**.
+- Topeltkirjutuskaartide konfigureerimise kohta leiate teavet teemast [Project Operationsi kahe kirjutusviisiga kaartide](resource-provision-new-environment.md#run-project-operations-dual-write-maps) käivitamine.
 
 ## <a name="assign-licenses"></a>Litsentside määramine
 
 Järgmiste toimingute lõpuleviimiseks on teil vaja oma organisatsiooni Microsoft 365 portaali administraatori juurdepääsu.
 
-1. Kasutajatele litsentside määramiseks minge [Microsoft 365 halduskeskusesse](https://portal.office.com/).
+1. [Microsoft 365 Kasutajatele litsentside määramiseks minge halduskeskusesse](https://portal.office.com/).
 
    ![Halduskeskuse avaleht](./media/14AdminPortal.png)
 
@@ -117,7 +117,7 @@ Järgmistest ressurssidest on Project Operationsi teekonna alustamisel palju abi
 
 ## <a name="frequently-asked-questions"></a>Korduma kippuvad küsimused
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Mis siis, kui ma nõuan oma finance and Operationsi rakenduste keskkonna jaoks ALM-i või ELM-i?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Mida teha, kui vajan finance and operationsi rakenduste keskkonna jaoks ALM-i või ELM-i?
 
 - Partnerid, kes vajavad täieliku keskkonna elutsükli haldamise võimalusi, vt uue partneri pakkumise ülevaatamiseks jaotist [Partneri liivakastilitsentsi taotlus](https://experience.dynamics.com/requestlicense). 
 - Partnerid, kes soovivad saada rohkem teavet sisemiste kasutusõiguste kohta, vt jaotist [Sisemiste kasutusõiguste pilve- ja tarkvaraeelised (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).
@@ -125,7 +125,7 @@ Järgmistest ressurssidest on Project Operationsi teekonna alustamisel palju abi
 ### <a name="can-i-extend-my-trial-beyond-30-days"></a>Kas ma saan oma prooviversiooni pikendada rohkemaks kui 30 päeva?
 Prooviversiooni pikendamiseks toimige järgmiselt.
 
-1. **Microsoft 365 Avage halduskeskuses** jaotis **Arvete esitamine** > **oma toodete kohta**.
+1. **Microsoft 365 Avage halduskeskuses** jaotis **Toodete arveldamine** > **·**.
 2. Valige **Dynamics 365 Project Operations (CE) - eelversiooni prooviversioon**.
 3. Tehke jaotises **Aegumiskuupäev** valik **Pikenda kuupäeva**.
 

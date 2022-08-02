@@ -1,6 +1,6 @@
 ---
 title: Projekti ajasisestuse mobiilne tööruum
-description: Selles artiklis antakse teavet projekti ajasisestuse mobiilse tööruumi kohta. See tööruum võimaldab kasutajatel oma mobiilsideseadme kaudu sisestada ja salvestada aega projekti jaoks.
+description: Sellest artiklist leiate teavet projekti ajakirje mobiilse tööruumi kohta. See tööruum võimaldab kasutajatel oma mobiilsideseadme kaudu sisestada ja salvestada aega projekti jaoks.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: a163e32dae0231b5d71d1de2dbb473593b989164
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 50388bd024fdf2de0d28e49ef07a01b03c6b88f0
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8919533"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029663"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Projekti ajasisestuse mobiilne tööruum
 
 [!include [banner](../includes/banner.md)]
 
-Selles artiklis antakse teavet projekti ajasisestuse **mobiilse tööruumi kohta**. See tööruum võimaldab kasutajatel oma mobiilsideseadme kaudu sisestada ja salvestada aega projekti jaoks.
+Sellest artiklist leiate teavet projekti ajakirje **mobiilse tööruumi kohta**. See tööruum võimaldab kasutajatel oma mobiilsideseadme kaudu sisestada ja salvestada aega projekti jaoks.
 
 See mobiilne tööruum on mõeldud kasutamiseks mobiilirakendusega Dynamics 365 Unified Ops. 
 
@@ -82,7 +82,7 @@ Kui teie organisatsioonis on juurutatud versioon 1611 koos Platformi uuendusega 
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobiilirakenduse allalaadimine ja installimine
 
-Laadige alla ja installige mobiilirakendus Finance and Operations.
+Laadige alla ja installige finance and operations mobiilirakendus:
 
 -   [Androidi telefonidele](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [iPhone’idele](https://go.microsoft.com/fwlink/?linkid=850663)

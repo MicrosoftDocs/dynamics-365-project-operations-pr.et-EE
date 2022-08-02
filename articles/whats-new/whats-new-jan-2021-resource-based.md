@@ -1,18 +1,18 @@
 ---
 title: Mis on uut jaanuaris 2021 – Project Operations ressursi-/mittelaopõhiste stsenaariumite jaoks
-description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval project Operationsi 2021. aasta jaanuari väljaandes ressursi-/ladustamata stsenaariumide jaoks.
+description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval 2021. aasta jaanuari väljaandes Project Operations ressursipõhiste/varumata stsenaariumide jaoks.
 author: sigitac
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cd20ba47a45593e7694234b4f58aecd79b1c3736
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 4b335503139964d9d0747f9ce7addc033a512f30
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910650"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029572"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Mis on uut jaanuaris 2021 – Project Operations ressursi-/mittelaopõhiste stsenaariumite jaoks
 
@@ -22,7 +22,7 @@ _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja versioonide kohta.
 
   - Project Operations Dataverse’i keskkonna versioonis 4.6.0.154
-  - Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnaversioonis 10.0.16
+  - Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnas versioon 10.0.16
 
 ## <a name="quality-updates"></a>Kvaliteedi värskendused
 
@@ -43,7 +43,7 @@ See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja v
 | **Projekti plaanimine ja jälgimine** | 2090202 | Märgitud on ärireeglid, mida ei kasutata enam kui **Iganenuid**. |
 | **Aeg ja kulu** | 2091249 | Süvendati kontrolli, et kasutajad ei saaks muuta esitatud või kinnitatud ajakirje tööülesannet. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektijuhtimine ja raamatupidamine Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektijuhtimine ja raamatupidamine Dynamics 365 Finance. aastal
 
 | **Funktsiooni ala** | **Viitenumber** | **Kvaliteedi värskendus** |
 | --- | --- | --- |
@@ -86,7 +86,7 @@ See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja v
 
 ## <a name="regulatory-updates"></a>Regulatiivsed uuendused
 
-Finance and Operationsi rakenduste regulatiivsete värskenduste kohta leiate teavet teemast [Regulatiivsed värskendused](/dynamics365/finance/localizations/regulatory-updates). Saate ka LCS-i sisse logida ja vaadata kavandatud regulatiivseid värskendusi, kasutades probleemi otsimise tööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
+Lisateavet finance and operationsi rakenduste regulatiivsete värskenduste kohta leiate teemast [Regulatiivsed värskendused](/dynamics365/finance/localizations/regulatory-updates). Saate ka LCS-i sisse logida ja vaadata kavandatud regulatiivseid värskendusi, kasutades probleemi otsimise tööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

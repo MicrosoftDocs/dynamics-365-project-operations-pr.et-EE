@@ -1,6 +1,6 @@
 ---
-title: Projektiülesannete sünkroonimine otse Project Service Automationist finance and Operationsi
-description: Selles artiklis kirjeldatakse malli ja selle aluseks olevat ülesannet, mida kasutatakse projektiülesannete Microsoft Dynamics 365 Project Service Automation sünkroonimiseks otse Dynamics 365 Finance.
+title: Projektiülesannete sünkroonimine otse Project Service Automationist finantsidesse ja toimingutesse
+description: Selles artiklis kirjeldatakse malli ja selle aluseks olevat ülesannet, mida kasutatakse projektiülesannete sünkroonimiseks otse Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 7b8ba77bbb08052952a8a557bb71300652dca3b2
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: ed559fcd9e0e666f68e7d9f4f1fca91417fe4970
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931141"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028304"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Projektiülesannete sünkroonimine otse Project Service Automationist finance and Operationsi
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Projektiülesannete sünkroonimine otse Project Service Automationist finantsidesse ja toimingutesse
 
 [!include[banner](../includes/banner.md)]
 
-Selles artiklis kirjeldatakse malli ja selle aluseks olevat ülesannet, mida kasutatakse projektiülesannete Dynamics 365 Project Service Automation sünkroonimiseks otse Dynamics 365 Finance.
+Selles artiklis kirjeldatakse malli ja selle aluseks olevat ülesannet, mida kasutatakse projektiülesannete sünkroonimiseks otse Dynamics 365 Project Service Automation Dynamics 365 Finance.
 
 > [!NOTE]
 > - Projekti ülesannete integreerimine, kulukande kategooriad, kuluprognoosid ja funktsioonide lukustamine on saadaval versioonis 8.0.
@@ -67,11 +67,11 @@ Enne kui projekti ülesannete sünkroonimine saab aset leida, peate sünkroonima
 
 ## <a name="power-query"></a>Power Query
 
-Kui see tingimus on täidetud, peate andmete filtreerimiseks kasutama rakendust Microsoft Power Query for Excel.
+Andmete filtreerimiseks peate kasutama rakendust Microsoft Power Query Exceli jaoks, kui on täidetud järgmine tingimus.
 
 - Teil on projekti tööülesannete hulgas ressursiga seotud kirjed.
 
-Kui peate kasutama Power Query, järgige järgmist suunist.
+Kui peate kasutama Power Query, järgige seda juhist:
 
 - Projekti tööülesannete (PSA-st kuni Fini ja Opsi) mallil on vaikefilter, mis välistab ressursile omased kirjed projekti ülesandest, seades filtri  **IsLineTask** olekule **väär**. Kui loote oma malli, peate selle filtri lisama.
 

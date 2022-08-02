@@ -1,17 +1,17 @@
 ---
 title: Vaikehinnakirjad
-description: Selles artiklis antakse teavet projektitoimingute müügi- ja omahinna vaikeväärtuste kohta.
+description: Selles artiklis antakse teavet project operationsi müügi- ja omahinna vaikehinnaloendite kohta.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7a8f99cd03e5c2c15941c17469cc5632765b0fdc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 99af12577abeb0b77dc5d8a117d1e3b292bf0b80
+ms.sourcegitcommit: 260368e1d0751db713da073a641c63c04876fcdf
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917709"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9036406"
 ---
 # <a name="default-price-lists"></a>Vaikehinnakirjad
 
@@ -25,7 +25,7 @@ Iga projekti hinnapakkumine ja leping rakenduses Dynamics 365 Project Operations
 Süsteem lõpetab järgmise protsessi, et teha kindlaks, milline on projekti hinnapakkumise vaikehinnakiri.
 
 1. Süsteem vaatleb hinnakirjasid, mis on seotud konto projekti hinnakirjadega. 
-2. Kui kontokirjega on seotud projekti hinnakirjad, vaatleb süsteem projekti parameetritega seotud pakkumise müügi hinnakirjasid, mille valuuta vastab projekti hinnapakkumisele.
+2. Kui kontokirjele ei ole lisatud projekti hinnakirju, vaatab süsteem projekti parameetritele lisatud müügihinnakirju, mis vastavad projekti hinnapakkumise valuutale.
 3. Järgmisena kontrollib süsteem projekti hinnapakkumise kuupäevavahemikule vastavate hinnakirjade kehtivuskuupäeva. Eriti kuupäeva, millal hinnapakkumine loodi.
 4. Kui projekti hinnapakkumise kuupäeval kehtib mitu hinnakirja, on kõik hinnakirjad projekti hinnapakkumises vaikimisi.
 5. Kui projekti hinnapakkumise kuupäeval ei kehti ühtegi hinnakirja, pole projekti hinnapakkumisel projekti vaikehinnakirja. Projekti hinnapakkumises kuvatakse hoiatusteade. Teates on kirjas, et kuna projekti hinnakiri pole lisatud, siis teie prognoositavat ja tegelikku projekti ei hinnastata.
