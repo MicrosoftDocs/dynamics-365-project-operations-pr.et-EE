@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: Mis on uut
       items:
-        - name: Juuli 2022 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
-          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: August 2022 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
+          href: whats-new/whats-new-aug-2022-resource-based.md
         - name: Arhiiv
           items:
+            - name: Juuli 2022 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
+              href: whats-new/whats-new-july-2022-resource-based.md
             - name: Juuni 2022 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: Mai 2022 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
@@ -256,7 +258,7 @@
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Kohandatud väljade lisamine hinna seadistusele ja ülekande olemitele
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: 'Kohandatud väljade seadistamine hinnakujunduse dimensioonidena '
+                - name: Kohandatud väljade seadistamine hinnakujunduse dimensioonidena
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
                 - name: Lisandmooduli atribuutide värskendamine uute hinnakujunduse dimensioonide lisamiseks
                   href: pricing-costing/update-plugin-attributes-pd.md
@@ -384,6 +386,42 @@
           items:
             - name: Ressursikasutuse ülevaade
               href: resource-management/resource-utilization-overview.md
+    - name: Allhankelepingu haldus
+      items:
+        - name: Allhankelepingute haldus rakenduses Project Operations
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Allhankelepingute põhimõisted
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Hankijate ja projekti hinnakirjade haldus
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Alltöövõtjad broneeritavate ressurssidena
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Allhankelepingute päise üksikasjad
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Allhankelepingu ajaread
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Allhankelepingu kulukategooriate read
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Allhankelepingu tooteread
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Allhankelepingu rea ressursid
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Allhankelepingu rea vahe-eesmärgid
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Allhankelepinguga projektimeeskonna liikmed
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Allhankelepingu valikud projektimeeskonna liikmete jaoks
+          href: pro/subcontracting/subcon-options.md
+        - name: Allhankelepinguga ressursi määramiste kuluprognoosid
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Ajakavapaneeli konfigureerimine lepinguliste töötajate ja allhankelepinguga ressursiruumi näitamiseks
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Projekti mehitamine lepinguliste töötajatega ja allhankelepinguga ressursiruumiga
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Allhankelepinguga komponentide aja, kulude ja materjalikasutuse kirjendamine'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Allhankelepingu oleku üleminekud
+          href: pro/subcontracting/subcon-states.md
     - name: Aeg
       items:
         - name: Aja ülevaade
@@ -578,8 +616,10 @@
           href: revenue-recognition/rev-rec-completed-contract-method.md
     - name: Täpsem konfiguratsioon
       items:
-        - name: Saate üleminekul migreerida täielikult arveldatud arvelduse etapid
+        - name: Täielikult arveldatud arvelduse etappide migreerimine üleminekul
           href: advanced-configuration/migrating-invoiced-milestones.md
+        - name: Projekti oleku sünkroonimine suletud projektidega seotud kirje vältimiseks
+          href: advanced-configuration/sync-project-status.md
     - name: Versioonitäiendus
       items:
         - name: Modernsete kinnituste kaalutlused versioonitäiendusel
@@ -610,10 +650,12 @@
           href: environment/security-model.md
     - name: Mis on uut
       items:
-        - name: Mis on uut juulis 2022 – lihtjuurutamine
-          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: Mis on uut augustis 2022 – lihtjuurutamine
+          href: pro/whats-new/whats-new-aug-2022-lite.md
         - name: Arhiiv
           items:
+            - name: Mis on uut juulis 2022 – lihtjuurutamine
+              href: pro/whats-new/whats-new-july-2022-lite.md
             - name: Mis on uut juunis 2022 – lihtjuurutamine
               href: pro/whats-new/whats-new-june-2022-lite.md
             - name: Mis on uut 2021 2. laine varajases juurdepääsus – lihtjuurutamine
@@ -826,7 +868,7 @@
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Kohandatud väljade lisamine hinna seadistusele ja ülekande olemitele
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: 'Kohandatud väljade seadistamine hinnakujunduse dimensioonidena '
+                - name: Kohandatud väljade seadistamine hinnakujunduse dimensioonidena
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
                 - name: Lisandmooduli atribuutide värskendamine uute hinnakujunduse dimensioonide lisamiseks
                   href: pricing-costing/update-plugin-attributes-pd.md
@@ -1524,9 +1566,9 @@
               href: psa/custompricingdimensionssolution.md
             - name: Kohandatud väljade ja olemite loomine
               href: psa/create-custom-fields-entities.md
-            - name: 'Kohandatud väljade lisamine hinna seadistusele ja ülekande olemitele '
+            - name: Kohandatud väljade lisamine hinna seadistusele ja ülekande olemitele
               href: psa/field-references.md
-            - name: 'Kohandatud väljade seadistamine hinnakujunduse dimensioonidena '
+            - name: Kohandatud väljade seadistamine hinnakujunduse dimensioonidena
               href: psa/set-up-pricing-dimensions.md
             - name: Lisandmooduli atribuutide värskendamine uute hinnakujunduse dimensioonide lisamiseks
               href: psa/update-plug-in-attributes.md
