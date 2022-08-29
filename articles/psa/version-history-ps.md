@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b8437df6a1ea7b5bff272767b6bd0540d632e1a0
-ms.sourcegitcommit: 7e7a5e39360cd30ef5fcb3242c050673df63c156
-ms.translationtype: HT
+ms.openlocfilehash: 14fd22c7c863d650baebf1c7c2c96521d0bd207c
+ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "9190661"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "9295826"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Uuenduse väljalaske ajakava Project Service 3.x jaoks
 
@@ -63,12 +63,12 @@ Project Service’i värskenduste kohta leiate teavet teemast [Dynamics 365 väl
 | | <i>Okeaania</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09. september 2022
 | | <i>Araabia Ühendemiraadid</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09. september 2022
 |<strong>Jaam 4</strong> | |  |  | |
-| | <i>Euroopa</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 29. juuli 2022
+| | <i>Euroopa</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 16. september 2022
 |<strong>Jaam 5</strong> | |  |  | |
-| | <i>Põhja-Ameerika</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 05. august 2022
+| | <i>Põhja-Ameerika</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 23. september 2022
 |<strong>Jaam 6</strong> | |  |  | |
-| | <i>Riigiasutuste ühispilvekeskkond</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 03. august 2022
-| | <i>Sihtotstarbelised skaalarühmad</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 05. august 2022
+| | <i>Riigiasutuste ühispilvekeskkond</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 21. september 2022
+| | <i>Sihtotstarbelised skaalarühmad</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 30. september 2022
 
 
 

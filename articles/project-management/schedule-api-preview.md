@@ -1,17 +1,17 @@
 ---
 title: Projekti ajakava API-de kasutamine ajastamise olemitega toimingute tegemiseks
-description: Selles artiklis antakse teavet ja näidiseid projekti ajakava API-de kasutamiseks.
+description: Sellest artiklist leiate teavet ja näidiseid Projecti ajakava API-de kasutamise kohta.
 author: sigitac
 ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929209"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230310"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Projekti ajakava API-de kasutamine ajastamise olemitega toimingute tegemiseks
 
@@ -42,12 +42,12 @@ OperationSet on tööühiku muster, mida saab kasutada juhul, kui kandes tuleb t
 
 Järgnev on praeguste projekti ajakava API-de loend.
 
-- **msdyn_CreateProjectV1**: seda API-d saab kasutada projekti loomiseks. Projekt ja projekti vaikeämber luuakse kohe.
+- **msdyn_CreateProjectV1**: seda API-d saab kasutada projekti loomiseks. Projekti- ja vaikeprojekti salve luuakse kohe.
 - **msdyn_CreateTeamMemberV1**: seda API-d saab kasutada projektimeeskonna liikme loomiseks. Meeskonnaliikme kirje luuakse kohe.
 - **msdyn_CreateOperationSetV1**: seda API-d saab kasutada mitme taotluse ajastamiseks, mis tuleb kande sees teha.
-- **msdyn_PSSCreateV1**: seda API-d saab kasutada olemi loomiseks. Olem võib olla mis tahes priekti ajastamise olemitest, mis toetab loomistoimingut.
-- **msdyn_PSSUpdateV1**: seda API-d saab kasutada olemi uuendamiseks. Olem võib olla mis tahes priekti ajastamise olemitest, mis toetab värskendamistoimingut.
-- **msdyn_PSSDeleteV1**: seda API-d saab kasutada olemi kustutamiseks. Olem võib olla mis tahes priekti ajastamise olemitest, mis toetab kustutamistoimingut.
+- **msdyn_PssCreateV1**: seda API-t saab kasutada olemi loomiseks. Olem võib olla mis tahes priekti ajastamise olemitest, mis toetab loomistoimingut.
+- **msdyn_PssUpdateV1**: seda API-t saab kasutada olemi värskendamiseks. Olem võib olla mis tahes priekti ajastamise olemitest, mis toetab värskendamistoimingut.
+- **msdyn_PssDeleteV1**: seda API-t saab kasutada olemi kustutamiseks. Olem võib olla mis tahes priekti ajastamise olemitest, mis toetab kustutamistoimingut.
 - **msdyn_ExecuteOperationSetV1**: seda API-d kasutatakse antud toimingute komplektis kõikide toimingute täitmiseks.
 
 ## <a name="using-project-schedule-apis-with-operationset"></a>Projekti ajakava API-de kasutamine väärtusega OperationSet
@@ -58,10 +58,10 @@ Kuna nii API **CreateProjectV1** kui ka **CreateTeamMemberV1** kirjed luuakse ko
 
 | Olemi ajastamine | Koosta | Värskendus | Kustutusklahv (Delete) | Olulised kaalutlused |
 | --- | --- | --- | --- | --- |
-Projekti ülesanne | Ja | Ja | Ja | Välju **Edenemine**, **pingutustäpne ja** Järelejäänud **saab** redigeerida project for the Webis, kuid neid ei saa Project Operationsis redigeerida.  |
+Projekti ülesanne | Ja | Ja | Ja | Välju **Edenemine**, **Lõpuleviidud** ja **Panusejääk** saab project for the Webis redigeerida, kuid neid ei saa project operationsis redigeerida.  |
 | Projektiülesande sõltuvus | Ja |  | Ja | Projektiülesande sõltuvuskirjeid ei värskendata. Selle asemel saab vana kirje kustutada ja luua uue kirje. |
 | Ressursi määramine | Ja | Ja | | Järgmiste väljadega toiminguid ei toetata: **BookableResourceID** (Broneeritava ressursi ID), **Effort** (Panus), **EffortCompleted** (Lõpule viidud panus), **EffortRemaining** (Järelejäänud panus) ja **PlannedWork** (Planeeritud töö). Ressursi määramise kirjeid ei värskendata. Selle asemel saab vana kirje kustutada ja luua uue kirje. |
-| Projektisalv | Ja | Ja | Ja | Vaikeämber luuakse CreateProjectV1 **API abil**. Projektiämbrite loomise ja kustutamise tugi lisati värskendusväljaandesse 16. |
+| Projektisalv | Ja | Ja | Ja | Vaikesämber luuakse CreateProjectV1 **API abil**. Projektisalvede loomise ja kustutamise tugi lisati värskendusväljaandesse 16. |
 | Projektimeeskonna liige | Ja | Ja | Ja | Kasutage loomistoiminguks API-d **CreateTeamMemberV1**. |
 | Project | Ja | Ja |  | Järgmiste väljadega toiminguid ei toetata: **StateCode** (Olekukood), **BulkGenerationStatus** (Hulgiloomise olek), **GlobalRevisionToken** (Üldine redaktsioonitõend), **CalendarID** (Kalendri ID), **Effort** (Panus), **EffortCompleted** (Lõpule jõudnud panus), **EffortRemaining** (Järelejäänud panus), **Progress** (Edenemine), **Finish** (Lõpp), **TaskEarliestStart** (Ülesande varajaseim algus) ja **Duration** (Kestus). |
 
@@ -71,7 +71,7 @@ ID atribuut on valikuline. Kui see on antud, proovib süsteem seda kasutada ja l
 
 ## <a name="restricted-fields"></a>Piiratud väljad
 
-Järgmised tabelid määratlevad väljad, mis on piiratud jaotisega **Loo** ja **redigeerimine**.
+Järgmistes tabelites määratletakse väljad, mille kasutamine ja redigeerimine **on piiratud.** **·**
 
 ### <a name="project-task"></a>Projekti ülesanne
 
@@ -86,8 +86,8 @@ Järgmised tabelid määratlevad väljad, mis on piiratud jaotisega **Loo** ja *
 | msdyn_costatcompleteestimate           | No             | No               |
 | msdyn_costatcompleteestimate_base      | No             | No               |
 | msdyn_costconsumptionpercentage        | No             | No               |
-| msdyn_effortcompleted                  | Ei (jah projektile)             | Ei (jah projektile)               |
-| msdyn_effortremaining                  | Ei (jah projektile)              | Ei (jah projektile)                |
+| msdyn_effortcompleted                  | Ei (jah Projecti puhul)             | Ei (jah Projecti puhul)               |
+| msdyn_effortremaining                  | Ei (jah Projecti puhul)              | Ei (jah Projecti puhul)                |
 | msdyn_effortestimateatcomplete         | No             | No               |
 | msdyn_iscritical                       | No             | No               |
 | msdyn_iscriticalname                   | No             | No               |
@@ -103,7 +103,7 @@ Järgmised tabelid määratlevad väljad, mis on piiratud jaotisega **Loo** ja *
 | msdyn_plannedsales                     | No             | No               |
 | msdyn_plannedsales_base                | No             | No               |
 | msdyn_pluginprocessingdata             | No             | No               |
-| msdyn_progress                         | Ei (jah projektile)             | Ei (jah projektile) |
+| msdyn_progress                         | Ei (jah Projecti puhul)             | Ei (jah Projecti puhul) |
 | msdyn_remainingcost                    | No             | No               |
 | msdyn_remainingcost_base               | No             | No               |
 | msdyn_remainingsales                   | No             | No               |
@@ -265,7 +265,7 @@ Järgmised tabelid määratlevad väljad, mis on piiratud jaotisega **Loo** ja *
 ## <a name="limitations-and-known-issues"></a>Piirangud ja teadaolevad probleemid
 Järgnevalt on toodud piirangute ja teadaolevate probleemide loend.
 
-- Projektigraafiku API-sid **saavad kasutada ainult Microsoft Projecti litsentsiga** kasutajad. Neid ei saa kasutada järgnevad.
+- Projekti ajakava API-sid **saavad kasutada ainult Microsoft Project License’iga** kasutajad. Neid ei saa kasutada järgnevad.
 
     - Rakenduse kasutajad
     - Süsteemi kasutajad

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b611862e74d04778ad46700ba6d33fc16cb79fae
-ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
-ms.translationtype: HT
+ms.openlocfilehash: a08bffa2e353f2ed1b9f3b0c27e2ed1e30731012
+ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9188273"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "9295873"
 ---
 # <a name="project-operations-updates"></a>Rakenduse Project Operations värskendused
 
@@ -36,9 +36,9 @@ Dynamics 365 Project Operations koosneb kahest komponendist.
 
 | Project Operations Dataverse'i keskkonnas | Projektijuhtimine ja raamatupidamine Finance and Operationsi rakenduste keskkondades | 
 | --- | --- |
-| 4.44.0.22 | 10.0.28 |
+| 4.45.0.53 | 10.0.28 |
 
-Project Operations Resource'i / ladustamata stsenaariumi puhul soovitame kasutada topeltkirjutusega orkestreerimisversiooni 2.3.1.15 või uuemat.
+Project Operations Resource’i / ladustamata stsenaariumi puhul soovitame kasutada topeltkirjutusega orkestreerimisversiooni 2.3.1.15 või uuemat.
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Project Operationsi väljalaske ajakava Dataverse'i keskkonnas
 
@@ -47,24 +47,24 @@ Project Operationsi uuendused Dataverse'i keskkonnas on saadaval igakuiselt.
 | Jaam | Piirkond | Praegune versiooni number | Lihtjuurutuse automaatsed värskendused | Ressursi/mitteloapõhise juurutuse automaatsed värskendused | Järgmise versiooni number | Järgmine versioon üldiselt saadaval |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Jaam 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Esimene väljalase         |  4.44.0.22      | Lõpetatud           | Lõpetatud            | TBD                 | 05. august 2022       |
+|   &nbsp;  | Esimene väljalase         |  4.45.0.53      | Lõpetatud           | Lõpetatud            | TBD                 | 26. august 2022       |
 | Jaam 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Lõuna-Ameerika         |  4.44.0.22      | Lõpetatud           | Lõpetatud            | TBD                 | 06. august 2022       |
-|   &nbsp;  | Kanada                |  4.44.0.22      | Lõpetatud           | Lõpetatud            | TBD                 | 06. august 2022       |
-|   &nbsp;  | India                 |  4.44.0.22      | Lõpetatud           | Lõpetatud            | TBD                 | 06. august 2022       |
-|   &nbsp;  | Prantsusmaa                |  4.44.0.22      | Lõpetatud           | Lõpetatud            | TBD                 | 06. august 2022       |
-|   &nbsp;  | Lõuna-Aafrika          |  4.44.0.22      | Lõpetatud           | Lõpetatud            | TBD                 | 06. august 2022       |
-|   &nbsp;  | Šveits           |  4.44.0.22      | Lõpetatud           | Lõpetatud            | TBD                 | 06. august 2022       |
+|   &nbsp;  | Lõuna-Ameerika         |  4.45.0.53      | Lõpetatud           | Lõpetatud            | TBD                 | 02. september 2022       |
+|   &nbsp;  | Kanada                |  4.45.0.53      | Lõpetatud           | Lõpetatud            | TBD                 | 02. september 2022       |
+|   &nbsp;  | India                 |  4.45.0.53      | Lõpetatud           | Lõpetatud            | TBD                 | 02. september 2022       |
+|   &nbsp;  | Prantsusmaa                |  4.45.0.53      | Lõpetatud           | Lõpetatud            | TBD                 | 02. september 2022       |
+|   &nbsp;  | Lõuna-Aafrika          |  4.45.0.53      | Lõpetatud           | Lõpetatud            | TBD                 | 02. september 2022       |
+|   &nbsp;  | Šveits           |  4.45.0.53      | Lõpetatud           | Lõpetatud            | TBD                 | 02. september 2022       |
 | Jaam 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Jaapan                 |  4.44.0.22      | Lõpetatud      | Lõpetatud       | TBD                 | 12. august 2022       |
-|   &nbsp;  | Aasia ja Vaikse ookeani piirkond          |  4.44.0.22      | Lõpetatud      | Lõpetatud       | TBD                 | 12. august 2022       |
-|   &nbsp;  | Suurbritannia         |  4.44.0.22      | Lõpetatud      | Lõpetatud       | TBD                 | 12. august 2022       |
-|   &nbsp;  | Okeaania               |  4.44.0.22      | Lõpetatud      | Lõpetatud       | TBD                 | 12. august 2022       |
-|   &nbsp;  | Araabia Ühendemiraadid  |  4.44.0.22      | Lõpetatud      | Lõpetatud       | TBD                 | 12. august 2022       |
+|   &nbsp;  | Jaapan                 |  4.44.0.22      | Lõpetatud      | Lõpetatud       | 4.45.0.53                 | 19. august 2022       |
+|   &nbsp;  | Aasia ja Vaikse ookeani piirkond          |  4.44.0.22      | Lõpetatud      | Lõpetatud       | 4.45.0.53                 | 19. august 2022       |
+|   &nbsp;  | Suurbritannia         |  4.44.0.22      | Lõpetatud      | Lõpetatud       | 4.45.0.53                 | 19. august 2022       |
+|   &nbsp;  | Okeaania               |  4.44.0.22      | Lõpetatud      | Lõpetatud       | 4.45.0.53                 | 19. august 2022       |
+|   &nbsp;  | Araabia Ühendemiraadid  |  4.44.0.22      | Lõpetatud      | Lõpetatud       | 4.45.0.53                 | 19. august 2022       |
 | Jaam 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Euroopa                |  4.43.0.119      | Lõpetatud           | Lõpetatud            | 4.44.0.22           | 29. juuli 2022       |
+|   &nbsp;  | Euroopa                |  4.44.0.22      | Lõpetatud           | Lõpetatud            | 4.45.0.53           | 26. august 2022       |
 | Jaam 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Põhja-Ameerika         |  4.43.0.119      | Lõpetatud           | Lõpetatud            | 4.44.0.22           | 05. august 2022       |
+|   &nbsp;  | Põhja-Ameerika         |  4.44.0.22      | Lõpetatud           | Lõpetatud            | 4.45.0.53           | 02. september 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Projektihalduse ja raamatupidamise väljalaskegraafik finance and operationsi rakenduste keskkonnas
 

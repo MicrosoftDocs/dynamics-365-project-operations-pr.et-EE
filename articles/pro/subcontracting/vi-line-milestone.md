@@ -1,46 +1,44 @@
 ---
 title: Hankija arveread vahe-eesmärkide jaoks
-description: Selles artiklis selgitatakse, kuidas luua hankija arveridu allhanke vahe-eesmärkide jaoks.
+description: Selles artiklis selgitatakse, kuidas luua hankija arve ridu allhanketöövõtu verstapostide jaoks.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 212d68c32e712ac2349d1670f9e799bcc5144148
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f066c2ac7377a989a92a9ae2e9a732d3c979a0db
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931325"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9260990"
 ---
 # <a name="vendor-invoice-lines-for-milestones"></a>Hankija arveread vahe-eesmärkide jaoks
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
-Microsofti Dynamics 365 Project Operations hankija arvel võivad olla alltöövõtureal määratletud vahe-postide hankija arveread. Projektijuhid saavad vahe-eesmärkide jaoks kasutada hankija arveridu, et kirjendada hangitud teenuste kulud verstapostipõhiste kuludena, mis tekivad projekti jaoks hangitud teenuste või toodetega.
+Microsofti Dynamics 365 Project Operations hankija arvel võivad olla hankija arve read verstapostide jaoks, mis on määratletud allhankereal. Projektijuhid saavad kasutada hankija arve ridu verstapostide jaoks, et salvestada hangitud teenuste kulud verstapostipõhiste kuludena, mis tekivad projekti jaoks hangitud teenustele või toodetele.
 
-Hankija arve read vahe-eesmärkide jaoks peavad alati viitama alltöövõtureale, millel on fikseeritud hinna arveldamise meetod. Kui hankija arve rida vahe-eesmärkide jaoks viitab alltöövõtureale, saavad projektijuhid sobitada ja kontrollida aja, kulude või materjalide aluseks olevaid ajakulusid, kulusid või materjale, mis viitavad sellele allhankereale hankija arveldatava verstapostiga.
+Hankija arve read verstapostide jaoks peavad alati viitama allhankereale, millel on fikseeritud hinnaga arveldusmeetod. Kui hankija arve rida verstapostide jaoks viitab allhankereale, saavad projektijuhid sobitada ja kontrollida aluseks olevaid aja-, kulu- või materjalikulusid, mis viitavad sellele allhankereale, hankija poolt arveldatava verstapostiga.
 
-Järgmises tabelis on esitatud teave hankija arveridade väljade kohta vahe-eesmärkide puhul.
+Järgmine tabel annab teavet hankija arve ridade väljade kohta verstapostide jaoks.
 
 | Väli | Kirjeldus | Funktsionaalne mõju |
 | --- | --- | --- |
-| Nimetus | Hankija arve rea nimi, et aidata ID-d. | See nimi kuvatakse esimese veeruna kõigis hankija arve ridadel põhinevates otsingutes. |
-| Kirjeldus | Nende teenuste lühikirjeldus, mille hankija hankija hankija arvereal arveldab. | Pole |
-| Allhankeleping | Alltöövõtt, millele teenused algselt telliti. | Kui hankija arve jaoks on valitud alltöövõtt, pärivad kõik hankija arve read selle valiku. Hankija arvel ei saa olla hankija arve ridu, mis viitavad erinevatele alltöövõtulepingutele. |
-| Alltöövõtu rida | Allhankeliin, millele teenused telliti. Valitavate alltöövõturidade loend piirdub valitud allhankelepingute ridadega. | Kui hankija arvereal valitakse vahe-eesmärkide jaoks alltöövõturida, **on kategooria Rolli** ja **Kande kategooria** väljad ning tootega seotud väljad ebaolulised ja pole saadaval. Väljad **Kogus**, **Ühik** ja **Ühikugrupp** pole olulised ka verstapostipõhiste hankijaarve ridade puhul. |
-| Tehingu kuupäev | Kuupäev, millal hankija arve rea tegelik kulu projektile kirjendatakse. | Pole |
-| Kande klass | Valige **Verstapost** hankija arve salvestamiseks lõpule viidud vahesposti jaoks, mis määratleti alltöövõtureal. | Pole |
-| Vahe-eesmärk | Valige seotud alltöövõtureal määratletud verstapost, mis on märgitud arvele **valmis olekuks**. | Alltöövõturea vahe-eesmärgid, mille olek **on Arveldamiseks** valmis, saab valida hankija arvereal. |
-| Project | Projekti nimi, milles arveldatavaid teenuseid kasutati. | See väli on nõutav ja seda ei saa tühjaks jätta. |
-| Toiming | Projektiülesande nimi, milles arveldatavaid teenuseid kasutati. See väli on saadaval ainult siis, kui projekt on valitud. Projektiülesande valimine on valikuline. | Kui see väli jäetakse tühjaks, saab projektijuht sobitada hankija arverea seotud alltöövõturea kannete klassiga, mis salvestatakse projekti mis tahes ülesandele. Kui hankija arve rida ei viita alltöövõtureale ja see väli jäetakse tühjaks, ei seota hankija arve rea loodud tegelikku kulu ühegi sisestamata müügiväärtusega. Sellisel juhul, kui ülesandepõhine arveldamine on seadistatud, ei pruugi kulusid olla võimalik lõpptarbijale arveldada. |
-| Vahe-eesmärgi summa | Sisestage arveldamiseks valmis allhankereale määratletud verstaposti väärtus. | Pole |
+| Nimetus | Hankija arve rea nimi, mis aitab tuvastada. | See nimi kuvatakse esimese veeruna kõigis otsingutes, mis põhinevad hankija arve ridadel. |
+| Kirjeldus | Hankija poolt hankija arve real arveldatavate teenuste lühikirjeldus. | Pole |
+| Allhankeleping | Alltöövõtt, millelt teenused algselt telliti. | Kui hankija arve jaoks on valitud alltöövõtt, pärivad kõik hankija arve read selle valiku. Hankija arvel ei tohi olla hankija arve ridu, mis viitavad erinevatele allhangetele. |
+| Allhanke liin | Alltöövõtuliin, millelt teenuseid telliti. Valitavate allhankeliinide loend on piiratud valitud allhankelepingu ridadega. | Kui hankija arve real on-eesmärkide jaoks valitud allhanke rida, **on väljad Rolli** ja **Kande kategooria** ning tootega seotud väljad ebaolulised ega ole saadaval. Väljad **Kogus**, **Ühik** ja **Ühikugrupp** pole asjakohased ka verstapostipõhiste hankija arve ridade puhul. |
+| Tehingu kuupäev | Kuupäev, millal hankija arve rea tegelik kulu projektis salvestatakse. | Pole |
+| Kande klass | Valige **Verstapost**, et salvestada hankija arve lõpetatud verstaposti eest, mis määratleti allhanke real. | Pole |
+| Vahe-eesmärk | Valige verstapost, mis on määratletud seotud allhanke real, mis on märgitud arveks **valmis**. | Allhanke rea verstapostid, mille olek **on Arveks** valmis, saab valida hankija arve real. |
+| Project | Projekti nimi, mille kohta arvet esitavaid teenuseid kasutati. | See väli on kohustuslik ja seda ei saa tühjaks jätta. |
+| Toiming | Projektiülesande nimi, mille kohta arvet esitavaid teenuseid kasutati. See väli on saadaval ainult juhul, kui projekt on valitud. Projektiülesande valik on valikuline. | Kui see väli jäetakse tühjaks, saab projektijuht vastendada hankija arve rea seotud allhankereal olevate kannete klassiga, mis salvestatakse projekti mis tahes ülesandele. Kui hankija arve rida ei viita allhankereale ja see väli jäetakse tühjaks, ei lingita hankija arve rea loodud tegelikku kulu ühegi arveldamata müügi tegeliku kuluga. Sel juhul, kui ülesandepõhine arveldamine on seadistatud, ei pruugi kulude eest lõppkliendile arvet esitada. |
+| Vahe-eesmärgi summa | Sisestage selle verstaposti väärtus, mis on määratletud arveldamiseks valmis oleval allhanke real. | Pole |
 | Käibemaks | Sisestage käibemaksu summa. | Pole |
-| Kogusumma | Hankija arve rea kogusumma koos maksudega. See väli arvutatakse vahe-eesmärgi *summana* + *Käibemaks*. | Pole |
+| Kogusumma | Hankija arve rea kogusumma koos maksudega. See väli arvutatakse-eesmärgi *summana* + *Käibemaks*. | Pole |
 
 > [!NOTE]
-> Kui luuakse hankija arve rida, mis viitab alltöövõturea vahestapostile, uuendatakse alltöövõtu vahesposti olek loodud **hankija arvele**. Seejärel, kui see hankija arve kinnitatakse, uuendatakse alltöövõturea vahesposti olek kinnitatud **hankija arvele**.
+> Kui luuakse hankija arve rida, mis viitab allhanke rea verstapostile, värskendatakse allhanke verstaposti olekuks **Loodud** hankija arve. Seejärel, kui see hankija arve on kinnitatud, värskendatakse allhanke rea verstaposti olekuks **Hankija arve kinnitatud**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

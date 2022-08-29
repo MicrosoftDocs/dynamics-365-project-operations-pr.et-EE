@@ -1,48 +1,46 @@
 ---
 title: Hankija arveread toodete jaoks
-description: Selles artiklis selgitatakse, kuidas salvestada hankija arveread toodetele ja kasutada erinevaid välju hankijatelt tooteostude kirjendamiseks.
+description: Selles artiklis selgitatakse, kuidas salvestada toodete hankija arve ridu ja kasutada erinevaid välju hankijatelt tehtud tooteostude salvestamiseks.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 206dd36a1a1e7141678da27d76a99561ac89044b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d38a447c576c095a7bbe2f5ed84342a88bf69a9b
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931371"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261553"
 ---
 # <a name="vendor-invoice-lines-for-products"></a>Hankija arveread toodete jaoks
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
-Microsofti Dynamics 365 Project Operations hankija arvel võivad olla toodete hankija arveread (mida nimetatakse ka materjalideks). Projektijuhid saavad toodete puhul kasutada hankija arveridu projektidest ostetud toodete kulude kirjendamiseks.
+Microsofti Dynamics 365 Project Operations hankijaarvel võivad olla toodete hankija arve read (nimetatakse ka materjalideks). Projektijuhid saavad kasutada toodete hankija arve ridu projektidest ostetud toodete kulude salvestamiseks.
 
-Toodete hankija arveread võivad või ei pruugi viidata materjalide alltöövõtureale. Kui toodete hankija arverida viitab allhankele, saavad projektijuhid sobitada ja kontrollida tooteid, mida hankija arverida arveldab projektijuhtide poolt salvestatud ja kinnitatud ostetud toodete kasutamisega.
+Toodete hankija arve read võivad, kuid ei pruugi viidata materjalide allhankereale. Kui toodete hankija arve rida viitab allhankele, saavad projektijuhid võrrelda ja kontrollida hankija arve rea poolt arveldatavaid tooteid projektijuhtide poolt registreeritud ja kinnitatud ostetud toodete kasutamisega.
 
-Järgmises tabelis on esitatud teave toodete hankija arveridade väljade kohta.
+Järgmine tabel annab teavet toodete hankija arve ridade väljade kohta.
 
 | Väli | Kirjeldus | Funktsionaalne mõju |
 | --- | --- | --- |
-| Nimetus | Hankija arve rea nimi, et aidata ID-d. | See nimi kuvatakse esimese veeruna kõigis hankija arve ridadel põhinevates otsingutes. |
-| Kirjeldus | Nende toodete lühikirjeldus, mille hankija hankija arvereal arveldab. | Pole |
-| Allhankeleping | Alltöövõtt, millele tooted algselt telliti. | Kui hankija arve jaoks on valitud alltöövõtt, pärivad kõik hankija arve read selle valiku. Hankija arvel ei saa olla hankija arve ridu, mis viitavad erinevatele alltöövõtulepingutele. |
-| Alltöövõtu rida | Alltöövõtuliin, millele tooted telliti. Valitavate alltöövõturidade loend piirdub valitud allhankelepingute ridadega. | Kui hankija arvereal on toodete jaoks valitud alltöövõturida, sisestatakse väljade Projekt **,** Ülesanne **ja** Toode **vaikeväärtused** alltöövõturea vastavatelt väljadelt. Kui valitud allhankereal **on väärtused väljadel Projekt**, **Ülesanne** ja **Toode**, ei saa hankija arverea vastavate väljade väärtused nendest väärtustest erineda. |
-| Tehingu kuupäev | Kuupäev, millal hankija arve rea tegelik kulu projektile kirjendatakse. | Pole|
-| Kande klass | Toodete arveldamisel tuleks selle välja väärtuseks **seada Materjal**. | VäärtusMaterjal **näitab**, et ostetud materjalide arve summa kirjendamiseks kasutatakse hankija arve rida. |
-| Project | Projekti nimi, milles arveid esitatavaid tooteid kasutati. | See väli on nõutav ja seda ei saa tühjaks jätta. |
-| Toiming | Projektiülesande nimi, milles arveldatavaid tooteid kasutati. See väli on saadaval ainult siis, kui projekt on valitud. Projektiülesande valimine on valikuline. | Kui see väli jäetakse tühjaks, saab projektijuht sobitada hankija arverea ostetud tootega, mida kasutatakse projekti mis tahes ülesandes. Kui hankija arve rida ei viita alltöövõtureale ja see väli jäetakse tühjaks, ei seota hankija arve rea loodud tegelikku kulu ühegi sisestamata müügiväärtusega. Sellisel juhul, kui ülesandepõhine arveldamine on seadistatud, ei saa kulusid lõpptarbijale arveldada. |
-| Vali toode | Valige, kas arveldatav toode on kataloogist olemasolev toode või sissekirjutustoode. | Vaikeväärtus sisestatakse alltöövõturealt, kui valitakse alltöövõturida. |
-| Toode | Valige toode kataloogist. Kui toode on sissekirjutustoode, sisestage toote nimi. | Seda välja kasutatakse olemasolevate toodete vaikeostuhindade sisestamiseks. |
-| Kogus | Sisestage materjali kogus, mille hankija arve esitab sellele arvereale. | Pole |
-| Ühikurühm | Valige selle ühiku ühikugrupp, milles arveldatav kogus on väljendatud. | Pole |
-| Üksus | Vaikeväärtus on valitud ühikugrupi põhiühik. Seda väärtust saate muuta nii, et see maksaks valitud ühikugrupi mis tahes ühikuühikus. | Toote ja ühiku väärtuste kombinatsiooni **kasutatakse hankija arverea välja Ühiku hind** vaike- või arvutusväärtusena **.** **·** |
-| Ühiku hind | Ühiku vaikehind kasutab projekti hinnakirjast pärinevate toote **-** ja **ühikuväärtuste** kombinatsiooni, mis rakendub hankija arve rea kandekuupäevale. | Pole |
-| Vahesumma | See kirjutuskaitstud väli arvutatakse *koguse*&times; ühikuhinnana *·*, kui väärtused sisestatakse nii väljale Kogus **kui ka** väljale **Ühiku hind.** Kui üks või mõlemad väljad on tühjad, saate sellele väljale sisestada väärtuse. | Pole |
+| Nimetus | Hankija arve rea nimi, mis aitab tuvastada. | See nimi kuvatakse esimese veeruna kõigis otsingutes, mis põhinevad hankija arve ridadel. |
+| Kirjeldus | Nende toodete lühikirjeldus, mille kohta hankija esitab arve hankija arve real. | Pole |
+| Allhankeleping | Alltöövõtt, millelt tooted algselt telliti. | Kui hankija arve jaoks on valitud alltöövõtt, pärivad kõik hankija arve read selle valiku. Hankija arvel ei tohi olla hankija arve ridu, mis viitavad erinevatele allhangetele. |
+| Allhanke liin | Allhankeliin, millelt tooted telliti. Valitavate allhankeliinide loend on piiratud valitud allhankelepingu ridadega. | Kui toodete hankija arve real on valitud allhanke rida, sisestatakse väljade Projekt **,** Ülesanne **ja** Toode **vaikeväärtused** allhanke rea vastavatelt väljadelt. Kui valitud allhankereal on väärtused **väljadel Projekt**, **Ülesanne** ja **Toode**, ei tohi hankija arve rea vastavate väljade väärtused nendest väärtustest erineda. |
+| Tehingu kuupäev | Kuupäev, millal hankija arve rea tegelik kulu projektis salvestatakse. | Pole|
+| Kande klass | Kui toodete eest esitatakse arve, tuleb selle välja väärtuseks **määrata Materjal**. | Väärtus **Materjal** näitab, et hankija arve rida kasutatakse ostetud materjalide arve summa registreerimiseks. |
+| Project | Projekti nimi, mille kohta arvet esitavaid tooteid kasutati. | See väli on kohustuslik ja seda ei saa tühjaks jätta. |
+| Toiming | Projektiülesande nimi, milles arvet esitavaid tooteid kasutati. See väli on saadaval ainult juhul, kui projekt on valitud. Projektiülesande valik on valikuline. | Kui see väli jäetakse tühjaks, saab projektijuht sobitada hankija arve rea ostetud tootega, mida kasutatakse projekti mis tahes ülesandes. Kui hankija arve rida ei viita allhankereale ja see väli jäetakse tühjaks, ei lingita hankija arve rea loodud tegelikku kulu ühegi arveldamata müügi tegeliku kuluga. Sel juhul, kui ülesandepõhine arveldamine on seadistatud, ei saa kulude eest lõppkliendile arvet esitada. |
+| Toote valimine | Valige, kas arveldatav toode on kataloogi olemasolev toode või sissekirjutustoode. | Vaikeväärtus sisestatakse allhankerealt, kui allhankerida on valitud. |
+| Toode | Valige kataloogist toode. Kui toode on sissekirjutustoode, sisestage toote nimi. | Seda välja kasutatakse olemasolevate toodete vaikeostuhindade sisestamiseks. |
+| Kogus | Sisestage sellel arvereal materjali kogus, mille kohta hankija arve esitab. | Pole |
+| Ühikurühm | Valige selle ühiku ühikurühm, milles arveldatavat kogust väljendatakse. | Pole |
+| Üksus | Vaikeväärtus on valitud ühikurühma põhiühik. Saate seda väärtust muuta, et maksta valitud ühikugrupi mis tahes ühikus. | Toote ja ühiku väärtuste kombinatsiooni **kasutatakse hankija arve real välja Ühiku hind** vaike- või arvutatud väärtusena **.** **·** |
+| Ühiku hind | Vaikeühiku hind kasutab toote **ja** ühiku **väärtuste kombinatsiooni** projekti hinnakirjast, mis on rakendatav hankija arve rea kandekuupäevale. | Pole |
+| Vahesumma | See kirjutuskaitstud väli arvutatakse *koguse*&times; ühikuhinnana *·*, kui väärtused sisestatakse nii väljale Kogus **kui ka** väljale **Ühiku hind.** Kui üks või mõlemad väljad on tühjad, saate sellele väljale väärtuse sisestada. | Pole |
 | Käibemaks | Sisestage käibemaksu summa. | Pole |
-| Kogusumma | Hankija arve rea kogusumma koos maksudega. See väli arvutatakse vahesumma *käibemaksuna.* + *·* | Pole |
+| Kogusumma | Hankija arve rea kogusumma koos maksudega. See väli arvutatakse käibemaksu *vahesummana.* + *·* | Pole |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
