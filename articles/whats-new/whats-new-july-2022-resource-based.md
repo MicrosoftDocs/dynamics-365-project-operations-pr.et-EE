@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: cbee9281d2fae485a3ebcd38bb884a2b2322f8d1
-ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
+ms.openlocfilehash: e63b29741dbaa400a2176ff8b4c35c6d64dfeab4
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183888"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403946"
 ---
 # <a name="whats-new-july-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Mis on uut juulis 2022 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
 
@@ -45,6 +45,12 @@ Kui teil tekib kaardi käivitamisel probleem, järgige juhiseid, mis on toodud [
 | Arveldamine ja hinnakujundus | 2675880 | Vältige projekti linkimist lepingureaga, mis pole tööpõhine. |
 | Arveldamine ja hinnakujundus | 2664396 | Kui hinnapakkumise hinnakiri salvestatakse ilma hinnapakkumiseta, peab olema viga, mis ütleb, et hinnapakkumine ei saa olla tühi. |
 | Arveldamine ja hinnakujundus | 2184019 | Vahekaarti **Ülesandepõhine arveldamine** ei tohiks kuvada projektide puhul, millel pole tugilepingut ega hinnapakkumist. |
+| Aeg ja kulu | 2754459 | Kui korduv pilvevoo plaanimine on passiivne, kuvage ribareklaam ja mööduge sünkroonimise töötlemisest. |
+| Arveldamine ja hinnakujundus | 2724391 | Vale erand visatakse välja, kui projektilepingu jagamise arveldusreeglil puudub kliendi väärtus. |
+| Arveldamine ja hinnakujundus | 2708638 | Kirjet ei leitud, kui otsiti ruudustikuotsingut jaotises Materjalikasutused ja materjalikasutuse kinnitused.|
+| Arveldamine ja hinnakujundus | 2686977 | Vältige arve rea valideerimist arve loomise ajal. |
+| Arveldamine ja hinnakujundus | 2683032 | Tasuliste rollide ja kategooriate kopeerimine ei ületa 5000 kirjet.|
+| Arveldamine ja hinnakujundus | 2673363 | Kulukulu % projektis on rikutud, kui projekti jaoks on olemas nii töö- kui ka kuluprognoosid ja tegelikud näitajad. |
 
 ### <a name="project-management-and-accounting-in-finance"></a>Projektijuhtimine ja raamatupidamine rahanduses
 

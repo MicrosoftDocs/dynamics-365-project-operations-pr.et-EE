@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 112dbb98de09ef342c03d122a29cb8025058e47f
-ms.sourcegitcommit: 6b6c2bfd04e3e613ed1f38355c7cd47c3a56748d
+ms.openlocfilehash: 4042dca72a33f48e04e51af2a3cfd2da83146afd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348095"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403851"
 ---
 # <a name="whats-new-august-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Mis on uut augustis 2022 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
 
@@ -38,6 +38,11 @@ Kui teil tekib kaardi käivitamisel probleem, järgige juhiseid, mis on toodud [
 | Funktsiooni ala | Viitenumber | Kvaliteedi värskendus |
 | --- | --- | --- |
 |   Müügivõimaluste haldus | 2762089 | Vigade käsitlemine lepingu sulgemisel kadunuks, kui automaatne salvestamine on organisatsioonis keelatud.|
+|Projekti plaanimine ja jälgimine | 2767841 | Telemeetria värskendab Projekti olemit Stsenaariumide loomine või värskendamine.|
+|Arveldamine ja hinnakujundus | 2771072 | Nullviite erandi käsitlemine võitva hinnapakkumise ajal.|
+|Arveldamine ja hinnakujundus | 2844181 |Ebaõnnestumine korrelatsiooni ID saamisel ja arve loomise blokeerimisel.|
+|Arveldamine ja hinnakujundus | 2852836 | Kontsernisisesed tegelikud kulud puuduvad kontsernisisese kulu puhul, mis on loodud ja kinnitatud CE-s.|
+
 
 ### <a name="project-management-and-accounting-in-finance"></a>Projektijuhtimine ja raamatupidamine rahanduses
 

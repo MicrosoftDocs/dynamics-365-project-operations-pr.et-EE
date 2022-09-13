@@ -1,17 +1,17 @@
 ---
 title: Demoseadistamise ja konfiguratsiooniandmete rakendamine – liht
-description: Selles artiklis antakse teavet demohäälestuse ja konfiguratsiooniandmete rakendamise kohta Project Operationsi jaoks.
+description: Sellest artiklist leiate teavet selle kohta, kuidas rakendada Project Operationsi jaoks demohäälestust ja konfiguratsiooniandmeid.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 68e504dd031596b295b1383a8e81621744cae8d2
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9a3a99c326b7ebbdfa859c3298b35e910af0eb2a
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922309"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9409985"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Project Operationsi demoseadistamise ja konfiguratsiooniandmete rakendamine – liht 
 
@@ -19,9 +19,9 @@ _**Lite’i juurutamine – tehing näidisarveldusele_
 
 
 
-## <a name="prerequisites"></a>Eeltingimused
+## <a name="prerequisites"></a>eeltingimused
 
-Enne konfigureerimise alustamist peab teil olema teenuse Common Data Service (CDS) keskkond rakenduse Dynamics 365 Project Operations jaoks ette valmistatud.
+Enne konfigureerimise alustamist peab teil Dataverse olema ette valmistatud keskkond Dynamics 365 Project Operations.
 
 
 ## <a name="instructions"></a>Juhised

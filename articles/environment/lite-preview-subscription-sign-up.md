@@ -1,21 +1,21 @@
 ---
 title: Eelversiooni kordustellimuseks registreerumine – liht
-description: See artikkel annab teavet selle kohta, kuidas tellida ja juurutada Project Operations lite juurutust - tegeleda proforma arveldusega.
+description: See artikkel annab teavet selle kohta, kuidas tellida ja juurutada Project Operations lihtjuurutust – tegeleda arveldamise proformaga.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 29bf31cd1bc9c1c5ac757de989154b4c7acc53fe
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921251"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410006"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Eelversiooni kordustellimuseks registreerumine – liht 
 
-Selles artiklis selgitatakse, kuidas tellida proovipakkumine ja juurutada Dynamics 365 Project Operations lite juurutamine - tegeleda proforma arvete esitamisega.
+Selles artiklis selgitatakse, kuidas tellida proovipakkumist ja juurutada Dynamics 365 Project Operations lite juurutust – tegeleda proforma arveldamisega.
 
 > [!NOTE]
 > See toiming muutub Project Operationsi eelseisvates väljaannetes.
@@ -43,14 +43,14 @@ Enne alustamist veenduge, et oleksite brauseris sisse logitud kasutaja töökont
 > Järgmiste toimingute lõpuleviimiseks on teil vaja oma organisatsiooni Microsoft 365 portaali administraatori juurdepääsu.
 
 
-1. Kasutajatele litsentside määramiseks minge [Microsoft 365 halduskeskusesse](https://portal.office.com/).
+1. [Microsoft 365 Avage halduskeskus](https://portal.office.com/), et määrata litsentsid oma kasutajatele.
 2. Valige lehel **Aktiivsed kasutajad** need kasutajad, kellele soovite litsentsi määrata.
 3. Veenduge, et valitaks litsents **Dynamics 365 Project Operations**. 
 4. Valige käsk **Salvesta muudatused**.
 
 ## <a name="create-a-new-dataverse-environment"></a>Loo uus Dataverse keskkond
 
-1. Uue Project Operationsi Dataverse juurutuskeskkonna pakkumine, järgides artiklis toodud juhiseid juurutusmudel [Dataverse](lite-deployment.md). Keskkonnatüübi valimisel kasutage kindlasti valikut **Prooviversioon (tellimusepõhine)**.
+1. Valmistage ette uus Project Operationsi Dataverse juurutuskeskkond, [Dataverse järgides artiklis Juurutusmudel toodud juhiseid](lite-deployment.md). Keskkonnatüübi valimisel kasutage kindlasti valikut **Prooviversioon (tellimusepõhine)**.
 
   ![Uus keskkond.](./media/19CreateEnvironment.png)
 
@@ -63,9 +63,9 @@ Enne alustamist veenduge, et oleksite brauseris sisse logitud kasutaja töökont
 
 ![Lahenduse installimine.](./media/21InstallSolution.png)
 
-## <a name="install-a-cds-configuration-and-setup-demo-data"></a>CDS-i konfiguratsiooni ja seadistuse demoandmete installimine
+## <a name="set-up-demo-data"></a>Demoandmete seadistamine
 
-Installige CDS-konfiguratsioon ja seadistage demoandmed, järgides artiklis olevaid juhiseid, [Rakenda demo häälestust ja konfiguratsiooniandmeid](lite-apply-demo-setup-config-data.md).
+Seadistage demoandmed, järgides artiklis [Demohäälestuse ja konfiguratsiooniandmete rakendamine toodud juhiseid](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
