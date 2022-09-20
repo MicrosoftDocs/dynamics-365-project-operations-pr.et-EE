@@ -232,6 +232,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Projekti müügi hinnakirjade tühistamine
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Konkreetsete hinnakirjas olevate hindade kuupäeva kehtivuse tühistamiste seadistamine
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Prognooside ja tegelike näitajate omahinna määratlemine
               href: pricing-costing/cost-price-resolution.md
             - name: Prognooside ja tegelike näitajate müügihinna määratlemine
@@ -544,6 +546,14 @@
           href: procurement/pending-vendor-invoices.md
         - name: Projektide jaoks kaupade ja teenuste tellimine projekti ostutellimusi kasutades
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Allhankelepingute hankija arved Dataverse’is
+          items:
+            - name: Hankija arvete koostamine
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: Kinnitatud tegelike andmetega hankija arvete kinnitamine
+              href: pro/subcontracting/VI-Verification.md
+            - name: Projekti hankija arvete kinnitamine
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: Hankija lojaalsus
           items:
             - name: Hankija lojaalsuse ülevaade
@@ -844,6 +854,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Projekti müügi hinnakirjade tühistamine
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Konkreetsete hinnakirjas olevate hindade kuupäeva kehtivuse tühistamiste seadistamine
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Projekti prognooside ja tegelike näitajate omahinna määratlemine
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: Projekti prognooside ja tegelike näitajate müügihinna määratlemine

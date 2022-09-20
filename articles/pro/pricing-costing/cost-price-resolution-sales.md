@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: c2295174df1ce766c6d1304f4e9c55d32d5c4775
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410144"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475226"
 ---
 # <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Projekti prognooside ja tegelike kulude määra määramine
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
-Omahinnaloendi ja kulumäärade määramiseks prognoosis ja tegelikes kontekstides kasutab süsteem seotud projekti väljadel Kuupäev, Valuuta ja Lepinguühik **olevat teavet**.**·** **·**
+Microsofti Dynamics 365 Project Operations prognooside ja tegelike näitajate kulumäärade määramiseks kasutab süsteem esmalt kuupäeva ja valuutat sissetulevas prognoosis või tegelikus kontekstis, et määrata kindlaks omahinnakiri. Konkreetselt tegelikus kontekstis kasutab **süsteem tehingu kuupäeva** välja, et määrata, milline hinnakiri on rakendatav. **Sissetuleva või tegeliku hinnangu tehingukuupäeva** väärtust võrreldakse hinnakirjas olevate **väärtustega Efektiivne algus (sõltumatu ajavöönd)** ja **Efektiivne lõpp (sõltumatu ajavöönd**). Pärast omahinnaloendi määramist määrab süsteem kulumäära. 
 
 ## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Kulumäärade määramine aja hinnangulises ja tegelikus kontekstis
 
@@ -33,7 +33,7 @@ Aja **tegelik kontekst** viitab:
 - Sissekande ja paranduse töölehe read aja **jaoks**.
 - Tööleheread, mis luuakse ajakirje edastamisel.
 
-Pärast omahinnaloendi määramist täidab süsteem vaikekulumäära sisestamiseks järgmised toimingud.
+Pärast omahinnaloendi määramist teeb süsteem vaikekulumäära sisestamiseks järgmised toimingud.
 
 1. Süsteem sobitab väljade **Roll** ja **Ressursiüksus** kombinatsiooni aja hinnangus või tegelikus kontekstis **hinnakirjas** olevate rolli hinnaridade suhtes. See vaste eeldab, et kasutate tööjõukulude jaoks standardseid hinnadimensioone. Kui olete konfigureerinud süsteemi vastendama muid välju peale rolli **- ja** ressursiüksuse **või lisaks** sellele, kasutatakse vastava rolli hinnarea toomiseks teist kombinatsiooni.
 1. Kui süsteem leiab rolli hinnarea, millel on rolli ja **ressursiüksuse** kombinatsiooni **kulumäär**, kasutatakse seda kulumäära vaikekulumäärana.
@@ -55,7 +55,7 @@ Kulu **tegelik kontekst** viitab järgmisele:
 - Sissekande ja paranduse töölehe read kulu **jaoks**.
 - Töölehe read, mis luuakse kulukirje esitamisel.
 
-Pärast omahinnaloendi määramist täidab süsteem vaikekulumäära sisestamiseks järgmised toimingud.
+Pärast omahinnaloendi määramist teeb süsteem vaikekulumäära sisestamiseks järgmised toimingud.
 
 1. Süsteem sobitab väljade **Kategooria** ja **Ühik** kombinatsiooni kulu hinnangus või tegelikus kontekstis **hinnakirja** kategooria hinnaridade suhtes.
 1. Kui süsteem leiab kategooria hinnarea, millel on kategooria **ja** ühiku **kombinatsiooni kulumäär**, kasutatakse seda kulumäära vaikekulumäärana.
@@ -75,7 +75,7 @@ Materjali **tegelik kontekst** viitab:
 - Sissekande ja paranduse töölehe read materjali **jaoks**.
 - Tööleheread, mis luuakse materjali kasutamise logi esitamisel.
 
-Pärast omahinnaloendi määramist täidab süsteem vaikekulumäära sisestamiseks järgmised toimingud.
+Pärast omahinnaloendi määramist teeb süsteem vaikekulumäära sisestamiseks järgmised toimingud.
 
 1. Süsteem kasutab väljade **Toode** ja **Ühik** kombinatsiooni materjali **hinnangus või tegelikus kontekstis** hinnakirja kaubaridade suhtes hinnakirjas.
 1. Kui süsteem leiab hinnakirja kaubarea, millel on toote **ja** ühiku **kombinatsiooni kulumäär**, kasutatakse seda kulumäära vaikekulumäärana.

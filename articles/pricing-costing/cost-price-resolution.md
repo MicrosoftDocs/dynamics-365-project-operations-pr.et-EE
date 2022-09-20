@@ -1,43 +1,84 @@
 ---
-title: Prognooside ja tegelike näitajate omahindade lahendamine
-description: Selles artiklis antakse teavet hinnangute ja tegelike omahindade lahendamise kohta.
+title: Projektipõhiste prognooside ja tegelike kulude määra määramine
+description: Selles artiklis antakse teavet selle kohta, kuidas määratakse projektipõhiste prognooside ja tegelike kulude määrad.
 author: rumant
-ms.date: 04/09/2021
+ms.date: 9/12/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: af17712f0aef4fe3e6e758edd976cc377e90631d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 822a7bd8ae87d4fd4044d8b46347bfe1b4ca13ca
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8919963"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475268"
 ---
-# <a name="resolving-cost-prices-for-estimates-and-actuals"></a>Prognooside ja tegelike näitajate omahindade lahendamine
+# <a name="determine-cost-rates-for-project-based-estimates-and-actuals"></a>Projektipõhiste prognooside ja tegelike kulude määra määramine
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Omahindade ja omahinna loendi lahendamiseks prognooside ja tegelike näitajate puhul kasutab süsteem teavet, mis on seotud projekti väljadel **Kuupäev**, **Valuuta** ja **Lepingut sõlmiv üksus**. Pärast omahinnaloendi lahendamist lahendab rakendus omahinna.
+Microsofti Dynamics 365 Project Operations prognooside ja tegelike kulude omahindade määramiseks kasutab süsteem esmalt kuupäeva ja valuutat sissetulevas prognoosis või tegelikus kontekstis, et määrata kindlaks müügihinnakiri. Konkreetselt tegelikus kontekstis kasutab **süsteem tehingu kuupäeva** välja, et määrata, milline hinnakiri on rakendatav. **Sissetuleva või tegeliku hinnangu tehingukuupäeva** väärtust võrreldakse hinnakirjas olevate **väärtustega Efektiivne algus (sõltumatu ajavöönd)** ja **Efektiivne lõpp (sõltumatu ajavöönd**). Pärast omahinnaloendi määramist määrab süsteem kulumäära.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-time"></a>Aja tegelike ja prognoositavate ridade kulumäärade lahendamine
+## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Kulumäärade määramine aja hinnangulises ja tegelikus kontekstis
 
-Aja prognoositavad read viitavad projekti aja- ja ressursimäärangute hinnapakkumise ja lepingurea üksikasjadele.
+Aja **hinnanguline kontekst** viitab:
 
-Pärast omahinna loendi lahendamist kasutab süsteem aja prognoositaval real välju **Roll**,  **Ressursiettevõte** ja **Ressursi üksus**, et need vastaksid hinnakirja rollihindade ridadele. See vaste eeldab, et kasutate tööjõukulude jaoks hinnakujunduse dimensioone. Kui olete konfigureerinud süsteemi, et see vastaks väljadele või lisaks väljadele **Roll**, **Ressursiettevõte** ja **Ressursi ühik**, kasutatakse vastava rolli hinna rea toomiseks erinevat kombinatsiooni. Kui rakendus leiab rolli hinna rea, millel on väljade **Roll**, **Ressursiettevõte** ja **Ressursi ühik** kulumäära kombinatsioon, mis on vaikimisi kulumäär. Kui rakendus ei saa väärtuste **Roll**, **Ressursi ettevõte** ja **Ressursiüksus** kombinatsiooni täpselt vastendada, toob see rolli hinnaread kattuva rolliväärtusega, kuid millel on nullväärtused suvanditel **Ressursiüksus** ja **Ressursi ettevõte**. Pärast leitakse ühtiv rolli ühikukirje, millel on ühtiv rolli hinnaväärtus, tuuakse kulumäär vaikimisi sellest kirjest. 
+- Hinnapakkumise rea üksikasjad aja **kohta**.
+- Lepingu rea üksikasjad aja **kohta**.
+- Projekti ressursside määramised.
+
+Aja **tegelik kontekst** viitab:
+
+- Sissekande ja paranduse töölehe read aja **jaoks**.
+- Tööleheread, mis luuakse ajakirje edastamisel.
+
+Pärast omahinnaloendi määramist teeb süsteem vaikekulumäära sisestamiseks järgmised toimingud.
+
+1. Süsteem vastab väljade **Roll**, **Resourcing Company** ja **Resourcing Unit** kombinatsioonile hinnangus või tegelikus kontekstis ajas **ja** hinnakirjas olevate rolli hinnaridade suhtes. See vaste eeldab, et kasutate tööjõukulude jaoks standardseid hinnadimensioone. Kui olete konfigureerinud süsteemi nii, et see vastaks muudele väljadele kui Role **,** Resourcing Company **ja Resourcing Unit** või **lisaks neile**, kasutatakse vastava rolli hinnarea toomiseks teist kombinatsiooni.
+1. Kui süsteem leiab rolli hinnarea, millel on rolli, **ettevõtte** ja **ressursiüksuse** kombinatsiooni **kulumäär**, kasutatakse seda kulumäära vaikekulumäärana.
+1. Kui süsteem ei vasta väärtustele **Roll**, **Resourcing Company** ja **Resourcing Unit**, langetab see madalaima prioriteediga dimensiooni, otsib rolli hinnaridu, millel on vasted kahele teisele dimensiooniväärtusele, ja jätkab dimensioonide järkjärgulist langetamist, kuni leitakse vastav rolli hinnarida. Selle kirje kulumäära kasutatakse vaikekulumäärana. Kui süsteem ei leia vastavat rolli hinnarida, määratakse hinnaks **vaikimisi 0** (null).
 
 > [!NOTE]
-> Kui konfigureerite väljadele **Roll**, **Ressursiettevõte** ja **Ressursi ühik** erineva tähtsuse või kui teil on muid kõrgema prioriteediga dimensioone, muutub käitumine vastavalt. Süsteem toob rolli hinnakirjed väärtustega, mis vastavad igale hinnakujunduse dimensioonile prioriteedi järjestuses, koos ridadega, millel on prioriteedi järjestuses viimasel kohal olevatel dimensioonidel nullväärtus.
+> Kui konfigureerite väljade **Rolli** - ja **ressursiüksus** erineva prioriseerimise või kui teil on muid kõrgema prioriteediga dimensioone, muutub eelnev käitumine vastavalt. Süsteem toob rolli hinnakirjed, mille väärtused vastavad igale hinnadimensiooni väärtusele prioriteedi järjekorras. Read, millel on nende dimensioonide jaoks nullväärtused, jäävad viimaseks.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Kulu tegelike ja prognoositavate ridade kulumäärade lahendamine
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Kulumäärade määramine tegelikel ja hinnangulisel kuluridadel
 
-Kulu prognoositavad read viitavad projekti kulu ja kulu prognoositavate ridade hinnapakkumise ja lepingurea üksikasjadele.
+Hinnanguline kulukontekst **viitab**:
 
-Pärast omahinna loendi lahendamist kasutab süsteem prognoositaval real väljade **Kategooria** ja **Üksus** kombinatsiooni, et kulu vastaks lahendatud hinnakirja ridadele **Kategooria hind**. Kui süsteem leiab kategooria hinna rea, millel on väljade **Kategooria** ja **Ühik** kulumäära kombinatsioon, mis on vaikimisi kulumäär. Kui süsteem ei vasta väärtustele **Kategooria** ja **Ühik** või kui see suudab leida vastava kategooria hinnarea, kuid hinnakujundusmeetod ei ole **Ühiku hind**, on omahinna määr vaikimisi null (0).
+- Hinnapakkumise rea üksikasjad kulu **kohta**.
+- Lepingu rea üksikasjad kulu **jaoks**.
+- Projekti kuluprognoosid.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Materjali tegelike ja prognoosiridade kuluhindade lahendamine
+Kulu **tegelik kontekst** viitab järgmisele:
 
-Materjalide prognoosiread viitavad projekti materjalide ja materjalide prognoosiridade hinnapakkumise ja lepingurea üksikasjadele.
+- Sissekande ja paranduse töölehe read kulu **jaoks**.
+- Töölehe read, mis luuakse kulukirje esitamisel.
 
-Kui omahinna hinnakiri on lahendatud, kasutab süsteem hinnangureal olevate väljade **Toode** ja **Ühik** kombinatsiooni, et vastendada materjali prognoosi lahendatud hinnakirja ridadega **Hinnakirjaüksused**. Kui süsteem leiab tootehinna rea, mille väljade **Toode** ja **Ühik** väärtus on kulumäär, siis läheb kulumäär vaikeväärtusele. Kui süsteem ei saa väljade **Toode** ja **Ühik** väärtuseid ühitada, on üksuse hinna vaikeväärtuseks null. See vaikeväärtus juhtub ka siis, kui hinnakirjaüksuse rida on ühtiv, kuid hinnakujundusmeetod põhineb standardsel kulul või praegusel kulul, mis pole tootes määratletud.
+Pärast omahinnaloendi määramist teeb süsteem vaikekulumäära sisestamiseks järgmised toimingud.
+
+1. Süsteem sobitab väljade **Kategooria** ja **Ühik** kombinatsiooni kulu hinnangus või tegelikus kontekstis **hinnakirja** kategooria hinnaridade suhtes.
+1. Kui süsteem leiab kategooria hinnarea, millel on kategooria **ja** ühiku **kombinatsiooni kulumäär**, kasutatakse seda kulumäära vaikekulumäärana.
+1. Kui süsteem ei **vasta kategooria** ja **ühiku** väärtustele, määratakse hinnaks **vaikimisi 0** (null).
+1. Kui süsteem suudab hindamise kontekstis leida vastava kategooria hinnarea, kuid hinnakujundusmeetod on midagi muud kui **ühiku** hind, määratakse kulumääraks **vaikimisi 0** (null).
+
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-material"></a>Kulumäärade määramine materjali tegelikel ja hinnangulistel ridadel
+
+Materjali **hinnanguline kontekst** viitab:
+
+- Hinnapakkumise rea üksikasjad materjali **jaoks**.
+- Lepingu rea üksikasjad materjali **jaoks**.
+- Projekti materiaalsed hinnangud.
+
+Materjali **tegelik kontekst** viitab:
+
+- Sissekande ja paranduse töölehe read materjali **jaoks**.
+- Tööleheread, mis luuakse materjali kasutamise logi esitamisel.
+
+Pärast omahinnaloendi määramist teeb süsteem vaikekulumäära sisestamiseks järgmised toimingud.
+
+1. Süsteem kasutab väljade **Toode** ja **Ühik** kombinatsiooni materjali **hinnangus või tegelikus kontekstis** hinnakirja kaubaridade suhtes hinnakirjas.
+1. Kui süsteem leiab hinnakirja kaubarea, millel on toote **ja** ühiku **kombinatsiooni kulumäär**, kasutatakse seda kulumäära vaikekulumäärana.
+1. Kui süsteem ei **vasta** toote ja **ühiku** väärtustele, on ühikukuluks **vaikimisi määratud 0** (null).
+1. Kui süsteem suudab hinnangus või tegelikus kontekstis leida vastava hinnakirja kaubarea, kuid hinnastamismeetod on midagi muud kui **valuutasumma**, on ühikukuluks vaikimisi seatud **0**. Selline käitumine ilmneb seetõttu, et Project Operations toetab ainult **valuutasumma** hinnastamise meetodit materjalide puhul, mida projektis kasutatakse.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

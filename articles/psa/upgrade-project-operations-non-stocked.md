@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
+ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230224"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9446030"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Üleminek Project Service Automationilt Project Operationsile
 
@@ -29,7 +29,7 @@ Meil on hea meel teatada esimesest kolmest etapist, mis on mõeldud uuendamiseks
 
 Versiooniuuenduse kohaletoimetamise programm jagatakse kolme etappi.
 
-| Tarne uuendamine | 1. etapp (jaanuar 2022) | 2. etapp (aprilli laine 2022) | 3. etapp  |
+| Tarne uuendamine | 1. etapp (jaanuar 2022) | 2. etapp (november 2022) | 3. etapp (aprilli laine 2023)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Projektide puhul puudub sõltuvus tööjaotuse struktuurist (WBS) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | WBS praegu toetatud projektitoimingute piirides | | :heavy_check_mark: | :heavy_check_mark: |
@@ -39,7 +39,7 @@ Versiooniuuenduse kohaletoimetamise programm jagatakse kolme etappi.
 
 Täiendamisprotsessi osana oleme saidikaardile lisanud täienduslogid, et administraatorid saaksid tõrkeid hõlpsamini diagnoosida. Lisaks uuele liidesele lisatakse uued valideerimiseeskirjad, et tagada andmete terviklikkus pärast versioonitäiendust. Täiendamisprotsessile lisatakse järgmised valideerimised.
 
-| Valideerimine | 1. etapp (jaanuar 2022) | 2. etapp (aprilli laine 2022) | 3. etapp  |
+| Valideerimine | 1. etapp (jaanuar 2022) | 2. etapp (november 2022) | 3. etapp  |
 |-------------|------------------------|---------------------------|---------------------------|
 | WBS-i valideeritakse levinud andmetervikluse rikkumiste eest (nt ressursimäärangud, mis on seostatud sama emaülesandega, kuid millel on erinevad emaprojektid). | | :heavy_check_mark: | :heavy_check_mark: |
 | WBS valideeritakse Project for the [Webi teadaolevate piiride suhtes](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |

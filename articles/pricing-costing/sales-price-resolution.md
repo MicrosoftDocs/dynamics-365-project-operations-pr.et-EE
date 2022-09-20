@@ -1,68 +1,95 @@
 ---
-title: Prognooside ja tegelike näitajate müügihindade lahendamine
-description: Selles artiklis antakse teavet selle kohta, kuidas hinnanguid ja tegelikke müügimäärasid lahendada.
+title: Projektipõhiste prognooside ja tegelike hindade müügihindade määramine
+description: Selles artiklis antakse teavet selle kohta, kuidas määratakse projektipõhiste prognooside ja tegelike näitajate müügihinnad.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 09/12/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ee750b93a5be7be09ed76942c7c235f8c811e8bb
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f0b95c651983230cbf340f2c06089a287b2c8a10
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911821"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475364"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Prognooside ja tegelike näitajate müügihindade lahendamine
+#  <a name="determine-sales-prices-for-project-based-estimates-and-actuals"></a>Projektipõhiste prognooside ja tegelike hindade müügihindade määramine
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Kui hinnangulised ja tegelikud müügihinnad lahendatakse rakenduses Dynamics 365 Project Operations, kasutab süsteem esmalt seotud projekti hinnapakkumise või lepingu kuupäeva ja valuutat. Pärast müügi hinnakirja lahendamist lahendab süsteem müügi või arvelduskulu.
+Microsofti Dynamics 365 Project Operations prognooside ja tegelike hindade määramiseks kasutab süsteem esmalt kuupäeva ja valuutat sissetulevas hinnangus või tegelikus kontekstis, et määrata kindlaks müügihinnakiri. Konkreetselt tegelikus kontekstis kasutab **süsteem tehingu kuupäeva** välja, et määrata, milline hinnakiri on rakendatav. **Sissetuleva või tegeliku hinnangu tehingukuupäeva** väärtust võrreldakse hinnakirjas olevate **väärtustega Efektiivne algus (sõltumatu ajavöönd)** ja **Efektiivne lõpp (sõltumatu ajavöönd**). Pärast hinnakirja määramist määrab süsteem müügi- või arvemäära.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Aja tegelike ja prognoositavate ridade kulumäärade lahendamine
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Müügimäärade määramine tegelikel ja hinnangulistel ridadel aja jaoks
 
-Project Operationsis kasutatakse aja prognoositud ridu hinnapakkumise rea ja lepingurea üksikasjade näitamiseks projekti aja- ja ressursi määramiste jaoks.
+Aja **hinnanguline kontekst** viitab:
 
-Pärast müügi hinnakirja lahendamist täidab süsteem järgmised etapid vaikimisi arveldusmäära saamiseks.
+- Hinnapakkumise rea üksikasjad aja **kohta**.
+- Lepingu rea üksikasjad aja **kohta**.
+- Projekti ressursside määramised.
 
-1. Süsteem kasutab aja prognoosi real välju **Roll**, **Ressursiettevõte** ja **Ressursi üksus**, lahendatud hinnakirjas rolli hinna ridadega vastendamiseks. See vastendamine eeldab, et kasutate arveldusmäärade jaoks valmiskujul hinnakujunduse dimensioone. Kui olete hinna konfigureerinud selle asemel mistahes muu välja põhjal, või lisaks väljadele **Roll**, **Ressursiettevõte** ja **Ressursi ühik**, kasutatakse vastava rolli hinna rea toomiseks seda kombinatsiooni.
-2. Kui süsteem leiab rolli hinna rea, millel on väljade **Roll**, **Ressursiettevõte** ja **Ressursi ühik** kombinatsiooni arvelduskulu, kasutatakse vaikimisi seda arvelduskulu.
-3. Kui rakendus ei saa vastendada väljade **Roll**, **Ressursiettevõte** ja **Ressursi ühik** väärtusi, toob see välja rolli hinna read, millel on vastav roll, kuid välja **Ressursi ühik** väärtus on tühi. Pärast seda, kui süsteem leiab vastava rolli hinna kirje, määratakse arveldusmäära vaikeväärtus sellest kirjest. See vastendus eeldab valmiskujul konfiguratsiooni **Rolli** vs **Ressursiühiku** suhtelise prioriteedi jaoks müügi hinnakujunduse dimensioonina.
+Aja **tegelik kontekst** viitab:
+
+- Sissekande ja paranduse töölehe read aja **jaoks**.
+- Tööleheread, mis luuakse ajakirje edastamisel.
+- Arve rea üksikasjad aja **kohta**. 
+
+Pärast müügi hinnakirja määramist teeb süsteem arve vaikemäära sisestamiseks järgmised toimingud.
+
+1. Süsteem vastab väljade **Roll**, **Resourcing Company** ja **Resourcing Unit** kombinatsioonile hinnangus või tegelikus kontekstis ajas **ja** hinnakirjas olevate rolli hinnaridade suhtes. See vaste eeldab, et kasutate arvehindade jaoks valmishinna dimensioone. Kui olete konfigureerinud hinnakujunduse nii, et see põhineb muudel väljadel peale rolli **,** ettevõtte **ja ressursiüksuse** või **nende kõrval**, kasutatakse seda väljade kombinatsiooni vastava rolli hinnarea toomiseks.
+1. Kui süsteem leiab rolli hinnarea, millel on arve määr kombinatsioonide Roll **,** Resourcing Company **ja** Resourcing Unit **jaoks**, kasutatakse seda arve määra vaikearve määrana.
 
 > [!NOTE]
-> Kui konfigureerite väljadele **Roll**, **Ressursiettevõte** ja **Ressursi ühik** erineva tähtsuse või kui teil on muid kõrgema prioriteediga dimensioone, muutub käitumine vastavalt. Süsteem toob rollihinna kirjed väärtustega, mis vastavad igale hinnadimensiooni väärtusele tähtsuse järjekorras ridadega, mille dimensioonide jaoks on viimasena tühiväärtused.
+> Kui konfigureerite väljade **Roll**, **Resourcing Company** ja **Resourcing Unit** erineva prioriseerimise või kui teil on muid kõrgema prioriteediga dimensioone, muutub eelnev käitumine vastavalt. Süsteem toob rolli hinnakirjed, mille väärtused vastavad igale hinnadimensiooni väärtusele prioriteedi järjekorras. Read, millel on nende dimensioonide jaoks nullväärtused, jäävad viimaseks.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Kulu tegelike ja prognoositavate ridade müügihindade lahendamine
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Müügimäärade määramine kulu tegelikel ja hinnangulisel ridadel
 
-Project Operationsis kasutatakse kulu prognoositud ridu hinnapakkumise rea ja lepingurea üksikasjade näitamiseks projekti kulude ja kuluprognoosi ridade jaoks.
+Hinnanguline kulukontekst **viitab**:
 
-Pärast müügi hinnakirja lahendamist täidab süsteem järgmised etapid vaikimisi ühiku müügihinna saamiseks.
+- Hinnapakkumise rea üksikasjad kulu **kohta**.
+- Lepingu rea üksikasjad kulu **jaoks**.
+- Projekti kuluprognoosi read.
 
-1. Süsteem kasutab prognoositaval real väljade **Kategooria** ja **Üksus** kombinatsiooni, et kulu vastaks lahendatud hinnakirjas kategooria hinna ridadele.
-2. Kui süsteem leiab kategooria hinna rea, millel on väljade **Kategooria** ja **Ühik** müügihinna kombinatsioon, on müügihind vaikeväärtuseks.
-3. Kui süsteem leiab vastava kategooria hinna rea, võidakse müügihinna vaikeväärtusena kasutada seda hinnakujundusmeetodit. Järgmises tabelis on kuvatud kulu hinna vaikeväärtuse käitumine Project Operationsis.
+Kulu **tegelik kontekst** viitab järgmisele:
 
-    | Kontekst | Hinnakujundusmeetod | Vaikehind |
+- Sissekande ja paranduse töölehe read kulu **jaoks**.
+- Töölehe read, mis luuakse kulukirje esitamisel.
+- Arve rea üksikasjad kulu **jaoks**. 
+
+Pärast müügi hinnakirja määramist täidab süsteem ühiku vaikehinna sisestamiseks järgmised toimingud.
+
+1. Süsteem sobitab väljade **Kategooria** ja **Ühik** kombinatsiooni kulu **hinnangulisel real** hinnakirjas olevate kategooria hinnaridade suhtes.
+1. Kui süsteem leiab kategooria hinnarea, millel on kategooria **ja** ühiku **kombinatsiooni müügimäär**, kasutatakse seda müügimäära vaikemüügimäärana.
+1. Kui süsteem leiab vastava kategooria hinnarea, võidakse vaikemüügihinna sisestamiseks kasutada hinnakujundusmeetodit. Järgmises tabelis on näidatud project operationsi kuluhindade vaikekäitumine.
+
+    | Kontekst | Hinnakujundusmeetod | Vaikimisi hind |
     | --- | --- | --- |
-    | Hinnang | Ühiku hind | Vastavalt kategooria hinnareale |
-    | &nbsp; | Omahinnaga | 0.00 |
-    | &nbsp; | Juurdehindlus üle omahinna | 0.00 |
-    | Tegelik | Ühiku hind | Vastavalt kategooria hinnareale |
-    | &nbsp; | Omahinnaga | Vastavalt seotud tegelikule kulule |
-    | &nbsp; | Juurdehindlus üle omahinna | Rakendades seotud tegeliku kulu ühiku kulumäärale kategooria hinnarea määratud hinnalisandi |
+    | Hinnang | Ühiku hind | Põhineb kategooria hinnajoonel. |
+    |        | Omahinnaga | 0.00 |
+    |        | Juurdehindlus üle omahinna | 0.00 |
+    | Tegelik | Ühiku hind | Põhineb kategooria hinnajoonel. |
+    |        | Omahinnaga | Põhineb tegelikel seotud kuludel. |
+    |        | Juurdehindlus üle omahinna | Kategooria hinnareas määratletud juurdehindlus rakendatakse tegeliku seotud kulu ühikukulumäärale. |
 
-4. Kui süsteem ei suuda vastendada väljade **Kategooria** ja **Ühik** väärtusi, on müügihinna vaikeväärtuseks null (0).
+1. Kui süsteem ei **vasta kategooriate** ja **ühiku** väärtustele, määratakse müügimääraks **vaikimisi 0** (null).
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Materjali tegelike ja prognoosiridade müügihindade lahendamine
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-material"></a>Müügimäärade määramine materjali tegelikel ja hinnangulistel ridadel
 
-Rakenduses Project Operations kasutatakse materjalide prognoosiridu, et märkida projekti materjalide ja materjalide prognoosiridade hinnapakkumise rea ja lepingurea üksikasju.
+Materjali **hinnanguline kontekst** viitab:
 
-Pärast müügi hinnakirja lahendamist täidab süsteem järgmised etapid vaikimisi ühiku müügihinna saamiseks.
+- Hinnapakkumise rea üksikasjad materjali **jaoks**.
+- Lepingu rea üksikasjad materjali **jaoks**.
+- Projekti materjali hinnanguread.
 
-1. Süsteem kasutab prognoosireal materjali väljade **Toode** ja **Ühik** kombinatsiooni, et vastendada need lahendatud hinnakirja hinnakirjaüksuse ridadega.
-2. Kui süsteem leiab hinnakirjaüksuse rea, mille väljade **Toode** ja **Ühik** kombinatsiooni jaoks on müügihind ning hinnakujundusmeetodiks on **Valuuta summa**, kasutatakse hinnakirjareal määratud müügihinna.
-3. Kui väljade **Toode** ja **Ühik** väärtused ei ühti, on müügimäära väärtuseks null.
+Materjali **tegelik kontekst** viitab:
 
+- Sissekande ja paranduse töölehe read materjali **jaoks**.
+- Tööleheread, mis luuakse materjali kasutamise logi esitamisel.
+- Arve rea üksikasjad materjali **jaoks**. 
 
+Pärast müügi hinnakirja määramist täidab süsteem ühiku vaikehinna sisestamiseks järgmised toimingud.
+
+1. Süsteem sobitab materjali **hinnangureal** olevate väljade Toode **ja** Ühik **kombinatsiooni** hinnakirja kaubaridade suhtes.
+1. Kui süsteem leiab hinnakirja kaubarea, millel on toote ja ühiku **kombinatsiooni müügimäär, ja kui hinnastamismeetodiks** on **Valuutasumma**, kasutatakse hinnakirja real määratud müügihinda.**·** 
+1. **Kui väljade Toode** ja **Ühik** väärtused ei ole vasted või kui hinnakujundusmeetod on midagi muud kui **valuutasumma**, määratakse müügimääraks **vaikimisi 0** (null). Selline käitumine ilmneb seetõttu, et Project Operations toetab ainult **valuutasumma** hinnastamise meetodit materjalide puhul, mida projektis kasutatakse.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

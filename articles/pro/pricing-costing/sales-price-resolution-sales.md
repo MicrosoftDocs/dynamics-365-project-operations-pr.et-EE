@@ -1,23 +1,23 @@
 ---
-title: Projekti prognooside ja tegelike hindade määramine
+title: Projekti prognooside ja tegelike näitajate müügihinna määratlemine
 description: Selles artiklis antakse teavet selle kohta, kuidas määratakse projekti prognooside ja tegelike hindade müügihinnad.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6504302578d1eb3d00c717ea93cd4c4212acb4e7
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: 1288a571d50604ee400db9c16822719d0649628b
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410113"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475179"
 ---
-# <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Projekti prognooside ja tegelike hindade määramine
+# <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Projekti prognooside ja tegelike näitajate müügihinna määratlemine
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
-Microsofti Dynamics 365 Project Operations prognooside ja tegelike hindade määramiseks kasutab süsteem esmalt kuupäeva ja valuutat sissetulevas hinnangus või tegelikus kontekstis, et määrata kindlaks müügihinnakiri. Konkreetselt tegelikus kontekstis kasutab **süsteem tehingu kuupäeva** välja, et määrata, milline hinnakiri on rakendatav. Pärast hinnakirja määramist määrab süsteem müügi- või arvemäära.
+Microsofti Dynamics 365 Project Operations prognooside ja tegelike hindade määramiseks kasutab süsteem esmalt kuupäeva ja valuutat sissetulevas hinnangus või tegelikus kontekstis, et määrata kindlaks müügihinnakiri. Konkreetselt tegelikus kontekstis kasutab **süsteem tehingu kuupäeva** välja, et määrata, milline hinnakiri on rakendatav. **Sissetuleva või tegeliku hinnangu tehingukuupäeva** väärtust võrreldakse hinnakirjas olevate **väärtustega Efektiivne algus (sõltumatu ajavöönd)** ja **Efektiivne lõpp (sõltumatu ajavöönd**). Pärast hinnakirja määramist määrab süsteem müügi- või arvemäära.
 
 ## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Müügimäärade määramine tegelikel ja hinnangulistel ridadel aja jaoks
 
