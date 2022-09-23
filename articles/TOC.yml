@@ -508,9 +508,11 @@
           href: approvals/cancelapproval.md
         - name: Varem kinnitatud kirjete tagasivõtmine
           href: approvals/recall-cancel.md
+        - name: Turve ja kinnitused
+          href: approvals/approvals-security.md
         - name: Arendaja märkmed
           items:
-            - name: Arendaja märkmed kinnituste kohta
+            - name: Arendaja märkmed Approvalsi kohta
               href: approvals/dev-notes-approvals.md
     - name: Tegelikud näitajad
       items:
@@ -560,6 +562,8 @@
               href: procurement/vendor-retention-overview.md
             - name: Hankija lojaalsuse seadistamine
               href: procurement/set-up-vendor-retention.md
+            - name: Tasumine pärast tasumist
+              href: procurement/Pay-when-paid.md
     - name: Arveldamine
       items:
         - name: Arveldusprotsessi ülevaade
@@ -1102,9 +1106,11 @@
           href: approvals/cancelapproval.md
         - name: Varem kinnitatud kirjete tagasivõtmine
           href: approvals/recall-cancel.md
+        - name: Turve ja kinnitused
+          href: approvals/approvals-security.md
         - name: Arendaja märkmed
           items:
-            - name: Arendaja märkmed kinnituste kohta
+            - name: Arendaja märkmed Approvalsi kohta
               href: approvals/dev-notes-approvals.md
     - name: Tegelikud näitajad
       items:
