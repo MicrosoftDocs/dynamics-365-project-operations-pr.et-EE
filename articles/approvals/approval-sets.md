@@ -6,12 +6,12 @@ ms.date: 02/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 5e030c1aa4a41b428a0f4541fd204a7a3deaba08
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: ca205073edbce2b399aab3ae273d635c8af96765
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918077"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524911"
 ---
 # <a name="approval-sets"></a>Kinnitamiskomplektid
 
@@ -26,17 +26,17 @@ Töötlemiseks järjekorda pandud kinnitused kuvatakse vaates **Kinnituste töö
 
 Välja **Kinnitamiskomplekti eluiga** salvestab katsete arvu, mis on komplekti töötlemiseks jäänud, enne kui see märgitakse nurjunuks.
 
-Kinnituskomplekte töödeldakse perioodilise aktiveerimise kaudu, mis põhineb pilvevool **nimega** **Project Service - Projekti kinnitamise komplektide korduv ajastamine**. See on leitud lahendusest **nimega** **Projektitoimingud**. 
+Kinnituskomplekte töödeldakse perioodilise aktiveerimise kaudu, mis põhineb pilvevool **nimega** **Project Service – projekti kinnituskomplektide korduv ajastamine**. Selle leiate lahendusest **nimega** **Project Operations**. 
 
-Veenduge, et voog oleks aktiveeritud, täites järgmised juhised.
+Veenduge, et voog oleks aktiveeritud, täites järgmised toimingud.
 
-1. Administraatorina logige flow.microsoft.com [sisse](https://powerautomate.microsoft.com).
-2. Paremas ülanurgas aktiveerige keskkond, mida kasutate Dynamics 365 Project Operations rakenduses.
-3. Keskkonda installitud lahenduste loetlemiseks valige **Lahendused**.
-4. Valige lahenduseloendis **Project Operations (Project Operations).**
-5. Muutke filter olekust **Kõik** pilvevoogudeks **·**.
-6. Veenduge, et **projektiteenus – projektikinnituskomplektide** voo korduva ajastamine on seatud olekusse **Sees**. Kui see nii ei ole, valige voog ja seejärel valige **Lülita sisse**.
-7. Veenduge, et töötlemine toimuks iga viie minuti järel, **vaadates üle loendi Süsteemitööd** project Operationsi **keskkonnas olevas** jaotises Sätted Dataverse.
+1. Administraatorina logige sisse [flow.microsoft.com](https://powerautomate.microsoft.com).
+2. Lülitage paremas ülanurgas keskkond, mida kasutate Dynamics 365 Project Operations.
+3. Valige **Lahendused**, et loetleda keskkonda installitud lahendused.
+4. Valige lahenduste loendist **Project Operations**.
+5. Muutke filtri asemel **Kõik pilvevoogudeks** **.**
+6. Veenduge, et **voog Project Service – korduvalt ajastatud projekti kinnitamise komplektid** oleks seatud väärtusele **Sees**. Kui see pole nii, valige voog ja seejärel valige **Lülita sisse**.
+7. Kontrollige, kas töötlemine toimub iga viie minuti järel, **vaadates üle loendi** Süsteemitööd **oma Project Operationsi** keskkonna jaotises Sätted Dataverse.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Nurjunud kinnitused ja kinnituskomplektid
 Vaates **Nurjunud kinnitused** on loetletud kõik kasutaja sekkumist vajavad kinnitused. Avage seostatud kinnituskomplekti logid, et tuvastada nurjumise põhjus.
@@ -45,14 +45,9 @@ Valiku "**Proovi uuesti** valimine lisab kinnituskomplekti eluea loenduse, liigu
 ## <a name="configure-approval-sets"></a>Kinnituskomplektide konfigureerimine
 
 ### <a name="enable-the-approval-sets-feature"></a>Funktsiooni Kinnituskomplektid lubamine
-Enne funktsiooni Kinnituskomplektid lubamist veenduge, et praegu ei töödeldaks ühtegi kinnitust.
+Enne funktsiooni Kinnituskomplektid lubamist veenduge, et praegu ei töödeldaks ühtegi kinnitust. Kui see funktsioon on lubatud, ei saa seda keelata.
 
 - Avage leht **Projekti parameetrid** ja valige **Funktsiooni juhtimine** > **Luba kaasaegsed kinnitused**.
-
-### <a name="turn-off-the-approval-sets-feature"></a>Funktsiooni Kinnituskomplektid väljalülitamine
-Enne funktsiooni Kinnituskomplektid väljalülitamist veenduge, et praegu ei töödeldaks ühtegi kinnitust.
-
-- Avage leht **Projekti parameetrid** ja valige **Funktsiooni juhtimine** > **Keela kaasaegsed kinnitused**.
 
 ### <a name="configuring-the-asynchronous-threshold"></a>Asünkroonse lävendi konfigureerimine 
 Kinnituskomplektide loomisel teisaldatakse töötlemine taustale, kui kinnitamiseks valitud kirjete arv ületab määratud läviväärtuse. Kasutage välja **Asünkroonne lävi** konfigureerimiseks, millal kinnitamise töötlemist tuleks käitada sünkroonselt või asünkroonselt. Valige üks järgmistest väärtustest.

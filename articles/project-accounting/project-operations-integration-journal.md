@@ -2,16 +2,16 @@
 title: Integreerimise tööleht rakenduses Project Operations
 description: Sellest artiklist leiate teavet Project Operationsi integratsiooni töölehega töötamise kohta.
 author: sigitac
-ms.date: 06/29/2022
+ms.date: 09/22/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
-ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
+ms.openlocfilehash: e947fe895a1caa9c9ea092597957a859cd8d61c9
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9106270"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541072"
 ---
 # <a name="integration-journal-in-project-operations"></a>Integreerimise tööleht rakenduses Project Operations
 
@@ -65,6 +65,12 @@ Postitamist saab teha interaktiivselt või partiina. Pange tähele, et kõik tö
 > [!NOTE]
 > Selle võimaluse kasutamiseks lubage **tööruumis** Funktsioonihaldus **funktsioon Edasta kõik sisestusvigadega read uude Project Operationsi integratsioonitöölehele**.
 
-Project Operationsi integratsioonitöölehele sisestamise ajal valideerib süsteem töölehe iga rea. Süsteem sisestab kõik read, millel pole tõrkeid, ja loob uue töölehe kõigile ridadele, millel on sisestusvigu. Sisestamise tõrkeridadega töölehtede ülevaatamiseks **avage Project management and accounting** > **Journals** > **Project Operations integratsioonitööleht** ja filtreerige töölehed välja Algne tööleht **abil**.
+See funktsioon aitab täiustada Project Operationsi integratsiooni töölehe kasutuskogemust. Kui see on lubatud, ei takista topeltkirjutuse ajastuse probleemid ja seadistusprobleemid enam kehtivate töölehtede sisestamist. Project Operationsi integratsioonitöölehele sisestamise ajal valideerib süsteem töölehe iga rea. See postitab kõik read, millel pole vigu, ja loob uue töölehe kõigi ridade jaoks, millel on sisestusvead.
+
+Sisestamise tõrkeridadega töölehtede ülevaatamiseks minge jaotisse **Projektihalduse ja raamatupidamise** \> **töölehed** \> **Project Operations integratsioonitööleht** ja filtreerige töölehtede loendit välja Algne tööleht **abil.** Järgmisel joonisel on näide, **kus lehel Project Operations integratsioonitöölehte** on sel viisil filtreeritud.
+
+![Algne tööleht, mis on kuvatud lehel Project Operations integratsioonitööleht.](./media/transferLines-originalJournal.png)
+
+Kui perioodiline pakett-töö on konfigureeritud integratsioonitöölehte sisestama, siis sisestatakse sisestamine uuesti ja töölehed sisestatakse, kui ajastusprobleem on parandatud. Kõiki ülejäänud ajakirju tuleks käsitsi uurida, vaadates logid üle ja võttes kõik vajalikud toimingud.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

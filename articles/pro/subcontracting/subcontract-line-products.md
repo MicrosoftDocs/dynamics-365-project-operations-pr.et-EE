@@ -2,20 +2,20 @@
 title: Allhankelepingu tooteread
 description: Selles artiklis selgitatakse, kuidas salvestada toodete allhankeridu ja kasutada erinevaid välju hankijatelt tehtud tooteostude salvestamiseks.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b5852df1876eff591ae6a131b229d979eacf5aad
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 1ca042eaf95a5e252f00248e83efb959ab3ce801
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262101"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522837"
 ---
 # <a name="subcontract-lines-for-products"></a>Allhankelepingu tooteread
 
-_**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
+_**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
 Rakenduses Dynamics 365 Project Operations võib allhankelepingul olla rida toodete jaoks. Need read võimaldavad projektijuhil osta hankijatelt tooteid, mida nad saavad seejärel projekti tööülesannetes kasutada.
 

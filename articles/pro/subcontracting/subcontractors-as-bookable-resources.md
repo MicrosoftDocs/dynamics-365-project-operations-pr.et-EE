@@ -2,20 +2,20 @@
 title: Alltöövõtjate seadistamine broneeritavate ressurssidena
 description: Selles artiklis selgitatakse, kuidas seadistada ja hallata allhankija ressursse, mis on loodud süsteemis olevatest kasutajatest ja kontaktidest, et neid saaks microsofti allhangetega seostada Dynamics 365 Project Operations.
 author: rumant
-ms.date: 07/28/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 67df514cd1a0bd07d4ff2582e1a7738d913e0ac5
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 727508c41c190c3703e9cd1420066fa0e551f147
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261318"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522696"
 ---
 # <a name="set-up-subcontractors-as-bookable-resources"></a>Alltöövõtjate seadistamine broneeritavate ressurssidena
 
-_**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
+_**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
 Järgige neid juhiseid, et määrata rakenduses Microsoft Dynamics 365 Project Operations alltöövõtjad broneeritavate ressurssidena.
 
