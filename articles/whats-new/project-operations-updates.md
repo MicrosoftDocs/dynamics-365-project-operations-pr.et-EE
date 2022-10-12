@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ba33afd955170797bc43ae84d8baa9e2a04c5918
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: eb658f8b0150d5d70e9ed090ff0e25e33eedd5a3
+ms.sourcegitcommit: 6536e79aca5ce2cb0276a4366db69d688962a21f
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9409930"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9622005"
 ---
 # <a name="project-operations-updates"></a>Rakenduse Project Operations värskendused
 
@@ -47,24 +47,24 @@ Project Operationsi uuendused Dataverse'i keskkonnas on saadaval igakuiselt.
 | Jaam | Piirkond | Praegune versiooni number | Lihtjuurutuse automaatsed värskendused | Ressursi/mitteloapõhise juurutuse automaatsed värskendused | Järgmise versiooni number | Järgmine versioon üldiselt saadaval |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Jaam 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Esimene väljalase         |  4.45.0.53      | Lõpetatud           | Lõpetatud            | TBD                 | 09. september 2022      |
+|   &nbsp;  | Esimene väljalase         |  4.46.0.60      | Lõpetatud           | Lõpetatud            | TBD                 | 07. oktoober 2022      |
 | Jaam 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Lõuna-Ameerika         |  4.45.0.53      | Lõpetatud           | Lõpetatud            | TBD                 | 09. september 2022       |
-|   &nbsp;  | Kanada                |  4.45.0.53      | Lõpetatud           | Lõpetatud            | TBD                 | 09. september 2022       |
-|   &nbsp;  | India                 |  4.45.0.53      | Lõpetatud           | Lõpetatud            | TBD                 | 09. september 2022       |
-|   &nbsp;  | Prantsusmaa                |  4.45.0.53      | Lõpetatud           | Lõpetatud            | TBD                 | 09. september 2022       |
-|   &nbsp;  | Lõuna-Aafrika          |  4.45.0.53      | Lõpetatud           | Lõpetatud            | TBD                 | 09. september 2022       |
-|   &nbsp;  | Šveits           |  4.45.0.53      | Lõpetatud           | Lõpetatud            | TBD                 | 09. september 2022       |
+|   &nbsp;  | Lõuna-Ameerika         |  4.46.0.60      | Lõpetatud           | Lõpetatud            | TBD                 | 14. oktoober 2022       |
+|   &nbsp;  | Kanada                |  4.46.0.60      | Lõpetatud           | Lõpetatud            | TBD                 | 14. oktoober 2022       |
+|   &nbsp;  | India                 |  4.46.0.60      | Lõpetatud           | Lõpetatud            | TBD                 | 14. oktoober 2022       |
+|   &nbsp;  | Prantsusmaa                |  4.46.0.60      | Lõpetatud           | Lõpetatud            | TBD                 | 14. oktoober 2022       |
+|   &nbsp;  | Lõuna-Aafrika          |  4.46.0.60      | Lõpetatud           | Lõpetatud            | TBD                 | 14. oktoober 2022       |
+|   &nbsp;  | Šveits           |  4.46.0.60      | Lõpetatud           | Lõpetatud            | TBD                 | 14. oktoober 2022       |
 | Jaam 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Jaapan                 |  4.45.0.53      | Lõpetatud      | Lõpetatud       | TBD                 | 09. september 2022       |
-|   &nbsp;  | Aasia ja Vaikse ookeani piirkond          |  4.45.0.53      | Lõpetatud      | Lõpetatud       | TBD                 | 09. september 2022       |
-|   &nbsp;  | Suurbritannia         |  4.45.0.53      | Lõpetatud      | Lõpetatud       | TBD                 | 09. september 2022       |
-|   &nbsp;  | Okeaania               |  4.45.0.53      | Lõpetatud      | Lõpetatud       | TBD                 | 09. september 2022       |
-|   &nbsp;  | Araabia Ühendemiraadid  |  4.45.0.53      | Lõpetatud      | Lõpetatud       | TBD                 | 09. september 2022       |
+|   &nbsp;  | Jaapan                 |  4.46.0.60      | Lõpetatud      | Lõpetatud       | TBD                 | 21. oktoober 2022       |
+|   &nbsp;  | Aasia ja Vaikse ookeani piirkond          |  4.46.0.60      | Lõpetatud      | Lõpetatud       | TBD                 | 21. oktoober 2022       |
+|   &nbsp;  | Suurbritannia         |  4.46.0.60      | Lõpetatud      | Lõpetatud       | TBD                 | 21. oktoober 2022       |
+|   &nbsp;  | Okeaania               |  4.46.0.60      | Lõpetatud      | Lõpetatud       | TBD                 | 21. oktoober 2022       |
+|   &nbsp;  | Araabia Ühendemiraadid  |  4.46.0.60      | Lõpetatud      | Lõpetatud       | TBD                 | 21. oktoober 2022       |
 | Jaam 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Euroopa                |  4.45.0.53      | Lõpetatud           | Lõpetatud            | TBD           | 16. september 2022       |
+|   &nbsp;  | Euroopa                |  4.46.0.60      | Lõpetatud           | Lõpetatud            | TBD           | 28. oktoober 2022       |
 | Jaam 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Põhja-Ameerika         |  4.45.0.53      | Lõpetatud           | Lõpetatud            | TBD           | 16. september 2022       |
+|   &nbsp;  | Põhja-Ameerika         |  4.46.0.60      | Lõpetatud           | Lõpetatud            | TBD           | 04. november, 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Projektihalduse ja raamatupidamise väljalaskegraafik finance and operationsi rakenduste keskkonnas
 

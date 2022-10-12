@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: Mis on uut
       items:
-        - name: August 2022 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
-          href: whats-new/whats-new-aug-2022-resource-based.md
+        - name: September 2022 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
+          href: whats-new/whats-new-sept-2022-resource-based.md
         - name: Arhiiv
           items:
+            - name: August 2022 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
+              href: whats-new/whats-new-aug-2022-resource-based.md
             - name: Juuli 2022 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
               href: whats-new/whats-new-july-2022-resource-based.md
             - name: Juuni 2022 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
@@ -662,16 +664,18 @@
           href: environment/lite-preview-subscription-sign-up.md
         - name: Project Operationsi juurutamine – liht
           href: environment/lite-deployment.md
-        - name: Demoversiooni seadistamise ja konfiguratsiooniandmete rakendamine – lihtversioon
+        - name: Demoversiooni häälestamise ja konfiguratsiooniandmete rakendamine – lihtversioon
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Turbemudel
           href: environment/security-model.md
     - name: Mis on uut
       items:
-        - name: Mis on uut augustis 2022 – lihtjuurutamine
-          href: pro/whats-new/whats-new-aug-2022-lite.md
+        - name: Mis on uut septembris 2022 – lihtjuurutamine
+          href: pro/whats-new/whats-new-sept-2022-lite.md
         - name: Arhiiv
           items:
+            - name: Mis on uut augustis 2022 – lihtjuurutamine
+              href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: Mis on uut juulis 2022 – lihtjuurutamine
               href: pro/whats-new/whats-new-july-2022-lite.md
             - name: Mis on uut juunis 2022 – lihtjuurutamine
@@ -1180,10 +1184,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: Mis on uut
       items:
-        - name: Mis on uut juulis 2022 – Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
-          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+        - name: Mis on uut septembris 2022 – Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
+          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
         - name: Arhiiv
           items:
+            - name: Mis on uut juulis 2022 – Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
+              href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: Mis on uut juunis 2022 – Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
               href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
             - name: Mis on uut oktoobris 2021 – Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
@@ -1436,6 +1442,10 @@
       items:
         - name: Värskenduste väljalaske ajakava Project Service 3.x jaoks
           href: psa/version-history-ps.md
+        - name: 'Mis on uut või muutunud värskenduses 47, V3?'
+          href: psa/whats-new-ur-47.md
+        - name: 'Mis on uut või muutunud värskenduses 45, V3?'
+          href: psa/whats-new-ur-45.md
         - name: 'Mis on uut või muutunud värskenduses 44, V3?'
           href: psa/whats-new-ur-44.md
         - name: 'Mis on uut või muutunud värskenduses 43, V3?'

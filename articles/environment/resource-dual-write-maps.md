@@ -6,12 +6,12 @@ ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
-ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
+ms.openlocfilehash: b86b9ecdc63989189c76dd8380024aa44c7641a5
+ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112424"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9621076"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Rakenduse Project Operations topeltkirjutamise vastenduse versioonid
 
@@ -48,14 +48,14 @@ Järgmised kaardid on Project Operationsi lahenduse jaoks nõutavad eeltingimuse
 | Projekti rahastamisallikas (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Pole vajalik ettevalmistuse jaoks. ||
 | Projekti integratsioonitabel materjaliprognooside jaoks (msdyn\_ estimate lines) | 1.0.0.0 | Pole vajalik ettevalmistuse jaoks. ||
 | Projekti arve ettepanekud V2 (arved) | 1.0.0.3 | Pole vajalik ettevalmistuse jaoks. ||
-| Project Operationsi integreerimise tegelikud näitajad (msdyn_actuals) | 1.0.0.14 | Pole vajalik ettevalmistuse jaoks. ||
+| Project Operationsi integreerimise tegelikud näitajad (msdyn_actuals) | 1.0.0.15 | Pole vajalik ettevalmistuse jaoks. |10.0.29 või uuemad|
 | Project Operationsi integratsiooni lepingurea vahekokkuvõtted (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Pole vajalik ettevalmistuse jaoks. ||
 | Project Operationsi integratsiooni olem kuluprognooside jaoks (msdyn_estimatelines) | 1.0.0.2 | Pole vajalik ettevalmistuse jaoks. ||
 | Project Operationsi integreerimise olem tunniprognooside jaoks (msdyn_resourceassignments) | 1.0.0.5 | Pole vajalik ettevalmistuse jaoks. ||
 | Project Operationsi integreerimise projekti kulukategooriate ekspordi olem (msdyn_expensecategories) | 1.0.0.1 | Pole vajalik ettevalmistuse jaoks. ||
 | Project Operationsi integreerimise projekti kulude ekspordi olem (msdyn_expenses) | 1.0.0.3 | Pole vajalik ettevalmistuse jaoks. ||
-| Project Operationsi integreerimise projekti tarnija arve ekspordist (msdyn_projectvendorinvoices) | 1.0.0.1 | Pole vajalik ettevalmistuse jaoks. |10.0.26 või uuemad|
-| Project Operationsi integratsioon projekti tarnija arve rea ekspordist (msdyn_projectvendorinvoices) | 1.0.0.4 | Pole vajalik ettevalmistuse jaoks. | 10.0.26 või uuemad |
+| Project Operationsi integreerimise projekti tarnija arve ekspordist (msdyn_projectvendorinvoices) | 1.0.0.2 | Pole vajalik ettevalmistuse jaoks. |10.0.29 või uuemad|
+| Project Operationsi integratsioon projekti tarnija arve rea ekspordist (msdyn_projectvendorinvoices) | 1.0.0.5 | Pole vajalik ettevalmistuse jaoks. | 10.0.29 või uuemad |
 | Projekti ressursside rollid kõigile ettevõtetele (bookableresourcecategories) | 1.0.0.1 | Nõuab tabelikaardi jaoks algset sünkroonimist, et sünkroonida projektijuhi ja meeskonna liikme ressursirollid, mis on ettevalmistamise ajal Dynamics 365 Dataverse’i keskkonnas asustatud. Dataverse on algse sünkroonimise põhiallikas. ||
 | Projektiülesanded (msdyn_projecttasks) | 1.0.0.4 | Pole vajalik ettevalmistuse jaoks. ||
 | Projektitehingute kategooriad (msdyn_transactioncategories) | 1.0.0.0 | Pole vajalik ettevalmistuse jaoks. ||
