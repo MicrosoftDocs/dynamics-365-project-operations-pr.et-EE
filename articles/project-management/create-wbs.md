@@ -1,17 +1,17 @@
 ---
 title: Tööjaotuse struktuuri loomine
-description: Selles artiklis selgitatakse, kuidas luua tööjaotuse struktuur (WBS), mis sisaldab uue plaanimisliidese põhijuhtelemente.
+description: Selles artiklis selgitatakse, kuidas luua tööjaotuse struktuur (WBS), mis hõlmab uue plaanimisliidese põhijuhtelemente.
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 19d2dfeff39fd3c5edd5124c27134a9fe360e4d1
+ms.sourcegitcommit: 8f4841387deea2998589b7365c3373585a16cb0e
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932061"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655183"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Tööjaotuse struktuuri (WBS) loomine
 
@@ -63,7 +63,7 @@ Tööülesande taandamiseks või ülendamiseks tehke järgmist.
 
 ### <a name="move-tasks-up-and-down"></a>Ülesannete üles ja alla liigutamine
 
-Tööülesanded saab liigutada mis tahes tööjaotuse struktuuri tasemele ühel järgmistest viisidest.
+Ülesandeid saab tööjaotuse struktuuri mis tahes tasemele teisaldada ühel kahest viisist:
 
 - Valige üks või enam tööülesannet ning lohistage need soovitud asukohta.
 - Valige üks või enam tööülesannet, tehke paremklõps ja valige **Lõika**, valige ajakavas sihtkoha lahter ja seejärel paremklõpsake ning valige **Kleebi**.
@@ -95,11 +95,11 @@ Administraatorina saate tööülesande olemis määratleda kohandatud välju. Ku
 
 ## <a name="staffing-attributes"></a>Personaliatribuudid
 
-Personaliatribuute saab kasutada ajakava välja **Ressursid** kaudu. Saate otsida olemasolevat ressurssi või valida käsu **Loo** ja siis lisada paneelil **Kiirloomine** uue ressursina projekti meeskonnaliikme.  Kui otsite ressurssi ressursivalija abil ülesanderuudustikus, tahvlivaates või ganttis, tagastab otsing kas olemasolevad projektimeeskonna liikmed või aktiivsed broneeritavad ressursid.
+Personaliatribuute saab kasutada ajakava välja **Ressursid** kaudu. Saate otsida olemasolevat ressurssi või valida käsu **Loo** ja siis lisada paneelil **Kiirloomine** uue ressursina projekti meeskonnaliikme.  Kui otsite ressurssi ressursivalija abil ülesannete ruudustikus, tahvlivaates või ganttis, tagastab otsing kas olemasolevad projektimeeskonna liikmed või aktiivsed broneeritavad ressursid.
 
 Väljad **Roll**, **Ressursiühik** ja **Positsiooni nimi** on kasutusel ülesandega seotud vajaduste kirjeldamiseks. Neid personaliatribuute koos ülesannete ajakavaga kasutatakse selleks, et leida selle toimingu jaoks saadaolevaid ressursse.
 
-   - **Roll**: määrake ülesande täitmiseks vajaliku ressursi tüüp.,
+   - **Roll**: määrake ülesande tegemiseks vajaliku ressursi tüüp.,
    - **Ressursiühik**: määrake ühik, millest ülesandega seotud ressursid tuleks määrata. See atribuut mõjutab ülesande maksumust ja müügihinda juhul, kui ressursi kulu ja arve määr seatakse vastavalt ressursiühikule.
    - **Positsiooni nimi**: sisestage üldisele ressursile sõbralik nimi, mis on selle ressursi kohatäiteks, mis lõppkokkuvõttes tööd tegema hakkab.
 
@@ -112,6 +112,18 @@ Väljal **Kategooria** on väärtused, mis näitavad, et ülesannet saab rühmit
 Project Operationsi ajakava abil saate luua ülesannete vahel eelkäijate seoseid. Väli **Eelkäia** kasutab ühe või mitu väärtust, et näidata ülesandeid, millest ülesanne sõltub. Eelkäija väärtuse määramisel ülesandele saab ülesanne alata alles siis, kui eelkäijatest ülesanded on lõpetatud. Sõltuvuse tõttu lähtestatakse ülesande planeeritud alguskuupäev kuupäevani, mil eelkäija ülesanded on lõpule viidud.
 
 Ülesande režiim ei mõjuta rakenduse eelkäija / sõltuvate ülesannete algus- ja lõppkuupäevale tehtud värskendusi.
+
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Kestuse, ressursikalendrite ja projektikalendrite mõju mõistmine ülesannetele
+Ülesande kestus on määratletud kui töötundide arv ülesande alguskuupäeva algusaja ja lõppkuupäeva lõpuaja vahel.   Veebiprojekt määratleb kestuse mõõtühikud järgmiselt:
+
+| **Kestuse mõõtmine** | **Kogus**|
+|----------------------------------------------------|----------------------|
+| Tundi päevas | 8 |
+| Tunnid nädalas |  40 |
+| Päevad kuus |  20 |
+
+Määramata ülesanded plaanitakse projekti kalendri abil. Kuid esmasel ressursimääramisel värskendatakse ülesande ajastamist nii, et see vastaks ressursi kalendrile. Ülesandega ülesande hilisemaid muudatusi reguleerib [projekti plaanimisrežiim](scheduling-modes.md). Lisateavet kalendrite mõju kohta ülesannetele leiate teemadest [Ressursikalendrid Projecti veebirakenduses](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) ja Ülesannete algusajad ja [teie projektid!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Hõlbustusfunktsioonid ja kiirklahvid
 
@@ -127,7 +139,7 @@ Kui kasutate Project Operationsis tööjaotuse struktuuri, peaksite olema kursis
 | Projekti ressursside maksimaalne koguarv              | 300                  |
 | Projekti linkide maksimaalne koguarv (ainult järglane) | 600                  |
 | Projekti kohandatud väljade maksimaalne koguarv          | 10                   |
-| Maksimaalsed kontroll-loendi üksused ülesande kohta                   | 20                   |
+| Kontroll-loendiüksuste maksimum ülesande kohta                   | 20                   |
 
 **Ülesande piirangud**
 
