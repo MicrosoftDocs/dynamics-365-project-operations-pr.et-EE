@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
-ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
-ms.translationtype: HT
+ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9686970"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709439"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Üleminek rakenduselt Project Service Automation rakendusele Project Operations
 
@@ -70,7 +70,7 @@ Täiendusprotsessi osana oleme saidikaardile lisanud täienduslogid, et administ
 
 ## <a name="licensing"></a>Litsentsimine
 
-Kui teil on Project Service Automationi aktiivsed litsentsid, saate installida ja kasutada Project Operationsit, mis hõlmab kõiki Project Service Automationi võimalusi ja palju muud. Seejärel saate testida Project Operationsi võimalusi eraldi keskkonnas, samal ajal kui jätkate Project Service Automationi kasutamist tootmises. Pärast Project Service Automationi litsentside aegumist peate üle minema Project Operationsile. Selle ülemineku kavandamisel peate arvestama asjaoluga, et Project Operationsi litsents ei sisalda Project Service Automationi litsentsi.
+Kui teil on Project Service Automationi aktiivsed litsentsid, saate installida ja kasutada Project Operationsit, mis hõlmab kõiki Project Service Automationi võimalusi ja palju muud. Sel viisil saate testida Project Operationsi võimalusi, kui jätkate Project Service Automationi kasutamist tootmises. Pärast Project Service Automationi litsentside aegumist peate üle minema Project Operationsile. Selle ülemineku kavandamisel peate arvestama asjaoluga, et Project Operationsi litsents ei sisalda Project Service Automationi litsentsi. Kliendid, kellel on stsenaariume, kus nad on juurutanud Project Service Automationi ja peavad projektitoimingutele ülemineku ajal jätkama PSA litsentside kasutamist või neid suurendama, võivad taotleda ajutisi PSA litsentse, mis põhinevad Project Operationsi ostetud litsentsidel. Ühele Project Operationsi litsentsile väljastatakse üks Project Service Automationi litsents. Ajutisi PSA litsentse saab taotleda järgmise lingi abil: aka.ms/ineedpsa
 
 ## <a name="testing-and-refactoring-customizations"></a>Kohanduste testimine ja refactoring
 
