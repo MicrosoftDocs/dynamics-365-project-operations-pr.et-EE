@@ -1752,8 +1752,6 @@
               href: psa/FAQ-soft-book-in-web-app.md
             - name: Kuidas ma saan projekti etappide äriprotsessi vooge kohandada?
               href: psa/FAQ-customize-bpf.md
-            - name: Tööjaotuse struktuuri täiendamise kaalutlused
-              href: psa/upgrade-considerations-tasks.md
         - name: Tehnilised ülevaated
           href: psa/white-papers.md
         - name: Administraatori juhend
