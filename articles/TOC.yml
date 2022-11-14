@@ -286,6 +286,8 @@
           href: project-management/define-project-calendars.md
         - name: Ajastamisrežiimid
           href: project-management/scheduling-modes.md
+        - name: Väline ajastamine
+          href: project-management/external-scheduling.md
         - name: Projekti värskendamine
           href: project-management/update-project.md
         - name: Projekti kopeerimine
@@ -914,6 +916,8 @@
           href: project-management/define-project-calendars.md
         - name: Ajastamisrežiimid
           hreF: project-management/scheduling-modes.md
+        - name: Väline ajastamine
+          href: project-management/external-scheduling.md
         - name: Projekti värskendamine
           href: project-management/update-project.md
         - name: Projekti kopeerimine
