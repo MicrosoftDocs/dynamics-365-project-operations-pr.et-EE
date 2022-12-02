@@ -1,6 +1,6 @@
 ---
 title: Projekti ajakava API-de kasutamine ajastamise olemitega toimingute tegemiseks
-description: Sellest artiklist leiate teavet ja näidiseid Projecti ajakava API-de kasutamise kohta.
+description: Selles artiklis on toodud teave ja näited projekti ajakava API-de kasutamise kohta.
 author: sigitac
 ms.date: 01/13/2022
 ms.topic: article
@@ -34,7 +34,7 @@ Järgmises tabelid on toodud projekti ajakava olemite täielik loend.
 | Projektimeeskonna liige     | msdyn_projectteam           |
 | Projekti kontroll-loendid      | msdyn_projectchecklist      |
 | Projekti silt           | msdyn_projectlabel          |
-| Projekti ülesanne sildistada   | msdyn_projecttasktolabel    |
+| Projekti ülesanne sildile   | msdyn_projecttasktolabel    |
 | Projekti sprint          | msdyn_projectsprint         |
 
 **OperationSet**
@@ -45,16 +45,16 @@ OperationSet on tööühiku muster, mida saab kasutada juhul, kui kandes tuleb t
 
 Järgnev on praeguste projekti ajakava API-de loend.
 
-| **Api**                                 | Kirjeldus                                                                                                                       |
+| **API**                                 | Kirjeldus                                                                                                                       |
 |-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| **msdyn_CreateProjectV1**               | Seda API-t kasutatakse projekti loomiseks. Projekti- ja vaikeprojekti salve luuakse kohe.                         |
+| **msdyn_CreateProjectV1**               | Seda API-t kasutatakse projekti loomiseks. Projekt ja vaikimisi projektisalv luuakse kohe.                         |
 | **msdyn_CreateTeamMemberV1**            | Seda API-t kasutatakse projektimeeskonna liikme loomiseks. Meeskonnaliikme kirje luuakse kohe.                                  |
-| **msdyn_CreateOperationSetV1**          | Seda API-t kasutatakse mitme päringu ajastamiseks, mis tuleb tehingu raames täita.                                        |
+| **msdyn_CreateOperationSetV1**          | Seda API-t saab kasutada mitme taotluse ajastamiseks, mis tuleb kande sees teha.                                        |
 | **msdyn_PssCreateV1**                   | Seda API-t kasutatakse olemi loomiseks. Olem võib olla mis tahes priekti ajastamise olemitest, mis toetab loomistoimingut. |
-| **msdyn_PssUpdateV1**                   | Seda API-t kasutatakse olemi värskendamiseks. Olem võib olla ükskõik milline projekti plaanimise olem, mis toetab värskendustoimingut  |
+| **msdyn_PssUpdateV1**                   | Seda API-t kasutatakse olemi värskendamiseks. Olem võib olla mis tahes projekti ajastamise olemitest, mis toetab värskendamistoimingut  |
 | **msdyn_PssDeleteV1**                   | Seda API-t kasutatakse olemi kustutamiseks. Olem võib olla mis tahes priekti ajastamise olemitest, mis toetab kustutamistoimingut. |
-| **msdyn_ExecuteOperationSetV1**         | Seda API-t kasutatakse kõigi antud operatsioonikomplekti toimingute teostamiseks.                                                 |
-| **msdyn_PssUpdateResourceAssignmentV1** | Seda API-t kasutatakse ressursimääramise plaanitud töökontuuri värskendamiseks.                                                        |
+| **msdyn_ExecuteOperationSetV1**         | Seda API-t kasutatakse antud toimingute komplektis kõikide toimingute täitmiseks.                                                 |
+| **msdyn_PssUpdateResourceAssignmentV1** | Seda API-t kasutatakse ressursi määramise plaanitud töö kontuuri värskendamiseks.                                                        |
 
 
 
@@ -66,16 +66,16 @@ Kuna nii API **CreateProjectV1** kui ka **CreateTeamMemberV1** kirjed luuakse ko
 
 | **Olemi ajastamine**   | **Koosta** | **Värskendus** | **Kustutusklahv (Delete)** | **Olulised kaalutlused**                                                                                                                                                                                                                                                                                                                            |
 |-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Projekti ülesanne            | Ja        | Ja        | Ja        | Välju **Edenemine**, **Lõpuleviidud** ja **Panusejääk** saab project for the Webis redigeerida, kuid neid ei saa project operationsis redigeerida.                                                                                                                                                                                             |
+| Projekti ülesanne            | Ja        | Ja        | Ja        | Välja **Progress**, **EffortCompleted** ja **EffortRemaining** saab redigeerida rakenduses Project for the Web, kuid neid ei saa muuta rakenduses Project Operations.                                                                                                                                                                                             |
 | Projektiülesande sõltuvus | Ja        | No         | Ja        | Projektiülesande sõltuvuskirjeid ei värskendata. Selle asemel saab vana kirje kustutada ja luua uue kirje.                                                                                                                                                                                                                                 |
-| Ressursi määramine     | Ja        | Jah\*      | Ja        | Järgmiste väljadega toiminguid ei toetata: **BookableResourceID** (Broneeritava ressursi ID), **Effort** (Panus), **EffortCompleted** (Lõpule viidud panus), **EffortRemaining** (Järelejäänud panus) ja **PlannedWork** (Planeeritud töö). Ressursi määramise kirjeid ei värskendata. Selle asemel saab vana kirje kustutada ja luua uue kirje. Ressursside määramise kontuuride värskendamiseks on ette nähtud eraldi API. |
-| Projektisalv          | Ja        | Ja        | Ja        | Vaikesämber luuakse CreateProjectV1 **API abil**. Projektisalvede loomise ja kustutamise tugi lisati värskendusväljaandesse 16.                                                                                                                                                                                                   |
+| Ressursi määramine     | Ja        | Jah\*      | Ja        | Järgmiste väljadega toiminguid ei toetata: **BookableResourceID** (Broneeritava ressursi ID), **Effort** (Panus), **EffortCompleted** (Lõpule viidud panus), **EffortRemaining** (Järelejäänud panus) ja **PlannedWork** (Planeeritud töö). Ressursi määramise kirjeid ei värskendata. Selle asemel saab vana kirje kustutada ja luua uue kirje. Ressursi määramise kontuuride värskendamiseks on saadaval eraldi API. |
+| Projektisalv          | Ja        | Ja        | Ja        | Vaikesalv luuakse **CreateProjectV1** API-t kasutades. Värskendusväljaandes 16 lisati projektisalvede loomise ja kustutamise tugi.                                                                                                                                                                                                   |
 | Projektimeeskonna liige     | Ja        | Ja        | Ja        | Kasutage loomistoiminguks API-d **CreateTeamMemberV1**.                                                                                                                                                                                                                                                                                           |
 | Project                 | Ja        | Ja        |            | Järgmiste väljadega toiminguid ei toetata: **StateCode** (Olekukood), **BulkGenerationStatus** (Hulgiloomise olek), **GlobalRevisionToken** (Üldine redaktsioonitõend), **CalendarID** (Kalendri ID), **Effort** (Panus), **EffortCompleted** (Lõpule jõudnud panus), **EffortRemaining** (Järelejäänud panus), **Progress** (Edenemine), **Finish** (Lõpp), **TaskEarliestStart** (Ülesande varajaseim algus) ja **Duration** (Kestus).                                                                                       |
 | Projekti kontroll-loendid      | Ja        | Ja        | Ja        |                                                                                                                                                                                                                                                                                                                                                         |
-| Projekti silt           | No         | Ja        | No         | Siltide nimesid saab muuta. See funktsioon on saadaval ainult Projecti veebirakenduse jaoks                                                                                                                                                                                                                                                                      |
-| Projekti ülesanne sildistada   | Ja        | No         | Ja        | See funktsioon on saadaval ainult Projecti veebirakenduse jaoks                                                                                                                                                                                                                                                                                                  |
-| Projekti sprint          | Ja        | Ja        | Ja        | Välja **Start** kuupäev peab olema varasem kui väljal **Valmis**. Sama projekti sprindid ei saa üksteisega kattuda. See funktsioon on saadaval ainult Projecti veebirakenduse jaoks                                                                                                                                                                    |
+| Projekti silt           | No         | Ja        | No         | Sildinimesid saab muuta. See funktsioon on saadaval ainult Project for the Webile.                                                                                                                                                                                                                                                                      |
+| Projekti ülesanne sildile   | Ja        | No         | Ja        | See funktsioon on saadaval ainult Project for the Webile.                                                                                                                                                                                                                                                                                                  |
+| Projekti sprint          | Ja        | Ja        | Ja        | Väljal **Algus** kuupäev peab olema varasem kui väljal **Lõpp**. Sama projekti sprindid ei saa üksteisega kattuda. See funktsioon on saadaval ainult Project for the Webile.                                                                                                                                                                    |
 
 
 
@@ -86,7 +86,7 @@ ID atribuut on valikuline. Kui see on antud, proovib süsteem seda kasutada ja l
 
 Järgnevalt on toodud piirangute ja teadaolevate probleemide loend.
 
--   Projekti ajakava API-sid **saavad kasutada ainult Microsoft Project License’iga** kasutajad. Neid ei saa kasutada järgnevad.
+-   Projekti ajakava API-sid saavad kasutada ainult **Microsoft Projecti litsentsiga kasutajad**. Neid ei saa kasutada järgnevad.
     -   Rakenduse kasutajad
     -   Süsteemi kasutajad
     -   Integratsiooni kasutajad
@@ -94,12 +94,12 @@ Järgnevalt on toodud piirangute ja teadaolevate probleemide loend.
 -   Igal suvandil **OperationSet** saab olla maksimaalselt 100 toimingut.
 -   Igal kasutajal saab maksimaalselt olla 10 avatud suvandit **OperationSet**.
 -   Project Operations toetab praegu projektil kokku maksimaalselt 500 ülesannet.
--   Iga ressursi määramise kontuuri värskendamise operatsioon loetakse üheks toiminguks.
--   Iga värskendatud kontuuride loend võib sisaldada maksimaalselt 100 ajaviilu.
+-   Iga värskenduse ressursi määramise kontuuri toiming loetakse üheks toiminguks.
+-   Iga värskendatud kontuuride loend võib sisaldada maksimaalselt 100 ajalõiku.
 -   Suvandi **OperationSet** tõrkeolek ja tõrkelogid pole hetkel saadaval.
 -   Ühe projekti kohta on maksimaalselt 400 sprinti.
--   [Projektide ja ülesannete](/project-for-the-web/project-for-the-web-limits-and-boundaries) piirid ja piirid.
--   Sildid on praegu saadaval ainult Projecti veebiversiooni jaoks.
+-   [Projektide ja tööülesannete piirangud ja piirid](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+-   Sildid on hetkel saadaval ainult Project for the Webile.
 
 **Tõrketöötlus**
 
@@ -108,23 +108,23 @@ Järgnevalt on toodud piirangute ja teadaolevate probleemide loend.
 
 **Ressursi määramise kontuuride redigeerimine**
 
-Erinevalt kõigist teistest projekti plaanimise API-dest, mis värskendavad olemit, vastutab ressursimäärangu kontuuri API ainuisikuliselt ühe välja värskenduste eest, msdyn_plannedwork ühes olemis, msydn_resourceassignment.
+Erinevalt kõigist teistest olemit värskendavatest projekti ajastamise API-dest vastutab ressursi määramise kontuuri API ainuüksi ühe välja msdyn_plannedwork värskenduste eest ühel olemil, msydn_resourceassignment.
 
-Antud ajakava režiim on:
+Antud ajakavarežiim on:
 
--   **püsiühikud**
--   Projekti kalender on 9-5p on 9-5pst, E, T, T, Reede (NO WORK KOLMAPÄEVITI)
--   Ja ressursside kalender on 9-1p PST E-R
+-   **fikseeritud ühikud**
+-   projekti kalender on 9-17 on 9-5, E, T, N, R (KOLMAPÄEVITI TÖÖD EI OLE)
+-   ja ressursside kalender on 9-1p PST E–R
 
-See ülesanne on üks nädal, neli tundi päevas. Seda seetõttu, et ressursikalender on vahemikus 9-1 PST ehk neli tundi päevas.
+See ülesanne on üks nädal, neli tundi päevas. Seda seetõttu, et ressursikalender on kell 9–1 PST ehk neli tundi päevas.
 
-| &nbsp;     | Toiming | Alguskuupäev | Lõpukuupäev  | Kogus | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
+| &nbsp;     | Toiming | Alguskuupäev | Lõpukuupäev  | Kogus | 13.06.2022 | 14.06.2022 | 15.06.2022 | 16.06.2022 | 17.06.2022 |
 |------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
-| 9-1 töötaja |  T1  | 6/13/2022  | 6/17/2022 | 20       | 4         | 4         | 4         | 4         | 4         |
+| 9-1 töötaja |  T1  | 13.06.2022  | 17.06.2022 | 20       | 4         | 4         | 4         | 4         | 4         |
 
-Näiteks kui soovite, et töötaja töötaks sel nädalal iga päev ainult kolm tundi ja lubaks muude ülesannete jaoks ühe tunni.
+Näiteks kui soovite, et töötaja töötaks sel nädalal iga päev ainult kolm tundi ja jätaks ühe tunni muude ülesannete jaoks.
 
-#### <a name="updatedcontours-sample-payload"></a>VärskendatudContours’i kasuliku koormuse näidis:
+#### <a name="updatedcontours-sample-payload"></a>UpdatedContours valimikoormus:
 
 ```json
 [{
@@ -138,11 +138,11 @@ Näiteks kui soovite, et töötaja töötaks sel nädalal iga päev ainult kolm 
 }]
 ```
 
-See on ülesanne pärast kontuurigraafiku uuendamise API käivitamist.
+See on määramine pärast kontuuri ajakava värskendamise API käitamist.
 
-| &nbsp;     | Toiming | Alguskuupäev | Lõpukuupäev  | Kogus | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
+| &nbsp;     | Toiming | Alguskuupäev | Lõpukuupäev  | Kogus | 13.06.2022 | 14.06.2022 | 15.06.2022 | 16.06.2022 | 17.06.2022 |
 |------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
-| 9-1 töötaja | T1   | 6/13/2022  | 6/17/2022 | 15       | 3         | 3         | 3         | 3         | 3         |
+| 9-1 töötaja | T1   | 13.06.2022  | 17.06.2022 | 15       | 3         | 3         | 3         | 3         | 3         |
 
 
 **Näidisstsenaarium**
@@ -195,7 +195,7 @@ CallExecuteOperationSetAction(operationSetId);
 Console.WriteLine("Done....");
 ```
 
-** Lisaproovid
+** Täiendavad näited
 
 ```csharp
 #region Call actions --- Sample code ----

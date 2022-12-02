@@ -1,6 +1,6 @@
 ---
 title: Konfiguratsiooniandmete häälestamine ja rakendamine teenuses Microsoft Dataverse
-description: Sellest artiklist leiate teavet Project Operationsis konfiguratsiooniandmete häälestamise ja rakendamise kohta.
+description: See artikkel kirjeldav konfiguratsiooni andmete seadistamist ja konfiguratsiooni rakendamist rakenduses Project Operations.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
@@ -21,10 +21,10 @@ _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
 ## <a name="prerequisites"></a>eeltingimused
 
-Enne andmete konfigureerimist Microsoft Dataverse peavad olema täidetud järgmised eeltingimused.
+Enne andmete konfigureerimise alustamist teenuses Microsoft Dataverse peavad olema täidetud järgmised eeltingimused.
 
-1.  Dataverse Keskkonna ja Dynamics 365 Finance keskkonna ettevalmistamine Project Operationsi jaoks.
-2.  Juriidilise isiku teavet Dynamics 365 Finance jagatakse Dataverse keskkonnale. See tähendab, et **ettevõtte** üksusel Dataverse on järgmised ettevõtte kirjed:
+1.  Valmistage Dataverse keskkond ja rakenduse Dynamics 365 Finance’i keskkond Project Operationsi jaoks ette.
+2.  Rakenduse Dynamics 365 Finance juriidilise isiku teavet jagatakse Dataverse keskkonnaga. See tähendab, et **Ettevõte** olemil rakenduses Dataverse on järgmised ettevõtte kirjed.
   - THPM
   - USPM
   - GBPM

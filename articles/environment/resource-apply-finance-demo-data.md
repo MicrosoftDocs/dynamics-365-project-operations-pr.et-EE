@@ -1,6 +1,6 @@
 ---
 title: Demoandmete rakendamine rakenduse Finance pilvepõhises keskkonnas
-description: Selles artiklis selgitatakse, kuidas rakendada demoandmeid Project Operationsist Dynamics 365 Finance pilve hostitud keskkonda.
+description: See artikkel kirjeldab rakenduse Project Operations demoandmete rakendamist Dynamics 365 Finance’i pilvepõhisesse keskkonda.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "9029892"
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
 > [!IMPORTANT]
-> See artikkel kehtib ainult Microsoft Dynamics 365 Finance'i versiooni 10.0.13 kohta ja seda saab teha ainult pilve hostitud keskkonnas. Täitke selles artiklis **toodud juhised ENNE** keskkonnale kvaliteedivärskenduste rakendamist.
+> See artikkel on rakendatav ainult Microsoft Dynamics 365 Finance versiooniga 10.0.13 ja seda saab teha ainult pilvepõhises keskkonnas. **ENNE** keskkonnale kvaliteedivärskenduste rakendamist viige lõpule selle artikli etapid.
 
 1. Avage oma LCS-i projektis leht **Keskkonna üksikasjad**. Pange tähele, et see sisaldab Remote Desktop Protocoli (RDP) abil keskkonnaga ühenduse loomiseks vajalikke üksikasju.
 
@@ -76,7 +76,7 @@ Selle lõpuleviimiseks kulub mõni minut. Peaksite saama kinnituse, et administr
 
 18. Sulgege kaugtöölaua seanss ja kasutage LCS-i lehte **Keskkonna üksikasjad**, et logida keskkonda sisse ja kontrollida, et see töötab ootuspäraselt.
 
-![Rahandus ja toimingud.](./media/10FinanceAndOperations.png)
+![Finants- ja äritoimingud.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

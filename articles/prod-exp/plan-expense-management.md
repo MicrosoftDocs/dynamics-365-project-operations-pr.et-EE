@@ -1,6 +1,6 @@
 ---
 title: Kuluhalduse konfigureerimine
-description: Selles artiklis kirjeldatakse kaalutlusi ja otsuseid, mida peate tegema plaanimisprotsessi ajal enne kuluhalduse konfigureerimist rakenduses Microsoft Dynamics 365 Finance.
+description: See artikkel kirjeldab, milliseid kaalutlusi ja otsuseid tuleb plaanimisprotsessis teha enne, kui rakenduses Microsoft Dynamics 365 Finance kuluhalduse konfigureerite.
 author: KimANelson
 ms.date: 08/29/2017
 ms.topic: article
@@ -24,7 +24,7 @@ ms.locfileid: "8933993"
 ---
 # <a name="configure-expense-management"></a>Kuluhalduse konfigureerimine
 
-Selles artiklis kirjeldatakse kaalutlusi ja otsuseid, mida peate enne kuluhalduse konfigureerimist plaanimisprotsessi käigus tegema. Kuluhalduses saate talletada teavet makseviiside, reisitellimuste, kuluaruannete, poliitikate jms kohta.
+See artikkel kirjeldab, milliseid kaalutlusi ja otsuseid tuleb plaanimisprotsessis teha enne, kui kuluhalduse konfigureerite. Kuluhalduses saate talletada teavet makseviiside, reisitellimuste, kuluaruannete, poliitikate jms kohta.
 
 Kuna kuluhalduse konfiguratsiooni plaanimisel tehtud otsused põhinevad teie organisatsiooni hierarhial ja finantsstruktuuril, peate viitama nende alade jaoks plaanitavatele dokumentidele.
 

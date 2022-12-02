@@ -1,6 +1,6 @@
 ---
 title: Mis on uut mais 2022 – Project Operationsi lihtjuurutamine
-description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval Microsoft Dynamics 365 Project Operations lite juurutuse 2022. aasta mai väljaandes.
+description: See artikkel annab teavet rakenduse Microsoft Dynamics 365 Project Operations lihtjuurutamise 2022. a mai väljalaskes saadaolevate kvaliteedivärskenduste kohta.
 author: sigitac
 ms.date: 05/02/2022
 ms.topic: article
@@ -18,16 +18,16 @@ ms.locfileid: "8934131"
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
-See artikkel kehtib järgmiste Microsofti Dynamics 365 Project Operations komponentide ja versioonide kohta.
+See artikkel kehtib rakenduse Microsoft Dynamics 365 Project Operations järgmiste komponentide ja versioonide kohta.
 
-- Projektitoimingud keskkonnaversioonis Dataverse 4.42.0.70
+- Rakenduse Project Operations Dataverse keskkonna versioonis 4.42.0.70
 
 ## <a name="quality-updates"></a>Kvaliteedi värskendused
 
 | Funktsiooni ala | Viitenumber | Kvaliteedi värskendus |
 | --- | --- | --- |
-| Ressursihaldus | 2634019 | Täiustatud tõrketeated ettevõtte valideerimiseks üldiste meeskonnaliikmete lisamisel ressurssidena. |
-| Projekti plaanimine ja jälgimine | 2648515 | Omaniku-ID **·**, **oleku** ja **oleku** piiratud värskendused plaanimisolemites. |
-| Arveldamine ja hinnakujundus | 2653167 | Hinnangute **ruudustiku** kümnenderaldaja peab järgima isiklike suvandite **vormingusätteid**. |
-| Arveldamine ja hinnakujundus| 2662251 | Väärtused väljadel **Parandatud ühik** ja **Ühik** vaikeväärtused, kui loote kirjeid materjalihinnangutes. |
-| Arveldamine ja hinnakujundus| 2571408 | Sisestamata müügireaalsused tembeldatakse mustandiarve loomisel proformaarve ID-ga. |
+| Ressursihaldus | 2634019 | Parandatud tõrketeateid ettevõtte valideerimiste puhul, kui lisatakse üldisi meeskonnaliikmeid ressurssidena. |
+| Projekti plaanimine ja jälgimine | 2648515 | Piiratud värskendused **omanikud**, **oleku** ja **staatus** ajastamisüksustes. |
+| Arveldamine ja hinnakujundus | 2653167 | **Prognoosid** ruudustiku kümnendkohtade eraldaja peab järgima jaotises **Personaalsed valikud** formaadisätteid. |
+| Arveldamine ja hinnakujundus| 2662251 | Väärtused väljadel **Korrigeeritud ühik** ja **Ühikugrupp** on vaikimisi väärtused materjali prognooside kirjete loomisel. |
+| Arveldamine ja hinnakujundus| 2571408 | Arveldamata müügi tegelikud näitajad tembeldatakse mustandarve loomisel näidisarve ID-ga. |

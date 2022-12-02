@@ -1,6 +1,6 @@
 ---
 title: Allhankelepingu rea vahe-eesmärgid
-description: Selles artiklis selgitatakse, kuidas luua ja hallata hankijaga sõlmitud allhankelepingu jaoks-postipõhist arvegraafikut.
+description: See artikkel kirjeldab, kuidas luua ja hallata vahekokkuvõtetel põhinevat arve ajakava hankijaga sõlmitud allhankelepingu korral.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

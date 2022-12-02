@@ -1,6 +1,6 @@
 ---
-title: Eemaldatud või aegunud funktsioonid Dynamics 365 Project Operations
-description: Selles artiklis kirjeldatakse funktsioone, mis on eemaldatud või mis on plaanitud eemaldada Dynamics 365 Project Operations.
+title: Rakenduse Dynamics 365 Project Operations eemaldatud või iganenud funktsioonid
+description: See artikkel kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada rakendusest Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/16/2022
 ms.topic: article
@@ -14,11 +14,11 @@ ms.contentlocale: et-EE
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9028324"
 ---
-# <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Eemaldatud või aegunud funktsioonid Dynamics 365 Project Operations
+# <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Rakenduse Dynamics 365 Project Operations eemaldatud või iganenud funktsioonid
 
 _**Kehtib järgmiste puhul:** Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks, lihtjuurutus – tehing näidisarveldusele ja Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks_
 
-Selles artiklis kirjeldatakse funktsioone, mis on eemaldatud või mis on plaanitud eemaldada Dynamics 365 Project Operations.
+See artikkel kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada rakendusest Dynamics 365 Project Operations.
 
 - *Eemaldatud* funktsioon pole enam tootes saadaval.
 - *Iganenud* funktsiooni ei arendata aktiivselt ja võidakse tulevases värskenduses eemaldada.
@@ -26,60 +26,60 @@ Selles artiklis kirjeldatakse funktsioone, mis on eemaldatud või mis on plaanit
 See loend on mõeldud teie abistamiseks oma planeerimises nende eemaldamiste ja iganemistega arvestamiseks.
 
 > [!NOTE]
-> Üksikasjalikku teavet finance and operationsi rakenduste objektide kohta leiate tehnilise viite aruannetest [**·**](/dynamics/s-e/global/axtechrefrep_61). Saate võrrelda nende aruannete erinevaid versioone, et saada teavet objektide kohta, mida on finance and operationsi rakenduste igas versioonis muudetud või eemaldatud.
+> Üksikasjalikku teavet finants- ja äritoimingute rakendustes olevate objektide kohta leiate jaotisest [**Tehnilised viitearuanded**](/dynamics/s-e/global/axtechrefrep_61). Saate võrrelda nende aruannete erinevaid versioone, et saada teavet objektide kohta, mida on finants- ja äritoimingute rakendustes igas versioonis muudetud või eemaldatud.
 
-## <a name="features-removed-or-deprecated-in-the-project-operations-march-2022-release"></a>Project Operationsi 2022. aasta märtsi väljaandes eemaldatud või aegunud funktsioonid
+## <a name="features-removed-or-deprecated-in-the-project-operations-march-2022-release"></a>Rakenduse Project Operations märtsi 2022 versioonis eemaldatud või aegunud funktsioonid
 
-### <a name="project-management-and-accounting-always-create-adjustment-transaction-parameter"></a>Projektijuhtimise ja raamatupidamise parameeter "Loo alati korrigeerimiskanne"
+### <a name="project-management-and-accounting-always-create-adjustment-transaction-parameter"></a>Projektihalduse ja raamatupidamise parameeter „Loo alati tiksu kannete loomine“
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Eemaldamise/iganemise põhjus** | Korrigeerimiskanded on vajalikud auditi eesmärgil. Pärast aegumist on see parameeter peidetud. Süsteem loob alati korrigeerimiskanded, täpselt nagu praegu, kui parameetri väärtuseks **on seatud Jah**. |
+| **Eemaldamise/iganemise põhjus** | Korrigeerimistehingud on auditi jaoks vajalikud. Pärast iganemist see parameeter peidetakse. Süsteem loob alati korrigeerimistehingud, täpselt nagu praegu, kui parameetriks on seatud **Jah**. |
 | **Kas asendatakse muu funktsiooniga?** | No |
 | **Mõjutatud tooted** | Rakendus |
-| **Juurutamise valik** | Projektioperatsioonid tootmise/ ladustatud stsenaariumide jaoks |
-| **Olek** | Kasutuselt kõrvaldatud: 1. märtsiks 2023 peidame parameetri ja muudame süsteemi käitumist nii, et korrigeerimiskanded oleksid alati loodud. |
+| **Juurutamise valik** | Project Operations tootmise/lao stsenaariumite jaoks |
+| **Olek** | Iganenud: 1. märtsiks 2023 peidame parameetri ja muudame süsteemi käitumist nii, et korrigeerimistehingud luuakse alati. |
 
-### <a name="project-management-and-accounting-use-adjustment-date-as-new-project-date-parameter"></a>Projektijuhtimise ja raamatupidamise parameeter "Kasuta korrigeerimiskuupäeva uue projektikuupäevana"
+### <a name="project-management-and-accounting-use-adjustment-date-as-new-project-date-parameter"></a>Projektihaldus ja raamatupidamise parameeter „Kasuta kohandamiskuupäeva uue projekti kuupäevana“.
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Eemaldamise/iganemise põhjus** | Seda parameetrit kasutati algselt reguleerimiseks, kui fiskaalperiood suleti. Kuid see pole enam vajalik, kuna kande arvestuskuupäeva saab muuta avatud perioodi esimeseks kuupäevaks, kui see on konfigureeritud. Projekti kuupäeva ei tohi muuta, kuna see tähistab kande toimumise kuupäeva. |
+| **Eemaldamise/iganemise põhjus** | Seda parameetrit kasutati algselt eelarveperioodi sulgemise korral korrigeerimiste võimaldamiseks. Kuid see pole enam vajalik, kuna tehingu arvestuskuupäeva saab muuta avatud perioodi esimeseks kuupäevaks, kui see on konfigureeritud. Projekti kuupäeva ei tohi muuta, kuna see tähistab tehingu toimumise kuupäeva. |
 | **Kas asendatakse muu funktsiooniga?** | No |
 | **Mõjutatud tooted** | Rakendus |
-| **Juurutamise valik** | Projektioperatsioonid tootmise/ ladustatud stsenaariumide jaoks |
-| **Olek** | Kasutuselt kõrvaldatud: 1. märtsiks 2023 peidame parameetri ja muudame süsteemi käitumist nii, et projekti kuupäeva kohandamisel kunagi ei muudetaks. |
+| **Juurutamise valik** | Project Operations tootmise/lao stsenaariumite jaoks |
+| **Olek** | Iganenud: 1. märtsiks 2023 peidame parameetri ja muudame süsteemi käitumist nii, et projekti kuupäeva kohandamisel kunagi ei muudeta. |
 
-### <a name="resource-request-workflow-in-project-operations-for-stockedproduction-based-scenarios"></a>Ressursitaotluse töövoog rakenduses Project Operations lao-/tootmispõhiste stsenaariumide jaoks
+### <a name="resource-request-workflow-in-project-operations-for-stockedproduction-based-scenarios"></a>Ressursitaotluse töövoog rakenduse Project Operations lao-/tootmispõhiste stsenaariumide jaoks
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Eemaldamise/iganemise põhjus** | Kasutuselt kõrvaldatud vähese kasutuse ja kandemahu piirangute tõttu. |
+| **Eemaldamise/iganemise põhjus** | Iganenud vähese kasutuse ja tehingumahu piirangute tõttu. |
 | **Kas asendatakse muu funktsiooniga?** | No |
 | **Mõjutatud tooted** | Rakendus |
-| **Juurutamise valik** | Projektioperatsioonid tootmise/ ladustatud stsenaariumide jaoks |
-| **Olek** | Kasutuselt kõrvaldatud: 1. märtsiks 2023 keelame töövoo abil võimaluse projekti jaoks ressursse taotleda. |
+| **Juurutamise valik** | Project Operations tootmise/lao stsenaariumite jaoks |
+| **Olek** | Iganenud: 1. märtsiks 2023 keelame töövoo abil projekti jaoks ressursside taotlemise võimaluse. |
 
-### <a name="project-invoice-proposal-page-without-header-and-lines-views"></a>Projektiarve ettepaneku leht ilma päise- ja ridade vaadeteta
+### <a name="project-invoice-proposal-page-without-header-and-lines-views"></a>Projektiarve ettepaneku leht ilma päise- ja reavaadeteta
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Eemaldamise/iganemise põhjus** | Kasutuselt kõrvaldatud lehe täiustuste tõttu, mis võeti kasutusele koos vormidega **Kasuta projekti arvesoovitust ja arve töölehelehte koos vaate päise ja ridade vaate** funktsioonivõtmega. |
+| **Eemaldamise/iganemise põhjus** | Iganenud lehe täiustuste tõttu, mis võeti kasutusele koos funktsiooniklahviga **Projektiarve ettepaneku ja arvete töölehe vormide kasutamine koos päise ja ridade vaatega**. |
 | **Kas asendatakse muu funktsiooniga?** | Ja |
 | **Mõjutatud tooted** | Rakendus |
-| **Juurutamise valik** | Projekti toimingud tootmise / ladustatud stsenaariumide jaoks; Projekti toimingud ressursside / varudeta stsenaariumide jaoks |
-| **Olek** | Kasutuselt kõrvaldatud: 1. märtsiks 2023 lülitame välja varasema (pärand)lehe ja lülitame sisse **vormid Kasuta projekti arvesoovitust ja arve töölehed, kus on vaikimisi funktsiooniklahv Päis ja Read**. |
+| **Juurutamise valik** | Rakenduse Project Operations tootmise/lao stsenaariumide jaoks; Rakenduse Project Operations ressursi/mittelaopõhiste stsenaariumide jaoks |
+| **Olek** | Iganenud: 1. märtsiks 2023 lülitame välja varasema (pärand) lehe ja lülitame vaikimisi sisse funktsiooniklahvi **Projektiarve ettepaneku ja arvete töölehe vormide kasutamine koos päise ja ridade vaatega**. |
 
-## <a name="features-removed-or-deprecated-in-the-project-operations-december-2021-release"></a>Funktsioonid, mis on rakenduse Project Operations 2021. aasta detsembri väljaandes eemaldatud või aegunud
+## <a name="features-removed-or-deprecated-in-the-project-operations-december-2021-release"></a>Rakenduse Project Operations detsembri 2021 versioonis eemaldatud või iganenud funktsioonid
 
 ### <a name="collaboration-workspaces"></a>Koostöö tööruumid
 
-[Koostöö tööruumi loomine või linkimine (Project)](/dynamicsax-2012/appuser-itpro/create-or-link-to-a-collaboration-workspace-project)
+[Koostöö tööruumi loomine või linkimine (Projekt)](/dynamicsax-2012/appuser-itpro/create-or-link-to-a-collaboration-workspace-project)
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Eemaldamise/iganemise põhjus** | Kasutuselt kõrvaldatud vähese kasutamise tõttu. Kliendid, kes kasutavad ressursi-/varumata stsenaariumide jaoks project operationsit, saavad kasutada [koostööd office'i rühmadega](../project-management/collaboration-groups.md). |
+| **Eemaldamise/iganemise põhjus** | Iganenud vähese kasutuse tõttu. Kliendid, kes kasutavad rakendust Project Operations ressursside/mittelaopõhiste stsenaariumide jaoks, saavad kasutada [Koostöö Office Groupsiga](../project-management/collaboration-groups.md). |
 | **Kas asendatakse muu funktsiooniga?** | No |
 | **Mõjutatud tooted** | Rakendus  |
-| **Juurutamise valik** | Projektioperatsioonid tootmise/ ladustatud stsenaariumide jaoks |
-| **Olek** | Kasutuselt kõrvaldatud: 1. detsembriks 2022 ei kavatse me enam koostöö tööruume toetada. |
+| **Juurutamise valik** | Project Operations tootmise/lao stsenaariumite jaoks |
+| **Olek** | Iganenud: 1. detsembriks 2022 ei plaani me enam koostöö tööruume toetada. |

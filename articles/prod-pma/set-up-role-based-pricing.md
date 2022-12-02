@@ -1,6 +1,6 @@
 ---
 title: Rollipõhise hinnakujunduse seadistamine
-description: Selles artiklis antakse teavet selle kohta, kuidas seadistada konkreetsete rollide hinnakujundust.
+description: See artikkel annab teavet selle kohta, kuidas seadistada hinnakujundust konkreetsetele rollidele.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

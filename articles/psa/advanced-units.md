@@ -1,6 +1,6 @@
 ---
 title: Ühikurühmad ja ühikud
-description: Selles artiklis antakse teavet ühikugruppide ja ühikute kohta.
+description: See artikkel annab teavet ühikurühmade ja ühikute kohta.
 author: rumant
 ms.custom:
 - dyn365-projectservice

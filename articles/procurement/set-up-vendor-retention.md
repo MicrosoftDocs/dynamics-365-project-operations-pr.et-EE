@@ -1,6 +1,6 @@
 ---
 title: Hankijalt kinnipidamise häälestus
-description: Selles artiklis selgitatakse, kuidas seadistada hankija säilimist.
+description: See artikkel selgitab, kuidas seadistada hankija maksete kinnipidamist.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
@@ -18,11 +18,11 @@ ms.locfileid: "8929761"
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Selles artiklis antakse teavet hankija kinnipidamise häälestamise kohta.
+See artikkel annab teavet, kuidas seadistada hankija maksete kinnipidamist.
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>Hankijalt kinnipidamise konto häälestus pearaamatus
 
-1. Avage Dynamics 365 **Finance** > **automaatkannete pearaamatu sisestamise häälestuskontod** > **·**.
+1. Rakenduses Dynamics 365 Finance avage **Pearaamat** > **Postitamise seadistamine** > **Kontod automaatseteks kanneteks**.
 2. Lisage uus rida.
 3. Tehke väljal **Kirjendamise tüüp** valik **Hankijalt kinnipidamine**.
 4. Valige hankijalt kinnipidamise sisestamise põhikonto.

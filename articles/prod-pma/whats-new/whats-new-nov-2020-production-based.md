@@ -1,6 +1,6 @@
 ---
 title: Mis on uut novembris 2020 – Project Operations ladustamise-/tootmispõhiste stsenaariumite jaoks
-description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval 2020. aasta novembri väljaandes Project Operations laotootmisel põhinevate stsenaariumide jaoks.
+description: See artikkel sisaldab teavet lao-tootmispõhiste stsenaariumite jaoks mõeldud rakenduse Project Operations 2020. aasta novembri väljalaskes saadaolevate kvaliteedivärskenduste kohta.
 author: sigitac
 ms.date: 10/15/2020
 ms.topic: article
@@ -23,7 +23,7 @@ Teabe saamiseks selles värskenduses sisalduvate paranduste kohta logige sisse t
 
 ## <a name="regulatory-updates"></a>Regulatiivsed uuendused
 
-Lisateavet dynamics 365 Finance and Operationsi rakenduste regulatiivsete värskenduste kohta leiate teemast [Regulatiivsed värskendused](/dynamics365/finance/localizations/regulatory-updates). Saate ka LCS-i sisse logida ja vaadata kavandatud regulatiivseid värskendusi, kasutades probleemi otsimise tööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
+Lisateavet Dynamics 365 finants- ja äritoimingute rakenduste regulatiivsete värskenduste kohta, vt [Regulatiivsed värskendused](/dynamics365/finance/localizations/regulatory-updates). Saate ka LCS-i sisse logida ja vaadata kavandatud regulatiivseid värskendusi, kasutades probleemi otsimise tööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

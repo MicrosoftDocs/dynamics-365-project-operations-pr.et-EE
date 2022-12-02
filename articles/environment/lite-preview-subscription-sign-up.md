@@ -1,6 +1,6 @@
 ---
 title: Eelversiooni kordustellimuseks registreerumine – liht
-description: See artikkel annab teavet selle kohta, kuidas tellida ja juurutada Project Operations lihtjuurutust – tegeleda arveldamise proformaga.
+description: See artikkel annab teavet selle kohta, kuidas tellida ja juurutada Project Operations Lite’i juurutust – tehing näidisarveldusele.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.locfileid: "9410006"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Eelversiooni kordustellimuseks registreerumine – liht 
 
-Selles artiklis selgitatakse, kuidas tellida proovipakkumist ja juurutada Dynamics 365 Project Operations lite juurutust – tegeleda proforma arveldamisega.
+See artikkel selgitab, kuidas tellida proovipakkumist ja juurutada Dynamics 365 Project Operationsi lihtjuurutust – tehing näidisarveldusele.
 
 > [!NOTE]
 > See toiming muutub Project Operationsi eelseisvates väljaannetes.
@@ -43,14 +43,14 @@ Enne alustamist veenduge, et oleksite brauseris sisse logitud kasutaja töökont
 > Järgmiste toimingute lõpuleviimiseks on teil vaja oma organisatsiooni Microsoft 365 portaali administraatori juurdepääsu.
 
 
-1. [Microsoft 365 Avage halduskeskus](https://portal.office.com/), et määrata litsentsid oma kasutajatele.
+1. Oma kasutajatele litsentside määramiseks avage [Microsoft 365 halduskeskus](https://portal.office.com/).
 2. Valige lehel **Aktiivsed kasutajad** need kasutajad, kellele soovite litsentsi määrata.
 3. Veenduge, et valitaks litsents **Dynamics 365 Project Operations**. 
 4. Valige käsk **Salvesta muudatused**.
 
 ## <a name="create-a-new-dataverse-environment"></a>Loo uus Dataverse keskkond
 
-1. Valmistage ette uus Project Operationsi Dataverse juurutuskeskkond, [Dataverse järgides artiklis Juurutusmudel toodud juhiseid](lite-deployment.md). Keskkonnatüübi valimisel kasutage kindlasti valikut **Prooviversioon (tellimusepõhine)**.
+1. Valmistage ette uus Project Operationsi Dataverse’i juurutuse keskkond, järgides juhiseid artiklis [Dataverse’i juurutuse mudel](lite-deployment.md). Keskkonnatüübi valimisel kasutage kindlasti valikut **Prooviversioon (tellimusepõhine)**.
 
   ![Uus keskkond.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ Enne alustamist veenduge, et oleksite brauseris sisse logitud kasutaja töökont
 
 ## <a name="set-up-demo-data"></a>Demoandmete seadistamine
 
-Seadistage demoandmed, järgides artiklis [Demohäälestuse ja konfiguratsiooniandmete rakendamine toodud juhiseid](lite-apply-demo-setup-config-data.md).
+Seadistage demoandmed, järgides juhiseid artiklis [Rakenda demo seadistus- ja konfiguratsiooniandmed](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

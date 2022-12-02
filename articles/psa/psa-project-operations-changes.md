@@ -1,6 +1,6 @@
 ---
 title: Funktsioonide muudatused rakenduselt Project Service Automation rakendusele Project Operations üleminekul
-description: Selles artiklis antakse ülevaade funktsioonide muutustest Project Service Automationi asemel Dynamics 365 Project Operations.
+description: See artikkel annab ülevaate funktsioonide muutustest Project Service Automationist rakendusele Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2022
@@ -25,79 +25,79 @@ ms.locfileid: "9459921"
 ---
 # <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Funktsioonide muudatused rakenduselt Project Service Automation rakendusele Project Operations üleminekul
 
-Üleminek Dynamics 365 Project Service Automation Lite’ile Dynamics 365 Project Operations toimub kolmes etapis. Selles artiklis antakse teavet suuremate muudatuste kohta, mida võite eeldada, kui versioonitäiendus on lõpule viidud.
+Rakenduse Dynamics 365 Project Service Automation versiooniuuendus rakendusele Dynamics 365 Project Operations Lite tarnitakse kolmes etapis. See artikkel annab teavet peamiste muudatuste kohta, mida võite oodata pärast täiendamist.
 
-| Tarne uuendamine | 1. etapp <br>(Jaanuar 2022) | 2. etapp <br>(Novembrini 2022) | 3. etapp  |
+| Täienduse kohaletoimetamine | 1. faas <br>(Jaanuar 2022) | 2. faas <br>(November 2022) | 3. faas  |
 |------------------|------------------------|---------------------------|---------------------------|
-| Projektide puhul ei sõltuta tööjaotuse struktuurist (WBS). | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| WBS sisaldub praegu toetatavates projektitoimingute limiitides. | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |
-| WBS väljaspool praegu toetatud Project Operationsi limiite, sh Projecti töölauakliendi tugi. | &nbsp; | &nbsp; | :heavy_check_mark: |
+| Ei sõltu projektide tööjaotuse struktuurist (WBS). | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| WBS kuulub praegu toetatavate Project Operationsi piirangute hulka. | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |
+| WBS väljaspool Project Operationsi praegu toetatud piire, sealhulgas Project Desktop Clienti tugi. | &nbsp; | &nbsp; | :heavy_check_mark: |
 
 ## <a name="project-management"></a>Projektijuhtimine
 
-Kõige olulisemad muudatused kasutajakogemuses on projekti planeerimise valdkonnas. Project Operations võtab kasutusele uue kaasaegse kogemuse tööjaotuse struktuuri (WBS) haldamiseks, kasutades Project for the Webi pakutavaid [plaanimisvõimalusi](https://support.microsoft.com/en-us/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5).
+Kõige olulisemad muudatused kasutajakogemuses toimuvad projektide planeerimise alal. Project Operations võtab kasutusele uue kaasaegse kogemuse tööjaotuse struktuuri (WBS) haldamiseks, võimendades ajastamisvõimalusi, mida pakub [Project for the Web](https://support.microsoft.com/en-us/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5).
 
-## <a name="differences-in-the-scheduling-experience"></a>Erinevused plaanimise kogemuses
+## <a name="differences-in-the-scheduling-experience"></a>Erinevused ajakava koostamise kogemuses
 
-Järgmises tabelis on kokkuvõte plaanimise erinevustest Project Service Automationi ja Project Operationsi vahel.
+Järgmine tabel võtab kokku Project Service Automationi ja Project Operationsi ajakavaerinevused.
 
-|  Plaanimine     |   Project Operations   |   Psa   |
+|  Plaanimine     |   Project Operations   |   PSA   |
 |-----------------|------------------------|---------|
-| Projektimallid – võimalus määratleda ja rakendada projektimalle projekti loomisel  |  &nbsp;    | :heavy_check_mark: |
+| Projektimallid – võimalus projekti loomisel määratleda ja rakendada projektimalle  |  &nbsp;    | :heavy_check_mark: |
 | Projekti tööjaotuse struktuuri (WBS) integreerimine töölauakliendiga   |    &nbsp;  | :heavy_check_mark: |
-| Piirangud – alusta mitte varem kui, lõpeta hiljemalt  | :heavy_check_mark: |   &nbsp;  |
-| -eesmärgid – nullkestusega tööülesanded   | :heavy_check_mark:  |  &nbsp;  |
-| Ressursipõhised ülesanded arvestavad määratud ressursside kättesaadavust   | :heavy_check_mark: |  &nbsp;    |
-| Etapiviisiline redigeerimine – plaanide redigeerimine ja igapäevane töö   |   &nbsp;  | :heavy_check_mark: |
-| Automaatne/käsitsi plaanimine – projekti plaanimismootori kasutamine ülesannete automaatseks või käsitsi ajastamiseks |  &nbsp; | :heavy_check_mark:  |
-| Suurte projektide redigeerimine otse kasutajaliideses: redigeeritavate plaanide suurus pole piiratud  | 500 ülesande limiit  | :heavy_check_mark:       |
-| Lõpetatud protsent – ülesande edenemise märkimine   | :heavy_check_mark:  |  &nbsp;  |
-| [Projekti ajakava režiimid](../project-management/scheduling-modes.md) – määratlege projekt fikseeritud ühikute, fikseeritud panuse või fikseeritud kestusena | :heavy_check_mark: | &nbsp; |
-| Ajaskaala – ajaskaalavaate koostamine ja kohandamine ajakava üksikasjade visualiseerimiseks ja sidusrühmadega suhtlemiseks. | :heavy_check_mark:  | &nbsp; |
-| Koormusel põhinevad ülesanded – ajastamismootori tugi ülesande plaanimiseks kui pingutusest ajendatud  | :heavy_check_mark:  | &nbsp; |
-| **Ülesandeteabe** dialoogiboks – tööülesande üksikasjade salvestamine dialoogiboksi abil | :heavy_check_mark:  |  &nbsp;  |
-| Lohistamine - mitme valikuga ülesanded ja nende asukoha muutmine WBS-is | :heavy_check_mark: | &nbsp;  |
-| Paindlikud püsivaated – ülesandeatribuutide detailsemate vaadete määratlemine   | :heavy_check_mark:  | &nbsp; |
+| Piirangud – alustada mitte varem, lõpetada hiljemalt  | :heavy_check_mark: |   &nbsp;  |
+| Vahekokkuvõtted – ülesanded, mille kestus on null   | :heavy_check_mark:  |  &nbsp;  |
+| Ressursipõhised ülesanded arvestavad määratud ressursside saadavust   | :heavy_check_mark: |  &nbsp;    |
+| Ajaline redigeerimine – plaanide redigeerimine ja igapäevane töötamine   |   &nbsp;  | :heavy_check_mark: |
+| Automaatne/käsitsi ajastamine – kasutage projekti ajastamise mootorit ülesannete automaatseks või käsitsi ajastamiseks |  &nbsp; | :heavy_check_mark:  |
+| Redigeerige suuri projekte otse kasutajaliideses: redigeeritavate plaanide suurus ei ole piiratud  | 500 ülesande piirang  | :heavy_check_mark:       |
+| Täidetud protsent – märkige ülesande edenemine   | :heavy_check_mark:  |  &nbsp;  |
+| [Projekti ajakavarežiimid](../project-management/scheduling-modes.md) – projekti määratlemine fikseeritud ühikute, fikseeritud jõupingutuste või fikseeritud kestusega | :heavy_check_mark: | &nbsp; |
+| Ajaskaala – ajaskaala vaate koostamine ja kohandamine, et visualiseerida ajakava üksikasju ja suhelda huvirühmadega. | :heavy_check_mark:  | &nbsp; |
+| Pingutuspõhised ülesanded – ajastamismootori tugi ülesande ajaplaneerimiseks tööjõupõhisena  | :heavy_check_mark:  | &nbsp; |
+| **Ülesande teave** dialoogiboks – ülesande üksikasjade salvestamine dialoogiboksi abil | :heavy_check_mark:  |  &nbsp;  |
+| Lohistamine – valige mitu ülesannet ja muutke nende asukohta WBS-is | :heavy_check_mark: | &nbsp;  |
+| Paindlikud püsivad vaated – ülesande atribuutide üksikasjalikumate vaadete määratlemine   | :heavy_check_mark:  | &nbsp; |
 | WBS-i sortimine ja filtreerimine  | :heavy_check_mark:  | &nbsp; |
-| Tahvlite vaade mitte-juga projekti elluviimiseks  | :heavy_check_mark:   | &nbsp; |
-| Ajaskaala vaade – interaktiivne Gantti diagramm, mida kasutatakse WBS-i visualiseerimiseks ja redigeerimiseks   | :heavy_check_mark:  | &nbsp; |
-| Kiirklahvid – kiirklahvide kasutamine levinud toimingute jaoks, nagu taandamine või lisamine  | :heavy_check_mark:  |  &nbsp; |
-| Mitmetasandiline tagasivõtmine - tehke mis-kui-analüüs, et täielikult mõista muudatuste mõju, tühistades ja rakendades uuesti terve rea toiminguid | :heavy_check_mark: | &nbsp; |
-| Lõika/kopeeri/kleebi – tehke ajakava arendamisel koostööd, kopeerides ja kleepides ajakava üksikasju rakenduste vahel  | :heavy_check_mark: | &nbsp; |
-| Ülesande kontroll-loendid – ülesandele kuni 20 kontroll-loendi üksuse lisamine   | :heavy_check_mark: | &nbsp; |
+| Tahvlivaade mitte-kaskaadprojekti edastamiseks  | :heavy_check_mark:   | &nbsp; |
+| Ajajoonevaade – interaktiivne Gantti diagramm, mida kasutatakse WBS-i visualiseerimiseks ja redigeerimiseks   | :heavy_check_mark:  | &nbsp; |
+| Klaviatuuri otseteed – kiirklahvide kasutamine levinumate toimingute jaoks, nt taane või sisestamine  | :heavy_check_mark:  |  &nbsp; |
+| Mitmetasemeline tagasivõtmine – mis-oleks-kui-analüüs tegemine, et täielikult mõista muudatuste mõju, pöörates tagasi ja rakendades tervet toimingute komplekti | :heavy_check_mark: | &nbsp; |
+| Lõika/kopeeri/kleebi – tehke ajakava väljatöötamisel koostööd, kopeerides ja kleepides ajakava üksikasju rakenduste vahel  | :heavy_check_mark: | &nbsp; |
+| Tööülesannete kontroll-loendid – kuni 20 kontroll-loendi üksuse lisamine ülesandele   | :heavy_check_mark: | &nbsp; |
 
 ## <a name="project-planning"></a>Projekti kavandamine
 
-**Project Operationsi** lehel Projekt on märkimisväärne arv erinevusi võrreldes **Project Service Automationi** lehega Projekt.
+Project Operationsi lehel **Projekt** on märkimisväärne hulk erinevusi võrreldes Project Service Automationi leheküljega **Projekt**.
 
-1. etapi versioonitäienduse raames on lehelt **Projektid** eemaldatud järgmised toimingud:
+Järgmised toimingud on 1. etapi versiooniuuenduse osana lehelt **Projektid** eemaldatud.
 
   - **Ava MS Projectis**
   - **Loo mall**
   - **Eemalda MS Projectiga linkimine**
 
-Project **Operationsi** leht Projekt sisaldab järgmisi uusi vahekaarte.
+Rakenduse Project Operations leht **Projekt** sisaldab järgmisi uusi vahekaarte.
 
 - **Materjali prognoosid**
 - **Ülesande arvelduse seadistus**
 
-Vahekaart **Olek** on eemaldatud ja **väli Olek** on nüüd **projekti plaanimisrežiimiga vahekaardil Kokkuvõte**.
+Vahekaart **Olek** on eemaldatud ja väli **Olek** on nüüd projekti ajastamisrežiimiga vahekaardil **Kokkuvõte**.
 
-   ![Projektilehe värskendused.](media/projectform.png)
+   ![Värskendused projekti lehel.](media/projectform.png)
 
-Vahekaart **Ajakava** on ümber nimetatud vahekaardile **Ülesanne** ja sellel on project for the Webi uus projektiplaanimise kogemus.
+Vahekaart **Ajakava** on ümber nimetatud vahekaardiks **Ülesanne** ja sellel on Project for the Webi uus projektiplaneerimise kogemus.
 
-   ![Vahekaart Uued projektiülesanded.](media/tasktab.png)
+   ![Uus projektiülesannete vahekaart.](media/tasktab.png)
 
 ## <a name="scheduling-modes"></a>Plaanimisrežiimid
 
-Project Operations on kasutusele võtnud uue funktsiooni [Plaanimisrežiimid](../project-management/scheduling-modes.md). Kõik olemasolevad Project Service Automationi projektid on project Operationsis vaikimisi **fikseeritud kestusega**. Uute projektide vaikeseadet saab siiski hallata, minnes **parameetrite** > **parameetrite** > **·** > **ajakava režiimi**.
+Project Operations on kasutusele võtnud uue funktsiooni [Ajastamisrežiimid](../project-management/scheduling-modes.md). Kõik olemasolevad Project Service Automationi projektid on rakenduses Project Operations vaikimisi väärtuseks **Fikseeritud kestus**. Uute projektide vaikesätet saab aga hallata, minnes **Sätted** > **Parameetrid** > **Parameeter** > **Ajastamisrežiim**.
 
-   ![Projekti parameetrite sätted ajakava režiimis.](media/projectparameter.png)
+   ![Projekti parameetrite sätted ajastamisrežiimi jaoks.](media/projectparameter.png)
 
-## <a name="project-planning-limits"></a>Projekti plaanimise piirangud
+## <a name="project-planning-limits"></a>Projekti planeerimise piirangud
 
-Project Operations tugineb kõigi projekti plaanimise toimingute puhul rakendusele Project for the Web. Project for the Web haldab tööjaotuse struktuuri, kasutades järgmises tabelis toodud piiranguid.
+Project Operations tugineb kõigi projekti ajastamistoimingute jaoks Project for the Webile. Project for the Web haldab tööjaotuse struktuuri, kasutades järgmises tabelis toodud piiranguid.
 
 | **Väli**                                          | **Piirang**             |
 |----------------------------------------------------|-----------------------|
@@ -116,7 +116,7 @@ Project Operations tugineb kõigi projekti plaanimise toimingute puhul rakenduse
 
 ## <a name="project-planning-extensibility-and-development"></a>Projekti planeerimise laiendatavus ja arendamine
 
-Pärast project operationsile üleminekut peate kasutama Project Scheduling API-sid, et käivitada toiminguid järgmistes olemites.
+Pärast Project Operationsi täiendamist peate kasutama projekti ajastamise API-sid, et käivitada loomis-, värskendamis- ja kustutamistoiminguid järgmistes olemites.
 
 |   Olemi nimi           |   Olemi loogiline nimi       |
 |-------------------------|-----------------------------|
@@ -127,24 +127,24 @@ Pärast project operationsile üleminekut peate kasutama Project Scheduling API-
 | Projektisalv          | msdyn_projectbucket         |
 | Projektimeeskonna liige     | msdyn_projectteam           |
 
-Kui teil on praegu kohandusi, mis hõlmavad neid olemeid, vaadake juurutusjuhiseid teemast [Projekti ajakava API-de kasutamine olemite](../project-management/schedule-api-preview.md) plaanimisega toimingute tegemiseks.
+Kui teil on praegu neid üksusi hõlmavad kohandused, vaadake juurutamise juhiseid artiklist [Projekti ajakava API-de kasutamine toimingute tegemiseks ajastamisolemitega](../project-management/schedule-api-preview.md) for implementation guidance.
 
 ## <a name="data-model-changes"></a>Andmemudeli muudatused
 
-Uuendamise 1. etapi osana tehakse andmemudelis muudatusi. Need muudatused on peamiselt olemasolevate olemite väljamuudatused. 1. etapis on olemid, **msydn_project** ja **msdyn_projectteam** kohanduste refaktorid. 
+1. täiendusfaasi osana tehakse andmemudelis muudatusi. Need muudatused on peamiselt olemasolevate olemite väljamuudatused. 1. faasis on olemid **msydn_project** ja **msdyn_projectteam** kohanduste refaktooring. 
 
 > [!IMPORTANT]
-> Seda jaotist värskendatakse täiendavate olemitega, kui tulevased täiendamise etapid on lõpule viidud.
+> Seda jaotist ajakohastatakse täiendavate olemitega, kui tulevased ajakohastamisetapid on lõpule viidud.
 
 Järgmised väljad on asendatud uute väljadega.
 
 |   Entity          |   Vana loogiline nimi   |   Uus loogiline nimi    |
 |-------------------|----------------------|-----------------------|
-| msdyn_project     | msdyn_actualhours    | msdyn_effortcompleted |
-| msdyn_project     | msdyn_plannedhours   | msdyn_effort          |
-| msdyn_project     | msdyn_remaininghours | msdyn_effortremaining |
+| msdyn_project     | msdyn_actualsales    | msdyn_effortcompleted |
+| msdyn_project     | msdyn_plannedsales   | msdyn_effort          |
+| msdyn_project     | msdyn_remainingsales | msdyn_effortremaining |
 | msdyn_project     | msdyn_scheduledend   | msdyn_finish          |
-| msdyn_project     | msdyn_wbsduration    | msdyn_duration        |
+| msdyn_project     | msdyn_duration    | msdyn_duration        |
 | msdyn_projectteam | msdyn_assignedhours  | msdyn_effort          |
 | msdyn_projectteam | msdyn_from           | msdyn_start           |
 | msdyn_projectteam | msdyn_to             | msdyn_finish          |
@@ -153,69 +153,69 @@ Lisatud on järgmised väljad.
 
 |   Entity          |   Loogiline nimi                               |   Kirjeldus |
 |-------------------|----------------------------------------------|---------------|
-| msdyn_project     | msdyn_actualfeesales                         | Kuvab projekti tegeliku tasumüügi kogusumma. Kasutamiseks ainult Project Service Automationis. |
-| msdyn_project     | msdyn_actualmaterialcost                     | Kuvab projekti tegeliku materjalikulu kogusumma. Kasutamiseks ainult Project Service Automationis. |
-| msdyn_project     | msdyn_actualmaterialsales                    | Kuvab projekti materjali tegeliku müügi kogusumma. Kasutamiseks ainult Project Service Automationis. |
+| msdyn_project     | msdyn_actualsales                         | Näitab projekti tegelike tasude müügi kogumahtu. Kasutatakse ainult Project Service Automationis. |
+| msdyn_project     | msdyn_actualcost_base                     | Näitab projekti tegelike materjalikulude kogusummat. Kasutatakse ainult Project Service Automationis. |
+| msdyn_project     | msdyn_actualcost_base                    | Kuvab projekti tegeliku materjalimüügi koondsumma. Kasutatakse ainult Project Service Automationis. |
 | msdyn_project     | msdyn_businesscase                           |                |
-| msdyn_project     | msdyn_contractlineproject                    | Selle projektiga seotud lepingurida. |
-| msdyn_project     | msdyn_copyprojectcorrelationid               | See on sisemine süsteemiväli, mida kasutatakse korrelatsiooniidentifikaatoriga seotud projekti **kopeerimiseks**. Kasutamiseks ainult Project Service Automationis. |
-| msdyn_project     | msdyn_copyprojectsessionid                   | See on sisemine süsteemiväli, mida kasutatakse seansi identifikaatoriga seotud projekti **kopeerimiseks**. Kasutamiseks ainult Project Service Automationis. |
-| msdyn_project     | msdyn_globalrevisiontoken                    | Viimane sünkroonimine xRM Global Revision Token projekti plaanimisteenusest. |
-| msdyn_project     | msdyn_msprojectdocument                      | Projekti kuuluv Microsoft Projecti dokument. |
-| msdyn_project     | msdyn_plannedmaterialcost                    | Projekti planeeritud materjalikulude kogusumma. Kasutamiseks ainult Project Service Automationis. |
-| msdyn_project     | msdyn_plannedmaterialsales                   | Projekti planeeritud materjali müügi kogusumma. Kasutamiseks ainult Project Service Automationis. |
-| msdyn_project     | msdyn_program                                | Programm, millega see projekt seotud on. |
-| msdyn_project     | msdyn_quotelineproject                       | Selle projektiga seotud rida Hinnapakkumine. |
-| msdyn_project     | msdyn_replaylogheader                        | Korduse päis logib. |
-| msdyn_project     | msdyn_schedulemode                           | Vaikimisi plaanimisrežiim, mida kasutatakse kõigi projekti ülesannete jaoks.  |
+| msdyn_project     | msdyn_contractlineproject                    | Selle projektiga seotud lepingu rida. |
+| msdyn_project     | msdyn_copyprojectcorrelationid               | See on süsteemi sisemine väli, mida kasutatakse **Projekti kopeerimine** jaoks, mis on seotud korrelatsiooni identifikaatoriga. Kasutatakse ainult Project Service Automationis. |
+| msdyn_project     | msdyn_copyprojectsessionid                   | See on süsteemi sisemine väli, mida kasutatakse **Projekti kopeerimine** jaoks, mis on seotud seansi identifikaatoriga. Kasutatakse ainult Project Service Automationis. |
+| msdyn_project     | msdyn_globalrevisiontoken                    | Viimati sünkroonitud xRM globaalse redaktsiooni sõne projekti ajastamise teenusest. |
+| msdyn_project     | msdyn_msprojectdocument                      | Microsoft Projecti dokument, mis kuulub projektile. |
+| msdyn_project     | msdyn_plannedmaterialcost                    | Projekti kavandatud materjalikulude koondsumma. Kasutatakse ainult Project Service Automationis. |
+| msdyn_project     | msdyn_plannedmaterialcost                   | Projekti raames kavandatud materjalide müügi koondmaht. Kasutatakse ainult Project Service Automationis. |
+| msdyn_project     | msdyn_progress                                | Programm, millega see projekt seotud on. |
+| msdyn_project     | msdyn_quotelineid                       | Selle projektiga seostatud hinnapakkumise rida. |
+| msdyn_project     | msdyn_replaylogheader                        | Päis vastuselogide jaoks. |
+| msdyn_project     | msdyn_scheduledend                           | Projekti kõikide ülesannete puhul kasutatav vaikimisi ajastamisrežiim.  |
 | msdyn_project     | msdyn_taskearlieststart                      | Projekti mis tahes ülesande varaseim alguskuupäev.  |
 | msdyn_project     | msdyn_valuestatement                         |                |
 | msdyn_projectteam | msdyn_copiedfromprojectteammember            | Projektimeeskonna liige, kellelt see projektimeeskonna liige kopeeriti. |
-| msdyn_projectteam | msdyn_creategenericteammemberwithrequirement | Näitab, kas luua ressursivajadus vastloodud üldise meeskonnaliikme jaoks.  |
-| msdyn_projectteam | msdyn_deletestatus                           | Meeskonnaliikme kustutamisolek, et jälgida, kas projekti plaanimisteenusele on saadetud kustutamistaotlus ja kas see saadab vastuse oodatud ajaakna jooksul edukalt tagasi. |
-| msdyn_projectteam | msdyn_effortcompleted                        | Jälgib meeskonnaliikme jõupingutusi oma ülesannete täitmisel. |
-| msdyn_projectteam | msdyn_effortremaining                        | Jälgib jõupingutusi, mida meeskonnaliige peab oma ülesannete täitmisel veel tegema. |
-| msdyn_projectteam | msdyn_markedfordeletiontimer                 | Ooteaeg alates sellest, kui meeskonnaliige saadab kustutamistaotluse projekti plaanimisteenusele, kuni meeskonnaliige on tegelikult kustutatud Microsoft Dataverse.|
-| msdyn_projectteam | msdyn_markedfordeletiontimestamp             | Ajatempel, mis salvestatakse, kui meeskonnaliikme kustutamistaotlus saadetakse projekti plaanimisteenusele. |
+| msdyn_projectteam | msdyn_creategenericteammemberwithrequirementname | Näitab, kas luua vastloodud üldisele meeskonnaliikmele ressursinõue.  |
+| msdyn_projectteam | msdyn_deletestatus                           | Meeskonnaliikme kustutamise olek, et jälgida, kas projekti ajastamisteenusele on saadetud kustutustaotlus ja kas see saadab edukalt vastuse tagasi oodatud ajaakna jooksul. |
+| msdyn_projectteam | msdyn_effortcompleted                        | Jälgib meeskonnaliikmete tehtud jõupingutusi nende ülesannete täitmisel. |
+| msdyn_projectteam | msdyn_effortremaining                        | Jälgib meeskonnaliikme poolt oma ülesannetega seoses veel lõpuleviimata jõupingutusi. |
+| msdyn_projectteam | msdyn_markedfordeletiontimer                 | Ooteaeg alates hetkest, mil meeskonnaliige saadab kustutustaotluse projekti ajastamisteenusele, kuni meeskonnaliikme tegeliku kustutamiseni rakenduses Microsoft Dataverse.|
+| msdyn_projectteam | msdyn_markedfordeletiontimestamp             | Ajatempel, mis salvestab, millal meeskonnaliikme kustutamistaotlus saadetakse projekti ajastamisteenusele. |
 | msdyn_projectteam | msdyn_copiedfromprojectteammember            | Kuvab projektimeeskonna liikme, kellelt see projektimeeskonna liige kopeeriti.  |
 
 ## <a name="project-templates"></a>Projektimallid
 
-Project Operations ei toeta projektimalle. Project Copy API abil saate siiski paljundada suurt osa [põhifunktsioonidest](../project-management/dev-copy-project.md).
+Project Operations ei paku projektimallidele tuge. Siiski saate paljusid põhifunktsioone kopeerida [Projekti kopeerimise API](../project-management/dev-copy-project.md) abil.
 
-## <a name="desktop-add-in-support"></a>Töölaua lisandmoodulite tugi
+## <a name="desktop-add-in-support"></a>Töölaua lisandmooduli tugi
 
-Microsoft Project Desktopi lisandmooduli tugi pole versioonitäienduse esimese 2 etapi jooksul saadaval. 3. etapis saavad kliendid, kelle projektid on suuremad kui project for the Webi praegu toetatud limiidid, kasutada töölaua lisandmoodulit.
+Microsoft Projecti töölaua lisandmooduli tugi ei ole saadaval täienduse 2. esimeses etapis. 3. faasis saavad kliendid, kelle projektid on suuremad kui Project for the Webi praegu toetatavad piirangud, kasutada töölaua lisavõimalust.
 
-## <a name="editing-resource-assignment-contours"></a>Ressursimäärangu kontuuride redigeerimine
+## <a name="editing-resource-assignment-contours"></a>Ressursi määramise kontuuride redigeerimine
 
-Ressursimäärangu kontuuride redigeerimise võimalus on saadaval siis, kui versioonitäienduse 2. etapp on saadaval.
+Võimalus muuta ressursside määramise kontuure on saadaval siis, kui uuenduse 2. faas on saadaval.
 
 ## <a name="billing-and-pricing"></a>Arveldamine ja hinnakujundus
 
-Project Operationsi on lisatud järgmised uued funktsioonid. Need funktsioonid on oma olemuselt täiendavad ega mõjuta Project Service Automationi andmemudelit.
+Rakendusse Project Operations on lisatud järgmised uued funktsioonid. Need funktsioonid on loomult tigedad ega mõjuta Project Service Automationi andmemudelit.
 
-- [Materjalikasutuse salvestamine projektides ja projektiülesannetes](../material/material-usage-log.md)
-- [Alltöövõtu haldamine](../pro/subcontracting/managing-subcontracts-overview.md)
+- [Projektide ja projektiülesannete materjalikasutuse salvestamine](../material/material-usage-log.md)
+- [Allhankelepingu haldus](../pro/subcontracting/managing-subcontracts-overview.md)
 - [Ettemaksud või honoraril põhinevad lepingud](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
-- [Lepingu mitteületamise staatus ja valideerimised](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
+- [Lepingu mitteületamise olek ja kinnitused](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
 - [Ülesandepõhine arveldamine](../pro/sales/mapping-projects-tasks-quote-line-sales.md)
 
-## <a name="deprecated-components"></a>Aegunud komponendid
+## <a name="deprecated-components"></a>Iganenud komponendid
 
-Järgmistes tabelites dokumenteeritakse kõik aegunud väljad, mis on pärast versioonitäiendust teisaldatud aegunud komponentide lahendusele. Lisateavet ja linki lahendusele leiate teemast [Dynamics 365 Project Service Automation 3x kuni Project Operations 4x aegunud komponendid](https://github.com/microsoft/Dynamics365-Project-Operations-PowerApps/tree/main/3x-4x-deprecated-solution).
+Järgmistes tabelites on dokumenteeritud kõik iganenud väljad, mis teisaldatakse pärast täiendamist iganenud komponentide lahendusse. Lisateavet ja lahenduse lingi leiate artiklist [Dynamics 365 Project Service Automation 3x kuni Project Operations 4x iganenud komponendid](https://github.com/microsoft/Dynamics365-Project-Operations-PowerApps/tree/main/3x-4x-deprecated-solution).
 
-### <a name="invoicedetail"></a>invoicedetail
+### <a name="invoicedetail"></a>invoiceDetail
 
 | Väljad                                                    |
 |-----------------------------------------------------------------------------------------------|
-|invoicedetail.msdyn_contractline    |
+|msdyn_contractline    |
 
 ### <a name="msdyn_actual"></a>msdyn_actual
 
 | Väljad                                                    |
 |-----------------------------------------------------------------------------------------------|
-| msdyn_actual.msdyn_salescontractline                                                          |
+| msdyn_salescontractline                                                          |
 
 ### <a name="msdyn_characteristicreqforteammember"></a>msdyn_characteristicreqforteammember
 
@@ -243,7 +243,7 @@ Järgmistes tabelites dokumenteeritakse kõik aegunud väljad, mis on pärast ve
 | msdyn_dataexport.msdyn_datatoken                                                              |
 | msdyn_dataexport.msdyn_entityname                                                             |
 | msdyn_dataexport.msdyn_exportedrecordcount                                                    |
-| msdyn_dataexport.msdyn_exporttatus                                                           |
+| msdyn_dataexport.msdyn_exportstatus                                                           |
 | msdyn_dataexport.msdyn_linkedentitydata                                                       |
 | msdyn_dataexport.msdyn_name                                                                   |
 | msdyn_dataexport.msdyn_pagingdata                                                             |
@@ -261,7 +261,7 @@ Järgmistes tabelites dokumenteeritakse kõik aegunud väljad, mis on pärast ve
 | msdyn_findworkevent.msdyn_bookableresource                                                    |
 | msdyn_findworkevent.msdyn_findworkeventid                                                     |
 | msdyn_findworkevent.msdyn_name                                                                |
-| msdyn_findworkevent.msdyn_ajatempel                                                           |
+| msdyn_findworkevent.msdyn_timestamp                                                           |
 | msdyn_findworkevent.msdyn_type                                                                |
 | msdyn_findworkevent.msdyn_value                                                               |
 | msdyn_findworkevent.msdyn_work                                                                |
@@ -296,7 +296,7 @@ Järgmistes tabelites dokumenteeritakse kõik aegunud väljad, mis on pärast ve
 | msdyn_opportunitylinetransaction.msdyn_accountcustomer                                        |
 | msdyn_opportunitylinetransaction.msdyn_accountingdate                                         |
 | msdyn_opportunitylinetransaction.msdyn_accountvendor                                          |
-| msdyn_opportunitylinetransaction.msdyn_summa                                                 |
+| msdyn_opportunitylinetransaction.msdyn_amount                                                 |
 | msdyn_opportunitylinetransaction.msdyn_amount_base                                            |
 | msdyn_opportunitylinetransaction.msdyn_amountmethod                                           |
 | msdyn_opportunitylinetransaction.msdyn_basisamount                                            |
@@ -315,13 +315,13 @@ Järgmistes tabelites dokumenteeritakse kõik aegunud väljad, mis on pärast ve
 | msdyn_opportunitylinetransaction.msdyn_exchangeratedate                                       |
 | msdyn_opportunitylinetransaction.msdyn_opportunityline                                        |
 | msdyn_opportunitylinetransaction.msdyn_opportunitylinetransactionid                           |
-| msdyn_opportunitylinetransaction.msdyn_protsenti                                                |
+| msdyn_opportunitylinetransaction.msdyn_percent                                                |
 | msdyn_opportunitylinetransaction.msdyn_price                                                  |
 | msdyn_opportunitylinetransaction.msdyn_price_base                                             |
-| msdyn_opportunitylinetransaction.msdyn_hinnakiri                                              |
+| msdyn_opportunitylinetransaction.msdyn_pricelist                                              |
 | msdyn_opportunitylinetransaction.msdyn_product                                                |
 | msdyn_opportunitylinetransaction.msdyn_project                                                |
-| msdyn_opportunitylinetransaction.msdyn_kogus                                               |
+| msdyn_opportunitylinetransaction.msdyn_quantity                                               |
 | msdyn_opportunitylinetransaction.msdyn_resourcecategory                                       |
 | msdyn_opportunitylinetransaction.msdyn_resourceorganizationalunitid                           |
 | msdyn_opportunitylinetransaction.msdyn_startdatetime                                          |
@@ -416,7 +416,7 @@ Järgmistes tabelites dokumenteeritakse kõik aegunud väljad, mis on pärast ve
 | msdyn_projecttaskstatususer.msdyn_bookableresource                                            |
 | msdyn_projecttaskstatususer.msdyn_description                                                 |
 | msdyn_projecttaskstatususer.msdyn_expectedcompletiondate                                      |
-| msdyn_projecttaskstatususer.msdyn_expectedhourstolõpuks                                     |
+| msdyn_projecttaskstatususer.msdyn_expectedhourstocomplete                                     |
 | msdyn_projecttaskstatususer.msdyn_iscompleted                                                 |
 | msdyn_projecttaskstatususer.msdyn_name                                                        |
 | msdyn_projecttaskstatususer.msdyn_percentcomplete                                             |

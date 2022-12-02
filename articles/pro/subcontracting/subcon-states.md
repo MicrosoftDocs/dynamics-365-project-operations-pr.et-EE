@@ -1,6 +1,6 @@
 ---
 title: Allhankelepingu oleku üleminekud
-description: Selles artiklis selgitatakse Microsofti Dynamics 365 Project Operations allhankeriigi üleminekuid allhanke loomisel, käivitamisel ja sulgemisel.
+description: See artikkel selgitab allhankelepingu oleku üleminekuid rakenduses Microsoft Dynamics 365 Project Operations allhankelepingu loomisel, täitmisel ja sulgemisel.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -17,18 +17,18 @@ ms.locfileid: "9522930"
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Selles artiklis selgitatakse Microsofti allhankeriigi üleminekuid Dynamics 365 Project Operations. Iga osariik on esindatud kas mustandina, kinnitatud, suletud või tühistatud. Järgmine pilt tähistab oleku üleminekuid.
+See artikkel selgitab allhankelepingu oleku üleminekuid rakenduses Microsoft Dynamics 365 Project Operations. Iga osariik on esitatud mustandi, kinnitatud, suletud või tühistatud kujul. Järgmine pilt kujutab oleku üleminekuid.
 
-![Allhanke riigimudel](../media/SubconStates.png)  
+![Allhanke olekumudel](../media/SubconStates.png)  
 
-Järgmises tabelis on toodud kirjeldus selle kohta, mida iga riik projektitoimingute alltöövõtu elutsüklis esindab.
+Järgmises tabelis kirjeldatakse, mida iga olek esindab rakenduse Project Operations allhankelepingu elutsüklis.
 
 | Maakond | Kirjeldus | Lubatud üleminekud |
 | --- | --- | --- |
-| Mustand | See näitab allhanke esialgset olekut. Läbirääkimised müüjaga on käimas. Liine ja hinnakujundust võidakse muuta. Selles olekus alltöövõttu saab kasutada ressursside ja materjalide projektinõuete hindamiseks ja personali jaoks. Sellele saab viidata ka projekti aja, kulude ja materjalikasutuse kohta. Sellises olekus alltöövõttu saab redigeerida ja kustutada. | Kinnitatud |
-| Kinnitatud | See tähistab allhanke etappi pärast seda, kui läbirääkimised hankijaga hinnakujunduse üle ja ostetavad reakaubad on lõpule viidud. Materjalide ja/või tööde tegelik tarnimine allhankevahenditega on siiski veel pooleli. Selles olekus alltöövõttu saab kasutada ressursside ja materjalide projektinõuete hindamiseks ja personali jaoks. Sellele saab viidata ka projekti aja, kulude ja materjalikasutuse kohta. Sellises olekus alltöövõttu ei saa redigeerida ega kustutada. Nupp **Tühista** võimaldab teil kinnitatud allhankelepingu tühistada. Nupp **Re-open** võimaldab teil alltöövõtulepingu uuesti avada, et viia see tagasi mustandi **olekusse**. **Kasutage kinnitatud alltöövõtulepingu sulgemiseks nuppu Sule**. | Suletud <br> Loobutud <br> Mustand |
-| Suletud | See tähistab alltöövõtu etappi, mil materjalide ja/või tööde tegelik tarnimine allhankeressursside abil on lõpule viidud. Sellises olekus alltöövõttu ei saa enam kasutada ressursside ja materjalide projektinõuete hindamiseks ja personaliks. Samuti ei saa sellele enam viidata projekti ajale, kuludele ja materjalikasutusele. Sellises olekus alltöövõttu ei saa redigeerida ega kustutada. | Pole |
-| Loobutud | See on allhanke etapp, kus materjalide ja/või tööde tegelik tarnimine allhankeressursside abil ei ole enam vajalik. Sellises olekus alltöövõttu ei saa kasutada ressursside ja materjalide vajaduste hindamiseks ja personaliprojektiks, samuti ei saa sellele viidata projekti aja, kulude ja materjalikasutuse kohta. Sellises olekus alltöövõttu ei saa redigeerida ega kustutada. | Pole |
+| Mustand | See tähistab allhankelepingu algseisu. Läbirääkimised müüjaga käivad. Read ja hinnakujundus võivad muutuda. Selles olekus allhankelepingut saab kasutada ressursside ja materjalide vajaduste hindamiseks ja personaliprojektide jaoks. Seda saab viidata ka projekti aja, kulu ja materjalikasutuse kohta. Selles olekus allhankelepingut saab muuta ja kustutada. | Kinnitatud |
+| Kinnitatud | See on allhankelepingu etapp pärast seda, kui läbirääkimised hankijaga hinnakujunduse ja ostetavate reaüksuste üle on lõppenud. Materjalide ja/või tööde tegelik tarnimine allhanke vahenditega siiski alles käib. Selles olekus allhankelepingut saab kasutada ressursside ja materjalide vajaduste hindamiseks ja personaliprojektide jaoks. Seda saab viidata ka projekti aja, kulu ja materjalikasutuse kohta. Sellises olekus allhankelepingut ei saa muuta ega kustutada. Nupuga **Tühista** saate kinnitatud allhankelepingu tühistada. Nupp **Ava uuesti** võimaldab teil allhankelepingu uuesti avada, et viia see tagasi olekusse **Mustand**. Kinnitatud allhankelepingu sulgemiseks kasutage nuppu **Sulge**. | Suletud <br> Loobutud <br> Mustand |
+| Suletud | See kujutab endast allhankelepingu etappi, mil materjalide ja/või tööde tegelik tarnimine allhankevahenditega on lõpetatud. Selles olekus allhankelepingut ei saa enam ressursside ja materjalide vajaduste hindamiseks ja personaliprojektide jaoks kasutada. Seda ei saa ka enam viidata projekti aja, kulu ja materjalikasutuse kohta. Sellises olekus allhankelepingut ei saa muuta ega kustutada. | Pole |
+| Loobutud | See kujutab endast allhankelepingu etappi, mil materjalide ja/või tööde tegelik tarnimine allhankevahenditega ei ole enam vajalik. Sellises olekus allhankelepingut ei saa kasutada projekti ressursside ja materjalide vajaduste hindamiseks ja personali määramiseks, samuti ei saa sellele viidata projekti aja, kulu ja materjalikasutuse kohta. Sellises olekus allhankelepingut ei saa muuta ega kustutada. | Pole |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

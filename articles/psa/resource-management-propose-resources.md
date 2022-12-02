@@ -1,6 +1,6 @@
 ---
 title: Projektile ressursside pakkumine
-description: See artikkel annab teavet projekti ressursside pakkumise kohta.
+description: See artikkel kirjeldab projektile ressursside pakkumist.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

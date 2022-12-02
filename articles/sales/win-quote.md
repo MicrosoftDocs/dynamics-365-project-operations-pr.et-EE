@@ -1,6 +1,6 @@
 ---
 title: Hinnapakkumise sulgemine
-description: Selles artiklis antakse teavet pakkumiste sulgemise kohta Project Operationsis.
+description: See artikkel annab teavet hinnapakkumiste sulgemise kohta rakenduses Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

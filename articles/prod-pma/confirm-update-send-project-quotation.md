@@ -1,6 +1,6 @@
 ---
 title: Projekti hinnapakkumise kinnitamine, värskendamine ja saatmine
-description: Selles artiklis antakse teavet kliendile kinnitamiseks hinnapakkumise saatmise, tagasiside põhjal muutmise ja seejärel pakkumise uuesti saatmise kohta.
+description: See artikkel annab teavet kliendile hinnapakkumise saatmise kinnitamiseks, tagasiside põhjal muutmise ja seejärel hinnapakkumise uuesti saatmise kohta.
 author: ruhercul
 ms.date: 05/09/2020
 ms.topic: article

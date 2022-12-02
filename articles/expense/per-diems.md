@@ -1,6 +1,6 @@
 ---
 title: Päevarahad
-description: Selles artiklis antakse teavet kuluhalduses kasutatavate päevarahareeglite kohta.
+description: See artikkel annab teavet kuluhalduses kasutatavate päevarahade reeglite kohta.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

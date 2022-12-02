@@ -1,6 +1,6 @@
 ---
 title: Mis on uut veebruaris 2021 – Project Operations ressursi-/mittelaopõhiste stsenaariumite jaoks
-description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval 2021. aasta veebruari väljaandes Project Operations ressursipõhiste/varumata stsenaariumide jaoks.
+description: See artikkel annab teavet ressursi-/mittelaopõhiste stsenaariumite jaoks mõeldud rakenduse Project Operations 2021. aasta veebruari väljalaskes saadaolevate kvaliteedi värskenduste kohta.
 author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "9029610"
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja versioonide kohta.
+See artikkel kehtib rakenduse Dynamics 365 Project Operations järgmiste komponentide ja versioonide kohta.
 
 - Project Operations Dataverse'i keskkonnas 4.7.0.95
-- Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnas versioon 10.0.16 
+- Projektihaldus ja raamatupidamine rakenduse Dynamics 365 Finance keskkonna versioonis 10.0.16 
 
 ## <a name="quality-updates"></a>Kvaliteedi värskendused
 
@@ -44,14 +44,14 @@ See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja v
 | **Ajakirje** | 2129161 | Rakendatakse kitsamaid piiranguid tagamaks, et kasutajad ei saaks muuta või värskendada esitatud või kinnitatud ajakirjet. |
 | **Ajakirje** | 2103572 | Projektiväliste ajakirjete aja kinnitamine ei pea nõudma projekti kinnitaja rolli. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektijuhtimine ja raamatupidamine Dynamics 365 Finance. aastal 
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektihaldus ja raamatupidamine rakenduses Dynamics 365 Finance 
 
-Lisateavet Dynamics 365 Finance projektihalduse ja raamatupidamise kohta leiate teemast [Mis on uut jaanuar 2021 – ressursipõhiste/varudeta stsenaariumide projektitoimingud](whats-new-jan-2021-resource-based.md)?
+Lisateavet projektijuhtimise ja raamatupidamise kohta rakenduses Dynamics 365 Finance, vt jaotisest [Mida uut on jaanuaris 2021 - Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks](whats-new-jan-2021-resource-based.md).
 
 
 ## <a name="regulatory-updates"></a>Regulatiivsed uuendused
 
-Lisateavet finance and operationsi rakenduste regulatiivsete värskenduste kohta leiate teemast [Regulatiivsed värskendused](/dynamics365/finance/localizations/regulatory-updates). Veel üks võimalus regulatiivsete värskenduste kohta teada saada on logida teenusesse Lifecycle Services (LCS) ja vaadata plaanitud regulatiivseid värskendusi, kasutades probleemide otsingu tööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
+Lisateavet finants- ja äritoimingute rakenduste regulatiivsete värskenduste kohta, vt [Regulatiivsed värskendused](/dynamics365/finance/localizations/regulatory-updates). Veel üks võimalus regulatiivsete värskenduste kohta teada saada on logida teenusesse Lifecycle Services (LCS) ja vaadata plaanitud regulatiivseid värskendusi, kasutades probleemide otsingu tööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

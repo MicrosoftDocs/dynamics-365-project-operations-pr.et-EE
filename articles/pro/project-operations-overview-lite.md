@@ -1,6 +1,6 @@
 ---
 title: Lihtjuurutamise ülevaade
-description: Selles artiklis antakse teavet rakenduse Lite juurutuse kohta Dynamics 365 Project Operations.
+description: See artikkel annab teavet rakenduse Dynamics 365 Project Operations lihtjuurutamise kohta.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview

@@ -1,6 +1,6 @@
 ---
 title: Mis on Project Operationsis ressursi-/tootmispõhiste stsenaariumite jaoks 2022. a juulis uut või muutunud
-description: Sellest artiklist leiate teavet kvaliteedivärskenduste kohta, mis on saadaval Microsofti Dynamics 365 Project Operations 2022. aasta juuli väljaandes varutud/tootmispõhiste stsenaariumide jaoks.
+description: See artikkel annab teavet rakenduse Microsoft Dynamics 365 Project Operations lao-/tootmispõhiste stsenaariumite jaoks 2022. a juuli väljalaskes saadaolevate kvaliteedivärskenduste kohta.
 author: ramagadu
 ms.date: 8/17/2022
 ms.topic: article
@@ -18,38 +18,38 @@ ms.locfileid: "9305910"
 
 _**Kehtib järgmiste puhul:** Project Operations ladustamise-/tootmispõhiste stsenaariumide jaoks_
 
-See artikkel kehtib microsofti järgmiste komponentide ja versioonide kohta Dynamics 365 Project Operations:
+See artikkel kehtib rakenduse Microsoft Dynamics 365 Project Operations järgmiste komponentide ja versioonide kohta.
 
-- Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnas versioon 10.0.28
+- Projektihaldus ja raamatupidamine rakenduse Dynamics 365 Finance keskkonna versioonis 10.0.28
 
 ## <a name="quality-updates"></a>Kvaliteedi värskendused
 
-Selles värskenduses sisalduvate veaparanduste kohta teabe saamiseks logige sisse teenusesse Microsoft Dynamics Lifecycle Services (LCS) ja vaadake [teabebaasi artiklit](https://fix.lcs.dynamics.com/Issue/Details?bugId=694438).
+Lisateabe saamiseks tõrkeparanduste kohta, mis sisalduvad selles värskenduses, logige sisse teenusesse Microsoft Dynamics Lifecycle Services (LCS) ja vaadake [KB artiklit](https://fix.lcs.dynamics.com/Issue/Details?bugId=694438).
 
-## <a name="features-turned-on-by-default-in-upcoming-release"></a>Funktsioonid, mis on eelseisvas väljalaskes vaikimisi sisse lülitatud
+## <a name="features-turned-on-by-default-in-upcoming-release"></a>Funktsioonid on tulevase versioonis vaikimisi sisse lülitatud
 
-Järgmises tabelis on loetletud funktsioonid, mis on versioonis 10.0.29 vaikimisi sisse lülitatud. Enamikku automaatselt sisse lülitatud funktsioone saab funktsioonihalduses [välja lülitada](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview). Tulevikus võidakse mõned automaatselt sisse lülitatud funktsioonid funktsioonihaldusest eemaldada ja muutuda kohustuslikuks. See muudatus tagab, et kliendid kasutavad praeguseid funktsioone, nii et täiustused saavad nende lisamisel tugineda praegusele funktsioonile. Funktsioone ei lubata automaatselt vähem kui ühe aasta jooksul, välja arvatud juhul, kui on kindlaks tehtud, et need on hädavajalikud.
+Järgmises tabelis on loetletud funktsioonid, mis on versioonis 10.0.29 vaikimisi sisse lülitatud. Enamiku automaatselt sisse lülitatud funktsioone saab sisse lülitada jaotises [Funktsioonihaldus](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview). Tulevikus võidakse mõned automaatselt sisse lülitatud funktsioonid funktsioonihaldusest eemaldada ja muutuda kohustuslikuks. See muudatus tagab, et kliendid kasutavad praegust funktsionaalsust, nii et täiustused saaksid nende lisamisel olemasolevatele funktsioonidele tugineda. Funktsioone ei lubata kunagi automaatselt vähem kui aasta pärast, välja arvatud juhul, kui need on hädavajalikud.
 
-| Funktsiooni nimi | Luba kuupäev | Funktsioon on lisatud | Funktsiooni olek | Moodul |
+| Funktsiooni nimi | Lubamise kuupäev | Funktsioon lisatud | Funktsiooni olek | Moodul |
 | --- | --- | --- |--- |--- |
-| Tunnikande korrigeerimise lubamine rahastamisreegli eraldamise muudatuse alusel | 16. september 2022 | 7. oktoober 2020 | Vaikimisi sees | Projektihaldus ja raamatupidamine |
-| Projekti ostutellimuse ettemaksuarve ümberpööramise funktsioon | 16. september 2022 | 6. oktoober 2021 | Vaikimisi sees | Projektihaldus ja raamatupidamine |
-| Arvesoovituse ridade kustutamine, kui kasutate projektitoiminguid ressursipõhiste/ ladustamata stsenaariumide jaoks | 16. september 2022 | 6. oktoober 2021 | Vaikimisi sees | Projektihaldus ja raamatupidamine |
-| Sisestatud projektikande raamatupidamise korrigeerimine | 16. september 2022 | 10. mai 2020 | Vaikimisi sees | Projektihaldus ja raamatupidamine |
-| Luba projekti raamatupidamise vaikehäälestus | 16. september 2022 | 19. veebruar 2020 | Vaikimisi sees | Projektihaldus ja raamatupidamine |
+| Tunnitehingu korrigeerimise lubamine rahastamisreegli jaotuse muutuse alusel | 16. september 2022 | 7. oktoober 2020 | Vaikimisi sees | Projektihaldus ja raamatupidamine |
+| Projekti ostutellimuse ettemaksuarve tühistamise funktsioon | 16. september 2022 | 6. oktoober 2021 | Vaikimisi sees | Projektihaldus ja raamatupidamine |
+| Kustutage arve ettepaneku read, kui kasutate rakenduse Project Operations ressursi-/mittelaopõhiste stsenaariumide jaoks | 16. september 2022 | 6. oktoober 2021 | Vaikimisi sees | Projektihaldus ja raamatupidamine |
+| Kohandage kirjendatud projektitehingu arvestust | 16. september 2022 | 10. mai 2020 | Vaikimisi sees | Projektihaldus ja raamatupidamine |
+| Raamatupidamise vaikeseade lubamine projekti jaoks | 16. september 2022 | 19. veebruar 2020 | Vaikimisi sees | Projektihaldus ja raamatupidamine |
 | Mitme lepingurea lubamine projekti jaoks | 16. september 2022 | 29. juuni 2020 | Vaikimisi sees | Projektihaldus ja raamatupidamine |
-| Project Houri töölehtede kirjutuskaitstuks muutmine, kui praegune kinnitamise olek ei luba redigeerimist | 16. september 2022 | 6. oktoober 2021 | Vaikimisi sees | Projektihaldus ja raamatupidamine |
-| Müügiridade sünkroonimise lubamine osturidadelt, kui osturidu värskendatakse ja ostutellimuse muutmise haldusparameeter on sisse lülitatud | 16. september 2022 | 7. oktoober 2020 | Vaikimisi sees | Projektihaldus ja raamatupidamine |
-| Project Operationsi lubamine Dynamics 365 Customer Engagement | 16. september 2022 | 29. juuni 2020 | Vaikimisi sees | Projektihaldus ja raamatupidamine |
-| Projektikande ümberpööramise parandamise funktsioon | 16. september 2022 | 13. juuli 2020 | Vaikimisi sees | Projektihaldus ja raamatupidamine |
+| Muutke projektitunni ajakirjed kirjutuskaitstuks, kui praegune kinnitusolek ei võimalda redigeerimist | 16. september 2022 | 6. oktoober 2021 | Vaikimisi sees | Projektihaldus ja raamatupidamine |
+| Lubage müügiridade sünkroonimine osturidadest, kui osturidu värskendatakse ja ostutellimuse muudatuste haldusparameeter on sisse lülitatud | 16. september 2022 | 7. oktoober 2020 | Vaikimisi sees | Projektihaldus ja raamatupidamine |
+| Rakenduse Project Operations lubamine rakenduses Dynamics 365 Customer Engagement | 16. september 2022 | 29. juuni 2020 | Vaikimisi sees | Projektihaldus ja raamatupidamine |
+| Projekti tehingu tagasipööramise korrigeerimise funktsioon | 16. september 2022 | 13. juuli 2020 | Vaikimisi sees | Projektihaldus ja raamatupidamine |
 
-## <a name="features-that-become-mandatory-in-the-upcoming-release"></a>Funktsioonid, mis muutuvad eelseisvas väljalaskes kohustuslikuks
+## <a name="features-that-become-mandatory-in-the-upcoming-release"></a>Funktsioonid, mis muutuvad tulevases versioonis kohustuslikuks
 
 Järgmises tabelis on loetletud funktsioonid, mis on kohustuslikud alates versioonist 10.0.29.
 
-| Funktsiooni nimi | Luba kuupäev | Funktsioon on lisatud | Funktsiooni olek | Moodul |
+| Funktsiooni nimi | Lubamise kuupäev | Funktsioon lisatud | Funktsiooni olek | Moodul |
 | --- | --- | --- | --- | --- |
-| Määratud väärtuse arvutamine rahastamisallika kohta ilma vahetuskurssi ümardamata | 16. september 2022 | 14. juuni 2020 | Kohustuslik | Projektihaldus ja raamatupidamine |
-| Projekti korrigeerimise sisestamise lubamine sama pearaamatukontoga nagu algne kanne | 16. september 2022 | 14. juuni 2020 | Kohustuslik | Projektihaldus ja raamatupidamine |
-| Projektilepinguga seotud summa üksikasjad | 16. september 2022 | 31. august 2019 | Kohustuslik | Projektihaldus ja raamatupidamine |
-| Ressursi järgi sortimise lubamine projekti arvesoovituse loomise ajal | 16. september 2022 | 31. august 2019 | Kohustuslik | Projektihaldus ja raamatupidamine |
+| Arvutage rahastamisallika kulutatud väärtus ilma vahetuskurssi ümardamata | 16. september 2022 | 14. juuni 2020 | Kohustuslik | Projektihaldus ja raamatupidamine |
+| Pprojekti korrigeerimise kirjendamine lubamine algse tehinguga sama pearaamatukontoga | 16. september 2022 | 14. juuni 2020 | Kohustuslik | Projektihaldus ja raamatupidamine |
+| Projekti lepingu kohustuse summa üksikasi | 16. september 2022 | 31. august 2019 | Kohustuslik | Projektihaldus ja raamatupidamine |
+| Lubage projektiarve ettepaneku loomise ajal ressursi järgi sortimine | 16. september 2022 | 31. august 2019 | Kohustuslik | Projektihaldus ja raamatupidamine |

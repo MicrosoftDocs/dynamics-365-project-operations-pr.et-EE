@@ -1,6 +1,6 @@
 ---
 title: Ajakirjete loomine
-description: Selles artiklis antakse teavet ajakirjete loomise kohta.
+description: See artikkel annab teavet selle kohta, kuidas luua ajakirjeid.
 author: rumant
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Allhankelepingu rea ressursid
-description: Selles artiklis selgitatakse, kuidas määrata spetsiaalseid ressursse, mida hankija konkreetse allhankerea jaoks aja jooksul pakub.
+description: See artikkel kirjeldab, kuidas määrata sihtotstarbelised ressursid, mille hankija on konkreetse allhankelepingu aja rea jaoks andnud.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

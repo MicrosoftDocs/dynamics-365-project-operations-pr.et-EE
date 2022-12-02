@@ -1,6 +1,6 @@
 ---
 title: Projektipõhised parandusarved
-description: Selles artiklis antakse teavet selle kohta, kuidas project Operationsis paranduslikke projektipõhiseid arveid luua ja kinnitada.
+description: See artikkel annab teavet selle kohta, kuidas luua ja kinnitada rakenduses Project Operations projektipõhiseid parandusarveid.
 author: rumant
 ms.date: 03/29/2021
 ms.topic: article

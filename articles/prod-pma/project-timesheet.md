@@ -28,7 +28,7 @@ ms.locfileid: "9110970"
 
 ## <a name="overview"></a>Ülevaade
 
-Mobiilirakendus Microsoft Dynamics 365 Project Timesheet võimaldab kasutajatel esitada ja kinnitada oma mobiilseadmes (iPhone või Android). See mobiilirakendus toob esile ajatabeli funktsionaalsuse, mis asub Dynamics 365 Finance alal Projektihaldus ja raamatupidamine. See aitab parandada kasutajate tootlikkust ja tõhusust ning võimaldab ka projekti ajatabelite õigeaegset sisestamist ja kinnitamist.
+Mobiilirakendus Microsoft Dynamics 365 Project Timesheet laseb kasutajatel oma mobiilsideseadmes esitada ja kinnitada projektide ajatabeleid (iPhone või Android). See mobiilirakendus toob esile ajatabeli funktsioonid, mis asuvad rakenduse Dynamics 365 Finance projektihalduse ja raamatupidamise alal. See aitab parandada kasutajate tootlikkust ja tõhusust ning võimaldab ka õigeaegselt sisestada ja kinnitada projekti ajatabelid.
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobiilirakenduse allalaadimine ja installimine
 
@@ -40,16 +40,16 @@ Finance’is peab mobiilirakendus Project Timesheet olema lubatud. Funktsiooni l
 
 ### <a name="resolve-sign-in-issues"></a>Sisselogimisprobleemide lahendamine
 
-**Probleem:** rakendusse Project Timesheet Mobile sisselogimisel saavad kasutajad tõrketeate, mis ütleb, et nad "ei pääse selles rentnikus rakendusele 2bc50526-cdc3-4e36-a970-c284c34cbd6e juurde".
+**Issue:** Projekti ajatabeli mobiilirakendusse sisselogimisel saavad kasutajad tõrketeate, mis ütleb, et nad „ei pääse selle rentniku rakendusele '2bc50526-cdc3-4e36-a970-c284c34cbd6e' juurde“.
 
-**Probleem:** project Timesheet Mobile'i rakendusse sisselogimisel kuvatakse kasutajatele tõrge, mis sarnaneb ühega järgmistest näidetest.
+**Probleem:** Projekti ajatabeli mobiilirakendusse sisselogimisel kuvatakse tõrketeade, mis sarnaneb ühega järgmistest näidetest.
 
-- "AADSTS50020: identiteedipakkuja "[rakenduse id]" kasutajakontot "https://sts.windows.net/[kasutajanimi]" ei eksisteeri rentnikus "[rentniku ID]" ja see ei pääse juurde selle rentniku rakendusele "[app id]"."
-- "Valitud kasutajakontot ei eksisteeri rentnikus "[rentniku ID]" ja ta ei pääse juurde selle rentniku rakendusele "[app id]"."
+- „AADSTS50020: identiteedipakkuja 'https://sts.windows.net/[rakenduse ID]' kasutajakontot '[kasutajanimi]' ei eksisteeri rentnikus '[rentniku ID]' ja see ei pääse juurde rakendusele '[rakenduse ID]' selles rentnikus“.
+- „Valitud kasutajakontot ei eksisteeri rentnikus [rentniku ID] ja see ei pääse selle rentniku rakendusele [rakenduse ID] juurde“.
 
-**Selgitus:** Need probleemid on põhjustatud muudatusest, mis tehti Azure Active Directory (Azure AD) 2022. aasta mais ja mis on seotud väliste kasutajatega. Kuna seda muudatust ei tehtud finants- ja toimingurakendustes, võib see mõjutada kliente platvormi või rakenduse mis tahes versioonis.
+**Selgitus:** Need probleemid on põhjustatud muudatusest, mis tehti Azure Active Directory (Azure AD) mais 2022 ja mis on seotud väliste kasutajatega. Kuna seda muudatust ei tehtud finants- ja äritoimingute rakendustes, võib see mõjutada kliente platvormi või rakenduse mis tahes versioonis.
 
-**Parandus:** kõik väliskasutajad tuleb rentniku Azure AD juurde kutsuda. Lisateavet vaadake jaotisest [Kasutajate kutsumine B2B koostöö abil Azure Active Directory](/power-platform/admin/invite-users-azure-active-directory-b2b-collaboration).
+**Parandus:** Kõik väliskasutajad tuleb Azure AD kaudu rentniku juurde kutsuda. Lisateabe saamiseks vaadake jaotist [Kasutajate kutsumine Azure Active Directory B2B koostööga](/power-platform/admin/invite-users-azure-active-directory-b2b-collaboration).
 
 ## <a name="sign-in-to-the-app"></a>Rakendusse sisse logimine
 
@@ -63,7 +63,7 @@ Finance’is peab mobiilirakendus Project Timesheet olema lubatud. Funktsiooni l
 
 ## <a name="submit-a-project-timesheet"></a>Projekti ajatabeli esitamine
 
-Saate projekti ajatabeli luua ja esitada rakenduses. Saate uue ajatabeli luua varasema ajatabeli, salvestatud ridade ja projekti ülesannete teabe põhjal. Kui olete määratud delegaadiks, saate sisestada ka teise töötaja ajatabeli. Ajatabeli loomiseks delegaadina valige **nupp Menüü** ja seejärel valige ressursi nimi.
+Saate projekti ajatabeli luua ja esitada rakenduses. Saate uue ajatabeli luua varasema ajatabeli, salvestatud ridade ja projekti ülesannete teabe põhjal. Kui olete määratud delegaadiks, saate sisestada ka mõne teise töötaja ajatabeli. Delegaadina ajatabeli loomiseks valige nupp **Menüü** ja seejärel ressursi nimi.
 
 Ajatabeli leht loob praeguse kuupäeva põhjal ajatabeli perioodi jaoks uue ajatabeli. Kuvatakse töönädal. Kui ajatabeli periood hõlmab mitut nädalat, saate valida vahekaardilt töönädal mõne muu töönädala.
 Kui eksisteerib ajatabel praeguse kuupäeva jaoks, siis see kuvatakse. Kui peate looma erineval ajatabeli perioodil uue ajatabeli, valige nupp **Menüü** ja valige seejärel suvand **Uus ajatabel**.
@@ -80,24 +80,24 @@ Kuvatav projekti teave sõltub lehel **Projektihalduse ja raamatupidamise näita
 
 Valige väljal **Juriidiline üksus** juriidiline üksus, mille jaoks te projekti töö tegite. Väli **Juriidiline üksus** on saadaval ainult juhul, kui teie juriidilise üksuse jaoks on kontsernisisene ajatabeli tugi lubatud.
 
-Valige klient, kes on ajatabeli projektiga seostatud. Esialgse väljalaske Android puhul ei toetata kliendisisestust, kuna peate kõigepealt valima projekti. Kui valisite esmalt projekti, täidetakse väli **Klient** automaatselt.
+Valige klient, kes on ajatabeli projektiga seostatud. Androidi esmase versiooni puhul ei toetata kliendi sisestamist, kuna peate esmalt valima projekti. Kui valisite esmalt projekti, täidetakse väli **Klient** automaatselt.
 
-Valige väljal **Projekt** projekt, mille jaoks aega sisestate. Väli **Klient** täidetakse automaatselt.
+Väljal **Projekt** valige projekt, mille kohta aega sisestate. Väli **Klient** täidetakse automaatselt.
 
 Kliendi ja projekti otsingud võimaldavad otsida nii klientide kui ka projektide üleselt.
 
 Valige vastavalt vajadusele teave väljadel **Kategooria**, **Tegevus**, **Rea atribuut**, **Käibemaksu rühm** ja **Eseme käibemaksu rühm**. Neid välju saab alistada.
 
-Väli **Rea atribuut** seatakse projektihalduse ja raamatupidamise näitajate põhjal vaikeväärtusele. Kui parameetrid projekt/kategooria ja kategooria/ressurss on lubatud, seadistatakse väärtus **Rea atribuut** vaikeväärtusele, mille oolete selle valideerimise jaoks määratlenud. Kui projekti/kategooria ja kategooria/ressursi parameetrid pole lubatud, **määratakse rea atribuudi** väärtus vaikimisi vastavalt väljale **Luba** rea vaikeatribuut **lehel Projektihalduse ja raamatupidamise parameetrid**. Väärtu **Rea atribuut** on võimalik alistada.
+Väli **Rea atribuut** seatakse projektihalduse ja raamatupidamise näitajate põhjal vaikeväärtusele. Kui parameetrid projekt/kategooria ja kategooria/ressurss on lubatud, seadistatakse väärtus **Rea atribuut** vaikeväärtusele, mille oolete selle valideerimise jaoks määratlenud. Kui parameetrid projekt/kategooria ja kategooria/ressurss parameetrid pole lubatud, läheb väärtus **Rea atribuut** vaikeväärtusele vastavalt väljale **Luba vaikerea atribuut** lehel **Projektihalduse ja raamatupidamise parameetrid**. Väärtu **Rea atribuut** on võimalik alistada.
 
 Valige kellaaja lisamiseks päev. Sisestage iga päev töötatud tundide arv.
 
-Sisestatavate tundide kohta kommentaaride lisamiseks klõpsake nuppu **Lisa kommentaarid** ja seejärel sisestage kommentaarid sisemise vaatajaskonna, kliendipubliku või mõlema kohta.
+Sisestatud tundide kohta kommentaaride lisamiseks klõpsake nuppu **Lisa kommentaarid** ja seejärel sisestage sisemine publik, kliendi publik või mõlemad.
 Projektihaldurid saavad sisemisi kommentaare vaadata. Klientide märkused lisatakse arvetele.
 
 Rea lemmikuna salvestamiseks valige märkeruut ja klõpsake seejärel valikut **Salvesta lemmikuks**.
 
-Finantsdimensiooni ja manuse tuge mobiilirakenduses ei pakuta.
+Mobiilirakenduses ei pakuta rahalist dimensioone ega manuste tuge.
 
 Jätkake projektiridade vastavalt vajadusele lisamist, et ajatabeli lõpule viia.
 
@@ -105,7 +105,7 @@ Ajatabeli kinnitamise töövoogu saatmiseks klõpsake nuppu **Esita**.
 
 ## <a name="review-timesheets"></a>Ajatabelite läbivaatamine
 
-Menüüst leiate nimekirja ajatabelitest, mis tuleb üle vaadata. See suvand on saadaval ainult siis, kui teid on määratud töövoo kinnitajaks. Toetatud on nii päise kui ka rea kinnitamine. Rea tasemel kinnitamine võimaldab märkida kinnitamiseks ühe või mitu. Pärast ajatabeli teabe läbivaatamist töövoo jätkamiseks klõpsake käsku **Kinnita**, **Delegeeri** või **Naase**.
+Läbivaatamist vajavate ajatabelite loend on saadaval menüüs. See suvand on saadaval ainult juhul, kui olete määratud töövoo kinnitajaks. Toetatud on nii päise kui ka rea kinnitamine. Rea tasemel kinnitamine võimaldab märkida kinnitamiseks ühe või mitu. Pärast ajatabeli teabe läbivaatamist töövoo jätkamiseks klõpsake käsku **Kinnita**, **Delegeeri** või **Naase**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

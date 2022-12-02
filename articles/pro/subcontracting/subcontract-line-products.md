@@ -1,6 +1,6 @@
 ---
 title: Allhankelepingu tooteread
-description: Selles artiklis selgitatakse, kuidas salvestada toodete allhankeridu ja kasutada erinevaid välju hankijatelt tehtud tooteostude salvestamiseks.
+description: See artikkel kirjeldab, kuidas kirjendada allhankelepingute tooteridu ja kasutada erinevaid välju hankijatelt toodete ostmise kirjendamiseks.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -34,7 +34,7 @@ Järgmine tabel sisaldab teavet lehe **Allhankelepingu rea üksikasjad** ja lehe
 | Kirjeldus | Allhankelepingu real tellitavate toodete lühikirjeldus. | Pole |
 | Rea tüüp | Selle välja vaikeväärtus on **Kogusepõhine**. |Pole |
 | Arveldusmeetod | See on Project Operationsi toetatud kahte peamist lepingumudelit esindav suvandikomplekt: **Fikseeritud hind** ning **Kellaaeg ja materjal**. | Valitud arveldusmeetodil põhinedes tehakse allhankelepingu ridade jaoks kättesaadavaks vahe-eesmärkidel põhineva arve ajakava koos fikseeritud hinnaga arveldusmeetodiga. |
-| Tehingu liik |Selle välja vaikeväärtus on **Kellaaeg**. Toodete ostmiseks allhankelepingu ridade loomiseks määrake välja **Kande liik** väärtuseks **Materjal**.  | See näitab, et projektides kasutatavate toodete ostu talletamiseks kasutatakse allhankelepingu rida. |
+| Tehingu klass |Selle välja vaikeväärtus on **Kellaaeg**. Toodete ostmiseks allhankelepingu ridade loomiseks määrake välja **Kande liik** väärtuseks **Materjal**.  | See näitab, et projektides kasutatavate toodete ostu talletamiseks kasutatakse allhankelepingu rida. |
 | Vali toode | Valige, kas ostetavat toodet hoitakse tootekataloogis või on see sisestatav toode. |Pole |
 | Toode | Valige kataloogist aktiivne toode. See väli on saadaval ainult juhul, kui **Vali toode** on seadistatud väärtusele **Olemasolev**. |Suvandite **Toode** ja **Ühik** kombinatsiooni kasutatakse allhankelepingu rea vaikeväärtusena või arvutatud ühikuhinnana.
 | Sisestatav toode | Sisestage sisestatava toote nimi. See väli on saadaval ainult juhul, kui **Vali toode** on seadistatud väärtusele **Sisestatav**.  |Sisestatavate toodete ostuhinda automaatselt ei täideta.|

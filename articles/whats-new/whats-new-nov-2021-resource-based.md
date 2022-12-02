@@ -1,6 +1,6 @@
 ---
 title: Mis on uut novembris 2021 – Project Operations ressursi-/mittelaopõhiste stsenaariumite jaoks
-description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval project Operationsi 2021. aasta novembri väljaandes ressursi-/ladustamata põhistsenaariumide jaoks.
+description: See artikkel annab teavet kvaliteedivärskenduste kohta, mis on saadaval 2021. aasta novembri väljaandes Project Operations ressursi-/mittelaopõhiste stsenaariumide jaoks.
 author: sigitac
 ms.date: 11/09/2021
 ms.topic: article
@@ -18,61 +18,61 @@ ms.locfileid: "8932889"
 
 *Kehtib: ressursipõhiste/mitteladustatavate stsenaariumite jaoks*
 
-See artikkel kehtib järgmiste Microsofti Dynamics 365 Project Operations komponentide ja versioonide kohta.
+See artikkel kehtib rakenduse Microsoft Dynamics 365 Project Operations järgmiste komponentide ja versioonide kohta.
 
-- Projektitoimingud keskkonnaversioonis Dataverse 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
-- Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnaversioonis 10.0.22
+- Rakendus Project Operations Dataverse’i keskkonna versioonis 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
+- Projektihaldus ja raamatupidamine rakenduse Dynamics 365 Finance keskkonna versioonis 10.0.22
 
 ## <a name="features-included-in-this-release"></a>Selles väljaandes sisalduvad funktsioonid
 
 Selles väljaandes sisalduvad järgmised funktsioonid.
 
-- Project Scheduling rakenduse programmeerimisliidesed (API-d) toetavad nüüd projektiämbrite loomise ja kustutamise võimalust.
+- Projekti ajastamise rakendusliidesed (API-d) toetavad nüüd võimalust luua ja kustutada projektisalved.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Rakenduse Project Operations topeltkirjutamise kaartide värskendused
 
 Selles väljaandes ei ole Project Operationsi topeltkirjutuse kaartide jaoks värskendusi. Project Operationsi topeltkijrutusega kaartide praeguse loendi ja versioonide jaoks vaadake teemat [Project Operationsi topeltkirjutamise kaardi versioonid](/dynamics365/project-operations/environment/resource-dual-write-maps).
 
-Käivitage alati oma keskkonnas kaardi uusim versioon ja lubage project Operationsi Dataverse lahenduse ja Finance'i lahenduse versiooni värskendamisel kõik seotud tabelikaardid. Mõned funktsioonid ja võimalused ei pruugi õigesti töötada, kui kaardi uusim versioon pole aktiveeritud. Kaardi aktiivset versiooni saate vaadata veerust **Versioon** lehel **Topeltkirjutamine**. Kaardi uue versiooni aktiveerimiseks valige **Tabelivastenduse versioonid**, valige uusim versioon ja seejärel salvestage valitud versioon. Kui olete kohandanud kastist väljas olevat tabelikaarti, rakendage muudatused uuesti. Lisateabe saamiseks vt [Rakenduse elutsükli haldus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)
+Käitage oma keskkonnas alati kaardi uusimat versiooni ja lubage kõik seotud tabelikaardid oma Project Operationsi lahenduse Dataverse ja Finance versiooni värskendamisel. Kui kaardi uusim versioon pole aktiveeritud, ei pruugi mõned funktsioonid ja võimalused õigesti töötada. Kaardi aktiivset versiooni saate vaadata veerust **Versioon** lehel **Topeltkirjutamine**. Kaardi uue versiooni aktiveerimiseks valige **Tabelivastenduse versioonid**, valige uusim versioon ja seejärel salvestage valitud versioon. Kui olete kohandanud kastivälise tabelikaardi, rakendage muudatused uuesti. Lisateabe saamiseks vt [Rakenduse elutsükli haldus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)
 
-Kui kaardi käivitamisel ilmneb probleem, järgige topeltkirjutamise tõrkeotsingu juhendi jaotises Kaartide [jaotises Puudu tabeliveergude probleemi juhiseid](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps).
+Kui teil tekib probleeme kaardi käivitamisel, järgige topeltkirjutamise tõrkeotsingu juhendi jaotises [Probleem kaardilt puuduvate tabeli veergudega](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps).
 
 ## <a name="quality-updates"></a>Kvaliteedi värskendused
 
-### <a name="project-operations-in-dataverse"></a>Projektitoimingud rakenduses Dataverse
+### <a name="project-operations-in-dataverse"></a>Project Operations teenuses Dataverse
 
 | Funktsiooni ala | Viitenumber | Kvaliteedi värskendus |
 | --- | --- | --- |
-| Arveldamine ja hinnakujundus | 2240080 | Välja **Maksetingimused** ei tohi pro forma arvel dubleerida. |
-| Arveldamine ja hinnakujundus | 2358236 | Arve parandamine peab lubama parandused, millel on nullhinnaga read. |
-| Ressursihaldus | 2410072 | Lubage ülesandele projektijuhina määratud ressursi häälestus. |
-| Arveldamine ja hinnakujundus | 2430234 | Kulujõudluse arvutamise probleemi lahendamine. |
-| Aeg ja kulu | 2436978 | Andke aega sisestada hh:mm formaadis. |
-| Arveldamine ja hinnakujundus | 2448623 | Saate lubada hinnakirjade värskendamist pärast nende seostamist organisatsiooniüksusega. |
-| Aeg ja kulu | 2460396 | Lubage lahtri tühjendamisega ajasisestus kustutada. |
-| Arveldamine ja hinnakujundus | 2467386 | Lubage kustutada projekt, millel on ülesanne, isegi kui ülesanne on seostatud võidetud hinnapakkumisega. |
-| Aeg ja kulu | 2461744 | Vaade **Minu nurjunud kinnitamine** sisaldab ainult projekti kinnitusi **etapis Esitatud**. |
-| Aeg ja kulu | 2464082 | Kui sihtolek on sobitatud, eemaldage link projekti kinnituste komplektist kinnituskomplekti. |
-| Aeg ja kulu | 2468108 | Töö Ajakava ei tohiks määrata **kinnituskomplektile töötlemise** olekut. |
-| Aeg ja kulu | 2471503 | Kustutage seitsmepäevased kinnituskomplektid. |
-| Arveldamine ja hinnakujundus | 2480687 | Hinnapakkumisrea viidet ei tohi hinnapakkumisrea vahe-eesmärgi loomisel eemaldada. |
+| Arveldamine ja hinnakujundus | 2240080 | Välja **Maksetingimused** ei tohi näidisarvel dubleerida. |
+| Arveldamine ja hinnakujundus | 2358236 | Arve parandus peab võimaldama parandusi, millel on nullhinna read. |
+| Ressursihaldus | 2410072 | Lubage seadistada ressurss, mis on projektijuhina ülesandele määratud. |
+| Arveldamine ja hinnakujundus | 2430234 | Kuluarvestuse probleemi parandamine. |
+| Aeg ja kulu | 2436978 | Võimaldab sisestada kellaaja tt:mm formaadis. |
+| Arveldamine ja hinnakujundus | 2448623 | Võimaldab hinnakirjade värskendamist pärast nende seostamist organisatsiooniüksusega. |
+| Aeg ja kulu | 2460396 | Võimaldab ajakirje kustutada, kustutades lahtri. |
+| Arveldamine ja hinnakujundus | 2467386 | Lubage projekti, millel on ülesanne, kustutada, isegi kui ülesanne on seotud võidetud hinnapakkumisega. |
+| Aeg ja kulu | 2461744 | Vaade **Minu ebaõnnestunud kinnitus** sisaldab ainult projektikinnitusi, mis on etapis **Esitatud**. |
+| Aeg ja kulu | 2464082 | Eemaldage projekti kinnituste link kinnituskomplekti, kui sihtoleku olek on vastavuses. |
+| Aeg ja kulu | 2468108 | Töö ajastamine ei tohiks kinnitamiskomplektile määrata olekuks **Töötlemine**. |
+| Aeg ja kulu | 2471503 | Kustutage seitse päeva vanad kinnituskomplektid. |
+| Arveldamine ja hinnakujundus | 2480687 | Hinnapakkumise rea vahekokkuvõtte loomisel ei tohi hinnapakkumisrea viidet eemaldada. |
 
-### <a name="project-management-and-accounting-in-finance"></a>Projektijuhtimine ja raamatupidamine rahanduses
+### <a name="project-management-and-accounting-in-finance"></a>Projektihaldus ja raamatupidamine rahanduses
 
 | Funktsiooni ala | Viitenumber | Kvaliteedi värskendus |
 | --- | --- | --- |
-| Projektihaldus ja raamatupidamine | [584732](https://fix.lcs.dynamics.com/Issue/Details/?bugId=584732) | Projekti kulukannetes säilitatud hankija summasid ei kuvata kandeloendis. |
-| Projektihaldus ja raamatupidamine | [593068](https://fix.lcs.dynamics.com/Issue/Details/?bugId=593068) | Kontsernisisene hankija arve katkeb hankija arve integreerimise sisselülitamisel. |
-| Projektihaldus ja raamatupidamine | [593382](https://fix.lcs.dynamics.com/Issue/Details/?bugId=593382) | Projektiarvete maksetingimused ei tööta ootuspäraselt. |
-| Projektihaldus ja raamatupidamine | [596263](https://fix.lcs.dynamics.com/Issue/Details/?bugId=596263) | Hankija kinnipidamise vabastamisel on kande konteerimisel täiendavaid ridu, mis on valed. |
-| Projektihaldus ja raamatupidamine | [598758](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598758) | Projektitoimingute integratsioonitöölehe konteerimisel nurjub see puuduvate dimensioonide tõttu kontol, kuhu pole konteeritud. |
-| Projektihaldus ja raamatupidamine | [602650](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602650) | Vahekaarti **Projekt** ei saa redigeerida ootel hankija arvel, kui hankekategooria on kaubale määratud. |
-| Projektihaldus ja raamatupidamine | [605121](https://fix.lcs.dynamics.com/Issue/Details/?bugId=605121) | Navigeerimispaan puudub, kui te pole Project Operationsi Dataverse sisse logitud. |
-| Projektihaldus ja raamatupidamine | [602728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602728) | Kui konteerite projektiarvelt tulu rakendatud säilitaja teenindusjuhtumis, ilmneb probleem, kuna kande kanded ei saldot. |
-| Projektihaldus ja raamatupidamine | [603624](https://fix.lcs.dynamics.com/Issue/Details/?bugId=603624) | Hinnangu loomine pärast arvesoovituse konteerimist blokeerib impordi parandusread. |
-| Projektihaldus ja raamatupidamine | [606083](https://fix.lcs.dynamics.com/Issue/Details/?bugId=606083) | Täielikult arveldatud vahe-eesmärgi kirje muutmine ei tohiks olla võimalik. |
-| Reisimine ja kulu | [575305](https://fix.lcs.dynamics.com/Issue/Details/?bugId=575305) | Kõik kuluaruanded on nähtavad, kui otsite kategooriat mobiilirakendusest Kulu. |
-| Reisimine ja kulu | [583101](https://fix.lcs.dynamics.com/Issue/Details/?bugId=583101) | Hankijakannete ja käibemaksukannete valed summad sisestatakse krediitkaardikandest loodud kulust. |
-| Reisimine ja kulu | [583760](https://fix.lcs.dynamics.com/Issue/Details/?bugId=583760) | Kuluaruande **lehe värskendamisel** kuvatakse ebaoluline hoiatus. |
-| Reisimine ja kulu | [598656](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598656) | Vahekinnitaja kustutamisel ja seejärel kuluaruande uuesti esitamisel töövoo kaudu kasutatakse valet vahekinnitajat. |
-| Reisimine ja kulu | [612742](https://fix.lcs.dynamics.com/Issue/Details/?bugId=612742) | Ilmneb läbisõidu häälestusega seotud sisestustõrge. |
+| Projektihaldus ja raamatupidamine | [584732](https://fix.lcs.dynamics.com/Issue/Details/?bugId=584732) | Projekti kulutehingutes säilitatud hankija summasid tehinguloendis ei kuvata. |
+| Projektihaldus ja raamatupidamine | [593068](https://fix.lcs.dynamics.com/Issue/Details/?bugId=593068) | Kui hankija arvete integreerimine on sisse lülitatud, on kontsernisisese hankija arve katki. |
+| Projektihaldus ja raamatupidamine | [593382](https://fix.lcs.dynamics.com/Issue/Details/?bugId=593382) | Projektiarvete maksetingimused ei toimi ootuspäraselt. |
+| Projektihaldus ja raamatupidamine | [596263](https://fix.lcs.dynamics.com/Issue/Details/?bugId=596263) | Kui hankija säilitamine vabastatakse, on kande postitamisel täiendavad read, mis on valed. |
+| Projektihaldus ja raamatupidamine | [598758](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598758) | Kui rakenduse Project Operations integratsiooni tööleht on postitatud, ebaõnnestub see konto dimensioonide puudumise tõttu, millele ei postitata. |
+| Projektihaldus ja raamatupidamine | [602650](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602650) | Vahekaarti **Projekt** ei saa muuta ootel hankija arvel, kui kaubale on määratud hankekategooria. |
+| Projektihaldus ja raamatupidamine | [605121](https://fix.lcs.dynamics.com/Issue/Details/?bugId=605121) | Navigeerimispaan puudub, kui te pole rakendusse Project Operations Dataverse sisse logitud. |
+| Projektihaldus ja raamatupidamine | [602728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602728) | Kui postitate projektiarvest saadud tulu rakendatud säilitamisjuhtumi puhul, ilmneb probleem, kuna kandel olevad tehingud ei ole tasakaalus. |
+| Projektihaldus ja raamatupidamine | [603624](https://fix.lcs.dynamics.com/Issue/Details/?bugId=603624) | Prognoosi koostamine pärast arve ettepaneku postitamist blokeerib parandusridade importimise. |
+| Projektihaldus ja raamatupidamine | [606083](https://fix.lcs.dynamics.com/Issue/Details/?bugId=606083) | Täielikult arveldatud vahekokkuvõtte kirje muutmine ei tohiks olla võimalik. |
+| Reisimine ja kulu | [575305](https://fix.lcs.dynamics.com/Issue/Details/?bugId=575305) | Kõik kuluaruanded on nähtavad, kui otsite kulu mobiilirakenduses kategooriat. |
+| Reisimine ja kulu | [583101](https://fix.lcs.dynamics.com/Issue/Details/?bugId=583101) | Hankija tehingute ja maksu tehingute valed summad on postitatud kulust, mis luuakse krediitkaarditehingust. |
+| Reisimine ja kulu | [583760](https://fix.lcs.dynamics.com/Issue/Details/?bugId=583760) | Lehe **Kuluaruanne** värskendamisel kuvatakse asjakohatu hoiatus. |
+| Reisimine ja kulu | [598656](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598656) | Ajutise kinnitaja kustutamisel ja seejärel töövoo kaudu uuesti esitamisel kasutatakse vale ajutist kinnitajat. |
+| Reisimine ja kulu | [612742](https://fix.lcs.dynamics.com/Issue/Details/?bugId=612742) | Ilmub postitamistõrge, mis on seotud läbisõidu seadistamisega. |

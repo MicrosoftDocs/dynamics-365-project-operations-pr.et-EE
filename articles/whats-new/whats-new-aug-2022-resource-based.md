@@ -1,6 +1,6 @@
 ---
 title: Mis on uut augustis 2022 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
-description: Sellest artiklist leiate teavet kvaliteedivärskenduste kohta, mis on saadaval Microsofti Dynamics 365 Project Operations 2022. aasta augusti väljaandes ressursipõhiste/varumata stsenaariumide jaoks.
+description: See artikkel annab teavet rakenduse Microsoft Dynamics 365 Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks 2022. a augusti väljalaskes saadaolevate kvaliteedivärskenduste kohta.
 author: ramagadu
 ms.date: 07/19/2022
 ms.topic: article
@@ -18,18 +18,18 @@ ms.locfileid: "9403851"
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-See artikkel kehtib microsofti järgmiste komponentide ja versioonide kohta Dynamics 365 Project Operations:
+See artikkel kehtib rakenduse Microsoft Dynamics 365 Project Operations järgmiste komponentide ja versioonide kohta.
 
-- Projektitoimingud keskkonnaversioonis Dataverse 4.45.0.53
-- Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnas versioon 10.0.28
+- Rakenduse Project Operations Dataverse keskkonna versioonis 4.45.0.53
+- Projektihaldus ja raamatupidamine rakenduse Dynamics 365 Finance keskkonna versioonis 10.0.28
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Rakenduse Project Operations topeltkirjutamise kaartide värskendused
 
 Selles väljaandes ei ole Project Operationsi topeltkirjutuse kaartide jaoks värskendusi. Project Operationsi topeltkijrutusega kaartide praeguse loendi ja versioonide jaoks vaadake teemat [Project Operationsi topeltkirjutamise kaardi versioonid](../environment/resource-dual-write-maps.md).
 
-Käivitage oma keskkonnas alati kaardi uusim versioon ja lubage project operationsi Dataverse lahenduse ja finance lahenduse versiooni värskendamisel kõik seotud tabelikaardid. Mõned funktsioonid ja võimalused ei pruugi õigesti töötada, kui kaardi uusim versioon pole aktiveeritud. Kaardi aktiivset versiooni saate vaadata veerust **Versioon** lehel **Topeltkirjutamine**. Kaardi uue versiooni aktiveerimiseks valige **Tabelivastenduse versioonid**, valige uusim versioon ja seejärel salvestage valitud versioon. Kui olete kohandanud valmis tabelikaarti, rakendage muudatused uuesti. Lisateabe saamiseks vt [Rakenduse elutsükli haldus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)
+Käitage oma keskkonnas alati kaardi uusimat versiooni ja lubage kõik seotud tabelikaardid oma Project Operationsi lahenduse Dataverse ja Finance versiooni värskendamisel. Kui kaardi uusim versioon pole aktiveeritud, ei pruugi mõned funktsioonid ja võimalused õigesti töötada. Kaardi aktiivset versiooni saate vaadata veerust **Versioon** lehel **Topeltkirjutamine**. Kaardi uue versiooni aktiveerimiseks valige **Tabelivastenduse versioonid**, valige uusim versioon ja seejärel salvestage valitud versioon. Kui olete kohandanud kastivälise tabelikaardi, rakendage muudatused uuesti. Lisateabe saamiseks vt [Rakenduse elutsükli haldus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)
 
-Kui teil tekib kaardi käivitamisel probleem, järgige juhiseid, mis on toodud [tõrkeotsingu juhendi Jaotises Puuduvad tabeli veerud kaardil](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps).
+Kui teil tekib probleeme kaardi käivitamisel, järgige topeltkirjutamise tõrkeotsingu juhendi jaotises [Probleem kaardilt puuduvate tabeli veergudega](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps).
 
 ## <a name="quality-updates"></a>Kvaliteedi värskendused
 
@@ -37,13 +37,13 @@ Kui teil tekib kaardi käivitamisel probleem, järgige juhiseid, mis on toodud [
 
 | Funktsiooni ala | Viitenumber | Kvaliteedi värskendus |
 | --- | --- | --- |
-|   Müügivõimaluste haldus | 2762089 | Vigade käsitlemine lepingu sulgemisel kadunuks, kui automaatne salvestamine on organisatsioonis keelatud.|
-|Projekti plaanimine ja jälgimine | 2767841 | Telemeetria värskendab Projekti olemit Stsenaariumide loomine või värskendamine.|
-|Arveldamine ja hinnakujundus | 2771072 | Nullviite erandi käsitlemine võitva hinnapakkumise ajal.|
-|Arveldamine ja hinnakujundus | 2844181 |Ebaõnnestumine korrelatsiooni ID saamisel ja arve loomise blokeerimisel.|
-|Arveldamine ja hinnakujundus | 2852836 | Kontsernisisesed tegelikud kulud puuduvad kontsernisisese kulu puhul, mis on loodud ja kinnitatud CE-s.|
+|   Müügivõimaluste haldus | 2762089 | Kui automaatne salvestamine on organisatsioonis keelatud, ilmnes vigade käsitlemine lepingu sulgemisel.|
+|Projekti plaanimine ja jälgimine | 2767841 | Telemeetria värskendused Projekti olem Looge või värskendage stsenaariume.|
+|Arveldamine ja hinnakujundus | 2771072 | Nullviite erandi käsitlemine võitnud hinnapakkumise ajal.|
+|Arveldamine ja hinnakujundus | 2844181 |Ebaõnnestumine korrelatsiooni ID hankimisel ja arve loomise blokeerimine.|
+|Arveldamine ja hinnakujundus | 2852836 | CE-s loodud ja kinnitatud kontsernisiseste kulude tegelikud näitajad puuduvad.|
 
 
-### <a name="project-management-and-accounting-in-finance"></a>Projektijuhtimine ja raamatupidamine rahanduses
+### <a name="project-management-and-accounting-in-finance"></a>Projektihaldus ja raamatupidamine rahanduses
 
-Selles värskenduses sisalduvate veaparanduste kohta teabe saamiseks logige sisse teenusesse Microsoft Dynamics Lifecycle Services (LCS) ja vaadake [teabebaasi artiklit](https://fix.lcs.dynamics.com/Issue/Details?bugId=694438).
+Lisateabe saamiseks tõrkeparanduste kohta, mis sisalduvad selles värskenduses, logige sisse teenusesse Microsoft Dynamics Lifecycle Services (LCS) ja vaadake [KB artiklit](https://fix.lcs.dynamics.com/Issue/Details?bugId=694438).

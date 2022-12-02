@@ -1,6 +1,6 @@
 ---
 title: Projektipõhise näidisarve haldamine
-description: Selles artiklis antakse teavet proforma projektipõhiste arvete haldamise ja nendega töötamise kohta.
+description: See artikkel annab teavet projektipõhiste näidisarvete haldamise ja nendega töötamise kohta.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
@@ -102,7 +102,7 @@ Arverea üksikasjades, mida toetavad arveldamata müügi tegelikud näitajad, on
 | **Toote nimi** | Määratakse vaikimisi allika tegelikust näitajast. Kirjutuskaitstud väli, mis on redigeerimiseks lukustatud. |  
 | **Sisestatav kirjeldus** | Määratakse vaikimisi allika tegelikust näitajast. Kirjutuskaitstud väli, mis on redigeerimiseks lukustatud. |
 | **Kandetüüp** | See on kirjutuskaitstud väli, mis on määratud vaikimisi allika tegelikust väärtusest suvandile **Arveldatud müük**. |  
-| **Kande liik** | Määratakse vaikimisi allika tegelikust näitajast. Kirjutuskaitstud väli, mis on redigeerimiseks lukustatud. | 
+| **Tehingu klass** | Määratakse vaikimisi allika tegelikust näitajast. Kirjutuskaitstud väli, mis on redigeerimiseks lukustatud. | 
 
 Arverea üksikasjades, mida toetab vahe-eesmärk, on saadaval järgmised väljad.
 
@@ -127,7 +127,7 @@ Arverea üksikasjades, mida toetab vahe-eesmärk, on saadaval järgmised väljad
 | **Laiendatud summa** | Määratakse vaikimisi allika vahe-eesmärgi rea summast. Välja saab redigeerida. | 
 | **Arveldustüüp** | Alati määratud vaikimisi valikule **Arveldatav**. Kirjutuskaitstud väli, mis on redigeerimiseks lukustatud. |
 | **Kandetüüp** | Määratakse vaikimisi allika vahe-eesmärgist. Kirjutuskaitstud väli, mis on redigeerimiseks lukustatud. | 
-| **Kande klass** | Määratakse vaikimisi allika vahe-eesmärgist. Kirjutuskaitstud väli, mis on redigeerimiseks lukustatud. | 
+| **Tehingu klass** | Määratakse vaikimisi allika vahe-eesmärgist. Kirjutuskaitstud väli, mis on redigeerimiseks lukustatud. | 
 
 ## <a name="refresh-invoice-transactions"></a>Arve tehingute värskendamine
 

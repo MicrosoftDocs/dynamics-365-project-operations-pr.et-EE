@@ -1,6 +1,6 @@
 ---
 title: Mida on uut või muudetud rakenduse Project Service Automation värskenduse väljaandes 41, V3
-description: Selles artiklis loetletakse funktsioonid ja parandused, mis on saadaval jaotises Microsoft Dynamics 365 Project Service Automation Värskendusväljaanne 41, V3.
+description: Selles artiklis on loetletud funktsioonid ja parandused, mis on saadaval rakenduses Microsoft Dynamics 365 Project Service Automation värskenduse väljalase 41, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 03/07/2022
@@ -29,7 +29,7 @@ ms.locfileid: "8930543"
 
 Meil on hea meel teatada rakenduse Microsoft Dynamics 365 Project Service Automation uusimast värskendusest. See väljaanne sisaldab mõningaid olulisi kvaliteedi, jõudluse ja kasutatavuse täiustusi. See ühildub rakendusega Dynamics 365 9.x. Sellele väljaandele värskendamiseks külastage Dynamics 365 veebilahenduste halduskeskust ja installige värskendus. Lisateabe saamiseks vt jaotist [Eelistatud lahenduse installimine, värskendamine või eemaldamine](/power-platform/admin/install-remove-preferred-solution).
 
-Selles artiklis loetletakse funktsioonid ja parandused, mis on project service automation update release 41, V3 jaoks uued või muudetud. Selle versiooni järgunumber on V3.10.62.162 ja see on märtsis 2022 automaatvärskendusega kõigile saadaval.
+Selles artiklis loetletakse Project Service Automationi värskenduse väljalaske 41, V3 uued või muudetud funktsioonid ja parandused. Selle versiooni järgunumber on V3.10.62.162 ja see on märtsis 2022 automaatvärskendusega kõigile saadaval.
 
 ## <a name="update-release-41"></a>Värskenduste väljalase 41
 
@@ -38,10 +38,10 @@ Selles artiklis loetletakse funktsioonid ja parandused, mis on project service a
 Lahendatud on järgmised probleemid.
 
 **Projektijuhtimine**
-- Kui proovite luua projekti mallist, mis põhineb töölaua lisandmoodulist loodud projektil, kuvatakse järgmine tõrge: "Ressursimääramise plaanitud töövälja kinnitamine: iga ressursimääramise ajaviilu lõppkuupäev ei tohi olla varasem kui selle alguskuupäev".
+- Kui püüate luua projekti mallist, mis põhineb töölaua lisandmoodulist loodud projektil, kuvatakse järgmine tõrketeade: „Ressursi määramise plaanitud töö välja valideerimine: iga ressursi määramise ajaviite lõppkuupäev ei tohi olla varasem selle alguskuupäevast“.
 
 **Aeg ja kulu**
-- Kui proovite ajakirjet kustutada, kuvatakse järgmine tõrketeade:"ISV-koodist ilmneb ootamatu tõrge".
+- Kui üritate ajakirjet kustutada, ilmub järgmine tõrketeade: „ISV-koodis ilmneb ootamatu viga“.
 
 **Müük**
-- Fikseeritud hinna vahesposti **arve loomisel pole väljad Kirjeldus** ja **Väline kirjeldus** asustatud. 
+- Kui loote fikseeritud hinnaga vahekokkuvõtte jaoks arve, ei täideta välju **Kirjeldus** ja **Väline kirjeldus**. 

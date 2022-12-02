@@ -1,6 +1,6 @@
 ---
 title: Perioodi tüübid
-description: Selles artiklis antakse teavet selle kohta, kuidas seadistada tulude hindamiseks periooditüüpe.
+description: See artikkel annab teavet selle kohta, kuidas häälestada tulukalkulatsiooni perioodi tüübid.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.locfileid: "8930957"
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Perioodi tüüp määratleb, kui sageli projekti tulusid arvutatakse. Selles artiklis antakse teavet selle kohta, kuidas seadistada tulude hindamiseks periooditüüpe. 
+Perioodi tüüp määratleb, kui sageli projekti tulusid arvutatakse. See artikkel annab teavet selle kohta, kuidas häälestada tulukalkulatsiooni perioodi tüübid. 
 
 ## <a name="create-and-work-with-period-types"></a>Perioodi tüüpide loomine ja nendega töötamine
 Perioodi tüüpide loomiseks ja nendega töötamiseks tehke järgmist.
 
-1. Avage Dynamics 365 Finance keskkonnas **projektihalduse ja raamatupidamise** > **seadistushinnangute** > **·** > **perioodi tüübid**.
+1. Avage oma rakenduse Dynamics 365 Finance keskkonnas suvand **Projektihaldus ja raamatupidamine** > **Seadistus** > **Prognoosid** > **Perioodi tüübid**.
 2. Uue perioodi tüübi loomiseks valige **Uus**. Sisestage nimi ja kirjeldus.
 3. Väljal **Sagedus** valige väärtus.
 

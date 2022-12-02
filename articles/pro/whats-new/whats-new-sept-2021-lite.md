@@ -1,6 +1,6 @@
 ---
 title: Mis on uut septembris 2021 – Project Operationsi lihtjuurutamine
-description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval Project Operations lite juurutuse 2021. aasta septembri väljaandes.
+description: See artikkel annab teavet kvaliteedivärskenduste kohta, mis on saadaval Project Operationsi lihtjuurutuse 2021. aasta septembri väljalaskes.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8931279"
 
 _Kohaldub: lihtjuurutus - tehing proforma arveldusega_
 
-See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja versioonide kohta.
+See artikkel kehtib rakenduse Dynamics 365 Project Operations järgmiste komponentide ja versioonide kohta.
 
   - Project Operations Microsoft Dataverse’i keskkonna versioonis 4.14.0.99
 

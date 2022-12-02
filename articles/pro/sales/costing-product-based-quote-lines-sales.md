@@ -1,6 +1,6 @@
 ---
 title: Tootepõhiste hinnapakkumiste ridade kuluarvutus
-description: Selles artiklis antakse teavet omahinna rakendamise kohta tootepõhisele hinnapakkumise reale.
+description: See artikkel annab teavet tootepõhisele hinnapakkumise reale omahinna rakendamise kohta.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Projekti hankija arvete kinnitamine
-description: Selles artiklis selgitatakse, kuidas kinnitada projekti hankija arvet Microsoftis Dynamics 365 Project Operations, ja kirjeldatakse projekti hankija arve kinnitamise finantsmõju.
+description: See artikkel selgitab, kuidas kinnitada projekti hankija arvet teenuses Microsoft Dynamics 365 Project Operations ja kirjeldatakse projekti hankija arve kinnitamise finantsmõju.
 author: suvaidya
 ms.date: 8/25/2022
 ms.topic: article
@@ -17,20 +17,20 @@ ms.locfileid: "9475463"
 
 _ **Rakendub:** Project Operations ressursipõhiste/mitteladustatavate stsenaariumite jaoks
 
-**Kui parameeter PM-i käsitsi kinnitamine on lubatud**, on hankija arvetel Microsoft Dataverse, mis on loodud olekus **Mustand**. Sel viisil loodud hankija arved tuleb üle vaadata ja käsitsi kinnitada. **Kui parameeter PM-i käsitsi kinnitamine on nõutav**, kinnitatakse sisse Dataverse loodud hankija arved automaatselt. Täiendavaid meetmeid ei ole vaja võtta. 
+Kui parameeter **Käsitsi kinnitus projektijuhi poolt on nõutav** on lubatud, on Microsoft Dataverse’is loodud hankija arvete olek **Mustand**. Sel viisil koostatud hankija arved tuleb üle vaadata ja käsitsi kinnitada. Kui parameeter **Käsitsi kinnitus projektijuhi poolt on nõutav** on keelatud, kinnitatakse Dataverse’is loodud hankija arved automaatselt. Edasist tegevust pole vaja. 
 
-Kui olete hankija arve kõik read kinnitanud, valige hankija arve Dynamics 365 Project Operations kinnitamiseks Kinnita **.**
+Kui olete teenuses Dynamics 365 Project Operations kinnitanud hankija arvel kõik read, valige hankija arve kinnitamiseks **Kinnita**.
 
-Kui valite **hankija arvel käsu Kinnita**, toimub järgmine käitumine.
+Kui valite hankija arvel valiku **Kinnita**, ilmneb järgmine käitumine.
 
-1. Hankija arve olekuks värskendatakse **kinnitatud**.
-1. Kinnitatud hankija arve ja sellega seotud kirjed muutuvad kirjutuskaitstuks ning neid ei saa redigeerida ega kustutada.
-1. Kui mõni tegelik kulu viitab hankija arve reale vastavusse viimise protsessi osana, tühistatakse kõik kulu tegelikud kulud, mis on seotud viidatud hankija arve reaga.
-1. Uued tegelikud kuluandmed luuakse hankija arve real oleva teabe abil.
-1. Te ei saa enam luua parandustöölehti, töödelda ajakirjete tagasikutsumisi ega tühistada algse aja, kulu või tühistatud tegelike andmete kinnitamist.
-1. Dynamics 365 Finance **värskendatakse projekti kuluväärtust**, kasutades töölehte Projekti integratsioon, ja hangete integreerimise konto *tühistatakse* pärast töölehe Projekti integreerimine sisestamist.
+1. Hankija arve olekuks on **Kinnitatud**.
+1. Kinnitatud hankija arve ja sellega seotud kirjed muutuvad kirjutuskaitstuks ning neid ei saa muuta ega kustutada.
+1. Kui mis tahes kulu tegelikud näitajad viitavad võrdlusprotsessi osana hankija arve reale, pööratakse kõik viidatud hankija arve reaga seotud kulu tegelikud näitajad ümber.
+1. Uued kulu tegelikud näitajad luuakse hankija arve real olevat teavet kasutades.
+1. Te ei saa enam luua paranduspäevikuid, töödelda aja sissekannete tagasikutsumisi ega tühistada algselt tagasipööratud aja-, kulu- või materjali tegelike näitajate kinnitamist.
+1. Teenuses Dynamics 365 Finance värskendatakse **Projekti kulu** väärtust projekti integreerimise päeviku abil ja hanke integreerimise konto *pööratakse* pärast projekti integreerimise päeviku postitamist.
 
 > [!NOTE]
-> Kui hankija arve mis tahes real on muu kinnitamise olek kui **Lõpetatud**, ei saa hankija arvet kinnitada.
+> Kui hankija arve mõnel real on kinnitusolek muu kui **Täielik**, ei saa hankija arvet kinnitada.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

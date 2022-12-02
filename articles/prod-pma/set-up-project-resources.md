@@ -1,6 +1,6 @@
 ---
 title: Projekti ressursside seadistamine
-description: Selles artiklis antakse teavet projektiressursside seadistamise või taotlemise kohta.
+description: See artikkel annab teavet projekti ressursside seadistamise või taotlemise kohta.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

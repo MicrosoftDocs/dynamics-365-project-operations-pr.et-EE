@@ -1,6 +1,6 @@
 ---
 title: Uuenduse väljalaske ajakava Project Service 3.x jaoks
-description: See artikkel annab teavet Dynamics 365 Project Service Automation.
+description: See artikkel annab teavet rakenduse Dynamics 365 Project Service Automation saadaolevate ja tulevaste väljaannete kohta.
 ms.custom: dyn365-projectservice
 ms.date: 03/28/2022
 ms.reviewer: johnmichalak
@@ -65,7 +65,7 @@ Project Service’i värskenduste kohta leiate teavet teemast [Dynamics 365 väl
 |<strong>Jaam 4</strong> | |  |  | |
 | | <i>Euroopa</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21. oktoober 2022
 |<strong>Jaam 5</strong> | |  |  | |
-| | <i>Põhja-Ameerika</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | Novembrini 04 2022
+| | <i>Põhja-Ameerika</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 04. november, 2022
 |<strong>Jaam 6</strong> | |  |  | |
 | | <i>Riigiasutuste ühispilvekeskkond</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 02. november, 2022
 | | <i>Sihtotstarbelised skaalarühmad</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 11. november, 2022

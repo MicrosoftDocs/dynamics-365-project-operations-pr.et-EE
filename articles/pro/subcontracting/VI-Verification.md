@@ -1,6 +1,6 @@
 ---
 title: Kinnitatud tegelike andmetega hankija arvete kinnitamine
-description: Selles artiklis selgitatakse, kuidas Microsofti Dynamics 365 Project Operations projektijuhid kontrollivad hankija arveid tegelike arvetega, mis kinnitati töövõtjate tehtud töödeks ja salvestatud ajaks, ning kulude ja materjalidega, mida projektimeeskonna liikmed kasutasid.
+description: See artikkel selgitab, kuidas rakendus Microsoft Dynamics 365 Project Operations võimaldab projektijuhtidel kinnitada hankija arveid tegelike näitajatega, mis kinnitati, kuna töövõtjad tegid tööd ja salvestasid aega, ning kulusid ja materjale, mida projektimeeskonna liikmed kasutasid.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
@@ -17,58 +17,58 @@ ms.locfileid: "9522933"
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Microsoft Dynamics 365 Project Operations võimaldab projektijuhtidel kontrollida hankija arve ridu järgmistel viisidel.
+Rakendus Microsoft Dynamics 365 Project Operations võimaldab projektijuhtidel kinnitada hankija arve ridu järgmistel viisidel.
 
-- **Kasutage hankija arve ridadel välja Kinnitamise olek**.
-- Kui hankija arve read viitavad alltöövõtureale, linkige allhankija tegevuse tegelikud kulud nende hankija arve ridadega. Link luuakse tegelike kulusummade sobitamisel hankija arve ridadega.
+- Kasutage hankija arve ridadel välja **Kinnitusolek**.
+- Kui hankija arve read viitavad allhankelepingureale, linkige alltöövõtja tegevuse kulude tegelikud näitajad nende hankija arve ridadega. Link luuakse kulude tegelike näitajate vastavusse viimisel hankija arve ridadega.
 
     > [!NOTE]
-    > Kuigi kinnitamise olekut saab jälgida hankija arve ridadel, mis ei viita allhankele, ei saa tegelikke kulusummasid nende hankija arve ridadega siduda.
+    > Kuigi kinnitusolekut saab jälgida hankija arve ridade puhul, mis ei viita allhankelepingule, ei saa tegelikke kulusid nende hankija arve ridadega linkida.
 
-## <a name="verification-status"></a>Kontrollimise olek
+## <a name="verification-status"></a>Kinnituse olek
 
-Väli **Kontrollimise olek** hankija arve real näitab kinnitamise olekut. Toetatakse järgmisi olekuid.
+Hankija arve real olev väli **Kinnitusolek** näitab seda kinnituse olekut. Toetatakse järgmisi olekuid:
 
 1. Pole käivitatud
 2. Edenemisel
 3. Lõpetatud
 
-Hankija arve ridu, mille kinnitamise olek **on Pole alustatud**, saab redigeerida.
+Hankija arve ridu, mille kinnitusolek on **Pole alustatud**, saab muuta.
 
-Hankija arve ridu, mille kinnitamise olek **on Pooleli,** ei saa enam redigeerida. Hankija arve rea puhul, mis viitab allhankele, määratakse kinnitamise olek automaatselt olekule **Pooleli** niipea, kui esimene tegelik kulu on hankija arve reale vastendatud.
+Hankija arve ridu, mille kinnitusolek on **Pooleli**, ei saa enam muuta. Hankija arve rea puhul, mis viitab allhankelepingule, määratakse kinnitusolekuks automaatselt **Pooleli** niipea, kui esimene kulu tegelik näitaja on vastavusse viidud hankija arve reale.
 
-Hankija arve ridu, mille kinnitamise olek on Lõpetatud, **ei** saa enam redigeerida. Kui hankija arve kõigil ridadel on see kinnitusolek, saab hankija arve kinnitada.
+Hankija arve ridu, mille kinnitusolek on **Lõpule viidud**, ei saa enam muuta. Kui hankija arve kõikidel ridadel on see kinnitusolek, ei saa hankija arvet kinnitada.
 
-## <a name="match-cost-actuals-to-vendor-invoice-lines"></a>Tegelike kulusummade vastavusse viimine hankija arve ridadega
+## <a name="match-cost-actuals-to-vendor-invoice-lines"></a>Viige kulude tegelikud näitajad vastavusse hankija arve ridadega
 
-Tegelike kulude vastavusse viimine aitab hankija arve real kinnitusprotsessi. Tegelike kulusummade vastendamiseks hankija arve reaga toimige järgmiselt.
+Kulude tegelike näitajate vastavusse viimine aitab hankija arve real kinnitamise protsessi. Kulude tegelike näitajate vastavusse viimiseks hankija arve reaga järgige neid samme.
 
-1. Avage hankija arve rida ja valige **vahekaart Tasakaalustamata kulu tegelikud** kulud. Ruudustik kuvab tegelike kuluartiklite loendi, mis viitab hankija arve reaga samale allhankereale.
-2. Valige üks või mitu tegelikku kulusummat ja seejärel valige **ruudustiku kohal oleval tööriistaribal Vastenda**. Süsteem kinnitab, et valitud tegelikke kulusid saab sobitada. Pärast valideerimise läbimist seotakse tegelikud kulusummad hankija arve reale.
+1. Avage hankija arve rida ja valige vahekaart **Vastavusse viimata kulude tegelikud näitajad**. Ruudustik näitab loendit kulude tegelikest näitajatest, mis viitavad samale allhankelepingu reale kui hankija arve rida.
+2. Valige üks või mitu kulu tegelikku näitajat ja seejärel valige ruudustiku kohal oleval tööriistaribal **Vaste**. Süsteem kinnitab, et valitud kulude tegelikke näitajaid saab vastavusse viia. Pärast kinnitamise läbimist lingitakse kulude tegelikud näitajad hankija arve reaga.
 
-### <a name="validation-criteria-that-are-used-to-link-cost-actuals-to-vendor-invoice-lines"></a>Valideerimiskriteeriumid, mida kasutatakse tegelike kulude linkimiseks hankija arve ridadega
+### <a name="validation-criteria-that-are-used-to-link-cost-actuals-to-vendor-invoice-lines"></a>Valideerimiskriteeriumid, mida kasutatakse kulude tegelike näitajate sidumiseks hankija arve ridadega
 
-Vastavusse viimise protsessi käigus saab seose tegeliku kulu ja hankija arve rea vahel luua ainult siis, kui on täidetud mõlemad järgmised tingimused.
+Vastavusse viimise protsessi käigus saab seose kulu tegeliku näitaja ja hankija arve rea vahel luua ainult siis, kui on täidetud mõlemad järgmised tingimused.
 
-- Korrigeerimise **oleku** väli iga valitud tegeliku kulu kohta peab olema tühi. Teisisõnu, tegelikud kulud ei tohi olla tagasikutsumise, kinnitamise tühistamise või parandustöölehe protsessi ajal asendatud muude tegelike kuludega.
-- Järgmiste väljade väärtused vastendatakse hankija arve rea ja valitud tegeliku kulu vahel. Kui hankija arve real pole ühtegi välja määratud, ei arvestata seda vastendamisel.
+- Iga valitud kulu tegeliku näitaja väli **Korrigeerimise olek** peab olema tühi. Teisisõnu, kulude tegelikud näitajaid ei tohi olla tagasikutsumise, kinnitamise tühistamise või parandustöölehe protsessi käigus asendatud muude kulude tegelike näitajatega.
+- Järgmiste väljade väärtused on vastavuses hankija arve rea ja valitud kulu tegeliku näitajaga. Kui mõni väli pole hankija arve real määratud, ei arvestata seda sobivaks.
 
     - Projekti leping
     - Projekti lepingurida
     - Kande klass
     - Project
     - Toiming
-    - Ressursside kategooria
+    - Ressursikategooria
     - Kande kategooria
     - Toode
-    - Allhanke liin
+    - Allhankelepingu rida
     - Broneeritav ressurss
 
-## <a name="unmatch-cost-actuals-from-a-vendor-invoice-line"></a>Tegelike kulude vastendamine hankija arve realt
+## <a name="unmatch-cost-actuals-from-a-vendor-invoice-line"></a>Vabastage hankija arve rea kulude tegelike näitajad vastavusest
 
-Tegelike kulude vastendamine võib aidata kaasa ka hankija arve kinnitusprotsessile, võimaldades varem loodud linkide eemaldamist. Tegelike kulude summasid saab vastendamata jätta ainult hankija arve ridadelt, mille kinnitamise olek **on Pooleli**. Kulu tegelike kulude vastendamise tühistamiseks hankija arve realt toimige järgmiselt.
+Kulu tegelike näitajate vastavusest vabastamine võib aidata ka hankija arve kinnitamisel, võimaldades eelnevalt loodud linkide eemaldamist. Kulu tegelikke näitajaid saab võrrelda ainult hankija arve ridadelt, mille kinnitusolek on **Pooleli**. Kulude tegelike näitajate vastavusest vabastamiseks hankija arve reaga järgige neid samme.
 
-1. Avage hankija arve rida ja valige **vahekaart Sobitatud kulu tegelikud** kulud. Ruudustik kuvab tegelike kuluartiklite loendi, mis viitab hankija arve reale.
-2. Valige üks või mitu tegelikku kulusummat ja seejärel valige ruudustiku kohal oleval tööriistaribal suvand **Tühista** vastendus.
+1. Avage hankija arve rida ja valige vahekaart **Vastavusse viidud kulu tegelikud näitajad**. Ruudustik näitab kulu tegelike näitajate loendit, mis viitavad hankija arve reale.
+2. Valige üks või mitu kulu tegelikku näitajat ja seejärel valige ruudustiku kohal oleval tööriistaribal **Vastavusest vabastamine**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

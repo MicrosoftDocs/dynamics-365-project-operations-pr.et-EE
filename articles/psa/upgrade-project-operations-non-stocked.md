@@ -1,6 +1,6 @@
 ---
 title: Üleminek rakenduselt Project Service Automation rakendusele Project Operations
-description: Selles artiklis antakse ülevaade protsessist, millelt versioonile Microsoft Dynamics 365 Project Service Automation Dynamics 365 Project Operations.
+description: See artikkel annab ülevaate rakendusest Microsoft Dynamics 365 Project Service Automation rakendusele Dynamics 365 Project Operations ülemineku protsessist.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 10/11/2022
@@ -16,144 +16,144 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
-ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.openlocfilehash: ac2435c99f3aa9b2a6cdb08d7ce5f6628e7f6ac4
+ms.sourcegitcommit: bea5f9b4066277344add1da3a1567ed56a0cfd31
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709439"
+ms.lasthandoff: 11/02/2022
+ms.locfileid: "9736661"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Üleminek rakenduselt Project Service Automation rakendusele Project Operations
 
-Meil on hea meel teatada teisest kolmest etapist, mis on seotud üleminekuga Microsoft Dynamics 365 Project Service Automation Microsoftile Dynamics 365 Project Operations. See artikkel annab ülevaate klientidele, kes alustavad seda põnevat teekonda. 
+Meil on hea meel teatada, et rakenduselt Microsoft Dynamics 365 Project Service Automation rakendusele Microsoft Dynamics 365 Project Operations üleminekust teisele etapile kolmest. See artikkel annab ülevaate klientidele, kes on alustamas seda põnevat teekonda. 
 
-Versiooniuuenduse kohaletoimetamise programm jaguneb kolmeks etapiks.
+Täiendusprogramm jagatakse kolmeks etapiks.
 
-| Versiooniuuenduse kohaletoimetamine | 1. etapp (jaanuar 2022) | 2. etapp (november 2022) | 3. etapp (aprilli laine 2023)  |
+| Täienduse kohaletoimetamine | 1. faas (jaanuar 2022) | 2. faas (november 2022) | 3. faas (aprilli laine, 2023)  |
 |------------------|------------------------|---------------------------|---------------------------|
-| Projektide puhul puudub sõltuvus tööjaotuse struktuurist (WBS) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| WBS projekti tegevuste praegu toetatud piirides | | :heavy_check_mark: | :heavy_check_mark: |
-| WBS väljaspool Project Operationsi praegu toetatud limiite, sh Projecti töölauakliendi tugi | | | :heavy_check_mark: |
+| Ei sõltu projektide tööjaotuse struktuurist (WBS) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| WBS praegu rakenduse Project Operations toetatud piirides | | :heavy_check_mark: | :heavy_check_mark: |
+| WBS väljaspool rakenduse Project Operations praegu toetatud piire, sealhulgas Project Desktop Clienti tugi. | | | :heavy_check_mark: |
 
-## <a name="upgrade-process-features"></a>Uuendamisprotsessi funktsioonid 
+## <a name="upgrade-process-features"></a>Täiendusprotsessi funktsioonid 
 
-Täiendusprotsessi osana oleme saidikaardile lisanud täienduslogid, et administraatorid saaksid tõrkeid hõlpsamini diagnoosida. Lisaks uuele liidesele lisatakse uued valideerimisreeglid, et tagada andmete terviklikkus pärast uuendamist. Täiendusprotsessile lisatakse järgmised valideerimised.
+Täiendusprotsessi osana oleme lisanud saidikaardile versioonitäienduse logid, et administraatorid saaksid rikkeid hõlpsamini diagnoosida. Lisaks uuele liidesele lisatakse uued kinnitamisreeglid, et tagada andmete terviklikkus pärast uuendamist. Täiendusprotsessile lisatakse järgmised kinnitused.
 
-| Valideerimine | 1. etapp (jaanuar 2022) | 2. etapp (november 2022) | 3. etapp  |
+| Kinnitused | 1. faas (jaanuar 2022) | 2. faas (november 2022) | 3. faas  |
 |-------------|------------------------|---------------------------|---------------------------|
-| WBS-i kontrollitakse levinud andmetervikluse rikkumiste eest (nt ressursimääramised, mis on seotud sama põhiülesandega, kuid millel on erinevad emaprojektid). | | :heavy_check_mark: | :heavy_check_mark: |
-| WBS valideeritakse Project for the Webi teadaolevate limiitide [alusel](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |
-| WBS valideeritakse Projecti töölauakliendi teadaolevate limiitide alusel. | |  | :heavy_check_mark: |
+| WBS-i kontrollitakse tavaliste andmete terviklikkuse rikkumiste suhtes (nt ressursside määramised, mis on seotud sama ülemülesandega, kuid millel on erinevad emaprojektid). | | :heavy_check_mark: | :heavy_check_mark: |
+| WBS-i kontrollitakse [Project for the Webi teadaolevad piirangud](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |
+| WBS kinnitatakse Project Desktop Clienti teadaolevate piirangute alusel. | |  | :heavy_check_mark: |
 | Broneeritavaid ressursse ja projektikalendreid hinnatakse tavaliste ühildumatute kalendrireeglite erandite alusel. | | :heavy_check_mark: | :heavy_check_mark: |
 
-2. etapis viiakse projektitoimingutele üle minevate klientide olemasolevad projektid projekti plaanimiseks kirjutuskaitstud kasutuskogemuseks. Selles kirjutuskaitstud keskkonnas on jälgimisruudustikus nähtav täielik WBS. WBS-i redigeerimiseks saavad projektijuhid valida projekti avalehel käsu [**Teisenda**](/PSA-Upgrade-Project-Conversion.md). Seejärel värskendatakse projekti taustprotsessiga, et see toetaks projecti veebirakendusest tulevat uut projekti plaanimise kogemust. See etapp sobib klientidele, kellel on projekte, mis mahuvad Project for the Webi [teadaolevatesse](/project-for-the-web/project-for-the-web-limits-and-boundaries) piiridesse.
+2. faasis täiendatakse rakenduse Project Operations versioonile üle läinud klientide olemasolevad projektid projektide planeerimise jaoks kirjutuskaitstud kasutuskogemuseks. Selles kirjutuskaitstud kasutuskogemuses on jälgimisruudustikus nähtav kogu WBS. WBS-i redigeerimiseks saavad projektijuhid valida projekti avalehel [**Teisenda**](/PSA-Upgrade-Project-Conversion.md). Taustaprotsess värskendab seejärel projekti nii, et see toetaks Project for the Webi uut projekti ajastamise kogemust. See faas sobib klientidele, kellel on projektid, mis mahuvad [Project for the Web teadaolevate piiride](/project-for-the-web/project-for-the-web-limits-and-boundaries).
 
-3. etapis lisatakse Projecti töölauakliendi tugi, mis on kasulik klientidele, kes soovivad jätkata oma projektide redigeerimist sellest rakendusest. Kui aga olemasolevad projektid teisendatakse uude Project for the Web Experience’i, keelatakse juurdepääs lisandmoodulile iga teisendatud projekti puhul.
+3. faasis lisatakse Project desktop clienti tugi klientidele, kes soovivad jätkata oma projektide redigeerimist sellest rakendusest. Kui aga olemasolevad projektid teisendatakse uueks Project for the Web kogemuseks, keelatakse juurdepääs lisandmoodulile iga teisendatud projekti jaoks.
 
 ## <a name="prerequisites"></a>eeltingimused
 
-1. etapi versioonitäienduse saamiseks peate vastama järgmistele kriteeriumidele.
+Et saada 1. faasi versioonitäiendust, peate vastama järgmistele kriteeriumidele.
 
-- Sihtkeskkond ei tohi sisaldada msdyn_projecttask **olemi kirjeid**.
-- Kehtivad Project Operationsi litsentsid tuleb määrata kõigile aktiivsetele kasutajatele. 
-- Peate versioonitäiendusprotsessi valideerima vähemalt ühes mittetootmiskeskkonnas, mis sisaldab teie tootmiskeskkonnaga joondatud representatiivset andmekogumit.
-- Sihtkeskkond tuleb värskendada versioonile Project Service Automation Update Release 37 (V3.10.58.120) või uuemale versioonile.
+- Sihtkeskkond ei tohi sisaldada olemi **msdyn_projecttask** kirjeid.
+- Kehtivad rakenduse Project Operations litsentsid peavad olema määratud kõigile aktiivsetele kasutajatele. 
+- Peate täiendusprotsessi kinnitama vähemalt ühes tootmisvälises keskkonnas, mis sisaldab tüüpilist andmestikku, mis on joondatud teie tootmiskeskkonnaga.
+- Sihtkeskkonda tuleb värskendada Project Service Automationi värskenduse versioonile 37 (V3.10.58.120) või uuemale versioonile.
 
-2. etapi versioonitäienduse saamiseks peate vastama järgmistele kriteeriumidele.
+2. faasi versioonitäienduse saamiseks peate vastama järgmistele kriteeriumidele.
 
-- Kehtivad Project Operationsi litsentsid tuleb määrata kõigile aktiivsetele kasutajatele. 
-- Peate versioonitäiendusprotsessi valideerima vähemalt ühes mittetootmiskeskkonnas, mis sisaldab teie tootmiskeskkonnaga joondatud representatiivset andmekogumit.
-- Sihtkeskkond tuleb värskendada versioonile Project Service Automation Update Release 37 (V3.10.58.120) või uuemale versioonile.
+- Kehtivad rakenduse Project Operations litsentsid peavad olema määratud kõigile aktiivsetele kasutajatele. 
+- Peate täiendusprotsessi kinnitama vähemalt ühes tootmisvälises keskkonnas, mis sisaldab tüüpilist andmestikku, mis on joondatud teie tootmiskeskkonnaga.
+- Sihtkeskkonda tuleb värskendada Project Service Automationi värskenduse versioonile 37 (V3.10.58.120) või uuemale versioonile.
 - Ülesandeid (msdyn_projecttask) sisaldavaid keskkondi toetatakse ainult siis, kui ülesannete koguarv projekti kohta on 500 või vähem.
 
-3. etapi eeltingimusi ajakohastatakse üldise saadavuse kuupäeva lähenedes.
+3. faasi eeltingimusi värskendatakse üldise kättesaadavuse kuupäeva lähenedes.
 
 ## <a name="licensing"></a>Litsentsimine
 
-Kui teil on Project Service Automationi aktiivsed litsentsid, saate installida ja kasutada Project Operationsit, mis hõlmab kõiki Project Service Automationi võimalusi ja palju muud. Sel viisil saate testida Project Operationsi võimalusi, kui jätkate Project Service Automationi kasutamist tootmises. Pärast Project Service Automationi litsentside aegumist peate üle minema Project Operationsile. Selle ülemineku kavandamisel peate arvestama asjaoluga, et Project Operationsi litsents ei sisalda Project Service Automationi litsentsi. Kliendid, kellel on stsenaariume, kus nad on juurutanud Project Service Automationi ja peavad projektitoimingutele ülemineku ajal jätkama PSA litsentside kasutamist või neid suurendama, võivad taotleda ajutisi PSA litsentse, mis põhinevad Project Operationsi ostetud litsentsidel. Ühele Project Operationsi litsentsile väljastatakse üks Project Service Automationi litsents. Ajutisi PSA litsentse saab taotleda järgmise lingi abil: aka.ms/ineedpsa
+Kui teil on Project Service Automationi aktiivsed litsentsid, saate installida ja kasutada rakenduse Project Operations, mis hõlmab kõiki Project Service Automationi võimalusi ja palju muud. Nii saate testida rakenduse Project Operations võimalusi, samal ajal kui jätkate Project Service Automationi kasutamist tootmises. Kui teie Project Service Automationi litsentsid aeguvad, peate üle minema rakendusele Project Operations. Selle ülemineku kavandamisel peate arvestama asjaoluga, et rakenduse Project Operations litsents ei sisalda Project Service Automationi litsentsi. Kliendid, kellel on stsenaariume, kus nad on Project Service Automationi juurutanud ja peavad jätkama oma PSA litsentside kasutamist või neid suurendama, kuni nad plaanivad minna üle rakendusele Project Operations, võivad taotleda ajutisi PSA litsentse, mis põhinevad rakenduse Project Operations ostetud litsentsidel. Ühe rakenduse Project Operations litsentsi kohta väljastatakse üks Project Service Automationi litsents. Ajutisi PSA litsentse saate taotleda selle lingi kaudu: aka.ms/ineedpsa
 
-## <a name="testing-and-refactoring-customizations"></a>Kohanduste testimine ja refactoring
+## <a name="testing-and-refactoring-customizations"></a>Kohanduste testimine ja ümberkujundamine
 
-Alustuseks importige kõik kohandused puhtasse Project Operationsi (Lite) keskkonda, et kinnitada, et importimine on edukas ja et äritegevus käitub ootuspäraselt.
+Alustuseks importige kõik kohandused puhtasse Project Operations (Lite) keskkonda, et kinnitada, et importimine on edukas ja äritegevused käituvad ootuspäraselt.
 
-Siin on mõned asjad, millele tähelepanu pöörata:
+Siin on mõned asjad, millele tähelepanu pöörata.
 
-- Importimine võib nurjuda puuduvate sõltuvuste tõttu. Teisisõnu, kohanduste viiteväljad või muud komponendid, mis on Project Operationsist eemaldatud. Sel juhul eemaldage need sõltuvused arenduskeskkonnast.
-- Kui teie mittehallatavad ja hallatavad lahendused sisaldavad komponente, mis pole kohandatud, eemaldage need komponendid lahendusest. Näiteks kui kohandate **olemit Projekt**, lisage lahendusele ainult olemi päis. Ärge lisage kõiki välju. Kui olete varem kõik alamkomponendid lisanud, peate võib-olla käsitsi looma uue lahenduse ja lisama sellele asjakohased komponendid.
-- Vormid ja vaated ei pruugi ilmuda ootuspäraselt. Mõnel juhul, kui olete kohandanud mõnda valmisvormi või vaadet, võivad kohandused takistada Project Operationsi uute värskenduste jõustumist. Nende probleemide tuvastamiseks soovitame teil vaadata kõrvuti üle Project Operationsi puhas install ja teie kohandusi sisaldava Project Operationsi installi. Võrrelge oma ettevõttes kõige sagedamini kasutatavaid vorme veendumaks, et vormi versioon on endiselt mõistlik ega puudu vormi puhtast versioonist. Tehke sama tüüpi kõrvuti läbivaatust kõigi kohandatud vaadete kohta.
-- Äriloogika võib käitusajal ebaõnnestuda. Kuna lisandmoodulite väljade viiteid importimise ajal ei valideerita, võib äriloogika nurjuda viidete tõttu väljadele, mida enam ei eksisteeri, ja võidakse kuvada tõrketeade, mis sarnaneb järgmise näitega: "’Projekti" olem ei sisalda atribuuti nimega = ’msdyn_plannedhours’ ja NameMapping = ’Loogiline’." Sellisel juhul muutke oma kohandusi nii, et need kasutaksid uusi välju. Kui kasutate lisandmooduli loogikas automaatselt loodud puhverserveriklasse ja tugeva tüübi viiteid, kaaluge nende puhverserverite taastamist puhtast installist. Sel viisil saate hõlpsasti tuvastada kõik kohad, kus teie lisandmoodulid sõltuvad aegunud väljadest.
+- Import võib puuduvate sõltuvuste tõttu ebaõnnestuda. Teisisõnu, kohanduste viiteväljad või muud komponendid, mis on rakenduses Project Operations eemaldatud. Sel juhul eemaldage need sõltuvused arenduskeskkonnast.
+- Kui teie mittehallatavad ja hallatavad lahendused sisaldavad komponente, mis pole kohandatud, eemaldage need komponendid lahendusest. Näiteks kui kohandate olemit **Projekt**, lisage oma lahendusele ainult olemi päis. Ärge lisage kõiki välju. Kui olete varem lisanud kõik alamkomponendid, peate võibolla käsitsi looma uue lahenduse ja lisama sellele asjakohased komponendid.
+- Vormid ja vaated ei pruugi ootuspäraselt kuvada. Mõnel juhul, kui olete kohandanud mõnda valmis vormi või vaadet, võivad kohandused takistada rakenduse Project Operations uute värskenduste jõustumist. Nende probleemide tuvastamiseks soovitame vaadata kõrvuti Project Operationsi puhta installi ja teie kohandusi sisaldava rakenduse Project Operations installi. Võrrelge oma ettevõttes kõige sagedamini kasutatavaid vorme, et veenduda, kas teie vormi versioon on ikka mõistlik ja kas vormi puhtast versioonist pole midagi puudu. Tehke sama tüüpi kõrvuti ülevaatus kõigi kohandatud vaadete jaoks.
+- Äriloogika võib käitusajal ebaõnnestuda. Kuna viiteid teie pistikprogrammide väljadele ei kinnitata importimise ajal, võib äriloogika ebaõnnestuda viidete tõttu väljadele, mida enam ei eksisteeri, ja võidakse kuvada tõrketeade, mis sarnaneb järgmise näitega: „'Projekti' olem ei sisalda atribuuti Name = 'msdyn_plannedhours' ja NameMapping = 'Loogiline'.“ Sel juhul muutke oma kohandusi nii, et need kasutaksid uusi välju. Kui kasutate pistikprogrammi loogikas automaatselt genereeritud puhverserveri klasse ja tugevaid tüübiviiteid, kaaluge nende puhverserverite taastamist puhtast installist. Nii saate hõlpsasti tuvastada kõik kohad, kus teie pistikprogrammid sõltuvad aegunud väljadest.
 
-Pärast kohanduste värskendamist projektitoimingute puhtaks importimiseks jätkake järgmiste juhistega.
+Pärast kohanduste värskendamist, et rakendust Project Operations puhtalt importida, jätkake järgmiste sammudega.
 
 ## <a name="end-to-end-testing-in-development-environments"></a>Otsast lõpuni testimine arenduskeskkondades
 
-### <a name="initiate-upgrade"></a>Versioonitäienduse algatamine 
+### <a name="initiate-upgrade"></a>Täienduse käivitamine 
 
-1. Power Platform Otsige halduskeskuses üles ja valige oma keskkond. Seejärel leidke ja valige **Dynamics 365 Project Operations** rakendustes.
-2. Versioonitäienduse alustamiseks valige **Installi**. Halduskeskus Power Platform esitleb seda installi uue installina. Siiski tuvastatakse Project Service Automationi varasema versiooni olemasolu ja olemasolevat installi täiendatakse.
+1. Otsige üles ja valige oma keskkond Power Platform halduskeskuses. Seejärel leidke ja valige rakendustes **Dynamics 365 Project Operations**.
+2. Täienduse käivitamiseks valige **Installi**. Power Platform halduskeskus esitleb seda installi uue installina. Siiski tuvastatakse Project Service Automationi varasema versiooni olemasolu ja olemasolevat installi värskendatakse.
 
-    Pärast täiendamise lõpuleviimist peaks keskkond näitama, et Project Operations on installitud ja Project Service Automation pole installitud.
+    Pärast täiendamise lõpetamist peaks keskkond näitama, et Project Operations on installitud ja Project Service Automation pole installitud.
 
-    Sõltuvalt keskkonnas olevate andmete hulgast võib versiooniuuendus võtta mitu tundi. Põhimeeskond, kes versioonitäiendust haldab, peaks vastavalt planeerima ja käitama versioonitäiendust töövälisel ajal. Mõnel juhul, kui andmemaht on suur, tuleks versiooniuuendus käivitada nädalavahetusel. Otsus ajastamise kohta peaks põhinema testimistulemustel madalamates keskkondades.
+    Olenevalt andmemahust keskkonnas võib värskendamine kesta mitu tundi. Täiendust haldav põhimeeskond peaks vastavalt planeerima ja viima täiendust läbi töövälisel ajal. Mõnel juhul, kui andmemaht on suur, tuleks versioonitäiendus läbi viia nädalavahetusel. Ajastamise otsus peaks põhinema madalamates keskkondades testimise tulemustel.
 
-3. Täiendage kohandatud lahendusi vastavalt vajadusele. Sel hetkel juurutage kõik muudatused, mida olete oma kohandustes [teinud, selle artikli jaotises Kohanduste](#testing-and-refactoring-customizations) testimine ja refactoring.
-4. Avage jaotis **Sätete** \> **lahendused** ja valige lahendusest **Project Operations Deprecated Components** desinstallimine.
+3. Täiendage kohandatud lahendusi vastavalt vajadusele. Siinkohal juurutage kõik oma kohandustes tehtud muudatused selle artikli jaotises [Kohanduste testimine ja ümberkujundamine](#testing-and-refactoring-customizations).
+4. Minge saidile **make.powerapps.com**, valige portaali paremas ülanurgas rippmenüüst oma keskkond, valige vasakpoolsest menüüst **Lahendused**, valige **Project Operationsi iganenud komponendid** lahendust ja **Desinstalli**.
 
-    See lahendus on ajutine lahendus, mis hoiab olemasolevat andmemudelit ja komponente, mis on versiooniuuenduse ajal olemas. Selle lahenduse eemaldamisega eemaldate kõik väljad ja komponendid, mida enam ei kasutata. Sel viisil aitate liidest lihtsustada ning muuta integreerimise ja laiendamise lihtsamaks.
+    See lahendus on ajutine lahendus, mis sisaldab versiooniuuenduse ajal olemasolevat andmemudelit ja komponente. Selle lahenduse eemaldamisel eemaldate kõik väljad ja komponendid, mida enam ei kasutata. Sel viisil aitate lihtsustada kasutajaliidest ning lihtsustada integreerimist ja laiendamist.
     
-### <a name="upgrade-to-project-operations-lite"></a>Üleminek versioonile Project Operations Lite
+### <a name="upgrade-to-project-operations-lite"></a>Täiendage rakendusele Project Operations Lite
 
-Järgmised sammud kirjeldavad täiendusprotsessi ja sellega seotud tõrkelogimist.
+Järgnevad sammud kirjeldavad täiendusprotsessi ja sellega seotud tõrkeprotokollide koostamist:
 
-1. **PSA versiooni kontroll:** Project Operationsi installimiseks peab teil olema V3.10.58.120 või uuem.
-1. **Eelvalideerimine:** kui administraator algatab versioonitäienduse, käivitab süsteem iga olemi, mis on Project Operationsi lahenduse tuum, valideerimiseelse toimingu. See etapp kontrollib, kas kõik olemiviited on kehtivad, ja tagab, et WBS-iga seotud andmed jäävad Project for the Web avaldatud piiridesse.
-1. **Metaandmete täiendamine:** pärast edukat eelvalideerimist algatab süsteem skeemi muudatused ja loob aegunud komponentide lahenduse. Saate selle aegunud lahenduse eemaldada pärast seda, kui olete kõik vajalikud kohandused ümber kujundanud. See samm on täiendusprotsessi pikim osa ja selle läbimiseks võib kuluda kuni neli tundi.
-1. **Andmete täiendamine:** kui kõik vajalikud skeemimuudatused on metaandmete täiendamise etapis lõpule viidud, migreeritakse teie andmed uuele skeemile ning kõik vajalikud vaikeväärtused ja ümberarvutused on tehtud.
-1. **Projekti ajakava mootori värskendus:** pärast edukat andmete täiendamist **märgistatakse avalehe vahekaart Ajakava** ümber **Ülesanded**. Kui kasutaja valib pärast versioonitäiendust selle vahekaardi, suunatakse ta WBS-i kirjutuskaitstud versiooni vaatamiseks navigeerima jälgimisruudustikku. WBS-i redigeerimiseks peavad nad algatama ajakava [teisendamise protsessi](/PSA-Upgrade-Project-Conversion.md). Kõik projektid, millel pole varem olemasolevat WBS-i, saavad uut plaanimiskogemust kasutada otse, ilma teisendamiseta.
+1. **PSA versiooni kontroll:** Rakenduse Project Operations paigaldamiseks peab teil olema versioon V3.10.58.120 või uuem.
+1. **Eelkinnitus:** Kui administraator algatab versiooniuuenduse, käivitab süsteem eelvalideerimise toimingu iga olemi puhul, mis on rakenduse Project Operations lahenduse tuum. See samm kontrollib, kas kõik olemite viited on kehtivad, ja tagab, et WBS-iga seotud andmed jäävad Project for the Webi avaldatud piiridesse.
+1. **Metaandmete täiendus:** Pärast edukat eelkinnitamist algatab süsteem skeemi muudatused ja loob aegunud komponentide lahenduse. Saate selle aegunud lahenduse eemaldada pärast seda, kui olete täitnud kõik vajalikud kohandused. See samm on täiendusprotsessi pikim osa ja selle lõpuleviimiseks võib kuluda kuni neli tundi.
+1. **Andmete täiendus:** Kui metaandmete täiendamise etapis on kõik nõutavad skeemi muudatused tehtud, migreeritakse teie andmed uude skeemi ning kõik vajalikud vaikesätted ja ümberarvutused tehakse.
+1. **Projekti ajastamismootori värskendus** Pärast edukat andmete värskendamist on avalehe vahekaart **Ajakava** ümber märgistatud **Ülesanded**. Kui kasutaja valib pärast täiendamist selle vahekaardi, suunatakse ta WBS-i kirjutuskaitstud versiooni vaatamiseks jälgimisruudustikule navigeerima. WBS-i muutmiseks peavad nad algatama ajakava [konversiooniprotsess](/PSA-Upgrade-Project-Conversion.md). Kõik projektid, millel puudub eelnev WBS, saavad uut ajastamiskogemust kasutada otse ilma teisendamata.
  
-### <a name="validate-common-scenarios"></a>Levinud stsenaariumide valideerimine
+### <a name="validate-common-scenarios"></a>Levinud stsenaariumite kinnitamine
 
-Konkreetsete kohanduste valideerimisel soovitame teil üle vaadata ka äriprotsessid, mida rakendustes toetatakse. Need äriprotsessid hõlmavad muu hulgas müügiüksuste, näiteks noteeringute ja lepingute loomist ning WBS-e sisaldavate projektide loomist ja tegelike tulemuste kinnitamist.
+Kui valid oma konkreetsed kohandused, soovitame üle vaadata ka äriprotsessid, mida kõik rakendused toetavad. Need äriprotsessid hõlmavad (kuid mitte ainult) müügiüksuste (nt hinnapakkumiste ja lepingute) loomist ning projektide loomist, mis hõlmavad WBS-e ja tegelike näitajate kinnitamist.
 
-## <a name="major-changes-between-project-service-automation-and-project-operations"></a>Suuremad muudatused Project Service Automationi ja Project Operationsi vahel
+## <a name="major-changes-between-project-service-automation-and-project-operations"></a>Suured muudatused Project Service Automationi ja Project Operationsi vahel
 
-Selles jaotises on kokkuvõte peamistest muudatustest, mida võite Project Service Automationi ja Project Operationsi vahel oodata.
+See jaotis annab kokkuvõtte peamistest muudatustest, mida Project Service Automationi ja Project Operationsi vahel oodata võib.
 
 ### <a name="project-planning"></a>Projekti kavandamine
 
-Project Operationsi projekti plaanimise võimalused ei tugine enam kliendipoolsele loogikale ja serveripoolsele loogikale. Selle asemel kasutab Project Operations plaanimismootorina rakendust Project for the Web (Projecti veebirakendus). See plaanimisvõimaluste muudatus võimaldab mitmeid uusi funktsioone, nagu juhatuse ja Gantti vaated, ressursipõhine planeerimine, [ülesande kontroll-loendi üksused ja projekti plaanimisrežiimid](https://support.microsoft.com/office/use-task-checklists-in-microsoft-project-for-the-web-c69bcf73-5c75-4ad3-9893-6d6f92360e9c). Uusi plaanimisvõimalusi toetab ka rikkalik komplekt uusi [rakendusliideseid (API-sid).](../project-management/schedule-api-preview.md) Nende API-de eesmärk on aidata tagada, et ükski WBS-is olemi loomise, värskendamise või kustutamise programmiline toiming ei rikuks graafiku arvutatud välju.
+Project Operationsi projekti planeerimise võimalused ei tugine enam kliendipoolsele ja serveripoolsele loogikale. Selle asemel kasutab Project Operations oma ajastamismootorina programmi Project for the Web. See ajastamisvõimaluste muudatus võimaldab mitmeid uusi funktsioone, nagu tahvli ja Gantti vaated, ressursipõhine planeerimine, [ülesande kontroll-loendi üksused](https://support.microsoft.com/office/use-task-checklists-in-microsoft-project-for-the-web-c69bcf73-5c75-4ad3-9893-6d6f92360e9c) ja projekti ajastamise režiimid. Uusi ajastamisvõimalusi toetab ka rikkalik komplekt uusi [rakenduse programmeerimisliideseid (API-sid)](../project-management/schedule-api-preview.md). Nende API-de eesmärk on aidata tagada, et ükski WBS-i olemi loomise, värskendamise või kustutamise programmiline toiming ei rikuks ajakava arvutatud välju.
 
 ### <a name="billing-and-pricing"></a>Arveldamine ja hinnakujundus
 
-Osana jätkuvatest investeeringutest Project Operationsisse on arvelduse ja hinnakujunduse valdkonnas saadaval mitu uut võimalust. Järgmiselt on toodud mõned näited.
+Osana jätkuvatest investeeringutest rakenduses Project Operations on arvelduses ja hinnakujunduses saadaval mitu uut võimalust. Järgmiselt on toodud mõned näited.
 
-- [Materjalikasutuse salvestamine projektides ja projektiülesannetes](../material/material-usage-log.md)
-- [Alltöövõtu haldamine](../pro/subcontracting/managing-subcontracts-overview.md)
+- [Projektide ja projektiülesannete materjalikasutuse salvestamine](../material/material-usage-log.md)
+- [Allhankelepingu haldus](../pro/subcontracting/managing-subcontracts-overview.md)
 - [Ettemaksud või honoraril põhinevad lepingud](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
-- [Lepingu staatus ja valideerimine](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
+- [Lepingu mitteületamise olek ja kinnitused](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
 - Ülesandepõhine arveldamine
 
 ### <a name="resource-management"></a>Ressursihaldus
 
-Project Operations pakub valikulist tuge (URS) tahvlile Universal Resource Scheduling ja plaanimisassistendile. See uus kogemus muutub kohustuslikuks 2023. aasta aprilli laines.
+Project Operations pakub valikulist tuge Universal Resource Scheduling (URS) tahvlile ja ajastamisabilisele. See uus kogemus muutub kohustuslikuks 2023. aasta aprilli lainel.
 
 ## <a name="frequently-asked-questions"></a>Korduma kippuvad küsimused
 
-### <a name="which-deployment-types-are-currently-supported-for-upgrade"></a>Milliseid juurutustüüpe praegu versioonitäienduseks toetatakse?
+### <a name="which-deployment-types-are-currently-supported-for-upgrade"></a>Milliseid juurutamise tüüpe praegu täiendatakse?
 
 | Lähtekeel                                                 | Sihtkeel                                                    | Olek                  |
 |--------------------------------------------------------|-----------------------------------------------------------|-------------------------|
-| Project Service Automation                             | Projekti operatsioonide Lite juurutamine                        | Toetatud               |
-| Dynamics 365 Finance Projektijuhtimine ja raamatupidamine | Projekti operatsioonide Lite juurutamine                        | Pole praegu toetatud |
-| Finantseerige projektijuhtimist ja raamatupidamist              | Project Operations ressursi/mitteaktsia stsenaariumite jaoks     | Pole praegu toetatud |
-| Project Service Automation 3.x                         | Project Operations ressursi/mitteaktsia stsenaariumite jaoks     | Pole praegu toetatud |
-| Veebiprojekt (spetsiaalne keskkond)            | Projekti operatsioonide Lite juurutamine                        | Pole praegu toetatud |
+| Project Service Automation                             | Project Operationsi lihtjuurutamine                        | Toetatud               |
+| Projektihaldus ja raamatupidamine rakenduses Dynamics 365 Finance | Project Operationsi lihtjuurutamine                        | Hetkel ei toetata |
+| Finantsprojektide haldus ja raamatupidamine              | Project Operations ressursi/mitteaktsia stsenaariumite jaoks     | Hetkel ei toetata |
+| Project Service Automation 3.x                         | Project Operations ressursi/mitteaktsia stsenaariumite jaoks     | Hetkel ei toetata |
+| Project for the Web (pühendunud keskkond)            | Project Operationsi lihtjuurutamine                        | Hetkel ei toetata |
 
-### <a name="how-can-i-install-project-operations-before-the-upgrade-tooling-is-available"></a>Kuidas installida Project Operationsi enne, kui versioonitäiendustööriistad on saadaval?
+### <a name="how-can-i-install-project-operations-before-the-upgrade-tooling-is-available"></a>Kuidas installida Project Operations enne, kui uuendustööriistad on saadaval?
 
-Project Operationsi installimiseks enne versioonitäiendustööriistade saadasaamist on kaks võimalust.
+Rakenduse Project Operations installimiseks on kaks võimalust, enne kui uuendustööriistad on saadaval.
 
-- Uue keskkonna pakkumine.
-- Juurutage Project Operations eraldi mis tahes müügiorganisatsioonis, kus Project Service Automationit pole.
+- Uue keskkonna ettevalmistamine.
+- Juurutage Project Operations eraldi igas müügiorganisatsioonis, kus Project Service Automation puudub.
 
 Kui Project Service Automation on organisatsiooni installitud, kuid seda ei kasutatud, saab selle desinstallida. Pärast Project Service Automationi täielikku eemaldamist saab Project Operationsi installida samasse organisatsiooni.

@@ -1,6 +1,6 @@
 ---
 title: Meeskonnaliikmete haldamine
-description: Selles artiklis antakse teavet nimeliste ressursside broneerimise kohta projektimeeskondadele ja nende määramise kohta ülesannetele.
+description: See artikkel annab teavet projekti meeskondadele nimega ressursside broneerimise ja nende ülesannetele määramise kohta.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

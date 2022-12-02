@@ -1,6 +1,6 @@
 ---
 title: Kuluhalduse parameetrite konfigureerimine
-description: Selles artiklis kirjeldatakse parameetreid, mis kontrollivad kuluhalduse üldist käitumist.
+description: See artikkel kirjeldab parameetreid, mis juhivad kuluhalduse üldist käitumist.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8931463"
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Selles artiklis kirjeldatakse parameetreid, mis kontrollivad kuluhalduse üldist käitumist.
+See artikkel kirjeldab parameetreid, mis juhivad kuluhalduse üldist käitumist.
 
 ## <a name="general"></a>Üldist
 

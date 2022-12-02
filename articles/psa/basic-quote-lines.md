@@ -1,6 +1,6 @@
 ---
 title: Hinnapakkumised ja hinnapakkumise read
-description: Selles artiklis antakse teavet jutumärkide ja hinnapakkumisridade kohta.
+description: See artikkel annab teavet hinnapakkumiste ja hinnapakkumiste ridade kohta.
 author: rumant
 ms.custom:
 - dyn365-projectservice

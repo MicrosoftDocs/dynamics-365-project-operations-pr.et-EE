@@ -1,6 +1,6 @@
 ---
-title: Projekti kulukategooriate sünkroonimine rahanduse ja operatsioonide ning Project Service Automationi vahel
-description: Selles artiklis kirjeldatakse malle ja aluseks olevaid ülesandeid, mida kasutatakse projekti kulukategooriate sünkroonimiseks vahemikus Microsoft Dynamics 365 Finance kuni Dynamics 365 Project Service Automation.
+title: Projekti kulukategooriate sünkroonimine finants- ja äritoimingute ja Project Service Automationi vahel
+description: See artikkel kirjeldab malle ja aluseks olevaid tööülesandeid, mida kasutatakse projekti kulukategooriate sünkroonimiseks rakenduste Microsoft Dynamics 365 Finance ja Dynamics 365 Project Service Automation vahel.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -21,11 +21,11 @@ ms.contentlocale: et-EE
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9028927"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Projekti kulukategooriate sünkroonimine rahanduse ja operatsioonide ning Project Service Automationi vahel
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Projekti kulukategooriate sünkroonimine finants- ja äritoimingute ja Project Service Automationi vahel
 
 [!include[banner](../includes/banner.md)]
 
-Selles artiklis kirjeldatakse malle ja nende aluseks olevaid ülesandeid, mida kasutatakse projekti kulukategooriate sünkroonimiseks Dynamics 365 Finance ja Dynamics 365 Project Service Automation.
+See artikkel kirjeldab malle ja aluseks olevaid tööülesandeid, mida kasutatakse projekti kulukategooriate sünkroonimiseks rakenduste Dynamics 365 Finance ja Dynamics 365 Project Service Automation vahel.
 
 > [!NOTE]
 > - Projekti ülesannete integreerimine, kulukande kategooriad, kuluprognoosid ja funktsioonide lukustamine on saadaval versioonis 8.0.
@@ -80,10 +80,10 @@ Projekti kulukategooriaid hallatakse rakenduses Finance ja need sünkroonitakse 
 
 ### <a name="power-query"></a>Power Query
 
-Project Service Automationiga sünkroonimisel peate tehingukategoorias arveldustüübi määramiseks kasutama rakendust Microsoft Power Query Exceli jaoks. Projekti kulukannete kategooriate (Fin ja Ops PSA-sse) mallis on vaikeveerg ja vastendus. Kui loote oma malli, peate lisama tingimusveeru rakenduses Power Query. Toimige järgmiselt.
+Kui sünkroonite rakendusega Project Service automation, peate kasutama rakendust Microsoft Power Query Exceli jaoks, et määrata arvetüüp kandekategoorias. Projekti kulukannete kategooriate (Fin ja Ops PSA-sse) mallis on vaikeveerg ja vastendus. Kui loote oma malli, peate Power Query’s tingimusliku veeru lisama. Toimige järgmiselt.
 
 1. Klõpsake noolt, et avada projekti kulu kategooriate ülesande vastendus projekti kulukategooriate (Fin ja Ops PSA-le) malliga.
-2. Avamiseks **linki Eelpäring ja filtreerimine** Power Query.
+2. Klõpsake linki **Täpsem päring ja filtreerimine**, et avada Power Query.
 2. Valige **Lisa tingimuslik veerg**.
 3. Sisestage uue veeru nimi (nt **ArvelduseTüüp)**.
 4. Sisestage järgmine tingimus: **if CATEGORYID not equal to null then 19235001, Otherwise null**.

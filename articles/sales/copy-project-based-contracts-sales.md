@@ -1,6 +1,6 @@
 ---
 title: Projektipõhiste lepingute kopeerimine
-description: Sellest artiklist leiate teavet projektilepingute kopeerimise kohta Microsoftis Dynamics 365 Project Operations.
+description: See artikkel annab teavet projektilepingute kopeerimise kohta rakenduses Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
@@ -17,32 +17,32 @@ ms.locfileid: "9410363"
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Saate hõlpsalt luua uusi projektilepinguid, kopeerides olemasolevaid lepinguid ühel kahest viisist.
+Saate hõlpsasti luua uusi projektilepinguid, kopeerides olemasolevad lepingud kahel viisil.
 
 - Valige loendilehel **Projektilepingud** projektileping ja seejärel valige **Kopeeri**.
 - Valige üksikasjade lehel **Projekti lepingu** suvand **Kopeeri**.
 
-Mõlemal juhul ilmub dialoogiboks, kus saate määrata kopeeritud lepingu parameetrid. Dialoogiboks sisaldab järgmisi välju. Sõltuvalt valitud väärtustest võib kopeerimisprotsess muutuda.
+Mõlemal juhul ilmub dialoogiboks, kus saab määrata kopeeritava lepingu parameetrid. Dialoogiboks sisaldab järgmisi välju. Sõltuvalt teie valitud väärtustest võib kopeerimisprotsess muutuda.
 
 | Väli | Kirjeldus | Allavoolu mõjud |
 | --- | --- | --- |
-| Teema | Sisestage eesmärklepingu teema. Dialoogiboksi avamisel määrab süsteem välja lähtelepingu nimele, kuid sellele lisatakse sõna "koopia". | Sellel väljal puudub allavoolu mõju. |
-| klient | Viide kliendi ettevõttele või konto kirjele. Dialoogiboksi avamisel määrab süsteem välja lähtelepingu kontole. | See väli on lepingu peamine klient. |
-| Omanikust ettevõte | Ettevõte, kes vastutab selle tehinguga seotud projektide elluviimise eest. Dialoogiboksi avamisel määrab süsteem välja lähtelepingu omanikule. | Omav ettevõte on juriidiline isik, kes teostab projekti pärast tehingu sulgemist. Omava ettevõtte valuuta peab vastama lepinguüksuse valuutale. |
-| Lepingut sõlmiv üksus | Organisatsiooniüksus, mis vastutab selle tehinguga seotud projektide elluviimise eest. Dialoogiboksi avamisel määrab süsteem välja lähtelepingu lepinguüksusele. | Lepingut sõlmiv üksus on ettevõtte see allüksus, kes pärast tehingu sulgemist projektid teostab. Igal lepinguüksusel on valuuta. Seda valuutat kasutatakse projekti käigus tekkinud hinnanguliste ja tegelike kulude kajastamiseks. |
-| Valuuta | Valuuta, milles tehing edastatakse. Dialoogiboksi avamisel määrab süsteem välja lähtelepingu valuutaks. Valuutat saab muuta. Kui see on nii, **on välja Kopeeri hinnakujundus** väärtuseks **alati seatud Ei**, kuna lähtelepingu hinnakirjad ei ole enam asjakohased. | Seda valuutat kasutatakse vaikehinnaloendite jaoks, lepingu finantsprognooside loomiseks ja kliendile arve esitamiseks tehingu võitmisel. |
-| Soovitud tarnekuupäev | Tarnekuupäev, mida klient soovib. | Seda kuupäeva kasutatakse lõppkuupäevana, kui loote arvelduskuupäevi kindla sagedusega. |
-| Hinnakujunduse kopeerimine | Väärtus, mis näitab, kas lepingu hind tuleks lähtelepingust kopeerida. | Kui välja väärtuseks **on määratud Jah**, kopeeritakse projekti ja toote hinnakirja viited lähtelepingust sihtlepingusse. Kui selle väärtuseks **on seatud Ei**, kasutatakse vaikehinnakirju, mis põhinevad konto või projekti parameetrite uusimatel hinnakirjadel. |
+| Teema | Sisestage eesmärklepingu teema. Dialoogiboksi avamisel määrab süsteem väljale lähtelepingu nimetuse, kuid sellele lisatakse sõna „koopia“. | Sellel väljal puudub allavoolu mõju. |
+| klient | Viide kliendi ettevõttele või konto kirjele. Dialoogiboksi avamisel määrab süsteem välja lähtelepingus oleva konto. | See väli on lepingu peamine klient. |
+| Omanikust ettevõte | Ettevõte, mis vastutab selle tehinguga seotud projektide tarnimise eest. Dialoogiboksi avamisel määrab süsteem välja lähtelepingu omava ettevõtte. | Omanikettevõte on juriidiline olem, mis hakkab pärast tehingu sõlmimist projekti ellu viima. Omanikettevõtte valuuta peab ühtima lepingut sõlmiva üksuse valuutaga. |
+| Lepingut sõlmiv üksus | Organisatsiooniüksus, mis vastutab selle tehinguga seotud projektide elluviimise eest. Kui dialoogiboks avatakse, seab süsteem väljale lähtelepingu lepingulise ühiku. | Lepingut sõlmiv üksus on ettevõtte see allüksus, kes pärast tehingu sulgemist projektid teostab. Igal lepinguüksusel on valuuta. Seda valuutat kasutatakse projekti käigus tekkinud hinnanguliste ja tegelike kulude kajastamiseks. |
+| Valuuta | Valuuta, milles tehing edastatakse. Dialoogiakna avamisel määrab süsteem väljale lähtelepingu valuuta. Valuutat saab muuta. Kui see on nii, määratakse väljale **Koopia hinnakujundus** alati **Ei**, kuna lähtelepingu hinnakirjad pole enam asjakohased. | Seda valuutat kasutatakse vaikehinnakirjade jaoks, lepingu finantsprognooside koostamiseks ja tehingu võitmise korral kliendile arve esitamiseks. |
+| Soovitud tarnekuupäev | Tarnekuupäev, mida klient soovib. | Seda kuupäeva kasutatakse lõpukuupäevana, kui loote arvelduskuupäevi teatud sagedusega. |
+| Hinnakujunduse kopeerimine | Väärtus, mis näitab, kas lepingu hinnakujundus peaks olema kopeeritud lähtelepingust. | Kui välja väärtuseks on seatud **Jah**, kopeeritakse projekti- ja toote hinnakirja viiteid lähtelepingust sihtlepingusse. Kui väärtuseks on seatud **Ei**, kasutatakse vaikimisi hinnakirju, mis põhinevad konto või projekti parameetrite viimasel hinnakirjal. |
 
-Kui valite **dialoogiboksis OK**, loob süsteem teie määratud parameetriväärtuste põhjal lepingu koopia. Seejärel avatakse uus leping.
+Kui valite dialoogiboksis **OK**, loob süsteem lepingu koopia, mis põhineb teie poolt määratud parameetrite väärtustel. Seejärel avaneb uus leping.
 
-Järgmist teavet **ei** kopeerita lähtelepingust sihtlepingusse, kuna see on iga lepingu puhul asjakohane.
+Järgmist teavet **ei** kopeerita lähtelepingust sihtlepingusse, kuna see on iga lepingu puhul spetsiifiline.
 
 - Arve ajakavad
 - Lepingu ja lepingurea kliendid
 - Projektiviide projektipõhistel lepinguridadel
 - Kliendi eelarve teave
 
-Kopeeritakse projektide ja toodete lepinguread, hinnangud lepingurea üksikasjades ja mitteületavad väärtused lepingu tasandil. Vaikehindade ja kulumäärade sisestamine sõltub valikust väljal **Kopeeri** hinnakujundus **dialoogiboksis Kopeeri parameetrid**.
+Kopeeritakse projektide ja toodete lepinguread, lepingurea üksikasjades olevad hinnangud ja mitteületatavad väärtused lepingu tasemel. Vaikimisi hindade ja kulumäärade sisestamine sõltub dialoogiboksi väljal **Hinnakujunduse kopeerimine** dialoogiboksis **Parameetrite kopeerimine** tehtud valikust.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

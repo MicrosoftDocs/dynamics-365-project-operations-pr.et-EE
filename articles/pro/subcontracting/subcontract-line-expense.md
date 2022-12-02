@@ -1,6 +1,6 @@
 ---
 title: Allhankelepingu read kulukategooriate jaoks
-description: Selles artiklis selgitatakse, kuidas salvestada allhanke ridu kulude jaoks ja kasutada välju hankijatelt aja ostmise salvestamiseks.
+description: See artikkel kirjeldab, kuidas kirjendada kulude allhankelepingute ridu ja kasutada välju hankijatelt aja ostmise kirjendamiseks.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -33,7 +33,7 @@ Järgmine tabel sisaldab teavet **Allhankelepingu rea** üksikasjade lehe välja
 | Kirjeldus | Allhankelepingu real ostetavate kulukategooriate lühikirjeldus. | Pole |
 |Rea tüüp | Selle välja vaikeväärtus on **Kogusepõhine**. |Pole |
 | Arveldusmeetod | See on Project Operationsi toetatud kahte peamist lepingumudelit esindav suvandikomplekt: **Fikseeritud hind** ning **Kellaaeg ja materjal**. | Kui valitud on fikseeritud hinnaga arveldusmeetod, on allhankelepingu ridade jaoks tehtud kättesaadavaks vahe-eesmärkidel põhineb arve ajakava. |
-| Tehingu liik | Selle välja vaikeväärtus on **Kellaaeg**. Toodete ostmiseks allhankelepingu ridade loomiseks määrake välja **Kande liik** väärtuseks **Kulu**.  | See näitab, et projektides kasutatava kulukategooria ostu talletamiseks kasutatakse allhankelepingu rida. |
+| Tehingu klass | Selle välja vaikeväärtus on **Kellaaeg**. Toodete ostmiseks allhankelepingu ridade loomiseks määrake välja **Kande liik** väärtuseks **Kulu**.  | See näitab, et projektides kasutatava kulukategooria ostu talletamiseks kasutatakse allhankelepingu rida. |
 | Tehingu kategooria | Näitab süsteemi aktiivsete kannete kategooriate loendit. |Pole |
 | Soovitud algus | Sisestage kuupäev, millal ostukategooriad peavad olema hankijalt saadaval. | Taotletud algust kasutatakse allhankelepingule lisatud projekti hinnakirjade loendist projekti hinnakirja valimiseks. Allhankelepingu rea kategooria kulu pärineb sellest hinnakirjast. |
 | Soovitud lõpp | Sisestage kuupäev, millal ostukategooriaid enam vaja pole. | Seda kasutatakse hoiatuste kuvamiseks, kui projektijuht seostab selle allhankelepingu rea projekti konkreetse kuluprognoosiga, mis on pärast seda kuupäeva vajalik. |

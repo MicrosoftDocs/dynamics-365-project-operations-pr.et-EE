@@ -1,6 +1,6 @@
 ---
 title: Projekti prognoosi eemaldamine
-description: See artikkel annab teavet projekti hinnangu kaotamise kohta pärast selle lõpuleviimist.
+description: See artikkel annab teavet projekti prognoosi eemaldamise kohta pärast selle valmimist.
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article

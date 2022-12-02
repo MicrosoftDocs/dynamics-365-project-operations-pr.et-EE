@@ -1,6 +1,6 @@
 ---
 title: Mis on uut, märts 2022 – Project Operations Lite juurutamine
-description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval Project Operations lite juurutuse 2022. aasta märtsi väljaandes.
+description: See artikkel annab teavet Project Operations Lite’i juurutuse 2022. aasta märtsi väljalaskes saadaolevate kvaliteedivärskenduste kohta.
 author: sigitac
 ms.date: 03/18/2022
 ms.topic: article
@@ -18,42 +18,42 @@ ms.locfileid: "8934223"
 
 _Kohaldub: lihtjuurutus - tehing proforma arveldusega_
 
-See artikkel kehtib järgmiste Microsofti Dynamics 365 Project Operations komponentide ja versioonide kohta.
+See artikkel kehtib rakenduse Microsoft Dynamics 365 Project Operations järgmiste komponentide ja versioonide kohta.
 
-- Projektitoimingud keskkonnaversioonis Dataverse 4.30.0.99
+- Rakenduse Project Operations Dataverse keskkonna versioonis 4.30.0.99
 
 ## <a name="features-included-in-this-release"></a>Selles väljaandes sisalduvad funktsioonid
 
-- Alltöövõtt: hankija arve loomine ja sobitamise kogemused
+- Allhankeleping: hankija arve loomine ja sobitamiskogemused
 
 ## <a name="quality-updates"></a>Kvaliteedi värskendused
 
 | Funktsiooni ala | Viitenumber | Kvaliteedi värskendus |
 | --- | --- | --- |
-| Aeg ja kulu | 2388011 | Saate hulgikinnituse ajal kuvada ajasisesinemise esitajatele tagasilükkamise kommentaarid. |
-| Projekti plaanimine ja jälgimine | 2495294 | Projekti üksikasjad ei tohi olla redigeeritavad **lehel Tööülesande üksikasjad**. |
-| Arveldamine ja hinnakujundus | 2499605 | Pakkumise vahe-eesmärkidest loodud lepingu verstapostid märgitakse valesti kirjutuskaitstuks. |
-| Projekti plaanimine ja jälgimine | 2506050 | Toimingukomplekt jääb ootele üheks tunniks, kui salvestamiseks pole muudatusi. Seejärel märgitakse komplekt valesti **nurjunuks**, samas kui see tuleks kohe lõpule viia. |
-| Arveldamine ja hinnakujundus | 2507401 | Vaikimisi lepingulised üksused sisestatakse projektidele valesti vale vahemällu salvestamise tõttu. |
-| Arveldamine ja hinnakujundus | 2541660 | **Müügitellimuse loomise kinnitamine** topeltkirjutuses peaks olema ainult projektipõhiste tellimuste puhul. |
-| Arveldamine ja hinnakujundus | 2552745 | Maksu ei jagata klientide vahel, kes on seadistanud tükeldatud arveldusreeglid. |
-| Arveldamine ja hinnakujundus | 2558859 | Täiustatud tõrketeated hinnakujundusdimensioonide seadistamisel. |
-| Arveldamine ja hinnakujundus | 2558933 | **Importimine projekti hinnangutest** nurjub, kui **msdyni\_ projekt** lisatakse hinnakujundusdimensioonina. |
-| Arveldamine ja hinnakujundus | 2559101 | Projekti parameetrite kustutamist ei blokeerita ja see põhjustab probleeme. |
-|   Müügivõimaluste haldus | 2570390 | Topeltkirjutusega pistikprogramm sunnib konto tüüpi pakkumistele, tellimustele ja võimalustele olla **klient**, isegi kui see kontotüüp pole õige. |
-| Arveldamine ja hinnakujundus | 2586097 | Tükeldatud arveldatud kulu tegelikke andmeid ei tühistata, kui projekt projektilepingu realt eemaldatakse. |
-| Arveldamine ja hinnakujundus | 2589619 | Sissekirjutamismaterjali maks paljundatakse sisestamata müügireaalsustele ja arvele. |
-|   Müügivõimaluste haldus | 2594015 | Pakkumist ei saa sulgeda nii, nagu see on võidetud klientidele, kellel on **Net60** maksetingimused. |
-| Projekti plaanimine ja jälgimine | 2595841 | Project for the Webis saavad kasutajad uue ressursitaotluse loomisel tõrketeate puuduva **msdyni\_ tegeliku alguse** kohta. |
-| Aeg ja kulu | 2602511 | Ajakannete **väli Tagasilükatud** kuvab **hülgaja asemel süsteemi**, mitte nimega kasutaja. |
-| Aeg ja kulu | 2602528 | Projekti kinnitaja saab kinnitada aega projektides, kus neid pole kinnitajana loetletud. |
-| Arveldamine ja hinnakujundus | 2608550 | Parandusarvet saab kinnitada ka siis, kui originaalis muudatusi ei ole. |
+| Aeg ja kulu | 2388011 | Kuva tagasilükkamise kommentaarid, et ajastada kirje esitajad hulgikinnituse ajal. |
+| Projekti plaanimine ja jälgimine | 2495294 | Projekti üksikasju ei tohi lehel **Ülesande üksikasjad** muuta. |
+| Arveldamine ja hinnakujundus | 2499605 | Hinnapakkumise vahekokkuvõtetest loodud lepingu vahekokkuvõttes on valesti märgitud kirjutuskaitstuks. |
+| Projekti plaanimine ja jälgimine | 2506050 | Toimingukomplekt jääb ootele üheks tunniks, kui salvestamiseks ei tehta muudatusi. Seejärel märgitakse komplekt ekslikult kui **Ebaõnnestunud**, kuigi see tuleks kohe lõpule viia. |
+| Arveldamine ja hinnakujundus | 2507401 | Lepingu vaikeühikud sisestatakse projektidesse valesti vale vahemällusalvestuse tõttu. |
+| Arveldamine ja hinnakujundus | 2541660 | **Müügitellimuse loomise valideerimine** peaks topeltkirjutuses olema ainult projektipõhiste tellimuste jaoks. |
+| Arveldamine ja hinnakujundus | 2552745 | Maksu ei jaotata klientide vahel, kes on seadistanud jagatud arveldusreeglid. |
+| Arveldamine ja hinnakujundus | 2558859 | Täiustatud tõrketeated hinnakujunduse dimensioonide seadistamisel. |
+| Arveldamine ja hinnakujundus | 2558933 | **Projekti prognooside importimine** ebaõnnestub, kui hinnadimensiooniks lisatakse **msdyn\_project**. |
+| Arveldamine ja hinnakujundus | 2559101 | Projekti parameetrite kustutamine ei ole blokeeritud ja põhjustab probleeme. |
+|   Müügivõimaluste haldus | 2570390 | Topeltkirjutuse pistikprogramm sunnib pakkumiste, tellimuste ja võimaluste konto tüübiks olema **Klient**, isegi kui see kontotüüp pole õige. |
+| Arveldamine ja hinnakujundus | 2586097 | Jaotatud arveldatud kulude tegelikke näitajaid ei pöörata tagasi, kui projekt eemaldatakse projekti lepingurealt. |
+| Arveldamine ja hinnakujundus | 2589619 | Sisestatava materjali maks kantakse arveldamata müügi tegelikele näitajatele ja arvele. |
+|   Müügivõimaluste haldus | 2594015 | Hinnapakkumist ei saa võidetuna sulgeda klientidele, kellel on **Net60** maksetingimused. |
+| Projekti plaanimine ja jälgimine | 2595841 | Rakenduses Project for the Web saavad kasutajad uue ressursitaotluse loomisel tõrketeate puuduva **msdyn\_actualstart** kohta. |
+| Aeg ja kulu | 2602511 | Ajakirjete väljal **Tagasilükkaja** kuvatakse tagasilükkajana nimega kasutaja asemel **Süsteem**. |
+| Aeg ja kulu | 2602528 | Projekti kinnitaja saab kinnitada aega projektide puhul, kui ta pole kinnitatud kinnitajate loendis. |
+| Arveldamine ja hinnakujundus | 2608550 | Parandusarve saab kinnitada ka siis, kui originaalis pole muudatusi. |
 
-## <a name="removed-and-deprecated-features"></a>Eemaldatud ja aegunud funktsioonid
+## <a name="removed-and-deprecated-features"></a>Eemaldatud ja iganenud funktsioonid
 
-Artiklis [Eemaldatud või aegunud funktsioonid jaotises Project Operations](../../whats-new/removed-depreciated-features-project.md) kirjeldatakse funktsioone, mis on rakenduse jaoks eemaldatud või aegunud Dynamics 365 Project Operations.
+Artiklis [Project Operationsis eemaldatud või aegunud funktsioonid](../../whats-new/removed-depreciated-features-project.md) kirjeldatakse rakenduse Dynamics 365 Project Operations eemaldatud või aegunud funktsioone.
 
 - Eemaldatud funktsioon pole enam tootes saadaval.
-- Aegunud funktsioon pole aktiivses arenduses ja võidakse tulevases värskenduses eemaldada.
+- Iganenud funktsiooni ei arendata aktiivselt ja võidakse tulevases värskenduses eemaldada.
 
-Amortisatsiooniteade kuvatakse [Project Operationsi](../../whats-new/removed-depreciated-features-project.md) artiklis Eemaldatud või aegunud funktsioonides 12 kuud enne mis tahes funktsiooni tootest eemaldamist.
+Aegumisteade ilmub artiklis [Eemaldatud või aegunud funktsioonid rakenduses Project Operations](../../whats-new/removed-depreciated-features-project.md) 12 kuud enne mis tahes funktsiooni eemaldamist tootest.

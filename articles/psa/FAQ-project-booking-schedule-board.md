@@ -1,6 +1,6 @@
 ---
 title: Projekti reserveeringu loomine ajakavapaneelilt
-description: Selles artiklis antakse teavet selle kohta, kuidas luua projekti broneering ajakava tahvlilt.
+description: See artikkel kirjeldab, kuidas ajakava tahvlilt projekti reserveeringut luua.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

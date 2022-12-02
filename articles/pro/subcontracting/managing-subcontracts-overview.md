@@ -1,6 +1,6 @@
 ---
 title: Allhankelepingute haldus rakenduses Project Operations
-description: Selles artiklis antakse ülevaade alltöövõtu haldamise protsessist algusest lõpuni tavaliselt projektipõhistes organisatsioonides.
+description: See artikkel annab tervikliku ülevaate allhankelepingute haldusprotsessi kohta tüüpiliselt projektipõhistes organisatsioonides.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: overview
@@ -18,7 +18,7 @@ ms.locfileid: "9522320"
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Selles artiklis antakse ülevaade alltöövõtu haldamise protsessist projektipõhistes organisatsioonides. Teenuste allhange järgib tavaliselt järgmisel diagrammil esitatud äriprotsessi voogu.
+See artikkel annab tervikliku ülevaate allhankelepingute haldusprotsessi kohta projektipõhistes organisatsioonides. Teenuste allhange järgib tavaliselt järgmisel diagrammil esitatud äriprotsessi voogu.
 
 ![Allhankelepingute sõlmimisprotsessi voog](../media/SubcontractingProcessFlow.png)
 
@@ -45,7 +45,7 @@ Allhankelepingu rida võib olla kogusepõhine või tööpõhine.
 
 Kui allhankelepingu rida on **kogusepõhine** saab allhankelepingu real ostetava aja, kulu või materjali kogust kasutada mistahes projekti juures.
 
-Kui allhankelepingu rida on **tööpõhine**, vastendatakse allhankelepingu rida projektiplaanis sõlmega esindatava tööga. Allhankelepingu rea väärtus on kõigi töö teostamiseks vajalike komponentide summa. Need modelleeritakse allhankelepingu rea üksikasjadena ja need võivad olla aja, kulude või materjalide kogumid. Tööpõhise allhankelepingu rea korral on allhankelepingu rida mõeldud ühele projektile. Seda tüüpi alltöövõtulepinguid projektitoimingud ei toeta.
+Kui allhankelepingu rida on **tööpõhine**, vastendatakse allhankelepingu rida projektiplaanis sõlmega esindatava tööga. Allhankelepingu rea väärtus on kõigi töö teostamiseks vajalike komponentide summa. Need modelleeritakse allhankelepingu rea üksikasjadena ja need võivad olla aja, kulude või materjalide kogumid. Tööpõhise allhankelepingu rea korral on allhankelepingu rida mõeldud ühele projektile. Seda tüüpi allhankelepinguid rakendus Project Operations hetkel ei toeta.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

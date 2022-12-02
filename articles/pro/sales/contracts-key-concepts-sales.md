@@ -19,7 +19,7 @@ _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
 
 
-Selles artiklis on toodud põhimõisted, millest tuleb teadlik olla enne projektilepingute kasutamise alustamist rakenduses Dynamics 365 Project Operations:
+See artikkel sisaldab põhimõisteid, millest tuleb teadlik olla enne, kui hakkate kasutama projekti lepinguid rakenduses Dynamics 365 Project Operations.
 
 ## <a name="contracting-unit"></a>Lepingut sõlmiv üksus
 

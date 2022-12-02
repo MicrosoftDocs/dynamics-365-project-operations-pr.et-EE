@@ -35,21 +35,21 @@ Projektimallid säästavad teie aega, kui ettevõte teeb regulaarselt pakkumisi 
 ## <a name="components-of-project-template"></a>Projektimalli komponendid
  Projektimall koosneb kolmest osast.  
   
-- **Tööjaotuse struktuur**: projektimalli tööjaotuse struktuur sisaldab sama elemendikomplekti mis projekt. Saate luua ülesandehierarhia, seostada rollid ülesandega, määratleda ajakava atribuute, seada sõltuvusi ja vaadata kõiki Ganttis olevaid andmeid. Projektimallide tööjaotuse struktuur toetab ka iga ülesande ülesanderežiime. Töögraafiku loomisel ei ole projektimalli ja projekti vahel vahet.  
+- **Tööjaotuse struktuur**: projektimalli tööjaotuse struktuur sisaldab sama elemendikomplekti mis projekt. Saate luua ülesannete hierarhia, seostada rolle ülesandega, määratleda ajakava atribuute, määrata sõltuvusi ja kuvada kõik andmed Gantti diagrammil. Projektimallide tööjaotuse struktuur toetab ka iga ülesande puhul ülesanderežiime. Projektimalli ja projekti vahel pole töö ajakava loomisel mingit erinevust.  
   
 - **Projektiprognoosid**: mallide projektiprognoosid toimivad samal moel, nagu projektides, välja arvatud see, et hinnakirjad oma- ja müügihindade vaikeväärtuste määramiseks on alati funktsiooni [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] parameetrites määratletud omahinna ja müügihinna vaikehinnakirjad. Ülejäänud funktsioonid on samad mis projektis.  
   
 - **Projektimeeskonna moodustamine**: projektimalli jaoks projektimeeskonna moodustamisel ei saa mallis broneerida nimelist ressurssi. Saate kasutada tööjaotuse struktuuris olevat valikut **Projektimeeskonna loomine**, et luua üldiste ressursside kogum. Saate ka määrata üldiste ressursside puhul nõutavad oskused ja pädevused. Projektimallides ei saa üldist ressurssi asendada reserveeritava ressursiga.  
 
-## <a name="create-a-project-template-from-an-existing-project"></a>Projektimalli loomine olemasolevast projektist
-Projektimalli saate luua projektist järgmistel viisidel.
+## <a name="create-a-project-template-from-an-existing-project"></a>Projekti malli loomine olemasoleva projekti abil
+Projekti malli saab luua projektist järgmistel viisidel.
 
-- **Tööjaotuse struktuur**: projektist tuletatud malli tööjaotuse struktuur kopeerib kõik ülesanded ja sõltuvused. Loodud ülesanded põhinevad üldistel meeskonnaliikmetel, kes lisatakse projektimeeskonnale projektimalli loomisel.
-- **Projekti prognoosid**: kui olemasolevast projektist luuakse projektimall, kopeeritakse lähteprojekti prognoosid projektimalli.
-- **Projektimeeskonna liikmed**: kui olemasolevast projektist luuakse mall, asendatakse kõik nimega meeskonnaliikmed organisatsiooni üldise ressursiga. Kõik ametikohtade nimed ja rollid säilitatakse.
+- **Tööjaotuse struktuur**: projektist tuletatud malli tööjaotuse struktuur kopeerib kõik ülesanded ja sõltuvused. Loodavad ülesanded põhinevad üldistel meeskonnaliikmetel, kes projektimalli loomisel projektimeeskonda lisatakse.
+- **Projekti prognoosid**: kui projekti mall luuakse olemasolevast projektist, kopeeritakse lähteprojekti hinnangud projekti malli.
+- **Projektimeeskonna liikmed**: kui malli luuakse olemasolevast projektist, asendatakse kõik nimelised meeskonnaliikmed organisatsiooni üldise ressursiga. Kõik ametikohtade nimesid ja rolle hallatakse.
 
 ## <a name="create-a-project-from-a-template"></a>Projekti loomine mallist  
- Mallist saate projekti luua järgmistel viisidel.  
+ Saate mallist projekti luua järgmistel viisidel.  
   
 -   Projekti loomisel hinnapakkumisest saate valida projektimalli projekti kiirloomise vormil.  
   

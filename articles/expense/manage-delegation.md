@@ -1,6 +1,6 @@
 ---
 title: Delegeerimise haldamine
-description: Selles artiklis antakse teavet selle kohta, kuidas kuludelegaat saab luua ja hallata teise töötaja kuluaruandeid.
+description: See artikkel kirjeldab, kuidas kulu delegaat saab luua ja hallata mõne muu töötaja kuluaruannet.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

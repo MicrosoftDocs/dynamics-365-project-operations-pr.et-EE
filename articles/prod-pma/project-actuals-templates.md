@@ -1,6 +1,6 @@
 ---
-title: Sünkroonige projekti tegelikud andmed otse Project Service Automationist projekti integreerimise töölehele, et sisestada need finantsidesse ja operatsioonidesse
-description: Selles artiklis kirjeldatakse malle ja nende aluseks olevaid ülesandeid, mida kasutatakse projekti tegelike näitajate sünkroonimiseks otse Microsoft Dynamics 365 Project Service Automation rahastamisest ja toimingutest.
+title: Projekti tegelike näitajate sünkroonimine otse Project Service Automationist projekti integratsiooni töölehele finants- ja äritoimingute sisestamiseks
+description: See artikkel kirjeldab malle ja aluseks olevaid tööülesandeid, mida kasutatakse projekti tegelike näitajate sünkroonimiseks otse rakendusest Microsoft Dynamics 365 Project Service Automation rakendusse Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -21,11 +21,11 @@ ms.contentlocale: et-EE
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9028973"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sünkroonige projekti tegelikud andmed otse Project Service Automationist projekti integreerimise töölehele, et sisestada need finantsidesse ja operatsioonidesse
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Projekti tegelike näitajate sünkroonimine otse Project Service Automationist projekti integratsiooni töölehele finants- ja äritoimingute sisestamiseks
 
 [!include[banner](../includes/banner.md)]
 
-Selles artiklis kirjeldatakse malle ja nende aluseks olevaid ülesandeid, mida kasutatakse projekti tegelike näitajate sünkroonimiseks otse Dynamics 365 Project Service Automation Dynamics 365 Finance.
+See artikkel kirjeldab malle ja aluseks olevaid tööülesandeid, mida kasutatakse projekti tegelike näitajate sünkroonimiseks otse rakendusest Dynamics 365 Project Service Automation rakendusse Dynamics 365 Finance.
 
 Malliga sünkroonitakse tehingud rakendusest Project Service Automation koondtabelisse rakenduses Finance. Kui sünkroonimine on lõpule jõudnud, **peate** andmed koondtabelist integratsiooni töölehele importima.
 
@@ -41,7 +41,7 @@ Project Service Automationist Finance’i integreerimise lahendus kasutab andmet
 
 Järgmisel joonisel on näidatud, kuidas andmeid rakenduste Project Service Automation ja Finance vahel sünkroonitakse.
 
-[![Andmevoog Project Service Automationi integreerimiseks finantside ja operatsioonidega.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Andmevoog Project Service Automationi integreerimiseks finants- ja äritoimingutega](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Projekti tegelikud näitajad rakendusest Project Service Automation
 
@@ -74,7 +74,7 @@ Enne, kui tegelike näitajate sünkroonimine võib ilmneda, peate konfigureerima
 
 ### <a name="power-query"></a>Power Query
 
-Projekti tegelike näitajate mallis peate järgmiste toimingute tegemiseks kasutama rakendust Microsoft Power Query for Excel.
+Projekti tegelike näitajate mallil peate kasutama lisandmoodulit Microsoft Power Query Exceli jaoks, et lõpetada järgmised ülesanded.
 
 - Teisendage kandetüüp rakenduses Project Service Automation sobivaks kandetüübiks rakenduses Finance. See teisendus on juba määratletud projekti tegelike näitajate (PSA kuni FIN ja Ops) mallis.
 - Teisendage arvetüüp rakenduses Project Service Automation sobivaks arvetüübiks rakenduses Finance. See teisendus on juba määratletud projekti tegelike näitajate (PSA kuni FIN ja Ops) mallis. Arve tüüp vastendatakse seejärel reaatribuudiga, mis põhineb lehe **Rakenduse Project Service Automation integratsiooniparameetrid** konfiguratsioonil.
@@ -83,9 +83,9 @@ Projekti tegelike näitajate mallis peate järgmiste toimingute tegemiseks kasut
 - Kui kontsernisisest aega või kontsernisisest kulu ei sünkroonita rakendusega Finance, peate kustutama viimati lisatud tingimusliku veeru oma mallist. Vastasel juhul võib juhtuda, et integratsioon võib ilmneda või valed tegelikud tehingud saab importida rakendusse Finance.
 
 #### <a name="contract-organizational-unit"></a>Lepingu organisatsiooniüksus
-Mallis sisestatud tingimusliku veeru värskendamiseks klõpsake noolt **Vastenda**, et avada vastendamine. Valige avamiseks **link Täpsem päring ja filtreerimine** Power Query.
+Mallis sisestatud tingimusliku veeru värskendamiseks klõpsake noolt **Vastenda**, et avada vastendamine. Valige link **Täpsem päring ja filtreerimine**, et avada Power Query.
 
-- Kui kasutate vaikemalli Projekti tegelikud näitajad (PSA–Fin ja Ops Power Query), valige jaotises Rakendatud toimingud viimane **sisestatud** tingimus **·**. Kirjes **Funktsioon** asendage **USSI** juriidilise üksuse nimega, mida peaks kasutama koos integratsiooniga. Lisage **Funktsiooni** kirjele soovitud täiendavad tingimused ja värskendage **else** tingimus **USMF**-ilt õigele juriidilisele olemile.
+- Kui kasutate vaikimisi projekti tegelikke näitajate (PSA-st Fin-ile ja Ops-ile) malli, siis valige Power Query suvand **Sisestatud tingimus** jaotisest **Rakendatud etapid**. Kirjes **Funktsioon** asendage **USSI** juriidilise üksuse nimega, mida peaks kasutama koos integratsiooniga. Lisage **Funktsiooni** kirjele soovitud täiendavad tingimused ja värskendage **else** tingimus **USMF**-ilt õigele juriidilisele olemile.
 - Kui loote uue malli, peate kontsernisisese aja ja kulude toetamiseks lisama veeru. Valige **Lisa tingimuslik veerg** ja sisestage uue veeru nimi, näiteks **LegalEntity**. Sisestage veeru jaoks tingimus, et kui **msdyn\_contractorganizationalunitid.msdyn\_nimi** on \<organizational unit\>, siis \<enter the legal entity\>; muu on tühi.
 
 ### <a name="template-mapping-in-data-integration"></a>Malli vastendamine andmete integratsioonis
@@ -125,7 +125,7 @@ Projekti tegellikke näitajaid hallatakse rakenduses Project Service Automation 
 
 ### <a name="power-query"></a>Power Query
 
-Projekti tegeliku värskendamise malli peate kasutama Power Query järgmiste toimingute tegemiseks.
+Projekti tegelike näitajate värskendatud mallil peate kasutama lisandmoodulit Power Query, et lõpetada järgmised ülesanded.
 
 - Teisendage kandetüüp rakenduses Finance sobivaks kandetüübiks Project Service Automationis. See teisendus on juba määratletud projekti tegelike näitajate värskendatud (Fin Ops -ilt PSA-le) mallis.
 - Teisendage arvetüüp rakenduses Finance sobivaks arvetüübiks rakenduses Project Service Automation. See teisendus on juba määratletud projekti tegelike näitajate värskendatud (Fin Ops -ilt PSA-le) mallis.

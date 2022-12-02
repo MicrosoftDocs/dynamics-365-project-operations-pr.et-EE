@@ -1,6 +1,6 @@
 ---
 title: Ressursside täitmine planeeritud ressursside jaoks
-description: Selles artiklis antakse teavet projekti kavandatud ressursside kohta.
+description: See artikkel kirjeldab projektile ressursside kavandamist.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

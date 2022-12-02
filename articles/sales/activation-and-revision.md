@@ -1,6 +1,6 @@
 ---
-title: Projekti hinnapakkumise aktiveerimine ja muutmine
-description: See artikkel annab teavet tsitaatide aktiveerimise ja muutmise kohta Microsoftis Dynamics 365 Project Operations.
+title: Projekti hinnapakkumise aktiveerimine ja kontrollimine
+description: See artikkel annab teavet hinnapakkumiste aktiveerimise ja läbivaatamise kohta teenuses Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
@@ -13,38 +13,38 @@ ms.contentlocale: et-EE
 ms.lasthandoff: 09/07/2022
 ms.locfileid: "9410366"
 ---
-# <a name="activate-and-revise-a-project-quote"></a>Projekti hinnapakkumise aktiveerimine ja muutmine
+# <a name="activate-and-revise-a-project-quote"></a>Projekti hinnapakkumise aktiveerimine ja kontrollimine
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Aktiveerimis- ja muutmisvõimalused aitavad teil jälgida projektipõhiste hinnapakkumiste versioonimist hindamis- ja läbirääkimisetapis. Kui tsitaadi mustand on aktiveeritud, muutub see kirjutuskaitstuks.
+Aktiveerimis- ja läbivaatamisvõimalused aitavad teil hinnata projektipõhiste hinnapakkumiste versioonide loomist hindamis- ja läbirääkimisfaasis. Kui hinnapakkumise mustand on aktiveeritud, muutub see kirjutuskaitstuks.
 
-Aktiveerimis- ja redigeerimisfunktsioonid võimaldavad teil teha järgmisi toiminguid.
+Aktiveerimis- ja läbivaatamisvõimalused võimaldavad teil täita järgmisi toiminguid.
 
-- Võida või kaota hinnapakkumisi alles pärast aktiveerimist.
-- Hinnapakkumise muutmine olemasoleva hinnapakkumise muutmiseks või uue versiooni loomiseks.
+- Hinnapakkumiste võitmine või kaotamine alles pärast aktiveerimist.
+- Hinnapakkumise läbivaatamine, et teha muudatusi olemasolevasse pakkumisse või luua uus versioon.
 
 > [!NOTE]
-> Kui jutumärkide aktiveerimise ja muutmise funktsioon on lubatud, ei saa seda keelata.
+> Pärast hinnapakkumiste aktiveerimis- ja läbivaatamisfunktsiooni lubamist ei saa seda keelata.
 
-Projektipõhiste hinnapakkumiste aktiveerimise ja muutmise võimaluse sisselülitamiseks toimige järgmiselt.
+Projektipõhiste hinnapakkumiste aktiveerimise ja läbivaatamise võimaluse sisselülitamiseks toimige järgmiselt.
 
-1. Avage **Seaded** \> **Parameetrid**.
-1. **Avage kirje Parameetrid**.
-1. Valige toimingupaani vahekaardil **Funktsiooni juhtimine** suvand **Luba hinnapakkumiste** aktiveerimine ja muutmine.
+1. Minge jaotisse **Sätted** \> **Parameetrid**.
+1. Avage kirje **Parameetrid**.
+1. Valige toimingupaani vahekaardil **Funktsiooni juhtimine** suvand **Luba hinnapakkumiste aktiveerimine ja muutmine**.
 1. Valige kinnitusdialoogis **OK**.
-1. Mõne hetke pärast värskendage brauserit. Aktiveerimis- ja redigeerimisvõimalused peaksid nüüd saadaval olema. Te teate, et need võimalused on lubatud, **kui nuppu Luba tsitaatide** aktiveerimine ja muutmine ei kuvata enam tegevuspaanil.
+1. Mõne hetke pärast värskendage oma brauserit. Aktiveerimis- ja läbivaatamisvõimalused peaksid nüüd saadaval olema. Teate, et need võimalused on lubatud, kui nuppu **Luba hinnapakkumiste aktiveerimine ja muutmine** enam toimingupaanil ei kuvata.
 
 ## <a name="activating-a-quote"></a>Hinnapakkumise aktiveerimine
 
-Kui jutumärkide aktiveerimise ja muutmise funktsioon on lubatud, **pole tegevuspaani nupud Sulge hinnapakkumine võidetuna** ja **Sule hinnapakkumine kadununa** projekti mustandpakkumiste jaoks saadaval. Need on saadaval alles pärast hinnapakkumise aktiveerimist.
+Kui hinnapakkumiste aktiveerimis- ja läbivaatamisfunktsioon on lubatud, ei ole tegevuspaanil olevad nupud **Sule pakkumine võidetuna** ja **Sule pakkumine kaotatuna** projekti hinnapakkumiste mustandite jaoks saadaval. Need on saadaval ainult pärast hinnapakkumise aktiveerimist.
 
-Aktiveerimine tähistab pakkumise protsessi etappi, kui soovite vältida hinnapakkumise rohkemate muudatuste tegemist. Selles etapis saadetakse hinnapakkumine sisekontrolliks või kliendile.
+Aktiveerimine tähistab hinnapakkumise protsessi etappi, mil soovite hinnapakkumises rohkem muudatusi vältida. Selles etapis saadetakse hinnapakkumine ettevõttesiseseks ülevaatuseks või kliendile.
 
-Aktiveeritud **hinnapakkumiste jaoks on saadaval nupud Sule hinnapakkumine võidetuna** ja **Sulge hinnapakkumine kaotatud** kujul. Sõltuvalt sisemise või kliendi ülevaatuse tulemusest saate aktiveeritud hinnapakkumise sulgemiseks kasutada ühte neist nuppudest. Aktiveeritud hinnapakkumistes saate teha läbirääkimisi ja muudatusi, valides Muuda **hinnapakkumist**.
+Aktiveeritud hinnapakkumiste jaoks on saadaval toimingupaanil olevad nupud **Sule pakkumine võidetuna** ja **Sule pakkumine kaotatuna**. Sõltuvalt ettevõtte või kliendi ülevaatuse tulemustest saate aktiveeritud hinnapakkumise sulgemiseks kasutada ühte nendest nuppudest. Aktiveeritud hinnapakkumiste osas saate läbirääkimisi pidada ja muudatusi teha, valides **Vaata hinnapakkumine läbi**.
 
-## <a name="revising-a-quote"></a>Tsitaadi muutmine
+## <a name="revising-a-quote"></a>Hinnapakkumise läbivaatamine
 
-Kui peate aktiveeritud hinnapakkumist muutma, valige **Muuda hinnapakkumist**. Hinnapakkumine suletakse ja **kasutatakse muudetud** põhjusekoodi. Seejärel luuakse uus tsitaat, millel on sama ID ja astmeline parandusnumber. Kõik algse hinnapakkumise üksikasjad kopeeritakse uude hinnapakkumisse. Uus tsitaat on mustandi olekus ja seda saab vastavalt vajadusele muuta.
+Kui peate aktiveeritud hinnapakkumises muudatusi tegema, valige **Vaata hinnapakkumine läbi**. Hinnapakkumine on suletud ja kasutatakse põhjuskoodi **läbi vaadatud**. Seejärel luuakse uus hinnapakkumine, millel on sama ID ja suurendatud läbivaatamise number. Kõik algse hinnapakkumise üksikasjad kopeeritakse uude hinnapakkumisse. Uus hinnapakkumine on mustandi olekus ja seda saab vastavalt vajadusele muuta.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

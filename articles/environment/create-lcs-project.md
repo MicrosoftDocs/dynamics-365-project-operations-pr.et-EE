@@ -1,6 +1,6 @@
 ---
 title: Uue LCS-projekti loomine
-description: Sellest artiklist leiate teavet uue projekti loomise kohta LCS-is project operationsi keskkonna jaoks.
+description: See artikkel annab teavet teie rakenduse Project Operations keskkonna jaoks LCS-is uue projekti loomise kohta.
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
@@ -27,7 +27,7 @@ Kasutage teenust Lifecycle Services (LCS) oma Dynamics 365 Project Operationsi k
   ![LCS-i projektitüübi valimine.](./media/create-lcs-1.png)
 
 5. Pange projektile nimi. 
-6. Valige **toote nimeks Finance and operations** ning valige valdkond ja metoodika. 
+6. Valige toote nimeks **Finants- ja äritoimingud** ning valige tegevusvaldkond ja metoodika. 
 7. Valige käsk **Loo**.
 
 ![LCS-i projekti loomine.](./media/create-lcs-2.png)

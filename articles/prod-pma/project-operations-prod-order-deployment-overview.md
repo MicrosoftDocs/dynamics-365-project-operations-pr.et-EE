@@ -1,6 +1,6 @@
 ---
 title: Rakenduse Project Operations ladustamise-/tootmispõhiste stsenaariumite jaoks juurutamise ülevaade
-description: See artikkel annab teavet juurutuse tüübi kohta Projektitoimingud varutud/tootmispõhiste stsenaariumide jaoks.
+description: See artikkel annab teavet juurutuse tüübi kohta Project Operationsi lao-/tootmispõhistes stsenaariumides.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
@@ -22,21 +22,21 @@ Sellel juurutuse tüübil on projektipõhiste ettevõtete jaoks järgmised võim
 
 - Projekti kavandamine kasutades [tööjaotuse struktuure](work-breakdown-structures.md)
 - Projektide ladustatud varude hankimine ja kasutamine
-- Projektipõhise müügi haldamine dynamics 365 finance and operationsi rakenduste mooduli Sales ja turundus **abil**
-- Projekti hinnakujundus ja kuluarvestus kulumäära ja arvemäära konfiguratsioonide abil finance and operationsi rakendustes
-- Ressursihaldus projektide jaoks finance and operationsi rakendustes
-- Projekti edenemine ja aja jälgimine finance and operationsi rakendustes
+- Projektipõhise müügi haldamine kasutades **Müügi ja turunduse** moodulit Dynamics 365 finants- ja äritoimingute rakendused
+- Projekti hinnakujundus ja kuluarvestus kasutades kulumäära ja arveldusmäära konfiguratsioone finants- ja äritoimingute rakendustes
+- Projektide ressursihaldus finants- ja äritoimingute rakendustes
+- Projekti edenemise ja aja jälgimine finants- ja äritoimingute rakendustes
 - Kuluhalduse kasutuskogemus projekti- ja mitte-projektipõhiste kulude jaoks koos kviitungite hõivamise OCR-i võimaluse kasutamisega
 - Arveldamine ettevõtte tasemel käibemaksu ja kuupäevapõhise vahetuskursi süsteemi kasutades
 - Konfigureeritavad projektirühmad poolelioleva töö raamatupidamise ja viitvõlgade jaoks
 - Projektide tulude kajastamine
 
-See juurutustüüp laiendab ka Dynamics 365 Finance ja Dynamics 365 Supply Chain Management rakenduste pakutavaid funktsioone.
+See juurutuse tüüp pakub lisaks ka rakenduste Dynamics 365 Finance ja Dynamics 365 Supply Chain Management pakutavate funktsioonide laiendust.
 
 Valige see juurutamise tüüp, et kasutada rakendust Dynamics 365 Project Operations projekti täispika elutsükli jaoks, mis sisaldab järgmisi põhinõudeid.
 
 - Ulatuslik projektijuhtimissüsteem, mis haldab inventeeritud üksusi ja töö/tootmise tellimuse maksumust ajakavade ja finantsasjade jaoks sisemiseks kasutuseks ja arveldatavate projektide jaoks.
-- Organisatsioonil on juba Dynamics 365 Finance või Dynamics 365 supply chain and manufacturing rakendused ning projektipõhiste kannete integreerimine lihtsustab andmetele juurdepääsu ja aruandlusvajadusi.
+- Organisatsioonil on juba Dynamics 365 Finance või Dynamics 365 tarneahela ja tootmise rakendused olemas ning projektipõhiste tehingute integreerimine lihtsustab andmetele juurdepääsu ja aruandluse vajadusi.
 - Täielikult toimib kuluhaldussüsteem, mis hõlmab poliitika jõustamisi ja tagasimakseid projektipõhiste ja mitte-projektipõhiste kulude jälgimiseks.
 - Ettevõtte tasemel käibemaksu ja vahetuskursi määra mootor kliendile suunatud arvete loomiseks.
 - Rahvusvaheliste finantsaruandluse standardite (IFRS) nõuetele vastavad projekti raamatupidamise ja tuluarvestuse süsteem.

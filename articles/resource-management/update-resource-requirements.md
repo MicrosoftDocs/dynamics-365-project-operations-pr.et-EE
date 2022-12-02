@@ -1,6 +1,6 @@
 ---
 title: Ressursinõude redigeerimine
-description: Selles artiklis antakse teavet ressursivajaduse teabe värskendamise kohta.
+description: See artikkel annab teavet ressursinõude andmete värskendamise kohta.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

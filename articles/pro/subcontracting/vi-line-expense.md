@@ -1,6 +1,6 @@
 ---
 title: Hankija arveread kulukategooriate jaoks
-description: Selles artiklis selgitatakse, kuidas hankija arve ridu kulukategooriate jaoks salvestada.
+description: See artikkel kirjeldab, kuidas kirjendada hankija arveridu kulukategooriate jaoks.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
@@ -17,29 +17,29 @@ ms.locfileid: "9261677"
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
-Microsofti Dynamics 365 Project Operations hankija arvel võivad olla kulukategooriate hankija arve read. Projektijuhid saavad kasutada hankija arve ridu kulukategooriate jaoks, et salvestada kulukategooriatena hangitud teenuste kulud.
+Rakenduse Microsoft Dynamics 365 Project Operations hankija arvel võivad olla hankija arve read kulukategooriate kohta. Projektijuhid saavad kulukategooriatena hangitud teenuste kulude kajastamiseks kasutada kulukategooriate jaoks hankija arve ridu.
 
-Kulukategooriate hankija arve read võivad, kuid ei pruugi viidata kulukategooriate allhankereale. Kui kulukategooriate hankija arve rida viitab allhankele, saavad projektijuhid sobitada ja kontrollida hankija arve rea poolt arveldatavaid kulusid nendes kulukategooriates registreeritud ja projektijuhtide poolt projektis kinnitatud kuludega.
+Hanikja arvete read kulukategooriate jaoks võivad, kuid ei pruugi viidata kulukategooriate allhankelepingureale. Kui kulukategooriate hankija arve rida viitab allhankelepingule, saavad projektijuhid võrrelda ja kontrollida hankija arve rea arvel olevaid kulusid nendes kulukategooriates registreeritud ja projekti projektijuhtide poolt kinnitatud kuludega.
 
-Järgmine tabel annab teavet kulukategooriate hankija arve ridade väljade kohta.
+Alljärgnevas tabelis on esitatud teave hankija arveridade kulukategooriate väljade kohta.
 
 | Väli | Kirjeldus | Funktsionaalne mõju |
 | --- | --- | --- |
-| Nimetus | Hankija arve rea nimi, mis aitab tuvastada. | See nimi kuvatakse esimese veeruna kõigis otsingutes, mis põhinevad hankija arve ridadel. |
-| Kirjeldus | Hankija poolt hankija arve real arveldatavate teenuste lühikirjeldus. | Pole |
-| Allhankeleping | Alltöövõtt, millelt teenused algselt telliti. | Kui hankija arve jaoks on valitud alltöövõtt, pärivad kõik hankija arve read selle valiku. Hankija arvel ei tohi olla hankija arve ridu, mis viitavad erinevatele allhangetele. |
-| Allhanke liin | Alltöövõtuliin, millelt teenuseid telliti. Valitavate allhankeliinide loend on piiratud valitud allhankelepingu ridadega. | Kui hankija arve real on kulukategooriate jaoks valitud allhanke rida, sisestatakse väljade Projekt **,** Ülesanne **ja** Kanne **kategooria vaikeväärtused** allhanke rea vastavatelt väljadelt. Kui valitud allhankereal on väärtused **väljadel Projekt**, **Projekti ülesanne** ja **Kande kategooria**, ei tohi hankija arve rea vastavate väljade väärtused nendest väärtustest erineda. |
-| Tehingu kuupäev | Kuupäev, millal hankija arve rea tegelik kulu projektis salvestatakse. |Pole |
-| Kande klass | Valige **Kulu,** et salvestada hankija arve kulukategooria jaoks. | Väärtus **Kulu** näitab, et hankija arve rida kasutatakse kulukategooriatena hangitud teenuste arve summa salvestamiseks. |
-| Project | Projekti nimi, mille kohta arvet esitavaid teenuseid kasutati. | See väli on kohustuslik ja seda ei saa tühjaks jätta. |
-| Toiming | Projektiülesande nimi, mille kohta arvet esitavaid teenuseid kasutati. See väli on saadaval ainult juhul, kui projekt on valitud. Projektiülesande valik on valikuline. | Kui see väli jäetakse tühjaks, saab projektijuht sobitada hankija arve rea kuludega, mis on salvestatud projekti mis tahes ülesandes. Kui hankija arve rida ei viita allhankereale ja see väli jäetakse tühjaks, ei lingita hankija arve rea loodud tegelikku kulu ühegi arveldamata müügi tegeliku kuluga. Sel juhul, kui ülesandepõhine arveldamine on seadistatud, ei pruugi kulude eest lõppkliendile arvet esitada. |
-| Kande kategooria | Kandekategooria, mille kohta arve esitatakse. Valitud kandekategooria jaoks tuleb luua vastav kulukategooria. | Kande kategooria ja ühiku väärtuste kombinatsiooni **kasutatakse hankija arve real välja Ühiku hind** vaike- või arvutatud väärtusena **.** **·** |
-| Kogus | Sisestage kogus, mille kohta hankija arve esitab arve real. |Pole|
-| Ühikurühm | Vaikeväärtus sisestatakse valitud kandekategooria ühikugrupi põhjal. | Pole |
-| Üksus | Vaikeväärtus on valitud ühikurühma põhiühik. Saate seda väärtust muuta, et osta ühikugrupi mis tahes ühikut. | Kande kategooria ja ühiku väärtuste kombinatsiooni **kasutatakse hankija arve real välja Ühiku hind** vaike- või arvutatud väärtusena **.** **·** |
-| Ühiku hind | Vaikeühiku hind kasutab kandekategooria **ja** ühiku **väärtuste kombinatsiooni** projekti hinnakirjast, mis on rakendatav hankija arve rea kandekuupäevale. | Kui rakendatava projekti hinnakirja hind on seadistatud ühikus, mis erineb hankija arve real olevast ühikust, kasutab süsteem ühiku hinna arvutamiseks ühiku teisendust. |
-| Vahesumma | See kirjutuskaitstud väli arvutatakse *koguse*&times; ühikuhinnana *·*, kui väärtused sisestatakse nii väljale Kogus **kui ka** väljale **Ühiku hind.** Kui üks või mõlemad väljad on tühjad, saate sellele väljale väärtuse sisestada.| Pole |
+| Nimetus | Hankija arve rea nimi, mis aitab tuvastada. | See nimi kuvatakse esimese veeruna kõigis hankija arve ridadel põhinevates otsingutes. |
+| Kirjeldus | Lühikirjeldus teenuste kohta, mille kohta hankija esitab arvereale arve. | Pole |
+| Allhankeleping | Allhankeleping, mille alusel teenused algselt telliti. | Kui tarnija arve jaoks on valitud allhankeleping, pärivad kõik hankija arveread selle valiku. Hankija arvel ei saa olla hankija arveridu, mis viitavad erinevatele allhankelepingutele. |
+| Allhankelepingu rida | Allhankelepingu rida, mille alusel teenused algselt telliti. Valitavate allhankelepingu ridade loend piirdub valitud allhankelepingu ridadega. | Kui tarnija arve kulukategooriate reale on valitud allhankelepingu rida, sisestatakse vaikeväärtused väljadele **Projekt**, **Ülesanne** ja **Tehingukategooria** allhankelepingurea vastavatest väljadest. Kui valitud allhankelepingureal on väärtused väljadel **Projekt**, **Projekti ülesanne** ja **Tehinkukategooria**, ei tohi hankija arve rea vastavate väljade väärtused nendest väärtustest erineda. |
+| Tehingu kuupäev | Kuupäev, mil hankija arverea kulu tegelik näitaja kirjendatakse projektile. |Pole |
+| Kande klass | Valige **Kulu**, et salvestada kulukategooria jaoks hankija arve. | Väärtus **Kulu** näitab, et hankija arverida kasutatakse kulukategooriatena hangitud teenuste arve summa kirjendamiseks. |
+| Project | Projekti nimi, mille raames kasutati arve aluseks olevaid teenuseid. | See väli on kohustuslik ja seda ei saa tühjaks jätta. |
+| Toiming | Projekti ülesande nimi, mille raames kasutati arve aluseks olevaid teenuseid. See väli on saadaval ainult siis, kui projekt on valitud. Projekti ülesande valimine on valikuline. | Kui see väli jääb tühjaks, saab projektijuht sobitada hankija arve rea kuludega, mille allhankelepingu ressursid salvestavad projekti mis tahes ülesande puhul. Kui hanikja arverida ei viita allhankelepingu reale ja see väli on tühjaks jäetud, ei seotaks hankija arverea poolt loodud kulu tegelikku näitajad ühegi arveldamata müügitehingu tegelike näitajatega. Kui ülesandepõhine arveldamine on seadistatud, ei pruugi sel juhul kulusid lõppkliendile arveldada. |
+| Kande kategooria | Tehingukategooria, misa arveldatakse. Valitud tehingukategooriale tuleb luua vastav kulukategooria. | Väärtuste **Tehingukategooria** ja **Ühik** kombinatsiooni kasutatakse hankija arve real välja **Ühiku hind** vaike- või arvutatud väärtusena. |
+| Kogus | Sisestage arvereale kogus, mida hankija arveldab. |Pole|
+| Ühikurühm | Vaikeväärtus sisestatakse valitud tehingukategooria ühikurühma alusel. | Pole |
+| Üksus | Vaikeväärtus on valitud ühikurühma baasühik. Saate seda väärtust muuta, et osta ühikurühma mis tahes ühikus. | Väärtuste **Tehingukategooria** ja **Ühik** kombinatsiooni kasutatakse hankija arve real välja **Ühiku hind** vaike- või arvutatud väärtusena. |
+| Ühiku hind | Ühiku vaikehind kasutab **Tehingukategooria** ja **Ühik** väärtuste kombinatsiooni projekti hinnakirjast, mis on rakendatav hankija arve rea tehingukuupäevale. | Kui kehtiva projekti hinnakirja hind on seadistatud ühikus, mis erineb hankija arvereal olevast ühikust, kasutab süsteem ühikuhinna arvutamiseks ühikute teisendust. |
+| Vahesumma | See kirjutuskaitstud väli arvutatakse järgmiselt: *Kogus* &times; *Ühikuhind*, kui väärtused on sisestatud nii väljale **Kogus** kui ka väljale **Ühikuhind**. Kui üks või mõlemad väljad on tühjad, saate sellele väljale väärtuse sisestada.| Pole |
 | Käibemaks | Sisestage käibemaksu summa. | Pole |
-| Kogusumma | Hankija arve rea kogusumma koos maksudega. See väli arvutatakse käibemaksu *vahesummana.* + *·* | Pole |
+| Kogusumma | Hankija arverea kogusumma koos maksudega. See väli arvutatakse järgmiselt: *Vahesumma* + *Müügimaks*. | Pole |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

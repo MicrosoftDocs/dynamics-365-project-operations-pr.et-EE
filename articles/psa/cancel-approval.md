@@ -1,6 +1,6 @@
 ---
 title: Tühista varem kinnitatud aja- ja kuluarvestuse olemid
-description: Selles artiklis antakse teavet kinnitatud projekti aja- ja kulukande tühistamise kohta.
+description: See artikkel annab teavet selle kohta, kuidas tühistada kinnitatud projekti aja- ja kulutehing.
 author: rumant
 ms.custom:
 - dyn365-projectservice

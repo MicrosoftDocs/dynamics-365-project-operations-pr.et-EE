@@ -1,6 +1,6 @@
 ---
 title: Projekti müügitellimused aja- ja materjalikulu projektidele
-description: Selles artiklis selgitatakse, kuidas luua projektipõhiseid müügitellimusi aja- ja materjaliprojektide jaoks.
+description: See artikkel selgitab, kuidas luua aja- ja materjalikulu projektidele projektipõhiseid müügitellimusi.
 author: Yowelle
 ms.date: 04/05/2019
 ms.topic: article
@@ -25,7 +25,7 @@ ms.locfileid: "8933809"
 
 [!include[banner](../includes/banner.md)]
 
-Selles artiklis kirjeldatakse, kuidas projekti jaoks müügitellimust luua. Müügitellimusi saab luua ainult **aja- ja materjalikulu** tüüpi projektidele.
+See artikkel kirjeldab, kuidas luua projekti jaoks müügitellimust. Müügitellimusi saab luua ainult **aja- ja materjalikulu** tüüpi projektidele.
 
 Kui aja- ja materjalikulu projektil on projekti lepingus mitu rahastamisallikat, peate lubama lehel **Projektihalduse ja raamatupidamise parameetrid** parameetri **Luba mitme rahastamisallikaga projekti jaoks müügitellimused**. 
 

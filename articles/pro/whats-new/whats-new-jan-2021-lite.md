@@ -1,6 +1,6 @@
 ---
 title: Mis on uut, jaanuar 2021 – Project Operations Lite juurutamine
-description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval Project Operations lite juurutuse 2021. aasta jaanuari väljaandes.
+description: See artikkel annab teavet Project Operations Lite’i juurutuse 2021. aasta jaanuari väljalaskes saadaolevate kvaliteedivärskenduste kohta.
 author: sigitac
 ms.date: 01/12/2021
 ms.topic: article
@@ -19,7 +19,7 @@ ms.locfileid: "8934269"
 
 _Kohaldub: lihtjuurutus - tehing proforma arveldusega_
 
-See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja versioonide kohta.
+See artikkel kehtib rakenduse Dynamics 365 Project Operations järgmiste komponentide ja versioonide kohta.
 
   - Project Operations Dataverse’i keskkonna versioonis 4.6.0.154.
   

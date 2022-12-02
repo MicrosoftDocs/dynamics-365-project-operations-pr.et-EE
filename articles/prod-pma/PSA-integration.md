@@ -1,6 +1,6 @@
 ---
 title: Project Service Automationi ülevaade
-description: Selles artiklis antakse teavet Dynamics 365 Finance integratsioonilahenduse kohta Dynamics 365 Project Service Automation.
+description: See artikkel annab teavet rakenduse Dynamics 365 Project Service Automation ja Dynamics 365 Finance integratsiooni lahenduse kohta.
 author: ruhercul
 ms.date: 07/25/2019
 ms.topic: overview
@@ -25,7 +25,7 @@ ms.locfileid: "8929577"
 [!include[banner](../includes/banner.md)]
 
 
-Project Service Automation to Finance integratsioonilahendus kasutab andmete integreerimise funktsiooni andmete sünkroonimiseks Dynamics 365 Finance ja Dynamics 365 Project Service Automation rakenduse kaudu Common Data Service. Integreerimismallid, mis on saadaval andmete integreerimise funktsiooniga, võimaldavad projektide, projekti lepingute, projekti lepinguridade, projekti lepingurea vahe-eesmärkide, projekti ülesannete, kulu tehingukategooriate, tööaja prognooside ja kuluprognooside voogu Project Service Automationist Finance’i.
+Project Service Automationist Finantsi integreerimise lahendus kasutab andmete integreerimise funktsiooni, et sünkroonida teenuse Dynamics 365 Finance kaudu andmeid rakenduste Dynamics 365 Project Service Automation ja Common Data Service eksemplaride üleselt. Integreerimismallid, mis on saadaval andmete integreerimise funktsiooniga, võimaldavad projektide, projekti lepingute, projekti lepinguridade, projekti lepingurea vahe-eesmärkide, projekti ülesannete, kulu tehingukategooriate, tööaja prognooside ja kuluprognooside voogu Project Service Automationist Finance’i.
 
 > [!NOTE]
 > - Kui kasutate versiooni 7.3.0, peate installima KB 4074835. Seejärel saate integreerida fikseeritud hinnaga projekte.

@@ -1,6 +1,6 @@
 ---
 title: Alltöövõtjate seadistamine broneeritavate ressurssidena
-description: Selles artiklis selgitatakse, kuidas seadistada ja hallata allhankija ressursse, mis on loodud süsteemis olevatest kasutajatest ja kontaktidest, et neid saaks microsofti allhangetega seostada Dynamics 365 Project Operations.
+description: See artikkel kirjeldab, kuidas seadistada ja hallata süsteemi kasutajatest ja kontaktidest loodud alltöövõtja ressursse, et neid saaks rakenduses Microsoft Dynamics 365 Project Operations seostada allhankelepingutega.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

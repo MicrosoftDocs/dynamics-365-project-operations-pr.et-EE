@@ -1,6 +1,6 @@
 ---
 title: Hankija arvete päise üksikasjad
-description: Selles artiklis selgitatakse Microsofti hankijaarve päises pakutavaid funktsioone Dynamics 365 Project Operations.
+description: See artikkel selgitab rakenduse Microsoft Dynamics 365 Project Operations hankija arve päises pakutavaid funktsioone.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
@@ -17,29 +17,29 @@ ms.locfileid: "9261648"
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
-Selles artiklis selgitatakse Microsofti hankijaarve päises pakutavaid funktsioone Dynamics 365 Project Operations.
+See artikkel selgitab rakenduse Microsoft Dynamics 365 Project Operations hankija arve päises pakutavaid funktsioone.
 
-Projektijuhtidena võivad nad projekte kavandada ja ellu viia alltöövõtjaid ning osta tooteid ja teenuseid hankijatelt. Projekti käivitamise ajal tekivad kulud teenustest, materjalidest ja kulukategooriatest, mis hangitakse hankijatega sõlmitud allhangete alusel. Hankijad arveldavad need kulud projektidega, luues hankija arved.
+Kuna projektijuhid kavandavad ja teostavad projekte, võivad nad palgata allhanketöötajaid ning osta tooteid ja teenuseid hankijatelt. Projekti teostamise käigus tekivad kulud teenustelt, materjalidelt ja kulukategooriatelt, mis hangitakse hankijatega sõlmitud allhankelepingute alusel. Hankijad esitavad nende kulude eest projektidele arve, luues hankija arveid.
 
-Järgmine tabel sisaldab teavet hankija arve päiste väljade kohta project operationsis.
+Järgmine tabel sisaldab teavet hankija arve päiste väljade kohta rakenduses Project Operations.
 
 | Väli | Kirjeldus | Funktsionaalne mõju |
 | --- | --- | --- |
-| Nimetus | Hankija arve nimi. | Kõigis hankija arve ripploendites on hankija arve nimi loetletud esimeses veerus, et aidata teil hankija arvet tuvastada. Kui hankija arve luuakse allhankest, **määratakse hankija arve välja nimi** vaikimisi väärtusele, mis koosneb allhanke nimest ja praegusest kuupäevast. |
+| Nimetus | Hankija arve nimi. | Kõigis hankija arve ripploendites on hankija arve nimi loetletud esimeses veerus, et aidata allhankelepingut tuvastada. Kui allhankelepingust hankija arve luuakse, määratakse hankija arve väljale **Nimi** vaikimisi väärtus, mis koosneb allhankelepingu nimest ja praegusest kuupäevast. |
 | Kirjeldus | Hankija arvel arveldatavate teenuste ja toodete lühikirjeldus. | Pole |
-| Tarnija | Selle ettevõtte nimi, kes toodete ja teenuste eest arveid esitab. See ettevõte peaks olema kontokirje, mille seose tüüp **on Hankija** või **Tarnija**. | <p>Valitud hankija põhjal sisestatakse vaikeväärtused automaatselt järgmistele väljadele.</p><ul><li>Valuuta</li><li>Hinnakirjad</li><li>Maksetingimused</li><li>Makse aadress</li></ul> |
-| Allhankeleping | Viide hankija arve alltöövõtule. | <p>Valitud allhanke põhjal sisestatakse vaikeväärtused automaatselt järgmistele väljadele.</p><ul><li>Valuuta</li><li>Hinnakirjad</li><li>Maksetingimused</li><li>Makse aadress</li></ul><p>Hankija arve päises valitud alltöövõtt sisestatakse vaikimisi hankija arve ridadele ja seda ei saa seal muuta.</p> |
-| Arve kuupäev | Hankija arve kinnitamisel loodavate tegelike kulude kuupäev. | Arve kuupäeva kasutatakse ka õige ostuhinnastiku valimiseks kas seotud hankijale manustatud hinnakirjadest või projekti parameetritest. |
-| Oleku põhjus | Hankija arve olek. | <p>Olek määrab, kus hankija arve äriprotsessis asub ja kas seda saab redigeerida. Siin on mõned saadaolevad väärtused.</p><ul><li>**Mustand** – hankija arvet saab muuta.</li><li>**Kinnitatud** – hankija arve kinnitati ja kinnitati. Selles olekus hankija arveid ei saa redigeerida ega kustutada.</li><li>**Protsessis** – hankija arve vaadatakse üle. Selles olekus hankija arveid saab redigeerida, kuid neid ei saa kustutada.</li><li>**Tühistatud** – hankija arve tühistati. Selles olekus hankija arveid ei saa redigeerida ega kustutada.</li></ul> |
-| Valuuta | Valuuta, milles hankija hankija arve toodete ja teenuste eest arveldab. | Hankijaarvel, mis viitab allhankele, sisestatakse allhanke valuuta vaikimisi hankija arve valuutana. Hankija arvel, mis ei viita allhankele, sisestatakse vaikeväärtus hankija konto kirjest ja seda saab muuta. Pärast hankija arve salvestamist ei saa valuutat enam redigeerida. |
-| Lepingut sõlmiv üksus | Ettevõtte jagunemine, mis vastutab müüjalt teenuste ja/või toodete saamise eest. | Pole |
-| Maksetingimused | Väljastatud hankijaarvete maksetingimused. Vaikeväärtus sisestatakse hankija konto kirjelt automaatselt. | Allhanke maksetingimused kopeeritakse kõigile hankija arvetele, mis on allhankega seotud. Maksetingimusi saab värskendada, kui hankija arve olek **on Mustand**. |
-| Makse aadress | Hankija aadress, kellele maksed tuleb saata. Vaikeväärtus sisestatakse hankija konto kirjelt automaatselt. | Allhanke makseaadress kopeeritakse makseaadressina kõigile hankija arvetele, mis selle allhanke jaoks luuakse. Makseaadressi saab värskendada, kui hankija arve olek **on Mustand**. |
-| Vahesumma | Kui hankija arvel ei ole ridu, sisestage arve vahesumma enne makse. Kui hankija arvel on read, on see väli ainult kirjutuskaitstud. Sel juhul on näidatud summa hankija arve kõigi ridade vahesumma. | Pole |
-| Maks kokku | Kui hankija arvel pole ridu, sisestage allhankemaksude kogusumma. Kui hankija arvel on read, on see väli ainult kirjutuskaitstud. Sel juhul on näidatud summa hankija arve kõigi ridade maksusummade summa. | Pole |
-| Kogusumma | See arvutatud väli näitab hankija arve kogusummat pärast maksude kaasamist. | Pole |
+| Hankija | Toote ja teenuste eest arveldava ettevõtte nimi. See ettevõte peaks olema kontokirje, mille suhte tüüp on **Hankija** või **Tarnija**. | <p>Vastavalt valitud hankijale sisestatakse vaikeväärtused automaatselt järgmistes väljades:</p><ul><li>Valuuta</li><li>Hinnakirjad</li><li>Maksetingimused</li><li>Makseaadress</li></ul> |
+| Allhankeleping | Viide hankija arve allhankelepingule. | <p>Vastavalt valitud allhankelepingule sisestatakse vaikeväärtused automaatselt järgmistes väljades:</p><ul><li>Valuuta</li><li>Hinnakirjad</li><li>Maksetingimused</li><li>Makseaadress</li></ul><p>Hankija arve päises valitud allhankeleping sisestatakse vaikimisi hankija arve ridadele ja seda ei saa seal muuta.</p> |
+| Arve kuupäev | Kuluarvestuse tegelike näitajate kuupäev, mis luuakse hankija arve kinnitamisel. | Arve kuupäeva kasutatakse ka õige ostu hinnakirja valimiseks kas seotud hankijatele lisatud hinnakirjadest või projekti parameetritest. |
+| Oleku põhjus | Hankija arve olek. | <p>Olek määratleb, kus hankija arve ettevõtte tegevuses paikneb ning kas seda saab redigeerida. Siin on mõned saadaolevad väärtused.</p><ul><li>**Mustand** – Hankija arvet saab redigeerida.</li><li>**Kinnitatud** – Hankija arvet kontrolliti ja kinnitati. Hankija arveid selles olekus ei saa redigeerida ega kustutada.</li><li>**Protsessis** – Hankija arve on läbi vaadatud. Selles olekus hankija arveid saab muuta, kuid neid ei saa kustutada.</li><li>**Tühistatud** – Hankija arve tühistati. Hankija arveid selles olekus ei saa redigeerida ega kustutada.</li></ul> |
+| Valuuta | Valuuta, milles hankija arveldab hankija arvel olevate toodete ja teenuste eest. | Hankija arvel, mis viitab allhankelepingule, sisestatakse vaikimisi hankija arve valuutaks allhankelepingu valuuta. Hankija arvel, mis ei viita allhankele, sisestatakse vaikeväärtus hankija konto kirjest ja seda saab muuta. Pärast hankija arve salvestamist ei saa valuutat enam muuta. |
+| Lepingut sõlmiv üksus | Ettevõtte osakond, mis vastutab hankijalt teenuste ja/või toodete vastuvõtmise eest. | Pole |
+| Maksetingimused | Väljastatud hankija arvete maksetingimused. Vaikeväärtus sisestatakse hankija konto kirjelt automaatselt. | Allhankelepingu maksetingimused kopeeritakse selle allhankelepinguga seotud hankija arvetele. Maksetingimusi saab uuendada, kui hankija arve on olekus **Mustand**. |
+| Makseaadress | Hankija aadress, kellele maksed tuleb saata. Vaikeväärtus sisestatakse hankija konto kirjelt automaatselt. | Allhankelepingu makseaadress kopeeritakse makseaadressina kõigile selle allhankelepingu jaoks loodud hankija arvetele. Makseaadressi saab uuendada, kui hankija arve on olekus **Mustand**. |
+| Vahesumma | Kui hankija arvel pole ridu, sisestage arve vahesumma enne makse. Kui hankija arvel on ridu, on see väli kirjutuskaitstud. Sellisel juhul on näidatav summa hankija arve kõikide ridade vahesumma. | Pole |
+| Kogumaks | Kui hankija arvel pole ridu, sisestage allhankelepingu maksud kokku. Kui hankija arvel on ridu, on see väli kirjutuskaitstud. Sel juhul on kuvatav summa hankija arve kõigilt ridadelt saadud maksusummade summa. | Pole |
+| Kogusumma | See arvutatud väli kuvab hankija arve kogusummat koos maksudega. | Pole |
 
 > [!NOTE]
-> Hankija arve järgmisi välju ei saa pärast hankija arve salvestamist muuta: **Hankija, Allhange**, **Valuuta** **,** Lepinguühik **ja** Maksetingimused **·**. Kui hankija arvel on vaja neid välju muuta, peate hankija arve kustutama ja looma uue hankijaarve.
+> Järgmisi hankija arve välju ei saa pärast hankija arve salvestamist muuta: **Hankija**, **Allhankeleping**, **Valuuta**, **Lepinguüksus** ja **Maksetingimused**. Kui hankija arvel on vaja neid väljasid muuta, peate hankija arve kustutama ja looma uue hankija arve.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

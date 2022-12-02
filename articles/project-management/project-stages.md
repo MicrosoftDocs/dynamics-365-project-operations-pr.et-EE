@@ -1,6 +1,6 @@
 ---
 title: Projekti etapid
-description: Selles artiklis antakse teavet projekti etappide kohta, mis on rakenduses Project Operations saadaval Microsoft Dynamics.
+description: See artikkel annab teavet nende projektide etappide kohta, mis on saadaval lahenduses Microsoft Dynamics Project Operations.
 author: ruhercul
 ms.date: 09/18/2020
 ms.topic: article
@@ -47,7 +47,7 @@ Kui seostate projekti hinnapakkumisega või kui loote projekti hinnapakkumise p�
 
 ## <a name="plan"></a>Plaan
 
-Kui võidate projektiga seotud hinnapakkumise ja projekt jõuab etappi **Leping**, värskendatakse projekt olekule **Plaan**. Kui projekt on plaanimise **etapis**, **kuvatakse vahekaardil** Müük **lehel Projekti olem** lepingu üksikasjad.
+Kui võidate projektiga seotud hinnapakkumise ja projekt jõuab etappi **Leping**, värskendatakse projekt olekule **Plaan**. Kui projekt on **Plaani** etapis, kuvatakse vahekaardi **Müügid** leheküljel **Projektiolem** lepingu üksikasjad.
 
 ## <a name="deliver"></a>Üleandmine
 

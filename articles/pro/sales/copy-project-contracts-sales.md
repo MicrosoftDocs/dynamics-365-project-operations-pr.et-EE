@@ -1,6 +1,6 @@
 ---
 title: Projektilepingute kopeerimine
-description: Selles artiklis antakse teavet projektilepingute kopeerimise kohta rakenduses Project Operations.
+description: See artikkel annab teavet rakenduses Project Operations projekti lepingute kopeerimise kohta.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Projektipõhiste hinnapakkumiste ridade ülevaade
-description: Selles artiklis antakse teavet projektipõhiste hinnapakkumisridade kasutamise kohta projektitöös.
+description: See artikkel annab teavet projektitööks projektipõhiste hinnapakkumise ridade kasutamise kohta.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: overview

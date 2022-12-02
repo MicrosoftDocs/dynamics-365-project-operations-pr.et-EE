@@ -1,6 +1,6 @@
 ---
 title: Mida on uut või muudetud rakenduse Project Service Automation värskenduse väljaandes 47, V3
-description: Selles artiklis loetletakse funktsioonid ja parandused, mis on saadaval värskendusväljaandes Microsoft Dynamics 365 Project Service Automation 47, V3.
+description: Selles artiklis loetletakse funktsioonid ja parandused, mis on saadaval rakenduse Microsoft Dynamics 365 Project Service Automation värskenduse väljaandes 47, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 09/14/2022
@@ -29,7 +29,7 @@ ms.locfileid: "9477278"
 
 Meil on hea meel teatada rakenduse Microsoft Dynamics 365 Project Service Automation uusimast värskendusest. See väljaanne sisaldab mõningaid olulisi kvaliteedi, jõudluse ja kasutatavuse täiustusi. See ühildub rakendusega Dynamics 365 9.x. Sellele väljaandele värskendamiseks külastage Dynamics 365 veebilahenduste halduskeskust ja installige värskendus. Lisateabe saamiseks vt jaotist [Eelistatud lahenduse installimine, värskendamine või eemaldamine](/power-platform/admin/install-remove-preferred-solution).
 
-Selles artiklis loetletakse funktsioonid ja parandused, mis on Project Service Automationi värskenduse väljaande 45, V3 jaoks uued või muudetud. Selle versiooni järgunumber on V3.10.78.8 ja see on üldsusele isevärskenduse kaudu kättesaadav juulis 2022.
+Selles artiklis loetletakse Project Service Automationi värskenduse väljalaske 45, V3 uued või muudetud funktsioonid ja parandused. Selle versiooni järgunumber on V3.10.78.8 ja see on üldsusele isevärskenduse kaudu kättesaadav juulis 2022.
 
 ## <a name="update-release-47"></a>Värskenduste väljalase 47
 
@@ -38,4 +38,4 @@ Selles artiklis loetletakse funktsioonid ja parandused, mis on Project Service A
 Lahendatud on järgmised probleemid.
 
 **Ressursihaldus**
-- Valideerimist värskendati tagamaks, et kasutajad ei saa käivitada nullviite erandit, kui nad üritavad luua Projekti meeskonnaliiget **ilma broneeritava ressursita**.
+- Valideerimist värskendati, et tagada, et kasutajad ei saa käivitada nullviite erandit, kui nad üritavad luua projektimeeskonna liiget ilma **Broneeritava ressursita**.

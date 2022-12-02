@@ -1,6 +1,6 @@
 ---
-title: Varem kinnitatud kannete kinnitamise tühistamine
-description: Selles artiklis selgitatakse, kuidas projektijuht saab tühistada varem kinnitatud aja-, kulu- või materjalikasutuskannete kinnitamise.
+title: Eelnevalt kinnitatud kirjete kinnitamise tühistamine
+description: See artikkel selgitab, kuidas projektijuht saab tühistada varem kinnitatud aja-, kulu- või materjalikasutuse kirjeid.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
@@ -13,35 +13,35 @@ ms.contentlocale: et-EE
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8930451"
 ---
-# <a name="cancel-the-approval-of-previously-approved-entries"></a>Varem kinnitatud kannete kinnitamise tühistamine
+# <a name="cancel-the-approval-of-previously-approved-entries"></a>Eelnevalt kinnitatud kirjete kinnitamise tühistamine
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Projektijuht või kinnitaja, kes on eelnevalt kinnitanud aja-, kulu- või materjalikasutuse kanded, võib tühistada nende kannete kinnitamise. 
+Projektijuht või kinnitaja, kes on varem kinnitanud aja-, kulu- või materjalikasutuse kirjeid, saab nende kirjete kinnitamise tühistada. 
 
-Varem kinnitatud aja-, kulu- või materjalikasutuskande kinnitamise tühistamiseks tehke järgmist.
+Järgige järgmisi etappe, et tühistada varem kinnitatud aja-, kulu- või materjalikasutuse kirje kinnitamine.
 
 1. Minge jaotisse **Projektid** \> **Minu töö** \> **Kinnitused**.
-2. Loendis **Kinnitused** kuvatakse kõik kinnitamist ootavad ajakirjed. Muutke vaade väärtuseks **Minu varasemad kinnitused**.
-3. Valige tühistamiseks aeg, kulu või materjali kinnitused. Seejärel valige **toimingupaanil Käsk Tühista kinnitamine**.
-4. Operatsiooni kinnitamiseks valige **kuvataval kinnitussõnumiväljal OK**.
+2. Loendilehel **Kinnitused** kuvatakse kõik kinnitamist ootavad aja sissekanded. Muutke vaateks **Minu varasemad kinnitused**.
+3. Valige tühistamiseks aeg, kulu või materjali kinnitused. Seejärel valige toimingupaanil **Tühista kinnitus**.
+4. Ilmuvas kinnitusteate kastis valige toimingu kinnitamiseks **OK**.
 
 > [!IMPORTANT]
-> Kliendile juba arveldatud varem kinnitatud aja-, kulu- ja materjalikasutuskande kinnitamist ei saa tühistada. Kui proovite, saate teate, mis ütleb, et kinnitust ei saa tühistada, kuna see oli juba arveldatud. Sellisel juhul saate kinnituse tühistada ainult juhul, kui korrigeerivat arvet kasutatakse kliendile täieliku krediidi või tagasimakse väljastamiseks algsel arvel.
+> Te ei saa tühistada varem kinnitatud aja-, kulu- ja materjalikasutuse kirje kinnitamist, mille kohta on kliendile juba arve esitatud. Kui proovite seda teha, saate teate, et kinnitamist ei saa tühistada, sest selle eest on juba arve esitatud. Sel juhul saate kinnituse tühistada ainult siis, kui algsel arvel olevale kliendile krediit- või raha tagasimaksmiseks kasutatakse parandusarvet.
 
-## <a name="impact-of-canceling-the-approval-of-a-previously-approved-entry"></a>Varem kinnitatud kande kinnitamise tühistamise mõju
+## <a name="impact-of-canceling-the-approval-of-a-previously-approved-entry"></a>Varem kinnitatud kirje kinnitamise tühistamise mõju
 
 Kui kinnitus tühistatakse, on sel mõju nii tegevusele kui ka finantsile.
 
 ### <a name="operational-impact"></a>Mõju tegevusele
 
-Kui kande kinnitamine tühistatakse, märgitakse kinnituskirje esitatud **kirjeks**. Kande olek muudetakse olekuks **Esitatud**. Selles etapis saab projektimeeskonna liige kande tagasi kutsuda ilma tagasikutsumise taotlust esitamata.
+Kui kirje kinnitamine tühistatakse, märgitakse kinnituskandele **Edastatud**. Kirje olekuks on muudetud **Edastatud**. Selles etapis saab projektimeeskonna liige kirje tagasi kutsuda ilma tagasikutsumise taotlust esitamata.
 
-Kinnitaja saab muuta **arveldatava koguse** ja **arveldustüübi** väärtusi ning seejärel kinnitada kande veel üks kord.
+Kinnitaja saab väärtusi **Arveldatav kogus** ja **Arveldustüüp** muuta ning seejärel kirje veel kord kinnitada.
 
 ### <a name="financial-impact"></a>Finantsmõju
 
-Kui kande kinnitamine tühistatakse, uuendatakse vastavaid kulu- ja müüginäitajaid järgmiselt:
+Kui kirje kinnitus tühistatakse, värskendatakse vastavaid kulu ja müügi tegelikke näitajaid järgmiselt:
 
 - Välja **Korrigeerimise olek** värskendatakse väärtusele **Korrigeeritud**.
 - Välja **Arveldusolek** värskendatakse väärtusele **Tühistatud**.

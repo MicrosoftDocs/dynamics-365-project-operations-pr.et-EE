@@ -1,6 +1,6 @@
 ---
 title: Uue keskkonna ettevalmistamine
-description: Selles artiklis antakse teavet uue Project Operationsi keskkonna ettevalmistamise kohta.
+description: See artikkel annab teavet uue Project Operationsi keskkonna ettevalmistamise kohta.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
@@ -20,7 +20,7 @@ _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
 
 
-Selles artiklis antakse teavet selle kohta, kuidas ressursipõhiste/varudeta stsenaariumide jaoks uut Dynamics 365 Project Operations keskkonda ette valmistada.
+See artikkel anna teavet selle kohta, kuidas juurutada uut rakenduse Dynamics 365 Project Operations keskkonda ressursi-/mittelaopõhiste stsenaariumide jaoks.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Project Operationsi automaatse ettevalmistamise lubamine LCS projektis
 
@@ -34,7 +34,7 @@ Kasutage järgmisi samme, et lubada Project Operationsi automaatse ettevalmistam
 
 ## <a name="provision-a-project-operations-environment"></a>Project Operationsi keskkonna ettevalmistamine
 
-1. Avage uus Dynamics 365 Finance [demokeskkond](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) või [liivakasti/ tootmiskeskkonna](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) juurutamine. 
+1. Avage uue Dynamics 365 Finance [demokeskkond](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) või [liivakasti-/töökeskkonna ](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) juurutamine. 
 2. Läbige **Keskkonna ettevalmistamise** viisard. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Võimalik, et peate selle versiooni saamiseks rakendama oma Finance'i keskkonnal
 
     ![Rakenda lahendused.](./media/13ApplySolutions.png)
 
-5. Valige mõlemad lahendused, **Dynamics 365 Finance Dual Write Entity Map** ja **Dynamics 365 Project Operations Dual Write Entity Maps** ning seejärel valige **Rakenda**.
+5. Valige mõlemad lahendused **Dynamics 365 Finance’i topeltkirjutusolemi kaart** ja **Dynamics 365 Project Operationsi topeltkirjutusolemi kaardid**, ja seejärel valige **Rakenda**.
 
     ![Lahenduste kinnitamine.](./media/14ConfirmSolutions.png)
 

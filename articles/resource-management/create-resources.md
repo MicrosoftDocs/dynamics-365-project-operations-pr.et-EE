@@ -1,6 +1,6 @@
 ---
 title: Ressursside loomine
-description: Selles artiklis on link teabele broneeritavate ressursside loomise kohta.
+description: Selles artiklis on toodud link teabe juurde, kuidas luua broneeritavaid ressursse.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article
@@ -19,7 +19,7 @@ _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaa
 
 Saate kasutada rakendust Dynamics 365 Field Service, et luua ressursse oma teenuse Dynamics 365 Project Operations keskkonnas kasutamiseks. Nende ressursside loomiseks vaadake jaotist [Broneeritavate ressursside häälestamine](/dynamics365/field-service/set-up-bookable-resources).
 
-Project Operations toetab järgmisi ressursitüüpe.
+Rakenduse Project Operations ajakava toetab järgmisi ressursitüüpe.
 - Konto
 - Kontaktandmed
 - User

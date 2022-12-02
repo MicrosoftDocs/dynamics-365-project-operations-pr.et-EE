@@ -1,6 +1,6 @@
 ---
-title: Kuluaruanded on ümber kujundatud (sisaldab videot)
-description: Selles artiklis selgitatakse kuluaruande kirje ümberkujundatud ja ümber kujundatud kogemust.
+title: Kuluaruannete ümberkujundamine (sisaldab videot)
+description: See artikkel kirjeldab ümberkujundatud kuluaruande kirjendamise kogemust.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
@@ -58,7 +58,7 @@ Uue keskkonna sisselülitamiseks kasutage tööruumi **Funktsioonihaldus**, et l
 | Uute kuluridade salvestamine ja lisamine | Uute kulude sisestamisel on saadaval nupud **Salvesta** ja **Uus**, et aidata teil kiiresti ridu sisestada. |
 | Jaotatud ja üksikasjalike ridade parem nähtavus | Üksikasjalikud ja tükeldatud read lisatakse otse kulude loendisse, et suurendada nähtavust ja aidata teil hõlpsalt kindlaks teha, kas esineb vigu. |
 | Täpsustatud ridadel alamkategooria üksikasjade vaatamine | Ülemkulu täpsustatud read näitavad kuluaruande alamkategooria silte. Täpsustamine aitab teil vaadata lühidalt täpsemaid üksikasju.|
-|Korduvate kulude kiire üksikasjalik üksikasjalik esitamine | Ümberkujundatud kulu tööruum võimaldab korduvaid kulusid kiiresti loetleda, lisades alamkategooria, alguskuupäeva ja koguse. Kogus viitab sellele, mitu korda laengut pidevalt korratakse. |
+|Jaotage korduvad kulud kiiresti | Ümberkujundatud kulude tööruum annab võimaluse korduvad kulud kiiresti jaotada, lisades alamkategooria, alguskuupäeva ja koguse. Kogus viitab tasule, mis kordub pideva perioodi jooksul. |
 | Täpsustamise ajal kviitungite kuvamine | Täpsustamise ajal saab kuvada kviitungeid. |
 | Avansimakse valik | Valige ühe kulutehingu täitmiseks üks või mitu avansimakset. |
 | Avansimakse saldo | Vaadake avansimakse saldo üle reaalajas, kui loote kinnitatud ja makstud sularahas tehtud avansimaksete suhtes kulukirje. |

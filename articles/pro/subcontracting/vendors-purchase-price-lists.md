@@ -1,6 +1,6 @@
 ---
 title: Hankija ja ostuhinnakirja haldus rakenduses Project Operations
-description: See artikkel sisaldab teavet, mis aitab teil luua ja hallata hankija andmeid ja allhanke ostuhinnakirju.
+description: See artikkel annab teavet, mis aitab teil allhankelepingute jaoks luua ja hallata hankija andmeid ning ostuhinnakirju.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article

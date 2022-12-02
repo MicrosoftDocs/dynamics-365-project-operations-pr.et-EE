@@ -1,6 +1,6 @@
 ---
 title: Keeruliste ühikute, nt ühe kasutaja või kuu kohta, haldamine tootelpõhise hinnapakkumise ridadel – liht
-description: Selles artiklis antakse teavet tootepõhiste hinnapakkumisridade keerukate ühikute haldamise kohta.
+description: See artikkel annab teavet tootepõhiste hinnapakkumise ridade kompleksühikute halduse kohta.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

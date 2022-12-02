@@ -1,6 +1,6 @@
 ---
 title: Project Service Automationi integreerimise parameetrid
-description: Selles artiklis selgitatakse, kuidas konfigureerida vaikeandmete sisestamist 365 Finance'iga integreerimisel Microsoft Dynamics 365 for Project Service Automation Microsoft Dynamics.
+description: See artikkel selgitab, kuidas konfigureerida seda, kuidas rakenduse Microsoft Dynamics 365 for Project Service Automation rakendusega Microsoft Dynamics 365 Finance integreerimisel vaikeandmed sisestatakse.
 author: ruhercul
 ms.date: 03/03/2020
 ms.topic: article
@@ -25,7 +25,7 @@ ms.locfileid: "8932291"
 
 [!include[banner](../includes/banner.md)]
 
-**Lehel Project Service Automation integration parameters** saate konfigureerida vaikeandmete sisestamise viisi, kui integreerite Dynamics 365 Project Service Automation Dynamics 365 Finance. Projektide edukaks sünkroonimiseks rakendusest Project Service Automation rakendusse Finance peate seadistama järgmised väljad.
+Lehel **Project Service Automationi integreerimise parameetrid** saate konfigureerida, kuidas sisestatakse rakenduse Dynamics 365 Project Service Automation rakendusega Dynamics 365 Finance integreerimisel vaikeandmed. Projektide edukaks sünkroonimiseks rakendusest Project Service Automation rakendusse Finance peate seadistama järgmised väljad.
 
 Lehe **Project Service Automationi integreerimise parameetrid** avamiseks minge suvandisse **Projektihaldus ja raamatupidamine** \> **Häälestamine** \> **Dynamics 365 for Project Service Automationi integreerimise parameetrid**. 
 

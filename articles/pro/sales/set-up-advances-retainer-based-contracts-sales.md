@@ -1,6 +1,6 @@
 ---
 title: Ettemaksud või honoraril põhinevad lepingud
-description: Selles artiklis antakse teavet säilitajapõhiste lepingumudelite ja Project Operationsi edusammude kohta.
+description: See artikkel annab teavet Project Operationsi honoraril põhinevate lepingumudelite ja ettemaksu kohta.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

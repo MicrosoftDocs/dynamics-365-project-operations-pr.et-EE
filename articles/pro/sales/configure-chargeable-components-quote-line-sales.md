@@ -1,6 +1,6 @@
 ---
 title: Hinnapakkumise rea arveldatavate komponentide konfigureerimine
-description: Selles artiklis antakse teavet tasuliste ja mittetasustatavate komponentide seadistamise kohta projektipõhisel hinnapakkumisreal.
+description: See artikkel annab teavet tasuliste ja mittetasuliste komponentide seadistamise kohta projektipõhisel hinnapakkumise real.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

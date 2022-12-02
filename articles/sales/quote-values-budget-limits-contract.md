@@ -1,6 +1,6 @@
 ---
 title: Projekti hinnapakkumise sätted
-description: Selles artiklis antakse teavet teabe ja sätete kohta, mis rakenduvad projektipakkumistele ja mõjutavad neid.
+description: See artikkel kirjeldab teavet ja sätteid, mis rakenduvad projekti hinnapakkumistele ja neid mõjutavad.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

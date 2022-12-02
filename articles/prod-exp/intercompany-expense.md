@@ -1,6 +1,6 @@
 ---
 title: Kontsernisisesed kulud
-description: Selles artiklis antakse teavet selle kohta, kuidas kasutada kontsernisiseseid kulusid töötaja kulude määramiseks juriidilisele isikule, kelle jaoks töö tehti.
+description: See artikkel kirjeldab, kuidas kasutada kontsernisiseseid kulusid töötaja kulude määramiseks juriidilisele isikule, kelle jaoks töö tehti.
 author: suvaidya
 ms.date: 07/08/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Projektipõhiste lepinguridade ülevaade
-description: Selles artiklis antakse teavet projektipõhiste lepinguridadega töötamise kohta.
+description: See artikkel annab teavet projektipõhiste lepinguridadega töötamise kohta.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: overview

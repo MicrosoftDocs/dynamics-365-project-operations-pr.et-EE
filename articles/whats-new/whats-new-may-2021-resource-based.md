@@ -1,6 +1,6 @@
 ---
 title: Mis on uut mais 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
-description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval 2021. aasta mai väljaandes Project Operations ressursipõhiste/varumata stsenaariumide jaoks.
+description: See teema annab teavet Project Operationsi ressursi-/mittelaopõhiste stsenaariumite jaoks 2021. a mai väljalaskes saadaolevate kvaliteedivärskenduste kohta.
 author: sigitac
 ms.date: 05/11/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "9029984"
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja versioonide kohta.
+See artikkel kehtib rakenduse Dynamics 365 Project Operations järgmiste komponentide ja versioonide kohta.
 
 - Project Operations rakenduse Dynamics 365 Dataverse keskkonna versioonis 4.10.0.186
-- Projektijuhtimine ja raamatupidamine Finance and Operationsi rakenduste keskkondades versioon 10.0.18
+- Projektihaldus ja raamatupidamine finants- ja äritoimingute rakenduste keskkondade versioonis 10.0.18
 
 ## <a name="features-included-in-this-release"></a>Selles väljaandes sisalduvad funktsioonid
 
@@ -41,7 +41,7 @@ Järgmises loendis on näidatud Project Operationsi 2021. aasta mais väljalaske
 | Project Operationsi integratsiooni projekti hankija arve ekspordirea olem (msdyn\_projectvendorinvoicelines) | 1.0.0.1 | Kvaliteedi värskendused |
 | Projektid V2 (msdyn\_projects) | 1.0.0.2 | Kvaliteedi värskendused |
 
-Käitage oma keskkonnas alati kaardi uusimat versiooni ja lubage project operationsi Dataverse lahenduse ning finance and operationsi rakenduste lahenduse versiooni värskendamisel kõik seotud tabelikaardid. Kui kaardi uusim versioon pole aktiveeritud, ei pruugi teatud funktsioonid ja võimalused õigesti töötada. Kaardi aktiivset versiooni saate vaadata veerus **Versioon**, mis asub lehel **Topeltkirjutamine**. Kaardi uue versiooni aktiveerimiseks valige **Tabelivastenduse versioonid**, valige uusim versioon ja seejärel salvestage valitud versioon. Kui olete kohandanud kasutusvalmis tabelikaardi, rakendage muudatused uuesti. Lisateabe saamiseks vt [Rakenduse elutsükli haldus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)
+Käitage oma keskkonnas alati kaardi uusimat versiooni ja lubage kõik seotud tabelikaardid oma Project Operationsi lahenduse Dataverse ja finants- ja äritoimingute rakenduste versiooni värskendamisel. Kui kaardi uusim versioon pole aktiveeritud, ei pruugi teatud funktsioonid ja võimalused õigesti töötada. Kaardi aktiivset versiooni saate vaadata veerus **Versioon**, mis asub lehel **Topeltkirjutamine**. Kaardi uue versiooni aktiveerimiseks valige **Tabelivastenduse versioonid**, valige uusim versioon ja seejärel salvestage valitud versioon. Kui olete kohandanud kasutusvalmis tabelikaardi, rakendage muudatused uuesti. Lisateabe saamiseks vt [Rakenduse elutsükli haldus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)
 
 Kui teil tekib kaardi käivitamisel probleeme, järgige topeltkirjutamise tõrkeotsingu juhendi jaotises [Probleem kaardilt puuduvate tabeli veergudega](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps).
 
@@ -67,7 +67,7 @@ Kui teil tekib kaardi käivitamisel probleeme, järgige topeltkirjutamise tõrke
 | Ajakirje | 2202476 | Leht **Ajakirje** kasutab nüüd reageerimisruudustiku juhtelementi ja lahendab probleeme, nagu ruudustiku vastuolu. |
 | Ajakirje | 2223377 | Ajakirje peidetakse jaotisest **Seotud** lehel **Broneeritav ressurss**, et vältida kasutatavusega segamini ajamist. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektijuhtimine ja raamatupidamine Dynamics 365 Finance. aastal
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektihaldus ja raamatupidamine rakenduses Dynamics 365 Finance
 
 | Funktsiooni ala | Viitenumber | Kvaliteedi värskendus |
 | --- | --- | --- |

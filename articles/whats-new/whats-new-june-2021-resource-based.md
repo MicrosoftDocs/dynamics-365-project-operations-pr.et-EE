@@ -1,6 +1,6 @@
 ---
 title: Mis on uut juunis 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
-description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval 2021. aasta juuni väljaandes Project Operations ressursipõhiste/varumata stsenaariumide jaoks.
+description: See artikkel annab teavet Project Operationsi 2021. aasta juuni väljaandes olevate kvaliteedivärskenduste kohta ressursi-/mittelaopõhiste stsenaariumite jaoks.
 author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "9028170"
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja versioonide kohta.
+See artikkel kehtib rakenduse Dynamics 365 Project Operations järgmiste komponentide ja versioonide kohta.
 
 - Project Operations Dynamics 365 Dataverse’i keskkonna versioonis 4.11.0.156 või 4.11.0.164.
-- Projektijuhtimine ja raamatupidamine Finance and Operationsi rakenduste keskkondades versioon 10.0.19.
+- Projektihaldus ja raamatupidamine finants- ja äritoimingute rakenduste keskkondade versioonis 10.0.19.
 
 ## <a name="features-included-in-this-release"></a>Selles väljaandes sisalduvad funktsioonid
 
@@ -38,7 +38,7 @@ Selles väljaandes ei ole Project Operationsi topeltkirjutuse kaartide jaoks vä
 
 Project Operationsi topeltkijrutusega kaartide praeguse loendi ja versioonide jaoks vaadake teemat [Project Operationsi topeltkirjutamise kaardi versioonid](../environment/resource-dual-write-maps.md).
 
-Käitage oma keskkonnas alati kaardi uusimat versiooni ja lubage project operationsi Dataverse lahenduse ning finance and operationsi rakenduste lahenduse versiooni värskendamisel kõik seotud tabelikaardid. Kui kaardi uusim versioon pole aktiveeritud, ei pruugi teatud funktsioonid ja võimalused õigesti töötada. Kaardi aktiivset versiooni saate vaadata lehe **Topeltkirjutamine** veerus **Versioon**. Aktiveerige kaardi uus versioon, valides suvandi **Tabelikaardi versioonid**, valides uusima versiooni ja salvestades seejärel valitud versiooni. Kui olete kohandanud kasutusvalmis tabelikaardi, rakendage muudatused uuesti. Lisateabe saamiseks vt [Rakenduse elutsükli haldus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)
+Käitage oma keskkonnas alati kaardi uusimat versiooni ja lubage kõik seotud tabelikaardid oma Project Operationsi lahenduse Dataverse ja finants- ja äritoimingute rakenduste versiooni värskendamisel. Kui kaardi uusim versioon pole aktiveeritud, ei pruugi teatud funktsioonid ja võimalused õigesti töötada. Kaardi aktiivset versiooni saate vaadata lehe **Topeltkirjutamine** veerus **Versioon**. Aktiveerige kaardi uus versioon, valides suvandi **Tabelikaardi versioonid**, valides uusima versiooni ja salvestades seejärel valitud versiooni. Kui olete kohandanud kasutusvalmis tabelikaardi, rakendage muudatused uuesti. Lisateabe saamiseks vt [Rakenduse elutsükli haldus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)
 
 Kui kaardi käivitamisel esineb probleem, järgige topeltkirjutamise tõrkeotsingu juhendi jaotises [Probleem kaartidel puuduvate tabeli veergudega](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps).
 
@@ -62,7 +62,7 @@ Kui kaardi käivitamisel esineb probleem, järgige topeltkirjutamise tõrkeotsin
 | Aeg ja kulu | 2194431 | Ruudustik **Ajakirje** peab arvestama algusnädalat, mis on määratud **süsteemi sätetes**. |
 | Aeg ja kulu | 2277311 | Pärast ruudustikus **Ajakirje** lahtris väärtuse kustutamist jääb kursor ruusustikku. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektijuhtimine ja raamatupidamine Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektihaldus ja raamatupidamine rakenduses Dynamics 365 Finance
 
 | Funktsiooni ala | Viitenumber | Kvaliteedi värskendus |
 | --- | --- | --- |

@@ -1,6 +1,6 @@
 ---
 title: Allhankelepinguga komponentide aja, kulude ja materjalikasutuse kirjendamine
-description: Selles artiklis selgitatakse, kuidas Microsoft jälgib allhankekomponentidest projektidesse salvestatud aega, kulusid ja materjalikasutust Dynamics 365 Project Operations.
+description: See artikkel selgitab, kuidas rakendus Microsoft Dynamics 365 Project Operations jälgib allhankelepingu alusel sõlmitud komponentide projektides salvestatud aega, kulusid ja materjalikasutust.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -13,26 +13,26 @@ ms.contentlocale: et-EE
 ms.lasthandoff: 09/15/2022
 ms.locfileid: "9522508"
 ---
-# <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Allhankekomponentide projektide aja, kulude ja materjalikasutuse registreerimine
+# <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Aja, kulude ja materjalikasutuse registreerimine allhankelepingu alusel sõlmitud komponentide projektides
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Selles artiklis selgitatakse, kuidas Microsoft jälgib allhankekomponentidest projektidesse salvestatud aega, kulusid ja materjalikasutust Dynamics 365 Project Operations.
+See artikkel selgitab, kuidas rakendus Microsoft Dynamics 365 Project Operations jälgib allhankelepingu alusel sõlmitud komponentide projektides salvestatud aega, kulusid ja materjalikasutust.
 
-## <a name="costing-for-subcontractor-time-on-projects"></a>Alltöövõtja aja kulu arvestamine projektidele
-Rakenduses Project Operations saavad lepingulised töötajad salvestada projektide aega sarnaselt töötajatega. Projektide ja/või projektiülesannete aja sisestamisel saab lepinguline töötaja valida konkreetse allhanke- ja allhankerea.
+## <a name="costing-for-subcontractor-time-on-projects"></a>Projektide allhanke ajakulu
+Rakenduses Project Operations saavad lepingulised töötajad projektidele aega salvestada sarnaselt töötajatega. Aja sisestamisel saab lepinguline töötaja valida kindla allhankelepingu ja allhankelepingu rea.
 
-Kui lepinguliste töötajate esitatud aeg on kinnitatud, salvestatakse projekti kulu ühiku kulumäära abil, mis on seadistatud sellele lepingulise töötaja ressursile **allhankelepingu ostuhinnaloendi jaotises Rollihinnad**.
+Kui lepinguliste töötajate esitatud aeg on kinnitatud, kirjendatakse projekti maksumus ühikukulu määra alusel, mis on selle lepingulise töötaja ressursi jaoks seadistatud allhankelepingu ostuhinnakirja jaotises **Rollihinnad**.
 
-## <a name="costing-for-subcontracted-expenses-on-projects"></a>Projektide alltöövõtukulude kuluarvestus
-Projektidega seotud kulude sisestamisel saate kulukirjel valida allhanke ja allhanke rea. 
+## <a name="costing-for-subcontracted-expenses-on-projects"></a>Projektide allhankekulude maksumus
+Projektidele tehtud kulutuste sisestamisel saab kulukirjel valida allhankelepingu ja allhankelepingu rea. 
 
-Kui see kulukirje on esitatud ja kinnitatud, registreeritakse kulukulu projektis **ühikukulu alusel, mis on selle kandekategooria jaoks seadistatud allhanke allhankelepingu ostuhinnaloendi jaotises Kategooria hinnad**.
+Selle kulukirje esitamisel ja kinnitamisel kajastatakse kuluprojektis ühikumaksumuse alusel, mis on selle tehingukategooria jaoks seadistatud allhankelepingu ostuhinnakirja jaotises **Kategooriahinnad**.
 
-## <a name="costing-for-subcontracted-materials-on-projects"></a>Projektide allhangete materjalide maksumuse arvestamine
-Projektide materjalikasutuse sisestamisel saate materjalikasutuse logis valida allhanke ja allhanke rea. Kui materjali kasutamise logi on esitatud ja kinnitatud, salvestatakse materjalikulu projektis **ühikuhinna alusel, mis on seadistatud sellele tootele allhanke hinnakirja jaotises Hinnakirjaüksused**.
+## <a name="costing-for-subcontracted-materials-on-projects"></a>Projektide allhankematerjalide maksumus
+Projektide materjalikasutuse sisestamisel saab materjalikasutuse logis valida allhankelepingu ja allhankelepingu rea. Materjalikasutuse logi esitamisel ja kinnitamisel kajastatakse materjalikulu projektis ühikuhinna alusel, mis on selle toote jaoks seadistatud allhankehinnakirja jaotises **Hinnakirja ühikud**.
 
-Materjalikasutust saab salvestada ka projektide toodete sissekirjutamiseks. Seda tüüpi materjalikasutust saab siduda ka allhanke- ja allhankeliiniga. Sissekirjutustoodete materjalikasutuse registreerimisel peate sisestama sissekirjutatava toote ühikuhinna. 
+Materjali kasutust saab registreerida ka projektide sisestavate toodete jaoks. Seda tüüpi materjalikasutust saab siduda ka allhankelepingu ja allhankelepingu reaga. Sisestavate toodete materjalikasutuse registreerimisel tuleb sisestada sisestava toote ühikukulu. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

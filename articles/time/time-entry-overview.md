@@ -1,6 +1,6 @@
 ---
 title: Kellaaja ülevaade
-description: Selles artiklis antakse teavet rakenduse Ajafunktsiooni kohta Dynamics 365 Project Operations.
+description: See artikkel annab teavet rakenduse Dynamics 365 Project Operations aja funktsionaalsuse kohta.
 author: stsporen
 ms.date: 10/02/2020
 ms.topic: overview

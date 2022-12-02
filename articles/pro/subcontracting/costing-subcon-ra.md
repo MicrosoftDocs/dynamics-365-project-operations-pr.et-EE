@@ -1,6 +1,6 @@
 ---
 title: Allhankelepinguga ressursi määramiste kuluprognoosid
-description: Selles artiklis selgitatakse, kuidas Microsoft Dynamics 365 Project Operations arvutab allhanke ressursimäärangute kuluprognoosi.
+description: See artikkel selgitab, kuidas Microsoft Dynamics 365 Project Operations arvutab alltöövõtu ressursside määramise kulude hinnangut.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -17,32 +17,32 @@ ms.locfileid: "9522649"
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Allhankeprojekti meeskonna liikmete ülesandemäärangute maksumus arvutatakse, kasutades **seotud meeskonnaliikme kirjel alltöövõtule lisatud ostu** hinnakirja. See erineb sellest, kuidas töötaja ressursimääranguid kuluarvestusse pannakse, kui töötaja ressursside ülesandemäärangud tehakse kuluarvestuseks, kasutades **projekti** tellijaüksusele lisatud hinnakirja. 
+Alltöövõtuga projektimeeskonna liikmete tööülesannete maksumus arvestatakse alltöövõtja lisatud **Ostu** hinnakirja alusel, mis on seotud meeskonnaliikme kirjega. See erineb töötajate ressursside kuluarvestusest, kui töötajate ressursside ülesannete kulu arvestatakse projekti lepinguosalisele lisatud **Kulu** hinnakirja abil. 
 
-Üldiste projektimeeskonna liikmete puhul, kellele on alltöövõtt, määratakse määrangute kulu, kasutades rollipõhist hinna seadistust allhankele lisatud ostu hinnakirjas. Ostuhindu saab seadistada ka spetsiaalselt iga ressursi jaoks. Neid ressursipõhiseid hindu eelistatakse, kui projektimeeskonna liikmetest koosnevate ülesannete kuluarvestus on lepingulised töötajad. 
+Üldise projektimeeskonna liikmete puhul, kes on sõlminud alltöövõtulepingu, arvutatakse ülesannete maksumus, kasutades alltöövõtulepingule lisatud ostuhinnakirjas rollipõhist hinnaseadistust. Ostuhinnad saab seadistada ka iga ressursi jaoks eraldi. Need ressursispetsiifilised hinnad on prioriteetsed, kui nimetatud projektimeeskonna liikmete kuluülesanded on tähtajalise lepinguga töötajad. 
 
-Rollipõhise ostuhinna ja ressursipõhise ostuhinna kasutamise prioriteet on ajendatud hinnadimensiooni prioriteedi seadistamisest parameetrites **> kogusepõhised hinnakujunduse dimensioonid**.
+Rollipõhise ostuhinna ja ressursispetsiifilise ostuhinna kasutamise prioriteetsuse määrab hinnadimensiooni prioriteedi seadistus jaotises **Parameetrid > Summapõhised hinnadimensioonid**.
 
-See dünaamiliselt tuletatavate hindade funktsioon, mis põhineb alltöövõtjate ostuhindade dimensiooni seadistusel, on sarnane sellega, kuidas täistööajaga töötajate puhul kulu- ja arvemäärad tuletatakse. 
+See alltöövõtja ostuhindade dimensioonide seadistusel põhinevate hindade dünaamilise tuletamise funktsioon sarnaneb täistööajaga töötajate kulu- ja arvemäärade tuletamisega. 
 
-## <a name="creating-task-assignments-for-getting-cost-estimates-of-subcontractor-resources"></a>Ülesandeülesannete loomine alltöövõtja ressursside kuluprognooside saamiseks
+## <a name="creating-task-assignments-for-getting-cost-estimates-of-subcontractor-resources"></a>Tööülesannete koostamine alltöövõtja ressursside kuluprognooside saamiseks
 
-Alltöövõtjate tööülesandeid saab luua kahel viisil: 
-- Vahekaardi Tööülesanded **kasutamine**.
-- **Vahekaardi Meeskond** kasutamine.
+Alltöövõtjatele saab tööülesandeid koostada kahel viisil: 
+- Vahekaardi **Ülesanded** kasutamine.
+- Vahekaardi **Meeskond** kasutamine.
 
-### <a name="creating-resources-assignments-using-the-tasks-tab"></a>Ressursimäärangute loomine menüü Tööülesanded abil
-**Kasutades konkreetse ülesande menüü Tööülesanded** loendit **Ressursid**, saate luua ülesandeülesande nimega ressursi või üldise ressursi jaoks. Kui valite ülesande ripploendist **Määratud ressursid** nimega ressursi ja see ressurss on lepinguline töötaja, määratakse ülesandele nimega ressurss ja luuakse vastav projektimeeskonna liikme kirje, mille töötaja tüübiks **on seatud Lepingutöötaja** ja **Kehtivus** väärtuseks **Kehtetu**. Järgmise juhisena peate avama projektimeeskonna liikme kirje ning valima allhanke- ja allhankeliini. See värskendab ülesandeülesannet, et sellel oleks viide alltöövõtu ja allhanke reale, ning värskendatakse ka meeskonnaliikme olekuks **Kehtiv**.
+### <a name="creating-resources-assignments-using-the-tasks-tab"></a>Ressursiülesannete loomine vahekaardi Ülesanded abil
+Kasutades konkreetse ülesande jaoks olevat loendit **Ressursid** vahekaardil **Ülesanded**, saate luua tööülesande määramise nimelisele ressursile või üldisele ressursile. Kui valite ülesande rippmenüüs **Määratud ressursid** nimega ressursi ja see ressurss on tähtajalise lepinguga töötaja, määratakse nimega ressurss ülesandele ja luuakse vastav projektimeeskonna liikme kirje koos töötaja tüübiga **Tähtajalise lepinguga töötaja** ja **Kehtivus** on seatud väärtusele **Kehtetu**. Järgmise sammuna peate avama projektimeeskonna liikme kirje ja valima alltöövõtu ja alltöövõtu rea. See värskendab ülesande määramist, et see sisaldaks viidet alltöövõtule ja alltöövõtu reale, ning värskendab ka meeskonnaliikme olekuks **Kehtiv**.
 
-Kui otsustate ülesande ripploendist **Määratud ressursid** luua üldise meeskonnaliikme, **võimaldab dialoogis Üldine meeskonnaliikme loomine** valida allhanke- ja allhankerea. Kui ülesandele on määratud üldine ressurss ja luuakse vastav projektimeeskonna liikme kirje, märkate, et projektimeeskonna liikme kirje luuakse nii, et töötaja tüübiks **on seatud Lepingutöötaja** ja **Kehtivuse** väärtuseks **On määratud Kehtivus**.
+Kui otsustate luua ülesande rippmenüüst **Määratud ressursid** üldise meeskonnaliikme, võimaldab dialoog **Üldise meeskonnaliikme loomine** valida alltöövõtu ja alltöövõtu rea. Kui ülesandele on määratud üldine ressurss ja vastav projektimeeskonna liikme kirje luuakse, märkate, et projektimeeskonna liikme kirje luuakse töötaja tüübiga **Tähtajalise lepingu töötaja** ja **Kehtivus** seatud väärtusele **Kehtiv**.
 
-### <a name="creating-project-team-members-using-the-team-tab"></a>Projektimeeskonna liikmete loomine vahekaardi Meeskond abil
-Projekti vahekaardi Meeskond abil saate luua üldise või nimega meeskonnaliikme. Meeskonnaliikme loomisel saate valida allhanke ja allhanke rea. Pärast meeskonnaliikme loomist peate tööülesandele määrama meeskonnaliikme, kasutades ülesande rippmenüüd **Määratud ressursid**. 
+### <a name="creating-project-team-members-using-the-team-tab"></a>Projektimeeskonna liikmete loomine vahekaardil Meeskond
+Kasutades projekti vahekaarti Meeskond, saate luua üldise või nimelise meeskonnaliikme. Meeskonnaliikme loomisel saate valida alltöövõtu ja alltöövõtu rea. Pärast meeskonnaliikme loomist peate määrama meeskonnaliikme ülesandele, kasutades ülesande **Määratud ressursid** rippmenüüd. 
 
-## <a name="updating-estimates"></a>Prognooside ajakohastamine
-Pärast seda, kui olete projektimeeskonna liikmed ülesannetele määranud, peate navigeerima **projekti vahekaardile Prognoosid** ja valima Värskenda **hindu**, et tagada allhankija ressursiülesannete kulumäärade värskendamine allhankelepingule lisatud ostuhinnaloendi põhjal. Hinnanguid ei looda Microsofti Dynamics 365 Project Operations määramata ülesannete jaoks. Selle tulemusena peate looma ülesandeülesanded, et hinnata ja maksta oma projektis erinevaid ülesandeid. 
+## <a name="updating-estimates"></a>Prognooside värskendamine
+Kui olete projektimeeskonna liikmed ülesannetele määranud, peate navigeerima projekti vahekaardile **Prognoosid** ja valima **Värskenda hindu** tagamaks, et alltöövõtjate ressursside määramise kulumäärasid värskendatakse alltöövõtule lisatud ostuhinnakirjas. Rakenduses Microsoft Dynamics 365 Project Operations ei genereerita prognoose määramata ülesannetele. Selle tulemusena peate oma projekti erinevate ülesannete hindamiseks ja maksumuse määramiseks looma tööülesandeid. 
 
-> [MÄRKUS!] Projektimeeskonna liikmed, kelle tüüp **Töötaja on** Lepinguline töötaja **, kuid kellel pole alltöövõtuviidet, märgistatakse projektimeeskonna liikmete** ruudustikus **sobimatuks** **.** Kui selle olekuga projektimeeskonna liikmeid on, avage projektimeeskonna liikme kirje ja värskendage käsitsi allhanke ja allhanke rea välju, et finantskulu prognoos kajastaks täpselt alltöövõtja kulusid **vahekaardil Prognoosid**. 
+> [MÄRKUS!] Projektimeeskonna liikmed, kelle **Töötaja tüüp** on **Tähtajalise lepinguga töötaja**, kuid kellel puudub alltöövõtu viide, märgistatakse väärtusele **Kehtetu** ruudustikus **Projektimeeskonna liikmed**. Kui projektimeeskonnal on selles olekus mõni projektimeeskonna liige, avage projektimeeskonna liikme kirje ja värskendage käsitsi alltöövõtu ja alltöövõtu rea välju, nii et finantskulude prognoos kajastaks täpselt alltöövõtja kulusid vahekaardil **Prognoosid**. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Rakenduse Project Operations Dataverse käsitsi juurutamine koos topeltkirjutuse toega
-description: Selles artiklis selgitatakse, kuidas project operationsi Dataverse rakendust käsitsi juurutada, et see toetaks topeltkirjutust.
+description: See artikkel selgitab, kuidas rakendust Project Operations Dataverse käsitsi juurutada, et see toetaks topeltkirjutust.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
@@ -17,9 +17,9 @@ ms.locfileid: "9028559"
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Selles artiklis selgitatakse, kuidas Microsofti Dynamics 365 Project Operations Microsoft Dataverse käsitsi juurutada, et see toetaks topeltkirjutust. Project Operations tuvastab keskkonna konfiguratsiooni ja lisab eeltingimuste täitumisel topeltkirjutamise lisatoe.
+See artikkel selgitab, kuidas juurutada käsitsi rakendust Microsoft Dynamics 365 Project Operations teenuses Microsoft Dataverse, et see toetaks topeltkirjutust. Project Operations tuvastab keskkonna konfiguratsiooni ja lisab eeltingimuste täitumisel topeltkirjutamise lisatoe.
 
-Kui olete elutsükli teenuste (LCS) kaudu Microsoft Dynamics juurutamise ajal järginud selles artiklis toodud juhiseid, võite integratsiooni (varem tuntud kui Microsoft Power Platform keskkond) Common Data Service juurutamise vahele jätta.
+Kui olete teenuse Microsoft Dynamics Lifecycle Services (LCS) kaudu juurutamise ajal järginud selles artiklis toodud juhiseid, saate Microsoft Power Platformi integratsiooni juurutamise (varem tuntud kui Common Data Service keskkond) vahele jätta.
 
 Project Operationsi teenuses Dataverse juurutamise protsess, et see toetaks topeltkirjutust, omab nelja peamist etappi.
 
@@ -37,7 +37,7 @@ Selle toimingu lõpuleviimiseks peate administraatorina sisse logima.
 3. Valige keskkonna tüüp. Kui registreerusite prooviversiooni jaoks, valige **Prooviversioon (kordustellimusel põhinev)**.
 4. Kinnitage juurutuspiirkond.
 5. Lubage suvand **Loo selle keskkonna joaks andmebaas**. 
-6. Kinnitage keel ja seejärel veenduge, et valuuta vastab teie finants- ja toimingurakenduste valuutale.
+6. Kinnitage keel ja seejärel kontrollige, kas valuuta ühtib teie finants- ja äritoimingute rakenduste valuutaga.
 7. Lubage suvand **Dynamics 365 rakendused** ja veenduge, et välja **Juuruta need rakendused automaatselt** väärtuseks oleks seatud **Puudub**.
 8. Lisage turberühm, kui turberühm on nõutav.
 9. Keskkonna loomiseks valige nupp **Salvesta**.
@@ -62,4 +62,4 @@ Selle toimingu saate teha ainult juhul, kui olete enne Project Operationsi insta
 
 ## <a name="link-your-environments"></a><a name="link"></a>Keskkondade sidumine
 
-Dataverse Pärast keskkonna juurutamist saate lingi seadistada oma finance and operationsi rakendustes. Järgige juhiseid teemas [Oma keskkondade sidumiseks topeltkirjutuse viisardi kasutamine](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Pärast Dataverse’i keskkonna juurutamist saate seadistada oma finants- ja äritoimingute rakendustes lingi. Järgige juhiseid teemas [Oma keskkondade sidumiseks topeltkirjutuse viisardi kasutamine](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

@@ -1,6 +1,6 @@
 ---
 title: Vaikehinnakirjad
-description: Selles artiklis antakse teavet project operationsi müügi- ja omahinna vaikehinnaloendite kohta.
+description: See artikkel annab teavet rakenduse Project Operations vaike-müügihinnakirjade ja omahinnakirjade kohta.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
@@ -25,7 +25,7 @@ Iga projekti hinnapakkumine ja leping rakenduses Dynamics 365 Project Operations
 Süsteem lõpetab järgmise protsessi, et teha kindlaks, milline on projekti hinnapakkumise vaikehinnakiri.
 
 1. Süsteem vaatleb hinnakirjasid, mis on seotud konto projekti hinnakirjadega. 
-1. Kui kontokirjele ei ole lisatud projekti hinnakirju, vaatab süsteem projekti parameetritele lisatud müügihinnakirju, mis vastavad projekti hinnapakkumise valuutale.
+1. Kui kontokirjega ei ole seotud projekti hinnakirjad, vaatleb süsteem projekti parameetritega seotud pakkumise müügi hinnakirjasid, mille valuuta vastab projekti hinnapakkumisele.
 1. Järgmisena kontrollib süsteem projekti hinnapakkumise kuupäevavahemikule vastavate hinnakirjade kehtivuskuupäeva. Eriti kuupäeva, millal hinnapakkumine loodi.
 1. Kui projekti hinnapakkumise kuupäeval kehtib mitu hinnakirja, on kõik hinnakirjad projekti hinnapakkumises vaikimisi.
 1. Kui projekti hinnapakkumise kuupäeval ei kehti ühtegi hinnakirja, pole projekti hinnapakkumisel projekti vaikehinnakirja. Projekti hinnapakkumises kuvatakse hoiatusteade. Teates on kirjas, et kuna projekti hinnakiri pole lisatud, siis teie prognoositavat ja tegelikku projekti ei hinnastata.
@@ -41,38 +41,38 @@ Süsteem lõpetab järgmise protsessi, et teha kindlaks, milline on projekti lep
 
 ## <a name="cost-price-lists"></a>Omahinnakirjad
 
-Omahinnakirjadel ei ole Project Operationsis ühtegi vaikeolemit. Projektikuludeks kasutatava omahinnakirja määramine toimub alati kandepõhiselt. Süsteem lõpetab järgmise protsessi, et teha kindlaks, millist vaikehinnakirja projekti kuludeks kasutada.
+Omahinnakirjadel ei ole Project Operationsis ühtegi vaikeolemit. Projekti kuludeks kasutatava omahinnakirja määratlemine toimub alati tehingupõhiselt. Süsteem lõpetab järgmise protsessi, et teha kindlaks, millist vaikehinnakirja projekti kuludeks kasutada.
 
-1. Süsteem vaatab hinnakirju, mis on lisatud projekti tellija üksusele.
-1. Järgmisena vaatab süsteem nende hinnakirjade kuupäevaefektsust, mis vastavad sissetuleva hinnangu konteksti või tegeliku konteksti kuupäevale.
+1. Süsteem vaatleb hinnakirju, mis on seotud projekti lepingu organisatsiooni üksusega.
+1. Järgmiseks vaatleb süsteem hinnakirjade kehtivat kuupäeva, mis vastab sissetuleva prognoosi konteksti või tegeliku näitaja konteksti kuupäevale.
 
-    - *Hinnangu kontekst* viitab ühele kolmest hindamise kontekstist projektitoimingutes.
+    - *Prognoosi kontekst* viitab kõigile kolmele rakenduse Project Operations prognoosi kontekstile.
 
         - Projekti prognoosi rida
         - Hinnapakkumise rea üksikasjad
         - Lepingurea üksikasjad
 
-    - *Tegelik kontekst* viitab ühele kolmest projektitoimingute tegelike näitajate allikast.
+    - *Prognoosi kontekst* viitab mis tahes kolmele Project Operationsi tegelike näitajate allikatele.
 
-       - Käsitsi loodud tööleheridade sisestamine või parandustöölehel loodud tööleheridade korrigeerimine
-       - Töölehe read, mis luuakse aja-, kulu- või materjalikasutuse logide edastamisel
+       - Käsitsi loodud kirjete töölehele kandmised või parandustöölehel loodud parandustöölehele kandmised.
+       - Töölehele kandmised, mis luuakse aja-, kulu- või materjali kasutuslogide esitamise käigus
        - Arve rea üksikasjad
 
-    Kui projektioperatsioonid vastavad sissetuleva töölehe rea või arve rea üksikasja kuupäevaefektsusele *tegelikus kontekstis*, kasutab **see välja Kande kuupäev**.
+    Kui rakendus Project Operations ühtib sissetuleva ajakirje rea või arve rea üksikasja kuupäevaga the *tegelik kontekst*, kasutab see välja **Tehingu kuupäev**.
 
-    - Kui sissetuleva prognoosi konteksti või tegeliku konteksti kuupäeval kehtib mitu hinnakirja, valitakse viimati loodud hinnakiri.
-    - Kui projekti tellijaorganisatsiooni üksusele ei ole lisatud hinnakirju, vaatab süsteem omahinnakirju, mis on lisatud projekti parameetritele, mis vastavad projekti valuutale.
+    - Kui sissetuleva prognoosikonteksti või tegeliku näitaja konteksti kuupäeval kehtib mitu hinnakirja, valitakse viimati loodud hinnakiri.
+    - Kui projekti tellivale organisatsiooni üksusele hinnakirju lisatud ei ole, vaatab süsteem omahinnakirju, mis on lisatud projekti valuutale vastavatele projektiparameetritele.
 
 ## <a name="enable-multi-currency-cost-price-list"></a>Luba mitme valuutaga omahinnakiri
 
-Selle sätte leiate jaotisest **Seaded** \> **Parameetrid.** Vaikeväärtus on **Ei**.
+Selle sätte leiate jaotisest **Sätted** \> **Parameetrid**. Vaikeväärtus on **Ei**.
 
-Kui see säte on lubatud (st väärtus on seatud väärtusele **Jah**), käitub süsteem järgmiselt:
+Kui see säte on lubatud (st väärtuseks on seatud **Jah**), käitub süsteem järgmiselt.
 
-- See võimaldab organisatsiooniüksusega seostada mis tahes valuutas omahinnakirju. Näiteks saab USD valuutas organisatsiooniüksusele lisada EUR-valuutas omahinnaloendi. Süsteem kinnitab jätkuvalt, et organisatsiooniüksusele lisatud omahinnaloenditel ei ole kattuvat kuupäevaefektsust.
-- See kinnitab, et projekti parameetritele lisatud omahinnaloenditel ei ole kattuvat kuupäevaefektsust, isegi kui neil on erinevad valuutad. See käitumine erineb vaikekäitumisest (st käitumisest, kui väärtuseks **on seatud Ei**). Vaikekäitumises valideeritakse ainult sama **valuutaga** omahinnaloendid kuupäeva mittekattuvuse suhtes.
-- Sissetuleva kande kontekstis määrab see omahinnaloendi ainult kuupäeva mõjususe põhjal. See käitumine erineb vaikekäitumisest, kus süsteem valib omahinnaloendi, mis vastab nii projekti valuutale kui ka kuupäeva mõjususele.
+- See võimaldab mis tahes valuutas omahinnakirjasid seostada organisatsiooniüksusega. Näiteks saab organisatsiooniüksusele lisada USD valuutas omahinnakirja EUR valuutas. Süsteem kontrollib jätkuvalt, et organisatsiooniüksusele lisatud omahinnakirjadel ei oleks kuupäevade kehtivus kattuv.
+- See kinnitab, et projekti parameetritele lisatud omahinnakirjad ei kattu kuupäevaga, isegi kui neil on erinevad valuutad. See käitumine erineb vaikekäitumisest (st käitumisest, kui väärtuseks on seatud **Ei**). Vaikekäitumise korral kinnitatakse ainult need omahinnakirjad, millel on **sama** valuuta.
+- Sissetuleva tehingu kontekstis määrab see omahinnakirja ainult kuupäeva kehtivuse alusel. See käitumine erineb vaikekäitumisest, kus süsteem valib omahinnakirja, mis vastab nii projekti valuutale kui ka kuupäeva kehtivusele.
 
-Nende käitumise muutuste tõttu saavad Project Operationsi kliendid hallata globaalset omahinnaloendit, mis on asjakohane kogu ettevõtte jaoks. Neil ei pea olema hinnakirju igas toimingute valuutas. Ülemaailmsel hinnakirjal on kuupäevaline efektiivsus ja see võimaldab seadistada kulumäärasid mis tahes valuutas konkreetse hinnakujundusmõõtme väärtuste kombinatsiooni jaoks. Omahinnaloendi valuutat kasutatakse ainult vaikeväärtuste **sisestamiseks rollihindade**, **Kategooria hindade** ja **Hinnakirjaüksuse** kirjete loomisel. Seda ei kasutata hinnakirja määramiseks.
+Tänu nendele käitumismuutustele on rakenduse Project Operations klientidel võimalik säilitada globaalset omahinnakirja, mis on asjakohane kogu ettevõtte jaoks. Neil ei pea olema hinnakirju igas tegevusvaluutas. Ülemaailmne hinnakiri hakkab kehtima alates kuupäevast ja võimaldab määrata kulumäärad mis tahes valuutas konkreetse hinnadimensiooni väärtuste kombinatsiooni jaoks. Omahinnakirja valuutat kasutatakse ainult vaikeväärtuste sisestamiseks, kui luuakse kaubakirjed **Rollihinnad**, **Kategooria hinnad** ja **Hinnakiri**. Seda ei kasutata hinnakirja määratlemiseks.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

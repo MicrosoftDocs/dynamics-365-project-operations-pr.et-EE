@@ -1,6 +1,6 @@
 ---
 title: Projektikategooriate konfigureerimine
-description: Selles artiklis antakse teavet projektikategooriate seadistamise kohta.
+description: See artikkel annab teavet projektikategooriate seadistamise kohta.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
@@ -35,7 +35,7 @@ Kannete kategooriad on määratletud rakenduse Project Operations moodulis.
 
 ## <a name="shared-categories"></a>Ühiskasutuses kategooriad
 
-Dynamics 365 kasutab ühiskategooriate kontseptsiooni kulude kategoriseerimiseks erinevates rakendustes (nt Dynamics 365 Finance, Dynamics 365 Supply Chain ja Dynamics 365 Project Operations. Iga loodud kande kategooria jaoks loob Project Operations automaatselt neli seotud üiskasutuses kategooriat: tunnid, kulu, tasud ja kaup. Saate ühiskasutuses kategooriaid läbi vaadata, kui avate **Projektihaldus ja raamatupidamine** \> **Seadistus** \> **Kategooriad** \> **Ühiskasutuses kategooriad**.
+Dynamics 365 kasutab jagatud kategooriate kontseptsiooni kulude kategoriseerimiseks erinevates rakendustes, näiteks Dynamics 365 Finance, Dynamics 365 Supply Chain, ja Dynamics 365 Project Operations. Iga loodud kande kategooria jaoks loob Project Operations automaatselt neli seotud üiskasutuses kategooriat: tunnid, kulu, tasud ja kaup. Saate ühiskasutuses kategooriaid läbi vaadata, kui avate **Projektihaldus ja raamatupidamine** \> **Seadistus** \> **Kategooriad** \> **Ühiskasutuses kategooriad**.
 
 ## <a name="project-categories"></a>Projektikategooriad
 

@@ -1,6 +1,6 @@
 ---
 title: Projekti mehitamine lepinguliste töötajatega ja allhankelepinguga ressursiruumiga
-description: Selles artiklis selgitatakse, kuidas saab projekti nõudeid komplekteerida Microsofti lepinguliste töötajate või allhankevõimsuse abil Dynamics 365 Project Operations.
+description: See artikkel selgitab, kuidas projektinõudeid saab teenindada, kasutades rakenduse Microsoft Dynamics 365 Project Operations lepingulisi töötajaid või allhanget.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -17,38 +17,38 @@ ms.locfileid: "9522430"
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Üldised projektimeeskonna liikmed võivad olla töötajad või lepingulised töötajad. Lepinguliste töötajatega projekti personalistamisel saate piirata oma personalivalikud konkreetsete lepinguliste töötajatega, kes on määratud allhankeliinile. 
+Üldine projektimeeskond võib koosneda töötajatest või lepingulistest töötajatest. Töötajate värbamisel lepinguliste töötajatega saate piirata oma värbamisvõimalusi konkreetsete lepinguliste töötajatega, kes on määratud allhankelepingu reale. 
 
-## <a name="search-for-staff-resource-requirements-with-contract-workers-that-belong-to-a-specific-subcontract-line"></a>Kindlale allhankereale kuuluvate lepinguliste töötajatega personali ressursinõuete otsimine
+## <a name="search-for-staff-resource-requirements-with-contract-workers-that-belong-to-a-specific-subcontract-line"></a>Otsige töötajate ressursivajadusi lepinguliste töötajatega, kes kuuluvad konkreetsele allhankelepingu reale
 
-Kindlale allhankeliinile kuuluvate lepinguliste töötajate otsimiseks ja personali ressursinõuete täitmiseks tehke järgmist.
+Konkreetsele allhankelepingu reale kuuluvate lepinguliste töötajate otsimiseks ja töötajate ressursinõuete otsimiseks toimige järgmiselt.
 
-1. Looge üldine projektimeeskonna liige, kes viitab allhankele ja allhankereale.
-2. Looge selle üldise projektimeeskonna liikme jaoks ressursivajadus, **kasutades projektimeeskonna liikmete alamruudustiku nuppu Loo nõue**.
-3. Valige meeskonnaliikme rida ja seejärel valige **alamruudustikus nupp Broneeri**. 
-4. See avab ajakavatahvli nõude kontekstiga. Koos muude atribuutidega, nagu kuupäevad, roll ja organisatsiooniüksuse väljad, täidetakse ajakavapaneeli filtrid ressursinõudest automaatselt ka hankija, allhanke ja allhanke rea väljadega.
-5. Süsteem otsib filtrikriteeriumidele vastavaid ressursse ja loetleb need. 
-6. Valige üks filtreeritud ressurssidest ja broneerige nõude jaoks ressurss. 
-7. Projektimeeskonna liige luuakse ja seda värskendatakse alltöövõtu ja allhanke reaviidetega. Minge jaotisse **Projekti prognoosid** ja valige **Värskenda hindu**, et näha ressursimäärangu värskendatud kulu. 
+1. Looge üldine projektimeeskonna liige, kes viitab allhankele ja allhankelepingu reale.
+2. Looge selle üldise projektimeeskonna liikme jaoks ressursinõue, kasutades projektimeeskonna liikmete alamruudustiku nuppu **Nõude loomine**.
+3. Valige meeskonnaliikme rida ja seejärel alamruudustikul nupp **Broneeri**. 
+4. See avab nõuete kontekstiga ajakavatahvli. Koos muude atribuutidega, nagu kuupäevad, roll ja organisatsiooniüksuse väljad, täidetakse ajakavatabeli filtrid automaatselt ka ressursinõude hankija, allhankelepingu ja allhankelepingu rea väljadega.
+5. Süsteem otsib filtrikriteeriumitele vastavaid ressursse ja loetleb need. 
+6. Valige üks filtreeritud ressurssidest ja broneerige ressurss nõude jaoks. 
+7. Projektimeeskonna liige luuakse ja värskendatakse allhanke- ja allhankelepingurea viidetega. Minge jaotisesse **Projektiprognoosid** ja valige **Hindade värskendamine**, et näha ressursi määramise värskendatud maksumust. 
 
 > [!NOTE]
-> Projektimeeskonna liikme värskendamine allhanke ja allhanke rea viitega ei pruugi broneerimise ajal alati võimalik olla, kui ressurss on määratud mitmele allhankereale. Kui süsteem ei saa projektimeeskonna liiget alltöövõtu ja allhankereaga värskendada, siis avage projektimeeskonna liikme kirje ja värskendage neid välju käsitsi, et finantskulu prognoos kajastaks täpselt alltöövõtja kulu.
+> Projektimeeskonna liikme värskendamine allhanke ja allhankelepingurea viitega ei pruugi broneerimise ajal olla alati võimalik, kui ressurss on määratud mitmele alltöövõtuliinile. Kui süsteem ei saa projektimeeskonna liiget allhanke ja allhankelepingureaga värskendada, avage projektimeeskonna liikme kirje ja värskendage neid välju käsitsi nii, et finantskulu prognoos kajastaks täpselt allhanke kulu.
 
-## <a name="search-for-and-staff-resource-requirements-with-any-contract-worker"></a>Otsing ja personali ressursinõuded mis tahes lepingulise töötajaga
+## <a name="search-for-and-staff-resource-requirements-with-any-contract-worker"></a>Otsige iga lepingulise töötajaga ja personaliressursside nõudeid
 
-Mis tahes lepingulise töötaja otsimiseks ja personali ressursinõuete täitmiseks toimige järgmiselt.
+Mis tahes lepingulise töötaja otsimiseks ja personalivajaduste otsimiseks toimige järgmiselt.
 
-1. Looge üldine projektimeeskonna liige.
-2. Looge selle üldise projektimeeskonna liikme jaoks ressursivajadus, **kasutades projektimeeskonna liikmete alamruudustiku nuppu Loo nõue**.
-3. Valige meeskonnaliikme rida ja seejärel valige **alamruudustikus nupp Broneeri**. 
-4. See avab ajakavatahvli nõude kontekstiga. Koos muude atribuutidega, nagu kuupäevad, roll ja organisatsiooniüksuse väljad, täidetakse ajakavapaneeli filtrid ressursinõudest automaatselt ka hankija, allhanke ja allhanke rea väljadega. Kuna nõudel ei olnud täidetud alltöövõtu või allhanke rea väärtusi, on need atribuudid filtripaanil tühjad.
-5. Süsteem otsib filtrikriteeriumidele vastavaid ressursse ja loetleb need.
-6. **Värskendage filtripaani välja Töötaja tüüp** väärtuseks **Lepinguline töötaja**, et piirata otsingut lepinguliste töötajatega. Värskendage **filtripaanil hankijat**, et valida hankija, kes piirab otsingut, et kuvada ainult konkreetsele hankijaettevõttele kuuluvad lepingulised töötajad.
+1. Projekti üldise meeskonnaliikme loomine.
+2. Looge selle üldise projektimeeskonna liikme jaoks ressursinõue, kasutades projektimeeskonna liikmete alamruudustiku nuppu **Nõude loomine**.
+3. Valige meeskonnaliikme rida ja seejärel alamruudustikul nupp **Broneeri**. 
+4. See avab nõuete kontekstiga ajakavatahvli. Koos muude atribuutidega, nagu kuupäevad, roll ja organisatsiooniüksuse väljad, täidetakse ajakavatabeli filtrid automaatselt ka ressursinõude hankija, allhankelepingu ja allhankelepingu rea väljadega. Kuna nõudes ei olnud täidetud ühtegi allhankelepingut ega allhankelepingurea väärtust, on need atribuudid filtripaanil tühjad.
+5. Süsteem otsib filtrikriteeriumitele vastavaid ressursse ja loetleb need.
+6. Värskendage filtripaanil välja **Töötaja tüüp** väärtuseks **Lepinguline töötaja**, et piirata otsingut lepinguliste töötajatega. Värskendage filtripaanil valikut **Hankija**, et valida hankija, et piirata otsingut nii, et kuvatakse ainult lepingulised töötajad, kes kuuluvad konkreetsele hankijaettevõttele.
 7. Valige loendist lepinguline töötaja ja broneerige nõude jaoks ressurss.
-8. Luuakse projektimeeskonna liige. Projektimeeskonna liiget ei värskendata aga ühegi allhanke- või allhankereaga ja seetõttu ei arvestata ressursimäärangut allhanke hinnakujunduse alusel. Värskendage projektimeeskonna liiget käsitsi allhankereaga ja minge jaotisse **Projekti prognoosid** ning valige **Ressursimäärangu värskendatud kulu kuvamiseks värskenda hinnad**.
+8. Projekti meeskonnaliikme loomine. Kuid projektimeeskonna liiget ei värskendata ühegi allhankelepingu või allhankelepingureaga ja seetõttu ei arvestata ressursi määramist allhankehinna alusel. Värskendage projektimeeskonna liiget käsitsi allhankelepingureaga ja minge jaotisesse **Projekti prognoosid** ja valige **Hindade värskendamine**, et näha ressursi määramise värskendatud maksumust.
 
 > [!NOTE]
-> Projektimeeskonna liikmed, kelle tüüp **Töötaja on** Lepinguline töötaja **, kuid kellel pole alltöövõtuviidet, märgistatakse projektimeeskonna liikmete** ruudustikus **sobimatuks** **.** Kui selle olekuga projektimeeskonna liikmeid on, avage projektimeeskonna liikme kirje ja värskendage käsitsi allhanke ja allhanke rea välju, et finantskulu prognoos kajastaks täpselt alltöövõtja kulusid **vahekaardil Prognoosid**. 
+> Projektimeeskonna liikmed, kellel on **Töötaja tüüp** kui **Lepinguline töötaja**, kuid kellel ei ole allhankelepingut, on märgitud kui **Kehtetu** ruudustikus **Projektimeeskonna liikmed**. Kui projektimeeskonnal on selles olekus mõni projektimeeskonna liige, avage projektimeeskonna liikme kirje ja värskendage käsitsi alltöövõtu ja alltöövõtu rea välju, nii et finantskulude prognoos kajastaks täpselt alltöövõtja kulusid vahekaardil **Prognoosid**. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

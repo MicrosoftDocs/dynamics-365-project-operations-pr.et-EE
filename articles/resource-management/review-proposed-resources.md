@@ -1,6 +1,6 @@
 ---
 title: Soovitatavate ressursside ülevaade
-description: Selles artiklis antakse teavet selle kohta, kuidas projektiressursse välja pakkuda.
+description: See artikkel annab teavet projektile ressursside pakkumise kohta.
 author: ruhercul
 ms.date: 08/18/2021
 ms.topic: article
@@ -40,8 +40,8 @@ Soovitatud ressursside ülevaatamiseks toimige järgmiselt.
     Ilmnevad järgmised olekuvärskendused.
 
     - Lehel **Ajakava abimees** värskendatakse olekuindikaatoreid näitamaks, et broneering on soovituslik, mitte fikseeritult broneeritud.
-    - Ressursitaotlusel peaks taotluse läbivaataja muutma olekuks **Vajaduste läbivaatus**.
-    - **Projekti vahekaardil Meeskond** muudetakse üldise meeskonnaliikme **taotluse oleku** väärtus automaatselt väärtuseks **Vajaduste läbivaatus**.
+    - Ressursitaotluse korral peaks päringu läbivaataja muutma olekuks **Vajab ülevaatust**.
+    - Projekti vahekaardil **Meeskond** muudetakse üldiste meeskonnaliikmete väärtus **Taotluse olek** automaatselt väärtusele **Vajab ülevaatamist**.
 
 Projektijuht saab ettepaneku kas vastu võtta või tagasi lükata.
 

@@ -1,6 +1,6 @@
 ---
 title: Projekti näidisarved
-description: Selles artiklis antakse teavet projektitoimingute proforma projektiarvete kohta.
+description: See artikkel annab teavet Project Operationsi projekti näidisarvete kohta.
 author: rumant
 ms.date: 04/06/2021
 ms.topic: article

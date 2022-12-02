@@ -1,6 +1,6 @@
 ---
 title: Projektimallid
-description: Selles artiklis antakse teavet selle kohta, kuidas kasutada projektimalle projekti kiireks häälestamiseks.
+description: See artikkel annab teavet selle kohta, kuidas kasutada projektimalle kiireks projekti seadistamiseks.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

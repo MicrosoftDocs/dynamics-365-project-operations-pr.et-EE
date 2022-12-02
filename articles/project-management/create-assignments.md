@@ -1,6 +1,6 @@
 ---
 title: Ressursimääramiste loomine
-description: Selles artiklis antakse teavet üldiste ja nimega ressursimääratluste loomise kohta.
+description: See artikkel annab teavet üldiste ja nimeliste ressursside määramise kohta.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: ruhercul
 ms.openlocfilehash: 31404fc35d72acb9ad791ef8a755f23108f528ad
 ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: et-EE
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8933487"
@@ -18,7 +18,7 @@ ms.locfileid: "8933487"
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
 
-Ressursimääramine on otsene projektimeeskonna liikme otsene seostamine lehe ülesandega. Selles artiklis antakse teavet ressursside määramise erinevate viiside kohta.
+Ressursimääramine on otsene projektimeeskonna liikme otsene seostamine lehe ülesandega. See artikkel annab teavet ressursside määramise eri viiside kohta.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Üldise meeskonnaliikme loomine ülesannete määramistega
 

@@ -1,6 +1,6 @@
 ---
 title: Projekti parandusarved
-description: Selles artiklis antakse teavet selle kohta, kuidas rakenduses Project Operations parandusarveid luua ja kinnitada.
+description: See artikkel annab teavet selle kohta, kuidas luua ja kinnitada rakenduses Project Operations parandusarveid.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

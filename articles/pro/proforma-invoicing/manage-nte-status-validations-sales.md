@@ -1,6 +1,6 @@
 ---
 title: Mitteületatava oleku ja valideerimiste haldamine
-description: Selles artiklis antakse teavet projektitoimingutes tehtud mitteületavate limiidikontrollide kohta.
+description: See artikkel annab teavet rakenduses Project Operations tehtavatest mitteületatava limiidi kontrollidest.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

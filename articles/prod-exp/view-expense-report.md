@@ -1,6 +1,6 @@
 ---
 title: Kuluaruande vaatamine pearaamatust või hangetest
-description: Selles artiklis selgitatakse, kuidas vaadata algset kuluaruannet, milles kanne ilmnes.
+description: See artikkel kirjeldab, kuidas kuvada algset kuluaruannet, mis tehingut sisaldas.
 author: saraschi2
 ms.date: 02/26/2018
 ms.topic: article

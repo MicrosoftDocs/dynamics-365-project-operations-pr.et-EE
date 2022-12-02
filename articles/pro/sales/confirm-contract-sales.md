@@ -1,6 +1,6 @@
 ---
 title: Projekti lepingu kinnitamine
-description: Selles artiklis antakse teavet lepingu kinnitamise kohta Project Operationsis.
+description: See artikkel annab teavet selle kohta, kuidas kinnitada rakenduses lepingut Project Operations.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

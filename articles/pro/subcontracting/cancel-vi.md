@@ -1,6 +1,6 @@
 ---
 title: Projekti hankija arve tühistamine
-description: Selles artiklis selgitatakse, kuidas tühistada projekti hankija arve Microsoftis Dynamics 365 Project Operations ja projekti hankija arve tühistamise finantsmõju.
+description: See artikkel selgitab, kuidas tühistada projekti hankija arve teenuses Microsoft Dynamics 365 Project Operations ja projekti hankija arve tühistamise finantsmõju.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
@@ -17,17 +17,17 @@ ms.locfileid: "9261085"
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
-Pärast hankija arve kinnitamist ei saa seda redigeerida ega kustutada. Kui kinnitatud hankija arvel ilmnes tõrge, saate kasutada toimingut Tühista hankija arve mõju tagasipööramiseks ja uue hankijaarve loomiseks.
+Pärast hankija arve kinnitamist ei saa seda muuta ega kustutada. Kui kinnitatud hankija arvel ilmnes viga, saate hankija arve mõju tühistamiseks ja uue hankija arve loomiseks kasutada tegevust Tühista.
 
-Kui valite **hankija arvel käsu Tühista**, toimub järgmine käitumine.
+Kui valite hankija arvel käsu **Tühista**, ilmneb järgmine käitumine.
 
-1. Hankija arve olekuks värskendatakse olekut **Tühistatud**.
-2. Tühistatud hankija arve ja sellega seotud kirjed muutuvad kirjutuskaitstuks ning neid ei saa redigeerida ega kustutada.
-3. Kõik kulu tegelikud kulud, mis loodi hankija arve ridade põhjal hankija arve kinnitamise osana, tühistatakse.
-4. Kui sobitamisprotsessi osana lingiti hankija arve ridadega tegelikke kuluartikleid, tühistas algne hankija arve kinnitus need. Hankija arve tühistamise ajal luuakse need tegelikud kulusummad uuesti. Lähtepunktid viitavad aja, kulu või materjalikasutuse kirjetele.
-5. Pärast hankija arve tühistamist saate uuesti luua parandustöölehed, töödelda ajakirjete tagasikutsumisi ja tühistada algse aja, kulu või materjali tegelike näitajate kinnitamise.
+1. Hankija arve olekuks värskendatakse **Tühistatud**.
+2. Tühistatud hankija arve ja sellega seotud kirjed muutuvad kirjutuskaitstuks ning neid ei saa muuta ega kustutada.
+3. Kõik kulu tegelikud näitajad, mis loodi hankija arve ridade alusel hankija arve kinnitamise osana, tühistatakse.
+4. Kui mis tahes kulude tegelikud näitajad on lingitud hankija arve ridadega võrdlusprotsessi osana, muutis algse hankija arve kinnitus need ümber. Hankija arve tühistamise ajal luuakse need kulu tegelikud näitajad uuesti. Lähtepunktid viitavad aja-, kulu- või materjalikasutuse kirjetele.
+5. Pärast hankija arve tühistamist saate taas luua paranduspäevikuid, töödelda aja sissekannete tagasikutseid ja tühistada esialgse aja, kulu või materjalide tegelike näitajate kinnitamise.
 
 > [!NOTE]
-> Tühistada saab ainult kinnitatud projekti hankija arveid. Hankija arveid teistes osariikides ei saa tühistada.
+> Tühistada saab ainult kinnitatud projekti hankija arveid. Teiste osariikide hankija arveid ei saa tühistada.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

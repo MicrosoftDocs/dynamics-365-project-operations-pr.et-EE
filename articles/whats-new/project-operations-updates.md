@@ -1,6 +1,6 @@
 ---
 title: Rakenduse Project Operations värskendused
-description: See artikkel annab teavet Dynamics 365 Project Operations.
+description: See artikkel sisaldab teavet rakenduse Dynamics 365 Project Operations väljastatud versioonide kohta.
 author: sigitac
 ms.date: 03/28/2022
 ms.topic: article
@@ -25,7 +25,7 @@ _**Kehtib järgmiste puhul:** Project Operations ressursipõhiste/mittelaopõhis
 Dynamics 365 Project Operations koosneb kahest komponendist.
 
 - Project Operations keskkonnas Dataverse katab võimalusi alates müügivõimalusest kuni näidisarveldamiseni. Dataverse'i kasutatakse Project Operationsi lihtjuurutuses ja ressursi-/mittelaopõhiste stsenaariumide juurutamises.
-- Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnas hõlmab kulude haldamise võimalusi, projektiarvestust ja tulude kajastamist. Finance and Operationsi rakenduse keskkonda kasutatakse rakenduses Project Operations ressursi-/varumata stsenaariumide jaoks ja Project Operationsis varu-/tootmispõhiste stsenaariumide jaoks.
+- Projektihaldus ja raamatupidamine rakenduse Dynamics 365 Finance keskkonnas hõlmab kuluhalduse võimalusi, projekti raamatupidamist ja tulu kajastamist. Finants- ja äritoimingute rakenduse keskkonda kasutatakse Project Operationsi ressursipõhiste/mittelaopõhiste stsenaariumite jaoks ja Project Operationsi ressursi-/tootmispõhiste stsenaariumite jaoks.
 
 ## <a name="project-operations-release-notes"></a>Project Operationsi versioonimärkmed
 - Project Operationsi uusimad versioonimärkmed [ressursipõhise/mittelaopõhiste](whats-new-july-2022-resource-based.md) stsenaariumide jaoks.
@@ -34,11 +34,11 @@ Dynamics 365 Project Operations koosneb kahest komponendist.
 
 ## <a name="project-operations-latest-version"></a>Project Operationsi uusim versioon
 
-| Project Operations Dataverse'i keskkonnas | Projektijuhtimine ja raamatupidamine Finance and Operationsi rakenduste keskkondades | 
+| Project Operations Dataverse'i keskkonnas | Projektihaldus ja raamatupidamine finants- ja äritoimingute rakenduste keskkondades | 
 | --- | --- |
 | 4.45.0.53 | 10.0.29 |
 
-Project Operations Resource’i / ladustamata stsenaariumi puhul soovitame kasutada topeltkirjutusega orkestreerimisversiooni 2.3.1.15 või uuemat.
+Project Operationsi ressursipõhise/mittelaopõhise stsenaariumi puhul soovitame kasutada topeltkirjutuse orkestreerimise versiooni 2.3.1.15 või hilisemat.
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Project Operationsi väljalaske ajakava Dataverse'i keskkonnas
 
@@ -66,7 +66,7 @@ Project Operationsi uuendused Dataverse'i keskkonnas on saadaval igakuiselt.
 | Jaam 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
 |   &nbsp;  | Põhja-Ameerika         |  4.46.0.60      | Lõpetatud           | Lõpetatud            | TBD           | 04. november, 2022       |
 
-## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Projektihalduse ja raamatupidamise väljalaskegraafik finance and operationsi rakenduste keskkonnas
+## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Projektihalduse ja raamatupidamise väljalaske ajakava finants- ja äritoimingute rakenduste keskkonnas
 
 Projektihalduse ja raamatupidamise värskendused avaldatakse kahekda korda aastas.
 

@@ -1,6 +1,6 @@
 ---
 title: Allhankelepingute päise üksikasjad
-description: Selles artiklis selgitatakse allhanke päises Project Operations pakutavaid funktsioone.
+description: See artikkel kirjeldab rakenduses Project Operations allhankelepingu päises antud funktsionaalsust.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "9522555"
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Selles artiklis selgitatakse allhanke päises pakutavaid funktsioone Dynamics 365 Project Operations.
+See artikkel kirjeldab rakenduses Dynamics 365 Project Operations allhankelepingu päises antud funktsionaalsust.
 
 Kui projektijuht projekte kavandab ja käivitab, võib ta palgata alltöövõtjaid ja osta hankijatelt tooteid ja teenuseid. Kui projektijuhil on vaja tooteid või teenuseid osta, võib ta Project Operationsis allhankelepingu luua.
 
@@ -32,7 +32,7 @@ Allhankelepingu loomiseks läbige järgmised etapid.
     |---|------|---| 
     | Nimetus | Allhankelepingu nimi. | Kõigis allhankelepingu ripploendis on allhankelepingu nimi loetletud esimeses veerus, et aidata allhankelepingut tuvastada. | 
     | Kirjeldus | Allhankelepingul ostetavate teenuste ja toodete lühikirjeldus. | Pole |
-    | Tarnija | Selle ettevõtte nimi, millelt tooteid ja teenuseid ostetakse. Sellel kontokirjel on seosetüüp **Hankija** või **Tarnija**. | Vastavalt valitud hankijale sisestatakse vaikeväärtused automaatselt järgmistele väljadele:<br/> **• Valuuta** </br> **• Hinnakirjad** </br> **• Maksetingimused**</br> **• Makse aadress**</br> **• Maksja aadress**</br> **• Maksja nimi** </br>**• Hankija kontohaldur**|
+    | Hankija | Selle ettevõtte nimi, millelt tooteid ja teenuseid ostetakse. Sellel kontokirjel on seosetüüp **Hankija** või **Tarnija**. | Vastavalt valitud hankijale sisestatakse vaikeväärtused automaatselt järgmistele väljadele:<br/> **• Valuuta** </br> **• Hinnakirjad** </br> **• Maksetingimused**</br> **• Makse aadress**</br> **• Maksja aadress**</br> **• Maksja nimi** </br>**• Hankija kontohaldur**|
     | Allhankelepingu kuupäev | Allhankelepingu loomise kuupäev. | Allhankelepingu kuupäeva kasutatakse õige ostu hinnakirja valimiseks kas seotud hankijatele lisatud hinnakirjadest või projekti parameetritest. |
     | Oleku põhjus | Allhankelepingu olek. | Olek määratleb, kus allhankeleping ettevõtte tegevuses paikneb ning kas seda saab redigeerida. <br/>Väärtused hõlmavad järgmist.<br>• **Mustand**: lepinguid saab redigeerida. Saate redigeerida ainult neid lepinguid, mille olek on **Mustand**.<br/>• **Kinnitatud**: läbirääkimised tarnijaga on lõpetatud ja allhankeleping on kohaletoimetamiseks kinnitatud. <br/>• **Suletud**: allhankelepingu kohaletoimetamine on lõpule viidud.<br/>• **Tühistatud**: allhankeleping tühistati ja tarne pole kavandatud.  | 
     | Valuuta | Valuuta, milles tooted ja teenused ostetakse. Vaikeväärtus sisestatakse hankija kontolt automaatselt, kuid seda saab muuta. | Allhankelepingu valuutat kasutatakse ostu hinnakirja valimiseks kas seotud hankijatele lisatud hinnakirjadest või projekti parameetritest. Allhankelepinguga saab seostada hinnakirju teises valuutas. Aja, kulutuste ja materjalide kulu, mille tarnija ressursid selle allhankelepingu järgi tarnivad, kirjendatakse projektis selles valuutas. Pärast allhankelepingu kirje salvestamist saab allhankelepingu valuutat muuta.|

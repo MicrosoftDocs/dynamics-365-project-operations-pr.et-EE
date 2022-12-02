@@ -1,6 +1,6 @@
 ---
 title: Hankija arveread aja jaoks
-description: Selles artiklis selgitatakse, kuidas salvestada hankija arve ridu ajakulude jaoks, mille alltöövõtjad sisestavad.
+description: See artikkel selgitab, kuidas salvestada hankija arve ridu allhanke kulutatud ajakulude jaoks.
 author: rumant
 ms.date: 03/15/2022
 ms.topic: article
@@ -17,30 +17,30 @@ ms.locfileid: "9262007"
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
-Microsofti Dynamics 365 Project Operations hankijaarvel võivad olla hankija arve read aja jooksul. Projektijuhid saavad kasutada hankija arve ridu, et salvestada projektides alltöövõtja aja kulud.
+Rakenduse Microsoft Dynamics 365 Project Operations hankija arvel võivad olla hankija arve read aja kohta. Projektijuhid saavad kasutada hankija arve ridu aja jaoks, et registreerida projektide allhanke ajakulu.
 
-Hankija arve read aja kohta võivad, kuid ei pruugi viidata allhankereale aja kohta. Kui hankija arve rida aja kohta viitab allhankele, saavad projektijuhid sobitada ja kontrollida hankija arve rea poolt arveldatavat aega allhankijate poolt registreeritud ja projektijuhtide poolt projektis kinnitatud ajaga.
+Hankija arve ajaread võivad viidata, kuid ei pruugi viidata aja osas allhankelepingureale. Kui hankija arve rida viitab allhankelepingule, saavad projektijuhid võrrelda ja kontrollida hankija arveldatava aja ja allhanke poolt registreeritud ja projekti projektijuhtide poolt kinnitatud aega.
 
-Järgmine tabel annab teavet hankija arve ridade väljade kohta aja jooksul.
+Alljärgnevas tabelis on esitatud teave hankija arveridade aja väljade kohta.
 
 | Väli | Kirjeldus | Funktsionaalne mõju |
 | --- | --- | --- |
-| Nimetus | Hankija arve rea nimi, mis aitab tuvastada. | See nimi kuvatakse esimese veeruna kõigis otsingutes, mis põhinevad hankija arve ridadel. |
-| Kirjeldus | Hankija poolt hankija arve real arveldatavate teenuste lühikirjeldus. | Pole |
-| Allhankeleping | Alltöövõtt, millelt teenused algselt telliti. | Kui hankija arve jaoks on valitud alltöövõtt, pärivad kõik hankija arve read selle valiku. Hankija arvel ei tohi olla hankija arve ridu, mis viitavad erinevatele allhangetele. |
-| Allhanke liin | Alltöövõtuliin, millelt teenuseid telliti. Valitavate allhankeliinide loend on piiratud valitud allhankelepingu ridadega. | Kui hankija arve real on valitud aeg allhanke rida, sisestatakse väljade Projekt, Roll **ja** Broneeritav ressurss **vaikeväärtused** allhanke rea vastavatelt **väljadelt.** Kui valitud allhankereal on väärtused **väljadel Projekt**, **Roll** ja **Broneeritav**, ei tohi hankija arve rea vastavate väljade väärtused nendest väärtustest erineda. |
-| Tehingu kuupäev | Kuupäev, millal hankija arve rea tegelik kulu projektis salvestatakse. | Pole |
-| Kande klass | Vaikeväärtus on **Aeg**. | Väärtus **Time** näitab, et hankija arve rida kasutatakse allhankija aja arve summa salvestamiseks. |
-| Project | Projekti nimi, mille kohta arvet esitavaid teenuseid kasutati. | See väli on kohustuslik ja seda ei saa tühjaks jätta. |
-| Toiming | Projektiülesande nimi, mille kohta arvet esitavaid teenuseid kasutati. See väli on saadaval ainult juhul, kui projekt on valitud. Projektiülesande valik on valikuline. | Kui see väli jäetakse tühjaks, saab projektijuht sobitada hankija arve rea ajaga, mille alltöövõtja ressursid salvestavad projekti mis tahes ülesandes. Kui hankija arve rida ei viita allhankereale ja see väli jäetakse tühjaks, ei lingita hankija arve rea loodud tegelikku kulu ühegi arveldamata müügi tegeliku kuluga. Sel juhul, kui ülesandepõhine arveldamine on seadistatud, ei pruugi kulude eest lõppkliendile arvet esitada. |
-| Roll | Alltöövõturessursside roll, mille eest arve esitatakse. | See väli määrab rolli, mida täidavad allhankeressursid, mille aja eest hankija arvel arveldatakse. |
-| Broneeritav ressurss | Alltöövõtja nimi, kelle kohta arve esitatakse. Broneeritava ressursi valik on valikuline. | Kui see väli jäetakse tühjaks, saab projektijuht sobitada hankija arve rea ajaga, mille salvestab mis tahes hankijale kuuluv ressurss hankija arve real. |
-| Kogus | Sisestage arve reale aeg, mille jooksul hankija arveldab. |Pole |
-| Ühikurühm | Vaikeväärtus on **Ajaühiku rühm** ja seda ei saa muuta. | Pole |
-| Üksus | Vaikeväärtus on ajaühikurühma tundide põhiühik. Saate seda väärtust muuta, et osta ajaühikurühma mis tahes ühikus, näiteks päeval või nädalal. | Rolli ja ühiku väärtuste kombinatsiooni **kasutatakse hankija arve real välja Ühiku hind** vaike- **või arvutatud väärtusena.** **·** |
-| Ühiku hind | Vaikeühiku hind kasutab rolli **ja** ühiku **väärtuste kombinatsiooni** projekti hinnakirjast, mis rakendub hankija arve rea kandekuupäevale. | Kui rakendatava projekti hinnakirja hind on seadistatud ühikus, mis erineb hankija arve real olevast ühikust, kasutab süsteem ühiku hinna arvutamiseks ühiku teisendust. |
-| Vahesumma | See kirjutuskaitstud väli arvutatakse *koguse*&times; ühikuhinnana *·*, kui väärtused sisestatakse nii väljale Kogus **kui ka** väljale **Ühiku hind.** Kui üks või mõlemad väljad on tühjad, saate sellele väljale väärtuse sisestada. | Pole |
+| Nimetus | Hankija arve rea nimi, mis aitab tuvastada. | See nimi kuvatakse esimese veeruna kõigis hankija arve ridadel põhinevates otsingutes. |
+| Kirjeldus | Lühikirjeldus teenuste kohta, mille kohta hankija esitab arvereale arve. | Pole |
+| Allhankeleping | Allhankeleping, mille alusel teenused algselt telliti. | Kui tarnija arve jaoks on valitud allhankeleping, pärivad kõik hankija arveread selle valiku. Hankija arvel ei saa olla hankija arveridu, mis viitavad erinevatele allhankelepingutele. |
+| Allhankelepingu rida | Allhankelepingu rida, mille alusel teenused algselt telliti. Valitavate allhankelepingu ridade loend piirdub valitud allhankelepingu ridadega. | Kui hankija arve real valitakse aja jaoks allhankelepingu rida, sisestatakse väljadele **Projekt**, **Roll**, ja **Broneeritav ressurss** allhankelepingurea vastavatest väljadest. Kui valitud allhankelepingureal on väärtused väljadel **Projekt**, **Roll** ja **Broneeritav**, ei tohi hankija arve rea vastavate väljade väärtused nendest väärtustest erineda. |
+| Tehingu kuupäev | Kuupäev, mil hankija arverea kulu tegelik näitaja kirjendatakse projektile. | Pole |
+| Tehingu klass | Vaikeväärtus on **Aeg**. | Väärtus **Aeg** näitab, et hankija arverida kasutatakse allhanke tööaja arve summa kirjendamiseks. |
+| Project | Projekti nimi, mille raames kasutati arve aluseks olevaid teenuseid. | See väli on kohustuslik ja seda ei saa tühjaks jätta. |
+| Toiming | Projekti ülesande nimi, mille raames kasutati arve aluseks olevaid teenuseid. See väli on saadaval ainult siis, kui projekt on valitud. Projekti ülesande valimine on valikuline. | Kui see väli jääb tühjaks, saab projektijuht sobitada hankija arve rea ajaga, mille allhankelepingu ressursid salvestavad projekti mis tahes ülesande puhul. Kui hanikja arverida ei viita allhankelepingu reale ja see väli on tühjaks jäetud, ei seotaks hankija arverea poolt loodud kulu tegelikku näitajad ühegi arveldamata müügitehingu tegelike näitajatega. Kui ülesandepõhine arveldamine on seadistatud, ei pruugi sel juhul kulusid lõppkliendile arveldada. |
+| Roll | Allhankelepingu ressursside roll, mille aja kohta arveldatakse. | See väli määrab rolli, mida täidavad allhankeressursid, mille aeg on hankija arvel arveldatud. |
+| Broneeritav ressurss | Allhanke nimi, kelle aja eest arveldatakse. Broneeritava ressursi valimine on valikuline. | Kui see väli jäetakse tühjaks, saab projektijuht sobitada hankija arve rea ajaga, mille salvestab hankija arve real hankijale kuuluv mis tahes ressurss. |
+| Kogus | Sisestage arve reale tundide arv, mille jooksul hankija arvet esitab. |Pole |
+| Ühikurühm | Vaikeväärtus on **Ajaühiku rühm** ja mida ei saa muuta. | Pole |
+| Üksus | Vaikeväärtus on ajaühikute rühma tundide baasühik. Seda väärtust saate muuta, et osta sisse mistahes ühikurühma Aeg ühik, näiteks päev või nädal. | Väärtuste **Roll** ja **Ühik** kombinatsiooni kasutatakse hankija arve real välja **Ühiku hind** vaike- või arvutatud väärtusena. |
+| Ühiku hind | Ühiku vaikehind kasutab **Roll** ja **Ühik** väärtuste kombinatsiooni projekti hinnakirjast, mis on rakendatav hankija arve rea tehingukuupäevale. | Kui kehtiva projekti hinnakirja hind on seadistatud ühikus, mis erineb hankija arvereal olevast ühikust, kasutab süsteem ühikuhinna arvutamiseks ühikute teisendust. |
+| Vahesumma | See kirjutuskaitstud väli arvutatakse järgmiselt: *Kogus* &times; *Ühikuhind*, kui väärtused on sisestatud nii väljale **Kogus** kui ka väljale **Ühikuhind**. Kui üks või mõlemad väljad on tühjad, saate sellele väljale väärtuse sisestada. | Pole |
 | Käibemaks | Sisestage käibemaksu summa. | Pole |
-| Kogusumma | Hankija arve rea kogusumma koos maksudega. See väli arvutatakse käibemaksu *vahesummana.* + *·* | Pole |
+| Kogusumma | Hankija arverea kogusumma koos maksudega. See väli arvutatakse järgmiselt: *Vahesumma* + *Müügimaks*. | Pole |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

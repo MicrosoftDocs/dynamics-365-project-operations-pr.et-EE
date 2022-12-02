@@ -1,6 +1,6 @@
 ---
 title: Projekti arvete võlgnevuste haldamine
-description: Selles artiklis antakse teavet erinevate vaadete kohta, mida saab kasutada projektide arvelduse mahajäämuse haldamisel.
+description: See artikkel annab teavet erinevate saadaolevate vaadete kohta, mida kasutada projektide arveldamise võlgnevuse haldamisel.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

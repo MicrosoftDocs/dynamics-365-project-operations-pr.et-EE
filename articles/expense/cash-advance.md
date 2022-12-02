@@ -1,6 +1,6 @@
 ---
 title: Avansimakse
-description: Selles artiklis antakse teavet avanssi ettemaksete kohta.
+description: See artikkel annab teavet sularaha ettemaksete kohta.
 author: suvaidya
 ms.date: 03/25/2021
 ms.topic: article
@@ -66,7 +66,7 @@ Enne kuluaruande saatmist saate valida sularahaettemakse, mis ühtib aruande kul
  
  Kui need funktsioonid on lubatud, tehke järgmist.
  
-  - Igale kulureale saate lisada ühe või mitu avansimakset.
+  - Igale kulureale saate lisada ühe või mitu sularaha ettemakset.
   - Sularahaettemaks saadaolev saldo on kuluaruande salvestamisel reaalajas nähtav. See võimaldab teil töödelda kulutehinguid ja samal ajal sularahatehinguid tagastada.
   - Ühe kulukande kohta saate valida mitu sularahaettemakset.
   - Sularahaettemakse vastavusandmed on kättesaadavad päringut kasutades. 

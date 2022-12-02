@@ -1,6 +1,6 @@
 ---
 title: Allhankelepinguga projektimeeskonna liikmed
-description: Selles artiklis selgitatakse, kuidas teha Microsoftis projektimeeskonna liikmetele alltöövõttu Dynamics 365 Project Operations.
+description: See artikkel selgitab, kuidas sõlmida projektimeeskonna liikmetega allhankelepinguid rakenduses Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 9/14/2022
 ms.topic: article
@@ -17,41 +17,41 @@ ms.locfileid: "9522790"
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Microsoftis Dynamics 365 Project Operations saate valida personalita või personalita projektimeeskonna liikmete alltöövõtulepingu.
+Rakenduses Microsoft Dynamics 365 Project Operations saate valida, kas sõlmida allhankelepingud töötajateta või töötajatega projektimeeskonna liikmetega.
 
-- Personalita projektimeeskonna liikmetele on määratud üldine ressurss.
-- Töötajatega meeskonnaliikmetele on määratud nimega ressurss.
+- Töötajateta projektimeeskonna liikmetele on määratud üldine ressurss.
+- Meeskonnaliikmetele on määratud nimeline ressurss.
 
-Kui lingite projektimeeskonna liikme allhankereaga, taastatakse kõik meeskonnaliikme ülesannete ülesanded allhankelepingule lisatud ostuhinnaloendi alusel.  **Valige lehe Projekti üksikasjad vahekaardil** Prognoosid **nupp** Värskenda hindu **,** et näha allhanke otsusest tulenevat värskendatud hinnakujundust ja/või kuluarvestust. 
+Kui seote projektimeeskonna liikme allhankelepingureaga, arvestatakse kõik meeskonnaliikmel olevate ülesannete määramised ümber allhankelepingule lisatud ostuhinnakirja alusel.  Valige vahekaardi **Prognoosid** lehel **Projekti üksikasjad** nuppu **Hindade värskendamine**, et näha allhankeotsusest tulenevat värskendatud hinnakujundust ja/või kulukalkulatsiooni. 
 
-## <a name="subcontracting-an-unstaffed-project-team-member"></a>Personalita projektimeeskonna liikme alltöövõtt
-Meeskonnaliikme **üksikasjade** lehel on alltöövõtu ja allhanke reaväljad, mis võimaldavad projektijuhil väljendada, kuidas ta soovib allhankelepingust nõutavat võimsust kasutada. Projektimeeskonna liikmele üldise ressursina allhankelepingu sõlmimiseks toimige järgmiselt.
+## <a name="subcontracting-an-unstaffed-project-team-member"></a>Personalita projektimeeskonna liikme allhange
+Lehel **Meeskonnaliikme üksikasjad** on allhankelepingu ja allhankelepingurea väljad, mis võimaldavad projektijuhil väljendada, kuidas nad soovivad allhankelepingust nõutavat võimsust ammutada. Projektimeeskonna liikme allhankelepingu sõlmimiseks üldise ressursina toimige järgmiselt.
 
-1.  Valige alltöövõtt lehel Meeskonnaliikme **üksikasjad**.
+1.  Valige lehel **Meeskonnaliikme üksikasjad** allhange.
 
-2.  Saate valida ainult mustandi **või** kinnitatud olekuga **alltöövõtulepinguid**. **Suletud** või **tühistatud** alltöövõtulepinguid ei saa valida. 
+2.  Saate valida ainult allhankelepinguid, mille olek on **Mustand** või **Kinnitatud**. **Suletud** või **Tühistatud** allhankelepinguid ei saa valida. 
 
-3.  Väli **Allhanke rida** muutub nähtavaks pärast allhanke valimist.
+3.  Väli **Allhankelepingu rida** muutub nähtavaks pärast allhankelepingu valimist.
 
-4.  Väljal **Allhanke rida** saate valida ainult need allhanke read, mis on mõeldud aja jaoks. Kulu või materjali jaoks ei saa valida allhanke ridu.
+4.  Väljal **Allhankelepingu rida** saate valida ainult ajalised allhankelepinguread. Kulude või materjalide jaoks ei saa valida allhankelepinguridu.
 
-5.  Projektimeeskonna liikme kirje roll peab vastama allhanke real olevale rollile. See tagab, et projektis hinnatava rolli jaoks kuluv aeg on sama roll, mis ostetakse allhankeliinilt. 
+5.  Projektimeeskonna liikme kirje roll peab ühtima rolliga allhankelepingureal. See tagab, et projektis prognoositava rolli täitmise aeg on sama roll, mis ostetakse allhankelepingurealt. 
 
-Kui üldine meeskonnaliige on seostatud allhanke ja allhanke reaga, **värskendatakse üldise meeskonnaliikme rea välja Töötaja tüüp** väärtuseks **Lepinguline töötaja** ja **Allhanke kehtivus** väärtuseks **Kehtiv**.
+Kui üldine meeskonnaliige on seotud allhankelepingu ja allhankelepingureaga, värskendatakse üldise meeskonnaliikme rea välja **Töötaja tüüp** väärtuseks **Lepinguline töötaja** ja **Allhankelepingu kehtivus** seatud väärtusele **Kehtiv**.
 
-## <a name="subcontracting-a-staffed-project-team-member"></a>Personaliga projektimeeskonna liikme alltöövõtt
-Nagu üldised või personalita meeskonnaliikmed, saab ka projektis nõutavat meeskonnaliikmete arvu alltöövõtuga siduda. Nimega projektimeeskonna liikme alltöövõtulepingu sõlmimiseks toimige järgmiselt.
+## <a name="subcontracting-a-staffed-project-team-member"></a>Projekti meeskonnaliikme allhange personaliga
+Sarnaselt üldistele või personalita meeskonnaliikmetele võib ka projektis nõutava meeskonnaliikme suutlikkuse siduda allhankelepinguga. Nimelise projektimeeskonna liikme allhankelepingus järgige järgmisi etappe.
 
-1.  Veenduge, et nimetatud ressurss oleks seadistatud lepingulise töötaja tüüpi broneeritava ressursina. Samuti veenduge, et **broneeritava ressursi väli Hankija** vastaks teie valitud allhanke hankijale. 
+1.  Veenduge, et nimetatud ressurss oleks seadistatud broneeritava ressursi lepingulise töötaja tüübina. Samuti veenduge, et broneeritava ressursi väli **Hankija** ühtiks teie valitud allhankelepingu hankijaga. 
 
-2.  Alltöövõtulepinguid saate valida ainult olekus **Mustand** või **Kinnitatud**. **Suletud** või **tühistatud** alltöövõtulepinguid ei saa valida. 
+2.  Allhankelepinguid saate valida ainult olekuga **Mustand** ja **Kinnitatud**. **Suletud** või **Tühistatud** allhankelepinguid ei saa valida. 
 
-3.  Väli **Allhanke rida** muutub nähtavaks pärast allhanke valimist.
+3.  Väli **Allhankelepingu rida** muutub nähtavaks pärast allhankelepingu valimist.
 
-4.  Väljal **Allhanke rida** saate valida ainult need allhanke read, mis on mõeldud aja jaoks. Kulu või materjali jaoks ei saa valida allhanke ridu.
+4.  Väljal **Allhankelepingu rida** saate valida ainult ajalised allhankelepinguread. Kulude või materjalide jaoks ei saa valida allhankelepinguridu.
 
-5.  Projektimeeskonna liikme kirje roll peab vastama allhanke real olevale rollile. See tagab, et projektis hinnatava rolli jaoks kuluv aeg on sama roll, mis ostetakse allhankeliinilt. 
+5.  Projektimeeskonna liikme kirje roll peab ühtima rolliga allhankelepingureal. See tagab, et projektis prognoositava rolli täitmise aeg on sama roll, mis ostetakse allhankelepingurealt. 
 
-Nimega projektimeeskonna liikmed, kes on seadistatud lepingulise töötaja tüüpi **broneeritava ressursina**, kuvatakse allhankelepingu kehtivuse olekuga **Pole kehtiv,** kui nad pole allhankelepinguga seotud. Kui nimega projektimeeskonna liige on seostatud allhanke ja allhanke reaga, **värskendatakse meeskonnaliikme rea välja Töötaja tüüp** väärtuseks **Lepinguline töötaja** ja **allhanke kehtivus** väärtuseks **määratakse Kehtiv**.
+Nimetatud projektimeeskonna liikmed, kes on seadistatud **Broneeritav ressurss** lepingulise töötajana, kuvatakse allhankelepingu kehtivuse olekuga **Ei kehti**, kui nad ei ole allhankelepinguga seotud. Kui nimetatud projektimeeskonna liige on seotud allhankelepingu ja allhankelepingureaga, värskendatakse meeskonnaliikme rea välja **Töötaja tüüp** väärtuseks **Lepinguline töötaja** ja **Allhankelepingu kehtivus** on seatud olekule **Kehtiv**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
-title: Mis on uut või mida on muudetud projektitoimingutes (juuni 2022) ladustatud/tootmispõhiste stsenaariumide puhul?
-description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval 2022. aasta juuni väljaandes Project Operations for stocked/production-based scenarios.
+title: Mis on Project Operationsis ressursi-/tootmispõhiste stsenaariumite jaoks 2022. a juunis uut või muutunud
+description: See artikkel annab teavet Project Operationsi 2022. aasta juuni väljaandes olevate kvaliteedivärskenduste kohta ressursi-/tootmispõhiste stsenaariumite jaoks.
 author: andchoi
 ms.date: 06/03/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.contentlocale: et-EE
 ms.lasthandoff: 08/19/2022
 ms.locfileid: "9316936"
 ---
-# <a name="whats-new-or-changed-in-project-operations-june-2022-for-stockedproduction-based-scenarios"></a>Mis on uut või mida on muudetud projektitoimingutes (juuni 2022) ladustatud/tootmispõhiste stsenaariumide puhul?
+# <a name="whats-new-or-changed-in-project-operations-june-2022-for-stockedproduction-based-scenarios"></a>Mis on Project Operationsis ressursi-/tootmispõhiste stsenaariumite jaoks 2022. a juunis uut või muutunud
 
 _**Kehtib järgmiste puhul:** Project Operations ladustamise-/tootmispõhiste stsenaariumide jaoks_
 
-See artikkel kehtib microsofti järgmiste komponentide ja versioonide kohta Dynamics 365 Project Operations:
+See artikkel kehtib rakenduse Microsoft Dynamics 365 Project Operations järgmiste komponentide ja versioonide kohta.
 
-- Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnas versioon 10.0.27
+- Projektihaldus ja raamatupidamine rakenduse Dynamics 365 Finance keskkonna versioonis 10.0.27
 
 ## <a name="features-included-in-this-release"></a>Selles väljaandes sisalduvad funktsioonid
 
-Kauba nõudeid saab kasutada projektilepingute puhul, millel on mitu rahastamisallikat. Lisateavet vaadake jaotisest [Kaubanõuded mitme rahastamisallikaga projektilepingute puhul](../multiple-funding-sources-item-req.md).
+Üksuse nõudeid saab kasutada projektidelepingute puhul, millel on mitu rahastamisallikat. Lisateabe saamiseks, vt jaotist [Üksuse nõuded mitme rahastamise allikaga projektilepingutele](../multiple-funding-sources-item-req.md).
 
 ## <a name="quality-updates"></a>Kvaliteedi värskendused
 
-Selles värskenduses sisalduvate veaparanduste kohta teabe saamiseks logige sisse teenusesse Microsoft Dynamics Lifecycle Services (LCS) ja vaadake [teabebaasi artiklit](https://fix.lcs.dynamics.com/Issue/Details?bugId=673271).
+Lisateabe saamiseks tõrkeparanduste kohta, mis sisalduvad selles värskenduses, logige sisse teenusesse Microsoft Dynamics Lifecycle Services (LCS) ja vaadake [KB artiklit](https://fix.lcs.dynamics.com/Issue/Details?bugId=673271).

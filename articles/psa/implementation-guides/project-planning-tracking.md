@@ -1,6 +1,6 @@
 ---
 title: Projekti plaanimine ja jälgimine
-description: Selles artiklis on link teabele planeerimise ja jälgimise kohta Project Service Automationis.
+description: Selles artiklis on toodud link lisateabele rakenduses Project Service Automation plaanimise ja jälgimise kohta.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,7 +32,7 @@ ms.locfileid: "8933257"
 
 Rakendus Project Service aitab teeninduse organisatsioonidel tuvastada müügivõimalusi, esitada pakkumisi, sõlmida lepingute kokkuleppeid, hallata ressursse, jälgida aega ja kulusid, esitada klientidele arveid ning täita projekte õigeaegselt ja eelarve piires. 
 
-Selles artiklis varem olnud PDF-link on eemaldatud ja sisu on teisaldatud järgmistesse artiklitesse:
+Selles artiklis varem olnud PDF-i link on eemaldatud ja sisu on teisaldatud järgmistesse artiklitesse.
 
 - [Projekti ajakavad](../project-creating.md)
 - [Projekti kulud ja tulud](../project-estimating.md)
@@ -43,7 +43,7 @@ Selles artiklis varem olnud PDF-link on eemaldatud ja sisu on teisaldatud järgm
 - [Projekti sätted](../project-settings.md)
 
 > [!NOTE]
-> See artikkel eemaldatakse tulevases dokumentatsioonivärskenduses. 
+> See artikkel eemaldatakse tulevasest dokumentatsiooni värskendusest. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

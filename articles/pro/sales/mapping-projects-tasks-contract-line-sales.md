@@ -1,6 +1,6 @@
 ---
 title: Projektide ja ülesannete vastendamine projektipõhise lepingureaga – liht
-description: Selles artiklis antakse teavet projektide ja ülesannete lisamise ja eemaldamise kohta lepingureale.
+description: See artikkel kirjeldab projektide ja toimingute lepingureale lisamist ja sealt eemaldamist.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

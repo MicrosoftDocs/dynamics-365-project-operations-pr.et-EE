@@ -1,6 +1,6 @@
 ---
 title: Projekti ajasisestuse mobiilne tööruum
-description: Sellest artiklist leiate teavet projekti ajakirje mobiilse tööruumi kohta. See tööruum võimaldab kasutajatel oma mobiilsideseadme kaudu sisestada ja salvestada aega projekti jaoks.
+description: See artikkel kirjeldab, kuidas kasutada Projekti ajakirje mobiilset tööruumi. See tööruum võimaldab kasutajatel oma mobiilsideseadme kaudu sisestada ja salvestada aega projekti jaoks.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "9029663"
 
 [!include [banner](../includes/banner.md)]
 
-Sellest artiklist leiate teavet projekti ajakirje **mobiilse tööruumi kohta**. See tööruum võimaldab kasutajatel oma mobiilsideseadme kaudu sisestada ja salvestada aega projekti jaoks.
+See artikkel kirjeldab, kuidas kasutada **Projekti ajakirje** mobiilset tööruumi. See tööruum võimaldab kasutajatel oma mobiilsideseadme kaudu sisestada ja salvestada aega projekti jaoks.
 
 See mobiilne tööruum on mõeldud kasutamiseks mobiilirakendusega Dynamics 365 Unified Ops. 
 
@@ -44,7 +44,7 @@ Täpsemalt saavad kasutajad teha mobiilses tööruumis **Projekti ajakirje** teh
 ## <a name="prerequisites"></a>Eeltingimused
 Eeltingimused erinevad sõltuvalt teie organisatsioonis juurutatud Microsoft Dynamics 365 versioonile.
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Eeltingimused, kui kasutate Dynamics 365 Finance
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Eeltingimused, kui kasutate rakendust Dynamics 365 Finance
 Kui teie organisatsiooni jaoks on juurutatud Finance, peab süsteemiadministraator avaldama **Projecti aja sisestamise** mobiilse tööruumi. Juhiseid vaadake teemast [Mobiilse tööruumi avaldamine](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Eeltingimused kui kasutate versiooni 1611 koos Platformi värskendusega 3 või hilisemaga
@@ -82,7 +82,7 @@ Kui teie organisatsioonis on juurutatud versioon 1611 koos Platformi uuendusega 
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobiilirakenduse allalaadimine ja installimine
 
-Laadige alla ja installige finance and operations mobiilirakendus:
+Laadige alla ja installige finants- ja äritoimingute mobiilirakendus.
 
 -   [Androidi telefonidele](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [iPhone’idele](https://go.microsoft.com/fwlink/?linkid=850663)

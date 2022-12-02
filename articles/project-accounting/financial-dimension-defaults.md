@@ -1,6 +1,6 @@
 ---
 title: Finantsdimensiooni vaikeväärtused
-description: Selles artiklis antakse teavet finantsdimensiooni vaikesätete häälestamise kohta.
+description: See artikkel annab teavet, kuidas häälestada finantsdimensiooni vaikeväärtused.
 author: sigitac
 ms.date: 12/14/2021
 ms.topic: article
@@ -19,7 +19,7 @@ _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
 
 
-Dynamics 365 Project Operations [kasutab Dynamics 365 Finance finantsdimensioonide](/dynamics365/finance/general-ledger/financial-dimensions) raamistikku, et anda täiendavaid ülevaateid projekti alammoodulite ja pearaamatukannete kohta.
+Rakendus Dynamics 365 Project Operations kasutab rakenduses Dynamics 365 Finance raamistikku [Finantsdimensioonid](/dynamics365/finance/general-ledger/financial-dimensions), et pakkuda projekti alampearaamatu ja pearaamatu tehingute kohta täiendavat ülevaadet.
 
 Vaikimisi finantsdimensioonid saab määrata kliendile, projekti finantseerimisallikale, vahe-eesmärgile, projekti leingureale või projektile.
 

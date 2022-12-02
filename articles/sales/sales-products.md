@@ -1,6 +1,6 @@
 ---
 title: Tooted
-description: Selles artiklis antakse teavet tootekataloogi kohta, mida saate kasutada klientidele teabe andmiseks toodete kohta ja teie organisatsiooni pakutavate hinnakujunduse kohta.
+description: See artikkel annab teavet tootekataloogi kohta, mida saate kasutada klientidele teie ettevõtte pakutavate toodete ja hinnakujunduse kohta info jagamiseks.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

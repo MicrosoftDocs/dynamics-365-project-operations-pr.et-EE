@@ -1,6 +1,6 @@
 ---
 title: Projektikalendrite määratlemine
-description: Selles artiklis antakse teavet selle kohta, kuidas rakendada projekti ajakava jälgimiseks projektile kalendrimalli.
+description: See artikkel annab teavet selle kohta, kuidas rakendada projektile kalendrimalli projekti ajakava jälgimiseks.
 author: ruhercul
 ms.date: 02/05/2021
 ms.topic: article

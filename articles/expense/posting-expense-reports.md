@@ -1,6 +1,6 @@
 ---
 title: Kuluaruannete postitamine
-description: Selles artiklis selgitatakse, kuidas kuluaruandeid sisestada.
+description: See artikkel kirjeldab kuluaruannete sisestamist.
 author: ramagadu
 ms.date: 08/12/2022
 ms.topic: article
@@ -30,15 +30,15 @@ Kuluaruande sisestamiseks lehele **Kinnitatud kuluaruanded** valige kuluaruanne 
 
 Korraga saate sisestada ka kõik loendi kuluaruanded. Valige kõik kuluaruanded ja seejärel valige **Sisesta**.
 
-## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Luba funktsioon Võime sisestada kulukohustust hankija valuutas sularaha makseviisi jaoks
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Lubage sularahamakseviisi funktsiooni kulude kohustuse kirjendamine hankija valuutas
 
-Funktsioon **Võimalus sisestada kulukohustust sularaha makseviisi** hankija valuutas võimaldab kuluaruandeid sisestada sularaha makseviisi hankija valuutasse.
+Funktsioon **Võimalus kirjendada kulukohustust hankija valuutas sularahamaksemeetodi puhul** võimaldab kuluaruandeid postitada hankija valuutas sularahamaksemeetodi puhul.
 
-Praegu sisestatakse sularahakulude esitamisel kuluaruanded arvestusvaluutas. Kandevaluuta, arvestusvaluuta ja hankija valuuta vahelise summa teisendamise tõttu makstakse hankijatele vale summa, kui kulu kandekuupäeval ja tegelikul maksepäeval on erinevad vahetuskursid.
+Praegu kantakse kassakulude esitamisel kuluaruanded arvestusvaluutas. Summa konverteerimise tõttu tehinguvaluuta, arvestusvaluuta ja hankija valuuta vahel makstakse hankijatele vale summa, kui kulu tehingukuupäeval ja tegelikul maksekuupäeval on erinevad vahetuskursid.
 
-See funktsioon tagab, et hankija saldo kajastatakse kuluaruande sisestamisel hankija valuutas.
+See funktsioon tagab, et hankija saldo salvestatakse kuluaruande postitamisel hankija valuutas.
 
 1. Minge jaotisse **Tööruumid** \> **Funktsiooni juhtimine**.
-2. Leidke loendist võimalus **sisestada kulukohustus hankija valuutas sularahamakse meetodi** jaoks ja seejärel valige **Luba kohe**.
+2. Otsige loendist üles ja valige **Võimalus kirjendada kulukohustust hankija valuutas sularahamakseviisi jaoks** ja seejärel valige **Luba kohe**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

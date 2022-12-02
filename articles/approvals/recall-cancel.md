@@ -1,6 +1,6 @@
 ---
 title: Varem kinnitatud kirjete tagasivõtmine
-description: Selles artiklis selgitatakse, kuidas projektimeeskonna liige saab taotleda varem esitatud ja kinnitatud aja-, kulu- ja materjalikasutuse kirjete tagasikutsumist ning kuidas projektijuht saab tagasikutsumise taotlusi kinnitada või tagasi lükata.
+description: See artikkel selgitab, kuidas projektimeeskonna liige saab taotleda varem esitatud ja kinnitatud aja-, kulu- ja materjalikasutuse kirjete tagasivõtmist ning kuidas projektijuht saab tagasikutsumise taotlusi kinnitada või tagasi lükata.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
@@ -17,26 +17,26 @@ ms.locfileid: "8930359"
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Projektimeeskonna liige, kes esitab aja-, kulu- või materjalikasutuse kande, võib selle kande pärast kinnitamist meelde tuletada. Tagasikutsumise protsessil on kaks peamist sammu:
+Projektimeeskonna liige, kes esitab aja-, kulu- või materjalikasutuse kirje, saab selle kirje tagasi kutsuda pärast selle kinnitamist. Tagasikutsumisprotsess koosneb kahest peamisest etapist:
 
 1. Esitaja taotleb tagasivõtmist.
 2. Kinnitaja kinnitab tagasikutsumise taotluse.
 
 ## <a name="request-a-recall"></a>Tagasivõtmise taotlemine
 
-Kinnitatud aja-, kulu- või materjalikasutuskannete tagasikutsumise taotlemiseks tehke järgmist.
+Järgige neid etappe, et taotleda kinnitatud aja-, kulu- või materjalikasutuse kirjete tagasikutsumist.
 
-1. Sõltuvalt kande tüübist, mida soovite tagasi kutsuda, järgige ühte järgmistest juhistest.
+1. Järgige üht järgmistest etappidest, olenevalt kirje tüübist, mida soovite tagasi kutsuda.
 
-    - Ajakannete puhul avage **jaotis Projektid** \> **minu tööaja** \> **kanne** ja valige projekti ja ülesande kindla kombinatsiooni jaoks kõik ajakirjed. Alternatiivina valige ruudustikus kindla projekti kindla kuupäeva aegade üksikud lahtrid.
-    - Kulukannete puhul minge jaotisse **Projektid** \> **minu töökulud** \> **ja** valige tagasikutsutava kulukande rida.
-    - Materjali kasutuskannete puhul minge jaotisse **Projektid** \> **Minu töömaterjali** \> **kasutuslogi** ja valige tagasikutsutava materjali kasutuskande rida.
+    - Ajakirjete jaoks valige **Projektid** \> **Minu töö** \> **Ajakirje** ja valige kõik ajakirjed konkreetse projekti ja ülesande kombinatsiooni kohta. Alternatiivina valige ruudustikus kindla projekti kindla kuupäeva aegade üksikud lahtrid.
+    - Kulukirjete puhul valige **Projektid** \> **Minu töö** \> **Kulud** ja valige tagasikutsutava kulukirje rida.
+    - Materjali kasutamise kirjete jaoks minge **Projektid** \> **Minu töö** \> **Materjali kasutuslogi** ja valige materjalikasutuse kirje rida.
 
-2. Tehke valik **Kutsu tagasi**. Ilmub kinnituse dialoogiboks. Kui valitud aja-, kulu- või materjalikasutuse kanded olid juba kinnitatud, palutakse teil sisestada tagasikutsumise põhjus.
+2. Tehke valik **Kutsu tagasi**. Ilmub kinnituse dialoogiboks. Kui valitud aja-, kulu- või materjalikasutuse kirjed on juba kinnitatud, palutakse teil sisestada tagasikutsumise põhjus.
 3. Sisestage tagasivõtmise põhjus ja seejärel klõpsake toimingu kinnitamiseks nuppu **OK**. Süsteem saadab kirje kinnitanud isikule tagasivõtmise kinnitamise taotluse.
 
 > [!IMPORTANT]
-> Tagasikutsumise taotlust ei saa luua kinnitatud aja, kulu või materjali kasutuskande jaoks, mis on kliendile juba arveldatud. Kui proovite, kuvatakse teade, et aja-, kulu- või materjalikasutuse kannet ei saa tagasi kutsuda, kuna see oli juba arveldatud. Sellisel juhul saate taotleda kande tagasivõtmist ainult juhul, kui korrigeerivat arvet kasutatakse kliendile täieliku krediidi või tagasimakse väljastamiseks algsel arvel.
+> Te ei saa luua tagasikutsumistaotlust kinnitatud aja, kulu või materjalikasutuse kirje kohta, mis on kliendile juba arveldatud. Kui proovite, saate teate, et aja-, kulu- või materjalikasutuse kirjet ei saa tagasi kutsuda, kuna see oli juba arveldatud. Sel juhul saad taotleda kirje tagasikutsumist vaid juhul, kui algsel arvel olevale kliendile krediiti või raha tagasi väljastamiseks kasutatakse parandusarvet.
 
 ## <a name="approve-or-reject-a-recall-request"></a>Tagasivõtmise taotluse kinnitamine või tagasilükkamine
 
@@ -52,7 +52,7 @@ Tagasivõtmise taotluse kinnitamiseks või tagasilükkamiseks toimige järgmisel
     Kui valisite suvandi **Hülga**, siis lükatakse tagasivõtmistaotlus tagasi.
 
 > [!IMPORTANT]
-> Kui tagasikutsumine on kinnitatud, just nagu seda taotletakse, kontrollib süsteem mis tahes arveldustegevust aja-, kulu- või materjalikasutuskannetes. Kui kanne on juba arveldatud või kui see on mustandiarvel, saab kinnitaja tõrketeate, mis ütleb, et aega või kulu ei saa tagasivõtmiseks kinnitada, kuna see oli juba arveldatud. Sellisel juhul saab kinnitaja tagasikutsumise kinnitada ainult juhul, kui korrigeerivat arvet kasutatakse kliendile täieliku krediidi või tagasimakse väljastamiseks algsel arvel.
+> Kui tagasikutsumine on kinnitatud, nagu ka siis, kui seda taotletakse, kontrollib süsteem aja-, kulu- või materjalikasutuse kirjete arveldustoiminguid. Kui kirje oli juba arveldatud või kui see on arve mustandil, saab kinnitaja tõrketeate, mis ütleb, et aega või kulu ei saa tagasikutsumiseks kinnitada, kuna see oli juba arveldatud. Sel juhul saab kinnitaja tagasikutsumise kinnitada ainult juhul, kui algsel arvel olevale kliendile krediit- või tagasimakse väljastamiseks kasutatakse parandusarvet.
 
 ## <a name="impact-of-a-recall-request"></a>Tagasivõtmistaotluse mõju
 
@@ -60,9 +60,9 @@ Kinnitamise tagasivõtmisel on nii tegevuslik kui ka finantsmõju.
 
 ### <a name="operational-impact"></a>Mõju tegevusele
 
-Kui tagasivõtmistaotlus on kinnitatud, märgitakse kinnitamise kirje kui **Hüljatud**. Kande olekuks muudetakse kas **Tagastatud** või **Tagasi lükatud**, sõltuvalt sellest, kas see on ajakanne või kulu- või materjalikasutuse kanne.
+Kui tagasivõtmistaotlus on kinnitatud, märgitakse kinnitamise kirje kui **Hüljatud**. Kirje olekuks muudetakse kas **Tagastatud** või **Tagasi lükatud** olenevalt sellest, kas tegemist on aja- või kulu- või materjalikasutuse kirjega.
 
-Projektimeeskonna liige saab kandeid vaadata, kandeid redigeerida ja seejärel uuesti esitada või kandeid täielikult kustutada.
+Projektimeeskonna liige saab kirjeid vaadata, neid redigeerida ja seejärel uuesti esitada või kirjeid täielikult kustutada.
 
 Kui tagasivõtmistaotlus lükatakse tagasi, jääb kirje olekuks **Kinnitatud** ja projektimeeskonna liige ega kinnitaja ei saa kirjet redigeerida.
 
@@ -79,14 +79,14 @@ Kui tagasivõtmisetaotlus lükatakse tagasi, ei ole projektile finantsmõju.
 
 ## <a name="changes-to-time-entry-records"></a>Ajakirjete kirjete muudatused
 
-Järgmisel joonisel on näidatud muudatused, mis toimuvad kinnitatud ajakannete ja vastavate kinnituskirjete puhul nende tagasikutsumisel.
+Järgmisel joonisel on näidatud muudatused, mis toimuvad kinnitatud ajakirjete puhul ja vastavad kinnituskirjed, kui need tagasi kutsutakse.
 
-![Ajasisestuse oleku üleminekud.](media/TimeEntryStateTransitions.png)
+![Ajakirje oleku üleminekud.](media/TimeEntryStateTransitions.png)
 
-## <a name="changes-to-expense-and-material-usage-entry-records"></a>Kulu- ja materjalikasutuse kirjekirjete muudatused
+## <a name="changes-to-expense-and-material-usage-entry-records"></a>Muudatused kulu- ja materjalikasutuse kande kirjetes
 
-Järgmisel joonisel on näidatud muudatused, mis toimuvad kinnitatud kulu- ja materjalikasutuse kannete ning vastavate kinnituskirjete puhul nende tagasikutsumisel.
+Järgmisel joonisel on näidatud muudatused, mis toimuvad kinnitatud kulu- ja materjalikasutuse kirjete puhul ning vastavad kinnituskirjed, kui need tagasi kutsutakse.
 
-![Kulukande oleku üleminekud.](media/ExpenseEntryStateTransitions.png)
+![Kulukirje oleku üleminekud.](media/ExpenseEntryStateTransitions.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
-title: Projektiülesannete sünkroonimine otse Project Service Automationist finantsidesse ja toimingutesse
-description: Selles artiklis kirjeldatakse malli ja selle aluseks olevat ülesannet, mida kasutatakse projektiülesannete sünkroonimiseks otse Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance.
+title: Projektiülesannete sünkroonimine otse Project Service Automationist finants- ja äritoimingutesse
+description: See artikkel kirjeldab malli ja aluseks olevat tööülesannet, mida kasutatakse projekti ülesannete sünkroonimiseks otse rakendusest Microsoft Dynamics 365 Project Service Automation rakendusse Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -21,11 +21,11 @@ ms.contentlocale: et-EE
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9028304"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Projektiülesannete sünkroonimine otse Project Service Automationist finantsidesse ja toimingutesse
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Projektiülesannete sünkroonimine otse Project Service Automationist finants- ja äritoimingutesse
 
 [!include[banner](../includes/banner.md)]
 
-Selles artiklis kirjeldatakse malli ja selle aluseks olevat ülesannet, mida kasutatakse projektiülesannete sünkroonimiseks otse Dynamics 365 Project Service Automation Dynamics 365 Finance.
+See artikkel kirjeldab malli ja aluseks olevat tööülesannet, mida kasutatakse projekti ülesannete sünkroonimiseks otse rakendusest Dynamics 365 Project Service Automation rakendusse Dynamics 365 Finance.
 
 > [!NOTE]
 > - Projekti ülesannete integreerimine, kulukande kategooriad, kuluprognoosid ja funktsioonide lukustamine on saadaval versioonis 8.0.
@@ -67,11 +67,11 @@ Enne kui projekti ülesannete sünkroonimine saab aset leida, peate sünkroonima
 
 ## <a name="power-query"></a>Power Query
 
-Andmete filtreerimiseks peate kasutama rakendust Microsoft Power Query Exceli jaoks, kui on täidetud järgmine tingimus.
+Kui see tingimus on täidetud, siis peate kasutama andmete filtreerimiseks valikut Microsoft Power Query Exceli jaoks.
 
 - Teil on projekti tööülesannete hulgas ressursiga seotud kirjed.
 
-Kui peate kasutama Power Query, järgige seda juhist:
+Kui peate kasutama Power Query’d, järgige neid suuniseid.
 
 - Projekti tööülesannete (PSA-st kuni Fini ja Opsi) mallil on vaikefilter, mis välistab ressursile omased kirjed projekti ülesandest, seades filtri  **IsLineTask** olekule **väär**. Kui loote oma malli, peate selle filtri lisama.
 

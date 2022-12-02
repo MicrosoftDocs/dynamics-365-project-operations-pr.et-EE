@@ -1,6 +1,6 @@
 ---
 title: Läbisõidu seadistamine läbisõidu määra astmeid kasutades
-description: Selles artiklis antakse teavet läbisõidumäärade ja läbisõidumäära astmete kohta.
+description: See artikkel annab teavet nii läbisõidu määrade kui ka läbisõidu määra astmete kohta.
 author: suvaidya
 ms.date: 05/20/2021
 ms.topic: article
@@ -50,15 +50,15 @@ Funktsioon **Mitme saa määra funktsiooniga läbisõidu astme jaoks läbisõidu
 
 Pärast funktsiooni lubamist lähtestage algsed läbisõidu astmed õigetele, et need kajastaksid välja **Kogus** väärtust õigesti. 
 
-## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Läbisõidu kogusummade arvutamise lubamine finantsaasta funktsiooni järgi
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Lubage Läbisõidu kogusumma funktsiooni arvutamine finantsaasta järgi
 
-Funktsioon **Läbisõidu kogusummade arvutamine finantsaasta** abil võimaldab kuluhalduse parameetrites uue sätte, mis teostab läbisõidu kogusummade arvutusi kalendriaasta asemel finantsaasta kaupa. Selle funktsiooni lubamiseks tehke järgmist.
+Funktsioon **Läbisõidu kogusummade arvutamine finantsaasta järgi** võimaldab uut seadistust kulude haldamise parameetrites, mis teostab läbisõidu kogusummade arvutused kalendriaasta asemel finantsaasta järgi. Selle funktsiooni lubamiseks tehke järgmist.
 
 1. Minge jaotisse **Tööruumid** > **Funktsiooni juhtimine**.
-1. Otsige loendist üles ja valige **läbisõidu kogusummade arvutamine finantsaasta** järgi ning seejärel valige **Luba kohe**.
-1. Avage **Kuluhalduse** > **seadistus** > **Üldkulude** > **halduse parameetrid**.
-1. **Leidke ja lubage** lehel Kuluhalduse parameetrid **läbisõidu kogusummade** jaoks suvand Kasuta finantsaasta.
+1. Otsige loendist üles ja valige **Läbisõidu kogusummade arvutamine finantsaastate kaupa** ning seejärel valige **Luba kohe**.
+1. Minge jaotisesse **Kuluhaldus** > **Seadistus** > **Üldine** > **Kuluhalduse parameetrid**.
+1. Leheküljel **Kuluhalduse parameetrid** otsige üles ja lubage **Finantsaasta läbisõidu kogusummade kasutamise jaoks**.
 
-Pärast seda, kui olete lubanud kasutada **läbisõidu kogusummade** jaoks finantsaasta, arvutatakse läbisõidu kogusummad finantsaasta järgi.
+Pärast valiku **Läbisõidu kogusummade jaoks finantsaasta kasutamine** lubamist, arvutatakse läbisõidu kogusummad finantsaasta alusel.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

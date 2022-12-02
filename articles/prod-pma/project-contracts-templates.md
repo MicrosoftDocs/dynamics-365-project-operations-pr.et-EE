@@ -1,6 +1,6 @@
 ---
 title: Projekti lepingute ja projektide sünkroonimine otse Project Service Automationist rakendusse Finance
-description: Selles artiklis kirjeldatakse malli ja selle aluseks olevaid ülesandeid, mida kasutatakse projektilepingute ja projektide sünkroonimiseks otse Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance.
+description: See artikkel kirjeldab malli ja aluseks olevaid tööülesandeid, mida kasutatakse projektilepingute ja projektide sünkroonimiseks otse rakendusest Microsoft Dynamics 365 Project Service Automation rakendusse Dynamics 365 Finance.
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
@@ -27,7 +27,7 @@ ms.locfileid: "8933855"
 
 
 
-Selles artiklis kirjeldatakse malli ja selle aluseks olevaid ülesandeid, mida kasutatakse projektilepingute ja projektide sünkroonimiseks otse Dynamics 365 Project Service Automation Dynamics 365 Finance.
+See artikkel kirjeldab malli ja aluseks olevaid tööülesandeid, mida kasutatakse projektilepingute ja projektide sünkroonimiseks otse rakendusest Dynamics 365 Project Service Automation rakendusse Dynamics 365 Finance.
 
 > [!NOTE] 
 > Kui kasutate rakendust Enterprise edition 7.3.0, peate installima KB 4074835.
@@ -120,15 +120,15 @@ Kui rakendatakse integreerimislahendust Project Service Automationist Finance'i,
 
 ## <a name="power-query"></a>Power Query
 
-Microsoft Power Query for Excel abil saate andmeid filtreerida, kui on täidetud järgmised tingimused.
+Kui järgmised tingimused on täidetud, kasutage andmete filtreerimiseks lahendust Microsoft Power Query Exceli jaoks.
 
 - Teil on Dynamics 365 Salesis müügitellimused.
 - Teil on Project Service Automationis mitu organisatsiooniüksust ja need üksused vastendatakse mitme juriidilise olemiga Finance'is.
 
-Kui peate kasutama Power Query, järgige järgmisi juhiseid.
+Kui peate kasutama Power Query’d, järgige neid suuniseid.
 
 - Projektide ja lepingute (PSA-st Fin and Opsini) mallil on vaikefilter, mis sisaldab ainult **Tööde üksuse (msdyn\_ordertype = 192350001)** tüüpi müügitellimusi. See filter aitab tagada, et projektilepinguid ei loodaks Finance'is müügitellimustele. Kui loote oma malli, peate selle filtri lisama.
-- Power Query Looge filter, mis hõlmab ainult lepingulisi organisatsioone, mis tuleks sünkroonida integratsiooniühenduse komplekti juriidilise isikuga. Näiteks projekti lepingud, mis on seotud Contoso USA lepingu organisatsioonilise üksusega, tuleb sünkroonida USSI juriidilise isikuga, kuid projektilepingud, mis teil on Contoso Global lepingu organisatsioonilise üksusega tuleb sünkroonida USMF-i juriidilise isikuga. Kui te ei lisa seda filtrit oma tööülesannete vastendamisel, sünkroonitakse kõik projektilepingud juriidilise isikuga, mis on määratletud ühenduse komplekti jaoks, olenemata lepingu organisatsioonilisest üksusest.
+- Looge Power Query filter, mis sisaldab ainult neid lepingu organisatsioone, mida tuleks sünkroonida integratsiooni ühenduse komplekti juriidilise isiku juurde. Näiteks projekti lepingud, mis on seotud Contoso USA lepingu organisatsioonilise üksusega, tuleb sünkroonida USSI juriidilise isikuga, kuid projektilepingud, mis teil on Contoso Global lepingu organisatsioonilise üksusega tuleb sünkroonida USMF-i juriidilise isikuga. Kui te ei lisa seda filtrit oma tööülesannete vastendamisel, sünkroonitakse kõik projektilepingud juriidilise isikuga, mis on määratletud ühenduse komplekti jaoks, olenemata lepingu organisatsioonilisest üksusest.
 
 ## <a name="template-mapping-in-data-integration"></a>Malli vastendamine andmete integratsioonis
 

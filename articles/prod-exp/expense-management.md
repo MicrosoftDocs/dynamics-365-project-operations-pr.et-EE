@@ -1,6 +1,6 @@
 ---
 title: Kuluhalduse ülevaade
-description: Selles artiklis antakse üldist teavet kuluhalduse kohta ja linke täiendavatele ressurssidele. Saate kasutada kuluhaldust, et luua integreeritud töövoog, kus saate talletada makseviisi teavet, importida krediitkaardi tehinguid ja jälgida raha, mida töötajad kulutavad, kui nad katavad teie äritegevusega seotud kulusid.
+description: See artikkel annab üldteavet kuluhalduse ja täiendavate ressursside linkide kohta. Saate kasutada kuluhaldust, et luua integreeritud töövoog, kus saate talletada makseviisi teavet, importida krediitkaardi tehinguid ja jälgida raha, mida töötajad kulutavad, kui nad katavad teie äritegevusega seotud kulusid.
 author: ShylaThompson
 ms.date: 07/25/2019
 ms.topic: overview
@@ -43,7 +43,7 @@ Lisateavet vaadake teemast [Ümberkujundatud kuluaruanded](ExpenseWorkspaceNew.m
 
 ### <a name="blogs"></a>Ajaveebid
 
-Arvamusi, uudiseid ja muud teavet leiate ajaveebist [Microsoft Dynamics 365 ja ajaveebist](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)[Microsoft Dynamics 365 Finance - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
+Võite leida arvamusi, uudiseid ja muud teavet teemadest [Microsoft Dynamics 365 blogi](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ja [Microsoft Dynamics 365 Finance – finantside blogi](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Microsoft Dynamics Operationsi partnerikogukonna blogi](https://community.dynamics.com/partner/b/operationspartnercommunityblog) annab Microsoft Dynamicsi partneritele ühe ressursi, kus nad saavad lugeda, mis on MBS Operationsis uus ja trendikas.
 

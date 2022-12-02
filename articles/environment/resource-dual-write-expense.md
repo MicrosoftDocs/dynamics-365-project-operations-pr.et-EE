@@ -1,6 +1,6 @@
 ---
 title: Kuluhalduse integreerimine
-description: Selles artiklis antakse teavet kuluaruande integreerimise kohta Project Operationsis topeltkirjutuse abil.
+description: See artikkel annab teavet kuluaruande integreerimise kohta rakenduses Project Operations, kasutades topeltkirjutust.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
@@ -18,23 +18,23 @@ ms.locfileid: "9527982"
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Selles artiklis antakse teavet kuluaruannete integreerimise kohta Project Operationsi [täielikus kulujuurutuses](../expense/expense-overview.md) topeltkirjutuse abil.
+See artikkel annab teavet kuluaruannete integreerimise kohta Project Operationsis [täielik kulujuurutus](../expense/expense-overview.md), kasutades topeltkirjutust.
 
 ## <a name="expense-categories"></a>Kulukategooriad
 
-Täieliku kulujuurutuse korral luuakse ja hallatakse kulukategooriaid finance and operationsi rakendustes. Uue kulukategooria loomiseks tehke järgmist.
+Täieliku kulujuurutuse puhul luuakse ja hallatakse kulukategooriaid finants- ja äritoimingute rakendustes. Uue kulukategooria loomiseks tehke järgmist.
 
-1. Looge Microsoft Dataverse’is kategooria **Kanne**. Topeltkirjutusega integratsioon sünkroonib selle tehingukategooria finants- ja toimingurakendustega. Lisateavet leiate teemadest [Projektikategooriate konfigureerimine](/dynamics365/project-operations/project-accounting/configure-project-categories) ja [Project Operationsi seadistamise ja konfigureerimise andmeintegreerimine](resource-dual-write-setup-integration.md). Selle integratsiooni tulemusena loob süsteem finance and operationsi rakendustes neli jagatud kategooria kirjet.
+1. Looge Microsoft Dataverse’is kategooria **Kanne**. Topeltkirjutuse integreerimine sünkroonib selle kandekategooria finants- ja äritoimingute rakendustega. Lisateavet leiate teemadest [Projektikategooriate konfigureerimine](/dynamics365/project-operations/project-accounting/configure-project-categories) ja [Project Operationsi seadistamise ja konfigureerimise andmeintegreerimine](resource-dual-write-setup-integration.md). Selle integreerimise tulemusena loob süsteem finants- ja äritoimingute rakendustes neli jagatud kategooria kirjet.
 2. Minge valikusse **Kulude haldus** > **Seadistamine** > **Jagatud kategooriad** ja valige jagatud kategooria **kulutehingu** klassiga. Määrake parameetri **Kulus kasutatav** väärtuseks **Tõene** ja määrake kasutatava kulu tüüp.
 3. Looge selle jagatud kategooria kirje abil uus kulukategooria, valides suvandid **Kuluhaldus** > **Seadistus** > **Kulukategooriad** ja uue **Uus**. Kirje salvestamisel kasutab topeltkirjutamine tabelikaarti **Project Operationsi integreerimine projekti kulukategooriate ekspordi olem (msdyn\_expensecategories)**, et sünkroonida see kirje Dataverse’i.
 
   ![Kulukategooriate integreerimine.](./media/DW6ExpenseCategories.png)
 
-Finance and Operationsi rakenduste kulukategooriad on ettevõtte- või juriidilise isiku põhised. Dataverse’is on eraldi vastavad juriidilise isiku kirjed. Kui projektijuht prognoosib kulusid, ei saa ta valida projekti jaoks loodud kulukategooriaid, mille omanikuks on mõni muu ettevõte kui see, mille projektiga nad töötavad. 
+Finants- ja äritoimingute rakenduste kulukategooriad on ettevõtte või juriidilise isiku põhised. Dataverse’is on eraldi vastavad juriidilise isiku kirjed. Kui projektijuht prognoosib kulusid, ei saa ta valida projekti jaoks loodud kulukategooriaid, mille omanikuks on mõni muu ettevõte kui see, mille projektiga nad töötavad. 
 
 ## <a name="expense-reports"></a>Kuluaruanded
 
-Kuluaruanded luuakse ja kinnitatakse Finance and Operationsi rakendustes. Lisateavet leiate teemast [Kuluaruannete loomine ja töötlemine rakenduses Dynamics 365 Project Operations](/training/modules/create-process-expense-reports/). Pärast seda, kui projektijuht on kuluaruande kinnitanud, sisestatakse see pearaamatusse. Project Operationsis sisestatakse projektiga seotud kuluaruande read spetsiaalsete sisestusreeglite abil.
+Kuluaruanded luuakse ja kinnitatakse finants- ja äritoimingute rakendustes. Lisateavet leiate teemast [Kuluaruannete loomine ja töötlemine rakenduses Dynamics 365 Project Operations](/training/modules/create-process-expense-reports/). Pärast seda, kui projektijuht on kuluaruande kinnitanud, sisestatakse see pearaamatusse. Project Operationsis sisestatakse projektiga seotud kuluaruande read spetsiaalsete sisestusreeglite abil.
 
   - Projektiga seotud kulusid (sealhulgas tagastamatut maksu) ei kirjendata kohe pearaamatu projekti kulukontole, vaid need kantakse kulude integreerimise kontole. See konto on konfigureeritud jaotises **Projektihaldus ja raamatupidamine** > **Seadistus** > **Projektihaldus ja raamatupidamisparameetrid**, vahekaardil **Project Operations rakenduses Dynamics 365 Customer Engagement**.
   - Topeltkirjutamine sünkroonitakse Dataverse’is, kasutades **Project Operationsi integreerimise projektikulude ekspordi olemi (msdyn\_expenses)** tabelikaarti.

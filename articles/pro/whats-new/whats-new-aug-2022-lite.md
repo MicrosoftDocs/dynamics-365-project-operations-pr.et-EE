@@ -1,6 +1,6 @@
 ---
 title: Mis on uut augustis 2022 – Project Operationsi lihtjuurutus
-description: Sellest artiklist leiate teavet kvaliteedivärskenduste kohta, mis on saadaval Microsoft Dynamics 365 Project Operations Lite’i juurutuse 2022. aasta augusti väljaandes.
+description: See artikkel annab teavet rakenduse Microsoft Dynamics 365 Project Operations lihtjuurutamise 2022. a augusti väljalaskes saadaolevate kvaliteedivärskenduste kohta.
 author: ramagadu
 ms.date: 08/19/2022
 ms.topic: article
@@ -18,16 +18,16 @@ ms.locfileid: "9403898"
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
-See artikkel kehtib microsofti järgmiste komponentide ja versioonide kohta Dynamics 365 Project Operations:
+See artikkel kehtib rakenduse Microsoft Dynamics 365 Project Operations järgmiste komponentide ja versioonide kohta.
 
-- Projektitoimingud keskkonnaversioonis Dataverse 4.45.0.53
+- Rakenduse Project Operations Dataverse keskkonna versioonis 4.45.0.53
 
 ## <a name="quality-updates"></a>Kvaliteedi värskendused
 
 | Funktsiooni ala | Viitenumber | Kvaliteedi värskendus |
 | --- | --- | --- |
-|   Müügivõimaluste haldus | 2762089 | Vigade käsitlemine lepingu sulgemisel kadunuks, kui automaatne salvestamine on organisatsioonis keelatud.|
-|Projekti plaanimine ja jälgimine | 2767841 | Telemeetria värskendab Projekti olemit Stsenaariumide loomine või värskendamine.|
-|Arveldamine ja hinnakujundus | 2771072 | Nullviite erandi käsitlemine võitva hinnapakkumise ajal.|
-|Arveldamine ja hinnakujundus | 2844181 |Ebaõnnestumine korrelatsiooni ID saamisel ja arve loomise blokeerimisel.|
-|Arveldamine ja hinnakujundus | 2852836 | Kontsernisisesed tegelikud kulud puuduvad kontsernisisese kulu puhul, mis on loodud ja kinnitatud CE-s.|
+|   Müügivõimaluste haldus | 2762089 | Kui automaatne salvestamine on organisatsioonis keelatud, ilmnes vigade käsitlemine lepingu sulgemisel.|
+|Projekti plaanimine ja jälgimine | 2767841 | Telemeetria värskendused Projekti olem Looge või värskendage stsenaariume.|
+|Arveldamine ja hinnakujundus | 2771072 | Nullviite erandi käsitlemine võitnud hinnapakkumise ajal.|
+|Arveldamine ja hinnakujundus | 2844181 |Ebaõnnestumine korrelatsiooni ID hankimisel ja arve loomise blokeerimine.|
+|Arveldamine ja hinnakujundus | 2852836 | CE-s loodud ja kinnitatud kontsernisiseste kulude tegelikud näitajad puuduvad.|

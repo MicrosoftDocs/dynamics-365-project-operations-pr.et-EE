@@ -1,6 +1,6 @@
 ---
 title: Projektipakkumise projekti hinnakirja haldamine
-description: See artikkel annab teavet hinnapakkumiste projekti hinnakirjadega töötamise kohta.
+description: See artikkel kirjeldab tööd hinnapakkumiste projekti hinnakirjadega.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

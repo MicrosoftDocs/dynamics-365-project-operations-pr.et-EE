@@ -1,6 +1,6 @@
 ---
 title: Project Operationsi väljad hinnakujunduse dimensioonidena
-description: Selles artiklis antakse teavet, kasutades välju hinnadimensioonidena rakenduses Dynamics 365 Project Operations.
+description: See artikkel annab teavet väljade kasutamise kohta hinnakujunduse dimensioonidena rakenduses Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

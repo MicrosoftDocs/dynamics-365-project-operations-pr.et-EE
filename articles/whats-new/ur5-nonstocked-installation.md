@@ -1,6 +1,6 @@
 ---
 title: Project Operationsi värskendamine Finance'i keskkonnas
-description: Sellest artiklist leiate teavet rakenduse Project Operations värskendamise kohta Dynamics 365 Finance keskkonnas.
+description: See artikkel annab teavet selle kohta, kuidas uuendada rakendust Project Operations rakenduse Dynamics 365 Finance keskkonnas.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
@@ -19,7 +19,7 @@ ms.locfileid: "9030030"
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
 
-Sellest artiklist leiate teavet selle kohta, Dynamics 365 Project Operations kuidas värskendada Dynamics 365 Finance keskkonnas. Project Operationsi uuendamiseks värskendusele 5 (UR5) on vaja kolme toimingut.
+See artikkel annab teavet selle kohta, kuidas uuendada rakendust Dynamics 365 Project Operations rakenduse Dynamics 365 Finance keskkonnas. Project Operationsi uuendamiseks värskendusele 5 (UR5) on vaja kolme toimingut.
 
 - [Paketi importimine eelvaate projekti](#import)
 - [Värskenduse rakendamine](#apply)
@@ -119,7 +119,7 @@ UR5-le värskendamise osana on nõutavad järgmised olemite turbeõiguste värsk
 4. Rakendage lehel **Tabelivastenduse versioon** vastenduse uus versioon kõigile kolmele olemile.
 5. Valige vastenduste taaskäivitamiseks lehel **Topeltkijutamine** käsk Käivita.
 6. Valige vastenduste loendist vastendus **Pearaamat (msdyn_ledgers)** koos kõige eeltingimustega ja valige märkeruut **Algne sünkroonimine**. 
-7. Tehke väljal **Master for initial sync (Esialgse sünkroonimise** juht) valik **Finance and operationsi rakendused** ja seejärel valige **Käivita**.
+7. Valige **Algse sünkroonimise ülem** väljal **Finants- ja äritoimingute rakendused** ja seejärel valige **Käivita**.
  
  ![Pearaamatu vastenduse sünkroonimine.](media/DW6.png)
  

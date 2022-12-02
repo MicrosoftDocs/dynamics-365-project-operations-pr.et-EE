@@ -1,6 +1,6 @@
 ---
 title: Allhankelepingu ajaread
-description: Selles artiklis selgitatakse, kuidas salvestada allhanke ridu aja jooksul ja salvestada hankijatelt aja ostmist.
+description: See artikkel kirjeldab, kuidas kirjendada aja allhankelepingute ridu ja kirjendada hankijatelt aja ostmist.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -34,7 +34,7 @@ Rakenduses Project Operations allhankelepingu ajarea loomiseks tehke järgmised 
 | Kirjeldus | Allhankelepingu real ostetavate teenuste lühikirjeldus. |Pole |
 | Rea tüüp |   Selle välja vaikeväärtus on **Kogusepõhine**.| Pole |
 | Arveldusmeetod | See on Project Operationsi toetatud kahte peamist lepingumudelit esindav suvandikomplekt: **Fikseeritud hind** ning **Kellaaeg ja materjal**. | Valitud arveldusmeetodil põhinedes tehakse allhankelepingu ridade jaoks kättesaadavaks vahe-eesmärkidel põhineva arve ajakava koos fikseeritud hinnaga arveldusmeetodiga. |
-| Tehingu liik | Vaikeväärtus on **Aeg**. | See näitab, et allhankelepingu rida kasutatakse alltöövõtja aja ostmise talletamiseks. |
+| Tehingu klass | Vaikeväärtus on **Aeg**. | See näitab, et allhankelepingu rida kasutatakse alltöövõtja aja ostmise talletamiseks. |
 | Roll | Valige allhankelepingu ressursside rull, kelle aega ostetakse. | Allhankelepingu ressursi täidetav roll määrab ostu kulu. |
 | Soovitud algus | Sisestage kuupäev, millal alltöövõtja ressursid peavad tööga alustama. | Seda kasutatakse allhankelepingule lisatud projekti hinnakirjade loendist projekti hinnakirja valimiseks. Allhankelepingu rea rolli kulu pärineb sellest hinnakirjast. |
 | Soovitud lõpp | Sisestage kuupäev, millal alltöövõtja ressursi ülesanne lõpeb. | Seda kasutatakse hoiatuste näitamiseks, kui projektijuht kasutab ressursi nõude jaoks mahtu pärast seda kuupäeva. |

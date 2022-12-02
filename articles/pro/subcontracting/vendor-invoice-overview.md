@@ -1,6 +1,6 @@
 ---
 title: Hankija arveldamine – mõiste ja loomine
-description: Selles artiklis kirjeldatakse hankija arvete mõistet, kasutusstsenaariume ja seda, kuidas microsoftis hankija arveid luua Dynamics 365 Project Operations.
+description: See artikkel kirjeldab tarnija arvete, kasutusstsenaariumide ja tarnija arvete loomise stsenaariumeid rakenduses Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
@@ -17,70 +17,70 @@ ms.locfileid: "9261929"
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
-Microsofti hankija arveldust Dynamics 365 Project Operations saab kasutada hankijate poolt projekti teenuste ja/või materjalide tarnete kulude registreerimiseks.
+Hankija arveldust rakenduses Microsoft Dynamics 365 Project Operations saab kasutada hankijate projekti teenuste ja/või materjalide tarnimise kulude registreerimiseks.
 
-Kui teenused ja/või materjalid tellitakse allhanke korras hankijalt, tähistab alltöövõtt selle hankijaga sõlmitud lepingut. Kui hankija osutab teenuseid või materjalid võetakse vastu ja neid kasutatakse projekti ülesannetes, kajastatakse kulud projektis. Hankija saadab perioodiliselt arveid, mis on kinnitatud ja sobitatud projektis salvestatud kuludega. Kui kinnitusprotsess on lõpule viidud, kinnitatakse hankija arve ja väljastatakse maksmiseks.
+Kui teenuste ja/või materjalide allhankelepingud sõlmitakse hankijaga, kujutab allhankeleping selle hankijaga sõlmitud lepingut. Kui hankija osutab teenuseid või kui materjalid võetakse vastu ja kasutatakse projektiülesannete täitmiseks, kirjendatakse kulud projektis. Hankija saadab perioodiliselt arveid, mis on kontrollitud ja vastavusse viidud projektis registreeritud kuludega. Pärast kontrolliprotsessi lõppu kinnitatakse hankija arve ja see vabastatakse tasumiseks.
 
-## <a name="scenarios-for-use"></a>Kasutatavad stsenaariumid
+## <a name="scenarios-for-use"></a>Kasutamise stsenaariumid
 
-Hankija arveid saab project operationsis kasutada kahe erineva stsenaariumi toetamiseks.
+Rakenduse Project Operations hankija arveid saab kasutada kahe erineva stsenaariumi toetamiseks.
 
 ### <a name="customers-use-the-full-subcontracting-experiences"></a>Kliendid kasutavad kõiki allhankekogemusi
 
-Hankija arve kasutuskogemused võimaldavad kontrollida ja sobitada ajakandeid, materjalikasutust ja kulukandeid, mis viitavad allhanke komponentidele hankija arve ridadega. Seda protsessi saab kasutada hankija arve ridade täpsuse kontrollimiseks. Kui kinnitusprotsess on lõpule viidud ja hankija arve kinnitatud, tühistab rakendus kinnitatud aja-, kulu- ja materjalikasutuse logidega salvestatud tegelikud andmed ning loob hankija arve ridade abil uued kulu tegelikud kulud.
+Hankija arvekogemused võimaldavad kontrollida ja sobitada ajakirjeid, materjalikasutuse ja kulukirjeid, mis viitavad allhankelepingute sõlmitud komponentidele hankija arve ridadega. Seda protsessi saab kasutada hankija arve ridade täpsuse kontrollimiseks. Pärast kinnitamisprotsessi lõpetamist ja hankija arve kinnitamist tühistab rakendus kinnitatud aja-, kulu- ja materjalikasutuse logides registreeritud tegelikud näitajad ning loob hankija arve ridu kasutades uusi kuluarvete tegelikke näitajaid.
 
-### <a name="customers-dont-use-the-full-subcontracting-experiences-but-want-to-have-a-unified-view-of-costs-on-projects-in-project-operations"></a>Kliendid ei kasuta täielikke allhankekogemusi, kuid soovivad saada ühtset vaadet project operationsi projektide kulude kohta
+### <a name="customers-dont-use-the-full-subcontracting-experiences-but-want-to-have-a-unified-view-of-costs-on-projects-in-project-operations"></a>Kliendid ei kasuta kõiki allhankekogemusi, kuid soovivad rakenduse Project Operations projektide kuludest ühtset ülevaadet
 
-Kui jälgite allhankeprotsessi kolmanda osapoole süsteemis, saate salvestada kulud sellest kolmanda osapoole süsteemist Project Operationsisse, luues hankija arved, mis ei viita allhankele. Sel viisil saab teie projektijuhtidel olla ühtne ülevaade kõigi konkreetse projekti kulude kohta.
+Kui jälgite allhankeprotsessi kolmanda osapoole süsteemis, saate registreerida selle kolmanda osapoole süsteemi kulud rakendusele Project Operations, luues hankija arveid, mis ei viita allhankelepingutele. Nii saavad teie projektijuhid omada ühte ja ühtset ülevaadet antud projekti kõigist kuludest.
 
 ## <a name="creation-of-vendor-invoices-in-project-operations"></a>Hankija arvete loomine rakenduses Project Operations
 
-Hankija arveid saab luua kahel viisil:
+Hankija arvete loomiseks on kaks võimalust:
 
-- Hankija arve loendi lehelt või ühe hankija arve üksikasjade lehelt
-- Alltöövõtu loendilehelt või ühe alltöövõtu üksikasjade lehelt
+- Hankija arvete loendi lehelt või üksiku hankija arve üksikasjade lehelt
+- Allhankelepingute loendi lehelt või üksiku allhankelepingu üksikasjade lehelt
 
-### <a name="creation-from-the-vendor-invoice-list-page-or-details-page"></a>Loomine hankija arvete loendilehelt või üksikasjade lehelt
+### <a name="creation-from-the-vendor-invoice-list-page-or-details-page"></a>Loomine hankija arvete loendi lehelt või üksikasjade lehelt
 
-1. Avage **Hankija arvete ostmine** \> **·**.
-2. Valige hankija arve loendi lehel või ühe hankija arve üksikasjade lehel Uus **,** et luua uus hankija arve.
+1. Minge jaotisesse **Ostmine** \> **Hankija arved**.
+2. Hankija arvete loendilehel või üksiku hankija arve üksikasjade lehel valige uue hankija arve loomiseks **Uus**.
 
-Sel viisil loodud hankijaarved võivad viidata ka allhankele.
+Sel viisil koostatud hankija arved võivad viidata ka allhankelepingule.
 
-### <a name="creation-from-the-subcontract-list-page-or-details-page"></a>Loomine allhanke loendilehelt või üksikasjade lehelt
+### <a name="creation-from-the-subcontract-list-page-or-details-page"></a>Loomine allhankelepingute loendi lehelt või üksikasjade lehelt
 
-1. Avage **Allhankelepingute** ostmine \>**·**.
-2. Valige üks või mitu allhanget.
-3. Valige alltöövõtu loendi lehel või ühe alltöövõtu **üksikasjade lehel uue hankijaarve** loomiseks suvand Loo hankija arve.
+1. Minge jaotisesse **Ostmine** \> **Allhanked**.
+2. Valige üks või mitu allhankelepingut.
+3. Hankija allhankelepingu loendilehel või üksiku allhankelepingu üksikasjade lehel valige loomiseks **Hankija arve loomine**.
 
-Iga valitud allhanke jaoks luuakse uus hankijaarve olekus **Mustand**.
+Iga valitud allhankelepingu jaoks luuakse uus hankija arve olekuga **Mustand**.
 
-Sel viisil loodud hankija arved viitavad hankija arve päises alati allhankele. Iga alltöövõtu rida, millel on aja ja materjali arveldusmeetod, põhjustab hankija arvele rea loomise. Iga alltöövõtu rea puhul, millel on fikseeritud hinnaga arveldusmeetod, luuakse hankija arvel rida iga allhankerea verstaposti jaoks, mille olek **on arveldamiseks** valmis.
+Sel viisil loodud hankija arved viitavad hankija arve päises alati allhankelepingule. Iga allhankelepingu rida, millel on aja ja materjali arveldusmeetod, loob hankija arvele rea. Iga allhankelepingu rida, millel on fikseeritud hinnaga arveldusmeetod, loob hankija arvel rea iga allhankelepingurea vahekokkuvõtte jaoks, mille olek on **Arveldamiseks valmis**.
 
 Järgmised väljad ja seotud kirjed kopeeritakse allhankelepingust hankija arve päisesse.
 
 - Hankija.
-- Seotud hinnakirjad kopeeritakse hankija arvele hinnakirjadena.
+- Seotud hinnakirjad kopeeritakse hinnakirjadena hankija arvele.
 - Valuuta:
-- Lepinguline üksus.
-- Maksetingimuste.
+- Lepingut sõlmiv üksus.
+- Maksetingimused.
 
-Aja ja materjali allhanke ridade puhul kopeeritakse järgmised väljad ja seotud kirjed allhankerealt hankija arve reale.
+Aja ja materjali allhankelepingu ridade puhul kopeeritakse allhankelepingurea hankija arve reale järgmised väljad ja seotud kirjed:
 
-- Alltöövõtu ja alltöövõtuliinide viited
-- Kande klass
+- Allhankeleping ja allhankelepingu viited
+- Tehingu klass
 - Roll
 - Kande kategooria
-- Toote väljad
+- Tooteväljad
 - Project
 - Toiming
 - Broneeritav ressurss
 
-Fikseeritud hinnaga allhankeridade puhul kopeeritakse järgmised väljad allhankerealt ja allhanke rea verstapostilt hankija arve reale.
+Fikseeritud hinnaga allhankelepingu ridade puhul kopeeritakse allhankelepingu realt ja allhankelepingurea vahekokkuvõttest hankija arve reale järgmised väljad.
 
-- Alltöövõtu ja alltöövõtuliinide viited.
-- Tehingu klass. Vaikimisi on väärtuseks **Milestone**.
-- Verstaposti nimi ja summa kopeeritakse seotud allhankerea verstapostist.
+- Allhankeleping ja allhankelepingu viited.
+- Tehingu klass. Vaikimisi on väärtuseks **Vahekokkuvõte**.
+- Vahekokkuvõtte nimi ja summa kopeeritakse seotud allhankelepingurea vahekokkuvõttest.
 - Kasutaja saab hankija arve real valida projekti ja ülesande.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

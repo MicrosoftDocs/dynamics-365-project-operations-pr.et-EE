@@ -1,6 +1,6 @@
 ---
 title: Projekti hankija arve kinnitamine
-description: Selles artiklis selgitatakse, kuidas kinnitada projekti hankija arvet Microsoftis Dynamics 365 Project Operations ja projekti hankija arve kinnitamise finantsmõju.
+description: See artikkel selgitab, kuidas kinnitada projekti hankija arvet teenuses Microsoft Dynamics 365 Project Operations ja projekti hankija arve kinnitamise finantsmõju.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
@@ -17,17 +17,17 @@ ms.locfileid: "9261506"
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
-Kui olete Microsoftis Dynamics 365 Project Operations kõik hankijaarve read kinnitanud, saate hankija arve kinnitamiseks kasutada toimingut Kinnita.
+Kui olete teenuses Microsoft Dynamics 365 Project Operations hankija arvel kõik read kontrollinud, saate hankija arve kinnitamiseks kasutada toimingut Kinnita.
 
-Kui valite **hankija arvel käsu Kinnita**, toimub järgmine käitumine.
+Kui valite hankija arvel valiku **Kinnita**, ilmneb järgmine käitumine.
 
-1. Hankija arve olekuks on värskendatud **kinnitatud**.
-2. Kinnitatud hankija arve ja sellega seotud kirjed muutuvad kirjutuskaitstuks ning neid ei saa redigeerida ega kustutada.
-3. Kui mõni tegelik kulu viitab hankija arve reale vastavusse viimise protsessi osana, tühistatakse kõik kulu tegelikud kulud, mis on seotud viidatud hankija arve reaga.
-4. Uued tegelikud kuluandmed luuakse hankija arve real oleva teabe abil.
-5. Pärast hankija arve kinnitamist ei saa te enam luua parandustöölehti, töödelda ajakirjete tagasikutsumisi ega tühistada algse aja, kulu või tühistatud tegelike kulude kinnitamist.
+1. Hankija arve olekuks värskendatakse **Kinnitatud**.
+2. Kinnitatud hankija arve ja sellega seotud kirjed muutuvad kirjutuskaitstuks ning neid ei saa muuta ega kustutada.
+3. Kui mis tahes kulu tegelikud näitajad viitavad võrdlusprotsessi osana hankija arve reale, pööratakse kõik viidatud hankija arve reaga seotud kulu tegelikud näitajad ümber.
+4. Uued kulu tegelikud näitajad luuakse hankija arve real olevat teavet kasutades.
+5. Pärast hankija arve kinnitamist ei saa enam luua paranduspäevikuid, töödelda aja sissekande tagasikutsumist ega tühistada algse aja-, kulu- või materjali tegelike näitajate kinnitamist, mis olid ümberpööratud.
 
 > [!NOTE]
-> Kui hankija arve mis tahes real on muu kinnitamise olek kui **Lõpetatud**, ei saa hankija arvet kinnitada.
+> Kui hankija arve mõnel real on kinnitusolek muu kui **Täielik**, ei saa hankija arvet kinnitada.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

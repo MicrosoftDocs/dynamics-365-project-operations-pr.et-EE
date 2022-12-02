@@ -1,6 +1,6 @@
 ---
 title: Ressursitaotluse esitamine
-description: Saate loodud ressursinõude esitada ressursitaotlusena. Seejärel saadetakse taotlus täitmiseks ressursihaldurile.
+description: Saate loodud ressursinõude esitada ressursitaotlusena. Taotlus saadetakse seejärel täitmiseks ressursihaldurile.
 author: ruhercul
 ms.date: 10/04/2020
 ms.topic: article
@@ -17,18 +17,18 @@ ms.locfileid: "9137175"
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Saate loodud ressursinõude esitada ressursitaotlusena. Seejärel saadetakse taotlus täitmiseks ressursihaldurile.
+Saate loodud ressursinõude esitada ressursitaotlusena. Taotlus saadetakse seejärel täitmiseks ressursihaldurile.
 
 1. Broneeritavate ressursside loendi nägemiseks rakenduses Dynamics 365 Project Operations valige lehel **Projektid** vahekaart **Meeskond**. 
 2. Valige üldine ressurss, millel on olemas ressursinõue loendist, ja seejärel klõpsake valikut **Esita taotlus**.
 
 Üldise meeskonnaliikme taotluse olek muutub olekuks **Esitatud**.
 
-Ressursitaotluse saajal on võimalus taotlus ühe või mitme ressursi abil osaliselt täita või ressursitaotlus täielikult täita.
+Ressursipäringu saajal on võimalik taotlus kas osaliselt täita ühe või mitme ressursi abil või täielikult täita.
 
-Pärast taotluse täitmist lisatakse projektimeeskonna liikmetena projekti üks või mitu nimega ressurssi. Kui ressursivajadus täidetakse ühe ressursiga, kustutatakse ressursitaotlusega seotud üldine meeskonnaliige. 
+Pärast taotluse täitmist lisatakse projektile üks või mitu nimetatud ressurssi projektimeeskonna liikmetena. Kui ressursinõue on täidetud ühe ressursiga, kustutatakse ressursitaotlusega seotud üldine meeskonnaliige. 
 
-Pärast seda, kui ressursitaotluse saaja on ressursid välja pakkunud ja projektijuht on valmis pakutud ressursid üle vaatama, peaks ta värskendama ressursitaotluse oleku vajaduste **ülevaatamiseks**.
+Kui ressursitaotluse saaja on esitanud ressursid ja on valmis, et projektijuht saaks pakutud ressursid läbi vaadata, peaks ta ressursitaotluse olekut uuendama tasemele **Vajab läbivaatamist**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

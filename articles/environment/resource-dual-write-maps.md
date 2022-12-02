@@ -1,6 +1,6 @@
 ---
 title: Rakenduse Project Operations topeltkirjutamise vastenduse versioonid
-description: Selles artiklis on toodud loend kahekordse kirjutamisega kaartidest, mis on vajalikud Dynamics 365 Project Operations.
+description: See artikkel annab rakenduse Dynamics 365 Project Operations jaoks vajalikud topeltkirjutuskaardid.
 author: sigitac
 ms.date: 07/01/2021
 ms.topic: article
@@ -25,12 +25,12 @@ Järgmised kaardid on Project Operationsi lahenduse jaoks nõutavad eeltingimuse
 
 | Tabelivastendus | Algne sünkroonimine |
 | --- | --- |
-| Pearaamat (msdyn_ledgers) | Nõuab tabelikaardi ja kõigi eeltingimuste algset sünkroonimist. Master esialgseks sünkroonimiseks on finance and operationsi rakendused. |
+| Pearaamat (msdyn_ledgers) | Nõuab tabelikaardi ja kõigi eeltingimuste algset sünkroonimist. Algse sünkroonimise ülem on finants- ja äritoimingute rakendused. |
 | Juriidilised isikud (cdm_companies) | Pole nõutav. Süsteem asustab selle olemi automaatselt, kui keskkonnad on seotud topeltkirjutusega. |
 | Kliendid V3 (kontod) | Pole vajalik ettevalmistuse jaoks. |
 | Tarnijad V2 (msdyn_vendors) | Pole vajalik ettevalmistuse jaoks. |
 
-1. Valige kaartide loendist kõigi eeltingimustega kaart Pearaamat **(msdyn\_ledgers)** ja valige märkeruut **Algne sünkroonimine**. Tehke väljal **Master for initial sync** valik **Finance and operationsi rakendused** nii pearaamatukaardi kui ka kõigi eeltingimuste kaartide jaoks. Valige **Käivita**.
+1. Valige kaartide loendist kõigi eeltingimustega kaart Pearaamat **(msdyn\_ledgers)** ja valige märkeruut **Algne sünkroonimine**. Valige väljal **Algse sünkroonimise ülem** rakendus **Finants- ja äritoimingute rakendused** nii pearaamatu kui ka kõigi eeltingimuste kaartide jaoks. Valige **Käivita**.
 
 ![Pearaamatu vastenduse sünkroonimine.](media/DW6.png)
 
@@ -40,13 +40,13 @@ Järgmised kaardid on Project Operationsi lahenduse jaoks nõutavad eeltingimuse
 
 Järgmised kaardid on Project Operationsi lahenduse jaoks nõutavad eeltingimused. Topeltkirjendamise vastendamise versioonid on loetletud alates Project Operationsi 2021. a mai värskendusest, versioon 4.10.0.186.
 
-| Olemikaart | Uusim versioon | Algne sünkroonimine | Nõutav Dynamics 365 Finance versioon |
+| Olemikaart | Uusim versioon | Algne sünkroonimine | Nõutav Dynamics 365 Finance’i versioon |
 | --- | --- | --- | --- |
 | Projekti kande seoste integreerimise olem (msdyn\_transactionconnections) | 1.0.0.0 | Pole vajalik ettevalmistuse jaoks. ||
 | Projekti lepingupäised (müügitellimused) | 1.0.0.1 | Pole vajalik ettevalmistuse jaoks. ||
 | Projekti lepinguread (salesorderdetails) | 1.0.0.0 | Pole vajalik ettevalmistuse jaoks. ||
 | Projekti rahastamisallikas (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Pole vajalik ettevalmistuse jaoks. ||
-| Projekti integratsioonitabel materjaliprognooside jaoks (msdyn\_ estimate lines) | 1.0.0.0 | Pole vajalik ettevalmistuse jaoks. ||
+| Projekti integreerimistabel materjaliprognooside jaoks (msdyn\_estimatelines) | 1.0.0.0 | Pole vajalik ettevalmistuse jaoks. ||
 | Projekti arve ettepanekud V2 (arved) | 1.0.0.3 | Pole vajalik ettevalmistuse jaoks. ||
 | Project Operationsi integreerimise tegelikud näitajad (msdyn_actuals) | 1.0.0.15 | Pole vajalik ettevalmistuse jaoks. |10.0.29 või uuemad|
 | Project Operationsi integratsiooni lepingurea vahekokkuvõtted (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Pole vajalik ettevalmistuse jaoks. ||

@@ -1,6 +1,6 @@
 ---
 title: Turve ja kinnitused
-description: Sellest artiklist leiate teavet Microsofti kinnitustega töötamise turbehäälestuse kohta Dynamics 365 Project Operations.
+description: See artikkel annab turbesätestuse kohta teenuses Microsoft Dynamics 365 Project Operations kinnitustega töötamiseks.
 author: stsporen
 ms.date: 08/29/2022
 ms.topic: security
@@ -24,15 +24,15 @@ Microsoft Dynamics 365 Project Operations kasutab aja-, kulu- ja materjalikirjet
 
 ## <a name="project-approver"></a>Projekti kinnitaja
 
-Projekti aja-, kulu- ja materjalikirjete kinnitamiseks peab teil olema **projekti kinnitaja** turberoll. Samuti peab teil olema juurdepääs asjakohastele seotud olemitele (nt **Project)**. Selle juurdepääsu saab määrata keegi, kellel on **projektijuhi** roll. Lisaks peate olema projekti meeskonnaliige ja märgitud kinnitajaks.
+Projekti aja, kulude ja materjalikirjete kinnitamiseks peab teil olema **Projekti kinnitaja** turberoll. Teil peab olema juurdepääs ka asjakohastele seotud üksustele, näiteks **Projekt**. Selle juurdepääsu saab määrata keegi, kellel on **Projektijuhi** roll. Lisaks peate olema projekti meeskonnaliige ja märgitud kinnitajaks.
 
-Mitteprojektikirjete kinnitamiseks peate olema esitaja haldur.
+Projektiväliste kirjete kinnitamiseks peate olema esitaja juht.
 
 ## <a name="project-approver-admin"></a>Projekti kinnitaja administraator
 
 > [!NOTE]
-> Kinnituskomplektide [funktsioon](approval-sets.md) peab olema lubatud, enne kui saate kasutada Project Approveri administraatori funktsiooni.
+> Funktsioon [Kinnitamiskomplektid](approval-sets.md) peab olema lubatud, enne kui saate kasutada projekti kinnitaja administraatori funktsiooni.
 
-**Projekti kinnitaja administraatori** turberoll võimaldab kasutajatel poliitikatest mööda hiilida ja lubab kinnitada kirjeid kõigis projektides. Selle rolli määramine läheb mööda valideerimisloogikast, mis nõuab meeskonna liikmelisust ja kinnitajaks märkimist. Teil peab olema juurdepääs asjakohastele seotud tabelitele (nt **Project**) teile määratud turberollide kaudu.
+**Projekti kinnitaja administraatori** turberoll võimaldab kasutajatel eeskirjadest mööda minna ja võimaldab kinnitada kõigi projektide kirjeid. Selle rolli määramine läheb mööda kinnitamisloogikast, mis nõuab meeskonna liikmelisust ja kinnitajaks märkimist. Teil peab olema juurdepääs asjakohastele seotud tabelitele, näiteks **Projekt**, teile määratud turberollide kaudu.
 
-SÜSTEEMI kasutaja kontekst läheb valideerimistest mööda samamoodi nagu Project Approveri administraatori turberoll.
+SÜSTEEMI kasutajakontekst möödub kinnitamisest samamoodi nagu projekti kinnitaja administraatori turberoll.

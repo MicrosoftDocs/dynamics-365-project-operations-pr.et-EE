@@ -1,6 +1,6 @@
 ---
-title: Project Service Automation to Project Operations projekti plaanimise teisendusprotsess
-description: Selles artiklis antakse ülevaade funktsioonide muudatustest Microsoft Dynamics 365 Project Service Automation kuni Dynamics 365 Project Operations.
+title: Projekti plaanimise teisendustoiming rakenduselt Project Service Automation üleminekul rakendusele Project Operations
+description: See artikkel annab ülevaate rakenduse Microsoft Dynamics 365 Project Service Automation funktsioonide muudatustest rakendusele Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 10/07/2022
@@ -23,65 +23,65 @@ ms.contentlocale: et-EE
 ms.lasthandoff: 10/08/2022
 ms.locfileid: "9642563"
 ---
-# <a name="project-service-automation-to-project-operations-project-scheduling-conversion-process"></a>Project Service Automation to Project Operations projekti plaanimise teisendusprotsess
+# <a name="project-service-automation-to-project-operations-project-scheduling-conversion-process"></a>Projekti plaanimise teisendustoiming rakenduselt Project Service Automation üleminekul rakendusele Project Operations
 
-Kui projekt on edukalt versioonilt 3.X Microsoft Dynamics 365 Project Service Automation üle viidud Lite’ile Dynamics 365 Project Operations, pole projektiülesannete redigeerimine ülesanderuudustiku tööjaotuse struktuuris (WBS) võimalik. Kliendid saavad WBS-id üle vaadata jälgimisvõrgus, kuhu on lisatud uued väljad, et esitada kõik ülesandega seotud üksikasjad. Projektide puhul, kus on vaja WBS-i muudatusi, saate valikuliselt teisendada sobilikud projektid veebi plaanimise kogemuse jaoks uude projekti.
+Pärast projekti edukat versiooni Microsoft Dynamics 365 Project Service Automation 3.X versioonile Dynamics 365 Project Operations Lite üleviimist ei ole projektiülesannete redigeerimine ülesannete ruudustiku tööjaotuse struktuuris (WBS) võimalik. Kliendid saavad jälgida WBS-e jälgimisruudustikus, kuhu on lisatud uued väljad, et edastada kõik ülesandega seotud üksikasjad. Projektide puhul, mille puhul on vaja WBS-i muudatusi, saate sobilikud projektid valikuliselt teisendada uue Project for the webi ajastamise kogemuse jaoks.
 
-## <a name="project-conversion-process"></a>Projekti konversiooniprotsess
+## <a name="project-conversion-process"></a>Projekti teisendamise protsess
 
-Projekti teisendamiseks toimige järgmiselt.
+Projekti teisendamiseks järgige neid etappe.
 
-1. Avage projekti avaleht ja valige **tegevuspaanil käsk Teisenda**.
-1. Valige **kinnitusteate väljal OK**, et alustada projekti teisendamist. Toimuvad järgmised toimingud:
+1. Avage projekti avaleht ja valige toimingupaanil **Teisenda**.
+1. Projekti teisendamise alustamiseks valige kinnitusteatekastis **OK**. Toimuvad järgmised toimingud:
 
-    1. Projekti avalehel kuvatav teateriba ütleb: "Projekti ajakava teisendatakse. Te ei saa projektis muudatusi teha enne, kui konversioon on lõpule viidud."
-    1. Teid suunatakse projektide loendisse.
+    1. Projekti avalehel kuvatav teateriba teatab: „Projekti ajakava teisendatakse. Te ei saa projektis muudatusi teha enne, kui teisendamine on lõppenud“.
+    1. Teid suunatakse ümber projektiloendisse.
 
-    Pärast projekti teisendamise lõpuleviimist toimuvad järgmised toimingud:
+    Pärast projekti teisendamise lõpetamist toimuvad järgmised toimingud:
 
-    1. Määratud projektijuht saab teate taotluse paremal küljel.
-    1. Teateriba, mis teatab, et konversioon on pooleli, eemaldatakse.
-    1. Vahekaardil **Ajakava** kuvatakse Projecti veebirakenduse uus plaanimiskogemus. Iga kasutaja, kellel on vastavad litsentsid ja turberollid, saab WBS-i redigeerida.
-    1. Väli Plaanimismootor **värskendatakse** versiooniks **Project for the web**.
-    1. Nupp **Teisenda** eemaldatakse toimingupaanilt.
+    1. Määratud projektijuht saab rakenduse paremas servas teate.
+    1. Teateriba, mis teatab, et teisendamine on pooleli, eemaldatakse.
+    1. Vahekaardil **Ajakava** kuvatakse Project for the Webi uus ajastamiskogemus. Kõik kasutajad, kellel on sobivad litsentsid ja turberollid, saavad WBS-i redigeerida.
+    1. Välja **Ajastamismootor** on värskendatud väärtuseks **Project for the web**.
+    1. Nupp **Teisalda** eemaldatakse toimingupaanilt.
 
 > [!IMPORTANT]
-> Projektide hulgiteisendamine ei ole lubatud. Kõik katsed ajakohastada korraga suurt hulka projekte lükatakse tagasi. See piirang aitab tagada suure jõudluse kõigile klientidele.
+> Projektide hulgikonverteerimine ei ole lubatud. Kõik katsed värskendada korraga suurt hulka projekte pidurdatakse. See piirang aitab tagada kõrge jõudluse kõigile klientidele.
 
-## <a name="manual-tasks-vs-automatic-tasks"></a>Käsitsi tehtavad ülesanded vs automaatsed ülesanded
+## <a name="manual-tasks-vs-automatic-tasks"></a>Käsitsi ülesanded vs automaatsed ülesanded
 
-Kui keskkond viiakse Project Service Automationilt üle Project Operationsile, loetakse kõik WBS-i ülesanded automaatselt plaanituks. Käsitsi plaanitud ülesannete kontseptsioon pole Projecti veebirakenduses saadaval. Siiski saate määratleda oma projektide eelistatud plaanimiskäitumise, kasutades uute projektide loomisel plaanimisrežiimi [sätet.](/project-management/scheduling-modes.md)
+Kui keskkond viiakse rakenduselt Project Service Automation üle rakendusele Project Operations, loetakse kõik WBS-i ülesanded automaatselt ajastatuks. Käsitsi ajastatud toimingute kontseptsioon pole rakenduses Project for the Web saadaval. Siiski saate määrata oma projektide jaoks eelistatud ajakava käitumise, kasutades uute projektide loomisel sätet [ajastamisrežiim](/project-management/scheduling-modes.md).
 
-## <a name="restricted-operations-for-pre-conversion-projects"></a>Ümberehitamiseelsete projektide piiratud toimingud
+## <a name="restricted-operations-for-pre-conversion-projects"></a>Piiratud toimingud konversioonieelsete projektide jaoks
 
 Selles jaotises kirjeldatakse funktsionaalseid erinevusi, mida võite oodata, kui projekte pole teisendatud.
 
-### <a name="copy-project"></a>Kopeeri projekt
+### <a name="copy-project"></a>Kopeerige projekt
 
-Kopeerimistoimingut **toetatakse** ainult teisendatud projektide puhul. Täiendatud projekte ei saa enne teisendamist kopeerida.
+Toimingut **Kopeeri** toetatakse ainult teisendatud projektide puhul. Täiendatud projekte ei saa enne teisendamist kopeerida.
 
-### <a name="move-project"></a>Teisalda projekt
+### <a name="move-project"></a>Teisaldage projekt
 
 Projekti alguskuupäeva muutmine ei nihuta proportsionaalselt ülesannete algust, välja arvatud juhul, kui projekt on teisendatud.
 
 ## <a name="frequently-asked-questions"></a>Korduma kippuvad küsimused
 
-### <a name="what-are-the-differences-between-converted-projects-and-new-projects-that-are-created-after-the-upgrade-has-been-completed"></a>Millised on erinevused teisendatud projektide ja uute projektide vahel, mis luuakse pärast versioonitäienduse lõpuleviimist?
+### <a name="what-are-the-differences-between-converted-projects-and-new-projects-that-are-created-after-the-upgrade-has-been-completed"></a>Mille poolest erinevad teisendatud projektid uutest projektidest, mis luuakse pärast täienduse lõpetamist?
 
-Projektidele, mis teisendatakse pärast keskkonna täiendamist, määratakse lipp, mis juhendab ajakava järgima ainult projekti kalendrit. See käitumine vastab Project Service Automationi käitumisele. Kuid lippu ei määrata uutele projektidele, mis luuakse pärast versioonitäiendust. Seetõttu austab ajakava ressursside tööaega, kui need on ülesandele määratud.
+Projektide puhul, mis teisendatakse pärast keskkonna täiendamist, määratakse lipp, mis juhendab ajakava järgima ainult projekti kalendrit. See käitumine ühtib Project Service Automationi käitumisega. Uute projektide jaoks, mis luuakse pärast täiendamist, lippu siiski ei määrata. Seetõttu arvestab ajakava ressursside töötunde, kui need ülesandele määratakse.
 
-### <a name="what-should-i-do-if-my-project-fails-to-be-converted"></a>Mida teha, kui minu projekti ei teisendata?
+### <a name="what-should-i-do-if-my-project-fails-to-be-converted"></a>Mida peaksin tegema, kui minu projekti ei õnnestu teisendada?
 
-Kui teie projekti teisendamine ebaõnnestub, on esimene samm tõrkelogide ülevaatamine, et tuvastada teie WBS-iga seotud levinud probleemid. Kui logid ei viita konkreetsele tõrkele, mille suhtes saate midagi ette võtta, võtke ühendust klienditoega, et teie juhtumit saaks edasi vaadata.
+Kui teie projekti ei õnnestu teisendada, vaadake esimese sammuna üle tõrkelogid, et tuvastada teie WBS-iga seotud levinud probleemid. Kui logid ei viita konkreetsele veale, mille lahendamiseks saaksite midagi ette võtta, võtke ühendust klienditoega, et teie juhtumi läbivaatamine saaks edasi minna.
 
-### <a name="how-are-business-closures-handled-in-project-for-the-web"></a>Kuidas käsitletakse Projecti veebirakenduses ettevõtete sulgemisi?
+### <a name="how-are-business-closures-handled-in-project-for-the-web"></a>Kuidas käsitletakse ettevõtte sulgemisi rakenduses Project for the Web?
 
-Project for the Web ei austa ettevõtte sulgemisi, mille ettevõte määratleb organisatsiooni tasandil. Siiski austab see muud tüüpi puhkepäevi, mis on määratletud antud töötunni mallis.
+Project for the Web ei arvesta ettevõtete sulgemistega, mille ettevõte määrab organisatsiooni tasandil. Siiski arvestab see teist tüüpi puhkepäevi, mis on määratletud antud töötunnimallis.
 
-### <a name="what-are-the-limitations-of-project-for-the-web"></a>Millised on Projecti veebirakenduse piirangud?
+### <a name="what-are-the-limitations-of-project-for-the-web"></a>Millised on Project for the Webi piirangud?
 
-Vt teemat [Tööjaotuse struktuuri loomine: projekti piirangud](/project-management/create-wbs#project-limitations.md).
+Vaadake artiklit [Tööjaotuse struktuuri loomine: Projekti piirangud](/project-management/create-wbs#project-limitations.md).
 
-### <a name="can-i-expect-changes-to-my-cost-and-sales-estimates"></a>Kas ma võin oodata muudatusi oma kulu- ja müügiprognoosides?
+### <a name="can-i-expect-changes-to-my-cost-and-sales-estimates"></a>Kas on oodata muutusi oma kulu- ja müügiprognoosides?
 
-Harvadel juhtudel, kui ressursi määramise kontuurid arvutatakse ümber või kui need jäävad lähteprojektist erinevale kuupäevapiirile, võite näha erinevusi müügi- ja kuluprognoosides. Täiendusprotsessi osana eeldatakse, et kliendid testivad representatiivset projektide valimit, et nad saaksid aru võimalikest ajakava muudatustest.
+Harvadel juhtudel, kui ressursi määramise kontuurid arvutatakse ümber või kui need langevad lähteprojektist erinevale kuupäevapiirile, võite müügi- ja kuluprognoosides näha erinevusi. Täiendusprotsessi osana eeldatakse, et kliendid testivad esinduslikku projektide näidiskomplekti, et nad mõistaksid võimalikke ajakava muudatusi.

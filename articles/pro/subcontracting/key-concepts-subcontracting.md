@@ -1,6 +1,6 @@
 ---
 title: Allhankelepingute põhimõisted
-description: Selles artiklis selgitatakse mõningaid põhimõisteid, mis kehtivad Microsofti alltöövõtu puhul Dynamics 365 Project Operations.
+description: See artikkel kirjeldab mõningaid põhimõisteid, mis kehtivad rakenduse Microsoft Dynamics 365 Project Operations allhankelepingutele.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "9522743"
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Artiklis selgitatakse mõningaid põhimõisteid, mida peaksite teadma enne, kui hakkate Microsofti alltöövõtufunktsioone kasutama Dynamics 365 Project Operations.
+Artikkel selgitab mõningaid põhimõisteid, mida peate enne rakenduse Microsoft Dynamics 365 Project Operations allhankelepingute funktsionaalsuse kasutama hakkamist teadma.
 
 ## <a name="contracting-unit-on-the-subcontract"></a>Allhankelepingu lepingut sõlmiv üksus
 

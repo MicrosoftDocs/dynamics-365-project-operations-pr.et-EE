@@ -1,6 +1,6 @@
 ---
 title: Mis on rakenduses Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks märtsis 2021 uut või muutunud
-description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval 2021. aasta märtsi väljaandes Project Operations laos/tootmispõhiste stsenaariumide jaoks.
+description: See artikkel annab teavet Project Operationsi lao-/tootmispõhiste stsenaariumite jaoks 2021. a märtsi väljalaskes saadaolevate kvaliteedivärskenduste kohta.
 author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
@@ -18,9 +18,9 @@ ms.locfileid: "9028743"
 
 _**Kehtib järgmiste puhul:** Project Operations ladustamise-/tootmispõhiste stsenaariumide jaoks_
 
-See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja versioonide kohta.
+See artikkel kehtib rakenduse Dynamics 365 Project Operations järgmiste komponentide ja versioonide kohta.
 
-- Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnas versioon 10.0.17
+- Projektihaldus ja raamatupidamine rakenduse Dynamics 365 Finance keskkonna versioonis 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Selles väljaandes sisalduvad funktsioonid
 Selles väljaandes sisalduvad järgmised funktsioonid.
@@ -121,7 +121,7 @@ Selles väljaandes sisalduvad järgmised funktsioonid.
 | Projektihaldus ja raamatupidamine | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | Pärandi tööjaotuse struktuuri (WBS) klassi meetod, **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** on iganenud.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Regulatiivsed uuendused
-Lisateavet finance and operationsi rakenduste regulatiivsete värskenduste kohta leiate teemast [Regulatiivsed värskendused](/dynamics365/finance/localizations/regulatory-updates). Saate ka LCS-i sisse logida ja vaadata kavandatud regulatiivseid värskendusi, kasutades probleemi otsimise tööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
+Lisateavet finants- ja äritoimingute rakenduste regulatiivsete värskenduste kohta, vt [Regulatiivsed värskendused](/dynamics365/finance/localizations/regulatory-updates). Saate ka LCS-i sisse logida ja vaadata kavandatud regulatiivseid värskendusi, kasutades probleemi otsimise tööriista. Probleemi otsing võimaldab teil otsida riigi, funktsiooni tüübi ja väljalaske põhjal.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

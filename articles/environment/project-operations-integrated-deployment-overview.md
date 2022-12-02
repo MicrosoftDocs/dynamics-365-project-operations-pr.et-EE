@@ -1,6 +1,6 @@
 ---
 title: Rakenduse Project Operations ressursi-/mittelaopõhiste stsenaariumite jaoks juurutamise ülevaade
-description: Selles artiklis antakse teavet juurutustüübi project Operations for resource/mittevarustatud põhistsenaariumide kohta.
+description: See artikkel annab teavet juurutuse tüübi kohta Project Operationsi ressursi-/mittelaopõhistes stsenaariumides.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
@@ -31,7 +31,7 @@ Rakenduse  Dynamics 365 Project Operations ressursi-/mittelaopõhiste stsenaariu
 - Projektide tulude kajastamine
 - Laiendatavus platvormi Power Platform kaudu
 
-See juurutustüüp laiendab Dynamics 365 Finance ja Dynamics 365 Supply Chain Management rakenduste pakutavaid funktsioone.
+ee juurutuse tüüp pakub lisaks rakenduste Dynamics 365 Finance ja Dynamics 365 Supply Chain Management pakutavate funktsioonide laiendust.
 
 See juurutus tuleks valida, kui rakendust Project Operations hakatakse eeldatavalt kasutama projekti täispika elutsükli jaoks, mis sisaldab järgmisi nõudeid.
 
