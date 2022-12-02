@@ -1,6 +1,6 @@
 ---
 title: Reserveeringute olekud
-description: Selles artiklis on link teabele projektitoimingute broneerimisolekute seadistamise kohta.
+description: See artikkel sisaldab linki teabele selle kohta, kuidas määrata Project Operationsi broneeringu olekuid.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article

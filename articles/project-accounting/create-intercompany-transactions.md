@@ -1,6 +1,6 @@
 ---
 title: Kontsernisiseste kannete loomine
-description: Selles artiklis antakse teavet kontsernisiseste kannete loomise kohta.
+description: See artikkel annab teavet selle kohta, kuidas luua kontsernisiseseid tehinguid.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -30,14 +30,14 @@ Kontsernisisese tehingu kinnitamisel luuakse järgmised tegelikud tehingud
 
 Kulu, ressursiüksuse kulu ning organisatsioonidevahelise üksuse müügitehingu hinnakujundus ja valuuta määratakse **organisatsiooni üksuse** poolt. Seda on oluline meeles pidada, kui otsustate, kuidas ettevõtteid ja organisatsiooniüksusi oma juurutuses struktureerida.
 
-Müügivõimaluse, hinnapakkumise, projektilepingu ja projekti kirjete loomisel kontrollib süsteem, kas lepingut sõlmiva üksuse valuuta ühtib lepingu sõlmiva ettevõtte arvestusvaluutaga. Kui need pole samad, saab luua järgmised kirjed. Organisatsiooniüksuse valuuta määratletakse rakenduses Dynamics 365 Project Operations, avades suvandi **Dataverse** > **Sätted** > **Organisatsiooniüksused**. Ettevõtte arvestusvaluuta määratletakse Dynamics 365 Finance minnes **pearaamatu** > **seadistusraamatusse** > **·**. Valuuta sünkroonitakse pearaamatute topeltkirjendamise kaarti kasutades teie Dataverse’i keskkonnaga.
+Müügivõimaluse, hinnapakkumise, projektilepingu ja projekti kirjete loomisel kontrollib süsteem, kas lepingut sõlmiva üksuse valuuta ühtib lepingu sõlmiva ettevõtte arvestusvaluutaga. Kui need pole samad, saab luua järgmised kirjed. Organisatsiooniüksuse valuuta määratletakse rakenduses Dynamics 365 Project Operations, avades suvandi **Dataverse** > **Sätted** > **Organisatsiooniüksused**. Ettevõtte arvestusvaluuta määratakse Dynamics 365 Finance’is, minnes **Pearaamat** > **Pearaamatu seadistamine** > **Pearaamat**. Valuuta sünkroonitakse pearaamatute topeltkirjendamise kaarti kasutades teie Dataverse’i keskkonnaga.
 
 Süsteem loob ressursiühiku kulu ja organisatsioonidevahelise üksuse müükide tegelikud näitajad järgmistes olukordades.
 
   - Kui ressursiüksus erineb lepingut sõlmivast üksusest
   - Kui ressursiettevõte erineb lepingut sõlmivast ettevõttest
 
-Dynamics 365 Finance keskkonda kantakse aga täiendavaks raamatupidamiseks üle ainult tehingud, millel on lepingulisest ettevõttest erinev ressursiühing.
+Samas viiakse rakenduse Dynamics 365 Finance keskkonda täiendava raamatupidamise jaoks üle ainult tehingud, millel on lepingut sõlmivast ettevõttest erinev ressursiettevõtte.
 
 Projekti tegelike näitajate raamatupidamine salvestatakse rakenduse Finance teenuse Project Operations integreerimise töölehele. Süsteem loob järgmised töölehe kanded.
 

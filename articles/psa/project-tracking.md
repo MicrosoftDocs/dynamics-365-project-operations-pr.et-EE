@@ -1,6 +1,6 @@
 ---
 title: Projekti edenemine ja kulu tarbimine
-description: Selles artiklis antakse teavet projekti edenemise ja kulutarbimise jälgimise kohta.
+description: See artikkel kirjeldab projekti edenemise ja tarbitud kulude jälgimist.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -30,7 +30,7 @@ ms.locfileid: "8921757"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Vajadus edenemise jälgimiseks ajakava suhtes sõltub majandusharust. Mõned majandusharud jälgivad minimaalsel tasandil, samas kui teised jälgivad kõrgemal tasemel. Selles artiklis kuvatakse, kuidas ajastada, et täita oma organisatsiooni nõudeid.
+Vajadus edenemise jälgimiseks ajakava suhtes sõltub majandusharust. Mõned majandusharud jälgivad minimaalsel tasandil, samas kui teised jälgivad kõrgemal tasemel. See artikkel kirjeldab, kuidas kasutada ajakava oma organisatsiooni vajadustele vastavalt.
 
 ## <a name="effort-tracking-view"></a>Panuse jälgimise vaade
 

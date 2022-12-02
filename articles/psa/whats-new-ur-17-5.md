@@ -1,6 +1,6 @@
 ---
 title: Mida on uut või muudetud rakenduse Project Service Automation värskenduse väljaandes 17.5, Hotfix, V3
-description: Selles artiklis loetletakse funktsioonid ja parandused, mis on saadaval project service automation update release 17.5, V3.
+description: Selles artiklis loetletakse Project Service Automationi värskenduse väljalaske 17.5, V3 saadaolevaid funktsioone ja parandusi.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 03/13/2020
@@ -29,7 +29,7 @@ ms.locfileid: "8926449"
 
 Meil on hea meel teatada uusimast Dynamics 365 Project Service Automationi rakenduse värskendusest. See väljaanne sisaldab mõningaid olulisi kvaliteedi, jõudluse ja kasutatavuse täiustusi.  See väljalase ühildub Dynamics 365 9. x-iga. Sellele väljaandele värskendamiseks külastage veebis Dynamics 365 administreerimiskeskuse lahenduste lehte värskenduse installimiseks. Lisateabe saamiseks vt jaotist [Eelistatud lahenduse installimine, värskendamine või eemaldamine](/power-platform/admin/install-remove-preferred-solution).
 
-Selles artiklis loetletakse funktsioonid ja parandused, mis on uued või muudetud V3, Update Release 17.5 jaoks. Selle versiooni järgunumber on V3.10.7.32 ja see on märtsis 2020 automaatvärskendusega kõigile saadaval.
+Selles artiklis loetletakse V3 värskenduse väljalaske 17.5 uusi või muudetud funktsioone ja parandusi. Selle versiooni järgunumber on V3.10.7.32 ja see on märtsis 2020 automaatvärskendusega kõigile saadaval.
 
 
 ## <a name="update-release-175"></a>Värskenduste väljalase 17.5

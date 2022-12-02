@@ -1,6 +1,6 @@
 ---
 title: Kulutuste kulumäärade ja müügihindade seadistamine
-description: Selles artiklis antakse teavet kande- ja kulukategooriate kulu- ja müügimäärade seadistamise kohta.
+description: See artikkel kirjeldab kulumäärade ja müügihindade seadistamist tehingute ja kulutuste kategooriates.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article

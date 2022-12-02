@@ -1,6 +1,6 @@
 ---
 title: Hinnapakkumiste, hinnakujunduse ja arveldamise põhijuhend
-description: Selles artiklis on lingid teabele põhitsitaadi, hinnakujunduse ja arveldamise kohta Project Service Automationis.
+description: See artikkel sisaldab linke teabe kohta, mis käsitleb põhilist hinnapakkumiste koostamist, hinnakujundust ja arveldamist Project Service Automationis.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,7 +32,7 @@ ms.locfileid: "8910792"
 
 Võimalus leida õigel ajal õigeid ressursse, neid ressursse projektidele broneerida ja ressursse kasutada, aitab organisatsioonidel täita tulude ja klientide rahulolu eesmärke. 
 
-Selles artiklis varem olnud PDF-link on eemaldatud ja sisu on teisaldatud järgmistesse artiklitesse:
+Selles artiklis varem olnud PDF-i link on eemaldatud ja sisu on teisaldatud järgmistesse artiklitesse.
 
 - [Hinnapakkumised, hinnakujundus ja arveldamine](../quote-bill-price.md)
 - [Müügiprotsessid](../basic-sales-process.md)
@@ -50,7 +50,7 @@ Selles artiklis varem olnud PDF-link on eemaldatud ja sisu on teisaldatud järgm
 - [Tegelike andmete salvestamine](../advanced-actuals.md)
 
 > [!NOTE]
-> See artikkel eemaldatakse tulevases dokumentatsioonivärskenduses. 
+> See artikkel eemaldatakse tulevasest dokumentatsiooni värskendusest. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Projektilepingute projekti hinnakirja haldamine
-description: Selles artiklis antakse teavet projektilepingute projekti hinnakirjade haldamise kohta.
+description: See artikkel annab teavet projektilepingutes projekti hinnakirjade haldamise kohta.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Kasutajaliidese navigeerimine
-description: Selles artiklis antakse teavet projektihalduse kohta Dynamics 365 Projecti operatsioonides.
+description: See artikkel annab teavet projektihalduse kohta rakenduses Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

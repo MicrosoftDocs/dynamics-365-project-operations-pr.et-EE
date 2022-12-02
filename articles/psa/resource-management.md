@@ -1,6 +1,6 @@
 ---
 title: Projektide ressursside avaleht
-description: Selles artiklis antakse teavet ressursihaldusvõimaluste kohta rakenduses Project Service Automation (PSA) for Dynamics 365.
+description: See artikkel annab teavet ressursihalduse võimaluste kohta rakenduses Project Service Automation (PSA) rakenduse Dynamics 365 jaoks.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

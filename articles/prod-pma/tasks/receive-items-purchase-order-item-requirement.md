@@ -1,6 +1,6 @@
 ---
 title: Ostutellimuses üksuste vastuvõtmine üksuse nõudest
-description: Selles artiklis selgitatakse, kuidas kaubanõudest ostutellimusel kaupu vastu võtta.
+description: See artikkel selgitab, kuidas võtta üksuse nõudest tulenevalt võta vastu ostutellimuse eest saadud üksused.
 author: Yowelle
 ms.date: 08/06/2019
 ms.topic: business-process
@@ -24,7 +24,7 @@ ms.locfileid: "8929531"
 
 [!include [banner](../../includes/banner.md)]
 
-Selles artiklis selgitatakse, kuidas kaubanõudest ostutellimusel kaupu vastu võtta.
+See artikkel selgitab, kuidas võtta üksuse nõudest tulenevalt võta vastu ostutellimuse eest saadud üksused.
 
 Üksuse kande asemel nõuet kasutades saate planeerida kohaletoimetamise vahetult enne üksuse tegelikku kasutamist, luua ostutellimuse, kaasata üksus kaubandusleppe raamistikku ning kaasata üksuse nõue tootmisplaneerimises. 
 

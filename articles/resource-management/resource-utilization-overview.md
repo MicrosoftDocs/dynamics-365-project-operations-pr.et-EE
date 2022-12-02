@@ -1,6 +1,6 @@
 ---
 title: Ressursikasutuse ülevaade
-description: Selles artiklis antakse teavet ressursside kasutamise kohta Project Operationsis.
+description: See artikkel annab teavet ressursi kasutamise kohta rakenduses Project Operations.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: overview

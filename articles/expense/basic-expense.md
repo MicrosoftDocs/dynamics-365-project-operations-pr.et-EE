@@ -1,6 +1,6 @@
 ---
 title: Kulukirje (liht)
-description: Selles artiklis antakse teavet selle kohta, kuidas töötada kulukandega lite juurutuses.
+description: See artikkel annab teavet selle kohta, kuidas lihtjuurutuses kulukirjega töötada.
 author: stsporen
 ms.date: 11/19/2020
 ms.topic: article

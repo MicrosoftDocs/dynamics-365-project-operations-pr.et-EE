@@ -1,6 +1,6 @@
 ---
 title: Mitme kliendi haldamine projekti lepingutes
-description: Selles artiklis antakse teavet selle kohta, kuidas hallata projektilepingus mitut klienti.
+description: See artikkel annab teavet selle kohta, kuidas hallata projektilepingu puhul mitut klienti.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.locfileid: "8928335"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Mitme kliendi haldamine projekti lepingutes
 
-Selles artiklis antakse teavet selle kohta, kuidas hallata projektilepingus mitut klienti. Saate kasutada projektilepingut, kui tehingu rahastamiseks on vaja mitme kliendi lepingulist kokkulepet. Lehel **Projektipeling** sisaldab vahekaart **Kokkuvõte** teavet tehingu peamise kliendi kohta. Teised tehingus osalevad kliendid saab lisada vahekaardile **Kliendid**.
+See artikkel annab teavet selle kohta, kuidas hallata projektilepingu puhul mitut klienti. Saate kasutada projektilepingut, kui tehingu rahastamiseks on vaja mitme kliendi lepingulist kokkulepet. Lehel **Projektipeling** sisaldab vahekaart **Kokkuvõte** teavet tehingu peamise kliendi kohta. Teised tehingus osalevad kliendid saab lisada vahekaardile **Kliendid**.
 
 Kõik projektilepingu jaoks loodavate uute projektipõhiste lepinguridade projektilepingu vahekaardi **Kliendid** lepinguliste klientide vaikeväärtused pärinevad lepingurea klientidelt. Kõik olemasolevad projektipõhised lepinguread ei päri hiljem loodavaid uusi lepingu klientide kirjeid.
 

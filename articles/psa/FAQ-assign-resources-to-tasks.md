@@ -1,6 +1,6 @@
 ---
 title: Ressursi määramine ülesandele
-description: Selles artiklis antakse teavet selle kohta, kuidas ülesannetele ressursse määrata.
+description: See artikkel kirjeldab, kuidas määrata ülesannetele ressursse.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

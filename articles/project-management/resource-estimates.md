@@ -1,6 +1,6 @@
 ---
 title: Projektide ressursi aja finantsprognoosid
-description: Selles artiklis antakse teavet selle kohta, kuidas arvutatakse aja finantshinnanguid.
+description: See artikkel annab teavet, kuidas aja finantsprognoose arvutatakse.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

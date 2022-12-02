@@ -1,6 +1,6 @@
 ---
 title: Armatuurlauad
-description: Selles artiklis antakse teavet rakenduses sisalduvate aruandluse armatuurlaudade kohta Dynamics 365 Project Service Automation.
+description: See artikkel annab teavet rakendusse Dynamics 365 Project Service Automation kaasatud aruandluse armatuurlaudade kohta.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

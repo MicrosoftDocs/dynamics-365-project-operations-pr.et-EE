@@ -1,6 +1,6 @@
 ---
 title: Hinnapakkumiste haldamine – liht
-description: Selles artiklis antakse teavet projektipõhiste müügivihjete (pro) haldamise kohta.
+description: See artikkel annab teavet projektipõhiste müügivihjete halduse kohta (pro).
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

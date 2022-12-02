@@ -24,7 +24,7 @@ ms.locfileid: "8683855"
 
 [!include [banner](../../includes/banner.md)]
 
-Projekti etapid võivad olla projekti elutsükli juhiseks. Saate määratleda projekti etapid, mille soovite oma projektidesse kaasata, projektihalduse ja raamatupidamise parameetrite lehel piirkonnas Projekti etapp. Dynamics 365 Finance pakub viit eelnevalt määratletud projektietappi ja kolme kasutaja määratletud etappi. Saate kasutatavat projekti etapi nime värskendada, et jälgida projekti edenemist. Lisaks saate panna nimed kasutaja määratletavale oleku nimele. See toiming näitab, kuidas projekti etappi ümber nimetada või muuta ning kasutab USSI andmekomplekti.
+Projekti etapid võivad olla projekti elutsükli juhiseks. Saate määratleda projekti etapid, mille soovite oma projektidesse kaasata, projektihalduse ja raamatupidamise parameetrite lehel piirkonnas Projekti etapp. Dynamics 365 Finance pakub viit eelmääratletud projekti etappi ja kolme kasutaja määratletavat etappi. Saate kasutatavat projekti etapi nime värskendada, et jälgida projekti edenemist. Lisaks saate panna nimed kasutaja määratletavale oleku nimele. See toiming näitab, kuidas projekti etappi ümber nimetada või muuta ning kasutab USSI andmekomplekti.
 
 1. Avage jaotis Projektihaldus ja raamatupidamine > Seadistamine > Projektihaldus ja raamatupidamise parameetrid.
 2. Klõpsake vahekaarti Projekti etapp.

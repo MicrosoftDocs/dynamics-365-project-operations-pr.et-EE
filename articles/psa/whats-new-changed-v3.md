@@ -1,6 +1,6 @@
 ---
 title: Mis on uut või muudetud Project Service Automation versioonis 3?
-description: Selles artiklis antakse teavet selle kohta, mis on project service automation versioonis 3 uut ja muudetud.
+description: See artikkel annab teavet selle kohta, mis on Project Service Automationi versioonis 3 uus ja mida on muudetud.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -32,7 +32,7 @@ ms.locfileid: "8926587"
 
 
 
-Selles artiklis antakse teavet projecti teenuseautomaatika kasutajaliidese (kasutajaliidese), funktsioonide ja terminoloogia muudatuste kohta versiooni 2 või versiooni 1 ja versiooni 3 vahel.
+See artikkel annab teavet kasutajaliideses (UI), funktsionaalsuses ja terminoloogias tehtud muudatuste kohta ning selle, kuidas need erinevad Project Service Automation (PSA) versiooni 2 või 1 ja versiooni 3 vahel.
 
 ## <a name="project-scheduling"></a>Projekti ajastamine
 Projekti ajakava, mis oli eelmistes versioonides tuntud tööjaotuse struktuuri (WBS) nime all, on nüüd ajakava nime all ja seda saab avada, kui klõpsate vahekaarti **Ajakava**. 
@@ -150,7 +150,7 @@ Kui teil on ülesannete määramised broneeringuta ressursi jaoks (broneeringu p
 Selles jaotises kirjeldatakse, mis on Project Service Automation versioonis 3 muutunud aja, kulude ja kinnitamisega seoses. Dynamics 365 Project Service Automation lahenduse osana on värskendatud ka **ajakirje** funktsiooni, et kasutada ära ühtse kasutajaliidese raamistikku. See võimaldab pakkuda ühtset kasutajaliidest, mis järgib kiirelt reageeriva veebidisaini põhimõtteid, et tagada igasuguse ekraanisuuruse või seadme puhul optimaalne vaatamiskogemus. 
 
 ### <a name="landing-page"></a>Sihtleht
-Mittelaiendatav kohandatud ajakirje kogemus on versioonist 3 eemaldatud. Selle asemel on nüüd laiendatav ja hõlbusfunktsioonidega algruudustiku kogemus. Saate ajakirje funktsioonile ligi, kui kasutate vasakul asuvat saidikaarti. Selle muudatuse tõttu ei saa te enam ühe nädala kaupa aega sisestada. Selle asemel peate looma ajakirje iga ruudustikus oleva päeva jaoks. Pärast mõne ajakirje loomist saavad kasutajad hulgi luua ajakirjeid funktsiooniga Kopeeri, **mida** on hiljem selles artiklis selgitatud. 
+Mittelaiendatav kohandatud ajakirje kogemus on versioonist 3 eemaldatud. Selle asemel on nüüd laiendatav ja hõlbusfunktsioonidega algruudustiku kogemus. Saate ajakirje funktsioonile ligi, kui kasutate vasakul asuvat saidikaarti. Selle muudatuse tõttu ei saa te enam ühe nädala kaupa aega sisestada. Selle asemel peate looma ajakirje iga ruudustikus oleva päeva jaoks. Pärast paari ajakirje loomist saavad kasutajad luua ajakirjeid hulgi kaupa, kasutades funktsiooni **Kopeeri**, mida kirjeldatakse hiljem selles artiklis. 
 
 ![Ajakirje sihtleht.](media/time-entry-landing-page-07.png)
  

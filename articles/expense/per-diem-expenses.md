@@ -1,6 +1,6 @@
 ---
 title: Päevarahade kulud
-description: See artikkel annab teavet selle kohta, kuidas töötada päevaraha kuludega.
+description: See artikkel annab teavet selle kohta, kuidas päevarahadega töötada.
 author: suvaidya
 ms.date: 03/18/2022
 ms.topic: article
@@ -23,104 +23,104 @@ ms.locfileid: "8923183"
 # <a name="per-diem-expenses"></a>Päevarahade kulud
 
 > [!IMPORTANT] 
-> Selles artiklis kirjeldatud funktsioonid on sihitud kasutajatele eelvaateväljaande osana saadaval.
+> Selles artiklis kirjeldatud funktsionaalsus on sihtkasutajatele saadaval eelvaateväljaande osana.
 
-Päevaraha on fikseeritud, etteantud päevaraha, mida ettevõte maksab oma töötajatele majutuse (hotellide), söögikordade ja juhuslike kulude eest, mida need töötajad tööreisil kannavad. Ettevõte maksab seda toetust töötajatele, selle asemel et maksta tegelikke reisikulusid. Töötajad saavad kasutada oma **juhuslikke / muid** päevarahasid, et katta näpunäiteid, toateenindust, pesupesemis- või keemilise puhastuse teenuseid oluliste ärikohtumiste jaoks. Päevaraha määr võib varieeruda sõltuvalt sellest, kas tööandja otsustab hüvitada majutuse ja toitmise kombineeritud kulud või ainult söögi- ja juhuslike kulude eest.
+Päevaraha on fikseeritud ettemääratud päevaraha, mida ettevõte maksab oma töötajatele majutuse (hotellid), toitlustuse ja kõrvalkulude eest, mis nendel töötajatel tööreisil tekivad. Ettevõte maksab seda toetust töötajatele tegelike reisikulude tasumise asemel. Töötajad saavad kasutada oma **Juhuslikud kulud/muu** päevaraha oluliste ärikohtumiste jaoks jootraha, toateeninduse, pesupesemise või keemilise puhastuse teenuste katmiseks. Päevaraha määr võib varieeruda olenevalt sellest, kas tööandja otsustab hüvitada majutuse ja toitlustuse kombineeritud kulud või ainult toitlustuse ja juhuslikud kulud.
 
-Päevarahade määrad võivad põhineda aastaajal, reisisihtkohal või mõlemal. Kui loote päevaraha reegli, saate määrata, et protsent päevaraha määrast peetakse kinni, kui töötaja saab tasuta eineid või teenuseid. Samuti saate määrata minimaalse tundide arvu ja maksimaalse tundide arvu, mida töötaja reisile saab rakendada päevaraha määra kohta.
+Päevarahade määrad võivad põhineda aastaajal, reisisihtkohal või mõlemal. Kui loote päevarahareegli, saate määrata, et teatud protsent päevaraha määrast peetakse kinni, kui töötaja saab tasuta toitlustust või teenuseid. Samuti saate määrata minimaalse tundide arvu ja maksimaalse tundide arvu, mille jooksul saab töötaja reisi päevarahamäära rakendada.
 
-Päevaraha arvutatakse päevarahana, mida pakutakse päevas, millest on maha arvatud töötajale antav söögikordade vähendamine (tasuta einete maksumus).
+Päevaraha arvutatakse päevaraha kogusummana, millest on lahutatud töötajale makstav toidukorra vähendamine (tasuta toitlustuse maksumus).
 
-## <a name="configure-per-diems"></a>Päevaraha konfigureerimine
+## <a name="configure-per-diems"></a>Päevarahade konfigureerimine
 
-Päevaraha kulude konfigureerimiseks tehke järgmist.
+Päevaraha kulude konfigureerimiseks toimige järgmiselt.
 
-1. **Avage kuluhalduse** \> **seadistuse** \> **üldise** \> **kuluhalduse parameetrid.**
-2. **Valige vahekaardi Päevaraha** kohta väljal **Toidu vähendamise arvutamine välja alusel**, kuidas arvutada päevaraha kohta.
+1. Minge jaotisesse **Kuluhaldus** \> **Seadistus** \> **Üldine** \> **Kuluhalduse parameetrid**.
+2. Valige vahekaardil **Päevaraha** väljal **Söögikordade vähendamise arvutamine**, kuidas tuleks päevaraha arvutada.
 
-    - **Söögikord reisi** kohta – arvutage päevaraha vastavalt sisestatud söögikorra tüübile (hommiku-, lõuna- või õhtusöök) ja söögikordade vähendamisele, mis on määratud iga söögikorra tüübi kohta päevaraha eest reisi ajal.
-    - **Söögikorra tüüp päevas** – arvutage päevaraha vastavalt sisestatud söögikorra tüübile ja söögikordade vähendamisele, mis on määratud iga söögikorra tüübi kohta päevaraha kohta päevas.
-    - **Söögikordade arv päevas** – arvutage päevaraha vastavalt päevas sisestatud söögikordade arvule ja iga päev pakutavate söögikordade arvu vähendamisele.
+    - **Toidu tüüp reisi kohta** – päevaraha arvutamine põhineb sisestatud toidukorra tüübil (hommikusöök, lõuna või õhtusöök) ja iga söögi tüübi jaoks määratud söögikordade vähendamisel reisi kestel makstava päevaraha jaoks.
+    - **Toidu tüüp päeva kohta** – päevaraha arvutatakse sisestatud toidutüübi ja iga toidutüübi jaoks määratud söögikordade vähendamise alusel päevaraha päeva kohta.
+    - **Toidukordade arv päevas** – arvutage päevaraha päeva kohta sisestatud söögikordade arvu ja iga päev pakutavate söögikordade arvu vähendamise alusel.
 
-3. **Avage kuluhalduse** \> **seadistusarvutused** \> **ja tähised** \> **Päevaraha asukohtade kohta.**
+3. Minge jaotisesse **Kuluhaldus** \> **Seadistus** \> **Arvutused ja koodid** \> **Päevaraha asukohad**.
 4. Lisage asukohad, kus saab kasutada päevaraha.
-5. Valige iga lisatava asukoha kohta vahekaardil **Päevaraha** määr ja valuuta, mis kehtivad majutuse, söögikordade ja muude kulude kindlate algus- ja lõppkuupäevade vahel. Päevarahamäärade ja valuutade konfigureerimiseks minge jaotisse **Kuluhalduse** \> **häälestuse** \> **arvutused ja tähised** \> **päevaraha kohta.**
+5. Iga lisatava asukoha jaoks valige vahekaardil **Päevarahad** päevaraha määr ja valuuta, mis kehtivad majutuse, toitlustuse ja muude kulude konkreetse algus- ja lõppkuupäeva vahel. Päevaraha määrade ja valuutade konfigureerimiseks minge jaotisesse **Kuluhaldus** \> **Seadistus** \> **Arvutused ja koodid** \> **Päevarahad**.
 
-## <a name="per-diems-in-the-reimagined-expense-interface"></a>Päevarahade kohta ümberkujundatud kululiideses
+## <a name="per-diems-in-the-reimagined-expense-interface"></a>Päevarahad ümberkujundatud kululiideses
 
-Päevaraha funktsiooni toetatakse ümberkujutatud **kuluhalduse** tööruumis 365 Finance versioonis 10.0.25 ja uuemas versioonis Microsoft Dynamics.
+Päevaraha funktsiooni toetab ümberkujundatud tööruum **Kuluhaldus** rakenduses Microsoft Dynamics 365 Finance versioonis 10.0.25 ja uuemates versioonides.
 
-Päevaraha lubamiseks järgige neid samme.
+Päevarahade lubamiseks järgige järgmisi samme.
 
-1. **Otsige ja valige tööruumis Funktsioonihaldus** loendist **funktsioon Kuluaruanded Ümber kujundatud** ja seejärel valige **Luba kohe**.
-2. Leidke ja valige loendist **kuluaruande ümberkujutatud liidese** funktsioon Per-diem ja seejärel valige **Luba kohe**.
+1. Tööruumis **Funktsioonihaldus** leidke ja valige loendist funktsioon **Ümberkujundatud kuluaruanded** ning seejärel valige **Luba kohe**.
+2. Otsige üles ja valige loendist funktsioon **Kuluaruande päevaraha ümberkujundatud liides** ja seejärel valige **Luba kohe**.
 
 ## <a name="how-the-feature-works"></a>Kuidas funktsioon töötab?
 
-Selles jaotises on toodud näited kolme konfiguratsioonistsenaariumi kohta. Iga näite puhul on välja **arvutamine välja alusel** seatud erinevale väärtusele. Kõigi kolme näite puhul on makstav kogusumma sama kuni toidukordade vähendamise kohaldamiseni. Pärast seda erineb tasumisele kuuluv kogusumma iga näite puhul.
+See jaotis pakub näiteid kolme konfiguratsioonistsenaariumi kohta. Iga näite puhul on väljal **Toidukordade vähendamise arvutamine** erinev väärtus. Kõigi kolme näite puhul on tasumisele kuuluv kogusumma sama kuni toidukordade vähendamise kohaldamiseni. Pärast seda on tasumisele kuuluv kogusumma iga näite puhul erinev.
 
-Kõigi kolme näite puhul kasutatava päevaraha kulu loomiseks tehke järgmist.
+Kõigi kolme näite jaoks kasutatava päevarahakulu loomiseks toimige järgmiselt.
 
-1. **Avage tööruumide** \> **kuluhaldus.**
-2. Valige **Uus kuluaruanne** või valige olemasolev kuluaruanne.
-3. Lisage uus kulu. Valige väljal **Kategooria** väärtus **Päevaraha** kohta. Valige reisi asukoht ning algus- ja lõppkuupäevad. Majutuse, einete ja juhuslike kulude (muude kulude) päevaraha arvutatakse valitud asukohale määratud päevaraha alusel.
+1. Minge jaotisesse **Tööruumid** \> **Kuluhaldus**.
+2. Valige **Uus kuluaruanne** või valige loendist olemasolev kuluaruanne.
+3. Lisage uus kulu. Valige väljal **Kategooria** **Päevaraha**. Valige oma reisi asukoht ning algus- ja lõppkuupäev. Ööbimis-, toitlustus- ja kõrvalkulude (muud kulud) päevaraha arvutatakse valitud asukohas määratud päevaraha alusel.
 
-    Näiteks valite **asukohaks Redmondi (USA).** Selle asukoha päevaraha on 150 USA dollarit (150 USA dollarit) majutuse, söögikordade USD 75 ja juhuslike USD 5 eest. Alguskuupäev on 10. jaanuar ja lõppkuupäev 14. jaanuar. Seetõttu on valitud kestus viis päeva, kui valitud konfiguratsioon on kalendripäevad ajaga ning valitud aeg algab ja lõpeb algus- ja lõppkuupäevadel kell 12.00. Siin on arvutused:
+    Näiteks valite asukohaks **Redmond (USA)**. Selle asukoha päevaraha on 150 USA dollarit (150 USD) majutuse eest, 75 USD söögi eest ja 5 USD ettenägematute kulude eest. Alguskuupäev on 10. jaanuar ja lõppkuupäev 14. jaanuar. Seetõttu on valitud kestuseks viis päeva, kui konfiguratsiooniks on valitud kalendripäevad ajaga ning valitud aeg algab ja lõpeb alguse- ja lõppkuupäeval kell 12.00. Siin on arvutused.
 
-    - Tasumisele kuuluv kogusumma = 5 × (150 + 75 + 5) = 5 × 230 = USD 1,150
-    - Eine ja juhuslik osa kogusummast = 5 × (75 + 5) = USD 400
+    - Tasumisele kuuluv kogusumma = 5 × (150 + 75 + 5) = 5 × 230 = 1150 USD
+    - Toit ja ettenägematud osad kogusummast = 5 × (75 + 5) = 400 USA dollarit
 
-Kui reisi ajal pakuti hommiku-, lõuna- ja õhtusööki, tuleb neid eineid arvestada söögikordade vähendamisena.
+Kui reisi ajal pakuti hommiku-, lõuna- ja õhtusööki, tuleb need toidukorrad arvesse võtta toidukorra vähendamisena.
 
-### <a name="example-1-per-diem-where-meal-reductions-are-based-on-meal-type-per-trip"></a>Näide 1: päevaraha kohta, kus söögikordade vähendamine põhineb söögitüübil reisi kohta
+### <a name="example-1-per-diem-where-meal-reductions-are-based-on-meal-type-per-trip"></a>Näide 1: päevaraha, mille puhul toidukordade vähendamine põhineb toidukorra tüübil reisi kohta
 
-Selles näites on söögikordade vähendamine hommikusöögiks 30 protsenti, lõunasöögiks 30 protsenti ja õhtusöögiks 40 protsenti. **Lehel** Kuluhaldusparameetrid on välja arvutamisreeglid **seatud** väärtusele **Eine tüüp reisi kohta**. Siin on arvutused, kui töötajale pakuti kolm hommikusööki, kaks lõunasööki ja null õhtusööki:
+Selles näites on toidukordade vähendamine hommikusöögi puhul 30 protsenti, lõunasöögi puhul protsenti ja õhtusöögi puhul 40 protsenti. Lehel **Kuluhalduse parameetrid** on väljal **Toidukordade vähendamise arvutamine** määratud **Toidu tüüp reisi kohta**. Siin on arvutused, kui töötajale pakuti kolm hommikusööki, kaks lõunasööki ja null õhtusööki:
 
-- Söögikordade vähendamine = (3 × \[75 × 30%\]) + (2 × \[75 × 30%\]) + 0 = (3 × 22,50) + (2 × 22,50) + 0 = 67,50 + 45 + 0 = USD 112.50
-- Söögid ja juhuslikud juhtumid = 400 – 112,50 = USD 287.50
-- Makstav kogusumma = Kogutoetus – Toidukordade vähendamine = 1150 – 112,50 = USD 1,037.50
+- Toidukordade vähendamine = (3 × \[75 × 30%\]) + (2 × \[75 × 30%\]) + 0 = (3 × 22.50) + (2 × 22.50) + 0 = 67.50 + 45 + 0 = 112,50 USD
+- Toidukorrad ja juhuslikud kulud = 400 – 112,50 = 287,50 USD
+- Tasumisele kuuluv kogusumma = Kogu päevaraha – Toidukordade vähendamised = 1150 – 112,50 = 1037,50 USD
 
-![Päevaraha kulu kohta, kui söögikordade vähendamine põhineb söögitüübil reisi kohta.](media/1-meal-type-per-trip.png)
+![Päevaraha, mille puhul toidukordade vähendamine põhineb toidukorra tüübil reisi kohta.](media/1-meal-type-per-trip.png)
 
-### <a name="example-2-per-diem-where-meal-reductions-are-based-on-meal-type-per-day"></a>Näide 2: päevaraha kohta, kus söögikordade vähendamine põhineb söögitüübil päevas
+### <a name="example-2-per-diem-where-meal-reductions-are-based-on-meal-type-per-day"></a>Näide 2: päevaraha, kus toidukordade vähendamine põhineb toidukorra tüübil päeva kohta
 
-Selles näites on söögikordade vähendamine hommikusöögiks 30 protsenti, lõunasöögiks 30 protsenti ja õhtusöögiks 40 protsenti. **Lehel** Kuluhalduse parameetrid **on välja Arvuta söögikordade vähendamine välja järgi** seatud väärtusele **Eine tüüp päevas**. Sellisel juhul **tühjendate dialoogiboksi Kulude redigeerimine ruudustikus** Toidukaubad **märkeruudud**, et näidata, milliseid toite teile reisi ajal pakuti.
+Selles näites on toidukordade vähendamine hommikusöögi puhul 30 protsenti, lõunasöögi puhul protsenti ja õhtusöögi puhul 40 protsenti. Lehel **Kuluhalduse parameetrid** on välja **Toidukordade vähendamise arvutamine** väärtus **Toidu tüüp päeva kohta**. Ruudustikus **Toidukorrad** tühjendate sel juhul dialoogiboksi **Kulude redigeerimine** märkeruudud, et näidata, milliseid toite teile reisi ajal pakuti.
 
-Näiteks on siin arvutused, kui reisi esimese kolme päeva jooksul pakuti hommikusööki:
+Näiteks siin on arvutused, kui hommikusööki pakuti reisi esimesel kolmel päeval:
 
-- Söögikordade igapäevane vähendamine iga esimese kolme päeva kohta = 75 × 30% = USD 22.50
-- Toidukordade vähendamine kokku = 3 × 22,50 = USD 67.50
-- Söögid ja juhuslikud päevad 1 kuni 3 = 75 – 22,50 = USD 57.50
-- Söögikordade ja juhuslike asjaolude koguarv = söögikordade ja juhuslike kogus viie päeva jooksul = 400 – 67,50 = USD 332.50
-- Tasumisele kuuluv kogusumma = Kogusumma – Söögikordade vähendamine = 1150 – 67,50 = USD 1,082.50
+- Igapäevane toidukordade vähendamine esimesel kolmel päeval = 75 × 30% = 22,50 USD
+- Kogu toidukordade vähendamine = 3 × 22,50 = 67,50 USD
+- Toidukorrad ja ettenägematud kulud päevadel 1–3 = 75–22,50 = 57,50 USD
+- Toidukordade ja juhuslike kulude kogusumma = toidukordade ja juhuslike kulude summa viie päeva jooksul = 400 – 67,50 = 332,50 USD
+- Tasumisele kuuluv kogusumma = Kogu summa – Toidukordade vähendamised = 1150 – 67,50 = 1082,50 USD
 
-![Päevaraha kulu kohta, kui söögikordade vähendamine põhineb söögitüübil päevas.](media/2-meal-type-per-day.png)
+![Päevaraha, kui toidukordade vähendamine põhineb toidukorra tüübil päeva kohta.](media/2-meal-type-per-day.png)
 
-### <a name="example-3-per-diem-where-meal-reductions-are-based-on-number-of-meals-per-day"></a>Näide 3: päevaraha kohta, kus söögikordade vähendamine põhineb söögikordade arvul päevas
+### <a name="example-3-per-diem-where-meal-reductions-are-based-on-number-of-meals-per-day"></a>Näide 3: Päevaraha, kus toidukordade vähendamine põhineb toidukordade arvul päeva kohta
 
-Selles näites arvutatakse söögikordade vähendamine päevas pakutavate söögikordade arvu põhjal (see tähendab, **et lehel Kuluhalduse parameetrid on väljade kaupa** **arvutatud söögikordade vähendamine välja järgi** seatud söögikordade arvule **päevas**). Tühjendage **dialoogiboksi Kulu redigeerimine ruudustikus** Toidukaubad **märkeruudud**, et näidata, milliseid toite pakuti.
-Sellisel juhul põhineb söögikordade vähendamine ainult pakutavate toitude # alusel, mitte pakutava söögiliigil (hommiku- / lõuna- / õhtusöök).
+Selles näites arvutatakse söögikordade vähendamine päeva kohta pakutavate söögikordade arvu alusel (st väljal **Toidukordade vähendamise arvutamine** lehel **Kuluhalduse parameetrid** on määratud **Toidukordade arv päevas**). Ruudustikus **Toidukorrad** dialoogiboksis **Kulu redigeerimine** tühjendate märkeruudud, et näidata, milliseid toite pakuti.
+Sellisel juhul põhineb toidukordade vähendamine ainult pakutavate toidukordade arvul, mitte aga pakutava toidu liigil (hommikusöök/lõunasöök/õhtusöök).
 
-Siin on arvutused päevaraha kohta, kui päevaraha on USD 150 majutuse, söögi USD 75 ja juhuslike USD 5 jaoks:
+Siin on päevarahade arvutused, kui päevaraha on 150 USA dollarit majutuse eest, 75 USA dollarit söögi eest ja 5 USA dollarit juhuslike kulude eest:
 
-- **Makstav** kogusumma = 5 × (150 + 75 + 5) = 5 × 230 = USD 1,150
-- **Üks söögikord:** söögikordade vähendamine = 20% = USD 15
-- **Kaks söögikorda:** söögikordade vähendamine = 50% = USD 37.50
-- **Kolm söögikorda:** söögikordade vähendamine = 100% = USD 75
+- **Tasumisele kuuluv kogusumma** = 5 × (150 + 75 + 5) = 5 × 230 = 1150 USD
+- **Üks toidukord:** toidukorra vähendamine = 20% = 15 USD
+- **Kaks toidukorda:** toidukorra vähendamine = 50% = 37,50 USD
+- **Kolm toidukorda:** toidukorra vähendamine = 100% = 75 USD
 
-Siin on arvutused söögikordade ja juhuslike hüvitiste **kohta**, mis sisaldavad juhuslike USD 5:
+Siin on arvutused **toidukordade ja juhuslike kulude päevaraha** kohta, mis sisaldab 5 USD juhuslike kulude katteks:
 
-- 1. päev - Pakutakse kahte söögikorda = (75 – 37,50) + 5 = 37,50 + 5 = USD 42.50
-- 2. päev - Pakutakse kahte söögikorda = (75 – 37,50) + 5 = 37,50 + 5 = USD 42.50
-- 3. päev - Pakutakse üks eine = (75 – 15) + 5 = 60 + 5 = USD 65
-- 4. päev - Pakutakse null söögikorda = (75-0) + 5 = 75 + 5 = USD 80
-- 5. päev - Kolm söögikorda = (75 – 75) + 5 = 0 + 5 = USD 5
+- 1. päev - Kaks toidukorda = (75 – 37,50) + 5 = 37,50 + 5 = 42,50 USD
+- 2. päev - Kaks toidukorda = (75 – 37,50) + 5 = 37,50 + 5 = 42,50 USD
+- 3. päev – Üks toidukord= (75 –15) + 5 = 60 + 5 = 65 USD
+- 4. päev - Null toidukorda = (75 – 0) + 5 = 75 + 5 = 80 USD
+- 5. päev - Kolm toidukorda = (75 – 75) + 5 = 0 + 5 = 5 USD
 
-- Söögid ja juhuslikud koguarvud = söögid ja juhuslikud juhtumid 1. päevaks + 2. päevaks + 3. päev + 4. päev + 5. päev = USD 235
-- Söögikordade vähendamine kokku = Söögi vähendamine 1+ päevaks 2 + 3. päevaks + 4. päev + 5. päev = 37,5+ 37,5+ 15 + 0 + 75 = USD 165
-- Makstav kogusumma = Kogutoetus – Toidukordade vähendamine kokku = USD 1,150 – USD 165 = USD 985
+- Toidukordade ja juhuslike kulude kogusumma = Toidukorrad ja juhuslikud 1. päeva + 2. päeva + 3. päeva + 4. päeva + 5. päeva kulud = 235 USD
+- Kogu toidukordade vähendamine = Toidukordade vähendamine 1. päeva + 2. päeva + 3. päeva + 4. päeva + 5. päeva kohta = 37,5 + 37,5+ 15 + 0 + 75 = 165 USD
+- Tasumisele kuuluv kogusumma = Kogu päevaraha – Toidukordade vähendamised = 1150 USD – 165 USD = 985 USD
 
-![Päevaraha kulu kohta, kus söögikordade vähendamine põhineb söögikordade arvul päevas.](media/3-number-of-meals-per-day.png)
+![Päevaraha, mille puhul toidukordade vähendamine põhineb toidukordade arvul päeva kohta.](media/3-number-of-meals-per-day.png)
 
 > [!NOTE]
-> Finance'i versiooni 10.0.23 seisuga ei saa te ümberkujutatud kululiidest kasutades luua päevarahakulusid, millel on kattuvad kuupäevad. Kui proovite, kuvatakse tõrketeade.
+> Alates Rahastamisversioonist 10.0.23, ei saa uuendatud kululiidese kasutamisel luua päevarahakulusid, mille kuupäevad kattuvad. Kui proovite, saate tõrketeate.

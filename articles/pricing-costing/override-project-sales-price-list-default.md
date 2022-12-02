@@ -1,6 +1,6 @@
 ---
 title: Projekti müügi hinnakirjade tühistamine
-description: Selles artiklis antakse teavet kohandatud müügihinnakirjade loomise kohta.
+description: See artikkel annab teavet kohandatud müügi hinnakirjade loomise kohta.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

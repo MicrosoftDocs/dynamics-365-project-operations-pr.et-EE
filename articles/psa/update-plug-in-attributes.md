@@ -1,6 +1,6 @@
 ---
 title: Lisandmooduli atribuutide värskendamine uute hinnakujunduse dimensioonide lisamiseks
-description: Selles artiklis antakse teavet hinnakujundusdimensioonide lisandmooduli atribuutide värskendamise kohta.
+description: See artikkel annab teavet hinnakujunduse dimensioonide jaoks lisandmooduli atribuutide värskendamise kohta.
 author: Rumant
 ms.custom: ''
 ms.date: 11/19/2018
@@ -27,9 +27,9 @@ ms.locfileid: "8913201"
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> Kui te ei kasuta projektiteenuse automatiseerimise (PSA) tsiteerimise ja lepingu sõlmimise funktsioone, võite selle artikli vahele jätta.
+> Kui te ei kasuta Project Service Automation (PSA) hinnapakkumise tegemise ja lepingute sõlmimise funktsioone, võite selle artikli vahele jätta.
 
-Selles artiklis eeldatakse, et olete artiklites protseduurid lõpule viinud, [Kohandatud väljade ja olemite](create-custom-fields-entities.md) loomine, [kohandatud väljade lisamine hinnahäälestusele ja tehinguolemitele](field-references.md) ning [Kohandatud väljade seadmine hinnakujundusdimensioonidena](set-up-pricing-dimensions.md). Kui te ei ole neid protseduure lõpetanud, minge tagasi ja täitke need ning seejärel pöörduge tagasi selle artikli juurde.
+See artikkel eeldab, et olete lõpetanud toimingud artiklites [Kohandatud väljade ja olemite loomine](create-custom-fields-entities.md), [Kohandatud väljade lisamine hinna seadistamisele ja ülekande olemitele](field-references.md) ning [Kohandatud väljade seadistamine hinnakujunduse dimensioonidena](set-up-pricing-dimensions.md). Kui te pole neid toiminguid lõpetanud, minge tagasi, viige need lõpuni ja seejärel tulge selle artikli juurde tagasi.
 
 Kui projekti hinnapakkumise rea jaoks luuakse hinnapakkumise rea üksikasjad lehel **Hinnapakkumise rida**, loob süsteem taustal kaks prognoosirida: üks rida prognoosi kulu poolele ja teine müügi poolele. Sama kehtib ka projekti lepinguridade kohta.
 

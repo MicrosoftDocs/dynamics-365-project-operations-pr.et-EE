@@ -1,6 +1,6 @@
 ---
 title: Projekti plaanimise avaleht
-description: Selles artiklis antakse teavet projekti planeerimise kohta.
+description: See artikkel annab teavet projekti plaanimise kohta.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -43,7 +43,7 @@ Rakenduse PSA projektihalduse tööriistad aitavad teil projekte hõlpsasti käi
 - Ressursinõuete prognoosimine konveieril olevate projektide jaoks.
 - Projektide edukaks elluviimine edenemise ja tarbitud kulude jälgimise kaudu.
 
-Järgmistes artiklites antakse teavet, mis aitab projektijuhtidel PSA-s toetatud tööriistu kasutades hinnata tööd, hinnata projektikulusid ja prognoosida ressursivajadusi.
+Järgmistest artiklitest leiate teavet, mis aitab projektijuhtidel prognoosida tööd, hinnata projektikulusid ja prognoosida ressursinõudeid, kasutades selleks rakenduse PSA toetatud tööriistu.
 
 - [Ajakava loomine](project-creating.md)
 - [Projekti kulude ja tulude prognoosimine](project-estimating.md)

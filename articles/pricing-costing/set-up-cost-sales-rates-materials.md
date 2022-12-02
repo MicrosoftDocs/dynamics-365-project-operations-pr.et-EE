@@ -1,6 +1,6 @@
 ---
 title: Materjalide oma- ja müügihindade seadistamine
-description: Selles artiklis antakse teavet selle kohta, kuidas seadistada projektides kasutatavate materjalide kulu- ja müügimäärasid.
+description: See artikkel annab teavet, kuidas seadistada projektides kasutatavate materjalide kulu- ja müügihindu.
 author: rumant
 ms.date: 03/21/2022
 ms.topic: article
@@ -25,9 +25,9 @@ Toodete kulu- ja müügihindade häälestamiseks tehke järgmist.
 2. Valige suvandis **Hinnakirjaüksused** alamruudustiku menüüs valik **Uus hinnakirjaüksus**. 
 3. Sisestage lehel **Kiirloomine** toode ja ühik, mille jaoks uue hinna loote.
 
-Kataloogiüksuste hindade määratlemise kohta leiate lisateavet teemast [Toote hinnakujunduse määratlemine hinnakirjade ja hinnakirja kaupadega](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) ning [kümnendtäpsus valuutas ja hinnakujunduses](/dynamics365/sales/decimal-precision-currency-pricing).
+Lisateabe saamiseks selle kohta, kuidas kataloogiüksuste jaoks hindu määratleda, vaadake teemasid [Toodete hinnakujunduse määratlemine hinnakirjade ja hinnakirjapunktide abil](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) ja [Valuuta ja hinna täpsuse kümnendkohtade arv](/dynamics365/sales/decimal-precision-currency-pricing).
 > [!NOTE]
-> Dynamics 365 Project Operations ei toeta kõiki toodete hinnakujundusmeetodeid nagu Dynamics 365 Sales. Ainus hinnameetod, mida projektides kasutatavate toodete puhul toetatakse, on *valuuta summa*.
+> Rakendus Dynamics 365 Project Operations ei toeta kõiki toodete hinnakujundusmeetodeid nagu rakendus Dynamics 365 Sales. Ainus hinnakujundusmeetod, mida toetatakse projektides kasutatavate toodete puhul, on *Valuutasumma*.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

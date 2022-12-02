@@ -1,6 +1,6 @@
 ---
 title: Honorari ajakava seadistamine
-description: Selles artiklis antakse teavet säilitajagraafiku seadistamise kohta Project Operationsis.
+description: See artikkel annab teavet selle kohta, kuidas häälestada rakenduses Project Operations honorari ajakava.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

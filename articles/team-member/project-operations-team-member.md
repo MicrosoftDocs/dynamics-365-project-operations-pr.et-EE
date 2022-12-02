@@ -1,6 +1,6 @@
 ---
-title: Project Operationsi meeskonnaliikme rakendus
-description: Selles artiklis antakse teavet Project Operationsi meeskonnaliikme rakenduse kohta Microsoftis Dynamics 365 Project Operations.
+title: Rakenduse Project Operations meeskonnaliikme rakendus
+description: See artikkel kirjeldab Project Operationsi meeskonna liikme rakendust rakenduses Microsoft Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 04/20/2022
 ms.topic: article
@@ -22,20 +22,20 @@ ms.contentlocale: et-EE
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8918215"
 ---
-# <a name="project-operations-team-member-app"></a>Project Operationsi meeskonnaliikme rakendus
+# <a name="project-operations-team-member-app"></a>Rakenduse Project Operations meeskonnaliikme rakendus
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Project Operationsi meeskonnaliikmete rakendus (varem tuntud kui Project Resource Hub) sisaldab kõiki võimalusi, mida Microsoft Dynamics 365 Project Operations meeskonnaliikmete kasutajalitsentsile pakub.
+Project Operations Meeskonnaliikme rakendus (varem tuntud kui Project Resource Hub) sisaldab kõiki funktsioone, mida rakendus Microsoft Dynamics 365 Project Operations pakub meeskonnaliikme kasutajalitsentsile.
 
-Siin on mõned Project Operationsi meeskonnaliikme rakenduse võimalused.
+Siin on mõned Project Operationsi meeskonnaliikmete rakenduse võimalused.
 
 - Ajakirje
-- Kulukanne (Lite juurutus Lite)
+- Kulu kirje (lihtjuurutus)
 - Materjali kasutus
 - Kinnitused
-- Laiendatavus (kuni 15 üksust)
+- Laiendatavus (kuni 15 olemit)
 
-Rakenduse Project Operations Team Member kasutamiseks peab teil olema kas täielik Project Operationsi litsents või Dynamicsi meeskonnaliikmete kasutajalitsents. Lisateavet litsentside kohta leiate Dynamics 365 [litsentsimisjuhendist](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409). Rakendus Project Operations Team Member nõuab projektitoimingute juurutamist.
+Project Operations meeskonnaliikme rakenduse kasutamiseks peab teil olema Project Operationsi täislitsents või Dynamics Team Membersi kasutajalitsents. Lisateavet litsentside kohta vt [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409). Project Operations meeskonnaliikme rakendus nõuab Project Operationsi juurutamist.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

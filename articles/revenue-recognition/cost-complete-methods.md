@@ -1,6 +1,6 @@
 ---
 title: Meetodite lõpetamise kulu
-description: Selles artiklis antakse teavet meetodite kohta, mida kasutatakse projekti lõpuleviimiseks kulu arvutamiseks.
+description: See artikkel kirjeldab projekti lõpetamise kulu arvutamiseks kasutatud meetodeid.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8920285"
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Selles artiklis antakse teavet meetodite kohta, mida kasutatakse projekti lõpuleviimiseks kulu arvutamiseks. Projekti lõpetamise kulu arvutamiseks saate kasutada mitut viisi. 
+See artikkel kirjeldab projekti lõpetamise kulu arvutamiseks kasutatud meetodeid. Projekti lõpetamise kulu arvutamiseks saate kasutada mitut viisi. 
 
 Kui loote projekti jaoks prognoosi lehe **Loo prognoos** väljal **Meetodi lõpetamise kulu**, saate valida ühe järgmistest kuludest, et meetodid lõpetada.
 

@@ -1,6 +1,6 @@
 ---
 title: Tööjõukulude ja väljaminekute standardsete kulude konfigureerimine
-description: Selles artiklis selgitatakse, kuidas seadistada projekti tööjõukulude ja kulude standardkulusid.
+description: See artikkel selgitab, kuidas määrata projekti tööjõu ja kulude standardkulusid.
 author: Yowelle
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -25,7 +25,7 @@ ms.locfileid: "8919504"
 
 [!include [banner](../../includes/banner.md)]
 
-Selles artiklis selgitatakse, kuidas seadistada projekti tööjõukulude ja kulude standardkulusid. Selle toiming kasutab USSI andmekomplekti.
+See artikkel selgitab, kuidas määrata projekti tööjõu ja kulude standardkulusid. Selle toiming kasutab USSI andmekomplekti.
 
 1. Minge navigeerimispaani jaotisse **Moodulid > Projektijuhtimine ja raamatupidamine > Seadistus > Hinnad > Omahind (tund)**.
 2. Tehke valik **Uus**.

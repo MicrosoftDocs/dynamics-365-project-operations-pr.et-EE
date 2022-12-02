@@ -1,6 +1,6 @@
 ---
 title: Hinnakirjade kopeerimine
-description: Selles artiklis antakse teavet hinnakirjade kopeerimise kohta Project Operationsis.
+description: See artikkel annab teavet, kuidas rakenduses Project Operations hinnakirju kopeerida.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

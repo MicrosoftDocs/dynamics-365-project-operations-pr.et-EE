@@ -1,6 +1,6 @@
 ---
 title: Projektipõhise hinnapakkumise ridade arve ajakavad
-description: Selles artiklis antakse teavet hinnapakkumisridade arvegraafikute ja vahe-eesmärkide loomise kohta.
+description: See artikkel kirjeldab hinnapakkumise ridade arve ajakavade ja vahekokkuvõtete loomist.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

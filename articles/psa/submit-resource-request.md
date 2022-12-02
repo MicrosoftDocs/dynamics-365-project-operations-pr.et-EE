@@ -1,6 +1,6 @@
 ---
 title: Ressursitaotluse esitamine
-description: Selles artiklis antakse teavet projektiressursi taotluse esitamise kohta.
+description: See artikkel annab teavet projekti ressursi taotluse esitamise kohta.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018

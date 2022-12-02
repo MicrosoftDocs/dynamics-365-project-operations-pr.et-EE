@@ -1,6 +1,6 @@
 ---
 title: Projekti haldamise ülevaade
-description: Selles artiklis antakse teavet projektihalduse kohta rakenduses Dynamics 365 Project Operations.
+description: See artikkel annab teavet projektihalduse kohta rakenduses Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/06/2020
 ms.topic: overview

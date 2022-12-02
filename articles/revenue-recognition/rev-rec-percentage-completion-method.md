@@ -1,6 +1,6 @@
 ---
 title: Fikseeritud hinnaga tulukalkulatsiooniga projektid
-description: Selles artiklis antakse teavet fikseeritud hinnaga tulude kohta projektides.
+description: See artikkel annab teavet projektide fikseeritud hinnaga prognoosi kohta.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -26,7 +26,7 @@ Kui te loote rakenduses Dynamics 365 Project Operations teenuses Microsoft Datav
 ## <a name="review-fixed-price-revenue-estimates-projects"></a>Fikseeritud hinnaga tulukalkulatsioonidega projektide läbivaatamine
 Fikseeritud hinnaga tulukalkulatsioonidega projektide läbivaatamiseks tehke järgmist.
 
-1. Minge Dynamics 365 Finance keskkonnas projektide haldamise ja raamatupidamise **projektide** > **juurde** > **Fikseeritud hinnaga tulude hinnangu projektid**.
+1. Avage rakenduse Dynamics 365 Finance keskkonnas suvand **Projektihaldus ja raamatupidamine** > **Projektid** > **Fikseeritud hinnaga tulukalkulatsiooniga projektid**.
 2. Valige projekt, mida soovite vaadata, ja topeltklõpsake suvandit **Hinnangu projekti ID**, et avada kirje ja vaadata läbi projekti üksikasjad.
 3. Laiendage vahekaarti **Projekt**. Näete ruudustikus **Valitud projektid** ühte projekti. Süsteem kasutab seda vaikimisi projektina, kuna see on projekti lepingureaga seostatud projekt. 
 4. Seose muutmiseks valige täiendavad projektid ja lisage need ruudustikku **Valitud projektid**. Kui selles ruudustikus on valitud mitu projekti, siis projekti lõpuleviimise protsent ja tulukalkulatsioonid arvutatakse kõikide valitud projektide jaoks koos.

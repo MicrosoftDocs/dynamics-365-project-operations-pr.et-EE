@@ -48,11 +48,11 @@ Teie ressursid saavad rakendust Project Finder Mobile kasutada oma telefonis koo
   
 4. Määrake valiku **Luba ressursil oskuste värskendamine** sätteks **Jah**.  
   
-   ![ProjectService&#95; ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
+   ![ProjectService_ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
   
    See on globaalne säte. Projektijuhid saavad üksiku projekti nähtavuse selle projekti lehel **Projektimeeskond**.  
   
-   ![ProjectService&#95; ProjectTeamVisible.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
+   ![ProjectService_ProjectTeamVisible.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
   
 ## <a name="email-notifications"></a>Meiliteatised  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] saadab ressursitaotlusi puudutavad meilid järgmistel aegadel järgmistele adressaatidele.  

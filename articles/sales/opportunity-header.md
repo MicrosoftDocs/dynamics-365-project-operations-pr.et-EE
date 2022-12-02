@@ -1,6 +1,6 @@
 ---
 title: Müügivõimaluse päis/kokkuvõte
-description: Selles artiklis antakse teavet projektipõhiste tehingute ja projektipõhiste müügivõimaluse ridade kohta.
+description: See artikkel annab teavet projektipõhiste tehingute ja projektipõhiste müügivõimaluste ridade kohta.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Kirjete töölehtede loomine ja kinnitamine
-description: Selles artiklis antakse teavet selle kohta, kuidas luua ja kinnitada Microsofti sisestustöölehti Dynamics 365 Project Operations.
+description: See artikkel annab teavet selle kohta, kuidas luua ja kinnitada kandetöölehed rakenduses Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -24,66 +24,66 @@ ms.locfileid: "8912327"
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Sisestustöölehtede abil saate kirjendada tegelikke andmeid otse Microsoftis Dynamics 365 Project Operations. Kui kasutate kandežurnaure, ei pea te projektitoimingutesse sisestama aja-, kulu- ja materjalikasutuse logisid.
+Te kasutate kandetöölehti tegelike näitajate salvestamiseks otse rakenduses Microsoft Dynamics 365 Project Operations. Kui kasutate kandetöölehti, ei pea te rakenduses Project Operations sisestama aja-, kulu- ja materjalikasutuse logisid.
 
-Üks sisenemisžurnaal võimaldab teil luua mitu žurnaalirida. Kui tööleht kinnitatakse, salvestab kandežurnaali rida tegeliku järgmiste üksikasjade jaoks.
+Üks kandetööleht võimaldab teil luua mitu töölehele kandmist. Kui tööleht on kinnitatud, salvestab töölehele kantud tegelikud näitajad järgmiste üksikasjade jaoks.
 
-- Kulu või tulu, sõltuvalt valitud kande tüübist.
-- Valitud kandeklass. Saadaolevad klassid on **aeg**, **kulu**, **materjal**, **hoidja**, **verstapost** ja **maks**.
-- Žurnaalireal valitud projekt ja/või ülesanne.
+- Kulud või tulud olenevalt valitud tehingutüübist.
+- Valitud tehinguklass. Saadaolevad klassid on **Aeg**, **Kulu**, **Materjal**, **Honorar**, **Vahekokkuvõte** ja **Maksud**.
+- Projekt ja/või tööülesanne, mis on valitud töölehele kandmisel.
 
-Järgige neid juhiseid sisestustöölehe loomiseks Project Operationsis.
+Rakenduses Project Operations kandetöölehe loomiseks järgige neid samme.
 
-1. **Avage müügikande** \> **töölehed** \> **·**.
-2. Valige **lehe Kirje töölehed** tegevuspaanil suvand **Uus** žurnaali loomiseks.
-3. Sisestage **lehe Uus tööleht** väljale **Kirjeldus** žurnaali kirjeldus.
-4. Veenduge, et **välja žurnaali liik** väärtuseks **on seatud Kanne**, ja seejärel valige **Salvesta**. Pärast uue sisestustöölehe salvestamist **peaks töölehe lehel ilmuma vahekaart Žurnaaliread**.
-5. Sisestusžurnaali **tööleherea loomiseks valige menüü žurnaaliridade vahekaardi žurnaaliridade vahekaardi žurnaali read** ruudustiku kohal oleval tööriistaribal suvand **Uus**.
-6. Määrake dialoogiboksis **Kiirloomine** kandežurnaali rea loomiseks väljad, nagu on kirjeldatud järgmises tabelis.
+1. Minge jaotisse **Müügid** \> **Tehingud** \> **Töölehed**.
+2. Valige loendilehe **Kandetöölehed** toimingupaanil **Uus**, et luua tööleht.
+3. Sisestage lehel **Uus tööleht** väljale **Kirjeldus** töölehe kirjeldus.
+4. Veenduge, et väljal **Töölehe tüüp** on määratud **Kirje**, ja seejärel valige **Salvesta**. Pärast uue kandetöölehe salvestamist peaks töölehe lehele ilmuma vahekaart **Tööleht loetud**.
+5. Vahekaardil **Töölehele kandmised** valige ruudustiku kohal asuval tööriistaribal **Uus**, et luua kandetöölehele kandmine.
+6. Kandetöölehele kandmise loomise dialoogiboksis **Kiirloomine** määrake väljad järgmises tabelis kirjeldatud viisil.
 
     | Väli | Kirjeldus | Funktsionaalne mõju |
     | --- | --- | --- |
-    | Tehingu liik | Žurnaalirea saab liigitada ühte kuuest kandeklassist: **aeg, kulu**, **materjal**, **hoidja** **,** verstapost **või** maks **.** | Maksukande **klass** on projektitoimingutes aegunud. <br> Kui loote **maksukande** klassi, ei töödelda seda arvete esitamise või kulu- või tuluarvutustes. **Verstapost** on ainult tulupõhine tehinguklass. <br>Säilitaja **kandeklass** kujutab endast kliendilt saadud ettemakset. See tuleks alati luua arveldatud müügi ja sisestamata müügižurnaali ridade paarina. |
-    | Kandetüüp | **Kulude kirjendamiseks tuleks kasutada ühiku omahinna** kande tüüpe Kulu **,** Interorg Sales **ja** Resourcing.<br> Tulude **kirjendamiseks tuleks kasutada konteerimata müügi** ja **arveldatud müügi** kande tüüpe. | Säilitaja **kandeklass** töötab ainult **konteerimata müügi** ja **arveldatud müügikannete** tüüpidega.<br> Verstaposti **kandeklass** töötab ainult arveldatud müügikande **tüübiga**. <br>**Interorgi müügi-** ja **hankimisühiku omahinna** kandetüübid on rakendatavad ainult ajakande **klassile** ja need on kõikumatulevad ainult Lite juurutusskeemide sisenemistöölehtedel, mitte projektitoimingute juurutamisel ressursi/ ladustamata stsenaariumides. |
-    | Vali toode | **Kui valitud on materjalikande** klass, võimaldab see väli määrata, kas materjalikanne, mille jaoks žurnaalirida loote, on olemasolev toode või sissekirjutustoode. | Kui valite **kirjutustoote**, saate sisestada toote nime. |
+    | Tehingu klass | Töölehele kandmise saab liigitada ühte kuuest tehinguklassist: **Aeg**, **Kulu**, **Materjal**, **Honorar**, **Vahekokkuvõte** või **Maksud**. | Tehinguklass **Maksud** on rakenduses Project Operations aegunud. <br> Kui loote tehinguklassi **Maksud**, ei töödelda seda arvete ega kulude või tulude arvutamisel. **Vahekokkuvõte** on ainult tuluga tehinguklass. <br>Tehinguklass **Honorar** tähistab kliendilt saadud ettemaksu. See tuleks alati luua arveldatud müügi ja arveldamata müügi töölehele kandmiste paarina. |
+    | Tehingu tüüp | Kulude registreerimiseks tuleks kasutada tehingutüüpe **Kulu**, **Interorgi müügid** ja **Ressursiühiku maksumus**.<br> Tulu registreerimiseks tuleks kasutada tehingutüüpe **Arveldamata müügid** ja **Arveldatud müügid**. | Tehinguklass **Honorar** töötab ainult tehingutüüpidega **Arveldamata müügid** ja **Arveldatud müügid**.<br> Tehinguklass **Vahekokkuvõte** töötab ainult tehingutüübiga **Arveldatud müük**. <br>Tehingutüübid **Interorgi müügid** ja **Ressursside ühikukulu** on rakendatavad ainult tehinguklassi **Aeg** jaoks ja need on saadaval ainult lihtjuurutamise stsenaariumi kandetöölehtedes, mitte aga rakenduse Project Operations kasutuselevõtmisel ressurssi-/mittelaopõhistes stsenaariumides. |
+    | Vali toode | Kui valitud on tehinguklass **Materjal**, saate sellel väljal määrata, kas materjalitehing, mille jaoks te töölehele kandmist loote, on olemasolev toode või sisestatav toode. | Kui valite **Sisestatav toode**, saate sisestada tootele nime. |
     | Toode | Viide tootele kataloogist. | |
-    | Kirjeldus | Žurnaalirea kirjeldus, mis aitab seda hõlpsalt tuvastada. | Sisestamata müügižurnaali ridade puhul kasutatakse väärtust kirjeldusena arverea üksikasjade loomisel. |
-    | Väline kirjeldus | Žurnaalirea kirjeldus, mida saab kasutada väliste sidusrühmadega jagamiseks. | Sisestamata müügižurnaali ridade puhul kasutatakse väärtust arverea üksikasjade loomisel välise kirjeldusena. See võib ilmuda ka kliendile saadetaval arvel. |
-    | Arveldustüüp | Väärtus, mis näitab, kas žurnaalirida loetakse projekti tasuliseks, tasuta või mittetasustatavaks komponendiks. | Tüüpilises voos tuletatakse arveldustüüp lepingus seadistatud kokkulepitud tingimustest. Žurnaalirea salvestamisel saate sellele väljale sisestada väärtuse. |
-    | Dokumendi kuupäev | Kasutage kande toimumise kuupäeva. | |
-    | Alguskuupäev | Kasutage kande toimumise kuupäeva. | Seda välja kasutatakse võrdlemiseks arve loomise kuupäevaga konteerimata müügi **tüüpi kannete** puhul. See võrdlus aitab teil otsustada, kas tehing on tulevikku dateeritud või aegunud. Arvele lisatakse ainult varasema kuupäevaga kanded. |
-    | Lõpukuupäev | Kasutage kande toimumise kuupäeva. | |
-    | Aruandluskuupäev | Kasutage kuupäeva, millal raamatupidamismõju kirjendatakse. | |
-    | Lepingurea klient | Vaikimisi, kui lepingureal on ainult üks klient, seatakse see väli žurnaalirea salvestamisel lepingureal olevale kliendile. Kui lepingureal on mitu klienti, valige lepingureal õige klient. | Kui süsteem ei suuda žurnaalireal lepingurea klienti määratleda ja kui see on tühi žurnaalirealt loodava **tühistatud müügi** liigi tegelikul tüübil, siis tegelikku arvet ei esitata. |
-    | Project | Valige projekt, kus kirjendada tegelik sisselogimine. | Valitud projekti, kandeklassi ja ülesande põhjal püüab süsteem määrata lepingu, lepingurea ja lepingurea kliendi. |
-    | Toiming | Valige ülesanne tegeliku sisselogimiseks. | Kui seostasite lepingu seadistamise ajal ülesandeid lepinguridadega, kasutab süsteem valitud ülesannet koos projekti- ja kandeklassiga lepingu, lepingurea ja lepingurea kliendi määramiseks. |
-    | Tehingu kategooria | Valige kandekategooria, kus kirjendada tegelik sees. | Kulude puhul määratleb valitud kandekategooria vaikehinna, mis sisestatakse žurnaalireale salvestamisel. |
-    | Roll | See väli on ajažurnaali ridade jaoks asjakohane. Valige selle ressursi roll, kes veetis aega projektis ja/või ülesandes. | Ajažurnaali ridade puhul, kui kasutate ressursi vaikekulude ja arvemäärade sisestamiseks kastivälist konfiguratsiooni, kasutatakse valitud rolli koos ressursikogumisüksusega, et määrata vaikehind, mis sisestatakse žurnaalireale salvestamisel. Kui kasutate vaikehindade sisestamiseks kohandatud konfiguratsiooni, peaksite selle konfiguratsiooni üle vaatama, et teha kindlaks, kas **välja Roll** kasutatakse vaikehinna väärtuste sisestamiseks. |
-    | Allhankeleping | Kui tööleherida tähistab allhankemahtu või allhankekulusid või materjale, valige vastav allhankeleping. | Kulužurnaali ridade registreerimisel määrab valitud alltöövõtt hinnakirja, mida kasutatakse ühiku vaikeomahinna sisestamiseks. |
-    | Alltöövõtu rida | Kui žurnaalirida tähistab allhankemahtu või allhankekulusid või materjale, valige vastav alltöövõturida. | Kulužurnaali ridade registreerimisel tagab valitud alltöövõturida, et alltöövõtureal olevad saadaolevad võimsuse arvutused on õigesti arvutatud. |
-    | Summa meetod | Vaikimisi on selle välja väärtuseks **seatud Koguse korrutamine hinna järgi**. Kui seda meetodit kasutatakse, arvutatakse summa *kogusena* × *hind*. Teine toetatud meetod on **fikseeritud hind**. Kui seda meetodit kasutatakse, seatakse hind summale ja kogust arvutuses ei kasutata. | |
-    | Ühiku ajakava ja ühik | Koos tuvastavad ühiku ajakava ja ühik koguse ühiku. | Ühiku ja kandekategooria kombinatsiooni kasutatakse kulude vaikehindade sisestamiseks. Project Operationsi vaikekonfiguratsioonis kasutatakse aja vaikehindade sisestamiseks ühiku, rolli ja ressursiühiku kombinatsiooni. Kui teil on vaikehindade sisestamiseks kohandatud konfiguratsioon, kasutatakse seda koos ühikuga. Toote ja ühiku kombinatsiooni kasutatakse materjalide vaikehindade sisestamiseks. |
+    | Kirjeldus | Töölehele kandmise kirjeldus, mis hõlbustab tuvastamist. | Arveldamata müükide töölehele kandmise puhul kasutatakse väärtust kirjeldusena arverea üksikasjade loomisel. |
+    | Väline kirjeldus | Töölehele kandmise kirjeldus, mida saab kasutada väliste huvirühmadega jagamiseks. | Arveldamata müükide töölehele kandmise puhul kasutatakse väärtust välise kirjeldusena arverea üksikasjade loomisel. See võib ilmuda ka arvel, mis kliendile saadetakse. |
+    | Arveldustüüp | Väärtus, mis näitab, kas töölehele kandmist arvestatakse projekti tasulise, tasuta või mittetasulise komponendina. | Tavalises voos tuletatakse arveldustüüp lepingus sätestatud kokkulepitud tingimustest. Kui aga salvestate töölehele kandmise, saate sellele väljale sisestada väärtuse. |
+    | Dokumendi kuupäev | Kasutage tehingu toimumise kuupäeva. | |
+    | Alguskuupäev | Kasutage tehingu toimumise kuupäeva. | Seda välja kasutatakse **Arveldamata müügid** tüüpi tehingute arve koostamise kuupäevaga võrdlemiseks. See võrdlus aitab teil otsustada, kas tehing on tulevikus või minevikus. Arvele lisatakse ainult varasema kuupäevaga tehingud. |
+    | Lõpukuupäev | Kasutage tehingu toimumise kuupäeva. | |
+    | Aruandluskuupäev | Kasutage kuupäeva, millal raamatupidamismõju salvestatakse. | |
+    | Lepingurea klient | Kui lepingureal on ainult üks klient, määratakse selle välja vaikimisi töölehele kandmise salvestamisel lepingureal olev klient. Kui lepingureal on mitu klienti, valige lepingurealt õige klient. | Kui süsteem ei suuda töölehele kandmise lepingurea klienti määrata ja kui see on tühi tüübi **Arveldamata müügid** tegeliku näitaja kohta, mis luuakse töölehele kandmisel, siis tegeliku näitaja arvet ei esitata. |
+    | Project | Valige projekt, kuhu tegelik näitaja salvestada. | Valitud projekti, tehinguklassi ja ülesande põhjal püüab süsteem määrata lepingu, lepingurea ja lepingurea kliendi. |
+    | Toiming | Valige ülesanne, millele tegelik näitaja salvestada. | Kui sidusite lepingu seadistamise ajal ülesanded lepinguridadega, kasutab süsteem lepingu, lepingurea ja lepingurea kliendi määramiseks valitud ülesannet koos projekti ja tehinguklassiga. |
+    | Tehingu kategooria | Valige tehingukategooria, millesse tegelik näitaja salvestada. | Kulude jaoks määrab valitud tehingukategooria vaikehinna, mis sisestatakse selle salvestamisel töölehele kandmisel. |
+    | Roll | See väli on asjakohane Aja töölehele kandmiste jaoks. Valige projektile ja/või ülesandele aega kulutanud ressursi roll. | Kui kasutate Aja töölehele kandmiste puhul ressursi vaikekulude ja arvemäärade sisestamiseks kastist väljas konfiguratsiooni, kasutatakse valitud rolli koos ressursiüksusega, et määrata vaikehind, mis sisestatakse töölehele kandmisel, kui see on salvestatud. Kui kasutate vaikehindade sisestamiseks kohandatud konfiguratsiooni, peaksite selle konfiguratsiooni üle vaatama, et teha kindlaks, kas välja **Roll** kasutatakse vaikehinna väärtuste sisestamiseks. |
+    | Allhankeleping | Kui töölehele kandmine tähistab allhanke võimsust või allhankelepingu alusel sõlmitud kulusid või materjale, valige asjakohane allhankeleping. | Kui kulu töölehele kandmine on salvestatud, määrab valitud allhankeleping hinnakirja, mida kasutatakse vaikeühiku maksumuse sisestamiseks. |
+    | Allhankelepingu rida | Kui töölehele kandmine tähistab allhanke võimsust või allhankelepingu alusel sõlmitud kulusid või materjale, valige asjakohane allhankelepingu rida. | Kulu töölehele kandmise salvestamisel tagab valitud allhankelepingu rida, et allhankereal olevad vaba võimsuse arvutused on õigesti arvutatud. |
+    | Summa meetod | Vaikimisi on selle välja väärtus **Korruta kogus hinnaga**. Selle meetodi kasutamisel arvutatakse summa järgmiselt: *Kogus* × *Hind*. Teine toetatud meetod on **Fikseeritud hind**. Selle meetodi kasutamisel määratakse hinnaks summa ja kogust arvutuses ei kasutata. | |
+    | Ühiku ajakava ja ühik | Ühiku ajakava ja ühik määravad koos kindlaks koguse ühiku. | Ühiku ja tehingukategooria kombinatsiooni kasutatakse kulude vaikehindade sisestamiseks. Rakenduse Project Operations vaikimisi konfiguratsioonis kasutatakse üksuse, rolli ja ressursiühiku kombinatsiooni, et sisestada vaikimisi ajahinnad. Kui teil on vaikehindade sisestamiseks kohandatud konfiguratsioon, kasutatakse seda koos ühikuga. Toote ja ühiku kombinatsiooni kasutatakse materjalide vaikehindade sisestamiseks. |
     | Kogus | Sisestage kogus. | |
-    | Hind | Kui hind jäetakse žurnaalirea loomisel tühjaks, kasutatakse vaikehindade sisestamiseks asjakohaseid väärtusi, sõltuvalt kandeklassist. Kui žurnaalirea loomisel sisestatakse hind, kasutatakse seda hinda. | |
-    | Maks | Sisestage mis tahes maksusumma. | Sõltuvalt sisestatud maksusummast arvutatakse laiendatud summa *summamaksuna* + *·*. |
+    | Hind | Kui töölehele kandmise loomisel jäetakse hind tühjaks, kasutatakse vaikehindade sisestamiseks vastavaid väärtusi sõltuvalt tehinguklassist. Kui töölehele kandmise loomisel on sisestatud hind, kasutatakse seda hinda. | |
+    | Maks | Sisestage mis tahes maksusumma. | Sõltuvalt sisestatud maksusummast arvutatakse laiendatud summa järgmiselt: *Summa* + *Maksud*. |
 
-## <a name="confirm-an-entry-journal"></a>Sisestustöölehe kinnitamine
+## <a name="confirm-an-entry-journal"></a>Kinnitage kandetööleht
 
-Pärast kõigi žurnaaliridade sisestamist kandežurnaali saate žurnaali kinnitada. See protsess salvestab iga žurnaalirea vastavate projektide tegelikena.
+Pärast seda, kui olete sisestanud kõik töölehele kandmised kandetöölehele, saate töölehe kinnitada. Selle protsessi käigus salvestatakse iga töölehele kandmine vastavate projektide tegelike näitajatena.
 
-Pärast töölehe kinnitamist ei saa te seda ega ühtegi selle rida enam redigeerida.
+Pärast töölehe kinnitamist ei saa seda ega ühtegi selle rida enam redigeerida.
 
-## <a name="actuals-created-by-entry-journal-confirmation"></a>Kirje töölehe kinnitusega loodud tegelikud
+## <a name="actuals-created-by-entry-journal-confirmation"></a>Tegelikud näitajad, mis on loodud kandetöölehe kinnitusega
 
-Kirježurnaali kinnitusega loodud tegelike tegelike ja tegelike vahel, mis luuakse aja-, kulu- ja materjali kasutuslogide kinnitamisel ning arve kinnitamisel Project Operationsis, on mõned peamised erinevused.
+On mõned olulised erinevused tegelike näitajate vahel, mis luuakse kandetöölehe kinnitamisel, ja tegelike näitajate vahel, mis luuakse aja-, kulu- ja materjali kasutuslogide kinnitamisel ja arve kinnitamisel rakenduses Project Operations:
 
-- Kandetöölehed ei kasuta kandeühendusi tegeliku kulu sidumiseks sisestamata müügi tegelikuga. Tegelikud andmed, mis luuakse aja-, kulu- ja materjalikasutuslogide kinnitamisel, kasutavad kulude ja sisestamata müügi tegelike seoste sidumiseks alati kandeühendusi.
-- Kande töölehed ei kasuta kande päritolu, et siduda tegelik kulu ja sisestamata müügi tegelikud andmed mis tahes algkirjega. Aja-, kulu- ja materjalikasutuslogide kinnitamisel tekkivad tegelikud andmed kasutavad alati kande päritolu, et siduda kulu ja sisestamata müügi tegelikud andmed algse ajakandega.
-- Kui sisestamisžurnaali kinnitusega loodud sisestamata müügi tegelikud tegelikud andmed arveldatakse, lingitakse arve kinnitamisel loodud arveldatud müügi tegelikud tegelikud summad sisestamata müügi tegelikega sarnaselt sisestamata müügi tegelikega, mis luuakse aja-, kulu- ja materjali kasutuslogide kinnitamisel.
-- Organisatsioonidevahelise ressursiga sisestatud aja jaoks loodud kandežurnaali read ei põhjusta varude ühiku omahinna **ja** interorg-müügi **tüüpide automaatset** loomist. Need tegelikud andmed tuleb käsitsi luua. See käitumine erineb organisatsioonisiseste ressurssidega salvestatud ajakannete käitumisest. Sellisel juhul, kui aeg on kinnitatud, loob rakendus automaatselt projekti kulutüübi **tegelikud tegelikud summad** ning töötaja enda osakonna ressursiüksuse ühiku omahinna **ja** Interorg Salesi **tüüpide tegelikud tegelikud** andmed. Seejärel kasutab ta tehinguühendusi, et siduda need tegelikud andmed kokku ja tehingu päritolu, et siduda need algse ajakandega.
-- Kui sisestustöölehed on kinnitatud, loovad need tegelikud andmed. Parandustöölehti ei saa siiski kasutada nende tegelike andmete parandamiseks. See käitumine erineb tegeliku käitumisest, mis luuakse aja-, kulu- ja materjalikasutuslogide kinnitamisel. Sellisel juhul võimaldab rakendus kasutada parandusžurnaate, et parandada tegelikke vigu, tingimusel et neid tegelikke andmeid pole veel arveldatud. Kui need on juba arveldatud, saate siiski tegeliku parandada, kui töötlete kliendile selle tegeliku krediidi täielikku krediiti.
+- Kandetöölehed ei kasuta tehinguühendusi, et siduda kulu tegelik näitaja ja arveldamata müügi tegeliku näitaja väärtusega. Tegelikud näitajad, mis luuakse aja-, kulu- ja materjali kasutuslogide kinnitamisel, kasutavad alati tehinguühendusi, et siduda kulud ja arveldamata müügi tegelikud näitajad.
+- Kandetöölehed ei kasuta tehingu algupära, et siduda kulu tegelikku näitajat ja arveldamata müügi tegelikke näitajaid ühegi algupärase kirjega. Tegelikud näitajad, mis luuakse aja-, kulu- ja materjali kasutuslogide kinnitamisel, kasutavad alati tehingu algupära, et siduda kulud ja arveldamata müügi tegelikud näitajad algse ajakirjega.
+- Kui kandetöölehe kinnitamisega loodud arveldamata müügi tegelike näitajatega esitatakse arve, on arve kinnitamise käigus loodud arveldatud müügi tegelike näitajatega seotud arveldamata müügi tegelike näitajatega sarnaselt arveldamata müügi tegelike näitajatega, mis luuakse aja-, kulu- ja materjali kasutuslogide kinnitamisel.
+- Organisatsioonidevaheliste ressursside poolt sisestatud aja kohta loodud kandetöölehe read ei tekita automaatselt tüübi **Ressursiühiku kulu** ja **Interorgi müügid** tegelikke näitajaid. Need tegelikud näitajad tuleb käsitsi luua. See käitumine erineb organisatsioonisiseste ressursside poolt salvestatud ajakirjete käitumisest. Sellisel juhul, kui aeg on kinnitatud, loob rakendus automaatselt projektile tüübi **Kulu** tegelikud näitajad ning töötaja omavale osakonnale tüübi **Ressursiühiku kulu** ja **Interorgi müügid** tegelikud näitajad. Seejärel kasutatakse tehinguühendusi, et siduda need tegelikud näitajad omavahel ja tehingu algupära, et siduda need algse ajakirjega.
+- Kui kandetöölehed on kinnitatud, loovad need tegelikud näitajad. Paranduse töölehti ei saa aga nende tegelike näitajate parandamiseks kasutada. See käitumine erineb tegelike näitajate käitumisest, mis luuakse aja-, kulu- ja materjalide kasutuslogide kinnitatud ajale. Sellisel juhul võimaldab rakendus teil vigade parandamiseks kasutada paranduse töölehti, tingimusel, et need tegelikud näitajad ei ole veel arvele lisatud. Kui need on juba arveldatud, saate tegelikke limiite siiski parandada, kui töötlete kliendile selle tegeliku väärtuse täielikku limiiti.
 
 > [!NOTE]
-> Sisestustöölehed ei jõusta rangeid vaikereegleid. Seetõttu kasutage neid sisenemispäevikuid nii vähe kui võimalik ning olge ettevaatlik ja ettevaatlik, et tagada, et te ei loo oma süsteemis korrumpeerunud finantsandmeid. Alati, kui saate, kasutage tegelike tööde loomiseks aja-, kulu- ja materjalikasutuse logisid, projektilepingute verstaposti ja säilitaja seadistust ning projektiarve kinnitusprotsessi sisestustöölehtede asemel.
+> Kandetöölehed ei kehtesta rangeid vaikereegleid. Seetõttu kasutage neid kandetöölehti nii vähe kui võimalik ning olge ettevaatlik ja hoolikas, et tagada, et te ei tekita oma süsteemis vigaseid finantsandmeid. Kui saate, kasutage aja-, kulu- ja materjali kasutuslogisid, projektilepingute vahekokkuvõtete ja honorari seadistust ning projektiarvete kinnitamise protsessi, mitte kandetöölehti, et luua tegelikke näitajaid.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

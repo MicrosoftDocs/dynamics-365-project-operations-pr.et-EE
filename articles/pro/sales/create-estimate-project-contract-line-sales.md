@@ -1,6 +1,6 @@
 ---
 title: Projektipõhise lepingurea prognoosimine – liht
-description: Selles artiklis antakse teavet projektipõhise lepingurea hindamise kohta.
+description: See artikkel annab teavet projektipõhise lepingurea prognoosimise kohta.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
@@ -34,7 +34,7 @@ Prognooside loomiseks otse projektipõhisele lepingureale toimige järgmiselt.
 | Väli | Asukoht | Kirjeldus | Allavoolu mõjud |
 | --- | --- | --- | --- |
 | **Kirjeldus** | **Kiirloomine** | Konkreetse prognoosi kirjeldus. | See väärtus läheb vaikimisi seotud lepingurea üksikasjaks, mis luuakse automaatselt. |
-| **Kande liik** | **Kiirloomine** | See on projektipõhise lepingurea vahekaardil **Üldine** kaasatud kandeklasside loend. | See väärtus läheb vaikimisi seotud lepingurea üksikasjaks, mis luuakse automaatselt. |
+| **Tehingu klass** | **Kiirloomine** | See on projektipõhise lepingurea vahekaardil **Üldine** kaasatud kandeklasside loend. | See väärtus läheb vaikimisi seotud lepingurea üksikasjaks, mis luuakse automaatselt. |
 | **Vali toode** | **Kiirloomine** | Kehtib, kui kandeklass on **Materjal**. Saate määrata, kas see prognoosirida on **olemasoleva** (kataloogi) toote või **sisestatava** toote jaoks. | See väärtus läheb vaikimisi seotud lepingurea üksikasjaks, mis luuakse automaatselt. |
 | **Toode** | **Kiirloomine** | Toote ID tootekataloogist. See väli on lubatud ainult juhul, kui valite väljal **Toote valimine** väärtuse **Olemasolev toode**. ID-d kasutatakse lepingu projekti hinnakirjast müügihinna toomiseks. | See väärtus läheb vaikimisi seotud lepingurea üksikasjaks, mis luuakse automaatselt. |
 | **Sisestatav toode** | **Kiirloomine** | Tekstiväli, kuhu toote nime sisestamiseks. See väli on lubatud ainult juhul, kui valite väljal **Toote valimine** väärtuse **Sisestatav**.| See väärtus läheb vaikimisi seotud lepingurea üksikasjaks, mis luuakse automaatselt. |

@@ -1,6 +1,6 @@
 ---
 title: Projektipõhiste hinnapakkumiste kopeerimine
-description: Selles artiklis antakse teavet selle kohta, kuidas kopeerida projektipõhiseid hinnapakkumisi Project Operationsis.
+description: See artikkel kirjeldab, kuidas kopeerida rakenduses Project Operations projektipõhiseid hinnapakkumisi.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

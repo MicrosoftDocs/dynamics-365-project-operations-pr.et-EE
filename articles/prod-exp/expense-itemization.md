@@ -1,6 +1,6 @@
 ---
 title: Kulude üksikasjalik loetelu
-description: Selles artiklis selgitatakse, kuidas kulusid ümber kujundatud kulu tööruumi abil loetleda.
+description: See artikkel selgitab, kuidas kulusid jaotada, kasutades ümberkujundatud Kulude tööruumi.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
@@ -19,31 +19,31 @@ ms.locfileid: "8920929"
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Organisatsioonid nõuavad sageli, et töötajad esitaksid reisi ajal tehtud kulutuste üksikasjaliku jaotuse. Näiteks võib hotelli folio sisaldada mitut üksikasjalikku rida toa hinna, maksu, parkimise ja muude mitmesuguste kulude jaoks, mis tekivad iga päev viibimise ajal. Või söögikulu võib nõuda, et pakuksite hommiku-, lõuna- või õhtusöögi jaoks üksikasjalikumat jaotust. Sõltumata organisatsiooni vajadustest saab iga kulukategooria seadistada nii, et see kajastaks kulu moodustavaid alamkategooriaid või reaüksusi. Kuigi üksikasjalikkust on kuluhalduses **alati** toetatud, **võimaldab ümberkujutatud kuluruum** tõhusamat üksikasjalikkustust, kui funktsioon, **Korduvate kulude kiire** loetlemise võimalus on lubatud.  
+Organisatsioonid nõuavad sageli töötajatelt reisil tekkinud kulude üksikasjalikku liigendust. Näiteks võib hotelli leht sisaldada mitut üksikasjalikku rida toahindade, maksude, parkimise ja muude iga päev viibimise kestel tehtud kulutuste kohta. Või võib söögikulu nõuda hommiku-, lõuna- või õhtusöögi täpsema liigenduse esitamist. Olenemata organisatsiooni vajadustest saab iga kulukategooria seadistada nii, et see kajastaks kulu moodustavaid alamkategooriaid või ridu. Kuigi jaotises **Kuluhaldus** on alati jaotamine toetatud, võimaldab tööruum **Uuesti kujundatud kulud** tõhusamat jaotamist, kui funktsioon **Korduvate kulude kiire jaotamine** on lubatud.  
 
-## <a name="enable-quick-itemization"></a>Kiirtutvustuse lubamine 
+## <a name="enable-quick-itemization"></a>Kiirjaotamise lubamine 
 
-Korduvate kulude kiire **kirjeldamise funktsiooni abil saate** korduvaid kulusid kiiresti loetleda, vältides samal ajal vajadust sisestada igapäevased kulud iga kord viibimise ajaks. Kiire üksikasjaliku üksikasjalikkuse lubamiseks täitke järgmised juhised.
+Saate kasutada funktsiooni **Korduvate kulude kiire jaotamine**, et kiiresti korduvad kulud üksikasjalikult kirjeldada, vältides vajadust iga kord päevaste kulude sisestamist kogu viibimise ajal. Kiirjaotamise lubamiseks tehke järgmised toimingud.
 
-1. **Avage tööruum Funktsioonihaldus** ja funktsioonide loendis leidke ja valige **kuluaruannete ümberkujunemine**. 
+1. Minge tööruuumi **Funktsioonihaldus** ja otsige funktsioonide loendist üles ja valige **Ümberkujundatud kuluaruanded**. 
 2. Valige **Luba kohe**. 
-3. Otsige funktsiooniloendist üles ja valige **, Võime korduvaid kulusid kiiresti** loetleda.
+3. Funktsioonide loendis leidke ja valige **Korduvate kulude kiirjaotamine**.
 4. Valige **Luba kohe**. 
 
-## <a name="itemization-grid"></a>Üksikasjalikum ruudustik 
+## <a name="itemization-grid"></a>Jaotuseruudustik 
 
-Kui kulukategoorial on alamkategooriad või erinevad komponendid, mis moodustavad selle kulu, saab selle täpsustada. Kulu üksikasjalikuks muutmiseks valige kuluaruandes kulurida ja paanil **Kulu üksikasjad** valige **Toimingud** > **Itemize**. Liugur **Itemization** näitab väljadega ruudustikku. Järgmises tabelis on toodud näide ruudustiku igast väljast ja sellest, kuidas välja kuluaruandes renderdatakse. 
+Kui kulukategoorial on alamkategooriad või erinevad komponendid, mis moodustavad selle kulu, siis saab selle jaotada. Kulu jaotamiseks valige kuluaruandes kulurida ja paanil **Kulu üksikasjad** valige **Toimingud** > **Jaota**. Liugur **Jaotamine** kuvab väljadega ruudustiku. Järgmises tabelis on näide igast ruudustiku väljast ja sellest, kuidas väli kuluaruandes renderdatakse. 
 
 |     Väli          |     Kirjeldus                                                                                  |     Näide              |
 |--------------------|--------------------------------------------------------------------------------------------------|--------------------------|
-|     Alamkategooria    |     Kulukategooria tüübi **Hotel** all konfigureeritud alamkategooriate loend.             |     Päevane toa hind      |
-|     Alguskuupäev     |     Kuluüksuse esmakordse tekkimise kuupäev.                                           |     09/13/2021           |
-|     Päevamäär     |     Kulukauba jaoks kantud summa.                                                    |     200                  |
-|     Kogus       |     Kui mitu korda laengut pidevalt korratakse.                       |     3                    |
+|     Alamkategooria    |     Kulukategooria tüübi **Hotell** all konfigureeritud alamkategooriate loend.              |     Ruumi päevahind      |
+|     Alguskuupäev     |     Kuupäev, millal kuluüksus esimest korda tekkis.                                           |     13/09/2021           |
+|     Päevahind     |     Kuluüksusega eest kantud summa.                                                    |     200                  |
+|     Kogus       |     Kordade arv, mille jooksul tasu kordub pideva ajavahemiku jooksul.                       |     3                    |
 
-![Kirjeldage kulu.](media/Itemization%20screen%201.png)
+![Kulu jaotamine.](media/Itemization%20screen%201.png)
 
-Üksikasjaliku kirjendamise salvestamisel näete üksikut üksikasjalikku rida üksikasjalikku rida kirjendusruudustikus määratud koguse jaoks. Iga rida algab ruudustikus määratud kuupäeval.
+Kui salvestate jaotuse, näete jaotuse ruudustikus määratud koguse kohta individuaalset jaotuse rida. Iga rida algab ruudustikus määratud kuupäeval.
 
-![Üksikasjalik aruanne.](media/Itemization%20screen%202.png)
+![Jaotatud aruanne.](media/Itemization%20screen%202.png)
 

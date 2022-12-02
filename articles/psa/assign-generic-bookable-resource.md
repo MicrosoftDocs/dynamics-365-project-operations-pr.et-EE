@@ -1,6 +1,6 @@
 ---
 title: Üldiste broneeritavate ressursside määramine tööülesande ja projekti meeskonna jaoks
-description: Selles artiklis antakse teavet üldiste ressursside broneerimise kohta ülesannetele ja projektimeeskondadele.
+description: See artikkel annab teavet tööülesannetele ja projekti meeskondadele üldressursside broneerimise kohta.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

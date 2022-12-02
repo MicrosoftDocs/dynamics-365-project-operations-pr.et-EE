@@ -1,6 +1,6 @@
 ---
 title: Turbemudel
-description: Selles artiklis antakse teavet rakenduse turbemudeli kohta Dynamics 365 Project Operations.
+description: See artikkel annab teavet rakenduse Dynamics 365 Project Operations turbe mudeli kohta.
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
@@ -70,7 +70,7 @@ Office'i rühma koostöömudeli arenedes lisatakse funktsionaalsus, et aja jooks
 
 Lisateavet leiate jaotisest [Common Data Service'i turvalisus](/power-platform/admin/wp-security).
 
-## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Projektitoimingud ja Microsoft Dynamics 365 Finantsturvalisus
+## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operationsi ja Microsoft Dynamics 365 Finance’i turvalisus
 Project Operations sisaldab järgmisi rolle.
 
 - Projektijuht

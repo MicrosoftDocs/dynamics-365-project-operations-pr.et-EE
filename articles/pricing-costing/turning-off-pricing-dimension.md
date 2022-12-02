@@ -1,6 +1,6 @@
 ---
 title: Hinnakujunduse dimensiooni väljalülitamine
-description: Selles artiklis antakse teavet hinnakujundusdimensioonide väljalülitamise kohta.
+description: See artikkel annab teavet selle kohta, kuidas lülitada hinnakujunduse dimensioone välja.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

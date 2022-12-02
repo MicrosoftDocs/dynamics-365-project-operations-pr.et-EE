@@ -1,6 +1,6 @@
 ---
 title: Kohandatud väljade seadistamine hinnakujunduse dimensioonidena
-description: Selles artiklis antakse teavet hinnakujundusdimensioonide häälestamise kohta kohandatud väljade abil.
+description: See artikkel kirjeldab, kuidas seadistada kohandatud väljade abil hinnakujunduse dimensioone.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -26,9 +26,9 @@ ms.locfileid: "8917571"
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Enne alustamist eeldab see artikkel, et olete artiklites protseduurid lõpule viinud, [Kohandatud väljade ja olemite](create-custom-fields-entities-pricing-dimensions.md) loomine ning [nõutavate kohandatud väljade lisamine hinnahäälestusele ja tehinguolemitele](add-custom-fields-price-setup-transactional-entities.md). Kui te ei ole neid protseduure lõpetanud, minge tagasi ja täitke need ning seejärel pöörduge tagasi selle artikli juurde. 
+Enne kui alustate, eeldame, et olete lõpetanud toimingud artiklites [Kohandatud väljade ja olemite loomine](create-custom-fields-entities-pricing-dimensions.md) ning [Nõutavate kohandatud väljade lisamine hinna seadistamisele ja ülekande olemitele](add-custom-fields-price-setup-transactional-entities.md). Kui te pole neid toiminguid lõpetanud, minge tagasi, viige need lõpuni ja seejärel tulge selle artikli juurde tagasi. 
 
-Selles artiklis antakse teavet kohandatud hinnakujundusdimensioonide seadistamise kohta. Pange tähele, et lehe **Parameetrid** vahekaart **Summapõhised hinnakujunduse dimensioonid** näitab hinnakujunduse dimensioonide kirjeid. Vaikimisi on sellel vahekaardil ruudustikus kaks rida.
+See artikkel annab teavet selle kohta, kuidas seadistada kohandatud hinnakujunduse dimensioone. Pange tähele, et lehe **Parameetrid** vahekaart **Summapõhised hinnakujunduse dimensioonid** näitab hinnakujunduse dimensioonide kirjeid. Vaikimisi on sellel vahekaardil ruudustikus kaks rida.
 
 - **msdyn_resourcecategory** (roll)
 - **msdyn_OrganizationalUnit** (organisatsiooniüksus)
@@ -71,7 +71,7 @@ Hinnakujunduse dimensioone on kahte tüüpi.
    
    Järgmine tabel näitab hindade hinnalisanduste arvutamist.
   
-| Roll        | Organisatsiooniüksus    |Töö asukoht      |Standardpealkiri      |Ressursi töötunnid      |  Tõsta hinda|
+| Roll        | Organisatsiooniüksus    |Töö asukoht      |Standardpealkiri      |Ressursi töötunnid      |  Hinnalisand|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Jõgi India|Kohapeal            |                    |Ületunnitöö                 |15     |
 |             | Jõgi India|Kohalik             |                    |Ületunnitöö                 |10     |

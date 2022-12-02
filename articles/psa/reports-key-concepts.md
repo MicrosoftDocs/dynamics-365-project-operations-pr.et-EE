@@ -1,6 +1,6 @@
 ---
 title: Põhimõisted
-description: Selles artiklis antakse teavet ressursihalduse põhimõistetete kohta Project Service Automationis.
+description: See artikkel annab teavet rakenduse Project Service Automation ressursihalduse põhimõistete kohta.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

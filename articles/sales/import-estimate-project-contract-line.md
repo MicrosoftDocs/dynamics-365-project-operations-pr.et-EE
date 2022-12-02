@@ -1,6 +1,6 @@
 ---
 title: Prognoosi importimine projektipõhisele lepingureale
-description: Selles artiklis antakse teavet selle kohta, kuidas importida hinnanguid projektilt lepingureale.
+description: See artikkel annab teavet, kuidas importida projekti prognoose lepingureale.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article

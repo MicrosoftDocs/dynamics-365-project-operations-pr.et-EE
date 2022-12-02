@@ -1,6 +1,6 @@
 ---
 title: Näidisarved
-description: Selles artiklis antakse teavet proforma arvete kohta project Operationsis.
+description: See artikkel annab teavet rakenduse Project Operations näidisarvete kohta.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
@@ -84,7 +84,7 @@ Projekti arve mustandi loomisel pannakse arvele kõik arveldamata müügitehingu
 Arve kinnitamiseks valige **Kinnita**. Kinnitamine on ühesuunaline toiming. Suvandi **Kinnita** valimisel teeb süsteem arve kirjutuskaitstuks ja loob iga arverea kohta iga arverea üksikasjadelt arvestatud müügi tegelikud näitajad. Kui arverea üksikasjad viitavad arveldamata müügi tegelikule näitajale, tühistab süsteem ka arveldamata müügi tegeliku näitaja. (Mis tahes aja- või kulukirje põhjal loodud arve rea üksikasjad viitavad arveldamata müügi tegelikule.) Pearaamatu integreerimise süsteemidega saab seda ümberpööramist kasutada projekti poolelioleva töö lõpetamisel (WIP) raamatupidamise jaoks.
 
 > [!NOTE]
-> Kinnitatud proforma arveid ja nendega seotud kirjeid, nagu arveread ja arverea üksikasjad, ei saa redigeerida ega kustutada. 
+> Kinnitatud eelarveid ja nendega seotud kirjeid, nagu arve ridu ja arve rea üksikasju, ei saa muuta ega kustutada. 
 
 ### <a name="correct-a-confirmed-invoice"></a>Kinnitatud arve parandmine
 

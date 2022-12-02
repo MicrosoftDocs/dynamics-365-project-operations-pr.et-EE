@@ -1,6 +1,6 @@
 ---
 title: Projektile reserveerimine
-description: Selles artiklis antakse teavet ressursi broneerimise kohta projekti.
+description: See artikkel annab teavet projektile ressursi reserveerimise kohta.
 author: ruhercul
 ms.date: 01/24/2022
 ms.topic: article
@@ -55,7 +55,7 @@ Kui ressursihaldur peab broneerima ressursi projekti jaoks otse, saavad nad kasu
     - Kestus
    
    > [!NOTE]
-   > Dynamics 365 Project Operations Praegu ei toeta see ajakava juhatust.   
+   > Praegu ei toeta Dynamics 365 Project Operations ajakava tahvlit.   
 
 ## <a name="book-from-the-project-form"></a>Vormilt Projekt broneerimine
 

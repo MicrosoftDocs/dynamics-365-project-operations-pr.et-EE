@@ -1,6 +1,6 @@
 ---
 title: Projekti müügi ja kulude prognoosimine juhul, kui broneeritav ressurss täidab projekti jaoks mitut rolli
-description: Selles artiklis antakse teavet selle kohta, kuidas hinnakujundusdimensioone saab kasutada projekti mitut rolli täitva ressursi hinnakujunduse ja kuluarvestuse toetamiseks.
+description: See artikkel annab teavet selle kohta, kuidas hinnakujunduse dimensioone saab kasutada projektis mitut rolli täitva ressursi hinnakujunduse ja kuluarvestuse toetamiseks.
 author: rumant
 ms.custom:
 - dyn365-projectservice

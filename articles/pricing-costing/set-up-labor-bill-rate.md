@@ -1,6 +1,6 @@
 ---
 title: Töö arvelduskulu seadistamine
-description: Selles artiklis antakse teavet selle kohta, kuidas seadistada tööjõu arveldusmäärasid Project Operationsis.
+description: See artikkel annab teavet tööjõukulu määrade seadistamise kohta rakenduses Project Operations.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article
@@ -48,7 +48,7 @@ Näiteks Fabrikam India robootika allüksuse arendaja, kes töötab USA projekti
 
     | Roll | Ressursiettevõte | Ressursiühik | Arveldusmäär |
     | --- | --- | --- | --- |
-    | Arendaja | Fabrikam India | Fabrikam India-Robotics | 100 dollarit |
+    | Arendaja | Fabrikam India | Fabrikam India-Robotics | 100 USD |
     | Arendaja | Fabrikam Philippines | Fabrikam Philippines-Robotics | 90 USD |
     | Arendaja | Fabrikam US | Fabrikam US-Robotics | 150 USD |
 

@@ -1,6 +1,6 @@
 ---
 title: Arveldusprotsessi ülevaade
-description: Selles artiklis antakse protsessiülevaade arvete esitamisest projektitoimingutes ressursi-/ladustamata põhistsenaariumide puhul.
+description: See artikkel annab arveldustoimingute ülevaate rakenduses Project Operations ressursipõhiste/mittelaopõhiste stsenaariumide korral.
 author: sigitac
 ms.date: 01/29/2021
 ms.topic: overview
@@ -21,7 +21,7 @@ Project Operations ressursipõhistele/mittelaopõhistele stsenaariumidele pakub 
 
 ![Arveldusvoo diagramm.](./media/invoicing-flow.png)
 
-Projekti lepingurida määratleb seostatud projektitehingute arveldusmeetodi. Kui projektijuht kinnitab aja- ja kulukanded, salvestab süsteem tehingud **olemis Project Actuals** ja saadab teabe Dynamics 365 Finance projektihaldus- ja **raamatupidamismoodulisse**. Seejärel vaatab projekti raamatupidaja kirjed üle ja postitab need [Project Operationsi integreerimise töölehe](../project-accounting/project-operations-integration-journal.md) abil. See tööleht sisaldab projekti tegelike näitajate jaoks olulisi raamatupidamise üksikasju, nagu arveldamine, käibemaksu rühm, arveldusüksuse käibemaksu rühm ja finantsdimensioonid.
+Projekti lepingurida määratleb seostatud projektitehingute arveldusmeetodi. Kui projektijuht kiidab aja- ja kulutehingud heaks, salvestab süsteem tehingud olemis **Projekti tegelikud näitajad** ja saadab andmed Dynamics 365 Finance’i moodulisse **Projektijuhtimine ja raamatupidamine**. Seejärel vaatab projekti raamatupidaja kirjed üle ja postitab need [Project Operationsi integreerimise töölehe](../project-accounting/project-operations-integration-journal.md) abil. See tööleht sisaldab projekti tegelike näitajate jaoks olulisi raamatupidamise üksikasju, nagu arveldamine, käibemaksu rühm, arveldusüksuse käibemaksu rühm ja finantsdimensioonid.
 
 Projektijuht arveldamata müügitehingud üle vaadata, kasutades aja- ja materjali arveldusmeetodit jaotises [Aja ja materjali arveldamise võlgnevused](../proforma-invoicing/manage-billing-backlog.md#time-and-material-billing-backlog) ja fikseeritud hinnaga arveldamist jaotises [Fikseeritud hinnaga osamaksed](../proforma-invoicing/manage-billing-backlog.md#fixed-price-milestones). Need vaated võimaldavad teil filtreerida ja valida tehinguid, mis tuleb kaasata järgmisesse arveldustsüklisse, ja märkida need siis olekusse **Arveldamiseks valmis**.
 

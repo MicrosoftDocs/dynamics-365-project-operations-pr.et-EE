@@ -1,6 +1,6 @@
 ---
 title: Oskuste ja oskustaseme mudelid
-description: See artikkel annab teavet selle kohta, kuidas kasutada oskusi ja oskuste mudeleid.
+description: See artikkel annab teavet oskuste ja oskustaseme mudelite kasutamise kohta.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Ressursihalduse juhend
-description: Selles artiklis on lingid teabele ressursihalduse kohta Project Service Automationis
+description: Selles artiklis on toodud lingid lisateabele ressursihalduse kohta rakenduses Project Service Automation
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -30,7 +30,7 @@ ms.locfileid: "8910767"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-Selles artiklis varem olnud PDF-link on eemaldatud ja sisu on teisaldatud järgmistesse artiklitesse:
+Selles artiklis varem olnud PDF-i link on eemaldatud ja sisu on teisaldatud järgmistesse artiklitesse.
 
 - [Ressursihalduse avaleht](../resource-management-home-page.md)
 - [Põhimõisted](../reports-key-concepts.md)
@@ -42,7 +42,7 @@ Selles artiklis varem olnud PDF-link on eemaldatud ja sisu on teisaldatud järgm
 - [Ressursihalduse KKK](../resource-management-faq.md)
 
 > [!NOTE]
-> See artikkel eemaldatakse tulevases dokumentatsioonivärskenduses. 
+> See artikkel eemaldatakse tulevasest dokumentatsiooni värskendusest. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

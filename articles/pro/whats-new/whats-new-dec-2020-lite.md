@@ -1,6 +1,6 @@
 ---
 title: Mis on uut detsembris 2020 – Project Operations Lite’i juurutamine – tehing näidisarveldusele
-description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval Project Operations Lite juurutamise 2020. aasta detsembri väljaandes - tegeleb arvete esitamisega.
+description: See artikkel annab teavet Project Operations Lite’i juurutuse kohta – tehing näidisarveldusele 2020. aasta detsembri väljalaskes saadaolevate kvaliteedivärskenduste kohta.
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8924057"
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
-See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja versioonide kohta.
+See artikkel kehtib rakenduse Dynamics 365 Project Operations järgmiste komponentide ja versioonide kohta.
 
   - Project Operations Dataverse’i keskkonna versioonis 4.5.0.134 
 

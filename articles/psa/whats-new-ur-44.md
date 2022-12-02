@@ -1,6 +1,6 @@
 ---
 title: Mida on uut või muudetud rakenduse Project Service Automation värskenduse väljaandes 44, V3
-description: Selles artiklis loetletakse funktsioonid ja parandused, mis on saadaval versioonis Microsoft Dynamics 365 Project Service Automation Update Release 44, V3.
+description: Selles artiklis loetletakse funktsioonid ja parandused, mis on saadaval rakenduse Microsoft Dynamics 365 Project Service Automation värskenduse väljaandes 44, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 05/26/2022
@@ -29,7 +29,7 @@ ms.locfileid: "8918675"
 
 Meil on hea meel teatada rakenduse Microsoft Dynamics 365 Project Service Automation uusimast värskendusest. See väljaanne sisaldab mõningaid olulisi kvaliteedi, jõudluse ja kasutatavuse täiustusi. See ühildub rakendusega Dynamics 365 9.x. Sellele väljaandele värskendamiseks külastage Dynamics 365 veebilahenduste halduskeskust ja installige värskendus. Lisateabe saamiseks vt jaotist [Eelistatud lahenduse installimine, värskendamine või eemaldamine](/power-platform/admin/install-remove-preferred-solution).
 
-Selles artiklis loetletakse funktsioonid ja parandused, mis on project service automation update release 44, V3 jaoks uued või muudetud. Selle versiooni järgu number on V3.10.75.142 ja see on üldiselt saadaval isevärskenduse kaudu 2022. aasta juunis.
+Selles artiklis loetletakse Project Service Automationi värskenduse väljalaske 44, V3 uued või muudetud funktsioonid ja parandused. Selle versiooni järgu number on V3.10.75.142 ja see on üldiselt saadaval isevärskenduse kaudu 2022. aasta juunis.
 
 ## <a name="update-release-44"></a>Värskenduste väljalase 44
 
@@ -39,4 +39,4 @@ Lahendatud on järgmised probleemid.
 
 **Aeg ja kulu**
 
-- Hilinenud süsteemitööd takistasid pooleliolevate kinnituste töötlemist.
+- Viivitatud süsteemitööd takistasid ootel olevate kinnituste töötlemist.

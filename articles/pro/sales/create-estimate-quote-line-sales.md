@@ -1,6 +1,6 @@
 ---
 title: Projektipõhise hinnapakkumise rea prognoosimine
-description: Selles artiklis antakse teavet selle kohta, kuidas luua hinnang projektipõhisele hinnapakkumisreale.
+description: See artikkel annab teavet, kuidas luua projektipõhisel hinnapakkumise real prognoosi.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
@@ -33,7 +33,7 @@ Hinnapakkumise rea üksikasjade looiseks valige andmeruudustikus **Hinnapakkumis
 | **Väli** | **Asukoht** | **Kirjeldus** | **Allavoolu mõjud** |
 | --- | --- | --- | --- |
 | Kirjeldus | Kiirloomine | Konkreetse prognoosi kirjeldus. | See väärtus läheb vaikimisi seotud hinnapakkumise rea üksikasjaks, mis luuakse automaatselt. |
-| Kande klass | Kiirloomine | See ripploend sisaldab tehingu klasse, mis sisalduvad projektipõhise hinnapakkumise rea vahekaardil **Üldine**.  | See väärtus läheb vaikimisi seotud hinnapakkumise rea üksikasjaks, mis luuakse automaatselt. |
+| Tehingu klass | Kiirloomine | See ripploend sisaldab tehingu klasse, mis sisalduvad projektipõhise hinnapakkumise rea vahekaardil **Üldine**.  | See väärtus läheb vaikimisi seotud hinnapakkumise rea üksikasjaks, mis luuakse automaatselt. |
 | Vali toode | Kiirloomine | Kehtib, kui kandeklass on **Materjal**. Saate valida määrangu, et see prognoosirida on **olemasoleva** (kataloogi) toote või **sisestatava** toote jaoks. | See väärtus läheb vaikimisi seotud hinnapakkumise rea üksikasjaks, mis luuakse automaatselt. |
 | Toode | Kiirloomine | Toote ID tootekataloogist. See väli on lubatud ainult juhul, kui valite väljal **Toote valimine** väärtuse **Olemasolev**. ID-d kasutatakse hinnapakkumise projekti hinnakirjast müügihinna toomiseks. | See väärtus läheb vaikimisi seotud hinnapakkumise rea üksikasjaks, mis luuakse automaatselt. |
 | Sisestatav toode | Kiirloomine | Tekstikast, kuhu saab kirjutada toote nime. See väli on lubatud ainult juhul, kui valite väljal **Toote valimine** väärtuse **Sisestatav**.| See väärtus läheb vaikimisi seotud hinnapakkumise rea üksikasjaks, mis luuakse automaatselt. |

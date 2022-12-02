@@ -1,6 +1,6 @@
 ---
 title: Kohandatud väljade ja olemite loomine
-description: Selles artiklis selgitatakse, kuidas luua platvormil oma lahenduses valikukomplekte ja olemeid Power Apps.
+description: See artikkel seletab, kuidas luua suvandikomplekte ja olemeid oma platvormi Power Apps lahenduses.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -28,7 +28,7 @@ ms.locfileid: "8926909"
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Läbige järgmised etapid iga kord, kui soovite luua kohandatud suvandikomplekt või olemi platvormil Power Apps.  
-Selle artikli protseduurid tuleks lõpule viia project service automation (PSA) veebiliidese abil.
+Selles artiklis kirjeldatud protseduurid tuleb lõpule viia, kasutades rakenduse Project Service Automation (PSA) veebiliidest.
 
 > [!IMPORTANT]
 > Soovitame teil teha kõik kohandatud hinnakujunduse dimensiooni muudatused eraldi lahenduses. See oluline hea tava annab tulevikus paindlikkuse muudatuste värskendamiseks või eemaldamiseks vastavalt vajadusele, aitab teie tööd uuesti kasutada ja muudab nende muudatuste teisaldamise teistele eksemplaridele hõlpsamaks. Kui olete kõik vajalikud muudatused teinud, eksportige see lahendus kui **Hallatud lahendus** ja importige see muudesse eksemplaridesse, et saaksite oma hinnakujunduse seadistust uuesti kasutada.

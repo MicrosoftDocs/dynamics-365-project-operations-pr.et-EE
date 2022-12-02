@@ -1,6 +1,6 @@
 ---
 title: Project Service’is olemasoleva välja kasutamine hinnakujunduse dimensioonina
-description: Selles artiklis antakse teavet olemasolevate Project Service'i väljade kasutamise kohta hinnakujundusdimensioonidena.
+description: See artikkel annab teavet selle kohta, kuidas kasutada Project Service’i olemasolevaid välju hinnakujunduse dimensioonidena.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

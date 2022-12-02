@@ -26,7 +26,7 @@ ms.locfileid: "8684959"
 
 [!include [banner](../includes/banner.md)]
 
-Projekti ajakava kavandamine ja haldamine võib olla keeruline, seega peavad projektijuhid kasutama tööriistu, mis aitavad neil seda tööülesannet hallata. Integreerimine rakendusega Microsoft Project Client pakub tuge projekti tööjaotuse struktuuri avamiseks ja haldamiseks. Projektijuht saab avaldada kõik muudatused tagasi Dynamics 365 Finance projekti tööjaotuse struktuuris.
+Projekti ajakava kavandamine ja haldamine võib olla keeruline, seega peavad projektijuhid kasutama tööriistu, mis aitavad neil seda tööülesannet hallata. Integreerimine rakendusega Microsoft Project Client pakub tuge projekti tööjaotuse struktuuri avamiseks ja haldamiseks. Projektijuht saab avaldada kõik muudatused uuesti rakenduse Dynamics 365 Finance projekti tööjaotuse struktuuris.
 
 > [!NOTE]
 > Kui kasutate juuli värskendust (versioon 10.0.4), peate installima versioonid KB 4054797 ja 4055884.
@@ -39,7 +39,7 @@ Rakendusega Microsoft Project Client integreerimise lubamiseks peab lisandmoodul
 •   Klõpsake valikut **Ava**, seejärel klõpsake käsku **Käivita**, kui teilt seda küsitakse.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Olemasoleva mustandi tööjaotuse struktuuri avamine ja redigeerimine Microsoft Project Clientis
-Kui Dynamics 365 Finance projektil on juba loodud tööjaotuse struktuur, saab tööjaotuse struktuuri avada Microsoft Project Client rakenduses, kui tööjaotuse struktuur on mustandi olekus. Lehelt **Projekt** avamiseks klõpsake linki **Ava rakenduses Microsoft Project** vahekaardil **Plaanimine**. Selle lehe saab avada ka rakenduse Microsoft Project Client seest, klõpsates käsku **Ava** vahekaardil **Microsoft Dynamics 365**. Valige loendist **Juriidiline üksus** ja **Projekt**.
+Kui projekti jaoks on rakenduses Dynamics 365 Finance tööjaotuse struktuur loodud, saab tööjaotuse struktuuri avada rakenduses Microsoft Project Client, kui tööjaotuse struktuur on mustandi olekus. Lehelt **Projekt** avamiseks klõpsake linki **Ava rakenduses Microsoft Project** vahekaardil **Plaanimine**. Selle lehe saab avada ka rakenduse Microsoft Project Client seest, klõpsates käsku **Ava** vahekaardil **Microsoft Dynamics 365**. Valige loendist **Juriidiline üksus** ja **Projekt**.
 
 > [!NOTE]
 > Kui kasutate brauserina Internet Explorerit, peate klõpsama nuppu **Salvesta**, et avada käsitsi kohast, kuhu fail on alla laaditud. Või klõpsake nuppu **Salvesta ja ava**, et avada fail rakenduses Microsoft Project Client. Ärge nimetage faili salvestamise ajal ümber.

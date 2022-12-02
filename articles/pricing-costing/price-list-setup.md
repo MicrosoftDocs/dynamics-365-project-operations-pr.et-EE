@@ -1,6 +1,6 @@
 ---
 title: Hinnakirjade seadistamine
-description: Selles artiklis antakse teavet kulu- ja müügihinnakirjade seadistamise kohta.
+description: See artikkel kirjeldab, kuidas seadistada kulude ja müügi hinnakirju.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

@@ -30,7 +30,7 @@ ms.locfileid: "8919227"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Kui olete eelmistes artiklites olevad üksused konfigureerinud, peate määrama oma projektide jaoks kasutatavad täiendavad projektiparameetrid. Funktsiooni [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] installimisel lõite parameetrisätte, et luua esmalt kõik funktsiooni [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] kasutamiseks vajalikud kirjed. Nüüd on aeg minna tagasi ja konfigureerida nende seadete lisaväljad.  
+Kui olete eelmiste artiklite üksused konfigureerinud, peate oma projektide jaoks määrama täiendavad projektiparameetrid. Funktsiooni [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] installimisel lõite parameetrisätte, et luua esmalt kõik funktsiooni [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] kasutamiseks vajalikud kirjed. Nüüd on aeg minna tagasi ja konfigureerida nende seadete lisaväljad.  
   
  Peate konfigureerima järgmised sätted.  
   

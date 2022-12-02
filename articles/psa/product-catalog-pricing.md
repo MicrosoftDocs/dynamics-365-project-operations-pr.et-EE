@@ -1,6 +1,6 @@
 ---
 title: Tootekataloogi hinnakiri
-description: Selles artiklis antakse teavet selle kohta, kuidas tootekataloogi hinnakujundus Dynamics 365 Project Service Automation toimib (PSA).
+description: See artikkel annab teavet tootekataloogi hinna kohta rakenduses Dynamics 365 Project Service Automation (PSA).
 author: rumant
 ms.custom:
 - dyn365-projectservice

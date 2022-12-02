@@ -1,6 +1,6 @@
 ---
 title: Projekti ressurside broneerimine ajakavapaneelilt
-description: See artikkel annab teavet selle kohta, kuidas ressursse broneerida.
+description: See artikkel kirjeldab ressursside broneerimist.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

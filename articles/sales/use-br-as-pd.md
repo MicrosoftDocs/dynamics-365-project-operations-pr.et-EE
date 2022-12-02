@@ -1,6 +1,6 @@
 ---
 title: Broneeritava ressursi kasutamine hinnakujunduse dimensioonina
-description: Selles artiklis antakse teavet selle kohta, kuidas kasutada broneeritavat ressurssi hinnakujundusdimensioonina.
+description: See artikkel annab teavet selle kohta, kuidas kasutada broneeritavat ressursi hinnakujunduse dimensioonina.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -17,10 +17,10 @@ ms.locfileid: "8914811"
 
  _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_ 
 
-Selles artiklis antakse teavet selle kohta, kuidas kasutada broneeritavat ressurssi hinnakujundusdimensioonina. Kui teie hinnakujunduse strateegia on häälestatud nii, et igal broneeritaval ressursil peab olema kindel hinna või kulumäär, kasutage broneeritavat ressurssi hinnakujunduse dimensioonina.
+See artikkel annab teavet selle kohta, kuidas kasutada broneeritavat ressursi hinnakujunduse dimensioonina. Kui teie hinnakujunduse strateegia on häälestatud nii, et igal broneeritaval ressursil peab olema kindel hinna või kulumäär, kasutage broneeritavat ressurssi hinnakujunduse dimensioonina.
 
 ## <a name="prerequisites"></a>eeltingimused
-Enne selle artikli protseduuride lõpuleviimist peab teil olema oma organisatsiooni jaoks uus hinnakujundusdimensiooni lahendus. Kui te pole seda veel loonud, lugege teemat [Kohandatud väljade ja olemite loomine](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
+Enne selles artiklis toodud toimingu lõpetamist peab teil olema oma organisatsiooni jaoks uus hinnakujunduse lahendus. Kui te pole seda veel loonud, lugege teemat [Kohandatud väljade ja olemite loomine](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>Välja Broneeritav ressurss lisamine vormidele ja vaadetele
 Hinnakujunduse dimensiooni lahenduses välja **Broneeritav ressurss** nähtavaks muutmiseks peate lisama välja kõikidele vormiedele ja vaadetele olemina.

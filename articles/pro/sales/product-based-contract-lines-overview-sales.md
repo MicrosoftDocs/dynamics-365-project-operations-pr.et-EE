@@ -1,6 +1,6 @@
 ---
 title: Tootepõhiste lepinguridade ülevaade – liht
-description: Selles artiklis antakse teavet tootepõhiste lepinguridade kohta.
+description: See artikkel annab teavet tootepõhiste lepinguridade kohta.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: overview

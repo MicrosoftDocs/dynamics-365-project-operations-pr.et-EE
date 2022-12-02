@@ -1,6 +1,6 @@
 ---
 title: Finantsdimensioonide vaikeväärtused projekti ajakirjete jaoks
-description: Selles artiklis antakse teavet selle kohta, kuidas vaikimisi finantsdimensioone ajakannetega seotakse.
+description: See artikkel annab teavet selle kohta, kuidas kohaldatakse ajakirjete suhtes vaikimisi finantsdimensioone.
 author: stsporen
 ms.date: 01/24/2022
 ms.topic: article
@@ -17,12 +17,12 @@ ms.locfileid: "8916559"
 
 [!include [banner](../includes/banner.md)]
 
-Kui kasutate projekti ajakannete jaoks finantsdimensioone, hinnatakse dimensiooni vaikeväärtust järgmises järjestuses.
+Kui kasutate finantsdimensioone projekti ajakirjete jaoks, hinnatakse vaikimisi dimensioonide väärtust järgmises järjekorras:
 
 1. Ressurss
 2. Project
 3. Rahastamise allikas
 
-Näiteks kui ressursil on määratud vaikedimensioon, rakendatakse vaikeväärtus projekti jaoks määratud vaikeväärtusele. Samamoodi, kui projektis on määratud vaikedimensioon, rakendatakse vaikeväärtus rahastamisallika jaoks määratud vaikeväärtusele.
+Näiteks kui ressursile on määratud vaikimisi dimensioon, kohaldatakse vaikimisi väärtust projektile määratud vaikimisi väärtuse suhtes. Samuti kui vaikimisi dimensioon on määratud projektile, kohaldatakse vaikeväärtust rahastamisallikale määratud vaikeväärtuse suhtes.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

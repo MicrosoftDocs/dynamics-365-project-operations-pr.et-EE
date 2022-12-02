@@ -1,6 +1,6 @@
 ---
 title: Luua uut projekti
-description: Selles artiklis antakse teavet uue projekti loomise kohta.
+description: See artikkel annab teavet uue projekti loomise kohta.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

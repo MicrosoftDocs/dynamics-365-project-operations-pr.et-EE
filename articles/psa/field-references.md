@@ -1,6 +1,6 @@
 ---
 title: Kohandatud väljade lisamine hinna seadistusele ja ülekande olemitele
-description: Selles artiklis antakse teavet kohandatud väljade lisamise kohta hinnahäälestus- ja tehinguolemitesse.
+description: See artikkel annab teavet kohandatud väljade lisamise kohta hinna seadistamisel ja ülekande olemitele.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,9 +27,9 @@ ms.locfileid: "8920469"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Selles artiklis eeldatakse, et olete lõpetanud artiklis " [Loo kohandatud väljad ja olemid" protseduurid](create-custom-fields-entities.md). Kui te ei ole neid protseduure lõpetanud, minge tagasi ja täitke need ning seejärel pöörduge tagasi selle artikli juurde. 
+Selleks artiklis eeldatakse, et olete artiklis protseduurid lõpetanud, [Kohandatud väljade ja olemite loomine](create-custom-fields-entities.md). Kui te pole neid toiminguid lõpetanud, minge tagasi, viige need lõpuni ja seejärel tulge selle artikli juurde tagasi. 
 
-Selles artiklis näitavad protseduurid, kuidas lisada nõutavad kohandatud väljaviited olemitele ja kasutajaliidese (kasutajaliidese) elementidele, nagu vormid ja vaated.
+See artikkel kirjeldab protseduure, kuidas lisada olemitele ja kasutajaliidese (UI) elementidele (nt vormidele ja vaadetele) nõutavaid kohandatud välja viiteid.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Kohandatud hinnakujunduse dimensioonide väljade lisamine 
 Pärast kohandatud väljade ja olemite loomist on järgmiseks etapiks hindade seadistamise ja ülekande olemite teadlikkus kohandatud olemitest või suvandikomplekti loomisest, luues viite välju. Sõltuvalt sellest, kas teie hinnakujunduse dimensioonide loend sisaldab suvandikomplekt mõõtmeid või olemi dimensioone või mõlemat, järgige ainult **Suvandikomplekti põhjal kohandatud hinnakujunduse dimensioonide** või **Vastavalt olemile kohandatud hinnakujunduse** etappe või mõlemaid.

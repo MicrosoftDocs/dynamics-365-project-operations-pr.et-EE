@@ -1,6 +1,6 @@
 ---
 title: Käibemaksu sissenõudmine kuluhalduses
-description: Selles artiklis selgitatakse, kuidas saada tagasimakseid abikõlblike käibemaksukannete eest.
+description: See artikkel selgitab, kuidas saada kõlblike käibemaksutehingute tagastusi.
 author: suvaidya
 ms.date: 10/10/2020
 ms.topic: article

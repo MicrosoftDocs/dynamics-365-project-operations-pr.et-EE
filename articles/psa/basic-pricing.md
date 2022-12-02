@@ -1,6 +1,6 @@
 ---
 title: Projekti hinnakujundus
-description: Selles artiklis antakse teavet selle kohta, kuidas hinnakujundus rakenduses toimib Dynamics 365 Project Service Automation.
+description: See artikkel annab teavet hinnakujunduse toimimise kohta Dynamics 365 Project Service Automationis.
 author: rumant
 ms.custom:
 - dyn365-projectservice

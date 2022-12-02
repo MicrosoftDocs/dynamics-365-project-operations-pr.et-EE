@@ -1,6 +1,6 @@
 ---
 title: Hinnakirjade inaktiveerimine
-description: Selles artiklis selgitatakse, kuidas desaktiveerida või eemaldada rikkumata või vanad hinnakirjad.
+description: See artikkel kirjeldab, kuidas kasutamata või vanad hinnakirjad inaktiveerida või eemaldada.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

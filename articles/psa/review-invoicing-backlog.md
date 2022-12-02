@@ -1,6 +1,6 @@
 ---
 title: Arvelduse mahajäämuse ülevaatamine projektide ja projektilepingute jaoks
-description: Selles artiklis antakse teavet selle kohta, kuidas vaadata üle aja-, kulu- ja toote mahajäämusi ning kuidas märkida need arvete esitamiseks valmis olevaks.
+description: See artikkel annab teavet aja, kulude ja toote võlgnevuste ülevaatamise ning selle kohta, kuidas neid arveldusvalmiks märkida.
 author: rumant
 ms.custom: ''
 ms.author: rumant
@@ -28,7 +28,7 @@ ms.locfileid: "8928887"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Kui kanne on arve koostamiseks ja töötlemiseks valmis, tuleb kanne märkida väärtusele **Arveldamiseks valmis**. Selles artiklis kirjeldatakse loodavate kannete tüüpe.
+Kui kanne on arve koostamiseks ja töötlemiseks valmis, tuleb kanne märkida väärtusele **Arveldamiseks valmis**. See artikkel kirjeldab, millist tüüpi tehinguid saab luua.
 
 ## <a name="review-the-time-and-material-billing-backlog"></a>Ajakavast mahajäämuse ja materjali arvete võlgnevuste ülevaatamine
 

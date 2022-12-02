@@ -1,6 +1,6 @@
 ---
 title: Projekti prognoosid ja eelarved
-description: Microsoft Dynamics 365 Finance pakub projektiprognoose ja projektieelarveid oma projektide haldamiseks ja juhtimiseks.
+description: Rakendus Microsoft Dynamics 365 Finance pakub projekti prognoose ja eelarveid teie projektide haldamiseks ja juhtimiseks.
 author: Yowelle
 ms.date: 10/25/2017
 ms.topic: article

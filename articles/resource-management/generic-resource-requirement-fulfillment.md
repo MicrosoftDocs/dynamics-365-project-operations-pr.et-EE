@@ -1,6 +1,6 @@
 ---
 title: Üldine ressursinõude täitmine
-description: Selles artiklis antakse teavet selle kohta, kuidas broneerida nimega ressursse üldise ressursinõude jaoks.
+description: See artikkel annab teavet üldise ressursi nõudega seotud nimega ressursside broneerimise kohta.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article

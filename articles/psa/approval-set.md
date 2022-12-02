@@ -1,6 +1,6 @@
 ---
 title: Kinnitamiskomplektid rakenduses Project Service Automation
-description: Selles artiklis antakse teavet kinnituste komplekti, taotluste ja nende toimingute alamhulkade kohta.
+description: See artikkel annab teavet kinnitamiskomplekti, taotluste ja nende toimingute alamhulkade kohta.
 author: stsporen
 manager: tfehr
 ms.date: 05/28/2021

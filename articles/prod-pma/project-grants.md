@@ -1,6 +1,6 @@
 ---
 title: Projekti toetused
-description: Selles artiklis selgitatakse, kuidas toetust luua või muuta.
+description: See artikkel selgitab, kuidas toetust luua või muuta.
 author: RadhikaRS
 ms.date: 04/22/2020
 ms.topic: article

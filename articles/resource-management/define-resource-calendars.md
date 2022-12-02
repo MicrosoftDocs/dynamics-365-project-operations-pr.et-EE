@@ -1,6 +1,6 @@
 ---
 title: Ressursikalendrite määratlemine
-description: Selles artiklis antakse teavet selle kohta, kuidas määratleda Project Operationsi ressursside töötunnikalendreid.
+description: See artikkel kirjeldab, kuidas määratleda rakenduses Project Operations ressursside tööajakalendrid.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

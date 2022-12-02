@@ -1,6 +1,6 @@
 ---
 title: Ressursihalduse avaleht
-description: See artikkel annab teavet ressursside haldamise kohta.
+description: See artikkel kirjeldab ressursside haldamist.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -31,7 +31,7 @@ ms.locfileid: "8913247"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Ressursid on teenusepõhise organisatsiooni kõige olulisem vara. Võime leida ja broneerida soovi korral õigeid ressursse ja hoida neid kasutuses, aitab ettevõtetel täita tulu sihtmärke ning kliendirahulolu eesmärke. Järgmised artiklid keskenduvad ressursihalduse võimalustele Dynamics 365 Project Service Automation:
+Ressursid on teenusepõhise organisatsiooni kõige olulisem vara. Võime leida ja broneerida soovi korral õigeid ressursse ja hoida neid kasutuses, aitab ettevõtetel täita tulu sihtmärke ning kliendirahulolu eesmärke. Järgmised artiklid keskenduvad rakenduse Dynamics 365 Project Service Automation ressursihalduse võimalustele.
 
 - [Halda ressursse](manage-resources.md)
 - [Põhimõisted](reports-key-concepts.md)

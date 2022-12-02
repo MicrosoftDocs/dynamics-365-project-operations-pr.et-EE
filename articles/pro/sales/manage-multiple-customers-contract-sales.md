@@ -1,6 +1,6 @@
 ---
 title: Mitme kliendi haldamine projekti lepingutes – liht
-description: Selles artiklis antakse teavet mitme kliendi haldamise kohta projektilepingutes.
+description: See artikkel annab teavet projektilepingutes mitme kliendi haldamise kohta.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Kuluaruanded ja mitu kinnitajat
-description: Selles artiklis antakse teavet kuluaruannete kohta, mis nõuavad rohkem kui ühe isiku heakskiitu.
+description: See artikkel annab teavet kuluaruannete kohta, mis vajavad kinnitamist rohkem kui ühe inimese poolt.
 author: suvaidya
 ms.date: 09/23/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Kandekategooria kasutamine hinnakujunduse dimensioonina
-description: Selles artiklis antakse teavet kandekategooria kasutamise kohta hinnakujundusdimensioonina.
+description: See artikkel annab teavet selle kohta, kuidas kasutada kandekategooriat hinnakujunduse dimensioonina.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8915731"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Selles artiklis kirjeldatakse, kuidas kasutada tehingukategooriat hinnakujundusdimensioonina. Enne alustamist peate looma uue hinnakujunduse dimensiooni lahenduse, kui te seda juba teinud ei ole. Kui teil on hinnakujunduse dimensiooni lahendus juba olemas, saate selles lahenduses muudatusi teha. Kui te pole oma organisatsiooni jaoks uut hinnakujundusdimensioonilahendust loonud, täitke toimingud [artiklis Kohandatud väljade ja olemite](create-custom-fields-entities.md) loomine.
+See artikkel näitab, kuidas kasutada kandekategooriat hinnakujunduse dimensioonina. Enne alustamist peate looma uue hinnakujunduse dimensiooni lahenduse, kui te seda juba teinud ei ole. Kui teil on hinnakujunduse dimensiooni lahendus juba olemas, saate selles lahenduses muudatusi teha. Kui te pole oma organisatsiooni jaoks uut hinnakujunduse dimensioonilahendust loonud, täitke artiklis [Kohandatud väljade ja kirjete loomine](create-custom-fields-entities.md) kirjeldatud protseduurid.
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Kandekategooria lisamine vormidele ja vaadetele
 Kui soovite, et kandekategooria oleks hinnakujunduse dimensiooni lahenduse kasutajaliideses nähtav, peate üle vaatama kõik põhiolemite vormid ja vaated ning lisama need väljad nende olemite vormidele ja vaadetele.

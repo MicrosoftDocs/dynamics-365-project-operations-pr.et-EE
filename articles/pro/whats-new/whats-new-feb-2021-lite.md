@@ -1,6 +1,6 @@
 ---
 title: Mis on uut, veebruaris 2021 – Project Operations Lite juurutamine
-description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval Project Operations lite juurutuse 2021. aasta veebruari väljaandes.
+description: See artikkel annab teavet Project Operations Lite’i juurutuse 2021. aasta veebruari väljalaskes saadaolevate kvaliteedivärskenduste kohta.
 author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
@@ -16,7 +16,7 @@ ms.locfileid: "8914029"
 ---
 # <a name="whats-new-february-2021---project-operations-lite-deployment"></a>Mis on uut, veebruaris 2021 – Project Operations Lite juurutamine
 
-See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja versioonide kohta.
+See artikkel kehtib rakenduse Dynamics 365 Project Operations järgmiste komponentide ja versioonide kohta.
 
   - Project Operations Dataverse’i keskkonna versioonis 4.7.0.95
 

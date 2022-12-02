@@ -1,6 +1,6 @@
 ---
 title: Broneeringute redigeerimine
-description: Selles artiklis antakse teavet selle kohta, kuidas broneeringuid värskendada ja muuta.
+description: See artikkel annab teavet selle kohta, kuidas broneeringuid värskendada ja muuta.
 author: ruhercul
 ms.date: 11/12/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8915225"
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
 
-Kui projektis toimuvad muudatused, mis nõuavad olemasolevate broneeringute värskendamist, on muudatuste tegemiseks mitu võimalust. Selles artiklis kirjeldatakse, kuidas broneeringuid värskendada ja muuta.
+Kui projektis toimuvad muudatused, mis nõuavad olemasolevate broneeringute värskendamist, on muudatuste tegemiseks mitu võimalust. See artikkel kirjeldab seda, kuidas broneeringuid värskendada ja muuta.
 
 ## <a name="resource-reconciliation"></a>Ressursi vastavusseviimine
 

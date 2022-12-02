@@ -1,6 +1,6 @@
 ---
 title: Halda ressursse
-description: Selles artiklis antakse teavet selle kohta, kuidas ressursse hallata.
+description: See artikkel annab teavet ressursside haldamise kohta.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

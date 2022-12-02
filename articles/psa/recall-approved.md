@@ -1,6 +1,6 @@
 ---
 title: Kinnitatud aja- või kulukirjete tagasivõtmine
-description: Selles artiklis antakse teavet varem kinnitatud aja- või kulukande tagasikutsumise kohta.
+description: See artikkel annab teavet varem kinnitatud aja- või kulukirjete tagasivõtmise kohta.
 author: rumant
 ms.custom: ''
 ms.author: rumant

@@ -1,6 +1,6 @@
 ---
 title: Müügivõimaluse sulgemine
-description: Selles artiklis antakse teavet projektivõimaluse sulgemise kohta.
+description: See artikkel annab teavet projekti müügivõimaluse sulgemise kohta.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

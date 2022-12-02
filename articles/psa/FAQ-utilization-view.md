@@ -1,6 +1,6 @@
 ---
 title: Arveldatava ressursikasutuse vaatamine
-description: Selles artiklis antakse teavet ressursi tulususe vaate kohta.
+description: See artikkel annab teavet ressursi kasutamise vaate kohta.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

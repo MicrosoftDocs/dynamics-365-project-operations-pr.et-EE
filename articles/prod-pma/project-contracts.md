@@ -44,7 +44,7 @@ Mõned projektilepingud täpsustavad, et mitu osapoolt jagavad vastutust projekt
 -   Teede projekti kaasrahastavad kaks omavalitsust.
 -   Sillaprojekti rahastab valitsuse toetus ja eraettevõte.
 
-Jaotises Dynamics 365 Finance saate jagada ühe kande või kogu projekti arvelduse mitme kliendi, toetuse või organisatsiooni vahel. 
+Rakenduses Dynamics 365 Finance saate jagada ühe tehingu või kogu projekti arve mitme kliendi, stipendiumi või organisatsiooni vahel. 
 
 Mitme rahastajaga projektides nimetatakse kõiki osapooli, kes toetavad täiustatud rahastamise projekti rahastamist, rahastamisallikateks. Pärast seda, kui klient, organisatsioon või toetus on määratletud rahastamisallikana, saab selle määrata ühele või mitmele rahastamisreeglile. Rahastamise reeglid sisaldavad kriteeriume, mis määratlevad, kuidas kulud eraldatakse projekti erinevatele rahastamisallikatele. 
 

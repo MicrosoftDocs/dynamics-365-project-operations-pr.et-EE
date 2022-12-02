@@ -1,6 +1,6 @@
 ---
 title: Projekti sätted
-description: Selles artiklis antakse teavet projektijuhtimise sätete kohta.
+description: See artikkel annab teavet projektihalduse sätete kohta.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

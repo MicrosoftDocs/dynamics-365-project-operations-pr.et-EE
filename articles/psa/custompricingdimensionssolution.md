@@ -1,6 +1,6 @@
 ---
 title: Kohandatud lahenduste loomine hinnakujunduse dimensioonide jaoks
-description: Selles artiklis selgitatakse, kuidas kohandatud hinnakujundusdimensioonide loomisel luua kohandatud lahendus.
+description: See artikkel selgitab, kuidas luua kohandatud hinnakujunduse dimensioonide loomise ajal kohandatud lahendus.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

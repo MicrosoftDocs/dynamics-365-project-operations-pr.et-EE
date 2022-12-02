@@ -1,6 +1,6 @@
 ---
 title: Hinnakujunduse dimensioonide ülevaade
-description: Selles artiklis antakse teavet hinnadimensioonide kohta rakenduses Dynamics 365 Project Operations.
+description: See artikkel annab teavet hinnakujunduse dimensioonide kohta rakenduses Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
 ms.topic: overview
@@ -34,7 +34,7 @@ Rakenduses Dynamics 365 Project Operations tarnitakse vaikimisi seatud hinnakuju
 
 ![Project Service’i parameetrite kuvatõmmis, millel on esile tõstetud „Kehtib müügi kohta”.](media/PS-OOB-parameters.png)
 
-Kui teil on vaja ressursside hinda või kulu, kasutades täiendavaid atribuute, saate luua kohandatud välju, olemeid ja dimensioone. Lisateavet leiate järgmistest artiklitest. 
+Kui teil on vaja ressursside hinda või kulu, kasutades täiendavaid atribuute, saate luua kohandatud välju, olemeid ja dimensioone. Lisateabe saamiseks vaadake järgmisi artikleid. 
   
   > [!NOTE]
   > Toimingud tuleb teha loendamise järjekorras.

@@ -1,6 +1,6 @@
 ---
 title: Projekti eelarvete ülekandmine finantsaasta lõpus
-description: Selles artiklis antakse teavet selle kohta, kuidas ülejäänud eelarvesummad tulevastele aastatele üle kanda ja eelarveregistri üksikasju luua.
+description: See artikkel annab teavet selle kohta, kuidas viia järelejäänud eelarve summasid tulevastesse aastatesse ja luua eelarve registri üksikasju.
 author: Yowelle
 ms.date: 03/23/2020
 ms.topic: article

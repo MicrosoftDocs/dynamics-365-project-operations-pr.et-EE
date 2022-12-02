@@ -1,6 +1,6 @@
 ---
 title: Projekti etappide tüübid
-description: See artikkel annab teavet projekti etappide kohta.
+description: See artikkel annab teavet projektiga seotud etappide kohta.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

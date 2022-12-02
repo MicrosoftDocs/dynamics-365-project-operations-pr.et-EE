@@ -1,6 +1,6 @@
 ---
 title: Broneeringu eraldusmeetodid
-description: Selles artiklis antakse teavet selle kohta, kuidas broneerimiseraldusmeetodid Project Operationsis toimivad.
+description: See artikkel annab teavet selle kohta, kuidas broneeringute jaotamise meetodid rakenduses Project Operations toimivad.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "8912695"
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Olenemata sellest, kas lisate meeskonnaliikme projektile otse vahekaardilt **Meeskond** või broneerite ressursi projektile või nõudele ajakavapaneelilt, on paar broneeringu jaotamismeetodit, mida saate kasutada. Selles artiklis selgitatakse, kuidas iga meetod toimib ja millised meetodid võivad viia ressursside ülebroneerimiseni.
+Olenemata sellest, kas lisate meeskonnaliikme projektile otse vahekaardilt **Meeskond** või broneerite ressursi projektile või nõudele ajakavapaneelilt, on paar broneeringu jaotamismeetodit, mida saate kasutada. See artikkel selgitab, kuidas iga meetod töötab ja millised meetodid võivad põhjustada ressursside ülebroneerimist.
 
 ## <a name="booking-allocation-methods"></a>Broneeringu eraldusmeetodid
 

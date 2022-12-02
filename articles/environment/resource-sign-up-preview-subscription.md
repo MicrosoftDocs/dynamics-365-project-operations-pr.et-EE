@@ -1,6 +1,6 @@
 ---
 title: Project Operationsi registreerumine eelvaate kordustellimusele ressursside/mitte laosolevate stsenaariumite jaoks
-description: Selles artiklis antakse teavet selle kohta, kuidas projektitoiminguid uuesti tellida ja juurutada varudeta/ladustamata stsenaariumide jaoks.
+description: See artikkel annab teavet Project Operationsi tellimise ja juurutamise kohta ressursi-/mittelaopõhiste stsenaariumite jaoks.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
@@ -19,7 +19,7 @@ _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
 
 
-Selles artiklis selgitatakse, kuidas tellida proovipakkumine ja juurutada Project Operationsi keskkonda ressursi-/ladustamata stsenaariumide jaoks.
+See artikkel kirjeldab, kuidas tellida prooviversiooni ja juurutada Project Operationsi keskkonda ressursipõhistes/mittelaopõhistes stsenaariumides.
 
 ## <a name="prerequisites"></a>Eeltingimused
 - Kasutajal, kes eelvaate juurutab, peab olema Azure'i rentniku globaalse administraatori õigused. Rentniku saate luua esimese pakkumise lunastamise ajal. 
@@ -40,7 +40,7 @@ Enne alustamist veenduge, et oleksite brauseris sisse logitud kasutaja töökont
 
   Näete, et kinnituse pakkumine on edukalt lunastatud.
 
-### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance eelvaate prooviversioon
+### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance’i prooviversiooni eelvaade
 
 Minge jaotisse [Dynamics 365 for Finance eelversiooni prooviversioon](https://aka.ms/trypoche) ja korrake pakkumisega eelmise jaotise juhiseid, registreeruge pilvmajutusega keskkondade jaoks.  
 
@@ -49,7 +49,7 @@ Minge jaotisse [Dynamics 365 for Finance eelversiooni prooviversioon](https://ak
 > [!IMPORTANT]
 > Järgmiste toimingute lõpuleviimiseks on teil vaja oma organisatsiooni Microsoft 365 portaali administraatori juurdepääsu.
 
-1. Kasutajatele litsentside määramiseks minge [Microsoft 365 halduskeskusesse](https://portal.office.com/).
+1. Oma kasutajatele litsentside määramiseks avage [Microsoft 365 halduskeskus](https://portal.office.com/).
 
 2. Valige lehel **Aktiivsed kasutajad** need kasutajad, kellele soovite litsentsi määrata.
 
@@ -60,19 +60,19 @@ Minge jaotisse [Dynamics 365 for Finance eelversiooni prooviversioon](https://ak
 
 ## <a name="start-a-new-project-in-lcs"></a>LCS-is uue projekti alustamine
 
-Artiklis kirjeldatud uue LCS-projekti loomine LCS-is [uue projekti alustamine](create-lcs-project.md)
+Looge uus LCS-i projekt, nagu kirjeldatud artiklis [LCS-is uue projekti alustamine](create-lcs-project.md)
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>Azure’i kordustellimuse lisamine LCS-i projektile
 
-Selle ülesande täitmiseks järgige artiklis " [Azure'i tellimuse lisamine LCS-projektile" toodud juhiseid](resource-add-azure-subscription-lcs-project.md).
+Selle ülesande lõpuleviimiseks järgige juhiseid artiklis [Azure’i tellimuse lisamine LCS-i projektile](resource-add-azure-subscription-lcs-project.md).
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Finance'i demokeskkonna juurutamine Project Operationsiga ressursi/mitte laosoleva stsenaariumide jaoks
 
-Järgige artiklis " [Uue keskkonna](resource-provision-new-environment.md) pakkumine juurutamise lõpuleviimiseks" toodud juhiseid. Kasutage eelversiooni korral [demokeskkonna](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) juurutuse tüüpi. 
+Juurutuse lõpuleviimiseks järgige juhiseid artiklis [Uue keskkonna ettevalmistamine](resource-provision-new-environment.md). Kasutage eelversiooni korral [demokeskkonna](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) juurutuse tüüpi. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>CDS-i seadistuse ja konfiguratsiooniandmete installimine
 
-Installige CDS-i häälestus- ja konfiguratsiooniandmed, nagu on kirjeldatud artiklis, [Konfiguratsiooniandmete häälestamine ja rakendamine aknas Common Data Service](resource-apply-pro-setup-config-data.md).
+Installige artiklis kirjeldatud CDS-i seadistuse ja konfiguratsiooni andmed, [Seadistage ja rakendage konfiguratsiooni andmeid rakenduses Common Data Service](resource-apply-pro-setup-config-data.md).
 Viige see etapp lõpule alles pärast teenuse Finance juurutamist ja kui demoandmed on valmis.
 
 

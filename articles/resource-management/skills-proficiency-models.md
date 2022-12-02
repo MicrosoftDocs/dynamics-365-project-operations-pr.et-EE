@@ -1,6 +1,6 @@
 ---
 title: Oskused ja sertifikaadid
-description: See artikkel annab teavet oskuste ja sertifitseerimisomaduste lisamise kohta ressurssidele.
+description: See artikkel annab teavet ressurssidele oskuste ja sertifikaatide omaduste lisamise kohta.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

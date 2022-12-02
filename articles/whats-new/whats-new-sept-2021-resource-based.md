@@ -1,6 +1,6 @@
 ---
 title: Mis on uut septembris 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
-description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval projektitoimingute 2021. aasta septembri väljaandes ressursi-/ladustamata põhistsenaariumide jaoks.
+description: See artikkel annab teavet kvaliteedivärskenduste kohta, mis on saadaval ressursi-/mittelaopõhiste stsenaariumite jaoks mõeldud Project Operationsi 2021. aasta septembri väljalaskes.
 author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8923367"
 
 *Kehtib: ressursipõhiste/mitteladustatavate stsenaariumite jaoks*
 
-See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja versioonide kohta.
+See artikkel kehtib rakenduse Dynamics 365 Project Operations järgmiste komponentide ja versioonide kohta.
 
    - Project Operations Microsoft Dataverse’i keskkonna versioonis 4.14.0.99.
-   - Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnaversioonis 10.0.20.
+   - Projektihaldus ja raamatupidamine rakenduse Dynamics 365 Finance keskkonna versioonis 10.0.20.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Rakenduse Project Operations topeltkirjutamise kaartide värskendused
 
@@ -45,7 +45,7 @@ Kui kaardi käivitamisel ilmneb probleeme, järgige topeltkirjutuse tõrkeotsing
 | Arveldamine ja hinnakujundus | 2385802 | Lahendatud on tõrge, mis ilmneb projekti kogusummade värskendamisel negatiivsete tegelike tundide korral. |
 | Arveldamine ja hinnakujundus | 2389675 | Täiustatud näidisarve kinnitamise käitumine. Pikkade töötööde olem peab arvestama tegevusega, mida on vaja raamatupidamisandmete kinnitamise tulemuste sisestamiseks. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektijuhtimine ja raamatupidamine Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektihaldus ja raamatupidamine rakenduses Dynamics 365 Finance
 
 | Funktsiooni ala | Viitenumber | Kvaliteedi värskendus |
 | --- | --- | --- |

@@ -1,6 +1,6 @@
 ---
 title: Projektipõhise hinnapakkumise rea arveldatavate komponentide konfigureerimine
-description: Selles artiklis antakse teavet projektipõhiste hinnapakkumisridade kaasatud, tasuliste ja mittetasustatavate komponentide kohta.
+description: See artikkel annab teavet kaasatud, tasuliste ja tasuta komponentide kohta projektipõhistel hinnapakkumise ridadel.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article

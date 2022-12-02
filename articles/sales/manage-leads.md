@@ -1,6 +1,6 @@
 ---
 title: Müügivihjete haldamine
-description: Selles artiklis antakse teavet projektipõhiste müügivihjete haldamise kohta.
+description: See artikkel annab teavet projektipõhiste müügivihjete halduse kohta.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

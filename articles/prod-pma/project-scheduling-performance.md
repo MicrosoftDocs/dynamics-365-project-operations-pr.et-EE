@@ -1,6 +1,6 @@
 ---
 title: Projekti ressursiplaanimise jõudlus
-description: Selles artiklis antakse teavet selle kohta, kuidas parandada ressursside planeerimise tulemuslikkust paljude projektide puhul.
+description: See artikkel kirjeldab suure hulga projektide jaoks ressursside kavandamise jõudluse parandamist.
 author: Yowelle
 ms.date: 08/31/2020
 ms.topic: article

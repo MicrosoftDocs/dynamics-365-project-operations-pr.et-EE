@@ -1,6 +1,6 @@
 ---
 title: Kohandatud väljade ja olemite loomine hinnakujunduse dimensioonidena
-description: Selles artiklis antakse teavet kohandatud suvandikomplektide või olemite loomise kohta.
+description: See artikkel annab teavet, kuidas luua kohandatud suvandikomplekte või olemeid.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Värskenduse kaalutlused – Microsoft Dynamics 365 Project Service Automation versioon 2.x või 1.x versioonile 3.x
-description: Selles artiklis antakse teavet kaalutluste kohta, mida peate tegema, kui lähete Project Service Automationi versioonilt 2.x või 1.x versioonile 3.
+description: See artikkel annab teavet kaalutluste kohta, mida peate tegema, kui täiendate Project Service Automationi versiooni 2.x või 1.x versioonile 3.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -40,7 +40,7 @@ Project Service Automation versioonis 2 ja 1 salvestati ülesanded **Ülesande o
 
 Project Service Automationi versioonis 3 on muutunud skeem, mille alusel määratakse broneeritavaid ressursse ülesannetele. Rea ülesanne on iganenud ning olemis **Ülesanne** oleva ülesande ja olemis **Ressursi määramine** oleva meeskonnaliikme vahel on otsene 1:1 suhe. Projekti meeskonnaliikmetele määratud ülesanded salvestatakse nüüd otse olemisse Ressursi määramine.  
 
-Need muudatused mõjutavad kõikide nende olemasolevate projektide täiendamist, millel on projekti meeskonnas ressursi määramised nimega broneeritavate ressursside ja üldiste ressursside jaoks. Selles artiklis on toodud kaalutlused, mida peate versioonile 3 üleminekul oma projektide puhul arvesse võtma. 
+Need muudatused mõjutavad kõikide nende olemasolevate projektide täiendamist, millel on projekti meeskonnas ressursi määramised nimega broneeritavate ressursside ja üldiste ressursside jaoks. Selles artiklis on välja toodud kaalutlused, mida peate oma projektidega seoses arvesse võtma, kui täiendate versioonile 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Nimega ressurssidele määratud ülesanded
 Kui kasutate aluseks olevat ülesande olemit, võimaldavad versioonis 2 ja 1 olevad ülesanded meeskonnaliikmetele määrata muid rolle kui neile määratud vaikerollid. Näiteks Heidi Kukk, kellele on vaikimisi määratud programmihalduri roll, saab määrata ka arendaja rolli. Versioonis 3 on nimega meeskonnaliikme roll alati vaikeroll, seega kõigi ülesannete puhul, millele Heidi Kukk määratakse, kasutatakse tema programmihalduri vaikerolli.

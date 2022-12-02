@@ -35,7 +35,7 @@ WBS üksikasjalikkuse aste sõltub hinnangute nõutavast täpsuse tasemest ja ne
 
 Seevastu projektid sellistes tööstusharudes, nagu meedia ja reklaam, tarkvara ja IT-taristu, kipuvad olema ainulaadsed ning tootlikkus oleneb tööülesannet täitva üksikisiku kogemusest ja pädevusest. Seega kasutavad need majandusharud WBS-i, et saada ülevaade projekti ligikaudsest mahust, mitte projekti üksikasjaliku edenemise jälgimiseks. 
 
-WBS loomine on intensiivne protsess, mida tehakse tavaliselt pika aja jooksul ja mis nõuab koostööd ning teavet paljudelt erinevatelt inimestelt. Selles artiklis kirjeldatakse, kuidas saate WBS-i täiustusi kasutada hinnangute ja jälgimise nõuete täitmiseks.
+WBS loomine on intensiivne protsess, mida tehakse tavaliselt pika aja jooksul ja mis nõuab koostööd ning teavet paljudelt erinevatelt inimestelt. See artikkel kirjeldab, kuidas saate kasutada WBS-i täiustusi, et rahuldada prognooside ja jälgimise nõudeid.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>WBS-i loomise eeltingimused
 WBS-i loomiseks peab teil olema võimalik luua töögraafik ja prognoosida töö maksumust.
@@ -166,7 +166,7 @@ Rakendusel Finance on WBS-is projekti kohta kolm vaadet: kavandamise vaade, mahu
 
 ### <a name="planning-view"></a>Kavandamise vaade
 
-Kavandamise vaates kuvatakse ajakava ja kulu teabe kavandatav või algne hinnang. Kui WBS-is ei ole projekti versiooni ja algväärtuse jälgimiseks funktsioone, on selle vaate väärtused mõeldud põhiversiooni esindamiseks. Selle artikli jaotised Ajakava hinnang ja kulude hindamine kirjeldavad seda vaadet ja seda, kuidas seda WBS-i loomiseks kasutatakse.
+Kavandamise vaates kuvatakse ajakava ja kulu teabe kavandatav või algne hinnang. Kui WBS-is ei ole projekti versiooni ja algväärtuse jälgimiseks funktsioone, on selle vaate väärtused mõeldud põhiversiooni esindamiseks. Selle artikli ajakava prognoosi ja kuluprognoosi jaotised kirjeldavad seda vaadet ja kuidas seda WBS-i loomiseks kasutatakse.
 
 ### <a name="effort-tracking-view"></a>Panuse jälgimise vaade
 

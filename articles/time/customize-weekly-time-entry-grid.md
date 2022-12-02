@@ -1,6 +1,6 @@
 ---
 title: Ajakirjete laiendamine
-description: See artikkel annab teavet selle kohta, kuidas arendajad saavad aja sisestamise juhtimist pikendada.
+description: See artikkel annab teavet selle kohta, kuidas saavad arendajad ajakirje juhtelementi laiendada.
 author: stsporen
 ms.date: 01/27/2022
 ms.topic: article
@@ -43,7 +43,7 @@ Ajakirjed on mitme stsenaariumi korral kasutatav olemi tuumik. 2020. aasta april
 
 
 ### <a name="time-entries-and-the-time-source-entity"></a>Ajakirjed ja ajaallika olem
-Sisestus seostatakse iga kord ajaallika kirjega. See kirje määratleb, millised rakendused peaksid ajakirjet töötlema ja kuidas.
+Sisestus seostatakse iga kord ajaallika kirjega. See kirje määrab, millised rakendused peaksid aja sisestamist töötlema ja kuidas.
 
 Ajakirjed on alati ühe järjestikuses ajaplokis, kus algus, lõpp ja kestus on seotud.
 
@@ -55,7 +55,7 @@ Loogika uuendab automaatselt ajakirje kirjet järgmistel juhtudel.
     - **msdyn_end**
     - **msdyn_duration**
 
-- Väljad **msdyn_start** ja **msdyn_end** on ajavööndist teadlikud.
+- **msdyn_start** ja **msdyn_end** väljad arvestavad ajavööndiga.
 - Ajakirjed, mis on loodud ainult väärtustega **msdyn_date** ja **msdyn_duration** algavad keskööl. Välju **msdyn_start** ja **msdyn_end** värskendatakse vastavalt.
 
 #### <a name="time-entry-types"></a>Ajakirje tüübid
@@ -78,57 +78,57 @@ Arendajad saavad lisada teistele olemitele täiendavaid välju ja otsinguid ning
 ### <a name="add-custom-fields-with-lookups-to-other-entities"></a>Muude olemite otsingutega kohandatud väljade lisamine
 Iganädalase ajakirje ruudustikku kohandatud välja lisamiseks on vaja läbi teha kolm etappi.
 
-1. Lisage kohandatud väli **dialoogiboksi Kiirloomine**.
+1. Lisage kohandatud väli **kiirloomise** dialoogiboksi.
 2. Konfigureerige ruudustikku kohandatud välja kuvamiseks.
-3. Lisage kohandatud väli vastavalt vajadusele **lehele Rea redigeerimine** või **kellaaja sisestamise redigeerimine**.
+3. Lisage kohandatud väli vastavalt vajadusele lehele **Rea redigeerimine** või **Ajakirje redigeerimine**.
 
-Veenduge, et uuel väljal **oleksid lehel Rea redigeerimine** või **ajakirje redigeerimine** nõutavad valideerimised. Selle ülesande osana lukustage väli ajakande oleku põhjal.
+Veenduge, et uuel väljal oleks lehel **Rea redigeerimine** või **Ajakirje redigeerimine**. Selle ülesande osana lukustage väli ajakirje oleku alusel.
 
-Kui lisate ajasisestuse **ruudustikku kohandatud välja** ja loote seejärel ajakirjed otse ruudustikus, seatakse nende kannete kohandatud väli automaatselt nii, et see vastaks reale. 
+Kui lisate ruudustikule **Ajakirje** kohandatud välja ja loote seejärel otse ruudustikus ajakirjed, määratakse nende kirjete kohandatud väli automaatselt nii, et see ühtib reaga. 
 
-### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Kohandatud välja lisamine dialoogiboksi Kiirloomine
-Lisage kohandatud väli dialoogiboksi Kiirloomine **: Ajasisestuse loomine**. Kasutajad saavad seejärel sisestada väärtuse, kui nad lisavad ajakirjeid, valides suvandi **Uus**.
+### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Lisage kohandatud väli kiirloomise dialoogiboksi
+Lisage kohandatud väli dialoogiboksi **Kiirloomine: ajakirje loomine**. Kasutajad saavad seejärel sisestada väärtuse, kui nad lisavad ajakirjeid, valides suvandi **Uus**.
 
 ### <a name="configure-the-grid-to-show-the-custom-field"></a>Konfigureerige ruudustikku kohandatud välja kuvamiseks
-Kohandatud välja **lisamiseks nädalaaja sisestamise** ruudustikku on kaks võimalust.
+**Iganädalase ajakirje** ruudustikku kohandatud välja lisamiseks on kaks viisi.
 
-- Kohandage vaadet **Minu nädalaajakirjed** ja lisage sellele kohandatud väli. Kohandatud välja asukoha ja suuruse ruudustikus saate määrata vaate atribuute redigeerides.
-- Looge uus kohandatud ajasisestusvaade ja seadke see vaikevaateks. See vaade peaks **sisaldama lisaks veergudele, mida ruudustik peaks kaasama, väljad Kirjeldus** ja **Välised kommentaarid**. Ruudustiku asukoha, suuruse ja vaikesorteerimisjärjestuse saate määrata vaate atribuute redigeerides. Seejärel konfigureerige selle vaate kohandatud juhtelementi nii, et see oleks **Ajakirje ruudustiku** juhtelement. Lisage juhtelement vaatesse ja valige see veebi **,** telefoni **ja** tahvelarvuti **jaoks**. Seejärel konfigureerige iganädalase ajasisestusruudustiku **parameetrid**. Seadke **väli Alguskuupäev** msdyn-kuupäevaks **\_**, seadke **välja Kestus** väärtuseks **msdyn\_ kestus** ja seadke **välja Olek** väärtuseks **msdyn\_ entrystatus.** Välja **Kirjutuskaitstud olekuloend** väärtuseks **on seatud 192350002 (Kinnitatud)**, **192350003 (Esitatud)** või **192350004 (Tagasikutsumine taotletud)**.
+- Kohandage vaadet **Minu iganädalased ajakirjed** ja lisage sinna kohandatud välja. Saate täpsustada kohandatud välja asukoha ja suuruse ruudustikus, kui redigeerite vaates neid atribuute.
+- Looge uus kohandatud ajakirje vaade ja seadke see vaikevaateks. Peale nende veergude, mida soovite ruudustikusse kaasata, peaks see vaade sisaldama ka välju **Kirjeldus** ja **Välised kommentaarid**. Saate täpsustada ruudustiku asukoha, suuruse ja sortimise vaikejärjekorra, kui redigeerite vaates neid atribuute. Seejärel konfigureerige selle vaate kohandatud juhtelementi nii, et see oleks **Ajakirje ruudustiku** juhtelement. Lisage juhtelement vaatesse ja valige see **Veebirakenduse**, **Telefoni** ja **Tahvelarvuti** jaoks. Seejärel konfigureerige **Iganädalase ajakirje** ruudustiku parameetrid. Seadke välja **Alguskuupäev** väärtuseks **msdyn\_date**, välja **Kestus** väärtuseks **msdyn\_duration** ja välja **Olek** väärtuseks **msdyn\_entrystatus**. **Kirjutuskaitstud olekuloendi** välja väärtuseks on seatud **192350002 (Kinnitatud)**, **192350003 (edastatud)** või **192350004 (Tagasikutsumine taotletud)**.
 
-### <a name="add-the-custom-field-to-the-appropriate-edit-page"></a>Kohandatud välja lisamine sobivale redigeerimislehele
-Leheküljed, mida kasutatakse ajakirje või ajakirjete rea redigeerimiseks, leiate jaotisest **Vormid**. Ruudustiku **nupp Redigeeri kirjet** avab **lehe Redigeeri kirjet** ja **nupp Redigeeri rida** avab **lehe Rea redigeerimine**. Neid lehti saate redigeerida nii, et need sisaldaksid kohandatud välju.
+### <a name="add-the-custom-field-to-the-appropriate-edit-page"></a>Kohandatud välja lisamine sobivale redigeerimise lehele
+Lehed, mida kasutatakse ajakirje või ajakirjete rea redigeerimiseks, leiate jaotisest **Vormid**. Ruudustiku nupp **Kirje redigeerimine** avab lehe **Kirje redigeerimine** ja nupp **Rea redigeerimine** avab lehe **Rea redigeerimine**. Saate neid lehti redigeerida nii, et need sisaldaksid kohandatud välju.
 
-Mõlemad suvandid eemaldavad projekti **- ja** projektiülesande **olemites mõne kastivälise filtreerimise**, et kõik olemite otsinguvaated oleksid nähtavad. Valmis, kuvatakse ainult asjakohased otsinguvaated.
+Mõlemad valikud eemaldavad olemitest **Projekt** ja **Projekti ülesanne** mõned kastivälised filtreerimised nii, et kõik olemite otsinguvaated on nähtavad. Valmis, kuvatakse ainult asjakohased otsinguvaated.
 
-Peate määrama kohandatud välja jaoks sobiva lehe. Tõenäoliselt, kui lisasite välja ruudustikku, peaks see minema **lehele Rea redigeerimise** leht, mida kasutatakse väljade puhul, mis rakenduvad kogu ajakirjete reale. Kui kohandatud väljal on reas iga päev kordumatu väärtus (nt kui see on lõppaja jaoks kohandatud väli), peaks see minema **lehele Ajasisestuse redigeerimine**.
+Peate kohandatud välja jaoks määrama sobiva lehe. Kui lisasite välja ruudustikku, peaks see kõige tõenäolisemalt minema **Row edit** lehele, mida kasutatakse nende väljade jaoks, mida rakendatakse tervele ajakirjete reale. Kui kohandatud väljal on iga päev real kordumatu väärtus (näiteks kui see on lõppaja kohandatud väli), peaks see minema lehele **Ajakirje redigeerimine**.
 
-Kohandatud välja lisamiseks lehele lohistage **väljaelement** lehel sobivasse asendisse ja seejärel määrake selle atribuudid.
+Kohandatud välja lehele lisamiseks lohistage **Välja** element lehel sobivasse asukohta ja seadistage selle atribuudid.
 
 ### <a name="add-new-option-set-values"></a>Uute suvandikomplekti väärtuste lisamine
-Suvandikomplekt väärtuste lisamiseks väljale out-of-box tehke järgmist.
+Valikute komplekti väärtuste lisamiseks kastivälisele väljale järgige neid samme.
 
-1. Avage välja redigeerimisleht ja seejärel valige jaotises **Tüüp** väärtus Redigeeri **suvandikomplekt kõrval.**
-2. Lisage uus suvand, millel on kohandatud silt ja värv. Kui soovite lisada uue ajasisestuse oleku, nimetatakse **väljast väljas olevat välja kande olek**.
+1. Avage välja redigeerimisleht ja seejärel valige jaotisest **Tüüp** suvandikomplekti kõrval olev käsk **Redigeeri**.
+2. Lisage uus suvand, millel on kohandatud silt ja värv. Kui soovite lisada uue ajakirje oleku, on kastivälise välja nimi **Kirje olek**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Uue ajakirje oleku määramine kirjutuskaitstuks
-Selleks et määrata uue ajakirje olek kirjutuskaitstuks, lisage atribuudile **Kirjutuskaitstud olekuloend** uus ajakirje väärtus. Lisage kindlasti number, mitte silt. Ajasisestusruudustiku redigeeritav osa lukustatakse nüüd ridadele, millel on uus olek. Atribuudi Kirjutuskaitstud olekuloend määramiseks **erinevate** ajasisestuse **vaadete jaoks erinevalt lisage** vaate **kohandatud juhtelementide** jaotisse ajasisestuse **ruudustik ja konfigureerige parameetrid** vastavalt vajadusele.
+Selleks et määrata uue ajakirje olek kirjutuskaitstuks, lisage atribuudile **Kirjutuskaitstud olekuloend** uus ajakirje väärtus. Lisage kindlasti number, mitte silt. Ajakirjete ruudustiku redigeeritav osa lukustatakse nüüd uue olekuga ridade jaoks. Atribuudi **Kirjutuskaitstud olekuloend** eri vaadete **Ajakirje** ruudustik **Ajakirje** jaoks erinevalt seadistamiseks lisage vaate jaotisesse **Kohandatud juhtelemendid** ja konfigureerige parameetreid vastavalt vajadusele.
 
-Seejärel lisage ärireeglid, et lukustada kõik väljad ridade redigeerimise **ja** ajakirje redigeerimise **lehtedel**. Nende lehtede ärireeglitele juurdepääsemiseks avage iga lehe väljaredaktor ja seejärel valige **Ärireeglid**. Saate lisada olemasolevate ärireeglite tingimusele uue oleku või uuele olekule uue ärireegli.
+Seejärel lisage ärireeglid, et lukustada kõik väljad TBX-i lehtedel **Rea redigeerimine** ja **Ajakirje redigeerimine**. Nende lehtede ärireeglitele juurdepääsemiseks avage iga lehe väljaredaktor ja seejärel valige **Ärireeglid**. Saate lisada olemasolevate ärireeglite tingimusele uue oleku või uuele olekule uue ärireegli.
 
 ### <a name="add-custom-validation-rules"></a>Kohandatud valideerimisreeglite lisamine
-Iganädalase ajasisestusruudustiku **kogemuse jaoks** saate lisada kahte tüüpi valideerimisreegleid.
+Ruudustiku **Nädalase ajakirje** jaoks saate lisada kahte tüüpi kinnitamisreegleid.
 
-- Kliendipoolsed ärireeglid, mis töötavad lehtedel
-- Serveripoolsed lisandmooduli valideerimised, mis rakenduvad kõigi aegade sisestamise värskendustele
+- Lehtedel töötavad kliendipoolsed ärireeglid
+- Serveripoolse lisandmooduli valideerimised, mis kehtivad kõikidele ajakirjete värskendustele
 
 #### <a name="client-side-business-rules"></a>Kliendipoolsed ärireeglid
 Ärireeglite abil saate välju lukustada ja avada, sisestada väljade vaikeväärtused ning määrata kinnitused, mis nõuavad ainult praeguse ajakirje kirje teavet. Lehe ärireeglitele juurdepääsemiseks avage väljaredaktor ja seejärel valige **Ärireeglid**. Saate redigeerida olemasolevaid ärireegleid või lisada uue ärireegli.
 
-#### <a name="server-side-plug-in-validations"></a>Serveripoolsed lisandmooduli valideerimised
-Peaksite kasutama pistikprogrammi valideerimist mis tahes valideerimiseks, mis nõuavad rohkem konteksti, kui on saadaval ühekordse kirje kirje puhul. Samuti peaksite neid kasutama mis tahes valideerimiseks, mida soovite ruudustiku tekstisisestes värskendustes käitada. Valideerimiste lõpuleviimiseks looge olemis Ajasisestus **kohandatud lisandmoodul**.
+#### <a name="server-side-plug-in-validations"></a>Serveripoolse lisandmooduli kinnitamised
+Peaksite kasutama lisandmoodulite kinnitusi kõikide nende kinnituste jaoks, mis vajavad rohkem konteksti, kui on olemas ühes ajakirje kirjes. Peaksite neid kasutama ka kõigi kinnitamiste jaoks, mida soovite ruudustikus sisemiste värskenduste puhul käivitada. Kinnituste lõpuleviimiseks looge olemisse **Ajakirje** kohandatud lisandmoodul.
 
 ### <a name="limits"></a>Limiidid
-**Praegu on aja sisestamise** ruudustiku suuruspiirang 500 rida. Kui ridu on rohkem kui 500, siis üleliigseid ridu ei kuvata. Seda suurusepiirangut ei ole võimalik suurendada.
+Praegu on ruudustiku **Ajakirje** mahupiirang 500 rida. Kui ridu on rohkem kui 500, siis üleliigseid ridu ei kuvata. Seda mahupiirangut ei saa kuidagi suurendada.
 
 ### <a name="copying-time-entries"></a>Ajakirjete kopeerimine
 Kasutage vaadet **Kopeeri ajakirje veerge**, et määratleda ajavahemiku jooksul kopeeritavate väljade loend. Väljad **Kuupäev** ja **Kestus** on nõutavad ja neid ei tohi vaatest eemaldada.

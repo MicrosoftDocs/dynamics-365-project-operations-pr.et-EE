@@ -1,6 +1,6 @@
 ---
 title: Reisitellimused
-description: See artikkel annab teavet reisitaotluste kohta.
+description: See artikkel annab teavet reisitellimuste kohta.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

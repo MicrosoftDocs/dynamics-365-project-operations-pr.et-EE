@@ -1,6 +1,6 @@
 ---
 title: Toote hinnakirjad
-description: Selles artiklis antakse teavet projektipakkumiste ja lepingute jaoks kasutatava kataloogi hinnakujunduse hinnakirjade kohta.
+description: See artikkel annab teavet kataloogi hinnakujunduse hinnakirjade kohta, mida kasutatakse projekti hinnapakkumiste ja lepingute jaoks.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

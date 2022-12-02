@@ -1,6 +1,6 @@
 ---
 title: Logimata materjalide ja ootel hankija arvete konfigureerimine
-description: Selles artiklis selgitatakse, kuidas lubada ladustamata materjale ja ootel hankija arveid.
+description: See artikkel selgitab, kuidas lubada logimata materjale ja ootel hankija arveid.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Käitage topeltkirjutuse kaarte logimata materjalide ja hankija arve integreerimiseks
 
-Selles jaotises antakse teavet logimata materjalide ja tarnija arvete jaoks vajalike kaartide kohta. Veenduge, et uues [keskkonnas](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) artiklis Säte loetletud eeltingimuskaardid töötaksid teie keskkonnas.
+Selles jaotises antakse teavet logimata materjalide ja tarnija arvete jaoks vajalike kaartide kohta. Veenduge, et artiklis [Uue keskkonna ettevalmistamine](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) loetletud eeltingimuste kaardid töötaksid teie keskkonnas.
 
 1. Minge jaotisse Lifecycle Services (LCS), liikuge oma LCS-i projekti ja minge lehele **Keskkonna üksikasjad**.
 2. Valige jaotises **Common Data Service’i keskkonnateave** suvand **Link CDS-iga rakendustele**. Pärast lingi valimist suunatakse teid vastenduste olemite loendisse.

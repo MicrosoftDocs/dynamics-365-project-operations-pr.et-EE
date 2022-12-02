@@ -1,6 +1,6 @@
 ---
 title: Projektilepingute haldamine
-description: Selles artiklis antakse teavet projektipõhiste lepingute vaatamise kohta.
+description: See artikkel annab teavet projektipõhiste lepingute vaatamise kohta.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
@@ -33,7 +33,7 @@ Kõigi projektilepingute loendit saab vaadata loendi **Lepingud** lehel.
 Lepinguid saab luua või kustutada sellelt loendi lehelt või üksikasjade lehtedelt.
 
 > [!NOTE]
-> Lepinguid, millega on seotud projektid, ülesanded, hinnangud, töölehed ja/või tegelikud andmed, ei saa kustutada. 
+> Lepinguid, millega on seotud projekte, ülesandeid, hinnanguid, töölehti ja/või tegelikke näitajaid, ei saa kustutada. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

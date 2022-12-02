@@ -1,6 +1,6 @@
 ---
 title: Mitme kliendi haldamine projekti hinnapakkumises
-description: Selles artiklis antakse teavet pakkumistega töötamise kohta, mis hõlmavad mitut projekti rahastavat klienti.
+description: See artikkel annab teavet töö kohta hinnapakkumistega, mis hõlmavad mitut klienti, kes rahastavad projekti.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Prognoosid
-description: See artikkel annab teavet hinnangute kohta rakenduses Dynamics 365 Project Service Automation.
+description: See artikkel annab teavet prognooside kohta rakenduses Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
 - dyn365-projectservice

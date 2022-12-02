@@ -1,6 +1,6 @@
 ---
 title: Projektipõhised müügivõimaluse read
-description: Selles artiklis antakse teavet projektipõhiste müügivõimaluse ridadega töötamise kohta.
+description: See artikkel annab teavet projektipõhiste müügivõimaluse ridadega töötamise kohta.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

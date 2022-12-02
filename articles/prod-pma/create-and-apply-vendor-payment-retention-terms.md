@@ -1,6 +1,6 @@
 ---
 title: Hankija maksete kinnipidamise tingimuste loomine ja rakendamine
-description: Selles artiklis antakse teavet hankija maksete säilitustingimuste häälestamise ja säilitamise tingimuste häälestamise ja säilitamise kohta.
+description: See artikkel annab teavet selle kohta, kuidas seadistada ja säilitada hankijate maksete kinnipidamistingimusi.
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article

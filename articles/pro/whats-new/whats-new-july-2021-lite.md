@@ -1,6 +1,6 @@
 ---
 title: Mis on uut juulis 2021 – Project Operationsi lihtjuurutus
-description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval Project Operations lite juurutuse 2021. aasta juuli väljaandes.
+description: See artikkel annab teavet Project Operationsi lihtjuurutuse 2021. aasta juuli väljaandes olevate kvaliteedivärskenduste kohta.
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8913983"
 
 _Kohaldub: lihtjuurutus - tehing proforma arveldusega_
 
-See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja versioonide kohta.
+See artikkel kehtib rakenduse Dynamics 365 Project Operations järgmiste komponentide ja versioonide kohta.
 
   - Project Operations Dataverse’i keskkonna versioonis 4.12.0.148 või 4.12.0.152.
 

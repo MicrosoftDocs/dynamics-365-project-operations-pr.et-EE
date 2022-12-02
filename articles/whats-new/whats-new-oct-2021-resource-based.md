@@ -1,6 +1,6 @@
 ---
 title: Mis on uut oktoobris 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
-description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval project Operationsi 2021. aasta oktoobri väljaandes ressursi-/ladustamata stsenaariumide jaoks.
+description: See artikkel annab teavet kvaliteedivärskenduste kohta, mis on saadaval ressursi-/mittelaopõhiste stsenaariumite jaoks mõeldud Project Operationsi 2021. aasta oktoobri väljalaskes.
 author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8914632"
 
 *Kehtib: ressursipõhiste/mitteladustatavate stsenaariumite jaoks*
 
-See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja versioonide kohta.
+See artikkel kehtib rakenduse Dynamics 365 Project Operations järgmiste komponentide ja versioonide kohta.
 
    - Project Operations Microsoft Dataverse’i keskkonna versioonis 4.25.0.91
-   - Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnaversioonis 10.0.21
+   - Projektihaldus ja raamatupidamine rakenduse Dynamics 365 Finance keskkonna versioonis 10.0.21
 
 ## <a name="features-included-in-this-release"></a>Selles väljaandes sisalduvad funktsioonid
 
@@ -49,7 +49,7 @@ Kui kaardi käivitamisel ilmneb probleeme, järgige topeltkirjutuse tõrkeotsing
 | Arveldamine ja hinnakujundus | 2338357 | Projekti valimisel peab materjalide kasutuslogi valuuta vaikeväärtus olema projekti valuutas. |
 | Aeg ja kulu | 2414777 | Kinnitamise tühistamine peab olema võimalik, kui kulu- või ajakirjel on rohkem kui üks seotud projekti kinnitamine. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektijuhtimine ja raamatupidamine Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektihaldus ja raamatupidamine rakenduses Dynamics 365 Finance
 
 | Funktsiooni ala | Viitenumber | Kvaliteedi värskendus |
 | --- | --- | --- |

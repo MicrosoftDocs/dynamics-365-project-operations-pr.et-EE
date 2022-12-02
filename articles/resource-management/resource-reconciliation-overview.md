@@ -1,6 +1,6 @@
 ---
 title: Ressursi vastavusseviimise ülevaade
-description: Selles artiklis on toodud teave, mis aitab teil tagada, et ressursside broneerimine ja projektide ülesanded oleksid ühtlustatud.
+description: See artikkel annab teavet, mis aitab teil tagada, et ressursside broneeringud ja projektidele määramised on joondatud.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: overview

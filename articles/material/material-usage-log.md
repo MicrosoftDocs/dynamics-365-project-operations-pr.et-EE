@@ -1,6 +1,6 @@
 ---
 title: Projektides ja projektiülesannetes materjali kasutuse kirjendamine
-description: Selles artiklis antakse teavet selle kohta, kuidas logida materjalikasutust projektide ja projektiülesannete alusel.
+description: See artikkel annab teavet selle kohta, kuidas logida projektides ja projektiülesannetes materjalide kasutamist.
 author: rumant
 ms.date: 03/31/2021
 ms.topic: article

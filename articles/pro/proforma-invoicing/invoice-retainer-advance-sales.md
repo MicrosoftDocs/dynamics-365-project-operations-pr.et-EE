@@ -1,6 +1,6 @@
 ---
 title: Honorari või ettemaksu arve
-description: Selles artiklis antakse teavet selle kohta, kuidas esitada arve hoidjale või ettemaksule Project Operationsis.
+description: See artikkel annab teavet selle kohta, kuidas rakenduses Project Operations honorari või ettemaksu arveldada.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

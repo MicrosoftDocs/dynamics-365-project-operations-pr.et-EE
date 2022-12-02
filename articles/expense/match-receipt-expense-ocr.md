@@ -1,6 +1,6 @@
 ---
 title: Kviitungi jäädvustamine OCR-i kasutades
-description: Selles artiklis antakse teavet kviitungite optilise märgituvastuse (OCR) töötlemise kohta.
+description: See artikkel annab teavet kviitungite tähemärkide optilise tuvastamise (OCR) töötlemise kohta.
 author: suvaidya
 ms.date: 11/10/2021
 ms.topic: article
@@ -52,7 +52,7 @@ Kulu loomiseks või kulu kviitungi kaudu vastendamiseks toimige järgmiselt.
 
 ## <a name="installation"></a>Installimine
 
-Nende täiustatud kuluvõimaluste kasutamiseks installige 365 Finance'i lisandmoodul Microsoft Dynamics Kuluhaldusteenus ja lülitage oma eksemplari funktsioonid sisse. Lisandmoodulile pääsete ligi oma projektist teenuse Microsoft Dynamics Lifecycle Services (LCS) kaudu.
+Nende täiustatud kulude võimaluste kasutamiseks installige Microsoft Dynamics 365 Finance jaoks kuluhaldusteenuse lisandmoodul ja lülitage sisse oma eksemplari funktsioonid. Lisandmoodulile pääsete ligi oma projektist teenuse Microsoft Dynamics Lifecycle Services (LCS) kaudu.
 
 1. Logige LCS-i sisse ja avage soovitud keskkond.
 2. Minge jaotisse **Kõik üksikasjad**.
@@ -85,7 +85,7 @@ Ei, Microsoft on oma kviitungite töötlemise teenuse jaoks loonud üldise masin
 
 **Kus see funktsioon on saadaval ja töödeldud?**
 
-Selle funktsiooni saadavus erinevates piirkondades on loetletud järgmises tabelis. Kui teie piirkonda praegu ei toetata, esitage taotlus OCR-teenuse kättesaadavuse prioriseerimiseks teie piirkonnas. 
+Selle funktsiooni saadavus erinevates piirkondades on loetletud järgmises tabelis. Kui teie piirkond ei ole hetkel toetatud, esitage taotlus, et seada OCR-teenuse saadavus teie piirkonnas prioriteediks. 
 
 | Regioon | Toetatud                         |
 |--------|-----------------------------------|
@@ -93,7 +93,7 @@ Selle funktsiooni saadavus erinevates piirkondades on loetletud järgmises tabel
 | CAN    | Ja                               |
 | Ühendkuningriigid     | Ja                               |
 | AUS    | Ja                               |
-| ELI     | Osaliselt. Ainult ingliskeelsed kviitungid. |
+| EL     | Osaliselt. Ainult ingliskeelsed kviitungid. |
 | Aasia   | No                                |
 | Jaapan  | No                                |
 | Aafrika | No                                |

@@ -1,6 +1,6 @@
 ---
 title: Ressursi võimsuse sünkroonimine
-description: Selles artiklis antakse teavet selle kohta, kuidas sünkroonida ressursi mahtu kalendrites ja projektides.
+description: See artikkel annab teavet ressursi võimsuse sünkroonimise kohta kalendrites ja projektides.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

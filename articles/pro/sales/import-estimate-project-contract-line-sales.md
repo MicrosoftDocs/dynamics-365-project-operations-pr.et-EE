@@ -1,6 +1,6 @@
 ---
 title: Prognoosi importimine projektipõhisele lepingureale – liht
-description: Selles artiklis antakse teavet finantshinnangute importimise kohta projektilt lepingureale.
+description: See artikkel annab teavet, kuidas importida projekti finantsprognoose lepingureale.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article

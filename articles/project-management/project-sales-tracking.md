@@ -1,6 +1,6 @@
 ---
 title: Projektimüügi jälgimine
-description: Selles artiklis antakse teavet selle kohta, kuidas Project Operations jälgib edusamme projekti tööjõutulude suhtes.
+description: See artikkel annab teavet selle kohta, kuidas Project Operations jälgib projekti edenemist seoses tööjõutuluga.
 author: rumant
 ms.date: 03/24/2021
 ms.topic: article

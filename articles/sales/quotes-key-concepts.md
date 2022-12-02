@@ -1,6 +1,6 @@
 ---
 title: Hinnapakkumised - põhimõisted
-description: Selles artiklis antakse teavet projektipakkumiste ja müügipakkumiste kohta, mis on saadaval Project Operationsis.
+description: See artikkel annab teavet projektide hinnapakkumiste ja müügipakkumiste kohta, mis on saadaval rakenduses Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

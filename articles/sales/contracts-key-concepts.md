@@ -1,6 +1,6 @@
 ---
 title: Projektilepingud – põhimõisted
-description: Selles artiklis antakse teavet projektioperatsioonide projektilepingute põhimõistete kohta.
+description: See artikkel annab teavet projektilepingute peamiste mõistete kohta rakenduses Project Operations.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
@@ -19,11 +19,11 @@ _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
 
 
-Selles artiklis on toodud põhimõisted, millest tuleb teadlik olla enne projektilepingute kasutamise alustamist rakenduses Dynamics 365 Project Operations:
+See artikkel sisaldab põhimõisteid, millest tuleb teadlik olla enne, kui hakkate kasutama projekti lepinguid rakenduses Dynamics 365 Project Operations.
 
 ## <a name="owning-company"></a>Omanikust ettevõte
 
-Omanik on juriidiline isik projektijuhtimise ja raamatupidamise **moodulist** Project Operations alates Dynamics 365 Finance. Omanikust ettevõte esindab juriidilist olemit, mis arvestab tehinguga seotud kulu ja tulu.
+Omanikettevõte on Dynamics 365 Finance’i mooduli **Projektijuhtimine ja raamatupidamine** rakenduse Project Operations juriidiline olem. Omanikust ettevõte esindab juriidilist olemit, mis arvestab tehinguga seotud kulu ja tulu.
 
 ## <a name="contracting-unit"></a>Lepingut sõlmiv üksus
 

@@ -1,6 +1,6 @@
 ---
 title: Ressursihalduse muudatused (Project Service Automation 3.x)
-description: Selles artiklis antakse teavet ressursihaldusala muudatuste kohta.
+description: See artikkel annab teavet ressursihalduse alas tehtud muudatuste kohta.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -26,7 +26,7 @@ ms.locfileid: "8916007"
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-Selle artikli jaotised annavad teavet muudatuste kohta, mis on tehtud versiooni 3.x ressursihaldusalal Dynamics 365 Project Service Automation.
+Selle artikli jaotised annavad teavet rakenduse Dynamics 365 Project Service Automation versioon 3.x ressursihalduse alas tehtud muudatuste kohta.
 
 ## <a name="project-estimates"></a>Projekti prognoosid
 

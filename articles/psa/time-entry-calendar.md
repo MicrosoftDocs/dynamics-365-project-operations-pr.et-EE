@@ -1,6 +1,6 @@
 ---
 title: Ajakirjete kalender
-description: Selles artiklis antakse teavet ajasisestuse kalendri kasutamise kohta.
+description: See artikkel annab teavet selle kohta, kuidas kasutada ajakirjete kalendrit.
 author: rumant
 ms.custom:
 - dyn365-projectservice

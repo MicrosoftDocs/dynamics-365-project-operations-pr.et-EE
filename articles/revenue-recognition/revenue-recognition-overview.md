@@ -1,6 +1,6 @@
 ---
 title: Tulu kajastamise ülevaade
-description: Selles artiklis antakse teavet tulude tuvastamise kohta Project Operationsis.
+description: See artikkel annab teavet tulu kajastamise kohta rakenduses Project Operations.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: overview
@@ -17,7 +17,7 @@ ms.locfileid: "8926265"
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Rakenduses Dynamics 365 Project Operations erinevad tulu kajastamise põhimõtted projekti või projekti osa valitud arveldusmeetodi põhjal. Selles artiklis antakse teavet tulude tuvastamise kohta Project Operationsis.
+Rakenduses Dynamics 365 Project Operations erinevad tulu kajastamise põhimõtted projekti või projekti osa valitud arveldusmeetodi põhjal. See artikkel annab teavet tulu kajastamise kohta rakenduses Project Operations.
 
 ## <a name="transactions-accounted-using-time-and-material-billing-method"></a>Aja ja materjali arveldusmeetodi kasutavad arvestatavad kanded
 

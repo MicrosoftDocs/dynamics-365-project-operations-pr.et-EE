@@ -94,7 +94,7 @@ Kui **ProcessRunner** on töö lõpetanud, kutsub see töövoo **ProcessRunCalle
 Arvete loomiseks kasutatav pakktöötluse töö on korduv töö. Kui seda pakktöötlust käitatakse mitu korda, luuakse mitu tööeksemplari ja need põhjustavad tõrkeid. Seetõttu peaksite pakktöötluse käivitama ainult üks kord ja selle peate uuesti käivitama ainult siis, kui see lakkab töötamast.
 
 > [!NOTE]
-> Project Service Automationi paketina arveldamine töötab ainult projekti lepinguridade jaoks, mis on arve ajakavade poolt konfigureeritud. Fikseeritud hinnaga arveldusmeetodiga lepingureal peavad olema seadistatud vahe-eesmärgid. Aja- ja materjalikulu arveldusmeetodiga projekti lepingurea jaoks peab olema seadistatud kuupäevapõhine ajakava. Teave arveldussageduste seadistamise kohta hinnapakkumisreal põhineva projekti kontekstis on esitatud artiklis, [hinnapakkumised ja hinnapakkumisread](basic-quote-lines.md#invoice-schedule). Sama kehtib ka projektipõhisele lepingureale.      
+> Project Service Automationi paketina arveldamine töötab ainult projekti lepinguridade jaoks, mis on arve ajakavade poolt konfigureeritud. Fikseeritud hinnaga arveldusmeetodiga lepingureal peavad olema seadistatud vahe-eesmärgid. Aja- ja materjalikulu arveldusmeetodiga projekti lepingurea jaoks peab olema seadistatud kuupäevapõhine ajakava. Hinnapakkumise real põhineva projekti kontekstis arveldamise sageduste seadistamise teave on toodud järgmises artiklis: [Hinnapakkumised ja hinnapakkumise read](basic-quote-lines.md#invoice-schedule). Sama kehtib ka projektipõhisele lepingureale.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>PSA arve mustandi redigeerimine
 

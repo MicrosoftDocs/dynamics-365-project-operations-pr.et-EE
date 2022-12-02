@@ -1,6 +1,6 @@
 ---
 title: Tarnija arve integreerimine
-description: Selles artiklis antakse teavet hankija arve integreerimise kohta Project Operationsis.
+description: See artikkel annab teavet Project Operationsi hankija arvete integreerimise kohta.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
@@ -21,7 +21,7 @@ _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 Projektiga seotud hankeid rakenduses Dynamics 365 Project Operations saab salvestada, kui lähete jaotisse **Ostureskontro** > **Arved** > **Ootel hankijate arved** ja kasutate ootel hankija arvedokumenti. Lisateavet leiate teemast [Logimata materjalide ostmine ootel oleva hankija arvega](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Enne käesolevas artiklis kirjeldatud funktsioonide kasutamist vaadake üle ja rakendage vajalikud konfiguratsioonid. Lisateavet leiate teemast [Logimata materjalide ja ootel hankijate arvete lubamine](../procurement/configure-materials-nonstocked.md).
+> Enne selles artiklis kirjeldatud funktsioonide kasutamist vaadake üle ja rakendage nõutavad konfiguratsioonid. Lisateavet leiate teemast [Logimata materjalide ja ootel hankijate arvete lubamine](../procurement/configure-materials-nonstocked.md).
 
 Project Operationsis sisestatakse projektiga seotud hankija arved spetsiaalsete sisestusreeglite abil.
 
@@ -34,7 +34,7 @@ Project Operationsis sisestatakse projektiga seotud hankija arved spetsiaalsete 
      > [!NOTE]
      > Hankija arve üksikasju Dataverse’is ei saa redigeerida.
 
-Maksu alamledger, hankija alamledger ja muud finantskanded kirjendatakse hankija arve konteerimisel Dynamics 365 Finance kohaldatavana.
+Maksu alammoodul, hankija alammoodul ja muud finantspostitused kirjendatakse hankija arve postitamisel vajaduse järgi rakenduses Dynamics 365 Finance, kui hankija arve on sisestatud.
 
 ![Hankija arve integratsioon.](media/DW7VendorInvoice.png)
 

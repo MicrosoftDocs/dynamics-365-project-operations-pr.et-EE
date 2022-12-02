@@ -1,6 +1,6 @@
 ---
 title: Mis on uut novembris 2020 – Project Operations Lite’i juurutamine – tehing näidisarveldusele
-description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval Project Operations Lite juurutamise 2020. aasta novembri väljaandes - tegeleb arvete esitamisega.
+description: See artikkel annab teavet Project Operations Lite’i juurutuse – tehing näidisarveldusele 2020. aasta novembri väljalaskes saadaolevate kvaliteedi värskenduste kohta.
 author: sigitac
 ms.date: 11/02/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Projekti kopeerimine
-description: Selles artiklis antakse teavet rakendustes projektide kopeerimise kohta rakenduses Dynamics 365 Project Operations.
+description: See artikkel annab teavet projektide kopeerimise kohta rakenduses Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 03/07/2022
 ms.topic: article
@@ -26,13 +26,13 @@ Dynamics 365 Project Operationsi abil saate kiiresti uusi projekte koostada, val
 - Projekti kuluprognoosid
 - Projektimaterjali prognoosid
 - Projekti kontroll-loendid
-- Projekti ämbrid
+- Projektisalved
 
 ## <a name="project-properties"></a>Projekti atribuudid
 
-Projekti kopeerimisel kopeeritakse järgmiste väljade väärtused.
+Kui projekt on kopeeritud, kopeeritakse väärtused järgmistel väljadel.
 
-| Väli | Projektitoimingud Ladustamata materjalid | Projekti toimingute Lite | Veebiprojekt |
+| Väli | Project Operationsi logimata materjalid | Project Operations Lite | Project for the Web |
 |-------|------------------------------------------|-------------------------|---------------------|
 | Nimetus | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Kirjeldus | :heavy_check_mark: | :heavy_check_mark: | |
@@ -46,8 +46,8 @@ Projekti kopeerimisel kopeeritakse järgmiste väljade väärtused.
 | Üldine projekti olek | :heavy_check_mark: | :heavy_check_mark: | |
 | Kommentaarid | :heavy_check_mark: | :heavy_check_mark: | |
 | Prognoosid | :heavy_check_mark: | :heavy_check_mark: | |
-| <p>Eeldatav alguskuupäev</p><p><strong>Märkus.:</strong> See väli määrab kuupäeva, millal projekt koopiast luuakse. | :heavy_check_mark: | :heavy_check_mark: | |
-| <p>Eeldatav lõpetamiskuupäev</p><p><strong>Märkus.:</strong> Selle välja kuupäeva korrigeeritakse koopiast tehtud uue projekti alguskuupäeva alusel.</p> | :heavy_check_mark: | :heavy_check_mark: | |
+| <p>Eeldatav alguskuupäev</p><p><strong>Märkus.</strong> See väli määrab kuupäeva, millal projekt koopiast luuakse. | :heavy_check_mark: | :heavy_check_mark: | |
+| <p>Eeldatav lõpetamiskuupäev</p><p><strong>Märkus.</strong> Sellel väljal olevat kuupäeva kohandatakse koopia põhjal tehtud uue projekti alguskuupäeva alusel.</p> | :heavy_check_mark: | :heavy_check_mark: | |
 | Tööpanus (tunnid) | :heavy_check_mark: | :heavy_check_mark: | |
 | Eeldatav tööjõukulu | :heavy_check_mark: | :heavy_check_mark: | |
 | Eeldatav kulude maksumus | :heavy_check_mark: | :heavy_check_mark: | |
@@ -58,14 +58,14 @@ Projekti kopeerimisel kopeeritakse järgmiste väljade väärtused.
 
 ## <a name="work-breakdown-structure"></a>Tööjaotuse struktuur
 
-Kui projekt on kopeeritud, siis kopeeritakse kogu ressursi laaditud tööjaotuse struktuur. Nimetatud ressursid asendatakse üldiste ressurssidega. Kui nimetatud ressurssidel pole üldise ressursiga samu töötunde, arvutatakse ajakava ümber ja ülesande kestused võivad muutuda.
+Kui projekt on kopeeritud, siis kopeeritakse kogu ressursi laaditud tööjaotuse struktuur. Nimetatud ressursid asendatakse üldiste ressurssidega. Kui nimetatud ressurssidel ei ole üldise ressursiga sama tööaega, arvutatakse ajakava uuesti ja ülesande kestused võivad muutuda.
 
 ## <a name="project-team-members"></a>Projektimeeskonna liikmed
 
 Kui projektimeeskond kopeeritakse lähteprojektist, kopeeritakse üldised ressursid. Üldiseid ressursi määramisi säilitatakse samamoodi, nagu nad olid lähteprojektis. Nimetatud ressursid teisendatakse üldisteks meeskonnaliikmeteks.
 
 > [!NOTE]
-> Meeskonnaliikmeid ja ülesandeid ei kopeerita Project for the Webis.
+> Meeskonna liikmeid ja ülesandeid ei kopeerita Project for the Webi jaoks.
 
 ## <a name="estimates"></a>Prognoosid
 
@@ -75,6 +75,6 @@ Lisateavet programmiliselt valikule Kopeeri projekt juurdepääsemise kohta leia
 
 ## <a name="quotes-and-contracts"></a>Hinnapakkumised ja lepingud
 
-Hinnapakkumised ja lepingud pole sihtprojektiga lingitud.
+Hinnapakkumised ja lepingud ei ole sihtprojektiga seotud.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

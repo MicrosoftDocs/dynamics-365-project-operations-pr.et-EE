@@ -1,6 +1,6 @@
 ---
 title: Kompleksühikute haldamine tootepõhiste lepinguridade jaoks – liht
-description: See artikkel annab teavet tellimusel põhinevate toodete müügi toetamise kohta.
+description: See artikkel annab teavet kordustellimusel põhinevate toodete müügi toetamise kohta.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: article

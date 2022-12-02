@@ -1,6 +1,6 @@
 ---
 title: Kulumallide seadistamine
-description: Selles artiklis antakse teavet kulumallide loomise ja kasutamise kohta Project Operationsis.
+description: See artikkel annab teavet selle kohta, kuidas luua ja kasutada rakenduses Project Operations kulumalle.
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8918399"
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
 
-Selles artiklis antakse teavet kulumallide loomise ja kasutamise kohta Project Operationsis. Kulumall määratleb järgneva.
+See artikkel annab teavet selle kohta, kuidas luua ja kasutada rakenduses Project Operations kulumalle. Kulumall määratleb järgneva.
 
 - Prognoosi projektikategooriad ja tegelikud tehingud, mis kaasatakse projekti lõpuleviimise arvutamise protsenti. Lõpuleviimise väärtuse protsenti kasutatakse seejärel arvutamiseks, kui palju tulu on kajastatud.
 - Kas lõpuleviimise protsenti saab muuta, kui see on automaatselt arvutatud.
@@ -56,7 +56,7 @@ Otsustamine, millist lähenemisviisi kulumalli loomiseks kasutada, võib oleneda
 ## <a name="create-cost-templates"></a>Kulumallide loomine
 Kulumallide loomiseks tehke järgmist.
 
-1. Kulumallidele juurdepääsuks avage **Dynamics 365 Finance keskkonnas projektihalduse ja raamatupidamise** > **seadistushinnangute** > **·** > **kulumall**.
+1. Rakenduse Dynamics 365 Finance keskkonnas kulumallidele juurdepääsuks minge jaotisse **Projektihaldus ja raamatupidamine** > **Seadistamine** > **Prognoosid** > **Kulumall**.
 2. Uue kulumalli loomiseks valige **Uus**. Sisestage nimi ja kirjeldus.
 3. Sisestage iga kandetüübi jaoks kulurea ID.
 4. Valige vaikimisi lõpuleviimise meetod.

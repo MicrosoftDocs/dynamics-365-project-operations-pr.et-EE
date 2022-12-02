@@ -1,6 +1,6 @@
 ---
 title: Kinnituste arendaja märkmed
-description: See artikkel annab lisateavet arendaja kohta kinnitustega töötamise kohta.
+description: See artikkel annab täiendavat arendaja teavet kinnitustega töötamise kohta.
 author: stsporen
 ms.date: 11/09/2020
 ms.topic: article

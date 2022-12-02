@@ -1,6 +1,6 @@
 ---
 title: Mida on uut või muudetud rakenduse Project Service Automation värskenduse väljaandes 30, V3
-description: Selles artiklis loetletakse funktsioonid ja parandused, mis on saadaval rakenduses Project Service Automation Update Release 30, V3.
+description: Selles artiklis loetletakse Project Service Automationi värskenduse väljalaske 30, V3 saadaolevaid funktsioone ja parandusi.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 04/01/2021
@@ -29,7 +29,7 @@ ms.locfileid: "8925069"
 
 Meil on hea meel teatada uusimast Dynamics 365 Project Service Automationi rakenduse värskendusest. See väljaanne sisaldab mõningaid olulisi kvaliteedi, jõudluse ja kasutatavuse täiustusi. See väljalase ühildub Dynamics 365 9. x-iga. Sellele väljaandele värskendamiseks külastage veebis Dynamics 365 administreerimiskeskuse lahenduste lehte värskenduse installimiseks. Lisateabe saamiseks vt jaotist [Eelistatud lahenduse installimine, värskendamine või eemaldamine](/power-platform/admin/install-remove-preferred-solution).
 
-Selles artiklis loetletakse funktsioonid ja parandused, mis on project Service Automation V3, Update Release 30 jaoks uued või muudetud. Selle versiooni järgu number on V3.10.51.61 ja on üldiselt saadaval 2021. a aprilli enesevärskenduse kaudu.
+Selles artiklis loetletakse Project Service Automationi V3 värskenduse väljalaske 30 uusi või muudetud funktsioone ja parandusi. Selle versiooni järgu number on V3.10.51.61 ja on üldiselt saadaval 2021. a aprilli enesevärskenduse kaudu.
 
 ## <a name="update-release-30"></a>Värskenduste väljalase 30
 

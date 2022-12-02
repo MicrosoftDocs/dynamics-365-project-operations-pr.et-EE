@@ -1,6 +1,6 @@
 ---
 title: Projekti näidisarve haldamine
-description: Selles artiklis antakse teavet proforma projektiarvetega töötamise kohta.
+description: See artikkel annab teavet projekti näidisarvetega töötamise kohta.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
@@ -101,7 +101,7 @@ Arverea üksikasjades, mida toetavad arveldamata müügi tegelikud näitajad, on
 | **Toote nimi** | Vaikimisi allika tegelikust väärtusest määratud, see väli on kirjutuskaitstud. | Uues arverea üksikasjas, kus toote ID valitakse kataloogist, määratakse selle välja väärtuseks toote nimi. Sisestatava toote korral on välja väärtuseks seatud sisestatav nimi. |
 | **Sisestatav kirjeldus** | Vaikimisi allika tegelikust väärtusest määratud, see väli on kirjutuskaitstud. | Kui loote uue arverea üksikasja ilma tegelikku varundamata, saate lisada tootele sisestatava kirjelduse. |
 | **Kandetüüp** | Määratakse vaikimisi allika tegelikust näitajast. Kirjutuskaitstud väli, mis on redigeerimiseks lukustatud. | On vaikimisi määratud valikule **Arveldatud müük** ja lukustatud, kui loote uue **arverea üksikasja** ilma tegeliku näitaja toeta.  |
-| **Kande klass** | Määratakse vaikimisi allika tegelikust näitajast. Kirjutuskaitstud väli, mis on redigeerimiseks lukustatud. | Vaikimisi määratud selle põhjal, kas kasutaja otsustab luua arverea üksikasja **Aeg**, **Kulu**, **Materjal** või **Tasuta**, luues samal ajal ilma tegeliku varundamiseta uue **arverea üksikasja**. Redigeerimiseks lukustatud. |
+| **Tehingu klass** | Määratakse vaikimisi allika tegelikust näitajast. Kirjutuskaitstud väli, mis on redigeerimiseks lukustatud. | Vaikimisi määratud selle põhjal, kas kasutaja otsustab luua arverea üksikasja **Aeg**, **Kulu**, **Materjal** või **Tasuta**, luues samal ajal ilma tegeliku varundamiseta uue **arverea üksikasja**. Redigeerimiseks lukustatud. |
 
 Arverea üksikasjades, mida toetab vahe-eesmärk, on saadaval järgmised väljad.
 
@@ -126,7 +126,7 @@ Arverea üksikasjades, mida toetab vahe-eesmärk, on saadaval järgmised väljad
 | **Laiendatud summa** | Määratakse vaikimisi allika vahe-eesmärgi rea summast. Kasutaja saab välja muuta | &nbsp; |
 | **Arveldustüüp** | Alati määratud vaikimisi valikule **Arveldatav**. Kirjutuskaitstud väli, mis on redigeerimiseks lukustatud. | &nbsp; |
 | **Kandetüüp** | Määratakse vaikimisi allika vahe-eesmärgist. Kirjutuskaitstud väli, mis on redigeerimiseks lukustatud. | &nbsp; |
-| **Kande klass** | Määratakse vaikimisi allika vahe-eesmärgist. Kirjutuskaitstud väli, mis on redigeerimiseks lukustatud. | &nbsp; |
+| **Tehingu klass** | Määratakse vaikimisi allika vahe-eesmärgist. Kirjutuskaitstud väli, mis on redigeerimiseks lukustatud. | &nbsp; |
 
 ### <a name="create-new-invoice-line-details"></a>Uue arverea üksikasjade loomine
 

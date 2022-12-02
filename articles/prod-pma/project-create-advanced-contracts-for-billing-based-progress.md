@@ -1,6 +1,6 @@
 ---
 title: Edenemisel põhinevate arvete jaoks täpsemate lepingute loomine
-description: Selles artiklis selgitatakse, kuidas luua projektilepinguid, et saaksite luua klientidele arveid, mis põhinevad protsendil lõpetatud töödest.
+description: See artikkel kirjeldab, kuidas luua projekti lepinguid, et saaksite luua klientidele arveid vastavalt lõpuleviidud töö protsendile.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -25,9 +25,9 @@ ms.locfileid: "8913661"
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Edenemisel põhinevate arvete jaoks täpsemate lepingute loomine
 [!include [banner](../includes/banner.md)]
 
-Selles artiklis selgitatakse, kuidas luua projektilepinguid, et saaksite luua klientidele arveid, mis põhinevad protsendil lõpetatud töödest. Arve summad arvutatakse automaatselt projekti jaoks seadistatud eelarve töökategooriate jaoks. Arve ajastamine määratakse kliendiga projekti lepingu üle läbirääkimisi pidades.
+See artikkel kirjeldab, kuidas luua projekti lepinguid, et saaksite luua klientidele arveid vastavalt lõpuleviidud töö protsendile. Arve summad arvutatakse automaatselt projekti jaoks seadistatud eelarve töökategooriate jaoks. Arve ajastamine määratakse kliendiga projekti lepingu üle läbirääkimisi pidades.
 
-Selle artikli protseduure saate kasutada lepingu, seostatud projekti ja arveldusreeglite seadistamiseks, mis arvutavad projekti jaoks seadistatud eelarvekategooriate arvesummad.
+Selle artikli toimingute abil saate seadistada lepingu, seostatud projekti ja arveldamise reeglid, mis arvutavad arve summasid projekti jaoks määratud eelarveliste töökategooriate jaoks.
 
 Kui olete lepingu ja projekti loonud, saate projekti üksikasjad seadistada. Näiteks saate määratleda tegevused ja määrata projektile töötajad.
 

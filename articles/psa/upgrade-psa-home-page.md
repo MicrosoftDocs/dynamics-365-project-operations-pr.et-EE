@@ -1,6 +1,6 @@
 ---
 title: Täiendamise avaleht
-description: Selles artiklis kirjeldatakse, kust leida olulist teavet rakenduse uute ja muudetud funktsioonide Dynamics 365 Project Service Automation ning uusimale versioonile ülemineku protsessi kohta.
+description: See artikkel näitab, kust leida olulist teavet Dynamics 365 Project Service Automation uute ja muudetud funktsioonide kohta ning kuidas täiendada uusimale versioonile.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -48,14 +48,14 @@ Eelnevalt pidid kliendid, kellel on PSA versiooni 2.x eksemplar täiendama versi
 Enne kui alustate täiendusprotsessi, soovitame teil ära teha järgmised ülesanded.
 
 - Kontrollige, kas nii Dynamics 365 Field Service kui ka Project Service Automation on tuvastatud eksemplarile installitud. Kui mõlemad lahendused on installitud, peaksite enne eksemplari tavapärase kasutamise jätkamist plaanima mõlema täiendamist.
-- Vaadake hoolikalt läbi järgmised artiklid. Kui olete teadlik versioonidevahelistest erinevustest ja mõistate neid, aitab see teil täiendusprotsessi teha. Need artiklid annavad teavet PSA suurte muudatuste kohta koos kaalutluste ja soovitustega versioonile 3.x ülemineku planeerimiseks.
+- Vaadake järgmised artiklid tähelepanelikult üle. Kui olete teadlik versioonidevahelistest erinevustest ja mõistate neid, aitab see teil täiendusprotsessi teha. Need artiklid annavad teavet PSA-s tehtud oluliste muudatuste kohta ning esitatakse kaalutlusi ja soovitusi versioonile 3.x ülemineku plaanimiseks.
 
     - [Mis on uut või muudetud Project Service Automation versioonis 3?](whats-new-changed-v3.md)
     - [Täienduse kaalutlused – üleminek Project Service Automation versioonilt 2.x või 1.x versioonile 3](upgrade-v3.md)
 
 - Enne tootmiseksemplari täiendamist täiendage oma liivakasti eksemplari, et hinnata juurutamisel ilmnevaid muudatusi.
 
-Pärast seda, kui olete varem mainitud artiklid üle vaadanud ja olete valmis üle minema PSA versioonile 3.x või UCI-põhisele versioonile, esitage Microsofti tugiteenusele taotlus täienduse kättesaadavaks tegemiseks halduskeskusest. Esitage taotluses oma eksemplari üksikasjad.
+Kui olete eelmainitud artiklid läbi vaadanud ja olete valmis täiendama PSA versioonile 3.x või UCI-põhisele versioonile, esitage Microsofti tugiteenusele oma avaldus, et muuta täiendus halduskeskuse kaudu kättesaadavaks. Esitage taotluses oma eksemplari üksikasjad.
 
 ## <a name="older-versions-of-psa-psa-version-2x-in-a-newly-created-instance"></a>Vanemad PSA versioonid (PSA versioon 2.x) äsja loodud eksemplaris
 

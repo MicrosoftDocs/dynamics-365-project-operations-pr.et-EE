@@ -1,6 +1,6 @@
 ---
 title: Töötundide malli loomine
-description: Selles artiklis kirjeldatakse tööajamalli loomist Project Service'is.
+description: See artikkel kirjeldab, kuidas luua Project Service’is tööaja malli.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

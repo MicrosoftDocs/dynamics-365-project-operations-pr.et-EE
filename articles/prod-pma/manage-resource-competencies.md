@@ -1,6 +1,6 @@
 ---
 title: Ressursi pädevuste haldamine
-description: Selles artiklis antakse teavet projekti ressursside pädevuste seadistamise kohta.
+description: See artikkel annab teavet projekti ressurssidele pädevuste seadistamise kohta.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Mis on uut või muudetud Project Service Automation versioonis 3.x laine 1 2020
-description: Selles artiklis antakse teavet selle kohta, mis on uut ja mida on muudetud Project Service Automationi versioonis 3 wave 1 2020.
+description: See artikkel annab teavet selle kohta, mis on Project Service Automationi versioonis 3 laine 1 2020 uus ja mida on muudetud.
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -28,7 +28,7 @@ ms.locfileid: "8928611"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Artiklis tõstetakse esile peamised versiooniuuenduse kaalutlused, kui minna üle Project Service Automation (PSA) versiooni 3.x wave 1 2020 viimasele versioonile.
+Artikkel toob esile peamised versiooniuuenduse kaalutlused, kui liigute Project Service Automationi (PSA) uusimale väljaande versioonile 3.x laine 1 2020.
 
 ## <a name="time-entry"></a>Ajakirje
 Ajakirje kogemust on pikendatud, et pakkuda võimalusi ajakirje pikendamiseks rohkemateks klientide stsenaariumiteks. See hõlmab võimalust lisada kirjetüüpe, mis juhivad nüüd konkreetset käitumist, mis põhineb välja skeemil nimega **Ajakirje sätted**, mida kuvatakse kui **Aja allikas**. Selle funktsiooni toetamiseks on lisatud uus lahendus, mida nimetatakse Time, Expense, Statusing, and Approvals (aeg, kulu, olek ja kinnitused) (TESA).

@@ -1,6 +1,6 @@
 ---
 title: Mida on uut või muudetud rakenduse Project Service Automation värskenduse väljaandes 14, V3
-description: Selles artiklis antakse teavet selle kohta, mis on uut Project Service Automation Update Release 14 V3-s.
+description: See artikkel annab teavet selle kohta, mida on uut rakenduse Project Service Automation värskenduse väljaandes 14, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2020
@@ -29,7 +29,7 @@ ms.locfileid: "8926541"
 
 Meil on hea meel teatada uusimast rakenduse Dynamics 365 Project Service Automation (PSA) värskendusest. See väljaanne sisaldab mõningaid olulisi kvaliteedi, jõudluse ja kasutatavuse täiustusi. See väljalase ühildub Dynamics 365 9. x-iga. Sellele väljaandele värskendamiseks külastage veebis Dynamics 365 administreerimiskeskust ja avage värskenduse installimiseks lahenduste leht. Lisateabe saamiseks vt jaotist [Eelistatud lahenduse installimine, värskendamine või eemaldamine](/power-platform/admin/install-remove-preferred-solution).
 
-Selles artiklis loetletakse funktsioonid ja parandused, mis on PSA V3, Update Release 14 jaoks uued või muudetud. Selle versiooni järgu number on V3.10.4.21 ja see on saadaval järgmise ajakava järgi.
+Selles artiklis loetletakse PSA V3 värskenduse väljalaske 14 uusi või muudetud funktsioone ja parandusi. Selle versiooni järgu number on V3.10.4.21 ja see on saadaval järgmise ajakava järgi.
 
 - **Üldine saadavus (automaatvärskendus):** jaanuar 2020
 - **Automaatvärskendus:** veebruar 2020

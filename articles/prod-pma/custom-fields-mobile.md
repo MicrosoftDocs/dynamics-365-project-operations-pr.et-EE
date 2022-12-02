@@ -1,6 +1,6 @@
 ---
 title: Rakendage mobiilirakenduse Microsoft Dynamics 365 Project Timesheet iOS-i ja Androidi kohandatud väljad
-description: Selles artiklis on toodud levinud mustrid laienduste kasutamiseks kohandatud väljade rakendamiseks.
+description: See artikkel kirjeldab kohandatud väljade juurutamiseks laienduste kasutamise ühiseid mudeleid.
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "8913707"
 
 [!include [banner](../includes/banner.md)]
 
-Selles artiklis on toodud levinud mustrid laienduste kasutamiseks kohandatud väljade rakendamiseks. Käsitletakse järgmisi artikleid:
+See artikkel kirjeldab kohandatud väljade juurutamiseks laienduste kasutamise ühiseid mudeleid. Käsitletakse järgmisi artikleid.
 
 - Erinevad andmetüübid, mida kohandatud väljaraamistik toetab
 - Kuidas kuvada kirjutuskaitstud või redigeeritavaid välju ajatabeli kirjetesse ja salvestada kasutaja esitatud väärtused tagasi andmebaasi
@@ -35,7 +35,7 @@ Selles artiklis on toodud levinud mustrid laienduste kasutamiseks kohandatud vä
 
 ## <a name="audience"></a>Publik
 
-See artikkel on mõeldud arendajatele, kes integreerivad oma kohandatud väljad mobiilirakendusse Microsoft Dynamics 365 Project Timesheet, mis on saadaval Apple iOS-ile ja Google'ile Android. Eeldame, et lugejad tunnevad X + + arenduse ja projekti ajatabeli funktsioone.
+See artikkel on mõeldud arendajatele, kes integreerivad oma kohandatud väljad Microsoft Dynamics 365 Project Timesheeti mobiilirakendusse, mis on saadaval Apple iOS-i ja Google Androidi jaoks. Eeldame, et lugejad tunnevad X + + arenduse ja projekti ajatabeli funktsioone.
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Andmete leping – TSTimesheetCustomField X++ klass
 
@@ -64,7 +64,7 @@ Atribuut **FieldBaseType** objektil **TsTimesheetCustom** määratleb rakenduses
 
 - Kui atribuut **stringOptions** on esitatud **TSTimesheetCustomField** objektil, on need loendi elemendid ainsad väärtused, mida kasutajad saavad valida valikunuppude (raadionuppude) abil.
 
-    Sellisel juhul võib väljal string olla loendiväärtus kasutaja kirje eesmärgil. Kui soovite väärtuse andmebaasi nuumväärtusena salvestada, vastendage stringi väärtus enne loendisse salvestamist käsitsi käsuliini abil (vt klassi TSTimesheetEntryService käsuahelat ajatabeli kirje salvestamiseks rakendusest tagasi andmebaasi" jaotisest, mis on selle artikli hilisemas osas).
+    Sellisel juhul võib väljal string olla loendiväärtus kasutaja kirje eesmärgil. Väärtuse salvestamiseks andmebaasi loeteluna vastendage stringi väärtus tagasi loendi väärtusele, enne kui salvestate andmebaasi, kasutades käsuliini (vt „TSTimesheetEntryService klassis käsuahela kasutamine, et salvestada ajatabeli kanne rakendusest tagasi andmebaasi“ hiljem selles artiklis näitena).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ See atribuut määrab sildi, mis kuvatakse rakenduses välja kõrval.
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (List of Strings)
 
-See atribuut rakendub ainult juhul, kui välja **fieldBaseType** väärtuseks on seatud **String**. Kui **stringOptions** on seatud, siis stringi väärtused, mis on saadaval valikunuppude (raadionuppude) kaudu, määratakse loendis olevate stringide järgi. Kui stringe ei pakuta, on stringiväljale vabas vormis kirje lubatud (vt näiteks selle artikli hilisemas artiklis jaotist "TSTimesheetEntryService'i käsuliini kasutamine ajatabeli kirje salvestamiseks rakendusest tagasi andmebaasi").
+See atribuut rakendub ainult juhul, kui välja **fieldBaseType** väärtuseks on seatud **String**. Kui **stringOptions** on seatud, siis stringi väärtused, mis on saadaval valikunuppude (raadionuppude) kaudu, määratakse loendis olevate stringide järgi. Kui ühtegi stringi ei pakuta, lubatakse väljale string vabateksti sisestamine (vt jaotist „TSTimesheetEntryService klassi käsuliini kasutamine, et salvestada ajatabeli kirje rakendusest tagasi andmebaasi“ edaspidi selles artiklis).
 
 ### <a name="stringlength-int"></a>stringLength (int)
 

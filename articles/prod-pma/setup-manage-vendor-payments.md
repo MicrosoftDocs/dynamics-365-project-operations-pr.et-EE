@@ -1,6 +1,6 @@
 ---
 title: Maksa-kui-on-makstud hankija maksete seadistamine ja kasutamine
-description: Selles artiklis selgitatakse, kuidas luua tasulisi (PWP) termineid, et saaksite kliendimaksete põhjal vabastada osalised hankija maksed.
+description: See artikkel selgitab, kuidas luua maksa-kui-on-makstud (PWP) tingimusi, et saaksite vabastada osalisi hankija makseid vastavalt kliendi maksetele.
 author: RadhikaRS
 ms.date: 03/30/2020
 ms.topic: article
@@ -67,7 +67,7 @@ Kui sisestate hankija arve ja kui hankija suhtes kehtivad PWP tingimused, kuvata
     Teise võimalusena avage olemasolev ostutellimus loendis **Kõik ostutellimused**.
 
 4. Vaadake lehe **Ostutellimus** kiirvahekaardil **Ostutellimuse read** üle hankija ostutellimuse rea andmed. Suvand **Maksa kui on makstud** valitakse automaatselt ja välja **PWP läve protsent** väärtus kopeeritakse automaatselt väljalt **PWP läve protsent** lehel **Projektid**.
-6. Kui te ei soovi hankijale ostutellimuse rea jaoks PWP tingimusi rakendada, tühjendage valik **Maksa kui on makstud**. Sel juhul lähetestatakse ostutellimuse rea väli **PWP läve protsent** väärtusele 0 (null).
+6. Kui te ei soovi hankijale ostutellimuse rea jaoks PWP tingimusi rakendada, tühjendage valik **Maksa kui on makstud**. Sel juhul lähtestatakse ostutellimuse rea väli **PWP läve protsent** väärtusele 0 (null).
 
 ## <a name="update-a-customer-payment-and-pay-the-vendor"></a>Kliendi makse värskendamine ja hankijale tasumine
 

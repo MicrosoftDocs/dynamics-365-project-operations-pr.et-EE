@@ -1,6 +1,6 @@
 ---
 title: Kulude ülevaade
-description: Selles artiklis antakse teavet projektitoimingute kulufunktsioonide kohta.
+description: See artikkel kirjeldab tööd rakenduse Project Operations kulufunktsioone.
 author: stsporen
 ms.date: 10/06/2020
 ms.topic: overview

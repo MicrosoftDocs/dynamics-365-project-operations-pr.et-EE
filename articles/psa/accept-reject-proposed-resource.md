@@ -1,6 +1,6 @@
 ---
 title: Pakutud projekti ressursi kinnitamine või tagasilükkamine
-description: Selles artiklis antakse teavet selle kohta, kuidas kavandatud projektiressurssi kinnitada või tagasi lükata.
+description: See artikkel annab teavet pakutud projekti ressursi kinnitamise või tagasilükkamise kohta.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/07/2018
@@ -30,7 +30,7 @@ ms.locfileid: "8916191"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Selles artiklis antakse teavet selle kohta, kuidas kavandatud projektiressurssi kinnitada või tagasi lükata.
+See artikkel annab teavet pakutud projekti ressursi kinnitamise või tagasilükkamise kohta.
 
 Kui ressursihaldur pakub nimega ressurssi projekti üldressursi taotluse täitmiseks, värskendatakse üldmeeskonna liikme väli **Taotluse olek** olekuks **Vajab ülevaatamist**. Taotlus saadetakse projekti haldurile kinnitamiseks või tagasilükkamiseks.
 

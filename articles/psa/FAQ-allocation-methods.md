@@ -1,6 +1,6 @@
 ---
 title: Eraldusmeetodite broneerimine Project Service Automationis
-description: See artikkel annab teavet erinevate jaotuste broneerimise viiside kohta.
+description: See artikkel annab teavet erinevate võimaluste kohta, kuidas jaotusüksuseid jaotada.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -28,7 +28,7 @@ ms.locfileid: "8929163"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Olenemata sellest, kas lisate meeskonnaliikme projektile otse vahekaardilt **Meeskond** või broneerite ressursi projektile või nõudele ajakavapaneelilt, on paar broneeringu jaotamismeetodit, mida saate kasutada. Selles artiklis selgitatakse, kuidas iga meetod toimib ja millised meetodid võivad viia ressursside ülebroneerimiseni.
+Olenemata sellest, kas lisate meeskonnaliikme projektile otse vahekaardilt **Meeskond** või broneerite ressursi projektile või nõudele ajakavapaneelilt, on paar broneeringu jaotamismeetodit, mida saate kasutada. See artikkel selgitab, kuidas iga meetod töötab ja millised meetodid võivad põhjustada ressursside ülebroneerimist.
 
 ## <a name="full-capacity"></a>Täielik maht 
 Täisvõimsuse meetod broneerib määratud kuupäevadeks ressursi täieliku võimsuse. Näiteks kui ressursi kalendris on määratud tööaeg 8 tundi päevas ja 5 päeva nädalas ning algus- ja lõppkuupäevad hõlmavad 5 tööpäeva, siis broneeritakse ressurss 40 tunniks. Reserveeringu tegemisel ei võeta arvesse ressursi allesjäänud tööaega. Kui ressurss on sellel ajavahemikul juba teiste projektide jaoks broneeritud, siis broneeritakse 40 tundi lisatundidena, mis võib põhjustada ülebroneerimist.

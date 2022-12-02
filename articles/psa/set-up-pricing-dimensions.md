@@ -1,6 +1,6 @@
 ---
 title: Kohandatud väljade seadistamine hinnakujunduse dimensioonidena
-description: Selles artiklis antakse teavet kohandatud hinnakujundusdimensioonide seadistamise kohta.
+description: See artikkel annab teavet selle kohta, kuidas seadistada kohandatud hinnakujunduse dimensioone.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,9 +27,9 @@ ms.locfileid: "8922592"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Enne alustamist eeldab see artikkel, et olete artiklites protseduurid lõpule viinud, [Looge kohandatud väljad ja olemid](create-custom-fields-entities.md) ning [Lisage kohandatud väljad hinnahäälestus- ja tehinguolemitesse](field-references.md). Kui te ei ole neid protseduure lõpetanud, minge tagasi ja täitke need ning seejärel pöörduge tagasi selle artikli juurde. 
+Enne kui alustate, eeldame, et olete lõpetanud toimingud artiklites [Kohandatud väljade ja olemite loomine](create-custom-fields-entities.md) ning [Kohandatud väljade lisamine hinna seadistamisele ja ülekande olemitele](field-references.md). Kui te pole neid toiminguid lõpetanud, minge tagasi, viige need lõpuni ja seejärel tulge selle artikli juurde tagasi. 
 
-Selles artiklis antakse teavet kohandatud hinnakujundusdimensioonide seadistamise kohta. Project Service’i veebiliidese lehel **Parameetrid** kuvatakse vahekaardil **Summapõhised hinnakujunduse dimensioonid** hinnakujunduse dimensiooni olemites olevad kirjed. Project Service’i installimise käigus luuakse selle vahekaardi ruudustikus vaikimisi 2 rida:
+See artikkel annab teavet selle kohta, kuidas seadistada kohandatud hinnakujunduse dimensioone. Project Service’i veebiliidese lehel **Parameetrid** kuvatakse vahekaardil **Summapõhised hinnakujunduse dimensioonid** hinnakujunduse dimensiooni olemites olevad kirjed. Project Service’i installimise käigus luuakse selle vahekaardi ruudustikus vaikimisi 2 rida:
 
 - **msdyn_resourcecategory** (roll)
 - **msdyn_OrganizationalUnit** (organisatsiooniüksus)
@@ -70,7 +70,7 @@ Hinnakujunduse dimensioone on kahte tüüpi.
    
    Järgmine tabel näitab hindade hinnalisanduste arvutamist.
   
-| Roll        | Organisatsiooniüksus    |Töö asukoht      |Standardpealkiri      |Ressursi töötunnid      |  Tõsta hinda|
+| Roll        | Organisatsiooniüksus    |Töö asukoht      |Standardpealkiri      |Ressursi töötunnid      |  Hinnalisand|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Jõgi India|Kohapeal            |                    |Ületunnitöö                 |15     |
 |             | Jõgi India|Kohalik             |                    |Ületunnitöö                 |10     |

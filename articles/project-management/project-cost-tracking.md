@@ -1,6 +1,6 @@
 ---
 title: Projektikulu jälgimine
-description: Selles artiklis antakse teavet selle kohta, kuidas Project Operations jälgib edusamme tööjõukulude ja projektile kulutamise suhtes.
+description: See artikkel annab teavet selle kohta, kuidas rakendus Project Operations jälgib projekti edenemist seoses tööjõukulu ja kulutustega.
 author: rumant
 ms.date: 03/22/2021
 ms.topic: article

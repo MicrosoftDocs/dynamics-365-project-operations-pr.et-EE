@@ -1,6 +1,6 @@
 ---
 title: Aja ja kulude muudatused (Project Service Automation 3.x)
-description: Selles artiklis antakse teavet aja ja kulu lahenduse muudatuste kohta.
+description: See artikkel annab teavet aja ja kulu lahenduste muudatuste kohta.
 author: makk
 ms.custom:
 - dyn365-projectservice

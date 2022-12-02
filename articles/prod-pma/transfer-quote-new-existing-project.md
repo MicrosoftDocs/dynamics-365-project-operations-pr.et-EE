@@ -1,6 +1,6 @@
 ---
 title: Hinnapakkumise üleviimine projekti
-description: Selles artiklis antakse teavet pakkumise ülekandmise kohta uude või olemasolevasse projekti.
+description: See artikkel annab teavet hinnapakkumise uude või olemasolevasse projekti üleviimise kohta.
 author: kfend
 ms.date: 05/28/2020
 ms.topic: article

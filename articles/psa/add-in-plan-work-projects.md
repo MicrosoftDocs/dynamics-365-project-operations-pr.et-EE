@@ -1,6 +1,6 @@
 ---
 title: Microsoft Projecti töö kavandamine Project Service'i lisandmooduliga
-description: Selles artiklis antakse teavet Selle kohta, kuidas kasutada Microsoft Projecti lisandmoodulit Microsoft Project Service'i jaoks.
+description: See artikkel annab teavet selle kohta, kuidas kasutada Microsoft Projecti lisandmooduli Microsoft Project Service’i jaoks.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

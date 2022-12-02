@@ -1,6 +1,6 @@
 ---
 title: Hinnakujunduse ja kuluarvestuse dimensioonide avaleht
-description: See artikkel annab ülevaate hinnakujunduse dimensioonidest.
+description: See artikkel annab ülevaate hindade dimensioonidest.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -47,7 +47,7 @@ PSA tarnitakse vaikimisi seatud hinnakujunduse dimensioonidega. Neid saate vaada
 > [!IMPORTANT]
 > Kui olete kasutanud valmiskujul rolli välju ja organisatsiooniüksust hinnakujunduse mõõtmetena enne PSA versiooni 3, ei ole mingeid jälgitavaid muudatusi. Saate jätkuvalt kasutada Project Service nagu tavaliselt. 
 
-Kui teil on vaja ressursside hinda või kulu, kasutades täiendavaid atribuute, saate luua kohandatud välju, olemeid ja dimensioone. Lisateabe saamiseks vaadake järgmisi artikleid, kuid pange tähele, et peate protseduurid täitma allpool loetletud järjekorras:
+Kui teil on vaja ressursside hinda või kulu, kasutades täiendavaid atribuute, saate luua kohandatud välju, olemeid ja dimensioone. Lisateavet leiate järgmistest artiklitest, kuid pange tähele, et protseduurid tuleb lõpule viia allpool toodud järjekorras.
 
 - [Kohandatud väljade ja olemite loomine](create-custom-fields-entities.md)
 - [Kohandatud väljade lisamine hinna seadistusele ja ülekande olemitele](field-references.md)

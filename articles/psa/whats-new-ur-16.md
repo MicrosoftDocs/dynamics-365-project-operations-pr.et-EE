@@ -1,6 +1,6 @@
 ---
 title: Mida on uut või muudetud rakenduse Project Service Automation värskenduse väljaandes 16, V3
-description: Selles artiklis on loetletud funktsioonid ja parandused, mis on saadaval project service automation update release 16, V3.
+description: Selles artiklis loetletakse Project Service Automationi värskenduse väljalaske 16, V3 saadaolevaid funktsioone ja parandusi.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/18/2020
@@ -28,7 +28,7 @@ ms.locfileid: "8926495"
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Meil on hea meel teatada uusimast Dynamics 365 Project Service Automationi rakenduse värskendusest. See väljaanne sisaldab mõningaid olulisi kvaliteedi, jõudluse ja kasutatavuse täiustusi.  See väljalase ühildub Dynamics 365 9. x-iga. Sellele väljaandele värskendamiseks külastage veebis Dynamics 365 administreerimiskeskuse lahenduste lehte värskenduse installimiseks. Lisateabe saamiseks vt jaotist [Eelistatud lahenduse installimine, värskendamine](/dynamics365/project-service/upgrade-psa-home-page).
-Selles artiklis loetletakse funktsioonid ja parandused, mis on PSA V3, Update Release 16 jaoks uued või muudetud. Selle versiooni järgunumber on V3.10.6.34 ja see on jaanuaris 2020 automaatvärskendusega kõigile saadaval.
+Selles artiklis loetletakse PSA V3 värskenduse väljalaske 16 uusi või muudetud funktsioone ja parandusi. Selle versiooni järgunumber on V3.10.6.34 ja see on jaanuaris 2020 automaatvärskendusega kõigile saadaval.
 
 
 ## <a name="update-release-16"></a>Värskenduste väljalase 16

@@ -1,6 +1,6 @@
 ---
 title: Arve ajakavade loomine projekipõhisel lepingureal – liht
-description: Selles artiklis antakse teavet arvegraafikute ja vahe-eesmärkide loomise kohta.
+description: See artikkel annab teavet arve ajakavade ja vahekokkuvõtete loomise kohta.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

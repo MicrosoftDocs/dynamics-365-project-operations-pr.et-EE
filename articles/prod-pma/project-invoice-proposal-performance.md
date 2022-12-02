@@ -1,6 +1,6 @@
 ---
 title: Projektiarve ettepaneku tulemus
-description: Selles artiklis antakse teavet projektiarvete ettepanekute jõudluse parandamise kohta.
+description: See artikkel annab teavet projektiarve ettepaneku jõudluse täiustuste kohta.
 author: Yowelle
 ms.date: 06/16/2021
 ms.topic: article

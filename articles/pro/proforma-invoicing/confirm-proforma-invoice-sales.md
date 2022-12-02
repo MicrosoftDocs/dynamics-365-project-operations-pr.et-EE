@@ -1,6 +1,6 @@
 ---
 title: Projekti näidisarve kinnitamine
-description: Selles artiklis antakse teavet proforma projektiarvete kinnitamise kohta Project Operationsis.
+description: See artikkel annab teavet projekti esialgsete kaubaarvete kinnitamise kohta rakenduses Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

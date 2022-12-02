@@ -1,6 +1,6 @@
 ---
 title: Juurutamise tüübi määratlemine
-description: Selles artiklis antakse teavet, mis aitab teil kindlaks määrata teie ettevõtte jaoks õige juurutustüübi Projecti toimingud.
+description: See artikkel annab teavet, et aidata teha kindlaks oma ettevõtte Project Operationsi õige juurutamistüüp.
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
@@ -25,7 +25,7 @@ _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaa
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Dynamicsi olemasolevad kliendid, kes kasutavad rakendust Dynamics 365 Project Service Automation
 Project Operations sisaldab võimalusi, mis tarnitakse koos rakendusega Project Service Automation. 2021. aasta väljalaske 1. laine klientidele väljastatakse versiooniuuenduse tee.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Projektijuhtimist ja raamatupidamist kasutavate Dynamics 365 Finance olemasolevad kliendid 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Rakenduse Dynamics 365 Finance olemasolevad kliendid, kes kasutavad projektihaldust ja raamatupidamist 
 
 Rakenduse Finance olemasolevad kliendid, kes kasutavad projektihalduse ja raamatupidamise funktsiooni, saavad jätkata selle endisel kujul kasutamist. Vaadake teemat [Project Operations ressursi/tootmise tellimuste stsenaariumite jaoks](#pma).
 

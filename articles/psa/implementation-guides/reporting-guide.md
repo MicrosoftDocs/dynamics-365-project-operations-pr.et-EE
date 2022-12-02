@@ -1,6 +1,6 @@
 ---
 title: Aruandlusjuhend
-description: Selles artiklis on lingid aruandluse kohta käivale teabele.
+description: See artikkel annab teavet aruandluse kohta.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,14 +32,14 @@ ms.locfileid: "8919181"
 
 Selle rakenduse aruandluse meetodid ja tehnoloogiad aitavad teil määratleda oma projektide seisundit ja tuvastada, millal teil on vaja kasutusele võtta parandusmeetmeid. 
 
-Selles artiklis varem olnud PDF-link on eemaldatud ja sisu on teisaldatud järgmistesse artiklitesse:
+Selles artiklis varem olnud PDF-i link on eemaldatud ja sisu on teisaldatud järgmistesse artiklitesse.
 
 - [Aruandluse avaleht](../reports-reporting-dynamics-365-project-service.md)
 - [Armatuurlauad](../reports-dashboards.md)
 - [Project Service Automation andmemudeliga töötamine](../reports-working-project-service-data-model.md)
 
 > [!NOTE]
-> See artikkel eemaldatakse tulevases dokumentatsioonivärskenduses. 
+> See artikkel eemaldatakse tulevasest dokumentatsiooni värskendusest. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

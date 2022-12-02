@@ -1,6 +1,6 @@
 ---
 title: Projekti kulud ja tulud
-description: Selles artiklis antakse teavet projekti kulude ja tulude hindamise kohta.
+description: See artikkel annab teavet projekti kulude ja tulude prognoosimise kohta.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

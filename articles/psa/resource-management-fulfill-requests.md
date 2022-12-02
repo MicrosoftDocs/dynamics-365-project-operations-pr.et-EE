@@ -1,6 +1,6 @@
 ---
 title: Ressursinõuete täitmine
-description: Selles artiklis antakse teavet selle kohta, kuidas ressursinõudeid täita.
+description: See artikkel kirjeldab, kuidas täita ressursinõudeid.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

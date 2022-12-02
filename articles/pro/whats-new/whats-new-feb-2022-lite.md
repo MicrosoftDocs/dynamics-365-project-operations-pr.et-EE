@@ -1,6 +1,6 @@
 ---
 title: Mis on uut, veebruaris 2022 – Project Operations Lite juurutamine
-description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval Project Operations lite juurutuse 2022. aasta veebruari väljaandes.
+description: See artikkel annab teavet Project Operations lihtjuurutuse 2022. aasta veebruari väljalaskes saadaolevate kvaliteedivärskenduste kohta.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
@@ -18,22 +18,22 @@ ms.locfileid: "8922815"
 
 _Kohaldub: lihtjuurutus - tehing proforma arveldusega_
 
-See artikkel kehtib järgmiste Microsofti Dynamics 365 Project Operations komponentide ja versioonide kohta.
+See artikkel kehtib rakenduse Microsoft Dynamics 365 Project Operations järgmiste komponentide ja versioonide kohta.
 
-- Projektitoimingud keskkonnaversioonis Dataverse 4.28.0.120
+- Rakenduse Project Operations Dataverse keskkonna versioonis 4.28.0.120
 
 ## <a name="features-included-in-this-release"></a>Selles väljaandes sisalduvad funktsioonid
 
-Alates sellest väljaandest saate ühte projekti lisada kuni 300 meeskonnaliiget. Varem oli meeskonnaliikmete arvu piirang 150. Lisateavet leiate teemast [Projekti limiidid](../../project-management/create-wbs.md#project-limitations).
+Selle versiooni seisuga saate ühte projekti lisada kuni 300 meeskonnaliiget. Varem oli meeskonnaliikmete arvu piirang 150. Lisateavet leiate jaotisest [Projekti piirangud](../../project-management/create-wbs.md#project-limitations).
 
 ## <a name="quality-updates"></a>Kvaliteedi värskendused
 
 | Funktsiooni ala | Viitenumber | Kvaliteedi värskendus |
 | --- | --- | --- |
-| Arveldamine ja hinnakujundus | 2497369 | Materjali korrigeerimine peab järgima kuupäevaväärtust parameetrites **Parandus**. |
-| Arveldamine ja hinnakujundus | 2498697 | Parandas ajasisestuse tagasikutsumise **turbekonfiguratsiooni**. |
-| Arveldamine ja hinnakujundus | 2517455 | Toimingut **Värskendatud arverea kanded** ei tohi lubada käivitada sama arve puhul mitu samaaegset korda. |
-| Arveldamine ja hinnakujundus | 2517465 | Arverea **üksikasjade** desaktiveerimise toiming on blokeeritud, kuna seda ei toetata. |
-| Arveldamine ja hinnakujundus | 2556660 | Määras kuupäevaefektiivsuse kontrollid, mis tehakse projekti parameetrite kirjega seotud hinnakirjas. |
-|   Müügivõimaluste haldus | 2369202 | Parandas äriloogikat, mis kinnitab, et kattuvate efektiivsuskuupäevadega hinnakirju saab lisada samale projektilepingule. |
-|   Müügivõimaluste haldus | 2385965 | Parandas käitumist lehe Projekti leping vahekaardil **Kliendid** **, kui valite suvandi** Salvesta ja sule **.** |
+| Arveldamine ja hinnakujundus | 2497369 | Materjali parandus peab järgima kuupäeva väärtust parameetrites **Parandus**. |
+| Arveldamine ja hinnakujundus | 2498697 | Täiustatud turvakonfiguratsioon **Aja sisestuse tagasikutsumine** jaoks. |
+| Arveldamine ja hinnakujundus | 2517455 | Toimingut **Värskendatud arve rea tehingud** ei tohi lubada sama arve puhul mitu korda samaaegselt käivitada. |
+| Arveldamine ja hinnakujundus | 2517465 | Toiming **Inaktiveeri arve rea üksikasjad** on blokeeritud, kuna seda ei toetata. |
+| Arveldamine ja hinnakujundus | 2556660 | Parandatud on kuupäeva tõhususe kontrollid, mis tehakse projekti parameetrite kirjele lisatud hinnakirjas. |
+|   Müügivõimaluste haldus | 2369202 | Parandatud äriloogika, mis kontrollib, et samale projektilepingule saab lisada hinnakirju, mille kehtivuskuupäevad kattuvad. |
+|   Müügivõimaluste haldus | 2385965 | Parandasime käitumist vahekaardil **Kliendid** lehel **Projektileping**, kui valite **Salvesta ja sulge**. |

@@ -1,6 +1,6 @@
 ---
 title: Tegelikud näitajad
-description: Selles artiklis antakse teavet selle kohta, kuidas Microsofti tegelikega töötada Dynamics 365 Project Operations.
+description: See artikkel annab teavet tegelike näitajate töötamise kohta rakenduses Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -24,20 +24,20 @@ ms.locfileid: "8924793"
 
 _**Rakendub:** Project Operationsi ressursipõhiste/mittelaopõhiste stsenaariumide korral, lihtjuurutamine – tehing näidisarveldusele_
 
-Tegelikud andmed esindavad projekti läbivaadatud ja kinnitatud finantsilist ning ajakava edenemist. Need luuakse aja-, kulu- ja materjalikasutuse kannete, töölehekannete ja arvete kinnitamisel.
+Tegelikud andmed esindavad projekti läbivaadatud ja kinnitatud finantsilist ning ajakava edenemist. Need luuakse siis, kui aja-, kulu- ja materjalikasutuse kanded, päevikukanded ja arved on kinnitatud.
 
 > [!IMPORTANT]
-> Tegelikke andmeid ei tohiks süsteemist redigeerida ega kustutada. Vastasel juhul võib see kahjustada finants terviklikkust ja mis tahes integreerimist teiste finants- ja raamatupidamissüsteemidega. Microsoft Dynamics 365 Project Operations võimaldab teil kasutada tagurdamist ja tegelike asendamist, et redigeerida tegelikke andmeid oma projektide äriprotsessi elutsükli erinevates punktides.
+> Tegelikke näitajaid ei tohiks süsteemis redigeerida ega süsteemist kustutada. Vastasel juhul võib see kahjustada finantsilist terviklikkust ja integratsiooni teiste finants- ja raamatupidamissüsteemidega. Microsoft Dynamics 365 Project Operations võimaldab teil kasutada tegelike näitajate ümberpööramist ja asendamist, et muuta tegelikke näitajaid oma projektide äriprotsessi elutsükli eri punktides.
 
 ## <a name="recording-actuals-based-on-project-events"></a>Projektisündmustel põhinevate tegelike andmete kirjendamine
 
-Projektitoimingud kirjendavad projekti kaasamise elutsükli jooksul toimuvad finantstehingud tegelikena. Tegelike tegelike loomine elutsükli erinevatel üritustel varieerub sõltuvalt sellest, kas projekti kaasamine kasutab aja ja materjalide arveldusmudelit või fikseeritud hinna arveldusmudelit ja kas see on müügieelses etapis või on see sisemine projekt.
+Project Operations kirjendab projektiga seotud elutsükli jooksul toimuvad finantstehingud tegelike näitajateks. Tegelike näitajate koostamine elutsükli eri etappidel on erinev, sõltuvalt sellest, kas projekti puhul kasutatakse aja ja materjalide arvete esitamise mudelit või fikseeritud hinnaga arvete esitamise mudelit ning kas tegemist on müügieelse või sisemise projektiga.
 
-Järgmistes artiklites selgitatakse mõju tabelile Tegelikud erinevatel üritustel erinevate variatsioonide puhul:
+Järgmistes artiklites selgitatakse mõju tegelike näitajate tabelile erinevatel sündmustel erinevate variatsioonide puhul:
 
-- [Tegelikud mõjud ajas ja materjalide kaasamises](ActualsonTM.md)
-- [Tegelik mõju fikseeritud hinna kaasamisele](ActualonFP.md)
-- [Tegelik mõju töövõtu müügieelses etapis](ActualonPreSales.md)
-- [Tegelik mõju sisemisele projektile](ActualonInternal.md)
+- [Tegelike näitajate mõju aja ja materjalide kaasamisel](ActualsonTM.md)
+- [Tegelike näitajate mõju fikseeritud hinna kaasamises](ActualonFP.md)
+- [Tegelike näitajate mõju kaasamise müügieelse etapi ajal](ActualonPreSales.md)
+- [Tegelike näitajate mõju sisemise projekti jaoks](ActualonInternal.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

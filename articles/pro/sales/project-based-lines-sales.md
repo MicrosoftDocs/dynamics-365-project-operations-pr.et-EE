@@ -1,6 +1,6 @@
 ---
 title: Projektipõhise müügivõimaluse read – liht
-description: Selles artiklis antakse teavet projektipõhiste müügivõimaluse ridade kohta. (Pro)
+description: See artikkel annab teavet projektipõhiste müügivõimaluse ridade kohta. (Pro)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Plaanimisrežiimid
-description: Selles artiklis antakse teavet plaanimisrežiimide kohta.
+description: See artikkel annab teavet arvete plaanimisrežiimide kohta.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
@@ -38,7 +38,7 @@ Projekti plaanimisrežiimi määratlemisel määrate ühe nendest väärtustest,
 | Fikseeritud jõupingutusega ülesanne    | Kestus arvutatakse ümber. | Ühikud arvutatakse ümber.    | Kestus arvutatakse ümber. |
 | Fikseeritud kestusega ülesanne  | Jõupingutus arvutatakse ümber.   | Jõupingutus arvutatakse ümber.    | Ühikud arvutatakse ümber.   |
 
-Lisateavet antud režiimi konfliktide kohta leiate teemast [Täpsema ajastamise jaoks ülesandetüübi muutmine](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). Artiklis kasutatakse pingutuse **asemel terminit** Töö **·**.
+Lisateavet antud režiimi konfliktide kohta leiate teemast [Täpsema ajastamise jaoks ülesandetüübi muutmine](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). Artiklis kasutatakse terminit **Töö** termini **Jõupingutus** asemel.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>Ettevõtte plaanimisrežiimi muutmine
 

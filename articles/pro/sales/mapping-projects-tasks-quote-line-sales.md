@@ -1,6 +1,6 @@
 ---
 title: Projektide ja ülesannete vastendamine projektipõhise hinnapakkumise reaga
-description: Selles artiklis antakse teavet selle kohta, kuidas projekte ja ülesandeid projektipõhise ülesandereaga vastendada.
+description: See artikkel kirjeldab projektide ja tööülesannete vastendamist projektipõhise tööülesande reaga.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article

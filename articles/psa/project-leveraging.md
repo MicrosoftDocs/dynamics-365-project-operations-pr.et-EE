@@ -1,6 +1,6 @@
 ---
 title: Müügiprognoosid ja projektid
-description: See artikkel annab teavet selle kohta, kuidas müügiprotsessi ajakava ja hinnanguid ära kasutada.
+description: See artikkel annab teavet selle kohta, kuidas müügiprotsessis ajakava ja prognoose ära kasutada.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

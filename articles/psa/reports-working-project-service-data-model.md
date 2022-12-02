@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation andmemudeliga töötamine
-description: See artikkel annab teavet selle kohta, kuidas andmemudeliga töötada.
+description: See artikkel annab teavet andmemudeliga töötamise kohta.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -31,7 +31,7 @@ ms.locfileid: "8926679"
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 
-Dynamics 365 Project Service Automation laiendab teiste rakenduste olemeid ja tutvustab oma mudeleid teenuses Common Data Service. Selles artiklis kirjeldatakse mõningaid olemeid, millega te tüüpilistes PSA aruandlusstsenaariumides kokku puutute.
+Dynamics 365 Project Service Automation laiendab teiste rakenduste olemeid ja tutvustab oma mudeleid teenuses Common Data Service. See artikkel kirjeldab mõningaid olemeid, millega tavalistes PSA aruandluse stsenaariumites kokku puutute.
 
 ## <a name="reporting-on-opportunities"></a>Müügivõimaluste aruandlus
 
@@ -105,7 +105,7 @@ Kui töötate olemiga **Tegelik**, on oluline mõista, millised kanded on olemis
 2. Ajakirje esitamisel ei looda olemis **Tegelik** ühtegi kirjet.
 3. Ajakirje kinnitamisel luuakse olemis **Tegelik** üks kirje ja samuti saab luua ka teise kirje. Esimene kirje talletab ajakirje kulu. Teine kirje talletab ajakirje arveldamata müügisumma. Teine kirje sõltub sellest, kas projektile on määratud klient, hinnapakkumine või lepingurida.
 
-    | Dokumendi kuupäev | Kande tüüp | Kande klass | Klient         | Leping   | Ressurss     | Ressursi roll | Arvelduse tüüp | Kogus | Ühiku hind | Summa |
+    | Dokumendi kuupäev | Tehingu tüüp | Tehingu klass | Klient         | Leping   | Ressurss     | Ressursi roll | Arvelduse tüüp | Kogus | Ühiku hind | Summa |
     |---------------|------------------|-------------------|------------------|------------|--------------|---------------|--------------|----------|------------|--------|
     | 2/3/18        | Kulu             | Time              | Alpine Ski House | Alpine CRM | Airi Saar | Projektijuht   | Arveldatav   | 8.0      | 50.00      | 400.00 |
     | 2/3/18        | Arveldamata müük   | Time              | Alpine Ski House | Alpine CRM | Airi Saar | Projektijuht   | Arveldatav   | 8.0      | 100.00     | 800.00 |
@@ -114,7 +114,7 @@ Kui töötate olemiga **Tegelik**, on oluline mõista, millised kanded on olemis
 
 4. Kui projektiga on seotud leping, luuakse ajakirje eest arve esitamisel olemis **Tegelik** veel kaks kirjet. Esmalt luuakse arveldamata müügikirjele negatiivne summa. See kirje põhiliselt tühistab arveldamata müügi. Teiseks luuakse arveldatud müügi kanne. Jällegi on need kirjed eraldiseisvad, kuid seostuvad kirjed, mitte deebetid ega krediidid.
 
-    | Dokumendi kuupäev | Kande tüüp | Kande klass | Klient         | Leping   | Ressurss     | Ressursi roll | Arvelduse tüüp | Kogus | Ühiku hind | Summa   |
+    | Dokumendi kuupäev | Tehingu tüüp | Tehingu klass | Klient         | Leping   | Ressurss     | Ressursi roll | Arvelduse tüüp | Kogus | Ühiku hind | Summa   |
     |---------------|------------------|-------------------|------------------|------------|--------------|---------------|--------------|----------|------------|----------|
     | 2/4/18        | Arveldamata müük   | Time              | Alpine Ski House | Alpine CRM | Airi Saar | Projektijuht   | Arveldatav   | - 8.0    | 100.00     | - 800.00 |
     | 2/4/18        | Arveldatud müük     | Time              | Alpine Ski House | Alpine CRM | Airi Saar | Projektijuht   | Arveldatav   | 8.0      | 100.00     | 800.00   |

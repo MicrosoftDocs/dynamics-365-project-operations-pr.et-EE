@@ -1,6 +1,6 @@
 ---
 title: Kontsernisisese kliendi ja hankija arvete loomine
-description: Selles artiklis antakse teavet kontsernisiseste kliendi- ja hankijaarvete loomise kohta.
+description: See artikkel annab teavet kontsernisiseste kliendi ja hankija arvete koostamise kohta.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -27,7 +27,7 @@ Kasutage seda toimingut, et luua käsitsi kontsernisiseseid kliendi arveid proje
 
 Järgmised sammud tuleb teha laenava juriidilise üksuse jaotises. 
 
-1. Avage jaotises Dynamics 365 Finance **projektihaldus ja raamatupidamine** > **Projekti arved Kontsernisisesed** > **kliendiarved**. Valige tegevuspaani loendis **Kontsernisisese kliendi arved** suvand **Uus**.
+1. Minge rakenduses Dynamics 365 Finance jaotisse **Projektihaldus ja raamatupidamine** > **Projekti arved** > **Kontsernisisesed kliendi arved**. Valige tegevuspaani loendis **Kontsernisisese kliendi arved** suvand **Uus**.
 2. Valige lehe **IC-arve loomine** väljal **Juriidiline isik** laenu võttev juriidiline isik.
 3. Valikuline: sisestage konkreetne projekti leping ja projekti number.
 4. Piiritlege otsingut kuupäevavahemiku valimisega. Sisestage kindlaid kuupäevi väljadele **Alguskuupäev** ja **Lõppkuupäev**. Otsingutulemites kuvatakse ainult selle kuupäevavahemiku jooksul konteeritud kontsernisisesed kanded.

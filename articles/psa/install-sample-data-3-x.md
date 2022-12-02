@@ -1,6 +1,6 @@
 ---
 title: Näidisandmete installimine
-description: Selles artiklis antakse teavet näidisandmete installimise kohta Project Service Automationisse.
+description: See artikkel annab teavet Project Service Automationis näidisandmete installimise kohta.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
 ms.reviewer: johnmichalak

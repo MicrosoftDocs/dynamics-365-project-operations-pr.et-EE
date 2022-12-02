@@ -1,6 +1,6 @@
 ---
 title: Esialgse broneerimise nõuded
-description: See artikkel annab teavet selle kohta, kuidas pehme raamatu nõudeid.
+description: See artikkel kirjeldab esialgse broneerimise nõudeid.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

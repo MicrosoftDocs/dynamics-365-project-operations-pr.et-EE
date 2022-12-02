@@ -1,6 +1,6 @@
 ---
 title: Tulukalkulatsioonide haldamine
-description: Selles artiklis antakse teavet selle kohta, kuidas töötada projektide tuluprognoosidega.
+description: See artikkel annab teavet selle kohta, kuidas töötada projektide tuluprognoosidega.
 author: sigitac
 ms.date: 11/04/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8928473"
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Tulukalkulatsioone on võimalik luua, arvutada, kirjendada, pöörata ümber või eemaldada. Seda saate teha käsitsi või perioodilise protsessi kasutades. Selles artiklis antakse teavet selle kohta, kuidas töötada projektide tuluprognoosidega.
+Tulukalkulatsioone on võimalik luua, arvutada, kirjendada, pöörata ümber või eemaldada. Seda saate teha käsitsi või perioodilise protsessi kasutades. See artikkel annab teavet selle kohta, kuidas töötada projektide tuluprognoosidega.
 
 ### <a name="manage-revenue-estimates-manually"></a>Tulukalkulatsioonide käsitsi haldamine
 

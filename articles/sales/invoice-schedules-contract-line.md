@@ -1,6 +1,6 @@
 ---
 title: Arve ajakava loomine projektipõhisel lepingureal
-description: Selles artiklis antakse teavet arvegraafikute ja vahe-eesmärkide loomise kohta lepinguridadel.
+description: See artikkel annab teavet lepinguridade arve ajakavade ja vahekokkuvõtete loomise kohta.
 author: rumant
 ms.date: 10/17/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Äritehingud
-description: Selles artiklis antakse teavet äritehingute kohta.
+description: See artikkel annab teavet äritehingute kohta.
 author: rumant
 ms.custom:
 - dyn365-projectservice

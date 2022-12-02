@@ -1,6 +1,6 @@
 ---
 title: Täiustatud hinnapakkumiste tegemine, hinnakujundus ja arveldamine
-description: Selles artiklis antakse teavet projektiteenuste automatiseerimise tsiteerimise, arveldamise ja hinnakujunduse kohta.
+description: See artikkel annab teavet hinnapakkumiste koostamise, arveldamise ja hinnakujunduse kohta Project Service Automationis.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,7 +32,7 @@ ms.locfileid: "8921803"
 
 Võimalus leida õigel ajal õigeid ressursse, neid ressursse projektidele broneerida ja ressursse kasutada, aitab organisatsioonidel täita tulude ja klientide rahulolu eesmärke. 
 
-Selles artiklis varem olnud PDF-link on eemaldatud ja sisu on teisaldatud järgmistesse artiklitesse:
+Selles artiklis varem olnud PDF-i link on eemaldatud ja sisu on teisaldatud järgmistesse artiklitesse.
 
 - [Hinnapakkumised, hinnakujundus ja arveldamine](../quote-bill-price.md)
 - [Müügiprotsessid](../basic-sales-process.md)
@@ -50,7 +50,7 @@ Selles artiklis varem olnud PDF-link on eemaldatud ja sisu on teisaldatud järgm
 - [Tegelike andmete salvestamine](../advanced-actuals.md)
 
 > [!NOTE]
-> See artikkel eemaldatakse tulevases dokumentatsioonivärskenduses. 
+> See artikkel eemaldatakse tulevasest dokumentatsiooni värskendusest. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

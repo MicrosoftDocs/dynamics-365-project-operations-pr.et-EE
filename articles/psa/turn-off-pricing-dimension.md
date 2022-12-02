@@ -1,6 +1,6 @@
 ---
 title: Hinnakujunduse dimensiooni väljalülitamine
-description: Selles artiklis kirjeldatakse hinnakujundusdimensioonide seadistamist Project Service'i lahenduses.
+description: See artikkel näitab, kuidas Project Service’i lahenduses seadistada hinnakujunduse dimensioone.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Mis on uut aprillis 2022 – Project Operationsi lihtjuurutamine
-description: Selles artiklis antakse teavet Microsoft lite juurutuse 2022. aasta aprilli väljaandes saadaolevate kvaliteedivärskenduste Dynamics 365 Project Operations kohta.
+description: See artikkel annab teavet rakenduse Microsoft Dynamics 365 Project Operations lihtjuurutamise 2022. a aprilli väljalaskes saadaolevate kvaliteedivärskenduste kohta.
 author: sigitac
 ms.date: 04/08/2022
 ms.topic: article
@@ -18,21 +18,21 @@ ms.locfileid: "8927461"
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
-See artikkel kehtib järgmiste Microsofti Dynamics 365 Project Operations komponentide ja versioonide kohta.
+See artikkel kehtib rakenduse Microsoft Dynamics 365 Project Operations järgmiste komponentide ja versioonide kohta.
 
-- Projektitoimingud keskkonnaversioonis Dataverse 4.41.0.45
+- Rakenduse Project Operations Dataverse keskkonna versioonis 4.41.0.45
 
 ## <a name="quality-updates"></a>Kvaliteedi värskendused
 
 | Funktsiooni ala | Viitenumber | Kvaliteedi värskendus |
 | --- | --- | --- |
-| Aeg ja kulu | 2573900 | Funktsioon **Kaasaegne kinnitamine** peab olema vaikimisi lubatud. |
-| Arveldamine ja hinnakujundus | 2603313 | Parandas duplikaatkirje tõrke, mis takistas tootega hinnapakkumis- ja lepinguridade lisamist. |
-| Juurutamine ja konfigureerimine | 2611368 | Kliendid peavad saama lisada lahendusele kuni viis kohandatud olemit, kasutades kaasaegset rakenduse kujundajat. |
-| Aeg ja kulu | 2628285 | Lahendas probleemi, mis mõjutas võimalust määrata aja sisestamise ajal õige ressursikategooria. |
-|   Müügivõimaluste haldus| 2628815 | Värskendage hinnapakkumise rea üksikasjade kirjelduse märgipiirangut, et see vastaks ülesandesubjekti märgipiirangule, nii et importimine õnnestuks ülesannete puhul, kus teema on pikem kui 100 märki. |
-| Aeg ja kulu| 2629547 | Projekti **kinnituste väli Esitatud alus** peab osutama kirje esitanud kasutajale. |
-| Aeg ja kulu| 2629865 | Projektide **kopeerimisel ülesannete väli Kopeeri kategooria**. |
-| Aeg ja kulu| 2636463 | Kinnitage filtrid kinnitustele kaasaegsetes kinnituste vormides. |
-| Projekti plaanimine ja jälgimine | 2648300 | Lahendas probleemi, mis takistab projekti omaniku muutmist. |
-| Arveldamine ja hinnakujundus | 2563000 | Sisestamata müügi tööleheread, kus valuuta erineb lepinguvaluutast, ei tohi olla lubatud. |
+| Aeg ja kulu | 2573900 | Funktsioon **Uudne kinnitus** peab olema vaikimisi lubatud. |
+| Arveldamine ja hinnakujundus | 2603313 | Parandatud dubleeriva kirje viga, mis takistas hinnapakkumise ja lepingu ridade lisamist, millel on toode. |
+| Juurutamine ja konfiguratsioon | 2611368 | Kliendid peavad olema võimelised lisama lahendusele kuni viis kohandatud üksust, kasutades selleks uudset rakenduse kujundajat. |
+| Aeg ja kulu | 2628285 | Parandatud probleem, mis mõjutas õiget ressursikategooriat ajakirje importimisel. |
+|   Müügivõimaluste haldus| 2628815 | Värskendage hinnapakkumise rea üksikasjade kirjelduse tähemärkide piirangut, et see vastaks ülesande teema tähemärkide piirangule, nii et importimine õnnestuks ülesannete puhul, mille teema on pikem kui 100 tähemärki. |
+| Aeg ja kulu| 2629547 | Projekti kinnituste väli **Esitatud** peab osutama kasutajale, kes on kirje esitanud. |
+| Aeg ja kulu| 2629865 | Välja **Kopeeri kategooria** ülesannete puhul, kui projekte kopeeritakse. |
+| Aeg ja kulu| 2636463 | Parandatud uudsete kinnitusvormide filtrid. |
+| Projekti plaanimine ja jälgimine | 2648300 | Parandatud probleem, mis takistas projekti omaniku muutmist. |
+| Arveldamine ja hinnakujundus | 2563000 | Ei tohi lubada töölehele kandmist, mis on seotud arveldamata müügiga, mille valuuta erineb lepingu valuutast. |

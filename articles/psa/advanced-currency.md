@@ -1,6 +1,6 @@
 ---
 title: Mitme valuutaga stsenaariumid (versioon 3.x)
-description: Selles artiklis antakse teavet mitme valuuta stsenaariumide kohta.
+description: See artikkel annab teavet mitme valuuta stsenaariumide kohta.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -39,7 +39,7 @@ Näiteks, Jõgi USA müüs 100 T-särki Suurbritannia kliendile hinnaga 15 naels
 
 | Toode | Kogus | Ühiku hind | Valuuta | Summa | Vahetuskurss | Hind ühiku kohta (alus)| Summa (alus)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
-| T-särk | 100      | 15             | GBP      | 1500   | 0.94          | 17.25               | 1725       |
+| T-särk | 100      | 15             | GBP      | 1500   | 0.94          | 17,25 USD               | 1725 USD       |
 
 Veerus **Valuuta** kuvatakse tehingu valuuta. Selleks on valuuta, milles müük toimus. Veerus **Vahetuskurss** kuvatakse tehingu valuuta ja põhivaluuta vahetuskurss. Põhivaluuta on USA dollar (USD). Põhivaluuta seadistatakse juhul, kui Dynamics 365 eksemplar on ette valmistatud.
 Nagu tabelist näha, kirjendatakse kõik kanded nii tehingu valuutas kui ka põhivaluutas. Dynamics 365 kasutab valuuta vahetuskurssi põhivaluuta summade arvutamiseks.
@@ -96,7 +96,7 @@ Kui tegelikud andmed on loodud kulude jaoks, kasutades kulukirjet või töölehe
 
 Dynamics 365 tegeleb automaatselt summade ümberarvestusega erinevates valuutades. Vaatame näidet.
 
-| Kande klass | Kandetüüp| Date   | Ressurss | Kande kategooria | Kogus | Ühiku hind | Summa      | Vahetuskurss | Alussumma |
+| Tehingu klass | Kandetüüp| Date   | Ressurss | Kande kategooria | Kogus | Ühiku hind | Summa      | Vahetuskurss | Alussumma |
 |-------------------|------------------|--------|----------|----------------------|----------|--------------|-------------|---------------|----------------|
 | Time              | Arveldamata müük   | 14. juuni | Marko  |                      | 8 h    | 20 000 JPY    | 160 000 JPY | 123           | 1300.81 USD    |
 | Time              | Arveldamata müük   | 15. juuni | Marko  |                      | 8 h    | 20 000 JPY    | 160 000 JPY | 123           | 1300.81 USD    |

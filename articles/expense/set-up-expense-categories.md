@@ -1,6 +1,6 @@
 ---
 title: Kulukategooriate seadistamine
-description: Selles artiklis antakse teavet kulukategooriate ja ühiskategooriate seadistamise kohta kuluaruannete jaoks.
+description: See artikkel kirjeldab kuluarvestuse kulukategooriate ja kuluaruannete ühiskasutuses olevate kategooriate seadistamist.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

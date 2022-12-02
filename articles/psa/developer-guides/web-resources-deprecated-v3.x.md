@@ -1,6 +1,6 @@
 ---
 title: Iganenud veebiressursid Project Service Automation versioonis 3.x
-description: Selles artiklis kirjeldatakse veebiressursse, mida 3.0-s Dynamics 365 Project Service Automation enam ei kasutata.
+description: See artikkel kirjeldab veebiressursse, mida enam Dynamics 365 Project Service Automation versioonis 3.0 ei kasutata.
 author: makk
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Olemi, juhtelemendi ja kasutajaliidese muudatused (Project Service Automation 3.x)
-description: Selles artiklis kirjeldatakse project service automation 3.x lahenduse muudatusi Microsoft Dynamics.
+description: See artikkel kirjeldab rakenduse Microsoft Dynamics Project Service Automation 3.x lahenduse muudatusi.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8926863"
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-Rakenduse Microsoft Dynamics Project Service Automation (PSA) 3.x väljaandes on tehtud palju muudatusi olemitele, juhtelementidele, vaadetele ja kasutajaliidesele. See artikkel annab teavet nende oluliste muudatuste kohta.
+Rakenduse Microsoft Dynamics Project Service Automation (PSA) 3.x väljaandes on tehtud palju muudatusi olemitele, juhtelementidele, vaadetele ja kasutajaliidesele. See artikkel annab teavet tähtsate muudatuste kohta.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Põhi- ja tütarüksuste seosed müügidokumendi, müügidokumendi rea, müügidokumendi rea üksikasjade olemite jaoks
 Enne versiooni 3.0 välja antud rakenduse Dynamics 365 Project Service Automation (PSA) versioonides rakendati osa müügidokumentide, müügidokumentide ridade ja müügidokumentide rea üksikasjade olemite vahelistest seostest stringiväljade kaudu, mis sisaldaks seotud üksuse GUID stringi esitust. Selle põhjuseks olid platvormi piirangud, mis nõudsid lahenduse serveri ja kliendi pooltel märkimisväärset kohandatud koodi, et muuta need suhted sarnasteks tüüpiliste rakenduse Dynamics CRM olemisuhetega ja panna stringi väljad toimima nagu otsinguväljad.

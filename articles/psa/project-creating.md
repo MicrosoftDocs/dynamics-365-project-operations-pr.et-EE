@@ -1,6 +1,6 @@
 ---
 title: Projekti ajakavad
-description: See artikkel annab teavet ajakava loomise kohta.
+description: See artikkel kirjeldab ajakava loomist.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

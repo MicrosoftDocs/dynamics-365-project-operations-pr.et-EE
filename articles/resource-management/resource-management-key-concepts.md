@@ -1,6 +1,6 @@
 ---
 title: Ressursihalduse põhimõisted
-description: Selles artiklis antakse teavet ressursihaldusvõimaluste kohta Project Operationsis Microsoft Dynamics.
+description: See artikkel annab teavet ressursihalduse võimalustest rakenduses Microsoft Dynamics Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

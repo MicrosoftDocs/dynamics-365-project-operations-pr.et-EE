@@ -1,6 +1,6 @@
 ---
 title: Projektide kulude finantsprognoosid
-description: Selles artiklis antakse teavet projektipõhiste kulude määratlemise või hindamise kohta.
+description: See artikkel annab teavet projektipõhiste kulude määratlemise või prognoosimise kohta.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

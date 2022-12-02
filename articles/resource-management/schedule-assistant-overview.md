@@ -1,6 +1,6 @@
 ---
 title: Ajakava abi ülevaade
-description: Selles artiklis antakse teavet ressursside broneerimise assistendiga töötamise kohta.
+description: See artikkel annab teavet ajakava abimehega töötamise kohta ressursside broneerimisel.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview

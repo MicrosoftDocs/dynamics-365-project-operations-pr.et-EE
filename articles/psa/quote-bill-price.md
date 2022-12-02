@@ -1,6 +1,6 @@
 ---
 title: Hinnapakkumise, hinnakujunduse ja arveldamise avaleht
-description: Selles artiklis antakse teavet tsiteerimise, hinnakujunduse ja arveldamise kohta.
+description: See artikkel annab teavet hinnapakkumise, hinnakujunduse ja arveldamise kohta.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -33,7 +33,7 @@ ms.locfileid: "8926725"
 
 Hinnapakkumine, hinnakujundus ja arveldamine on funktsioonid, mida kasutavad nii väikesed kui ka suured organisatsioonid. Kui mõistate, kuidas need funktsioonid rakenduses töötavad, saavad organisatsioonid konfiguratsioone hõlpsamini kohandada.
 
-Järgmised artiklid annavad lisateavet PSA tsiteerimise, hinnakujunduse ja arveldusfunktsioonide kohta.
+Järgmistest artiklitest leiate lisateavet rakenduse PSA funktsioonide hinnapakkumine, hinnakujundus ja arveldamine kohta.
 
 - [Müügiprotsess](basic-sales-process.md)
 - [Hinnapakkumise read](basic-quote-lines.md)

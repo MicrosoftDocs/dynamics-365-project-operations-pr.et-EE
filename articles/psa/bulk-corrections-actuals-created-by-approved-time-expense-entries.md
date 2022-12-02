@@ -1,6 +1,6 @@
 ---
 title: Kinnitatud aja- ja kulukirjete loodud tegelike näitajate hulgiparandused
-description: Selles artiklis selgitatakse, kuidas administraator saab varem kinnitatud aja- või kulukannetes üksikuid või hulgiparandusi teha, kui arveldamine pole lõpule viidud.
+description: See artikkel selgitab, kuidas administraator saab teha üksikuid või hulgiparandusi varem kinnitatud aja- või kulukirjetesse, kui arveldamine pole lõpule viidud.
 author: rumant
 ms.date: 04/02/2020
 ms.topic: article
@@ -28,7 +28,7 @@ ms.locfileid: "8916284"
 
 Mõnikord võib aja- või kulukirje olla valesti sisestatud. Näiteks võib konsultant ajakirje loomisel valida vale kuupäev või kulu sisestades numbrite järjekorda muuta. Kui konsultant ei saa esitatud kirjetele värskendusi teha, saab administraator projekti kirje otse ära parandada.
 
-Selles artiklis toodud protseduuride lõpuleviimiseks on vaja administraatori õigusi.
+Selle artikli toimingute lõpuleviimiseks on teil vaja administraatori õigusi.
 
 ## <a name="correct-approved-time-entries"></a>Kinnitatud ajakirjete parandamine     
 

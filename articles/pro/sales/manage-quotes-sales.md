@@ -1,6 +1,6 @@
 ---
 title: Projekti hinnapakkumiste haldamine
-description: Selles artiklis antakse teavet projektipakkumiste kohta.
+description: See artikkel annab teavet projekti hinnapakkumiste kohta.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
@@ -33,7 +33,7 @@ Kõigi projekti hinnapakkumiste loendit saab vaadata loendi **Hinnapakkumised** 
 Hinnapakkumisi saab luua või kustutada sellelt loendi lehelt või üksikasjade lehtedelt.
 
  > [!NOTE]
- > Hinnapakkumisi, millega on seotud projektid, ülesanded, hinnangud, töölehed ja/või tegelikud andmed, ei saa kustutada. Samuti, kui hinnapakkumine on suletud kui Võidetud või Kadunud, ei saa seda enam kustutada ega muuta. 
+ > Hinnapakkumisi, millega on seotud projekte, ülesandeid, hinnanguid, töölehti ja/või tegelikke näitajaid, ei saa kustutada. Samuti, kui hinnapakkumine on suletud kui Võidetud või Kaotatud, ei saa seda enam kustutada ega muuta. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Project Operationsi topeltkirjutamise integreerimine
-description: Selles artiklis antakse ülevaade Project Operationsi kahekirjutamise integratsioonist.
+description: See artikkel annab ülevaate rakenduse Project Operations topeltkirjutuse integreerimisest.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: overview
@@ -18,7 +18,7 @@ ms.locfileid: "8927967"
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Project Operations kasutab [andmete sünkroonimiseks Dynamics 365 Finance ja](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page) Dynamics 365 Finance kahe kirjutamise võimalusi Microsoft Dataverse.
+Project Operations kasutab [topeltkirjutuse võimalusi](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page), et sünkroonida andmed rakendustes Microsoft Dataverse ja Dynamics 365 Finance.
 
 Järgmisel joonisel on näidatud, kuidas andmeid sünkroonitakse selle Dataverse’i ja Finance’i vahelise integreerimise osana.
 

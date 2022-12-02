@@ -1,6 +1,6 @@
 ---
 title: Arve automaatse loomise häälestamine
-description: Selles artiklis antakse teavet proforma arvete automaatse loomise häälestamise ja konfigureerimise kohta.
+description: See artikkel annab teavet esialgsete kaubaarvete automaatse loomise seadistamise ja konfigureerimise kohta.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

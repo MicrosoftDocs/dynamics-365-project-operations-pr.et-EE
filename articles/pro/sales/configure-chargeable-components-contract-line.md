@@ -1,6 +1,6 @@
 ---
 title: Projektipõhise lepingurea arveldatavate komponentide konfigureerimine
-description: Selles artiklis antakse teavet selle kohta, kuidas lisada projektitoimingute lepinguridadele tasulisi komponente.
+description: See artikkel annab teavet selle kohta, kuidas lisada tasulisi komponente Project Operationsi lepinguridadesse.
 author: rumant
 ms.date: 10/08/2020
 ms.topic: article

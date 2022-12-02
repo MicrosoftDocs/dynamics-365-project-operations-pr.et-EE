@@ -1,6 +1,6 @@
 ---
 title: Prognooside loomine hinnapakkumise real
-description: Selles artiklis antakse teavet selle kohta, kuidas luua projekti hinnapakkumisreal hinnang.
+description: See artikkel annab teavet, kuidas luua projekti hinnapakkumise real prognoosi.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

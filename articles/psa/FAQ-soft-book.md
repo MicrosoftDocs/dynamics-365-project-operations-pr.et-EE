@@ -1,6 +1,6 @@
 ---
 title: Ressursi esialgne reserveerimine
-description: See artikkel annab teavet selle kohta, kuidas esialgselt planeerida või pehme raamatu projekti meeskonna liikmeid.
+description: See artikkel kirjeldab, kuidas projekti meeskonna liikmeid ajastada või esialgselt reserveerida.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

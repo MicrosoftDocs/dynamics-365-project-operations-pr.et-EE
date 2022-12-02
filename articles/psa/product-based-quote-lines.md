@@ -1,6 +1,6 @@
 ---
 title: Tootepõhised hinnapakkumise read
-description: Selles artiklis antakse teavet tootepõhiste hinnapakkumisridade kohta.
+description: See artikkel annab teavet tootel põhinevate hinnapakkumiste ridade kohta.
 author: rumant
 ms.custom:
 - dyn365-projectservice

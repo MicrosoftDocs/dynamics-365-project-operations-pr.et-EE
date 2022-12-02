@@ -1,6 +1,6 @@
 ---
 title: Ressursihalduse KKK
-description: See artikkel annab vastused korduma kippuvatele küsimustele ressursside haldamise kohta.
+description: See artikkel annab vastused ressursihalduse korduma kippuvatele küsimustele.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

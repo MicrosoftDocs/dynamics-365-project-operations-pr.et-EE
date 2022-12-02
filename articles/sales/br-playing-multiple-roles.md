@@ -1,6 +1,6 @@
 ---
 title: Projekti müügi ja kulude hindamine, kui broneeritav ressurss täidab projekti jaoks mitu rolli
-description: Selles artiklis selgitatakse, kuidas kasutada hinnakujundusdimensioone, et toetada hinnakujunduse ja kuluarvestuse hinnanguid ressursile, mis täidab projektis mitu rolli.
+description: See artikkel selgitab, kuidas kasutada hinnakujunduse dimensioone, et toetada ressursi hinnakujundust ja kuluprognoose, mis täidavad projektis mitut rolli.
 author: rumant
 ms.date: 11/16/2020
 ms.topic: article

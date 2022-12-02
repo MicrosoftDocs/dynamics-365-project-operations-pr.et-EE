@@ -1,6 +1,6 @@
 ---
 title: Lisandmooduli atribuutide värskendamine uute hinnakujunduse dimensioonidega
-description: Selles artiklis antakse teavet hinnakujundusdimensioonide lisandmooduli atribuutide värskendamise kohta.
+description: See artikkel annab teavet selle kohta, kuidas värskendada hinnakujunduse dimensioonide jaoks lisandmooduli atribuute.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.locfileid: "8920009"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Lisandmooduli atribuutide värskendamine uute hinnakujunduse dimensioonidega
 
-Selles artiklis antakse teavet hinnakujundusdimensioonide lisandmooduli atribuutide värskendamise kohta.
+See artikkel annab teavet selle kohta, kuidas värskendada hinnakujunduse dimensioonide jaoks lisandmooduli atribuute.
 
 > [!NOTE]
-> See artikkel kehtib ainult rakenduses olevatele hinnapakkumis- ja lepingufunktsioonidele Dynamics 365 Project Operations.
+> See artikkel kehtib ainult rakenduse Dynamics 365 Project Operations hinnapakkumise ja lepingu funktsioonide kohta.
 
 ## <a name="prerequisites"></a>eeltingimused
-Enne selle artikli juhiste täitmist peate olema täitnud järgmistes artiklites toodud protseduurid.
+Enne selles artiklis toodud juhiste täitmist peate viima lõpule toimingud järgmistes artiklites.
 
   - [Kohandatud väljade ja olemite loomine](create-custom-fields-entities-pricing-dimensions.md) 
   - [Kohandatud väljade lisamine hinna seadistusele ja ülekande olemitele ](add-custom-fields-price-setup-transactional-entities.md)
   - [Kohandatud väljade seadistamine hinnakujunduse dimensioonidena](set-up-custom-fields-pricing-dimensions.md). 
   
-Kui te ei ole neid protseduure lõpetanud, täitke need ja seejärel naaske selle artikli juurde.
+Kui te pole neid toiminguid lõpetanud, viige need lõpuni ja seejärel tulge selle artikli juurde tagasi.
 
 ## <a name="register-a-plug-in"></a>Lisandmooduli registreerimine
 Kui projekti hinnapakkumise rea jaoks luuakse lehel **Hinnapakkumise rida** hinnapakkumise rea üksikasi, loob süsteem kaks hinnangu rida. Üks rida on hinnangu kulupoole jaoks ja teine rida on müügipoole jaoks. Sama kehtib ka projekti lepinguridade kohta.

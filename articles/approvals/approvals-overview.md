@@ -1,6 +1,6 @@
 ---
 title: Kinnituste ülevaade
-description: Selles artiklis antakse teavet projektitoimingute kinnitustega töötamise kohta.
+description: See artikkel annab teavet kinnitustega töötamise kohta rakenduses Project Operations.
 author: stsporen
 ms.date: 03/31/2021
 ms.topic: overview

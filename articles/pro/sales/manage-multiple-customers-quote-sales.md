@@ -1,6 +1,6 @@
 ---
 title: Projekti hinnapakkumistes mitme kliendi haldamine – liht
-description: See artikkel annab teavet pakkumistega töötamise kohta mitme kliendiga, kes projekti rahastavad. (Sales)
+description: See artikkel annab teavet hinnapakkumiste koostamise kohta mitme kliendiga, kes rahastavad projekti. (Sales)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

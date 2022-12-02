@@ -1,6 +1,6 @@
 ---
 title: Hankijalt kinnipidamise ülevaade
-description: Selles artiklis antakse ülevaade hankija säilitamise võimalustest.
+description: See artikkel annab ülevaate hankijalt kinnipidamise võimalustest.
 author: sigitac
 ms.date: 10/01/2021
 ms.topic: overview

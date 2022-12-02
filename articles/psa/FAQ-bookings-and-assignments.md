@@ -1,6 +1,6 @@
 ---
 title: Ressursi broneeringud ja kuidas need on seotud ülesande määramistega
-description: Selles artiklis antakse teavet selle kohta, kuidas hallata nimega ressursse, ressursibroneeringuid ja tööülesandeid ning kuidas need omavahel seotud on.
+description: See artikkel annab teavet selle kohta, kuidas hallata nimega ressursse, ressursside broneerimist ja ülesande määramist ning seda, kuidas need üksteisega seotud on.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

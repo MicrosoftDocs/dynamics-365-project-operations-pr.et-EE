@@ -1,6 +1,6 @@
 ---
 title: Projekti hinnapakkumiste loomine müügivõimalustest
-description: Selles artiklis antakse teavet müügivõimalusest projekti hinnapakkumise loomise kohta.
+description: See artikkel annab teavet müügivõimalusest projekti hinnapakkumise loomise kohta.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

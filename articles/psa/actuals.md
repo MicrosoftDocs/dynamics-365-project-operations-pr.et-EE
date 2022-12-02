@@ -1,6 +1,6 @@
 ---
 title: Tegelike näitajate ülevaade
-description: See artikkel annab teavet projekti tegelike kohta.
+description: See artikkel annab teavet projekti tegelike andmete kohta.
 author: rumant
 ms.custom:
 - dyn365-projectservice

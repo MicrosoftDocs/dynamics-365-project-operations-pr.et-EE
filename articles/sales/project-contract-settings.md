@@ -1,6 +1,6 @@
 ---
 title: Projekti lepingu sätted
-description: Selles artiklis antakse teavet lepinguridu mõjutavate väljade ja lepingu kohta käiva teabe kohta, mis on kokku võetud kõigis reaüksustes.
+description: See artikkel kirjeldab välju, mis mõjutavad lepinguridu ja annab lepingu kohta teavet, mis summeeritakse kõigist reaüksustest.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8921573"
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Selles artiklis antakse teavet väljade kohta, mis rakenduvad kogu projektilepingule, sh sätteid, mis mõjutavad kõiki lepinguridu. Kaasatakse ka teave lepingu kohta, mis on võetud kokku kõigist reaüksustest, et juhtida projekti lepingu KPI-sid.
+See artikkel kirjeldab välju, mis rakenduvad kogu projekti lepingule, sh kõiki lepinguridu mõjutavaid sätteid. Kaasatakse ka teave lepingu kohta, mis on võetud kokku kõigist reaüksustest, et juhtida projekti lepingu KPI-sid.
 
 Järgmises tabelis on esitatud projektilepingu väljad, mis on rakendusele Dynamics 365 Project Operations kordumatud või mille käitumises on tehtud võrreldes rakendusega Dynamics 365 Sales olulisi muudatusi.
 

@@ -1,6 +1,6 @@
 ---
 title: Ajakirje kasutajaliidese käitumine
-description: See artikkel annab teavet kasutajaliidese käitumise kohta ajasisestuse jaoks.
+description: See artikkel annab teavet kasutajaliidese käitumise kohta ajakirjega.
 author: stsporen
 ms.date: 03/03/2021
 ms.topic: article

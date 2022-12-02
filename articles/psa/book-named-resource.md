@@ -1,6 +1,6 @@
 ---
 title: Broneeri nimega ressursid ressursinõuetest
-description: Selles artiklis antakse teavet nimega ressursside broneerimise kohta üldise ressursi nõude jaoks.
+description: See artikkel annab teavet nimeliste ressursside broneerimise kohta üldiste ressursinõuete jaoks.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

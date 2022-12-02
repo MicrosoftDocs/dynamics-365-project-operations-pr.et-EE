@@ -1,6 +1,6 @@
 ---
 title: Arveldatavate projektide raamatupidamise konfigureerimine
-description: Selles artiklis antakse teavet arveldatavate projektide arvestusvõimaluste kohta.
+description: See artikkel annab teavet arveldatavate projektide raamatupidamisvalikute kohta.
 author: sigitac
 ms.date: 04/05/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Ressursi nõuete määratlemine
-description: Selles artiklis antakse teavet ressursivajaduse teabe määratlemise kohta.
+description: See artikkel kirjeldab ressursinõude andmete määratlemist.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

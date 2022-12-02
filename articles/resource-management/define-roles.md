@@ -1,6 +1,6 @@
 ---
 title: Rollide määratlemine
-description: Selles artiklis antakse link teabele broneeritavate ressursikategooriate seadistamise kohta.
+description: Selles artiklis on toodud link teabe juurde broneeritavate ressursikategooriate häälestamise kohta.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article

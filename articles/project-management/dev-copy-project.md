@@ -1,6 +1,6 @@
 ---
 title: Projekti mallide arendamine funktsiooniga Kopeeri projekt
-description: Selles artiklis antakse teavet projektimallide loomise kohta kohandatud toimingu Kopeeri project abil.
+description: See artikkel annab teavet selle kohta, kuidas kohandatud toimingut Kopeeri projekt kasutades projekti malle luua.
 author: stsporen
 ms.date: 03/10/2022
 ms.topic: article
@@ -25,42 +25,42 @@ Kui valite suvandi **Kopeeri projekt**, värskendatakse sihtprojekti olekut. Kas
 
 ### <a name="name"></a>Nimetus 
 
-msdyn\_ CopyProjectV3
+msdyn\_CopyProjectV3
 
 ### <a name="input-parameters"></a>Sisendparameetrid
 
 Olemas on kolm sisendparameetrit.
 
-- **ReplaceNamedResources** või **ClearTeamsAndAssignments** – määrake ainult üks suvanditest. Ära sea mõlemat.
+- **ReplaceNamedResources** või **ClearTeamsAndAssignments** – Määrake ainult üks suvanditest. Ärge määrake mõlemat.
 
-    - **\{"ReplaceNamedResources":true\}** – Project Operationsi vaikekäitumine. Kõik nimetatud ressursid asendatakse üldiste ressurssidega.
-    - **\{"ClearTeamsAndAssignments":true\}** – Project for the Web vaikekäitumine. Kõik ülesanded ja meeskonnaliikmed eemaldatakse.
+    - **\{"ReplaceNamedResources":true\}** – Rakenduse Project Operations vaikekäitumine. Kõik nimetatud ressursid asendatakse üldiste ressurssidega.
+    - **\{"ClearTeamsAndAssignments":tõene\}** – Project for the Webi vaikekäitumine. Kõik ülesanded ja meeskonnaliikmed eemaldatakse.
 
-- **SourceProject** – lähteprojekti olemiviide, millest kopeerida. See parameeter ei saa olla tühine.
-- **Sihtmärk** – sihtprojekti olemiviide, kuhu kopeerida. See parameeter ei saa olla tühine.
+- **SourceProject** – Lähteprojekti olemiviide, millelt kopeerida. See parameeter ei saa olla nullväärtusega.
+- **Sihtmärk** – Sihtprojekti olemiviide, millele kopeerida. See parameeter ei saa olla nullväärtusega.
 
-Järgmises tabelis on esitatud kokkuvõte kolmest parameetrist.
+Järgmises tabelis on kokkuvõte kolmest parameetrist.
 
 | Parameeter                | Tüüp             | Väärtus                 |
 |--------------------------|------------------|-----------------------|
-| ReplaceNamedResources    | Loogiline          | **Tõene** või **väär** |
-| ClearTeamsAndAssignments | Loogiline          | **Tõene** või **väär** |
+| ReplaceNamedResources    | Loogiline          | **Tõene** või **Väär**. |
+| ClearTeamsAndAssignments | Loogiline          | **Tõene** või **Väär**. |
 | SourceProject            | Olemi viide | Lähteprojekt    |
 | Sihtkeel                   | Olemi viide | Sihtprojekt    |
 
-Toimingute vaikesätete kohta leiate lisateavet teemast [Veebi API toimingute](/powerapps/developer/common-data-service/webapi/use-web-api-actions) kasutamine.
+Lisateavet toimingute vaikeväärtuste kohta leiate teemast [Veebi API toimingute kasutamine](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
 
-### <a name="validations"></a>Valideerimised
+### <a name="validations"></a>Kinnitused
 
-Järgmised valideerimised on tehtud.
+Tehakse järgmised kinnitused.
 
-1. Null kontrollib ja toob lähte- ja sihtprojektid, et kinnitada mõlema projekti olemasolu organisatsioonis.
-2. Süsteem kinnitab, et sihtprojekt kehtib kopeerimiseks, kontrollides järgmisi tingimusi.
+1. Null kontrollib ja otsib lähte- ja sihtprojekte, et kinnitada mõlema projekti olemasolu organisatsioonis.
+2. Süsteem kinnitab, et sihtprojekt on kopeerimiseks sobiv, kontrollides järgmisi tingimusi:
 
-    - Projektis pole varasemat tegevust (sh vahekaardi Tööülesanded **valimine**) ja projekt on äsja loodud.
-    - Varasemat koopiat pole, selles projektis pole importi taotletud ja projektil pole olekut **Nurjunud**.
+    - Projektil pole varasemaid tegevusi (sh vahekaardi **Ülesanded** valik) ja projekt on äsja loodud.
+    - Eelmist koopiat pole, sellel projektil pole importimist taotletud ja projekti olek ei ole **Ebaõnnestunud**.
 
-3. Toimingut ei kutsuta HTTP abil.
+3. Toimingut ei kutsuta HTTP-d kasutades.
 
 ## <a name="specify-fields-to-copy"></a>Määrake kopeeritavad väljad
 
@@ -68,7 +68,7 @@ Kui tegevus valitakse, vaatav suvand **Kopeeri projekt** projektivaadet **Kopeer
 
 ### <a name="example"></a>Näide
 
-Järgmises näites on näidatud, kuidas helistada **copyProjectV3** kohandatud toimingule parameetrikomplektiga **removeNamedResources**.
+Järgmine näide näitab, kuidas kutsuda **CopyProjectV3** kohandatud toimingut parameetrikomplektiga **removeNamedResources**.
 
 ```C#
 {

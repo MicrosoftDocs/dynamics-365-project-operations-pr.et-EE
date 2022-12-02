@@ -1,6 +1,6 @@
 ---
 title: Projektipõhistel lepinguridadel mitme kliendi haldamine – liht
-description: Selles artiklis antakse teavet mitme kliendi haldamise kohta projektipõhistel lepinguridadel.
+description: See artikkel annab teavet projektipõhistel lepinguridadel mitme kliendi haldamise kohta.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

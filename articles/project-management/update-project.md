@@ -1,6 +1,6 @@
 ---
 title: Projekti loomine ja värskendamine
-description: Selles artiklis antakse teavet projektide värskendamise kohta Project Operations.
+description: See artikkel annab teavet rakenduses Project Operations projektide värskendamise kohta.
 author: ruhercul
 ms.date: 10/20/2021
 ms.topic: article

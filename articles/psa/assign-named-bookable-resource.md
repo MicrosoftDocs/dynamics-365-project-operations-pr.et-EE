@@ -1,6 +1,6 @@
 ---
 title: Broneerige projekti meeskonnale nimega broneeritavad ressursid ja määrake ülesandeid
-description: Selles artiklis antakse teavet selle kohta, kuidas broneerida nimelisi ressursse projektimeeskondadele ja määrata need ülesannetele.
+description: See artikkel annab teavet selle kohta, kuidas broneerida nimelisi ressursse projektimeeskondadele ja määrata neid ülesannetele.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
-title: Täpsemad organisatsiooniüksused
-description: Selles artiklis antakse teavet rakenduse organisatsiooniüksuste kohta Dynamics 365 Project Service Automation.
+title: Täiendatud organisatsiooniüksused
+description: See artikkel annab teavet organisatsiooniüksuste kohta Dynamics 365 Project Service Automationis.
 author: rumant
 ms.custom:
 - dyn365-projectservice

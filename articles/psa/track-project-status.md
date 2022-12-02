@@ -37,7 +37,7 @@ Tegevuste edenedes värskendatakse projekti etappe, kajastades tegevuste etappi.
 | Toiming | Kirjeldus | 
 |------------|----------|
 | **New** | Projekti loomisel määratakse etapiks **Uus**. Kui lõite projekti mallist, võib projektil olla selles staadiumis ajakava hinnanguid ja meeskonnaandmeid. Vastasel korral on tegemist projekti struktuuriga ja ülejäänud projekti komponendid tuleb käsitsi sisestada. |
-| **Hinnapakkumine** |  Kui seostate projekti hinnapakkumisega või loote selle hinnapakkumisest, seatakse projektietapiks **Hinnapakkumine** ning värskendatakse ka hinnangulisi algus- ja lõppkuupäevi. Kui projekt on hinnapakkumise staadiumis, kuvatakse hinnapakkumise üksikasjad vahekaardil **Müük** lehel **Projekt**. |
+| **Hinnapakkumine** |  Kui seostate projekti hinnapakkumisega või loote selle hinnapakkumise põhjal, määratakse projekti etapiks **Hinnapakkumine** ning värskendatakse ka eeldatavaid algus- ja lõppkuupäevi. Kui projekt on hinnapakkumise staadiumis, kuvatakse hinnapakkumise üksikasjad vahekaardil **Müük** lehel **Projekt**. |
 | **Plaan** |  Kui võidate projektiga seotud hinnapakkumise ja tegevused jõuavad lepingu etappi, määratakse projekti etapiks **Plaan**. Lepingu üksikasjad kuvatakse vahekaardil **Müük** lehel **Projekt**. |
 | **Lõpule viidud** | Kui projekti töö on lõpetatud, saate määrata etapiks **Valmis**. Kui projekti etapiks on määratud Valmis, siis tähendab see, et töö on 100% valmis, kuid projekt hoitakse avatuna pooleliolevate aja- või kulukirjete registreerimiseks. |
 | **Sule** | Kui kõik projekti toimingud on registreeritud ja neid pole enam vaja logida, võite märkida etapiks käsitsi **Sule**. Kui projekti olekuks on määratud **Sule**, ei saa logida projekti rohkem kandeid ja projekt on kirjutuskaitstud. |

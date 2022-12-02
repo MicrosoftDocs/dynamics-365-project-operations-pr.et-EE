@@ -1,6 +1,6 @@
 ---
 title: Projektipõhise näidisarve kinnitamine
-description: Selles artiklis antakse teavet proforma projektipõhise arve kinnitamise kohta.
+description: See artikkel annab teavet esialgse kaubaarve kinnitamise kohta.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

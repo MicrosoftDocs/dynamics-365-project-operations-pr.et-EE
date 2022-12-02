@@ -1,6 +1,6 @@
 ---
 title: Kontsernisisese projekti arveldamise konfigureerimine
-description: Selles artiklis kirjeldatakse, kuidas seadistada projekti arveldamine teie organisatsiooni kahe ettevõtte vahel.
+description: See artikkel näitab, kuidas seadistada projektiga arveldamist kahe ettevõtte vahel teie organisatsioonis.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -25,7 +25,7 @@ ms.locfileid: "8916605"
 
 [!include [banner](../../includes/banner.md)]
 
-Selles artiklis kirjeldatakse, kuidas seadistada projekti arveldamine teie organisatsiooni kahe ettevõtte vahel. Selle toiming kasutab USSI andmekomplekti.
+See artikkel näitab, kuidas seadistada projektiga arveldamist kahe ettevõtte vahel teie organisatsioonis. Selle toiming kasutab USSI andmekomplekti.
 
 1. Minge navigeerimispaani jaotisse **Moodulid > Ostureskontro > Tarnijad > Kõik tarnijad**.
 2. Loendis **Kõik tarnijad** leidke ja valige soovitud kirje.

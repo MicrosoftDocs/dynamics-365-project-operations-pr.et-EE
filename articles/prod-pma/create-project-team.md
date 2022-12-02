@@ -1,6 +1,6 @@
 ---
 title: Projektimeeskonna loomine
-description: Selles artiklis antakse teavet projektimeeskondade loomise ja haldamise kohta.
+description: See artikkel annab teavet projektimeeskonna loomise ja haldamise kohta.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

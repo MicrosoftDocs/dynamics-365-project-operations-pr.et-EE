@@ -1,6 +1,6 @@
 ---
 title: Arengu koduleht (Project Service Automation 3. x)
-description: Selles artiklis on lingid artiklitele, mis annavad arendusteavet (PSA) versioonile Dynamics 365 Project Service Automation 3.x.
+description: See artikkel sisaldab linke artiklitele, mis pakuvad arenguteavet rakenduse Dynamics 365 Project Service Automation (PSA) versiooni 3. x jaoks.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8928979"
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-Dynamics 365 Project Service Automation 3.x pakub uusi funktsioone, uute platvormide kasutamise võimalusi ning olemasolevate funktsioonide täiustamist erinevates valdkondades. Järgmised artiklid annavad lisateavet PSA uusimas versioonis tehtud muudatuste kohta.
+Dynamics 365 Project Service Automation 3.x pakub uusi funktsioone, uute platvormide kasutamise võimalusi ning olemasolevate funktsioonide täiustamist erinevates valdkondades. Järgmistest artiklitest leiate lisateavet PSA uusimas versioonis tehtud muudatuste kohta.
 
 - [Olemi, juhtelemendi ja kasutajaliidese muudatused (Project Service Automation 3.x)](../developer-guides/entity-changes-v3.x.md)
 - [Aja ja kulude muudatused (Project Service Automation 3.x)](../developer-guides/time-expense-changes-v3.x.md)

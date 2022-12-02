@@ -1,6 +1,6 @@
 ---
 title: Krediitkaardi integratsiooni seadistamine
-description: Selles artiklis selgitatakse, kuidas töötada kuludega seotud krediitkaardikannetega.
+description: See artikkel selgitab, kuidas töötada kuludega seotud krediitkaarditehingutega.
 author: suvaidya
 ms.date: 11/17/2021
 ms.topic: article
@@ -30,7 +30,7 @@ Kuluga seotud krediitkaarditehinguid saab seadistada nii, et need imporditakse a
 
 Krediitkaarditehingute importimiseks toimige järgmiselt.
 
-1. Valige lehel **Krediitkaarditehingud** suvand **impordi tehingud**. Kui avate andmehalduse esimest korda, peab süsteem enne jätkamist andmeolemite loendit värskendama.
+1. Valige lehel **Krediitkaarditehingud** suvand **impordi tehingud**. Kui avate andmehaldust esimest korda, peab süsteem enne jätkamist värskendama andmete olemite loendit.
 2. Sisestage väljale **Nimi** imporditöö kordumatu kirjeldus.
 3. Valige väljal **Allika andmete vorming** imporditavaid krediitkaarditehinguid sisaldava faili vorming.
 4. Valige **Laadi üles** ja seejärel otsige ja valige imporditav fail.
@@ -44,24 +44,24 @@ Krediitkaarditehingute importimiseks toimige järgmiselt.
 
 ## <a name="reassign-the-credit-card-transactions-for-terminated-employees"></a>Lahkunud töötajate krediitkaarditehingute mujale määramine
 
-Pärast töötajakirje lõpetamist on töötaja Active Directory domeeniteenuste (AD DS) konto keelatud. Siiski võib esineda aktiivseid krediitkaarditehinguid, mida peab veel kuludesse kandma ja tagasi maksma. Lehel **Krediitkaarditehingud** saate määrata töötaja ümber mis tahes krediitkaarditehingu jaoks, kus seostatud töötaja on eemaldatud.
+Pärast seda, kui töötaja kirje on lõpetatud, on töötaja Active Directory Domain Services (AD DS) konto keelatud. Siiski võib esineda aktiivseid krediitkaarditehinguid, mida peab veel kuludesse kandma ja tagasi maksma. Lehel **Krediitkaarditehingud** saate määrata töötaja ümber mis tahes krediitkaarditehingu jaoks, kus seostatud töötaja on eemaldatud.
 
 Valige üks või mitu krediitkaarditehingut ja seejärel valige **Kannete ümbermääramine**. Seejärel saate valida mõne muu töötaja, kellele soovite krediitkaarditehingud määrata. Pärast seda, kui krediitkaarditehingud on ümber määratud, saab neid valida kuluaruande jaoks ja tagasi maksta kuluaruande tavalise protsessi kaudu.
 
 ## <a name="delete-credit-card-transactions"></a>Krediitkaarditehingute kustutamine 
 
-Mõnikord võib pärast krediitkaarditehingute importimist olla vaja teatud tehingud kustutada. Selle põhjuseks võib olla asjaolu, et tehingud on duplikaadid või kuna andmed pole täpsed. Administraatorid saavad kasutada funktsiooni **Kustuta krediitkaartide tehingud**, et valida ja kustutada krediidikaarditehingud, mis pole kuluaruandele **lisatud**. 
+Mõnikord võib pärast krediitkaarditehingute importimist olla vaja teatud tehingud kustutada. Selle põhjuseks võib olla, et tehingud on duplikaadid või kuna andmed ei ole täpsed. Administraatorid saavad kasutada funktsiooni **Kustuta krediitkaartide tehingud**, et valida ja kustutada krediidikaarditehingud, mis pole kuluaruandele **lisatud**. 
 
 1. Avage **Perioodilised ülesanded** > **Krediitkaarditehingute kustutamine**.
 2. Valige **Filter** ja sisestage kaasatavate kirjete tuvastamiseks teave.
 3. Kirjete kustutamiseks valige **OK**. 
 
-## <a name="storing-credit-card-numbers"></a>Krediitkaardinumbrite talletamine
+## <a name="storing-credit-card-numbers"></a>Krediitkaardi numbrite salvestamine
 
-Krediitkaardinumbrite salvestamiseks on saadaval kolm võimalust. Krediitkaardi numbrid salvestatakse **lehele Kuluhalduse parameetrid**.
+Krediitkaardi numbrite salvestamiseks on kolm võimalust. Krediitkaartide numbreid salvestatakse lehel **Kuluhalduse parameetrid**.
 
-- **Kaardi numbri sisestamise vältimine** – krediitkaardinumbreid ei salvestata.
-- **Räsikaardi numbrid (salvestage viimased neli numbrit)** – krediitkaardinumbrite viimased neli numbrit salvestatakse krüpteeritud vormingus.
-- **Poekaardi numbrid** – krediitkaardinumbrid salvestatakse krüpteerimata vormingus. See suvand ei vasta maksekaarditööstuse (PCI) andmeturbe standardile (DSS). Seetõttu peaksid organisatsiooni administraatorid pci DSS-i eeskirjadele vastavuses hoidmiseks valima, kas mitte salvestada krediitkaardinumbreid või salvestada räsikaardi numbreid.
+- **Kaardinumbri sisestamise vältimine** – krediitkaardi numbreid ei salvestata.
+- **Räsiväärtuskaardi numbrid (viimase nelja numbri salvestamine)** – neli viimast krediitkaardi numbrit salvestatakse krüptitud vormingus.
+- **Kaardi numbrite salvestamine** – krediitkaardi numbreid hoitakse krüpteerimata kujul. See valik ei vasta maksekaardi tegevusvaldkonna (PCI) andmeturbe standardile (DSS). Seetõttu peaksid organisatsiooni administraatorid PCI DSS-i eeskirjadele vastavuse tagamiseks otsustama, kas krediitkaardinumbreid mitte salvestada või räsiväärtuskaardi numbreid salvestada.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

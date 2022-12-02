@@ -1,6 +1,6 @@
 ---
 title: Oskuste ja pädevuste määratlemine
-description: Selles artiklis antakse teavet selle kohta, kuidas seadistada oskuste mudeleid ressursside hindamiseks.
+description: See artikkel annab teavet, kuidas häälestada ressursside hindamiseks oskustaseme mudelid.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article

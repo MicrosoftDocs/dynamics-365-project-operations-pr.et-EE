@@ -1,6 +1,6 @@
 ---
 title: Kontsernisisese arveldamise konfigureerimine
-description: Selles artiklis antakse teavet ja näiteid projektide kontsernisisese arveldamise konfigureerimise kohta.
+description: See artikkel annab teavet ja näiteid projektide kontsernisisese arvelduse konfigureerimise kohta.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -25,7 +25,7 @@ Järgmises näites on Contoso Robotics USA (USPM) laenav juriidiline isik ja Con
 
 1. **Konfigureerige juriidiliste isikute vahel kontsernisisene raamatupidamine**. Kõik laenu andvate ja laenu võtvate juriidiliste isikute paarid peavad olema konfigureeritud pearaamatu [kontsernisisese raamatupidamisarvestuse](/dynamics365/finance/general-ledger/intercompany-accounting-setup) lehel.
     
-    1. Avage Dynamics 365 Finance **pearaamatu** > **sisestamise häälestus** > **Kontsernisisene raamatupidamine**. Looge kirje, kasutades järgmist teavet.
+    1. Teenuses Dynamics 365 Finance, minge jaotisesse **Pearaamat** > **Postitamise seadistamine** > **Kontsernisisene raamatupidamine**. Looge kirje, kasutades järgmist teavet.
 
         - **Algne ettevõte** = **GBPM**
         - **Sihtettevõte** = **USPM**

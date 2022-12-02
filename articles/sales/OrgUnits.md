@@ -1,6 +1,6 @@
 ---
 title: Organisatsiooniüksused
-description: Selles artiklis kirjeldatakse organisatsiooniüksuste mõistet ja selgitatakse, kuidas luua ja hooldada Organisatsiooniüksusi Microsoftis Dynamics 365 Project Operations.
+description: See artikkel läheb organisatsiooniüksuste mõistet ja selgitatakse, kuidas luua ja hooldada organisatsiooniüksusi rakenduses Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 1/31/2022
 ms.topic: article
@@ -24,26 +24,26 @@ ms.locfileid: "8921619"
 ---
 # <a name="organizational-units-overview"></a>Organisatsiooniüksuste ülevaade
 
-Microsoftis Dynamics 365 Project Operations *on organisatsiooniüksus* professionaalses teenindusettevõttes eraldiseisev rühm või divisjon, mis kasutab arveldatavaid ressursse, millel on omahind.
+Rakenduse Microsoft Dynamics 365 Project Operations mõistes on *organisatsiooniüksus* professionaalse teenusettevõtte eraldiseisev rühm või allüksus, kus on tasutatavad töötajad, kellel on kulumäärad.
 
-Professionaalsete teenindusettevõtete jaoks, kes kasutavad tehnilisi ressursse erinevates praktikavaldkondades või ärivaldkondades, võivad rolli täitmise kulud varieeruda sõltuvalt praktikavaldkonnast või ärivaldkonnast, kus roll on täidetud. Selle stsenaariumi puhul aitab organisatsiooniüksuste kontseptsioon, pakkudes võimalust rühmitada arveldatavate rollide kogum ettevõtte divisjonis, millel on nende rollide jaoks selge kulustruktuur.
+Professionaalsete teenustega tegelevate ettevõtete puhul, kes kasutavad tehnilisi ressursse erinevates tegevusvaldkondades või ärivaldkondades, võib rolli täitmise maksumus erineda, olenevalt praktikaalast või ärivaldkonnast, kus roll täidetakse. Selle stsenaariumi korral aitab organisatsiooniüksuste kontseptsioon, pakkudes võimalust arveldatavate rollide komplekti rühmitamiseks ettevõtte allüksust, millel on nende rollide jaoks selge kulustruktuur.
 
-## <a name="the-concept-of-organizational-units-in-project-operations"></a>Organisatsiooniüksuste kontseptsioon Project Operationsis
+## <a name="the-concept-of-organizational-units-in-project-operations"></a>Organisatsiooniüksuste mõiste rakenduses Project Operations
 
-Project Operationsis on organisatsiooniüksusel kindel valuuta ja konkreetsed omahinnakirjad.
+Rakenduses Project Operations on organisatsiooniüksusel kindel valuuta ja konkreetsed omahinnakirjad.
 
 Organisatsiooniüksuse valuuta on esmane valuuta, mida kasutatakse kulude jälgimiseks.
 
-Iga organisatsiooniüksusega saab siduda ühe või mitu kulude hinnakirja. Projektitoimingud seavad organisatsiooniüksusega seostatavatele hinnakirjadele järgmised piirangud.
+Iga organisatsiooniüksusega saab siduda ühe või mitu kulude hinnakirja. Rakendus Project Operations seab organisatsiooniüksusele lisatavale hinnakirjale järgmised piirangud.
 
 - Hinnakirjad peavad olema organisatsiooniüksuse valuutas.
 - Hinnakirjad peavad olema omahinnakirjad.
 
-Lisaks sisaldab olem Ressurss organisatsiooniüksuse atribuuti. Igale kasutajale saab määrata vaid ühe organisatsiooniüksuse.
+Lisaks sisaldab ressursiolem organisatsiooniüksuse atribuuti. Igale kasutajale saab määrata vaid ühe organisatsiooniüksuse.
 
 ### <a name="roles-of-organizational-units"></a>Organisatsiooniüksuste rollid
 
-Organisatsiooniüksusel on Project Operationsis kaks rolli:
+Organisatsiooniüksusel on rakenduses Project Operations kaks rolli.
 
 - **Tellija** – organisatsiooniüksus, mis esindab ettevõtet või allüksust, kes vastutab peamiselt müügitegevuse ning töö ja teenuste pakkumise eest kliendile. Tellija tuvastatakse väljal **Tellija**, mis asub lehtede **Müügivõimalus**, **Hinnapakkumine**, **Projekti leping** ja **Projekt** päises.
 - **Ressursiüksus** – organisatsiooniüksus, millele ressurss kuulub või millesse see on määratud. See organisatsiooniüksus võib pakkuda ressursse töökirjelduse (SOW-d) ja tellija omanduses olevate projektide teatud rollide jaoks.
@@ -54,15 +54,15 @@ Organisatsiooniüksusel on Project Operationsis kaks rolli:
 
 Siit leiate vastused paljudele korduma kippuvatele küsimustele organisatsiooniüksuste kohta.
 
-#### <a name="how-is-the-organizational-unit-entity-in-project-operations-related-to-the-organization-entity-that-already-exists-in-dynamics-365"></a>Kuidas on olem Organisatsiooniüksus Project Operationsis seotud olemiga Organisatsioon, mis on rakenduses Dynamics 365 juba olemas?
+#### <a name="how-is-the-organizational-unit-entity-in-project-operations-related-to-the-organization-entity-that-already-exists-in-dynamics-365"></a>Kuidas on rakenduse Project Operations organisatsiooniüksuse olem seotud Dynamics 365-s juba olemasoleva organisatsiooni olemiga?
 
-Dynamics 365 olem Organisatsioon tähistab globaalse Dynamics 365 eksemplari nime. Tavaliselt on see globaalse ettevõtte nimi.
+Dynamics 365 organisatsiooni olem tähistab globaalse Dynamics 365 eksemplari nime. Tavaliselt on see globaalse ettevõtte nimi.
 
 Organisatsiooniüksuse olem esindab globaalses ettevõttes rühma või allüksust. Sellel rühmal või allüksusel on nende rollide jaoks rollide komplekt ja hinnakiri ning need rollid ja hinnakirjad erinevad ettevõtte muude rühmade või allüksuste rollidest ja hinnakirjadest.
 
-Kui Project Operations on installitud, luuakse organisatsioonil põhinev vaikeorganisatsiooniüksus. Kõik olemasolevad ressursid määratakse vaikimisi organisatsiooniüksusele. Kui Dynamics 365-sse imporditakse uusi Active Directory kasutajaid või ressursse, määrab kasutaja impordiprotsess need Project Operationsi vaikeorganisatsiooniüksusele.
+Kui rakendus Project Operations on installitud, luuakse organisatsiooni põhjal vaikimisi organisatsiooniüksus. Kõik olemasolevad ressursid määratakse vaikimisi organisatsiooniüksusele. Kui rakendusse Dynamics 365 imporditakse uusi Active Directory kasutajaid või ressursse, määrab kasutaja importimise protsess need vaikimisi rakenduses Project Operations kasutatavale organisatsiooniüksusele.
 
-#### <a name="how-does-the-organizational-unit-entity-differ-from-the-business-unit-entity"></a>Mille poolest erineb olem Organisatsiooniüksus olemist Äriüksusest?
+#### <a name="how-does-the-organizational-unit-entity-differ-from-the-business-unit-entity"></a>Kuidas organisatsiooniüksuse olem erineb äriüksuse olemist?
 
 Dynamics 365-s on äriüksuse olem turvaline konstruktsioon. Äriüksusega kasutaja ühing määratleb olemid ja olemi kirjed, millele kasutajal on juurdepääs. Samuti määratleb see õigused (loomine, lugemine, kirjutamine, kustutamine, lisamine, lisamine millelegi, määramine või ühiskasutus), mis kasutajal on nende olemi kirjete jaoks.
 
@@ -70,16 +70,16 @@ Organisatsiooniüksus olem esindab ettevõtte rühma või allüksust, millel on 
 
 Kui rakendate Dynamics 365, optimeerige äriüksuste hierarhia jaoks turvakontroll ja kasutajate määramine äriüksustesse. Määrake kõik kasutajad, kes peavad tavaliselt sama äriüksuse samale kirjete komplektile juurde pääsema. Organisatsiooniüksus ei mõjuta turvakontrolli ega juurdepääsu.
 
-**Näide, mis näitab ühte võimalikku erinevust organisatsiooniüksuste ja äriüksuste modelleerimisel**
+**Näide, mis näitab üht potentsiaalset erinevust organisatsiooniüksuste ja äriüksuste modelleerimisel**
 
-Jõgi, Ltd.-l on edukas Microsofti tehnoloogia kasutamise kogemus. Marko ja Brita on mõlemad C\# arendajad, kuid Brita asub Ameerika Ühendriikides, samas kui Marko elab Indias. Enamik projekti tegevustest nõuab ressursse nii Contoso Indiast kui ka Contoso USA-st ning Prakash ja Tricia nõuavad sama tasemel turvalisust juurdepääsu projektidele selles tegevusvaldkonnas. Kuid Jõgi India arendajate kulu erineb oluliselt Jõgi USA arendajate kuludest.
+Jõgi, Ltd.-l on edukas Microsofti tehnoloogia kasutamise kogemus. Marko ja Brita on mõlemad C\# arendajad, kuid Brita asub Ameerika Ühendriikides, samas kui Marko elab Indias. Enamik projektikohustusi nõuavad nii Contoso India kui ka Contoso USA ressursse ning Prakash ja Tricia nõuavad selle praktikavaldkonna projektidele samaväärset turvalisuse taset. Kuid Jõgi India arendajate kulu erineb oluliselt Jõgi USA arendajate kuludest.
 
-Siin on optimaalne viis selle stsenaariumi kujundamiseks Dynamics 365 ja Project Operationsi abil.
+Siin on optimaalne viis selle stsenaariumi kujundamiseks rakenduste Dynamics 365 ja Project Operations abil.
 
-1. Looge Microsofti tehnoloogiline tegevus äriüksusena ning seostage sellega Marko ja Brita. Sel viisil aitate tagada, et mõlemal töötajal on sama tasemel turvajuurdepääs kõigile selle praktikavaldkonna projektidele. Mõlemad saavad kontrollida edenemist ja teatada ajast, kuludest, materjalikasutusest ja ülesannete värskendustest.
-2. Looge kaks organisatsiooniüksust, mis aitavad tagada projekti maksumuse õige kajastamise.
-3. Seostage Triciat Contoso USA ja Prakashiga Contoso Indiaga.
-4. Määrake vastavad kulu hinnakirjad mõlemale organisatsiooniüksusele. Sel viisil aitate tagada, et Prakashi ja Tricia projektis registreeritud kulud kajastavad täpselt Contoso USA ja Contoso India kulude erinevust.
+1. Looge Microsofti tehnoloogiline tegevus äriüksusena ning seostage sellega Marko ja Brita. Sel aitate tagada, et mõlemal töötajal oleks sama turvatase, et kõigile selle ala projektidele juurde pääseda. Mõlemal on võimalik kontrollida edenemist ning aruande aega, kulusid, materjalikasutust ja tööülesannete värskendusi.
+2. Looge kaks organisatsiooniüksust, et aidata tagada projekti kulu õigesti kajastamine.
+3. Seostage Tricia ettevõttega Contoso US ja Prakash ettevõttega Contoso India.
+4. Määrake vastavad kulu hinnakirjad mõlemale organisatsiooniüksusele. Sel viisil saate aidata tagada, et Marko ja Brita projektile kirjendatud kulud kajastavad täpselt Contoso USA ja Contoso India vahelise erinevuse kulusid.
 
 #### <a name="are-organizational-units-related-to-sales-territories-in-dynamics-365"></a>Kas organisatsiooniüksused on rakenduses Dynamics 365 seotud müügipiirkondadega?
 
@@ -87,32 +87,32 @@ Müügipiirkondade ja organisatsiooniüksuste vahel pole seoseid ega suhteid. M�
 
 Organisatsiooniüksus on ettevõtte sisemine rühm või allüksus, mis jälgib teatud rollide kulusid, mis on seotud müügiga teistele allüksustele või välistele klientidele.
 
-**Näide, mis näitab ühte võimalikku erinevust organisatsiooniüksuste ja müügiterritooriumide modelleerimisel**
+**Näide, mis näitab üht potentsiaalset erinevust organisatsiooniüksuste ja müügiterritooriumite modelleerimisel**
 
-Jõgi, Ltd.-l on kaks arenduskeskust: Jõgi USA ja Jõgi India. Ressursside maksumus on nende kahe arenduskeskuse vahel väga erinev. Contoso müüb oma infotehnoloogia (IT) teenuseid paljudel rahvusvahelistel turgudel, näiteks Ladina-Ameerikas, Põhja-Ameerikas, Aasia ja Vaikse ookeani piirkonnas, Lääne-Euroopas ja Lähis-Idas. Sama projekti rollide arveldusmäärad võivad nendel turgudel olla väga erinevad. Jõgi USA ja Jõgi India tuleks seadistada organisatsiooniüksustena ja igal organisatsiooniüksusel peaks olema oma kulude hinnakiri. Aasia ja Vaikse ookeani piirkond, Ladina-Ameerika, Põhja-Ameerika, Lääne-Euroopa ja Lähis-Ida tuleks seadistada müügipiirkondade järgi ja igal müügipiirkonnal peaks olema oma müügi hinnakiri.
+Jõgi, Ltd.-l on kaks arenduskeskust: Jõgi USA ja Jõgi India. Nende kahe arenduskeskuse ressursside kulu erineb suuresti. Contoso müüb oma infotehnoloogia (IT) teenuseid paljudel rahvusvahelistel turgudel, näiteks Ladina-Ameerikas, Põhja-Ameerikas, Aasia ja Vaikse ookeani piirkonnas, Lääne-Euroopas ja Lähis-Idas. Sama projekti rollide arveldusmäärad võivad nendel turgudel olla väga erinevad. Jõgi USA ja Jõgi India tuleks seadistada organisatsiooniüksustena ja igal organisatsiooniüksusel peaks olema oma kulude hinnakiri. Aasia ja Vaikse ookeani piirkond, Ladina-Ameerika, Põhja-Ameerika, Lääne-Euroopa ja Lähis-Ida tuleks seadistada müügipiirkondade järgi ja igal müügipiirkonnal peaks olema oma müügi hinnakiri.
 
 #### <a name="why-is-there-a-restriction-on-the-association-of-price-lists-with-organizational-units"></a>Miks on hinnakirja ja organisatsiooniüksuse seostamisel piirangud?
 
 Müügihinnad on tavaliselt kordumatud geograafiliste piirkondade või turgude jaoks, kus teenuseid müüakse. Ettevõtte sisemistel allüksustel ei ole tavaliselt omaenda müügihindasid sama tüüpi teenuste jaoks. Kuid sisemistel allüksustel on erinev müüdud kaupade kulu (omahinnad), olenevalt sellest, millised on nende töötajate oskused ja töötingimused selles piirkonnas, kus nad töötavad. Kuna organisatsiooniüksused on kujundatud ettevõtte sisemiste allüksustena, võivad neil olla ainult kulu hinnakirjad.
 
-#### <a name="why-cant-we-associate-sales-price-lists-with-organizational-units"></a>Miks me ei saa seostada müügihinnakirju organisatsiooniüksustega?
+#### <a name="why-cant-we-associate-sales-price-lists-with-organizational-units"></a>Miks me ei saa müügi hinnakirja seostada organisatsiooniüksustega?
 
-Project Operationsis saab müügihinnakirju seostada klientide ja müügiterritooriumidega. Tehinguolemid nagu Müügivõimalus, Pakkumine, Projektileping ja Projekt kasutavad kliendikontole või müügiterritooriumile lisatud müügihinnakirju, et määrata projekti töövõtu arvemäärad ja potentsiaalne tulu.
+Rakenduses Project Operations saab müügi hinnakirju seostada klientide ja müügipiirkondadega. Tehingute olemid, näiteks nagu müügivõimalus, hinnapakkumine, projekti leping ja projektipõhised müügi hinnakirjad, mis on lisatud kliendikontole või müügipiirkonnale, et määrata kindlaks projekti kaasamise arvemäärad ja võimalik tulu.
 
-Kulu hinnakirjad on seostatud organisatsiooniüksustega. Tehinguolemid (nt Müügivõimalus, Pakkumine, Projektileping ja Projekt) kasutavad projektitöö kulude määramiseks lepinguüksusega seotud omahinnakirju.
+Kulu hinnakirjad on seostatud organisatsiooniüksustega. Tehingute olemid, nagu näiteks müügivõimalus, hinnapakkumine, projekti leping ja projektipõhised müügi hinnakirjad, mis on lisatud tellijale, et määratleda projektiga seotuse kulu.
 
-#### <a name="are-organizational-units-hierarchical-in-project-operations"></a>Kas organisatsiooniüksused on Project Operationsis hierarhistlikud?
+#### <a name="are-organizational-units-hierarchical-in-project-operations"></a>Kas organisatsiooniüksused on rakenduses Project Operations hierarhilised?
 
-Ei. Praeguses Project Operationsi väljaandes pole organisatsiooniüksused hierarhaatilised. Seetõttu ei saa te teha järgmisi toiminguid.
+Ei. Praeguses rakenduse Project Operations väljaandes ei ole organisatsiooniüksused hierarhilised. Seetõttu ei saa te järgmisi ülesandeid täita:
 
-- Konfigureerige hierarhiat läbivate vaikeomahindade sisestamise muster.
-- Aruande tulu või kulu, mis on ümber kujundatud organisatsiooniüksuse hierarhia erinevatel tasanditel.
+- Konfigureerige vaikimisi omahindade sisestamise muster, mis läbib hierarhiat ülespoole.
+- Aruanne tulude või kulude kohta, mis on koondatud organisatsiooniüksuse hierarhia eri tasanditele.
 
-#### <a name="were-a-big-multinational-firm-that-has-a-complex-multilevel-hierarchy-of-cost-centers-divisions-and-billing-offices-how-can-we-best-use-the-concept-of-organizational-units-in-the-current-version-of-project-operations"></a>Oleme suur rahvusvaheline ettevõte, millel on keeruline, mitmetasandiline kulukeskuste, osakondade ja arvelduskontorite hierarhia. Kuidas saame kõige paremini kasutada organisatsiooniüksuste kontseptsiooni Project Operationsi praeguses versioonis?
+#### <a name="were-a-big-multinational-firm-that-has-a-complex-multilevel-hierarchy-of-cost-centers-divisions-and-billing-offices-how-can-we-best-use-the-concept-of-organizational-units-in-the-current-version-of-project-operations"></a>Oleme suur rahvusvaheline ettevõte, millel on keerukas mitmetasandiline hierarhia kulukeskuste, allüksuste ja arvete osakondade jaoks. Kuidas saame organisatsiooniüksuste kontseptsiooni kõige paremini kasutada rakenduse Project Operations praeguses versioonis? kasutada?
 
-Kui teil on keeruline kulukeskuste, osakondade, arvelduskontorite hierarhia jne, seadistage selle hierarhia lehesõlmed eraldi organisatsiooniüksustena.
+Kui teil on kulukeskuste, allüksuste, arvete osakondade jne keerukas hierarhia, seadistage selle hierarhia lehed eraldiseisvate organisatsiooniüksustena.
 
-Järgmises näites on kujutatud tüüpiline hierarhia.
+Järgmine näide illustreerib tüüpilist hierarhiat.
 
 **Jõgi India**
 
@@ -138,7 +138,7 @@ Järgmises näites on kujutatud tüüpiline hierarhia.
     - Tehnilised konsultandid
     - Funktsionaalsed konsultandid
 
-Kui teie hierarhia sarnaneb selle näitega, peate selle seadistama lameda loendina, nagu on näidatud siin.
+Kui teie hierarhia meenutab seda näidet, peate selle seadistama lameda loendina, nagu siin näidatud.
 
 - Jõgi India – SAP-praktika – tehnilised konsultandid
 - Jõgi India – SAP-praktika – funktsionaalsed konsultandid
@@ -149,26 +149,26 @@ Kui teie hierarhia sarnaneb selle näitega, peate selle seadistama lameda loendi
 - Jõgi USA – Microsofti tehnoloogiapraktika tehnilised konsultandid
 - Jõgi USA – Microsofti tehnoloogiapraktika funktsionaalsed konsultandid
 
-#### <a name="were-a-small-professional-services-company-that-operates-as-only-one-division-how-can-we-best-use-the-concept-of-organizational-units-in-the-current-version-of-project-operations"></a>Me oleme väike professionaalne teenindusettevõte, mis tegutseb ainult ühe allüksusena. Kuidas saame kõige paremini kasutada organisatsiooniüksuste kontseptsiooni Project Operationsi praeguses versioonis?
+#### <a name="were-a-small-professional-services-company-that-operates-as-only-one-division-how-can-we-best-use-the-concept-of-organizational-units-in-the-current-version-of-project-operations"></a>Me oleme väike professionaalne teenindusettevõte, mis tegutseb ainult ühe allüksusena. Kuidas saame organisatsiooniüksuste kontseptsiooni kõige paremini kasutada rakenduse Project Operations praeguses versioonis? kasutada?
 
-Kui teie ettevõte tegutseb ühe üksusena, millel on üks kulude hinnakiri, ei pea te organisatsiooniüksusi seadistama. Project Operationsi installimine loob ühe vaikeorganisatsiooniüksuse, millel on organisatsiooniga sama nimi. Kõik olemasolevad ressursid määratakse vaikimisi organisatsiooniüksusele. Iga kord, kui süsteem nõuab, et valitaks organisatsiooniüksus, valitakse vaikimisi organisatsiooniüksus.
+Kui teie ettevõte tegutseb ühe üksusena, millel on üks kulude hinnakiri, ei pea te organisatsiooniüksusi seadistama. Rakenduse Project Operations installimine loob ühe vaikimisi organisatsiooniüksuse, millel on organisatsiooniga sama nimi. Kõik olemasolevad ressursid määratakse vaikimisi organisatsiooniüksusele. Iga kord, kui süsteem nõuab, et valitaks organisatsiooniüksus, valitakse vaikimisi organisatsiooniüksus.
 
-#### <a name="when-a-project-is-created-from-a-quote-or-project-contract-line-the-default-contracting-unit-comes-from-the-quote-or-project-contract-what-is-the-default-contracting-unit-if-a-project-is-created-before-sales-entities-such-as-quote-or-project-contract"></a>Kui projekt luuakse hinnapakkumise või projekti lepingurea põhjal, tuleneb vaiketellija hinnapakkumisest või projekti lepingust. Mis on vaikelepingu üksus, kui projekt luuakse enne müügiolemeid (nt Pakkumine või Projektileping) ?
+#### <a name="when-a-project-is-created-from-a-quote-or-project-contract-line-the-default-contracting-unit-comes-from-the-quote-or-project-contract-what-is-the-default-contracting-unit-if-a-project-is-created-before-sales-entities-such-as-quote-or-project-contract"></a>Kui projekt luuakse hinnapakkumise või projekti lepingurea põhjal, tuleneb vaiketellija hinnapakkumisest või projekti lepingust. Milline on vaikimisi lepingu sõlmimise üksus, kui projekt luuakse enne müügiüksusi, näiteks hinnapakkumist või projekti lepingut?
 
-Kui projekt luuakse eraldi, põhineb projekti vaiketellija selle loonud kasutajal. See kasutaja on ka vaikimisi projektijuht. Kui projekt vastendatakse müügiolemiga (nt hinnapakkumise või projektilepinguga), põhineb projekti lepinguüksus hoopis müügiolemil. Sellisel juhul võidakse projekti prognoosid ümber arvutada, kuna kulude hinnakirja kasutatakse hinnanguliste kulu muudatuste arvutamiseks, kui muudetakse tellijat. Müügihinnakirja kasutatakse muudetavate müügiprognooside arvutamiseks nii, et need oleksid kooskõlas hinnapakkumise projekti hinnakirjaga.
+Kui projekt luuakse eraldi, põhineb projekti vaiketellija selle loonud kasutajal. See kasutaja on ka vaikimisi projektijuht. Kui projekt on vastendatud mõne sellise müügi olemiga (nt hinnapakkumise või projekti lepinguga), põhineb projekti tellija üksus hoopis müügiüksusel. Sellisel juhul võidakse projekti prognoosid ümber arvutada, kuna kulude hinnakirja kasutatakse hinnanguliste kulu muudatuste arvutamiseks, kui muudetakse tellijat. Müügi hinnakirja abil arvutatakse prognoositavad müügihinnad, mida muudetakse nii, et need oleksid hinnapakkumises oleva projekti hinnakirjaga sünkroonis.
 
-Projekti **väljad Lepinguühik** ja **Valuuta** on redigeerimiseks lukustatud, kuna need peavad olema sünkroonis selle müügiolemi (pakkumine või projektileping) väärtustega, millega projekt vastendatakse.
+Projekti väljad **Tellijad** ja **Valuuta** on redigeerimiseks suletud, kuna need peavad olema sünkroonitud olemi (hinnapakkumise või projekti leping) väärtustega, millega projekt on vastendatud.
 
-## <a name="create-and-maintain-organizational-units-in-project-operations"></a>Organisatsiooniüksuste loomine ja haldamine Project Operationsis
+## <a name="create-and-maintain-organizational-units-in-project-operations"></a>Organisatsiooniüksuste loomine ja haldamine rakenduses Project Operations
 
-Organisatsiooniüksuse loomiseks Project Operationsis tehke järgmist.
+Rakenduses Project Operations organisatsiooniüksuse loomiseks järgige neid samme.
 
-1. **Avage sätted \> Organisatsiooniüksuste üksus.**
+1. Minge jaotisse **Sätted \> Organisatsiooniüksused**.
 2. Tehke valik **Uus**.
-3. Sisestage ala Üldine **väljale** **Nimi** organisatsiooniüksuse nimi. Seejärel seadke teised väljad vastavalt vajadusele.
+3. Sisestage alale **Üldine** organisatsiooniüksuse väljale **Nimi**. Seejärel määrake teised väljad vastavalt vajadusele.
 4. Kirje loomiseks valige **Salvesta**, et saaksite selle redigeerimist jätkata.
-5. Hinnakirja lisamiseks valige jaotises **Omahinnakirjad** plussmärk (**+**). Siia saate lisada ainult hinnakirjad, millel on **kulukontekst**.
-6. Valige väljal **Nimi** **nupp Otsing** ja valige hinnakiri, mille soovite organisatsiooniüksusele kättesaadavaks teha. Jätkake hinnakirjade lisamist vastavalt vajadusele.
-7. Kui olete hinnakirjade lisamise lõpetanud, valige lehe paremas allnurgas **Salvesta**.
+5. Valige jaotises **Omahinnakirjad** hinnakirja lisamiseks valikut plussmärk (**+**). Siin saate lisada ainult hinnakirju, millel on **Kulu** kontekst.
+6. Klõpsake väljal **Nimi** nuppu **Otsi** ja valige hinnakiri, mida soovite sellele organisatsiooniüksusele kättesaadavaks teha. Vajadusel jätkake hinnakirjade lisamist.
+7. Kui olete hinnakirjade lisamise lõpetanud, valige lehe alumises paremas nurgas **Salvesta**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

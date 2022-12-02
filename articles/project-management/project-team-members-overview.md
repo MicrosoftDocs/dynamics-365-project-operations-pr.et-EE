@@ -1,6 +1,6 @@
 ---
 title: Projektimeeskonna liikmed
-description: Selles artiklis antakse teavet projektimeeskonna liikme teabe, atribuutide ja ajakavaga töötamise kohta.
+description: See artikkel annab teavet selle kohta, kuidas töötada projekti meeskonnaliikmete teabe, atribuutide ja kavandamisega.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview

@@ -1,6 +1,6 @@
 ---
 title: Projektide materjalide finantsprognoosid
-description: See artikkel annab teavet projektipõhiste materjalide määratlemise või hindamise kohta.
+description: See artikkel annab teavet projektipõhiste materjalide määratlemise ja prognoosimise kohta.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8925682"
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Dynamics 365 Project Operations võimaldab projektijuhtidel määratleda iga projekti või ülesande jaoks projektipõhised materjalikulud. Iga materjali hinnangu saab seostada konkreetse projektiülesandega. Projektides kasutatavad materjalid võivad olla tootekataloogi sissekirjutustooted või tooted. Iga toote ja ühiku kombinatsiooni puhul saab hinna määratleda projekti müügihinnakirjades ja projekti hinnakirjades kulude kohta.  
+Dynamics 365 Project Operations võimaldab projektijuhtidel määratleda iga projekti või ülesande jaoks projektipõhised materjalikulud. Iga materjali hinnangu saab seostada konkreetse projektiülesandega. Projektides kasutatavad materjalid võivad olla sisestatavad tooted või tooted tootekataloogist. Iga toote ja ühiku kombinatsiooni jaoks saab projekti müügihinnakirjades ja maksumuse projekti hinnakirjades määratleda hinna.  
 
 Projekti materjali prognoosi vaatamiseks, lisamiseks või kustutamiseks tehke järgmist.
 

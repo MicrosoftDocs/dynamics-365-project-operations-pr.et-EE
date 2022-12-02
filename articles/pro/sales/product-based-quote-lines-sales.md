@@ -1,6 +1,6 @@
 ---
 title: Tootepõhiste hinnapakkumiste ridade ülevaade – liht
-description: Selles artiklis antakse teavet tootepõhiste hinnapakkumisridadega töötamise kohta.
+description: See artikkel annab teavet tootepõhiste hinnapakkumise ridadega töötamise kohta.
 author: rumant
 ms.date: 10/30/2020
 ms.topic: overview

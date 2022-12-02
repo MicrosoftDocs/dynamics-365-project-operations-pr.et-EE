@@ -1,6 +1,6 @@
 ---
 title: Föderaalse rahastamise kulude ajakava päring
-description: See artikkel annab teavet föderaalsete auhindade uurimise kulude ajakava kohta.
+description: See artikkel annab teavet föderaalse rahastamise päringu kulude ajakava kohta.
 author: velofog
 ms.date: 04/2/2020
 ms.topic: article

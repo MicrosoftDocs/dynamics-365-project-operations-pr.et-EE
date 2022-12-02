@@ -1,6 +1,6 @@
 ---
 title: Sisemiste projektide raamatupidamise konfigureerimine
-description: Selles artiklis antakse teavet selle kohta, kuidas seadistada projektitoimingutes sisemiste projektide raamatupidamistavasid.
+description: See artikkel sisaldab teavet selle kohta, kuidas seadistada sisemiste projektide raamatupidamistavasid rakenduses Project Operations.
 author: sigitac
 ms.date: 10/09/2020
 ms.topic: article

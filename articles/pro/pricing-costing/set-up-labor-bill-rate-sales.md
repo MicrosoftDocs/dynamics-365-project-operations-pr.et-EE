@@ -1,6 +1,6 @@
 ---
 title: Töö arvelduskulu seadistamine – liht
-description: Selles artiklis antakse teavet tööjõu arveldusmäärade seadistamise kohta Project Operationsis.
+description: See artikkel annab teavet arveldusmäärade seadistamise kohta rakenduses Project Operations.
 author: rumant
 ms.date: 10/16/2020
 ms.topic: article
@@ -48,7 +48,7 @@ Näiteks Fabrikam India arendaja, kes töötab USA projektiga, arveldatav tasu o
 
     | Roll | Organisatsiooniüksus | Arveldusmäär |
     | --- | --- | --- |
-    | Arendaja | Fabrikam India | 100 dollarit |
+    | Arendaja | Fabrikam India | 100 USD |
     | Arendaja | Fabrikam Philippines | 90 USD |
     | Arendaja | Fabrikam US | 150 USD |
 

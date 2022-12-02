@@ -1,6 +1,6 @@
 ---
 title: Kohandatud olemite uute vormide lisamine (Project Service Automation 2.x)
-description: Selles artiklis antakse teavet selle kohta, kuidas lisada müügivõimaluste, pakkumiste, tellimuste või arvete jaoks kohandatud olemivorme numbris Dynamics 365 Project Service Automation 2.x.
+description: See artikkel annab teavet selle kohta, kuidas lisada Dynamics 365 Project Service Automation 2.x-s kohandatud üksuse vormid võimaluste, hinnapakkumiste, tellimuste või arvete jaoks.
 author: makk
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Projektipõhiste hinnapakkumiste ridadel mitme kliendi haldamine
-description: Selles artiklis antakse teavet selle kohta, kuidas hallata mitut klienti projektipõhistel hinnapakkumisridadel.
+description: See artikkel annab teavet, kuidas hallata projektipõhistel hinnapakkumiste ridadel mitut klienti.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

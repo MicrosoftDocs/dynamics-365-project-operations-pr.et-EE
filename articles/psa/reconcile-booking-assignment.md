@@ -1,6 +1,6 @@
 ---
 title: Broneeringute ja määramiste vastavusse viimine
-description: See artikkel annab teavet tegelike kohta.
+description: See artikkel annab teavet tegelike näitajate kohta.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

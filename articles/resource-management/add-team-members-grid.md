@@ -1,6 +1,6 @@
 ---
 title: Meeskonnaliikmete lisamine meeskonnaliikmete ruudustikust
-description: Selles artiklis antakse teavet selle kohta, kuidas saate meeskonnaliikme ressursse hallata.
+description: See artikkel annab teavet selle kohta, kuidas saate meeskonnaliikmete ressursse hallata.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

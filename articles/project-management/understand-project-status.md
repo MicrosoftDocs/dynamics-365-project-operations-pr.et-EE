@@ -1,6 +1,6 @@
 ---
 title: Projekti oleku mõistmine
-description: Selles artiklis antakse teavet rakenduses olevatele projektidele määratud oleku kohta Dynamics 365 Project Operations.
+description: See teema annab teavet projektidele määratud oleku kohta rakenduses Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

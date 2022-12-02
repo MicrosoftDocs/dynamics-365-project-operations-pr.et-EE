@@ -1,6 +1,6 @@
 ---
 title: Valuuta
-description: Selles artiklis antakse teavet selle kohta, kuidas projektitoimingutes valuutatüüpe lisada ja eemaldada.
+description: See artikkel annab teavet selle kohta, kuidas lisada ja eemaldada Project Operationsis valuuta tüüpe.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

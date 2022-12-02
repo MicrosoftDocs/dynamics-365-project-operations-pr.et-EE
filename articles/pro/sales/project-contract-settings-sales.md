@@ -1,6 +1,6 @@
 ---
 title: Projektilepingu sätted – liht
-description: Selles artiklis antakse teavet lepinguridu mõjutavate väljade ja lepingu kohta käiva teabe kohta, mis on kokku võetud kõigis reaüksustes.
+description: See artikkel kirjeldab välju, mis mõjutavad lepinguridu ja annab lepingu kohta teavet, mis summeeritakse kõigist reaüksustest.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8917065"
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
-Selles artiklis antakse teavet väljade kohta, mis rakenduvad kogu projektilepingule, sh sätteid, mis mõjutavad kõiki lepinguridu. Kaasatakse ka teave lepingu kohta, mis on võetud kokku kõigist reaüksustest, et juhtida projekti lepingu KPI-sid.
+See artikkel kirjeldab välju, mis rakenduvad kogu projekti lepingule, sh kõiki lepinguridu mõjutavaid sätteid. Kaasatakse ka teave lepingu kohta, mis on võetud kokku kõigist reaüksustest, et juhtida projekti lepingu KPI-sid.
 
 Järgmises tabelis on esitatud projektilepingu väljad, mis on rakendusele Dynamics 365 Project Operations kordumatud või mille käitumises on tehtud võrreldes rakendusega Dynamics 365 Sales olulisi muudatusi.
 
@@ -35,11 +35,11 @@ Järgmises tabelis on esitatud projektilepingu väljad, mis on rakendusele Dynam
 Järgmised KPI-d on saadaval projekti lepingu vahekaardil **Lepingu täitmine**. 
 
 >[!NOTE]
->Kõik summad vahekaardil **Lepingu jõudlus** on väljendatud keskkonna vaikevaluutas.
+>Kõik vahekaardil **Lepingu jõudlus** olevad summad on väljendatud keskkonna vaikevaluutas.
 
 | Väli | Asukoht | Kirjeldus |
 | --- | --- | --- |
-| Lepingu väärtus | Üldine leping | Projektilepingu koguväärtus.|
+| Lepingu väärtus | Üldine leping | Projekti lepingu koguväärtus.|
 | Arveldatud summa | Üldine leping | Selle lepingu kõigi arvete summa.|
 | Tekkinud kulu | Üldine leping | Kõigi lepingule vastendatud projektidele logitud tegelike kulude summa. |
 | Kogutulu | Üldine leping | Arveldatud summa - seni kantud kulu/arveldatud summa |

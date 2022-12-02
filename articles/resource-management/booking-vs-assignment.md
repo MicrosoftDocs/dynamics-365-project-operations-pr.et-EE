@@ -1,6 +1,6 @@
 ---
 title: Reserveeringud ja määramised
-description: Selles artiklis antakse teavet ressursibroneeringute ja ressursimääramiste erinevuste kohta.
+description: See artikkel annab teavet ressursside reserveerimise ja ressursside määramise erinevuste kohta.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Mis on uut augustis 2021 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
-description: Selles artiklis antakse teavet kvaliteedivärskenduste kohta, mis on saadaval project Operationsi 2021. aasta augustis ressursi-/ladustamata stsenaariumide jaoks.
+description: See artikkel annab teavet rakenduse Project Operations 2021. aasta augusti väljaandes olevate kvaliteedivärskenduste kohta ressursipõhiste/mittelaopõhiste stsenaariumite jaoks.
 author: sigitac
 ms.date: 08/11/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8912281"
 
 *Kehtib: ressursipõhiste/mitteladustatavate stsenaariumite jaoks*
 
-See artikkel kehtib järgmiste Dynamics 365 Project Operations komponentide ja versioonide kohta.
+See artikkel kehtib rakenduse Dynamics 365 Project Operations järgmiste komponentide ja versioonide kohta.
 
    - Project Operations Microsoft Dataverse’i keskkonna versioonis 4.13.0.152.
-   - Projektijuhtimine ja raamatupidamine Dynamics 365 Finance keskkonnaversioonis 10.0.20.
+   - Projektihaldus ja raamatupidamine rakenduse Dynamics 365 Finance keskkonna versioonis 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Selles väljaandes sisalduvad funktsioonid
 
@@ -54,7 +54,7 @@ Kui kaardi käivitamisel esineb probleem, järgige jaotises [Probleem kaartidel 
 | Aeg ja kulu | 2336884 | Ajakirje nupp Nupp **Kopeeri nädal** ei tohi toimida rohkem, kui vaid praeguse kasutaja jaoks. |
 
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektijuhtimine ja raamatupidamine Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektihaldus ja raamatupidamine rakenduses Dynamics 365 Finance
 
 | Funktsiooni ala | Viitenumber | Kvaliteedi värskendus |
 | --- | --- | --- |

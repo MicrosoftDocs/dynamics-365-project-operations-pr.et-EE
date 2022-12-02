@@ -1,6 +1,6 @@
 ---
 title: Projekti hinnapakkumiste analüüs
-description: See artikkel annab teavet projektipakkumiste analüüsi kohta.
+description: See artikkel annab teavet projekti hinnapakkumiste analüüsi kohta.
 author: rumant
 ms.custom:
 - dyn365-projectservice

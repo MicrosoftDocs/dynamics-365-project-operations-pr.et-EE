@@ -1,6 +1,6 @@
 ---
 title: Tööjõukulu määrade seadistamine
-description: Selles artiklis antakse teavet selle kohta, kuidas seadistada tööjõukulude määrasid projektioperatsioonide maksumusele.
+description: See artikkel annab teavet tööjõukulu määrade seadistamise kohta rakenduses Project Operations.
 author: rumant
 ms.date: 10/12/2020
 ms.topic: article
@@ -51,7 +51,7 @@ Fabrikam India-Roboticsi arendaja tasu on 100 USD kui teda laenatakse Fabrikam U
 
 | Roll | Ressursiettevõte | Ressursi üksus | Kulumäär |
 | --- | --- | --- | --- |
-| Arendaja | Fabrikam India | Fabrikam India-Robotics | 100 dollarit |
+| Arendaja | Fabrikam India | Fabrikam India-Robotics | 100 USD |
 | Arendaja | Fabrikam Philippines | Fabrikam Philippines-Robotics | 90 USD |
 | Arendaja | Fabrikam US | Fabrikam US-Robotics | 150 USD |
 

@@ -1,6 +1,6 @@
 ---
 title: Arve automaatse loomise konfigureerimine
-description: Selles artiklis antakse teavet selle kohta, kuidas konfigureerida süsteem automaatselt arveid genereerima.
+description: See artikkel annab teavet selle kohta, kuidas konfigureerida süsteem automaatselt arveid genereerima.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

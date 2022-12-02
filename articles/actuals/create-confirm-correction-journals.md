@@ -1,6 +1,6 @@
 ---
 title: Paranduste töölehtede loomine ja kinnitamine
-description: Selles artiklis antakse teavet parandustöölehe loomise ja kinnitamise kohta.
+description: See artikkel annab teavet, kuidas luua ja kinnitada paranduse töölehte.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -24,7 +24,7 @@ ms.locfileid: "8928059"
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Mõnikord võib aja- või kulukanne sisestada valesti. Näiteks võib konsultant valida ajakirje loomisel vale kuupäeva või valida kulu sisestamisel vale projekti. Kui konsultant ei saa esitatud kandeid värskendada, saab tagavaraadministraator projekti tegelikud andmed otse parandada.
+Mõnikord võib aja- või kulukirje olla valesti sisestatud. Näiteks võib konsultant valida ajakirje loomisel vale kuupäeva või kulu sisestamisel valida vale projekti. Kui konsultant ei saa esitatud kirjeid värskendada, saab taustaadministraator projekti tegelikke näitajaid otse parandada.
 
 ## <a name="correct-approved-time-entries"></a>Kinnitatud ajakirjete parandamine     
 
@@ -73,30 +73,30 @@ Projekti ühe või mitme ajakirje parandamiseks läbige järgmised sammud.
 
 6. Kui parandatud väärtused on sellised nagu eeldati, valige **Kinnita**. Valkige dialoogiboksis **OK.** Kui väärtused ei ole näidatud nii nagu eeldatud, valige **Tühista**, et naasta loendisse **Kinnitatud kulud**. Korrake toiminguid 2 kuni 5. 
 
-7. Pärast parandustöölehe kinnitamist naaske muudatuste vaatamiseks värskendatud projekti või projektide juurde.
+7. Pärast paranduste töölehe kinnitamist liikuge tagasi värskendatud projekti või projektide juurde, et saaksite oma muudatusi vaadata.
 
-8. Vaadake projekti lehel vahekaardil **Tegelikud andmed üle** loend Tegelik seostatud **vaade**. Loetletud on algsed kirjed ja parandatud kirjed.
+8. Vaadake projekti lehe vahekaardil **Tegelikud näitajad** loendit **Tegelik seostatud vaade**. Loetletud on algsed kirjed ja parandatud kirjed.
 
 
-## <a name="correct-approved-material-usage-logs"></a>Parandatud kinnitatud materjali kasutuslogid
+## <a name="correct-approved-material-usage-logs"></a>Korrigeeritud kinnitatud materjalikasutuse logid
 
-Ühe või mitme materjali kasutuslogi kande parandamiseks tehke järgmist.
+Ühe või mitme materjalikasutuse logi kirje parandamiseks täitke järgmised toimingud.
 
-1. Valige **alal Müük** vasakpoolsel navigeerimispaanil jaotises **Kanded** väärtus **Tegelikud**.
+1. Valige alas **Müük** vasakpoolsel navigeerimispaanil jaotise **Tehingud** all **Tegelikud näitajad**.
 
-2. **Kasutage loendis Tegelikud veerufiltrid** materjalikande **klassi valimiseks**, nii et kuvatakse ainult materjalide tegelikud tegelikud andmed. Kuvatavate tegelike lahtrite edasiseks piiramiseks kasutage muid veerufiltreid. Pärast soovitud tegelike kogumi leidmist valige tegelikud andmed ja seejärel valige **Õiged kanded**. Luuakse automaatselt uus parandustööleht ja **määratakse materjaliparanduse** tüüp.
+2. Valige loendis **Tegelikud näitajad** veergude filtrite abil tehinguklass **Materjal**, nii et kuvatakse ainult materjalide tegelikud näitajad. Kasutage muid veergude filtreid, et kuvatud tegelikke näitajaid veelgi piirata. Kui olete leidnud soovitud tegelike näitajate kogumi, valige tegelikud näitajad ja seejärel valige **Korrektsed kirjed**. Uus paranduse tööleht luuakse automaatselt ja sellele määratakse tüüp **Materjali parandus**.
 
-3. Sisestage **lehe Uus tööleht** väljale **Kirjeldus** paranduse kirjeldus. **Seejärel valige menüü** Materjaliparandus **jaotises Uued materjaliväärtused** valitud materjaliridade jaoks korrigeeritavad andmeväljad. Näiteks saate materjali määrata mõnele muule projektile või parandada toodet, materjali kuupäeva või allhankelepingut.
+3. Leheküljel **Uus tööleht** sisestage lahtrisse **Kirjeldus** paranduse kirjeldus. Seejärel valige vahekaardi **Materjali parandus** jaotises **Materjalide uued väärtused** andmeväljad, mida valitud materjaliridade jaoks parandada. Näiteks saate määrata materjali mõnele teisele projektile või parandada toodet, materjali kuupäeva või alltöövõttu.
 
 4. Valige **Eelvaade**. Seejärel valige dialoogiboksis **OK**.
 
-5. Kontrollige vahekaardil **Töölehe read** parandusi. Saate vaadata loendit algsetest tegelikest, mis on seotud tühistatud valitud materjalikannetega ja loodud parandatud vastavate ridadega.
+5. Kontrollige parandusi vahekaardil **Töölehele kandmine**. Saate vaadata algsete tegelike näitajate loendit, mis on seotud valitud materjali kirjetega, mis on tagasipööratud, ja neile vastavate loodud parandatud ridadega.
 
-6. Kui parandatud väärtused on sellised nagu eeldati, valige **Kinnita**. Seejärel valige dialoogiboksis **OK**. Kui väärtused pole ootuspärased, valige **loendisse Tegelikud** naasmiseks **Loobu**. Seejärel korrake samme 2 kuni 5.
+6. Kui parandatud väärtused on sellised nagu eeldati, valige **Kinnita**. Seejärel valige dialoogiboksis **OK**. Kui väärtused ei vasta ootustele, valige **Tühista** loendisse **Tegelikud näitajad** naasmiseks. Seejärel korrake samme 2 kuni 5.
 
-7. Pärast parandustöölehe kinnitamist naaske muudatuste vaatamiseks värskendatud projekti või projektide juurde.
+7. Pärast paranduste töölehe kinnitamist liikuge tagasi värskendatud projekti või projektide juurde, et saaksite oma muudatusi vaadata.
 
-8. Vaadake projekti lehel vahekaardil **Tegelikud andmed üle** loend Tegelik seostatud **vaade**. Loetletud on algsed kirjed ja parandatud kirjed.
+8. Vaadake projekti lehe vahekaardil **Tegelikud näitajad** loendit **Tegelik seostatud vaade**. Loetletud on algsed kirjed ja parandatud kirjed.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

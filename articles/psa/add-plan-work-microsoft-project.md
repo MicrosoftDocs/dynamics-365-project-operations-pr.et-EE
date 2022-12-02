@@ -1,6 +1,6 @@
 ---
 title: Project Service’i lisandmooduli kasutamine töö planeerimiseks tarkvaras Microsoft Project | MicrosoftDocs
-description: Selles artiklis antakse teavet Selle kohta, kuidas Microsoft Projecti lisandmoodulit Microsoft Project Service'i jaoks lisada, konfigureerida ja kasutada.
+description: See artikkel annab teavet selle kohta, kuidas lisada, konfigureerida ja kasutada Microsoft Projecti lisandmoodulit Microsoft Project Service’i jaoks.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

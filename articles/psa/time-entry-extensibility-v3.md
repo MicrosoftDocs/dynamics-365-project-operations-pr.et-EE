@@ -1,6 +1,6 @@
 ---
 title: Iganädalaste ajakirjete kohandamine
-description: Selles artiklis antakse teavet selle kohta, kuidas rakendada kohandatud ärireegleid, mis toetavad organisatsiooni tavasid.
+description: See artikkel annab teavet selle kohta, kuidas rakendada organisatsiooni tegevust toetavaid ärireegleid.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -46,7 +46,7 @@ Jaotises **Dimensioonid** kuvatakse veerupäistena kõik dimensioonid, mille suh
 - Tüüp
 - Kirje olek
 
-Jaotis **Dimensioonid** ei luba tekstisisest redigeerimist. Seda jaotist toetab vaade, mis võimaldab lisada kohandatud välju iganädalase ajakirje ruudustikku. Lisateavet kohandatud väljade lisamise kohta leiate selle artikli hilisemast jaotisest "Laiendatavus".
+Jaotis **Dimensioonid** ei luba tekstisisest redigeerimist. Seda jaotist toetab vaade, mis võimaldab lisada kohandatud välju iganädalase ajakirje ruudustikku. Lisateavet kohandatud väljade lisamise kohta leiate selle artikli hilisemast jaotisest „Laiendatavus“.
 
 ### <a name="duration"></a>Kestus
 Jaotises Kestus kuvatakse nädalapäevad veerupäistena. Selles jaotises lubatakse tekstisisest redigeerimist. Pärast sobivate dimensioonidega ajakirje rea loomist saavad kasutajad kiiresti tekstisiseselt sisestada aja, mis nad nendele dimensioonidele kulutasid.

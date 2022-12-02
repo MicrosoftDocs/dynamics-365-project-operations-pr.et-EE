@@ -1,6 +1,6 @@
 ---
 title: Lahenduse loomine kohandatud hinnakujunduse dimensioonide jaoks
-description: Selles artiklis antakse teavet kohandatud hinnakujundusdimensioonide lahenduste loomise kohta.
+description: See artikkel kirjeldab, kuidas luua kohandatud hinnakujunduse jaoks lahendusi.
 author: Rumant
 ms.date: 11/09/2020
 ms.topic: article

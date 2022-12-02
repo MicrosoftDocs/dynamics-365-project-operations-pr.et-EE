@@ -1,6 +1,6 @@
 ---
 title: Rakenduse Dynamics 365 Project Operations desinstallimine
-description: Selles artiklis antakse teavet selle kohta, kuidas desinstallida Dynamics 365 Project Operations.
+description: See artikkel annab teavet, kuidas rakendust Dynamics 365 Project Operations desinstallida.
 author: stsporen
 ms.date: 11/09/2021
 ms.topic: article
@@ -35,8 +35,8 @@ Rakenduse Dynamics 365 Project Operations desinstallimiseks peab teile olema mä
     | 6 | ProjectServiceCore_Patch                           | Lisamärkused puuduvad.                                                                         |
     | 7 | ProjectServiceCore                                 | Lisamärkused puuduvad.                                                                         |
     | 8 | ProjectServiceDeprecatedComponents                 | Kui seda ei leitud, jätke see lahendus vahele.                                                            |
-    | 9 | FieldServiceCommon                                 | Vajalik topeltkirjutamiseks Dynamics 365 Finance või Dynamics 365 Supply Chain Management.   |
-    | 10 | msdyn_AssetCommon                                  | Vajalik topeltkirjutamiseks Dynamics 365 Finance või Dynamics 365 Supply Chain Management.   |
+    | 9 | FieldServiceCommon                                 | Nõutav topeltkirjutuse jaoks rakendusega Dynamics 365 Finance või Dynamics 365 Supply Chain Management.   |
+    | 10 | msdyn_AssetCommon                                  | Nõutav topeltkirjutuse jaoks rakendusega Dynamics 365 Finance või Dynamics 365 Supply Chain Management.   |
     | 11 | msdyn_TESA_Anchor                                  | Nõutav rakenduse Dynamics 365 Field Service puhul.                                                     |
     | 12 | msdyn_TESA_Patch                                   | Nõutav rakenduse Dynamics 365 Field Service puhul.                                                     |
     | 13 | msdyn_TESA                                         | Nõutav rakenduse Dynamics 365 Field Service puhul.                                                     |

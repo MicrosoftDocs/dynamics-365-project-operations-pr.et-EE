@@ -1,6 +1,6 @@
 ---
-title: Ladustamata materjalide või hankekategooriate ostmine ootel hankija arve abil
-description: Selles artiklis selgitatakse, kuidas salvestada ootel hankija arveid.
+title: Ostke mittelaopõhiseid materjale või hankekategooriaid ooteloleva hankija arve abil
+description: See artikkel kirjeldab, kuidas kirjendada ootel hankija arveid.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
@@ -14,29 +14,29 @@ ms.contentlocale: et-EE
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8921987"
 ---
-# <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Ladustamata materjalide või hankekategooriate ostmine ootel hankija arve abil
+# <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Ostke mittelaopõhiseid materjale või hankekategooriaid ooteloleva hankija arve abil
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Kuna ettevõte hangib projekti jaoks ladustamata materjale või hankekategooriaid, saab kulud kohe projekti suhtes kirjendada. 
+Kuna ettevõttes kasutatakse projekti jaoks mittelaopõhiseid materjale või hankekategooriaid, saab kulud kohe projekti kohta kirjendada. 
 
-Näiteks töötab ettevõte Contoso Robotics US vahendite uuendamise projekti kallal ja vajab tarkvaralitsentse. Need litsentsid on pärit kolmandalt osapoolelt.  Kasutades Dynamics 365 Finance, salvestab ostureskontro sekretär ootel hankija arve dokumendi ja omistab litsentsikulud otse seadmete uuendamise projekti vastu. 
+Näiteks töötab ettevõte Contoso Robotics US vahendite uuendamise projekti kallal ja vajab tarkvaralitsentse. Need litsentsid on pärit kolmandalt osapoolelt.  Rakenduse Dynamics 365 Finance kasutamisel fikseerib Ostureskontro ametnik ootel oleva hankija arve dokumendi ja omistab litsentsikulud otse seadmete uuendamise projektile. 
 
 > [!IMPORTANT]
-> Enne käesolevas artiklis kirjeldatud funktsioonide kasutamist vaadake üle ja rakendage vajalikud konfiguratsioonid. Lisateavet leiate teemadest [Ladustamata materjalide ja ootel hankijaarvete](configure-materials-nonstocked.md) lubamine ning [Hankekategooriate kasutamine projekti ostutellimuste ja ootel hankija arvetega](configure-procurement-categories.md)
+> Enne selles artiklis kirjeldatud funktsioonide kasutamist vaadake üle ja rakendage nõutavad konfiguratsioonid. Lisateabe saamiseks vaadake jaotisi [Varustamata materjalide ja ootel hankijaarvete lubamine](configure-materials-nonstocked.md) ja [Hankekategooriate kasutamine projekti ostutellimuste ja ootel hankija arvetega](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Projektiga seotud ootel hankija arve postitamine 
 
 Ootel hankija arved saab registreerida lehel **Ootel tarnija arved** (**Ostureskontro** > **Arved** > **Ootel hankijate arved**). Projektiga seotud ootel hankija arve postitamiseks tehke järgmist.
 
-1. **Avage ostureskontro** > **arved** ja valige **Uus**. 
-1. Valige väljale **Arve konto** hankija ja seejärel sisestage väljale **Number** hankija arve ID.
-1. Lisage hankija arvele rida ja seejärel valige väljal **Kauba number** hankijalt ostetud ladustamata kaup. Teise võimalusena valige väljal **Hankekategooria** hankijalt ostetud hankekategooria.   
-1. Lisage ostetud kogus. Süsteem täidab ühiku hinna, mis põhineb ladustamata kauba hinnakonfiguratsioonil. 
+1. Minge jaotisesse **Ostureskontro** > **Arved** ja valige **Uus**. 
+1. Valige väljal **Arve konto** soovitud tarnija ja seejärel sisestage väljal **Number** hankija arve ID.
+1. Lisage rida hankija arvele ja seejärel valige väljal **Üksuse number** hankijalt ostetud mittelaopõhine üksus. Teise võimalusena valige väljal **Hankekategooria** hankijalt ostetud hankekategooria.   
+1. Lisage ostetud kogus. Süsteem täidab ühikuhinna, lähtudes mittelaopõhise kauba hinna konfiguratsioonist. 
 1. Kontrollige real kogusummat ja muid nõutud üksikasju.
-1. Valige rea üksikasjade vahekaardil **Projekt** selle projekti ID, kuhu see üksus salvestatakse.
-1. Valikuline: valige tegevuse number ja värskendage projektikategooriat ja reaatribuuti.
-1. Sisestage ootel hankija arve. Arve konteerimisel salvestab süsteem järgmise teabe.
+1. Valige rea üksikasjade vahekaardis **Projekt** selle projekti ID, kus see üksus registreeritakse.
+1. Valikuline: valige tegevuse number ning värskendage projekti kategooriat ja rea atribuuti.
+1. Postitage ootel hankija arve. Kui arve on postitatud, salvestab süsteem järgmise teabe.
     
     - Hankija saldosumma.
     - Käibemaksu summa.

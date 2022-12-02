@@ -1,6 +1,6 @@
 ---
 title: Projekti arve ettepanekute haldamine
-description: Selles artiklis on toodud üksikasjad kliendiga seotud arvete töötlemise kohta projektitoimingutega ressursi- / ladustamata stsenaariumide jaoks.
+description: See artikkel annab üksikasjalikku teavet kliendile suunatud arvete töötlemise kohta rakenduse Project Operations abil ressursipõhiste/mittelaopõhiste stsenaariumide korral.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -22,7 +22,7 @@ Teie arveosakond saab projekti arve ettepanekuid töödelda, kui on täidetud j�
   - Projektijuht kinnitab proforma arve rakenduses Microsoft Dataverse.
   - Kõik arveldamata aja- ja materjali müügitehingud, mis on kaasatud proforma arvesse, sisestatakse Dynamics 365 **Project Operations integratsiooni** töölehe abil.
 
-Projektiarve ettepaneku lõpuleviimiseks rakenduses Dynamics 365 Finance tehke järgmist.
+Projekti arve ettepaneku lõpetamiseks rakenduses Dynamics 365 Finance toimige järgmiselt.
 
 1. Vaadake üle aja- ja materjali tehingute arveldusteave ja sisestage tööleht **Project Operationsi integratsioon**.
 2. Vaadake üle fikseeritud hinnaga arveldamise vahe-eesmärkide arveldusandmed.

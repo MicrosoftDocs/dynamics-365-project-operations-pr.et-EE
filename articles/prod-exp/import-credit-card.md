@@ -1,6 +1,6 @@
 ---
 title: Krediitkaarditehingute importimine ja säilitamine
-description: Selles artiklis selgitatakse, kuidas importida ja hallata kuludega seotud krediitkaardikandeid. Neid tehinguid saab seadistada nii, et need imporditakse automaatselt regulaarselt teatud aja tagant, või neid saab vajaduse kohaselt käsitsi importida.
+description: See artikkel kirjeldab kuluga seotud krediitkaarditehingute importimist ja haldamist. Neid tehinguid saab seadistada nii, et need imporditakse automaatselt regulaarselt teatud aja tagant, või neid saab vajaduse kohaselt käsitsi importida.
 author: KimANelson
 ms.date: 01/12/2018
 ms.topic: article

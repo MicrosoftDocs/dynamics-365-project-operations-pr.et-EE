@@ -1,6 +1,6 @@
 ---
 title: Projekti panuse jälgimine
-description: Selles artiklis antakse teavet selle kohta, kuidas jälgida projekti jõupingutusi ja töö edenemist.
+description: See artikkel kirjeldab, kuidas jälgida projekti panust ja töö edenemist.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
@@ -17,7 +17,7 @@ ms.locfileid: "8929255"
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Vajadus edenemise jälgimiseks ajakava suhtes sõltub majandusharust. Mõned majandusharud jälgivad minimaalsel tasandil, samas kui teised jälgivad kõrgemal tasemel. Selles artiklis kuvatakse, kuidas ajastada, et täita oma organisatsiooni nõudeid.
+Vajadus edenemise jälgimiseks ajakava suhtes sõltub majandusharust. Mõned majandusharud jälgivad minimaalsel tasandil, samas kui teised jälgivad kõrgemal tasemel. See artikkel kirjeldab, kuidas kasutada ajakava oma organisatsiooni vajadustele vastavalt.
 
 ## <a name="effort-tracking-view"></a>Panuse jälgimise vaade
 
@@ -45,8 +45,8 @@ Kokkuvõtvate või konteinerülesannete panust saab ümber kavandada. Projektiju
 - Iga individuaalse ülesande puhul arvutatakse uus EAC kuni lehesõlme ülesannete tasemeni. 
 - Mõjutatud alamülesannete jaoks (kuni lehe tasemeni) arvutatakse EAC väärtuse põhjal ümber nende järelejäänud panus ja edenemisprotsent. Selle tulemuseks on ülesande panuse hälbe uus prognoos. 
 - Kokkuvõtlike ülesannete EAC-d arvutatakse ümber juursõlme tasemeni.
-- Heakskiidetud jõupingutused kokkuvõtliku ülesande täitmiseks on kõigi tütarülesannete heakskiidetud jõupingutuste summa ja kokkuvõtteülesande heakskiidetud jõupingutused.
-- Kokkuvõtteülesande ülejäänud jõupingutused on kõigi tütarülesannete järelejäänud jõupingutuste summa, millest on maha arvatud kokkuvõtteülesande heakskiidetud jõupingutused.
+- Kokkuvõtliku ülesande kinnitatud pingutus on kõigi alamülesannete kinnitatud pingutuste ja kokkuvõtliku ülesande kinnitatud pingutuste summa.
+- Kokkuvõtliku ülesande järelejäänud pingutus on kõigi alamülesannete järelejäänud pingutuste summa, millest on lahutatud kokkuvõtliku ülesande kinnitatud pingutus.
 
 ## <a name="project-status-summary"></a>Projekti oleku kokkuvõte
 

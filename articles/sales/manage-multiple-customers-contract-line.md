@@ -1,6 +1,6 @@
 ---
 title: Mitme kliendi projektipõhistel lepinguridadel haldamine
-description: Selles artiklis antakse teavet mitut klienti sisaldavate lepinguridade ja lepingutega töötamise kohta.
+description: See artikkel annab teavet lepinguridadega ja mitut klienti sisaldavate lepingutega töötamise kohta.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

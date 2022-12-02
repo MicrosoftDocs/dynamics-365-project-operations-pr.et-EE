@@ -1,6 +1,6 @@
 ---
 title: Töö kuluaruande isiklike kuludega
-description: Selles artiklis antakse teavet selle kohta, kuidas töötada isiklike kuludega, mida töötajad ärilistel eesmärkidel reisides kannavad.
+description: See artikkel annab teavet selle kohta, kuidas toimida töötajate poolt äri eesmärgil reisides tekkinud isiklike kuludega.
 author: suvaidya
 ms.date: 05/11/2021
 ms.topic: article

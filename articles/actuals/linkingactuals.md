@@ -1,6 +1,6 @@
 ---
-title: Kande päritolu – tegelike seoste linkimine nende allikaga
-description: Selles artiklis selgitatakse, kuidas kande päritolu mõistet kasutatakse tegelike seoste sidumiseks algsete lähtekirjetega (nt ajasisestus, kulukanne või materjali kasutuslogid).
+title: Tehingu päritolu – linkige tegelikud andmed nende allikaga
+description: See artikkel selgitab, kuidas tehingu päritolu mõistet kasutatakse tegelike näitajate linkimiseks algse allika kirjetega, nagu ajakanne, kulukanne või materjalikasutuse logid.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
@@ -14,22 +14,22 @@ ms.contentlocale: et-EE
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8921297"
 ---
-# <a name="transaction-origins---link-actuals-to-their-source"></a>Kande päritolu – tegelike seoste linkimine nende allikaga
+# <a name="transaction-origins---link-actuals-to-their-source"></a>Tehingu päritolu – linkige tegelikud andmed nende allikaga
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Kande päritolukirjed luuakse, et linkida tegelikud andmed nende allikaga, näiteks ajakannete, kulukannete, materjali kasutuslogide ja projektiarvetega.
+Tehingu päritolukirjed luuakse tegelike näitajate sidumiseks nende allikaga, nagu ajakanded, kulukirjed, materjalikasutuse logid ja projektiarved.
 
 Järgmises näites on toodud ajakannete tüüpiline töötlemine Project Operationsi projekti töötsüklis.
 
-> ![Töötlemisaeg tervikuna Project Operationsis.](media/basic-guide-17.png)
+> ![Ajakirjete töötlemine rakenduses Project Operations.](media/basic-guide-17.png)
  
-1. Ajakande esitamisel luuakse kaks žurnaalirida: üks kulu ja teine sisestamata müügi jaoks.
-2. Ajakande lõplik kinnitamine põhjustab kahe tegeliku loomise: üks kulu ja teine sisestamata müügi jaoks.
+1. Ajakirje esitamise põhjuseks on kahele töölehele kandmise loomine: üks kulu ja teine arveldamata müügi jaoks.
+2. Ajakirje lõplik kinnitamine põhjustab kahe tegeliku näitaja loomise: ühe kulu ja teise arveldamata müügi kohta.
 3. Kui kasutaja loob projekti arve, luuakse arverea tehing, kasutades arveldamata müügi tegelikke andmeid.
 4. Pärast arve kinnitamist luuakse kaks uut tegelikku versiooni: arveldamata müügi tühistamine ja arveldatud müügi tegelik.
 
-Iga selle töötlemistöövoo sündmus käivitab olemis Transaction origin kirjete loomise, et aidata luua jälgi nende kirjete vahelistest seostest, mis on loodud ajakande, žurnaalirea, tegelike ja arverea üksikasjade vahel.
+Selle töötlemise töövoo iga sündmus käivitab kirjete loomise tehingu päritolu olemis, et aidata luua jälge nende kirjete vahel, mis luuakse ajakirje, töölehele kandmise, tegeliku näitaja ja arve rea üksikasjade lõikes.
 
 Järgmises tabelis on kuvatud eelmise töövoo tehingute päritolu olemi kirjed.
 
@@ -70,8 +70,8 @@ Järgmises tabelis on kuvatud eelmise töövoo tehingute päritolu olemi kirjed.
 | Parandatud arve GUID      | Arve                  | Uus arveldamata müügi tegelik GUID    | Tegelik                            |                          |
 
 
-Järgmisel joonisel on näidatud lingid, mis luuakse tegelike ja nende allikate vahel erinevatel sündmustel, kasutades projektitoimingute ajakirjete näidet.
+Järgmine joonis näitab linke, mis luuakse erinevate sündmuste tegelike näitajate ja nende allikate vahel, kasutades ajakirjete näidet rakenduses Project Operations.
 
-> ![Kuidas on tegelikud andmed projektitoimingutes lähtekirjetega lingitud?](media/TransactionOrigins.png)
+> ![Tegelike näitajate linkimine lähtekirjetega rakenduses Project Operations.](media/TransactionOrigins.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

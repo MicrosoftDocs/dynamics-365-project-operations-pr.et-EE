@@ -1,6 +1,6 @@
 ---
 title: Kannete ühendused – erinevate kandetüüpide tegelike andmete linkimine
-description: Selles artiklis selgitatakse, kuidas tehinguühendust kasutatakse erinevat tüüpi tegelike kirjete linkimiseks, et aidata jälgida kasumlikkust, arvelduse mahajäämust ja arveldatud versus sisendvälistamata tuluarvutusi.
+description: See artikkel selgitab, kuidas kasutatakse tehinguühendust eri tüüpi tegelike näitajate linkimiseks, et aidata jälgida kasumlikkust, tööjärjearveid ja arveldatud ja arveldamata tulude arvutamist.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
@@ -17,22 +17,22 @@ ms.locfileid: "8926081"
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Tehinguühenduse kirjed luuakse selleks, et linkida eri tüüpi aktuaalsused, kuna aja-, kulu- või materjalikasutuse kasutamine liigub oma elutsükli elutsüklis hinnapakkumisest või müügieelsest etapist lepinguetappi, kinnituste ja/või tagasikutsumisteni, arvete esitamiseni ning potentsiaalselt krediidi- või parandusarvete esitamiseni.
+Tehinguühenduse kirjed luuakse eri tüüpi tegelike näitajate linkimiseks, kui aeg, kulu või materjalikasutus liigub oma elutsüklis pakkumisest või müügieelsest etapist lepingufaasi, kinnitamise ja/või tagasikutsumise, arvete esitamise ja potentsiaalselt krediidi- või parandusarvete esitamise etapini.
 
 Järgmises näites on toodud ajakannete tüüpiline töötlemine Project Operationsi projekti töötsüklis.
 
-> ![Ajakannete töötlemine Project Operationsis.](media/basic-guide-17.png)
+> ![Aja sissekannete töötlemine rakenduses Project Operations.](media/basic-guide-17.png)
 
-Projektitoimingute projekti elutsükli ajakirjete töötlemine on järgmine. 
+Aja sissekannete töötlemine Project Operationsi projekti elutsüklis toimub järgmiselt: 
 
-1. Ajakande esitamisel luuakse kaks žurnaalirida: üks kulu ja teine sisestamata müügi jaoks. 
-2. Ajakande lõplik kinnitamine põhjustab kahe tegeliku loomise: üks kulu ja teine sisestamata müügi jaoks. Need 2 tegelikkust on lingitud tehinguühenduste abil.
+1. Ajakirje esitamise põhjuseks on kahele töölehele kandmise loomine: üks kulu ja teine arveldamata müügi jaoks. 
+2. Ajakirje lõplik kinnitamine põhjustab kahe tegeliku näitaja loomise: ühe kulu ja teise arveldamata müügi kohta. Need 2 tegelikku näitajad on seotud tehinguühenduste abil.
 3. Kui kasutaja loob projekti arve, luuakse arverea tehing, kasutades arveldamata müügi tegelikke andmeid.
-4. Kui arve kinnitatakse, loob see kaks uut tegelikkust: sisestamata müügi tühistamine ja arveldamata müük tegelik. Sisestamata müügi tühistamine ja tegelik algne sisestamata müük on ühendatud tagurdamiskandeühenduste abil. Arveldatud müük ja algsed sisestamata müügi tegelikud tegelikud andmed on samuti seotud, et näidata seoseid selle vahel, mis oli kunagi mahajäämus või pooleliolev töö (WIP) tulu, mis on nüüd arveldatud tulu.   
+4. Kui arve kinnitatakse, loob see kaks uut tegelikku näitajat: arveldamata müügi tühistamine ja arveldatud müügi tegelik näitaja. Arveldamata müügi tühistamine ja esialgse arveldamata müügi tegelik näitaja ühendatakse omavahel, kasutades pöördtehingute ühendusi. Arveldatud müügid ja esialgse arveldamata müügi tegelikud näitajad on samuti ühendatud, et näidata seoseid selle vahel, mis oli kunagi tööjärje või poolelioleva töö (WIP) tulu ja mis on nüüd arveldatud tulu.   
 
-Iga töötlemistöövoo sündmus käivitab kirjete **loomise tabelis Kande ühendus**. See aitab luua jälje ajakande, žurnaalirea, tegelike ja arverea üksikasjade vahel loodud kirjete vahelistest seostest.
+Iga töötlemise töövoo sündmus käivitab kirjete loomise tabelis **Tehingu ühendus**. See aitab luua jälgi aja sissekande, töölehele kandmise rea, tegeliku näitaja ja arve rea üksikasjade vahel loodud kirjete vahelistest seostest.
 
-Järgmises **tabelis kuvatakse eelmise töövoo olemi Transaction connection** kirjed.
+Järgmises tabelis on kuvatud eelmise töövoo **Tehingute seose** olemi kirjed.
 
 |Sündmus                   |Tehing 1                 |Tehingu 1 roll |Tehingu 1 tüüp       |Kanne 2          |Tehingu 2 roll |Tehingu 2 tüüp |
 |------------------------|------------------------------|---------------|-----------------------------|-----------------------------|-------------------|-------------------|
@@ -43,11 +43,11 @@ Järgmises **tabelis kuvatakse eelmise töövoo olemi Transaction connection** k
 |                        |Arveldatud müügi GUID             |Arveldatud müük   |msdyn_actual                 |Arveldamata müügi tegelik GUID   |Arveldamata müük  |msdyn_actual       |
 |Arve paranduse mustand |Arve rea tehingu GUID|Asendamine      |msdyn_invoicelinetransaction |Arveldatud müügi GUID            |Algne        |msdyn_actual       |
 |Arve parandamise kinnitamine|Arveldatud müügi tagasipööramise GUID  |Tagasipööramine      |msdyn_actual                 |Arveldatud müügi GUID            |Algne        |msdyn_actual       |
-|                        |Uus sisestamata müügi GUID |Asendamine            |msdyn_actual                 |Arveldatud müügi GUID            |Algne        |msdyn_actual       |
+|                        |Uue arveldamata müügi GUID |Asendamine            |msdyn_actual                 |Arveldatud müügi GUID            |Algne        |msdyn_actual       |
 
 
-Järgmisel joonisel on näidatud lingid, mis luuakse eri tüüpi tegelike vahel erinevatel sündmustel, kasutades projektitoimingute ajakirjete näidet.
+Järgmine joonis näitab linke, mis luuakse erinevate sündmuste eri tüüpi tegelike näitajate vahel, kasutades aja sissekannete näidet rakenduses Project Operations.
 
-> ![Kuidas eri tüüpi tegelikud andmed projektitoimingutes üksteisega lingitakse?](media/TransactionConnections.png)
+> ![Kuidas eri tüüpi tegelikud näitajad on rakenduses Project Operations omavahel seotud.](media/TransactionConnections.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

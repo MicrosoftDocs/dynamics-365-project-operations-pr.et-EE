@@ -1,6 +1,6 @@
 ---
 title: Projektipõhiste müügivõimaluste kopeerimine
-description: Selles artiklis antakse teavet projektipõhiste võimaluste kopeerimise kohta Project Operationsis.
+description: See artikkel annab teavet projektipõhiste võimaluste kopeerimise kohta rakenduses Project Operations.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

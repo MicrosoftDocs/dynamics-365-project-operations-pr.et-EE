@@ -1,6 +1,6 @@
 ---
 title: Miks ei saa kirjeid tegelike näitajate olemist kustutada?
-description: Selles artiklis antakse teavet selle kohta, miks te ei saa kirjeid tegelikest olemist kustutada.
+description: See artikkel annab teavet selle kohta, miks te ei saa kirjeid tegelikest olemitest kustutada.
 author: JPBurrows
 ms.custom:
 - dyn365-projectservice

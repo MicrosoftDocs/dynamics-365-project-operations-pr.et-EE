@@ -1,6 +1,6 @@
 ---
 title: Rollide seadistamine tööjaotuse struktuuri mallidel
-description: Selles artiklis antakse teavet rolliteabe häälestamise kohta tööjaotuse struktuurimallides.
+description: See artikkel annab teavet tööjaotuse struktuuri mallidele rolliteabe seadistamise kohta.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

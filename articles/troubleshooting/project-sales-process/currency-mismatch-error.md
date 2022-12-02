@@ -1,6 +1,6 @@
 ---
 title: Valuuta mittevastavuse tõrge
-description: Selles artiklis antakse tõrkeotsinguteavet valuuta mittevastavuse tõrke kohta, mis ilmneb kindlate kirjetüüpide salvestamisel.
+description: See artikkel annab teavet tõrkeotsingu kohta seoses vääringu mittevastavuse tõrkega, mis ilmneb teatud kirjetüüpide salvestamisel.
 author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
@@ -18,15 +18,15 @@ ms.locfileid: "8914719"
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Projekti, lepingu, hinnapakkumise või broneeritava ressursi salvestamisel võite saada tõrke, **ettevõtte valuuta omamine ei vasta lepinguühiku valuutale. Jätkamiseks valige mõni muu omamisettevõte või lepinguüksus**. Selle põhjuseks on asjaolu, et kirje lepinguühiku valuuta ja omava ettevõtte valuuta vahel on valuuta mittevastavus.
+'Kui salvestate projekti, lepingu, hinnapakkumise või broneeritava ressursi, võidakse kuvada tõrketeade **Ettevõtte omamise valuuta ei ühti lepinguühiku valuutaga. Jätkamiseks valige teine omanikfirma või lepinguline ühik**. Selle põhjuseks on asjaolu, et kirje lepingulise ühiku valuuta ja omava ettevõtte valuuta vahel on valuuta mittevastavus.
 
 
 ## <a name="resolution"></a>Lahendus
 
 Selle probleemi lahendamiseks tehke järgmist.
-- Kontrollige selle kirje lepinguüksuse valuutat. Valuuta kuvamiseks avage organisatsiooniüksuse kirje ja kontrollige väärtust välja Valuuta vahekaardil **Üldine** **.**
-- Kontrollige omava ettevõtte valuutat. Valuutat saate vaadata, minnes ettevõttekirjes jaotisse **Seostuvad** > **pearaamatud**. Topeltklõpsake ettevõttega seostatud pearaamatukirjet ja kontrollige väärtust väljal Arvestusvaluuta vahekaardil **Üldine** **.**
+- Kontrollige selle kirje lepingulise ühiku valuutat. Valuutat saate näha, avades organisatsiooniühiku kirje ja kontrollides väärtust vahekaardil **Üldine** väljal **Valuuta**.
+- Kontrollige omanikettevõtte valuutat. Valuutat näete, minnes ettevõtte kirjes jaotisse **Seotud** > **Pearaamatud**. Topeltklõpsake ettevõttega seotud pearaamatu kirjet ja kontrollige väärtust vahekaardil **Üldine** väljal **Arvestusvaluuta**.
 
-Kui lepinguüksuses ja pearaamatukirjes seatud valuuta ei ühti, korrigeerige kirje salvestamisel konfiguratsiooni või valige erinevad väärtused. Süsteem nõuab, et need kirjed vastaksid, et tagada õiged kontsernisisesed arveldusvood. Kontsernisiseste konfiguratsioonide kohta leiate lisateavet teemast [Kontsernisiseste kannete](../../project-accounting/create-intercompany-transactions.md) loomine.
+Kui lepinguühiku ja pearaamatu kirjes määratud valuuta ei ühti, kohandage kirje salvestamisel konfiguratsiooni või valige erinevad väärtused. Süsteem nõuab, et need kirjed ühtiksid, et tagada korrektsed kontsernivahelised arveldusvood. Lisateavet kontsernivaheliste konfiguratsioonide kohta leiate jaotisest [Kontsernivaheliste tehingute loomine](../../project-accounting/create-intercompany-transactions.md).
 
-Kui ettevõttekirjel pole seostatud pearaamatukirjet, näitab see, et keskkonna seadistamisel puudub konfiguratsioon. Süsteemiadministraator peab konfiguratsiooni parandama. Süsteemiadministraator peab minema **dual-write konfiguratsioonidele** ning peatama ja taaskäivitama **Ledgersi topeltkirjutamise kaardi** selle kaardi algse sünkroonimise ja selle eeltingimustega. Lisateavet leiate teemast [Rakenduse Project Operations topeltkirjutamise vastenduse versioonid](../../environment/resource-dual-write-maps.md).
+Kui ettevõtte kirjel pole seotud pearaamatu kirjet, näitab see, et keskkonna seadistamisel on puudu konfiguratsioon. Süsteemiadministraator peab konfiguratsiooni parandama. Süsteemiadministraator peab minema jaotisse **Topeltkirjutuse konfiguratsioonid** ning peatama ja taaskäivitama **Pearaamatu topeltkirjutuskaart** selle kaardi esialgse sünkroonimise ja selle eeltingimustega. Lisateavet leiate teemast [Rakenduse Project Operations topeltkirjutamise vastenduse versioonid](../../environment/resource-dual-write-maps.md).

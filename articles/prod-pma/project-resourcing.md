@@ -1,6 +1,6 @@
 ---
 title: Projekti ressursside avaleht
-description: Selles artiklis antakse teavet projekti ressursside hankimise kohta.
+description: See artikkel annab teavet projekti ressursside kohta.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -26,9 +26,9 @@ ms.locfileid: "8924011"
 
 [!include [banner](../includes/banner.md)]
 
-Selles artiklis antakse teavet projekti ressursside hankimise kohta.
+See artikkel annab teavet projekti ressursside kohta.
 
-Üks projektijuhtide ja ressursi haldajatele väljakutse projekti kavandamise etapis on ressursside eraldamine, kus nad peavad määratlema ja reserveerima õige ressursi projektiga töötamiseks. Dynamics 365 Finance võimaldavad projektide rahastamisvõimalused määratleda rolle, mida käsitletakse ajutiste ressurssidena, mida saab reserveerida konkreetse töövõtu või töövõtu osa jaoks. Seda tüüpi ressurss võimaldab projektihalduritel ja ressursi halduritel täita järgmisi tööülesandeid.
+Üks projektijuhtide ja ressursi haldajatele väljakutse projekti kavandamise etapis on ressursside eraldamine, kus nad peavad määratlema ja reserveerima õige ressursi projektiga töötamiseks. Rakenduse Dynamics 365 Finance projektide ressursside võimekus võimaldab teil määratleda rolle, mida käsitletakse ajutiste ressurssidena, mida saab reserveerida konkreetsele tegevusele või tegevuse osale. Seda tüüpi ressurss võimaldab projektihalduritel ja ressursi halduritel täita järgmisi tööülesandeid.
 
 - Määrata roll, millel on nõutav pädevus, et ressursse oleks hõlbus vastendada.
 - Rollide kasutamine algse kaasamise graafiku määratlemiseks, mis põhineb reserveeritud ressurssidel.
@@ -41,7 +41,7 @@ Selles artiklis antakse teavet projekti ressursside hankimise kohta.
 
 Projekti kavandamise edenemisel saab planeeritud ressursse asendada töötajate ressurssidega. Projektijuht saab tagasi minna ja uuendada ressursi reserveerimisi mis tahes projekti etapis.
 
-Järgmistes artiklites antakse teavet ülesannete kohta, mis tuleb projektide hankimisel lõpule viia.
+Järgmistest artiklitest leiate teavet toimingute kohta, mis tuleb projektide ressurssidega töötamisel lõpule viia.
 
 - [Projekti ressursside seadistamine](set-up-project-resources.md)
 - [Ressursi pädevuste haldamine](manage-resource-competencies.md)

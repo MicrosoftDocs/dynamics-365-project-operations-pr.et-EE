@@ -1,6 +1,6 @@
 ---
 title: Projekti eelarvetele prognoosimudeli loomine
-description: Selles artiklis kirjeldatakse, kuidas luua järelejäänud eelarvete jaoks prognoosimudel.
+description: See artikkel annab teavet, kuidas luua järelejäänud eelarvete jaoks prognoosimudel.
 author: Yowelle
 ms.date: 04/24/2020
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "8916697"
 
 [!include [banner](../includes/banner.md)]
 
-Selles artiklis kirjeldatakse, kuidas luua järelejäänud eelarvete jaoks prognoosimudel. Projekt, mille suhtes rakendatakse eelarve kontrolli, kasutab kahte tüüpi eelarveid: algne ja järelejäänud. Projekti eelarve loomisel tuleb määrata algsed ja järelejäänud eelarve prognoosimudelid, mis on loodud rakenduse lehel **Prognoosimudel**. Määratud mudelitel põhinevad projekti eelarved luuakse projekti eelarve täitmisel.
+See artikkel annab teavet, kuidas luua järelejäänud eelarvete jaoks prognoosimudel. Projekt, mille suhtes rakendatakse eelarve kontrolli, kasutab kahte tüüpi eelarveid: algne ja järelejäänud. Projekti eelarve loomisel tuleb määrata algsed ja järelejäänud eelarve prognoosimudelid, mis on loodud rakenduse lehel **Prognoosimudel**. Määratud mudelitel põhinevad projekti eelarved luuakse projekti eelarve täitmisel.
 
 > [!NOTE]
 > Prognoosimudel, mida kasutatakse eelarve kontrollimisel, ei saa olla allmudeliga ning seda ei saa kasutada allmudelina.

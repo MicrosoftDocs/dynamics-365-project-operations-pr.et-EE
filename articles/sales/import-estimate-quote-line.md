@@ -1,6 +1,6 @@
 ---
 title: Projekti prognooside importimine projekti hinnapakkumise reale
-description: Selles artiklis antakse teavet hinnangute importimise kohta projekti hinnapakkumise reale.
+description: See artikkel annab teavet projekti hinnapakkumiste projekti hinnapakkumise reale importimise kohta.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article
@@ -24,7 +24,7 @@ Kui projekt luuakse müügieelses etapis, saate valida, kas importida projekti f
 2. Valige vahekaardil **Hinnapakkumise rea üksikasjad** suvand **Impordi projekti prognoosidest**.
 3. Avaneval dialoogi lehel valige üks järgmistest kokkuvõtte valikutest.
 
-  - **Kande klass**
+  - **Tehingu klass**
   - **Kategooria**
   - **Roll** 
   - **Projekti ülesanne**
