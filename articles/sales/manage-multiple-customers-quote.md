@@ -1,23 +1,23 @@
 ---
-title: Mitme kliendi haldamine projekti hinnapakkumises
+title: Mitme kliendi haldamine projektipõhise hinnapakkumise alusel
 description: See artikkel annab teavet töö kohta hinnapakkumistega, mis hõlmavad mitut klienti, kes rahastavad projekti.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16cd07527fddd093748a18c1f7c900c8b32be85d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b9c82ababdb9a588a0d28cae60a49d0594378d9
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928197"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825143"
 ---
-# <a name="manage-multiple-customers-on-a-project-quote"></a>Mitme kliendi haldamine projekti hinnapakkumises
+# <a name="manage-multiple-customers-on-a-project-based-quote"></a>Mitme kliendi haldamine projektipõhise hinnapakkumise alusel
 
-_**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
+_**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Projekti hinnapakkumised toetavad stsenaariumit, kus ettepanek hõlmab mitut lepingut rahastavat klienti. Hinnapakkumise vahekaardil **Kokkuvõte** on väli **Potentsiaalne klient**, mis tuvastab tehingu peamise kliendi. Lepungu teisi kliente saab seadistada projekti hinnapakkumise vagekaardil **Kliendid**.
+Projektipõhised hinnapakkumised toetavad stsenaariumi, kus ettepanek hõlmab mitut klienti, kes tehingut rahastavad. Hinnapakkumise vahekaardil **Kokkuvõte** on väli **Potentsiaalne klient**, mis tuvastab tehingu peamise kliendi. Lepungu teisi kliente saab seadistada projekti hinnapakkumise vagekaardil **Kliendid**.
 
 Kõik hinnapakkumise vahekaardil **Kliendid** olevad hinnapakkumise kliendid on vaikimisi hinnapakkumise rea kliendid mis tahes hinnapakkumise jaoks loodava **uue** projektipõhise hinnapakkumise ridade puhul. Kõik olemasolevad projektipõhised hinnapakkumise read ei päri pärast neid loodud uusi hinnapakkumise kliendikirjeid.
 

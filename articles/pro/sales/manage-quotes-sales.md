@@ -6,12 +6,12 @@ ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b9dad9ab9b6cef11ad337f9c3f536fe467b6a347
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 79da23d83133241204eaad44e39e64c5c6a1591d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911637"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826076"
 ---
 # <a name="manage-project-quotes"></a>Projekti hinnapakkumiste haldamine
 
@@ -23,7 +23,7 @@ Rakenduses Dynamics 365 Project Operations on projekti hinnapakkumised loodud ai
   - Hinnapakkumise rea üksikasjad, mis määratlevad ja hindavad iga kõrgetasemelise komponendi või hinnapakkumise rea tööd. Töö ajakava või kuupäeva hinnangud ja finantsaspektid on seotud selle hinnapakkumise reaga.
   - Iga hinnapakkumise rea jaoks seadistatakse lepingulised mudelid ja tasustatavad komponendid. See seadistus aitab hinnata iga hinnapakkumise rea ja kogu hinnapakkumise tulu, kulutuste ja tasuvuse jaotumist.
 
-## <a name="view-all-project-based-quotes"></a>Kõikide projektipõhiste hinnapakkumiste vaade
+## <a name="view-all-project-quotes"></a>Vaata kõiki projekti hinnapakkumisi
 
 Kõigi projekti hinnapakkumiste loendit saab vaadata loendi **Hinnapakkumised** lehel. 
 

@@ -1,8 +1,8 @@
 ---
-title: Hinnapakkumised - põhimõisted
-description: See artikkel annab teavet projektide hinnapakkumiste ja müügipakkumiste kohta, mis on saadaval rakenduses Project Operations.
+title: Projektipõhiste hinnapakkumiste kordumatud mõisted
+description: Sellest artiklist leiate teavet Microsofti projektipakkumiste kohta Dynamics 365 Project Operations.
 author: rumant
-ms.date: 09/18/2020
+ms.date: 12/02/2022
 ms.topic: article
 ms.prod: ''
 audience: Application User
@@ -15,117 +15,91 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 89867cfbe92f47d58b16da40b62d3d9dd6a15b64
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912511"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824322"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Projektipõhiste hinnapakkumiste kordumatud mõisted
 
-_**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
+_**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Rakenduses Dynamics 365 Project Operations on kahte tüüpi hinnapakkumisi: projekti ja müügi. Kaks hinnapakkumiste tüüpi erinevad järgmistel viisidel.
+Enne kui hakkate Microsoftis Dynamics 365 Project Operations projekti hinnapakkumisi kasutama, peaksite olema teadlik järgmistest põhimõistetest.
 
-- **Reaüksuste ruudustikud**: müügipakkumiste puhul on ainult üks ruudustik rea üksuste jaoks. Projekti hinnapakkumisel on rea üksuste jaoks kaks ruudustikku. Üks ruudustik on projekti ridadele ja teine on toote ridade jaoks.
-- **Aktiveerimine ja läbivaatamine** : müügipakkumised toetavad aktiveerimist ja läbivaatamisi. Neid protsesse ei toetata projekti hinnapakkumises.
-- **Lisatud tellimused**: müügipakkumistele saate lisada mitu tellimust. Projekti hinnapakkumisele saab lisada ainult ühe projekti lepingu.
-- **Hinnapakkumise võitmine**: kui olete müügipakkumise võitnud, võib sellega seotud müügivõimalus jääda avatuks. Pärast projekti hinnapakkumise võitmist suletakse seotud müügivõimalus.
-- **Väljad ja kontseptsioonid**: müügipakkumine ei sisalda mõningaid väljasid ja mõisteid, mis on kaasatud projekti hinnapakkumises. Väljad sisaldavad järgmisi: **Hankeüksus**, **Kontohaldur** ja **Maksja: kontakti nimi**.  
-- **Tüüp**: müügipakkumisi ja projekti hinnapakkumisi tuvastab ka suvandikomplekti põhine väli **Tüüp**. Müügipakkumise puhul on sellel väljal väärtus **Kaubal põhinev**. Projekti hinnapakkumise puhul on sellel väärtus **Tööl põhinev**.
+## <a name="owning-company"></a>Omanikust ettevõte
 
-See artikkel keskendub projekti hinnapakkumiste üksikasjadele.
+Omav ettevõte esindab juriidilist isikut, kellele kuulub projekti elluviimine. Hinnapakkumisel olev klient peaks olema finance and operationsi rakendustes selles juriidilises isikus kehtiv klient. Omanikust ettevõtte valuuta ja projektipõhisel hinnapakkumisel valitud lepinguüksuse valuuta peavad ühtima.
 
-Projekti hinnapakkumisel Project Operationsis võib olla mitu rea üksust või hinnapakkumise rida. Tegelikult on projekti hinnapakkumisel rea üksuste jaoks kaks ruudustikku. Üks ruudustik on projektil põhinevate ridade jaoks, mis võimaldavad üksikasjalikke hindamisi. Teine ruudustik on tootel põhinevate ridade jaoks, ms kasutavad lihtsat ühikuhinnal ja kogusel põhinevat lähenemisviisi.
+## <a name="contracting-unit"></a>Lepingut sõlmiv üksus
 
-- **Projektil põhinev**: hinnapakkumise väärtus määratakse pärast seda, kui hindate palju tööd on vaja teha. Saate hinnata tööd kõrgel tasemel, otse iga hinnapakkumise rea all olevate rea üksikasjadena või projekti ja projekti plaani algsete hinnangute abil. Projektipõhiste hinnapakkumiste ridu leidub ainult projekti põhistes hinnapakkumistes, mis on loodud rakendusega Project Operations. Seda tüüpi hinnapakkumise rida on kohandatud vorm sisestatavate hinnapakkumise ridade jaoks, mis on saadaval rakenduses Microsoft Dynamics 365 Sales.
+Allhankeüksus esindab allüksust või praktikat, kellele projekti elluviimine kuulub. Saate seadistada ressursi kulud iga lepingut sõlmiva üksuse jaoks. Kui määrate allhankeüksuses olevale ressursile ressursikulud, saate seadistada erinevad kulumäärad ressurssidele, millelt allhankeüksus laenab, või muudele ettevõtte allüksustele või tavadele. Neid kulumäärasid nimetatakse siirdehindadeks, ressursilaenuks või börsihindadeks. Kui seadistate teistelt osakondadelt ressursside laenamise kulu, saate seadistada kulumäärad laenudivisjoni valuutas.
 
-- **Tootel põhinev**: hinnapakkumise väärtus määratakse müüdud ühikute koguse ja toote ühiku müügihinna põhjal. Toode tootel põhineval real võib olla pärit rakenduse Sales tootekataloogist või see võib olla teie määratletud toode. Seda tüüpi hinnapakkumise rida on saadaval ka projektil põhinevates hinnapakkumistes, mis on loodud rakendusega Project Operations.
+## <a name="cost-currency"></a>Kulu valuuta
 
-Hinnapakkumise summa on tootel põhinevate ridade ja projektil põhinevate ridade kogusumma.
+Project Operationsi kuluvaluuta on valuuta, milles kulusid kajastatakse. See valuuta tuletatakse valuutast, mis on lisatud **hinnapakkumise, lepingu ja projekti väljale Lepinguüksus** . Projekti kulusid saab kirjendada mis tahes valuutas. Siiski toimub valuuta konverteerimine valuutast, milles kulud kirjendati, projekti kuluvaluutasse.
 
-> [!NOTE]
-> Rakenduses Project Operations ei nõuta hinnapakkumisi ega hinnapakkumise ridu. Projekti protsessi saab käivitada projekti lepinguga (müüdud projekt). Siiski on müügivõimalus alati nõutav, olenemata sellest, kas alustate hinnapakkumise või projekti lepinguga.
+Kuna platvormi vahetuskursid Dataverse ei saa olla kuupäevaliselt tõhusad, võivad valuutakursside värskendamisel ekraanil kuvatavad kulude kogusummad aja jooksul muutuda. Andmebaasis kirjendatud kulud jäävad siiski muutumatuks, sest summad salvestatakse valuutas, milles need tekkisid.
 
-## <a name="project-based-quote-lines"></a>Projektipõhised hinnapakkumise read
+## <a name="sales-currency"></a>Müügi valuuta
 
-Projektil põhineval hinnapakkumise real rakenduses Project Operations on järgmised arveldusmeetodid.
+Project Operationsi müügivaluuta on valuuta, milles hinnangulised ja tegelikud müügisummad registreeritakse ja kuvatakse. See on ka valuuta, milles kliendile tehingu eest arve esitatakse. Projekti hinnapakkumise puhul määratakse kliendi või konto kirjest müügi vaikevaluuta ja seda saab hinnapakkumise loomisel muuta. Müügivaluutat ei saa aga pärast hinnapakkumise salvestamist muuta. Toote ja projekti vaikehinnakirjad määratakse hinnapakkumise müügivaluuta alusel.
 
-- Aeg ja materjal
-- Fikseeritud hind
+Erinevalt kuludest saab müügiväärtusi kirjendada **ainult** müügivaluutas.
 
-### <a name="time-and-material"></a>Aeg ja materjal
+## <a name="billing-method"></a>Arveldusmeetod
 
-Aja- ja materjalikulu arveldusmeetod põhineb tarbimisel. Selle arveldusmeetodi valimisel esitatakse kliendile arve projektiga kaasnevate kulude põhjal. Arveid luuakse kuupäeval põhineva perioodilise sagedusega. Müügiprotsessi jooksul annab aja- ja materjalikulu komponendi hinnapakkumise väärtus kliendile ainult hinnangulise lõppkulu. Hankija ei kohustu projekti lõpule viima täpselt hinnapakkumise väärtusega. Aja- ja materjalikulu komponendid suurendavad kliendi riski. Kliendid võiksid oma riski minimeerimiseks läbi rääkida täiendavad mitte ületamise klauslid. Project Operations ei toeta mitte ületamise klauslite seadistamist.
+Projektidel on tavaliselt fikseeritud tasu ja tarbimispõhised lepingumudelid. Project Operationsis esindab projekti lepingupõhist mudelit arveldusmeetod. Arveldusmeetodil on kaks väärtust: aeg ja materjal ning fikseeritud hind.
 
-### <a name="fixed-price"></a>Fikseeritud hind
+- **Aeg ja materjal** - Tarbimispõhine lepingumudel, kus iga tehtud kulu on tagatud vastava tuluga. Kui prognoosite või kannate rohkem kulusid, tõuseb ka vastab prognoositav ja tegeliku müük. Saate määrata mitte ületatavad piirid hinnapakkumise ridadele, millel on see arveldusmeetod. Sel viisil saate tegelikku tulu piirata. Hinnangulisi tulusid ei mõjuta piirangud, mida ei tohi ületada.
+- **Fikseeritud hind**  – fikseeritud tasuga lepingumudel, kus müügiväärtused ei sõltu tekkivatest kuludest. Müügiväärtus on fikseeritud ja ei muutu, kui prognoosite või kannate rohkem kulusid.
 
-Fikseeritud hinnaga arveldusmeetodi korral kohustub hankija projekti kliendi jaoks kindlaksmääratud hinnaga tarnima. Kliendile arveldatakse fikseeritud hinnaga hinnapakkumise rea hinnapakkumise väärtus, olenemata kuludest, mis hankijale selle hinnapakkumise rea tarnimisega kaasnevad. Fikseeritud hinnaga hinnapakkumise rea väärtus on arveldatud ühel järgmistest viisidest. 
+## <a name="project-price-lists"></a>Projekti hinnakirjad
 
-- Ühekordse summeeritud summana projekti alguses või lõpus või projekti vahekokkuvõtte saavutamisel. 
-- Fikseeritud väärtuse võrdsete osamaksetena hinnapakkumise real kuupäevapõhise sagedusega. Need osamaksed on tuntud kui perioodilised vahekokkuvõtted.
-- Osamaksetena, millel on rahaline väärtus, mis on joondatud töö edenemise või projektiga saavutatud konkreetsete vahekokkuvõtete järgi. Sellisel juhul võib iga osamakse väärtus erineda, kuid need kõik peavad fikseeritud väärtusega hinnapakkumise real sobima.
+Projekti hinnakirjad on hinnakirjad, mida kasutatakse aja, kulu ja muude projektiga seotud komponentide vaikehindade, mitte kulumäärade sisestamiseks. Võib olla mitu hinnakirja ja igas hinnakirjas võivad olla iga projekti hinnapakkumise jaoks oma kehtivad kuupäevad. Project Operations ei toeta projekti hinnakirjade kattuvat kuupäevaefekti.
 
-Project Operations toetab kõiki kolme tüüpi arve ajakavasid fikseeritud hinnaga hinnapakkumise ridade jaoks.
+## <a name="product-price-lists"></a>Toote hinnakirjad
 
-## <a name="transaction-classification"></a>Tehingu klassifikatsioon
+Toote hinnakirjad on hinnakirjad, mida kasutatakse hinnapakkumise tootepõhiste ridade vaikehindade, mitte omahindade sisestamiseks. Ühe hinnapakkumise kohta on ainult üks toote hinnakiri.
 
-Professionaalsed teenindusorganisatsioonid esitavad oma klientidele hinnapakkumisi ja arveid vastavalt kulude klassifikatsioonile. Kulud on esindatud järgmise tehingu klassifikatsiooniga.
+## <a name="transaction-classes"></a>Kandeklassid
 
-- **Aeg**: see klassifikatsioon tähistab projekti tööjõu või inimressursi ajakulu.
-- **Kulu**: see klassifikatsioon tähistab kõiki muid projekti kulusid. Kuna kulud võivad olla üldjoontes klassifitseeritud, on enamikul organisatsioonidel alamkategooriad (nt reisimine, autorent, hotell või kontoritarbed).
-- **Tasu**: see klassifikatsioon tähistab mitmesuguseid üldkulusid, karistusi ja muid kaupu, mille eest on kliendile arve esitatud. 
-- **Maksud**: see klassifikatsioon tähistab maksude summasid, mille kasutajad lisavad kulu sisestamisel.
-- **Materjalikulu kanne**: see klassifikatsioon esindab kinnitatud projekti arvel olevate tootegruppide tegelikke ridu.
-- **Vahekokkuvõte**: seda klassifikatsiooni kasutab fikseeritud hinnaga arveldusloogika.
+Project Operations toetab nelja tüüpi kandeklasse.
 
-Iga hinnapakkumise reaga saab seostada ühe või mitu neist tehingu klassifikatsioonidest. Pärast hinnapakkumise võitmist kantakse tehingu klassifikatsiooni ja hinnapakkumise rea vaheline vastendamine üle lepingu reale.
-  
-Näiteks võib hinnapakkumine sisaldada kahte järgmist hinnapakkumise rida. 
+- Aeg
+- Kulu
+- Materjal
+- Tasu
 
-- Nõustamistöö, mis kasutab aja- ja materjali arveldusmeetodit, kus rakendatakse aja- ja tasutehingute klassifikatsioone. Näiteks arveldatakse kõigi rakenduse **Dynamics AX Implementation** näidisprojekti aja- ja teenustasud kliendile vastavalt aja- ja materjalikulule. 
-- Seotud reisikulud, mis kasutavad fikseeritud hinnaga arveldusmeetodit. Näiteks arveldatakse kõigi rakenduse **Dynamics AX Implementation** näidisprojekti reisikulude eest fikseeritud rahalise väärtusega.
+Soetusmaksumust ja müügiväärtusi saab hinnata ja kanda kandeklassides **Aeg**, **Kulu** ja **Materjal** . **Tasu** on ainult tuludega tehinguklass.
 
-> [!NOTE]
-> Hinnapakkumise rea või lepingu reaga seotud projekti ja tehingu klassifikatsioonide **Aeg**, **Kulu** ja **Tasu** kombinatsioon peab olema kordumatu. Kui sama projekti ja tehingu klassi kombinatsioon on seotud rohkem kui ühe lepingu rea või hinnapakkumise reaga, ei tööta Project Operations õigesti.
+## <a name="work-entities-and-billing-entities"></a>Töö olemid ja arveldamise olemid
 
-## <a name="billing-types"></a>Arve tüübid
+Projektid ja ülesanded on olemid, mis esindavad tööd. Hinnapakkumise read ja Lepinguread on olemid, mis tähistavad arveldamist. Saate linkida erinevad tööüksused arveldusvalikutega, seostades need hinnapakkumise ridade või lepinguridadega.
 
-Väli **Arve tüüp** määratleb arvelduse mõiste. See on suvandikomplekt, millel on järgmised võimalikud väärtused.
+## <a name="multi-customer-deals"></a>Mitme kliendiga tehingud
 
-- **Arveldatav**: kulu, mis on kogunenud selle rolli või kategooriaga, on otsene kulu, mis juhib projekti täitmist ja selle töö eest maksab klient. Makset saab hallata nii ajalise kui ka materiaalse kulu põhjal või fikseeritud hinnaga kokkuleppena. Kuid selle aja kulutanud töötaja saab vastava krediidi oma arveldatava tulususe eest.
-- **Mittearveldatav**: selle rolli/kategooria kogunenud kulusid peetakse otseseks kuluks, mis juhib projekti täitmist, isegi kui klient seda fakti ei tunnista ega selle töö eest maksa. Selle aja kulutanud töötaja ei saa vastavat krediiti arveldatava tulususe eest.
-- **Tasuta**: selle rolli/kategooria kogunenud kulusid peetakse otseseks kuluks, mis juhib projekti täitmist, ja klient tunnistab seda fakti. Selle aja kulutanud töötaja saab vastavat krediiti arveldatava tulususe eest. Seda kulu kliendile ei esitata.
-- **Pole saadaval**: selle valiku abil jälgitakse kulusid, mis tekivad siseprojektidega, mis ei vaja tulude jälgimist.
+Mitme kliendi tehingud toimuvad siis, kui ühe arve kohta on rohkem kui üks klient. Siin on mõned tüüpilised näited:
 
-## <a name="invoice-schedule"></a>Arve ajakava
+- **Originaalseadmete tootja (OEM) ettevõtted ja nende partnerid- Partnerid ja edasimüüjad**  müüvad toodet, mis sisaldab lisandväärtusega teenuseid. Kliendiga tehingu ajal pakub OEM tavaliselt projekti osa rahastamiseks.
+- **Avaliku sektori projektid** – Kohaliku omavalitsuse mitu osakonda lepivad kokku projekti rahastamises ja nende kohta esitatakse arved vastavalt eelnevalt kokku lepitud jaotusele. Näiteks lepivad kooli linnaosa ja linnavalitsus või kohalik omavalitsus kokku ujula ehitamise rahastamises.
 
-Arve ajakava on rida kuupäevi, mil projekti arveldamine toimub. Soovi korral saate luua ka hinnapakkumise real arve ajakava. Igal hinnapakkumise real võib olla oma arve ajakava. Arve ajakava loomiseks tuleb esitada järgmised atribuudi väärtused.
+## <a name="invoice-schedules"></a>Arve ajakavad
 
-- Arveldamise alguskuupäev 
-- Tarnekuupäev, mis tähistab projekti arveldamise lõppkuupäeva
-- Arve sagedus
+Arve graafikud on igale hinnapakkumise reale omased ja valikulised. Arve graafikud luuakse konkreetsete algus- ja lõppkuupäevade ning arve sageduse põhjal. Neid kasutatakse lepingu etapis, kui automaatne arve loomise protsess on konfigureeritud. Hinnapakkumise etapis on arvegraafikud valikulised. Kui need luuakse hinnapakkumise etapis, kopeeritakse need projektilepingusse, mis luuakse projektipakkumise võitmisel.
 
-Neid kolme atribuudi väärtust kasutatakse, et luua esialgne kuupäevade kogum, et arveldamist saaks luua.
+## <a name="differences-from-dynamics-365-sales-quotes"></a>Erinevused Dynamics 365 Salesi hinnapakkumistest
 
-## <a name="invoice-frequency"></a>Arve sagedus
+Project Operationsi hinnapakkumised põhinevad rakenduse Dynamics 365 Sales hinnapakkumistel. Siiski on funktsionaalsuse mõned olulised erinevused, mida peaksite teadma.
 
-Arve sagedus on olem, mis talletab atribuutide väärtusi, mis aitavad väljendada arvete loomise sagedust. Arve sageduse olemit väljendavad või määratlevad järgmised atribuudid.
+- Project Operationsi hinnapakkumistel on kahte tüüpi ridu: üks projektide ja teine toodete jaoks.
+- Project Operationsi hinnapakkumistel on oma lehe ja kasutajaliidese (UI) elemendid, ärireeglid, lisandmoodulite äriloogika ja kliendipoolsed skriptid, mis eristavad neid müügipakkumistest.
+- Rakenduses Sales saate ühele müügipakkumisele lisada mitu tellimust. Project Operationsis saate projekti hinnapakkumisele lisada ainult ühe projektilepingu.
+- Kui võidate müügipakkumise, võib seotud võimalus jääda avatuks. Pärast projekti hinnapakkumise võitmist suletakse seotud müügivõimalus.
+- Müügipakkumine ei sisalda mõningaid välju ja mõisteid, mida projekti hinnapakkumine sisaldab. Väljad sisaldavad järgmisi: **Hankeüksus**, **Kontohaldur** ja **Maksja: kontakti nimi**.
+- Müügi- ja projektihinnapakkumised tuvastatakse väljal suvandikomplekt-põhine **tüüp** . Müügipakkumise puhul on **selle välja väärtus Kaubapõhine**. Projekti hinnapakkumise puhul on **väärtus tööpõhine**.
 
-- **Periood**: toetatud on perioodid igakuine, kahe nädala järel ja iganädalane. 
-- **Tsüklite arv perioodis**: perioodide iganädalane ja kahe nädala järel jaoks saate määrata ainult ühe tsükli perioodi kohta. Perioodi igakuine jaoks saate määrata üks kuni neli tsüklit perioodi kohta. 
-- **Päevi tsüklis**: päevad, millal arve esitamist tuleks teostada. Seda atribuuti saab konfigureerida kahel viisil.
-  - **Nädalapäevad**: näiteks saate täpsustada, et arvete esitamine toimub igal esmaspäeval või igal teisel esmaspäeval. Kliendid, kes peavad arve esitamise määrama tööpäeval, võivad eelistada sellist konfiguratsiooni. 
-  - **Kalendripäevad**: näiteks saate täpsustada, et arvete esitamine toimub iga kuu seitsmendal ja kahekümne esimesel päeval. Mõni organisatsioon võib eelistada sellist konfiguratsiooni, kuna see aitab tagada, et arvete esitamine töötaks fikseeritud ajakavaga iga kuu.
-  
-### <a name="invoice-schedule-for-a-fixed-price-quote-line"></a>Fikseeritud hinnaga hinnapakkumise rea arve ajakava
-
-Fikseeritud hinnaga hinnapakkumise rea puhul saate kasutada ruudustikku **Arve ajakava**, et luua arvete esitamise vahekokkuvõtted, mis võrduvad hinnapakkumise rea väärtusega.
-
-- Võrdse jaotusega arvete esitamise vahekokkuvõtete loomiseks valige arve sagedus, sisestage hinnapakkumise rea arveldamise alguskuupäev ja valige hinnapakkumise päisest jaotisest **Kokkuvõte** suvand **Soovitud täitmise kuupäev**. Seejärel valige **Loo perioodilised vahekokkuvõtted**, et luua valitud arve sageduse põhjal võrdselt jaotatud vahekokkuvõtted. 
-- Ühekordse summaga arvete esitamise etapi loomiseks looge vahekokkuvõte ja seejärel sisestage hinnapakkumise rea väärtus vahekokkuvõtte summana.
-- Projekti plaanis konkreetsete ülesannete põhjal arvete esitamise vahekokkuvõtete loomiseks looge vahekokkuvõte ja vastendage see projekti ajakava elemendiga arvete esitamise verstaposti kasutajaliideses.
-
+Nende erinevuste tõttu ei soovita me kasutada müügipakkumisi ja Project Operationsi hinnapakkumisi vaheldumisi.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

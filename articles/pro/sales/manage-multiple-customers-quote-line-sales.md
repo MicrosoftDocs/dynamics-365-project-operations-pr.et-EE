@@ -1,23 +1,23 @@
 ---
-title: Mitme kliendi haldamine projektipõhise hinnapakkumise ridadel – liht
-description: See artikkel kirjeldab, kuidas hallata projektipõhistel hinnapakkumiste ridadel mitut klienti.
+title: Mitme kliendi haldamine projekti hinnapakkumisridadel
+description: Selles artiklis kirjeldatakse, kuidas hallata mitut klienti projekti hinnapakkumiste ridadel.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fbd0c17de3de8dc4cd84860851fb5837b86586cd
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 70007499ea61e7d81df071cc6d003896d721555b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927783"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824433"
 ---
-# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Mitme kliendi haldamine projektipõhise hinnapakkumise ridadel – liht
+# <a name="manage-multiple-customers-on-project-quote-lines"></a>Mitme kliendi haldamine projekti hinnapakkumisridadel
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
-Projektipõhised hinnapakkumise read toetavad stsenaariumeid, kus igal hinnapakkumise real on selle eest makstavate klientide loend. See projektipõhise hinnapakkumise rea klientide loend võib olla sama, mis hinnapakkumise klientide loend. Saate muuta ka klientide loendit, et see oleks erinev. Kui projekti hinnapakkumine võidetakse, kopeeritakse projektipõhise hinnapakkumise rea klientide loend vastavale projektipõhisele lepingureale projekti lõpliku lepingu loomiseks. Projektipõhise hinnapakkumise kliendid kopeeritakse projekti lepingusse.
+Projekti hinnapakkumisliinid toetavad stsenaariume, kus igal hinnapakkumise real on nimekiri klientidest, kes selle eest maksavad. See projektipõhise hinnapakkumise rea klientide loend võib olla sama, mis hinnapakkumise klientide loend. Saate muuta ka klientide loendit, et see oleks erinev. Kui projekti hinnapakkumine võidetakse, kopeeritakse projektipõhise hinnapakkumise rea klientide loend vastavale projektipõhisele lepingureale projekti lõpliku lepingu loomiseks. Projektipõhise hinnapakkumise kliendid kopeeritakse projekti lepingusse.
 
 Projekti lõpliku lepingu arveldamisel on projektipõhise lepingurea klientide loendil eelis projekti lepingu loendi ees. Projekti lepingu kliendiloendit kasutatakse ainult uue projekti lepinguridade vaikeväärtuseks.
 

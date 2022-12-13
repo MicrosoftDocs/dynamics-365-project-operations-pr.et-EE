@@ -1,17 +1,17 @@
 ---
-title: Hinnapakkumised – põhimõisted – liht
+title: Projekti hinnapakkumiste kordumatud mõisted
 description: See artikkel kirjeldab projekti hinnapakkumiste kasutamist rakenduses Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a8c2f009b7a0bebbf6a49bf942dd19f97205072e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7f0a33f1d7d77f3b5aebfdcf8e6aeb14072cd596
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916973"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825888"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>Projekti hinnapakkumiste kordumatud mõisted
 
@@ -82,9 +82,13 @@ Arve ajakavad põhinevad igal hinnapakkumise real ja on ka valikulised. Arve aja
 
 Project Operationsi hinnapakkumised on ehitatud Dynamics 365 Salesi hinnapakkumistele. Siiski on funktsionaalsuse mõned olulised erinevused, mida peaksite teadma.
 
-- Toiminguid **Muuda** ja **Aktiveeri** ei toetata.
+
 - Project Operationsi hinnapakkumistel on kahte erinevat tüüpi ridu. Üks on projektidele ja teine on toodetele.
 - Project Operationsi hinnapakkumistel on nende oma vorm ja kasutajaliidese elemendid, ärireeglid, äriloogika lisandmoodulid ja kliendipoolsed skriptid, mis muudavad need Salesi hinnapakkumistest erinevaks.
+- Müügipakkumised võimaldavad lisada müügipakkumisele mitu tellimust. Project Operationsis saab projekti hinnapakkumisele lisada ainult ühe projektilepingu.
+- Kui võidate müügipakkumise, võib seotud võimalus jääda avatuks. Pärast projekti hinnapakkumise võitmist suletakse seotud müügivõimalus.
+- Müügipakkumine ei sisalda mõningaid väljasid ja kontseptsioone, mis on projekti hinnapakkumises kaasatud. Väljad sisaldavad järgmisi: **Hankeüksus**, **Kontohaldur** ja **Maksja: kontakti nimi**.  
+- **Tüüp**: müügipakkumisi ja projekti hinnapakkumisi tuvastab ka suvandikomplekti põhine väli **Tüüp**. Müügipakkumise puhul on sellel väljal väärtus **Kaubal põhinev**. Projekti hinnapakkumise puhul on sellel väärtus **Tööl põhinev**.
 
 Nendel põhjustel ei soovitata kasutada Salesi hinnapakkumist ja Project Operationsi hinnapakkumist neid vahetades.
 

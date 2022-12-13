@@ -1,21 +1,21 @@
 ---
-title: Projektipõhise hinnapakkumise rea prognoosimine
-description: See artikkel annab teavet, kuidas luua projektipõhisel hinnapakkumise real prognoosi.
+title: Projekti hinnapakkumise rea prognoosimine
+description: Selles artiklis antakse teavet selle kohta, kuidas projekti hinnapakkumise real prognoosi luua.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2a8aa2971431cd1f2082c8fc80db1438be185f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: bac3a3fa2d14c857edfb469a005406c346c8dbf6
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914351"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825982"
 ---
-# <a name="estimating-a-project-based-quote-line"></a>Projektipõhise hinnapakkumise rea prognoosimine
+# <a name="estimate-a-project-quote-line"></a>Projekti hinnapakkumise rea prognoosimine
 
-_**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
+_**Kehtib järgmistele:** lihtjuurutamine – tehing näidisarveldusele, Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks_
 
 Projektipõhine hinnapakkumise rida sisaldab üksikasju, mis aitavad prognoosida hinnapakkumise rea esitamisega seotud töö kulu ja potentsiaalset tulu.
 
@@ -24,7 +24,7 @@ Projektipõhise hinnapakkumise rea prognoosimiseks valige projektipõhise hinnap
 - Prognoosi käsitsi otse hinnapakkumise real loomine, kasutades hinnapakkumise rea üksikasju. 
 - Looge projekt ja projekti plaan ning seejärel seostage projekt ja projekti ülesanded hinnapakkumise reaga. Teie esitatava teabe põhjal projekti plaani prognooside hinnapakkumise reale importimise toiming saab olema lubatud.
 
-## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Prognooside loomine otse projektipõhisel hinnapakkumise real
+## <a name="create-estimates-directly-on-a-project-quote-line"></a>Prognooside loomine otse projekti hinnapakkumise real
 
 Projektipõhisel hinnapakkumise real prognoosi loomiseks valige vahekaart **Hinnapakkumise rea üksikasjad**. Reaüksus, mille sellel vahekaardil loote, arvutab kokku selle hinnapakkumise rea hinnapakkumise väärtuse. 
 
@@ -68,8 +68,7 @@ Kulu hinnapakkumise rea üksikasjade valuuta tuleb vaikimisi hinnapakkumise lepi
 
 Tasuvuse arvutustes teisendatakse hinnapakkumise rea üksikasjad kulu ja müügi kohta keskkonna põhivaluutasse, et teavitada hinnapakkumise üldisest eeldatavast marginaalist.
 
-> [!MÄRKUS
-> > Kuupäeval kehtivate valuutamäärade puudumise tõttu võivad esineda valuuta ümardamisvead ja muutunud marginaalid. Kasutage neid arvutusi ainult projektilepingutes, kuna need on hinnangulised ja need pole tegelikult seadusejärgsed või muul viisil mõeldud aruandluseks, mille puhul on vaja vahetuskursside täpsemat ümardamist ja kehtivuse kuupäeva tõhusust.
+> [! MÄRKUS Valuuta ümardamisvead ja muutunud marginaalid võivad tekkida kuupäeva efektiivsete vahetuskursside puudumise tõttu. Kasutage neid arvutusi ainult projektilepingutes, kuna need on hinnangulised ja need pole tegelikult seadusejärgsed või muul viisil mõeldud aruandluseks, mille puhul on vaja vahetuskursside täpsemat ümardamist ja kehtivuse kuupäeva tõhusust.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

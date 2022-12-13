@@ -1,23 +1,23 @@
 ---
-title: Projektide ja ülesannete vastendamine projektipõhise hinnapakkumise reaga
-description: See artikkel kirjeldab projektide ja tööülesannete vastendamist projektipõhise tööülesande reaga.
+title: Projektide ja ülesannete vastendamine hinnapakkumise ridadega
+description: Sellest artiklist leiate teavet selle kohta, kuidas kaardistada projekte ja ülesandeid hinnapakkumisridadega.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b276e7fb6ec8b98188c9396aca5092d19848afcc
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917157"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824258"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Projektide ja ülesannete vastendamine projektipõhise hinnapakkumise reaga
+# <a name="map-projects-and-tasks-to-project-quote-lines"></a>Projektide ja ülesannete vastendamine hinnapakkumise ridadega
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Projektipõhistel hinnapakkumiste ridadel saate vastendada juba hinnapakkumise reaga seostatud projekti konkreetsed ülesanded.
+Projekti hinnapakkumise ridadel saate vastendada juba hinnapakkumise reaga seostatud projekti konkreetsed ülesanded.
 
 Kui vastendate tööülesanded hinnapakkumise reaga, rakendatakse järgmisi hinnapakkumise real määratletud üksusi ainult nendele ülesannetele.
 

@@ -1,19 +1,19 @@
 ---
-title: Projektipõhiste müügivõimaluste kopeerimine
+title: Kopeerige projekti võimalused
 description: See artikkel annab teavet projektipõhiste võimaluste kopeerimise kohta rakenduses Project Operations.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: cc772391de97f4b2de6e9e29f97a6af4d5514319
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 0fe29918e14a944de7277639f752ad53513a7589
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8926127"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826123"
 ---
-# <a name="copy-project-based-opportunities"></a>Projektipõhiste müügivõimaluste kopeerimine
+# <a name="copy-project-opportunities"></a>Kopeerige projekti võimalused
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 

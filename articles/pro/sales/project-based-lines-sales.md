@@ -1,29 +1,29 @@
 ---
-title: Projektipõhise müügivõimaluse read – liht
+title: Projekti müügivõimaluste read
 description: See artikkel annab teavet projektipõhiste müügivõimaluse ridade kohta. (Pro)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b5a8fc32ca903d7da2e090137bed358b364902a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e4f67bd9b7d51559e2942e9005b8f5f9187b1f78
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914259"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824950"
 ---
-# <a name="project-based-opportunity-lines---lite"></a>Projektipõhise müügivõimaluse read – liht
+# <a name="project-opportunity-lines"></a>Projekti müügivõimaluste read 
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
-Projektipõhised müügivõimaluste read on saadaval ainult projektipõhistes müügivõimalustes. Projektipõhise müügivõimaluse kirjetel on välja **Tüüp** väärtuseks seadistatud **Tööpõhine**.
+Projekti müügivõimaluse read on saadaval ainult projektipõhistes müügivõimalustes. Projektipõhise müügivõimaluse kirjetel on välja **Tüüp** väärtuseks seadistatud **Tööpõhine**.
 
-Projektipõhise müügivõimaluse read on reaüksused, mis tarnitakse kliendile projekti abil. Kuid projekti ei saa siduda projektipõhise müügivõimaluse reaga. Projekte saab siduda reaüksustega **Hinnapakkumise** etapis ja sealt edasi, sest tavaliselt on müügivõimalus tehingu elutsükli varases staadiumis. Määratlemine, kui palju projekte kasutatakse kliendile töö pakkumiseks, on otsus, mis tehakse müügi etapis hiljem. Müügivõimaluse faasi abil saate tuvastada kliendi jaoks eraldi kohaletoimetamise komponendid. Nende komponentide tarnimiseks kasutatavate projektide tegelikku arvu käsitlevaid otsuseid saab edasi lükata, kuni töö kohta on teada rohkem teavet.
+Projekti müügivõimaluse read on reakaubad, mis tarnitakse kliendile projekti abil. Kuid projekti ei saa siduda projektipõhise müügivõimaluse reaga. Projekte saab siduda reaüksustega **Hinnapakkumise** etapis ja sealt edasi, sest tavaliselt on müügivõimalus tehingu elutsükli varases staadiumis. Määratlemine, kui palju projekte kasutatakse kliendile töö pakkumiseks, on otsus, mis tehakse müügi etapis hiljem. Müügivõimaluse faasi abil saate tuvastada kliendi jaoks eraldi kohaletoimetamise komponendid. Nende komponentide tarnimiseks kasutatavate projektide tegelikku arvu käsitlevaid otsuseid saab edasi lükata, kuni töö kohta on teada rohkem teavet.
 
-Allpool on projektipõhise müügivõimaluse rea väljad.
+Allpool on väljad projekti müügivõimaluse real.
 
-| **Väli** | **Asukoht** | **Kirjeldus** | **Allavoolu mõjud** |
+| **Väli** | **Location** | **Kirjeldus** | **Allavoolu mõjud** |
 | --- | --- | --- | --- |
 | Toote tüüp | Vahekaart Üldine (peidetud) | Saate valida ühe järgmistest suvanditest.</br>- Projektipõhine teenus (saadaval ainult Dynamics 365 Project Operationsi installimisel)</br>- Toode (saadaval ainult juhul, kui Project Operations ja Dynamics 365 Sales on installitud) | Selle välja väärtuseks seatakse **Projektipõhine teenus**, kui loote projektipõhise ridade ruudustiku kaudu projektipõhise müügivõimaluse rea. <br> Kui muudate või alistate selle väärtuse, ei lubata projekti funktsionaalsust teie projektipõhistele reaüksustele. |
 | Müügivõimalus | Vahekaart Üldine | See väli on kirjutuskaitstud ja viitab peamise müügivõimaluse kirjele, mille juurde see reaüksus kuulub. | Sellest väljast puudub allavoolu mõju. |

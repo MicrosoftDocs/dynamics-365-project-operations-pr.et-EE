@@ -1,23 +1,23 @@
 ---
-title: Hinnapakkumise sulgemine
+title: Projektipõhiste hinnapakkumiste sulgemine
 description: See artikkel annab teavet hinnapakkumiste sulgemise kohta rakenduses Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 45bdfe5fb9eddb8f96ed1bc017596c8fe436245e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b35417d4258a1e837fdf7a61bbcc303ec04a900
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931877"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824211"
 ---
-# <a name="close-a-quote"></a>Sule hinnapakkumine
+# <a name="close-project-based-quotes"></a>Projektipõhiste hinnapakkumiste sulgemine
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
-Projekti hinnapakkumise saab sulgeda kui võidetu või kaotatuna. Kuna funktsioone Aktiveeri ja PAranda Dynamics 365 Project Operationsi hinnapakkumiste juures ei toetata, võite hinnapakkumise mustandi sulgeda.
+Projekti hinnapakkumise saab sulgeda kui **võidetud või** kaotatud **·**. 
 
 ## <a name="close-a-quote-as-won"></a>Hinnapakkumise sulgemine olekus Võidetud
 

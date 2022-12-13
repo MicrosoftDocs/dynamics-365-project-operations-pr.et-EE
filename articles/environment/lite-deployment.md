@@ -1,19 +1,19 @@
 ---
-title: Project Operationsi juurutamine – liht
+title: Juuruta projekti toimingud Lite
 description: See artikkel annab teavet selle kohta, kuidas installida Project Operations Lite’i juurutust – tehing näidisarveldusele.
 author: stsporen
-ms.date: 02/28/2022
+ms.date: 11/29/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 86293b725e86db3d4b8bdaf5810b16b7c670e8a3
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: 2c508f56b3018b6a86fea78bcf9ee4136e90f385
+ms.sourcegitcommit: 38cb012502cbd640abbc21a0912b195112b27ccb
+ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930313"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "9810973"
 ---
-# <a name="deploy-project-operations---lite"></a>Project Operationsi juurutamine – liht
+# <a name="deploy-project-operations-lite"></a>Juuruta projekti toimingud Lite
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
@@ -27,21 +27,27 @@ Project Operations toetab mitut juurutusmudelit. Parima juurutuse mudeli määra
 
 - [Project Operationsi installimine uude Dataverse keskkonda](#new)
 - [Installimine olemasolevasse Dataverse keskkonda](#existing)
+- [Installimine olemasolevasse Dataverse keskkonda, millel on kaks kirjutuskomponenti](#existingdw)
 
 
 
-## <a name="install-project-operations-to-a-new-dataverse-environment"></a><a name="new"></a>Project Operationsi installimine uude Dataverse keskkonda
+## <a name="install-project-operations-lite-to-a-new-dataverse-environment"></a><a name="new"></a> Project Operations Lite’i installimine uude Dataverse keskkonda
 
 1. [Globaalse või teenuse Power Platform administraatorina](/power-platform/admin/global-service-administrators-can-administer-without-license), kellel on rakenduse Project Operations litsents, saate luua uue Dataverse keskkonna [Halduskeskuses PowerPlatform](https://admin.powerplatform.com). Veenduge, et **Selle keskkonna jaoks andmebaasi loomine** ja **Dynamics 365 rakendused** on lubatud. Lisateavet vaadake teemast [Keskkondade loomine ja haldamine Power Platformi halduskeskuses](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
-2. Valige Dynamics 365 rakenduste juurutamise loendist **Microsoft Dynamics 365 Project Operations**.
+1. Valige Dynamics 365 rakenduste juurutamise loendist **Microsoft Dynamics 365 Project Operations**.
 
 
-## <a name="install-project-operations-to-an-existing-dataverse-environment"></a><a name="existing"></a>Project Operationsi installimine olemasolevasse Dataverse keskkonda
-1. Veenduge, et keskkonda poleks konfigureeritud [kahekordne kirjutamine](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview), sest siis paigaldatakse [Project Operationsi ressursipõhiste/logimata stsenaariumide jaoks](project-operations-integrated-deployment-overview.md) võimalused.
-2. [Globaalse või Power Platformi administraatorina](/power-platform/admin/global-service-administrators-can-administer-without-license), kellel on Project Operationsi litsents, leidke [PowerPlatformi halduskeskuses](https://admin.powerplatform.com) keskkond, kuhu soovite rakenduse Project Operations installida.
-3. Installige Dynamics 365 rakenduste juurutamise loendist **Microsoft Dynamics 365 Project Operations**. Lisateavet leiate teemast [Dynamics 365 rakenduste haldamine](/power-platform/admin/manage-apps).
+## <a name="install-project-operations-lite-to-an-existing-dataverse-environment"></a><a name="existing"></a> Project Operations Lite’i installimine olemasolevasse Dataverse keskkonda 
+1. [Globaalse või Power Platformi administraatorina](/power-platform/admin/global-service-administrators-can-administer-without-license), kellel on Project Operationsi litsents, leidke [PowerPlatformi halduskeskuses](https://admin.powerplatform.com) keskkond, kuhu soovite rakenduse Project Operations installida.
+1. Installige Dynamics 365 rakenduste juurutamise loendist **Microsoft Dynamics 365 Project Operations**. Lisateavet leiate teemast [Dynamics 365 rakenduste haldamine](/power-platform/admin/manage-apps).
 
+## <a name="install-project-operations-lite-to-an-existing-dataverse-environment-where-dual-write-solutions-are-already-present"></a><a name="existingdw"></a> Project Operations Lite’i installimine olemasolevasse Dataverse keskkonda, kus topeltkirjutuslahendused on juba olemas
 
+Kui soovite jätkata Project Operationsi käitamist režiimis Lite juurutus, toimige järgmiselt.
 
+1. [Globaalse või Power Platformi administraatorina](/power-platform/admin/global-service-administrators-can-administer-without-license), kellel on Project Operationsi litsents, leidke [PowerPlatformi halduskeskuses](https://admin.powerplatform.com) keskkond, kuhu soovite rakenduse Project Operations installida.
+1. Installige Dynamics 365 rakenduste juurutamise loendist **Microsoft Dynamics 365 Project Operations**. Lisateavet leiate teemast [Dynamics 365 rakenduste haldamine](/power-platform/admin/manage-apps).
+1. Kuna teie keskkonnas on topeltkirjutuskomponendid, mis aitavad integreerida installitud rakendustesse Finance and Operations, installib Project Operationsi install ka võimalused ja laiendid, mis on vajalikud projektiga seotud andmete integreerimiseks Finance and Operationsi rakendustesse. Kuna soovite käivitada Project Operationsi Lite’i juurutuses, tuleks need integratsioonikomponendid eemaldada, kuna need loovad piiranguid ja üldkulusid Lite’i juurutusstsenaariumidele. Nende komponentide eemaldamiseks desinstallige lahendused **Dynamics 365 Project Operations Dual Write ja** Dual Write **Dynamics 365 Project Operations Entity Maps** käsitsi.
+1. Avage Project **Operations -> Settings -> Parameters**.  **Avage leht Projekti parameetri** üksikasjad ja määrake **välja Lahenduse täiendamise käitumine** väärtuseks **Ainult** Liit. See tagab, et Project Operationsi hilisemad täiendused ei too integratsioonikomponente tagasi Project Operationsisse.  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

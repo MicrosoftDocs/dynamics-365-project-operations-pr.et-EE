@@ -1,27 +1,27 @@
 ---
-title: Projektipõhise hinnapakkumise ridade arve ajakavad
+title: Arve graafikud projekti hinnapakkumise ridadel
 description: See artikkel kirjeldab hinnapakkumise ridade arve ajakavade ja vahekokkuvõtete loomist.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b1e431bc3586f9fef7a01348555e4ee4e06cc66c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 98006cc2857f01298054c4f0e70781bf4b8b474b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918307"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825747"
 ---
-# <a name="invoice-schedules-on-project-based-quote-lines"></a>Projektipõhise hinnapakkumise ridade arve ajakavad
+# <a name="invoice-schedules-on-project-quote-lines"></a>Arve graafikud projekti hinnapakkumise ridadel
 
 _**Rakendub:** Project Operationsi ressurssipõhiste/mitteaktsiapõhiste stsenaariumide korral,  Lihtjuurutamine - tehing fiktiivsele arveldusele_
 
-Projektipõhine hinnapakkumise rida väljendada arve ajakava. See on hinnapakkumise etapis valikuline, kuna rakendus ei toeta projekti arveldamist kui see on seotud hinnapakkumise reaga. Arveldamine on lubatud ainult pärast hinnapakkumise võitmist. Hinnapakkumise faasis arve ajakava loomise ainuke allavoolu mõju on, et see arve ajakava kopeeritakse projektipõhisele lepingureale. Kui te ei loo hinnapakkumise faasis arve ajakava, saate seda teha projektipõhisel lepingureal.
+Projekti hinnapakkumise rida annab võimaluse väljendada arve ajakava. See on hinnapakkumise etapis valikuline, kuna rakendus ei toeta projekti arveldamist kui see on seotud hinnapakkumise reaga. Arveldamine on lubatud ainult pärast hinnapakkumise võitmist. Hinnapakkumise faasis arve ajakava loomise ainuke allavoolu mõju on, et see arve ajakava kopeeritakse projektipõhisele lepingureale. Kui te ei loo hinnapakkumise faasis arve ajakava, saate seda teha projektipõhisel lepingureal.
 
 Üldiselt on arve ajakavade eesmärk lubada projektipõhise kontaktirea jaoks arvete mustandite automaatset loomist. 
 
-## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-quote-line"></a>Projektipõhise hinnapakkumise rea jaoks aja ja materjali arve ajakava loomine
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-quote-line"></a>Projekti hinnapakkumise rea aja- ja materjaliarve graafiku loomine
 
 Kui projektipõhise hinnapakkumise rea arveldamise meetod on aeg ja materjal, loob süsteem kuupäeval põhineva arve ajakava. Kuupäeval põhineva arve ajakava automaatseks loomiseks tehke järgmist.
 
@@ -36,7 +36,7 @@ Kui projektipõhise hinnapakkumise rea arveldamise meetod on aeg ja materjal, lo
     - **Kande katkestamise kuupäev** on määratud kuupäevale enne **arve käitamise kuupäeva**.
     - **Käitamise olek** on määratud autmaatselt olekusse **Käivitamata**. Kui automaatse arve loomise töö käitab teatud arve käivitamise kuupäeva, uuendab see välja valikule **Käitamine õnnestus** või **Käitamine nurjus**.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Projektipõhise hinnapakkumise rea jaoks fikseeritud hinnaga arve ajakava loomine
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-quote-line"></a>Fikseeritud hinnaga arve graafiku loomine projekti hinnapakkumise reale
 
 Kui projektipõhise hinnapakkumise rea arveldusmeetod on **Fikseeritud**, loob süsteem vahe-eesmärgi põhise arve ajakava. Kui soovite selle ajakava automaatselt genereerida fikseeritud vahe-eesmärkide kogumi jaoks, mis on kalendriperioodil ühtlaselt jaotatud, tehke järgmist.
 

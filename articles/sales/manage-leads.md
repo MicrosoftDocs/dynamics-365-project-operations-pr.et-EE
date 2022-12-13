@@ -1,31 +1,29 @@
 ---
-title: Müügivihjete haldamine
+title: Projektipõhiste müügivihjete haldamine
 description: See artikkel annab teavet projektipõhiste müügivihjete halduse kohta.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 080f53ee2f800b8433d055525852f5c2e21aab77
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2e1ea2ade5302427c02b271cd5d595206b137bd7
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920193"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825794"
 ---
-# <a name="manage-leads"></a>Müügivihjete haldamine
+# <a name="manage-project-based-leads"></a>Projektipõhiste müügivihjete haldamine
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_
 
 Projektil põhinevaid müügivihjeid saab hallata ja kvalifitseerida Project Operationsis. Müügivihjete haldamise protsess hõlmab tööpõhiste müügivihjete loomist ja nende müügivihjete kvalifitseerimist. 
 
-## <a name="project-sales-leads"></a>Projekti müügivihjed
-
 Avage jaotises **Müük** vasakpoolsel navigeerimispaanil **Müügivihjete** loendi leht, et kuvada kõigi süsteemi müügivihjete kirjete loendit. Kuvatud müügivihjete loend on tööpõhine ja sisaldab ka muud tüüpi müügivihjeid, mida saab luua, kui teil on ka rakendused Dynamics 365 Sales või Dynamics 365 Field Service.
 
 Saate luua filtreeritud vaate, et näha ainult projektipõhiseid müügivihjeid, luues filtri väärtusele **Tüüp**. Näiteks saate valida, et kuvada ainult tööpõhised müügivihjed.
 
-## <a name="create-a-new-lead-for-a-project-based-deal"></a>Projektipõhise tehingu jaoks uue müügivihje loomine
+## <a name="create-a-new-project-based-lead"></a>Uue projektipõhise müügivihje loomine 
 
 Kui projektipõhine müügivihje on kvalifitseeritud, luuakse müügivõimalus ja konto. Projektipõhine müügivõimalus on müügvõimaluse etapis müügi püüdmise tegevuste alguspunktiks. Projektipõhistel müügivõimalustel on ainulaadsed võimalused, mis on projektitöö müümiseks nõutavad. Nende võimaluste hulka kuuluvad järgmised.
 

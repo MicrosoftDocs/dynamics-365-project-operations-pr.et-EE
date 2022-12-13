@@ -1,19 +1,19 @@
 ---
-title: Projekti prognooside importimine projektipõhise hinapakkumise reale – liht
-description: See artikkel annab teavet, kuidas importida projekti prognoose hinnapakkumise reale.
+title: Prognooside importimine projektist projekti hinnapakkumise reale
+description: Sellest artiklist leiate teavet selle kohta, kuidas importida prognoose projektist projekti hinnapakkumise reale.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 820d858fecf70e50a9ce8943db706ff6cac29992
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 61c9660f18882d12a7da8965c23b65e408256219
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917295"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824481"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Projekti prognooside importimine projektipõhise hinapakkumise reale 
+# <a name="import-estimates-from-a-project-to-a-project-quote-line"></a>Prognooside importimine projektist projekti hinnapakkumise reale 
 
 _**Kehtib järgmistele:** lihtjuurutamine – tehing näidisarveldusele, Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks_
 

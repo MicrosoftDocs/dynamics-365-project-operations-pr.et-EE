@@ -1,32 +1,32 @@
 ---
-title: Projektipõhise lepingurea prognoosimine – liht
+title: Projeci lepingurea hindamine
 description: See artikkel annab teavet projektipõhise lepingurea prognoosimise kohta.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b4379cc5822d08b55623f0f3d4d49791af90927
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 86872aa58067f55243fa19dc865971f76660f594
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914397"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824762"
 ---
-# <a name="estimate-a-projectbased-contract-line---lite"></a>Projektipõhise lepingurea prognoosimine – liht
+# <a name="estimate-a-project-contract-line"></a>Projekti lepingurea prognoos
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
-Rakenduses Dynamics 365 Project Operations sisaldab projektipõhine lepingurida üksikasju, mis aitavad hinnata projektipõhise lepingurea täitmiseks vajaliku töö kulu ja potentsiaalset tulu.
+Projekti Dynamics 365 Project Operations lepingu real on üksikasjad, mis aitavad hinnata lepingurea täitmisega seotud töö maksumust ja potentsiaalset tulu.
 
-Projektipõhise lepingurea prognoosimiseks avage projekktipõhise **lepingurea** vahekaardile **Lepingurea üksikasi**.  Projektipõhise lepingurea prognoosi loomiseks on kaks moodust.
+Projekti lepingurea hindamiseks minge projektipõhise lepingurea vahekaardile **Lepingu rea üksikasjad** . **·**  Projektipõhise lepingurea prognoosi loomiseks on kaks moodust.
 
    - Luua prognoos otse lepingureal, lisades lepingurea üksikasjad käsitsi.
    - Luues projekti ja projektiplaani ning seejärel seostades projekti ja ülesanded projekti lepingureaga. See võimaldab protsessi, mille abil saate lepingureale sisestatud komponentide põhjal importida projektiplaani prognoosi lepingureale.
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>Prognoosi loomine otse projektipõhisel lepingureal
 
-Prognooside loomiseks otse projektipõhisele lepingureale toimige järgmiselt.
+Hinnangu loomiseks otse projektilepingu real toimige järgmiselt.
 
 1. Avage lepingurida ja valige vahekaary **Lepingurea üksikasi**. Sellel vahekaardil loodavad read summeeritakse ja kuvatakse selle **lepingurea** suvandina **Lepinguline väärtus**. 
 2. Andmeruudustikus **Lepingurea üksikasjad** valige suvand **Uus lepingurea üksikasi**. Avaneb kiirloomise liugur. Lehel **Lepingurea üksikasjad** on saadaval järgmised väljad.

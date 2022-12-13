@@ -1,5 +1,5 @@
 ---
-title: Hinnapakkumise sulgemine – liht
+title: Projekti hinnapakkumiste sulgemine
 description: See artikkel annab teavet hinnapakkumise sulgemise kohta rakenduses Project Operations.
 author: rumant
 ms.date: 10/01/2020
@@ -7,14 +7,14 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e3a199843f379dc53d63372f91e8be2e1bcbf4e9
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 4335fa5467640af840c0f68a648c9b8a6864d834
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916927"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826170"
 ---
-# <a name="close-a-quote---lite"></a>Hinnapakkumise sulgemine – liht
+# <a name="close-project-quotes"></a>Projekti hinnapakkumiste sulgemine
 
 _**Kohaldub:** lihtjuurutus – tehing näidisarvelusega_
 
@@ -30,7 +30,7 @@ Kui hinnapakkumine on seotud müügivõimalusega, suletakse kõik muud müügiv�
 
 Kui projektil on veel aja tegelikke näitajaid, kui see on hinnapakkumise mustandile lisatud, kirjendatakse ainult aja või kulu maksumust. Pärast hinnapakkumise sulgemist olekus Võidetud, refaktoorib rakendus kulud, pöörates tagasi vanemad tegelikud kulud ja luues uued tegelikud kulud. Rakendus töötleb need tegelikud kulud võttes aluseks seotud projekti lepingurea arveldusmeetodi. Kui kulu tegelikud andmed viitavad aja ja materjali lepingureale, luuakse vastavad arveldamata müügi tegelikud andmed selleks ajaks, kui hinnapakkumine suletakse ja projekti leping luuakse. Kui kulu tegelikud andmed viitavad fikseeritud hinnaga lepingureale, lõpetab rakendus nende kulu tegelike näitajate uuesti töötlemise, mis põhinevad projekti lepingu klientide jagatud arveldamise reeglitel.
 
-## <a name="closing-a-quote-as-lost"></a>Hinnapakkumise sulgemine olekus Kaotatud:
+## <a name="closing-a-quote-as-lost"></a>Kaotatud hinnapakkumise sulgemine
 
 Kui sulgete projekti hinnapakkumise olekuga Kaotatud, määratakse olekuks Suletud ja olekuks oleku põhjuseks Kaotatud. Hinnapakkumise sulgemine teeb projekti hinnapakkumise kirjutuskaitstuks. Kuna suletud hinnapakkumist ei saa uuesti avada, siis palutakse hinnapakkumise sulgemisel muudatused kinnitada.
 

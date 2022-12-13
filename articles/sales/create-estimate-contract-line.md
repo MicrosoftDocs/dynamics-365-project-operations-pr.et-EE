@@ -1,19 +1,19 @@
 ---
-title: Projekti lepingurea prognoos
+title: Projektipõhise lepingurea prognoosimine
 description: See artikkel annab teavet projekti lepingurea prognooside kohta.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 553f7e4a9e9f57732267a48da2b299c1751b0c0e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 633ad3130a28d75ad10b81e03a883e0a732b1ba8
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932015"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825190"
 ---
-# <a name="estimate-a-project-contract-line"></a>Projekti lepingurea prognoos
+# <a name="estimate-a-project-based-contract-line"></a>Projektipõhise lepingurea prognoosimine
 
 _**Kehtib:** ressursipõhiste/mitteladustatavate stsenaariumite jaoks_ 
 
