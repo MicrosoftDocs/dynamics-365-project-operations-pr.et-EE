@@ -60,12 +60,16 @@
               href: environment/resource-dual-write-vendor-invoice.md
         - name: Rakenduse Dynamics 365 Project Operations desinstallimine
           href: environment/uninstall-project-operations.md
-    - name: Mis on uut
+    - name: Mis on uut?
       items:
-        - name: September 2022 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
-          href: whats-new/whats-new-sept-2022-resource-based.md
+        - name: November 2022 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
+          href: whats-new/whats-new-nov-2022-resource-based.md
         - name: Arhiiv
           items:
+            - name: Oktoober 2022 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
+              href: whats-new/whats-new-oct-2022-resource-based.md
+            - name: September 2022 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
+              href: whats-new/whats-new-sept-2022-resource-based.md
             - name: August 2022 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
               href: whats-new/whats-new-aug-2022-resource-based.md
             - name: Juuli 2022 – Project Operations ressursipõhiste/mittelaopõhiste stsenaariumite jaoks
@@ -122,23 +126,23 @@
               href: sales/sales-currency.md
             - name: Organisatsiooniüksused
               href: sales/OrgUnits.md
-        - name: Projekti müügivihjete haldamine
+        - name: Projektipõhiste müügivihjete haldamine
           href: sales/manage-leads.md
-        - name: Projekti müügivõimaluste haldamine
+        - name: Projektipõhiste müügivõimaluste haldamine
           items:
             - name: Projekti müügivõimaluste ülevaate haldamine
               href: sales/manage-project-based-opportunities.md
             - name: Projektipõhiste müügivõimaluste päise üksikasjad
               href: sales/opportunity-header.md
-            - name: Projektipõhise müügivõimaluse read
+            - name: Projektipõhiste müügivõimaluste read
               href: sales/project-based-lines.md
-            - name: Projekti hinnapakkumiste loomine müügivõimalustest
+            - name: Projekti müügivõimalustest hinnapakkumiste loomine
               href: sales/link-quotes-opportunities.md
-            - name: Projektipõhiste müügivõimaluste kopeerimine
+            - name: Projekti müügivõimaluste kopeerimine
               href: sales/copy-project-based-opportunity.md
             - name: Projekti müügivõimaluse sulgemine
               href: sales/close-opportunity.md
-        - name: Projekti hinnapakkumiste haldamine
+        - name: Projektipõhiste hinnapakkumiste haldamine
           items:
             - name: Projekti hinnapakkumiste ülevaate haldamine
               href: pro/sales/manage-quotes-sales.md
@@ -146,61 +150,59 @@
               href: sales/quotes-key-concepts.md
             - name: Projektipõhiste hinnapakkumiste päise üksikasjad
               href: sales/quote-values-budget-limits-contract.md
-            - name: Mitme kliendi haldamine projekti hinnapakkumises
+            - name: Mitme kliendi haldamine projektipõhises hinnapakkumises
               href: sales/manage-multiple-customers-quote.md
-            - name: Projekti hinnakirja haldamine hinnapakkumises
+            - name: Projekti hinnakirjad projekti hinnapakkumistes
               href: pro/sales/manage-project-price-lists-sales.md
             - name: Projektipõhised hinnapakkumise read
               items:
-                - name: Projektipõhiste hinnapakkumise ridade ülevaade
+                - name: Projekti hinnapakkumise ridade ülevaade
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: Mitme kliendi projektipõhiste hinnapakkumiste ridade haldamine
+                - name: Mitme kliendi haldamine projektipõhistel hinnapakkumiste ridadel
                   href: sales/manage-multiple-customers-quote-line.md
-                - name: Projektide ja ülesannete vastendamine projektipõhise hinnapakkumise ridadega
+                - name: Projektide ja ülesannete vastendamine projekti hinnapakkumise ridadega
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Projektipõhiste hinnapakkumise ridade arveldatavate komponentide konfigureerimine
+                - name: Projekti hinnapakkumise ridade arveldatavate komponentide konfigureerimine
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Projekti hinnapakkumise rea arveldatavate komponentide konfigureerimine
-                  href: sales/configure-chargeable-quoteline.md
                 - name: Projekti hinnapakkumise rea prognoosimine
-                  href: sales/create-estimate-quote-line.md
-                - name: Projektist prognooside importimine projektipõhise hinnapakkumise reale
-                  href: sales/import-estimate-quote-line.md
-                - name: Projektipõhise hinnapakkumise ridade arve ajakavad
+                  href: pro/sales/create-estimate-quote-line-sales.md
+                - name: Prognooside importimine projekti hinnapakkumise reale
+                  href: pro/sales/import-estimate-project-quote-sales.md
+                - name: Projekti hinnapakkumise ridade arve ajakavad
                   href: sales/invoice-schedule-quote-line.md
             - name: Projekti hinnapakkumiste kopeerimine
               href: sales/lose-quote.md
             - name: Projekti hinnapakkumise aktiveerimine ja kontrollimine
               href: sales/activation-and-revision.md
-            - name: Projekti hinnapakkumiste sulgemine
+            - name: Projektipõhiste hinnapakkumiste sulgemine
               href: sales/win-quote.md
-        - name: Projekti lepingute haldamine
+        - name: Projektipõhiste lepingute haldamine
           items:
-            - name: Projekti lepingute ülevaate haldamine
+            - name: Projekti lepingute haldamine
               href: pro/sales/manage-contracts-sales.md
             - name: Projektipõhiste lepingute kordumatud mõisted
               href: sales/contracts-key-concepts.md
             - name: Projektipõhiste lepingute päise üksikasjad
               href: sales/project-contract-settings.md
-            - name: Projektilepingute projekti hinnakirja haldamine
+            - name: Projektipõhiste lepingute projekti hinnakirja haldamine
               href: sales/contracts-manage-project-price-lists.md
-            - name: Mitme kliendi haldamine projekti lepingutes
+            - name: Mitme kliendi haldamine projektipõhistes lepingutes
               href: sales/manage-multiple-customers-contract.md
             - name: Projektipõhised lepinguread
               items:
-                - name: Projektipõhiste lepinguridade ülevaade
+                - name: Projekti lepinguridade ülevaade
                   href: pro/sales/manage-contract-values-project-based-sales.md
-                - name: Mitme kliendi projektipõhiste lepinguridade haldamine
+                - name: Mitme kliendi haldamine projektipõhistel lepinguridadel
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: Projektide ja ülesannete vastendamine projekti lepingureal
+                - name: Projektide ja ülesannete vastendamine projekti lepingureaga
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
                 - name: Projekti lepingurea arveldatavate komponentide konfigureerimine
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Projekti lepingurea prognoos
+                - name: Projektipõhise lepingurea prognoosimine
                   href: sales/create-estimate-contract-line.md
-                - name: Projektist prognooside importimine projektipõhisele lepingureale
-                  href: sales/import-estimate-project-contract-line.md
-                - name: Arve ajakavade loomine projektipõhistel lepinguridadel
+                - name: Prognooside importimine projektist projekti lepingureale
+                  href: pro/sales/import-estimate-project-contract-line-sales.md
+                - name: Arve ajakavade loomine projektipõhisel lepingureal
                   href: sales/invoice-schedules-contract-line.md
             - name: Projektipõhiste lepingute kopeerimine
               href: sales/copy-project-based-contracts-sales.md
@@ -208,11 +210,11 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Ettemaksud ja honorarid
               items:
-                - name: Ettemaksud või honoraril põhinevad lepingud
+                - name: Ettemaksudel ja honoraril põhinevad projektilepingud
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
                 - name: Honorari ajakava seadistamine
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Sihtpärase ettemaksu loomine lepingus
+                - name: Sihtpärase ettemaksu loomine projektilepingus
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Hinnakujundus ja kuluarvutus
       items:
@@ -640,8 +642,10 @@
       items:
         - name: Täielikult arveldatud arvelduse etappide migreerimine üleminekul
           href: advanced-configuration/migrating-invoiced-milestones.md
-        - name: Projekti oleku sünkroonimine suletud projektidega seotud kirje vältimiseks
+        - name: Projekti oleku sünkroonimine suletud projektidesse sisestamise kirje vältimiseks
           href: advanced-configuration/sync-project-status.md
+        - name: Valuutateisenduse seadistamine müügihinna arvutamiseks kulumääradest
+          href: advanced-configuration/currencyconversion.md
     - name: Versioonitäiendus
       items:
         - name: Modernsete kinnituste kaalutlused versioonitäiendusel
@@ -664,18 +668,22 @@
           href: pro/project-operations-overview-lite.md
         - name: Eelversiooni kordustellimuseks registreerumine – liht
           href: environment/lite-preview-subscription-sign-up.md
-        - name: Project Operationsi juurutamine – liht
+        - name: Project Operationsi lihtversiooni juurutamine
           href: environment/lite-deployment.md
-        - name: Demoversiooni häälestamise ja konfiguratsiooniandmete rakendamine – lihtversioon
+        - name: Demoversiooni seadistuse ja konfiguratsiooniandmete rakendamine – lihtversioon
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Turbemudel
           href: environment/security-model.md
-    - name: Mis on uut
+    - name: Mis on uut?
       items:
-        - name: Mis on uut septembris 2022 – lihtjuurutamine
-          href: pro/whats-new/whats-new-sept-2022-lite.md
+        - name: Mis on uut novembris 2022 – lihtjuurutamine
+          href: pro/whats-new/whats-new-nov-2022-lite.md
         - name: Arhiiv
           items:
+            - name: Mis on uut oktoobris 2022 – lihtjuurutamine
+              href: pro/whats-new/whats-new-oct-2022-lite.md
+            - name: Mis on uut septembris 2022 – lihtjuurutamine
+              href: pro/whats-new/whats-new-sept-2022-lite.md
             - name: Mis on uut augustis 2022 – lihtjuurutamine
               href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: Mis on uut juulis 2022 – lihtjuurutamine
@@ -748,19 +756,19 @@
               href: pro/sales/project-based-lines-sales.md
             - name: Projekti müügivõimalustest hinnapakkumiste loomine
               href: sales/link-quotes-opportunities.md
-            - name: Projektipõhiste müügivõimaluste kopeerimine
+            - name: Projekti müügivõimaluste kopeerimine
               href: sales/copy-project-based-opportunity.md
             - name: Projekti müügivõimaluse sulgemine
               href: sales/close-opportunity.md
-        - name: Projektipõhiste hinnapakkumiste haldamine
+        - name: Projekti hinnapakkumiste haldamine
           items:
-            - name: Projektipõhiste hinnapakkumiste ülevaade
+            - name: Projekti hinnapakkumiste ülevaade
               href: pro/sales/manage-quotes-sales.md
             - name: Projekti hinnapakkumiste kordumatud mõisted
               href: pro/sales/quotes-key-concepts-sales.md
             - name: Projekti hinnapakkumiste päise üksikasjad
               href: pro/sales/quote-values-budget-limits-contract-sales.md
-            - name: Mitu klienti projekti hinnapakkumises
+            - name: Mitme kliendi haldamine projekti hinnapakkumistes
               href: pro/sales/manage-multiple-customers-quote-sales.md
             - name: Projekti hinnakirjad projekti hinnapakkumistes
               href: pro/sales/manage-project-price-lists-sales.md
@@ -772,37 +780,37 @@
                   href: pro/sales/costing-product-based-quote-lines-sales.md
                 - name: Kompleksühikute haldamine tootepõhiste hinnapakkumiste ridade jaoks
                   href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
-            - name: Projektipõhised hinnapakkumise read
+            - name: Projekti hinnapakkumise read
               items:
-                - name: Projektipõhiste hinnapakkumiste ridade ülevaade
+                - name: Projekti hinnapakkumise ridade ülevaade
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: Mitme kliendi haldamine
+                - name: Mitme kliendi projekti hinnapakkumiste ridade haldamine
                   href: pro/sales/manage-multiple-customers-quote-line-sales.md
-                - name: Projektide ja ülesannete vastendamine
+                - name: Projektide ja ülesannete vastendamine projekti hinnapakkumise ridadega
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Arveldatavate komponentide konfigureerimine
+                - name: Projekti hinnapakkumise ridade arveldatavate komponentide konfigureerimine
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Projektipõhised hinnapakkumise rea prognoosimine
+                - name: Projekti hinnapakkumise rea prognoosimine
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: Prognoosi importimine projektist
+                - name: Prognooside importimine projekti hinnapakkumise reale
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: Arve ajakava haldamine
+                - name: Projekti hinnapakkumise ridade arve ajakavad
                   href: sales/invoice-schedule-quote-line.md
-            - name: Projektipõhiste hinnapakkumiste kopeerimine
+            - name: Projekti hinnapakkumiste kopeerimine
               href: sales/lose-quote.md
             - name: Projekti hinnapakkumise aktiveerimine ja kontrollimine
               href: sales/activation-and-revision.md
-            - name: Projektipõhiste hinnapakkumiste sulgemine
+            - name: Projekti hinnapakkumiste sulgemine
               href: pro/sales/win-quote-sales.md
-        - name: Projektipõhiste lepingute haldamine
+        - name: Projekti lepingute haldamine
           items:
-            - name: Projektipõhiste lepingute ülevaade
+            - name: Projekti lepingute ülevaade
               href: pro/sales/manage-contracts-sales.md
             - name: Projekti lepingute kordumatud mõisted
               href: pro/sales/contracts-key-concepts-sales.md
-            - name: Projektilepingute päise üksikasjad
+            - name: Projekti lepingute päise üksikasjad
               href: pro/sales/project-contract-settings-sales.md
-            - name: Mitu klienti projektilepingutes
+            - name: Mitme kliendi haldamine projekti lepingutes
               href: pro/sales/manage-multiple-customers-contract-sales.md
             - name: Projekti hinnakirjad projektilepingutes
               href: sales/contracts-manage-project-price-lists.md
@@ -814,21 +822,21 @@
                   href: pro/sales/cost-product-based-contract-lines-sales.md
                 - name: Kompleksühikute haldamine tootepõhiste lepinguridade jaoks
                   href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
-            - name: Projektipõhised lepinguread
+            - name: Projekti lepinguread
               items:
-                - name: Projektipõhiste lepinguridade ülevaade
+                - name: Projekti lepinguridade ülevaade
                   href: pro/sales/manage-contract-values-project-based-sales.md
-                - name: Mitme lepinguga klientide haldamine
+                - name: Mitme kliendi haldamine projekti lepingutes
                   href: pro/sales/manage-multiple-customers-contract-line-sales.md
                 - name: Projektide ja ülesannete vastendamine projekti lepingureaga
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
                 - name: Projekti lepingurea arveldatavate komponentide konfigureerimine
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Projektipõhise lepingurea prognoosimine
+                - name: Projekti lepingurea prognoos
                   href: pro/sales/create-estimate-project-contract-line-sales.md
-                - name: Prognooside importimine projektist selle lepingureale
+                - name: Prognooside importimine projektist projekti lepingureale
                   href: pro/sales/import-estimate-project-contract-line-sales.md
-                - name: Arve ajakavade haldamine projekti lepingureal
+                - name: Arve ajakavade loomine projekti lepingureal
                   href: pro/sales/invoice-schedules-contract-line-sales.md
             - name: Projektilepingute kopeerimine
               href: pro/sales/copy-project-contracts-sales.md
@@ -836,11 +844,11 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Ettemaksud ja honorarid
               items:
-                - name: Ettemaksud ja honoraril põhinevad lepingud – liht
+                - name: Ettemaksud või honoraril põhinevad lepingud
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Honoraride ajakava seadistamine – liht
+                - name: Honorari ajakava seadistamineHonorari ajakava seadistamine
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Sihtpärase ettemaksu loomine lepingus – liht
+                - name: Sihtpärase ettemaksu loomine projektilepingus
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Hinnakujundus ja kuluarvutus
       items:
@@ -1186,12 +1194,14 @@
           items:
             - name: Project Operationsi värskendamine Finance’i keskkonnas
               href: whats-new/ur5-nonstocked-installation.md
-    - name: Mis on uut
+    - name: Mis on uut?
       items:
-        - name: Mis on uut septembris 2022 – Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
-          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
+        - name: Mis on uut oktoobris 2022 – Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
+          href: prod-pma/whats-new/whats-new-oct-2022-stocked.md
         - name: Arhiiv
           items:
+            - name: Mis on uut septembris 2022 – Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
+              href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
             - name: Mis on uut juulis 2022 – Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
               href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: Mis on uut juunis 2022 – Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks
@@ -1216,8 +1226,12 @@
               href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Rakenduse Project Operations ressursi-/tootmispõhiste stsenaariumite jaoks juurutamise ülevaade
       href: prod-pma/project-operations-prod-order-deployment-overview.md
-    - name: Projekti haldamise ja raamatupidamise ülevaade
-      href: prod-pma/overview-project-management-accounting.md
+    - name: Projekti raamatupidamine
+      items:
+        - name: Projekti haldamise ja raamatupidamise ülevaade
+          href: prod-pma/overview-project-management-accounting.md
+        - name: Projekti korrigeerimised
+          href: project-accounting/project-adjustments.md
     - name: Projektimüügi toimingud
       items:
         - name: Projekti hinnapakkumised
