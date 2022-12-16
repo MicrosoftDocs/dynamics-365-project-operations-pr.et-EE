@@ -846,7 +846,7 @@
               items:
                 - name: Ettemaksud või honoraril põhinevad lepingud
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Honorari ajakava seadistamineHonorari ajakava seadistamine
+                - name: Honorari ajakava seadistamine
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: Sihtpärase ettemaksu loomine projektilepingus
                   href: pro/sales/create-ad-hoc-advance-sales.md
